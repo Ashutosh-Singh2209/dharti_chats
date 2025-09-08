@@ -1,0 +1,536 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Any disease <user uploaded image for analysis at 'grapesblue/2025-06-06-1749232674224.jpg'>",
+        "en": "Any disease <user uploaded image for analysis at 'grapesblue/2025-06-06-1749232674224.jpg'>",
+        "timestamp": {
+          "$date": "2025-06-06T17:58:32.891Z"
+        },
+        "standalone_question": "What disease is present in the uploaded image?",
+        "standalone_en": "What disease is present in the uploaded image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the uploaded image indicates that the grapevines appear healthy with vibrant green leaves. However, the image quality is slightly unclear, making it challenging to identify any potential diseases or pests accurately.\n\nFor a more effective analysis, please provide a clearer image that focuses on specific areas of the vines, especially any leaves or stems that may show signs of distress, such as discoloration, spots, or unusual growth patterns. A closer and more focused shot will help in identifying any issues more effectively.",
+        "en": "The analysis of the uploaded image indicates that the grapevines appear healthy with vibrant green leaves. However, the image quality is slightly unclear, making it challenging to identify any potential diseases or pests accurately.\n\nFor a more effective analysis, please provide a clearer image that focuses on specific areas of the vines, especially any leaves or stems that may show signs of distress, such as discoloration, spots, or unusual growth patterns. A closer and more focused shot will help in identifying any issues more effectively.",
+        "timestamp": {
+          "$date": "2025-06-06T17:58:46.046Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Any disease <user uploaded image for analysis at 'grapesblue/2025-06-06-1749232858790.jpg'>",
+        "en": "Any disease <user uploaded image for analysis at 'grapesblue/2025-06-06-1749232858790.jpg'>",
+        "timestamp": {
+          "$date": "2025-06-06T18:01:13.547Z"
+        },
+        "standalone_question": "Is there any disease present in the newly uploaded image of the grapevines?",
+        "standalone_en": "Is there any disease present in the newly uploaded image of the grapevines?",
+        "retrieval": {
+          "tools": [
+            "analyse_crop_image  \nGets the analysis of the uploaded crop image for any diseases or pests."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the uploaded image shows that the grapevines appear healthy, with well-developing clusters of grapes and no visible signs of disease or pest damage. \n\nTo maintain optimal health, consider the following tips:\n1. **Regular Monitoring**: Keep an eye on the leaves and grapes for any discoloration, spots, or unusual growth patterns.\n2. **Watering and Nutrition**: Ensure the plants are receiving adequate water and nutrients.\n3. **Pest Control**: Be vigilant for pests that may not be immediately visible.\n\nIf you notice any specific symptoms in the future, please provide a clearer image focusing on those areas for a more detailed analysis.",
+        "en": "The analysis of the uploaded image shows that the grapevines appear healthy, with well-developing clusters of grapes and no visible signs of disease or pest damage. \n\nTo maintain optimal health, consider the following tips:\n1. **Regular Monitoring**: Keep an eye on the leaves and grapes for any discoloration, spots, or unusual growth patterns.\n2. **Watering and Nutrition**: Ensure the plants are receiving adequate water and nutrients.\n3. **Pest Control**: Be vigilant for pests that may not be immediately visible.\n\nIf you notice any specific symptoms in the future, please provide a clearer image focusing on those areas for a more detailed analysis.",
+        "timestamp": {
+          "$date": "2025-06-06T18:01:28.473Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Any disease <user uploaded image for analysis at 'grapesblue/2025-06-06-1749233125270.jpg'>",
+        "en": "Any disease <user uploaded image for analysis at 'grapesblue/2025-06-06-1749233125270.jpg'>",
+        "timestamp": {
+          "$date": "2025-06-06T18:05:38.562Z"
+        },
+        "standalone_question": "Is there any disease present in the grapevines shown in the uploaded image?",
+        "standalone_en": "Is there any disease present in the grapevines shown in the uploaded image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the uploaded image indicates that there are no specific disease symptoms detected at this stage. However, here are some general recommendations to maintain the health of your grapevines:\n\n1. **Inspect for Pests**: Check the undersides of the leaves and surrounding areas for any visible pests.\n2. **Fungal Treatment**: If you suspect a fungal infection, consider using a broad-spectrum fungicide.\n3. **Cultural Practices**: Ensure proper spacing between plants for air circulation and avoid overhead watering to reduce humidity around the leaves.\n\nFor a more accurate diagnosis, please provide a clearer image focusing on any specific areas of concern, such as spots or pests.",
+        "en": "The analysis of the uploaded image indicates that there are no specific disease symptoms detected at this stage. However, here are some general recommendations to maintain the health of your grapevines:\n\n1. **Inspect for Pests**: Check the undersides of the leaves and surrounding areas for any visible pests.\n2. **Fungal Treatment**: If you suspect a fungal infection, consider using a broad-spectrum fungicide.\n3. **Cultural Practices**: Ensure proper spacing between plants for air circulation and avoid overhead watering to reduce humidity around the leaves.\n\nFor a more accurate diagnosis, please provide a clearer image focusing on any specific areas of concern, such as spots or pests.",
+        "timestamp": {
+          "$date": "2025-06-06T18:06:02.653Z"
+        }
+      }
+    ],
+    "farmer_id": "karthikmp",
+    "farmer_plot_ids": [
+      "grapesblue"
+    ],
+    "conversation_id": "68432c470b4f706b9c6979dd",
+    "_id": "68432c470b4f706b9c6979dd",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-06-06T18:10:38.566000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-06-06T17:58:32.891000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Aaj Kai fertigation karaycha aahe",
+        "en": "K Fertigation wants to be done today",
+        "timestamp": {
+          "$date": "2025-06-06T10:33:08.214Z"
+        },
+        "standalone_question": "What fertigation should be done today?",
+        "standalone_en": "What fertigation should be done today?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\".",
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available.",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: Where can I find the fertigation schedule in the Fyllo app?\nA: To access the fertigation schedule:\n    1. Open the Fyllo app\n    2. Select \"My Farm\" at the bottom\n    3. Tap on the \"Fertigation\" option\n   You'll find the fertigation schedule there, including details about the required fertilizer applications."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aaj tumcha \"nimbale\" plot var \"Fruit development\" stage madhe 2nd week aahe. Aaj tumhala khali dila gela aahe:\n\n### Fertigation Schedule for Today (2025-06-06):\n- **Fertilizers to Apply:**\n  - **Calcium Nitrate:** 3 kg/plant\n    - *Note:* Calcium nitrate should be applied separately, 15-20 minutes after application of other fertilizers.\n  - **White Muriate of Potash:** 6 kg/plant\n\nYaa fertigation cha upayog karun tumhi tumcha banana cha vikas sathi yogya poshak padarth dila aahe.",
+        "en": "Aaj tumcha \"nimbale\" plot var \"Fruit development\" stage madhe 2nd week aahe. Aaj tumhala khali dila gela aahe:\n\n### Fertigation Schedule for Today (2025-06-06):\n- **Fertilizers to Apply:**\n  - **Calcium Nitrate:** 3 kg/plant\n    - *Note:* Calcium nitrate should be applied separately, 15-20 minutes after application of other fertilizers.\n  - **White Muriate of Potash:** 6 kg/plant\n\nYaa fertigation cha upayog karun tumhi tumcha banana cha vikas sathi yogya poshak padarth dila aahe.",
+        "timestamp": {
+          "$date": "2025-06-06T10:33:14.203Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Calcium nitrate 3kg/plant??",
+        "en": "Calcium nitrate 3kg/plant??",
+        "timestamp": {
+          "$date": "2025-06-06T10:34:29.304Z"
+        },
+        "standalone_question": "Is it correct to apply 3 kg of calcium nitrate per plant?",
+        "standalone_en": "Is it correct to apply 3 kg of calcium nitrate per plant?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Mala maaf kara, Calcium Nitrate cha maatra 3 kg/plant nahiye. Aaplyala \"nimbale\" plot sathi aaj cha fertigation schedule madhe Calcium Nitrate cha yogya maatra 1 kg/plant aahe. \n\n### Aaj cha Fertigation Schedule:\n- **Calcium Nitrate:** 1 kg/plant\n- **White Muriate of Potash:** 6 kg/plant\n\nYaa maatrana pramane tumhi fertigation karu shakta.",
+        "en": "I'm sorry, the amount of calcium nitrate is not 3 kg/plant. The correct amount of calcium nitrate is 1 kg/plant in today's fertigation schedule for the \"nimble\" plot. \n\n### Today's Fertigation Schedule:\n- **Calcium nitrate:** 1 kg/plant\n- **White Murriate of Potash:** 6 kg/plant\n\nYou can do fertigation according to this quantity.",
+        "timestamp": {
+          "$date": "2025-06-06T10:34:34.152Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "1000kg for 1000 plant",
+        "en": "1000kg for 1000 plant",
+        "timestamp": {
+          "$date": "2025-06-06T10:35:37.576Z"
+        },
+        "standalone_question": "Is the correct amount of Calcium Nitrate 1000 kg for 1000 plants?",
+        "standalone_en": "Is the correct amount of Calcium Nitrate 1000 kg for 1000 plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Ho, tumhi 1000 kg Calcium Nitrate cha upayog 1000 plants sathi karu shakta. Yaa pramane, tumhala pratyek plant sathi 1 kg Calcium Nitrate lagel. \n\n### Fertigation Schedule:\n- **Calcium Nitrate:** 1000 kg for 1000 plants (1 kg/plant)\n- **White Muriate of Potash:** 6 kg/plant (total 6000 kg for 1000 plants)\n\nYaa maatrana pramane tumhi fertigation karu shakta.",
+        "en": "Yes, you can use 1000 kg of calcium nitrate for 1000 plants. As such, you'll need 1 kg of calcium nitrate for each plant. \n\n### Fertigation Schedule:\n- **Calcium nitrate:** 1000 kg for 1000 plants (1 kg/plant)\n- **White Murriate of Potash:** 6 kg/plant (total 6000 kg for 1000 plants)\n\nYou can do fertigation according to this quantity.",
+        "timestamp": {
+          "$date": "2025-06-06T10:35:42.301Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Calcium nitrate 1 kg for 1000 plants",
+        "en": "Calcium nitrate 1 kg for 1000 plants",
+        "timestamp": {
+          "$date": "2025-06-06T10:38:24.800Z"
+        },
+        "standalone_question": "Is 1 kg of Calcium Nitrate sufficient for 1000 plants?",
+        "standalone_en": "Is 1 kg of Calcium Nitrate sufficient for 1000 plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Mala maaf kara, Calcium Nitrate cha maatra 1 kg/plant aahe, jya mule 1000 plants sathi tumhala 1000 kg Calcium Nitrate lagel. \n\n### Fertigation Schedule:\n- **Calcium Nitrate:** 1000 kg for 1000 plants (1 kg/plant)\n- **White Muriate of Potash:** 6 kg/plant (total 6000 kg for 1000 plants)\n\nYaa maatrana pramane tumhi fertigation karu shakta.",
+        "en": "Mala maaf kara, Calcium Nitrate cha maatra 1 kg/plant aahe, jya mule 1000 plants sathi tumhala 1000 kg Calcium Nitrate lagel. \n\n### Fertigation Schedule:\n- **Calcium Nitrate:** 1000 kg for 1000 plants (1 kg/plant)\n- **White Muriate of Potash:** 6 kg/plant (total 6000 kg for 1000 plants)\n\nYaa maatrana pramane tumhi fertigation karu shakta.",
+        "timestamp": {
+          "$date": "2025-06-06T10:38:30.727Z"
+        }
+      }
+    ],
+    "farmer_id": "dhanrajsureshpatil",
+    "farmer_plot_ids": [
+      "nimbale",
+      "numberfarm01"
+    ],
+    "conversation_id": "6842c3e30b4f706b9c6979da",
+    "_id": "6842c3e30b4f706b9c6979da",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-06-06T10:43:24.803000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-06-06T10:33:08.214000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पाऊस केव्हा येणार आहे",
+        "en": "When is the rain coming?",
+        "timestamp": {
+          "$date": "2025-06-06T08:43:25.389Z"
+        },
+        "standalone_question": "When will it rain?",
+        "standalone_en": "When will it rain?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "paus kevha yenar aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "पाऊस येण्याची शक्यता पुढील काही दिवसांमध्ये आहे:\n\n- **7 जून 2025**: 4.2 मिमी पाऊस, 30% शक्यता\n- **9 जून 2025**: 18.2 मिमी पाऊस, 20% शक्यता\n- **11 जून 2025**: 7.2 मिमी पाऊस, 15% शक्यता\n- **13 जून 2025**: 4.6 मिमी पाऊस, 40% शक्यता\n- **14 जून 2025**: 9.4 मिमी पाऊस, 60% शक्यता\n- **15 जून 2025**: 1.4 मिमी पाऊस, 75% शक्यता\n- **16 जून 2025**: 1.6 मिमी पाऊस, 90% शक्यता\n\nतुम्ही या तारखांना पावसाची अपेक्षा करू शकता.",
+        "en": "Rain is expected over the next few days:\n\n- **7 June 2025**: 4.2 mm rainfall, 30% chance\n- **9 June 2025**: 18.2 mm rainfall, 20% chance\n- **11 June 2025**: 7.2 mm rainfall, 15% chance\n- **13 June 2025**: 4.6 mm rainfall, 40% chance\n- **14 June 2025**: 9.4 mm rainfall, 60% chance\n- **15 June 2025**: 1.4 mm rainfall, 75% chance\n- **16 June 2025**: 1.6 mm rainfall, 90% chance\n\nYou can expect rain on these dates.",
+        "timestamp": {
+          "$date": "2025-06-06T08:43:32.638Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "करपा  व. येथल्या रोग वातावरण आहे का",
+        "en": "Karpa V. Is there a disease environment here?",
+        "timestamp": {
+          "$date": "2025-06-06T08:45:29.111Z"
+        },
+        "standalone_question": "Is there a disease outbreak in the area?",
+        "standalone_en": "Is there a disease outbreak in the area?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "karpa v. yethalya rog vatavaran aahe ka"
+      },
+      {
+        "role": "assistant",
+        "content": "सध्या \"Dalimb plot\" वर कोणत्याही रोग किंवा कीटकांच्या स्प्रेची शेड्यूल नाही. त्यामुळे, तुम्हाला सध्या स्प्रे करण्याची आवश्यकता नाही.",
+        "en": "Currently there is no schedule for any diseases or insect sprays on the \"Dalimb plot\". Therefore, you don't need to spray at present.",
+        "timestamp": {
+          "$date": "2025-06-06T08:45:35.991Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "साईज वाढण्यासाठी काय द्यावे",
+        "en": "What to give to increase size",
+        "timestamp": {
+          "$date": "2025-06-06T08:46:41.598Z"
+        },
+        "standalone_question": "What should be given to promote size growth?",
+        "standalone_en": "What should be given to promote size growth?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "size vadhanyasathi kay dyave"
+      },
+      {
+        "role": "assistant",
+        "content": "साईज वाढवण्यासाठी तुम्हाला खालील गोष्टींचा विचार करावा लागेल:\n\n1. **सेंद्रिय खत**: सेंद्रिय खतांचा वापर करा, जसे की गोबर खत किंवा कंपोस्ट, जे मातीची गुणवत्ता सुधारते.\n\n2. **नायट्रोजन समृद्ध खत**: नायट्रोजन समृद्ध खतांचा वापर करा, जसे की युरिया, जे पानांच्या वाढीसाठी उपयुक्त आहे.\n\n3. **पोटॅशियम**: पोटॅशियम समृद्ध खतांचा वापर करा, जे फळांच्या आकारात सुधारणा करतो.\n\n4. **पाण्याचे व्यवस्थापन**: योग्य पाण्याचे व्यवस्थापन करा, जेणेकरून पाण्याची कमतरता किंवा अधिकता होणार नाही.\n\n5. **फर्टिगेशन**: पाण्यात खत मिसळून फर्टिगेशन पद्धतीचा वापर करा, ज्यामुळे झाडांना आवश्यक पोषक तत्वे मिळतील.\n\n6. **सुरक्षा उपाय**: रोग आणि कीटकांपासून संरक्षणासाठी योग्य कीटकनाशकांचा वापर करा.\n\nतुमच्या पाण्याच्या आणि खतांच्या व्यवस्थापनावर लक्ष केंद्रित केल्यास, तुम्ही साईज वाढवू शकता.",
+        "en": "To increase the size, you may need to consider the following:\n\n1. **Organic Fertilizer**: Use organic fertilizers, such as cow dung manure or compost, which improves the quality of the soil.\n\n2. **Nitrogen-rich fertilizer**: Use nitrogen-rich fertilizers, such as urea, which is useful for leaf growth.\n\n3. **Potassium**: Use potassium-rich fertilizers, which improve fruit shape.\n\n4. **Water management**: Manage proper water, so that there is no shortage or excess of water.\n\n5. **Fertigation**: Use fertilization method by mixing fertilizer with water, which will give the plants the nutrients they need.\n\n6. **Safety measures**: Use appropriate pesticides to protect against disease and pests.\n\nBy focusing on managing your water and fertilizers, you can increase the size.",
+        "timestamp": {
+          "$date": "2025-06-06T08:46:47.693Z"
+        }
+      }
+    ],
+    "farmer_id": "nanasahebbhaskarsirsat",
+    "farmer_plot_ids": [
+      "dalimbplot122"
+    ],
+    "conversation_id": "6842aa2cf533bc7e3a139c8a",
+    "_id": "6842aa2cf533bc7e3a139c8a",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-06-06T08:51:41.600000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-06-06T08:43:25.389000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पाऊस केव्हा येणार आहे",
+        "en": "When is the rain coming?",
+        "timestamp": {
+          "$date": "2025-06-06T08:43:25.389Z"
+        },
+        "standalone_question": "When will it rain?",
+        "standalone_en": "When will it rain?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "paus kevha yenar aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "पाऊस येण्याची शक्यता पुढील काही दिवसांमध्ये आहे:\n\n- **7 जून 2025**: 4.2 मिमी पाऊस, 30% शक्यता\n- **9 जून 2025**: 18.2 मिमी पाऊस, 20% शक्यता\n- **11 जून 2025**: 7.2 मिमी पाऊस, 15% शक्यता\n- **13 जून 2025**: 4.6 मिमी पाऊस, 40% शक्यता\n- **14 जून 2025**: 9.4 मिमी पाऊस, 60% शक्यता\n- **15 जून 2025**: 1.4 मिमी पाऊस, 75% शक्यता\n- **16 जून 2025**: 1.6 मिमी पाऊस, 90% शक्यता\n\nतुम्ही या तारखांना पावसाची अपेक्षा करू शकता.",
+        "en": "Rain is expected over the next few days:\n\n- **7 June 2025**: 4.2 mm rainfall, 30% chance\n- **9 June 2025**: 18.2 mm rainfall, 20% chance\n- **11 June 2025**: 7.2 mm rainfall, 15% chance\n- **13 June 2025**: 4.6 mm rainfall, 40% chance\n- **14 June 2025**: 9.4 mm rainfall, 60% chance\n- **15 June 2025**: 1.4 mm rainfall, 75% chance\n- **16 June 2025**: 1.6 mm rainfall, 90% chance\n\nYou can expect rain on these dates.",
+        "timestamp": {
+          "$date": "2025-06-06T08:43:32.638Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "करपा  व. येथल्या रोग वातावरण आहे का",
+        "en": "Karpa V. Is there a disease environment here?",
+        "timestamp": {
+          "$date": "2025-06-06T08:45:29.111Z"
+        },
+        "standalone_question": "Is there a disease outbreak in the area?",
+        "standalone_en": "Is there a disease outbreak in the area?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "karpa v. yethalya rog vatavaran aahe ka"
+      },
+      {
+        "role": "assistant",
+        "content": "सध्या \"Dalimb plot\" वर कोणत्याही रोग किंवा कीटकांच्या स्प्रेची शेड्यूल नाही. त्यामुळे, तुम्हाला सध्या स्प्रे करण्याची आवश्यकता नाही.",
+        "en": "Currently there is no schedule for any diseases or insect sprays on the \"Dalimb plot\". Therefore, you don't need to spray at present.",
+        "timestamp": {
+          "$date": "2025-06-06T08:45:35.991Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "साईज वाढण्यासाठी काय द्यावे",
+        "en": "What to give to increase size",
+        "timestamp": {
+          "$date": "2025-06-06T08:46:41.598Z"
+        },
+        "standalone_question": "What should be given to promote size growth?",
+        "standalone_en": "What should be given to promote size growth?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "size vadhanyasathi kay dyave"
+      },
+      {
+        "role": "assistant",
+        "content": "साईज वाढवण्यासाठी तुम्हाला खालील गोष्टींचा विचार करावा लागेल:\n\n1. **सेंद्रिय खत**: सेंद्रिय खतांचा वापर करा, जसे की गोबर खत किंवा कंपोस्ट, जे मातीची गुणवत्ता सुधारते.\n\n2. **नायट्रोजन समृद्ध खत**: नायट्रोजन समृद्ध खतांचा वापर करा, जसे की युरिया, जे पानांच्या वाढीसाठी उपयुक्त आहे.\n\n3. **पोटॅशियम**: पोटॅशियम समृद्ध खतांचा वापर करा, जे फळांच्या आकारात सुधारणा करतो.\n\n4. **पाण्याचे व्यवस्थापन**: योग्य पाण्याचे व्यवस्थापन करा, जेणेकरून पाण्याची कमतरता किंवा अधिकता होणार नाही.\n\n5. **फर्टिगेशन**: पाण्यात खत मिसळून फर्टिगेशन पद्धतीचा वापर करा, ज्यामुळे झाडांना आवश्यक पोषक तत्वे मिळतील.\n\n6. **सुरक्षा उपाय**: रोग आणि कीटकांपासून संरक्षणासाठी योग्य कीटकनाशकांचा वापर करा.\n\nतुमच्या पाण्याच्या आणि खतांच्या व्यवस्थापनावर लक्ष केंद्रित केल्यास, तुम्ही साईज वाढवू शकता.",
+        "en": "To increase the size, you may need to consider the following:\n\n1. **Organic Fertilizer**: Use organic fertilizers, such as cow dung manure or compost, which improves the quality of the soil.\n\n2. **Nitrogen-rich fertilizer**: Use nitrogen-rich fertilizers, such as urea, which is useful for leaf growth.\n\n3. **Potassium**: Use potassium-rich fertilizers, which improve fruit shape.\n\n4. **Water management**: Manage proper water, so that there is no shortage or excess of water.\n\n5. **Fertigation**: Use fertilization method by mixing fertilizer with water, which will give the plants the nutrients they need.\n\n6. **Safety measures**: Use appropriate pesticides to protect against disease and pests.\n\nBy focusing on managing your water and fertilizers, you can increase the size.",
+        "timestamp": {
+          "$date": "2025-06-06T08:46:47.693Z"
+        }
+      }
+    ],
+    "farmer_id": "nanasahebbhaskarsirsat",
+    "farmer_plot_ids": [
+      "dalimbplot122"
+    ],
+    "conversation_id": "6842aa2cf533bc7e3a139c8a",
+    "_id": "6842aa2cf533bc7e3a139c8a",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-06-06T08:51:41.600000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-06-06T08:43:25.389000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "गर्भधारणा झाली आहे का चांगली",
+        "en": "Is the pregnancy good or not?",
+        "timestamp": {
+          "$date": "2025-06-06T06:52:12.706Z"
+        },
+        "standalone_question": "Is the pregnancy going well?",
+        "standalone_en": "Is the pregnancy going well?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "garbhadharana jhali aahe ka changali"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"Plot no 1 Thompson\" मध्ये सध्या \"Subcane\" या अवस्थेत आहात, जी गर्भधारणेच्या प्रक्रियेसाठी योग्य आहे. या अवस्थेत तुमच्या द्राक्षांच्या पिकाची वाढ चांगली आहे. तुम्हाला अधिक माहिती हवी असल्यास, कृपया सांगा!",
+        "en": "Your \"Plot no 1 Thompson\" currently has a \"Subcane\" position, which is suitable for the pregnancy process. In this case, the growth of your vine growth is good. If you need more information, please let us know!",
+        "timestamp": {
+          "$date": "2025-06-06T06:52:15.797Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "गर्भधारणा चांगली झाली पाहिजे पत्ती चांगली राहिली पाहिजे",
+        "en": "Pregnancy should be good, the leaf should be good",
+        "timestamp": {
+          "$date": "2025-06-06T06:53:48.774Z"
+        },
+        "standalone_question": "Is it important for the leaves to remain healthy for a successful pregnancy?",
+        "standalone_en": "Is it important for the leaves to remain healthy for a successful pregnancy?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "garbhadharana changali jhali pahije patti changali rahili pahije"
+      },
+      {
+        "role": "assistant",
+        "content": "गर्भधारणेच्या प्रक्रियेत पानांची आरोग्य आणि गुणवत्ता महत्त्वाची आहे. पानांची चांगली स्थिती सुनिश्चित करण्यासाठी, तुम्ही खालील गोष्टींचा विचार करू शकता:\n\n1. **पोषण**: योग्य प्रमाणात खतांचा वापर करा. पानांच्या आरोग्यासाठी नायट्रोजन, फास्फोरस, आणि पोटॅशियम आवश्यक आहेत.\n\n2. **पाणी**: पाण्याची योग्य मात्रा सुनिश्चित करा. पाण्याची कमी किंवा जास्ती पानांच्या आरोग्यावर परिणाम करू शकते.\n\n3. **रोग आणि कीड नियंत्रण**: पानांवर रोग किंवा कीड असल्यास, त्यांचे नियंत्रण करणे आवश्यक आहे. नियमितपणे पानांची तपासणी करा.\n\n4. **सूर्यप्रकाश**: पिकांना पुरेसा सूर्यप्रकाश मिळावा याची खात्री करा.\n\nजर तुम्हाला पानांच्या आरोग्याबद्दल अधिक माहिती हवी असेल, तर कृपया सांगा!",
+        "en": "The health and quality of the leaves is important during the pregnancy process. To ensure good leaf condition, you may want to consider the following:\n\n1. **Nutrition**: Use the right amount of fertilizer. Nitrogen, phosphorus, and potassium are essential for leaf health.\n\n2. **Water**: Ensure the right amount of water. Too little or too much water can affect leaf health.\n\n3. **Disease and Pest Control**: If there are diseases or pests on the leaves, they need to be controlled. Check the leaves regularly.\n\n4. **Sunlight**: Make sure the crops get enough sunlight.\n\nIf you'd like more information about leaf health, please let me know!",
+        "timestamp": {
+          "$date": "2025-06-06T06:53:54.589Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "धन्यवाद",
+        "en": "thank you",
+        "timestamp": {
+          "$date": "2025-06-06T06:54:50.091Z"
+        },
+        "standalone_question": "Thank you.",
+        "standalone_en": "Thank you.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "dhanyavad"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमचे स्वागत आहे! तुम्हाला आणखी काही विचारायचे असल्यास, कृपया सांगा. तुमच्या पिकांच्या यशासाठी शुभेच्छा!",
+        "en": "Welcome! If you have anything else to ask, please let me know. Good luck with the success of your crops!",
+        "timestamp": {
+          "$date": "2025-06-06T06:54:53.743Z"
+        }
+      }
+    ],
+    "farmer_id": "devramgopalnathe",
+    "farmer_plot_ids": [
+      "plotno1thompson282"
+    ],
+    "conversation_id": "6842901b0b4f706b9c6979d7",
+    "_id": "6842901b0b4f706b9c6979d7",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-06-06T06:59:50.094000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-06-06T06:52:12.706000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Subcane च्या पुढे चार पाच पाने आहे तर मायक्रो न्यूट्रिएंट ची कोणती स्प्रे दिली पाहिजे",
+        "en": "If Subcane has four to five leaves, then what spray of micronutrient should be given",
+        "timestamp": {
+          "$date": "2025-06-06T04:34:05.575Z"
+        },
+        "standalone_question": "What type of micronutrient spray should be given if there are four to five leaves beyond the subcane?",
+        "standalone_en": "What type of micronutrient spray should be given if there are four to five leaves beyond the subcane?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "Subcane chya pudhe char paach paane aahe tar micro nutrient chi konti spray dili pahije"
+      },
+      {
+        "role": "assistant",
+        "content": "Subcane च्या तिसऱ्या आठवड्यात (सुरूवात 18 मे 2025) मायक्रो न्यूट्रिएंट स्प्रे करण्यासाठी तुम्ही खालील गोष्टी वापरू शकता:\n\n### Foliar Spray:\n- **Zinc Oxide**: 200 gm/acre\n- **संपूर्ण मिश्रण**: 5 kg in 500 liters of water (1% concentration)\n\n### Fertigation:\n- **Magnesium Sulphate**: 1.5 kg/acre\n- **Calcium Nitrate**: 4 kg/acre (याला इतर खतांच्या 15-20 मिनिटांनंतर लागू करणे आवश्यक आहे)\n\nहे सर्व उपाय तुमच्या पिकाच्या आरोग्यासाठी उपयुक्त ठरतील.",
+        "en": "In the third week of Subcane (starting May 18, 2025) you can use the following to spray Micro Nutrients:\n\n### Foliar Spray:\nZinc oxide: 200 gm/acre\n- **Whole mixture**: 5 kg in 500 liters of water (1% concentration)\n\n### Fertigation:\n- Magnesium Sulphate: 1.5 kg/acre\n- Calcium Nitrate: 4 kg/acre (needs to be applied after 15-20 minutes of other feeds)\n\nAll these remedies will be useful for your crop health.",
+        "timestamp": {
+          "$date": "2025-06-06T04:34:11.466Z"
+        }
+      }
+    ],
+    "farmer_id": "sachinnimbalkar",
+    "farmer_plot_ids": [
+      "plotno1crimsun"
+    ],
+    "conversation_id": "68426fbd0b4f706b9c6979d5",
+    "_id": "68426fbd0b4f706b9c6979d5",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-06-06T04:39:05.577000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-06-06T04:34:05.575000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "પ્રવૃત્તિ એડ થતી નથી ",
+        "en": "Activity is not added ",
+        "timestamp": {
+          "$date": "2025-06-06T02:31:05.477Z"
+        },
+        "standalone_question": "Why is the activity not being added?",
+        "standalone_en": "Why is the activity not being added?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pravritti ad thati nathi "
+      },
+      {
+        "role": "assistant",
+        "content": "કૃપા કરીને વધુ સ્પષ્ટતા કરો કે તમે કઈ પ્રવૃત્તિ વિશે વાત કરી રહ્યા છો. શું તમે ખેતીની પ્રવૃત્તિઓ, જળવાયુ, અથવા અન્ય કોઈ વિશિષ્ટ માહિતી વિશે પૂછવા માંગો છો?",
+        "en": "Please further clarify which activity you are talking about. Do you want to ask about agricultural activities, climate, or any other specific information?",
+        "timestamp": {
+          "$date": "2025-06-06T02:31:10.370Z"
+        }
+      }
+    ],
+    "farmer_id": "bipinparmar",
+    "farmer_plot_ids": [
+      "plot1208",
+      "rudrafarm"
+    ],
+    "conversation_id": "684252e8f533bc7e3a139c89",
+    "_id": "684252e8f533bc7e3a139c89",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-06-06T02:36:05.807000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-06-06T02:31:05.477000+00:00"
+  }
+]

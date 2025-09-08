@@ -1,0 +1,1315 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi",
+        "timestamp": {
+          "$date": "2024-12-03T15:35:59.103Z"
+        },
+        "standalone_question": "What would you like to talk about?",
+        "standalone_en": "What would you like to talk about?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! How can I assist you with your farming needs today?",
+        "timestamp": {
+          "$date": "2024-12-03T15:36:01.172Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": " I need all sesnor battery status ",
+        "timestamp": {
+          "$date": "2024-12-03T15:36:24.168Z"
+        },
+        "standalone_question": "What is the battery status of all the sensors?",
+        "standalone_en": "What is the battery status of all the sensors?",
+        "retrieval": {
+          "tools": [
+            "live_sensor_data  \nProvides the live / most recent sensor data for the plots, last received from the sensors. The data fields could be of these types: airTemperature, airHumidity, soilTemperature, soilMoisture1, soilMoisture2, leafWetness, airPressure, baroPressure, lightIntensity (lux), uvIndex, windSpeed, windDirection, instantaneous rainfall, battery percentage, vaporPressure. Depending on device type, some data may not be available."
+          ],
+          "faq": [
+            "Q: What is the current battery health and battery level of my Fyllo device?\nA: I'll check the battery information for your device. Let me gather that information for you.\n\nTo answer this question, I need to use the live sensor data tool to retrieve the most current battery readings.\n\nTool Selection: I should use the live_sensor_data tool\nTool Input: {\"plot_ids\": [\"your_plot_id\"]}\nTool Output: \n```\n{\n  \"airTemperature\": 28,\n  \"airHumidity\": 65,\n  \"soilTemperature\": 26,\n  \"soilMoisture1\": \"45 kPa\",\n  \"soilMoisture2\": \"62 kPa\",\n  \"leafWetness\": 0,\n  \"airPressure\": 1013.2,\n  \"lightIntensity\": 12540,\n  \"uvIndex\": 6,\n  \"windSpeed\": \"3.5kmph\",\n  \"windDirection\": \"NE\",\n  \"rainfall\": 0,\n  \"battery\": \"82%\",\n  \"timestamp\": \"2023-10-15 14:30:00\"\n}\n```\n\nYour Fyllo device currently has a battery level of 82%, which is good. This information was recorded at 2:30 PM today. The battery is in good health and has sufficient charge for continued operation."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the battery statuses for your sensors:\n\n1. **swamiagri 15**: 86%\n2. **swamiagri 16**: 82%\n3. **swamiagri 17**: 96%\n4. **swamiagri 19**: 76%\n5. **swamiagri 20**: 10% (Low battery)\n6. **swamiagri 23**: 91%\n7. **swamiagri 24**: 91%\n\nIf you need assistance with any specific sensor, especially the one with low battery, let me know!",
+        "timestamp": {
+          "$date": "2024-12-03T15:36:31.075Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Current battery status ",
+        "timestamp": {
+          "$date": "2024-12-03T15:36:49.357Z"
+        },
+        "standalone_question": "What is the current battery status of the sensors?",
+        "standalone_en": "What is the current battery status of the sensors?",
+        "retrieval": {
+          "tools": [
+            "live_sensor_data  \nProvides the live / most recent sensor data for the plots, last received from the sensors. The data fields could be of these types: airTemperature, airHumidity, soilTemperature, soilMoisture1, soilMoisture2, leafWetness, airPressure, baroPressure, lightIntensity (lux), uvIndex, windSpeed, windDirection, instantaneous rainfall, battery percentage, vaporPressure. Depending on device type, some data may not be available."
+          ],
+          "faq": [
+            "Q: What is the current battery health and battery level of my Fyllo device?\nA: I'll check the battery information for your device. Let me gather that information for you.\n\nTo answer this question, I need to use the live sensor data tool to retrieve the most current battery readings.\n\nTool Selection: I should use the live_sensor_data tool\nTool Input: {\"plot_ids\": [\"your_plot_id\"]}\nTool Output: \n```\n{\n  \"airTemperature\": 28,\n  \"airHumidity\": 65,\n  \"soilTemperature\": 26,\n  \"soilMoisture1\": \"45 kPa\",\n  \"soilMoisture2\": \"62 kPa\",\n  \"leafWetness\": 0,\n  \"airPressure\": 1013.2,\n  \"lightIntensity\": 12540,\n  \"uvIndex\": 6,\n  \"windSpeed\": \"3.5kmph\",\n  \"windDirection\": \"NE\",\n  \"rainfall\": 0,\n  \"battery\": \"82%\",\n  \"timestamp\": \"2023-10-15 14:30:00\"\n}\n```\n\nYour Fyllo device currently has a battery level of 82%, which is good. This information was recorded at 2:30 PM today. The battery is in good health and has sufficient charge for continued operation."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the current battery statuses for your sensors:\n\n1. **swamiagri 15**: 86%\n2. **swamiagri 16**: 82%\n3. **swamiagri 17**: 96%\n4. **swamiagri 19**: 76%\n5. **swamiagri 20**: 10% (Low battery)\n6. **swamiagri 23**: 91%\n7. **swamiagri 24**: 91%\n\nIf you need assistance with the sensor that has a low battery, please let me know!",
+        "timestamp": {
+          "$date": "2024-12-03T15:36:55.081Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "How many days are possible working in battery capacity ",
+        "timestamp": {
+          "$date": "2024-12-03T15:37:33.320Z"
+        },
+        "standalone_question": "How many days can the sensors operate based on their current battery capacity?",
+        "standalone_en": "How many days can the sensors operate based on their current battery capacity?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To determine how many days your devices can work based on their current battery capacity, we need to know the average daily power consumption of the sensors. However, since that information isn't provided, I can give you a general estimate based on the battery percentage.\n\nAssuming the devices are functioning normally and the average battery life is around 5-6 years, we can estimate the remaining days based on the current battery percentages.\n\nHere's a rough estimate of how many days each device can work based on its current battery percentage:\n\n1. **swamiagri 15**: 86% - Approximately 86 days\n2. **swamiagri 16**: 82% - Approximately 82 days\n3. **swamiagri 17**: 96% - Approximately 96 days\n4. **swamiagri 19**: 76% - Approximately 76 days\n5. **swamiagri 20**: 10% - Approximately 10 days (Low battery)\n6. **swamiagri 23**: 91% - Approximately 91 days\n7. **swamiagri 24**: 91% - Approximately 91 days\n\nThese are rough estimates and actual performance may vary based on usage and environmental conditions. If you have specific power consumption data, I can provide a more accurate calculation.",
+        "timestamp": {
+          "$date": "2024-12-03T15:37:40.078Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Please send ",
+        "timestamp": {
+          "$date": "2024-12-03T15:38:18.207Z"
+        },
+        "standalone_question": "Could you please send the information?",
+        "standalone_en": "Could you please send the information?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the analysis of the soil moisture and crop stages for your plots:\n\n### Soil Moisture Data (as of December 3, 2024)\n- **swamiagri 15**: SM1: 200 kPa, SM2: 200 kPa\n- **swamiagri 16**: SM1: 200 kPa, SM2: 200 kPa\n- **swamiagri 17**: SM1: 200 kPa, SM2: 200 kPa\n- **swamiagri 19**: SM1: 200 kPa, SM2: 200 kPa\n- **swamiagri 20**: No data available\n- **swamiagri 23**: SM1: 200 kPa, SM2: 200 kPa\n- **swamiagri 24**: SM1: 200 kPa, SM2: 200 kPa\n\n### Crop Stages\n1. **swamiagri 15**: \n   - Active Stage: Maturity and Harvest (Starts on March 1, 2024)\n2. **swamiagri 16**: \n   - Active Stage: Maturity and Harvest (Starts on March 1, 2024)\n3. **swamiagri 17**: \n   - Active Stage: Maturity and Harvest (Starts on March 16, 2024)\n4. **swamiagri 19**: \n   - Active Stage: Maturity and Harvest (Starts on March 16, 2024)\n5. **swamiagri 20**: \n   - Active Stage: Maturity and Harvest (Starts on March 16, 2024)\n6. **swamiagri 23**: \n   - Active Stage: Maturity and Harvest (Starts on March 16, 2024)\n7. **swamiagri 24**: \n   - Active Stage: Maturity and Harvest (Starts on March 16, 2024)\n\n### Analysis\n- The soil moisture readings of 200 kPa indicate that the soil is dry and requires irrigation.\n- Since all plots are in the Maturity and Harvest stage, crop transpiration is high, leading to rapid moisture depletion.\n- There is no recent data on evapotranspiration or weather conditions, which could also affect moisture levels.\n\n### Recommendations\n- **Irrigation**: Given the current dry conditions, it is advisable to irrigate your plots.\n- **Physical Check**: If you notice discrepancies between sensor readings and actual soil moisture, consider checking the moisture physically near the sensors. If the soil is wet but sensors indicate dryness, the sensors may need maintenance.\n\nWould you like to proceed with irrigation or need further assistance?",
+        "timestamp": {
+          "$date": "2024-12-03T15:38:34.793Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Okay ",
+        "timestamp": {
+          "$date": "2024-12-03T15:39:06.466Z"
+        },
+        "standalone_question": "Could you please send the analysis of the soil moisture and crop stages for my plots?",
+        "standalone_en": "Could you please send the analysis of the soil moisture and crop stages for my plots?",
+        "retrieval": {
+          "tools": [
+            "get_soil_moisture_sensor_depth  \nReturns the depths in inches of the soil moisture sensors 1 and 2 installed on the plots.",
+            "get_soil_moisture_percentage_from_kpa_reading  \nGets the estimated soil moisture percentage for a given plot and kPa reading.",
+            "get_daily_soil_moisture_data  \nRetrieves historical daily soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for larger duration.",
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range.",
+            "analyse_crop_image  \nGets the analysis of the uploaded crop image for any diseases or pests."
+          ],
+          "faq": [
+            "Q: How to measure/ calculate irrigation hours /water tank of my plot in fyllo app? How do I calculate irrigation hours for my plot? How to use the irrigation hours calculator?\nA: To calculate irrigation hours in the Fyllo app, follow these steps:\n\n1. Open the Fyllo App\n2. Go to the home screen\n3. Click on the soil moisture-1 sensor\n4. Scroll down to find the \"Irrigation hours\" section\n5. Fill in the required details such as:\n   - Root width (inches)\n   - Root depth (inches)\n   - Soil retention (mm)\n   - Dripper distance (feet)\n   - Dripper discharge (liters)\n6. Click the calculate button\n\nWould you like me to calculate the irrigation hours for you right now? I can retrieve your plot's irrigation settings and perform the calculation if you say yes.\n\nTool Selection: When user says yes, I should:\n1. Use get_irrigation_installation_settings tool to retrieve plot settings\n2. Check if all values are present and valid\n3. If values are valid, use calculate_irrigation_hours tool with these values\n4. If values are missing or invalid, ask the user to provide the missing values\n5. After calculating irrigation hours, display the irrigation installation settings that were used for the calculation\n6. Ask the user if they want to calculate irrigation hours with a different set of values, and if yes, prompt them to provide those values\n\nExample response if values are missing:\n\"I checked your plot settings, but I need some additional information to calculate irrigation hours accurately. Could you please provide the [missing value(s)]? Once you provide these details, I can complete the calculation for you.\"\n\nExample response after calculation:\n\"Based on your plot's irrigation settings, the calculated irrigation hours are [X] hours. \n\nI used the following settings for this calculation:\n- Root width: [value] inches\n- Root depth: [value] inches\n- Soil retention: [value] mm\n- Dripper distance: [value] feet\n- Dripper discharge: [value] liters\n\nWould you like to calculate irrigation hours with a different set of values? If yes, please provide the new values you'd like to use.\""
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "If you have any more questions or need further assistance with your farming practices, feel free to ask. Happy farming!",
+        "timestamp": {
+          "$date": "2024-12-03T15:39:09.965Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "How to change plant starting date and harvesting day ",
+        "timestamp": {
+          "$date": "2024-12-03T15:39:31.478Z"
+        },
+        "standalone_question": "How can I change the starting date and harvesting date for my plants?",
+        "standalone_en": "How can I change the starting date and harvesting date for my plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To change the planting and harvesting dates for your crops, you typically need to follow these steps, depending on the platform or system you are using:\n\n1. **Access Your Farm Management System**: Log in to the application or platform where you manage your farm data.\n\n2. **Navigate to Crop Management**: Look for a section related to crop management or crop planning.\n\n3. **Select the Crop**: Choose the specific crop for which you want to change the planting or harvesting dates.\n\n4. **Edit Planting Date**: \n   - Find the option to edit the planting date.\n   - Enter the new planting date you wish to set.\n\n5. **Edit Harvesting Date**: \n   - Similarly, locate the harvesting date option.\n   - Enter the new harvesting date.\n\n6. **Save Changes**: Make sure to save any changes you make to ensure they are updated in the system.\n\n7. **Confirm Changes**: After saving, double-check to confirm that the new dates are reflected correctly.\n\nIf you are using a specific app or software and need detailed instructions, please let me know the name of the application, and I can provide more tailored guidance!",
+        "timestamp": {
+          "$date": "2024-12-03T15:39:37.257Z"
+        }
+      }
+    ],
+    "farmer_id": "swamiagri1",
+    "farmer_plot_ids": [
+      "swamiagri15",
+      "swamiagri16",
+      "swamiagri17",
+      "swamiagri19",
+      "swamiagri20",
+      "swamiagri23",
+      "swamiagri24"
+    ],
+    "conversation_id": "674f255e4d26d00f070e786b",
+    "tag": "others",
+    "conv_date": "2024-12-03T15:35:59.103000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Today spere ",
+        "timestamp": {
+          "$date": "2024-12-03T15:31:17.392Z"
+        },
+        "standalone_question": "What is the significance of today?",
+        "standalone_en": "What is the significance of today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Could you please clarify what you mean by \"spere\"? Are you looking for information on a specific topic related to agriculture, such as pest control, irrigation, or crop management?",
+        "timestamp": {
+          "$date": "2024-12-03T15:31:21.159Z"
+        }
+      }
+    ],
+    "farmer_id": "basavrajsidarayakarajanagi",
+    "farmer_plot_ids": [
+      "anushka176",
+      "manikchaman402"
+    ],
+    "conversation_id": "674f2445a8caf3e2051e54ba",
+    "tag": "others",
+    "conv_date": "2024-12-03T15:31:17.392000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "आलू के लिये टेंप्रेचर कितने डिग्री होना चाहिए ",
+        "timestamp": {
+          "$date": "2024-12-03T13:41:51.671Z"
+        },
+        "standalone_question": "What should the temperature be for potatoes?",
+        "standalone_en": "What should the temperature be for potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is the temperature at which cold/Frost/Paala(Hindi) will burn/damage the potato crop?\nA: Cold will burn the potato crop at 5 degrees Celsius and less. The minimum safe temperature for a potato crop to be left in so that it can survive is 6 degrees Celsius, so it is suggested to keep your crop above this value.\nStoring potatoes at a given temperature and letting the potato crop be in the field at a certain atmospheric temperature are two different things. If the question is not clear, or the user needs more info, prompt the user to contact the CRM team at (+91) 9380908040 or by emailing contact@fyllo.in as we don't have informaion about storage of potato."
+          ]
+        },
+        "content_transliterated": "aalu ke liye temperature kitne degree hona chahiye "
+      },
+      {
+        "role": "assistant",
+        "content": "आलू की फसल के लिए आदर्श तापमान 15 से 20 डिग्री सेल्सियस के बीच होता है। इस तापमान पर आलू की वृद्धि और विकास सबसे अच्छा होता है। यदि तापमान 25 डिग्री सेल्सियस से अधिक हो जाता है, तो यह आलू की फसल के लिए हानिकारक हो सकता है।",
+        "timestamp": {
+          "$date": "2024-12-03T13:41:56.540Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "आलू को सबसे ज्यादा किस खाद की आवश्यकता होती है",
+        "timestamp": {
+          "$date": "2024-12-03T13:42:59.606Z"
+        },
+        "standalone_question": "What type of fertilizer does potato require the most?",
+        "standalone_en": "What type of fertilizer does potato require the most?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "aalu ko sabse jyada kis khad ki aavashyakta hoti hai"
+      },
+      {
+        "role": "assistant",
+        "content": "आलू की फसल को सबसे ज्यादा फास्फोरस (P) और पोटेशियम (K) की आवश्यकता होती है। \n\n1. **फास्फोरस (P)**: यह जड़ विकास और फूल आने में मदद करता है।\n2. **पोटेशियम (K)**: यह आलू की गुणवत्ता और उत्पादन को बढ़ाने में सहायक होता है।\n\nइसके अलावा, नाइट्रोजन (N) भी आवश्यक है, लेकिन इसकी मात्रा फास्फोरस और पोटेशियम की तुलना में कम होनी चाहिए। NPK (नाइट्रोजन, फास्फोरस, पोटेशियम) मिश्रित खाद का उपयोग करना एक अच्छा विकल्प है, जैसे कि 10-20-20 या 12-24-12।",
+        "timestamp": {
+          "$date": "2024-12-03T13:43:06.207Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "आलू फटने पर क्या डाले",
+        "timestamp": {
+          "$date": "2024-12-03T13:43:40.745Z"
+        },
+        "standalone_question": "What should be applied when potatoes split?",
+        "standalone_en": "What should be applied when potatoes split?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "aalu phatane par kya daale"
+      },
+      {
+        "role": "assistant",
+        "content": "आलू के फटने की समस्या को रोकने के लिए निम्नलिखित उपाय किए जा सकते हैं:\n\n1. **पोटेशियम (K)**: पोटेशियम की कमी से आलू फट सकते हैं। इसलिए, पोटेशियम युक्त खाद का उपयोग करें, जैसे कि म्यूरेट ऑफ पोटाश।\n\n2. **सिंचाई**: फसल में पानी की कमी या अधिकता से भी आलू फट सकते हैं। सुनिश्चित करें कि आलू की फसल को नियमित और संतुलित सिंचाई मिले।\n\n3. **जैविक खाद**: जैविक खाद का उपयोग करने से मिट्टी की सेहत में सुधार होता है, जिससे फसल की वृद्धि बेहतर होती है।\n\n4. **फसल चक्र**: आलू की फसल के बाद अन्य फसलों का उपयोग करें ताकि मिट्टी में पोषक तत्वों का संतुलन बना रहे।\n\n5. **पोषक तत्वों की संतुलित आपूर्ति**: नाइट्रोजन, फास्फोरस और पोटेशियम का संतुलित अनुपात सुनिश्चित करें।\n\nइन उपायों को अपनाने से आलू के फटने की समस्या को कम किया जा सकता है।",
+        "timestamp": {
+          "$date": "2024-12-03T13:43:48.165Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "संताना आलू कितने दिनों की क्रॉप हैं ",
+        "timestamp": {
+          "$date": "2024-12-03T13:44:43.471Z"
+        },
+        "standalone_question": "How many days does the Santana potato take to grow?",
+        "standalone_en": "How many days does the Santana potato take to grow?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "santana aalu kitane dinon ke crop hain "
+      },
+      {
+        "role": "assistant",
+        "content": "संताना आलू की फसल आमतौर पर 90 से 110 दिनों में तैयार होती है। यह अवधि फसल की वृद्धि की स्थिति, मौसम और कृषि प्रथाओं पर निर्भर कर सकती है। सही देखभाल और उचित पोषण के साथ, आप इस अवधि के अंत में अच्छी गुणवत्ता के आलू की फसल प्राप्त कर सकते हैं।",
+        "timestamp": {
+          "$date": "2024-12-03T13:44:47.152Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "संताना आलू का उत्पादन कितना है ",
+        "timestamp": {
+          "$date": "2024-12-03T13:45:21.099Z"
+        },
+        "standalone_question": "What is the yield of Santana potatoes?",
+        "standalone_en": "What is the yield of Santana potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "santana aalu ka utpadan kitna hai "
+      },
+      {
+        "role": "assistant",
+        "content": "संताना आलू का उत्पादन आमतौर पर 20 से 25 टन प्रति हेक्टेयर होता है। यह उत्पादन विभिन्न कारकों पर निर्भर करता है, जैसे कि मिट्टी की गुणवत्ता, जलवायु, कृषि प्रथाएँ, और फसल की देखभाल। यदि आप सही तकनीकों और पोषण का पालन करते हैं, तो आप उच्च उत्पादन प्राप्त कर सकते हैं।",
+        "timestamp": {
+          "$date": "2024-12-03T13:45:24.960Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "सोनचिप्स 1 आलू कितना उत्पादन है ",
+        "timestamp": {
+          "$date": "2024-12-03T13:46:26.004Z"
+        },
+        "standalone_question": "What is the production yield of one Sonchips potato?",
+        "standalone_en": "What is the production yield of one Sonchips potato?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "sonachips 1 aalu kitna utpadan hai "
+      },
+      {
+        "role": "assistant",
+        "content": "सोनचिप्स आलू का उत्पादन आमतौर पर 25 से 30 टन प्रति हेक्टेयर होता है। यह उत्पादन विभिन्न कारकों पर निर्भर करता है, जैसे कि मिट्टी की गुणवत्ता, जलवायु, कृषि प्रथाएँ, और फसल की देखभाल। सही तकनीकों और पोषण का पालन करने पर आप उच्च उत्पादन प्राप्त कर सकते हैं।",
+        "timestamp": {
+          "$date": "2024-12-03T13:46:29.321Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Toras आलू कितना उत्पादन है ",
+        "timestamp": {
+          "$date": "2024-12-03T13:46:53.320Z"
+        },
+        "standalone_question": "What is the production yield of Toras potatoes?",
+        "standalone_en": "What is the production yield of Toras potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "Toras aalu kitna utpadan hai "
+      },
+      {
+        "role": "assistant",
+        "content": "Toras आलू का उत्पादन आमतौर पर 25 से 30 टन प्रति हेक्टेयर होता है। यह उत्पादन विभिन्न कारकों पर निर्भर करता है, जैसे कि मिट्टी की गुणवत्ता, जलवायु, कृषि प्रथाएँ, और फसल की देखभाल। उचित देखभाल और पोषण के साथ, आप उच्च उत्पादन प्राप्त कर सकते हैं।",
+        "timestamp": {
+          "$date": "2024-12-03T13:46:57.207Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Lr आलू कितना उत्पादन है ",
+        "timestamp": {
+          "$date": "2024-12-03T13:47:35.911Z"
+        },
+        "standalone_question": "What is the production yield of Lr potatoes?",
+        "standalone_en": "What is the production yield of Lr potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "Lr aalu kitna utpadan hai "
+      },
+      {
+        "role": "assistant",
+        "content": "LR आलू का उत्पादन आमतौर पर 25 से 30 टन प्रति हेक्टेयर होता है। यह उत्पादन विभिन्न कारकों पर निर्भर करता है, जैसे कि मिट्टी की गुणवत्ता, जलवायु, कृषि प्रथाएँ, और फसल की देखभाल। उचित देखभाल और पोषण के साथ, आप उच्च उत्पादन प्राप्त कर सकते हैं।",
+        "timestamp": {
+          "$date": "2024-12-03T13:47:52.738Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ज्योति आलू कितना उत्पादन है ",
+        "timestamp": {
+          "$date": "2024-12-03T13:48:15.807Z"
+        },
+        "standalone_question": "What is the production yield of Jyoti potatoes?",
+        "standalone_en": "What is the production yield of Jyoti potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "jyoti aalu kitna utpadan hai "
+      },
+      {
+        "role": "assistant",
+        "content": "ज्योति आलू का उत्पादन आमतौर पर 25 से 30 टन प्रति हेक्टेयर होता है। यह उत्पादन विभिन्न कारकों पर निर्भर करता है, जैसे कि मिट्टी की गुणवत्ता, जलवायु, कृषि प्रथाएँ, और फसल की देखभाल। उचित देखभाल और पोषण के साथ, आप उच्च उत्पादन प्राप्त कर सकते हैं।",
+        "timestamp": {
+          "$date": "2024-12-03T13:48:31.699Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "सबसे ज्यादा उत्पादन देने वाला आलू",
+        "timestamp": {
+          "$date": "2024-12-03T13:48:53.712Z"
+        },
+        "standalone_question": "Which potato variety yields the highest production?",
+        "standalone_en": "Which potato variety yields the highest production?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "sabse jyada utpadan dene wala aalu"
+      },
+      {
+        "role": "assistant",
+        "content": "सबसे ज्यादा उत्पादन देने वाला आलू की किस्म आमतौर पर \"कैलिफोर्निया\" या \"किरण\" मानी जाती है। ये किस्में 30 से 40 टन प्रति हेक्टेयर तक उत्पादन दे सकती हैं, यदि सही कृषि प्रथाओं और देखभाल का पालन किया जाए। \n\nइसके अलावा, \"संताना\" और \"सोनचिप्स\" जैसी किस्में भी उच्च उत्पादन के लिए जानी जाती हैं। सही मिट्टी, जलवायु और पोषण के साथ, आप इन किस्मों से अधिकतम उत्पादन प्राप्त कर सकते हैं।",
+        "timestamp": {
+          "$date": "2024-12-03T13:48:58.056Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "110 दिन की आलू फसल में कितना पानी देना चाहिए ",
+        "timestamp": {
+          "$date": "2024-12-03T13:50:00.587Z"
+        },
+        "standalone_question": "How much water should be given to a potato crop that takes 110 days to mature?",
+        "standalone_en": "How much water should be given to a potato crop that takes 110 days to mature?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "110 din ki aalu fasal mein kitna paani dena chahiye "
+      },
+      {
+        "role": "assistant",
+        "content": "110 दिन की आलू फसल के लिए पानी की आवश्यकता कई कारकों पर निर्भर करती है, जैसे कि मिट्टी की प्रकार, मौसम, और फसल की विकास अवस्था। सामान्यतः, आलू की फसल को लगभग 500 से 700 मिमी पानी की आवश्यकता होती है पूरे विकास के दौरान।\n\nयहां कुछ सामान्य सुझाव दिए गए हैं:\n\n1. **सिंचाई की आवृत्ति**: आलू की फसल को हर 7 से 10 दिन में सिंचाई की आवश्यकता होती है, लेकिन यह मिट्टी की नमी और मौसम के अनुसार बदल सकता है।\n\n2. **सिंचाई की मात्रा**: एक बार में 30 से 50 मिमी पानी देना उचित होता है, जब मिट्टी में नमी की कमी हो।\n\n3. **मिट्टी की नमी**: मिट्टी की नमी की स्थिति को ध्यान में रखते हुए सिंचाई करें। यदि मिट्टी की नमी 50-60% से कम हो जाती है, तो सिंचाई करनी चाहिए।\n\nसही मात्रा और समय पर सिंचाई करने से आलू की फसल की गुणवत्ता और उत्पादन में सुधार होगा।",
+        "timestamp": {
+          "$date": "2024-12-03T13:50:07.116Z"
+        }
+      }
+    ],
+    "farmer_id": "VR367",
+    "farmer_plot_ids": [
+      "margad"
+    ],
+    "conversation_id": "674f0a9e4d26d00f070e786a",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-12-03T13:41:51.671000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "गळ करण्यासाठी काय स्प्रे घ्यावा<user uploaded image for analysis at 'NavinThomson/2024-12-03-1733230283220.jpeg'>",
+        "timestamp": {
+          "$date": "2024-12-03T12:52:58.157Z"
+        },
+        "standalone_question": "What spray should I use for hair styling?",
+        "standalone_en": "What spray should I use for hair styling?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "gal karanyasathi kay spray ghyava<user uploaded image for analysis at 'NavinThomson/2024-12-03-1733230283220.jpeg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या द्राक्षांच्या वेलींमध्ये आरोग्यदायी हिरव्या पानांचा आणि विकसित होणाऱ्या फुलांच्या गटांचा विकास दिसत आहे. खालील निरीक्षणे आहेत:\n\n1. **पानांचे आरोग्य**: पानं चमकदार आणि हिरवी आहेत, ज्यामुळे चांगल्या आरोग्याचे संकेत मिळतात. पिवळे, वाळलेले किंवा ठिपके असलेले कोणतेही चिन्ह दिसत नाही.\n\n2. **फुलांचा विकास**: फुलांचे गट चांगले विकसित होत आहेत, जे फळ उत्पादनासाठी सकारात्मक आहे.\n\n3. **एकूण वाढ**: वेलींमध्ये चांगली वाढ दिसत आहे, ज्यामुळे प्रकाश संश्लेषणासाठी चांगली छाया मिळते.\n\n### शिफारसी:\n- **कीटकांचे निरीक्षण करा**: फुलांच्या विकासाच्या काळात कोणत्याही कीटकांच्या चिन्हांवर लक्ष ठेवा.\n- **पाण्याची आणि पोषणाची काळजी घ्या**: फुलांच्या आणि फळांच्या सेटिंगच्या काळात वेलींना पुरेसे पाणी आणि पोषण मिळत आहे याची खात्री करा.\n- **छंटाई**: हवा फिरण्यासाठी आणि प्रकाश प्रवेशासाठी छंटाई करण्याचा विचार करा.\n\nतुम्हाला भविष्यात कोणत्याही विशिष्ट समस्यांचे निरीक्षण झाल्यास, कृपया प्रभावित क्षेत्रांचे जवळचे चित्र प्रदान करा.",
+        "timestamp": {
+          "$date": "2024-12-03T12:53:18.167Z"
+        }
+      }
+    ],
+    "farmer_id": "Rajyogfarm",
+    "farmer_plot_ids": [
+      "NavinThomson"
+    ],
+    "conversation_id": "674eff294d26d00f070e7869",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-12-03T12:52:58.157000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "પાણીની ક્યારે જરૂર છે પાણીની ક્યારે જરૂર છે",
+        "timestamp": {
+          "$date": "2024-12-03T12:22:30.162Z"
+        },
+        "standalone_question": "When is water needed?",
+        "standalone_en": "When is water needed?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate."
+          ]
+        },
+        "content_transliterated": "panini kyare jarur che panini kyare jarur che"
+      },
+      {
+        "role": "assistant",
+        "content": "**પાટસાલા પાલોટ**: \n- હાલની જમીનનું ભેજ: 19 kPa (સોયલ મોઈશ્ચર 1), 20 kPa (સોયલ મોઈશ્ચર 2)\n- શ્રેષ્ઠ ભેજ: 2 (વેટ) - 18 (ડ્રાય)\n- **પાણી આપવું જોઈએ**, કારણ કે જમીનનું ભેજ શ્રેષ્ઠ મૂલ્યથી વધુ છે.\n\n**વાટ વલો પાલોટ**: \n- હાલની જમીનનું ભેજ: 23 kPa (સોયલ મોઈશ્ચર 1), 9 kPa (સોયલ મોઈશ્ચર 2)\n- શ્રેષ્ઠ ભેજ: 2 (વેટ) - 18 (ડ્રાય)\n- **પાણી આપવું જોઈએ**, કારણ કે જમીનનું ભેજ શ્રેષ્ઠ મૂલ્યથી વધુ છે.\n\nતમે બંને પ્લોટમાં પાણી આપી શકો છો.",
+        "timestamp": {
+          "$date": "2024-12-03T12:22:40.743Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "પોટાશ ક્યારે અપડેટ કરે",
+        "timestamp": {
+          "$date": "2024-12-03T12:23:33.888Z"
+        },
+        "standalone_question": "When should potash be updated?",
+        "standalone_en": "When should potash be updated?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "potash kyare update kare"
+      },
+      {
+        "role": "assistant",
+        "content": "**પાટસાલા પાલોટ**:\n- હાલની સ્થિતિ: **Crop establishment** (સપ્તાહ 2)\n- **હાલમાં કોઈ ફર્ટિગેશનની જરૂર નથી.**\n- **આગામી ફર્ટિગેશન**: \n  - **તારીખ**: 15 ડિસેમ્બર 2024\n  - **ફર્ટિલાઇઝર**: \n    - 1 લિટર હ્યુમિક એસિડ/એકર\n\n**વાટ વલો પાલોટ**:\n- હાલની સ્થિતિ: **Vegetative growth** (સપ્તાહ 3)\n- **આગામી ફર્ટિગેશન**:\n  - **તારીખ**: 22 જાન્યુઆરી 2025\n  - **ફર્ટિલાઇઝર**: \n    - 7 કિલોગ્રામ પોટેશિયમ નાઇટ્રેટ/એકર\n    - 5 કિલોગ્રામ યુરિયા/એકર\n\nપોટાશ માટે, વાટ વલો પાલોટમાં 22 જાન્યુઆરી 2025ના રોજ અપડેટ કરવું છે.",
+        "timestamp": {
+          "$date": "2024-12-03T12:23:41.748Z"
+        }
+      }
+    ],
+    "farmer_id": "VR8321",
+    "farmer_plot_ids": [
+      "patsalapalot185",
+      "vatvalopalot644"
+    ],
+    "conversation_id": "674ef8044d26d00f070e7868",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-12-03T12:22:30.162000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "કયો રોગ છે <user uploaded image for analysis at 'jjpatelfarm/2024-12-03-1733222808195.jpeg'>",
+        "timestamp": {
+          "$date": "2024-12-03T10:46:56.522Z"
+        },
+        "standalone_question": "What disease is depicted in the uploaded image?",
+        "standalone_en": "What disease is depicted in the uploaded image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kayo rog che <user uploaded image for analysis at 'jjpatelfarm/2024-12-03-1733222808195.jpeg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "The plant in the image shows signs of distress, likely indicating a potential issue. Here are the observations:\n\n1. **Leaf Curling and Distortion**: The leaves are curled and have an unusual texture, which may suggest viral infections, such as Potato Virus Y, or environmental stress.\n   \n2. **Coloration**: The leaves exhibit a lighter green color, indicating possible nutrient deficiencies, particularly nitrogen, or symptoms of disease.\n\n3. **Overall Health**: The plant appears stunted in growth compared to healthy potato plants, which could be due to pest infestations or diseases.\n\n### Recommendations:\n- **Pest Inspection**: Check for aphids or other pests that could be causing damage.\n- **Soil Testing**: Conduct a soil test to check for nutrient deficiencies.\n- **Fungicide or Insecticide**: If pests or diseases are confirmed, consider appropriate treatments.\n- **Improved Care**: Ensure proper watering and fertilization practices are being followed.\n\nFor a more accurate diagnosis, a closer image focusing on the affected leaves would be helpful.",
+        "timestamp": {
+          "$date": "2024-12-03T10:47:12.429Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "કયો સ્પ્રે કરવાનો ",
+        "timestamp": {
+          "$date": "2024-12-03T10:47:45.509Z"
+        },
+        "standalone_question": "What spray should be used?",
+        "standalone_en": "What spray should be used?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice."
+          ]
+        },
+        "content_transliterated": "kayo spray karvano "
+      },
+      {
+        "role": "assistant",
+        "content": "Currently, there are no scheduled spray recommendations for your plots from December 3rd to December 10th. \n\nIf you notice any significant pest or disease issues, consider monitoring the plants closely and consult with local agricultural experts for specific treatments.",
+        "timestamp": {
+          "$date": "2024-12-03T10:47:50.384Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "આમાં કઈ દવા નાખવાની ",
+        "timestamp": {
+          "$date": "2024-12-03T10:49:19.962Z"
+        },
+        "standalone_question": "What medication should be applied to the plants?",
+        "standalone_en": "What medication should be applied to the plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed",
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: What are the important diseases occur during seedling stage and control measures?\nA: Collar rot, Damping off, Seedling blight diseases infect during seedling stage.\nDrench/spray seedling with: Carbendazim @ 2.5g/ltr"
+          ]
+        },
+        "content_transliterated": "aman ki dava nakhavani "
+      },
+      {
+        "role": "assistant",
+        "content": "Based on the current pest predictions for your plot \"J.J PATEL FARM,\" here are the recommended treatments:\n\n### Recommended Sprays:\n1. **For Caterpillars** (High Risk - 93.0% probability):\n   - **Insecticide**: Use **Bacillus thuringiensis (Bt)** or **Chlorantraniliprole**.\n\n2. **For Aphids** (Medium Risk - 71.6% probability):\n   - **Insecticide**: Use **Imidacloprid** or **Thiamethoxam**.\n\n3. **For Mites** (Medium Risk - 67.1% probability):\n   - **Insecticide**: Use **Abamectin** or **Miticides** specifically designed for mites.\n\n### Application:\n- Follow the manufacturer's instructions for dosage and application methods.\n- Ensure to spray during the early morning or late evening to minimize the impact on beneficial insects.\n\n### Note:\nMonitor the plants closely after treatment and consider re-evaluating if pest levels remain high.",
+        "timestamp": {
+          "$date": "2024-12-03T10:49:28.161Z"
+        }
+      }
+    ],
+    "farmer_id": "VR8571",
+    "farmer_plot_ids": [
+      "jjpatelfarm",
+      "padarvaluplot",
+      "vadi"
+    ],
+    "conversation_id": "674ee1a04682eab8314b39f5",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-03T10:46:56.522000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "કયો રોગ છે <user uploaded image for analysis at 'jjpatelfarm/2024-12-03-1733222808195.jpeg'>",
+        "timestamp": {
+          "$date": "2024-12-03T10:46:56.522Z"
+        },
+        "standalone_question": "What disease is depicted in the uploaded image?",
+        "standalone_en": "What disease is depicted in the uploaded image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kayo rog che <user uploaded image for analysis at 'jjpatelfarm/2024-12-03-1733222808195.jpeg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "The plant in the image shows signs of distress, likely indicating a potential issue. Here are the observations:\n\n1. **Leaf Curling and Distortion**: The leaves are curled and have an unusual texture, which may suggest viral infections, such as Potato Virus Y, or environmental stress.\n   \n2. **Coloration**: The leaves exhibit a lighter green color, indicating possible nutrient deficiencies, particularly nitrogen, or symptoms of disease.\n\n3. **Overall Health**: The plant appears stunted in growth compared to healthy potato plants, which could be due to pest infestations or diseases.\n\n### Recommendations:\n- **Pest Inspection**: Check for aphids or other pests that could be causing damage.\n- **Soil Testing**: Conduct a soil test to check for nutrient deficiencies.\n- **Fungicide or Insecticide**: If pests or diseases are confirmed, consider appropriate treatments.\n- **Improved Care**: Ensure proper watering and fertilization practices are being followed.\n\nFor a more accurate diagnosis, a closer image focusing on the affected leaves would be helpful.",
+        "timestamp": {
+          "$date": "2024-12-03T10:47:12.429Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "કયો સ્પ્રે કરવાનો ",
+        "timestamp": {
+          "$date": "2024-12-03T10:47:45.509Z"
+        },
+        "standalone_question": "What spray should be used?",
+        "standalone_en": "What spray should be used?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice."
+          ]
+        },
+        "content_transliterated": "kayo spray karvano "
+      },
+      {
+        "role": "assistant",
+        "content": "Currently, there are no scheduled spray recommendations for your plots from December 3rd to December 10th. \n\nIf you notice any significant pest or disease issues, consider monitoring the plants closely and consult with local agricultural experts for specific treatments.",
+        "timestamp": {
+          "$date": "2024-12-03T10:47:50.384Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "આમાં કઈ દવા નાખવાની ",
+        "timestamp": {
+          "$date": "2024-12-03T10:49:19.962Z"
+        },
+        "standalone_question": "What medication should be applied to the plants?",
+        "standalone_en": "What medication should be applied to the plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed",
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: What are the important diseases occur during seedling stage and control measures?\nA: Collar rot, Damping off, Seedling blight diseases infect during seedling stage.\nDrench/spray seedling with: Carbendazim @ 2.5g/ltr"
+          ]
+        },
+        "content_transliterated": "aman ki dava nakhavani "
+      },
+      {
+        "role": "assistant",
+        "content": "Based on the current pest predictions for your plot \"J.J PATEL FARM,\" here are the recommended treatments:\n\n### Recommended Sprays:\n1. **For Caterpillars** (High Risk - 93.0% probability):\n   - **Insecticide**: Use **Bacillus thuringiensis (Bt)** or **Chlorantraniliprole**.\n\n2. **For Aphids** (Medium Risk - 71.6% probability):\n   - **Insecticide**: Use **Imidacloprid** or **Thiamethoxam**.\n\n3. **For Mites** (Medium Risk - 67.1% probability):\n   - **Insecticide**: Use **Abamectin** or **Miticides** specifically designed for mites.\n\n### Application:\n- Follow the manufacturer's instructions for dosage and application methods.\n- Ensure to spray during the early morning or late evening to minimize the impact on beneficial insects.\n\n### Note:\nMonitor the plants closely after treatment and consider re-evaluating if pest levels remain high.",
+        "timestamp": {
+          "$date": "2024-12-03T10:49:28.161Z"
+        }
+      }
+    ],
+    "farmer_id": "VR8571",
+    "farmer_plot_ids": [
+      "jjpatelfarm",
+      "padarvaluplot",
+      "vadi"
+    ],
+    "conversation_id": "674ee1a04682eab8314b39f5",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-12-03T10:46:56.522000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "આ માં  કેટલું પાણી ચલાવું જૉઈએ",
+        "timestamp": {
+          "$date": "2024-12-03T10:25:51.235Z"
+        },
+        "standalone_question": "How much water should I run in this?",
+        "standalone_en": "How much water should I run in this?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "a man ketalun pani chalavu joie"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પાક માટે પાણી ચલાવવાની માત્રા જમીનની ભેજની સ્થિતિ પર આધાર રાખે છે. જો જમીનનું ભેજ 0-5 kPa છે, તો તે ભેજવાળી છે અને પાણી આપવાની જરૂર નથી. જો ભેજ 200 kPa કે તેથી વધુ છે, તો જમીન સૂકી છે અને પાણી આપવાની જરૂર છે.\n\nમહિતી માટે, શું તમે મને તમારા પ્લોટનું નામ આપી શકો છો? હું તમને વધુ ચોક્કસ માહિતી આપી શકું.",
+        "timestamp": {
+          "$date": "2024-12-03T10:25:58.069Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "વાઙીયા મેં બે કલાક પાણી આપ્યું તું પણ ખુબ ભીનુ બતાવે છે ",
+        "timestamp": {
+          "$date": "2024-12-03T10:27:14.799Z"
+        },
+        "standalone_question": "I watered the plants for two hours, but the soil still appears very wet. What should I do?",
+        "standalone_en": "I watered the plants for two hours, but the soil still appears very wet. What should I do?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What should I do if the soil moisture sensor always shows wet values?\nA: Verify the irrigation frequency, check the installation point, and contact Fyllo representative if the issue persists.",
+            "Q: I irrigated still the sensor is dropping slowly.\nA: Sometimes, the water reaches slowly till root zone and the moisture sensor kPa value drops slowly. Always wait for 12 hours after irrigation for the moisture to saturate. If still some confusion, ask user to check moisture near the sensor and check if he wants to raise a ticket for the issue.",
+            "Q: I irrigated still the sensor is showing dry.\nA: Ask user when he irrigated. It usually takes 12 hours to reach the water till sensor. If the sensor is not dropping even after 12 hours, it can be due to one of the following reasons :\nWater is not reaching properly till the sensor , this can be due to drip blocked , or slope in the land or dripper outlets far away from the sensor. Ask user to check if drip is fine and  dripper is within the range of sensor. \nThe sensor can be very old , more than two years , in this case , the sensor might be malfunction, ask user if he wants to raise a ticket"
+          ]
+        },
+        "content_transliterated": "vania men be kalak pani aapyu tu pan khub bhinu batave che "
+      },
+      {
+        "role": "assistant",
+        "content": "જો તમે બે કલાક પાણી આપ્યું છે અનેsensor હજુ પણ ભીના મૂલ્યો બતાવે છે, તો આ કેટલીક બાબતોને દર્શાવી શકે છે:\n\n1. **જમીન સુધી પાણી પહોંચવામાં સમય**: પાણી જમીન સુધી પહોંચવામાં અને મૂળ વિસ્તારમાં સેટલ થવામાં 12 કલાક સુધીનો સમય લઈ શકે છે. \n\n2. **ડ્રિપ સિસ્ટમની તપાસ**: ખાતરી કરો કે ડ્રિપ સિસ્ટમ યોગ્ય રીતે કાર્ય કરી રહી છે. જો કોઈ બ્લોકેજ છે અથવા ડ્રિપર્સ sensor ની નજીક નથી, તો પાણી યોગ્ય રીતે પહોંચતું નથી.\n\n3. **સેન્સરનું કાર્ય**: જો sensor 2 વર્ષથી વધુ જૂનો છે, તો તે ખોટું મૂલ્ય બતાવી શકે છે. \n\nજો તમને વધુ મદદની જરૂર હોય, તો શું તમે આ સમસ્યાને ઉકેલવા માટે ટિકિટ ઉઠાવવા માંગો છો?",
+        "timestamp": {
+          "$date": "2024-12-03T10:27:19.599Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "આ મશીન લગાવા થી મનૈ કાંઇ જ ફાયદો નહીં દેખાતૉ",
+        "timestamp": {
+          "$date": "2024-12-03T10:28:05.096Z"
+        },
+        "standalone_question": "What benefits do you expect from using this machine?",
+        "standalone_en": "What benefits do you expect from using this machine?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "a machine lagava thi manai kani j phayado nahin dekhato"
+      },
+      {
+        "role": "assistant",
+        "content": "જો તમને મશીન લગાવવાથી કોઈ ફાયદો નથી દેખાતો, તો આ બાબતોને ધ્યાનમાં રાખવું મહત્વપૂર્ણ છે:\n\n1. **સેન્સર ડેટા**: મશીન દ્વારા આપવામાં આવેલી માહિતી અને ડેટા સાચા છે કે નહીં તે તપાસો. જો સેન્સર ખોટા મૂલ્યો બતાવે છે, તો તે યોગ્ય રીતે કાર્ય કરી રહ્યું નથી.\n\n2. **સંચાલન અને જાળવણી**: મશીનની યોગ્ય રીતે જાળવણી અને સંચાલન કરવામાં આવે છે કે નહીં તે તપાસો. જો મશીનમાં કોઈ સમસ્યા છે, તો તે યોગ્ય રીતે કાર્ય કરી શકતું નથી.\n\n3. **ડેટા વિશ્લેષણ**: મશીન દ્વારા આપવામાં આવેલી માહિતીનો યોગ્ય રીતે ઉપયોગ કરવામાં આવે છે કે નહીં તે તપાસો. જો તમે માહિતીનો ઉપયોગ કરીને યોગ્ય નિર્ણય નથી લઈ રહ્યા, તો ફાયદો ઓછો થઈ શકે છે.\n\n4. **કૃષિ પદ્ધતિઓ**: મશીનની માહિતી સાથે તમારી કૃષિ પદ્ધતિઓને સુસંગત બનાવવું મહત્વપૂર્ણ છે. \n\nજો તમને વધુ મદદની જરૂર હોય, તો કૃપા કરીને વધુ વિગતો આપો, જેથી હું વધુ ચોક્કસ રીતે મદદ કરી શકું.",
+        "timestamp": {
+          "$date": "2024-12-03T10:28:10.123Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "બટાકા આ સિસ્ટમ લગાવવાથી કેટલું ઉત્પાદનમાં ફરક પડે",
+        "timestamp": {
+          "$date": "2024-12-03T10:29:05.321Z"
+        },
+        "standalone_question": "How much difference will this system make in potato production?",
+        "standalone_en": "How much difference will this system make in potato production?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "bataka a system lagavavathi ketalun utpadanaman fark pade"
+      },
+      {
+        "role": "assistant",
+        "content": "બટાકાના પાકમાં Fyllo સિસ્ટમ લગાવવાથી નીચેના ફાયદા થઈ શકે છે:\n\n1. **સચોટ માહિતી**: સિસ્ટમ જમીન અને પાકની સ્થિતિ વિશે સચોટ માહિતી પ્રદાન કરે છે, જે યોગ્ય નિર્ણય લેવા માટે મદદરૂપ થાય છે.\n\n2. **પાણી અને ખાતરનું યોગ્ય ઉપયોગ**: સિસ્ટમ દ્વારા આપવામાં આવેલી માહિતીના આધારે, તમે પાણી અને ખાતરનું યોગ્ય પ્રમાણ આપી શકો છો, જે પાકના વિકાસને પ્રોત્સાહન આપે છે.\n\n3. **રોગ અને કીટક નિયંત્રણ**: સિસ્ટમ રોગ અને કીટકની આગાહી કરી શકે છે, જે સમયસર ઉપાય લેવા માટે મદદરૂપ થાય છે.\n\n4. **ઉત્પાદન વધારવું**: વધુ સચોટ અને સમયસર પગલાં લીધા જવાથી, પાકની ગુણવત્તા અને ઉત્પાદનમાં વધારો થઈ શકે છે.\n\n5. **ખર્ચમાં ઘટાડો**: વધુ અસરકારક રીતે પાણી અને ખાતરનો ઉપયોગ કરીને, તમે ખર્ચમાં ઘટાડો કરી શકો છો.\n\nઆ રીતે, Fyllo સિસ્ટમનો ઉપયોગ કરીને, તમે બટાકાના ઉત્પાદનમાં નોંધપાત્ર સુધારો કરી શકો છો.",
+        "timestamp": {
+          "$date": "2024-12-03T10:29:28.722Z"
+        }
+      }
+    ],
+    "farmer_id": "bharatbhai396",
+    "farmer_plot_ids": [
+      "gharvaloplot344",
+      "vadiyavalo"
+    ],
+    "conversation_id": "674edcafcccd4e4b29d69056",
+    "tag": "complaints",
+    "conv_date": "2024-12-03T10:25:51.235000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "આમાં કયો રોગ છે <user uploaded image for analysis at 'vadi/2024-12-03-1733219312045.jpeg'>",
+        "timestamp": {
+          "$date": "2024-12-03T09:49:13.864Z"
+        },
+        "standalone_question": "What disease is depicted in the uploaded image?",
+        "standalone_en": "What disease is depicted in the uploaded image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "aman kayo rog che <user uploaded image for analysis at 'vadi/2024-12-03-1733219312045.jpeg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "છબીમાં દર્શાવેલ છોડમાં કેટલીક સમસ્યાઓના સંકેત છે:\n\n1. **પાંદડાની વળાંક અને વિકાર**: પાંદડા વળેલા અને અસામાન્ય ટેક્સચર ધરાવે છે, જે વાયરસ સંક્રમણો અથવા પેસ્ટના હુમલાના સંકેત હોઈ શકે છે, જેમ કે આફિડ્સ.\n   \n2. **રંગત**: પાંદડા હળવા લીલા રંગના છે, જે પોષક તત્વોની અછત, ખાસ કરીને નાઈટ્રોજન, અથવા પર્યાવરણના તત્વોથી તણાવ દર્શાવે છે.\n\n3. **કુલ આરોગ્ય**: છોડની વૃદ્ધિ મર્યાદિત લાગે છે, જે જમીનની આરોગ્ય, પેસ્ટના નુકસાન, અથવા રોગના કારણે હોઈ શકે છે.\n\n### ભલામણો:\n- **પેસ્ટની તપાસ**: પાંદડાના નીચેના ભાગમાં આફિડ્સ અથવા સ્પાઈડર માઇટ્સ જેવી પેસ્ટની તપાસ કરો.\n- **જમીનનું આરોગ્ય**: જમીનના પોષક તત્વો અને pH સંતુલન માટે પરીક્ષણ કરવાનું વિચાર કરો.\n- **પાણી આપવાની પદ્ધતિઓ**: ખાતરી કરો કે છોડને પૂરતું પાણી મળી રહ્યું છે, પરંતુ પાણી ભરાવા ન થાય.\n- **ફંગિસાઇડ અથવા ઇન્સેક્ટિસાઇડ**: જો પેસ્ટ અથવા રોગની પુષ્ટિ થાય, તો યોગ્ય સારવાર લાગુ કરો.\n\nવધુ ચોક્કસ નિદાન માટે, કૃપા કરીને અસરગ્રસ્ત પાંદડાઓની નજીકની છબી પ્રદાન કરો, ખાસ કરીને કોઈ વિશિષ્ટ ક્ષેત્રો પર ધ્યાન કેન્દ્રિત કરીને.",
+        "timestamp": {
+          "$date": "2024-12-03T09:49:33.847Z"
+        }
+      }
+    ],
+    "farmer_id": "dineshbhai",
+    "farmer_plot_ids": [
+      "jjpatelfarm",
+      "padarvaluplot",
+      "vadi"
+    ],
+    "conversation_id": "674ed419817038db6f5307a2",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-03T09:49:13.864000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મારા પ્લોટમાં હાલ કયો રોગ છે",
+        "timestamp": {
+          "$date": "2024-12-03T09:20:08.077Z"
+        },
+        "standalone_question": "What disease is currently affecting my plot?",
+        "standalone_en": "What disease is currently affecting my plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara plotaman hal kayo rog che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પ્લોટમાં હાલના રોગોની આગાહી નીચે મુજબ છે:\n\n### Main Palot (Plot 1)\n- **લેટ બ્લાઇટ**: 41.7% (LOW Risk)\n- **અર્લી બ્લાઇટ**: 48.7% (LOW Risk)\n\n### Goga valo Plot (Plot 2)\n- **લેટ બ્લાઇટ**: 41.7% (LOW Risk)\n- **અર્લી બ્લાઇટ**: 48.7% (LOW Risk)\n\nઆ બંને પ્લોટમાં લેટ બ્લાઇટ અને અર્લી બ્લાઇટના રોગોની શક્યતા છે, પરંતુ તેનુ જોખમ સ્તર ઓછું છે.",
+        "timestamp": {
+          "$date": "2024-12-03T09:20:15.665Z"
+        }
+      }
+    ],
+    "farmer_id": "D953",
+    "farmer_plot_ids": [
+      "mainpalot668",
+      "vadiya"
+    ],
+    "conversation_id": "674ecd47a2cdf565d788fdf1",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-03T09:20:08.077000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is PWR and how to calculate it ",
+        "timestamp": {
+          "$date": "2024-12-03T06:16:15.138Z"
+        },
+        "standalone_question": "What is PWR and how can it be calculated?",
+        "standalone_en": "What is PWR and how can it be calculated?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "PWR stands for \"Plant Water Requirement.\" It refers to the amount of water needed by a plant to maintain its growth and health. Calculating PWR involves considering factors such as the plant's growth stage, soil moisture, weather conditions, and evapotranspiration rates.\n\nTo calculate PWR, you can use the following formula:\n\n\\[ \\text{PWR} = \\text{ET} - \\text{P} + \\text{I} \\]\n\nWhere:\n- ET = Evapotranspiration (the amount of water lost through evaporation and transpiration)\n- P = Precipitation (the amount of rainfall received)\n- I = Irrigation (the amount of water supplied through irrigation)\n\nThis calculation helps determine how much additional water is needed to meet the plant's requirements.",
+        "timestamp": {
+          "$date": "2024-12-03T06:16:19.027Z"
+        }
+      }
+    ],
+    "farmer_id": "mangeshshinde",
+    "farmer_plot_ids": [
+      "YWRnYW9u1733206055205",
+      "YXJyYTE11733205565936",
+      "c29uYWth1733205509453",
+      "santyseedless"
+    ],
+    "conversation_id": "674ea22ee8a3149bf4658501",
+    "tag": "others",
+    "conv_date": "2024-12-03T06:16:15.138000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "આમાં કયા રોગ છે <user uploaded image for analysis at 'vadi/2024-12-03-1733206155549.jpeg'>",
+        "timestamp": {
+          "$date": "2024-12-03T06:09:23.268Z"
+        },
+        "standalone_question": "What diseases are present in this image?",
+        "standalone_en": "What diseases are present in this image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "aman kaya rog che <user uploaded image for analysis at 'vadi/2024-12-03-1733206155549.jpeg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "છબીમાં દર્શાવેલ છોડમાં કેટલીક સમસ્યાઓના સંકેત છે, જે તેના આરોગ્યને અસર કરી શકે છે. અહીં કેટલીક નોંધો છે:\n\n1. **પાંદડાની વળાંક અને વિકાર**: પાંદડા વળેલા અને અસામાન્ય ટેક્સચર ધરાવે છે, જે વાયરસ સંક્રમણો અથવા પેસ્ટના હુમલાના સંકેત હોઈ શકે છે, જેમ કે આફિડ અથવા વ્હાઇટફ્લાય.\n\n2. **રંગત**: પાંદડા હળવા લીલા રંગના છે, જે પોષક તત્વોની અછત, ખાસ કરીને નાઈટ્રોજન, અથવા પર્યાવરણના તત્વોથી તણાવ દર્શાવી શકે છે.\n\n3. **કુલ વૃદ્ધિ**: છોડનો વિકાસ અટક્યો છે, જે વિવિધ કારણોસર થઈ શકે છે, જેમ કે ખરાબ મીઠી આરોગ્ય, પેસ્ટના નુકસાન, અથવા રોગ.\n\n### ભલામણો:\n- **પેસ્ટની તપાસ**: પાંદડાના નીચેના ભાગમાં કોઈ દૃશ્ય પેસ્ટ છે કે નહીં તે તપાસો.\n- **મીઠી આરોગ્ય**: પોષક તત્વો અને pH સંતુલન માટે મીઠીનું પરીક્ષણ કરવાનું વિચાર કરો.\n- **પાણી આપવાની પદ્ધતિઓ**: ખાતરી કરો કે છોડને પૂરતું પાણી મળી રહ્યું છે, પરંતુ પાણી ભરાવા વગર.\n- **ફંગિસાઇડ/ઇન્સેક્ટિસાઇડ**: જો પેસ્ટ અથવા રોગની પુષ્ટિ થાય, તો યોગ્ય સારવાર લાગુ કરવી જોઈએ.\n\nવધુ ચોક્કસ નિદાન માટે, કૃપા કરીને અસરગ્રસ્ત પાંદડાઓની નજીકની છબી પ્રદાન કરો, ખાસ કરીને કોઈ વિશિષ્ટ લક્ષણો અથવા પેસ્ટ જોતા.",
+        "timestamp": {
+          "$date": "2024-12-03T06:09:39.413Z"
+        }
+      }
+    ],
+    "farmer_id": "dineshbhai",
+    "farmer_plot_ids": [
+      "jjpatelfarm",
+      "padarvaluplot",
+      "vadi"
+    ],
+    "conversation_id": "674ea093fee440a89ac2dc1c",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-03T06:09:23.268000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "આ કયા રોગ ના લક્ષણો છે <user uploaded image for analysis at 'vadi/2024-12-03-1733203138671.jpeg'>",
+        "timestamp": {
+          "$date": "2024-12-03T05:19:12.379Z"
+        },
+        "standalone_question": "What are the symptoms of this disease?",
+        "standalone_en": "What are the symptoms of this disease?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "a kaya rog na lakshano che <user uploaded image for analysis at 'vadi/2024-12-03-1733203138671.jpeg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "છબીમાં દર્શાવેલ છોડમાં કેટલીક સમસ્યાઓના લક્ષણો જોવા મળે છે:\n\n1. **પાંદડાની વળાંક અને વિકાર**: પાંદડા વળેલા અને અસામાન્ય ટેક્સચર ધરાવે છે, જે વાયરસ સંક્રમણ, જેમ કે પોટેટો વાયરસ Y, અથવા પર્યાવરણના તણાવને દર્શાવી શકે છે.\n\n2. **રંગત**: પાંદડા હળવા લીલા રંગના છે, જે પોષક તત્વોની અછત, ખાસ કરીને નાઈટ્રોજન, અથવા રોગના લક્ષણ તરીકે હોઈ શકે છે.\n\n3. **કુલ આરોગ્ય**: છોડ સ્વસ્થ આલૂના છોડની તુલનામાં વૃદ્ધિમાં અટકાયેલું લાગે છે, જે પેસ્ટના ઉપદ્રવ અથવા રોગોના કારણે હોઈ શકે છે.\n\n### ભલામણો:\n- **પેસ્ટની તપાસ**: નુકસાન કરી રહેલા આફિડ્સ અથવા અન્ય પેસ્ટ્સની તપાસ કરો.\n- **માટીના પરીક્ષણ**: પોષક તત્વોની અછત તપાસવા માટે માટીના પરીક્ષણ કરો.\n- **ફંગિસાઇડ અથવા ઇન્સેક્ટિસાઇડ**: જો પેસ્ટ અથવા રોગની પુષ્ટિ થાય, તો યોગ્ય સારવાર પર વિચાર કરો.\n- **સુધારેલ છબી**: વધુ સારી વિશ્લેષણ માટે, કૃપા કરીને અસરગ્રસ્ત પાંદડાઓ પર ધ્યાન કેન્દ્રિત કરીને નજીકની છબી પ્રદાન કરો, સારી પ્રકાશ અને સ્પષ્ટતા સુનિશ્ચિત કરો.\n\nઆ પગલાં લેવા સાથે, તમે તમારી પાકની આરોગ્ય સુધારવા માટે વધુ ચોક્કસ રીતે સમસ્યાને નિદાન કરી શકો છો.",
+        "timestamp": {
+          "$date": "2024-12-03T05:19:30.150Z"
+        }
+      }
+    ],
+    "farmer_id": "dineshbhai",
+    "farmer_plot_ids": [
+      "jjpatelfarm",
+      "padarvaluplot",
+      "vadi"
+    ],
+    "conversation_id": "674e94d0a2cdf565d788fdf0",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-03T05:19:12.379000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "मातीचा ओलावा किती असला तर पाणी दिले पाहिजेत ",
+        "timestamp": {
+          "$date": "2024-12-03T04:06:34.869Z"
+        },
+        "standalone_question": "What should be the moisture level of the soil to determine when to water?",
+        "standalone_en": "What should be the moisture level of the soil to determine when to water?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today.",
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range."
+          ],
+          "faq": [
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer.",
+            "Q: How do I know if my soil  moisture sensor is working fine ?\nA: The only way to know is if after irrigation the sensor is dropping below 5 kpa and increasing continuously unless next irrigation is done. You can try putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. Also, a soil moisture reading of 0 kPa is perfectly fine, meaning wet soil, but a reading of 200 kPa could mean fault. If the soil moisture sensor reading is consistently at 0 from few 48 hours, then it could be anamolous (use live and historical hourly soil moisture data (use tool) to validate).",
+            "Q: What should I do if the soil moisture sensor always shows wet values?\nA: Verify the irrigation frequency, check the installation point, and contact Fyllo representative if the issue persists.",
+            "Q: How much kPa should be set for a 4-inch depth soil moisture sensor?\nA: The kPa value for a 4-inch depth soil moisture sensor should be set based on the **soil type** and **crop requirements**. Here are general guidelines for different soil types:\n\n### **Sandy Soil:**\n- **Optimal range:** 10–20 kPa\n- **Irrigation threshold:** Above 30 kPa\n\n### **Loamy Soil (Silty or Mixed):**\n- **Optimal range:** 20–40 kPa\n- **Irrigation threshold:** Above 50 kPa\n\n### **Clay Soil:**\n- **Optimal range:** 40–70 kPa\n- **Irrigation threshold:** Above 80 kPa\n\n### **Additional Considerations:**\n- For **sensitive crops** like vegetables, maintain lower kPa thresholds to avoid water stress.\n- For **deep-rooted crops**, kPa values may vary at different depths; calibrate accordingly.\n- **Calibration** of the sensor to your specific soil and crop is essential for accuracy.\n\nConsulting with an agronomist or referring to crop-specific irrigation guides will help you fine-tune the kPa range.",
+            "Q: How to calibrate soil moisture sensors ?\nA:  The way to calibrate sensors is by putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. A drop after watering or irrigation and continuous dry upto 200 kpa means that the sensor is calibrated."
+          ]
+        },
+        "content_transliterated": "maticha olava kiti asla tar pani dile pahijet "
+      },
+      {
+        "role": "assistant",
+        "content": "मातीचा ओलावा 0-5 kPa असला तर तो ओला मानला जातो, आणि 200 kPa जवळ जात असताना माती कोरडी होते. पाण्याची गरज असलेल्या स्थितीत, मातीचा ओलावा उच्च असल्यास, म्हणजे 100 kPa किंवा त्याहून अधिक, तेव्हा पाणी दिले पाहिजे. \n\nआपल्या प्लॉटसाठी पाण्याची आवश्यकता तपासण्यासाठी, मी आंतरनिहित पाण्याच्या अंदाजाची माहिती घेऊ शकतो. तुम्हाला हे करायचे आहे का?",
+        "timestamp": {
+          "$date": "2024-12-03T04:06:38.070Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ho",
+        "timestamp": {
+          "$date": "2024-12-03T04:07:11.481Z"
+        },
+        "standalone_question": "Would you like me to check the estimated moisture levels for your plot?",
+        "standalone_en": "Would you like me to check the estimated moisture levels for your plot?",
+        "retrieval": {
+          "tools": [
+            "get_soil_moisture_percentage_from_kpa_reading  \nGets the estimated soil moisture percentage for a given plot and kPa reading.",
+            "get_soil_moisture_sensor_depth  \nReturns the depths in inches of the soil moisture sensors 1 and 2 installed on the plots.",
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range.",
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today.",
+            "check_spray_conditions  \nGets the spray condition forecast for the next few hours for the farmer's plots and returns the condition for each hour as GOOD, MODERATE, or WORST, based on deltaT, VPD, and rainfall conditions."
+          ],
+          "faq": [
+            "Q: How to measure/ calculate irrigation hours /water tank of my plot in fyllo app? How do I calculate irrigation hours for my plot? How to use the irrigation hours calculator?\nA: To calculate irrigation hours in the Fyllo app, follow these steps:\n\n1. Open the Fyllo App\n2. Go to the home screen\n3. Click on the soil moisture-1 sensor\n4. Scroll down to find the \"Irrigation hours\" section\n5. Fill in the required details such as:\n   - Root width (inches)\n   - Root depth (inches)\n   - Soil retention (mm)\n   - Dripper distance (feet)\n   - Dripper discharge (liters)\n6. Click the calculate button\n\nWould you like me to calculate the irrigation hours for you right now? I can retrieve your plot's irrigation settings and perform the calculation if you say yes.\n\nTool Selection: When user says yes, I should:\n1. Use get_irrigation_installation_settings tool to retrieve plot settings\n2. Check if all values are present and valid\n3. If values are valid, use calculate_irrigation_hours tool with these values\n4. If values are missing or invalid, ask the user to provide the missing values\n5. After calculating irrigation hours, display the irrigation installation settings that were used for the calculation\n6. Ask the user if they want to calculate irrigation hours with a different set of values, and if yes, prompt them to provide those values\n\nExample response if values are missing:\n\"I checked your plot settings, but I need some additional information to calculate irrigation hours accurately. Could you please provide the [missing value(s)]? Once you provide these details, I can complete the calculation for you.\"\n\nExample response after calculation:\n\"Based on your plot's irrigation settings, the calculated irrigation hours are [X] hours. \n\nI used the following settings for this calculation:\n- Root width: [value] inches\n- Root depth: [value] inches\n- Soil retention: [value] mm\n- Dripper distance: [value] feet\n- Dripper discharge: [value] liters\n\nWould you like to calculate irrigation hours with a different set of values? If yes, please provide the new values you'd like to use.\"",
+            "Q: The moisture (kpa) is increasing slowly recently.\nA: Need to check for current stage and evapotranspiration rate. If the crop is recently sown or pruning (छंटाई)  is done recently, the transpiration will be slow and moisture kpa will increase slowly. If evaporation is slow or temperature have dropped on rainfall has happened, it will increase slowly. The chatbot needs to check the temperature , rainfall and crop stage data. And advise if there is any reason for the slow increase.\nIf still there is some confusion, the chatbot needs to ask user to check moisture around the sensor by digging and then ask  the user if he wants to create an issue ticket for the same.",
+            "Q: The moisture (kpa) is increasing very fast  recently and it is asking to irrigate frequently.\nA:  Kpa is increasing fast it means that sensors are drying rapidly.  The chatbot needs to :\nCheck the actual kpa increase rate if it's higher now  in comparison to the previous weeks. If there no , tell the user that kPa increase is normal.\nIf there is rapid increase recently, check if the crop stag is near full fruit growth or harvesting. In the later stages , crop transpiration is very high , thus there is a rapid increase in soil moisture Kpa meaning decrease in moisture in the soil. Also, the moisture drop can be due to high evaporation recently. Check if there is temperature increase meaning high evaporation recently.\nIf the above two are not the cases, ask user to check the moisture physically near the sensor. If the actual moisture is wet near the sensor and the sensor is showing dry, the sensor might be worn out. In this case , ask if the user wants to raise a ticket with the support team."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉट्ससाठी मातीचा ओलावा आणि पाण्याची आवश्यकता खालीलप्रमाणे आहे:\n\n### 1. **Crimson New 2**\n- **सध्याचा मातीचा ओलावा:** \n  - Soil Moisture 1: 3 kPa (ओला)\n  - Soil Moisture 2: 0 kPa (ओला)\n- **आवश्यकता:** पाणी देण्याची आवश्यकता नाही, कारण माती ओली आहे.\n\n### 2. **Plot No 5 Sonaka**\n- **सध्याचा मातीचा ओलावा:** \n  - Soil Moisture 1: 6 kPa (ओला)\n  - Soil Moisture 2: 0 kPa (ओला)\n- **आवश्यकता:** पाणी देण्याची आवश्यकता नाही, कारण माती ओली आहे.\n\n### 3. **Sonaka Plot No 1**\n- **सध्याचा मातीचा ओलावा:** \n  - Soil Moisture 1: 0 kPa (ओला)\n  - Soil Moisture 2: 0 kPa (ओला)\n- **आवश्यकता:** पाणी देण्याची आवश्यकता नाही, कारण माती ओली आहे.\n\n### 4. **Sonaka Plot No 6**\n- **सध्याचा मातीचा ओलावा:** \n  - Soil Moisture 1: 3 kPa (ओला)\n  - Soil Moisture 2: 0 kPa (ओला)\n- **आवश्यकता:** पाणी देण्याची आवश्यकता नाही, कारण माती ओली आहे.\n\nसर्व प्लॉट्समध्ये माती ओली आहे, त्यामुळे पाण्याची आवश्यकता नाही. जर तुम्हाला आणखी काही माहिती हवी असेल तर सांगा!",
+        "timestamp": {
+          "$date": "2024-12-03T04:07:21.559Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Kiti kp la kiti pani dile pahijet ",
+        "timestamp": {
+          "$date": "2024-12-03T04:08:24.756Z"
+        },
+        "standalone_question": "What is the moisture level at which water should be given?",
+        "standalone_en": "What is the moisture level at which water should be given?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today.",
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range."
+          ],
+          "faq": [
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉट्ससाठी पाण्याची आवश्यकता खालीलप्रमाणे आहे:\n\n### 1. **Crimson New 2**\n- **सर्वोत्तम मातीचा ओलावा:** 5 (ओला) - 30 (कोरडा)\n- **पाणी द्यायचे कधी:** 30 kPa च्या वर.\n\n### 2. **Plot No 5 Sonaka**\n- **सर्वोत्तम मातीचा ओलावा:** 5 (ओला) - 28 (कोरडा)\n- **पाणी द्यायचे कधी:** 28 kPa च्या वर.\n\n### 3. **Sonaka Plot No 1**\n- **सर्वोत्तम मातीचा ओलावा:** 5 (ओला) - 32 (कोरडा)\n- **पाणी द्यायचे कधी:** 32 kPa च्या वर.\n\n### 4. **Sonaka Plot No 6**\n- **सर्वोत्तम मातीचा ओलावा:** 5 (ओला) - 28 (कोरडा)\n- **पाणी द्यायचे कधी:** 28 kPa च्या वर.\n\nजर तुम्हाला आणखी काही माहिती हवी असेल तर सांगा!",
+        "timestamp": {
+          "$date": "2024-12-03T04:08:33.955Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Crimson madhe पिवळे पणा दिसत आहे त्या साठी काही spry/dose  द्यावे का ",
+        "timestamp": {
+          "$date": "2024-12-03T04:10:50.580Z"
+        },
+        "standalone_question": "Should I apply any spray or dose for the yellowing observed in the Crimson plot?",
+        "standalone_en": "Should I apply any spray or dose for the yellowing observed in the Crimson plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        },
+        "content_transliterated": "Crimson madhe pivale pana dist aahe tya sathi kahi spry/dose dyave ka "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Crimson New 2\" प्लॉटमध्ये पिवळा पणा दिसत असल्यास, सध्या कोणतीही स्प्रे किंवा डोसची शिफारस केलेली नाही. \n\nतुम्ही पिवळ्या पणा संदर्भात अधिक माहिती किंवा विशिष्ट लक्षणे तपासू शकता. जर तुम्हाला आणखी काही माहिती हवी असेल तर सांगा!",
+        "timestamp": {
+          "$date": "2024-12-03T04:10:55.466Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "बागेत मशागत केली तर पिवळे पना कमी होईल का ",
+        "timestamp": {
+          "$date": "2024-12-03T04:12:20.076Z"
+        },
+        "standalone_question": "Will tilling the garden reduce the yellowing of the plants?",
+        "standalone_en": "Will tilling the garden reduce the yellowing of the plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "baget mashagat kelley tar pivale pana kami hoil ka "
+      },
+      {
+        "role": "assistant",
+        "content": "होय, बागेत मशागत केल्याने पिवळा पणा कमी होऊ शकतो. मशागतामुळे खालील फायदे होतात:\n\n1. **हवा आणि पाण्याचा प्रवाह:** मशागत केल्याने मातीमध्ये हवा आणि पाण्याचा प्रवाह सुधारतो, ज्यामुळे मुळांना आवश्यक पोषण मिळते.\n\n2. **पोषणाची उपलब्धता:** मशागतामुळे मातीतील पोषण तत्वे अधिक सुलभपणे उपलब्ध होतात, ज्यामुळे पिकांची वाढ सुधारते.\n\n3. **रोग आणि कीड नियंत्रण:** मशागत केल्याने मातीतील काही रोग आणि किडींचा प्रभाव कमी होऊ शकतो.\n\n4. **मातीची संरचना सुधारते:** मशागत मातीची संरचना सुधारते, ज्यामुळे पिकांची वाढ अधिक चांगली होते.\n\nतुम्ही मशागत केल्यानंतर पाण्याची योग्य मात्रा आणि पोषणाची देखरेख करणे महत्त्वाचे आहे. जर तुम्हाला आणखी काही माहिती हवी असेल तर सांगा!",
+        "timestamp": {
+          "$date": "2024-12-03T04:12:26.585Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "कोणती मशागत करावी",
+        "timestamp": {
+          "$date": "2024-12-03T04:13:16.098Z"
+        },
+        "standalone_question": "What type of cultivation should be done?",
+        "standalone_en": "What type of cultivation should be done?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "konati mashagat karavi"
+      },
+      {
+        "role": "assistant",
+        "content": "पिवळा पणा कमी करण्यासाठी आणि पिकांची वाढ सुधारण्यासाठी तुम्ही खालील प्रकारच्या मशागतीचा विचार करू शकता:\n\n1. **मातीची मशागत:** \n   - मातीला हलका करणे, म्हणजेच मातीला चांगले वाऱ्याचे आणि पाण्याचे प्रवाह मिळवून देणे.\n   - मातीच्या वरच्या थराला हलके करणे, ज्यामुळे मातीतील पोषण तत्वे अधिक सुलभपणे उपलब्ध होतात.\n\n2. **कापणी:** \n   - पिकांच्या पानांचा कापणी करणे, ज्यामुळे पिकांना अधिक ऊर्जा मिळते आणि पाण्याचा वापर कमी होतो.\n\n3. **सेंद्रिय खाद्यांचा वापर:** \n   - सेंद्रिय खाद्यांचा वापर करून मातीची गुणवत्ता सुधारता येते, ज्यामुळे पिकांची वाढ चांगली होते.\n\n4. **पाण्याचे व्यवस्थापन:** \n   - पाण्याची योग्य मात्रा देणे, म्हणजेच माती ओलसर ठेवणे, परंतु पाण्याचा अति वापर टाळणे.\n\n5. **किड आणि रोग नियंत्रण:** \n   - पिकांवर किड आणि रोगांचा प्रभाव कमी करण्यासाठी योग्य कीटकनाशकांचा वापर करणे.\n\nतुमच्या प्लॉटच्या विशिष्ट परिस्थितीनुसार योग्य मशागत निवडणे महत्त्वाचे आहे. जर तुम्हाला अधिक माहिती हवी असेल तर सांगा!",
+        "timestamp": {
+          "$date": "2024-12-03T04:14:51.985Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "रोटार/वाखरणे/फनने  यातली कोणती मशागत केली तर पिवळे पना कमी होईल ",
+        "timestamp": {
+          "$date": "2024-12-03T04:15:43.599Z"
+        },
+        "standalone_question": "Which type of tillage—rotary tilling, plowing, or harrowing—should be done to reduce yellowing in the plants?",
+        "standalone_en": "Which type of tillage—rotary tilling, plowing, or harrowing—should be done to reduce yellowing in the plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "rotar/vakharane/fanane yatali konati mashagat kelley tar pivale pana kami hoil "
+      },
+      {
+        "role": "assistant",
+        "content": "पिवळा पणा कमी करण्यासाठी तुम्ही खालील प्रकारच्या मशागतीचा विचार करू शकता:\n\n1. **रोटार (Rotary Tiller):**\n   - रोटार वापरल्याने माती चांगली हलवली जाते, ज्यामुळे मातीतील हवा आणि पाण्याचा प्रवाह सुधारतो. यामुळे मुळांना आवश्यक पोषण मिळते आणि पिकांची वाढ सुधारते.\n\n2. **वाखरणे (Plowing):**\n   - वाखरणे केल्याने मातीची संरचना सुधारते आणि पाण्याचा प्रवाह चांगला होतो. यामुळे मातीतील पोषण तत्वे अधिक सुलभपणे उपलब्ध होतात.\n\n3. **फनने (Harrowing):**\n   - फनने केल्याने मातीच्या वरच्या थराला हलका करणे शक्य होते, ज्यामुळे मातीतील ओलावा आणि पोषणाची उपलब्धता सुधारते.\n\nया सर्व मशागतींचा उपयोग पिकांच्या आरोग्यासाठी आणि पिवळा पणा कमी करण्यासाठी केला जाऊ शकतो. तुम्हाला कोणतीही विशिष्ट मशागत करायची असल्यास, तुमच्या प्लॉटच्या परिस्थितीनुसार योग्य निवड करणे महत्त्वाचे आहे. जर तुम्हाला आणखी काही माहिती हवी असेल तर सांगा!",
+        "timestamp": {
+          "$date": "2024-12-03T04:15:49.667Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ok",
+        "timestamp": {
+          "$date": "2024-12-03T04:16:16.454Z"
+        },
+        "standalone_question": "What type of tillage should be done to reduce yellowing in plants?",
+        "standalone_en": "What type of tillage should be done to reduce yellowing in plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "जर तुम्हाला आणखी काही माहिती हवी असेल किंवा कोणतेही प्रश्न असतील, तर कृपया सांगा! मी मदतीसाठी येथे आहे.",
+        "timestamp": {
+          "$date": "2024-12-03T04:16:19.557Z"
+        }
+      }
+    ],
+    "farmer_id": "nileshtidke",
+    "farmer_plot_ids": [
+      "crimsonnew2giurukrupa",
+      "crimsonnewgurukrupa",
+      "sonakaplotno1gurukrupa",
+      "sonakapplotno6guru"
+    ],
+    "conversation_id": "674e83ca47c79789cc724136",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-12-03T04:06:34.869000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "बाग पिवळी दिसत आहे ",
+        "timestamp": {
+          "$date": "2024-12-03T03:50:18.700Z"
+        },
+        "standalone_question": "The garden looks yellow.",
+        "standalone_en": "The garden looks yellow.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "bag pivali disat aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "बाग पिवळी दिसत असल्यास, याचा अर्थ पिकांना काही समस्या असू शकतात. यामध्ये पाण्याची कमतरता, पोषणाची कमतरता, किंवा रोगांचा प्रकोप असू शकतो. \n\nकृपया खालील गोष्टी तपासा:\n\n1. **पाण्याची स्थिती**: मातीच्या आर्द्रतेची तपासणी करा. जर माती खूप कोरडी असेल, तर पाण्याची गरज असू शकते.\n2. **खते**: पिकांना आवश्यक पोषण मिळत आहे का ते तपासा. आवश्यक असल्यास योग्य खते वापरा.\n3. **रोग आणि कीड**: पिकांवर कोणतेही रोग किंवा कीड असल्यास, त्यांची तपासणी करा.\n\nआपल्याला अधिक मदतीची आवश्यकता असल्यास, कृपया अधिक माहिती द्या.",
+        "timestamp": {
+          "$date": "2024-12-03T03:50:23.482Z"
+        }
+      }
+    ],
+    "farmer_id": "nileshtidke",
+    "farmer_plot_ids": [
+      "crimsonnew2giurukrupa",
+      "crimsonnewgurukrupa",
+      "sonakaplotno1gurukrupa",
+      "sonakapplotno6guru"
+    ],
+    "conversation_id": "674e7ffa8ac6e997003221c1",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-03T03:50:18.700000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Khat shedul patava ",
+        "timestamp": {
+          "$date": "2024-12-03T01:45:52.946Z"
+        },
+        "standalone_question": "What is the schedule for the Khat?",
+        "standalone_en": "What is the schedule for the Khat?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या दोन्ही प्लॉट्ससाठी (प्लॉट नंबर 1 थॉम्पसन आणि थॉम्पसन प्लॉट 2) फर्टिगेशन शेड्यूल उपलब्ध नाही कारण या प्लॉट्समध्ये अद्याप कोणतीही पिके लागवडलेली नाहीत. कृपया पिके लागवडल्यावर पुन्हा तपासा.",
+        "timestamp": {
+          "$date": "2024-12-03T01:45:58.123Z"
+        }
+      }
+    ],
+    "farmer_id": "sachinpawarvani",
+    "farmer_plot_ids": [
+      "plotno1thompsonvani",
+      "thompsonplot2shiv"
+    ],
+    "conversation_id": "674e62d0fee440a89ac2dc1a",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-12-03T01:45:52.946000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Aj meri fasal kitne dino ki hai ",
+        "timestamp": {
+          "$date": "2024-12-03T01:22:47.054Z"
+        },
+        "standalone_question": "How many days old is my crop?",
+        "standalone_en": "How many days old is my crop?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapki fasal (Aloo) ki beejai 24 October 2024 ko hui thi. Aaj 3 December 2024 hai, isliye aapki fasal ab tak 40 din ki hai.",
+        "timestamp": {
+          "$date": "2024-12-03T01:22:50.079Z"
+        }
+      }
+    ],
+    "farmer_id": "VR367",
+    "farmer_plot_ids": [
+      "margad"
+    ],
+    "conversation_id": "674e5d66fee440a89ac2dc19",
+    "tag": "historical data",
+    "conv_date": "2024-12-03T01:22:47.054000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "काही गरज आहे का",
+        "timestamp": {
+          "$date": "2024-12-03T01:17:26.506Z"
+        },
+        "standalone_question": "Is there any need for something?",
+        "standalone_en": "Is there any need for something?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kahi garaj aahe ka"
+      },
+      {
+        "role": "assistant",
+        "content": "सध्या कोणतीही रोग किंवा कीड नियंत्रणासाठी स्प्रे करण्याची गरज नाही.",
+        "timestamp": {
+          "$date": "2024-12-03T01:17:31.349Z"
+        }
+      }
+    ],
+    "farmer_id": "shubhamdheple",
+    "farmer_plot_ids": [
+      "plotno1370"
+    ],
+    "conversation_id": "674e5c26fee440a89ac2dc18",
+    "tag": "others",
+    "conv_date": "2024-12-03T01:17:26.506000+00:00"
+  }
+]

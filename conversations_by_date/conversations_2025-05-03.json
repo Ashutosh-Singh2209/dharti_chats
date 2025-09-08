@@ -1,0 +1,648 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ok thanks ",
+        "en": "Ok thanks ",
+        "timestamp": {
+          "$date": "2025-05-03T14:15:32.185Z"
+        },
+        "standalone_question": "What do you think?",
+        "standalone_en": "What do you think?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! If you have any questions or need assistance with your crops, feel free to ask. Happy farming!",
+        "en": "You're welcome! If you have any questions or need assistance with your crops, feel free to ask. Happy farming!",
+        "timestamp": {
+          "$date": "2025-05-03T14:15:34.523Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Optimal soil temp for nutrition uptake ",
+        "en": "Optimal soil temp for nutrition uptake ",
+        "timestamp": {
+          "$date": "2025-05-03T14:16:40.041Z"
+        },
+        "standalone_question": "What is the optimal soil temperature for nutrient uptake?",
+        "standalone_en": "What is the optimal soil temperature for nutrient uptake?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The optimal soil temperature for nutrient uptake generally ranges between **20°C to 30°C (68°F to 86°F)**. Within this range, plants are most efficient at absorbing nutrients. \n\nFor cucumber crops, maintaining soil temperatures within this optimal range will help ensure healthy growth and nutrient uptake. If the soil temperature falls below or rises above this range, nutrient absorption may be hindered, affecting plant health and yield.",
+        "en": "The optimal soil temperature for nutrient uptake generally ranges between **20°C to 30°C (68°F to 86°F)**. Within this range, plants are most efficient at absorbing nutrients. \n\nFor cucumber crops, maintaining soil temperatures within this optimal range will help ensure healthy growth and nutrient uptake. If the soil temperature falls below or rises above this range, nutrient absorption may be hindered, affecting plant health and yield.",
+        "timestamp": {
+          "$date": "2025-05-03T14:16:45.043Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Fertigation done in evening ",
+        "en": "Fertigation done in evening ",
+        "timestamp": {
+          "$date": "2025-05-03T14:20:04.800Z"
+        },
+        "standalone_question": "Is it beneficial to perform fertigation in the evening?",
+        "standalone_en": "Is it beneficial to perform fertigation in the evening?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Since you have already done fertigation in the evening, here's the current fertigation schedule for your cucumber plots during the **Vegetative Growth** stage (Week 1):\n\n### Current Week Fertigation Schedule:\n- **Day 1 (May 3, 2025)**:\n  - **Fertilizers**:\n    - **12-61-0**: 3 kg/acre\n    - **Calcium Nitrate**: 3 kg/acre\n    - Note: Calcium nitrate should be applied separately, 15-20 minutes after application of other fertilizers.\n    - Note: Phosphoric acid should be applied separately, 15-20 minutes before application of other fertilizers.\n\n- **Day 3 (May 5, 2025)**:\n  - **Fertilizers**:\n    - **12-61-0**: 3.5 kg/acre\n    - Note: Follow the same application notes as above.\n\n- **Day 5 (May 7, 2025)**:\n  - **Fertilizers**:\n    - **12-61-0**: 3.5 kg/acre\n    - **Magnesium Sulphate**: 3 kg/acre\n    - Note: Follow the same application notes as above.\n\n### Next Fertigation Schedule:\n- **Week 2 (Starting June 2, 2025)**:\n  - **Day 1**: Potassium Nitrate and Calcium Nitrate\n  - **Day 3**: 12-61-0 or Calcium Nitrate with Phosphoric Acid\n  - **Day 5**: Potassium Nitrate or Calcium Nitrate with Sulfate of Potash\n\nMake sure to follow the application notes for optimal results. If you have any further questions or need assistance, feel free to ask!",
+        "en": "Since you have already done fertigation in the evening, here's the current fertigation schedule for your cucumber plots during the **Vegetative Growth** stage (Week 1):\n\n### Current Week Fertigation Schedule:\n- **Day 1 (May 3, 2025)**:\n  - **Fertilizers**:\n    - **12-61-0**: 3 kg/acre\n    - **Calcium Nitrate**: 3 kg/acre\n    - Note: Calcium nitrate should be applied separately, 15-20 minutes after application of other fertilizers.\n    - Note: Phosphoric acid should be applied separately, 15-20 minutes before application of other fertilizers.\n\n- **Day 3 (May 5, 2025)**:\n  - **Fertilizers**:\n    - **12-61-0**: 3.5 kg/acre\n    - Note: Follow the same application notes as above.\n\n- **Day 5 (May 7, 2025)**:\n  - **Fertilizers**:\n    - **12-61-0**: 3.5 kg/acre\n    - **Magnesium Sulphate**: 3 kg/acre\n    - Note: Follow the same application notes as above.\n\n### Next Fertigation Schedule:\n- **Week 2 (Starting June 2, 2025)**:\n  - **Day 1**: Potassium Nitrate and Calcium Nitrate\n  - **Day 3**: 12-61-0 or Calcium Nitrate with Phosphoric Acid\n  - **Day 5**: Potassium Nitrate or Calcium Nitrate with Sulfate of Potash\n\nMake sure to follow the application notes for optimal results. If you have any further questions or need assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-03T14:20:14.187Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "My soil moisture indicator level remain constant ",
+        "en": "My soil moisture indicator level remain constant ",
+        "timestamp": {
+          "$date": "2025-05-03T14:22:04.440Z"
+        },
+        "standalone_question": "Why does my soil moisture indicator level remain constant?",
+        "standalone_en": "Why does my soil moisture indicator level remain constant?",
+        "retrieval": {
+          "tools": [
+            "get_soil_moisture_sensor_depth  \nReturns the depths in inches of the soil moisture sensors 1 and 2 installed on the plots.",
+            "get_soil_moisture_percentage_from_kpa_reading  \nGets the estimated soil moisture percentage for a given plot and kPa reading."
+          ],
+          "faq": [
+            "Q: How do I know if my soil  moisture sensor is working fine ?\nA: The only way to know is if after irrigation the sensor is dropping below 5 kpa and increasing continuously unless next irrigation is done. You can try putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. Also, a soil moisture reading of 0 kPa is perfectly fine, meaning wet soil, but a reading of 200 kPa could mean fault. If the soil moisture sensor reading is consistently at 0 from few 48 hours, then it could be anamolous (use live and historical hourly soil moisture data (use tool) to validate).",
+            "Q: What should I do if the soil moisture sensor always shows dry values?\nA: Check if irrigation water is reaching the sensor, verify sensor connection, and ensure the sensor is not damaged.",
+            "Q: What should I do if the soil moisture sensor values fluctuate?\nA: Ensure the sensor is installed properly in the soil, check for air bubbles, and contact Fyllo representative if the issue persists.",
+            "Q: What should I do if the soil moisture sensor always shows wet values?\nA: Verify the irrigation frequency, check the installation point, and contact Fyllo representative if the issue persists.",
+            "Q: How to calibrate soil moisture sensors ?\nA:  The way to calibrate sensors is by putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. A drop after watering or irrigation and continuous dry upto 200 kpa means that the sensor is calibrated."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "If your soil moisture indicator level remains constant, it could indicate a few potential issues:\n\n1. **Sensor Malfunction**: The sensor may be damaged or malfunctioning. Check the sensor's connection and ensure it is properly installed in the soil.\n\n2. **Soil Compaction**: If the soil is compacted, it may not allow for proper moisture readings. Consider loosening the soil around the sensor.\n\n3. **Irrigation Issues**: Verify that irrigation water is reaching the sensor area. If the area is not receiving water, the sensor will not register any changes.\n\n4. **Calibration Needed**: The sensor may need recalibration. Consult the manufacturer's guidelines for recalibrating the sensor.\n\n5. **Anomalous Readings**: If the sensor consistently shows the same reading (especially at extremes like 0 kPa or 200 kPa), it may be anomalous. \n\nWould you like me to check the live sensor data or historical hourly soil moisture data to validate the readings?",
+        "en": "If your soil moisture indicator level remains constant, it could indicate a few potential issues:\n\n1. **Sensor Malfunction**: The sensor may be damaged or malfunctioning. Check the sensor's connection and ensure it is properly installed in the soil.\n\n2. **Soil Compaction**: If the soil is compacted, it may not allow for proper moisture readings. Consider loosening the soil around the sensor.\n\n3. **Irrigation Issues**: Verify that irrigation water is reaching the sensor area. If the area is not receiving water, the sensor will not register any changes.\n\n4. **Calibration Needed**: The sensor may need recalibration. Consult the manufacturer's guidelines for recalibrating the sensor.\n\n5. **Anomalous Readings**: If the sensor consistently shows the same reading (especially at extremes like 0 kPa or 200 kPa), it may be anomalous. \n\nWould you like me to check the live sensor data or historical hourly soil moisture data to validate the readings?",
+        "timestamp": {
+          "$date": "2025-05-03T14:22:11.295Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "200kPa meaning ",
+        "en": "200kPa meaning ",
+        "timestamp": {
+          "$date": "2025-05-03T14:23:58.027Z"
+        },
+        "standalone_question": "What does a soil moisture reading of 200 kPa mean?",
+        "standalone_en": "What does a soil moisture reading of 200 kPa mean?",
+        "retrieval": {
+          "tools": [
+            "get_soil_moisture_percentage_from_kpa_reading  \nGets the estimated soil moisture percentage for a given plot and kPa reading.",
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range.",
+            "get_daily_soil_moisture_data  \nRetrieves historical daily soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for larger duration.",
+            "get_hourly_soil_moisture_data  \nRetrieves historical hourly soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for less than 5 days duration."
+          ],
+          "faq": [
+            "Q: My sensor is 200. What can be the reason ?\nA: The 200 kPa means:\neither the soil is fully dry or the sensor is put outside the soil or there is no current reaching the sensor rods meaning the wire is cut or connectors are removed. \nIn this case, check if the moisture went to 200 kpa suddenly or it went gradually. If it went suddenly , it means the wire is broken or the connector is broken. A physical verification of the device is required in this case. Ask user to check or create a support ticket.\nIf it increased gradually, ask user when he irrigated last. If he has not irrigated for long time, the soil would be dry and 200 kpa is fine.",
+            "Q: What is the range of kpa moisture provided by the sensor ?\nA: It's 0-200 Kpa. 0 kPa is wet, 200 kPa is dry",
+            "Q: How do I know if my soil  moisture sensor is working fine ?\nA: The only way to know is if after irrigation the sensor is dropping below 5 kpa and increasing continuously unless next irrigation is done. You can try putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. Also, a soil moisture reading of 0 kPa is perfectly fine, meaning wet soil, but a reading of 200 kPa could mean fault. If the soil moisture sensor reading is consistently at 0 from few 48 hours, then it could be anamolous (use live and historical hourly soil moisture data (use tool) to validate).",
+            "Q: How much kPa should be set for a 4-inch depth soil moisture sensor?\nA: The kPa value for a 4-inch depth soil moisture sensor should be set based on the **soil type** and **crop requirements**. Here are general guidelines for different soil types:\n\n### **Sandy Soil:**\n- **Optimal range:** 10–20 kPa\n- **Irrigation threshold:** Above 30 kPa\n\n### **Loamy Soil (Silty or Mixed):**\n- **Optimal range:** 20–40 kPa\n- **Irrigation threshold:** Above 50 kPa\n\n### **Clay Soil:**\n- **Optimal range:** 40–70 kPa\n- **Irrigation threshold:** Above 80 kPa\n\n### **Additional Considerations:**\n- For **sensitive crops** like vegetables, maintain lower kPa thresholds to avoid water stress.\n- For **deep-rooted crops**, kPa values may vary at different depths; calibrate accordingly.\n- **Calibration** of the sensor to your specific soil and crop is essential for accuracy.\n\nConsulting with an agronomist or referring to crop-specific irrigation guides will help you fine-tune the kPa range.",
+            "Q: My  sensor is showing 0 Kpa for long.\nA: 0-5 kPa means wet soil. It can be due to following :\nIf the device is recently installed, there can be moisture  around the sensor because the sensor is dipped in the water before installing. If this is the case, ask them to do atleast 3 irrigations as per their previous schedule without sensors and sensors would b set by then.\nIf the crop stage is very early or pruing is done recently, the water takeup by plants is negligible in this period because of very less transpiration. If this is the case, ask them to wait till irrigation Kpa in the present stage.\nSometimes, the water can remain accumulated around the sensor due to local landscaping or slope in the land around sensor. In this case, please check the around the sensor. It will have to be reinstalled properly. Chatbot should ask the user if he wants to create an issue ticket for the same"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "A soil moisture reading of **200 kPa** indicates that the soil is **dry**. This means that the soil is not retaining enough moisture for optimal plant growth, and irrigation is typically needed.\n\nHere are a few possible reasons for a reading of 200 kPa:\n\n1. **Fully Dry Soil**: The soil has dried out completely, and plants may be experiencing water stress.\n\n2. **Sensor Placement**: The sensor may be improperly placed, such as being outside the soil or not buried deep enough.\n\n3. **Sensor Malfunction**: There could be an issue with the sensor itself, such as a broken wire or connector.\n\n4. **Lack of Recent Irrigation**: If you haven't irrigated for a while, the soil moisture may have decreased to this level.\n\nIf the reading has increased to 200 kPa suddenly, it may indicate a malfunction. If it has increased gradually, it may simply mean that the soil is dry and needs watering. \n\nWould you like assistance in checking the live sensor data or historical moisture data to further investigate?",
+        "en": "A soil moisture reading of **200 kPa** indicates that the soil is **dry**. This means that the soil is not retaining enough moisture for optimal plant growth, and irrigation is typically needed.\n\nHere are a few possible reasons for a reading of 200 kPa:\n\n1. **Fully Dry Soil**: The soil has dried out completely, and plants may be experiencing water stress.\n\n2. **Sensor Placement**: The sensor may be improperly placed, such as being outside the soil or not buried deep enough.\n\n3. **Sensor Malfunction**: There could be an issue with the sensor itself, such as a broken wire or connector.\n\n4. **Lack of Recent Irrigation**: If you haven't irrigated for a while, the soil moisture may have decreased to this level.\n\nIf the reading has increased to 200 kPa suddenly, it may indicate a malfunction. If it has increased gradually, it may simply mean that the soil is dry and needs watering. \n\nWould you like assistance in checking the live sensor data or historical moisture data to further investigate?",
+        "timestamp": {
+          "$date": "2025-05-03T14:24:03.718Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Please check moisture data",
+        "en": "Please check moisture data",
+        "timestamp": {
+          "$date": "2025-05-03T14:25:13.063Z"
+        },
+        "standalone_question": "Could you please check the moisture data?",
+        "standalone_en": "Could you please check the moisture data?",
+        "retrieval": {
+          "tools": [
+            "get_hourly_soil_moisture_data  \nRetrieves historical hourly soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for less than 5 days duration.",
+            "get_daily_soil_moisture_data  \nRetrieves historical daily soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for larger duration.",
+            "get_soil_moisture_sensor_depth  \nReturns the depths in inches of the soil moisture sensors 1 and 2 installed on the plots.",
+            "get_soil_moisture_percentage_from_kpa_reading  \nGets the estimated soil moisture percentage for a given plot and kPa reading."
+          ],
+          "faq": [
+            "Q: The moisture (kpa) is increasing slowly recently.\nA: Need to check for current stage and evapotranspiration rate. If the crop is recently sown or pruning (छंटाई)  is done recently, the transpiration will be slow and moisture kpa will increase slowly. If evaporation is slow or temperature have dropped on rainfall has happened, it will increase slowly. The chatbot needs to check the temperature , rainfall and crop stage data. And advise if there is any reason for the slow increase.\nIf still there is some confusion, the chatbot needs to ask user to check moisture around the sensor by digging and then ask  the user if he wants to create an issue ticket for the same.",
+            "Q: The moisture (kpa) is increasing very fast  recently and it is asking to irrigate frequently.\nA:  Kpa is increasing fast it means that sensors are drying rapidly.  The chatbot needs to :\nCheck the actual kpa increase rate if it's higher now  in comparison to the previous weeks. If there no , tell the user that kPa increase is normal.\nIf there is rapid increase recently, check if the crop stag is near full fruit growth or harvesting. In the later stages , crop transpiration is very high , thus there is a rapid increase in soil moisture Kpa meaning decrease in moisture in the soil. Also, the moisture drop can be due to high evaporation recently. Check if there is temperature increase meaning high evaporation recently.\nIf the above two are not the cases, ask user to check the moisture physically near the sensor. If the actual moisture is wet near the sensor and the sensor is showing dry, the sensor might be worn out. In this case , ask if the user wants to raise a ticket with the support team.",
+            "Q: What is the range of kpa moisture provided by the sensor ?\nA: It's 0-200 Kpa. 0 kPa is wet, 200 kPa is dry",
+            "Q: Sensor is showing wet, i.e. less kpa but soil looks dry.\nA: The sensor measures the moisture around the rootzone which is not visible from the top. Ask use to check the moisture in rootzone around the sensor. If it matches, ask the user to irrigate."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the information regarding your cucumber plots:\n\n### Crop Stage:\n- **Current Stage**: Vegetative Growth (started on April 29, 2025)\n- **Past Stage**: Crop Establishment (started on April 13, 2025)\n\n### Evapotranspiration:\n- There is no historical evapotranspiration data available for your plots.\n\n### Weather Data:\n- Unfortunately, historical weather data is not available as weather sensors are not present in your device.\n\n### Analysis:\nSince your crop is currently in the **Vegetative Growth** stage, transpiration rates may be moderate. The lack of evapotranspiration data makes it difficult to assess the exact conditions affecting moisture levels. \n\nIf the soil moisture is increasing slowly, it could be due to:\n- Moderate transpiration during the vegetative stage.\n- Lack of recent rainfall or low evaporation rates.\n\n### Recommendation:\nPlease check the moisture physically around the sensor by digging to see if the soil is indeed dry or wet. If the soil appears dry but the sensor shows wet, the sensor may be malfunctioning.\n\nWould you like to create an issue ticket for support regarding the sensor?",
+        "en": "Here's the information regarding your cucumber plots:\n\n### Crop Stage:\n- **Current Stage**: Vegetative Growth (started on April 29, 2025)\n- **Past Stage**: Crop Establishment (started on April 13, 2025)\n\n### Evapotranspiration:\n- There is no historical evapotranspiration data available for your plots.\n\n### Weather Data:\n- Unfortunately, historical weather data is not available as weather sensors are not present in your device.\n\n### Analysis:\nSince your crop is currently in the **Vegetative Growth** stage, transpiration rates may be moderate. The lack of evapotranspiration data makes it difficult to assess the exact conditions affecting moisture levels. \n\nIf the soil moisture is increasing slowly, it could be due to:\n- Moderate transpiration during the vegetative stage.\n- Lack of recent rainfall or low evaporation rates.\n\n### Recommendation:\nPlease check the moisture physically around the sensor by digging to see if the soil is indeed dry or wet. If the soil appears dry but the sensor shows wet, the sensor may be malfunctioning.\n\nWould you like to create an issue ticket for support regarding the sensor?",
+        "timestamp": {
+          "$date": "2025-05-03T14:25:23.122Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Fogger ",
+        "en": "Fogger ",
+        "timestamp": {
+          "$date": "2025-05-03T14:26:23.392Z"
+        },
+        "standalone_question": "What is the purpose of using a fogger in agriculture?",
+        "standalone_en": "What is the purpose of using a fogger in agriculture?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "A fogger is a device used in agriculture to apply pesticides, fungicides, or fertilizers in the form of a fine mist or fog. This method allows for even distribution of the chemicals over crops, ensuring better coverage and absorption. \n\n### Benefits of Using a Fogger:\n1. **Uniform Application**: Ensures that the chemicals reach all parts of the plant, including the undersides of leaves.\n2. **Reduced Chemical Use**: The fine mist can reduce the amount of chemical needed compared to traditional spraying methods.\n3. **Less Drift**: Foggers minimize drift, which can occur with conventional sprayers, reducing the risk of affecting non-target areas.\n4. **Effective for Pest Control**: Fogging can be particularly effective for controlling pests and diseases in dense crops.\n\n### Recommendations:\n- **Timing**: Use foggers during early morning or late evening when temperatures are cooler and wind speeds are lower to minimize drift.\n- **Safety**: Always wear protective gear when handling chemicals and ensure that the area is clear of people and animals during application.\n\nIf you need specific recommendations for using a fogger on your cucumber plots or have any other questions, feel free to ask!",
+        "en": "A fogger is a device used in agriculture to apply pesticides, fungicides, or fertilizers in the form of a fine mist or fog. This method allows for even distribution of the chemicals over crops, ensuring better coverage and absorption. \n\n### Benefits of Using a Fogger:\n1. **Uniform Application**: Ensures that the chemicals reach all parts of the plant, including the undersides of leaves.\n2. **Reduced Chemical Use**: The fine mist can reduce the amount of chemical needed compared to traditional spraying methods.\n3. **Less Drift**: Foggers minimize drift, which can occur with conventional sprayers, reducing the risk of affecting non-target areas.\n4. **Effective for Pest Control**: Fogging can be particularly effective for controlling pests and diseases in dense crops.\n\n### Recommendations:\n- **Timing**: Use foggers during early morning or late evening when temperatures are cooler and wind speeds are lower to minimize drift.\n- **Safety**: Always wear protective gear when handling chemicals and ensure that the area is clear of people and animals during application.\n\nIf you need specific recommendations for using a fogger on your cucumber plots or have any other questions, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-03T14:26:31.619Z"
+        }
+      }
+    ],
+    "farmer_id": "kuntalsinghranjitsinhjhala",
+    "farmer_plot_ids": [
+      "cucumberplots"
+    ],
+    "conversation_id": "681625032e9cfe37e851d080",
+    "_id": "681625032e9cfe37e851d080",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-05-03T14:31:23.401000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-05-03T14:15:32.185000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "12:61:0 can mix with mgso4 in single water tank",
+        "en": "12:61:0 can mix with mgso4 in single water tank",
+        "timestamp": {
+          "$date": "2025-05-03T14:08:36.139Z"
+        },
+        "standalone_question": "Can 12:61:0 be mixed with MgSO4 in a single water tank?",
+        "standalone_en": "Can 12:61:0 be mixed with MgSO4 in a single water tank?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Mixing fertilizers like 12:61:0 (which is high in phosphorus) with magnesium sulfate (MgSO4) can be done, but it's essential to check for compatibility. Generally, these two can be mixed, but it's advisable to conduct a small compatibility test first. \n\nFor precise guidance tailored to your situation, please consult Fyllo’s CRM number for personalized advice.",
+        "en": "Mixing fertilizers like 12:61:0 (which is high in phosphorus) with magnesium sulfate (MgSO4) can be done, but it's essential to check for compatibility. Generally, these two can be mixed, but it's advisable to conduct a small compatibility test first. \n\nFor precise guidance tailored to your situation, please consult Fyllo’s CRM number for personalized advice.",
+        "timestamp": {
+          "$date": "2025-05-03T14:08:39.516Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "CRM number ",
+        "en": "CRM number ",
+        "timestamp": {
+          "$date": "2025-05-03T14:09:39.611Z"
+        },
+        "standalone_question": "What is the CRM number for personalized advice?",
+        "standalone_en": "What is the CRM number for personalized advice?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "You can contact Fyllo's customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in.",
+        "en": "You can contact Fyllo's customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in.",
+        "timestamp": {
+          "$date": "2025-05-03T14:09:42.639Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Fyllo 's CRM number ",
+        "en": "Fyllo 's CRM number ",
+        "timestamp": {
+          "$date": "2025-05-03T14:10:26.322Z"
+        },
+        "standalone_question": "What is Fyllo's CRM number?",
+        "standalone_en": "What is Fyllo's CRM number?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How do I contact customer support for Fyllo?\nA: You can contact customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in. Do you want me to raise a support ticket for you?",
+            "Q: What makes Fyllo different from its competitors?\nA: Fyllo differentiates itself through:\n - Precision & accuracy due to unique installation and sensor positioning.\n - Agronomical Algorithms created by a team of scientists led by Dr. Shikhamany, who is considered by many as the father of Indian grape industry.\n - 100% customer retention: Fyllo is known for its service on the ground, 24-hour issue resolution.\n - User-friendly interface that's easy to understand for all language and age group users.",
+            "Q: What is the Fyllo's accuracy?\nA: Our all agronomical algorithms and insights have an accuracy of 95%.",
+            "Q: How can I reset or restart the Fyllo crop stage on the app?\nA: For Hindi instructions, please watch this video: [फसल की स्टेज कैसे अपडेट करे ?](https://youtu.be/Gx2XUOGqNoA) (Thumbnail: https://img.youtube.com/vi/Gx2XUOGqNoA/mqdefault.jpg). For English instructions, please watch this video: [How to update crop stages in App?](https://youtu.be/knCXf0vdN7k) (Thumbnail: https://img.youtube.com/vi/knCXf0vdN7k/mqdefault.jpg). For additional info, contact the CRM team: You can contact customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in.\nMake sure to give both hindi and english links.",
+            "Q: How does the Fyllo device work?\nA: The Fyllo device captures data from 11 sensors at regular intervals. This data is then analyzed using Fyllo's Weather & Agronomical Algorithms to provide alerts to farmers for disease & pest management, irrigation management, fertigation management, and weather prediction."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "You can contact Fyllo's customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in.",
+        "en": "You can contact Fyllo's customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in.",
+        "timestamp": {
+          "$date": "2025-05-03T14:10:29.068Z"
+        }
+      }
+    ],
+    "farmer_id": "kuntalsinghranjitsinhjhala",
+    "farmer_plot_ids": [
+      "cucumberplots"
+    ],
+    "conversation_id": "681623642e9cfe37e851d07f",
+    "_id": "681623642e9cfe37e851d07f",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-05-03T14:15:26.330000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-05-03T14:08:36.139000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "12:61:0 can mix with mgso4 in single water tank",
+        "en": "12:61:0 can mix with mgso4 in single water tank",
+        "timestamp": {
+          "$date": "2025-05-03T14:08:36.139Z"
+        },
+        "standalone_question": "Can 12:61:0 be mixed with MgSO4 in a single water tank?",
+        "standalone_en": "Can 12:61:0 be mixed with MgSO4 in a single water tank?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Mixing fertilizers like 12:61:0 (which is high in phosphorus) with magnesium sulfate (MgSO4) can be done, but it's essential to check for compatibility. Generally, these two can be mixed, but it's advisable to conduct a small compatibility test first. \n\nFor precise guidance tailored to your situation, please consult Fyllo’s CRM number for personalized advice.",
+        "en": "Mixing fertilizers like 12:61:0 (which is high in phosphorus) with magnesium sulfate (MgSO4) can be done, but it's essential to check for compatibility. Generally, these two can be mixed, but it's advisable to conduct a small compatibility test first. \n\nFor precise guidance tailored to your situation, please consult Fyllo’s CRM number for personalized advice.",
+        "timestamp": {
+          "$date": "2025-05-03T14:08:39.516Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "CRM number ",
+        "en": "CRM number ",
+        "timestamp": {
+          "$date": "2025-05-03T14:09:39.611Z"
+        },
+        "standalone_question": "What is the CRM number for Fyllo?",
+        "standalone_en": "What is the CRM number for Fyllo?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How do I contact customer support for Fyllo?\nA: You can contact customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in. Do you want me to raise a support ticket for you?",
+            "Q: What makes Fyllo different from its competitors?\nA: Fyllo differentiates itself through:\n - Precision & accuracy due to unique installation and sensor positioning.\n - Agronomical Algorithms created by a team of scientists led by Dr. Shikhamany, who is considered by many as the father of Indian grape industry.\n - 100% customer retention: Fyllo is known for its service on the ground, 24-hour issue resolution.\n - User-friendly interface that's easy to understand for all language and age group users.",
+            "Q: How does the Fyllo device work?\nA: The Fyllo device captures data from 11 sensors at regular intervals. This data is then analyzed using Fyllo's Weather & Agronomical Algorithms to provide alerts to farmers for disease & pest management, irrigation management, fertigation management, and weather prediction.",
+            "Q: How can I reset or restart the Fyllo crop stage on the app?\nA: For Hindi instructions, please watch this video: [फसल की स्टेज कैसे अपडेट करे ?](https://youtu.be/Gx2XUOGqNoA) (Thumbnail: https://img.youtube.com/vi/Gx2XUOGqNoA/mqdefault.jpg). For English instructions, please watch this video: [How to update crop stages in App?](https://youtu.be/knCXf0vdN7k) (Thumbnail: https://img.youtube.com/vi/knCXf0vdN7k/mqdefault.jpg). For additional info, contact the CRM team: You can contact customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in.\nMake sure to give both hindi and english links.",
+            "Q: What is the Fyllo's accuracy?\nA: Our all agronomical algorithms and insights have an accuracy of 95%."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "You can contact Fyllo's customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in.",
+        "en": "You can contact Fyllo's customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in.",
+        "timestamp": {
+          "$date": "2025-05-03T14:09:42.639Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Fyllo 's CRM number ",
+        "en": "Fyllo 's CRM number ",
+        "timestamp": {
+          "$date": "2025-05-03T14:10:26.322Z"
+        },
+        "standalone_question": "What is Fyllo's CRM number?",
+        "standalone_en": "What is Fyllo's CRM number?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How do I contact customer support for Fyllo?\nA: You can contact customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in. Do you want me to raise a support ticket for you?",
+            "Q: What makes Fyllo different from its competitors?\nA: Fyllo differentiates itself through:\n - Precision & accuracy due to unique installation and sensor positioning.\n - Agronomical Algorithms created by a team of scientists led by Dr. Shikhamany, who is considered by many as the father of Indian grape industry.\n - 100% customer retention: Fyllo is known for its service on the ground, 24-hour issue resolution.\n - User-friendly interface that's easy to understand for all language and age group users.",
+            "Q: What is the Fyllo's accuracy?\nA: Our all agronomical algorithms and insights have an accuracy of 95%.",
+            "Q: How can I reset or restart the Fyllo crop stage on the app?\nA: For Hindi instructions, please watch this video: [फसल की स्टेज कैसे अपडेट करे ?](https://youtu.be/Gx2XUOGqNoA) (Thumbnail: https://img.youtube.com/vi/Gx2XUOGqNoA/mqdefault.jpg). For English instructions, please watch this video: [How to update crop stages in App?](https://youtu.be/knCXf0vdN7k) (Thumbnail: https://img.youtube.com/vi/knCXf0vdN7k/mqdefault.jpg). For additional info, contact the CRM team: You can contact customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in.\nMake sure to give both hindi and english links.",
+            "Q: How does the Fyllo device work?\nA: The Fyllo device captures data from 11 sensors at regular intervals. This data is then analyzed using Fyllo's Weather & Agronomical Algorithms to provide alerts to farmers for disease & pest management, irrigation management, fertigation management, and weather prediction."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "You can contact Fyllo's customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in.",
+        "en": "You can contact Fyllo's customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in.",
+        "timestamp": {
+          "$date": "2025-05-03T14:10:29.068Z"
+        }
+      }
+    ],
+    "farmer_id": "kuntalsinghranjitsinhjhala",
+    "farmer_plot_ids": [
+      "cucumberplots"
+    ],
+    "conversation_id": "681623642e9cfe37e851d07f",
+    "_id": "681623642e9cfe37e851d07f",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-05-03T14:15:26.330000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-05-03T14:08:36.139000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi",
+        "en": "Hi",
+        "timestamp": {
+          "$date": "2025-05-03T12:01:56.068Z"
+        },
+        "standalone_question": "What would you like to talk about today?",
+        "standalone_en": "What would you like to talk about today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Hello, Pawan Patilji! How can I assist you with your farming needs today?",
+        "en": "Hello, Pawan Patilji! How can I assist you with your farming needs today?",
+        "timestamp": {
+          "$date": "2025-05-03T12:01:58.462Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "What Is this problem <user uploaded image for analysis at 'plot1226147/2025-05-03-1746273644325.jpg'>",
+        "en": "What Is this problem <user uploaded image for analysis at 'plot1226147/2025-05-03-1746273644325.jpg'>",
+        "timestamp": {
+          "$date": "2025-05-03T12:00:56.459Z"
+        },
+        "standalone_question": "What is the problem depicted in the uploaded image?",
+        "standalone_en": "What is the problem depicted in the uploaded image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of your uploaded image indicates that there are no specific spray suggestions available for banana plants at the vegetative stage based on the current data. However, here are some general practices to improve the health of your banana plants:\n\n1. **Nutrient Management**: Ensure that the plants are receiving adequate nutrients, particularly nitrogen, potassium, and magnesium.\n2. **Water Management**: Check for proper irrigation practices to avoid water stress.\n3. **Disease Management**: Monitor for signs of diseases and pests, and consider consulting with a local agricultural expert for targeted treatments.\n\nIf you have further concerns or if the situation worsens, please provide clearer images of the affected areas for a more detailed analysis.",
+        "en": "The analysis of your uploaded image indicates that there are no specific spray suggestions available for banana plants at the vegetative stage based on the current data. However, here are some general practices to improve the health of your banana plants:\n\n1. **Nutrient Management**: Ensure that the plants are receiving adequate nutrients, particularly nitrogen, potassium, and magnesium.\n2. **Water Management**: Check for proper irrigation practices to avoid water stress.\n3. **Disease Management**: Monitor for signs of diseases and pests, and consider consulting with a local agricultural expert for targeted treatments.\n\nIf you have further concerns or if the situation worsens, please provide clearer images of the affected areas for a more detailed analysis.",
+        "timestamp": {
+          "$date": "2025-05-03T12:02:24.723Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Patte pile pad rahe hai<user uploaded image for analysis at 'plot1226147/2025-05-03-1746273741162.jpg'>",
+        "en": "Leaves are turning yellow<user uploaded image for analysis at 'plot1226147/2025-05-03-1746273741162.jpg'>",
+        "timestamp": {
+          "$date": "2025-05-03T12:02:47.077Z"
+        },
+        "standalone_question": "What is causing the leaves to turn yellow?",
+        "standalone_en": "What is causing the leaves to turn yellow?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of your uploaded image indicates that there are no specific spray suggestions available for your banana plants at the vegetative stage. However, here are some general recommendations to address the issue of leaf pile-up:\n\n1. **Fertilization**: Consider applying a balanced fertilizer to address potential nutrient deficiencies.\n2. **Pest Control**: Regularly inspect for pests that may be affecting the plants.\n3. **Water Management**: Ensure that the plants are receiving adequate water without waterlogging.\n\nFor a more targeted approach, I recommend consulting with a local agricultural expert who can assess the situation on-site. Additionally, providing a clearer image focusing on the affected areas may help in diagnosing the issue more accurately.",
+        "en": "The analysis of your uploaded image indicates that there are no specific spray suggestions available for your banana plants at the vegetative stage. However, here are some general recommendations to address the issue of leaf pile-up:\n\n1. **Fertilization**: Consider applying a balanced fertilizer to address potential nutrient deficiencies.\n2. **Pest Control**: Regularly inspect for pests that may be affecting the plants.\n3. **Water Management**: Ensure that the plants are receiving adequate water without waterlogging.\n\nFor a more targeted approach, I recommend consulting with a local agricultural expert who can assess the situation on-site. Additionally, providing a clearer image focusing on the affected areas may help in diagnosing the issue more accurately.",
+        "timestamp": {
+          "$date": "2025-05-03T12:03:06.583Z"
+        }
+      }
+    ],
+    "farmer_id": "pawanpatilji",
+    "farmer_plot_ids": [
+      "plot1226147"
+    ],
+    "conversation_id": "681605782e9cfe37e851d07c",
+    "_id": "681605782e9cfe37e851d07c",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-05-03T12:07:47.085000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-05-03T12:01:56.068000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Mera began ar tmatr ke phodha me wilt aa raha hai kon sa dava dalna hai",
+        "en": "I am getting wilt in my beginning, which medicine should I put",
+        "timestamp": {
+          "$date": "2025-05-03T10:42:37.923Z"
+        },
+        "standalone_question": "What medicine should I add to the plant that is starting to wilt?",
+        "standalone_en": "What medicine should I add to the plant that is starting to wilt?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Agar aapke brinjal ke podhe mein wilt aa raha hai, to aapko fungicide ka istemal karna chahiye. Aap \"Fusarium wilt\" ke liye \"Carbendazim\" ya \"Thiophanate-methyl\" ka istemal kar sakte hain. \n\n**Dava ka istemal:**\n- **Carbendazim**: 1-2 g/liter paani mein milakar daalna.\n- **Thiophanate-methyl**: 1-2 g/liter paani mein milakar daalna.\n\nIske alawa, podhe ki jameen ki sehat aur paani ki matra ka dhyan rakhna bhi zaroori hai.",
+        "en": "If you have wilt in your brindle plant, you should use fungicides. You can use \"Karabendjim\" or \"Thiophanate-Methyl\" for \"Fusarium Wilt\". \n\n**Medication Use:**\n- **Karbendazim**: Mix in 1-2 g/liter of water.\n- Thiophanate-methyl: Mix with 1-2 g/litre of water.\n\nIn addition, it is important to take care of the health of the plant soil and the amount of water it contains.",
+        "timestamp": {
+          "$date": "2025-05-03T10:42:45.028Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ar tamatr ke phodha me",
+        "en": "In the fodha of Aar Tatra",
+        "timestamp": {
+          "$date": "2025-05-03T10:44:12.118Z"
+        },
+        "standalone_question": "What should I do if my tomato plant is experiencing issues?",
+        "standalone_en": "What should I do if my tomato plant is experiencing issues?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Tamatar ke podhe mein wilt hone par aapko kuch specific dawaon ka istemal karna chahiye. Yahan kuch dawaen hain jo aap istemal kar sakte hain:\n\n1. **Fusarium wilt ke liye**:\n   - **Carbendazim**: 1-2 g/liter paani mein milakar daalna.\n   - **Thiophanate-methyl**: 1-2 g/liter paani mein milakar daalna.\n\n2. **Damping off ke liye**:\n   - **Carbendazim**: 2.5 g/liter paani mein milakar daalna.\n\n3. **Pest control**:\n   - **Chlorpyriphos**: 5 mL/liter paani mein milakar daalna.\n   - **Thiamethoxam**: 0.5 g/liter paani mein milakar daalna.\n\nIn dawaon ka istemal karne se aap apne tamatar ke podhon ko wilt se bachane mein madad kar sakte hain.",
+        "en": "You should use some specific medicines when the tomato plant wilts. Here are some medications you can use:\n\n1. **For Fusarium Wilt**:\n   - **Karbendazim**: Mix in 1-2 g/liter of water.\n   - Thiophanate-methyl: Mix with 1-2 g/litre of water.\n\n2. **For Dumping Off**:\n   - **Karabendazim**: Mix in 2.5 g/liter of water.\n\n3. **Paste Control**:\n   - Chlorpyrifos: Mix with 5 mL/L of water.\n   - **Thiamethok**: Mix with 0.5 g/liter of water.\n\nUsing these medications can help you protect your tomato plants from wilt.",
+        "timestamp": {
+          "$date": "2025-05-03T10:44:18.408Z"
+        }
+      }
+    ],
+    "farmer_id": "laxmansahu",
+    "farmer_plot_ids": [
+      "brinjalplot496"
+    ],
+    "conversation_id": "6815f31d2e9cfe37e851d07b",
+    "_id": "6815f31d2e9cfe37e851d07b",
+    "language": "hi",
+    "expiry": {
+      "$date": "2025-05-03T10:49:12.126000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-05-03T10:42:37.923000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ide identify the problem and give solution<user uploaded image for analysis at 'plot1226147/2025-05-03-1746252966222.jpg'>",
+        "en": "Ide identify the problem and give solution<user uploaded image for analysis at 'plot1226147/2025-05-03-1746252966222.jpg'>",
+        "timestamp": {
+          "$date": "2025-05-03T06:16:11.383Z"
+        },
+        "standalone_question": "What is the problem identified in the uploaded image, and what solution can be proposed?",
+        "standalone_en": "What is the problem identified in the uploaded image, and what solution can be proposed?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The banana plants in the image show signs of distress, particularly with yellowing and browning leaves. This could indicate several issues:\n\n1. **Nutrient Deficiency**: The browning and wilting of leaves may suggest a lack of essential nutrients, particularly potassium or nitrogen.\n2. **Water Stress**: The condition of the leaves could also be a result of either overwatering or underwatering.\n3. **Disease**: There may be a possibility of a fungal or bacterial infection causing similar symptoms.\n\n### Recommended Actions:\n1. **Inspect for Pests or Diseases**: Check for any signs of pests or fungal infections on the leaves and stems.\n2. **Soil Testing**: Conduct a soil test to determine nutrient levels and pH balance.\n3. **Water Management**: Ensure proper irrigation practices are being followed.\n\nIf you can provide a clearer image focusing on the affected areas, it would help in giving a more precise analysis. Would you like assistance with any specific action, such as soil testing or pest inspection?",
+        "en": "The banana plants in the image show signs of distress, particularly with yellowing and browning leaves. This could indicate several issues:\n\n1. **Nutrient Deficiency**: The browning and wilting of leaves may suggest a lack of essential nutrients, particularly potassium or nitrogen.\n2. **Water Stress**: The condition of the leaves could also be a result of either overwatering or underwatering.\n3. **Disease**: There may be a possibility of a fungal or bacterial infection causing similar symptoms.\n\n### Recommended Actions:\n1. **Inspect for Pests or Diseases**: Check for any signs of pests or fungal infections on the leaves and stems.\n2. **Soil Testing**: Conduct a soil test to determine nutrient levels and pH balance.\n3. **Water Management**: Ensure proper irrigation practices are being followed.\n\nIf you can provide a clearer image focusing on the affected areas, it would help in giving a more precise analysis. Would you like assistance with any specific action, such as soil testing or pest inspection?",
+        "timestamp": {
+          "$date": "2025-05-03T06:16:24.550Z"
+        }
+      }
+    ],
+    "farmer_id": "pawanpatilji",
+    "farmer_plot_ids": [
+      "plot1226147"
+    ],
+    "conversation_id": "6815b4ab2e9cfe37e851d077",
+    "_id": "6815b4ab2e9cfe37e851d077",
+    "language": "hi",
+    "expiry": {
+      "$date": "2025-05-03T06:21:11.394000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-05-03T06:16:11.383000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पिकचक्र कसे बदलावे ",
+        "en": "How to change the crop cycle ",
+        "timestamp": {
+          "$date": "2025-05-03T02:29:07.647Z"
+        },
+        "standalone_question": "How to change the picture cycle?",
+        "standalone_en": "How to change the picture cycle?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pikachakr kase badlave "
+      },
+      {
+        "role": "assistant",
+        "content": "पिकचक्र बदलण्यासाठी, कृपया खालील चरणांचे पालन करा:\n\n1. \"माझे शेत\" वर जा.\n2. \"पिकचक्र\" निवडा.\n3. आवश्यक माहिती भरा.\n4. \"सुरू करा\" किंवा \"अपडेट\" बटणावर क्लिक करा.\n\nअधिक माहितीसाठी, कृपया Fyllo च्या ग्राहक समर्थनाशी संपर्क साधा.",
+        "en": "To change the crop cycle, please follow the steps below:\n\n1. Go to \"My Farm.\"\n2. Choose \"Peak Cycle.\"\n3. Fill in the required information.\n4. Click on the \"Start\" or \"Update\" button.\n\nFor more information, please contact Fyllo's Customer Support.",
+        "timestamp": {
+          "$date": "2025-05-03T02:29:10.739Z"
+        }
+      }
+    ],
+    "farmer_id": "ajayvilasraoborkar",
+    "farmer_plot_ids": [
+      "mangoplot527",
+      "orangekairo",
+      "orangenero"
+    ],
+    "conversation_id": "68157f732e9cfe37e851d071",
+    "_id": "68157f732e9cfe37e851d071",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-03T02:34:07.657000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-05-03T02:29:07.647000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "खत व्यवस्थापन ",
+        "en": "Fertilizer management ",
+        "timestamp": {
+          "$date": "2025-05-03T02:21:50.585Z"
+        },
+        "standalone_question": "Standalone Question: What is waste management?",
+        "standalone_en": "Standalone Question: What is waste management?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "khat vyavasthapan "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या \"Manikchaman Plot\" मध्ये, सध्या आपण \"Break Bud\" या पिकाच्या टप्प्यात आहात, जो 2025-04-20 पासून सुरू झाला आहे. सध्या आपण 2 व्या आठवड्यात आहात. \n\n### Fertigation Schedule for Current Week (Week 2):\n1. **Foliar Method:**\n   - **Ferrous Sulphate:** 600 gm/acre\n   - **Manganese Sulphate:** 600 gm/acre\n   - *Note:* Foliar spray concentration should not exceed 1% (e.g., 5 kg in 500 liters of water per acre).\n\n2. **Fertigation Method:**\n   - **Combination 1:**\n     - **12-61-0:** 4 kg/acre\n     - **Calcium Nitrate:** 19.5 kg/acre\n   - **Combination 2:**\n     - **24-24-0:** 14.5 kg/acre\n   - **Combination 3:**\n     - **Calcium Nitrate:** 23 kg/acre\n     - **Phosphoric Acid 80%:** 3.5 kg/acre\n   - *Notes:*\n     - Phosphoric acid should be applied separately, 15-20 minutes before other fertilizers.\n     - Calcium nitrate should be applied separately, 15-20 minutes after other fertilizers.\n\n### Next Week's Schedule (Week 3):\n- **Fertigation Method:**\n   - **Combination 1:**\n     - **12-61-0:** 4 kg/acre\n     - **Calcium Nitrate:** 4.5 kg/acre\n   - **Combination 2:**\n     - **24-24-0:** 5 kg/acre\n     - **Phosphoric Acid 80%:** 2 kg/acre\n   - **Combination 3:**\n     - **Calcium Nitrate:** 7.5 kg/acre\n     - **Phosphoric Acid 80%:** 3.5 kg/acre\n   - *Notes:*\n     - Same as above regarding phosphoric acid and calcium nitrate.\n\nआपण या सूचना लक्षात घेऊन खत व्यवस्थापन करू शकता.",
+        "en": "आपल्या \"Manikchaman Plot\" मध्ये, सध्या आपण \"Break Bud\" या पिकाच्या टप्प्यात आहात, जो 2025-04-20 पासून सुरू झाला आहे. सध्या आपण 2 व्या आठवड्यात आहात. \n\n### Fertigation Schedule for Current Week (Week 2):\n1. **Foliar Method:**\n   - **Ferrous Sulphate:** 600 gm/acre\n   - **Manganese Sulphate:** 600 gm/acre\n   - *Note:* Foliar spray concentration should not exceed 1% (e.g., 5 kg in 500 liters of water per acre).\n\n2. **Fertigation Method:**\n   - **Combination 1:**\n     - **12-61-0:** 4 kg/acre\n     - **Calcium Nitrate:** 19.5 kg/acre\n   - **Combination 2:**\n     - **24-24-0:** 14.5 kg/acre\n   - **Combination 3:**\n     - **Calcium Nitrate:** 23 kg/acre\n     - **Phosphoric Acid 80%:** 3.5 kg/acre\n   - *Notes:*\n     - Phosphoric acid should be applied separately, 15-20 minutes before other fertilizers.\n     - Calcium nitrate should be applied separately, 15-20 minutes after other fertilizers.\n\n### Next Week's Schedule (Week 3):\n- **Fertigation Method:**\n   - **Combination 1:**\n     - **12-61-0:** 4 kg/acre\n     - **Calcium Nitrate:** 4.5 kg/acre\n   - **Combination 2:**\n     - **24-24-0:** 5 kg/acre\n     - **Phosphoric Acid 80%:** 2 kg/acre\n   - **Combination 3:**\n     - **Calcium Nitrate:** 7.5 kg/acre\n     - **Phosphoric Acid 80%:** 3.5 kg/acre\n   - *Notes:*\n     - Same as above regarding phosphoric acid and calcium nitrate.\n\nआपण या सूचना लक्षात घेऊन खत व्यवस्थापन करू शकता.",
+        "timestamp": {
+          "$date": "2025-05-03T02:21:58.476Z"
+        }
+      }
+    ],
+    "farmer_id": "maheshbagal",
+    "farmer_plot_ids": [
+      "manikchamanplot137"
+    ],
+    "conversation_id": "68157dbeec13e8e098bb6522",
+    "_id": "68157dbeec13e8e098bb6522",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-03T02:26:50.593000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-05-03T02:21:50.585000+00:00"
+  }
+]

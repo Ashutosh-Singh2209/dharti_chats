@@ -1,0 +1,665 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How identify flowering stage",
+        "en": "How identify flowering stage",
+        "timestamp": {
+          "$date": "2025-05-02T15:42:17.432Z"
+        },
+        "standalone_question": "How can I identify the flowering stage of a plant?",
+        "standalone_en": "How can I identify the flowering stage of a plant?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The flowering stage in cucumber plants is characterized by the following signs:\n\n1. **Flower Bud Formation**: You will start to see flower buds developing on the plant.\n2. **Open Flowers**: The flowers will begin to open, typically yellow in color for cucumbers.\n3. **Pollination**: This stage is crucial for fruit development, as pollination occurs during this time.\n4. **Growth Changes**: The plant may show increased growth and vigor as it transitions from vegetative growth to flowering.\n\nMonitoring these signs will help you identify when your cucumber plants have reached the flowering stage. If you need further assistance or specific recommendations, feel free to ask!",
+        "en": "The flowering stage in cucumber plants is characterized by the following signs:\n\n1. **Flower Bud Formation**: You will start to see flower buds developing on the plant.\n2. **Open Flowers**: The flowers will begin to open, typically yellow in color for cucumbers.\n3. **Pollination**: This stage is crucial for fruit development, as pollination occurs during this time.\n4. **Growth Changes**: The plant may show increased growth and vigor as it transitions from vegetative growth to flowering.\n\nMonitoring these signs will help you identify when your cucumber plants have reached the flowering stage. If you need further assistance or specific recommendations, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-02T15:42:23.197Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Soil moisture not workings ",
+        "en": "Soil moisture not workings ",
+        "timestamp": {
+          "$date": "2025-05-02T15:45:51.168Z"
+        },
+        "standalone_question": "What should I do if the soil moisture is not working properly?",
+        "standalone_en": "What should I do if the soil moisture is not working properly?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today.",
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range."
+          ],
+          "faq": [
+            "Q: What should I do if the soil moisture sensor always shows dry values?\nA: Check if irrigation water is reaching the sensor, verify sensor connection, and ensure the sensor is not damaged.",
+            "Q: What should I do if the soil moisture sensor values fluctuate?\nA: Ensure the sensor is installed properly in the soil, check for air bubbles, and contact Fyllo representative if the issue persists.",
+            "Q: What should I do if the soil moisture sensor always shows wet values?\nA: Verify the irrigation frequency, check the installation point, and contact Fyllo representative if the issue persists.",
+            "Q: How do I know if my soil  moisture sensor is working fine ?\nA: The only way to know is if after irrigation the sensor is dropping below 5 kpa and increasing continuously unless next irrigation is done. You can try putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. Also, a soil moisture reading of 0 kPa is perfectly fine, meaning wet soil, but a reading of 200 kPa could mean fault. If the soil moisture sensor reading is consistently at 0 from few 48 hours, then it could be anamolous (use live and historical hourly soil moisture data (use tool) to validate).",
+            "Q: What should I do if the soil temperature sensor is not working?\nA: Check the sensor connection, tighten it if loose, and restart the device to check updated data."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The current soil moisture reading for your cucumber plots is 93%, which indicates that the soil is quite wet. \n\nIf the sensor is consistently showing high moisture levels, it may not be functioning properly. Here are a few steps you can take:\n\n1. **Check Sensor Installation**: Ensure that the sensor is properly installed in the soil and not exposed to air.\n2. **Irrigation Check**: Verify if irrigation water is reaching the sensor area. If the soil is saturated, it may be affecting the readings.\n3. **Sensor Condition**: Inspect the sensor for any visible damage or issues.\n4. **Contact Support**: If the problem persists, consider reaching out to Fyllo support for further assistance.\n\nIf you need help with anything else, feel free to ask!",
+        "en": "The current soil moisture reading for your cucumber plots is 93%, which indicates that the soil is quite wet. \n\nIf the sensor is consistently showing high moisture levels, it may not be functioning properly. Here are a few steps you can take:\n\n1. **Check Sensor Installation**: Ensure that the sensor is properly installed in the soil and not exposed to air.\n2. **Irrigation Check**: Verify if irrigation water is reaching the sensor area. If the soil is saturated, it may be affecting the readings.\n3. **Sensor Condition**: Inspect the sensor for any visible damage or issues.\n4. **Contact Support**: If the problem persists, consider reaching out to Fyllo support for further assistance.\n\nIf you need help with anything else, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-02T15:45:59.778Z"
+        }
+      }
+    ],
+    "farmer_id": "kuntalsinghranjitsinhjhala",
+    "farmer_plot_ids": [
+      "cucumberplots"
+    ],
+    "conversation_id": "6814e7d9118ab96f10a31f8a",
+    "_id": "6814e7d9118ab96f10a31f8a",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-05-02T15:50:51.177000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-05-02T15:42:17.432000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "भुरी नियोजन सांगा",
+        "en": "Tell me the brown plan",
+        "timestamp": {
+          "$date": "2025-05-02T13:45:00.901Z"
+        },
+        "standalone_question": "What is the plan for the meeting?",
+        "standalone_en": "What is the plan for the meeting?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "bhuri niyojan sanga"
+      },
+      {
+        "role": "assistant",
+        "content": "\"प्लॉट नं. 1 (SSN)\" साठी फर्टिगेशन डेटा शेड्यूल उपलब्ध नाही. कृपया दुसरे काही विचारू शकता.",
+        "en": "\"Plot No. The fertigation data schedule for \"1 (SSN)\" is not available. Please ask something else.",
+        "timestamp": {
+          "$date": "2025-05-02T13:45:06.551Z"
+        }
+      }
+    ],
+    "farmer_id": "ravindrasangale",
+    "farmer_plot_ids": [
+      "plotno1ssn594413"
+    ],
+    "conversation_id": "6814cc5c2e9cfe37e851d06f",
+    "_id": "6814cc5c2e9cfe37e851d06f",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-02T13:50:00.909000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-05-02T13:45:00.901000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Khat2",
+        "en": "Khat2",
+        "timestamp": {
+          "$date": "2025-05-02T13:22:28.264Z"
+        },
+        "standalone_question": "What is Khat2?",
+        "standalone_en": "What is Khat2?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपको किस प्रकार की जानकारी चाहिए? क्या आप खाद के बारे में जानना चाहते हैं या कुछ और?",
+        "en": "What kind of information do you need? Do you want to know about compost or something else?",
+        "timestamp": {
+          "$date": "2025-05-02T13:22:31.248Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ho",
+        "en": "Ho",
+        "timestamp": {
+          "$date": "2025-05-02T13:22:41.897Z"
+        },
+        "standalone_question": "What type of information do you need? Are you looking to learn about fertilizer or something else?",
+        "standalone_en": "What type of information do you need? Are you looking to learn about fertilizer or something else?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Why should I consider soil, leaf, or petiole testing?\nA: Soil, leaf, and petiole testing are crucial for effective plant health management. These tests provide specific data about your crop's nutrient needs, allowing for more precise fertilizer application. This can lead to higher productivity with optimized input use, potentially reducing costs and environmental impact.",
+            "Q: What should I do if I can't find the fertigation schedule after selecting the fertigation tab?\nA: If you don't see the fertigation schedule, you'll need to create a report first. Would you like assistance in creating a report? Do you have any soil, leaf, or petiole test data available? If not, we can generate a basic schedule for you using general crop and regional data."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपको किस प्रकार की जानकारी चाहिए? कृपया बताएं, मैं आपकी मदद करने के लिए यहाँ हूँ।",
+        "en": "What kind of information do you need? Please tell me, I'm here to help you.",
+        "timestamp": {
+          "$date": "2025-05-02T13:22:47.063Z"
+        }
+      }
+    ],
+    "farmer_id": "maheshbagal",
+    "farmer_plot_ids": [
+      "manikchamanplot137"
+    ],
+    "conversation_id": "6814c7142e9cfe37e851d06e",
+    "_id": "6814c7142e9cfe37e851d06e",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-02T13:27:41.908000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-05-02T13:22:28.264000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can we mix fluxametamide with 13 40 13",
+        "en": "Can we mix fluxametamide with 13 40 13",
+        "timestamp": {
+          "$date": "2025-05-02T12:17:41.488Z"
+        },
+        "standalone_question": "Can fluxametamide be mixed with 13-40-13?",
+        "standalone_en": "Can fluxametamide be mixed with 13-40-13?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Mixing fluxametamide (a herbicide) with 13-40-13 (a fertilizer) is generally not recommended without proper guidance. It's essential to check compatibility and follow label instructions. For specific advice tailored to your situation, please consult Fyllo’s CRM number or a local agricultural expert.",
+        "en": "Mixing fluxametamide (a herbicide) with 13-40-13 (a fertilizer) is generally not recommended without proper guidance. It's essential to check compatibility and follow label instructions. For specific advice tailored to your situation, please consult Fyllo’s CRM number or a local agricultural expert.",
+        "timestamp": {
+          "$date": "2025-05-02T12:17:44.838Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Can we mix gracia with 13 40 13 for stray",
+        "en": "Can we mix gracia with 13 40 13 for stray",
+        "timestamp": {
+          "$date": "2025-05-02T12:18:37.177Z"
+        },
+        "standalone_question": "Can we mix Gracia with 13-40-13 for stray applications?",
+        "standalone_en": "Can we mix Gracia with 13-40-13 for stray applications?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Mixing Gracia (an insecticide) with 13-40-13 (a fertilizer) is generally not recommended without checking compatibility. It's essential to follow label instructions and consult with a local agricultural expert or Fyllo’s CRM for specific guidance tailored to your situation.",
+        "en": "Mixing Gracia (an insecticide) with 13-40-13 (a fertilizer) is generally not recommended without checking compatibility. It's essential to follow label instructions and consult with a local agricultural expert or Fyllo’s CRM for specific guidance tailored to your situation.",
+        "timestamp": {
+          "$date": "2025-05-02T12:18:41.301Z"
+        }
+      }
+    ],
+    "farmer_id": "swathappa",
+    "farmer_plot_ids": [
+      "swathappa"
+    ],
+    "conversation_id": "6814b7e52e9cfe37e851d06d",
+    "_id": "6814b7e52e9cfe37e851d06d",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-05-02T12:23:37.187000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-05-02T12:17:41.488000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Darling",
+        "en": "Darling",
+        "timestamp": {
+          "$date": "2025-05-02T11:17:36.155Z"
+        },
+        "standalone_question": "What do you mean by \"darling\"?",
+        "standalone_en": "What do you mean by \"darling\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! How can I assist you with your farming needs today?",
+        "en": "Hello! How can I assist you with your farming needs today?",
+        "timestamp": {
+          "$date": "2025-05-02T11:17:39.059Z"
+        }
+      }
+    ],
+    "farmer_id": "yashwantshivajigaikwad",
+    "farmer_plot_ids": [
+      "bhagva",
+      "ssn266"
+    ],
+    "conversation_id": "6814a9d0f7ac3c5270f53d3c",
+    "_id": "6814a9d0f7ac3c5270f53d3c",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-02T11:22:36.163000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-05-02T11:17:36.155000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kes karn se began ka phal chota ho raha hai",
+        "en": "The fruit of the beginning is getting smaller than the case ear",
+        "timestamp": {
+          "$date": "2025-05-02T02:03:49.670Z"
+        },
+        "standalone_question": "Why is the fruit of the kesar plant becoming smaller?",
+        "standalone_en": "Why is the fruit of the kesar plant becoming smaller?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Begon ke phal chote hone ke kai karan ho sakte hain. Yahan kuch aam karan hain:\n\n1. **Paani ki kami**: Agar paani ki kami hai, to phal chote ho sakte hain. Soil moisture ko check karein.\n\n2. **Khad ki kami**: Nutrient deficiency, khaas taur par potassium aur phosphorus ki kami, phalon ki vikas ko prabhavit kar sakti hai.\n\n3. **Pest ya rog**: Koi pest ya rog bhi phalon ki vikas ko rok sakta hai. Iske liye aapko pest control aur disease management par dhyan dena hoga.\n\n4. **Mausam**: Extreme temperature ya baarish bhi phalon ki vikas ko prabhavit kar sakta hai.\n\nAgar aap chahein, to main aapke Brinjal Plot ke liye soil moisture, pest control, aur khad ki avashyaktaon ki jaanch kar sakta hoon. Kya aap chahenge?",
+        "en": "There can be many reasons why the fruits of the begon are small. Here are some common causes:\n\n1. Water Scarcity: If there is a lack of water, the fruits may be small. Check for soil moisture.\n\n2. Fertilizer deficiency: Nutrient deficiencies, especially potassium and phosphorus deficiencies, can affect fruit growth.\n\n3. Pest or disease: Any pest or disease can also inhibit the growth of fruits. For this, you have to pay attention to pest control and disease management.\n\n4. Weather: Extreme temperature or rain can also affect the growth of fruits.\n\nIf you want, I can check the soil moisture, pest control, and compost requirements for your brindle plot. Would you like to?",
+        "timestamp": {
+          "$date": "2025-05-02T02:03:55.592Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Kon sa khad dale",
+        "en": "Which fertilizer should be put in?",
+        "timestamp": {
+          "$date": "2025-05-02T02:05:47.150Z"
+        },
+        "standalone_question": "Which fertilizer should be applied?",
+        "standalone_en": "Which fertilizer should be applied?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17",
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available.",
+            "Q: Why should I consider soil, leaf, or petiole testing?\nA: Soil, leaf, and petiole testing are crucial for effective plant health management. These tests provide specific data about your crop's nutrient needs, allowing for more precise fertilizer application. This can lead to higher productivity with optimized input use, potentially reducing costs and environmental impact."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapke Brinjal Plot mein is samay (2 May 2025) koi fertigation ki avashyakta nahi hai. Aapka crop ab \"Flowering and Fruiting\" stage mein hai, jo 30 March 2025 se shuru hua tha.\n\nAane wale hafte (6 May 2025 se shuru) mein aapko fertigation karne ki avashyakta hogi. Is hafte ke liye aapko ye khad dene ki salah di ja rahi hai:\n\n1. **Potassium Nitrate** - 2 kg/acre\n2. **Urea** - 2.5 kg/acre\n\nYa phir:\n\n1. **Urea** - 3 kg/acre\n2. **Sulfate of Potash** - 2 kg/acre\n\nYeh khad aapke \"Alternate harvest\" stage ke liye hain. Aap inhe sahi samay par dena na bhoolen.",
+        "en": "No fertigation is required in your brindle plot at this time (2 May 2025). Your crop is now in the \"Flooring and Fruiting\" stage, which started on 30th March 2025.\n\nIn the coming week (starting from 6th May 2025), you will need to fertigate. Here's what you're recommending for this week:\n\n1. Potassium Nitrate - 2 kg/acre\n2. **Urea** - 2.5 kg/acre\n\nOr else:\n\n1. **Urea** - 3 kg/acre\n2. Sulphate of Potash - 2 kg/acre\n\nThese fertilizers are for your \"Alternate Harvest\" stage. Don't forget to give them at the right time.",
+        "timestamp": {
+          "$date": "2025-05-02T02:05:55.661Z"
+        }
+      }
+    ],
+    "farmer_id": "laxmansahu",
+    "farmer_plot_ids": [
+      "brinjalplot496"
+    ],
+    "conversation_id": "681428052e9cfe37e851d06b",
+    "_id": "681428052e9cfe37e851d06b",
+    "language": "hi",
+    "expiry": {
+      "$date": "2025-05-02T02:10:47.160000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-05-02T02:03:49.670000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "स्प्रे ",
+        "en": "spray ",
+        "timestamp": {
+          "$date": "2025-05-02T01:23:41.034Z"
+        },
+        "standalone_question": "What is a spray?",
+        "standalone_en": "What is a spray?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "spray "
+      },
+      {
+        "role": "assistant",
+        "content": "आपके प्लॉट्स के लिए स्प्रे की स्थिति इस प्रकार है:\n\n1. **clone plot 3**:\n   - **फ्ली बीटल**: उच्च जोखिम (90%)\n   - **थ्रिप्स**: उच्च जोखिम (100%)\n   - **मीलीबग**: उच्च जोखिम (100%)\n   - **जैसिड्स**: निम्न जोखिम (31.4%)\n   - **रेड स्पाइडर माइट्स**: मध्यम जोखिम (46.1%)\n   - **कैटरपिलर**: उच्च जोखिम (79.5%)\n\n2. **clone plot 1**:\n   - **फ्ली बीटल**: उच्च जोखिम (90%)\n   - **थ्रिप्स**: उच्च जोखिम (100%)\n   - **मीलीबग**: उच्च जोखिम (100%)\n   - **जैसिड्स**: निम्न जोखिम (31.8%)\n   - **रेड स्पाइडर माइट्स**: मध्यम जोखिम (45.9%)\n   - **कैटरपिलर**: उच्च जोखिम (80.1%)\n\n3. **sonar plot**:\n   - **फ्ली बीटल**: उच्च जोखिम (90%)\n   - **थ्रिप्स**: उच्च जोखिम (100%)\n   - **मीलीबग**: उच्च जोखिम (100%)\n   - **जैसिड्स**: निम्न जोखिम (31.6%)\n   - **रेड स्पाइडर माइट्स**: मध्यम जोखिम (45.9%)\n   - **कैटरपिलर**: उच्च जोखिम (80.1%)\n\n4. **super plot**:\n   - **फ्ली बीटल**: उच्च जोखिम (90%)\n   - **थ्रिप्स**: उच्च जोखिम (100%)\n   - **मीलीबग**: उच्च जोखिम (100%)\n   - **जैसिड्स**: निम्न जोखिम (31.5%)\n   - **रेड स्पाइडर माइट्स**: मध्यम जोखिम (46.0%)\n   - **कैटरपिलर**: उच्च जोखिम (80.1%)\n\n5. **clone plot 2**:\n   - **फ्ली बीटल**: उच्च जोखिम (90%)\n   - **थ्रिप्स**: उच्च जोखिम (100%)\n   - **मीलीबग**: उच्च जोखिम (100%)\n   - **जैसिड्स**: निम्न जोखिम (31.4%)\n   - **रेड स्पाइडर माइट्स**: मध्यम जोखिम (46.5%)\n   - **कैटरपिलर**: उच्च जोखिम (80.1%)\n\n6. **manikchaman plot 3**:\n   - **पेस्ट मेट्रिक्स उपलब्ध नहीं है।**\n\nआपके प्लॉट्स में कई पेस्ट्स के लिए उच्च जोखिम है, इसलिए स्प्रे करना आवश्यक हो सकता है।",
+        "en": "The spray conditions for your plots are as follows:\n\n1. **Clone Plot 3**:\n   - Flea beetle: High risk (90%)\n   - **Thrips**: High Risk (100%)\n   - Mealybug: High Risk (100%)\n   - Jacids: Low risk (31.4%)\n   - Red Spider Mites: Medium Risk (46.1%)\n   - Caterpillar: High Risk (79.5%)\n\n2. **Clone Plot 1**:\n   - Flea beetle: High risk (90%)\n   - **Thrips**: High Risk (100%)\n   - Mealybug: High Risk (100%)\n   - Jacids: Low risk (31.8%)\n   - Red Spider Mites: Medium Risk (45.9%)\n   - Caterpillar: High risk (80.1%)\n\n3. **Sonar Plot**:\n   - Flea beetle: High risk (90%)\n   - **Thrips**: High Risk (100%)\n   - Mealybug: High Risk (100%)\n   - JACIDS: Low risk (31.6%)\n   - Red Spider Mites: Medium Risk (45.9%)\n   - Caterpillar: High risk (80.1%)\n\n4. **Super Plot**:\n   - Flea beetle: High risk (90%)\n   - **Thrips**: High Risk (100%)\n   - Mealybug: High Risk (100%)\n   - **Jacids**: Low risk (31.5%)\n   - Red Spider Mites: Medium Risk (46.0%)\n   - Caterpillar: High risk (80.1%)\n\n5. **Clone Plot 2**:\n   - Flea beetle: High risk (90%)\n   - **Thrips**: High Risk (100%)\n   - Mealybug: High Risk (100%)\n   - Jacids: Low risk (31.4%)\n   - Red Spider Mites: Medium Risk (46.5%)\n   - Caterpillar: High risk (80.1%)\n\n6. Manikchaman Plot 3:\n   - **Paste metrics not available. **\n\nYour plots are at high risk for multiple pests, so spraying may be necessary.",
+        "timestamp": {
+          "$date": "2025-05-02T01:23:59.724Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "कोणता स्प्रे घेऊ",
+        "en": "Which spray to take",
+        "timestamp": {
+          "$date": "2025-05-02T01:24:51.679Z"
+        },
+        "standalone_question": "Which spray should I use?",
+        "standalone_en": "Which spray should I use?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        },
+        "content_transliterated": "konta spray gheu"
+      },
+      {
+        "role": "assistant",
+        "content": "आपके प्लॉट्स के लिए स्प्रे की सिफारिशें इस प्रकार हैं:\n\n1. **clone plot 3**:\n   - **फ्ली बीटल**: उच्च जोखिम (90%)\n   - **थ्रिप्स**: उच्च जोखिम (100%)\n   - **मीलीबग**: उच्च जोखिम (100%)\n   - **कैटरपिलर**: उच्च जोखिम (79.5%)\n\n2. **clone plot 1**:\n   - **फ्ली बीटल**: उच्च जोखिम (90%)\n   - **थ्रिप्स**: उच्च जोखिम (100%)\n   - **मीलीबग**: उच्च जोखिम (100%)\n   - **कैटरपिलर**: उच्च जोखिम (80.1%)\n\n3. **sonar plot**:\n   - **फ्ली बीटल**: उच्च जोखिम (90%)\n   - **थ्रिप्स**: उच्च जोखिम (100%)\n   - **मीलीबग**: उच्च जोखिम (100%)\n   - **कैटरपिलर**: उच्च जोखिम (80.1%)\n\n4. **super plot**:\n   - **फ्ली बीटल**: उच्च जोखिम (90%)\n   - **थ्रिप्स**: उच्च जोखिम (100%)\n   - **मीलीबग**: उच्च जोखिम (100%)\n   - **कैटरपिलर**: उच्च जोखिम (80.1%)\n\n5. **clone plot 2**:\n   - **फ्ली बीटल**: उच्च जोखिम (90%)\n   - **थ्रिप्स**: उच्च जोखिम (100%)\n   - **मीलीबग**: उच्च जोखिम (100%)\n   - **कैटरपिलर**: उच्च जोखिम (80.1%)\n\n6. **manikchaman plot 3**:\n   - **पेस्ट मेट्रिक्स उपलब्ध नहीं है।**\n\nआपको फ्ली बीटल, थ्रिप्स, और मीलीबग के लिए स्प्रे करने की सिफारिश की जाती है, क्योंकि इनका जोखिम उच्च है।",
+        "en": "Spray recommendations for your plots are as follows:\n\n1. **Clone Plot 3**:\n   - Flea beetle: High risk (90%)\n   - **Thrips**: High Risk (100%)\n   - Mealybug: High Risk (100%)\n   - Caterpillar: High Risk (79.5%)\n\n2. **Clone Plot 1**:\n   - Flea beetle: High risk (90%)\n   - **Thrips**: High Risk (100%)\n   - Mealybug: High Risk (100%)\n   - Caterpillar: High risk (80.1%)\n\n3. **Sonar Plot**:\n   - Flea beetle: High risk (90%)\n   - **Thrips**: High Risk (100%)\n   - Mealybug: High Risk (100%)\n   - Caterpillar: High risk (80.1%)\n\n4. **Super Plot**:\n   - Flea beetle: High risk (90%)\n   - **Thrips**: High Risk (100%)\n   - Mealybug: High Risk (100%)\n   - Caterpillar: High risk (80.1%)\n\n5. **Clone Plot 2**:\n   - Flea beetle: High risk (90%)\n   - **Thrips**: High Risk (100%)\n   - Mealybug: High Risk (100%)\n   - Caterpillar: High risk (80.1%)\n\n6. Manikchaman Plot 3:\n   - **Paste metrics not available. **\n\nYou are recommended to spray for flea beetles, thrips, and mealybugs, as the risk of these is high.",
+        "timestamp": {
+          "$date": "2025-05-02T01:25:06.393Z"
+        }
+      }
+    ],
+    "farmer_id": "amoljayprakashbabar",
+    "farmer_plot_ids": [
+      "amolbabarclone",
+      "amolbabarclone1",
+      "amolbabarsonarplot",
+      "amolbabarsuper",
+      "cloneplot2633",
+      "manikchamanplot3"
+    ],
+    "conversation_id": "68141e9c56d410a6f75f483f",
+    "_id": "68141e9c56d410a6f75f483f",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-02T01:29:51.688000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-05-02T01:23:41.034000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "12 00 61 ह्या मध्ये कोणते घटक आहे ",
+        "en": "12 00 61 What is the element in this ",
+        "timestamp": {
+          "$date": "2025-05-02T01:18:22.579Z"
+        },
+        "standalone_question": "What elements are present in 12 00 61?",
+        "standalone_en": "What elements are present in 12 00 61?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "12 00 61 hya madhye conte ghatak aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "12-00-61 या मिश्र खतामध्ये खालील घटक आहेत:\n\n- **नायट्रोजन (N)**: 12%\n- **फॉस्फरस (P)**: 0%\n- **पोटॅशियम (K)**: 61%\n\nहे खत मुख्यतः पोटॅशियमसाठी वापरले जाते, जे पिकांच्या वाढीसाठी आणि फळांच्या गुणवत्तेसाठी महत्त्वाचे आहे.",
+        "en": "12-00-61 This mixed fertilizer contains the following ingredients:\n\n- **Nitrogen (N)**: 12%\n- **Phosphorus (P)**: 0%\n- **Potassium (K)**: 61%\n\nThis fertilizer is mainly used for potassium, which is important for the growth of crops and the quality of fruits.",
+        "timestamp": {
+          "$date": "2025-05-02T01:18:26.276Z"
+        }
+      }
+    ],
+    "farmer_id": "yogirajgangadharbirajdar",
+    "farmer_plot_ids": [
+      "manikchaman452"
+    ],
+    "conversation_id": "68141d5b2e9cfe37e851d06a",
+    "_id": "68141d5b2e9cfe37e851d06a",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-02T01:23:22.595000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-05-02T01:18:22.579000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Incects information is updated ",
+        "en": "Incects information is updated ",
+        "timestamp": {
+          "$date": "2025-05-02T00:59:05.772Z"
+        },
+        "standalone_question": "What is the updated information about insects?",
+        "standalone_en": "What is the updated information about insects?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the pest prediction information for your plot \"Shashidhar thomson 3 acar\" from April 28 to May 2, 2025:\n\n### April 28, 2025\n- **Flea Beetle**: 90% probability (HIGH risk)\n- **Thrips**: 100% probability (HIGH risk)\n- **Mealybug**: 95.1% probability (HIGH risk)\n- **Jassids**: 34.0% probability (LOW risk)\n- **Red Spider Mites**: 49.7% probability (MEDIUM risk)\n- **Caterpillar**: 75.0% probability (HIGH risk)\n\n### April 29, 2025\n- **Flea Beetle**: 90% probability (HIGH risk)\n- **Thrips**: 76.8% probability (HIGH risk)\n- **Mealybug**: 100% probability (HIGH risk)\n- **Jassids**: 34.3% probability (LOW risk)\n- **Red Spider Mites**: 49.1% probability (MEDIUM risk)\n- **Caterpillar**: 68.7% probability (MEDIUM risk)\n\n### April 30, 2025\n- **Flea Beetle**: 90% probability (HIGH risk)\n- **Thrips**: 83.3% probability (HIGH risk)\n- **Mealybug**: 100% probability (HIGH risk)\n- **Jassids**: 36.2% probability (LOW risk)\n- **Red Spider Mites**: 48.5% probability (MEDIUM risk)\n- **Caterpillar**: 74.6% probability (HIGH risk)\n\nPlease take necessary actions to manage these pests effectively.",
+        "en": "Here is the pest prediction information for your plot \"Shashidhar thomson 3 acar\" from April 28 to May 2, 2025:\n\n### April 28, 2025\n- **Flea Beetle**: 90% probability (HIGH risk)\n- **Thrips**: 100% probability (HIGH risk)\n- **Mealybug**: 95.1% probability (HIGH risk)\n- **Jassids**: 34.0% probability (LOW risk)\n- **Red Spider Mites**: 49.7% probability (MEDIUM risk)\n- **Caterpillar**: 75.0% probability (HIGH risk)\n\n### April 29, 2025\n- **Flea Beetle**: 90% probability (HIGH risk)\n- **Thrips**: 76.8% probability (HIGH risk)\n- **Mealybug**: 100% probability (HIGH risk)\n- **Jassids**: 34.3% probability (LOW risk)\n- **Red Spider Mites**: 49.1% probability (MEDIUM risk)\n- **Caterpillar**: 68.7% probability (MEDIUM risk)\n\n### April 30, 2025\n- **Flea Beetle**: 90% probability (HIGH risk)\n- **Thrips**: 83.3% probability (HIGH risk)\n- **Mealybug**: 100% probability (HIGH risk)\n- **Jassids**: 36.2% probability (LOW risk)\n- **Red Spider Mites**: 48.5% probability (MEDIUM risk)\n- **Caterpillar**: 74.6% probability (HIGH risk)\n\nPlease take necessary actions to manage these pests effectively.",
+        "timestamp": {
+          "$date": "2025-05-02T00:59:17.500Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Not getting yesterday and today's information ",
+        "en": "Not getting yesterday and today's information ",
+        "timestamp": {
+          "$date": "2025-05-02T01:00:15.692Z"
+        },
+        "standalone_question": "Why am I not receiving the pest prediction information for yesterday and today?",
+        "standalone_en": "Why am I not receiving the pest prediction information for yesterday and today?",
+        "retrieval": {
+          "tools": [
+            "get_historical_pest_prediction_metrics  \nReturns the historical daily crop pest prediction metrics for the given pests, checking all dependent parameters inherently."
+          ],
+          "faq": [
+            "Q: What is the pest prediction?\nA: Check the all pest predictions relevant. We support Aphids, Banana aphids, Bihar hairy caterpillar, Broad mites, Brown plant hopper, Capsule borer, Caterpillar,\n   Citrus Psylla, Cut worm, Early shoot borer, European red mites, Flat mites, Flea Beetle, Flea beetle, Fruit Borer,\n   Fruit Fly, Fruit borer, Fruit fly, Green aphids, Hispa beetle, Jassids, Leaf eating caterpillar, Leaf folder, Leaf miner,\n   Leaf roller, Mango hopper, Mealy Bug, Mealy bug, Mealybug, Mites, Perianth mites, Pin worm, Pink bollworm,\n   Pseudostem weevil, Red Spider Mites, Red palm weevil, Red spider mites, Rhinoceros beetle, Rhizome weevil, Root Grubs,\n   Root knot nematode, Rugose spiraling whitefly, Rust mites, Rust thrips, Scale Insects, Scale insects, Scarring beetle,\n   Shoot borer, Skipper, Spiraling whitefly, Spodoptera, Stem Borer, Stem borer, Striped beetle, Striped cucumber beetle,\n   Tea Mosquitto Bug, Tea mosquitto bug, Termite, Thrips, White Fly, White fly, Whitefly, and Wooly aphids."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Unfortunately, the pest prediction metrics for May 1 and May 2, 2025, are not available for your plot \"Shashidhar thomson 3 acar.\" It seems that there were no recorded metrics for these dates. \n\nIf you have any other questions or need assistance with something else, feel free to ask!",
+        "en": "Unfortunately, the pest prediction metrics for May 1 and May 2, 2025, are not available for your plot \"Shashidhar thomson 3 acar.\" It seems that there were no recorded metrics for these dates. \n\nIf you have any other questions or need assistance with something else, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-02T01:00:27.008Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "It says Information is not available ",
+        "en": "It says Information is not available ",
+        "timestamp": {
+          "$date": "2025-05-02T01:01:35.799Z"
+        },
+        "standalone_question": "Why is the pest prediction information for May 1 and May 2, 2025, not available?",
+        "standalone_en": "Why is the pest prediction information for May 1 and May 2, 2025, not available?",
+        "retrieval": {
+          "tools": [
+            "get_historical_pest_prediction_metrics  \nReturns the historical daily crop pest prediction metrics for the given pests, checking all dependent parameters inherently."
+          ],
+          "faq": [
+            "Q: What is the pest prediction?\nA: Check the all pest predictions relevant. We support Aphids, Banana aphids, Bihar hairy caterpillar, Broad mites, Brown plant hopper, Capsule borer, Caterpillar,\n   Citrus Psylla, Cut worm, Early shoot borer, European red mites, Flat mites, Flea Beetle, Flea beetle, Fruit Borer,\n   Fruit Fly, Fruit borer, Fruit fly, Green aphids, Hispa beetle, Jassids, Leaf eating caterpillar, Leaf folder, Leaf miner,\n   Leaf roller, Mango hopper, Mealy Bug, Mealy bug, Mealybug, Mites, Perianth mites, Pin worm, Pink bollworm,\n   Pseudostem weevil, Red Spider Mites, Red palm weevil, Red spider mites, Rhinoceros beetle, Rhizome weevil, Root Grubs,\n   Root knot nematode, Rugose spiraling whitefly, Rust mites, Rust thrips, Scale Insects, Scale insects, Scarring beetle,\n   Shoot borer, Skipper, Spiraling whitefly, Spodoptera, Stem Borer, Stem borer, Striped beetle, Striped cucumber beetle,\n   Tea Mosquitto Bug, Tea mosquitto bug, Termite, Thrips, White Fly, White fly, Whitefly, and Wooly aphids."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Unfortunately, the pest prediction metrics for both May 1 and May 2, 2025, are not available for your plot \"Shashidhar thomson 3 acar.\" It seems that there were no recorded metrics for these dates.\n\nIf you have any other questions or need assistance with something else, feel free to ask!",
+        "en": "Unfortunately, the pest prediction metrics for both May 1 and May 2, 2025, are not available for your plot \"Shashidhar thomson 3 acar.\" It seems that there were no recorded metrics for these dates.\n\nIf you have any other questions or need assistance with something else, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-02T01:01:44.378Z"
+        }
+      }
+    ],
+    "farmer_id": "shashidharnaruni",
+    "farmer_plot_ids": [
+      "shashidharthomson3acar"
+    ],
+    "conversation_id": "681418d92e9cfe37e851d069",
+    "_id": "681418d92e9cfe37e851d069",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-02T01:06:35.810000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-05-02T00:59:05.772000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Incects information is updated ",
+        "en": "Incects information is updated ",
+        "timestamp": {
+          "$date": "2025-05-02T00:59:05.772Z"
+        },
+        "standalone_question": "What is the updated information about insects?",
+        "standalone_en": "What is the updated information about insects?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the pest prediction information for your plot \"Shashidhar thomson 3 acar\" from April 28 to May 2, 2025:\n\n### April 28, 2025\n- **Flea Beetle**: 90% probability (HIGH risk)\n- **Thrips**: 100% probability (HIGH risk)\n- **Mealybug**: 95.1% probability (HIGH risk)\n- **Jassids**: 34.0% probability (LOW risk)\n- **Red Spider Mites**: 49.7% probability (MEDIUM risk)\n- **Caterpillar**: 75.0% probability (HIGH risk)\n\n### April 29, 2025\n- **Flea Beetle**: 90% probability (HIGH risk)\n- **Thrips**: 76.8% probability (HIGH risk)\n- **Mealybug**: 100% probability (HIGH risk)\n- **Jassids**: 34.3% probability (LOW risk)\n- **Red Spider Mites**: 49.1% probability (MEDIUM risk)\n- **Caterpillar**: 68.7% probability (MEDIUM risk)\n\n### April 30, 2025\n- **Flea Beetle**: 90% probability (HIGH risk)\n- **Thrips**: 83.3% probability (HIGH risk)\n- **Mealybug**: 100% probability (HIGH risk)\n- **Jassids**: 36.2% probability (LOW risk)\n- **Red Spider Mites**: 48.5% probability (MEDIUM risk)\n- **Caterpillar**: 74.6% probability (HIGH risk)\n\nPlease take necessary actions to manage these pests effectively.",
+        "en": "Here is the pest prediction information for your plot \"Shashidhar thomson 3 acar\" from April 28 to May 2, 2025:\n\n### April 28, 2025\n- **Flea Beetle**: 90% probability (HIGH risk)\n- **Thrips**: 100% probability (HIGH risk)\n- **Mealybug**: 95.1% probability (HIGH risk)\n- **Jassids**: 34.0% probability (LOW risk)\n- **Red Spider Mites**: 49.7% probability (MEDIUM risk)\n- **Caterpillar**: 75.0% probability (HIGH risk)\n\n### April 29, 2025\n- **Flea Beetle**: 90% probability (HIGH risk)\n- **Thrips**: 76.8% probability (HIGH risk)\n- **Mealybug**: 100% probability (HIGH risk)\n- **Jassids**: 34.3% probability (LOW risk)\n- **Red Spider Mites**: 49.1% probability (MEDIUM risk)\n- **Caterpillar**: 68.7% probability (MEDIUM risk)\n\n### April 30, 2025\n- **Flea Beetle**: 90% probability (HIGH risk)\n- **Thrips**: 83.3% probability (HIGH risk)\n- **Mealybug**: 100% probability (HIGH risk)\n- **Jassids**: 36.2% probability (LOW risk)\n- **Red Spider Mites**: 48.5% probability (MEDIUM risk)\n- **Caterpillar**: 74.6% probability (HIGH risk)\n\nPlease take necessary actions to manage these pests effectively.",
+        "timestamp": {
+          "$date": "2025-05-02T00:59:17.500Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Not getting yesterday and today's information ",
+        "en": "Not getting yesterday and today's information ",
+        "timestamp": {
+          "$date": "2025-05-02T01:00:15.692Z"
+        },
+        "standalone_question": "Why am I not receiving the pest prediction information for yesterday and today?",
+        "standalone_en": "Why am I not receiving the pest prediction information for yesterday and today?",
+        "retrieval": {
+          "tools": [
+            "get_historical_pest_prediction_metrics  \nReturns the historical daily crop pest prediction metrics for the given pests, checking all dependent parameters inherently."
+          ],
+          "faq": [
+            "Q: What is the pest prediction?\nA: Check the all pest predictions relevant. We support Aphids, Banana aphids, Bihar hairy caterpillar, Broad mites, Brown plant hopper, Capsule borer, Caterpillar,\n   Citrus Psylla, Cut worm, Early shoot borer, European red mites, Flat mites, Flea Beetle, Flea beetle, Fruit Borer,\n   Fruit Fly, Fruit borer, Fruit fly, Green aphids, Hispa beetle, Jassids, Leaf eating caterpillar, Leaf folder, Leaf miner,\n   Leaf roller, Mango hopper, Mealy Bug, Mealy bug, Mealybug, Mites, Perianth mites, Pin worm, Pink bollworm,\n   Pseudostem weevil, Red Spider Mites, Red palm weevil, Red spider mites, Rhinoceros beetle, Rhizome weevil, Root Grubs,\n   Root knot nematode, Rugose spiraling whitefly, Rust mites, Rust thrips, Scale Insects, Scale insects, Scarring beetle,\n   Shoot borer, Skipper, Spiraling whitefly, Spodoptera, Stem Borer, Stem borer, Striped beetle, Striped cucumber beetle,\n   Tea Mosquitto Bug, Tea mosquitto bug, Termite, Thrips, White Fly, White fly, Whitefly, and Wooly aphids."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Unfortunately, the pest prediction metrics for May 1 and May 2, 2025, are not available for your plot \"Shashidhar thomson 3 acar.\" It seems that there were no recorded metrics for these dates. \n\nIf you have any other questions or need assistance with something else, feel free to ask!",
+        "en": "Unfortunately, the pest prediction metrics for May 1 and May 2, 2025, are not available for your plot \"Shashidhar thomson 3 acar.\" It seems that there were no recorded metrics for these dates. \n\nIf you have any other questions or need assistance with something else, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-02T01:00:27.008Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "It says Information is not available ",
+        "en": "It says Information is not available ",
+        "timestamp": {
+          "$date": "2025-05-02T01:01:35.799Z"
+        },
+        "standalone_question": "Why is the pest prediction information for May 1 and May 2, 2025, not available?",
+        "standalone_en": "Why is the pest prediction information for May 1 and May 2, 2025, not available?",
+        "retrieval": {
+          "tools": [
+            "get_historical_pest_prediction_metrics  \nReturns the historical daily crop pest prediction metrics for the given pests, checking all dependent parameters inherently."
+          ],
+          "faq": [
+            "Q: What is the pest prediction?\nA: Check the all pest predictions relevant. We support Aphids, Banana aphids, Bihar hairy caterpillar, Broad mites, Brown plant hopper, Capsule borer, Caterpillar,\n   Citrus Psylla, Cut worm, Early shoot borer, European red mites, Flat mites, Flea Beetle, Flea beetle, Fruit Borer,\n   Fruit Fly, Fruit borer, Fruit fly, Green aphids, Hispa beetle, Jassids, Leaf eating caterpillar, Leaf folder, Leaf miner,\n   Leaf roller, Mango hopper, Mealy Bug, Mealy bug, Mealybug, Mites, Perianth mites, Pin worm, Pink bollworm,\n   Pseudostem weevil, Red Spider Mites, Red palm weevil, Red spider mites, Rhinoceros beetle, Rhizome weevil, Root Grubs,\n   Root knot nematode, Rugose spiraling whitefly, Rust mites, Rust thrips, Scale Insects, Scale insects, Scarring beetle,\n   Shoot borer, Skipper, Spiraling whitefly, Spodoptera, Stem Borer, Stem borer, Striped beetle, Striped cucumber beetle,\n   Tea Mosquitto Bug, Tea mosquitto bug, Termite, Thrips, White Fly, White fly, Whitefly, and Wooly aphids."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Unfortunately, the pest prediction metrics for both May 1 and May 2, 2025, are not available for your plot \"Shashidhar thomson 3 acar.\" It seems that there were no recorded metrics for these dates.\n\nIf you have any other questions or need assistance with something else, feel free to ask!",
+        "en": "Unfortunately, the pest prediction metrics for both May 1 and May 2, 2025, are not available for your plot \"Shashidhar thomson 3 acar.\" It seems that there were no recorded metrics for these dates.\n\nIf you have any other questions or need assistance with something else, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-02T01:01:44.378Z"
+        }
+      }
+    ],
+    "farmer_id": "shashidharnaruni",
+    "farmer_plot_ids": [
+      "shashidharthomson3acar"
+    ],
+    "conversation_id": "681418d92e9cfe37e851d069",
+    "_id": "681418d92e9cfe37e851d069",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-02T01:06:35.810000Z"
+    },
+    "tag": "historical data",
+    "conv_date": "2025-05-02T00:59:05.772000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "9860681139",
+        "en": "9860681139",
+        "timestamp": {
+          "$date": "2025-05-02T00:44:38.684Z"
+        },
+        "standalone_question": "What is the significance of the number 9860681139?",
+        "standalone_en": "What is the significance of the number 9860681139?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "I'm here to assist you with agricultural practices. If you have any questions or need guidance related to your crops, soil health, pest control, or irrigation strategies, feel free to ask!",
+        "en": "I'm here to assist you with agricultural practices. If you have any questions or need guidance related to your crops, soil health, pest control, or irrigation strategies, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-02T00:44:42.183Z"
+        }
+      }
+    ],
+    "farmer_id": "dadasodattugajare",
+    "farmer_plot_ids": [
+      "dadasosuperplot"
+    ],
+    "conversation_id": "681415766726dde62ad1aa56",
+    "_id": "681415766726dde62ad1aa56",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-02T00:49:38.692000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-05-02T00:44:38.684000+00:00"
+  }
+]

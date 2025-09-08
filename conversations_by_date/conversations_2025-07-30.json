@@ -1,0 +1,434 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Resun ",
+        "en": "Resun ",
+        "timestamp": {
+          "$date": "2025-07-30T13:09:28.559Z"
+        },
+        "standalone_question": "What does \"Resun\" mean?",
+        "standalone_en": "What does \"Resun\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "ನೀವು ಏನನ್ನು ಕೇಳಲು ಬಯಸುತ್ತೀರಿ? ನಾನು ಕೃಷಿ ಸಂಬಂಧಿತ ಮಾಹಿತಿಯನ್ನು ನೀಡಲು ಇಲ್ಲಿದ್ದೇನೆ.",
+        "en": "What do you want to hear? I am here to give agriculture related information.",
+        "timestamp": {
+          "$date": "2025-07-30T13:09:31.334Z"
+        }
+      }
+    ],
+    "farmer_id": "veerdbhadrappahalshetti",
+    "farmer_plot_ids": [
+      "pomegranateplot874",
+      "pomosanjay"
+    ],
+    "conversation_id": "688a196583a24d8b2de0d49c",
+    "_id": "688a196583a24d8b2de0d49c",
+    "language": "ka",
+    "expiry": {
+      "$date": "2025-07-30T13:14:28.563000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-07-30T13:09:28.559000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Azoxstrobin+Tuboconozol+Coragen+Wuxul spraying chemicals 27/07/2025",
+        "en": "Azoxstrobin+Tuboconozol+Coragen+Wuxul spraying chemicals 27/07/2025",
+        "timestamp": {
+          "$date": "2025-07-30T10:53:01.762Z"
+        },
+        "standalone_question": "What chemicals were sprayed on July 27, 2025?",
+        "standalone_en": "What chemicals were sprayed on July 27, 2025?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "There are no scheduled spray recommendations for your plot on July 27, 2025. If you have already sprayed with Azoxystrobin, Tebuconazole, Coragen, and Wuxul, you may want to monitor the situation and wait for further notifications before spraying again.",
+        "en": "There are no scheduled spray recommendations for your plot on July 27, 2025. If you have already sprayed with Azoxystrobin, Tebuconazole, Coragen, and Wuxul, you may want to monitor the situation and wait for further notifications before spraying again.",
+        "timestamp": {
+          "$date": "2025-07-30T10:53:09.536Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ok",
+        "en": "Ok",
+        "timestamp": {
+          "$date": "2025-07-30T10:53:39.384Z"
+        },
+        "standalone_question": "What should I do if I have already sprayed with Azoxystrobin, Tebuconazole, Coragen, and Wuxul?",
+        "standalone_en": "What should I do if I have already sprayed with Azoxystrobin, Tebuconazole, Coragen, and Wuxul?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "If you have any more questions or need assistance with your crops, feel free to ask!",
+        "en": "If you have any more questions or need assistance with your crops, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-07-30T10:53:43.563Z"
+        }
+      }
+    ],
+    "farmer_id": "gagappabasalingappanegur",
+    "farmer_plot_ids": [
+      "sugarcane356"
+    ],
+    "conversation_id": "6889f98d83a24d8b2de0d497",
+    "_id": "6889f98d83a24d8b2de0d497",
+    "language": "ka",
+    "expiry": {
+      "$date": "2025-07-30T10:58:39.387000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-07-30T10:53:01.762000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "9 24 24 or uriya or salfar ka mix dose achha rahega kya ",
+        "en": "9 24 24 And will a mixed dose of urea and sulphur be good? ",
+        "timestamp": {
+          "$date": "2025-07-30T08:14:25.933Z"
+        },
+        "standalone_question": "Would a mix of 9 24 24 or Uriya and Salfar be good?",
+        "standalone_en": "Would a mix of 9 24 24 or Uriya and Salfar be good?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "9-24-24, Uriya (Urea), and Sulfar (Sulfur) can be mixed for fertilization, but it's essential to consider the specific nutrient needs of your banana crop and the soil's nutrient status. \n\n- **9-24-24** provides a good balance of phosphorus and potassium, which are crucial for root development and fruiting.\n- **Urea** is a nitrogen source that promotes vegetative growth.\n- **Sulfur** is beneficial for overall plant health and can improve nutrient uptake.\n\nBefore applying, it's advisable to conduct a soil test to determine the exact nutrient requirements. If you need a specific recommendation for application rates, please let me know!",
+        "en": "9-24-24, Uriya (Urea), and Sulfar (Sulfur) can be mixed for fertilization, but it's essential to consider the specific nutrient needs of your banana crop and the soil's nutrient status. \n\n- **9-24-24** provides a good balance of phosphorus and potassium, which are crucial for root development and fruiting.\n- **Urea** is a nitrogen source that promotes vegetative growth.\n- **Sulfur** is beneficial for overall plant health and can improve nutrient uptake.\n\nBefore applying, it's advisable to conduct a soil test to determine the exact nutrient requirements. If you need a specific recommendation for application rates, please let me know!",
+        "timestamp": {
+          "$date": "2025-07-30T08:14:30.074Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "9 24 24 or uriya or salfar ka mix dose kaisa rahega hindi me ",
+        "en": "9 24 24 And how will be the mixed dose of urea and sulfur in Hindi? ",
+        "timestamp": {
+          "$date": "2025-07-30T08:15:10.484Z"
+        },
+        "standalone_question": "What would be the recommended dosage for mixing 9-24-24, urea, and sulfur?",
+        "standalone_en": "What would be the recommended dosage for mixing 9-24-24, urea, and sulfur?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "9-24-24, उरिया (यूरिया), और सल्फर (सल्फर) का मिश्रण फसल के लिए अच्छा हो सकता है, लेकिन यह महत्वपूर्ण है कि आप अपने केले की फसल की विशेष पोषण आवश्यकताओं और मिट्टी की पोषण स्थिति पर विचार करें।\n\n- **9-24-24**: यह फास्फोरस और पोटेशियम का अच्छा संतुलन प्रदान करता है, जो जड़ विकास और फलन के लिए आवश्यक है।\n- **उरिया**: यह नाइट्रोजन का स्रोत है, जो पौधे की वृद्धि को बढ़ावा देता है।\n- **सल्फर**: यह पौधे के समग्र स्वास्थ्य के लिए फायदेमंद है और पोषक तत्वों के अवशोषण में सुधार कर सकता है।\n\nइस मिश्रण को लागू करने से पहले, मिट्टी की जांच कराना अच्छा रहेगा ताकि आप सही मात्रा में पोषक तत्वों का उपयोग कर सकें। यदि आपको आवेदन की विशेष मात्रा की आवश्यकता है, तो कृपया बताएं!",
+        "en": "9-24-24, A mixture of urea, and sulfur can be good for the crop, but it is important that you consider the particular nutritional needs of your banana crop and the nutritional status of the soil.\n\n- **9-24-24**: It provides a good balance of phosphorus and potassium, which is essential for root growth and fruiting.\n- Uria: It is a source of nitrogen, which promotes plant growth.\n- Sulfur: This is beneficial to the overall health of the plant and can improve nutrient absorption.\n\nBefore applying this mixture, it's a good idea to get a soil test done so you can use the right amount of nutrients. If you need a special amount of application, please let us know!",
+        "timestamp": {
+          "$date": "2025-07-30T08:15:16.571Z"
+        }
+      }
+    ],
+    "farmer_id": "iswarajlayse",
+    "farmer_plot_ids": [
+      "plot1122"
+    ],
+    "conversation_id": "6889d46183a24d8b2de0d492",
+    "_id": "6889d46183a24d8b2de0d492",
+    "language": "hi",
+    "expiry": {
+      "$date": "2025-07-30T08:20:10.488000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-07-30T08:14:25.933000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Konta rog aahe<user uploaded image for analysis at 'guava761/2025-07-30-1753860553406.jpg'>",
+        "en": "What disease is<user uploaded image for analysis at 'guava761/2025-07-30-1753860553406.jpg'>",
+        "timestamp": {
+          "$date": "2025-07-30T07:29:32.672Z"
+        },
+        "standalone_question": "What is the content of the image uploaded by the user?",
+        "standalone_en": "What is the content of the image uploaded by the user?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या गूवाच्या पिकावर काही विशिष्ट रोगांचे लक्षणे आढळली आहेत, परंतु मेलीबगच्या संसर्गाचे व्यवस्थापन करण्यासाठी काही सामान्य शिफारसी आहेत:\n\n1. **कीटकनाशक साबण**: हे कीटकांना श्वास घेण्यास अडथळा आणू शकते.\n2. **नीम तेल**: हे एक नैसर्गिक कीटकनाशक आहे जे मेलीबगच्या जीवनचक्रात अडथळा आणते.\n3. **हॉर्टिकल्चरल तेल**: हे विविध कीटकांवर, मेलीबगसह, प्रभावी आहे.\n\nउत्पादनाच्या लेबलवरील सूचनांनुसार या उपचारांचा वापर करा. तसेच, झाडांच्या आजूबाजूला चांगली हवेची वर्तुळता सुनिश्चित करा आणि नियमितपणे आणखी संसर्गासाठी तपासा.\n\nअधिक अचूक शिफारसींसाठी, प्रभावित क्षेत्राचा स्पष्ट चित्र प्रदान करणे शक्य असल्यास विचार करा.",
+        "en": "There have been some symptoms of certain diseases on your gooey crop, but there are some general recommendations for managing melibug infection:\n\n1. **Pesticide soap**: It can hinder insects from breathing.\n2. **Neem oil**: It is a natural pesticide that disrupts the life cycle of melibug.\n3. **Horticultural oil**: It is effective on various insects, including melibug.\n\nUse these treatments according to the instructions on the product's label. Also, ensure good air circulation around the trees and check for more infections regularly.\n\nFor more accurate recommendations, consider providing a clear picture of the affected area.",
+        "timestamp": {
+          "$date": "2025-07-30T07:29:59.231Z"
+        }
+      }
+    ],
+    "farmer_id": "sachinbobade",
+    "farmer_plot_ids": [
+      "guava761"
+    ],
+    "conversation_id": "6889c9db83a24d8b2de0d490",
+    "_id": "6889c9db83a24d8b2de0d490",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-30T07:34:32.676000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-07-30T07:29:32.672000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Weather batao",
+        "en": "Weather batao",
+        "timestamp": {
+          "$date": "2025-07-30T06:16:42.747Z"
+        },
+        "standalone_question": "What is the weather?",
+        "standalone_en": "What is the weather?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the weather forecast for your plot \"maze\" in Ankalkhop, Palus, Sangli, Maharashtra:\n\n### Weather Forecast:\n- **July 30, 2025**: \n  - Min Temp: 22.1°C, Max Temp: 24.8°C\n  - Humidity: 88%\n  - Wind Speed: 20.9 km/h\n  - Rainfall: 2.1 mm (25% chance)\n  \n- **July 31, 2025**: \n  - Min Temp: 22°C, Max Temp: 26.9°C\n  - Humidity: 85%\n  - Wind Speed: 19.8 km/h\n  - Rainfall: 1.6 mm (25% chance)\n\n- **August 1, 2025**: \n  - Min Temp: 21.9°C, Max Temp: 27.7°C\n  - Humidity: 84%\n  - Wind Speed: 16.6 km/h\n  - Rainfall: 1.6 mm (25% chance)\n\n- **August 2, 2025**: \n  - Min Temp: 21.9°C, Max Temp: 27.7°C\n  - Humidity: 83%\n  - Wind Speed: 14.8 km/h\n  - Rainfall: 1.1 mm (20% chance)\n\n- **August 3, 2025**: \n  - Min Temp: 21.9°C, Max Temp: 27.9°C\n  - Humidity: 83%\n  - Wind Speed: 13.7 km/h\n  - Rainfall: 1.9 mm (15% chance)\n\n- **August 4, 2025**: \n  - Min Temp: 22.2°C, Max Temp: 27.8°C\n  - Humidity: 83%\n  - Wind Speed: 14.4 km/h\n  - Rainfall: 0.4 mm (15% chance)\n\n- **August 5, 2025**: \n  - Min Temp: 22°C, Max Temp: 27°C\n  - Humidity: 82%\n  - Wind Speed: 14.4 km/h\n  - Rainfall: 0.1 mm (15% chance)\n\n- **August 6, 2025**: \n  - Min Temp: 21.8°C, Max Temp: 26.9°C\n  - Humidity: 83%\n  - Wind Speed: 13.7 km/h\n  - Rainfall: 0.2 mm (35% chance)\n\n- **August 7, 2025**: \n  - Min Temp: 21.4°C, Max Temp: 27.5°C\n  - Humidity: 84%\n  - Wind Speed: 10.4 km/h\n  - Rainfall: 0.0 mm (25% chance)\n\n- **August 8, 2025**: \n  - Min Temp: 21.4°C, Max Temp: 28.2°C\n  - Humidity: 84%\n  - Wind Speed: 9 km/h\n  - Rainfall: 0.0 mm (20% chance)\n\n- **August 9, 2025**: \n  - Min Temp: 21.3°C, Max Temp: 27.5°C\n  - Humidity: 88%\n  - Wind Speed: 5.4 km/h\n  - Rainfall: 0.4 mm (30% chance)\n\n- **August 10, 2025**: \n  - Min Temp: 21.3°C, Max Temp: 27.8°C\n  - Humidity: 90%\n  - Wind Speed: 4.7 km/h\n  - Rainfall: 0.2 mm (25% chance)\n\n- **August 11, 2025**: \n  - Min Temp: 21°C, Max Temp: 28.1°C\n  - Humidity: 90%\n  - Wind Speed: 5.4 km/h\n  - Rainfall: 0.1 mm (20% chance)\n\nIf you need more specific information or have any other questions, feel free to ask!",
+        "en": "Here's the weather forecast for your plot \"maze\" in Ankalkhop, Palus, Sangli, Maharashtra:\n\n### Weather Forecast:\n- **July 30, 2025**: \n  - Min Temp: 22.1°C, Max Temp: 24.8°C\n  - Humidity: 88%\n  - Wind Speed: 20.9 km/h\n  - Rainfall: 2.1 mm (25% chance)\n  \n- **July 31, 2025**: \n  - Min Temp: 22°C, Max Temp: 26.9°C\n  - Humidity: 85%\n  - Wind Speed: 19.8 km/h\n  - Rainfall: 1.6 mm (25% chance)\n\n- **August 1, 2025**: \n  - Min Temp: 21.9°C, Max Temp: 27.7°C\n  - Humidity: 84%\n  - Wind Speed: 16.6 km/h\n  - Rainfall: 1.6 mm (25% chance)\n\n- **August 2, 2025**: \n  - Min Temp: 21.9°C, Max Temp: 27.7°C\n  - Humidity: 83%\n  - Wind Speed: 14.8 km/h\n  - Rainfall: 1.1 mm (20% chance)\n\n- **August 3, 2025**: \n  - Min Temp: 21.9°C, Max Temp: 27.9°C\n  - Humidity: 83%\n  - Wind Speed: 13.7 km/h\n  - Rainfall: 1.9 mm (15% chance)\n\n- **August 4, 2025**: \n  - Min Temp: 22.2°C, Max Temp: 27.8°C\n  - Humidity: 83%\n  - Wind Speed: 14.4 km/h\n  - Rainfall: 0.4 mm (15% chance)\n\n- **August 5, 2025**: \n  - Min Temp: 22°C, Max Temp: 27°C\n  - Humidity: 82%\n  - Wind Speed: 14.4 km/h\n  - Rainfall: 0.1 mm (15% chance)\n\n- **August 6, 2025**: \n  - Min Temp: 21.8°C, Max Temp: 26.9°C\n  - Humidity: 83%\n  - Wind Speed: 13.7 km/h\n  - Rainfall: 0.2 mm (35% chance)\n\n- **August 7, 2025**: \n  - Min Temp: 21.4°C, Max Temp: 27.5°C\n  - Humidity: 84%\n  - Wind Speed: 10.4 km/h\n  - Rainfall: 0.0 mm (25% chance)\n\n- **August 8, 2025**: \n  - Min Temp: 21.4°C, Max Temp: 28.2°C\n  - Humidity: 84%\n  - Wind Speed: 9 km/h\n  - Rainfall: 0.0 mm (20% chance)\n\n- **August 9, 2025**: \n  - Min Temp: 21.3°C, Max Temp: 27.5°C\n  - Humidity: 88%\n  - Wind Speed: 5.4 km/h\n  - Rainfall: 0.4 mm (30% chance)\n\n- **August 10, 2025**: \n  - Min Temp: 21.3°C, Max Temp: 27.8°C\n  - Humidity: 90%\n  - Wind Speed: 4.7 km/h\n  - Rainfall: 0.2 mm (25% chance)\n\n- **August 11, 2025**: \n  - Min Temp: 21°C, Max Temp: 28.1°C\n  - Humidity: 90%\n  - Wind Speed: 5.4 km/h\n  - Rainfall: 0.1 mm (20% chance)\n\nIf you need more specific information or have any other questions, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-07-30T06:17:08.952Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Soil moisture batao",
+        "en": "Soil moisture batao",
+        "timestamp": {
+          "$date": "2025-07-30T06:17:58.047Z"
+        },
+        "standalone_question": "What is the soil moisture level?",
+        "standalone_en": "What is the soil moisture level?",
+        "retrieval": {
+          "tools": [
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range.",
+            "get_daily_soil_moisture_data  \nRetrieves historical daily soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for larger duration.",
+            "get_soil_moisture_percentage_from_kpa_reading  \nGets the estimated soil moisture percentage for a given plot and kPa reading.",
+            "get_soil_moisture_sensor_depth  \nReturns the depths in inches of the soil moisture sensors 1 and 2 installed on the plots.",
+            "get_hourly_soil_moisture_data  \nRetrieves historical hourly soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for less than 5 days duration."
+          ],
+          "faq": [
+            "Q: What is my soil moisture depletion?\nA: Soil moisture depletion %age = (100 - soil moisture %age)",
+            "Q: How do I know if my soil  moisture sensor is working fine ?\nA: The only way to know is if after irrigation the sensor is dropping below 5 kpa and increasing continuously unless next irrigation is done. You can try putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. Also, a soil moisture reading of 0 kPa is perfectly fine, meaning wet soil, but a reading of 200 kPa could mean fault. If the soil moisture sensor reading is consistently at 0 from few 48 hours, then it could be anamolous (use live and historical hourly soil moisture data (use tool) to validate).",
+            "Q: Sensor is showing wet, i.e. less kpa but soil looks dry.\nA: The sensor measures the moisture around the rootzone which is not visible from the top. Ask use to check the moisture in rootzone around the sensor. If it matches, ask the user to irrigate.",
+            "Q: How to calibrate soil moisture sensors ?\nA:  The way to calibrate sensors is by putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. A drop after watering or irrigation and continuous dry upto 200 kpa means that the sensor is calibrated.",
+            "Q: In the latest irrigation , sensor didn't drop to 0.\nA: 0 to 5 Kpa means soil is fully wet. It need not drop to 0 every time. Moisture less than 5 also means wet conditions. So, need not worry. Also ask to wait for 12 hours after irrigation."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The current soil moisture readings for your plot \"maze\" are as follows:\n\n- **Soil Moisture Sensor 1**: 65% (indicating wet soil)\n- **Soil Moisture Sensor 2**: 40% (indicating moderately wet soil)\n\nIf you have any further questions or need assistance, feel free to ask!",
+        "en": "The current soil moisture readings for your plot \"maze\" are as follows:\n\n- **Soil Moisture Sensor 1**: 65% (indicating wet soil)\n- **Soil Moisture Sensor 2**: 40% (indicating moderately wet soil)\n\nIf you have any further questions or need assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-07-30T06:18:03.037Z"
+        }
+      }
+    ],
+    "farmer_id": "amolarunpatil",
+    "farmer_plot_ids": [
+      "maze"
+    ],
+    "conversation_id": "6889b8ca91b285c244a0c991",
+    "_id": "6889b8ca91b285c244a0c991",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-07-30T06:22:58.051000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-07-30T06:16:42.747000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "हवामान बद झाले आहे अपडेट केल्या वर  कारनं सांगा ",
+        "en": "Let the car know when you update that the weather has turned bad. ",
+        "timestamp": {
+          "$date": "2025-07-30T05:08:38.674Z"
+        },
+        "standalone_question": "What is the reason for the change in the weather?",
+        "standalone_en": "What is the reason for the change in the weather?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "havaman bad jhale aahe update kelya var karanam sanga "
+      },
+      {
+        "role": "assistant",
+        "content": "आजच्या हवामानात कोणतीही पाऊस नाही. 29 जुलै 2025 पासून 30 जुलै 2025 पर्यंतच्या तासांमध्ये पाऊस झाला नाही. \n\nतुमच्या प्लॉटसाठी हवामान स्थिर आहे. काही बदल असल्यास, कृपया सांगा.",
+        "en": "There is no rain in today's weather. There was no rain in the hours from July 29, 2025 to July 30, 2025. \n\nThe weather is stable for your plot. If there are any changes, please let me know.",
+        "timestamp": {
+          "$date": "2025-07-30T05:08:44.932Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "डिव्हाईस मध्ये हवामान ऑप चालु होते अपडेट केल्या वर बंद का झाले ",
+        "en": "The device was running the weather op and why it was turned off when updated ",
+        "timestamp": {
+          "$date": "2025-07-30T05:11:07.602Z"
+        },
+        "standalone_question": "Why did the weather feature in the device turn off after the update?",
+        "standalone_en": "Why did the weather feature in the device turn off after the update?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "device madhye havaman op chalu hote update kelya var band ka jhale "
+      },
+      {
+        "role": "assistant",
+        "content": "जर तुमच्या डिव्हाईसमध्ये हवामान ऑपरेशन चालू होते आणि नंतर बंद झाले असेल, तर काही कारणे असू शकतात:\n\n1. **संपर्क समस्या**: डिव्हाईसच्या कनेक्शनची तपासणी करा. कनेक्शन ढिले असल्यास, ते घट्ट करा.\n2. **नेटवर्क कनेक्टिव्हिटी**: इंटरनेट कनेक्शन तपासा. नेटवर्कमध्ये काही समस्या असल्यास, डिव्हाईस डेटा अपडेट करू शकत नाही.\n3. **बॅटरी स्थिती**: बॅटरीची स्थिती तपासा. कमी बॅटरीमुळे डिव्हाईस कार्य करणे थांबवू शकते.\n4. **डिव्हाईस रीस्टार्ट करा**: डिव्हाईस रीस्टार्ट करून पाहा. कधी कधी, साधा रीस्टार्ट समस्या सोडवू शकतो.\n\nजर तुम्हाला अजूनही समस्या येत असेल, तर कृपया अधिक माहिती द्या, मी तुम्हाला मदत करेन.",
+        "en": "If your device had a weather operation on and then turned off, there may be a few reasons:\n\n1. **Contact problem**: Check the device's connection. If the connection is loose, tighten it.\n2. **Network connectivity**: Check internet connection. If there is a problem with the network, the device cannot update the data.\n3. **Battery status**: Check battery position. A low battery can stop the device from working.\n4. **Restart the device**: Try the device restart. Sometimes, a simple restart can solve the problem.\n\nIf you're still having a problem, please provide more information, I'll help you.",
+        "timestamp": {
+          "$date": "2025-07-30T05:11:16.471Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "डिव्हाईस दुसरे बदलून नवीन टाकले आहे तरी पण दाखवत नाहीये ",
+        "en": "The device has been replaced with a new one, but it is not showing ",
+        "timestamp": {
+          "$date": "2025-07-30T05:13:04.871Z"
+        },
+        "standalone_question": "Why is the device not displaying information even after replacing it with a new one?",
+        "standalone_en": "Why is the device not displaying information even after replacing it with a new one?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "device dusare badalun navin takale aahe tari pan dakhavat nahiye "
+      },
+      {
+        "role": "assistant",
+        "content": "जर तुम्ही नवीन डिव्हाईस स्थापित केले आहे आणि ते अद्याप डेटा दाखवत नाही, तर खालील गोष्टी तपासा:\n\n1. **कनेक्शन तपासा**: नवीन डिव्हाईस योग्यरित्या कनेक्ट केले आहे का ते तपासा.\n2. **नेटवर्क कनेक्टिव्हिटी**: डिव्हाईस इंटरनेटशी कनेक्ट आहे का ते तपासा.\n3. **बॅटरी स्थिती**: डिव्हाईसची बॅटरी चांगली आहे का ते तपासा.\n4. **डिव्हाईस रीस्टार्ट करा**: नवीन डिव्हाईस रीस्टार्ट करून पाहा.\n5. **अॅप अपडेट**: तुमच्या अॅपला नवीनतम आवृत्तीत अपडेट केले आहे का ते तपासा.\n\nजर तुम्हाला अजूनही समस्या येत असेल, तर मी तुम्हाला सपोर्ट तिकिट उघडण्यात मदत करू शकतो. तुम्हाला तिकिट उघडायचे आहे का?",
+        "en": "If you've installed a new device and it still doesn't show the data, check the following:\n\n1. **Check connection**: Check that the new device is properly connected.\n2. **Network Connectivity**: Check if the device is connected to the Internet.\n3. **Battery status**: Check if the device's battery is good.\n4. **Restart the device**: Try a new device restart.\n5. **App Update**: Check that your app has been updated to the latest version.\n\nIf you're still having a problem, I can help you open the support ticket. Do you want to open a ticket?",
+        "timestamp": {
+          "$date": "2025-07-30T05:13:13.193Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "तिकीट काय आहे ",
+        "en": "What's the ticket? ",
+        "timestamp": {
+          "$date": "2025-07-30T05:13:52.003Z"
+        },
+        "standalone_question": "What is a support ticket?",
+        "standalone_en": "What is a support ticket?",
+        "retrieval": {
+          "tools": [
+            "raise_support_ticket  \nRaises a support ticket for the given plot. Dharti decides the priority and message based on the conversation."
+          ],
+          "faq": []
+        },
+        "content_transliterated": "ticket kay aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "तिकीट म्हणजे एक प्रकारची विनंती किंवा समस्या नोंदवण्याची प्रक्रिया आहे, ज्याद्वारे तुम्ही तांत्रिक सहाय्य किंवा सेवा मागू शकता. हे सहसा ग्राहक सेवा टीमकडे पाठवले जाते, जे तुमच्या समस्येवर लक्ष देऊन त्याचे निराकरण करण्याचा प्रयत्न करतात.\n\nउदाहरणार्थ, जर तुमच्या डिव्हाईसमध्ये काही समस्या असेल, तर तुम्ही तिकीट उघडून त्या समस्येची माहिती देऊ शकता. यामुळे तांत्रिक टीम तुमच्या समस्येवर काम करू शकते.\n\nतुम्हाला तिकिट उघडायचे आहे का?",
+        "en": "Ticketing is a type of request or problem reporting process, through which you can ask for technical assistance or services. This is usually referred to the customer service team, who try to address and solve your problem.\n\nFor example, if there is a problem with your device, you can open the ticket and report the problem. This allows the technical team to work on your problem.\n\nDo you want to open a ticket?",
+        "timestamp": {
+          "$date": "2025-07-30T05:14:02.382Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "हो चालेल ",
+        "en": "Yes ",
+        "timestamp": {
+          "$date": "2025-07-30T05:14:32.342Z"
+        },
+        "standalone_question": "Would you like to open a support ticket?",
+        "standalone_en": "Would you like to open a support ticket?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: My Kairo/Nero device is not working.\nA: If some issue is being faced, user can raise the support ticket in the Fyllo app. If the issue is not solved please contact Fyllo customer support for further assistance. Do you want me to raise the support ticket for you?",
+            "Q: Send the experts tomorrow. Yes send. Send to visit. Send the visitor to farm/plot visit.  \nA: To schedule a visit, please raise a maintenance ticket in the app or reach out to the our team for further assistance. Do you want me to raise a support ticket for you?"
+          ]
+        },
+        "content_transliterated": "ho chalel "
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया मला तुमच्या प्लॉटसाठी तिकीट उघडण्यासाठी काही माहिती द्या:\n\n1. **तुमच्या प्लॉटचे नाव**: \"plot no. 1 (manik chaman)\"\n2. **समस्या**: \"नवीन डिव्हाईस कार्य करत नाही.\"\n3. **तुमचा संदेश**: \"कृपया तांत्रिक सहाय्य पाठवा.\"\n\nतुम्ही यामध्ये काही बदल करू इच्छित असल्यास, कृपया सांगा. अन्यथा, मी तिकीट उघडतो.",
+        "en": "Please give me some information to open tickets for your plot:\n\n1. **Name of your plot**: \"Plot No. 1 (manik chaman)\"\n2. **Problem**: \"The new device doesn't work.\"\n3. **Your message**: \"Please send technical assistance.\"\n\nIf you'd like to make any changes, please let me know. Otherwise, I'll open the ticket.",
+        "timestamp": {
+          "$date": "2025-07-30T05:14:38.403Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "हवामान दाखवत नाहीये तिकीट हवं आहे ",
+        "en": "The weather isn't showing you want a ticket ",
+        "timestamp": {
+          "$date": "2025-07-30T05:15:20.826Z"
+        },
+        "standalone_question": "Could you please open a ticket for the issue of the weather not being displayed?",
+        "standalone_en": "Could you please open a ticket for the issue of the weather not being displayed?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "havaman dakhavat nahiye tikit havam aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमचे तिकीट यशस्वीरित्या उघडले आहे. तिकीट क्रमांक: **685243**. तांत्रिक टीम तुमच्या समस्येवर लवकरच लक्ष देईल. \n\nकृपया आणखी काही मदतीची आवश्यकता असल्यास, मला सांगा!",
+        "en": "Your ticket has been successfully opened. Ticket number: **685243**. The technical team will address your problem soon. \n\nPlease let me know if you need any more help!",
+        "timestamp": {
+          "$date": "2025-07-30T05:15:28.703Z"
+        }
+      }
+    ],
+    "farmer_id": "kamleshjagtap",
+    "farmer_plot_ids": [
+      "plotno1manikchaman890"
+    ],
+    "conversation_id": "6889a8d691b285c244a0c990",
+    "_id": "6889a8d691b285c244a0c990",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-30T05:20:20.830000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-07-30T05:08:38.674000+00:00"
+  }
+]

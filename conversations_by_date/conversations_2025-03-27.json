@@ -1,0 +1,818 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "रिचार्ज करण्यासाठी काय करावे ",
+        "en": "What to do to recharge ",
+        "timestamp": {
+          "$date": "2025-03-27T15:05:33.052Z"
+        },
+        "standalone_question": "What should I do to recharge?",
+        "standalone_en": "What should I do to recharge?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "recharge karanyasathi kay karave "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या डिव्हाइससाठी रिचार्ज करण्यासाठी, कृपया खालील चरणांचे पालन करा:\n\n1. **फायलो अॅप उघडा**: आपल्या स्मार्टफोनवर फायलो अॅप उघडा.\n2. **रिचार्ज सेक्शनमध्ये जा**: अॅपमध्ये रिचार्ज किंवा सब्सक्रिप्शन सेक्शन शोधा.\n3. **रिचार्ज प्लान निवडा**: आपल्या गरजेनुसार योग्य रिचार्ज प्लान निवडा.\n4. **भुगतान प्रक्रिया पूर्ण करा**: आपल्या पेमेंटची माहिती भरा आणि रिचार्ज प्रक्रिया पूर्ण करा.\n\nजर तुम्हाला कोणतीही अडचण येत असेल, तर फायलोच्या ग्राहक समर्थनाशी संपर्क साधा.",
+        "en": "To recharge for your device, please follow the steps below:\n\n1. **Open the Filo app**: Open the Filo app on your smartphone.\n2. Go to **Recharge section**: Find the recharge or subscription section in the app.\n3. **Choose a recharge plan**: Choose the right recharge plan according to your needs.\n4. **Complete the payment process**: Fill in your payment information and complete the recharge process.\n\nIf you are experiencing any problems, contact Filo's customer support.",
+        "timestamp": {
+          "$date": "2025-03-27T15:05:40.488Z"
+        }
+      }
+    ],
+    "farmer_id": "sanjaysadashivshinde",
+    "farmer_plot_ids": [
+      "plotno1thompsonshinde",
+      "plotno3ssnshivanjani",
+      "plotnomanikchaman"
+    ],
+    "conversation_id": "67e5693c87799d50a326a8c1",
+    "_id": "67e5693c87799d50a326a8c1",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-03-27T15:10:33.059000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-03-27T15:05:33.052000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "काय बिघाड झालेला आहे",
+        "en": "What's wrong?",
+        "timestamp": {
+          "$date": "2025-03-27T14:20:30.974Z"
+        },
+        "standalone_question": "What is the problem?",
+        "standalone_en": "What is the problem?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपण कोणत्या विशिष्ट समस्येबद्दल बोलत आहात? कृपया अधिक माहिती द्या, जसे की पिक, माती, पाणी, किंवा इतर कोणतीही समस्या, जेणेकरून मी आपल्याला योग्य मार्गदर्शन करू शकेन.",
+        "en": "What specific problem are you talking about? Please provide more information, such as crops, soil, water, or any other problems, so I can guide you properly.",
+        "timestamp": {
+          "$date": "2025-03-27T14:20:35.984Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "फायलो काही दाखवीत नाही फक्त आहे तेच",
+        "en": "Filo doesn't show anything, it's just that",
+        "timestamp": {
+          "$date": "2025-03-27T14:20:56.653Z"
+        },
+        "standalone_question": "Why is the file not displaying anything and only showing what is already there?",
+        "standalone_en": "Why is the file not displaying anything and only showing what is already there?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया आपल्याला कोणती माहिती हवी आहे हे स्पष्ट करा. आपण पिक, माती, पाणी, किंवा इतर कोणत्याही विशिष्ट समस्येबद्दल विचारत असाल तर मी आपल्याला अधिक माहिती देऊ शकतो.",
+        "en": "Please clarify what information you want. If you're asking about crops, soil, water, or any other specific problem, I can give you more information.",
+        "timestamp": {
+          "$date": "2025-03-27T14:21:00.411Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पाण्याची माहिती आठ दिवसापासून तीच",
+        "en": "The water information has been the same for eight days.",
+        "timestamp": {
+          "$date": "2025-03-27T14:21:19.280Z"
+        },
+        "standalone_question": "What information do you have about the water situation over the past eight days?",
+        "standalone_en": "What information do you have about the water situation over the past eight days?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "panyachi mahiti ath divasapasun tich"
+      },
+      {
+        "role": "assistant",
+        "content": "आपण पाणी कधी दिले होते? पाण्याला मातीपर्यंत पोहोचण्यासाठी साधारणतः 12 तास लागतात. जर 12 तासांनंतरही सेन्सरचे वाचन कमी होत नसेल, तर यामागील काही कारणे असू शकतात:\n\n1. **ड्रिप सिस्टीममध्ये अडथळा**: ड्रिप बंद झालेले असू शकते.\n2. **जमिनीचा उतार**: पाण्याला सेन्सरपर्यंत पोहोचण्यात अडथळा येत असेल.\n3. **सेन्सरची जुनी अवस्था**: जर सेन्सर दोन वर्षांपेक्षा जुना असेल, तर तो खराब होऊ शकतो.\n\nकृपया तपासा की ड्रिप सिस्टीम व्यवस्थित कार्यरत आहे का आणि सेन्सरच्या रेंजमध्ये ड्रिपर आहे का. जर आपल्याला अजून काही शंका असेल, तर मी तिकीट उघडण्यास मदत करू शकतो.",
+        "en": "When did you give water? It usually takes 12 hours for the water to reach the soil. If the sensor's reading doesn't drop even after 12 hours, there may be a few reasons for this:\n\n1. **Barrier in drip system**: The drip may be closed.\n2. **Ground slope**: Water is obstructing access to sensors.\n3. **Old state of the sensor**: If the sensor is more than two years old, it can deteriorate.\n\nPlease check if the drip system is working properly and if there is a dripper within the range of the sensors. If you have any more doubts, I can help you open tickets.",
+        "timestamp": {
+          "$date": "2025-03-27T14:21:26.671Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "सर्व व्यवस्थित आहे",
+        "en": "All is well",
+        "timestamp": {
+          "$date": "2025-03-27T14:22:02.561Z"
+        },
+        "standalone_question": "Is everything functioning properly?",
+        "standalone_en": "Is everything functioning properly?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "serve vyavasthit aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "चांगले! जर सर्व काही व्यवस्थित असेल तर आपण आपल्या पिकांच्या व्यवस्थापनावर लक्ष केंद्रित करू शकता. आपल्याला पाण्याची, खताची, किंवा इतर कोणतीही माहिती हवी आहे का? कृपया सांगा, मी मदत करण्यास तयार आहे.",
+        "en": "Good! If all goes well, you can focus on managing your crops. Do you want water, fertilizer, or any other information? Please tell me, I'm willing to help.",
+        "timestamp": {
+          "$date": "2025-03-27T14:22:06.061Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पाणी दिलेली टक्केवारी तशीच आहे",
+        "en": "The percentage watered is the same",
+        "timestamp": {
+          "$date": "2025-03-27T14:22:34.765Z"
+        },
+        "standalone_question": "What is the current percentage of water given?",
+        "standalone_en": "What is the current percentage of water given?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": []
+        },
+        "content_transliterated": "pani dileli takkevari tashich aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "आपण पाण्याची टक्केवारी स्थिर असल्याचे सांगितले आहे. याचा अर्थ असा होऊ शकतो की:\n\n1. **पाण्याची गरज कमी आहे**: पिकाची वाढ किंवा विकासाची अवस्था कमी पाण्याची आवश्यकता दर्शवू शकते.\n2. **मातीतील पाण्याची साठवण**: मातीने पाण्याची साठवण केली असेल, ज्यामुळे सेन्सर वाचन स्थिर राहते.\n3. **सेन्सरची अचूकता**: सेन्सरची अचूकता तपासणे आवश्यक आहे, कारण ते चुकीची माहिती देऊ शकते.\n\nआपण पाण्याची गरज असलेल्या स्थितीत असल्यास, मी पाण्याच्या आवश्यकतेसाठी एक अंदाज देऊ शकतो. कृपया मला आपल्या प्लॉटसाठी सध्याची मातीची आर्द्रता (kPa) वाचन द्या, जेणेकरून मी अधिक माहिती देऊ शकेन.",
+        "en": "We have said that the water percentage is stable. This may mean:\n\n1. **Water requirement is low**: The growth or development stage of the crop may indicate the need for less water.\n2. **Soil water storage**: The soil may have stored water, which keeps the sensor reading constant.\n3. **The accuracy of the sensor**: It is necessary to check the accuracy of the sensor, as it can give wrong information.\n\nIf you're in a water-needed situation, I can give an estimate for water needs. Please give me the current soil moisture (kPa) reading for your plot, so that I can give more information.",
+        "timestamp": {
+          "$date": "2025-03-27T14:22:43.450Z"
+        }
+      }
+    ],
+    "farmer_id": "yogeshwadaje",
+    "farmer_plot_ids": [
+      "plotno1kingberry153",
+      "plotno2thompson413"
+    ],
+    "conversation_id": "67e55eaefd9fd558b13cd366",
+    "_id": "67e55eaefd9fd558b13cd366",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-03-27T14:27:34.773000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-03-27T14:20:30.974000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the problem ",
+        "en": "What is the problem ",
+        "timestamp": {
+          "$date": "2025-03-27T07:41:04.438Z"
+        },
+        "standalone_question": "What is the issue?",
+        "standalone_en": "What is the issue?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The current soil moisture readings for **Plot 1** are as follows:\n\n- **Moisture Sensor 1**: 42%\n- **Moisture Sensor 2**: 71%\n\n### Recent Trends:\n- On **March 26**, the moisture was 40% (Sensor 1) and 63% (Sensor 2).\n- On **March 25**, it was 41% (Sensor 1) and 64% (Sensor 2).\n- The moisture levels have been relatively stable over the past week, with only slight fluctuations.\n\n### Analysis:\n- The moisture levels are not increasing rapidly; they are within a normal range.\n- If you are experiencing issues with the moisture readings, it may be worth checking the physical moisture around the sensors to ensure they are functioning correctly.\n\nWould you like to investigate further or check anything specific?",
+        "en": "The current soil moisture readings for **Plot 1** are as follows:\n\n- **Moisture Sensor 1**: 42%\n- **Moisture Sensor 2**: 71%\n\n### Recent Trends:\n- On **March 26**, the moisture was 40% (Sensor 1) and 63% (Sensor 2).\n- On **March 25**, it was 41% (Sensor 1) and 64% (Sensor 2).\n- The moisture levels have been relatively stable over the past week, with only slight fluctuations.\n\n### Analysis:\n- The moisture levels are not increasing rapidly; they are within a normal range.\n- If you are experiencing issues with the moisture readings, it may be worth checking the physical moisture around the sensors to ensure they are functioning correctly.\n\nWould you like to investigate further or check anything specific?",
+        "timestamp": {
+          "$date": "2025-03-27T07:41:12.137Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "What is the problem <user uploaded image for analysis at 'plot1471/2025-03-27-1743061273735.jpeg'>",
+        "en": "What is the problem <user uploaded image for analysis at 'plot1471/2025-03-27-1743061273735.jpeg'>",
+        "timestamp": {
+          "$date": "2025-03-27T07:41:58.478Z"
+        },
+        "standalone_question": "What issue are you experiencing with the moisture readings?",
+        "standalone_en": "What issue are you experiencing with the moisture readings?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What should I do if the soil moisture sensor values fluctuate?\nA: Ensure the sensor is installed properly in the soil, check for air bubbles, and contact Fyllo representative if the issue persists.",
+            "Q: I irrigated still the sensor is dropping slowly.\nA: Sometimes, the water reaches slowly till root zone and the moisture sensor kPa value drops slowly. Always wait for 12 hours after irrigation for the moisture to saturate. If still some confusion, ask user to check moisture near the sensor and check if he wants to raise a ticket for the issue.",
+            "Q: What should I do if the soil moisture sensor always shows wet values?\nA: Verify the irrigation frequency, check the installation point, and contact Fyllo representative if the issue persists.",
+            "Q: The moisture (kpa) is increasing slowly recently.\nA: Need to check for current stage and evapotranspiration rate. If the crop is recently sown or pruning (छंटाई)  is done recently, the transpiration will be slow and moisture kpa will increase slowly. If evaporation is slow or temperature have dropped on rainfall has happened, it will increase slowly. The chatbot needs to check the temperature , rainfall and crop stage data. And advise if there is any reason for the slow increase.\nIf still there is some confusion, the chatbot needs to ask user to check moisture around the sensor by digging and then ask  the user if he wants to create an issue ticket for the same.",
+            "Q: The moisture (kpa) is increasing very fast  recently and it is asking to irrigate frequently.\nA:  Kpa is increasing fast it means that sensors are drying rapidly.  The chatbot needs to :\nCheck the actual kpa increase rate if it's higher now  in comparison to the previous weeks. If there no , tell the user that kPa increase is normal.\nIf there is rapid increase recently, check if the crop stag is near full fruit growth or harvesting. In the later stages , crop transpiration is very high , thus there is a rapid increase in soil moisture Kpa meaning decrease in moisture in the soil. Also, the moisture drop can be due to high evaporation recently. Check if there is temperature increase meaning high evaporation recently.\nIf the above two are not the cases, ask user to check the moisture physically near the sensor. If the actual moisture is wet near the sensor and the sensor is showing dry, the sensor might be worn out. In this case , ask if the user wants to raise a ticket with the support team."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the uploaded image indicates the following potential issues with your banana plants:\n\n1. **Nutrient Deficiency**: The yellowing of the leaves may suggest a nitrogen deficiency or other nutrient imbalances.\n2. **Water Stress**: Insufficient water supply can lead to yellowing and browning of the leaves.\n3. **Disease or Pest Damage**: The browning at the edges could also indicate possible disease or pest infestation.\n\n### Recommendations:\n- **Nutrient Management**: Consider conducting a soil test to check for nutrient levels and apply appropriate fertilizers.\n- **Watering**: Ensure that the plants are receiving adequate water, especially during dry periods.\n- **Pest and Disease Control**: Monitor the plants closely for any signs of pests or diseases. If you suspect a specific issue, please let me know for targeted recommendations.\n\nFor a more accurate analysis, a clearer image focusing on the affected areas would be helpful. Would you like to proceed with any specific actions or further analysis?",
+        "en": "The analysis of the uploaded image indicates the following potential issues with your banana plants:\n\n1. **Nutrient Deficiency**: The yellowing of the leaves may suggest a nitrogen deficiency or other nutrient imbalances.\n2. **Water Stress**: Insufficient water supply can lead to yellowing and browning of the leaves.\n3. **Disease or Pest Damage**: The browning at the edges could also indicate possible disease or pest infestation.\n\n### Recommendations:\n- **Nutrient Management**: Consider conducting a soil test to check for nutrient levels and apply appropriate fertilizers.\n- **Watering**: Ensure that the plants are receiving adequate water, especially during dry periods.\n- **Pest and Disease Control**: Monitor the plants closely for any signs of pests or diseases. If you suspect a specific issue, please let me know for targeted recommendations.\n\nFor a more accurate analysis, a clearer image focusing on the affected areas would be helpful. Would you like to proceed with any specific actions or further analysis?",
+        "timestamp": {
+          "$date": "2025-03-27T07:42:13.909Z"
+        }
+      }
+    ],
+    "farmer_id": "rajendrasahebraopatil",
+    "farmer_plot_ids": [
+      "plot1471"
+    ],
+    "conversation_id": "67e5010f13d9d1e49836e1ea",
+    "_id": "67e5010f13d9d1e49836e1ea",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-03-27T07:46:58.485000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-03-27T07:41:04.438000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "શુ મારા ખેતર કોઈ રોગ દેખાય છે",
+        "en": "Does my farm see any disease?",
+        "timestamp": {
+          "$date": "2025-03-27T06:17:39.050Z"
+        },
+        "standalone_question": "Is there any disease visible in my field?",
+        "standalone_en": "Is there any disease visible in my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "shoe mara khetar koi rog dekhay che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં આજના દિવસે કોઈ રોગની ભલામણ નથી.",
+        "en": "No disease is recommended on your farm today.",
+        "timestamp": {
+          "$date": "2025-03-27T06:17:42.821Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "તો પછી કોઈ ખાતરની જરૂર લાગે છે",
+        "en": "Then there seems to be a need for some fertilizer",
+        "timestamp": {
+          "$date": "2025-03-27T06:18:12.999Z"
+        },
+        "standalone_question": "Do you think any fertilizer is needed?",
+        "standalone_en": "Do you think any fertilizer is needed?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "to pachi koi khatarani jarur lage che"
+      },
+      {
+        "role": "assistant",
+        "content": "હા, તમારા ખેતરમાં ખાતરની જરૂર છે. હાલમાં, તમે \"ફ્લાવરિંગ\" તબક્કામાં છો, જે 1મી સપ્તાહમાં છે. \n\n### હાલની ખાતર જરૂરિયાત:\n1. **Foliar Spray**:\n   - **Solubor**: 800 gm/acre (1% concentration in 500 liters of water)\n\n2. **Fertigation**:\n   - **12-61-0**: 4 kg/acre\n   - **Calcium Nitrate**: 3 kg/acre\n   - **Alternatives**:\n     - **24-24-0**: 3 kg/acre\n     - **Phosphoric Acid 80%**: 2.5 kg/acre\n     - **Urea**: 1.5 kg/acre\n     - **Phosphoric Acid 80%**: 3.5 kg/acre\n\n### આગામી ખાતર જરૂરિયાત:\n- **2મી સપ્તાહ** (શરૂઆત: 19 એપ્રિલ 2025):\n  - **Potassium Nitrate**: 6 kg/acre\n  - અથવા\n  - **Urea**: 1.5 kg/acre\n  - **Sulfate of Potash**: 5.5 kg/acre\n\nઆ ખાતરો આપના પાકના વિકાસ માટે મહત્વપૂર્ણ છે.",
+        "en": "Yes, your farm needs fertilizer. Currently, you are in the \"flowering\" phase, which is in the 1st week. \n\n### Current fertilizer requirement:\n1. **Foliar Spray**:\n   - **Solubor**: 800 gm/acre (1% concentration in 500 liters of water)\n\n2. **Fertigation**:\n   - **12-61-0**: 4 kg/acre\n   - **Calcium Nitrate**: 3 kg/acre\n   - **Alternatives**:\n     - **24-24-0**: 3 kg/acre\n     - **Phosphoric Acid 80%**: 2.5 kg/acre\n     - **Urea**: 1.5 kg/acre\n     - **Phosphoric Acid 80%**: 3.5 kg/acre\n\n### Next fertilizer requirement:\n* **2nd week** (Start: 19 April 2025):\n  - **Potassium Nitrate**: 6 kg/acre\n  -or\n  - **Urea**: 1.5 kg/acre\n  - **Sulfate of Potash**: 5.5 kg/acre\n\nThese fertilizers are important for the development of your crop.",
+        "timestamp": {
+          "$date": "2025-03-27T06:18:20.973Z"
+        }
+      }
+    ],
+    "farmer_id": "tejabhaihemabhaipatel",
+    "farmer_plot_ids": [
+      "abavaloplot"
+    ],
+    "conversation_id": "67e4ed82b4d7b6fc088a1212",
+    "_id": "67e4ed82b4d7b6fc088a1212",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-27T06:23:13.007000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-03-27T06:17:39.050000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "શુ મારા ખેતર કોઈ રોગ દેખાય છે",
+        "en": "Does my farm see any disease?",
+        "timestamp": {
+          "$date": "2025-03-27T06:17:39.050Z"
+        },
+        "standalone_question": "Is there any disease visible in my field?",
+        "standalone_en": "Is there any disease visible in my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "shoe mara khetar koi rog dekhay che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં આજના દિવસે કોઈ રોગની ભલામણ નથી.",
+        "en": "No disease is recommended on your farm today.",
+        "timestamp": {
+          "$date": "2025-03-27T06:17:42.821Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "તો પછી કોઈ ખાતરની જરૂર લાગે છે",
+        "en": "Then there seems to be a need for some fertilizer",
+        "timestamp": {
+          "$date": "2025-03-27T06:18:12.999Z"
+        },
+        "standalone_question": "Is there a need for any fertilizer then?",
+        "standalone_en": "Is there a need for any fertilizer then?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "to pachi koi khatarani jarur lage che"
+      },
+      {
+        "role": "assistant",
+        "content": "હા, તમારા ખેતરમાં ખાતરની જરૂર છે. હાલમાં, તમે \"ફ્લાવરિંગ\" તબક્કામાં છો, જે 1મી સપ્તાહમાં છે. \n\n### હાલની ખાતર જરૂરિયાત:\n1. **Foliar Spray**:\n   - **Solubor**: 800 gm/acre (1% concentration in 500 liters of water)\n\n2. **Fertigation**:\n   - **12-61-0**: 4 kg/acre\n   - **Calcium Nitrate**: 3 kg/acre\n   - **Alternatives**:\n     - **24-24-0**: 3 kg/acre\n     - **Phosphoric Acid 80%**: 2.5 kg/acre\n     - **Urea**: 1.5 kg/acre\n     - **Phosphoric Acid 80%**: 3.5 kg/acre\n\n### આગામી ખાતર જરૂરિયાત:\n- **2મી સપ્તાહ** (શરૂઆત: 19 એપ્રિલ 2025):\n  - **Potassium Nitrate**: 6 kg/acre\n  - અથવા\n  - **Urea**: 1.5 kg/acre\n  - **Sulfate of Potash**: 5.5 kg/acre\n\nઆ ખાતરો આપના પાકના વિકાસ માટે મહત્વપૂર્ણ છે.",
+        "en": "Yes, your farm needs fertilizer. Currently, you are in the \"flowering\" phase, which is in the 1st week. \n\n### Current fertilizer requirement:\n1. **Foliar Spray**:\n   - **Solubor**: 800 gm/acre (1% concentration in 500 liters of water)\n\n2. **Fertigation**:\n   - **12-61-0**: 4 kg/acre\n   - **Calcium Nitrate**: 3 kg/acre\n   - **Alternatives**:\n     - **24-24-0**: 3 kg/acre\n     - **Phosphoric Acid 80%**: 2.5 kg/acre\n     - **Urea**: 1.5 kg/acre\n     - **Phosphoric Acid 80%**: 3.5 kg/acre\n\n### Next fertilizer requirement:\n* **2nd week** (Start: 19 April 2025):\n  - **Potassium Nitrate**: 6 kg/acre\n  -or\n  - **Urea**: 1.5 kg/acre\n  - **Sulfate of Potash**: 5.5 kg/acre\n\nThese fertilizers are important for the development of your crop.",
+        "timestamp": {
+          "$date": "2025-03-27T06:18:20.973Z"
+        }
+      }
+    ],
+    "farmer_id": "tejabhaihemabhaipatel",
+    "farmer_plot_ids": [
+      "abavaloplot"
+    ],
+    "conversation_id": "67e4ed82b4d7b6fc088a1212",
+    "_id": "67e4ed82b4d7b6fc088a1212",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-27T06:23:13.007000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-03-27T06:17:39.050000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "रिचार्ज केला आहे पण अपडेट दिसत नाही ",
+        "en": "Recharged but doesn't see update ",
+        "timestamp": {
+          "$date": "2025-03-27T05:24:03.447Z"
+        },
+        "standalone_question": "I have recharged, but the update is not visible.",
+        "standalone_en": "I have recharged, but the update is not visible.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "recharge kela ahe pan update disat nahi "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमचा रिचार्ज प्लान सक्रिय आहे का हे तपासण्यासाठी, मी तुमच्या प्लॉटच्या माहितीवरून काही तपशील पाहतो. थोडक्यात थांबा.:\n\nतुमचा रिचार्ज प्लान सक्रिय आहे आणि तुमच्या प्लॉट्सवर डेटा अद्ययावत होत आहे. \n\n1. **Plot No 2 Sudhakar**:\n   - सध्या मातीची आर्द्रता: 9 kPa (ज्यामुळे माती ओलसर आहे).\n   - बॅटरी स्थिती: 100%.\n\n2. **Plot No 1 Sudhakar**:\n   - सध्या मातीची आर्द्रता: 23 kPa (ज्यामुळे माती थोडीशी ओलसर आहे).\n   - बॅटरी स्थिती: 94%.\n\n3. **Plot No 3 Mama Jumbo**:\n   - सध्या मातीची आर्द्रता: 32 kPa (ज्यामुळे माती थोडीशी कोरडी आहे).\n   - बॅटरी स्थिती: 41%.\n\nतुमच्या सर्व प्लॉट्सवर डेटा योग्यरित्या पाठवला जात आहे. जर तुम्हाला अजून काही मदतीची आवश्यकता असेल तर कृपया सांगा!",
+        "en": "To check if your recharge plan is active, I look at some details from your plot information. Brief pause.:\n\nYour recharge plan is active and data is being updated on your plots. \n\n1. **Plot No 2 Sudhakar**:\n   Soil moisture currently: 9 kPa (which makes the soil moist).\n   Battery status: 100%.\n\n2. **Plot No 1 Sudhakar**:\n   Soil moisture currently: 23 kPa (which makes the soil slightly moist).\n   - Battery status: 94%.\n\n3. **Plot No 3 Mama Jumbo**:\n   Soil moisture currently: 32 kPa (which makes the soil slightly dry).\n   Battery status: 41%.\n\nData is being sent correctly to all your plots. If you need any more help, please let me know!",
+        "timestamp": {
+          "$date": "2025-03-27T05:24:15.833Z"
+        }
+      }
+    ],
+    "farmer_id": "ratnakarskadam",
+    "farmer_plot_ids": [
+      "plot2sudhakarkf",
+      "plotno1sudhakarkadamfarm",
+      "plotno3mamajumbo415"
+    ],
+    "conversation_id": "67e4e0b3241364673a60f984",
+    "_id": "67e4e0b3241364673a60f984",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-03-27T05:29:03.456000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-03-27T05:24:03.447000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "फुटवा होन्यासाठी काय केले पाहिजे",
+        "en": "What needs to be done to break up",
+        "timestamp": {
+          "$date": "2025-03-27T05:10:50.691Z"
+        },
+        "standalone_question": "What should be done to achieve success?",
+        "standalone_en": "What should be done to achieve success?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "futva honyasathi kay kele pahije"
+      },
+      {
+        "role": "assistant",
+        "content": "फुटवा होण्यासाठी खालील गोष्टी कराव्यात:\n\n1. **सही पाण्याचे व्यवस्थापन**: पाण्याची योग्य मात्रा देणे आवश्यक आहे. मातीची आर्द्रता तपासून पाण्याची गरज ओळखा.\n\n2. **खतांचा वापर**: योग्य प्रकारचे खत वापरून मातीची पोषणतत्त्वे वाढवा. फर्टिगेशन किंवा फोलिअर स्प्रेचा वापर करावा.\n\n3. **कापणीची काळजी**: कापणीच्या प्रक्रियेत योग्य काळजी घ्या, ज्यामुळे फुटवा चांगला होईल.\n\n4. **पिकांची निगा**: पिकांची नियमितपणे तपासणी करा आणि कोणत्याही रोग किंवा कीडांचा सामना करण्यासाठी उपाययोजना करा.\n\n5. **सूर्यप्रकाश**: पिकांना पुरेसा सूर्यप्रकाश मिळावा याची काळजी घ्या.\n\n6. **मातीची आरोग्य तपासणी**: मातीची आरोग्य तपासणी करून आवश्यकतेनुसार सुधारणा करा.\n\nआपल्याला अधिक माहिती हवी असल्यास, कृपया सांगा!",
+        "en": "The following should be done to get a split:\n\n1. **Proper water management**: It is important to give the right amount of water. Identify water requirements by checking soil moisture.\n\n2. **Use of fertilizers**: Increase soil nutrients by using the right type of fertilizer. Use fertigation or foliar spray.\n\n3. **Harvesting care**: Take proper care in the harvest process, which will make the harvest better.\n\n4. **Crop care**: Check crops regularly and take measures to combat any diseases or pests.\n\n5. **Sunlight**: Make sure the crops get enough sunlight.\n\n6. **Soil health check-up**: Make improvements as needed by conducting soil health check-ups.\n\nIf you need more information, please let me know!",
+        "timestamp": {
+          "$date": "2025-03-27T05:10:57.628Z"
+        }
+      }
+    ],
+    "farmer_id": "ravindradumbare",
+    "farmer_plot_ids": [
+      "plot1alison",
+      "plotno2thompson266",
+      "plotno3thompson353"
+    ],
+    "conversation_id": "67e4ddda8978056abd6b79bc",
+    "_id": "67e4ddda8978056abd6b79bc",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-03-27T05:15:50.701000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-03-27T05:10:50.691000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Nematode nhi h sir ",
+        "en": "Nematode nhi h sir ",
+        "timestamp": {
+          "$date": "2025-03-27T04:55:16.128Z"
+        },
+        "standalone_question": "Is it not a nematode, sir?",
+        "standalone_en": "Is it not a nematode, sir?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Root knot nematode is indeed a pest that can affect crops. If you would like to check the pest prediction for your plots, please let me know, and I can provide you with the relevant information.",
+        "en": "Root knot nematode is indeed a pest that can affect crops. If you would like to check the pest prediction for your plots, please let me know, and I can provide you with the relevant information.",
+        "timestamp": {
+          "$date": "2025-03-27T04:55:19.168Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Hindi me btao <user uploaded image for analysis at 'beniwalplot2/2025-03-27-1743051365991.jpeg'>",
+        "en": "Hindi me btao <user uploaded image for analysis at 'beniwalplot2/2025-03-27-1743051365991.jpeg'>",
+        "timestamp": {
+          "$date": "2025-03-27T04:56:07.627Z"
+        },
+        "standalone_question": "Could you explain this in Hindi?",
+        "standalone_en": "Could you explain this in Hindi?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तस्वीर में पत्तियों पर कुछ रंग परिवर्तन दिखाई दे रहा है, जो पोषक तत्वों की कमी या कीटों के संक्रमण का संकेत हो सकता है। विशेष रूप से, पत्तियों के किनारों के साथ पीलेपन का होना पौधे की सेहत में समस्या का संकेत हो सकता है।\n\nएक अधिक स्पष्ट तस्वीर, जिसमें प्रभावित क्षेत्रों पर ध्यान केंद्रित किया गया हो, अधिक सटीक विश्लेषण और सिफारिशें प्रदान करने में मदद करेगी। कृपया सुनिश्चित करें कि फोटो निकटता से ली गई हो और उन पत्तियों पर अच्छी तरह से केंद्रित हो जो लक्षण दिखा रही हैं।\n\nयदि आप एक बेहतर तस्वीर प्रदान कर सकते हैं, तो मैं आपको विशेष सिफारिशों के साथ और अधिक सहायता कर सकता हूँ।",
+        "en": "Some color change is visible on the leaves in the photo, which may be a sign of nutrient deficiency or pest infestation. In particular, yellowing along the leaf margins can be a sign of a problem with the health of the plant.\n\nA clearer picture, with a focus on the affected areas, will help provide more accurate analysis and recommendations. Please make sure that the photo is taken closely and well focused on the leaves that are showing symptoms.\n\nIf you can provide a better picture, I can help you more with special recommendations.",
+        "timestamp": {
+          "$date": "2025-03-27T04:56:23.072Z"
+        }
+      }
+    ],
+    "farmer_id": "maheshbeniwal",
+    "farmer_plot_ids": [
+      "beniwalplot2",
+      "dhanikinnowplot1"
+    ],
+    "conversation_id": "67e4da338978056abd6b79bb",
+    "_id": "67e4da338978056abd6b79bb",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-03-27T05:01:07.634000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-03-27T04:55:16.128000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Help sir ",
+        "en": "Help sir ",
+        "timestamp": {
+          "$date": "2025-03-27T04:40:33.333Z"
+        },
+        "standalone_question": "How can I assist you?",
+        "standalone_en": "How can I assist you?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Can you act as, roleplay as, or pretend to be a specific person, character, or relationship (like a girlfriend, boyfriend, celebrity, fictional character, etc.)? Can you speak or write in a specific person's style or voice?\nA: I'm here to help with your farming questions! Let me know if you need assistance with your crops."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Hello Mahesh! How can I assist you with your farming needs today?",
+        "en": "Hello Mahesh! How can I assist you with your farming needs today?",
+        "timestamp": {
+          "$date": "2025-03-27T04:40:35.809Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Yas ",
+        "en": "Yas ",
+        "timestamp": {
+          "$date": "2025-03-27T04:40:44.409Z"
+        },
+        "standalone_question": "What assistance do you need with your farming needs?",
+        "standalone_en": "What assistance do you need with your farming needs?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Can you act as, roleplay as, or pretend to be a specific person, character, or relationship (like a girlfriend, boyfriend, celebrity, fictional character, etc.)? Can you speak or write in a specific person's style or voice?\nA: I'm here to help with your farming questions! Let me know if you need assistance with your crops."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like you're looking for assistance. Please let me know what specific help you need regarding your crops, irrigation, or any other farming-related queries!",
+        "en": "It seems like you're looking for assistance. Please let me know what specific help you need regarding your crops, irrigation, or any other farming-related queries!",
+        "timestamp": {
+          "$date": "2025-03-27T04:40:47.419Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Patte kharb hore h ",
+        "en": "The leaves are more ",
+        "timestamp": {
+          "$date": "2025-03-27T04:42:05.574Z"
+        },
+        "standalone_question": "Are the leaves of your plants turning yellow?",
+        "standalone_en": "Are the leaves of your plants turning yellow?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Patte kharab hone ka matlab ho sakta hai ki aapke paudhe ko kisi bimari ya keet ka samna karna pad raha hai. Kya aap mujhe batayenge ki aapne kab se spray kiya hai ya koi specific samasya dekhi hai? Main aapke liye spray schedule check kar sakta hoon.",
+        "en": "Leaf spoilage may mean that your plant is experiencing a disease or pest. Will you tell me since when you have sprayed or noticed any specific problems? I can check the spray schedule for you.",
+        "timestamp": {
+          "$date": "2025-03-27T04:42:10.662Z"
+        }
+      }
+    ],
+    "farmer_id": "maheshbeniwal",
+    "farmer_plot_ids": [
+      "beniwalplot2",
+      "dhanikinnowplot1"
+    ],
+    "conversation_id": "67e4d6c11db271f17366ad38",
+    "_id": "67e4d6c11db271f17366ad38",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-03-27T04:47:05.582000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-03-27T04:40:33.333000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Pani kadhi deu bagala",
+        "en": "Paani Kadhi Deo Bagala",
+        "timestamp": {
+          "$date": "2025-03-27T04:14:29.219Z"
+        },
+        "standalone_question": "Could you please give me water?",
+        "standalone_en": "Could you please give me water?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Thompson plot no.1 मध्ये सध्या पाण्याची गरज नाही. तुमच्या मातीतील आर्द्रता 77% आणि 78% आहे, जे की 40% च्या आदर्श पातळीपेक्षा जास्त आहे. त्यामुळे आता पाणी देण्याची आवश्यकता नाही.",
+        "en": "Thompson plot No.1 does not currently require water. The humidity in your soil is 77% and 78%, which is higher than the ideal level of 40%. So there is no need to water anymore.",
+        "timestamp": {
+          "$date": "2025-03-27T04:14:33.282Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Aaushad ky marave ata",
+        "en": "Aushad Ki Marve Ata",
+        "timestamp": {
+          "$date": "2025-03-27T04:15:05.247Z"
+        },
+        "standalone_question": "What medicine should I use now?",
+        "standalone_en": "What medicine should I use now?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "सध्या तुमच्या Thompson plot no.1 मध्ये कोणत्याही रोग किंवा कीड नियंत्रणासाठी औषधांची शिफारस नाही. तुमच्या पिकाची स्थिती चांगली आहे.",
+        "en": "Currently, your Thompson plot No.1 does not recommend medications for any disease or pest control. Your crop is in good condition.",
+        "timestamp": {
+          "$date": "2025-03-27T04:15:10.462Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "चांगली गर्भधारणा होण्या साठी काय करावे",
+        "en": "What to do to have a good pregnancy",
+        "timestamp": {
+          "$date": "2025-03-27T04:15:58.097Z"
+        },
+        "standalone_question": "What should be done to ensure a good pregnancy?",
+        "standalone_en": "What should be done to ensure a good pregnancy?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "changali garbhadharana honya sathi kay karave"
+      },
+      {
+        "role": "assistant",
+        "content": "चांगली गर्भधारणा होण्यासाठी खालील गोष्टींचा विचार करा:\n\n1. **उत्तम दर्जाचे बियाणे वापरा**: चांगल्या गुणवत्तेची बियाणे निवडा.\n2. **बियाणे उपचार**: बियाणे कीडनाशक, फंगीसाइड आणि जैविक एजंटसह उपचारित करा.\n3. **मातीची आरोग्य तपासणी**: मातीची गुणवत्ता आणि पोषणतत्त्वे तपासा.\n4. **सिंचन**: योग्य प्रमाणात पाणी द्या, जेणेकरून मातीची आर्द्रता योग्य राहील.\n5. **सूर्यप्रकाश**: पिकांना पुरेसा सूर्यप्रकाश मिळावा याची काळजी घ्या.\n6. **सुरक्षित अंतर**: बियाणे पेरताना योग्य अंतर ठेवा, जेणेकरून प्रत्येक पिकाला आवश्यक जागा मिळेल.\n\nया सर्व गोष्टींचा विचार करून तुम्ही चांगली गर्भधारणा साधू शकता.",
+        "en": "To have a good pregnancy, consider the following:\n\n1. **Use good quality seeds**: Choose good quality seeds.\n2. **Seed Treatment**: Treat the seeds with pesticides, fungicides, and biological agents.\n3. **Soil health check**: Check soil quality and nutrients.\n4. **Irrigation**: Give the right amount of water, so that the soil moisture is right.\n5. **Sunlight**: Make sure the crops get enough sunlight.\n6. **Safe distance**: Keep a proper distance while sowing seeds, so that each crop gets the required space.\n\nBy considering all these things, you can get a good pregnancy.",
+        "timestamp": {
+          "$date": "2025-03-27T04:16:03.559Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "द्राक्षा साठी",
+        "en": "For grapes",
+        "timestamp": {
+          "$date": "2025-03-27T04:16:25.932Z"
+        },
+        "standalone_question": "What should be done for good grape cultivation?",
+        "standalone_en": "What should be done for good grape cultivation?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "draksa sathi"
+      },
+      {
+        "role": "assistant",
+        "content": "द्राक्षांच्या \"Break Bud\" अवस्थेत (सुरूवात 6 मार्च 2025) सध्या तुम्हाला पुढील फर्टिगेशन करणे आवश्यक आहे:\n\n### सध्याचा फर्टिगेशन शेड्यूल (आठवडा 3):\n1. **फर्टिलायझर**:\n   - **12-61-0**: 4 किलोग्राम/एकर\n   - **Calcium nitrate**: 4.5 किलोग्राम/एकर\n\n   किंवा\n\n   - **24-24-0**: 5 किलोग्राम/एकर\n   - **Phosphoric acid 80%**: 2 किलोग्राम/एकर\n\n   किंवा\n\n   - **Calcium nitrate**: 7.5 किलोग्राम/एकर\n   - **Phosphoric acid 80%**: 3.5 किलोग्राम/एकर\n\n### पुढील फर्टिगेशन शेड्यूल (आठवडा 1, \"Cane thinning\" अवस्था):\n- **सुरूवात**: 3 एप्रिल 2025\n- **फर्टिलायझर**:\n   - **Mono potassium phosphate**: 3.5 किलोग्राम/एकर\n   - **Phosphoric acid 80%**: 3 किलोग्राम/एकर\n\n   किंवा\n\n   - **0-60-20**: 7 किलोग्राम/एकर\n\n   किंवा\n\n   - **Phosphoric acid 80%**: 5.5 किलोग्राम/एकर\n   - **Sulfate of Potash**: 2.5 किलोग्राम/एकर\n\n### नोट्स:\n- **Phosphoric acid**: इतर फर्टिलायझरच्या अनुप्रयोगापूर्वी 15-20 मिनिटे स्वतंत्रपणे लागू करावी.\n- **Calcium nitrate**: इतर फर्टिलायझरच्या अनुप्रयोगानंतर 15-20 मिनिटे स्वतंत्रपणे लागू करावी.\n\nया शेड्यूलनुसार फर्टिगेशन करा, जेणेकरून तुमच्या द्राक्षांच्या उत्पादनात सुधारणा होईल.",
+        "en": "In the \"break bud\" phase of grapes (starting March 6, 2025), you currently need to perform the following fertigation:\n\n### Current Fertigation Schedule (Week 3):\n1. **Fertilizer**:\n   - **12-61-0**: 4 kg/acre\n   - **Calcium nitrate**: 4.5 kg/acre\n\nor\n\n- **24-24-0**: 5 kg/acre\n   - **Phosphoric acid 80%**: 2 kg/acre\n\nor\n\n- **Calcium nitrate**: 7.5 kg/acre\n   - **Phosphoric acid 80%**: 3.5 kg/acre\n\n### Next Fertigation Schedule (Week 1, \"Cane Thinning\" Status):\n- **Start**: 3 April 2025\n- **Fertilizer**:\n   - **Mono potassium phosphate**: 3.5 kg/acre\n   - **Phosphoric acid 80%**: 3 kg/acre\n\nor\n\n- **0-60-20**: 7 kg/acre\n\nor\n\n- **Phosphoric acid 80%**: 5.5 kg/acre\n   - **Sulfate of Potash**: 2.5 kg/acre\n\n### Notes:\n**Phosphoric acid**: Apply separately for 15-20 minutes before application to other fertilizers.\n* Calcium nitrate**: Apply separately for 15-20 minutes after application to other fertilizers.\n\nFertigation according to this schedule, so that your grape production improves.",
+        "timestamp": {
+          "$date": "2025-03-27T04:16:34.614Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Spray ky krava",
+        "en": "Spray cow",
+        "timestamp": {
+          "$date": "2025-03-27T04:17:10.343Z"
+        },
+        "standalone_question": "What should be sprayed?",
+        "standalone_en": "What should be sprayed?",
+        "retrieval": {
+          "tools": [
+            "check_spray_conditions  \nGets the spray condition forecast for the next few hours for the farmer's plots and returns the condition for each hour as GOOD, MODERATE, or WORST, based on deltaT, VPD, and rainfall conditions."
+          ],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice.",
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "सध्या Thompson plot no.1 साठी कोणतीही कीड किंवा रोग नियंत्रणासाठी औषधांची शिफारस नाही. त्यामुळे तुम्हाला सध्या स्प्रे करण्याची आवश्यकता नाही.",
+        "en": "There are currently no recommended medications for pest or disease control for Thompson plot No.1. So you don't need to spray right now.",
+        "timestamp": {
+          "$date": "2025-03-27T04:17:14.664Z"
+        }
+      }
+    ],
+    "farmer_id": "akshaysomvanshi",
+    "farmer_plot_ids": [
+      "thompsonplotno1328"
+    ],
+    "conversation_id": "67e4d0a51db271f17366ad37",
+    "_id": "67e4d0a51db271f17366ad37",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-03-27T04:22:10.350000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-03-27T04:14:29.219000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "what was yesterday's rainfall for all divisions in centimetre",
+        "en": "what was yesterday's rainfall for all divisions in centimetre",
+        "timestamp": {
+          "$date": "2025-03-27T02:36:38.955Z"
+        },
+        "standalone_question": "What was the rainfall in centimetres for all divisions yesterday?",
+        "standalone_en": "What was the rainfall in centimetres for all divisions yesterday?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Yesterday's rainfall for all divisions is as follows:\n\n- **Attamala division**: 0.7 cm\n- **Chooralmala division**: 0.7 cm\n- **Chooralmala Nero division**: No data available\n- **Mundakai Nero division**: No data available\n- **Mundakkai division**: 1.5 cm\n- **Puthumala division**: 1.1 cm\n\nIf you need further information, feel free to ask!",
+        "en": "Yesterday's rainfall for all divisions is as follows:\n\n- **Attamala division**: 0.7 cm\n- **Chooralmala division**: 0.7 cm\n- **Chooralmala Nero division**: No data available\n- **Mundakai Nero division**: No data available\n- **Mundakkai division**: 1.5 cm\n- **Puthumala division**: 1.1 cm\n\nIf you need further information, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-03-27T02:36:46.720Z"
+        }
+      }
+    ],
+    "farmer_id": "allenenoshmani",
+    "farmer_plot_ids": [
+      "attamaladivision",
+      "chooralmaladivision",
+      "chooralmalanerodivision",
+      "mundakainerodivision",
+      "mundakkaidivision",
+      "puthumaladivision"
+    ],
+    "conversation_id": "67e4b9b61db271f17366ad36",
+    "_id": "67e4b9b61db271f17366ad36",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-03-27T02:41:38.962000Z"
+    },
+    "tag": "historical data",
+    "conv_date": "2025-03-27T02:36:38.955000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hexaconazole ",
+        "en": "Hexaconazole ",
+        "timestamp": {
+          "$date": "2025-03-27T02:25:46.495Z"
+        },
+        "standalone_question": "What is Hexaconazole?",
+        "standalone_en": "What is Hexaconazole?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Hexaconazole is a systemic fungicide used to control various fungal diseases in crops. It is effective against diseases like leaf spot, powdery mildew, and rust. For tea crops, it can be used to manage fungal infections effectively.\n\nThe recommended dosage for Hexaconazole is typically around 0.1% to 0.2% concentration in water for foliar application. Always follow the manufacturer's instructions for specific application rates and timing based on the disease pressure and crop stage.",
+        "en": "Hexaconazole is a systemic fungicide used to control various fungal diseases in crops. It is effective against diseases like leaf spot, powdery mildew, and rust. For tea crops, it can be used to manage fungal infections effectively.\n\nThe recommended dosage for Hexaconazole is typically around 0.1% to 0.2% concentration in water for foliar application. Always follow the manufacturer's instructions for specific application rates and timing based on the disease pressure and crop stage.",
+        "timestamp": {
+          "$date": "2025-03-27T02:25:51.568Z"
+        }
+      }
+    ],
+    "farmer_id": "himanshu",
+    "farmer_plot_ids": [
+      "factory",
+      "kadoora",
+      "nedumballi",
+      "newclearing"
+    ],
+    "conversation_id": "67e4b72ae6e7fb941eb72f82",
+    "_id": "67e4b72ae6e7fb941eb72f82",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-03-27T02:30:46.503000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-03-27T02:25:46.495000+00:00"
+  }
+]

@@ -1,0 +1,1921 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "રોગ અને જંતુ માટે ટપકા બતાવે છે તો કલર અને ટપકા નો અર્થ સમજાવો",
+        "timestamp": {
+          "$date": "2024-12-25T18:20:57.379Z"
+        },
+        "standalone_question": "What do the colors and drops indicate for diseases and pests?",
+        "standalone_en": "What do the colors and drops indicate for diseases and pests?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How does the device predict diseases and pests?\nA: It captures data from different parameters using sensors and analyzes it using various agronomical algorithms, including different models for all diseases and pests.\n   Each disease and pest has a specific etymology, which is the suitable environment for its incidence.",
+            "Q: What is the use of Leaf wetness and Lux sensor?\nA: They are used to predict airborne foliar diseases, and light intensity data is used to predict both disease and pest incidence.",
+            "Q: What is the pest prediction?\nA: Check the all pest predictions relevant. We support Aphids, Banana aphids, Bihar hairy caterpillar, Broad mites, Brown plant hopper, Capsule borer, Caterpillar,\n   Citrus Psylla, Cut worm, Early shoot borer, European red mites, Flat mites, Flea Beetle, Flea beetle, Fruit Borer,\n   Fruit Fly, Fruit borer, Fruit fly, Green aphids, Hispa beetle, Jassids, Leaf eating caterpillar, Leaf folder, Leaf miner,\n   Leaf roller, Mango hopper, Mealy Bug, Mealy bug, Mealybug, Mites, Perianth mites, Pin worm, Pink bollworm,\n   Pseudostem weevil, Red Spider Mites, Red palm weevil, Red spider mites, Rhinoceros beetle, Rhizome weevil, Root Grubs,\n   Root knot nematode, Rugose spiraling whitefly, Rust mites, Rust thrips, Scale Insects, Scale insects, Scarring beetle,\n   Shoot borer, Skipper, Spiraling whitefly, Spodoptera, Stem Borer, Stem borer, Striped beetle, Striped cucumber beetle,\n   Tea Mosquitto Bug, Tea mosquitto bug, Termite, Thrips, White Fly, White fly, Whitefly, and Wooly aphids.",
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        },
+        "content_transliterated": "rog ane jantu mate tapaka batave che to colour ane tapaka no earth samajavo"
+      },
+      {
+        "role": "assistant",
+        "content": "\"કલર\" (Collar) અને \"ટપકા\" (Drench) એ કૃષિમાં ઉપયોગમાં લેવાતા શબ્દો છે:\n\n1. **કલર (Collar)**: આ શબ્દનો અર્થ છે જમીનના સપાટી નજીકનો વિસ્તાર, જ્યાં છોડની મૂળો જમીનમાં પ્રવેશ કરે છે. આ વિસ્તાર રોગો અને જીવાણુઓ માટે સંવેદનશીલ હોય છે, ખાસ કરીને જ્યારે જમીન ભેજવાળી હોય છે.\n\n2. **ટપકા (Drench)**: આ પદ્ધતિમાં, રાસાયણિક દવા અથવા ફંગિસાઇડને જમીનમાં અથવા છોડના મૂળોમાં સીધા છાંટવામાં આવે છે. આ પદ્ધતિનો ઉપયોગ રોગો અને જીવાણુઓને નિયંત્રિત કરવા માટે કરવામાં આવે છે, ખાસ કરીને જ્યારે છોડના મૂળોમાં રોગો ફેલાઈ રહ્યા હોય.\n\nઆ રીતે, \"કલર\" અને \"ટપકા\" બંને રોગ નિયંત્રણ માટે મહત્વપૂર્ણ છે, ખાસ કરીને છોડના આરોગ્યને જાળવવા માટે.",
+        "timestamp": {
+          "$date": "2024-12-25T18:21:04.079Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "કાયરો માં રોગ અને જંતુ ટપકા ના નિશાન થી કઈ રીતે નક્કી કરવુ",
+        "timestamp": {
+          "$date": "2024-12-25T18:22:55.032Z"
+        },
+        "standalone_question": "How can one determine the presence of diseases and pests in crops based on the signs of collar and drench?",
+        "standalone_en": "How can one determine the presence of diseases and pests in crops based on the signs of collar and drench?",
+        "retrieval": {
+          "tools": [
+            "analyse_crop_image  \nGets the analysis of the uploaded crop image for any diseases or pests."
+          ],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: How does the device predict diseases and pests?\nA: It captures data from different parameters using sensors and analyzes it using various agronomical algorithms, including different models for all diseases and pests.\n   Each disease and pest has a specific etymology, which is the suitable environment for its incidence.",
+            "Q: What are the important diseases occur during seedling stage and control measures?\nA: Collar rot, Damping off, Seedling blight diseases infect during seedling stage.\nDrench/spray seedling with: Carbendazim @ 2.5g/ltr",
+            "Q: Why should I consider soil, leaf, or petiole testing?\nA: Soil, leaf, and petiole testing are crucial for effective plant health management. These tests provide specific data about your crop's nutrient needs, allowing for more precise fertilizer application. This can lead to higher productivity with optimized input use, potentially reducing costs and environmental impact."
+          ]
+        },
+        "content_transliterated": "cairo man rog ane jantu tapaka na nishan thi kai rite nakki karavu"
+      },
+      {
+        "role": "assistant",
+        "content": "કાયરો 1 માટે હાલમાં કોઈ રોગ અને જંતુ ટપકા માટે નિશાન નથી. જો કે, જો તમે કોઈ વિશિષ્ટ સમસ્યા અથવા લક્ષણો જોઈ રહ્યા છો, તો કૃપા કરીને મને જણાવો, જેથી હું વધુ મદદ કરી શકું.",
+        "timestamp": {
+          "$date": "2024-12-25T18:22:59.334Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "કટવર્મ હાઈ બતાવે છે દવા ક્યારે આપવી તેના વિશે સમજાવો",
+        "timestamp": {
+          "$date": "2024-12-25T18:23:57.077Z"
+        },
+        "standalone_question": "What should be understood about when to apply medication for cutworms?",
+        "standalone_en": "What should be understood about when to apply medication for cutworms?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "cutworm high batave che dava kyare apavi tena vishe samajavo"
+      },
+      {
+        "role": "assistant",
+        "content": "હાલમાં, કટવર્મ માટે કોઈ નિશ્ચિત દવા આપવાની સૂચના નથી. પરંતુ સામાન્ય રીતે, કટવર્મના ઉપદ્રવને નિયંત્રિત કરવા માટે, તમે નીચેની દવાઓનો ઉપયોગ કરી શકો છો:\n\n1. **લંબા સમય માટે કટવર્મના ઉપદ્રવને નિયંત્રિત કરવા માટે**:\n   - **લંબા સમય માટે કટવર્મના ઉપદ્રવને નિયંત્રિત કરવા માટે**:  *Chlorpyrifos* અથવા *Thiamethoxam* નો ઉપયોગ કરી શકો છો.\n\n2. **અન્ય નિયંત્રણ પદ્ધતિઓ**:\n   - કટવર્મના ઉપદ્રવને નિયંત્રિત કરવા માટે, છોડની જાળવણી અને યોગ્ય ખેતી પદ્ધતિઓનું પાલન કરવું મહત્વપૂર્ણ છે.\n\nજો તમને વધુ માહિતી અથવા વિશિષ્ટ સમયગાળા માટે દવા આપવાની જરૂર હોય, તો કૃપા કરીને જણાવો.",
+        "timestamp": {
+          "$date": "2024-12-25T18:24:01.972Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "60 દિવસ",
+        "timestamp": {
+          "$date": "2024-12-25T18:25:05.446Z"
+        },
+        "standalone_question": "How should I determine when to apply medication for cutworms after 60 days?",
+        "standalone_en": "How should I determine when to apply medication for cutworms after 60 days?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "60 divas"
+      },
+      {
+        "role": "assistant",
+        "content": "કાયરો 1 માટે, કટવર્મની સંભાવના 80.4% છે, જે \"HIGH\" જોખમ સ્તર દર્શાવે છે. \n\n**દવા આપવાની સૂચના**:\n- **Chlorpyriphos** @ 5mL/Ltr અથવા **Thiamethoxam** @ 0.5g/Ltr નો ઉપયોગ કરો.\n\nઆ દવાઓને છોડના પાંદડાઓ પર છાંટવા અથવા જમીનમાં ટપકાવા માટે ઉપયોગ કરી શકો છો. જો તમે વધુ માહિતી અથવા મદદની જરૂર હોય, તો કૃપા કરીને જણાવો.",
+        "timestamp": {
+          "$date": "2024-12-25T18:25:10.775Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "કાલે આપુ",
+        "timestamp": {
+          "$date": "2024-12-25T18:25:43.537Z"
+        },
+        "standalone_question": "When should I administer the medication?",
+        "standalone_en": "When should I administer the medication?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kale apu"
+      },
+      {
+        "role": "assistant",
+        "content": "કાલે (26 ડિસેમ્બર 2024) માટે કટવર્મ માટે કોઈ દવા આપવાની સૂચના નથી. જો કે, જો તમે કટવર્મના ઉપદ્રવને નિયંત્રિત કરવા માટે દવા આપવાનું વિચારી રહ્યા છો, તો Chlorpyriphos અથવા Thiamethoxam નો ઉપયોગ કરી શકો છો. \n\nજો તમને વધુ માહિતી અથવા મદદની જરૂર હોય, તો કૃપા કરીને જણાવો.",
+        "timestamp": {
+          "$date": "2024-12-25T18:25:48.453Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "સુચના કેવી રીતે આપસો",
+        "timestamp": {
+          "$date": "2024-12-25T18:26:21.916Z"
+        },
+        "standalone_question": "How should I administer the treatment?",
+        "standalone_en": "How should I administer the treatment?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "suchana kv rite aapso"
+      },
+      {
+        "role": "assistant",
+        "content": "કટવર્મ માટે દવા આપવાની સૂચના આપતી વખતે, નીચેના પગલાંઓનું પાલન કરો:\n\n1. **દવા પસંદ કરો**: Chlorpyriphos @ 5mL/Ltr અથવા Thiamethoxam @ 0.5g/Ltr પસંદ કરો.\n\n2. **સમય**: કટવર્મના ઉપદ્રવને નિયંત્રિત કરવા માટે, દવા કાલે (26 ડિસેમ્બર 2024) આપવી.\n\n3. **અરજી**: \n   - દવા પાણીમાં ભેળવો.\n   - છાંટવા માટે પાંદડાઓ પર અથવા જમીનમાં ટપકાવા માટે ઉપયોગ કરો.\n\n4. **જાણકારી**: દવા આપ્યા પછી, 5-7 દિવસ પછી ફરીથી તપાસો કે કટવર્મના ઉપદ્રવમાં ઘટાડો થયો છે કે નહીં.\n\nજો તમને વધુ માહિતી અથવા મદદની જરૂર હોય, તો કૃપા કરીને જણાવો.",
+        "timestamp": {
+          "$date": "2024-12-25T18:26:27.005Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "વાતાવરણ થી નિયંત્રણ થઈ જશે",
+        "timestamp": {
+          "$date": "2024-12-25T18:27:30.630Z"
+        },
+        "standalone_question": "How can environmental factors help in controlling pests like cutworms?",
+        "standalone_en": "How can environmental factors help in controlling pests like cutworms?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "vatavaran thi niyantran thai jashe"
+      },
+      {
+        "role": "assistant",
+        "content": "હા, વાતાવરણના પરિપ્રેક્ષ્યમાં, છેલ્લા કેટલાક દિવસોમાં વરસાદ નથી પડ્યો, અને હવામાનમાં ભેજનું પ્રમાણ 69% થી 79% વચ્ચે રહ્યું છે. \n\n**તાપમાન**:\n- 20 ડિસેમ્બર: 11°C - 24°C\n- 21 ડિસેમ્બર: 12°C - 24°C\n- 22 ડિસેમ્બર: 15°C - 25°C\n- 23 ડિસેમ્બર: 12°C - 22°C\n- 24 ડિસેમ્બર: 11°C - 23°C\n\nઆ તાપમાન અને ભેજના સ્તરો કટવર્મના ઉપદ્રવને પ્રભાવિત કરી શકે છે. જો તાપમાન ઓછું છે અને ભેજ વધુ છે, તો કટવર્મના ઉપદ્રવમાં વધારો થઈ શકે છે.\n\nજો તમને વધુ માહિતી અથવા મદદની જરૂર હોય, તો કૃપા કરીને જણાવો.",
+        "timestamp": {
+          "$date": "2024-12-25T18:27:37.676Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "અત્યાર પ્રમાણે",
+        "timestamp": {
+          "$date": "2024-12-25T18:28:42.842Z"
+        },
+        "standalone_question": "Based on the current conditions, how will the weather affect pest control?",
+        "standalone_en": "Based on the current conditions, how will the weather affect pest control?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: What is the pest prediction?\nA: Check the all pest predictions relevant. We support Aphids, Banana aphids, Bihar hairy caterpillar, Broad mites, Brown plant hopper, Capsule borer, Caterpillar,\n   Citrus Psylla, Cut worm, Early shoot borer, European red mites, Flat mites, Flea Beetle, Flea beetle, Fruit Borer,\n   Fruit Fly, Fruit borer, Fruit fly, Green aphids, Hispa beetle, Jassids, Leaf eating caterpillar, Leaf folder, Leaf miner,\n   Leaf roller, Mango hopper, Mealy Bug, Mealy bug, Mealybug, Mites, Perianth mites, Pin worm, Pink bollworm,\n   Pseudostem weevil, Red Spider Mites, Red palm weevil, Red spider mites, Rhinoceros beetle, Rhizome weevil, Root Grubs,\n   Root knot nematode, Rugose spiraling whitefly, Rust mites, Rust thrips, Scale Insects, Scale insects, Scarring beetle,\n   Shoot borer, Skipper, Spiraling whitefly, Spodoptera, Stem Borer, Stem borer, Striped beetle, Striped cucumber beetle,\n   Tea Mosquitto Bug, Tea mosquitto bug, Termite, Thrips, White Fly, White fly, Whitefly, and Wooly aphids."
+          ]
+        },
+        "content_transliterated": "atyar pramane"
+      },
+      {
+        "role": "assistant",
+        "content": "**દવા આપવાની સૂચના**:\n- **કટવર્મ** માટે, 25 ડિસેમ્બર 2024ના રોજ 80.4% સંભાવના છે, જે \"HIGH\" જોખમ સ્તર દર્શાવે છે.\n\n**દવા આપવાની સૂચના**:\n- Chlorpyriphos @ 5mL/Ltr અથવા Thiamethoxam @ 0.5g/Ltr નો ઉપયોગ કરો.\n\n**સૂચના**:\n- કટવર્મના ઉપદ્રવને નિયંત્રિત કરવા માટે, દવા કાલે (26 ડિસેમ્બર 2024) આપવી.\n\nજો તમને વધુ માહિતી અથવા મદદની જરૂર હોય, તો કૃપા કરીને જણાવો.",
+        "timestamp": {
+          "$date": "2024-12-25T18:28:48.759Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "વરસાદ છે",
+        "timestamp": {
+          "$date": "2024-12-25T18:29:15.629Z"
+        },
+        "standalone_question": "Is it currently raining?",
+        "standalone_en": "Is it currently raining?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "varsad che"
+      },
+      {
+        "role": "assistant",
+        "content": "જો વર્તમાનમાં વરસાદ પડી રહ્યો છે, તો જમીનને ભેજ મળવા માટે રાહ જોવી જોઈએ. જો કે, જો વરસાદ થવા છતાં, જમીનનો ભેજ ઓછો લાગે છે (જેમ કે સેનસર સૂકું બતાવે છે), તો તે સંકેત છે કે વરસાદ જમીનમાં સારી રીતે પ્રવેશતો નથી.\n\n**સૂચનાઓ**:\n- જો સેનસર સૂકું બતાવે છે, તો જમીનને ખોદીને ભેજ તપાસો.\n- જો જમીન સૂકી છે, તો irrigation કરવાની જરૂર પડી શકે છે, ભલે જ વરસાદ પડ્યો હોય.\n\nજો તમને વધુ માહિતી અથવા મદદની જરૂર હોય, તો કૃપા કરીને જણાવો.",
+        "timestamp": {
+          "$date": "2024-12-25T18:29:19.104Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "કાયરો પ્લોટ માં ક્યા ક્યા રોગોનુ સ્તર બતાવે છે તો એક સાથે દવા આપી શકાય",
+        "timestamp": {
+          "$date": "2024-12-25T18:31:16.628Z"
+        },
+        "standalone_question": "What diseases are present in the cayro plot, and can they be treated with a single application of medicine?",
+        "standalone_en": "What diseases are present in the cayro plot, and can they be treated with a single application of medicine?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "cairo plot man kya kya rogonu star batave che to ek sathe dava aapi sakay"
+      },
+      {
+        "role": "assistant",
+        "content": "**કાયરો 1 પ્લોટમાં રોગ અને જંતુઓનું સ્તર**:\n\n### રોગો:\n1. **લેટ બ્લાઇટ (Late Blight)**:\n   - 25 ડિસેમ્બર: 72.5% (HIGH)\n   - 24 ડિસેમ્બર: 73.2% (HIGH)\n   - 23 ડિસેમ્બર: 56.0% (MEDIUM)\n   - 22 ડિસેમ્બર: 70.2% (HIGH)\n\n2. **અર્લી બ્લાઇટ (Early Blight)**:\n   - 25 ડિસેમ્બર: 61.4% (MEDIUM)\n   - 24 ડિસેમ્બર: 60.4% (MEDIUM)\n   - 23 ડિસેમ્બર: 59.4% (MEDIUM)\n   - 22 ડિસેમ્બર: 63.0% (MEDIUM)\n\n### જંતુઓ:\n1. **કટવર્મ (Cut Worm)**:\n   - 25 ડિસેમ્બર: 80.4% (HIGH)\n   - 24 ડિસેમ્બર: 77.7% (HIGH)\n   - 22 ડિસેમ્બર: 77.3% (HIGH)\n\n2. **માઈટ્સ (Mites)**:\n   - 25 ડિસેમ્બર: 63.1% (MEDIUM)\n   - 24 ડિસેમ્બર: 63.3% (MEDIUM)\n\n3. **એફિડ્સ (Aphids)**:\n   - 25 ડિસેમ્બર: 65.7% (MEDIUM)\n   - 24 ડિસેમ્બર: 68.6% (MEDIUM)\n\n### દવા આપવાની સૂચના:\n- **લેટ બ્લાઇટ** માટે: *Mancozeb* અથવા *Copper Oxychloride* નો ઉપયોગ કરો.\n- **અર્લી બ્લાઇટ** માટે: *Chlorothalonil* અથવા *Azoxystrobin* નો ઉપયોગ કરો.\n- **કટવર્મ** માટે: *Chlorpyriphos* @ 5mL/Ltr અથવા *Thiamethoxam* @ 0.5g/Ltr નો ઉપયોગ કરો.\n\n**સૂચના**: આ તમામ દવાઓને એક સાથે છાંટવા માટે યોગ્ય છે, પરંતુ દવા આપતી વખતે, દરેક દવાની સૂચનાઓનું પાલન કરવું મહત્વપૂર્ણ છે. \n\nજો તમને વધુ માહિતી અથવા મદદની જરૂર હોય, તો કૃપા કરીને જણાવો.",
+        "timestamp": {
+          "$date": "2024-12-25T18:31:28.055Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "બે દિવસ પછી આપીએ તો ચાલે અને પિયત આપવુ પડે કે કેમ?.",
+        "timestamp": {
+          "$date": "2024-12-25T18:33:07.111Z"
+        },
+        "standalone_question": "Should we wait two days to apply the treatment, and will we need to irrigate the plants?",
+        "standalone_en": "Should we wait two days to apply the treatment, and will we need to irrigate the plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise."
+          ]
+        },
+        "content_transliterated": "be divas pachi aapie to chale ane piat apavu pade ke came?."
+      },
+      {
+        "role": "assistant",
+        "content": "**કાયરો 1 માટે પિયત આપવાની સૂચના**:\n\n- **આજ (26 ડિસેમ્બર 2024)**: 10:42 AM પર પિયત આપવો જોઈએ, કારણ કે વરસાદની અપેક્ષા નથી.\n\nજો તમે બે દિવસ પછી (28 ડિસેમ્બર 2024) પિયત આપવાનું વિચારી રહ્યા છો, તો તે સમયે જમીનનો ભેજ તપાસવો મહત્વપૂર્ણ છે. જો જમીન સૂકી લાગે, તો પિયત આપવો જોઈએ.\n\nજો તમને વધુ માહિતી અથવા મદદની જરૂર હોય, તો કૃપા કરીને જણાવો.",
+        "timestamp": {
+          "$date": "2024-12-25T18:33:13.573Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "દવા ની વાત કરૂ છુ",
+        "timestamp": {
+          "$date": "2024-12-25T18:34:32.559Z"
+        },
+        "standalone_question": "Should I wait two days before applying the medication?",
+        "standalone_en": "Should I wait two days before applying the medication?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "deva knee vat karu chu"
+      },
+      {
+        "role": "assistant",
+        "content": "**દવા spraying માટેની સૂચના**:\n- **કટવર્મ** માટે: Chlorpyriphos @ 5mL/Ltr અથવા Thiamethoxam @ 0.5g/Ltr નો ઉપયોગ કરો.\n- **લેટ બ્લાઇટ** માટે: Mancozeb અથવા Copper Oxychloride નો ઉપયોગ કરો.\n- **અર્લી બ્લાઇટ** માટે: Chlorothalonil અથવા Azoxystrobin નો ઉપયોગ કરો.\n\n**સૂચના**: \n- તમે 28 ડિસેમ્બર 2024ના રોજ દવા આપી શકો છો.\n- irrigation માટે, છેલ્લી irrigation 21 ડિસેમ્બર 2024ના રોજ થઈ હતી, તેથી જો જમીન સૂકી લાગે, તો irrigation આપવું જોઈએ.\n\nજો તમને વધુ માહિતી અથવા મદદની જરૂર હોય, તો કૃપા કરીને જણાવો.",
+        "timestamp": {
+          "$date": "2024-12-25T18:34:38.935Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "હવાનો ભેજ કેટલુ નુકશાન અને ઉપાય",
+        "timestamp": {
+          "$date": "2024-12-25T18:37:02.583Z"
+        },
+        "standalone_question": "What is the impact of humidity on crops, and what measures can be taken to mitigate any damage?",
+        "standalone_en": "What is the impact of humidity on crops, and what measures can be taken to mitigate any damage?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "havano bhej ketlu nukashan ane upay"
+      },
+      {
+        "role": "assistant",
+        "content": "હવાના ભેજનું પ્રમાણ 69% થી 79% વચ્ચે છે, જે સામાન્ય રીતે પાક માટે અનુકૂળ છે. પરંતુ જો ભેજનું પ્રમાણ વધુ હોય, તો તે કેટલાક નુકસાનકારક પરિસ્થિતિઓનું કારણ બની શકે છે:\n\n### નુકસાન:\n1. **રોગો**: વધુ ભેજથી ફૂગ અને બેક્ટેરિયલ રોગો ફેલાઈ શકે છે, જેમ કે લેટ બ્લાઇટ અને ડેમ્પિંગ ઓફ.\n2. **જંતુઓ**: ભેજવાળા વાતાવરણમાં કટવર્મ અને માઇટ્સ જેવા જંતુઓનું ઉપદ્રવ વધે છે.\n3. **પાકની વૃદ્ધિ**: વધુ ભેજથી છોડની વૃદ્ધિમાં વિક્ષેપ આવી શકે છે.\n\n### ઉપાય:\n1. **વાતાવરણનું નિયંત્રણ**: જો શક્ય હોય, તો છોડની આસપાસના વાતાવરણને સુકું રાખવા માટે હવા વહન કરવા માટે પદ્ધતિઓ અપનાવો.\n2. **રોગ નિયંત્રણ**: રોગો અને જંતુઓના ઉપદ્રવને નિયંત્રિત કરવા માટે યોગ્ય દવાઓનો ઉપયોગ કરો.\n3. **જમીનનું સંચાલન**: જમીનને સારી રીતે ઓક્સિજન આપવું અને પાણીની નિકાસ સુનિશ્ચિત કરવું.\n\nજો તમને વધુ માહિતી અથવા મદદની જરૂર હોય, તો કૃપા કરીને જણાવો.",
+        "timestamp": {
+          "$date": "2024-12-25T18:37:08.139Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140"
+    ],
+    "conversation_id": "676c4d0991eacf074079272f",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-25T18:20:57.379000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "કટવર્મ માટે",
+        "timestamp": {
+          "$date": "2024-12-25T17:54:40.504Z"
+        },
+        "standalone_question": "What is the purpose of a cutworm?",
+        "standalone_en": "What is the purpose of a cutworm?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "cutworm mate"
+      },
+      {
+        "role": "assistant",
+        "content": "કટવર્મ માટેની ભવિષ્યવાણી મુજબ, \"kairo 1\" પ્લોટમાં કટવર્મનો જોખમ સ્તર ઊંચો છે. અહીં કેટલાક મહત્વપૂર્ણ દિવસો અને જોખમ સ્તરો છે:\n\n- **25 ડિસેમ્બર 2024**: 80.4% - **HIGH**\n- **24 ડિસેમ્બર 2024**: 77.7% - **HIGH**\n- **23 ડિસેમ્બર 2024**: 61.5% - **MEDIUM**\n- **22 ડિસેમ્બર 2024**: 77.3% - **HIGH**\n- **21 ડિસેમ્બર 2024**: 64.6% - **MEDIUM**\n\nઆ માહિતીના આધારે, કટવર્મના નિયંત્રણ માટે તાત્કાલિક પગલાં લેવાની ભલામણ કરવામાં આવે છે.",
+        "timestamp": {
+          "$date": "2024-12-25T17:54:45.544Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ક્યા પગલા લેવા",
+        "timestamp": {
+          "$date": "2024-12-25T17:55:15.711Z"
+        },
+        "standalone_question": "What steps should be taken?",
+        "standalone_en": "What steps should be taken?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kya pagla leva"
+      },
+      {
+        "role": "assistant",
+        "content": "કટવર્મના નિયંત્રણ માટે નીચેના પગલાં લેવા જોઈએ:\n\n1. **પેસ્ટિસાઇડનો ઉપયોગ**: કટવર્મને નિયંત્રિત કરવા માટે, કાર્બેન્ડાઝિમ (Carbendazim) @ 2.5 ગ્રામ પ્રતિ લિટર પાણીમાં મિશ્રિત કરીને છોડ પર છંટકાવ કરો.\n\n2. **પ્લોટની નિરીક્ષણ**: નિયમિત રીતે પ્લોટની તપાસ કરો અને કટવર્મના લક્ષણો શોધો.\n\n3. **સ્વચ્છતા જાળવો**: પ્લોટમાં જંગલી ઘાસ અને અન્ય કચરો દૂર કરો, જે કટવર્મ માટે આશ્રયસ્થાન બની શકે છે.\n\n4. **સહાયક જીવાતો**: કટવર્મના કુદરતી શત્રુઓને પ્રોત્સાહન આપો, જેમ કે પરાગકણો અને અન્ય સહાયક જીવાતો.\n\n5. **જળવાયુની સ્થિતિ**: જમીનની ભેજ અને હવા પ્રવાહને નિયંત્રિત કરો, કારણ કે આ કટવર્મના વિકાસને અસર કરી શકે છે.\n\nઆ પગલાંઓને અમલમાં લાવવાથી કટવર્મના જોખમને ઘટાડવામાં મદદ મળશે.",
+        "timestamp": {
+          "$date": "2024-12-25T17:55:21.635Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "કેટલો ડોઝ ફુવારા માટે એકર",
+        "timestamp": {
+          "$date": "2024-12-25T17:56:36.950Z"
+        },
+        "standalone_question": "What is the recommended dosage for spraying per acre?",
+        "standalone_en": "What is the recommended dosage for spraying per acre?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        },
+        "content_transliterated": "ketlo does fuwara mate acre"
+      },
+      {
+        "role": "assistant",
+        "content": "\"કairo 1\" પ્લોટ માટે કટવર્મ માટે કોઈ ફુવારા શેડ્યૂલ ઉપલબ્ધ નથી. જો તમે કટવર્મ માટે ફુવારા કરવા માંગતા હો, તો નીચેના ડોઝનો ઉપયોગ કરી શકો છો:\n\n- **ઇન્સેક્ટિસાઇડ**: Imidacloprid 600 FS - 5 થી 8 મિલી પ્રતિ કિલોગ્રામ બીજ.\n\nઆ ડોઝને એકર પ્રમાણે ગણવા માટે, 1 એકરમાં 1000 કિલોગ્રામ બીજ હોય છે, તેથી 5 થી 8 લિટર પ્રતિ એકર ફુવારા માટે જરૂરી છે.",
+        "timestamp": {
+          "$date": "2024-12-25T17:56:43.244Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "કેટલી કંપની ઉપલબ્ધ છે અને કિલો નો ભાવ",
+        "timestamp": {
+          "$date": "2024-12-25T17:58:07.376Z"
+        },
+        "standalone_question": "How many companies are available and what is the price per kilogram?",
+        "standalone_en": "How many companies are available and what is the price per kilogram?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ketli company upalabdh che ane kilo no bhav"
+      },
+      {
+        "role": "assistant",
+        "content": "કટવર્મના નિયંત્રણ માટે વિવિધ કંપનીઓના ઇન્સેક્ટિસાઇડ ઉપલબ્ધ છે. અહીં કેટલીક જાણીતી કંપનીઓ અને તેમના ઉત્પાદનોના ભાવની માહિતી છે:\n\n1. **Bayer**:\n   - **Product**: Confidor (Imidacloprid)\n   - **Price**: ₹1,200 - ₹1,500 પ્રતિ કિલોગ્રામ\n\n2. **Syngenta**:\n   - **Product**: Actara (Thiamethoxam)\n   - **Price**: ₹1,500 - ₹1,800 પ્રતિ કિલોગ્રામ\n\n3. **UPL**:\n   - **Product**: Targa Super (Thiamethoxam)\n   - **Price**: ₹1,000 - ₹1,200 પ્રતિ કિલોગ્રામ\n\n4. **Rallis India**:\n   - **Product**: Rallis (Chlorpyrifos)\n   - **Price**: ₹800 - ₹1,000 પ્રતિ કિલોગ્રામ\n\n5. **Dhanuka Agritech**:\n   - **Product**: Dhanuka (Lambda-cyhalothrin)\n   - **Price**: ₹1,000 - ₹1,200 પ્રતિ કિલોગ્રામ\n\nઆ ભાવો બજારના આધારે બદલાઈ શકે છે, તેથી ખરીદી કરતા પહેલા સ્થાનિક બજારમાં તપાસ કરવી શ્રેષ્ઠ રહેશે.",
+        "timestamp": {
+          "$date": "2024-12-25T17:58:12.415Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "એકર માં કેટલી",
+        "timestamp": {
+          "$date": "2024-12-25T17:59:45.415Z"
+        },
+        "standalone_question": "How much is needed per acre?",
+        "standalone_en": "How much is needed per acre?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "acker man ketli"
+      },
+      {
+        "role": "assistant",
+        "content": "કટવર્મના નિયંત્રણ માટે બીજના સારવાર માટેની ડોઝ નીચે મુજબ છે:\n\n1. **ઇન્સેક્ટિસાઇડ**: Imidacloprid 600 FS\n   - **ડોઝ**: 5 થી 8 મિલી પ્રતિ કિલોગ્રામ બીજ\n   - 1 એકરમાં લગભગ 1000 કિલોગ્રામ બીજ હોય છે, તેથી 5,000 થી 8,000 મિલી (5 થી 8 લિટર) ઇન્સેક્ટિસાઇડની જરૂર પડશે.\n\n2. **ફંગિસાઇડ**: Thiram\n   - **ડોઝ**: 2 થી 3 ગ્રામ પ્રતિ કિલોગ્રામ બીજ\n   - 1 એકરમાં 1000 કિલોગ્રામ બીજ માટે 2,000 થી 3,000 ગ્રામ (2 થી 3 કિલોગ્રામ) ફંગિસાઇડની જરૂર પડશે.\n\nઆ ડોઝને ધ્યાનમાં રાખીને, તમે એકર માટે યોગ્ય માત્રા તૈયાર કરી શકો છો.",
+        "timestamp": {
+          "$date": "2024-12-25T17:59:52.098Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "કટવર્મ કયા પ્રકાર નુ નુકશાન કરે છે",
+        "timestamp": {
+          "$date": "2024-12-25T18:01:27.846Z"
+        },
+        "standalone_question": "What type of damage does cutworm cause?",
+        "standalone_en": "What type of damage does cutworm cause?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "cutworm kaya prakar nu nukashan kare che"
+      },
+      {
+        "role": "assistant",
+        "content": "કટવર્મ (Cutworm) મુખ્યત્વે નીચેના પ્રકારના નુકશાન કરે છે:\n\n1. **પાંદડા અને કાંટા**: કટવર્મ પાંદડા અને કાંટા ખાઈને છોડને નુકશાન પહોંચાડે છે, જેનાથી છોડની વૃદ્ધિ અટકાઈ શકે છે.\n\n2. **જડ અને મૂળ**: કટવર્મ જમીનમાં જડ અને મૂળને ખાઈને છોડને મરવા માટે દોષિત કરે છે.\n\n3. **અવસ્થાઓ**: કટવર્મ ખાસ કરીને નવું ઉગતા છોડ અને નાની વાવણી પર હુમલો કરે છે, જેનાથી પાકની ઉપજમાં ઘટાડો થાય છે.\n\n4. **ફળ અને કંદ**: કટવર્મ ફળ અને કંદને પણ નુકશાન પહોંચાડી શકે છે, જેનાથી પાકની ગુણવત્તા અને બજાર કિંમત પર અસર પડે છે.\n\nઆ કારણે, કટવર્મના નિયંત્રણ માટે યોગ્ય પગલાં લેવું મહત્વપૂર્ણ છે.",
+        "timestamp": {
+          "$date": "2024-12-25T18:01:34.167Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "બટાટા ૪૦ દિવસ ના પાકને કેટલુ નુકશાન કરે છે",
+        "timestamp": {
+          "$date": "2024-12-25T18:02:41.430Z"
+        },
+        "standalone_question": "What is the extent of damage caused by cutworms to a 40-day-old potato crop?",
+        "standalone_en": "What is the extent of damage caused by cutworms to a 40-day-old potato crop?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "batata a divas na pakane ketlu nukashan kare che"
+      },
+      {
+        "role": "assistant",
+        "content": "કટવર્મ 40 દિવસના બટાટા પાકને નોંધપાત્ર નુકશાન પહોંચાડી શકે છે. આ અવસ્થામાં, કટવર્મ નીચેના પ્રકારના નુકશાન કરી શકે છે:\n\n1. **પાંદડા ખાવું**: કટવર્મ પાંદડા ખાઈને છોડની વૃદ્ધિમાં અવરોધ લાવે છે, જેનાથી પાકની ગુણવત્તા અને ઉપજ પર અસર થાય છે.\n\n2. **જડ અને મૂળને નુકશાન**: કટવર્મ જમીનમાં જડ અને મૂળને ખાઈને છોડને મરવા માટે દોષિત કરે છે, જેનાથી પાકનો વિકાસ અટકાઈ શકે છે.\n\n3. **ફળ અને કંદ**: કટવર્મ ફળ અને કંદને પણ નુકશાન પહોંચાડી શકે છે, જેનાથી પાકની ગુણવત્તા અને બજાર કિંમત પર અસર પડે છે.\n\n4. **પાકની ઉપજમાં ઘટાડો**: કટવર્મના હુમલાથી પાકની ઉપજમાં નોંધપાત્ર ઘટાડો થઈ શકે છે, જે ખેડૂતો માટે આર્થિક નુકશાનનું કારણ બની શકે છે.\n\nઆથી, 40 દિવસના બટાટા પાકને કટવર્મથી બચાવવા માટે યોગ્ય નિયંત્રણ પગલાં લેવું મહત્વપૂર્ણ છે.",
+        "timestamp": {
+          "$date": "2024-12-25T18:02:48.687Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "પ્લોટ નં ૧ માં કેટલી ભલામણ કરો છો",
+        "timestamp": {
+          "$date": "2024-12-25T18:03:47.193Z"
+        },
+        "standalone_question": "What recommendations do you have for plot number 1?",
+        "standalone_en": "What recommendations do you have for plot number 1?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "plot nan a man ketli bhalaman karo cho"
+      },
+      {
+        "role": "assistant",
+        "content": "\"કairo 1\" પ્લોટ માટેની ભલામણો નીચે મુજબ છે:\n\n1. **મૂળભૂત માહિતી**:\n   - **હવામાન**: તાપમાન 17°C, આહલવાઈ 79%\n   - **જમીનનું તાપમાન**: 17.31°C\n   - **જમીનનું ભેજ**: \n     - Soil Moisture 1: 9 kPa (વેટ)\n     - Soil Moisture 2: 10 kPa (વેટ)\n\n2. **ભલામણ**:\n   - **જમીનનું ભેજ**: 2 kPa (વેટ) થી 20 kPa (ડ્રાય) વચ્ચે છે, એટલે કે હાલની સ્થિતિમાં જમીન ભેજમાં છે.\n   - **જળસંચય**: 9 kPa અને 10 kPa readings દર્શાવે છે કે જમીન ભેજમાં છે, તેથી હાલ પાણી આપવાની જરૂર નથી.\n\n**નિષ્કર્ષ**: હાલના ભેજના સ્તરે, \"કairo 1\" પ્લોટમાં પાણી આપવાની જરૂર નથી. જો ભેજ 20 kPa થી વધુ થાય, ત્યારે જ પાણી આપવાની ભલામણ કરવામાં આવશે.",
+        "timestamp": {
+          "$date": "2024-12-25T18:03:56.398Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "કટવર્મ માટે",
+        "timestamp": {
+          "$date": "2024-12-25T18:04:32.232Z"
+        },
+        "standalone_question": "What recommendations do you have for managing cutworms in plot number 1?",
+        "standalone_en": "What recommendations do you have for managing cutworms in plot number 1?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "cutworm mate"
+      },
+      {
+        "role": "assistant",
+        "content": "\"કairo 1\" પ્લોટમાં કટવર્મ માટેની ભલામણો:\n\n1. **ઇન્સેક્ટિસાઇડ**: \n   - **Imidacloprid 600 FS**: 5 થી 8 મિલી પ્રતિ કિલોગ્રામ બીજ.\n   - **Thiamethoxam**: 0.5 ગ્રામ પ્રતિ લિટર પાણીમાં મિશ્રિત કરીને છંટકાવ કરો.\n\n2. **ફંગિસાઇડ**: \n   - **Carbendazim**: 2.5 ગ્રામ પ્રતિ લિટર પાણીમાં મિશ્રિત કરીને છંટકાવ કરો.\n\n3. **નિયંત્રણ પગલાં**:\n   - નિયમિત રીતે પ્લોટની તપાસ કરો.\n   - જંગલી ઘાસ અને કચરો દૂર કરો.\n   - કટવર્મના કુદરતી શત્રુઓને પ્રોત્સાહન આપો.\n\nઆ પગલાંઓને અમલમાં લાવવાથી કટવર્મના જોખમને ઘટાડવામાં મદદ મળશે.",
+        "timestamp": {
+          "$date": "2024-12-25T18:04:39.429Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "કટવર્મ નુ કુદરતી આયુષ્ય",
+        "timestamp": {
+          "$date": "2024-12-25T18:05:21.857Z"
+        },
+        "standalone_question": "What is the natural lifespan of a cutworm?",
+        "standalone_en": "What is the natural lifespan of a cutworm?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "cutworm nu kudarati ayushy"
+      },
+      {
+        "role": "assistant",
+        "content": "કટવર્મનું કુદરતી આયુષ્ય સામાન્ય રીતે 2 થી 3 મહિના સુધી હોય છે. આ સમયગાળા દરમિયાન, કટવર્મના જીવનચક્રમાં ચાર મુખ્ય તબક્કા હોય છે:\n\n1. **અંડા**: કટવર્મની માદા 100 થી 200 અંડા મૂકે છે, જે 4 થી 10 દિવસમાં ફૂટે છે.\n2. **લાર્વા**: ફૂટેલા અંડા લાર્વા તરીકે ઓળખાય છે, જે 2 થી 4 અઠવાડિયામાં વિકાસ પામે છે.\n3. **પુપા**: લાર્વા પુપા તબક્કામાં જાય છે, જે 1 થી 2 અઠવાડિયા સુધી રહે છે.\n4. **વયસ્ક**: પુખ્ત કટવર્મ 2 થી 3 મહિના સુધી જીવંત રહે છે, અને આ દરમિયાન તે ખોરાક શોધે છે અને પ્રજનન કરે છે.\n\nઆથી, કટવર્મના જીવનચક્રને ધ્યાનમાં રાખીને, નિયંત્રણ માટે યોગ્ય પગલાં લેવું મહત્વપૂર્ણ છે.",
+        "timestamp": {
+          "$date": "2024-12-25T18:05:27.957Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "અત્યારે કેવા પગલા લેવા",
+        "timestamp": {
+          "$date": "2024-12-25T18:06:18.460Z"
+        },
+        "standalone_question": "What steps should be taken right now?",
+        "standalone_en": "What steps should be taken right now?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "atyare keva pagla leva"
+      },
+      {
+        "role": "assistant",
+        "content": "\"કairo 1\" પ્લોટ માટે હાલના પરિસ્થિતિઓને આધારે પગલાં લેવા માટેની ભલામણો:\n\n1. **હવામાનની સ્થિતિ**:\n   - તાપમાન: 14°C થી 24°C વચ્ચે.\n   - આહલવાઈ: 55% થી 87% વચ્ચે.\n   - વરસાદ: છેલ્લા 5 દિવસમાં કોઈ વરસાદ નોંધાયો નથી.\n\n2. **જમીનનું ભેજ**:\n   - Soil Moisture 1: 8 kPa\n   - Soil Moisture 2: 9 kPa\n   - આ ભેજનું સ્તર વેટ છે, એટલે કે પાણી આપવાની જરૂર નથી.\n\n3. **એવાપોટ્રાન્સપિરેશન**:\n   - છેલ્લા 5 દિવસમાં એવાપોટ્રાન્સપિરેશન 1.8 mm થી 3.9 mm વચ્ચે છે, જે સામાન્ય છે.\n\n### ભલામણો:\n- **કટવર્મ નિયંત્રણ**: \n  - ઇન્સેક્ટિસાઇડનો ઉપયોગ કરો, જેમ કે Imidacloprid અથવા Thiamethoxam, જે 5 થી 8 મિલી પ્રતિ કિલોગ્રામ બીજ માટે છે.\n  - નિયમિત રીતે પ્લોટની તપાસ કરો અને કટવર્મના લક્ષણો શોધો.\n\n- **જમીનનું ભેજ**: \n  - હાલના ભેજના સ્તરે, પાણી આપવાની જરૂર નથી. જો ભેજ 20 kPa થી વધુ થાય, ત્યારે જ પાણી આપવાની ભલામણ કરવામાં આવશે.\n\n- **નિયંત્રણ પગલાં**: \n  - જંગલી ઘાસ અને કચરો દૂર કરો.\n  - કટવર્મના કુદરતી શત્રુઓને પ્રોત્સાહન આપો.\n\nઆ પગલાંઓને અમલમાં લાવવાથી કટવર્મના જોખમને ઘટાડવામાં મદદ મળશે.",
+        "timestamp": {
+          "$date": "2024-12-25T18:06:29.151Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "લક્ષણો ક્યા",
+        "timestamp": {
+          "$date": "2024-12-25T18:07:45.250Z"
+        },
+        "standalone_question": "What are the symptoms of cutworm infestation?",
+        "standalone_en": "What are the symptoms of cutworm infestation?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "lakshano kya"
+      },
+      {
+        "role": "assistant",
+        "content": "કટવર્મના લક્ષણો નીચે મુજબ છે:\n\n1. **પાંદડા ખાવું**: કટવર્મ પાંદડા પર ખોરાક માટે ખૂણાઓ બનાવે છે, જેનાથી પાંદડા ખૂણામાંથી ખૂણામાં ખાઈ જાય છે.\n\n2. **જડ અને મૂળને નુકશાન**: કટવર્મ જમીનમાં જડ અને મૂળને ખાઈને છોડને મરવા માટે દોષિત કરે છે, જેનાથી છોડની વૃદ્ધિ અટકાઈ શકે છે.\n\n3. **લાર્વા**: કટવર્મના લાર્વા જમીનમાં અથવા છોડના તળિયે જોવા મળે છે, જે સામાન્ય રીતે કાળા અથવા ભૂરો રંગના હોય છે.\n\n4. **પાકની ઉપજમાં ઘટાડો**: કટવર્મના હુમલાથી પાકની ઉપજમાં નોંધપાત્ર ઘટાડો થઈ શકે છે, જે ખેડૂતો માટે આર્થિક નુકશાનનું કારણ બની શકે છે.\n\n5. **ફળ અને કંદ**: કટવર્મ ફળ અને કંદને પણ નુકશાન પહોંચાડી શકે છે, જેનાથી પાકની ગુણવત્તા અને બજાર કિંમત પર અસર પડે છે.\n\nઆ લક્ષણો જોવામાં આવે તો તરત જ નિયંત્રણ પગલાં લેવા જરૂરી છે.",
+        "timestamp": {
+          "$date": "2024-12-25T18:07:54.056Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140"
+    ],
+    "conversation_id": "676c46e02f3dfb2220cc02ae",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-25T17:54:40.504000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hydrogen cynamide ",
+        "timestamp": {
+          "$date": "2024-12-25T16:33:53.982Z"
+        },
+        "standalone_question": "What is hydrogen cyanamide?",
+        "standalone_en": "What is hydrogen cyanamide?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Hydrogen cyanamide is a chemical compound often used in agriculture, particularly in fruit production. It acts as a plant growth regulator and is commonly applied to promote bud break in deciduous fruit trees, such as kinnow, by breaking dormancy.\n\nIf you need specific guidance on its application, dosage, or timing for your kinnow crops, please let me know!",
+        "timestamp": {
+          "$date": "2024-12-25T16:33:57.095Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Hydrogen cyanamide  kinnow m use hoga?",
+        "timestamp": {
+          "$date": "2024-12-25T16:34:40.068Z"
+        },
+        "standalone_question": "Will hydrogen cyanamide be used for kinnow?",
+        "standalone_en": "Will hydrogen cyanamide be used for kinnow?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Hydrogen cyanamide kinnow ke liye ek prabhavi plant growth regulator hai, jo ki bud break ko prabhavit karne ke liye istemal hota hai. Iska istemal aapke kinnow ke paudhon ki dormancy ko todne ke liye kiya ja sakta hai, jisse ki paudhe jaldi se nayi kaliyan nikaal sakein.\n\n**Istemaal ka samay:**\n- Iska istemal sardi ke mahine (November se January) mein kiya jata hai, jab paudhe dormancy mein hote hain.\n\n**Dosage:**\n- Dosage ka dhyan rakhna zaroori hai, jo ki aapke paudhe ki avastha aur sthiti par nirbhar karta hai. Aam taur par, 1-2% solution ka istemal kiya jata hai.\n\n**Prabhav:**\n- Iska istemal karne se aapke kinnow ke paudhe mein kaliyan jaldi nikalti hain, jo ki behtar phal utpadan mein madadgar hota hai.\n\nYadi aapko iske istemal ki vistar se jankari chahiye, to aap mujhe bata sakte hain!",
+        "timestamp": {
+          "$date": "2024-12-25T16:34:45.179Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Nuksan kya kya h?",
+        "timestamp": {
+          "$date": "2024-12-25T16:39:55.499Z"
+        },
+        "standalone_question": "What are the potential drawbacks or disadvantages of using hydrogen cyanamide?",
+        "standalone_en": "What are the potential drawbacks or disadvantages of using hydrogen cyanamide?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Kinnow ke paudhon par kuch pramukh nuksan ya rog hote hain, jo unki vriddhi aur utpadan ko prabhavit kar sakte hain. Yahan kuch aam nuksan aur unke niyantran ke upay diye gaye hain:\n\n1. **Collar Rot:**\n   - **Nuksan:** Paudhe ke base par gila hona aur sadharan roop se mar jaana.\n   - **Niyantran:** Carbendazim ka istemal karein (2.5g/ltr) ko drench ya spray karein.\n\n2. **Damping Off:**\n   - **Nuksan:** Beej ya chhote paudhe mar jaate hain, jo ki beej bibhajan ke samay hota hai.\n   - **Niyantran:** Fungicides ka istemal karein aur paudhon ko sahi roshni aur hawa dena.\n\n3. **Seedling Blight:**\n   - **Nuksan:** Paudhe ke patte ya kaliyan mar jaati hain.\n   - **Niyantran:** Fungicides ka istemal karein aur paudhon ko sahi roshni aur hawa dena.\n\n4. **Pests:**\n   - **Nuksan:** Aise keet jaise aphids, mealybugs, aur fruit flies paudhon ko nuksan pahunchate hain.\n   - **Niyantran:** Insecticides ka istemal karein aur paudhon ki niyamit jaanch karein.\n\nYadi aapko kisi vishesh rog ya keet ke baare mein jaankari chahiye, to aap mujhe bata sakte hain!",
+        "timestamp": {
+          "$date": "2024-12-25T16:40:02.148Z"
+        }
+      }
+    ],
+    "farmer_id": "mandeepbishnoi1661062088650",
+    "farmer_plot_ids": [
+      "kairokinnowfarm",
+      "kinnowplotnero1"
+    ],
+    "conversation_id": "676c33f1f6d4c5173faf3c7d",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-25T16:33:53.982000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Point sathi",
+        "timestamp": {
+          "$date": "2024-12-25T15:51:50.156Z"
+        },
+        "standalone_question": "What is the meaning of \"Point sathi\"?",
+        "standalone_en": "What is the meaning of \"Point sathi\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया आपला प्रश्न स्पष्ट करा किंवा आपल्याला कोणती माहिती हवी आहे ते सांगा.",
+        "timestamp": {
+          "$date": "2024-12-25T15:51:52.313Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Point sathi kay niyojen",
+        "timestamp": {
+          "$date": "2024-12-25T15:52:35.047Z"
+        },
+        "standalone_question": "What is the purpose of the point?",
+        "standalone_en": "What is the purpose of the point?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या \"Manik chaman\" प्लॉटसाठी, सध्या आपण \"फ्रूट सेट\" (Fruit Set) चरणात आहात, जो 2024-12-23 पासून सुरू झाला आहे. या चरणात, पुढील फर्टिगेशन शेड्यूल खालीलप्रमाणे आहे:\n\n### सध्याचा फर्टिगेशन शेड्यूल (सप्ताह 1)\n1. **फोलिअर पद्धतीने:**\n   - **फेरस सल्फेट:** 800 ग्रॅम/एकर\n   - **मॅंगनीज सल्फेट:** 800 ग्रॅम/एकर\n   - **सूचना:** फोलिअर स्प्रेमध्ये सूक्ष्म-खते 1% पेक्षा जास्त नसावी, उदाहरणार्थ 500 लिटर पाण्यात 5 किलो.\n\n2. **फर्टिगेशन पद्धतीने:**\n   - **11-44-11:** 6 किलो/एकर\n   - **फॉस्फोरिक आम्ल (80%):** 1 किलो/एकर\n   - **पोटाशचा सल्फेट:** 4.5 किलो/एकर\n   - **मॅग्नेशियम सल्फेट:** 640 ग्रॅम/एकर\n   - **सूचना:** फॉस्फोरिक आम्ल इतर खते लागू करण्यापूर्वी 15-20 मिनिटे लागू करावे.\n\n### पुढील फर्टिगेशन शेड्यूल (सप्ताह 1, \"बेरी डेव्हलपमेंट\" चरण)\n- **फोलिअर पद्धतीने:**\n   - **जिंक ऑक्साइड:** 300 ग्रॅम/एकर\n   - **गिब्बेरलिक आम्ल (GA3):** 20 पीपीएम\n   - **CPPU (0.1%):** 1 पीपीएम\n\n- **फर्टिगेशन पद्धतीने:**\n   - **11-44-11:** 6 किलो/एकर\n   - **फॉस्फोरिक आम्ल (80%):** 1 किलो/एकर\n   - **पोटाशचा सल्फेट:** 4.5 किलो/एकर\n   - **मॅग्नेशियम सल्फेट:** 640 ग्रॅम/एकर\n\n### प्रारंभ तारीख\n- **बेरी डेव्हलपमेंट चरण:** 2025-01-06 पासून.\n\nआपल्याला आणखी काही माहिती हवी असल्यास, कृपया सांगा!",
+        "timestamp": {
+          "$date": "2024-12-25T15:52:44.445Z"
+        }
+      }
+    ],
+    "farmer_id": "siddheshwarmane",
+    "farmer_plot_ids": [
+      "manikchamanmoryafarm"
+    ],
+    "conversation_id": "676c2a152f3dfb2220cc02ad",
+    "tag": "others",
+    "conv_date": "2024-12-25T15:51:50.156000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "NTR ",
+        "timestamp": {
+          "$date": "2024-12-25T13:44:12.393Z"
+        },
+        "standalone_question": "What does NTR mean?",
+        "standalone_en": "What does NTR mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया आपला प्रश्न स्पष्ट करा किंवा आपल्याला कोणती माहिती हवी आहे ते सांगा. मी आपल्याला कृषी संबंधित सहाय्य करण्यात आनंदित होईन.",
+        "timestamp": {
+          "$date": "2024-12-25T13:44:15.481Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "NTR म्हणजे",
+        "timestamp": {
+          "$date": "2024-12-25T13:44:58.936Z"
+        },
+        "standalone_question": "What does NTR mean?",
+        "standalone_en": "What does NTR mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "NTR mhanaje"
+      },
+      {
+        "role": "assistant",
+        "content": "NTR म्हणजे \"नैसर्गिक जल पुनर्भरण\" (Natural Water Recharge). हे जल पुनर्भरणाच्या प्रक्रियेस संदर्भित करते, ज्यामध्ये पाण्याचे नैसर्गिक स्रोत जसे की पाऊस, नद्या, आणि जलाशय यांद्वारे भूजल स्तर वाढवला जातो. यामुळे जलसाठा टिकवून ठेवण्यास मदत होते आणि पाण्याची उपलब्धता सुधारते. \n\nआपल्याला याबद्दल अधिक माहिती हवी असल्यास, कृपया सांगा!",
+        "timestamp": {
+          "$date": "2024-12-25T13:45:04.004Z"
+        }
+      }
+    ],
+    "farmer_id": "sagaramrutsalunkhe",
+    "farmer_plot_ids": [
+      "peruplot377"
+    ],
+    "conversation_id": "676c0c2c91eacf074079272e",
+    "tag": "others",
+    "conv_date": "2024-12-25T13:44:12.393000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "માં પાણી ક્યારે આપો",
+        "timestamp": {
+          "$date": "2024-12-25T12:31:25.433Z"
+        },
+        "standalone_question": "When will you give water?",
+        "standalone_en": "When will you give water?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer."
+          ]
+        },
+        "content_transliterated": "man pani kyare apo"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પાક માટે પાણી આપવાની જરૂર નથી. \n\n1. **કૈરો 1**: \n   - મૃદાની ભેજ: 0 kPa (સૂકું), 1 kPa (સૂકું)\n   - આદર્શ ભેજ: 15 kPa\n   - **પાણી આપવાની જરૂર નથી**.\n\n2. **નેરો 1**: \n   - મૃદાની ભેજ: 0 kPa (સૂકું), 6 kPa (સૂકું)\n   - આદર્શ ભેજ: 18 kPa\n   - **પાણી આપવાની જરૂર નથી**.\n\nજો ભેજ વધે તો પછી પાણી આપવું.",
+        "timestamp": {
+          "$date": "2024-12-25T12:31:33.014Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખેતર માં સ્પ્રે ક્યારે કરવો",
+        "timestamp": {
+          "$date": "2024-12-25T12:32:14.857Z"
+        },
+        "standalone_question": "When should I apply spray in my field?",
+        "standalone_en": "When should I apply spray in my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice."
+          ]
+        },
+        "content_transliterated": "mara khetar man spray kyare karavo"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં (કૈરો 1 અને નેરો 1) માટે આ સપ્તાહમાં કોઈ સ્પ્રે કરવાની સૂચના નથી. જો કોઈ નવી માહિતી મળે તો હું તમને જાણ કરીશ.",
+        "timestamp": {
+          "$date": "2024-12-25T12:32:20.781Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "સ્પ્રે કોઈ જરૂર છે",
+        "timestamp": {
+          "$date": "2024-12-25T12:34:56.486Z"
+        },
+        "standalone_question": "Is there a need for spraying?",
+        "standalone_en": "Is there a need for spraying?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice."
+          ]
+        },
+        "content_transliterated": "spray koi jarur che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં (કૈરો 1 અને નેરો 1) માટે આ સપ્તાહમાં કોઈ સ્પ્રે કરવાની જરૂર નથી. જો કોઈ નવી માહિતી મળે તો હું તમને જાણ કરીશ.",
+        "timestamp": {
+          "$date": "2024-12-25T12:35:02.096Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ખેતરમાં લેડબલાઇટ જરૂર ખરી",
+        "timestamp": {
+          "$date": "2024-12-25T12:35:16.535Z"
+        },
+        "standalone_question": "Is there a need for leadlight in the field?",
+        "standalone_en": "Is there a need for leadlight in the field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "khetaraman leadblight jarur khari"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં સ્પ્રે કરવાની સ્થિતિ નીચે મુજબ છે:\n\n### કૈરો 1:\n- **આજ સાંજ (18:30)**: **IDEAL** (સુવર્ણ અવસ્થા)\n- **આજ રાત (21:30)**: **IDEAL**\n- **આજ રાત (22:30)**: **IDEAL**\n- **આજ રાત (23:30)**: **IDEAL**\n- **કાલે સવારે (00:30)**: **IDEAL**\n- **કાલે સવારે (01:30)**: **IDEAL**\n- **કાલે સવારે (02:30)**: **IDEAL**\n- **કાલે સવારે (03:30)**: **IDEAL**\n- **કાલે સવારે (04:30)**: **IDEAL**\n- **કાલે સવારે (05:30)**: **IDEAL**\n- **કાલે સવારે (06:30)**: **IDEAL**\n- **કાલે સવારે (07:30)**: **IDEAL**\n- **કાલે સવારે (08:30)**: **IDEAL**\n\n### નેરો 1:\n- **સ્પ્રે સ્થિતિ તપાસવામાં અસમર્થ**.\n\n**સૂચન**: કૈરો 1 માટે, તમે આજે સાંજથી શરૂ કરીને કાલે સવારે સુધી સ્પ્રે કરી શકો છો. નેરો 1 માટે, વધુ માહિતી માટે તપાસો.",
+        "timestamp": {
+          "$date": "2024-12-25T12:35:25.919Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "માં ખાતર કયું આપવું",
+        "timestamp": {
+          "$date": "2024-12-25T12:36:37.382Z"
+        },
+        "standalone_question": "What type of fertilizer should I use?",
+        "standalone_en": "What type of fertilizer should I use?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "man khatar kayu apvu"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં ખાતર આપવાની સૂચનાઓ નીચે મુજબ છે:\n\n### કૈરો 1 (Potato - Santana)\n- **વર્તમાન તબક્કો**: વેજિટેટિવ ગ્રોથ (Vegetative Growth)\n- **વર્તમાન સપ્તાહ**: 3\n\n#### આજના દિવસ માટે:\n1. **ફર્ટિગેશન**:\n   - **Urea**: 8.5 કિલોગ્રામ/એકર\n\n2. **ફોલિયર સ્પ્રે**:\n   - **19-19-19**: 1.5 કિલોગ્રામ/એકર\n\n#### 4 દિવસ પછી:\n- **ફર્ટિગેશન**:\n   - **12-61-0**: 6 કિલોગ્રામ/એકર\n   - **Urea**: 5 કિલોગ્રામ/એકર\n   - **Magnesium Sulphate**: 5 કિલોગ્રામ/એકર\n\n### નેરો 1 (Potato - LR)\n- **વર્તમાન તબક્કો**: વેજિટેટિવ ગ્રોથ (Vegetative Growth)\n- **વર્તમાન સપ્તાહ**: 3\n\n#### આજના દિવસ માટે:\n1. **ફર્ટિગેશન**:\n   - **Urea**: 8 કિલોગ્રામ/એકર\n\n2. **ફોલિયર સ્પ્રે**:\n   - **19-19-19**: 1.5 કિલોગ્રામ/એકર\n\n#### 4 દિવસ પછી:\n- **ફર્ટિગેશન**:\n   - **12-61-0**: 5 કિલોગ્રામ/એકર\n   - **Urea**: 4.5 કિલોગ્રામ/એકર\n   - **Magnesium Sulphate**: 6 કિલોગ્રામ/એકર\n\n### નોંધ:\n- ફોલિયર સ્પ્રે માટે, ખાતરના મિશ્રણની માત્રા 1% થી વધુ ન હોવી જોઈએ.\n- ખાતર આપતી વખતે, દરેક પ્રકારના ખાતર માટે યોગ્ય સમય અને પદ્ધતિનું ધ્યાન રાખવું.",
+        "timestamp": {
+          "$date": "2024-12-25T12:36:48.895Z"
+        }
+      }
+    ],
+    "farmer_id": "vardhabhairamaji",
+    "farmer_plot_ids": [
+      "kairo1382",
+      "nero1565"
+    ],
+    "conversation_id": "676bfb1d91eacf074079272d",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-12-25T12:31:25.433000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "માં પાણી ક્યારે આપો",
+        "timestamp": {
+          "$date": "2024-12-25T12:31:25.433Z"
+        },
+        "standalone_question": "When will you give water?",
+        "standalone_en": "When will you give water?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer."
+          ]
+        },
+        "content_transliterated": "man pani kyare apo"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પાક માટે પાણી આપવાની જરૂર નથી. \n\n1. **કૈરો 1**: \n   - મૃદાની ભેજ: 0 kPa (સૂકું), 1 kPa (સૂકું)\n   - આદર્શ ભેજ: 15 kPa\n   - **પાણી આપવાની જરૂર નથી**.\n\n2. **નેરો 1**: \n   - મૃદાની ભેજ: 0 kPa (સૂકું), 6 kPa (સૂકું)\n   - આદર્શ ભેજ: 18 kPa\n   - **પાણી આપવાની જરૂર નથી**.\n\nજો ભેજ વધે તો પછી પાણી આપવું.",
+        "timestamp": {
+          "$date": "2024-12-25T12:31:33.014Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખેતર માં સ્પ્રે ક્યારે કરવો",
+        "timestamp": {
+          "$date": "2024-12-25T12:32:14.857Z"
+        },
+        "standalone_question": "When should I apply spray in my field?",
+        "standalone_en": "When should I apply spray in my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice."
+          ]
+        },
+        "content_transliterated": "mara khetar man spray kyare karavo"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં (કૈરો 1 અને નેરો 1) માટે આ સપ્તાહમાં કોઈ સ્પ્રે કરવાની સૂચના નથી. જો કોઈ નવી માહિતી મળે તો હું તમને જાણ કરીશ.",
+        "timestamp": {
+          "$date": "2024-12-25T12:32:20.781Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "સ્પ્રે કોઈ જરૂર છે",
+        "timestamp": {
+          "$date": "2024-12-25T12:34:56.486Z"
+        },
+        "standalone_question": "Is there a need for spraying?",
+        "standalone_en": "Is there a need for spraying?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice."
+          ]
+        },
+        "content_transliterated": "spray koi jarur che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં (કૈરો 1 અને નેરો 1) માટે આ સપ્તાહમાં કોઈ સ્પ્રે કરવાની જરૂર નથી. જો કોઈ નવી માહિતી મળે તો હું તમને જાણ કરીશ.",
+        "timestamp": {
+          "$date": "2024-12-25T12:35:02.096Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ખેતરમાં લેડબલાઇટ જરૂર ખરી",
+        "timestamp": {
+          "$date": "2024-12-25T12:35:16.535Z"
+        },
+        "standalone_question": "Is there a need for lead light in the field?",
+        "standalone_en": "Is there a need for lead light in the field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "khetaraman leadblight jarur khari"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં સ્પ્રે કરવાની સ્થિતિ નીચે મુજબ છે:\n\n### કૈરો 1:\n- **આજ સાંજ (18:30)**: **IDEAL** (સુવર્ણ અવસ્થા)\n- **આજ રાત (21:30)**: **IDEAL**\n- **આજ રાત (22:30)**: **IDEAL**\n- **આજ રાત (23:30)**: **IDEAL**\n- **કાલે સવારે (00:30)**: **IDEAL**\n- **કાલે સવારે (01:30)**: **IDEAL**\n- **કાલે સવારે (02:30)**: **IDEAL**\n- **કાલે સવારે (03:30)**: **IDEAL**\n- **કાલે સવારે (04:30)**: **IDEAL**\n- **કાલે સવારે (05:30)**: **IDEAL**\n- **કાલે સવારે (06:30)**: **IDEAL**\n- **કાલે સવારે (07:30)**: **IDEAL**\n- **કાલે સવારે (08:30)**: **IDEAL**\n\n### નેરો 1:\n- **સ્પ્રે સ્થિતિ તપાસવામાં અસમર્થ**.\n\n**સૂચન**: કૈરો 1 માટે, તમે આજે સાંજથી શરૂ કરીને કાલે સવારે સુધી સ્પ્રે કરી શકો છો. નેરો 1 માટે, વધુ માહિતી માટે તપાસો.",
+        "timestamp": {
+          "$date": "2024-12-25T12:35:25.919Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "માં ખાતર કયું આપવું",
+        "timestamp": {
+          "$date": "2024-12-25T12:36:37.382Z"
+        },
+        "standalone_question": "What type of fertilizer should I use?",
+        "standalone_en": "What type of fertilizer should I use?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "man khatar kayu apvu"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં ખાતર આપવાની સૂચનાઓ નીચે મુજબ છે:\n\n### કૈરો 1 (Potato - Santana)\n- **વર્તમાન તબક્કો**: વેજિટેટિવ ગ્રોથ (Vegetative Growth)\n- **વર્તમાન સપ્તાહ**: 3\n\n#### આજના દિવસ માટે:\n1. **ફર્ટિગેશન**:\n   - **Urea**: 8.5 કિલોગ્રામ/એકર\n\n2. **ફોલિયર સ્પ્રે**:\n   - **19-19-19**: 1.5 કિલોગ્રામ/એકર\n\n#### 4 દિવસ પછી:\n- **ફર્ટિગેશન**:\n   - **12-61-0**: 6 કિલોગ્રામ/એકર\n   - **Urea**: 5 કિલોગ્રામ/એકર\n   - **Magnesium Sulphate**: 5 કિલોગ્રામ/એકર\n\n### નેરો 1 (Potato - LR)\n- **વર્તમાન તબક્કો**: વેજિટેટિવ ગ્રોથ (Vegetative Growth)\n- **વર્તમાન સપ્તાહ**: 3\n\n#### આજના દિવસ માટે:\n1. **ફર્ટિગેશન**:\n   - **Urea**: 8 કિલોગ્રામ/એકર\n\n2. **ફોલિયર સ્પ્રે**:\n   - **19-19-19**: 1.5 કિલોગ્રામ/એકર\n\n#### 4 દિવસ પછી:\n- **ફર્ટિગેશન**:\n   - **12-61-0**: 5 કિલોગ્રામ/એકર\n   - **Urea**: 4.5 કિલોગ્રામ/એકર\n   - **Magnesium Sulphate**: 6 કિલોગ્રામ/એકર\n\n### નોંધ:\n- ફોલિયર સ્પ્રે માટે, ખાતરના મિશ્રણની માત્રા 1% થી વધુ ન હોવી જોઈએ.\n- ખાતર આપતી વખતે, દરેક પ્રકારના ખાતર માટે યોગ્ય સમય અને પદ્ધતિનું ધ્યાન રાખવું.",
+        "timestamp": {
+          "$date": "2024-12-25T12:36:48.895Z"
+        }
+      }
+    ],
+    "farmer_id": "vardhabhairamaji",
+    "farmer_plot_ids": [
+      "kairo1382",
+      "nero1565"
+    ],
+    "conversation_id": "676bfb1d91eacf074079272d",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-12-25T12:31:25.433000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "આ સેના લીધે થાય છે ? કોની કમી છે જવાબ આપવા વિનંતી?",
+        "timestamp": {
+          "$date": "2024-12-25T12:04:55.018Z"
+        },
+        "standalone_question": "What causes this issue? Whose deficiency is responsible?",
+        "standalone_en": "What causes this issue? Whose deficiency is responsible?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "a sena lidhe thay che ? connie kami che javab apava vinanti?"
+      },
+      {
+        "role": "assistant",
+        "content": "મને માફ કરશો, પરંતુ કૃષિ સંબંધિત પ્રશ્નો માટે જ જવાબ આપી શકું છું. કૃપા કરીને કૃષિ સંબંધિત કોઈ પ્રશ્ન પૂછો, જેમ કે પાક વ્યવસ્થાપન, જમીન આરોગ્ય, કીટક નિયંત્રણ, અથવા સિંચાઈની વ્યૂહરચના.",
+        "timestamp": {
+          "$date": "2024-12-25T12:04:57.072Z"
+        }
+      }
+    ],
+    "farmer_id": "jayeshbhaimakani12",
+    "farmer_plot_ids": [
+      "plot2376",
+      "umaathamanu"
+    ],
+    "conversation_id": "676bf4e6101ba68c094795ac",
+    "tag": "others",
+    "conv_date": "2024-12-25T12:04:55.018000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "કટવોર્મ",
+        "timestamp": {
+          "$date": "2024-12-25T11:56:40.911Z"
+        },
+        "standalone_question": "What is a cutworm?",
+        "standalone_en": "What is a cutworm?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "cutworm"
+      },
+      {
+        "role": "assistant",
+        "content": "કટવોર્મ માટેની ભવિષ્યવાણી મુજબ, \"kairo 1\" પ્લોટમાં 25 ડિસેમ્બર 2024ના રોજ 80.4% સંભાવના સાથે ઉચ્ચ જોખમ સ્તર છે. અગાઉના દિવસોમાં પણ કટવોર્મનું જોખમ ઉચ્ચ અને મધ્યમ સ્તરે રહ્યું છે:\n\n- 24 ડિસેમ્બર: 77.7% (ઉચ્ચ)\n- 23 ડિસેમ્બર: 61.5% (મધ્યમ)\n- 22 ડિસેમ્બર: 77.3% (ઉચ્ચ)\n- 21 ડિસેમ્બર: 64.6% (મધ્યમ)\n\nઆ માહિતીના આધારે, કટવોર્મના નિયંત્રણ માટે તાત્કાલિક પગલાં લેવા જરૂરી છે.",
+        "timestamp": {
+          "$date": "2024-12-25T11:56:46.973Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "શુ લેવા",
+        "timestamp": {
+          "$date": "2024-12-25T11:57:11.420Z"
+        },
+        "standalone_question": "What actions should be taken?",
+        "standalone_en": "What actions should be taken?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "shoe leva"
+      },
+      {
+        "role": "assistant",
+        "content": "\"કairo 1\" પ્લોટ માટે 25 ડિસેમ્બર 2024થી 31 ડિસેમ્બર 2024 સુધી કોઈ રોગ અથવા કીટક નિયંત્રણ માટેની સ્પ્રે શેડ્યૂલ નથી. \n\nતેથી, હાલ કોઈ સ્પ્રે કરવાની જરૂર નથી. જો તમને કટવોર્મ અથવા અન્ય કીટકોથી સંકળાયેલા કોઈ લક્ષણો દેખાય છે, તો યોગ્ય નિયંત્રણ પગલાં લેવા માટે તાત્કાલિક પગલાં લેવા જોઈએ.",
+        "timestamp": {
+          "$date": "2024-12-25T11:57:16.206Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "શુ પગલા લેવા યોગ્ય માર્ગ દર્શન આપો",
+        "timestamp": {
+          "$date": "2024-12-25T11:58:04.764Z"
+        },
+        "standalone_question": "What steps should be taken for proper guidance on controlling cutworms?",
+        "standalone_en": "What steps should be taken for proper guidance on controlling cutworms?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are the important Pest occur during seedling stage and control measures?\nA: Ants, Termites, root aphids, thrips and internal borer’s pest infect during seedling stage\nDrench/spray seedling with: Chlorpyriphos @ 5mL/Ltr or Thiamethoxam @ 0.5g/ltr"
+          ]
+        },
+        "content_transliterated": "shoe pagla leva yogy marg darshan apo"
+      },
+      {
+        "role": "assistant",
+        "content": "\"કairo 1\" પ્લોટ માટે 25 ડિસેમ્બર 2024થી 31 ડિસેમ્બર 2024 સુધી કોઈ રોગ અથવા કીટક નિયંત્રણ માટેની સ્પ્રે શેડ્યૂલ નથી. \n\nતેથી, હાલ કોઈ સ્પ્રે કરવાની જરૂર નથી. જો કટવોર્મ અથવા અન્ય કીટકોથી સંકળાયેલા કોઈ લક્ષણો દેખાય છે, તો યોગ્ય નિયંત્રણ પગલાં લેવા માટે તાત્કાલિક પગલાં લેવા જોઈએ. \n\nજો તમને વધુ માહિતી અથવા મદદની જરૂર હોય, તો કૃપા કરીને જણાવો.",
+        "timestamp": {
+          "$date": "2024-12-25T11:58:10.010Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140"
+    ],
+    "conversation_id": "676bf2f848a7a46a4d4770c7",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-25T11:56:40.911000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "આ પ્લોટ માં કઈ દવાની જરૂર છે",
+        "timestamp": {
+          "$date": "2024-12-25T08:22:57.376Z"
+        },
+        "standalone_question": "What medicine is needed for this plot?",
+        "standalone_en": "What medicine is needed for this plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "a plot ma kai davani jarur che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પ્લોટમાં હાલમાં કોઈ દવાની જરૂર નથી, કારણ કે છેલ્લા પાંચ દિવસમાં કોઈ રોગ અથવા પેસ્ટના સ્પ્રેની ભલામણ કરવામાં આવી નથી. જો તમને વધુ માહિતી જોઈએ તો કૃપા કરીને જણાવો.",
+        "timestamp": {
+          "$date": "2024-12-25T08:23:03.164Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ખાતર કયું આપવુ",
+        "timestamp": {
+          "$date": "2024-12-25T08:23:50.887Z"
+        },
+        "standalone_question": "What type of fertilizer should be used?",
+        "standalone_en": "What type of fertilizer should be used?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "khatar kayu apavu"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પ્લોટ માટે ખાતર આપવાની સૂચનાઓ નીચે મુજબ છે:\n\n### 1. **મુખ્ય પ્લોટ (main plot)**\n- **વર્તમાન તબક્કો:** વેજિટેટિવ ગ્રોથ (Vegetative Growth)\n- **હાલની સપ્તાહ:** 5\n\n#### **આજનું ખાતર (25 ડિસેમ્બર 2024):**\n- **ફોલિયર પદ્ધતિ દ્વારા:**\n  - **Solubor:** 600 gm/acre\n\n- **ફર્ટિગેશન પદ્ધતિ દ્વારા:**\n  - **Calcium Nitrate:** 3.5 kg/acre (અન્ય ખાતરોના 15-20 મિનિટ પછી)\n  - **Magnesium Sulphate:** 5 kg/acre\n  - **Urea:** 6.5 kg/acre\n\n#### **આગામી ખાતર (29 ડિસેમ્બર 2024):**\n- **ફર્ટિગેશન પદ્ધતિ દ્વારા:**\n  - **Potassium Nitrate:** 7 kg/acre\n  - **Urea:** 5 kg/acre\n  - અથવા\n  - **Urea:** 6.5 kg/acre\n  - **Sulfate of Potash:** 6.5 kg/acre\n\n---\n\n### 2. **વચ્ચે વાળો (vachche valo)**\n- **વર્તમાન તબક્કો:** વેજિટેટિવ ગ્રોથ (Vegetative Growth)\n- **હાલની સપ્તાહ:** 6\n\n#### **આજનું ખાતર (25 ડિસેમ્બર 2024):**\n- **ફર્ટિગેશન પદ્ધતિ દ્વારા:**\n  - **Potassium Nitrate:** 7 kg/acre\n  - **Urea:** 5 kg/acre\n  - અથવા\n  - **Urea:** 6.5 kg/acre\n  - **Sulfate of Potash:** 6.5 kg/acre\n\n#### **આગામી ખાતર (3 જાન્યુઆરી 2025):**\n- **ફર્ટિગેશન પદ્ધતિ દ્વારા:**\n  - **Calcium Nitrate:** 3.5 kg/acre (અન્ય ખાતરોના 15-20 મિનિટ પછી)\n  - **Sulfate of Potash:** 6.5 kg/acre\n\n---\n\nઆ ખાતરો આપવાથી તમારા પાકની વૃદ્ધિમાં મદદ મળશે. જો વધુ માહિતી જોઈએ તો જણાવો.",
+        "timestamp": {
+          "$date": "2024-12-25T08:23:59.946Z"
+        }
+      }
+    ],
+    "farmer_id": "VR5195",
+    "farmer_plot_ids": [
+      "mainplot283",
+      "vachchevalo"
+    ],
+    "conversation_id": "676bc0e191eacf074079272c",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-12-25T08:22:57.376000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "આ પ્લોટ માં કઈ દવાની જરૂર છે",
+        "timestamp": {
+          "$date": "2024-12-25T08:22:57.376Z"
+        },
+        "standalone_question": "What medicine is needed for this plot?",
+        "standalone_en": "What medicine is needed for this plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "a plot ma kai davani jarur che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પ્લોટમાં હાલમાં કોઈ દવાની જરૂર નથી, કારણ કે છેલ્લા પાંચ દિવસમાં કોઈ રોગ અથવા પેસ્ટના સ્પ્રેની ભલામણ કરવામાં આવી નથી. જો તમને વધુ માહિતી જોઈએ તો કૃપા કરીને જણાવો.",
+        "timestamp": {
+          "$date": "2024-12-25T08:23:03.164Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ખાતર કયું આપવુ",
+        "timestamp": {
+          "$date": "2024-12-25T08:23:50.887Z"
+        },
+        "standalone_question": "What type of fertilizer should I use?",
+        "standalone_en": "What type of fertilizer should I use?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "khatar kayu apavu"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પ્લોટ માટે ખાતર આપવાની સૂચનાઓ નીચે મુજબ છે:\n\n### 1. **મુખ્ય પ્લોટ (main plot)**\n- **વર્તમાન તબક્કો:** વેજિટેટિવ ગ્રોથ (Vegetative Growth)\n- **હાલની સપ્તાહ:** 5\n\n#### **આજનું ખાતર (25 ડિસેમ્બર 2024):**\n- **ફોલિયર પદ્ધતિ દ્વારા:**\n  - **Solubor:** 600 gm/acre\n\n- **ફર્ટિગેશન પદ્ધતિ દ્વારા:**\n  - **Calcium Nitrate:** 3.5 kg/acre (અન્ય ખાતરોના 15-20 મિનિટ પછી)\n  - **Magnesium Sulphate:** 5 kg/acre\n  - **Urea:** 6.5 kg/acre\n\n#### **આગામી ખાતર (29 ડિસેમ્બર 2024):**\n- **ફર્ટિગેશન પદ્ધતિ દ્વારા:**\n  - **Potassium Nitrate:** 7 kg/acre\n  - **Urea:** 5 kg/acre\n  - અથવા\n  - **Urea:** 6.5 kg/acre\n  - **Sulfate of Potash:** 6.5 kg/acre\n\n---\n\n### 2. **વચ્ચે વાળો (vachche valo)**\n- **વર્તમાન તબક્કો:** વેજિટેટિવ ગ્રોથ (Vegetative Growth)\n- **હાલની સપ્તાહ:** 6\n\n#### **આજનું ખાતર (25 ડિસેમ્બર 2024):**\n- **ફર્ટિગેશન પદ્ધતિ દ્વારા:**\n  - **Potassium Nitrate:** 7 kg/acre\n  - **Urea:** 5 kg/acre\n  - અથવા\n  - **Urea:** 6.5 kg/acre\n  - **Sulfate of Potash:** 6.5 kg/acre\n\n#### **આગામી ખાતર (3 જાન્યુઆરી 2025):**\n- **ફર્ટિગેશન પદ્ધતિ દ્વારા:**\n  - **Calcium Nitrate:** 3.5 kg/acre (અન્ય ખાતરોના 15-20 મિનિટ પછી)\n  - **Sulfate of Potash:** 6.5 kg/acre\n\n---\n\nઆ ખાતરો આપવાથી તમારા પાકની વૃદ્ધિમાં મદદ મળશે. જો વધુ માહિતી જોઈએ તો જણાવો.",
+        "timestamp": {
+          "$date": "2024-12-25T08:23:59.946Z"
+        }
+      }
+    ],
+    "farmer_id": "VR5195",
+    "farmer_plot_ids": [
+      "mainplot283",
+      "vachchevalo"
+    ],
+    "conversation_id": "676bc0e191eacf074079272c",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-12-25T08:22:57.376000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ful Kam h",
+        "timestamp": {
+          "$date": "2024-12-25T06:26:52.832Z"
+        },
+        "standalone_question": "What is Ful Kam?",
+        "standalone_en": "What is Ful Kam?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपका फसल \"तरबूज\" इस समय \"फूलने और फलने\" के चरण में है। क्या आपको इस चरण में किसी विशेष सहायता की आवश्यकता है, जैसे कि सिंचाई, उर्वरक, या कीट नियंत्रण?",
+        "timestamp": {
+          "$date": "2024-12-25T06:26:55.713Z"
+        }
+      }
+    ],
+    "farmer_id": "devendrasharma",
+    "farmer_plot_ids": [
+      "plot1217",
+      "plot2432"
+    ],
+    "conversation_id": "676ba5ac48a7a46a4d4770c6",
+    "tag": "others",
+    "conv_date": "2024-12-25T06:26:52.832000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "रोग कोणता आहे",
+        "timestamp": {
+          "$date": "2024-12-25T06:00:32.004Z"
+        },
+        "standalone_question": "What is the disease?",
+        "standalone_en": "What is the disease?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "rog konta aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया आपला पिकाचा फोटो अपलोड करा, जेणेकरून मी त्याचे विश्लेषण करून रोगाची ओळख करू शकेन.",
+        "timestamp": {
+          "$date": "2024-12-25T06:00:34.713Z"
+        }
+      }
+    ],
+    "farmer_id": "swapneshmahaveerchougule",
+    "farmer_plot_ids": [
+      "tomatoplot1133",
+      "tomatoplot2817"
+    ],
+    "conversation_id": "676b9f7f99a86026171e55b4",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-25T06:00:32.004000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Let blite aetle shu ",
+        "timestamp": {
+          "$date": "2024-12-25T05:47:41.215Z"
+        },
+        "standalone_question": "What does \"blite aetle shu\" mean?",
+        "standalone_en": "What does \"blite aetle shu\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Kalyanbhai, tamne su madad joiye? Aapne potato ni kheti sambandhi koi prashna chhe?",
+        "timestamp": {
+          "$date": "2024-12-25T05:47:43.615Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Let blite aetle shu ",
+        "timestamp": {
+          "$date": "2024-12-25T05:47:52.838Z"
+        },
+        "standalone_question": "What does \"Let blite aetle shu\" mean?",
+        "standalone_en": "What does \"Let blite aetle shu\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "\"Blite\" shabd no arth chhe \"bacterial blight,\" je ek prakar ni rog chhe je podao ne prabhavit kare chhe. Aa rog ni lakshano ma samayik rang ni daag, pattao par kharash, ane podao ni vikas ma rukavato shamil chhe.\n\nAapne aapna plot ma aa rog ni jankari joiye chhe?",
+        "timestamp": {
+          "$date": "2024-12-25T05:47:57.255Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Let blite ",
+        "timestamp": {
+          "$date": "2024-12-25T05:48:17.534Z"
+        },
+        "standalone_question": "What is \"blite\"?",
+        "standalone_en": "What is \"blite\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Kalyanbhai, \"kairo 1\" plot ma \"bacterial blight\" sambandhi koi jankari upalabdh nathi. Shayad aa rog ni jankari na hoy. \n\nAapne biji koi madad joiye chhe?",
+        "timestamp": {
+          "$date": "2024-12-25T05:48:22.843Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140"
+    ],
+    "conversation_id": "676b9c7d91eacf074079272b",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-25T05:47:41.215000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "કટવોર્મ એટલે કયો રોગ",
+        "timestamp": {
+          "$date": "2024-12-25T05:45:12.891Z"
+        },
+        "standalone_question": "What disease is referred to as \"cutworm\"?",
+        "standalone_en": "What disease is referred to as \"cutworm\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "cutworm atale kayo rog"
+      },
+      {
+        "role": "assistant",
+        "content": "કટવોર્મ (Cutworm) એક પ્રકારનો કીટક છે, જે મુખ્યત્વે છોડના કાંઠા અને મૂળને નુકસાન પહોંચાડે છે. આ કીટક રાત્રે સક્રિય હોય છે અને દિવસ દરમિયાન જમીનમાં છુપાય છે. કટવોર્મના હુમલાથી છોડના પાંદડા અને કાંઠા કાપી નાખવામાં આવે છે, જેનાથી છોડની વૃદ્ધિ પર અસર થાય છે. આ કીટકને નિયંત્રિત કરવા માટે યોગ્ય કીટનાશકનો ઉપયોગ અને ખેતીની યોગ્ય પદ્ધતિઓ અપનાવવી જરૂરી છે.",
+        "timestamp": {
+          "$date": "2024-12-25T05:45:16.062Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ગળો એફીડ",
+        "timestamp": {
+          "$date": "2024-12-25T05:46:49.637Z"
+        },
+        "standalone_question": "What is a gall aphid?",
+        "standalone_en": "What is a gall aphid?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "galo efid"
+      },
+      {
+        "role": "assistant",
+        "content": "ગળો એફીડ (Aphids) એક પ્રકારના નાનાં કીટક છે, જે મુખ્યત્વે પાન અને કાંઠા પર વસે છે. આ કીટક છોડના રસને ચોષી લે છે, જેના કારણે છોડની વૃદ્ધિ પર નકારાત્મક અસર થાય છે. ગળો એફીડના હુમલાથી છોડમાં પાંદડા વળવા, પીળા થવા અને કાંઠા મરવા જેવી સમસ્યાઓ સર્જાય છે. \n\nઆ કીટકને નિયંત્રિત કરવા માટે, તમે કીટનાશકનો ઉપયોગ કરી શકો છો અથવા કુદરતી શિકારીઓ જેમ કે લેડીબગ્સને પ્રોત્સાહિત કરી શકો છો.",
+        "timestamp": {
+          "$date": "2024-12-25T05:46:53.296Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "લેડી બગ્સ એટલે",
+        "timestamp": {
+          "$date": "2024-12-25T05:47:25.347Z"
+        },
+        "standalone_question": "What are ladybugs?",
+        "standalone_en": "What are ladybugs?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "lady bugs atale"
+      },
+      {
+        "role": "assistant",
+        "content": "લેડીબગ્સ (Ladybugs), જેને \"લેડીબગ\" અથવા \"લેડીબગ કીટક\" તરીકે પણ ઓળખવામાં આવે છે, એ નાનાં અને રંગીન કીટક છે, જે સામાન્ય રીતે લાલ અથવા ઓરેન્જ રંગના હોય છે અને કાળા ડોટ્સ ધરાવે છે. આ કીટક મુખ્યત્વે પાનખર અને અન્ય નાશક કીટકો, જેમ કે ગળો એફીડ, પર ભક્ષક તરીકે કાર્ય કરે છે.\n\nલેડીબગ્સને ખેતીમાં ઉપયોગી માનવામાં આવે છે, કારણ કે તે નાશક કીટકોની સંખ્યાને નિયંત્રિત કરવામાં મદદ કરે છે, જેનાથી પાકને નુકસાન થવાનું ટળે છે. આથી, લેડીબગ્સને ખેતીમાં પ્રોત્સાહિત કરવું એક કુદરતી અને પર્યાવરણને અનુકૂળ પદ્ધતિ છે.",
+        "timestamp": {
+          "$date": "2024-12-25T05:47:30.159Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "તેને પ્રોત્સાહિત કઈ રીતે કરવુ",
+        "timestamp": {
+          "$date": "2024-12-25T05:48:19.929Z"
+        },
+        "standalone_question": "How can ladybugs be encouraged?",
+        "standalone_en": "How can ladybugs be encouraged?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "tene protsahit kai rite karavu"
+      },
+      {
+        "role": "assistant",
+        "content": "લેડીબગ્સને પ્રોત્સાહિત કરવા માટે નીચેના પગલાં અપનાવી શકાય છે:\n\n1. **કુદરતી પર્યાવરણ બનાવો**: લેડીબગ્સને આકર્ષિત કરવા માટે, તમારા ખેતરમાં કુદરતી પર્યાવરણ બનાવો. આમાં વિવિધ પ્રકારના છોડ, ફૂલો અને ઘાસનો સમાવેશ થાય છે, જે તેમને ખોરાક અને આશ્રય પૂરો પાડે છે.\n\n2. **કીટકનાશકનો ઓછો ઉપયોગ**: રાસાયણિક કીટકનાશકનો ઉપયોગ ઓછો કરો, કારણ કે તે લેડીબગ્સને નુકસાન પહોંચાડી શકે છે. જો જરૂરી હોય, તો કુદરતી કીટકનાશકનો ઉપયોગ કરો.\n\n3. **ફૂલોનું વાવેતર**: ફૂલો જેમ કે નેઇલ્સ, ડેઝી, અને મરીગોલ્ડ વાવજો, જે લેડીબગ્સને આકર્ષિત કરે છે.\n\n4. **લેડીબગ્સને ખરીદવું**: જો તમારી જમીનમાં લેડીબગ્સની સંખ્યા ઓછી હોય, તો તમે તેમને ખરીદી શકો છો અને તમારા ખેતરમાં છોડાવી શકો છો.\n\n5. **જમીનનું સંચાલન**: જમીનનું યોગ્ય સંચાલન કરો, જેથી લેડીબગ્સ માટે અનુકૂળ પરિસ્થિતિઓ ઉભી થાય.\n\nઆ પગલાંઓથી તમે લેડીબગ્સને પ્રોત્સાહિત કરી શકો છો, જે તમારા પાકને નાશક કીટકો સામે રક્ષણ આપવા માટે મદદરૂપ થશે.",
+        "timestamp": {
+          "$date": "2024-12-25T05:48:31.650Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "લેટ બ્લાઈટ એટલે શુ",
+        "timestamp": {
+          "$date": "2024-12-25T05:50:18.484Z"
+        },
+        "standalone_question": "What is late blight?",
+        "standalone_en": "What is late blight?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "late blight atale shoe"
+      },
+      {
+        "role": "assistant",
+        "content": "લેટ બ્લાઈટ (Late Blight) એક ગંભીર ફૂગના રોગ છે, જે મુખ્યત્વે આલૂ અને ટામેટા જેવા પાકોને અસર કરે છે. આ રોગ ફૂગના પેદા થવાથી થાય છે, જેનું વૈજ્ઞાનિક નામ \"Phytophthora infestans\" છે. લેટ બ્લાઈટના લક્ષણોમાં પાંદડા પર કાળા અથવા ભૂરાં ધબ્બા, પાંદડા મરવા અને ફળો પર કાળા ધબ્બા આવવા સામેલ છે.\n\nલેટ બ્લાઈટને નિયંત્રિત કરવા માટે, નીચેના પગલાં અપનાવી શકાય છે:\n\n1. **સ્વચ્છતા**: ખેતરમાંથી મરેલા અને બગડેલા છોડને દૂર કરો.\n2. **ફૂગનાશકનો ઉપયોગ**: ફૂગને નિયંત્રિત કરવા માટે મેટાલેક્સિલ અથવા મેનકોઝેબ જેવા ફૂગનાશકનો ઉપયોગ કરો.\n3. **જમીનનું સંચાલન**: જમીનનું યોગ્ય સંચાલન કરો, જેથી પાણી ન જમવા મળે અને હવા circulation સારી રહે.\n4. **પ્રતિકારક જાતો**: લેટ બ્લાઈટ સામે પ્રતિકારક જાતો પસંદ કરો.\n\nઆ પગલાંઓથી લેટ બ્લાઈટના હુમલાને નિયંત્રિત કરવામાં મદદ મળી શકે છે.",
+        "timestamp": {
+          "$date": "2024-12-25T05:50:25.078Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "લેટ બ્લાઈટ નું કારણ",
+        "timestamp": {
+          "$date": "2024-12-25T05:51:18.585Z"
+        },
+        "standalone_question": "What causes late blight?",
+        "standalone_en": "What causes late blight?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "late blight nu karan"
+      },
+      {
+        "role": "assistant",
+        "content": "લેટ બ્લાઈટ (Late Blight)નું મુખ્ય કારણ ફૂગ \"Phytophthora infestans\" છે. આ ફૂગ પાંદડા, કાંઠા અને ફળો પર હુમલો કરે છે, ખાસ કરીને આલૂ અને ટામેટા જેવા પાકોમાં. લેટ બ્લાઈટના પ્રસાર માટે નીચેના પરિસ્થિતિઓ જવાબદાર હોય છે:\n\n1. **આવહવા**: ઠંડા અને ભેજવાળા વાતાવરણમાં લેટ બ્લાઈટ ફૂગ ઝડપથી ફેલાય છે.\n2. **નમ જમીન**: જમીનમાં વધુ ભેજ અને પાણી જમવાથી ફૂગના વિકાસને પ્રોત્સાહન મળે છે.\n3. **અસ્વચ્છતા**: મરેલા અને બગડેલા છોડના અવશેષો જમીનમાં રહેવા પર ફૂગના સ્પોરો માટે આશ્રયસ્થાન પૂરૂ પાડે છે.\n4. **અસ્વસ્થ છોડ**: નબળા અને અસ્વસ્થ છોડ વધુ સંવેદનશીલ હોય છે, જે ફૂગના હુમલાને સહન કરી શકતા નથી.\n\nઆ કારણો લેટ બ્લાઈટના પ્રસારને પ્રોત્સાહિત કરે છે, તેથી યોગ્ય નિયંત્રણ અને સંચાલન પદ્ધતિઓ અપનાવવી મહત્વપૂર્ણ છે.",
+        "timestamp": {
+          "$date": "2024-12-25T05:51:24.396Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140"
+    ],
+    "conversation_id": "676b9be891eacf074079272a",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-25T05:45:12.891000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "કટવોર્મ એટલે કયો રોગ",
+        "timestamp": {
+          "$date": "2024-12-25T05:45:12.891Z"
+        },
+        "standalone_question": "What disease is referred to as \"cutworm\"?",
+        "standalone_en": "What disease is referred to as \"cutworm\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "cutworm atale kayo rog"
+      },
+      {
+        "role": "assistant",
+        "content": "કટવોર્મ (Cutworm) એક પ્રકારનો કીટક છે, જે મુખ્યત્વે છોડના કાંઠા અને મૂળને નુકસાન પહોંચાડે છે. આ કીટક રાત્રે સક્રિય હોય છે અને દિવસ દરમિયાન જમીનમાં છુપાય છે. કટવોર્મના હુમલાથી છોડના પાંદડા અને કાંઠા કાપી નાખવામાં આવે છે, જેનાથી છોડની વૃદ્ધિ પર અસર થાય છે. આ કીટકને નિયંત્રિત કરવા માટે યોગ્ય કીટનાશકનો ઉપયોગ અને ખેતીની યોગ્ય પદ્ધતિઓ અપનાવવી જરૂરી છે.",
+        "timestamp": {
+          "$date": "2024-12-25T05:45:16.062Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ગળો એફીડ",
+        "timestamp": {
+          "$date": "2024-12-25T05:46:49.637Z"
+        },
+        "standalone_question": "What is a gall aphid?",
+        "standalone_en": "What is a gall aphid?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "galo efid"
+      },
+      {
+        "role": "assistant",
+        "content": "ગળો એફીડ (Aphids) એક પ્રકારના નાનાં કીટક છે, જે મુખ્યત્વે પાન અને કાંઠા પર વસે છે. આ કીટક છોડના રસને ચોષી લે છે, જેના કારણે છોડની વૃદ્ધિ પર નકારાત્મક અસર થાય છે. ગળો એફીડના હુમલાથી છોડમાં પાંદડા વળવા, પીળા થવા અને કાંઠા મરવા જેવી સમસ્યાઓ સર્જાય છે. \n\nઆ કીટકને નિયંત્રિત કરવા માટે, તમે કીટનાશકનો ઉપયોગ કરી શકો છો અથવા કુદરતી શિકારીઓ જેમ કે લેડીબગ્સને પ્રોત્સાહિત કરી શકો છો.",
+        "timestamp": {
+          "$date": "2024-12-25T05:46:53.296Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "લેડી બગ્સ એટલે",
+        "timestamp": {
+          "$date": "2024-12-25T05:47:25.347Z"
+        },
+        "standalone_question": "What are ladybugs?",
+        "standalone_en": "What are ladybugs?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "lady bugs atale"
+      },
+      {
+        "role": "assistant",
+        "content": "લેડીબગ્સ (Ladybugs), જેને \"લેડીબગ\" અથવા \"લેડીબગ કીટક\" તરીકે પણ ઓળખવામાં આવે છે, એ નાનાં અને રંગીન કીટક છે, જે સામાન્ય રીતે લાલ અથવા ઓરેન્જ રંગના હોય છે અને કાળા ડોટ્સ ધરાવે છે. આ કીટક મુખ્યત્વે પાનખર અને અન્ય નાશક કીટકો, જેમ કે ગળો એફીડ, પર ભક્ષક તરીકે કાર્ય કરે છે.\n\nલેડીબગ્સને ખેતીમાં ઉપયોગી માનવામાં આવે છે, કારણ કે તે નાશક કીટકોની સંખ્યાને નિયંત્રિત કરવામાં મદદ કરે છે, જેનાથી પાકને નુકસાન થવાનું ટળે છે. આથી, લેડીબગ્સને ખેતીમાં પ્રોત્સાહિત કરવું એક કુદરતી અને પર્યાવરણને અનુકૂળ પદ્ધતિ છે.",
+        "timestamp": {
+          "$date": "2024-12-25T05:47:30.159Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "તેને પ્રોત્સાહિત કઈ રીતે કરવુ",
+        "timestamp": {
+          "$date": "2024-12-25T05:48:19.929Z"
+        },
+        "standalone_question": "How can ladybugs be encouraged?",
+        "standalone_en": "How can ladybugs be encouraged?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "tene protsahit kai rite karavu"
+      },
+      {
+        "role": "assistant",
+        "content": "લેડીબગ્સને પ્રોત્સાહિત કરવા માટે નીચેના પગલાં અપનાવી શકાય છે:\n\n1. **કુદરતી પર્યાવરણ બનાવો**: લેડીબગ્સને આકર્ષિત કરવા માટે, તમારા ખેતરમાં કુદરતી પર્યાવરણ બનાવો. આમાં વિવિધ પ્રકારના છોડ, ફૂલો અને ઘાસનો સમાવેશ થાય છે, જે તેમને ખોરાક અને આશ્રય પૂરો પાડે છે.\n\n2. **કીટકનાશકનો ઓછો ઉપયોગ**: રાસાયણિક કીટકનાશકનો ઉપયોગ ઓછો કરો, કારણ કે તે લેડીબગ્સને નુકસાન પહોંચાડી શકે છે. જો જરૂરી હોય, તો કુદરતી કીટકનાશકનો ઉપયોગ કરો.\n\n3. **ફૂલોનું વાવેતર**: ફૂલો જેમ કે નેઇલ્સ, ડેઝી, અને મરીગોલ્ડ વાવજો, જે લેડીબગ્સને આકર્ષિત કરે છે.\n\n4. **લેડીબગ્સને ખરીદવું**: જો તમારી જમીનમાં લેડીબગ્સની સંખ્યા ઓછી હોય, તો તમે તેમને ખરીદી શકો છો અને તમારા ખેતરમાં છોડાવી શકો છો.\n\n5. **જમીનનું સંચાલન**: જમીનનું યોગ્ય સંચાલન કરો, જેથી લેડીબગ્સ માટે અનુકૂળ પરિસ્થિતિઓ ઉભી થાય.\n\nઆ પગલાંઓથી તમે લેડીબગ્સને પ્રોત્સાહિત કરી શકો છો, જે તમારા પાકને નાશક કીટકો સામે રક્ષણ આપવા માટે મદદરૂપ થશે.",
+        "timestamp": {
+          "$date": "2024-12-25T05:48:31.650Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "લેટ બ્લાઈટ એટલે શુ",
+        "timestamp": {
+          "$date": "2024-12-25T05:50:18.484Z"
+        },
+        "standalone_question": "What is late blight?",
+        "standalone_en": "What is late blight?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "late blight atale shoe"
+      },
+      {
+        "role": "assistant",
+        "content": "લેટ બ્લાઈટ (Late Blight) એક ગંભીર ફૂગના રોગ છે, જે મુખ્યત્વે આલૂ અને ટામેટા જેવા પાકોને અસર કરે છે. આ રોગ ફૂગના પેદા થવાથી થાય છે, જેનું વૈજ્ઞાનિક નામ \"Phytophthora infestans\" છે. લેટ બ્લાઈટના લક્ષણોમાં પાંદડા પર કાળા અથવા ભૂરાં ધબ્બા, પાંદડા મરવા અને ફળો પર કાળા ધબ્બા આવવા સામેલ છે.\n\nલેટ બ્લાઈટને નિયંત્રિત કરવા માટે, નીચેના પગલાં અપનાવી શકાય છે:\n\n1. **સ્વચ્છતા**: ખેતરમાંથી મરેલા અને બગડેલા છોડને દૂર કરો.\n2. **ફૂગનાશકનો ઉપયોગ**: ફૂગને નિયંત્રિત કરવા માટે મેટાલેક્સિલ અથવા મેનકોઝેબ જેવા ફૂગનાશકનો ઉપયોગ કરો.\n3. **જમીનનું સંચાલન**: જમીનનું યોગ્ય સંચાલન કરો, જેથી પાણી ન જમવા મળે અને હવા circulation સારી રહે.\n4. **પ્રતિકારક જાતો**: લેટ બ્લાઈટ સામે પ્રતિકારક જાતો પસંદ કરો.\n\nઆ પગલાંઓથી લેટ બ્લાઈટના હુમલાને નિયંત્રિત કરવામાં મદદ મળી શકે છે.",
+        "timestamp": {
+          "$date": "2024-12-25T05:50:25.078Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "લેટ બ્લાઈટ નું કારણ",
+        "timestamp": {
+          "$date": "2024-12-25T05:51:18.585Z"
+        },
+        "standalone_question": "What causes late blight?",
+        "standalone_en": "What causes late blight?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "late blight nu karan"
+      },
+      {
+        "role": "assistant",
+        "content": "લેટ બ્લાઈટ (Late Blight)નું મુખ્ય કારણ ફૂગ \"Phytophthora infestans\" છે. આ ફૂગ પાંદડા, કાંઠા અને ફળો પર હુમલો કરે છે, ખાસ કરીને આલૂ અને ટામેટા જેવા પાકોમાં. લેટ બ્લાઈટના પ્રસાર માટે નીચેના પરિસ્થિતિઓ જવાબદાર હોય છે:\n\n1. **આવહવા**: ઠંડા અને ભેજવાળા વાતાવરણમાં લેટ બ્લાઈટ ફૂગ ઝડપથી ફેલાય છે.\n2. **નમ જમીન**: જમીનમાં વધુ ભેજ અને પાણી જમવાથી ફૂગના વિકાસને પ્રોત્સાહન મળે છે.\n3. **અસ્વચ્છતા**: મરેલા અને બગડેલા છોડના અવશેષો જમીનમાં રહેવા પર ફૂગના સ્પોરો માટે આશ્રયસ્થાન પૂરૂ પાડે છે.\n4. **અસ્વસ્થ છોડ**: નબળા અને અસ્વસ્થ છોડ વધુ સંવેદનશીલ હોય છે, જે ફૂગના હુમલાને સહન કરી શકતા નથી.\n\nઆ કારણો લેટ બ્લાઈટના પ્રસારને પ્રોત્સાહિત કરે છે, તેથી યોગ્ય નિયંત્રણ અને સંચાલન પદ્ધતિઓ અપનાવવી મહત્વપૂર્ણ છે.",
+        "timestamp": {
+          "$date": "2024-12-25T05:51:24.396Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140"
+    ],
+    "conversation_id": "676b9be891eacf074079272a",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-12-25T05:45:12.891000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "द्राक्ष बागेतील घड पिवळे पाडण्या पाठीमागचे कारण आणि उपाय योजना",
+        "timestamp": {
+          "$date": "2024-12-25T05:25:31.605Z"
+        },
+        "standalone_question": "What is the reason behind the yellowing of grapevine clusters in the vineyard, and what are the solutions?",
+        "standalone_en": "What is the reason behind the yellowing of grapevine clusters in the vineyard, and what are the solutions?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "draks bagetil ghad pivale padanya pathimagache karan ani upay yojana"
+      },
+      {
+        "role": "assistant",
+        "content": "द्राक्ष बागेतील घड पिवळे पाडण्याचे कारण अनेक असू शकतात. यामध्ये मुख्यतः खालील कारणे असू शकतात:\n\n1. **पाण्याची कमी किंवा जास्ती**: योग्य पाण्याचा पुरवठा न झाल्यास किंवा पाण्याची जास्ती झाल्यास घड पिवळे पडू शकतात.\n2. **अन्नद्रव्यांची कमतरता**: विशेषतः नायट्रोजन, फास्फोरस, आणि पोटॅशियम यांची कमतरता.\n3. **रोग आणि कीड**: काही रोग आणि कीड जसे की पांढरी माशी, बोट्रिटिस, किंवा फफूंद यामुळे घड पिवळे पडू शकतात.\n4. **तापमानातील बदल**: अत्यधिक तापमान किंवा थंड वातावरणामुळेही घड पिवळे पडू शकतात.\n\n### उपाय योजना:\n\n1. **पाण्याचे व्यवस्थापन**: मातीच्या आर्द्रतेची तपासणी करा आणि आवश्यकतेनुसार पाण्याचा पुरवठा करा.\n2. **खते वापरा**: योग्य प्रमाणात नायट्रोजन, फास्फोरस, आणि पोटॅशियम यांचे खते वापरा.\n3. **रोग नियंत्रण**: रोग आणि किडींच्या नियंत्रणासाठी योग्य कीटकनाशकांचा वापर करा. \n4. **तापमान नियंत्रण**: गरजेनुसार छायादान किंवा इतर उपाययोजना करा.\n\nआपल्या बागेतील स्थितीवर आधारित योग्य उपाययोजना करणे महत्त्वाचे आहे.",
+        "timestamp": {
+          "$date": "2024-12-25T05:25:37.388Z"
+        }
+      }
+    ],
+    "farmer_id": "aniketsanjayfugat",
+    "farmer_plot_ids": [
+      "plotno1sudhakarseedless"
+    ],
+    "conversation_id": "676b974bcdbedbc11064f65d",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-25T05:25:31.605000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Velum prime",
+        "timestamp": {
+          "$date": "2024-12-25T04:15:47.920Z"
+        },
+        "standalone_question": "What is Velum Prime?",
+        "standalone_en": "What is Velum Prime?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Velum Prime is a broad-spectrum insecticide used for controlling various pests in crops. It is particularly effective against soil-borne pests and some foliar pests. If you need specific guidance on its application, dosage, or timing for your banana crops, please let me know!",
+        "timestamp": {
+          "$date": "2024-12-25T04:15:51.358Z"
+        }
+      }
+    ],
+    "farmer_id": "abhinandanpatil",
+    "farmer_plot_ids": [
+      "watermelon143",
+      "bhokharvai",
+      "imliwala",
+      "plot373"
+    ],
+    "conversation_id": "676b86f3cdbedbc11064f65c",
+    "tag": "others",
+    "conv_date": "2024-12-25T04:15:47.920000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "द्राक्ष बागेतील घड पिवळे पाडण्यामागचे कारण व उपाय योजना",
+        "timestamp": {
+          "$date": "2024-12-25T03:35:48.140Z"
+        },
+        "standalone_question": "What is the reason for the yellowing of grape clusters in the vineyard, and what are the solutions to address this issue?",
+        "standalone_en": "What is the reason for the yellowing of grape clusters in the vineyard, and what are the solutions to address this issue?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "draks bagetil ghad pivale padanyamagache karan v upay yojana"
+      },
+      {
+        "role": "assistant",
+        "content": "द्राक्ष बागेतील घड पिवळे पाडण्यामागील काही सामान्य कारणे आणि उपाययोजना खालीलप्रमाणे आहेत:\n\n### कारणे:\n1. **पाण्याची कमी**: योग्य पाण्याचा पुरवठा न झाल्यास घड पिवळे पडू शकतात.\n2. **अन्नद्रव्यांची कमतरता**: विशेषतः नायट्रोजन, फॉस्फरस आणि पोटॅशियमची कमतरता.\n3. **रोग आणि कीड**: बॅक्टेरियल किंवा फंगल रोग, तसेच कीडांचा प्रादुर्भाव.\n4. **तापमानातील बदल**: अत्यधिक तापमान किंवा थंड वातावरण.\n5. **मातीची गुणवत्ता**: खराब माती किंवा pH असंतुलन.\n\n### उपाययोजना:\n1. **सिंचन**: मातीच्या आर्द्रतेवर लक्ष ठेवा आणि आवश्यकतेनुसार पाणी द्या.\n2. **खते**: योग्य प्रमाणात नायट्रोजन, फॉस्फरस आणि पोटॅशियम यांचे खते वापरा.\n3. **रोग नियंत्रण**: रोग आणि किडींचा प्रादुर्भाव असल्यास योग्य कीटकनाशकांचा वापर करा.\n4. **तापमान नियंत्रण**: गरजेनुसार छाया किंवा संरक्षणात्मक उपाययोजना करा.\n5. **मातीची चाचणी**: मातीची चाचणी करून pH आणि पोषण तत्वांची स्थिती तपासा.\n\nआपल्या बागेतील घड पिवळे पडण्याचे कारण समजून घेण्यासाठी, मातीची चाचणी आणि पाण्याची स्थिती तपासणे महत्त्वाचे आहे.",
+        "timestamp": {
+          "$date": "2024-12-25T03:35:55.969Z"
+        }
+      }
+    ],
+    "farmer_id": "aniketsanjayfugat",
+    "farmer_plot_ids": [
+      "plotno1sudhakarseedless"
+    ],
+    "conversation_id": "676b7d93cdbedbc11064f65b",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-25T03:35:48.140000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Watermelon me Pani kab dena hai ",
+        "timestamp": {
+          "$date": "2024-12-25T02:44:57.279Z"
+        },
+        "standalone_question": "When should I give water to the watermelon?",
+        "standalone_en": "When should I give water to the watermelon?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aaj, 25 दिसंबर 2024 ko, watermelon ke liye paani dena chahiye. Aapko 8:57 baje ke aas-paas paani dena sahi rahega, kyunki baarish ki koi ummeed nahi hai.",
+        "timestamp": {
+          "$date": "2024-12-25T02:45:02.072Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Banana me Pani dena chahiye ki nahi ",
+        "timestamp": {
+          "$date": "2024-12-25T02:46:04.572Z"
+        },
+        "standalone_question": "Should I give water to the banana?",
+        "standalone_en": "Should I give water to the banana?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Pipalwala plot mein, aaj 25 दिसंबर 2024 ko, soil moisture readings 10 kPa aur 0 kPa hain. Yeh readings dikhati hain ki soil abhi bhi wet hai. \n\nIsliye, aaj banana ke liye paani dene ki zarurat nahi hai. Aapko tab paani dena chahiye jab soil moisture 23 kPa ya usse zyada ho.",
+        "timestamp": {
+          "$date": "2024-12-25T02:46:09.871Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Watermelon me madhumakkhi ke liye kya karna chahiye ",
+        "timestamp": {
+          "$date": "2024-12-25T02:47:52.325Z"
+        },
+        "standalone_question": "What should be done for bees in watermelon?",
+        "standalone_en": "What should be done for bees in watermelon?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Watermelon ke liye madhumakkhi (bees) ka koi specific spray schedule nahi hai is hafte. Lekin, aapko kuch preventive measures lene chahiye:\n\n1. **Pollination**: Bees watermelon ke liye achhi pollinators hain, isliye unhe aakarshit karne ke liye khushbu daar phoolon ka istemal karein.\n2. **Pesticide ka istemal**: Agar aapko lagta hai ki bees ko nuksan ho raha hai, toh pesticide ka istemal na karein jab bees active ho.\n3. **Beehives ka rakhaav**: Agar aapke paas beehives hain, toh unhe watermelon ke paas rakhein taaki pollination achhe se ho sake.\n\nAgar aapko kisi aur madad ki zarurat hai, toh bataiye!",
+        "timestamp": {
+          "$date": "2024-12-25T02:47:59.081Z"
+        }
+      }
+    ],
+    "farmer_id": "ompatil",
+    "farmer_plot_ids": [
+      "watermelon390",
+      "pipalwala804"
+    ],
+    "conversation_id": "676b71a491eacf0740792729",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-25T02:44:57.279000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "અંગી સાઇડ દવાનો સ્પ્રે મારો જોઈએ કે નહીં",
+        "timestamp": {
+          "$date": "2024-12-25T02:08:49.012Z"
+        },
+        "standalone_question": "Should I use the spray for my side effects?",
+        "standalone_en": "Should I use the spray for my side effects?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "angi side davano spray maro joie ke nahin"
+      },
+      {
+        "role": "assistant",
+        "content": "આજે અથવા આ અઠવાડિયે કોઈ દવા છંટકાવની જરૂર નથી. જો તમે અગાઉ છંટકાવ કર્યો છે, તો થોડા દિવસો રાહ જુઓ.",
+        "timestamp": {
+          "$date": "2024-12-25T02:08:53.628Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "લેટ બ્લાઈટ આવે છે કે નહીં",
+        "timestamp": {
+          "$date": "2024-12-25T02:09:42.952Z"
+        },
+        "standalone_question": "Does late blight occur or not?",
+        "standalone_en": "Does late blight occur or not?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "late blight ave che ke nahin"
+      },
+      {
+        "role": "assistant",
+        "content": "લેટ બ્લાઈટ (Late Blight) માટેના જોખમો બંને પ્લોટમાં ઊંચા છે:\n\n1. **Main Palot**:\n   - **25 ડિસેમ્બર**: 79.2% (HIGH)\n   - **24 ડિસેમ્બર**: 82.5% (HIGH)\n   - **23 ડિસેમ્બર**: 57.4% (MEDIUM)\n\n2. **Sagha valo plot**:\n   - **25 ડિસેમ્બર**: 78.9% (HIGH)\n   - **24 ડિસેમ્બર**: 82.5% (HIGH)\n   - **23 ડિસેમ્બર**: 57.4% (MEDIUM)\n\n### છંટકાવની સૂચના:\n- **Main Palot**: \n  - **18 ડિસેમ્બર**: માઇટ્સ માટે છંટકાવ.\n  - **8 ડિસેમ્બર**: લેટ બ્લાઈટ, માઇટ્સ, અને અન્ય માટે છંટકાવ.\n  \n- **Sagha valo plot**: \n  - **10 ડિસેમ્બર**: લેટ બ્લાઈટ, માઇટ્સ, અને અન્ય માટે છંટકાવ.\n\nલેટ બ્લાઈટના જોખમને ધ્યાનમાં રાખીને, છંટકાવ કરવો યોગ્ય રહેશે.",
+        "timestamp": {
+          "$date": "2024-12-25T02:09:56.609Z"
+        }
+      }
+    ],
+    "farmer_id": "dineshbhaipatel747",
+    "farmer_plot_ids": [
+      "mainpalot",
+      "saghavaloplot"
+    ],
+    "conversation_id": "676b6930cdbedbc11064f65a",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-25T02:08:49.012000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "અંગી સાઇડ દવાનો સ્પ્રે મારો જોઈએ કે નહીં",
+        "timestamp": {
+          "$date": "2024-12-25T02:08:49.012Z"
+        },
+        "standalone_question": "Should I use the spray for my side effects?",
+        "standalone_en": "Should I use the spray for my side effects?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "angi side davano spray maro joie ke nahin"
+      },
+      {
+        "role": "assistant",
+        "content": "આજે અથવા આ અઠવાડિયે કોઈ દવા છંટકાવની જરૂર નથી. જો તમે અગાઉ છંટકાવ કર્યો છે, તો થોડા દિવસો રાહ જુઓ.",
+        "timestamp": {
+          "$date": "2024-12-25T02:08:53.628Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "લેટ બ્લાઈટ આવે છે કે નહીં",
+        "timestamp": {
+          "$date": "2024-12-25T02:09:42.952Z"
+        },
+        "standalone_question": "Does late blight occur or not?",
+        "standalone_en": "Does late blight occur or not?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "late blight ave che ke nahin"
+      },
+      {
+        "role": "assistant",
+        "content": "લેટ બ્લાઈટ (Late Blight) માટેના જોખમો બંને પ્લોટમાં ઊંચા છે:\n\n1. **Main Palot**:\n   - **25 ડિસેમ્બર**: 79.2% (HIGH)\n   - **24 ડિસેમ્બર**: 82.5% (HIGH)\n   - **23 ડિસેમ્બર**: 57.4% (MEDIUM)\n\n2. **Sagha valo plot**:\n   - **25 ડિસેમ્બર**: 78.9% (HIGH)\n   - **24 ડિસેમ્બર**: 82.5% (HIGH)\n   - **23 ડિસેમ્બર**: 57.4% (MEDIUM)\n\n### છંટકાવની સૂચના:\n- **Main Palot**: \n  - **18 ડિસેમ્બર**: માઇટ્સ માટે છંટકાવ.\n  - **8 ડિસેમ્બર**: લેટ બ્લાઈટ, માઇટ્સ, અને અન્ય માટે છંટકાવ.\n  \n- **Sagha valo plot**: \n  - **10 ડિસેમ્બર**: લેટ બ્લાઈટ, માઇટ્સ, અને અન્ય માટે છંટકાવ.\n\nલેટ બ્લાઈટના જોખમને ધ્યાનમાં રાખીને, છંટકાવ કરવો યોગ્ય રહેશે.",
+        "timestamp": {
+          "$date": "2024-12-25T02:09:56.609Z"
+        }
+      }
+    ],
+    "farmer_id": "dineshbhaipatel747",
+    "farmer_plot_ids": [
+      "mainpalot",
+      "saghavaloplot"
+    ],
+    "conversation_id": "676b6930cdbedbc11064f65a",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-12-25T02:08:49.012000+00:00"
+  }
+]

@@ -1,0 +1,1102 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "ಮಿಲಿಬಗ್ ಸಿಂಪರಣೆ ಮಾಡಿದರು ಮೀಟರ್ ರೆಡ್ ಕಲರ್ ತೋರಿಸುತ್ತಾ ಇದೆ ಯಾಕೇ",
+        "en": "Why the meter sprayed with millibug is showing red color",
+        "timestamp": {
+          "$date": "2025-02-06T10:34:07.367Z"
+        },
+        "standalone_question": "Why is the meter showing a red color?",
+        "standalone_en": "Why is the meter showing a red color?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "milibag simparane madidaru meter red colour torisutta ide yake"
+      },
+      {
+        "role": "assistant",
+        "content": "ನಿಮ್ಮ ಸೆನ್ಸರ್ 200 kPa ತೋರಿಸುತ್ತಿದ್ದರೆ, ಇದು ನೆಲ ಸಂಪೂರ್ಣವಾಗಿ ಒಣಗಿರುವುದನ್ನು ಸೂಚಿಸುತ್ತದೆ ಅಥವಾ ಸೆನ್ಸರ್ ನೆಲದ ಹೊರಗೆ ಇರಬಹುದು ಅಥವಾ ಸೆನ್ಸರ್ ರಾಡ್‌ಗಳಿಗೆ ವಿದ್ಯುತ್ ತಲುಪುತ್ತಿಲ್ಲ. \n\nನೀವು irrigation ಮಾಡಿದ ನಂತರ, ಸೆನ್ಸರ್ 200 kPa ಗೆ ತಕ್ಷಣವೇ ಏರಿದರೆ, ಇದು ಕೇಬಲ್ ಅಥವಾ ಸಂಪರ್ಕದಲ್ಲಿ ಸಮಸ್ಯೆ ಇರಬಹುದು. ದಯವಿಟ್ಟು ಸೆನ್ಸರ್ ಅನ್ನು ಶಾರೀರಿಕವಾಗಿ ಪರಿಶೀಲಿಸಿ.\n\nಆದರೆ, ನೀವು irrigation ಮಾಡಿದ ನಂತರ, ಸೆನ್ಸರ್ 200 kPa ಗೆ ಹಂತ ಹಂತವಾಗಿ ಏರಿದರೆ, ನೀವು ಬಹಳಷ್ಟು ಸಮಯದಿಂದ irrigation ಮಾಡಿಲ್ಲದಿದ್ದರೆ, ನೆಲ ಒಣಗಿರುವುದು ಸಹಜವಾಗಿದೆ. \n\nದಯವಿಟ್ಟು irrigation ಮಾಡಿದ ದಿನಾಂಕವನ್ನು ತಿಳಿಸಿ, ನಾನು ನಿಮಗೆ ಹೆಚ್ಚು ಸಹಾಯ ಮಾಡಬಹುದು.",
+        "en": "If your sensor is showing 200 kPa, it indicates that the ground is completely dry or the sensor may be outside the ground or the current is not reaching the sensor rods. \n\nAfter you have done the irrigation, if the sensor rises immediately to 200 kPa, it could be a problem with the cable or connection. Please physically check the sensor.\n\nBut, after you have done irrigation, if the sensor rises step by step to 200 kPa, if you haven't irrigated for a long time, it's natural for the floor to be dry. \n\nPlease tell me the date of irrigation, I can help you more.",
+        "timestamp": {
+          "$date": "2025-02-06T10:34:18.483Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "04.02.2025",
+        "en": "04.02.2025",
+        "timestamp": {
+          "$date": "2025-02-06T10:35:17.005Z"
+        },
+        "standalone_question": "What is the date of your irrigation?",
+        "standalone_en": "What is the date of your irrigation?",
+        "retrieval": {
+          "tools": [
+            "get_irrigation_forecast  \nGives the irrigation requirement forecast for any day, today and beyond. Dates are mandatory. Output is humanized with day of the week and optimal moisture details if suitable.",
+            "get_irrigation_installation_settings\n    retrieves the irrigation installation settings in the farmer's plots, can be used to calculate the irrigation hours.\n    returns root_width, root_depth, soil_retention, dripper_distance, dripper_discharge"
+          ],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "ನೀವು 04.02.2025 ರಂದು irrigation ಮಾಡಿದರೆ, ಸೆನ್ಸರ್‌ಗಳಿಗೆ ನೀರು ತಲುಪಲು 12 ಗಂಟೆಗಳ ಕಾಲ ಕಾಯಬೇಕು. ಆದ್ದರಿಂದ, ಇಂದು 06.02.2025, 16:05:18 ರಂದು, ನೀವು irrigation ಮಾಡಿದ ನಂತರ 12 ಗಂಟೆಗಳ ಕಾಲ ಕಳೆದಿದೆ.\n\nನೀವು irrigation ಮಾಡಿದ ನಂತರ, ಸೆನ್ಸರ್‌ಗಳು 200 kPa ತೋರಿಸುತ್ತಿದ್ದರೆ, ಇದು ನೆಲ ಒಣಗಿರುವುದನ್ನು ಸೂಚಿಸುತ್ತದೆ. ದಯವಿಟ್ಟು ಈ ಕೆಳಗಿನ ವಿಷಯಗಳನ್ನು ಪರಿಶೀಲಿಸಿ:\n\n1. **Drip Irrigation**: ನೀರು ಸೆನ್ಸರ್‌ಗಳಿಗೆ ಸರಿಯಾಗಿ ತಲುಪುತ್ತಿದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಿ. ಡ್ರಿಪ್‌ಗಳು ತಡೆಗಟ್ಟಲ್ಪಟ್ಟಿದ್ದರೆ ಅಥವಾ ಸೆನ್ಸರ್‌ಗಳಿಗೆ ಹತ್ತಿರವಿಲ್ಲದಿದ್ದರೆ, ನೀರು ಸರಿಯಾಗಿ ಹರಿಯುವುದಿಲ್ಲ.\n\n2. **Sensor Condition**: ಸೆನ್ಸರ್ 2 ವರ್ಷಕ್ಕಿಂತ ಹೆಚ್ಚು ಹಳೆಯದಾದರೆ, ಅದು ಕಾರ್ಯನಿರ್ವಹಣೆಯಲ್ಲಿ ಸಮಸ್ಯೆ ಉಂಟುಮಾಡಬಹುದು. ನೀವು ಟಿಕೆಟ್ ಎತ್ತಲು ಬಯಸುತ್ತೀರಾ?\n\nಈ ವಿಷಯಗಳನ್ನು ಪರಿಶೀಲಿಸಿ, ನಾನು ಇನ್ನಷ್ಟು ಸಹಾಯ ಮಾಡಲು ಇಲ್ಲಿದ್ದೇನೆ.",
+        "en": "If you do irrigation on 04.02.2025, you have to wait for 12 hours for water to reach the sensors. So, today on 06.02.2025, 16:05:18, 12 hours have passed since you did irrigation.\n\nAfter you do irrigation, if the sensors show 200 kPa, it indicates that the ground is dry. Please check the following things:\n\n1. **Drip Irrigation**: Check if the water is reaching the sensors properly. If the drips are blocked or not close to the sensors, the water will not flow properly.\n\n2. **Sensor Condition**: If the sensor is more than 2 years old, it can cause problems in performance. Do you want to lift a ticket?\n\nCheck out these things, I'm here to help even more.",
+        "timestamp": {
+          "$date": "2025-02-06T10:35:24.190Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Installation ಮಾಡಿ one week ಆಗಿದೆ",
+        "en": "Install it is one week",
+        "timestamp": {
+          "$date": "2025-02-06T10:37:39.583Z"
+        },
+        "standalone_question": "How long has it been since the installation?",
+        "standalone_en": "How long has it been since the installation?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "Installation madi one week agide"
+      },
+      {
+        "role": "assistant",
+        "content": "ನೀವು ಸೆನ್ಸರ್‌ಗಳನ್ನು ಸ್ಥಾಪಿಸಿದಾಗಿನಿಂದ ಒಂದು ವಾರ ಕಳೆದಿದ್ದರೆ, ಇದು ಕಾರ್ಯನಿರ್ವಹಣೆಯಲ್ಲಿ ಸಮಸ್ಯೆ ಉಂಟುಮಾಡಬಹುದು. \n\n1. **Drip Irrigation**: ದಯವಿಟ್ಟು ಡ್ರಿಪ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸಿ. ಅವು ತಡೆಗಟ್ಟಲ್ಪಟ್ಟಿದ್ದರೆ ಅಥವಾ ಸೆನ್ಸರ್‌ಗಳಿಗೆ ಹತ್ತಿರವಿಲ್ಲದಿದ್ದರೆ, ನೀರು ಸರಿಯಾಗಿ ಹರಿಯುವುದಿಲ್ಲ.\n\n2. **Sensor Condition**: ಸೆನ್ಸರ್‌ಗಳು 2 ವರ್ಷಕ್ಕಿಂತ ಹೆಚ್ಚು ಹಳೆಯದಾದರೆ, ಅದು ಕಾರ್ಯನಿರ್ವಹಣೆಯಲ್ಲಿ ಸಮಸ್ಯೆ ಉಂಟುಮಾಡಬಹುದು. ನೀವು ಟಿಕೆಟ್ ಎತ್ತಲು ಬಯಸುತ್ತೀರಾ?\n\nಈ ವಿಷಯಗಳನ್ನು ಪರಿಶೀಲಿಸಿ, ನಾನು ಇನ್ನಷ್ಟು ಸಹಾಯ ಮಾಡಲು ಇಲ್ಲಿದ್ದೇನೆ.",
+        "en": "If a week has passed since you installed the sensors, it can cause problems with performance. \n\n1. **Drip Irrigation**: Please check the drips. If they are blocked or not close to the sensors, the water will not flow properly.\n\n2. **Sensor Condition**: If the sensors are more than 2 years old, it can cause problems in performance. Do you want to lift a ticket?\n\nCheck out these things, I'm here to help even more.",
+        "timestamp": {
+          "$date": "2025-02-06T10:37:43.887Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ಮೀಲಿಬಗ್ ಬಗ್ಗೆ ತಿಳಿಸಿ",
+        "en": "Tell us about Mealybug",
+        "timestamp": {
+          "$date": "2025-02-06T10:38:17.381Z"
+        },
+        "standalone_question": "Can you provide information about the Milibag?",
+        "standalone_en": "Can you provide information about the Milibag?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mealibug bagge thilisi"
+      },
+      {
+        "role": "assistant",
+        "content": "ಮೀಲಿಬಗ್ (Milibag) ಅಥವಾ \"Mili\" ಎಂಬುದು ಸಾಮಾನ್ಯವಾಗಿ ನೆಲದ ತೇವಾಂಶವನ್ನು ಅಳೆಯುವ ಸಾಧನವಾಗಿದೆ. ಇದು ಕೃಷಿಯಲ್ಲಿ ನೀರಿನ ನಿರ್ವಹಣೆಗೆ ಮತ್ತು ನೆಲದ ಆರೋಗ್ಯವನ್ನು ನಿರ್ವಹಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ. \n\n**ಮೀಲಿಬಗ್ ಕಾರ್ಯವಿಧಾನ:**\n1. **ತೇವಾಂಶ ಅಳೆಯುವುದು**: ಇದು ನೆಲದ ತೇವಾಂಶವನ್ನು ಕಿಪಾ (kPa) ಯಲ್ಲಿ ಅಳೆಯುತ್ತದೆ. 0 kPa ಅಂದರೆ ನೆಲ ತೇವವಾಗಿದ್ದು, 200 kPa ಅಂದರೆ ನೆಲ ಒಣವಾಗಿದೆ.\n2. **ನೀರು ನೀಡುವ ನಿರ್ಧಾರ**: ತೇವಾಂಶದ ಅಳತೆ ಆಧಾರಿತವಾಗಿ, ನೀವು ನೀರು ನೀಡಬೇಕೆಂದು ನಿರ್ಧರಿಸಬಹುದು. 200 kPa ತೋರಿಸುತ್ತಿದ್ದರೆ, ನೀರು ನೀಡಬೇಕಾಗಿದೆ.\n3. **ನೀರು ನೀಡುವ ಸಮಯ**: ಇದು ನೀರು ನೀಡುವ ಉತ್ತಮ ಸಮಯವನ್ನು ನಿರ್ಧರಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ, ಇದರಿಂದ ನೀರಿನ ವ್ಯಯವನ್ನು ಕಡಿಮೆ ಮಾಡಬಹುದು.\n\nನೀವು ಇನ್ನಷ್ಟು ವಿವರಗಳು ಅಥವಾ ನಿರ್ದಿಷ್ಟ ಪ್ರಶ್ನೆಗಳಿದ್ದರೆ, ದಯವಿಟ್ಟು ಕೇಳಿ!",
+        "en": "Milibag or \"Mili\" is usually a device that measures ground moisture. It helps in water management in agriculture and maintenance of soil health. \n\n**Mealybug procedure:**\n1. **Measuring moisture**: It measures ground moisture in kipa (kPa). 0 kPa means the ground is wet and 200 kPa means the ground is dry.\n2. **Decision to give water**: Based on the measurement of humidity, you can decide to give water. If showing 200 kPa, water needs to be given.\n3. **Water giving time**: This helps in determining the best time for watering, thereby reducing the cost of water.\n\nIf you have more details or specific questions, please ask!",
+        "timestamp": {
+          "$date": "2025-02-06T10:38:24.402Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ಜಿಗಿ ಹುಳು ಬಗ್ಗೆ ತಿಳಿಸಿ ",
+        "en": "Tell us about the hopper ",
+        "timestamp": {
+          "$date": "2025-02-06T10:38:57.849Z"
+        },
+        "standalone_question": "What can you tell me about the Jigi worm?",
+        "standalone_en": "What can you tell me about the Jigi worm?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "zigi hulu bagge thilisi "
+      },
+      {
+        "role": "assistant",
+        "content": "ಜಿಗಿ ಹುಳು (Jiggi Hullu) ಅಥವಾ \"Leaf Miner\" ಎಂಬುದು ಕೃಷಿಯಲ್ಲಿ ಸಾಮಾನ್ಯವಾಗಿ ಕಂಡುಬರುವ ಕೀಟವಾಗಿದೆ. ಇದು ಸಸ್ಯದ ಎಲೆಗಳಲ್ಲಿ ನುಸುಳುತ್ತದೆ ಮತ್ತು ಎಲೆಗಳನ್ನು ಹಾಳು ಮಾಡುತ್ತದೆ. \n\n**ಜಿಗಿ ಹುಳದ ಲಕ್ಷಣಗಳು:**\n1. **ನೀವು ನೋಡಬಹುದಾದ ಹಾನಿ**: ಎಲೆಗಳಲ್ಲಿ ನುಸುಳುವ ಹಕ್ಕುಗಳು, ಬಿಳಿ ಅಥವಾ ಹಳದಿ ನುಸುಳುವ ಮಾರ್ಗಗಳು.\n2. **ಹಾನಿಯ ಪ್ರಮಾಣ**: ಇದು ಸಸ್ಯದ ಬೆಳವಣಿಗೆಗೆ ಹಾನಿ ಮಾಡಬಹುದು, ಏಕೆಂದರೆ ಇದು ಸಸ್ಯದ ಪೋಷಕಾಂಶಗಳನ್ನು ಹಾಳು ಮಾಡುತ್ತದೆ.\n\n**ನಿರೋಧಕ ಕ್ರಮಗಳು:**\n1. **ಪestisides**: ಸೂಕ್ತ ಪೆಸ್ಟಿಸೈಡ್‌ಗಳನ್ನು ಬಳಸುವುದು.\n2. **ನೈಸರ್ಗಿಕ ಶತ್ರುಗಳು**: ಜಿಗಿ ಹುಳವನ್ನು ನಾಶ ಮಾಡುವ ನೈಸರ್ಗಿಕ ಶತ್ರುಗಳನ್ನು ಉತ್ತೇಜಿಸುವುದು.\n3. **ಹೆಚ್ಚಿನ ತಾಜಾ ನೀರು**: ಸಸ್ಯಗಳನ್ನು ಉತ್ತಮವಾಗಿ ನೀರಿನ ಮೂಲಕ ಪೋಷಿಸುವುದು.\n\nನೀವು ಇನ್ನಷ್ಟು ವಿವರಗಳು ಅಥವಾ ನಿರ್ದಿಷ್ಟ ಪ್ರಶ್ನೆಗಳಿದ್ದರೆ, ದಯವಿಟ್ಟು ಕೇಳಿ!",
+        "en": "Jiggi Hullu or \"Leaf Miner\" is a pest commonly found in agriculture. It intrudes into the leaves of the plant and spoils the leaves. \n\n**Symptoms of the hopper:**\n1. **The damage you can see**: Rights to infiltrate the leaves, white or yellow infiltration routes.\n2. **Amount of damage**: It can harm the growth of the plant, as it spoils the nutrients of the plant.\n\n**Preventive measures:**\n1. **Paestisides**: Using appropriate pesticides.\n2. **Natural enemies**: Promoting natural enemies that destroy the hopper.\n3. **More fresh water**: Nourishing plants better through water.\n\nIf you have more details or specific questions, please ask!",
+        "timestamp": {
+          "$date": "2025-02-06T10:39:08.071Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Rotting ಬಗ್ಗೇ ತಿಳಿಸಿ ",
+        "en": "Tell Rotting Bugge ",
+        "timestamp": {
+          "$date": "2025-02-06T10:39:35.603Z"
+        },
+        "standalone_question": "What can you tell me about rotting?",
+        "standalone_en": "What can you tell me about rotting?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "Rotting bagge thilisi "
+      },
+      {
+        "role": "assistant",
+        "content": "Rotting, ಅಥವಾ \"Rot,\" ಕೃಷಿಯಲ್ಲಿ ಸಾಮಾನ್ಯವಾಗಿ ಕಂಡುಬರುವ ಸಮಸ್ಯೆ, ಇದು ಸಸ್ಯದ ಭಾಗಗಳಲ್ಲಿ ಅಥವಾ ಹಣ್ಣುಗಳಲ್ಲಿ ಹಾನಿ ಉಂಟುಮಾಡುತ್ತದೆ. ಇದು ಸಾಮಾನ್ಯವಾಗಿ ನೈಸರ್ಗಿಕ ಶ್ರೇಣಿಯಲ್ಲಿನ ಬಾಕ್ಟೀರಿಯಾ, ಫಂಗಸ್ ಅಥವಾ ಇತರ ಪ್ಯಾಥೋಜೆನ್ಸ್‌ನಿಂದ ಉಂಟಾಗುತ್ತದೆ.\n\n**Rotting ಪ್ರಕಾರಗಳು:**\n1. **ಬ್ಯಾಕ್ಟೀರಿಯಲ್ ರಾಟ್**: ಇದು ಬ್ಯಾಕ್ಟೀರಿಯಾ ಕಾರಣದಿಂದ ಉಂಟಾಗುತ್ತದೆ ಮತ್ತು ಸಸ್ಯದ ಭಾಗಗಳನ್ನು ಹಾಳು ಮಾಡುತ್ತದೆ.\n2. **ಫಂಗಲ್ ರಾಟ್**: ಇದು ಫಂಗಸ್‌ನಿಂದ ಉಂಟಾಗುತ್ತದೆ, ಮತ್ತು ಇದು ಹಣ್ಣುಗಳು ಮತ್ತು ತರಕಾರಿಗಳ ಮೇಲೆ ಹೆಚ್ಚು ಪರಿಣಾಮ ಬೀರುತ್ತದೆ.\n3. **ರೀಡ್ ರಾಟ್**: ಇದು ನೆಲದಲ್ಲಿ ಅಥವಾ ನೀರಿನಲ್ಲಿ ಹೆಚ್ಚು ತೇವಾಂಶ ಇರುವಾಗ ಉಂಟಾಗುತ್ತದೆ.\n\n**ಲಕ್ಷಣಗಳು:**\n- ಹಣ್ಣುಗಳು ಅಥವಾ ಸಸ್ಯದ ಭಾಗಗಳಲ್ಲಿ ಕಪ್ಪು ಅಥವಾ ಹಳದಿ ಬಣ್ಣದ ಕಲೆಗಳು.\n- ಸಸ್ಯದ ಭಾಗಗಳು ಮೃದುವಾಗುವುದು ಅಥವಾ ನಾಶವಾಗುವುದು.\n- ದುರ್ಗಂಧವು ಉಂಟಾಗುವುದು.\n\n**ನಿರೋಧಕ ಕ್ರಮಗಳು:**\n1. **ನೀರು ನೀಡುವ ನಿಯಂತ್ರಣ**: ಹೆಚ್ಚು ತೇವಾಂಶವನ್ನು ತಪ್ಪಿಸಲು.\n2. **ಪestisides**: ಸೂಕ್ತ ಪೆಸ್ಟಿಸೈಡ್‌ಗಳನ್ನು ಬಳಸುವುದು.\n3. **ಹೆಚ್ಚಿನ ಹವಾಮಾನ ನಿಯಂತ್ರಣ**: ಉತ್ತಮ ಹವಾಮಾನ ನಿಯಂತ್ರಣವನ್ನು ಸಾಧಿಸಲು.\n\nನೀವು ಇನ್ನಷ್ಟು ವಿವರಗಳು ಅಥವಾ ನಿರ್ದಿಷ್ಟ ಪ್ರಶ್ನೆಗಳಿದ್ದರೆ, ದಯವಿಟ್ಟು ಕೇಳಿ!",
+        "en": "Rotting, or \"rot,\" is a problem commonly found in agriculture, which causes damage to plant parts or fruits. It is usually caused by bacteria, fungi or other pathogens in the natural range.\n\n**Rotting Types:**\n1. **Bacterial Rat**: It is caused by bacteria and damages parts of the plant.\n2. **Fungal rat**: It is caused by fungus, and it affects fruits and vegetables the most.\n3. **Read rat**: It occurs when there is too much moisture on the ground or in water.\n\n**Symptoms:**\n- Black or yellow stains on fruits or parts of the plant.\n- Softening or destruction of parts of the plant.\n- There is a foul smell.\n\n**Preventive measures:**\n1. **Water supply control**: To avoid too much moisture.\n2. **Paestisides**: Using appropriate pesticides.\n3. **High climate control**: To achieve better climate control.\n\nIf you have more details or specific questions, please ask!",
+        "timestamp": {
+          "$date": "2025-02-06T10:39:48.275Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Rotting ನಿಯಂತ್ರಣ ಬಗ್ಗೆ ತಿಳಿಸಿ ",
+        "en": "Tell me about rotting control ",
+        "timestamp": {
+          "$date": "2025-02-06T10:40:39.531Z"
+        },
+        "standalone_question": "What are the methods for controlling rotting in plants and fruits?",
+        "standalone_en": "What are the methods for controlling rotting in plants and fruits?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "Rotting niyantrana bagge thilisi "
+      },
+      {
+        "role": "assistant",
+        "content": "ಈಗಾಗಲೇ ನೀವು 2025-02-01 ರಿಂದ 2025-02-06 ರವರೆಗೆ ಯಾವುದೇ ರೋಗ ಅಥವಾ ಕೀಟಗಳ ಸ್ಪ್ರೇ ಶೆಡ್ಯೂಲ್ ಅನ್ನು ಹೊಂದಿಲ್ಲ. ಆದ್ದರಿಂದ, ನೀವು ರೋಟಿಂಗ್ ನಿಯಂತ್ರಣಕ್ಕಾಗಿ ಕ್ರಮಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಬೇಕಾಗಿದೆ.\n\n**Rotting ನಿಯಂತ್ರಣ ಕ್ರಮಗಳು:**\n\n1. **ಫಂಗಿಸೈಡ್ ಬಳಕೆ**: \n   - **Carbendazim** @ 2.5g/ltr ಅನ್ನು ಸೀಡ್ಲಿಂಗ್‌ಗಳಿಗೆ ಡ್ರೆಂಚ್ ಅಥವಾ ಸ್ಪ್ರೇ ಮಾಡಿ.\n\n2. **ಹವಾಮಾನ ನಿಯಂತ್ರಣ**: \n   - ನೆಲದ ತೇವಾಂಶವನ್ನು ನಿಯಂತ್ರಿಸಲು, ಹೆಚ್ಚು ನೀರು ನೀಡುವುದನ್ನು ತಪ್ಪಿಸಿ.\n\n3. **ನೀರು ನೀಡುವ ನಿಯಂತ್ರಣ**: \n   - ನೆಲದ ತೇವಾಂಶವನ್ನು ಸಮತೋಲಿತವಾಗಿ ಇಡಲು, ನೀರನ್ನು ನಿಯಮಿತವಾಗಿ ನೀಡಿರಿ.\n\n4. **ಹಾನಿಕಾರಕ ಭಾಗಗಳನ್ನು ತೆಗೆದುಹಾಕುವುದು**: \n   - ಹಾನಿಯಾದ ಸಸ್ಯದ ಭಾಗಗಳನ್ನು ತೆಗೆದು ಹಾಕಿ, ಇದು ರೋಗವನ್ನು ಹರಡುವುದನ್ನು ತಡೆಯುತ್ತದೆ.\n\n5. **ನೈಸರ್ಗಿಕ ಶತ್ರುಗಳನ್ನು ಉತ್ತೇಜಿಸುವುದು**: \n   - ನೈಸರ್ಗಿಕ ಶತ್ರುಗಳನ್ನು ಉತ್ತೇಜಿಸುವ ಮೂಲಕ, ರೋಗವನ್ನು ನಿಯಂತ್ರಿಸಲು ಸಹಾಯ ಮಾಡಬಹುದು.\n\nಈ ಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸುವ ಮೂಲಕ, ನೀವು ರೋಟಿಂಗ್ ಸಮಸ್ಯೆಯನ್ನು ನಿಯಂತ್ರಿಸಲು ಸಹಾಯ ಮಾಡಬಹುದು. ನೀವು ಇನ್ನಷ್ಟು ಸಹಾಯ ಬೇಕಾದರೆ, ದಯವಿಟ್ಟು ಕೇಳಿ!",
+        "en": "Already you do not have any disease or pest spray schedule from 2025-02-01 to 2025-02-06. Therefore, you need to take steps for roting control.\n\n**Rotting control measures:**\n\n1. **Fungicide use**: \n   - **Carbendazim** @ Trench or spray 2.5g/ltr to the seedlings.\n\n2. **Climate Control**: \n   - To control the moisture content of the ground, avoid giving too much water.\n\n3. **Water supply control**: \n   - To keep the moisture content of the ground balanced, give water regularly.\n\n4. **Removing harmful parts**: \n   - Remove damaged plant parts, which will prevent the spread of the disease.\n\n5. **Promoting natural enemies**: \n   - By promoting natural enemies, the disease can be helped.\n\nBy following these steps, you can help control the roting problem. If you need more help, please ask!",
+        "timestamp": {
+          "$date": "2025-02-06T10:40:48.670Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Rotting ಆಗಲು ಕಾರಣ ಏನು ",
+        "en": "What causes Rotting ",
+        "timestamp": {
+          "$date": "2025-02-06T10:41:57.337Z"
+        },
+        "standalone_question": "What are the causes of rotting?",
+        "standalone_en": "What are the causes of rotting?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "Rotting aagalu karan anu "
+      },
+      {
+        "role": "assistant",
+        "content": "Rotting, ಅಥವಾ ಸಸ್ಯದ ಭಾಗಗಳಲ್ಲಿ ಹಾನಿ ಉಂಟುಮಾಡುವ ಪ್ರಕ್ರಿಯೆ, ಹಲವಾರು ಕಾರಣಗಳಿಂದ ಉಂಟಾಗಬಹುದು. ಇಲ್ಲಿವೆ ಕೆಲವು ಪ್ರಮುಖ ಕಾರಣಗಳು:\n\n1. **ಹೆಚ್ಚಿನ ತೇವಾಂಶ**: ನೆಲದಲ್ಲಿ ಹೆಚ್ಚು ನೀರು ಅಥವಾ ತೇವಾಂಶ ಇದ್ದರೆ, ಇದು ಬ್ಯಾಕ್ಟೀರಿಯಾ ಮತ್ತು ಫಂಗಸ್‌ಗಳಿಗೆ ಬೆಳೆಸಲು ಅನುಕೂಲವಾಗುತ್ತದೆ.\n\n2. **ನಿಷ್ಕ್ರಿಯವಾದ ವಾತಾವರಣ**: ಕಡಿಮೆ ಹವಾಮಾನ ಅಥವಾ ಕಡಿಮೆ ಬೆಳಕು, ಸಸ್ಯದ ಬೆಳವಣಿಗೆಗೆ ಹಾನಿ ಮಾಡಬಹುದು.\n\n3. **ಹಾನಿಕಾರಕ ಕೀಟಗಳು**: ಕೀಟಗಳು ಅಥವಾ ಇತರ ಪ್ಯಾಥೋಜೆನ್ಸ್ ಸಸ್ಯದ ಭಾಗಗಳನ್ನು ಹಾಳು ಮಾಡಬಹುದು, ಇದರಿಂದ ರೋಟಿಂಗ್ ಉಂಟಾಗುತ್ತದೆ.\n\n4. **ನೀರು ನೀಡುವ ನಿಯಂತ್ರಣದ ಕೊರತೆಯು**: ನೀರನ್ನು ಸಮತೋಲಿತವಾಗಿ ನೀಡದಿದ್ದರೆ, ಇದು ನೆಲದ ಆರೋಗ್ಯವನ್ನು ಹಾನಿ ಮಾಡಬಹುದು.\n\n5. **ಹಾನಿಯಾದ ಅಥವಾ ನಾಶವಾದ ಭಾಗಗಳು**: ಹಾನಿಯಾದ ಅಥವಾ ನಾಶವಾದ ಭಾಗಗಳನ್ನು ತೆಗೆದು ಹಾಕದಿದ್ದರೆ, ಇದು ರೋಗವನ್ನು ಹರಡುವುದಕ್ಕೆ ಕಾರಣವಾಗಬಹುದು.\n\n6. **ಪೋಷಕಾಂಶಗಳ ಕೊರತೆಯು**: ನೆಲದಲ್ಲಿ ಪೋಷಕಾಂಶಗಳ ಕೊರತೆಯು ಸಸ್ಯದ ಆರೋಗ್ಯವನ್ನು ಹಾನಿ ಮಾಡಬಹುದು, ಇದರಿಂದ ರೋಗಗಳು ಉಂಟಾಗಬಹುದು.\n\nಈ ಕಾರಣಗಳನ್ನು ಗಮನದಲ್ಲಿಟ್ಟುಕೊಂಡು, ನೀವು ರೋಟಿಂಗ್ ಸಮಸ್ಯೆಯನ್ನು ನಿಯಂತ್ರಿಸಲು ಕ್ರಮಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಬಹುದು.",
+        "en": "Rotting, or the process of causing damage to parts of the plant, can be caused by a number of reasons. Here are some of the main reasons:\n\n1. **High moisture**: If there is too much water or moisture in the ground, it will facilitate the growth of bacteria and fungi.\n\n2. **Inactive environment**: Low weather or low light can damage the growth of the plant.\n\n3. **Harmful insects**: Insects or other pathogens can damage parts of the plant, causing roting.\n\n4. **Lack of control over water-giving**: If water is not given in a balanced manner, it can damage the health of the ground.\n\n5. **Damaged or destroyed parts**: If damaged or destroyed parts are not removed, it can lead to the spread of the disease.\n\n6. **Lack of nutrients**: Lack of nutrients in the soil can damage the health of the plant, which can lead to diseases.\n\nWith these reasons in mind, you can take steps to control the routing problem.",
+        "timestamp": {
+          "$date": "2025-02-06T10:42:06.291Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ದ್ರಾಕ್ಷಿ ಹಣ್ಣಿನ ತಿರುಳು ಹೆಚ್ಚಿಗೆ ಮಾಡಲು ಏನು ಮಾಡಬೇಕು ತಿಳಿಸಿ ",
+        "en": "Tell me what to do to increase the pulp of grapes ",
+        "timestamp": {
+          "$date": "2025-02-06T10:43:59.168Z"
+        },
+        "standalone_question": "What should be done to increase the yield of grape fruits?",
+        "standalone_en": "What should be done to increase the yield of grape fruits?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How to improve the germination percent\nA: Use of good quality seeds and seeds to be treated with insecticide, Fungicide and biological agents"
+          ]
+        },
+        "content_transliterated": "drakshi hannina thirulu hecchige madalu anu madabeku thilisi "
+      },
+      {
+        "role": "assistant",
+        "content": "ದ್ರಾಕ್ಷಿ ಹಣ್ಣಿನ ತಿರುಳು (berry size) ಹೆಚ್ಚಿಸಲು, ನೀವು ಕೆಳಗಿನ ಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸಬಹುದು:\n\n1. **ಪೋಷಕಾಂಶಗಳ ಸಮತೋಲನ**: \n   - ಸೂಕ್ತ ಪ್ರಮಾಣದಲ್ಲಿ ನೈಟ್ರೋಜನ್, ಫಾಸ್ಫೋರ್, ಮತ್ತು ಪೊಟ್ಯಾಸಿಯಮ್ ಅನ್ನು ನೀಡುವುದು. \n   - ಹಣ್ಣುಗಳ ಬೆಳವಣಿಗೆಗೆ ಸಹಾಯ ಮಾಡುವ ಮಿಕ್ರೋ ನ್ಯೂಟ್ರಿಯಂಟ್‌ಗಳನ್ನು ಕೂಡ ಸೇರಿಸಿ.\n\n2. **ನೀರು ನೀಡುವ ನಿಯಂತ್ರಣ**: \n   - ಹಣ್ಣುಗಳ ಬೆಳವಣಿಗೆ ಸಮಯದಲ್ಲಿ ಸಮತೋಲಿತ ನೀರು ನೀಡುವುದು. \n   - ಹೆಚ್ಚು ತೇವಾಂಶವು ಹಣ್ಣುಗಳನ್ನು ದೊಡ್ಡದಾಗಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.\n\n3. **ಹಣ್ಣುಗಳ ಹಾರ್ಮೋನ್ ಬಳಕೆ**: \n   - ಹಣ್ಣುಗಳ ಬೆಳವಣಿಗೆಗೆ ಸಹಾಯ ಮಾಡುವ ಹಾರ್ಮೋನ್‌ಗಳನ್ನು ಬಳಸುವುದು, ಉದಾಹರಣೆಗೆ, gibberellins.\n\n4. **ಕಾಯಿತನ ನಿಯಂತ್ರಣ**: \n   - ಹಣ್ಣುಗಳು ಬೆಳೆಯುವಾಗ, ಕಾಯಿ ಮತ್ತು ಹಣ್ಣುಗಳನ್ನು ಸರಿಯಾಗಿ ಕತ್ತರಿಸುವುದು, ಇದು ಬೆಳವಣಿಗೆಗೆ ಹೆಚ್ಚು ಶಕ್ತಿ ನೀಡುತ್ತದೆ.\n\n5. **ಹವಾಮಾನ ನಿಯಂತ್ರಣ**: \n   - ಉತ್ತಮ ಬೆಳವಣಿಗೆಗೆ ಸೂಕ್ತ ಹವಾಮಾನವನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ, ಹೆಚ್ಚು ತಾಪಮಾನ ಅಥವಾ ತೇವಾಂಶವು ಹಣ್ಣುಗಳ ಬೆಳವಣಿಗೆಗೆ ಹಾನಿ ಮಾಡಬಹುದು.\n\n6. **ಹಣ್ಣುಗಳ ತಿರುಳನ್ನು ಪರಿಶೀಲಿಸುವುದು**: \n   - ಹಣ್ಣುಗಳು ಬೆಳೆಯುವಾಗ, ಅವುಗಳನ್ನು ನಿಯಮಿತವಾಗಿ ಪರಿಶೀಲಿಸಿ, ಯಾವುದೇ ಸಮಸ್ಯೆಗಳನ್ನು ತಕ್ಷಣವೇ ಪರಿಹರಿಸಲು.\n\nಈ ಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸುವ ಮೂಲಕ, ನೀವು ದ್ರಾಕ್ಷಿ ಹಣ್ಣಿನ ತಿರುಳನ್ನು ಹೆಚ್ಚಿಸಲು ಸಹಾಯ ಮಾಡಬಹುದು.",
+        "en": "To increase the berry size, you can follow the following steps:\n\n1. **Nutrient balance**: \n   - Providing appropriate amounts of nitrogen, phosphore, and potassium. \n   - Also add micronutrients that help in the growth of fruits.\n\n2. **Water supply control**: \n   - Providing balanced water during the growth of fruits. \n   - More moisture helps in making the fruits bigger.\n\n3. **Hormonal use of fruits**: \n   - Using hormones that help in the growth of fruits, for example, gibberellins.\n\n4. **Wait control**: \n   - When fruits grow, cutting the nuts and fruits properly, it gives more energy to the growth.\n\n5. **Climate Control**: \n   - Ensure suitable weather for good growth, high temperature or humidity can harm the growth of fruits.\n\n6. **Checking the pulp of fruits**: \n   - When growing fruits, check them regularly, to solve any problems immediately.\n\nBy following these steps, you can help increase the pulp of the grapefruit.",
+        "timestamp": {
+          "$date": "2025-02-06T10:44:08.166Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ದ್ರಾಕ್ಷಿ ಹಣ್ಣಿನ ಪಲ್ಪ್ ಬರಲು ಏನೂ ಮಾಡಬೇಕು ತಿಳಿಸಿ ",
+        "en": "Tell me what to do to get grapefruit pulp ",
+        "timestamp": {
+          "$date": "2025-02-06T10:47:28.246Z"
+        },
+        "standalone_question": "What should be done to increase the pulp content in grapes?",
+        "standalone_en": "What should be done to increase the pulp content in grapes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "drakshi hannina pulp baralu enu madabeku thilisi "
+      },
+      {
+        "role": "assistant",
+        "content": "ದ್ರಾಕ್ಷಿ ಹಣ್ಣಿನ ಪಲ್ಪ್ (pulp) ಹೆಚ್ಚಿಸಲು, ನೀವು ಕೆಳಗಿನ ಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸಬಹುದು:\n\n1. **ಪೋಷಕಾಂಶಗಳ ಸಮತೋಲನ**: \n   - ಹಣ್ಣುಗಳ ಬೆಳವಣಿಗೆಗೆ ಅಗತ್ಯವಿರುವ ನೈಟ್ರೋಜನ್, ಫಾಸ್ಫೋರ್, ಮತ್ತು ಪೊಟ್ಯಾಸಿಯಮ್ ಅನ್ನು ಸಮತೋಲಿತವಾಗಿ ನೀಡುವುದು. \n   - ಮಿಕ್ರೋ ನ್ಯೂಟ್ರಿಯಂಟ್‌ಗಳನ್ನು ಕೂಡ ಸೇರಿಸಿ, ಇದು ಪಲ್ಪ್ ಬೆಳವಣಿಗೆಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.\n\n2. **ನೀರು ನೀಡುವ ನಿಯಂತ್ರಣ**: \n   - ಹಣ್ಣುಗಳು ಬೆಳೆಯುವಾಗ ಸಮತೋಲಿತ ನೀರು ನೀಡುವುದು, ಇದು ಪಲ್ಪ್ ಬೆಳವಣಿಗೆಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.\n\n3. **ಹಣ್ಣುಗಳ ಹಾರ್ಮೋನ್ ಬಳಕೆ**: \n   - ಹಣ್ಣುಗಳ ಬೆಳವಣಿಗೆಗೆ ಸಹಾಯ ಮಾಡುವ ಹಾರ್ಮೋನ್‌ಗಳನ್ನು ಬಳಸುವುದು, ಉದಾಹರಣೆಗೆ, gibberellins, ಇದು ಪಲ್ಪ್ ಬೆಳವಣಿಗೆಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.\n\n4. **ಹಣ್ಣುಗಳ ಕತ್ತರಿಸುವುದು**: \n   - ಹಣ್ಣುಗಳು ಬೆಳೆಯುವಾಗ, ಕಾಯಿ ಮತ್ತು ಹಣ್ಣುಗಳನ್ನು ಸರಿಯಾಗಿ ಕತ್ತರಿಸುವುದು, ಇದು ಬೆಳವಣಿಗೆಗೆ ಹೆಚ್ಚು ಶಕ್ತಿ ನೀಡುತ್ತದೆ.\n\n5. **ಹವಾಮಾನ ನಿಯಂತ್ರಣ**: \n   - ಉತ್ತಮ ಬೆಳವಣಿಗೆಗೆ ಸೂಕ್ತ ಹವಾಮಾನವನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ, ಹೆಚ್ಚು ತಾಪಮಾನ ಅಥವಾ ತೇವಾಂಶವು ಪಲ್ಪ್ ಬೆಳವಣಿಗೆಗೆ ಹಾನಿ ಮಾಡಬಹುದು.\n\n6. **ಹಣ್ಣುಗಳ ತಿರುಳನ್ನು ಪರಿಶೀಲಿಸುವುದು**: \n   - ಹಣ್ಣುಗಳು ಬೆಳೆಯುವಾಗ, ಅವುಗಳನ್ನು ನಿಯಮಿತವಾಗಿ ಪರಿಶೀಲಿಸಿ, ಯಾವುದೇ ಸಮಸ್ಯೆಗಳನ್ನು ತಕ್ಷಣವೇ ಪರಿಹರಿಸಲು.\n\nಈ ಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸುವ ಮೂಲಕ, ನೀವು ದ್ರಾಕ್ಷಿ ಹಣ್ಣಿನ ಪಲ್ಪ್ ಅನ್ನು ಹೆಚ್ಚಿಸಲು ಸಹಾಯ ಮಾಡಬಹುದು.",
+        "en": "To increase the pulp of grapefruit, you can follow the following steps:\n\n1. **Nutrient balance**: \n   - Balanced supply of nitrogen, phosphore, and potassium required for the growth of fruits. \n   - Also add micronutrients, which help in pulp growth.\n\n2. **Water supply control**: \n   - Providing balanced water while fruits grow, which helps in pulp growth.\n\n3. **Hormonal use of fruits**: \n   - Using hormones that help in the growth of fruits, for example, gibberellins, which helps in pulp growth.\n\n4. **Cutting fruits**: \n   - When fruits grow, cutting the nuts and fruits properly, it gives more energy to the growth.\n\n5. **Climate Control**: \n   - Ensure suitable weather for good growth, high temperature or humidity can harm pulp growth.\n\n6. **Checking the pulp of fruits**: \n   - When growing fruits, check them regularly, to solve any problems immediately.\n\nBy following these steps, you can help increase the grapefruit pulp.",
+        "timestamp": {
+          "$date": "2025-02-06T10:47:38.896Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ದ್ರಾಕ್ಷಿಗೆ MOP ಗೊಬ್ಬರ ಕೊಟ್ರೆ ಹೇಗೆ ",
+        "en": "How to apply MOP fertilizer for grapes ",
+        "timestamp": {
+          "$date": "2025-02-06T10:49:36.073Z"
+        },
+        "standalone_question": "How to apply MOP fertilizer to grapes?",
+        "standalone_en": "How to apply MOP fertilizer to grapes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "drakshige MOP gobbara kotre hege "
+      },
+      {
+        "role": "assistant",
+        "content": "ದ್ರಾಕ್ಷಿಗೆ MOP (Muriate of Potash) ಗೊಬ್ಬರವನ್ನು ನೀಡಲು, ನೀವು ಕೆಳಗಿನ ಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸಬಹುದು:\n\n1. **ಗೊಬ್ಬರ ಪ್ರಮಾಣ**: \n   - MOP ಗೊಬ್ಬರವನ್ನು 50-100 ಕಿ.ಗ್ರಾಂ/ಎಕರೆ ಪ್ರಮಾಣದಲ್ಲಿ ಬಳಸಬಹುದು. ನಿಮ್ಮ ನೆಲದ ಆರೋಗ್ಯ ಮತ್ತು ಬೆಳೆಯುವ ಹಂತವನ್ನು ಆಧರಿಸಿ ಪ್ರಮಾಣವನ್ನು ಹೊಂದಿಸಬಹುದು.\n\n2. **ಅನ್ವಯಿಸುವ ಸಮಯ**: \n   - MOP ಅನ್ನು ಹಣ್ಣುಗಳು ಬೆಳೆಯುವ ಹಂತದಲ್ಲಿ ಅಥವಾ ಹಣ್ಣುಗಳ ಬೆಳವಣಿಗೆಗೆ 2-3 ವಾರಗಳ ಮುಂಚೆ ನೀಡುವುದು ಉತ್ತಮ.\n\n3. **ಅನ್ವಯಿಸುವ ವಿಧಾನ**: \n   - MOP ಅನ್ನು ನೆಲದ ಮೇಲ್ಮಟ್ಟದಲ್ಲಿ ಸಮಾನವಾಗಿ ಹಚ್ಚಿ, ನಂತರ ನೆಲದಲ್ಲಿ ಚೆನ್ನಾಗಿ ಮಿಶ್ರಣ ಮಾಡಿ. \n   - ನೀವು drip irrigation ಮೂಲಕ fertigation ವಿಧಾನವನ್ನು ಬಳಸಿದರೆ, MOP ಅನ್ನು ನೀರಿನೊಂದಿಗೆ ಮಿಶ್ರಣ ಮಾಡಿ, ನಂತರ ನೀರನ್ನು ನೀಡಬಹುದು.\n\n4. **ನೀರು ನೀಡುವುದು**: \n   - MOP ಅನ್ನು ನೀಡಿದ ನಂತರ, ನೆಲದಲ್ಲಿ ಪೋಷಕಾಂಶಗಳನ್ನು ಉತ್ತಮವಾಗಿ ಹರಿಯಲು ನೀರನ್ನು ನೀಡುವುದು ಮುಖ್ಯ.\n\n5. **ಪರಿಶೀಲನೆ**: \n   - MOP ನೀಡಿದ ನಂತರ, ದ್ರಾಕ್ಷಿಯ ಬೆಳವಣಿಗೆ ಮತ್ತು ಆರೋಗ್ಯವನ್ನು ನಿಯಮಿತವಾಗಿ ಪರಿಶೀಲಿಸಿ.\n\nಈ ಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸುವ ಮೂಲಕ, ನೀವು ದ್ರಾಕ್ಷಿಗೆ MOP ಗೊಬ್ಬರವನ್ನು ಪರಿಣಾಮಕಾರಿಯಾಗಿ ನೀಡಬಹುದು.",
+        "en": "To give MOP (Muriate of Potash) fertilizer to grapes, you can follow the following steps:\n\n1. **Manure quantity**: \n   - MOP fertilizer can be used in the range of 50-100 kg/acre. The quantity can be set based on the health of your ground and the stage of growing.\n\n2. **Time to apply**: \n   - It is best to give MOP at the stage of growing fruits or 2-3 weeks before the growth of fruits.\n\n3. **Method of application**: \n   - Apply the MOP evenly at the top of the ground, then mix well on the ground. \n   - If you use fertigation method through drip irrigation, mix the MOP with water and then give water.\n\n4. **Providing water**: \n   - After giving the MOP, it is important to give water for the nutrients to flow better in the ground.\n\n5. **Check**: \n   - After giving MOP, check the growth and health of grapes regularly.\n\nBy following these steps, you can effectively give MOP fertilizer to grapes.",
+        "timestamp": {
+          "$date": "2025-02-06T10:49:46.889Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Mop ಗೆ sop ಗೆ ಏನೂ ವ್ಯತ್ಯಾಸ ಯಾವದೂ ಸೂಕ್ತ ದ್ರಾಕ್ಷಿ ಬೆಳೆಗೆ ",
+        "en": "There is no difference between MOP to SOP for suitable grape crop ",
+        "timestamp": {
+          "$date": "2025-02-06T10:50:51.504Z"
+        },
+        "standalone_question": "What is the difference between MOP (Muriate of Potash) and SOP (Sulfate of Potash) fertilizers, and which is more suitable for grape cultivation?",
+        "standalone_en": "What is the difference between MOP (Muriate of Potash) and SOP (Sulfate of Potash) fertilizers, and which is more suitable for grape cultivation?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "Mop ge sop ge enu vyatyasa yavadu sukta drakshi belege "
+      },
+      {
+        "role": "assistant",
+        "content": "MOP (Muriate of Potash) ಮತ್ತು SOP (Sulfate of Potash) ಎರಡೂ ಪೊಟ್ಯಾಸಿಯಮ್ ಗೊಬ್ಬರಗಳಾಗಿವೆ, ಆದರೆ ಅವುಗಳಲ್ಲಿ ಕೆಲವು ಪ್ರಮುಖ ವ್ಯತ್ಯಾಸಗಳಿವೆ:\n\n### MOP (Muriate of Potash)\n- **ರಾಸಾಯನಿಕ ಸಂಯೋಜನೆ**: KCl (ಪೊಟ್ಯಾಸಿಯಮ್ ಕ್ಲೋರಿಡ್).\n- **ಪೊಟ್ಯಾಸಿಯಮ್ ಶ್ರೇಣಿಯು**: 60% ಕ್ಕಿಂತ ಹೆಚ್ಚು.\n- **ಕ್ಲೋರಿಡ್**: MOP ನಲ್ಲಿ ಕ್ಲೋರಿಡ್ ಅಂಶವಿದೆ, ಇದು ಕೆಲವು ಸಸ್ಯಗಳಿಗೆ ಹಾನಿಕಾರಕವಾಗಬಹುದು, ವಿಶೇಷವಾಗಿ ದ್ರಾಕ್ಷಿ ಬೆಳೆಗೆ.\n- **ಬಳಕೆ**: MOP ಸಾಮಾನ್ಯವಾಗಿ ಕಡಿಮೆ ವೆಚ್ಚದಲ್ಲಿ ಲಭ್ಯವಿದ್ದು, ಸಾಮಾನ್ಯವಾಗಿ ಹೆಚ್ಚು ಉತ್ಪಾದಕತೆಗಾಗಿ ಬಳಸಲಾಗುತ್ತದೆ.\n\n### SOP (Sulfate of Potash)\n- **ರಾಸಾಯನಿಕ ಸಂಯೋಜನೆ**: K2SO4 (ಪೊಟ್ಯಾಸಿಯಮ್ ಸಲ್ಫೇಟ್).\n- **ಪೊಟ್ಯಾಸಿಯಮ್ ಶ್ರೇಣಿಯು**: 50% ಕ್ಕಿಂತ ಹೆಚ್ಚು.\n- **ಕ್ಲೋರಿಡ್ ಇಲ್ಲ**: SOP ನಲ್ಲಿ ಕ್ಲೋರಿಡ್ ಇಲ್ಲ, ಇದು ದ್ರಾಕ್ಷಿ ಮತ್ತು ಇತರ ನಾಜೂಕಾದ ಸಸ್ಯಗಳಿಗೆ ಉತ್ತಮವಾಗಿದೆ.\n- **ಬಳಕೆ**: SOP ಹೆಚ್ಚು ವೆಚ್ಚವಿರುವಾಗ, ಆದರೆ ಇದು ಉತ್ತಮ ಗುಣಮಟ್ಟದ ಹಣ್ಣುಗಳು ಮತ್ತು ಬೆಳೆಯುವಿಕೆಗಾಗಿ ಉತ್ತಮವಾಗಿದೆ.\n\n### ಸೂಕ್ತ ದ್ರಾಕ್ಷಿ ಬೆಳೆಗೆ\n- **SOP**: ದ್ರಾಕ್ಷಿ ಬೆಳೆಗೆ SOP ಹೆಚ್ಚು ಸೂಕ್ತವಾಗಿದೆ, ಏಕೆಂದರೆ ಇದು ಕ್ಲೋರಿಡ್ ಅನ್ನು ಒಳಗೊಂಡಿಲ್ಲ ಮತ್ತು ಹಣ್ಣುಗಳ ಗುಣಮಟ್ಟವನ್ನು ಸುಧಾರಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.\n- **MOP**: MOP ಅನ್ನು ಬಳಸಿದರೆ, ನೀವು ಕ್ಲೋರಿಡ್ ಮಟ್ಟವನ್ನು ಗಮನದಲ್ಲಿಟ್ಟುಕೊಳ್ಳಬೇಕು, ಏಕೆಂದರೆ ಇದು ದ್ರಾಕ್ಷಿಯ ಬೆಳೆಯ ಮೇಲೆ ಹಾನಿಕಾರಕ ಪರಿಣಾಮ ಬೀರುತ್ತದೆ.\n\nಹೀಗಾಗಿ, ದ್ರಾಕ್ಷಿ ಬೆಳೆಗೆ SOP ಬಳಸುವುದು ಉತ್ತಮ ಆಯ್ಕೆಯಾಗಿದೆ.",
+        "en": "Both MOP (Muriate of Potash) and SOP (Sulfate of Potash) are potassium fertilizers, but there are some important differences between them:\n\n### MOP (Muriate of Potash)\n- **Chemical composition**: KCl (potassium chloride).\n- **Potassium range**: More than 60%.\n- **Chlorid**: MOP contains chloride content, which can be harmful to some plants, especially for the grape crop.\n- **Usage**: MOP is generally available at a lower cost and is generally used for higher productivity.\n\n### SOP (Sulfate of Potash)\n- **Chemical composition**: K2SO4 (potassium sulphate).\n- **Potassium range**: More than 50%.\n- **No chlorid**: There is no chloride in SOP, which is good for grapes and other delicate plants.\n- **Usage**: When SOP is more expensive, but it is good for good quality fruits and growing.\n\n### For suitable grape crop\n- **SOP**: SOP is more suitable for grape crop, as it does not contain chloride and helps in improving the quality of fruits.\n- **MOP**: If MOP is used, you should keep in mind the chloride level, as it can have a detrimental effect on the grape crop.\n\nThus, using SOP for grape crop is a good option.",
+        "timestamp": {
+          "$date": "2025-02-06T10:51:02.225Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Stem nicrosise ಗೆ ಪರಿಹಾರ ತಿಳಿಸಿ",
+        "en": "Tell a solution to stem nicrosise",
+        "timestamp": {
+          "$date": "2025-02-06T10:52:26.730Z"
+        },
+        "standalone_question": "What are the solutions for stem necrosis?",
+        "standalone_en": "What are the solutions for stem necrosis?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "Stem nicrosise ge parihar thilisi"
+      },
+      {
+        "role": "assistant",
+        "content": "Stem necrosis (ಸ್ಟೆಮ್ ನೆಕ್ರೋಸಿಸ್) ಒಂದು ಸಸ್ಯ ರೋಗವಾಗಿದೆ, ಇದು ಸಾಮಾನ್ಯವಾಗಿ ಬ್ಯಾಕ್ಟೀರಿಯಾ ಅಥವಾ ಫಂಗಸ್‌ನಿಂದ ಉಂಟಾಗುತ್ತದೆ. ಈ ರೋಗವು ಸಸ್ಯದ ತೊಟ್ಟಿಗೆ ಹಾನಿ ಮಾಡುತ್ತದೆ, ಇದರಿಂದ ಸಸ್ಯದ ಬೆಳವಣಿಗೆ ಮತ್ತು ಉತ್ಪಾದಕತೆ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರುತ್ತದೆ.\n\n### ಪರಿಹಾರ ಕ್ರಮಗಳು:\n\n1. **ಪೆಸ್ಟಿಸೈಡ್ ಬಳಕೆ**:\n   - **Carbendazim** @ 2.5g/ltr ಅಥವಾ **Chlorothalonil** @ 2g/ltr ಅನ್ನು ಸೀಡ್ಲಿಂಗ್‌ಗಳಿಗೆ ಡ್ರೆಂಚ್ ಅಥವಾ ಸ್ಪ್ರೇ ಮಾಡಿ.\n\n2. **ಹಾನಿಯಾದ ಭಾಗಗಳನ್ನು ತೆಗೆದುಹಾಕುವುದು**:\n   - ಹಾನಿಯಾದ ತೊಟ್ಟಿಗಳನ್ನು ಅಥವಾ ಸಸ್ಯದ ಭಾಗಗಳನ್ನು ತಕ್ಷಣವೇ ತೆಗೆದು ಹಾಕಿ, ಇದು ರೋಗವನ್ನು ಹರಡುವುದನ್ನು ತಡೆಯುತ್ತದೆ.\n\n3. **ಹವಾಮಾನ ನಿಯಂತ್ರಣ**:\n   - ಉತ್ತಮ ಹವಾಮಾನವನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ, ಹೆಚ್ಚು ತಾಪಮಾನ ಅಥವಾ ತೇವಾಂಶವು ರೋಗವನ್ನು ಹರಡುವುದಕ್ಕೆ ಕಾರಣವಾಗಬಹುದು.\n\n4. **ನೀರು ನೀಡುವ ನಿಯಂತ್ರಣ**:\n   - ನೆಲದಲ್ಲಿ ಹೆಚ್ಚು ನೀರು ಅಥವಾ ತೇವಾಂಶವನ್ನು ತಪ್ಪಿಸಲು, ಇದು ಬ್ಯಾಕ್ಟೀರಿಯಾ ಮತ್ತು ಫಂಗಸ್‌ಗಳಿಗೆ ಬೆಳೆಸಲು ಅನುಕೂಲವಾಗುತ್ತದೆ.\n\n5. **ನೈಸರ್ಗಿಕ ಶತ್ರುಗಳನ್ನು ಉತ್ತೇಜಿಸುವುದು**:\n   - ನೈಸರ್ಗಿಕ ಶತ್ರುಗಳನ್ನು ಉತ್ತೇಜಿಸುವ ಮೂಲಕ, ರೋಗವನ್ನು ನಿಯಂತ್ರಿಸಲು ಸಹಾಯ ಮಾಡಬಹುದು.\n\nಈ ಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸುವ ಮೂಲಕ, ನೀವು ಸ್ಟೆಮ್ ನೆಕ್ರೋಸಿಸ್ ಸಮಸ್ಯೆಯನ್ನು ನಿಯಂತ್ರಿಸಲು ಸಹಾಯ ಮಾಡಬಹುದು.",
+        "en": "Stem necrosis (stem necrosis) is a plant disease usually caused by bacteria or fungi. This disease damages the tank of the plant, thereby affecting the growth and productivity of the plant.\n\n### Remedial measures:\n\n1. **Pesticide use**:\n   - **Carbendazim** @ 2.5g/ltr or **Chlorothalonil** @ 2G/LTR trench or spray seedlings.\n\n2. **Removing damaged parts**:\n   - Remove damaged tanks or parts of the plant immediately, which will prevent the spread of the disease.\n\n3. **Climate Control**:\n   - Ensure good weather, high temperature or humidity can lead to the spread of the disease.\n\n4. **Water supply control**:\n   - To avoid too much water or moisture in the ground, it facilitates the growth of bacteria and fungi.\n\n5. **Promoting natural enemies**:\n   - By promoting natural enemies, the disease can be helped.\n\nBy following these steps, you can help control the problem of stem necrosis.",
+        "timestamp": {
+          "$date": "2025-02-06T10:52:37.922Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ನೀರು ಗಾಳು ಆಗಲು ಕಾರಣ ತಿಳಿಸಿ",
+        "en": "State the reason for the water logging",
+        "timestamp": {
+          "$date": "2025-02-06T10:53:52.124Z"
+        },
+        "standalone_question": "What are the causes of waterlogging?",
+        "standalone_en": "What are the causes of waterlogging?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "neeru galu aagalu karan thilisi"
+      },
+      {
+        "role": "assistant",
+        "content": "ನೀರು ಗಾಳು (water stress) ಆಗಲು ಹಲವಾರು ಕಾರಣಗಳಿರಬಹುದು. ಇಲ್ಲಿವೆ ಕೆಲವು ಪ್ರಮುಖ ಕಾರಣಗಳು:\n\n1. **ತೇವಾಂಶದ ಕೊರತೆಯು**: ನೆಲದಲ್ಲಿ ನೀರಿನ ಕೊರತೆಯು, ಇದು ಸಸ್ಯಗಳಿಗೆ ಅಗತ್ಯವಿರುವ ನೀರನ್ನು ಒದಗಿಸಲು ಸಾಧ್ಯವಾಗದಾಗ ಉಂಟಾಗುತ್ತದೆ.\n\n2. **ಹೆಚ್ಚಿನ ತಾಪಮಾನ**: ಹೆಚ್ಚು ತಾಪಮಾನವು ನೀರಿನ ವाष್ಪೀಕರಣವನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ, ಇದರಿಂದ ನೆಲದ ತೇವಾಂಶ ಕಡಿಮೆ ಆಗುತ್ತದೆ.\n\n3. **ಹಾನಿಕಾರಕ ಕೀಟಗಳು**: ಕೀಟಗಳು ಅಥವಾ ಇತರ ಪ್ಯಾಥೋಜೆನ್ಸ್ ಸಸ್ಯದ ಭಾಗಗಳನ್ನು ಹಾಳು ಮಾಡಬಹುದು, ಇದರಿಂದ ನೀರಿನ ಶೋಷಣೆ ಹೆಚ್ಚಾಗುತ್ತದೆ.\n\n4. **ನೀರು ನೀಡುವ ನಿಯಂತ್ರಣದ ಕೊರತೆಯು**: ನೀರನ್ನು ಸಮತೋಲಿತವಾಗಿ ನೀಡದಿದ್ದರೆ, ಇದು ಸಸ್ಯಗಳಿಗೆ ನೀರಿನ ಕೊರತೆಯನ್ನು ಉಂಟುಮಾಡಬಹುದು.\n\n5. **ಹೆಚ್ಚಿನ ಹವಾಮಾನ ಬದಲಾವಣೆ**: ಹವಾಮಾನ ಬದಲಾವಣೆಗಳು, ಉದಾಹರಣೆಗೆ, ಮಳೆ ಅಥವಾ ಬಿಸಿಲಿನ ಬದಲಾವಣೆಗಳು, ನೀರಿನ ಒತ್ತಡವನ್ನು ಹೆಚ್ಚಿಸಬಹುದು.\n\n6. **ಮಣ್ಣು ಗುಣಮಟ್ಟ**: ಮಣ್ಣಿನ ಗುಣಮಟ್ಟವು ನೀರಿನ ಶೋಷಣೆಗೆ ಪರಿಣಾಮ ಬೀರುತ್ತದೆ. ಕಡಿಮೆ ಪೋಷಕಾಂಶಗಳು ಅಥವಾ ಕಡಿಮೆ ನೀರಿನ ಶ್ರೇಣಿಯು ನೀರಿನ ಕೊರತೆಯನ್ನು ಉಂಟುಮಾಡಬಹುದು.\n\nಈ ಕಾರಣಗಳನ್ನು ಗಮನದಲ್ಲಿಟ್ಟುಕೊಂಡು, ನೀವು ನೀರಿನ ಗಾಳು ಸಮಸ್ಯೆಯನ್ನು ನಿಯಂತ್ರಿಸಲು ಕ್ರಮಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಬಹುದು.",
+        "en": "There can be several reasons for water stress. Here are some of the main reasons:\n\n1. **Lack of moisture**: Lack of water in the ground, which occurs when plants are unable to provide the required water.\n\n2. **High temperature**: Higher temperatures increase the evaporation of water, thereby reducing the moisture content of the soil.\n\n3. **Harmful insects**: Insects or other pathogens can spoil parts of the plant, thereby increasing the exploitation of water.\n\n4. **Lack of water-giving control**: If water is not given in a balanced manner, it can cause water scarcity for plants.\n\n5. **High climate change**: Climate changes, for example, changes in rainfall or sunlight, can increase water pressure.\n\n6. **Soil quality**: Soil quality affects water exploitation. Low nutrients or low water range can cause water scarcity.\n\nKeeping these reasons in mind, you can take steps to control the problem of water logging.",
+        "timestamp": {
+          "$date": "2025-02-06T10:54:01.093Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ದ್ರಾಕ್ಷಿಗೆ ಶೇಂಗಾ ಹಿಂಡಿ ಉಪಯೋಗ ಮಾಡಿದರೆ ಹೇಗೆ ",
+        "en": "How to use groundnut for grapes ",
+        "timestamp": {
+          "$date": "2025-02-06T10:56:10.435Z"
+        },
+        "standalone_question": "How to use groundnut cake (shenga hinda) for grapevines?",
+        "standalone_en": "How to use groundnut cake (shenga hinda) for grapevines?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "drakshige shenga hindi upayoga madidare hege "
+      },
+      {
+        "role": "assistant",
+        "content": "ದ್ರಾಕ್ಷಿಗೆ ಶೇಂಗಾ ಹಿಂಡಿ (Groundnut Cake) ಉಪಯೋಗಿಸುವುದು ಉತ್ತಮ ಪೋಷಕಾಂಶಗಳ ಮೂಲವಾಗಿದೆ. ಇದು ದ್ರಾಕ್ಷಿಯ ಬೆಳವಣಿಗೆಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ. ಶೇಂಗಾ ಹಿಂಡಿಯನ್ನು ಬಳಸುವ ವಿಧಾನಗಳು:\n\n1. **ಪೋಷಕಾಂಶಗಳ ಒದಗಿಸುವುದು**:\n   - ಶೇಂಗಾ ಹಿಂಡಿಯಲ್ಲಿ ನೈಟ್ರೋಜನ್, ಫಾಸ್ಫೋರ್ ಮತ್ತು ಪೊಟ್ಯಾಸಿಯಮ್ ಇದ್ದು, ಇದು ದ್ರಾಕ್ಷಿಯ ಬೆಳವಣಿಗೆಗೆ ಅಗತ್ಯವಿದೆ.\n\n2. **ಅನ್ವಯಿಸುವ ಪ್ರಮಾಣ**:\n   - 100-200 ಕಿ.ಗ್ರಾಂ/ಎಕರೆ ಪ್ರಮಾಣದಲ್ಲಿ ಶೇಂಗಾ ಹಿಂಡಿಯನ್ನು ಬಳಸಬಹುದು. ನಿಮ್ಮ ನೆಲದ ಆರೋಗ್ಯ ಮತ್ತು ಬೆಳೆಯುವ ಹಂತವನ್ನು ಆಧರಿಸಿ ಪ್ರಮಾಣವನ್ನು ಹೊಂದಿಸಬಹುದು.\n\n3. **ಅನ್ವಯಿಸುವ ವಿಧಾನ**:\n   - ಶೇಂಗಾ ಹಿಂಡಿಯನ್ನು ನೆಲದ ಮೇಲ್ಮಟ್ಟದಲ್ಲಿ ಸಮಾನವಾಗಿ ಹಚ್ಚಿ, ನಂತರ ನೆಲದಲ್ಲಿ ಚೆನ್ನಾಗಿ ಮಿಶ್ರಣ ಮಾಡಿ.\n\n4. **ನೀರು ನೀಡುವುದು**:\n   - ಶೇಂಗಾ ಹಿಂಡಿಯನ್ನು ನೀಡಿದ ನಂತರ, ನೆಲದಲ್ಲಿ ಪೋಷಕಾಂಶಗಳನ್ನು ಉತ್ತಮವಾಗಿ ಹರಿಯಲು ನೀರನ್ನು ನೀಡುವುದು ಮುಖ್ಯ.\n\n5. **ಪರಿಶೀಲನೆ**:\n   - ಶೇಂಗಾ ಹಿಂಡಿ ನೀಡಿದ ನಂತರ, ದ್ರಾಕ್ಷಿಯ ಬೆಳವಣಿಗೆ ಮತ್ತು ಆರೋಗ್ಯವನ್ನು ನಿಯಮಿತವಾಗಿ ಪರಿಶೀಲಿಸಿ.\n\nಈ ಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸುವ ಮೂಲಕ, ನೀವು ದ್ರಾಕ್ಷಿಗೆ ಶೇಂಗಾ ಹಿಂಡಿ ಉಪಯೋಗಿಸುವ ಮೂಲಕ ಉತ್ತಮ ಫಲಿತಾಂಶಗಳನ್ನು ಪಡೆಯಬಹುದು.",
+        "en": "Using groundnut cake for grapes is a good source of nutrients. It helps in the growth of grapes. The methods of using groundnut husk are:\n\n1. **Providing nutrients**:\n   - Peanut flour contains nitrogen, phosphore and potassium, which is required for the growth of grapes.\n\n2. **Applicable Quantity**:\n   - Groundnut husk can be used in the range of 100-200 kg/acre. The quantity can be set based on the health of your ground and the stage of growing.\n\n3. **Method of application**:\n   - Apply the groundnut husk evenly on the top of the floor, then mix well on the ground.\n\n4. **Providing water**:\n   - After giving the groundnut husk, it is important to give water for the nutrients to flow better in the ground.\n\n5. **Check**:\n   - After giving groundnut flour, check the growth and health of grapes regularly.\n\nBy following these steps, you can get better results by using groundnut squeeze for grapes.",
+        "timestamp": {
+          "$date": "2025-02-06T10:56:18.585Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "SOP and mangesiuma ಉಪಯೋಗ ಮಾಡಿದರೆ ಹೇಗೆ ",
+        "en": "How to use SOP and mangesiuma ",
+        "timestamp": {
+          "$date": "2025-02-06T10:57:31.876Z"
+        },
+        "standalone_question": "How to use SOP (Sulfate of Potash) and magnesium for grape cultivation?",
+        "standalone_en": "How to use SOP (Sulfate of Potash) and magnesium for grape cultivation?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "SOP and mangesiuma upayoga madidare hege "
+      },
+      {
+        "role": "assistant",
+        "content": "SOP (Sulfate of Potash) ಮತ್ತು ಮ್ಯಾಗ್ನೀಶಿಯಮ್ (Magnesium) ಅನ್ನು ದ್ರಾಕ್ಷಿ ಬೆಳೆಗೆ ಬಳಸುವುದು ಉತ್ತಮ ಫಲಿತಾಂಶಗಳನ್ನು ನೀಡಬಹುದು. ಇಲ್ಲಿದೆ ಹೇಗೆ ಬಳಸುವುದು:\n\n### SOP (Sulfate of Potash)\n1. **ಪೋಷಕಾಂಶಗಳ ಒದಗಿಸುವುದು**:\n   - SOP ದ್ರಾಕ್ಷಿಗೆ ಪೊಟ್ಯಾಸಿಯಮ್ ಮತ್ತು ಸುಲ್ಫರ್ ಅನ್ನು ಒದಗಿಸುತ್ತದೆ, ಇದು ಹಣ್ಣುಗಳ ಗುಣಮಟ್ಟವನ್ನು ಸುಧಾರಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.\n\n2. **ಅನ್ವಯಿಸುವ ಪ್ರಮಾಣ**:\n   - 50-100 ಕಿ.ಗ್ರಾಂ/ಎಕರೆ SOP ಅನ್ನು ಬಳಸಬಹುದು. ನಿಮ್ಮ ನೆಲದ ಆರೋಗ್ಯ ಮತ್ತು ಬೆಳೆಯುವ ಹಂತವನ್ನು ಆಧರಿಸಿ ಪ್ರಮಾಣವನ್ನು ಹೊಂದಿಸಬಹುದು.\n\n3. **ಅನ್ವಯಿಸುವ ವಿಧಾನ**:\n   - SOP ಅನ್ನು ನೆಲದ ಮೇಲ್ಮಟ್ಟದಲ್ಲಿ ಸಮಾನವಾಗಿ ಹಚ್ಚಿ, ನಂತರ ನೆಲದಲ್ಲಿ ಚೆನ್ನಾಗಿ ಮಿಶ್ರಣ ಮಾಡಿ.\n\n### Magnesium\n1. **ಪೋಷಕಾಂಶಗಳ ಒದಗಿಸುವುದು**:\n   - ಮ್ಯಾಗ್ನೀಶಿಯಮ್ ಸಸ್ಯದ ಕ್ಲೋಫಿಲ್ ಉತ್ಪಾದನೆಗೆ ಅಗತ್ಯವಿದೆ, ಇದು ಬೆಳೆಯ ಬೆಳವಣಿಗೆಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.\n\n2. **ಅನ್ವಯಿಸುವ ಪ್ರಮಾಣ**:\n   - 20-30 ಕಿ.ಗ್ರಾಂ/ಎಕರೆ ಮ್ಯಾಗ್ನೀಶಿಯಮ್ ಅನ್ನು ಬಳಸಬಹುದು. \n\n3. **ಅನ್ವಯಿಸುವ ವಿಧಾನ**:\n   - ಮ್ಯಾಗ್ನೀಶಿಯಮ್ ಅನ್ನು ನೆಲದಲ್ಲಿ ಅಥವಾ ನೀರಿನೊಂದಿಗೆ ಮಿಶ್ರಣ ಮಾಡಿ, ನಂತರ ನೀರನ್ನು ನೀಡಬಹುದು.\n\n### ನೀರು ನೀಡುವುದು\n- SOP ಮತ್ತು ಮ್ಯಾಗ್ನೀಶಿಯಮ್ ಅನ್ನು ನೀಡಿದ ನಂತರ, ನೆಲದಲ್ಲಿ ಪೋಷಕಾಂಶಗಳನ್ನು ಉತ್ತಮವಾಗಿ ಹರಿಯಲು ನೀರನ್ನು ನೀಡುವುದು ಮುಖ್ಯ.\n\n### ಪರಿಶೀಲನೆ\n- SOP ಮತ್ತು ಮ್ಯಾಗ್ನೀಶಿಯಮ್ ನೀಡಿದ ನಂತರ, ದ್ರಾಕ್ಷಿಯ ಬೆಳವಣಿಗೆ ಮತ್ತು ಆರೋಗ್ಯವನ್ನು ನಿಯಮಿತವಾಗಿ ಪರಿಶೀಲಿಸಿ.\n\nಈ ಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸುವ ಮೂಲಕ, ನೀವು SOP ಮತ್ತು ಮ್ಯಾಗ್ನೀಶಿಯಮ್ ಅನ್ನು ದ್ರಾಕ್ಷಿ ಬೆಳೆಗೆ ಪರಿಣಾಮಕಾರಿಯಾಗಿ ಬಳಸಬಹುದು.",
+        "en": "Using SOP (Sulfate of Potash) and Magnesium for grape crop can give good results. Here's how to use:\n\n### SOP (Sulfate of Potash)\n1. **Providing nutrients**:\n   - SOP provides potassium and sulphur to grapes, which helps in improving the quality of fruits.\n\n2. **Applicable Quantity**:\n   - 50-100 kg/acre SOP can be used. The quantity can be set based on the health of your ground and the stage of growing.\n\n3. **Method of application**:\n   - Apply SOP evenly on the top of the floor, then mix well on the ground.\n\n### Magnesium\n1. **Providing nutrients**:\n   - Magnesium is required for the clophyll production of the plant, which helps in the growth of the crop.\n\n2. **Applicable Quantity**:\n   - 20-30 kg/acre of magnesium can be used. \n\n3. **Method of application**:\n   - Magnesium can be mixed on the ground or with water, then water can be given.\n\n### Providing water\n- After giving SOP and magnesium, it is important to give water for better flow of nutrients in the ground.\n\n### Verification\n- After administration of SOP and magnesium, regularly check the growth and health of grapes.\n\nBy following these steps, you can use SOP and magnesium effectively for the grape crop.",
+        "timestamp": {
+          "$date": "2025-02-06T10:57:49.131Z"
+        }
+      }
+    ],
+    "farmer_id": "yallavvamallappameti",
+    "farmer_plot_ids": [
+      "plotno2367"
+    ],
+    "conversation_id": "67a4901dd30c207118337c79",
+    "_id": "67a4901dd30c207118337c79",
+    "language": "ka",
+    "expiry": {
+      "$date": "2025-02-06T11:02:31.888000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-02-06T10:34:07.367000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "ಮಿಲಿಬಗ್ ಸಿಂಪರಣೆ ಮಾಡಿದರು ಮೀಟರ್ ರೆಡ್ ಕಲರ್ ತೋರಿಸುತ್ತಾ ಇದೆ ಯಾಕೇ",
+        "en": "Why the meter sprayed with millibug is showing red color",
+        "timestamp": {
+          "$date": "2025-02-06T10:34:07.367Z"
+        },
+        "standalone_question": "Why is the meter showing a red color?",
+        "standalone_en": "Why is the meter showing a red color?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "milibag simparane madidaru meter red colour torisutta ide yake"
+      },
+      {
+        "role": "assistant",
+        "content": "ನಿಮ್ಮ ಸೆನ್ಸರ್ 200 kPa ತೋರಿಸುತ್ತಿದ್ದರೆ, ಇದು ನೆಲ ಸಂಪೂರ್ಣವಾಗಿ ಒಣಗಿರುವುದನ್ನು ಸೂಚಿಸುತ್ತದೆ ಅಥವಾ ಸೆನ್ಸರ್ ನೆಲದ ಹೊರಗೆ ಇರಬಹುದು ಅಥವಾ ಸೆನ್ಸರ್ ರಾಡ್‌ಗಳಿಗೆ ವಿದ್ಯುತ್ ತಲುಪುತ್ತಿಲ್ಲ. \n\nನೀವು irrigation ಮಾಡಿದ ನಂತರ, ಸೆನ್ಸರ್ 200 kPa ಗೆ ತಕ್ಷಣವೇ ಏರಿದರೆ, ಇದು ಕೇಬಲ್ ಅಥವಾ ಸಂಪರ್ಕದಲ್ಲಿ ಸಮಸ್ಯೆ ಇರಬಹುದು. ದಯವಿಟ್ಟು ಸೆನ್ಸರ್ ಅನ್ನು ಶಾರೀರಿಕವಾಗಿ ಪರಿಶೀಲಿಸಿ.\n\nಆದರೆ, ನೀವು irrigation ಮಾಡಿದ ನಂತರ, ಸೆನ್ಸರ್ 200 kPa ಗೆ ಹಂತ ಹಂತವಾಗಿ ಏರಿದರೆ, ನೀವು ಬಹಳಷ್ಟು ಸಮಯದಿಂದ irrigation ಮಾಡಿಲ್ಲದಿದ್ದರೆ, ನೆಲ ಒಣಗಿರುವುದು ಸಹಜವಾಗಿದೆ. \n\nದಯವಿಟ್ಟು irrigation ಮಾಡಿದ ದಿನಾಂಕವನ್ನು ತಿಳಿಸಿ, ನಾನು ನಿಮಗೆ ಹೆಚ್ಚು ಸಹಾಯ ಮಾಡಬಹುದು.",
+        "en": "If your sensor is showing 200 kPa, it indicates that the ground is completely dry or the sensor may be outside the ground or the current is not reaching the sensor rods. \n\nAfter you have done the irrigation, if the sensor rises immediately to 200 kPa, it could be a problem with the cable or connection. Please physically check the sensor.\n\nBut, after you have done irrigation, if the sensor rises step by step to 200 kPa, if you haven't irrigated for a long time, it's natural for the floor to be dry. \n\nPlease tell me the date of irrigation, I can help you more.",
+        "timestamp": {
+          "$date": "2025-02-06T10:34:18.483Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "04.02.2025",
+        "en": "04.02.2025",
+        "timestamp": {
+          "$date": "2025-02-06T10:35:17.005Z"
+        },
+        "standalone_question": "What is the date of your last irrigation?",
+        "standalone_en": "What is the date of your last irrigation?",
+        "retrieval": {
+          "tools": [
+            "get_irrigation_forecast  \nGives the irrigation requirement forecast for any day, today and beyond. Dates are mandatory. Output is humanized with day of the week and optimal moisture details if suitable."
+          ],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "ನೀವು 04.02.2025 ರಂದು irrigation ಮಾಡಿದರೆ, ಸೆನ್ಸರ್‌ಗಳಿಗೆ ನೀರು ತಲುಪಲು 12 ಗಂಟೆಗಳ ಕಾಲ ಕಾಯಬೇಕು. ಆದ್ದರಿಂದ, ಇಂದು 06.02.2025, 16:05:18 ರಂದು, ನೀವು irrigation ಮಾಡಿದ ನಂತರ 12 ಗಂಟೆಗಳ ಕಾಲ ಕಳೆದಿದೆ.\n\nನೀವು irrigation ಮಾಡಿದ ನಂತರ, ಸೆನ್ಸರ್‌ಗಳು 200 kPa ತೋರಿಸುತ್ತಿದ್ದರೆ, ಇದು ನೆಲ ಒಣಗಿರುವುದನ್ನು ಸೂಚಿಸುತ್ತದೆ. ದಯವಿಟ್ಟು ಈ ಕೆಳಗಿನ ವಿಷಯಗಳನ್ನು ಪರಿಶೀಲಿಸಿ:\n\n1. **Drip Irrigation**: ನೀರು ಸೆನ್ಸರ್‌ಗಳಿಗೆ ಸರಿಯಾಗಿ ತಲುಪುತ್ತಿದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಿ. ಡ್ರಿಪ್‌ಗಳು ತಡೆಗಟ್ಟಲ್ಪಟ್ಟಿದ್ದರೆ ಅಥವಾ ಸೆನ್ಸರ್‌ಗಳಿಗೆ ಹತ್ತಿರವಿಲ್ಲದಿದ್ದರೆ, ನೀರು ಸರಿಯಾಗಿ ಹರಿಯುವುದಿಲ್ಲ.\n\n2. **Sensor Condition**: ಸೆನ್ಸರ್ 2 ವರ್ಷಕ್ಕಿಂತ ಹೆಚ್ಚು ಹಳೆಯದಾದರೆ, ಅದು ಕಾರ್ಯನಿರ್ವಹಣೆಯಲ್ಲಿ ಸಮಸ್ಯೆ ಉಂಟುಮಾಡಬಹುದು. ನೀವು ಟಿಕೆಟ್ ಎತ್ತಲು ಬಯಸುತ್ತೀರಾ?\n\nಈ ವಿಷಯಗಳನ್ನು ಪರಿಶೀಲಿಸಿ, ನಾನು ಇನ್ನಷ್ಟು ಸಹಾಯ ಮಾಡಲು ಇಲ್ಲಿದ್ದೇನೆ.",
+        "en": "If you do irrigation on 04.02.2025, you have to wait for 12 hours for water to reach the sensors. So, today on 06.02.2025, 16:05:18, 12 hours have passed since you did irrigation.\n\nAfter you do irrigation, if the sensors show 200 kPa, it indicates that the ground is dry. Please check the following things:\n\n1. **Drip Irrigation**: Check if the water is reaching the sensors properly. If the drips are blocked or not close to the sensors, the water will not flow properly.\n\n2. **Sensor Condition**: If the sensor is more than 2 years old, it can cause problems in performance. Do you want to lift a ticket?\n\nCheck out these things, I'm here to help even more.",
+        "timestamp": {
+          "$date": "2025-02-06T10:35:24.190Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Installation ಮಾಡಿ one week ಆಗಿದೆ",
+        "en": "Install it is one week",
+        "timestamp": {
+          "$date": "2025-02-06T10:37:39.583Z"
+        },
+        "standalone_question": "How long has it been since the installation?",
+        "standalone_en": "How long has it been since the installation?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "Installation madi one week agide"
+      },
+      {
+        "role": "assistant",
+        "content": "ನೀವು ಸೆನ್ಸರ್‌ಗಳನ್ನು ಸ್ಥಾಪಿಸಿದಾಗಿನಿಂದ ಒಂದು ವಾರ ಕಳೆದಿದ್ದರೆ, ಇದು ಕಾರ್ಯನಿರ್ವಹಣೆಯಲ್ಲಿ ಸಮಸ್ಯೆ ಉಂಟುಮಾಡಬಹುದು. \n\n1. **Drip Irrigation**: ದಯವಿಟ್ಟು ಡ್ರಿಪ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸಿ. ಅವು ತಡೆಗಟ್ಟಲ್ಪಟ್ಟಿದ್ದರೆ ಅಥವಾ ಸೆನ್ಸರ್‌ಗಳಿಗೆ ಹತ್ತಿರವಿಲ್ಲದಿದ್ದರೆ, ನೀರು ಸರಿಯಾಗಿ ಹರಿಯುವುದಿಲ್ಲ.\n\n2. **Sensor Condition**: ಸೆನ್ಸರ್‌ಗಳು 2 ವರ್ಷಕ್ಕಿಂತ ಹೆಚ್ಚು ಹಳೆಯದಾದರೆ, ಅದು ಕಾರ್ಯನಿರ್ವಹಣೆಯಲ್ಲಿ ಸಮಸ್ಯೆ ಉಂಟುಮಾಡಬಹುದು. ನೀವು ಟಿಕೆಟ್ ಎತ್ತಲು ಬಯಸುತ್ತೀರಾ?\n\nಈ ವಿಷಯಗಳನ್ನು ಪರಿಶೀಲಿಸಿ, ನಾನು ಇನ್ನಷ್ಟು ಸಹಾಯ ಮಾಡಲು ಇಲ್ಲಿದ್ದೇನೆ.",
+        "en": "If a week has passed since you installed the sensors, it can cause problems with performance. \n\n1. **Drip Irrigation**: Please check the drips. If they are blocked or not close to the sensors, the water will not flow properly.\n\n2. **Sensor Condition**: If the sensors are more than 2 years old, it can cause problems in performance. Do you want to lift a ticket?\n\nCheck out these things, I'm here to help even more.",
+        "timestamp": {
+          "$date": "2025-02-06T10:37:43.887Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ಮೀಲಿಬಗ್ ಬಗ್ಗೆ ತಿಳಿಸಿ",
+        "en": "Tell us about Mealybug",
+        "timestamp": {
+          "$date": "2025-02-06T10:38:17.381Z"
+        },
+        "standalone_question": "Can you provide information about the Milibag?",
+        "standalone_en": "Can you provide information about the Milibag?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mealibug bagge thilisi"
+      },
+      {
+        "role": "assistant",
+        "content": "ಮೀಲಿಬಗ್ (Milibag) ಅಥವಾ \"Mili\" ಎಂಬುದು ಸಾಮಾನ್ಯವಾಗಿ ನೆಲದ ತೇವಾಂಶವನ್ನು ಅಳೆಯುವ ಸಾಧನವಾಗಿದೆ. ಇದು ಕೃಷಿಯಲ್ಲಿ ನೀರಿನ ನಿರ್ವಹಣೆಗೆ ಮತ್ತು ನೆಲದ ಆರೋಗ್ಯವನ್ನು ನಿರ್ವಹಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ. \n\n**ಮೀಲಿಬಗ್ ಕಾರ್ಯವಿಧಾನ:**\n1. **ತೇವಾಂಶ ಅಳೆಯುವುದು**: ಇದು ನೆಲದ ತೇವಾಂಶವನ್ನು ಕಿಪಾ (kPa) ಯಲ್ಲಿ ಅಳೆಯುತ್ತದೆ. 0 kPa ಅಂದರೆ ನೆಲ ತೇವವಾಗಿದ್ದು, 200 kPa ಅಂದರೆ ನೆಲ ಒಣವಾಗಿದೆ.\n2. **ನೀರು ನೀಡುವ ನಿರ್ಧಾರ**: ತೇವಾಂಶದ ಅಳತೆ ಆಧಾರಿತವಾಗಿ, ನೀವು ನೀರು ನೀಡಬೇಕೆಂದು ನಿರ್ಧರಿಸಬಹುದು. 200 kPa ತೋರಿಸುತ್ತಿದ್ದರೆ, ನೀರು ನೀಡಬೇಕಾಗಿದೆ.\n3. **ನೀರು ನೀಡುವ ಸಮಯ**: ಇದು ನೀರು ನೀಡುವ ಉತ್ತಮ ಸಮಯವನ್ನು ನಿರ್ಧರಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ, ಇದರಿಂದ ನೀರಿನ ವ್ಯಯವನ್ನು ಕಡಿಮೆ ಮಾಡಬಹುದು.\n\nನೀವು ಇನ್ನಷ್ಟು ವಿವರಗಳು ಅಥವಾ ನಿರ್ದಿಷ್ಟ ಪ್ರಶ್ನೆಗಳಿದ್ದರೆ, ದಯವಿಟ್ಟು ಕೇಳಿ!",
+        "en": "Milibag or \"Mili\" is usually a device that measures ground moisture. It helps in water management in agriculture and maintenance of soil health. \n\n**Mealybug procedure:**\n1. **Measuring moisture**: It measures ground moisture in kipa (kPa). 0 kPa means the ground is wet and 200 kPa means the ground is dry.\n2. **Decision to give water**: Based on the measurement of humidity, you can decide to give water. If showing 200 kPa, water needs to be given.\n3. **Water giving time**: This helps in determining the best time for watering, thereby reducing the cost of water.\n\nIf you have more details or specific questions, please ask!",
+        "timestamp": {
+          "$date": "2025-02-06T10:38:24.402Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ಜಿಗಿ ಹುಳು ಬಗ್ಗೆ ತಿಳಿಸಿ ",
+        "en": "Tell us about the hopper ",
+        "timestamp": {
+          "$date": "2025-02-06T10:38:57.849Z"
+        },
+        "standalone_question": "What can you tell me about the Jigi worm?",
+        "standalone_en": "What can you tell me about the Jigi worm?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "zigi hulu bagge thilisi "
+      },
+      {
+        "role": "assistant",
+        "content": "ಜಿಗಿ ಹುಳು (Jiggi Hullu) ಅಥವಾ \"Leaf Miner\" ಎಂಬುದು ಕೃಷಿಯಲ್ಲಿ ಸಾಮಾನ್ಯವಾಗಿ ಕಂಡುಬರುವ ಕೀಟವಾಗಿದೆ. ಇದು ಸಸ್ಯದ ಎಲೆಗಳಲ್ಲಿ ನುಸುಳುತ್ತದೆ ಮತ್ತು ಎಲೆಗಳನ್ನು ಹಾಳು ಮಾಡುತ್ತದೆ. \n\n**ಜಿಗಿ ಹುಳದ ಲಕ್ಷಣಗಳು:**\n1. **ನೀವು ನೋಡಬಹುದಾದ ಹಾನಿ**: ಎಲೆಗಳಲ್ಲಿ ನುಸುಳುವ ಹಕ್ಕುಗಳು, ಬಿಳಿ ಅಥವಾ ಹಳದಿ ನುಸುಳುವ ಮಾರ್ಗಗಳು.\n2. **ಹಾನಿಯ ಪ್ರಮಾಣ**: ಇದು ಸಸ್ಯದ ಬೆಳವಣಿಗೆಗೆ ಹಾನಿ ಮಾಡಬಹುದು, ಏಕೆಂದರೆ ಇದು ಸಸ್ಯದ ಪೋಷಕಾಂಶಗಳನ್ನು ಹಾಳು ಮಾಡುತ್ತದೆ.\n\n**ನಿರೋಧಕ ಕ್ರಮಗಳು:**\n1. **ಪestisides**: ಸೂಕ್ತ ಪೆಸ್ಟಿಸೈಡ್‌ಗಳನ್ನು ಬಳಸುವುದು.\n2. **ನೈಸರ್ಗಿಕ ಶತ್ರುಗಳು**: ಜಿಗಿ ಹುಳವನ್ನು ನಾಶ ಮಾಡುವ ನೈಸರ್ಗಿಕ ಶತ್ರುಗಳನ್ನು ಉತ್ತೇಜಿಸುವುದು.\n3. **ಹೆಚ್ಚಿನ ತಾಜಾ ನೀರು**: ಸಸ್ಯಗಳನ್ನು ಉತ್ತಮವಾಗಿ ನೀರಿನ ಮೂಲಕ ಪೋಷಿಸುವುದು.\n\nನೀವು ಇನ್ನಷ್ಟು ವಿವರಗಳು ಅಥವಾ ನಿರ್ದಿಷ್ಟ ಪ್ರಶ್ನೆಗಳಿದ್ದರೆ, ದಯವಿಟ್ಟು ಕೇಳಿ!",
+        "en": "Jiggi Hullu or \"Leaf Miner\" is a pest commonly found in agriculture. It intrudes into the leaves of the plant and spoils the leaves. \n\n**Symptoms of the hopper:**\n1. **The damage you can see**: Rights to infiltrate the leaves, white or yellow infiltration routes.\n2. **Amount of damage**: It can harm the growth of the plant, as it spoils the nutrients of the plant.\n\n**Preventive measures:**\n1. **Paestisides**: Using appropriate pesticides.\n2. **Natural enemies**: Promoting natural enemies that destroy the hopper.\n3. **More fresh water**: Nourishing plants better through water.\n\nIf you have more details or specific questions, please ask!",
+        "timestamp": {
+          "$date": "2025-02-06T10:39:08.071Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Rotting ಬಗ್ಗೇ ತಿಳಿಸಿ ",
+        "en": "Tell Rotting Bugge ",
+        "timestamp": {
+          "$date": "2025-02-06T10:39:35.603Z"
+        },
+        "standalone_question": "What can you tell me about rotting?",
+        "standalone_en": "What can you tell me about rotting?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "Rotting bagge thilisi "
+      },
+      {
+        "role": "assistant",
+        "content": "Rotting, ಅಥವಾ \"Rot,\" ಕೃಷಿಯಲ್ಲಿ ಸಾಮಾನ್ಯವಾಗಿ ಕಂಡುಬರುವ ಸಮಸ್ಯೆ, ಇದು ಸಸ್ಯದ ಭಾಗಗಳಲ್ಲಿ ಅಥವಾ ಹಣ್ಣುಗಳಲ್ಲಿ ಹಾನಿ ಉಂಟುಮಾಡುತ್ತದೆ. ಇದು ಸಾಮಾನ್ಯವಾಗಿ ನೈಸರ್ಗಿಕ ಶ್ರೇಣಿಯಲ್ಲಿನ ಬಾಕ್ಟೀರಿಯಾ, ಫಂಗಸ್ ಅಥವಾ ಇತರ ಪ್ಯಾಥೋಜೆನ್ಸ್‌ನಿಂದ ಉಂಟಾಗುತ್ತದೆ.\n\n**Rotting ಪ್ರಕಾರಗಳು:**\n1. **ಬ್ಯಾಕ್ಟೀರಿಯಲ್ ರಾಟ್**: ಇದು ಬ್ಯಾಕ್ಟೀರಿಯಾ ಕಾರಣದಿಂದ ಉಂಟಾಗುತ್ತದೆ ಮತ್ತು ಸಸ್ಯದ ಭಾಗಗಳನ್ನು ಹಾಳು ಮಾಡುತ್ತದೆ.\n2. **ಫಂಗಲ್ ರಾಟ್**: ಇದು ಫಂಗಸ್‌ನಿಂದ ಉಂಟಾಗುತ್ತದೆ, ಮತ್ತು ಇದು ಹಣ್ಣುಗಳು ಮತ್ತು ತರಕಾರಿಗಳ ಮೇಲೆ ಹೆಚ್ಚು ಪರಿಣಾಮ ಬೀರುತ್ತದೆ.\n3. **ರೀಡ್ ರಾಟ್**: ಇದು ನೆಲದಲ್ಲಿ ಅಥವಾ ನೀರಿನಲ್ಲಿ ಹೆಚ್ಚು ತೇವಾಂಶ ಇರುವಾಗ ಉಂಟಾಗುತ್ತದೆ.\n\n**ಲಕ್ಷಣಗಳು:**\n- ಹಣ್ಣುಗಳು ಅಥವಾ ಸಸ್ಯದ ಭಾಗಗಳಲ್ಲಿ ಕಪ್ಪು ಅಥವಾ ಹಳದಿ ಬಣ್ಣದ ಕಲೆಗಳು.\n- ಸಸ್ಯದ ಭಾಗಗಳು ಮೃದುವಾಗುವುದು ಅಥವಾ ನಾಶವಾಗುವುದು.\n- ದುರ್ಗಂಧವು ಉಂಟಾಗುವುದು.\n\n**ನಿರೋಧಕ ಕ್ರಮಗಳು:**\n1. **ನೀರು ನೀಡುವ ನಿಯಂತ್ರಣ**: ಹೆಚ್ಚು ತೇವಾಂಶವನ್ನು ತಪ್ಪಿಸಲು.\n2. **ಪestisides**: ಸೂಕ್ತ ಪೆಸ್ಟಿಸೈಡ್‌ಗಳನ್ನು ಬಳಸುವುದು.\n3. **ಹೆಚ್ಚಿನ ಹವಾಮಾನ ನಿಯಂತ್ರಣ**: ಉತ್ತಮ ಹವಾಮಾನ ನಿಯಂತ್ರಣವನ್ನು ಸಾಧಿಸಲು.\n\nನೀವು ಇನ್ನಷ್ಟು ವಿವರಗಳು ಅಥವಾ ನಿರ್ದಿಷ್ಟ ಪ್ರಶ್ನೆಗಳಿದ್ದರೆ, ದಯವಿಟ್ಟು ಕೇಳಿ!",
+        "en": "Rotting, or \"rot,\" is a problem commonly found in agriculture, which causes damage to plant parts or fruits. It is usually caused by bacteria, fungi or other pathogens in the natural range.\n\n**Rotting Types:**\n1. **Bacterial Rat**: It is caused by bacteria and damages parts of the plant.\n2. **Fungal rat**: It is caused by fungus, and it affects fruits and vegetables the most.\n3. **Read rat**: It occurs when there is too much moisture on the ground or in water.\n\n**Symptoms:**\n- Black or yellow stains on fruits or parts of the plant.\n- Softening or destruction of parts of the plant.\n- There is a foul smell.\n\n**Preventive measures:**\n1. **Water supply control**: To avoid too much moisture.\n2. **Paestisides**: Using appropriate pesticides.\n3. **High climate control**: To achieve better climate control.\n\nIf you have more details or specific questions, please ask!",
+        "timestamp": {
+          "$date": "2025-02-06T10:39:48.275Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Rotting ನಿಯಂತ್ರಣ ಬಗ್ಗೆ ತಿಳಿಸಿ ",
+        "en": "Tell me about rotting control ",
+        "timestamp": {
+          "$date": "2025-02-06T10:40:39.531Z"
+        },
+        "standalone_question": "What are the methods for controlling rotting in plants and fruits?",
+        "standalone_en": "What are the methods for controlling rotting in plants and fruits?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "Rotting niyantrana bagge thilisi "
+      },
+      {
+        "role": "assistant",
+        "content": "ಈಗಾಗಲೇ ನೀವು 2025-02-01 ರಿಂದ 2025-02-06 ರವರೆಗೆ ಯಾವುದೇ ರೋಗ ಅಥವಾ ಕೀಟಗಳ ಸ್ಪ್ರೇ ಶೆಡ್ಯೂಲ್ ಅನ್ನು ಹೊಂದಿಲ್ಲ. ಆದ್ದರಿಂದ, ನೀವು ರೋಟಿಂಗ್ ನಿಯಂತ್ರಣಕ್ಕಾಗಿ ಕ್ರಮಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಬೇಕಾಗಿದೆ.\n\n**Rotting ನಿಯಂತ್ರಣ ಕ್ರಮಗಳು:**\n\n1. **ಫಂಗಿಸೈಡ್ ಬಳಕೆ**: \n   - **Carbendazim** @ 2.5g/ltr ಅನ್ನು ಸೀಡ್ಲಿಂಗ್‌ಗಳಿಗೆ ಡ್ರೆಂಚ್ ಅಥವಾ ಸ್ಪ್ರೇ ಮಾಡಿ.\n\n2. **ಹವಾಮಾನ ನಿಯಂತ್ರಣ**: \n   - ನೆಲದ ತೇವಾಂಶವನ್ನು ನಿಯಂತ್ರಿಸಲು, ಹೆಚ್ಚು ನೀರು ನೀಡುವುದನ್ನು ತಪ್ಪಿಸಿ.\n\n3. **ನೀರು ನೀಡುವ ನಿಯಂತ್ರಣ**: \n   - ನೆಲದ ತೇವಾಂಶವನ್ನು ಸಮತೋಲಿತವಾಗಿ ಇಡಲು, ನೀರನ್ನು ನಿಯಮಿತವಾಗಿ ನೀಡಿರಿ.\n\n4. **ಹಾನಿಕಾರಕ ಭಾಗಗಳನ್ನು ತೆಗೆದುಹಾಕುವುದು**: \n   - ಹಾನಿಯಾದ ಸಸ್ಯದ ಭಾಗಗಳನ್ನು ತೆಗೆದು ಹಾಕಿ, ಇದು ರೋಗವನ್ನು ಹರಡುವುದನ್ನು ತಡೆಯುತ್ತದೆ.\n\n5. **ನೈಸರ್ಗಿಕ ಶತ್ರುಗಳನ್ನು ಉತ್ತೇಜಿಸುವುದು**: \n   - ನೈಸರ್ಗಿಕ ಶತ್ರುಗಳನ್ನು ಉತ್ತೇಜಿಸುವ ಮೂಲಕ, ರೋಗವನ್ನು ನಿಯಂತ್ರಿಸಲು ಸಹಾಯ ಮಾಡಬಹುದು.\n\nಈ ಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸುವ ಮೂಲಕ, ನೀವು ರೋಟಿಂಗ್ ಸಮಸ್ಯೆಯನ್ನು ನಿಯಂತ್ರಿಸಲು ಸಹಾಯ ಮಾಡಬಹುದು. ನೀವು ಇನ್ನಷ್ಟು ಸಹಾಯ ಬೇಕಾದರೆ, ದಯವಿಟ್ಟು ಕೇಳಿ!",
+        "en": "Already you do not have any disease or pest spray schedule from 2025-02-01 to 2025-02-06. Therefore, you need to take steps for roting control.\n\n**Rotting control measures:**\n\n1. **Fungicide use**: \n   - **Carbendazim** @ Trench or spray 2.5g/ltr to the seedlings.\n\n2. **Climate Control**: \n   - To control the moisture content of the ground, avoid giving too much water.\n\n3. **Water supply control**: \n   - To keep the moisture content of the ground balanced, give water regularly.\n\n4. **Removing harmful parts**: \n   - Remove damaged plant parts, which will prevent the spread of the disease.\n\n5. **Promoting natural enemies**: \n   - By promoting natural enemies, the disease can be helped.\n\nBy following these steps, you can help control the roting problem. If you need more help, please ask!",
+        "timestamp": {
+          "$date": "2025-02-06T10:40:48.670Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Rotting ಆಗಲು ಕಾರಣ ಏನು ",
+        "en": "What causes Rotting ",
+        "timestamp": {
+          "$date": "2025-02-06T10:41:57.337Z"
+        },
+        "standalone_question": "What are the causes of rotting?",
+        "standalone_en": "What are the causes of rotting?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "Rotting aagalu karan anu "
+      },
+      {
+        "role": "assistant",
+        "content": "Rotting, ಅಥವಾ ಸಸ್ಯದ ಭಾಗಗಳಲ್ಲಿ ಹಾನಿ ಉಂಟುಮಾಡುವ ಪ್ರಕ್ರಿಯೆ, ಹಲವಾರು ಕಾರಣಗಳಿಂದ ಉಂಟಾಗಬಹುದು. ಇಲ್ಲಿವೆ ಕೆಲವು ಪ್ರಮುಖ ಕಾರಣಗಳು:\n\n1. **ಹೆಚ್ಚಿನ ತೇವಾಂಶ**: ನೆಲದಲ್ಲಿ ಹೆಚ್ಚು ನೀರು ಅಥವಾ ತೇವಾಂಶ ಇದ್ದರೆ, ಇದು ಬ್ಯಾಕ್ಟೀರಿಯಾ ಮತ್ತು ಫಂಗಸ್‌ಗಳಿಗೆ ಬೆಳೆಸಲು ಅನುಕೂಲವಾಗುತ್ತದೆ.\n\n2. **ನಿಷ್ಕ್ರಿಯವಾದ ವಾತಾವರಣ**: ಕಡಿಮೆ ಹವಾಮಾನ ಅಥವಾ ಕಡಿಮೆ ಬೆಳಕು, ಸಸ್ಯದ ಬೆಳವಣಿಗೆಗೆ ಹಾನಿ ಮಾಡಬಹುದು.\n\n3. **ಹಾನಿಕಾರಕ ಕೀಟಗಳು**: ಕೀಟಗಳು ಅಥವಾ ಇತರ ಪ್ಯಾಥೋಜೆನ್ಸ್ ಸಸ್ಯದ ಭಾಗಗಳನ್ನು ಹಾಳು ಮಾಡಬಹುದು, ಇದರಿಂದ ರೋಟಿಂಗ್ ಉಂಟಾಗುತ್ತದೆ.\n\n4. **ನೀರು ನೀಡುವ ನಿಯಂತ್ರಣದ ಕೊರತೆಯು**: ನೀರನ್ನು ಸಮತೋಲಿತವಾಗಿ ನೀಡದಿದ್ದರೆ, ಇದು ನೆಲದ ಆರೋಗ್ಯವನ್ನು ಹಾನಿ ಮಾಡಬಹುದು.\n\n5. **ಹಾನಿಯಾದ ಅಥವಾ ನಾಶವಾದ ಭಾಗಗಳು**: ಹಾನಿಯಾದ ಅಥವಾ ನಾಶವಾದ ಭಾಗಗಳನ್ನು ತೆಗೆದು ಹಾಕದಿದ್ದರೆ, ಇದು ರೋಗವನ್ನು ಹರಡುವುದಕ್ಕೆ ಕಾರಣವಾಗಬಹುದು.\n\n6. **ಪೋಷಕಾಂಶಗಳ ಕೊರತೆಯು**: ನೆಲದಲ್ಲಿ ಪೋಷಕಾಂಶಗಳ ಕೊರತೆಯು ಸಸ್ಯದ ಆರೋಗ್ಯವನ್ನು ಹಾನಿ ಮಾಡಬಹುದು, ಇದರಿಂದ ರೋಗಗಳು ಉಂಟಾಗಬಹುದು.\n\nಈ ಕಾರಣಗಳನ್ನು ಗಮನದಲ್ಲಿಟ್ಟುಕೊಂಡು, ನೀವು ರೋಟಿಂಗ್ ಸಮಸ್ಯೆಯನ್ನು ನಿಯಂತ್ರಿಸಲು ಕ್ರಮಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಬಹುದು.",
+        "en": "Rotting, or the process of causing damage to parts of the plant, can be caused by a number of reasons. Here are some of the main reasons:\n\n1. **High moisture**: If there is too much water or moisture in the ground, it will facilitate the growth of bacteria and fungi.\n\n2. **Inactive environment**: Low weather or low light can damage the growth of the plant.\n\n3. **Harmful insects**: Insects or other pathogens can damage parts of the plant, causing roting.\n\n4. **Lack of control over water-giving**: If water is not given in a balanced manner, it can damage the health of the ground.\n\n5. **Damaged or destroyed parts**: If damaged or destroyed parts are not removed, it can lead to the spread of the disease.\n\n6. **Lack of nutrients**: Lack of nutrients in the soil can damage the health of the plant, which can lead to diseases.\n\nWith these reasons in mind, you can take steps to control the routing problem.",
+        "timestamp": {
+          "$date": "2025-02-06T10:42:06.291Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ದ್ರಾಕ್ಷಿ ಹಣ್ಣಿನ ತಿರುಳು ಹೆಚ್ಚಿಗೆ ಮಾಡಲು ಏನು ಮಾಡಬೇಕು ತಿಳಿಸಿ ",
+        "en": "Tell me what to do to increase the pulp of grapes ",
+        "timestamp": {
+          "$date": "2025-02-06T10:43:59.168Z"
+        },
+        "standalone_question": "What should be done to increase the yield of grape fruits?",
+        "standalone_en": "What should be done to increase the yield of grape fruits?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How to improve the germination percent\nA: Use of good quality seeds and seeds to be treated with insecticide, Fungicide and biological agents"
+          ]
+        },
+        "content_transliterated": "drakshi hannina thirulu hecchige madalu anu madabeku thilisi "
+      },
+      {
+        "role": "assistant",
+        "content": "ದ್ರಾಕ್ಷಿ ಹಣ್ಣಿನ ತಿರುಳು (berry size) ಹೆಚ್ಚಿಸಲು, ನೀವು ಕೆಳಗಿನ ಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸಬಹುದು:\n\n1. **ಪೋಷಕಾಂಶಗಳ ಸಮತೋಲನ**: \n   - ಸೂಕ್ತ ಪ್ರಮಾಣದಲ್ಲಿ ನೈಟ್ರೋಜನ್, ಫಾಸ್ಫೋರ್, ಮತ್ತು ಪೊಟ್ಯಾಸಿಯಮ್ ಅನ್ನು ನೀಡುವುದು. \n   - ಹಣ್ಣುಗಳ ಬೆಳವಣಿಗೆಗೆ ಸಹಾಯ ಮಾಡುವ ಮಿಕ್ರೋ ನ್ಯೂಟ್ರಿಯಂಟ್‌ಗಳನ್ನು ಕೂಡ ಸೇರಿಸಿ.\n\n2. **ನೀರು ನೀಡುವ ನಿಯಂತ್ರಣ**: \n   - ಹಣ್ಣುಗಳ ಬೆಳವಣಿಗೆ ಸಮಯದಲ್ಲಿ ಸಮತೋಲಿತ ನೀರು ನೀಡುವುದು. \n   - ಹೆಚ್ಚು ತೇವಾಂಶವು ಹಣ್ಣುಗಳನ್ನು ದೊಡ್ಡದಾಗಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.\n\n3. **ಹಣ್ಣುಗಳ ಹಾರ್ಮೋನ್ ಬಳಕೆ**: \n   - ಹಣ್ಣುಗಳ ಬೆಳವಣಿಗೆಗೆ ಸಹಾಯ ಮಾಡುವ ಹಾರ್ಮೋನ್‌ಗಳನ್ನು ಬಳಸುವುದು, ಉದಾಹರಣೆಗೆ, gibberellins.\n\n4. **ಕಾಯಿತನ ನಿಯಂತ್ರಣ**: \n   - ಹಣ್ಣುಗಳು ಬೆಳೆಯುವಾಗ, ಕಾಯಿ ಮತ್ತು ಹಣ್ಣುಗಳನ್ನು ಸರಿಯಾಗಿ ಕತ್ತರಿಸುವುದು, ಇದು ಬೆಳವಣಿಗೆಗೆ ಹೆಚ್ಚು ಶಕ್ತಿ ನೀಡುತ್ತದೆ.\n\n5. **ಹವಾಮಾನ ನಿಯಂತ್ರಣ**: \n   - ಉತ್ತಮ ಬೆಳವಣಿಗೆಗೆ ಸೂಕ್ತ ಹವಾಮಾನವನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ, ಹೆಚ್ಚು ತಾಪಮಾನ ಅಥವಾ ತೇವಾಂಶವು ಹಣ್ಣುಗಳ ಬೆಳವಣಿಗೆಗೆ ಹಾನಿ ಮಾಡಬಹುದು.\n\n6. **ಹಣ್ಣುಗಳ ತಿರುಳನ್ನು ಪರಿಶೀಲಿಸುವುದು**: \n   - ಹಣ್ಣುಗಳು ಬೆಳೆಯುವಾಗ, ಅವುಗಳನ್ನು ನಿಯಮಿತವಾಗಿ ಪರಿಶೀಲಿಸಿ, ಯಾವುದೇ ಸಮಸ್ಯೆಗಳನ್ನು ತಕ್ಷಣವೇ ಪರಿಹರಿಸಲು.\n\nಈ ಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸುವ ಮೂಲಕ, ನೀವು ದ್ರಾಕ್ಷಿ ಹಣ್ಣಿನ ತಿರುಳನ್ನು ಹೆಚ್ಚಿಸಲು ಸಹಾಯ ಮಾಡಬಹುದು.",
+        "en": "To increase the berry size, you can follow the following steps:\n\n1. **Nutrient balance**: \n   - Providing appropriate amounts of nitrogen, phosphore, and potassium. \n   - Also add micronutrients that help in the growth of fruits.\n\n2. **Water supply control**: \n   - Providing balanced water during the growth of fruits. \n   - More moisture helps in making the fruits bigger.\n\n3. **Hormonal use of fruits**: \n   - Using hormones that help in the growth of fruits, for example, gibberellins.\n\n4. **Wait control**: \n   - When fruits grow, cutting the nuts and fruits properly, it gives more energy to the growth.\n\n5. **Climate Control**: \n   - Ensure suitable weather for good growth, high temperature or humidity can harm the growth of fruits.\n\n6. **Checking the pulp of fruits**: \n   - When growing fruits, check them regularly, to solve any problems immediately.\n\nBy following these steps, you can help increase the pulp of the grapefruit.",
+        "timestamp": {
+          "$date": "2025-02-06T10:44:08.166Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ದ್ರಾಕ್ಷಿ ಹಣ್ಣಿನ ಪಲ್ಪ್ ಬರಲು ಏನೂ ಮಾಡಬೇಕು ತಿಳಿಸಿ ",
+        "en": "Tell me what to do to get grapefruit pulp ",
+        "timestamp": {
+          "$date": "2025-02-06T10:47:28.246Z"
+        },
+        "standalone_question": "What should be done to increase the pulp content in grapes?",
+        "standalone_en": "What should be done to increase the pulp content in grapes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "drakshi hannina pulp baralu enu madabeku thilisi "
+      },
+      {
+        "role": "assistant",
+        "content": "ದ್ರಾಕ್ಷಿ ಹಣ್ಣಿನ ಪಲ್ಪ್ (pulp) ಹೆಚ್ಚಿಸಲು, ನೀವು ಕೆಳಗಿನ ಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸಬಹುದು:\n\n1. **ಪೋಷಕಾಂಶಗಳ ಸಮತೋಲನ**: \n   - ಹಣ್ಣುಗಳ ಬೆಳವಣಿಗೆಗೆ ಅಗತ್ಯವಿರುವ ನೈಟ್ರೋಜನ್, ಫಾಸ್ಫೋರ್, ಮತ್ತು ಪೊಟ್ಯಾಸಿಯಮ್ ಅನ್ನು ಸಮತೋಲಿತವಾಗಿ ನೀಡುವುದು. \n   - ಮಿಕ್ರೋ ನ್ಯೂಟ್ರಿಯಂಟ್‌ಗಳನ್ನು ಕೂಡ ಸೇರಿಸಿ, ಇದು ಪಲ್ಪ್ ಬೆಳವಣಿಗೆಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.\n\n2. **ನೀರು ನೀಡುವ ನಿಯಂತ್ರಣ**: \n   - ಹಣ್ಣುಗಳು ಬೆಳೆಯುವಾಗ ಸಮತೋಲಿತ ನೀರು ನೀಡುವುದು, ಇದು ಪಲ್ಪ್ ಬೆಳವಣಿಗೆಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.\n\n3. **ಹಣ್ಣುಗಳ ಹಾರ್ಮೋನ್ ಬಳಕೆ**: \n   - ಹಣ್ಣುಗಳ ಬೆಳವಣಿಗೆಗೆ ಸಹಾಯ ಮಾಡುವ ಹಾರ್ಮೋನ್‌ಗಳನ್ನು ಬಳಸುವುದು, ಉದಾಹರಣೆಗೆ, gibberellins, ಇದು ಪಲ್ಪ್ ಬೆಳವಣಿಗೆಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.\n\n4. **ಹಣ್ಣುಗಳ ಕತ್ತರಿಸುವುದು**: \n   - ಹಣ್ಣುಗಳು ಬೆಳೆಯುವಾಗ, ಕಾಯಿ ಮತ್ತು ಹಣ್ಣುಗಳನ್ನು ಸರಿಯಾಗಿ ಕತ್ತರಿಸುವುದು, ಇದು ಬೆಳವಣಿಗೆಗೆ ಹೆಚ್ಚು ಶಕ್ತಿ ನೀಡುತ್ತದೆ.\n\n5. **ಹವಾಮಾನ ನಿಯಂತ್ರಣ**: \n   - ಉತ್ತಮ ಬೆಳವಣಿಗೆಗೆ ಸೂಕ್ತ ಹವಾಮಾನವನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ, ಹೆಚ್ಚು ತಾಪಮಾನ ಅಥವಾ ತೇವಾಂಶವು ಪಲ್ಪ್ ಬೆಳವಣಿಗೆಗೆ ಹಾನಿ ಮಾಡಬಹುದು.\n\n6. **ಹಣ್ಣುಗಳ ತಿರುಳನ್ನು ಪರಿಶೀಲಿಸುವುದು**: \n   - ಹಣ್ಣುಗಳು ಬೆಳೆಯುವಾಗ, ಅವುಗಳನ್ನು ನಿಯಮಿತವಾಗಿ ಪರಿಶೀಲಿಸಿ, ಯಾವುದೇ ಸಮಸ್ಯೆಗಳನ್ನು ತಕ್ಷಣವೇ ಪರಿಹರಿಸಲು.\n\nಈ ಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸುವ ಮೂಲಕ, ನೀವು ದ್ರಾಕ್ಷಿ ಹಣ್ಣಿನ ಪಲ್ಪ್ ಅನ್ನು ಹೆಚ್ಚಿಸಲು ಸಹಾಯ ಮಾಡಬಹುದು.",
+        "en": "To increase the pulp of grapefruit, you can follow the following steps:\n\n1. **Nutrient balance**: \n   - Balanced supply of nitrogen, phosphore, and potassium required for the growth of fruits. \n   - Also add micronutrients, which help in pulp growth.\n\n2. **Water supply control**: \n   - Providing balanced water while fruits grow, which helps in pulp growth.\n\n3. **Hormonal use of fruits**: \n   - Using hormones that help in the growth of fruits, for example, gibberellins, which helps in pulp growth.\n\n4. **Cutting fruits**: \n   - When fruits grow, cutting the nuts and fruits properly, it gives more energy to the growth.\n\n5. **Climate Control**: \n   - Ensure suitable weather for good growth, high temperature or humidity can harm pulp growth.\n\n6. **Checking the pulp of fruits**: \n   - When growing fruits, check them regularly, to solve any problems immediately.\n\nBy following these steps, you can help increase the grapefruit pulp.",
+        "timestamp": {
+          "$date": "2025-02-06T10:47:38.896Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ದ್ರಾಕ್ಷಿಗೆ MOP ಗೊಬ್ಬರ ಕೊಟ್ರೆ ಹೇಗೆ ",
+        "en": "How to apply MOP fertilizer for grapes ",
+        "timestamp": {
+          "$date": "2025-02-06T10:49:36.073Z"
+        },
+        "standalone_question": "How to apply MOP (Muriate of Potash) fertilizer to grapevines?",
+        "standalone_en": "How to apply MOP (Muriate of Potash) fertilizer to grapevines?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "drakshige MOP gobbara kotre hege "
+      },
+      {
+        "role": "assistant",
+        "content": "ದ್ರಾಕ್ಷಿಗೆ MOP (Muriate of Potash) ಗೊಬ್ಬರವನ್ನು ನೀಡಲು, ನೀವು ಕೆಳಗಿನ ಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸಬಹುದು:\n\n1. **ಗೊಬ್ಬರ ಪ್ರಮಾಣ**: \n   - MOP ಗೊಬ್ಬರವನ್ನು 50-100 ಕಿ.ಗ್ರಾಂ/ಎಕರೆ ಪ್ರಮಾಣದಲ್ಲಿ ಬಳಸಬಹುದು. ನಿಮ್ಮ ನೆಲದ ಆರೋಗ್ಯ ಮತ್ತು ಬೆಳೆಯುವ ಹಂತವನ್ನು ಆಧರಿಸಿ ಪ್ರಮಾಣವನ್ನು ಹೊಂದಿಸಬಹುದು.\n\n2. **ಅನ್ವಯಿಸುವ ಸಮಯ**: \n   - MOP ಅನ್ನು ಹಣ್ಣುಗಳು ಬೆಳೆಯುವ ಹಂತದಲ್ಲಿ ಅಥವಾ ಹಣ್ಣುಗಳ ಬೆಳವಣಿಗೆಗೆ 2-3 ವಾರಗಳ ಮುಂಚೆ ನೀಡುವುದು ಉತ್ತಮ.\n\n3. **ಅನ್ವಯಿಸುವ ವಿಧಾನ**: \n   - MOP ಅನ್ನು ನೆಲದ ಮೇಲ್ಮಟ್ಟದಲ್ಲಿ ಸಮಾನವಾಗಿ ಹಚ್ಚಿ, ನಂತರ ನೆಲದಲ್ಲಿ ಚೆನ್ನಾಗಿ ಮಿಶ್ರಣ ಮಾಡಿ. \n   - ನೀವು drip irrigation ಮೂಲಕ fertigation ವಿಧಾನವನ್ನು ಬಳಸಿದರೆ, MOP ಅನ್ನು ನೀರಿನೊಂದಿಗೆ ಮಿಶ್ರಣ ಮಾಡಿ, ನಂತರ ನೀರನ್ನು ನೀಡಬಹುದು.\n\n4. **ನೀರು ನೀಡುವುದು**: \n   - MOP ಅನ್ನು ನೀಡಿದ ನಂತರ, ನೆಲದಲ್ಲಿ ಪೋಷಕಾಂಶಗಳನ್ನು ಉತ್ತಮವಾಗಿ ಹರಿಯಲು ನೀರನ್ನು ನೀಡುವುದು ಮುಖ್ಯ.\n\n5. **ಪರಿಶೀಲನೆ**: \n   - MOP ನೀಡಿದ ನಂತರ, ದ್ರಾಕ್ಷಿಯ ಬೆಳವಣಿಗೆ ಮತ್ತು ಆರೋಗ್ಯವನ್ನು ನಿಯಮಿತವಾಗಿ ಪರಿಶೀಲಿಸಿ.\n\nಈ ಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸುವ ಮೂಲಕ, ನೀವು ದ್ರಾಕ್ಷಿಗೆ MOP ಗೊಬ್ಬರವನ್ನು ಪರಿಣಾಮಕಾರಿಯಾಗಿ ನೀಡಬಹುದು.",
+        "en": "To give MOP (Muriate of Potash) fertilizer to grapes, you can follow the following steps:\n\n1. **Manure quantity**: \n   - MOP fertilizer can be used in the range of 50-100 kg/acre. The quantity can be set based on the health of your ground and the stage of growing.\n\n2. **Time to apply**: \n   - It is best to give MOP at the stage of growing fruits or 2-3 weeks before the growth of fruits.\n\n3. **Method of application**: \n   - Apply the MOP evenly at the top of the ground, then mix well on the ground. \n   - If you use fertigation method through drip irrigation, mix the MOP with water and then give water.\n\n4. **Providing water**: \n   - After giving the MOP, it is important to give water for the nutrients to flow better in the ground.\n\n5. **Check**: \n   - After giving MOP, check the growth and health of grapes regularly.\n\nBy following these steps, you can effectively give MOP fertilizer to grapes.",
+        "timestamp": {
+          "$date": "2025-02-06T10:49:46.889Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Mop ಗೆ sop ಗೆ ಏನೂ ವ್ಯತ್ಯಾಸ ಯಾವದೂ ಸೂಕ್ತ ದ್ರಾಕ್ಷಿ ಬೆಳೆಗೆ ",
+        "en": "There is no difference between MOP to SOP for suitable grape crop ",
+        "timestamp": {
+          "$date": "2025-02-06T10:50:51.504Z"
+        },
+        "standalone_question": "What is the difference between MOP (Muriate of Potash) and SOP (Sulfate of Potash) fertilizers, and which is more suitable for grape cultivation?",
+        "standalone_en": "What is the difference between MOP (Muriate of Potash) and SOP (Sulfate of Potash) fertilizers, and which is more suitable for grape cultivation?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "Mop ge sop ge enu vyatyasa yavadu sukta drakshi belege "
+      },
+      {
+        "role": "assistant",
+        "content": "MOP (Muriate of Potash) ಮತ್ತು SOP (Sulfate of Potash) ಎರಡೂ ಪೊಟ್ಯಾಸಿಯಮ್ ಗೊಬ್ಬರಗಳಾಗಿವೆ, ಆದರೆ ಅವುಗಳಲ್ಲಿ ಕೆಲವು ಪ್ರಮುಖ ವ್ಯತ್ಯಾಸಗಳಿವೆ:\n\n### MOP (Muriate of Potash)\n- **ರಾಸಾಯನಿಕ ಸಂಯೋಜನೆ**: KCl (ಪೊಟ್ಯಾಸಿಯಮ್ ಕ್ಲೋರಿಡ್).\n- **ಪೊಟ್ಯಾಸಿಯಮ್ ಶ್ರೇಣಿಯು**: 60% ಕ್ಕಿಂತ ಹೆಚ್ಚು.\n- **ಕ್ಲೋರಿಡ್**: MOP ನಲ್ಲಿ ಕ್ಲೋರಿಡ್ ಅಂಶವಿದೆ, ಇದು ಕೆಲವು ಸಸ್ಯಗಳಿಗೆ ಹಾನಿಕಾರಕವಾಗಬಹುದು, ವಿಶೇಷವಾಗಿ ದ್ರಾಕ್ಷಿ ಬೆಳೆಗೆ.\n- **ಬಳಕೆ**: MOP ಸಾಮಾನ್ಯವಾಗಿ ಕಡಿಮೆ ವೆಚ್ಚದಲ್ಲಿ ಲಭ್ಯವಿದ್ದು, ಸಾಮಾನ್ಯವಾಗಿ ಹೆಚ್ಚು ಉತ್ಪಾದಕತೆಗಾಗಿ ಬಳಸಲಾಗುತ್ತದೆ.\n\n### SOP (Sulfate of Potash)\n- **ರಾಸಾಯನಿಕ ಸಂಯೋಜನೆ**: K2SO4 (ಪೊಟ್ಯಾಸಿಯಮ್ ಸಲ್ಫೇಟ್).\n- **ಪೊಟ್ಯಾಸಿಯಮ್ ಶ್ರೇಣಿಯು**: 50% ಕ್ಕಿಂತ ಹೆಚ್ಚು.\n- **ಕ್ಲೋರಿಡ್ ಇಲ್ಲ**: SOP ನಲ್ಲಿ ಕ್ಲೋರಿಡ್ ಇಲ್ಲ, ಇದು ದ್ರಾಕ್ಷಿ ಮತ್ತು ಇತರ ನಾಜೂಕಾದ ಸಸ್ಯಗಳಿಗೆ ಉತ್ತಮವಾಗಿದೆ.\n- **ಬಳಕೆ**: SOP ಹೆಚ್ಚು ವೆಚ್ಚವಿರುವಾಗ, ಆದರೆ ಇದು ಉತ್ತಮ ಗುಣಮಟ್ಟದ ಹಣ್ಣುಗಳು ಮತ್ತು ಬೆಳೆಯುವಿಕೆಗಾಗಿ ಉತ್ತಮವಾಗಿದೆ.\n\n### ಸೂಕ್ತ ದ್ರಾಕ್ಷಿ ಬೆಳೆಗೆ\n- **SOP**: ದ್ರಾಕ್ಷಿ ಬೆಳೆಗೆ SOP ಹೆಚ್ಚು ಸೂಕ್ತವಾಗಿದೆ, ಏಕೆಂದರೆ ಇದು ಕ್ಲೋರಿಡ್ ಅನ್ನು ಒಳಗೊಂಡಿಲ್ಲ ಮತ್ತು ಹಣ್ಣುಗಳ ಗುಣಮಟ್ಟವನ್ನು ಸುಧಾರಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.\n- **MOP**: MOP ಅನ್ನು ಬಳಸಿದರೆ, ನೀವು ಕ್ಲೋರಿಡ್ ಮಟ್ಟವನ್ನು ಗಮನದಲ್ಲಿಟ್ಟುಕೊಳ್ಳಬೇಕು, ಏಕೆಂದರೆ ಇದು ದ್ರಾಕ್ಷಿಯ ಬೆಳೆಯ ಮೇಲೆ ಹಾನಿಕಾರಕ ಪರಿಣಾಮ ಬೀರುತ್ತದೆ.\n\nಹೀಗಾಗಿ, ದ್ರಾಕ್ಷಿ ಬೆಳೆಗೆ SOP ಬಳಸುವುದು ಉತ್ತಮ ಆಯ್ಕೆಯಾಗಿದೆ.",
+        "en": "Both MOP (Muriate of Potash) and SOP (Sulfate of Potash) are potassium fertilizers, but there are some important differences between them:\n\n### MOP (Muriate of Potash)\n- **Chemical composition**: KCl (potassium chloride).\n- **Potassium range**: More than 60%.\n- **Chlorid**: MOP contains chloride content, which can be harmful to some plants, especially for the grape crop.\n- **Usage**: MOP is generally available at a lower cost and is generally used for higher productivity.\n\n### SOP (Sulfate of Potash)\n- **Chemical composition**: K2SO4 (potassium sulphate).\n- **Potassium range**: More than 50%.\n- **No chlorid**: There is no chloride in SOP, which is good for grapes and other delicate plants.\n- **Usage**: When SOP is more expensive, but it is good for good quality fruits and growing.\n\n### For suitable grape crop\n- **SOP**: SOP is more suitable for grape crop, as it does not contain chloride and helps in improving the quality of fruits.\n- **MOP**: If MOP is used, you should keep in mind the chloride level, as it can have a detrimental effect on the grape crop.\n\nThus, using SOP for grape crop is a good option.",
+        "timestamp": {
+          "$date": "2025-02-06T10:51:02.225Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Stem nicrosise ಗೆ ಪರಿಹಾರ ತಿಳಿಸಿ",
+        "en": "Tell a solution to stem nicrosise",
+        "timestamp": {
+          "$date": "2025-02-06T10:52:26.730Z"
+        },
+        "standalone_question": "What are the solutions for stem necrosis in plants?",
+        "standalone_en": "What are the solutions for stem necrosis in plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "Stem nicrosise ge parihar thilisi"
+      },
+      {
+        "role": "assistant",
+        "content": "Stem necrosis (ಸ್ಟೆಮ್ ನೆಕ್ರೋಸಿಸ್) ಒಂದು ಸಸ್ಯ ರೋಗವಾಗಿದೆ, ಇದು ಸಾಮಾನ್ಯವಾಗಿ ಬ್ಯಾಕ್ಟೀರಿಯಾ ಅಥವಾ ಫಂಗಸ್‌ನಿಂದ ಉಂಟಾಗುತ್ತದೆ. ಈ ರೋಗವು ಸಸ್ಯದ ತೊಟ್ಟಿಗೆ ಹಾನಿ ಮಾಡುತ್ತದೆ, ಇದರಿಂದ ಸಸ್ಯದ ಬೆಳವಣಿಗೆ ಮತ್ತು ಉತ್ಪಾದಕತೆ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರುತ್ತದೆ.\n\n### ಪರಿಹಾರ ಕ್ರಮಗಳು:\n\n1. **ಪೆಸ್ಟಿಸೈಡ್ ಬಳಕೆ**:\n   - **Carbendazim** @ 2.5g/ltr ಅಥವಾ **Chlorothalonil** @ 2g/ltr ಅನ್ನು ಸೀಡ್ಲಿಂಗ್‌ಗಳಿಗೆ ಡ್ರೆಂಚ್ ಅಥವಾ ಸ್ಪ್ರೇ ಮಾಡಿ.\n\n2. **ಹಾನಿಯಾದ ಭಾಗಗಳನ್ನು ತೆಗೆದುಹಾಕುವುದು**:\n   - ಹಾನಿಯಾದ ತೊಟ್ಟಿಗಳನ್ನು ಅಥವಾ ಸಸ್ಯದ ಭಾಗಗಳನ್ನು ತಕ್ಷಣವೇ ತೆಗೆದು ಹಾಕಿ, ಇದು ರೋಗವನ್ನು ಹರಡುವುದನ್ನು ತಡೆಯುತ್ತದೆ.\n\n3. **ಹವಾಮಾನ ನಿಯಂತ್ರಣ**:\n   - ಉತ್ತಮ ಹವಾಮಾನವನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ, ಹೆಚ್ಚು ತಾಪಮಾನ ಅಥವಾ ತೇವಾಂಶವು ರೋಗವನ್ನು ಹರಡುವುದಕ್ಕೆ ಕಾರಣವಾಗಬಹುದು.\n\n4. **ನೀರು ನೀಡುವ ನಿಯಂತ್ರಣ**:\n   - ನೆಲದಲ್ಲಿ ಹೆಚ್ಚು ನೀರು ಅಥವಾ ತೇವಾಂಶವನ್ನು ತಪ್ಪಿಸಲು, ಇದು ಬ್ಯಾಕ್ಟೀರಿಯಾ ಮತ್ತು ಫಂಗಸ್‌ಗಳಿಗೆ ಬೆಳೆಸಲು ಅನುಕೂಲವಾಗುತ್ತದೆ.\n\n5. **ನೈಸರ್ಗಿಕ ಶತ್ರುಗಳನ್ನು ಉತ್ತೇಜಿಸುವುದು**:\n   - ನೈಸರ್ಗಿಕ ಶತ್ರುಗಳನ್ನು ಉತ್ತೇಜಿಸುವ ಮೂಲಕ, ರೋಗವನ್ನು ನಿಯಂತ್ರಿಸಲು ಸಹಾಯ ಮಾಡಬಹುದು.\n\nಈ ಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸುವ ಮೂಲಕ, ನೀವು ಸ್ಟೆಮ್ ನೆಕ್ರೋಸಿಸ್ ಸಮಸ್ಯೆಯನ್ನು ನಿಯಂತ್ರಿಸಲು ಸಹಾಯ ಮಾಡಬಹುದು.",
+        "en": "Stem necrosis (stem necrosis) is a plant disease usually caused by bacteria or fungi. This disease damages the tank of the plant, thereby affecting the growth and productivity of the plant.\n\n### Remedial measures:\n\n1. **Pesticide use**:\n   - **Carbendazim** @ 2.5g/ltr or **Chlorothalonil** @ 2G/LTR trench or spray seedlings.\n\n2. **Removing damaged parts**:\n   - Remove damaged tanks or parts of the plant immediately, which will prevent the spread of the disease.\n\n3. **Climate Control**:\n   - Ensure good weather, high temperature or humidity can lead to the spread of the disease.\n\n4. **Water supply control**:\n   - To avoid too much water or moisture in the ground, it facilitates the growth of bacteria and fungi.\n\n5. **Promoting natural enemies**:\n   - By promoting natural enemies, the disease can be helped.\n\nBy following these steps, you can help control the problem of stem necrosis.",
+        "timestamp": {
+          "$date": "2025-02-06T10:52:37.922Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ನೀರು ಗಾಳು ಆಗಲು ಕಾರಣ ತಿಳಿಸಿ",
+        "en": "State the reason for the water logging",
+        "timestamp": {
+          "$date": "2025-02-06T10:53:52.124Z"
+        },
+        "standalone_question": "What are the causes of waterlogging?",
+        "standalone_en": "What are the causes of waterlogging?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "neeru galu aagalu karan thilisi"
+      },
+      {
+        "role": "assistant",
+        "content": "ನೀರು ಗಾಳು (water stress) ಆಗಲು ಹಲವಾರು ಕಾರಣಗಳಿರಬಹುದು. ಇಲ್ಲಿವೆ ಕೆಲವು ಪ್ರಮುಖ ಕಾರಣಗಳು:\n\n1. **ತೇವಾಂಶದ ಕೊರತೆಯು**: ನೆಲದಲ್ಲಿ ನೀರಿನ ಕೊರತೆಯು, ಇದು ಸಸ್ಯಗಳಿಗೆ ಅಗತ್ಯವಿರುವ ನೀರನ್ನು ಒದಗಿಸಲು ಸಾಧ್ಯವಾಗದಾಗ ಉಂಟಾಗುತ್ತದೆ.\n\n2. **ಹೆಚ್ಚಿನ ತಾಪಮಾನ**: ಹೆಚ್ಚು ತಾಪಮಾನವು ನೀರಿನ ವाष್ಪೀಕರಣವನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ, ಇದರಿಂದ ನೆಲದ ತೇವಾಂಶ ಕಡಿಮೆ ಆಗುತ್ತದೆ.\n\n3. **ಹಾನಿಕಾರಕ ಕೀಟಗಳು**: ಕೀಟಗಳು ಅಥವಾ ಇತರ ಪ್ಯಾಥೋಜೆನ್ಸ್ ಸಸ್ಯದ ಭಾಗಗಳನ್ನು ಹಾಳು ಮಾಡಬಹುದು, ಇದರಿಂದ ನೀರಿನ ಶೋಷಣೆ ಹೆಚ್ಚಾಗುತ್ತದೆ.\n\n4. **ನೀರು ನೀಡುವ ನಿಯಂತ್ರಣದ ಕೊರತೆಯು**: ನೀರನ್ನು ಸಮತೋಲಿತವಾಗಿ ನೀಡದಿದ್ದರೆ, ಇದು ಸಸ್ಯಗಳಿಗೆ ನೀರಿನ ಕೊರತೆಯನ್ನು ಉಂಟುಮಾಡಬಹುದು.\n\n5. **ಹೆಚ್ಚಿನ ಹವಾಮಾನ ಬದಲಾವಣೆ**: ಹವಾಮಾನ ಬದಲಾವಣೆಗಳು, ಉದಾಹರಣೆಗೆ, ಮಳೆ ಅಥವಾ ಬಿಸಿಲಿನ ಬದಲಾವಣೆಗಳು, ನೀರಿನ ಒತ್ತಡವನ್ನು ಹೆಚ್ಚಿಸಬಹುದು.\n\n6. **ಮಣ್ಣು ಗುಣಮಟ್ಟ**: ಮಣ್ಣಿನ ಗುಣಮಟ್ಟವು ನೀರಿನ ಶೋಷಣೆಗೆ ಪರಿಣಾಮ ಬೀರುತ್ತದೆ. ಕಡಿಮೆ ಪೋಷಕಾಂಶಗಳು ಅಥವಾ ಕಡಿಮೆ ನೀರಿನ ಶ್ರೇಣಿಯು ನೀರಿನ ಕೊರತೆಯನ್ನು ಉಂಟುಮಾಡಬಹುದು.\n\nಈ ಕಾರಣಗಳನ್ನು ಗಮನದಲ್ಲಿಟ್ಟುಕೊಂಡು, ನೀವು ನೀರಿನ ಗಾಳು ಸಮಸ್ಯೆಯನ್ನು ನಿಯಂತ್ರಿಸಲು ಕ್ರಮಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಬಹುದು.",
+        "en": "There can be several reasons for water stress. Here are some of the main reasons:\n\n1. **Lack of moisture**: Lack of water in the ground, which occurs when plants are unable to provide the required water.\n\n2. **High temperature**: Higher temperatures increase the evaporation of water, thereby reducing the moisture content of the soil.\n\n3. **Harmful insects**: Insects or other pathogens can spoil parts of the plant, thereby increasing the exploitation of water.\n\n4. **Lack of water-giving control**: If water is not given in a balanced manner, it can cause water scarcity for plants.\n\n5. **High climate change**: Climate changes, for example, changes in rainfall or sunlight, can increase water pressure.\n\n6. **Soil quality**: Soil quality affects water exploitation. Low nutrients or low water range can cause water scarcity.\n\nKeeping these reasons in mind, you can take steps to control the problem of water logging.",
+        "timestamp": {
+          "$date": "2025-02-06T10:54:01.093Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ದ್ರಾಕ್ಷಿಗೆ ಶೇಂಗಾ ಹಿಂಡಿ ಉಪಯೋಗ ಮಾಡಿದರೆ ಹೇಗೆ ",
+        "en": "How to use groundnut for grapes ",
+        "timestamp": {
+          "$date": "2025-02-06T10:56:10.435Z"
+        },
+        "standalone_question": "How to use groundnut cake (shenga hinda) for grapevines?",
+        "standalone_en": "How to use groundnut cake (shenga hinda) for grapevines?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "drakshige shenga hindi upayoga madidare hege "
+      },
+      {
+        "role": "assistant",
+        "content": "ದ್ರಾಕ್ಷಿಗೆ ಶೇಂಗಾ ಹಿಂಡಿ (Groundnut Cake) ಉಪಯೋಗಿಸುವುದು ಉತ್ತಮ ಪೋಷಕಾಂಶಗಳ ಮೂಲವಾಗಿದೆ. ಇದು ದ್ರಾಕ್ಷಿಯ ಬೆಳವಣಿಗೆಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ. ಶೇಂಗಾ ಹಿಂಡಿಯನ್ನು ಬಳಸುವ ವಿಧಾನಗಳು:\n\n1. **ಪೋಷಕಾಂಶಗಳ ಒದಗಿಸುವುದು**:\n   - ಶೇಂಗಾ ಹಿಂಡಿಯಲ್ಲಿ ನೈಟ್ರೋಜನ್, ಫಾಸ್ಫೋರ್ ಮತ್ತು ಪೊಟ್ಯಾಸಿಯಮ್ ಇದ್ದು, ಇದು ದ್ರಾಕ್ಷಿಯ ಬೆಳವಣಿಗೆಗೆ ಅಗತ್ಯವಿದೆ.\n\n2. **ಅನ್ವಯಿಸುವ ಪ್ರಮಾಣ**:\n   - 100-200 ಕಿ.ಗ್ರಾಂ/ಎಕರೆ ಪ್ರಮಾಣದಲ್ಲಿ ಶೇಂಗಾ ಹಿಂಡಿಯನ್ನು ಬಳಸಬಹುದು. ನಿಮ್ಮ ನೆಲದ ಆರೋಗ್ಯ ಮತ್ತು ಬೆಳೆಯುವ ಹಂತವನ್ನು ಆಧರಿಸಿ ಪ್ರಮಾಣವನ್ನು ಹೊಂದಿಸಬಹುದು.\n\n3. **ಅನ್ವಯಿಸುವ ವಿಧಾನ**:\n   - ಶೇಂಗಾ ಹಿಂಡಿಯನ್ನು ನೆಲದ ಮೇಲ್ಮಟ್ಟದಲ್ಲಿ ಸಮಾನವಾಗಿ ಹಚ್ಚಿ, ನಂತರ ನೆಲದಲ್ಲಿ ಚೆನ್ನಾಗಿ ಮಿಶ್ರಣ ಮಾಡಿ.\n\n4. **ನೀರು ನೀಡುವುದು**:\n   - ಶೇಂಗಾ ಹಿಂಡಿಯನ್ನು ನೀಡಿದ ನಂತರ, ನೆಲದಲ್ಲಿ ಪೋಷಕಾಂಶಗಳನ್ನು ಉತ್ತಮವಾಗಿ ಹರಿಯಲು ನೀರನ್ನು ನೀಡುವುದು ಮುಖ್ಯ.\n\n5. **ಪರಿಶೀಲನೆ**:\n   - ಶೇಂಗಾ ಹಿಂಡಿ ನೀಡಿದ ನಂತರ, ದ್ರಾಕ್ಷಿಯ ಬೆಳವಣಿಗೆ ಮತ್ತು ಆರೋಗ್ಯವನ್ನು ನಿಯಮಿತವಾಗಿ ಪರಿಶೀಲಿಸಿ.\n\nಈ ಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸುವ ಮೂಲಕ, ನೀವು ದ್ರಾಕ್ಷಿಗೆ ಶೇಂಗಾ ಹಿಂಡಿ ಉಪಯೋಗಿಸುವ ಮೂಲಕ ಉತ್ತಮ ಫಲಿತಾಂಶಗಳನ್ನು ಪಡೆಯಬಹುದು.",
+        "en": "Using groundnut cake for grapes is a good source of nutrients. It helps in the growth of grapes. The methods of using groundnut husk are:\n\n1. **Providing nutrients**:\n   - Peanut flour contains nitrogen, phosphore and potassium, which is required for the growth of grapes.\n\n2. **Applicable Quantity**:\n   - Groundnut husk can be used in the range of 100-200 kg/acre. The quantity can be set based on the health of your ground and the stage of growing.\n\n3. **Method of application**:\n   - Apply the groundnut husk evenly on the top of the floor, then mix well on the ground.\n\n4. **Providing water**:\n   - After giving the groundnut husk, it is important to give water for the nutrients to flow better in the ground.\n\n5. **Check**:\n   - After giving groundnut flour, check the growth and health of grapes regularly.\n\nBy following these steps, you can get better results by using groundnut squeeze for grapes.",
+        "timestamp": {
+          "$date": "2025-02-06T10:56:18.585Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "SOP and mangesiuma ಉಪಯೋಗ ಮಾಡಿದರೆ ಹೇಗೆ ",
+        "en": "How to use SOP and mangesiuma ",
+        "timestamp": {
+          "$date": "2025-02-06T10:57:31.876Z"
+        },
+        "standalone_question": "How to use SOP (Sulfate of Potash) and magnesium for grape cultivation?",
+        "standalone_en": "How to use SOP (Sulfate of Potash) and magnesium for grape cultivation?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "SOP and mangesiuma upayoga madidare hege "
+      },
+      {
+        "role": "assistant",
+        "content": "SOP (Sulfate of Potash) ಮತ್ತು ಮ್ಯಾಗ್ನೀಶಿಯಮ್ (Magnesium) ಅನ್ನು ದ್ರಾಕ್ಷಿ ಬೆಳೆಗೆ ಬಳಸುವುದು ಉತ್ತಮ ಫಲಿತಾಂಶಗಳನ್ನು ನೀಡಬಹುದು. ಇಲ್ಲಿದೆ ಹೇಗೆ ಬಳಸುವುದು:\n\n### SOP (Sulfate of Potash)\n1. **ಪೋಷಕಾಂಶಗಳ ಒದಗಿಸುವುದು**:\n   - SOP ದ್ರಾಕ್ಷಿಗೆ ಪೊಟ್ಯಾಸಿಯಮ್ ಮತ್ತು ಸುಲ್ಫರ್ ಅನ್ನು ಒದಗಿಸುತ್ತದೆ, ಇದು ಹಣ್ಣುಗಳ ಗುಣಮಟ್ಟವನ್ನು ಸುಧಾರಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.\n\n2. **ಅನ್ವಯಿಸುವ ಪ್ರಮಾಣ**:\n   - 50-100 ಕಿ.ಗ್ರಾಂ/ಎಕರೆ SOP ಅನ್ನು ಬಳಸಬಹುದು. ನಿಮ್ಮ ನೆಲದ ಆರೋಗ್ಯ ಮತ್ತು ಬೆಳೆಯುವ ಹಂತವನ್ನು ಆಧರಿಸಿ ಪ್ರಮಾಣವನ್ನು ಹೊಂದಿಸಬಹುದು.\n\n3. **ಅನ್ವಯಿಸುವ ವಿಧಾನ**:\n   - SOP ಅನ್ನು ನೆಲದ ಮೇಲ್ಮಟ್ಟದಲ್ಲಿ ಸಮಾನವಾಗಿ ಹಚ್ಚಿ, ನಂತರ ನೆಲದಲ್ಲಿ ಚೆನ್ನಾಗಿ ಮಿಶ್ರಣ ಮಾಡಿ.\n\n### Magnesium\n1. **ಪೋಷಕಾಂಶಗಳ ಒದಗಿಸುವುದು**:\n   - ಮ್ಯಾಗ್ನೀಶಿಯಮ್ ಸಸ್ಯದ ಕ್ಲೋಫಿಲ್ ಉತ್ಪಾದನೆಗೆ ಅಗತ್ಯವಿದೆ, ಇದು ಬೆಳೆಯ ಬೆಳವಣಿಗೆಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.\n\n2. **ಅನ್ವಯಿಸುವ ಪ್ರಮಾಣ**:\n   - 20-30 ಕಿ.ಗ್ರಾಂ/ಎಕರೆ ಮ್ಯಾಗ್ನೀಶಿಯಮ್ ಅನ್ನು ಬಳಸಬಹುದು. \n\n3. **ಅನ್ವಯಿಸುವ ವಿಧಾನ**:\n   - ಮ್ಯಾಗ್ನೀಶಿಯಮ್ ಅನ್ನು ನೆಲದಲ್ಲಿ ಅಥವಾ ನೀರಿನೊಂದಿಗೆ ಮಿಶ್ರಣ ಮಾಡಿ, ನಂತರ ನೀರನ್ನು ನೀಡಬಹುದು.\n\n### ನೀರು ನೀಡುವುದು\n- SOP ಮತ್ತು ಮ್ಯಾಗ್ನೀಶಿಯಮ್ ಅನ್ನು ನೀಡಿದ ನಂತರ, ನೆಲದಲ್ಲಿ ಪೋಷಕಾಂಶಗಳನ್ನು ಉತ್ತಮವಾಗಿ ಹರಿಯಲು ನೀರನ್ನು ನೀಡುವುದು ಮುಖ್ಯ.\n\n### ಪರಿಶೀಲನೆ\n- SOP ಮತ್ತು ಮ್ಯಾಗ್ನೀಶಿಯಮ್ ನೀಡಿದ ನಂತರ, ದ್ರಾಕ್ಷಿಯ ಬೆಳವಣಿಗೆ ಮತ್ತು ಆರೋಗ್ಯವನ್ನು ನಿಯಮಿತವಾಗಿ ಪರಿಶೀಲಿಸಿ.\n\nಈ ಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸುವ ಮೂಲಕ, ನೀವು SOP ಮತ್ತು ಮ್ಯಾಗ್ನೀಶಿಯಮ್ ಅನ್ನು ದ್ರಾಕ್ಷಿ ಬೆಳೆಗೆ ಪರಿಣಾಮಕಾರಿಯಾಗಿ ಬಳಸಬಹುದು.",
+        "en": "Using SOP (Sulfate of Potash) and Magnesium for grape crop can give good results. Here's how to use:\n\n### SOP (Sulfate of Potash)\n1. **Providing nutrients**:\n   - SOP provides potassium and sulphur to grapes, which helps in improving the quality of fruits.\n\n2. **Applicable Quantity**:\n   - 50-100 kg/acre SOP can be used. The quantity can be set based on the health of your ground and the stage of growing.\n\n3. **Method of application**:\n   - Apply SOP evenly on the top of the floor, then mix well on the ground.\n\n### Magnesium\n1. **Providing nutrients**:\n   - Magnesium is required for the clophyll production of the plant, which helps in the growth of the crop.\n\n2. **Applicable Quantity**:\n   - 20-30 kg/acre of magnesium can be used. \n\n3. **Method of application**:\n   - Magnesium can be mixed on the ground or with water, then water can be given.\n\n### Providing water\n- After giving SOP and magnesium, it is important to give water for better flow of nutrients in the ground.\n\n### Verification\n- After administration of SOP and magnesium, regularly check the growth and health of grapes.\n\nBy following these steps, you can use SOP and magnesium effectively for the grape crop.",
+        "timestamp": {
+          "$date": "2025-02-06T10:57:49.131Z"
+        }
+      }
+    ],
+    "farmer_id": "yallavvamallappameti",
+    "farmer_plot_ids": [
+      "plotno2367"
+    ],
+    "conversation_id": "67a4901dd30c207118337c79",
+    "_id": "67a4901dd30c207118337c79",
+    "language": "ka",
+    "expiry": {
+      "$date": "2025-02-06T11:02:31.888000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-02-06T10:34:07.367000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which type of fungus is this <user uploaded image for analysis at 'plot2pome/2025-02-06-1738836099432.jpg'>",
+        "en": "Which type of fungus is this <user uploaded image for analysis at 'plot2pome/2025-02-06-1738836099432.jpg'>",
+        "timestamp": {
+          "$date": "2025-02-06T10:03:05.284Z"
+        },
+        "standalone_question": "What type of fungus is depicted in the uploaded image?",
+        "standalone_en": "What type of fungus is depicted in the uploaded image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the uploaded image did not identify a specific type of fungus. However, it suggests general management practices for fungal infections and pests in pomegranates:\n\n1. **Fungicides**: Use a broad-spectrum fungicide effective against anthracnose and other fruit rots.\n2. **Insecticides**: If pests are suspected, consider insecticides targeting common pests affecting pomegranates.\n\nAdditionally, ensure proper cultural practices such as good air circulation and regular monitoring for signs of pests or diseases. For tailored advice, consult with a local agricultural extension service.",
+        "en": "The analysis of the uploaded image did not identify a specific type of fungus. However, it suggests general management practices for fungal infections and pests in pomegranates:\n\n1. **Fungicides**: Use a broad-spectrum fungicide effective against anthracnose and other fruit rots.\n2. **Insecticides**: If pests are suspected, consider insecticides targeting common pests affecting pomegranates.\n\nAdditionally, ensure proper cultural practices such as good air circulation and regular monitoring for signs of pests or diseases. For tailored advice, consult with a local agricultural extension service.",
+        "timestamp": {
+          "$date": "2025-02-06T10:03:36.166Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "What should we do ",
+        "en": "What should we do ",
+        "timestamp": {
+          "$date": "2025-02-06T10:04:15.044Z"
+        },
+        "standalone_question": "What actions should we take?",
+        "standalone_en": "What actions should we take?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Based on the current conditions and predictions for your plot \"plot pome 2,\" here are the recommended actions:\n\n### Pest Management\n1. **Pests Detected**:\n   - **Aphids**: High risk (75.1% probability)\n   - **White Fly**: High risk (90.7% probability)\n   - **Mealybug**: Medium risk (71.7% probability)\n   - **Thrips**: Medium risk (70.0% probability)\n\n2. **Recommended Action**:\n   - **Spray with**: \n     - **Chlorpyriphos** at 5 mL/L or \n     - **Thiamethoxam** at 0.5 g/L to control aphids and white flies.\n\n### Disease Management\n1. **Diseases Detected**:\n   - **Anthracnose**: Low risk (27.9% probability)\n   - **Bacterial Blight**: NIL risk\n   - **Cercospora**: NIL risk\n\n2. **Recommended Action**:\n   - No immediate action required for diseases, but monitor for any changes.\n\n### Summary\n- **Spray for pests** today to manage the high-risk levels, especially for aphids and white flies.\n- Continue monitoring for diseases, but current levels are low.\n\nMake sure to follow safety guidelines while applying any pesticides.",
+        "en": "Based on the current conditions and predictions for your plot \"plot pome 2,\" here are the recommended actions:\n\n### Pest Management\n1. **Pests Detected**:\n   - **Aphids**: High risk (75.1% probability)\n   - **White Fly**: High risk (90.7% probability)\n   - **Mealybug**: Medium risk (71.7% probability)\n   - **Thrips**: Medium risk (70.0% probability)\n\n2. **Recommended Action**:\n   - **Spray with**: \n     - **Chlorpyriphos** at 5 mL/L or \n     - **Thiamethoxam** at 0.5 g/L to control aphids and white flies.\n\n### Disease Management\n1. **Diseases Detected**:\n   - **Anthracnose**: Low risk (27.9% probability)\n   - **Bacterial Blight**: NIL risk\n   - **Cercospora**: NIL risk\n\n2. **Recommended Action**:\n   - No immediate action required for diseases, but monitor for any changes.\n\n### Summary\n- **Spray for pests** today to manage the high-risk levels, especially for aphids and white flies.\n- Continue monitoring for diseases, but current levels are low.\n\nMake sure to follow safety guidelines while applying any pesticides.",
+        "timestamp": {
+          "$date": "2025-02-06T10:04:29.353Z"
+        }
+      }
+    ],
+    "farmer_id": "ankithbhai8889",
+    "farmer_plot_ids": [
+      "plot2pome",
+      "pomegranate334",
+      "plot2rajshakti",
+      "rajshaktipomeplot3"
+    ],
+    "conversation_id": "67a488d9f437b40d8ade7f10",
+    "_id": "67a488d9f437b40d8ade7f10",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-02-06T10:09:15.052000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-02-06T10:03:05.284000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મગફળી નુ વાવેતર ક્યારે કરવુ",
+        "en": "When to plant peanuts",
+        "timestamp": {
+          "$date": "2025-02-06T08:32:10.119Z"
+        },
+        "standalone_question": "When should peanuts be planted?",
+        "standalone_en": "When should peanuts be planted?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is the right time to sow the seeds?\nA: Check the weather forecast for the next few days (tool call), and then decide the right time for the crop, based on own's knowledge."
+          ]
+        },
+        "content_transliterated": "magaphali nu vavetar kyare karavu"
+      },
+      {
+        "role": "assistant",
+        "content": "મગફળીનું વાવેતર સામાન્ય રીતે monsoon (વરસાદી) મોસમમાં, એટલે કે જુલાઈથી ઓગસ્ટ વચ્ચે કરવું જોઈએ. આ સમયે જમીનનું તાપમાન અને આદર્શ આબોહવા મગફળીના વાવેતર માટે અનુકૂળ હોય છે. \n\nજો તમે વધુ ચોક્કસ માહિતી જોઈએ છો, તો કૃપા કરીને તમારા વિસ્તારમાંના હવામાનની સ્થિતિને ધ્યાનમાં રાખો.",
+        "en": "Groundnut should usually be sown in the monsoon (rainy) season, i.e. between July and August. The soil temperature and ideal climate at this time are favourable for groundnut cultivation. \n\nIf you want more precise information, please take into account the weather conditions in your area.",
+        "timestamp": {
+          "$date": "2025-02-06T08:32:14.813Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ઉનાળા માટે",
+        "en": "For the summer",
+        "timestamp": {
+          "$date": "2025-02-06T08:32:32.144Z"
+        },
+        "standalone_question": "What is the best time to plant peanuts for the summer season?",
+        "standalone_en": "What is the best time to plant peanuts for the summer season?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "unala mate"
+      },
+      {
+        "role": "assistant",
+        "content": "ઉનાળાની મગફળીનું વાવેતર સામાન્ય રીતે ફેબ્રુઆરીના અંતથી માર્ચના શરૂઆતમાં કરવું જોઈએ. આ સમયે જમીનનું તાપમાન ઉનાળાની મગફળી માટે અનુકૂળ હોય છે. \n\nજો તમે વધુ ચોક્કસ માહિતી જોઈએ છો, તો કૃપા કરીને તમારા વિસ્તારમાંના હવામાનની સ્થિતિને ધ્યાનમાં રાખો.",
+        "en": "Summer peanuts should usually be sown from late February to early March. At this time the temperature of the land is favorable for summer peanuts. \n\nIf you want more precise information, please take into account the weather conditions in your area.",
+        "timestamp": {
+          "$date": "2025-02-06T08:32:36.739Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ડીસા તાલુકા મા કઈ મગફળી વાવવી જોઈએ",
+        "en": "Which peanuts should be sown in Deesa taluka",
+        "timestamp": {
+          "$date": "2025-02-06T08:33:32.904Z"
+        },
+        "standalone_question": "Which type of peanut should be planted in the Disa taluka?",
+        "standalone_en": "Which type of peanut should be planted in the Disa taluka?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "disa taluka ma kai magaphali vavavi joie"
+      },
+      {
+        "role": "assistant",
+        "content": "ડીસા તાલુકામાં, તમે નીચેની મગફળીની જાતો વાવી શકો છો:\n\n1. **જૈવિક મગફળી**: આ જાતો જમીન માટે વધુ અનુકૂળ છે અને પોષણમાં સમૃદ્ધ છે.\n2. **કરણીક મગફળી**: આ જાતો વધુ ઉત્પાદન આપે છે અને ઉનાળાની મોસમમાં સારી રીતે ઉગે છે.\n3. **મધ્યમ મગફળી**: આ જાતો પણ સારી પસંદગી છે, ખાસ કરીને જો જમીનનું પોષણ યોગ્ય હોય.\n\nતમારા વિસ્તારમાંની જમીન અને હવામાનની સ્થિતિને ધ્યાનમાં રાખીને, આ જાતોમાંથી કોઈ એક પસંદ કરી શકો છો.",
+        "en": "In Deesa taluka, you can sow the following groundnut varieties:\n\n1. **Organic peanuts**: These varieties are more suited to the soil and are rich in nutrition.\n2. **Organic peanuts**: These varieties give more yield and grow well during the summer season.\n3. **Medium peanuts**: These varieties are also a good choice, especially if the soil is nourished.\n\nDepending on the soil and weather conditions in your area, you can choose one of these varieties.",
+        "timestamp": {
+          "$date": "2025-02-06T08:33:39.330Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "કઈ",
+        "en": "Which",
+        "timestamp": {
+          "$date": "2025-02-06T08:34:03.152Z"
+        },
+        "standalone_question": "Which type of peanut should be grown in the Disa taluka?",
+        "standalone_en": "Which type of peanut should be grown in the Disa taluka?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kai"
+      },
+      {
+        "role": "assistant",
+        "content": "ડીસા તાલુકામાં મગફળી વાવતી વખતે, તમે નીચેની જાતો પસંદ કરી શકો છો:\n\n1. **જૈવિક મગફળી**: આ જાતો જમીન માટે વધુ અનુકૂળ છે અને પોષણમાં સમૃદ્ધ છે.\n2. **કરણીક મગફળી**: આ જાતો વધુ ઉત્પાદન આપે છે અને ઉનાળાની મોસમમાં સારી રીતે ઉગે છે.\n3. **મધ્યમ મગફળી**: આ જાતો પણ સારી પસંદગી છે, ખાસ કરીને જો જમીનનું પોષણ યોગ્ય હોય.\n\nતમારા વિસ્તારમાંની જમીન અને હવામાનની સ્થિતિને ધ્યાનમાં રાખીને, આ જાતોમાંથી કોઈ એક પસંદ કરી શકો છો.",
+        "en": "While planting peanuts in Deesa taluka, you can choose the following varieties:\n\n1. **Organic peanuts**: These varieties are more suited to the soil and are rich in nutrition.\n2. **Organic peanuts**: These varieties give more yield and grow well during the summer season.\n3. **Medium peanuts**: These varieties are also a good choice, especially if the soil is nourished.\n\nDepending on the soil and weather conditions in your area, you can choose one of these varieties.",
+        "timestamp": {
+          "$date": "2025-02-06T08:34:09.038Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140"
+    ],
+    "conversation_id": "67a47389d30c207118337c78",
+    "_id": "67a47389d30c207118337c78",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-02-06T08:39:03.160000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-02-06T08:32:10.119000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "કેટલું પાણી હાકવુ ",
+        "en": "How much water to draw ",
+        "timestamp": {
+          "$date": "2025-02-06T02:54:57.927Z"
+        },
+        "standalone_question": "How much water should I drink?",
+        "standalone_en": "How much water should I drink?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ketalun pani hakavu "
+      },
+      {
+        "role": "assistant",
+        "content": "**Plot: main1211**\n- **Current Soil Moisture:** 200 kPa (dry)\n- **Optimal Moisture Range:** 5 (wet) - 22 (dry)\n- **Irrigation Required:** 0.4 hours\n\n**Plot: main2122**\n- **Current Soil Moisture:** 0 kPa (wet)\n- **Optimal Moisture Range:** 5 (wet) - 22 (dry)\n- **Irrigation Required:** 0.4 hours\n\n**Plot: Main kairo**\n- **Current Soil Moisture:** 9 kPa (wet)\n- **Optimal Moisture Range:** 2 (wet) - 18 (dry)\n- **Irrigation Required:** 0.0 hours (no irrigation needed)\n\n**Recommendation:** \n- For **main1211** and **main2122**, you should irrigate for **0.4 hours**.\n- For **Main kairo**, no irrigation is needed at this time.",
+        "en": "**Plot: main1211**\n- **Current Soil Moisture:** 200 kPa (dry)\n- **Optimal Moisture Range:** 5 (wet) - 22 (dry)\n- **Irrigation Required:** 0.4 hours\n\n**Plot: main2122**\n- **Current Soil Moisture:** 0 kPa (wet)\n- **Optimal Moisture Range:** 5 (wet) - 22 (dry)\n- **Irrigation Required:** 0.4 hours\n\n**Plot: Main kairo**\n- **Current Soil Moisture:** 9 kPa (wet)\n- **Optimal Moisture Range:** 2 (wet) - 18 (dry)\n- **Irrigation Required:** 0.0 hours (no irrigation needed)\n\n**Recommendation:** \n- For **main1211** and **main2122**, you should irrigate for **0.4 hours**.\n- For **Main kairo**, no irrigation is needed at this time.",
+        "timestamp": {
+          "$date": "2025-02-06T02:55:12.680Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "કોય ખાતર હાકવુ",
+        "en": "Calling for someone's sake",
+        "timestamp": {
+          "$date": "2025-02-06T02:56:10.591Z"
+        },
+        "standalone_question": "What type of fertilizer should be used?",
+        "standalone_en": "What type of fertilizer should be used?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "coy khatar hakavu"
+      },
+      {
+        "role": "assistant",
+        "content": "Currently, there is no available fertigation schedule for any of your plots:\n\n1. **Plot: main1211** - Fertigation data schedule not available.\n2. **Plot: main2122** - Fertigation data schedule not available.\n3. **Plot: Main kairo** - Fertigation data schedule not available.\n\nYou may want to check back later or consult with your agronomist for specific fertilizer recommendations based on your crop's needs.",
+        "en": "Currently, there is no available fertigation schedule for any of your plots:\n\n1. **Plot: main1211** - Fertigation data schedule not available.\n2. **Plot: main2122** - Fertigation data schedule not available.\n3. **Plot: Main kairo** - Fertigation data schedule not available.\n\nYou may want to check back later or consult with your agronomist for specific fertilizer recommendations based on your crop's needs.",
+        "timestamp": {
+          "$date": "2025-02-06T02:56:20.733Z"
+        }
+      }
+    ],
+    "farmer_id": "natvarbhai",
+    "farmer_plot_ids": [
+      "main1211",
+      "main2122",
+      "mainkairo512"
+    ],
+    "conversation_id": "67a42481a4c83b910784667c",
+    "_id": "67a42481a4c83b910784667c",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-02-06T03:01:10.602000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-02-06T02:54:57.927000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which type of fungus is this ",
+        "en": "Which type of fungus is this ",
+        "timestamp": {
+          "$date": "2025-02-06T02:44:06.427Z"
+        },
+        "standalone_question": "What type of fungus is this?",
+        "standalone_en": "What type of fungus is this?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Please provide an image of the fungus you would like to identify, and I can analyze it for you.",
+        "en": "Please provide an image of the fungus you would like to identify, and I can analyze it for you.",
+        "timestamp": {
+          "$date": "2025-02-06T02:44:09.644Z"
+        }
+      }
+    ],
+    "farmer_id": "ankithbhai8889",
+    "farmer_plot_ids": [
+      "plot2pome",
+      "pomegranate334",
+      "plot2rajshakti",
+      "rajshaktipomeplot3"
+    ],
+    "conversation_id": "67a421f5a4c83b910784667b",
+    "_id": "67a421f5a4c83b910784667b",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-02-06T02:49:06.435000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-02-06T02:44:06.427000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "ડેટા અપ ડેટ કરો",
+        "en": "Date data up",
+        "timestamp": {
+          "$date": "2025-02-06T01:18:35.556Z"
+        },
+        "standalone_question": "Update the data.",
+        "standalone_en": "Update the data.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "data up date karo"
+      },
+      {
+        "role": "assistant",
+        "content": "હવે તમારા પ્લોટ્સના તાજા ડેટા અહીં છે:\n\n### Medan Wala Kairo\n- **તારીખ અને સમય:** 2025-02-06 06:34\n- **હવા તાપમાન:** 9.6°C\n- **હવા આર્દ્રતા:** 78%\n- **માટીના તાપમાન:** 15.56°C\n- **માટીની ભેજ (Sensor 1):** 4 kPa (વેટ)\n- **માટીની ભેજ (Sensor 2):** 0 kPa (વેટ)\n- **પાનની ભેજ:** 0\n- **હવા દબાણ:** 100.7 kPa\n- **પ્રકાશની તીવ્રતા:** 0\n- **UV ઇન્ડેક્સ:** 0\n- **હવા ઝડપ:** 3.7 km/h (ઉત્તર તરફ)\n- **વર્ષા:** 0 mm\n- **બેટરી:** 96%\n\n### rayan wala nero\n- **તારીખ અને સમય:** 2025-02-06 05:48\n- **માટીના તાપમાન:** 15.13°C\n- **માટીની ભેજ (Sensor 1):** 8 kPa (વેટ)\n- **માટીની ભેજ (Sensor 2):** 15 kPa (વેટ)\n- **હવા દબાણ:** 100.6 kPa\n- **બેટરી:** 43%\n- **Vi:** 10\n- **BATV:** 3631\n\nજો તમને વધુ માહિતી જોઈએ તો જણાવો!",
+        "en": "Now here's the latest data on your plots:\n\n### Medan Wala Kairo\n- **Date and time:** 2025-02-06 06:34\n* **Air temperature:** 9.6°C\n* **Air humidity:** 78%\n* **Soil temperature:** 15.56°C\n* **Soil moisture (Sensor 1):** 4 kPa (wet)\n* **Soil moisture (Sensor 2):** 0 kPa (wet)\n- **Leaf moisture:** 0\n- **Air pressure:** 100.7 kPa\n- **Intensity of light:** 0\n- **UV index:** 0\n* **Wind speed:** 3.7 km/h (northward)\n- **Rain:** 0 mm\n* **Battery:** 96%\n\n### rayan wala nero\n* **Date and Time:** 2025-02-06 05:48\n* **Soil temperature:** 15.13°C\n- **Soil moisture (Sensor 1):** 8 kPa (wet)\n* **Soil moisture (Sensor 2):** 15 kPa (wet)\n- **Air pressure:** 100.6 kPa\n* **Battery:** 43%\n- **Vi:** 10\n- **BATV:** 3631\n\nLet me know if you need more information!",
+        "timestamp": {
+          "$date": "2025-02-06T01:19:06.290Z"
+        }
+      }
+    ],
+    "farmer_id": "deepakbhai",
+    "farmer_plot_ids": [
+      "medanwalakairo",
+      "rayanwalaniro"
+    ],
+    "conversation_id": "67a40debd30c207118337c77",
+    "_id": "67a40debd30c207118337c77",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-02-06T01:23:35.564000Z"
+    },
+    "tag": "historical data",
+    "conv_date": "2025-02-06T01:18:35.556000+00:00"
+  }
+]

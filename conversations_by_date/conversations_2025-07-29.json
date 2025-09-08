@@ -1,0 +1,326 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "गोड चटणीनंतर कोणती फवारणी करावी ",
+        "en": "What to spray after sweet chutney ",
+        "tool":"all 3, sprey, farmer acti.., spreying condition (hostorical, today, prediction)",
+        "timestamp": {
+          "$date": "2025-07-29T04:59:48.444Z"
+        },
+        "standalone_question": "What kind of spray should be applied after the sweet chutney?",
+        "standalone_en": "What kind of spray should be applied after the sweet chutney?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "goad chataninantar konati favarani karavi "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटसाठी या आठवड्यात कोणतीही फवारणीची शिफारस नाही. तुम्ही गोड चटणी केल्यानंतर काही दिवस थांबून राहा. जर पुढील काही दिवसांत फायलो अॅपने फवारणीची शिफारस केली, तर त्यानुसार फवारणी करा.",
+        "en": "There is no spraying recommendation for your plot this week. Wait a few days after you have a sweet chutney. If the Filo app recommends spraying over the next few days, spray accordingly.",
+        "timestamp": {
+          "$date": "2025-07-29T04:59:57.252Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "घड जिरायला नको महनून कोणता स्प्रे व लिक्विड सोडायचे ",
+        "en": "What spray and liquid to leave behind ",
+        "tool":"all 3, sprey, farmer acti.., spreying condition (hostorical, today, prediction)",
+        "timestamp": {
+          "$date": "2025-07-29T05:01:13.475Z"
+        },
+        "standalone_question": "Which spray and liquid should be used to prevent the crop from wilting?",
+        "standalone_en": "Which spray and liquid should be used to prevent the crop from wilting?",
+        "retrieval": {
+          "tools": [
+            "check_spray_conditions  \nGets the spray condition forecast for the next few hours for the farmer's plots and returns the condition for each hour as GOOD, MODERATE, or WORST, based on deltaT, VPD, and rainfall conditions."
+          ],
+          "faq": [
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate.",
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer.",
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed",
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil."
+          ]
+        },
+        "content_transliterated": "ghad jirayala nako mahanun konta spray v liquid sodayache "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटसाठी या आठवड्यात कोणतीही फवारणीची शिफारस नाही. त्यामुळे तुम्हाला घड जिरायला नको म्हणून कोणताही स्प्रे किंवा लिक्विड वापरण्याची गरज नाही. जर तुम्हाला आणखी काही माहिती हवी असेल, तर कृपया सांगा.",
+        "en": "There is no spraying recommendation for your plot this week. So you don't need to use any spray or liquid so that you don't get choked up. If you need any more information, please let me know.",
+        "timestamp": {
+          "$date": "2025-07-29T05:01:20.388Z"
+        }
+      }
+    ],
+    "farmer_id": "Z2F1cmF2amFkaGF21746502325370",
+    "farmer_plot_ids": [
+      "crimsonplot1896",
+      "crimsonplot2gharajavl",
+      "crimsonplotno2",
+      "sudhakarvijayshriplot",
+      "thomsonplot1gharajaval"
+    ],
+    "conversation_id": "6888554291b285c244a0c977",
+    "_id": "6888554291b285c244a0c977",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-29T05:06:13.479000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-07-29T04:59:48.444000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Coc compitable with micronutrients ",
+        "en": "Coc compitable with micronutrients ",
+        "timestamp": {
+          "$date": "2025-07-29T04:47:40.755Z"
+        },
+        "standalone_question": "Is Coc compatible with micronutrients?",
+        "standalone_en": "Is Coc compatible with micronutrients?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Coconut (Coc) is compatible with various micronutrients that can enhance its growth and yield. Some essential micronutrients for coconut cultivation include:\n\n1. **Boron**: Important for flower and fruit development.\n2. **Zinc**: Aids in chlorophyll production and overall plant health.\n3. **Iron**: Essential for photosynthesis and enzyme function.\n4. **Manganese**: Plays a role in photosynthesis and nitrogen metabolism.\n5. **Copper**: Important for reproductive growth and disease resistance.\n6. **Molybdenum**: Helps in nitrogen fixation and enzyme activity.\n\nApplying these micronutrients in appropriate amounts can improve the health and productivity of coconut palms. It's advisable to conduct soil tests to determine the specific micronutrient needs of your soil.",
+        "en": "Coconut (Coc) is compatible with various micronutrients that can enhance its growth and yield. Some essential micronutrients for coconut cultivation include:\n\n1. **Boron**: Important for flower and fruit development.\n2. **Zinc**: Aids in chlorophyll production and overall plant health.\n3. **Iron**: Essential for photosynthesis and enzyme function.\n4. **Manganese**: Plays a role in photosynthesis and nitrogen metabolism.\n5. **Copper**: Important for reproductive growth and disease resistance.\n6. **Molybdenum**: Helps in nitrogen fixation and enzyme activity.\n\nApplying these micronutrients in appropriate amounts can improve the health and productivity of coconut palms. It's advisable to conduct soil tests to determine the specific micronutrient needs of your soil.",
+        "timestamp": {
+          "$date": "2025-07-29T04:47:45.509Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Copper oxychloride compitable with  micronutrients ",
+        "en": "Copper oxychloride compitable with  micronutrients ",
+        "timestamp": {
+          "$date": "2025-07-29T04:49:03.601Z"
+        },
+        "standalone_question": "Is copper oxychloride compatible with micronutrients?",
+        "standalone_en": "Is copper oxychloride compatible with micronutrients?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Copper oxychloride is a fungicide that can be compatible with certain micronutrients when used in crop management. However, it's essential to consider the following points:\n\n1. **Compatibility**: Copper oxychloride can be mixed with some micronutrients, but it may not be compatible with all. Always check the manufacturer's guidelines or conduct a compatibility test before mixing.\n\n2. **Micronutrients**: Common micronutrients that can be used alongside copper oxychloride include:\n   - Zinc\n   - Manganese\n   - Boron\n\n3. **Avoid Mixing with**: Avoid mixing copper oxychloride with highly alkaline substances or certain fertilizers that may react negatively.\n\n4. **Application Timing**: Ensure that the application timing of copper oxychloride and micronutrients does not overlap in a way that could cause phytotoxicity or reduce effectiveness.\n\nFor best results, consult with an agronomy expert or refer to specific product labels for detailed compatibility information.",
+        "en": "Copper oxychloride is a fungicide that can be compatible with certain micronutrients when used in crop management. However, it's essential to consider the following points:\n\n1. **Compatibility**: Copper oxychloride can be mixed with some micronutrients, but it may not be compatible with all. Always check the manufacturer's guidelines or conduct a compatibility test before mixing.\n\n2. **Micronutrients**: Common micronutrients that can be used alongside copper oxychloride include:\n   - Zinc\n   - Manganese\n   - Boron\n\n3. **Avoid Mixing with**: Avoid mixing copper oxychloride with highly alkaline substances or certain fertilizers that may react negatively.\n\n4. **Application Timing**: Ensure that the application timing of copper oxychloride and micronutrients does not overlap in a way that could cause phytotoxicity or reduce effectiveness.\n\nFor best results, consult with an agronomy expert or refer to specific product labels for detailed compatibility information.",
+        "timestamp": {
+          "$date": "2025-07-29T04:49:09.939Z"
+        }
+      }
+    ],
+    "farmer_id": "murthyn",
+    "farmer_plot_ids": [
+      "murthynpomo",
+      "murthyp1"
+    ],
+    "conversation_id": "6888526c91b285c244a0c976",
+    "_id": "6888526c91b285c244a0c976",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-07-29T04:54:03.605000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-07-29T04:47:40.755000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "अमोनियम सल्फर सोबत कोणते खत द्यावे",
+        "en": "What fertilizer to give with ammonium sulfur",
+        "timestamp": {
+          "$date": "2025-07-29T03:53:20.137Z"
+        },
+        "standalone_question": "What fertilizer should be used with ammonium sulfate?",
+        "standalone_en": "What fertilizer should be used with ammonium sulfate?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ammonium sulphur sobat conte khat dyave"
+      },
+      {
+        "role": "assistant",
+        "content": "अमोनियम सल्फर (Ammonium Sulfate) सोबत तुम्ही खालील खतांचा वापर करू शकता:\n\n1. **युरिया (Urea)** - युरिया सोबत अमोनियम सल्फर वापरल्याने नायट्रोजनची उपलब्धता वाढते.\n2. **डीएपी (Diammonium Phosphate)** - यामुळे फॉस्फरसची उपलब्धता वाढते, जे पिकांच्या प्रारंभिक वाढीसाठी महत्त्वाचे आहे.\n3. **पोटॅशियम सल्फेट (Potassium Sulfate)** - पोटॅशियमची उपलब्धता वाढवण्यासाठी हे खत उपयुक्त आहे.\n\nतुमच्या पिकांच्या गरजेनुसार योग्य प्रमाणात या खतांचा वापर करा.",
+        "en": "With Ammonium Sulfate, you can use the following seeds:\n\n1. **Urea** - The use of ammonium sulfur with urea increases the availability of nitrogen.\n2. DAP (Diammonium Phosphate) – This increases the availability of phosphorus, which is important for the initial growth of crops.\n3. Potassium Sulfate – This is useful for increasing the availability of potassium.\n\nUse these seeds in the right quantity according to your crop needs.",
+        "timestamp": {
+          "$date": "2025-07-29T03:53:24.618Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "1 एकर साठी किती द्यावे",
+        "en": "How much to pay for 1 acre",
+        "tool":"wrong answer, dont call tool",
+        "timestamp": {
+          "$date": "2025-07-29T03:54:25.830Z"
+        },
+        "standalone_question": "How much fertilizer should be used per acre?",
+        "standalone_en": "How much fertilizer should be used per acre?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "1 acre sathi kiti dyave"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"Banna Plot 1\" मध्ये सध्या \"Grand Growth\" टप्प्यात आहात, जो 8 व्या आठवड्यात आहे. या टप्प्यात, 1 एकर साठी तुम्हाला खालील प्रमाणात खत द्यावे लागेल:\n\n### सध्याचा फर्टिगेशन शेड्यूल (8 व्या आठवड्यात):\n- **White Muriate of Potash**: 10 ग्रॅम प्रति झाड\n\n### पुढील फर्टिगेशन शेड्यूल (9 व्या आठवड्यात):\n- **Urea**: 10 ग्रॅम प्रति झाड\n- **Phosphoric Acid**: 15-20 मिनिटे आधी वेगळे द्यावे.\n\nतुमच्या प्लॉटमध्ये झाडांची संख्या लक्षात घेऊन, एकरानुसार एकूण प्रमाण काढा.",
+        "en": "Your \"Banna Plot 1\" is currently in the \"Grand Growth\" phase, which is in the 8th week. In this step, for 1 acre you will have to write the following amount:\n\n### Current Fertigation Schedule (8th Week):\n- White Muriate of Potash: 10 grams per tree\n\n### Next Fertigation Schedule (9th Week):\n- Urea: 10 grams per tree\n- Phosphoric Acid: 15-20 minutes before disassemble.\n\nConsidering the number of trees in your plot, calculate the total amount according to acres.",
+        "timestamp": {
+          "$date": "2025-07-29T03:54:33.098Z"
+        }
+      }
+    ],
+    "farmer_id": "shrikrishnakshirsagargulsadi",
+    "farmer_plot_ids": [
+      "bannaplot1"
+    ],
+    "conversation_id": "688845b091b285c244a0c975",
+    "_id": "688845b091b285c244a0c975",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-29T03:59:25.834000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-07-29T03:53:20.137000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Copper oxychloride compitable   with micronutrients ",
+        "en": "Copper oxychloride compitable   with micronutrients ",
+        "timestamp": {
+          "$date": "2025-07-29T02:43:54.949Z"
+        },
+        "standalone_question": "Is copper oxychloride compatible with micronutrients?",
+        "standalone_en": "Is copper oxychloride compatible with micronutrients?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Copper oxychloride is generally compatible with many micronutrients, but there are some considerations to keep in mind:\n\n1. **Compatibility**: It is often compatible with micronutrients like zinc, manganese, and boron. However, it may not mix well with certain fertilizers or pesticides, especially those that are alkaline.\n\n2. **pH Sensitivity**: The effectiveness of copper oxychloride can be affected by the pH of the solution. It's best to maintain a slightly acidic pH for optimal performance.\n\n3. **Application Timing**: Ensure that the timing of application does not overlap with other treatments that may cause antagonism.\n\n4. **Testing**: Always conduct a jar test to check for any physical incompatibility before mixing in large quantities.\n\nIt's advisable to consult with a local agronomist or agricultural extension officer for specific recommendations based on your crop and local conditions.",
+        "en": "Copper oxychloride is generally compatible with many micronutrients, but there are some considerations to keep in mind:\n\n1. **Compatibility**: It is often compatible with micronutrients like zinc, manganese, and boron. However, it may not mix well with certain fertilizers or pesticides, especially those that are alkaline.\n\n2. **pH Sensitivity**: The effectiveness of copper oxychloride can be affected by the pH of the solution. It's best to maintain a slightly acidic pH for optimal performance.\n\n3. **Application Timing**: Ensure that the timing of application does not overlap with other treatments that may cause antagonism.\n\n4. **Testing**: Always conduct a jar test to check for any physical incompatibility before mixing in large quantities.\n\nIt's advisable to consult with a local agronomist or agricultural extension officer for specific recommendations based on your crop and local conditions.",
+        "timestamp": {
+          "$date": "2025-07-29T02:44:00.693Z"
+        }
+      }
+    ],
+    "farmer_id": "murthyn",
+    "farmer_plot_ids": [
+      "murthynpomo",
+      "murthyp1"
+    ],
+    "conversation_id": "6888356a91b285c244a0c971",
+    "_id": "6888356a91b285c244a0c971",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-07-29T02:48:54.952000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-07-29T02:43:54.949000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Draks kadi vajnyache praman kase ahe",
+        "en": "How is the rate of grape ringing",
+        "correct_or_not":"wrong answer",
+        "timestamp": {
+          "$date": "2025-07-29T02:25:36.367Z"
+        },
+        "standalone_question": "What is the proof of the Draks kadi?",
+        "standalone_en": "What is the proof of the Draks kadi?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Plot No.1 मध्ये, 1 जुलै 2025 पासून 29 जुलै 2025 पर्यंतच्या दिवसांमध्ये द्राक्षांच्या पिकासाठी द्रवपदार्थ वाष्पीकरणाचे प्रमाण (Evapotranspiration) खालीलप्रमाणे आहे:\n\n- 29 जुलै: 14.4 mm\n- 28 जुलै: 14.4 mm\n- 27 जुलै: 14.4 mm\n- 26 जुलै: 14.4 mm\n- 25 जुलै: 14.4 mm\n- 24 जुलै: 14.4 mm\n- 23 जुलै: 13.9 mm\n- 20 जुलै: 14.4 mm\n- 19 जुलै: 14.4 mm\n- 18 जुलै: 14.4 mm\n- 17 जुलै: 14.4 mm\n- 16 जुलै: 14.4 mm\n- 15 जुलै: 14.4 mm\n- 14 जुलै: 14.4 mm\n- 13 जुलै: 14.4 mm\n- 12 जुलै: 14.4 mm\n- 11 जुलै: 14.4 mm\n- 10 जुलै: 14.4 mm\n- 9 जुलै: 14.4 mm\n- 8 जुलै: 14.4 mm\n- 7 जुलै: 14.4 mm\n- 6 जुलै: 14.4 mm\n- 5 जुलै: 14.4 mm\n- 3 जुलै: 14.4 mm\n- 2 जुलै: 14.4 mm\n- 1 जुलै: 14.4 mm\n\nसर्वसाधारणपणे, वाष्पीकरणाचे प्रमाण स्थिर आहे, साधारणतः 14.4 mm आहे. 23 जुलैला थोडा कमी (13.9 mm) झाला आहे.",
+        "en": "In Plot No.1, the amount of liquid evaporation (evapotranspiration) for the ripening of vineyards in the days from 1st July 2025 to 29th July 2025 is as follows:\n\n- July 29: 14.4 mm\n- 28 July: 14.4 mm\n- 27 July: 14.4 mm\n- 26 July: 14.4 mm\n- July 25: 14.4 mm\n- 24 July: 14.4 mm\n- 23 July: 13.9 mm\n- 20 July: 14.4 mm\n- 19 July: 14.4 mm\n- 18 July: 14.4 mm\n- 17 July: 14.4 mm\n- July 16: 14.4 mm\n- 15 July: 14.4 mm\n- 14 July: 14.4 mm\n- 13 July: 14.4 mm\n- 12 July: 14.4 mm\n- July 11: 14.4 mm\n- 10 July: 14.4 mm\n- 9 July: 14.4 mm\n- 8 July: 14.4 mm\n- 7 July: 14.4 mm\n- 6 July: 14.4 mm\n- July 5: 14.4 mm\n- 3 July: 14.4 mm\n- July 2: 14.4 mm\n- 1 July: 14.4 mm\n\nIn general, the evaporation amount is constant, normally 14.4 mm. On July 23, there has been a slight decrease (13.9 mm).",
+        "timestamp": {
+          "$date": "2025-07-29T02:25:48.634Z"
+        }
+      }
+    ],
+    "farmer_id": "sandipkale",
+    "farmer_plot_ids": [
+      "plotno1224"
+    ],
+    "conversation_id": "6888312091b285c244a0c96e",
+    "_id": "6888312091b285c244a0c96e",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-29T02:30:36.370000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-07-29T02:25:36.367000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "tell me yesterday's rainfall for all the division except Nero make it all in table format and AD average also",
+        "en": "tell me yesterday's rainfall for all the division except Nero make it all in table format and AD average also",
+        "answer":"historical hourly weather",
+        "timestamp": {
+          "$date": "2025-07-29T02:19:19.426Z"
+        },
+        "standalone_question": "What was yesterday's rainfall for all divisions except Nero, presented in table format, along with the average for the day?",
+        "standalone_en": "What was yesterday's rainfall for all divisions except Nero, presented in table format, along with the average for the day?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the rainfall data for yesterday (July 28, 2025) for all divisions except Nero:\n\n| Plot Name               | Rainfall (mm) |\n|------------------------|----------------|\n| Srock Attamala         | 0              |\n| Srock Chooralmala Kairo| 0              |\n| Srock Mundakkai Kairo  | 0              |\n| Srock Puthumala        | 1              |\n| **Average Rainfall**   | **0.25**       |\n\nThe average rainfall across these plots was 0.25 mm.",
+        "en": "Here's the rainfall data for yesterday (July 28, 2025) for all divisions except Nero:\n\n| Plot Name               | Rainfall (mm) |\n|------------------------|----------------|\n| Srock Attamala         | 0              |\n| Srock Chooralmala Kairo| 0              |\n| Srock Mundakkai Kairo  | 0              |\n| Srock Puthumala        | 1              |\n| **Average Rainfall**   | **0.25**       |\n\nThe average rainfall across these plots was 0.25 mm.",
+        "timestamp": {
+          "$date": "2025-07-29T02:19:28.372Z"
+        }
+      }
+    ],
+    "farmer_id": "allenenoshmani",
+    "farmer_plot_ids": [
+      "attamaladivision",
+      "chooralmaladivision",
+      "chooralmalanerodivision",
+      "mundakainerodivision",
+      "mundakkaidivision",
+      "puthumaladivision"
+    ],
+    "conversation_id": "68882fa691b285c244a0c96d",
+    "_id": "68882fa691b285c244a0c96d",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-07-29T02:24:19.430000Z"
+    },
+    "tag": "historical data",
+    "conv_date": "2025-07-29T02:19:19.426000+00:00"
+  }
+]

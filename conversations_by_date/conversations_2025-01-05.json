@@ -1,0 +1,822 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पाण्याची गरज आहे का पाण्याची गरज आहे का",
+        "en": "Do you need water or do you need water?",
+        "timestamp": {
+          "$date": "2025-01-05T16:55:21.293Z"
+        },
+        "standalone_question": "Do you need water?",
+        "standalone_en": "Do you need water?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "panyachi garaj aahe ka panyachi garaj aahe ka"
+      },
+      {
+        "role": "assistant",
+        "content": "होय, \"Plot No 2 Sudhakar\" साठी पाण्याची गरज आहे. सध्या मातीची आर्द्रता 27 kPa आणि 38 kPa आहे, जे की 32 kPa च्या आदर्श पातळीच्या वर आहे. त्यामुळे तुम्ही पाणी देऊ शकता.",
+        "en": "Yes, water is needed for \"Plot No. 2 Sudhakar\". Currently, soil moisture is 27 kPa and 38 kPa, which is above the ideal level of 32 kPa. So you can provide water.",
+        "timestamp": {
+          "$date": "2025-01-05T16:55:25.935Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "प्रति झाड किती लिटर पाणी देऊ",
+        "en": "How many litres of water per tree should we give?",
+        "timestamp": {
+          "$date": "2025-01-05T16:56:20.563Z"
+        },
+        "standalone_question": "How many liters of water should be given per tree?",
+        "standalone_en": "How many liters of water should be given per tree?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil."
+          ]
+        },
+        "content_transliterated": "prati jhad kitty litter pani deu"
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot No 2 Sudhakar\" साठी प्रति झाड 5.31 तास पाणी देणे आवश्यक आहे. तुम्ही 8 लिटर प्रति तासाच्या गतीने पाणी देत असल्यास, तुम्हाला एकूण 42.48 लिटर पाणी प्रत्येक झाडाला देणे आवश्यक आहे.",
+        "en": "\"Plot No. 2 Sudhakar\" requires 5.31 hours of watering per tree. If you are watering at the speed of 8 liters per hour, you need to give a total of 42.48 liters of water to each tree.",
+        "timestamp": {
+          "$date": "2025-01-05T16:56:26.932Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पाण्यासोबत खाते काय देऊ",
+        "en": "What to eat with water",
+        "timestamp": {
+          "$date": "2025-01-05T16:57:41.528Z"
+        },
+        "standalone_question": "What should I feed along with the water?",
+        "standalone_en": "What should I feed along with the water?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "panyasobat khate kay deu"
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot No 2 Sudhakar\" साठी, सध्या तुम्ही \"Berry Development\" या अवस्थेत आहात. या अवस्थेत पाण्यासोबत खालील खते देणे आवश्यक आहे:\n\n### Foliar Spray:\n1. **Gibberallic acid (GA3)**: 20 ppm\n2. **CPPU (0.1%)**: 1 ppm\n3. **Zinc Oxide**: 200 gm/acre\n\n### Fertigation:\n1. **11-44-11**: 6.5 kg/acre\n2. **Calcium nitrate**: 1.5 kg/acre\n3. **Sulfate of Potash**: 3.5 kg/acre\n4. **Magnesium Sulphate**: 1.5 kg/acre\n\nया खते पाण्यासोबत द्या, आणि लक्षात ठेवा की फॉस्फोरिक आम्ल वेगळं द्यावं लागेल, इतर खते दिल्यानंतर 15-20 मिनिटांनी.",
+        "en": "For \"Plot No. 2 Sudhakar\", you are currently in the \"Berry Development\" phase. At this stage, it is necessary to give the following fertilizers along with water:\n\n### Foliar Spray:\n1. **Gibberallic acid (GA3)**: 20 ppm\n2. **CPPU (0.1%)**: 1 ppm\n3. **Zinc Oxide**: 200 gm/acre\n\n### Fertigation:\n1. **11-44-11**: 6.5 kg/acre\n2. **Calcium nitrate**: 1.5 kg/acre\n3. **Sulfate of Potash**: 3.5 kg/acre\n4. **Magnesium Sulphate**: 1.5 kg/acre\n\nGive these fertilizers with water, and remember that phosphoric acid will have to be separated, 15-20 minutes after other fertilizers are given.",
+        "timestamp": {
+          "$date": "2025-01-05T16:57:49.954Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "फॉस्फरिक आम्ल म्हणजे फॉस्फरिक ऍसिड का",
+        "en": "Why phosphoric acid is phosphoric acid",
+        "timestamp": {
+          "$date": "2025-01-05T16:58:59.399Z"
+        },
+        "standalone_question": "Is phosphoric acid the same as phosphoric acid?",
+        "standalone_en": "Is phosphoric acid the same as phosphoric acid?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "phosphoric omle mhanaje phosphoric acid ka"
+      },
+      {
+        "role": "assistant",
+        "content": "होय, फॉस्फरिक आम्ल म्हणजे फॉस्फरिक ऍसिड (Phosphoric Acid) होय. हे एक महत्त्वाचे खते आहे जे पिकांच्या वाढीसाठी आवश्यक फॉस्फरस प्रदान करते. फॉस्फरस मुळांच्या विकासात, फळांच्या सेटिंगमध्ये आणि पिकांच्या सामान्य आरोग्यात महत्त्वाची भूमिका बजावतो.",
+        "en": "Yes, phosphoric acid is phosphoric acid. It is an important fertilizer that provides the necessary phosphorus for the growth of crops. Phosphorus plays an important role in the development of roots, in fruit setting, and in the general health of crops.",
+        "timestamp": {
+          "$date": "2025-01-05T16:59:03.697Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "फॉस्फरिक ऍसिड आणखी कोणत्या पिकाला आवश्यक आहे",
+        "en": "Which other crop needs phosphoric acid",
+        "timestamp": {
+          "$date": "2025-01-05T16:59:28.242Z"
+        },
+        "standalone_question": "Which other crops require phosphoric acid?",
+        "standalone_en": "Which other crops require phosphoric acid?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "phosphoric acid anakhi konatya pikala avashyak aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "फॉस्फरिक ऍसिड (फॉस्फरिक आम्ल) खालील पिकांसाठी आवश्यक आहे:\n\n1. **फळांचे पिके**: जसे की सफरचंद, आंबा, द्राक्षे, पेरू, पomegranate.\n2. **भाजीपाला**: जसे की टोमॅटो, मिरची, बटाटा, कांदा, वांगी.\n3. **धान्ये**: जसे की गहू, तांदूळ, बाजरी.\n4. **कॅश क्रॉप्स**: जसे की कापूस, तंबाकू, सोयाबीन.\n5. **प्लांटेशन क्रॉप्स**: जसे की चहा, कॉफी, नारळ.\n\nफॉस्फरस मुळांच्या विकासात, फळांच्या सेटिंगमध्ये आणि पिकांच्या सामान्य आरोग्यात महत्त्वाची भूमिका बजावतो. त्यामुळे या पिकांना फॉस्फरिक ऍसिडची आवश्यकता असते.",
+        "en": "Phosphoric acid (phosphoric acid) is essential for the following crops:\n\n1. **Fruit crops**: such as apples, mangoes, grapes, guava, pomegranate.\n2. **Vegetables**: such as tomatoes, peppers, potatoes, onions, eggplant.\n3. **Grains**: such as wheat, rice, millet.\n4. **Cash crops**: such as cotton, tobacco, soybeans.\n5. **Plantation crops**: such as tea, coffee, coconut.\n\nPhosphorus plays an important role in the development of roots, in fruit setting, and in the general health of crops. Therefore, these crops require phosphoric acid.",
+        "timestamp": {
+          "$date": "2025-01-05T16:59:43.182Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "फॉस्फरिक ऍसिड कांद्याला पाठ पाण्याने देण्यात असल्यास कसे द्यावे",
+        "en": "How to give phosphoric acid to onions if they are given back water",
+        "timestamp": {
+          "$date": "2025-01-05T17:00:26.387Z"
+        },
+        "standalone_question": "How should phosphoric acid be applied to onions when mixed with water?",
+        "standalone_en": "How should phosphoric acid be applied to onions when mixed with water?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "phosphoric acid kandyala path panyane denyat asalyas kase dyave"
+      },
+      {
+        "role": "assistant",
+        "content": "फॉस्फरिक ऍसिड कांद्याला पाण्याने देण्यासाठी खालील पद्धतींचा वापर करा:\n\n1. **पाण्यात विरघळा**: फॉस्फरिक ऍसिडचे प्रमाण पाण्यात योग्य प्रमाणात विरघळा. सामान्यतः, 1-2 लिटर फॉस्फरिक ऍसिड 100 लिटर पाण्यात विरघळवले जाते.\n\n2. **फर्टिगेशन प्रणाली**: जर तुम्ही फर्टिगेशन प्रणाली वापरत असाल, तर फॉस्फरिक ऍसिड पाण्यात मिसळून थेट मुळांपर्यंत पोहोचवा.\n\n3. **फोलिअर स्प्रे**: पाण्यात विरघळलेले फॉस्फरिक ऍसिड कांद्याच्या पानांवर फोलिअर स्प्रेच्या माध्यमातूनही देता येते. यासाठी, 1-2 लिटर फॉस्फरिक ऍसिड 200 लिटर पाण्यात मिसळा आणि सकाळच्या किंवा संध्याकाळच्या वेळेत स्प्रे करा.\n\n4. **अवधि**: फॉस्फरिक ऍसिड देताना, पाण्याच्या साठ्यात 15-20 मिनिटे थांबा, नंतर इतर खते द्या.\n\nयामुळे कांद्याच्या वाढीसाठी आवश्यक फॉस्फरस मिळेल आणि पिकाचे आरोग्य सुधारेल.",
+        "en": "Use the following methods to give phosphoric acid to onions with water:\n\n1. **Dissolve in water**: Dissolve the amount of phosphoric acid in the right amount in water. Usually, 1–2 liters of phosphoric acid is dissolved in 100 liters of water.\n\n2. **Fertigation System**: If you are using fertigation system, mix phosphoric acid with water and deliver it directly to the roots.\n\n3. **Foliar Spray**: Water-dissolved phosphoric acid can also be given through foliar spray on onion leaves. For this, mix 1-2 liters of phosphoric acid with 200 liters of water and spray in the morning or evening hours.\n\n4. **Duration**: When giving phosphoric acid, wait 15-20 minutes in the water storage, then give other fertilizers.\n\nThis will provide the phosphorus needed for onion growth and improve the health of the crop.",
+        "timestamp": {
+          "$date": "2025-01-05T17:00:34.724Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "11 44 11 कोणत्या कंपनीचे खत द्यावे",
+        "en": "11 44 11 Which company should fertilizer be given",
+        "timestamp": {
+          "$date": "2025-01-05T17:02:21.373Z"
+        },
+        "standalone_question": "Which company's fertilizer should be used for 11-44-11?",
+        "standalone_en": "Which company's fertilizer should be used for 11-44-11?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17"
+          ]
+        },
+        "content_transliterated": "11 44 11 konatya kampaniche khat dyave"
+      },
+      {
+        "role": "assistant",
+        "content": "11-44-11 हे खत सामान्यतः \"Coromandel International\" या कंपनीचे आहे. हे खत विशेषतः फॉस्फरसच्या उच्च प्रमाणामुळे ओळखले जाते आणि पिकांच्या वाढीसाठी उपयुक्त आहे. तुम्ही हे खत तुमच्या पिकांच्या आवश्यकतेनुसार वापरू शकता.",
+        "en": "11-44-11 This fertilizer is generally from \"Coromandel International\". This fertilizer is particularly known for its high phosphorus content and is useful for the growth of crops. You can use this fertilizer as per the requirement of your crops.",
+        "timestamp": {
+          "$date": "2025-01-05T17:02:25.776Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "त्याची 25 किलो ची बॅग किती केवढ्याला मिळते",
+        "en": "How much does his 25-kg bag get?",
+        "timestamp": {
+          "$date": "2025-01-05T17:02:56.529Z"
+        },
+        "standalone_question": "What is the price of a 25 kg bag of 11-44-11 fertilizer?",
+        "standalone_en": "What is the price of a 25 kg bag of 11-44-11 fertilizer?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "tyachi 25 kilo chi bag kiti kevadhyala milate"
+      },
+      {
+        "role": "assistant",
+        "content": "11-44-11 खताची 25 किलोची बॅग साधारणतः ₹1,200 ते ₹1,500 च्या दरात मिळते. तथापि, स्थानिक बाजारपेठेतील दरांवर अवलंबून असू शकते, त्यामुळे तुम्ही स्थानिक कृषी दुकानात किंवा ऑनलाइन प्लॅटफॉर्मवर तपासून पाहू शकता.",
+        "en": "A 25 kg bag of 11-44-11 fertiliser is usually available at a price of Rs 1,200 to ₹1,500. However, it can depend on prices in the local market, so you can check it out at a local agricultural store or online platform.",
+        "timestamp": {
+          "$date": "2025-01-05T17:03:01.204Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "थँक्यू फायलो",
+        "en": "Thank you Filo",
+        "timestamp": {
+          "$date": "2025-01-05T17:04:00.862Z"
+        },
+        "standalone_question": "Thank you, follow-up.",
+        "standalone_en": "Thank you, follow-up.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "thanku filo"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमचे स्वागत आहे! तुम्हाला आणखी काही मदतीची आवश्यकता असल्यास, कृपया सांगा. तुमच्या शेतीसाठी शुभेच्छा!",
+        "en": "Welcome! If you need any more help, please let me know. Good luck with your farm!",
+        "timestamp": {
+          "$date": "2025-01-05T17:04:04.466Z"
+        }
+      }
+    ],
+    "farmer_id": "maniksangamnere",
+    "farmer_plot_ids": [
+      "plotno2sudhakar637187"
+    ],
+    "conversation_id": "677ab9784a2650e037c1fd63",
+    "_id": "677ab9784a2650e037c1fd63",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-01-05T17:09:00.872000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-01-05T16:55:21.293000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "બટાકા ની સાઈઝ વધારવા માટે કયો સ્પ્રે કરવો જોઈએ ",
+        "en": "Which should be sprayed to increase the size of the potato ",
+        "timestamp": {
+          "$date": "2025-01-05T13:43:59.785Z"
+        },
+        "standalone_question": "What spray should be used to increase the size of potatoes?",
+        "standalone_en": "What spray should be used to increase the size of potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "bataka knee saijh vadharava mate kayo spray karavo joie "
+      },
+      {
+        "role": "assistant",
+        "content": "બટાકાની સાઈઝ વધારવા માટે, \"nero retal\" પ્લોટમાં નીચેના સ્પ્રેનો ઉપયોગ કરી શકો છો:\n\n1. **Tolfenpyrad 15% EC** - 1.25 મીલીલિટર\n2. **Spirotetramat + Imidacloprid** - 0.8 મીલીલિટર\n3. **Pyrifluquinazon 20% WG** - 1 ગ્રામ\n4. **Broflanilide 300G/L SC** - 0.4 મીલીલિટર\n\nઆ સ્પ્રેનો ઉપયોગ ફોલિયર એપ્લિકેશન દ્વારા કરવો જોઈએ.",
+        "en": "To increase the size of the potato, you can use the following spray in the \"nero retal\" plot:\n\n1. **Tolfenpyrad 15% EC** - 1.25 milliliters\n2. **Spirotetramat + Imidacloprid** - 0.8 milliliters\n3. **Pyrifluquinazon 20% WG** - 1 gram\n4. **Broflanilide 300G/L SC** - 0.4 milliliters\n\nThis spray should be used by the Foliar application.",
+        "timestamp": {
+          "$date": "2025-01-05T13:44:06.123Z"
+        }
+      }
+    ],
+    "farmer_id": "VR10499",
+    "farmer_plot_ids": [
+      "kairomatiyal",
+      "neroretal"
+    ],
+    "conversation_id": "677a8c9f032bcd9a5b0353d5",
+    "_id": "677a8c9f032bcd9a5b0353d5",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-05T13:48:59.792000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-01-05T13:43:59.785000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "સ્પ્રિકલર થી મેન્કોજેબ છાંટવાથી ફાયદો થાય અને કેટલો ડોઝ",
+        "en": "Spraying mancozeb with a sprickler benefits and how much dosage",
+        "timestamp": {
+          "$date": "2025-01-05T13:41:09.637Z"
+        },
+        "standalone_question": "What are the benefits of using Sprinkler for Menkojeeb and what is the recommended dosage?",
+        "standalone_en": "What are the benefits of using Sprinkler for Menkojeeb and what is the recommended dosage?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "sprickler thi mancogeb chantavathi phayado thay ane ketlo does"
+      },
+      {
+        "role": "assistant",
+        "content": "હા, Metalaxyl Mancozeb છાંટવાથી \"લેટ બ્લાઇટ\" સામે રક્ષણ મળે છે. \n\n**ડોઝ:**\n- Metalaxyl Mancozeb: 2.5 ગ્રામ પ્રતિ લિટર પાણી\n\nઆ છાંટણી આજે (5 જાન્યુઆરી 2025) કરવા માટે સૂચવવામાં આવી છે.",
+        "en": "Yes, spraying Metalaxyl Mancozeb protects against \"late blight\". \n\n**Dose:**\n- Metalaxyl Mancozeb: 2.5 grams per liter of water\n\nThis pruning has been suggested to be done today (January 5, 2025).",
+        "timestamp": {
+          "$date": "2025-01-05T13:41:14.018Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140"
+    ],
+    "conversation_id": "677a8bf54a2650e037c1fd62",
+    "_id": "677a8bf54a2650e037c1fd62",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-05T13:46:09.645000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-01-05T13:41:09.637000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "હાલ બટાકામાં કઈ દવાની જરૂર છે",
+        "en": "What medicine is needed in potatoes at present",
+        "timestamp": {
+          "$date": "2025-01-05T11:58:15.925Z"
+        },
+        "standalone_question": "What medicine is needed for potatoes?",
+        "standalone_en": "What medicine is needed for potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "hal batakaman kai davani jarur che"
+      },
+      {
+        "role": "assistant",
+        "content": "હાલમાં બટાકાની ખેતી માટેની દવાઓ અને ખાતરનો ઉપયોગ નીચે મુજબ છે:\n\n### **દવાઓ:**\n1. **Khejada Valu:**\n   - **Aphids, Thrips, Whitefly** માટે:\n     - **Dimpropyridaz 120g/l**: 1.25 mL\n     - **Isocycloseram 9.2% w/w DC + Isocycloseram 10% w/v DC**: 0.4 mL\n     - **Spirotetramat11Imidacloprid11**: 0.8 mL\n     - **Pyrifluquinazon 20% WG**: 1 g\n\n2. **Patsala:**\n   - **Aphids, Thrips, Whitefly** માટે:\n     - **Tolfenpyrad 15% EC**: 1.25 mL\n     - **Spirotetramat11Imidacloprid11**: 0.8 mL\n     - **Pyrifluquinazon 20% WG**: 1 g\n     - **Broflanilide 300G/L SC**: 0.4 mL\n   - **Early Blight** માટે:\n     - **Azoxystrobin 18.2% + Difenoconazole 11.4% SC**: 1 mL\n     - **Chlorothalonil**: 2 g\n     - **Captan 70% + Hexaconazole 5% WP**: 2 g\n\n### **ખાતર:**\n- **Dela Valu અને Patsala** માટે:\n  - **1st Week of Tuber Development:**\n    - **Calcium Nitrate**: 3.5 kg/acre (15-20 મિનિટ પછી અન્ય ખાતરોની એપ્લિકેશન)\n    - **Sulfate of Potash**: 6.5 kg/acre\n  - **4th Day of 1st Week:**\n    - **Magnesium Sulphate**: 5 kg/acre\n    - **Sulfate of Potash**: 6.5 kg/acre\n\nઆ માહિતીનો ઉપયોગ કરીને, તમે તમારા બટાકાના પાકને યોગ્ય રીતે સંભાળી શકો છો.",
+        "en": "હાલમાં બટાકાની ખેતી માટેની દવાઓ અને ખાતરનો ઉપયોગ નીચે મુજબ છે:\n\n### **દવાઓ:**\n1. **Khejada Valu:**\n   - **Aphids, Thrips, Whitefly** માટે:\n     - **Dimpropyridaz 120g/l**: 1.25 mL\n     - **Isocycloseram 9.2% w/w DC + Isocycloseram 10% w/v DC**: 0.4 mL\n     - **Spirotetramat11Imidacloprid11**: 0.8 mL\n     - **Pyrifluquinazon 20% WG**: 1 g\n\n2. **Patsala:**\n   - **Aphids, Thrips, Whitefly** માટે:\n     - **Tolfenpyrad 15% EC**: 1.25 mL\n     - **Spirotetramat11Imidacloprid11**: 0.8 mL\n     - **Pyrifluquinazon 20% WG**: 1 g\n     - **Broflanilide 300G/L SC**: 0.4 mL\n   - **Early Blight** માટે:\n     - **Azoxystrobin 18.2% + Difenoconazole 11.4% SC**: 1 mL\n     - **Chlorothalonil**: 2 g\n     - **Captan 70% + Hexaconazole 5% WP**: 2 g\n\n### **ખાતર:**\n- **Dela Valu અને Patsala** માટે:\n  - **1st Week of Tuber Development:**\n    - **Calcium Nitrate**: 3.5 kg/acre (15-20 મિનિટ પછી અન્ય ખાતરોની એપ્લિકેશન)\n    - **Sulfate of Potash**: 6.5 kg/acre\n  - **4th Day of 1st Week:**\n    - **Magnesium Sulphate**: 5 kg/acre\n    - **Sulfate of Potash**: 6.5 kg/acre\n\nઆ માહિતીનો ઉપયોગ કરીને, તમે તમારા બટાકાના પાકને યોગ્ય રીતે સંભાળી શકો છો.",
+        "timestamp": {
+          "$date": "2025-01-05T11:58:25.259Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "હાલ બટાકામાં કોઈ રોગ છે કે નહીં",
+        "en": "At present, there is any disease in potatoes or not",
+        "timestamp": {
+          "$date": "2025-01-05T11:59:51.042Z"
+        },
+        "standalone_question": "Is there currently any disease affecting the potatoes?",
+        "standalone_en": "Is there currently any disease affecting the potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "hal batakaman koi rog che ke nahin"
+      },
+      {
+        "role": "assistant",
+        "content": "હાલમાં તમારા બટાકાના પાકમાં કેટલાક રોગો અને કીટકોની સંભાવના છે:\n\n### **રોગો:**\n1. **Dela Valu:**\n   - **લેટ બ્લાઇટ (Late Blight)**: 56.5% (મધ્યમ જોખમ)\n   - **અર્લી બ્લાઇટ (Early Blight)**: 54.8% (મધ્યમ જોખમ)\n\n2. **Khejada Valu:**\n   - **લેટ બ્લાઇટ (Late Blight)**: 56.5% (મધ્યમ જોખમ)\n   - **અર્લી બ્લાઇટ (Early Blight)**: 54.8% (મધ્યમ જોખમ)\n\n3. **Patsala:**\n   - **લેટ બ્લાઇટ (Late Blight)**: 56.5% (મધ્યમ જોખમ)\n   - **અર્લી બ્લાઇટ (Early Blight)**: 54.8% (મધ્યમ જોખમ)\n\n### **કીટકો:**\n1. **Dela Valu:**\n   - **કેટરપિલર (Caterpillar)**: 94.6% (ઉચ્ચ જોખમ)\n   - **માઇટ્સ (Mites)**: 65.8% (મધ્યમ જોખમ)\n\n2. **Khejada Valu:**\n   - **કેટરપિલર (Caterpillar)**: 40.5% (ઓછો જોખમ)\n   - **માઇટ્સ (Mites)**: 65.8% (મધ્યમ જોખમ)\n\n3. **Patsala:**\n   - **કેટરપિલર (Caterpillar)**: 94.6% (ઉચ્ચ જોખમ)\n   - **માઇટ્સ (Mites)**: 65.8% (મધ્યમ જોખમ)\n\n### **સૂચનો:**\n- **રોગો માટે:** લેટ બ્લાઇટ અને અર્લી બ્લાઇટ માટે યોગ્ય દવાઓનો ઉપયોગ કરો.\n- **કીટકો માટે:** Caterpillar અને Mites માટે નિયંત્રણના પગલાં લો.\n\nઆ માહિતીના આધારે, તમારે તાત્કાલિક પગલાં લેવા જોઈએ.",
+        "en": "Currently your potato crop is prone to some diseases and pests:\n\n### **Diseases:**\n1. **Dela Valu:**\n   * **Late Blight(Late Blight)**: 56.5% (medium risk)\n   * **Early Blight(Early Blight)**: 54.8% (medium risk)\n\n2. **Khejada Valu:**\n   * **Late Blight(Late Blight)**: 56.5% (medium risk)\n   * **Early Blight(Early Blight)**: 54.8% (medium risk)\n\n3. **Patsala:**\n   * **Late Blight(Late Blight)**: 56.5% (medium risk)\n   * **Early Blight(Early Blight)**: 54.8% (medium risk)\n\n### **Insects:**\n1. **Dela Valu:**\n   * **Caterpillar(Caterpillar)**: 94.6% (high risk)\n   * **Mites (Mites)**: 65.8% (medium risk)\n\n2. **Khejada Valu:**\n   **Caterpillar)**: 40.5% (low risk)\n   * **Mites (Mites)**: 65.8% (medium risk)\n\n3. **Patsala:**\n   * **Caterpillar(Caterpillar)**: 94.6% (high risk)\n   * **Mites (Mites)**: 65.8% (medium risk)\n\n### **Suggestions:**\n* **For diseases:** Use the right medications for late blight and early blight.\n* **For pests:** Take control measures for Caterpillar and Mites.\n\nBased on this information, you should take immediate action.",
+        "timestamp": {
+          "$date": "2025-01-05T12:00:05.629Z"
+        }
+      }
+    ],
+    "farmer_id": "VR4859",
+    "farmer_plot_ids": [
+      "delavalu",
+      "khejadavalu",
+      "patsala"
+    ],
+    "conversation_id": "677a73d7f5248e713c1e4b4e",
+    "_id": "677a73d7f5248e713c1e4b4e",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-05T12:04:51.050000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-01-05T11:58:15.925000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Khat kont deu ",
+        "en": "Khat Kont Deo ",
+        "timestamp": {
+          "$date": "2025-01-05T07:34:15.204Z"
+        },
+        "standalone_question": "What does \"Khat kont deu\" mean?",
+        "standalone_en": "What does \"Khat kont deu\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "### Manikchaman Plot No.1 (Berry Development Stage)\n- **Current Date:** 2025-01-05\n- **Current Week:** 5\n- **Fertigation Schedule:**\n  - **Fertilizers to Apply:**\n    - **Option 1:**\n      - 13-40-13: 3 kg/acre\n      - Calcium Nitrate: 6.5 kg/acre\n      - Sulfate of Potash: 6.5 kg/acre\n      - Magnesium Sulphate: 2.5 kg/acre\n    - **Option 2:**\n      - 19-19-19: 7 kg/acre\n      - Sulfate of Potash: 4.5 kg/acre\n      - Magnesium Sulphate: 2.5 kg/acre\n    - **Option 3:**\n      - Calcium Nitrate: 9 kg/acre\n      - Phosphoric Acid 80%: 2 kg/acre\n      - Sulfate of Potash: 7.5 kg/acre\n      - Magnesium Sulphate: 2.5 kg/acre\n  - **Notes:**\n    - Phosphoric acid should be applied separately, 15-20 minutes before application of other fertilizers.\n    - Calcium nitrate should be applied separately, 15-20 minutes after application of other fertilizers.\n\n### Super Plot New (Fruit Set Stage)\n- **Current Date:** 2025-01-05\n- **Current Week:** 1\n- **Fertigation Schedule:**\n  - **Fertilizers to Apply:**\n    - **Foliar Method:**\n      - Ferrous Sulphate: 600 gm/acre\n      - Manganese Sulphate: 600 gm/acre\n    - **Fertigation Method:**\n      - **Option 1:**\n        - 11-44-11: 6.5 kg/acre\n        - Calcium Nitrate: 1.5 kg/acre\n        - Sulfate of Potash: 3.5 kg/acre\n        - Magnesium Sulphate: 1.5 kg/acre\n      - **Option 2:**\n        - 13-40-13: 7 kg/acre\n        - Sulfate of Potash: 3 kg/acre\n        - Magnesium Sulphate: 1.5 kg/acre\n      - **Option 3:**\n        - Calcium Nitrate: 6 kg/acre\n        - Phosphoric Acid 80%: 3.5 kg/acre\n        - Sulfate of Potash: 5 kg/acre\n        - Magnesium Sulphate: 1.5 kg/acre\n  - **Notes:**\n    - Phosphoric acid should be applied separately, 15-20 minutes before application of other fertilizers.\n    - Calcium nitrate should be applied separately, 15-20 minutes after application of other fertilizers.\n\n### Upcoming Fertigation Schedule\n- **Manikchaman Plot No.1:** Next week (Week 6) will have similar requirements.\n- **Super Plot New:** Next week (Week 1) will also have similar requirements.\n\nMake sure to follow the notes for proper application!",
+        "en": "### Manikchaman Plot No.1 (Berry Development Stage)\n- **Current Date:** 2025-01-05\n- **Current Week:** 5\n- **Fertigation Schedule:**\n  - **Fertilizers to Apply:**\n    - **Option 1:**\n      - 13-40-13: 3 kg/acre\n      - Calcium Nitrate: 6.5 kg/acre\n      - Sulfate of Potash: 6.5 kg/acre\n      - Magnesium Sulphate: 2.5 kg/acre\n    - **Option 2:**\n      - 19-19-19: 7 kg/acre\n      - Sulfate of Potash: 4.5 kg/acre\n      - Magnesium Sulphate: 2.5 kg/acre\n    - **Option 3:**\n      - Calcium Nitrate: 9 kg/acre\n      - Phosphoric Acid 80%: 2 kg/acre\n      - Sulfate of Potash: 7.5 kg/acre\n      - Magnesium Sulphate: 2.5 kg/acre\n  - **Notes:**\n    - Phosphoric acid should be applied separately, 15-20 minutes before application of other fertilizers.\n    - Calcium nitrate should be applied separately, 15-20 minutes after application of other fertilizers.\n\n### Super Plot New (Fruit Set Stage)\n- **Current Date:** 2025-01-05\n- **Current Week:** 1\n- **Fertigation Schedule:**\n  - **Fertilizers to Apply:**\n    - **Foliar Method:**\n      - Ferrous Sulphate: 600 gm/acre\n      - Manganese Sulphate: 600 gm/acre\n    - **Fertigation Method:**\n      - **Option 1:**\n        - 11-44-11: 6.5 kg/acre\n        - Calcium Nitrate: 1.5 kg/acre\n        - Sulfate of Potash: 3.5 kg/acre\n        - Magnesium Sulphate: 1.5 kg/acre\n      - **Option 2:**\n        - 13-40-13: 7 kg/acre\n        - Sulfate of Potash: 3 kg/acre\n        - Magnesium Sulphate: 1.5 kg/acre\n      - **Option 3:**\n        - Calcium Nitrate: 6 kg/acre\n        - Phosphoric Acid 80%: 3.5 kg/acre\n        - Sulfate of Potash: 5 kg/acre\n        - Magnesium Sulphate: 1.5 kg/acre\n  - **Notes:**\n    - Phosphoric acid should be applied separately, 15-20 minutes before application of other fertilizers.\n    - Calcium nitrate should be applied separately, 15-20 minutes after application of other fertilizers.\n\n### Upcoming Fertigation Schedule\n- **Manikchaman Plot No.1:** Next week (Week 6) will have similar requirements.\n- **Super Plot New:** Next week (Week 1) will also have similar requirements.\n\nMake sure to follow the notes for proper application!",
+        "timestamp": {
+          "$date": "2025-01-05T07:34:32.709Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Marathi ",
+        "en": "Marathi ",
+        "timestamp": {
+          "$date": "2025-01-05T07:36:15.446Z"
+        },
+        "standalone_question": "What is the Marathi translation of the information provided?",
+        "standalone_en": "What is the Marathi translation of the information provided?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या शेतात फर्टिगेशन करणे आवश्यक आहे का?\n\nफाय्लो तुमच्या प्लॉट आणि पिकांच्या तपशीलांवर आधारित निश्चित फर्टिगेशन वेळापत्रक प्रदान करते, तसेच शेतकऱ्यांच्या प्लॉटसाठी हवामान भाकित डेटा वापरून खतांची आवश्यकता ठरवते.\n\nफाय्लोमध्ये फर्टिगेशन वेळापत्रक कुठे मिळवू शकता?\n\nफर्टिगेशन वेळापत्रक पाहण्यासाठी:\n1. फाय्लो अॅप उघडा.\n2. तळाशी \"माझे शेत\" निवडा.\n3. \"फर्टिगेशन\" पर्यायावर टॅप करा.\nतिथे तुम्हाला फर्टिगेशन वेळापत्रक मिळेल, ज्यामध्ये आवश्यक खतांच्या अनुप्रयोगांची माहिती असेल.\n\nजर तुम्हाला फर्टिगेशन टॅब निवडल्यानंतर वेळापत्रक सापडत नसेल तर तुम्हाला प्रथम एक अहवाल तयार करावा लागेल. तुम्हाला अहवाल तयार करण्यात मदतीची आवश्यकता आहे का? तुमच्याकडे कोणतेही माती, पान किंवा पिटोल चाचणी डेटा उपलब्ध आहे का? जर नाही, तर आम्ही सामान्य पिक आणि प्रादेशिक डेटाचा वापर करून तुम्हाला एक मूलभूत वेळापत्रक तयार करू शकतो.",
+        "en": "Do you need to fertilize your farm?\n\nFilo provides a definitive fertilizer schedule based on your plot and crop details, as well as determining fertilizer requirements using weather forecast data for farmers' plots.\n\nWhere can you get a fertigation schedule in Filo?\n\nTo view the fertigation schedule:\n1. Open the Filo app.\n2. Select \"My Farm\" at the bottom.\n3. Tap the \"Fertigation\" option.\nThere you will find a fertigation schedule, which will contain information on the applications of essential fertilizers.\n\nIf you can't find a schedule after selecting the Fertigation tab, you'll need to create a report first. Do you need help preparing the report? Do you have any soil, leaf, or pitol test data available? If not, we can create a basic schedule using general crop and regional data.",
+        "timestamp": {
+          "$date": "2025-01-05T07:36:21.040Z"
+        }
+      }
+    ],
+    "farmer_id": "ruturajyashwantbhosale",
+    "farmer_plot_ids": [
+      "mainkchamanplotruturaj",
+      "plotsuperruturaj"
+    ],
+    "conversation_id": "677a35f74a2650e037c1fd60",
+    "_id": "677a35f74a2650e037c1fd60",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-01-05T07:41:15.454000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-01-05T07:34:15.204000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "બટાકામાં હાલ કયું ખાતર આપવાનું",
+        "en": "Which fertilizer to give in potatoes at present",
+        "timestamp": {
+          "$date": "2025-01-05T07:34:03.556Z"
+        },
+        "standalone_question": "What fertilizer should be given to potatoes at this time?",
+        "standalone_en": "What fertilizer should be given to potatoes at this time?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "batakaman hal kayu khatar apavanun"
+      },
+      {
+        "role": "assistant",
+        "content": "હાલમાં, તમારા બટાકાના પાક માટે \"Vegetative growth\" તબક્કામાં 6મા સપ્તાહે, નીચેના ખાતરો આપવાની ભલામણ છે:\n\n### હાલનું ખાતર (1 દિવસ):\n- **Sulfate of Potash**: 6.5 કિલોગ્રામ/એકર\n\n### આગામી ખાતર (Tuber development તબક્કામાં):\n1. **1મો દિવસ**:\n   - **Potassium Nitrate**: 7 કિલોગ્રામ/એકર\n   - **Ammonium Sulphate**: 5 કિલોગ્રામ/એકર\n   - **Calcium nitrate**: 3.5 કિલોગ્રામ/એકર (અન્ય ખાતરો આપ્યા પછી 15-20 મિનિટ પછી)\n\n2. **4મો દિવસ**:\n   - **Potassium Nitrate**: 3 કિલોગ્રામ/એકર\n   - **Urea**: 3.5 કિલોગ્રામ/એકર\n   - **Magnesium Sulphate**: 5 કિલોગ્રામ/એકર\n\nઆ ખાતરો આપવાથી તમારા પાકની વૃદ્ધિમાં મદદ મળશે.",
+        "en": "Currently, in the 6th week of the \"Vegetative Growth\" phase for your potato crop, it is recommended to give the following fertilizers:\n\n### Current fertilizer (1 day):\n**Sulfate of Potash**: 6.5 kg/acre\n\n### Next Fertilizer (Tuber Development Stage):\n1. **1st day**:\n   **Potassium Nitrate**: 7 kg/acre\n   * *Ammonium Sulphate**: 5 kg/acre\n   **Calcium nitrate**: 3.5 kg/acre (15-20 minutes after other fertilizers are given)\n\n2. **4th day**:\n   **Potassium Nitrate**: 3 kg/acre\n   * *Urea**: 3.5 kg/acre\n   * **Magnesium Sulphate**: 5 kg/acre\n\nGiving these fertilizers will help in the growth of your crop.",
+        "timestamp": {
+          "$date": "2025-01-05T07:34:10.391Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "બટાકામાં વૃદ્ધિ તો ખૂબ છે",
+        "en": "There is a lot of growth in potatoes",
+        "timestamp": {
+          "$date": "2025-01-05T07:35:37.430Z"
+        },
+        "standalone_question": "Is there a lot of growth in the potatoes?",
+        "standalone_en": "Is there a lot of growth in the potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "batakaman vriddhi to khoob che"
+      },
+      {
+        "role": "assistant",
+        "content": "આપના બટાકાના પાકમાં વૃદ્ધિ સારી છે, જે \"Vegetative growth\" તબક્કામાં છે. આ તબક્કામાં, પાકની પાંદડીઓ અને શાખાઓની વૃદ્ધિ વધુ થાય છે, જે તુબરોના વિકાસ માટે મહત્વપૂર્ણ છે.\n\nજો તમે વધુ સારી વૃદ્ધિ અને ઉત્પાદન માટે ખાતરો અને પાણીની યોગ્ય વ્યવસ્થા રાખો છો, તો પાકની ગુણવત્તા અને ઉપજમાં વધારો થશે. જો તમને કોઈ વિશેષ પ્રશ્ન હોય કે વધુ માર્ગદર્શન જોઈએ, તો મને જણાવો!",
+        "en": "Growth is good in your potato crop, which is in the \"Vegetative Growth\" stage. In this phase, the growth of the leaves and branches of the crop is more, which is important for the growth of the tubers.\n\nIf you have a proper system of fertilizers and water for better growth and production, the quality and yield of the crop will increase. If you have any specific questions or need more guidance, let me know!",
+        "timestamp": {
+          "$date": "2025-01-05T07:35:41.211Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "તો હવે શું કરવું",
+        "en": "So what to do now?",
+        "timestamp": {
+          "$date": "2025-01-05T07:36:32.042Z"
+        },
+        "standalone_question": "What should I do next?",
+        "standalone_en": "What should I do next?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "to have shu karvu"
+      },
+      {
+        "role": "assistant",
+        "content": "હાલમાં, તમારા બટાકાના પાકમાં સારી વૃદ્ધિ છે, અને તમે ખાતરો પણ યોગ્ય રીતે આપી રહ્યા છો. હવે, આગળ વધવા માટે નીચેના પગલાં લો:\n\n1. **પાણી આપવું**: જો જમીન સૂકી લાગે છે, તો યોગ્ય પાણી આપવું મહત્વપૂર્ણ છે. જમીનના ભેજની સ્થિતિ તપાસો.\n\n2. **ખાતરો**: જો તમે અગાઉ જણાવેલા ખાતરો આપ્યા નથી, તો તેમને આપવાનું શરૂ કરો, ખાસ કરીને \"Tuber development\" તબક્કામાં.\n\n3. **પેસ્ટ અને રોગ નિયંત્રણ**: જો કોઈ રોગ અથવા પેસ્ટની સમસ્યા હોય, તો યોગ્ય સ્પ્રે શેડ્યૂલનું પાલન કરો.\n\n4. **નિરીક્ષણ**: પાકની વૃદ્ધિ અને આરોગ્ય પર નજર રાખો. જો કોઈ સમસ્યા જણાય, તો તરત જ પગલાં લો.\n\n5. **મોસમની માહિતી**: મોસમની માહિતી અને ભવિષ્યવાણી પર નજર રાખો, જેથી તમે યોગ્ય રીતે તૈયારી કરી શકો.\n\nજો તમને વધુ માર્ગદર્શન જોઈએ, તો મને જણાવો!",
+        "en": "Currently, your potato crop is growing well, and you are also giving fertilizers properly. Now, take the following steps to proceed:\n\n1. **Watering**: If the soil seems dry, it is important to give proper water. Check the moisture status of the soil.\n\n2. **Fertilizers**: If you have not given the fertilizers mentioned earlier, start giving them, especially in the \"Tuber development\" stage.\n\n3. **Paste and Disease Control**: If there is a disease or pest problem, follow a proper spray schedule.\n\n4. **Observation**: Keep an eye on crop growth and health. If you find a problem, take immediate action.\n\n5. **Season Information**: Keep an eye on the season information and predictions, so that you can prepare properly.\n\nIf you need more guidance, let me know!",
+        "timestamp": {
+          "$date": "2025-01-05T07:36:36.859Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "હવે ખાતર કયું આપો ને કેટલા દિવસે આપુ",
+        "en": "Now which fertilizer to give and in how many days",
+        "timestamp": {
+          "$date": "2025-01-05T07:38:11.177Z"
+        },
+        "standalone_question": "What fertilizer should I use now and how often should I apply it?",
+        "standalone_en": "What fertilizer should I use now and how often should I apply it?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17"
+          ]
+        },
+        "content_transliterated": "have khatar kayu apo ne ketla divase apu"
+      },
+      {
+        "role": "assistant",
+        "content": "હાલમાં, તમારા બટાકાના પાકમાં \"Vegetative growth\" તબક્કામાં 6મો સપ્તાહ છે. અહીં હાલ અને આગામી ખાતર આપવાની સૂચનાઓ છે:\n\n### હાલનું ખાતર (Vegetative growth - Week 6):\n- **Sulfate of Potash**: 6.5 કિલોગ્રામ/એકર\n- **તારીખ**: આજે (5 જાન્યુઆરી 2025)\n\n### આગામી ખાતર (Tuber development - Week 1):\n1. **1મો દિવસ (11 જાન્યુઆરી 2025)**:\n   - **Potassium Nitrate**: 7 કિલોગ્રામ/એકર\n   - **Ammonium Sulphate**: 5 કિલોગ્રામ/એકર\n   - **Calcium Nitrate**: 3.5 કિલોગ્રામ/એકર (અન્ય ખાતરો આપ્યા પછી 15-20 મિનિટ પછી)\n\n2. **4મો દિવસ (14 જાન્યુઆરી 2025)**:\n   - **Potassium Nitrate**: 3 કિલોગ્રામ/એકર\n   - **Urea**: 3.5 કિલોગ્રામ/એકર\n   - **Magnesium Sulphate**: 5 કિલોગ્રામ/એકર\n\nઆ ખાતરો આપવાથી તમારા પાકની વૃદ્ધિમાં મદદ મળશે. જો તમને વધુ માહિતી જોઈએ, તો મને જણાવો!",
+        "en": "Currently, your potato crop is in the 6th week of the \"Vegetative Growth\" phase. Here are the current and upcoming fertilizer giving instructions:\n\n### Current Fertilizer (Vegetative Growth - Week 6):\n**Sulfate of Potash**: 6.5 kg/acre\n* **Date**: Today (5 January 2025)\n\n### Next Fertilizer (Tuber Development - Week 1):\n1. **1st Day (11th January 2025)**:\n   **Potassium Nitrate**: 7 kg/acre\n   * *Ammonium Sulphate**: 5 kg/acre\n   **Calcium Nitrate**: 3.5 kg/acre (15-20 minutes after other fertilizers are given)\n\n2. **4th Day (14 January 2025)**:\n   **Potassium Nitrate**: 3 kg/acre\n   * *Urea**: 3.5 kg/acre\n   * **Magnesium Sulphate**: 5 kg/acre\n\nGiving these fertilizers will help in the growth of your crop. If you need more information, let me know!",
+        "timestamp": {
+          "$date": "2025-01-05T07:38:19.281Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "આ ખાતર બધા આપેલા છે ક્યારે હવે આપવા",
+        "en": "This fertilizer is all given when to give now",
+        "timestamp": {
+          "$date": "2025-01-05T07:38:54.190Z"
+        },
+        "standalone_question": "When should I apply the fertilizers again?",
+        "standalone_en": "When should I apply the fertilizers again?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "a khatar badha aapela che kyare have apava"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા બટાકાના પાક માટે ખાતરો આપવાની આગામી શેડ્યૂલ નીચે મુજબ છે:\n\n### હાલનું તબક્કું: Vegetative growth (Week 6)\n- **આજ**: **Sulfate of Potash**: 6.5 કિલોગ્રામ/એકર (આપ્યું છે)\n\n### આગામી તબક્કું: Tuber development (Week 1)\n1. **11 જાન્યુઆરી 2025** (1મો દિવસ):\n   - **Potassium Nitrate**: 7 કિલોગ્રામ/એકર\n   - **Ammonium Sulphate**: 5 કિલોગ્રામ/એકર\n   - **Calcium Nitrate**: 3.5 કિલોગ્રામ/એકર (અન્ય ખાતરો આપ્યા પછી 15-20 મિનિટ પછી)\n\n2. **14 જાન્યુઆરી 2025** (4મો દિવસ):\n   - **Potassium Nitrate**: 3 કિલોગ્રામ/એકર\n   - **Urea**: 3.5 કિલોગ્રામ/એકર\n   - **Magnesium Sulphate**: 5 કિલોગ્રામ/એકર\n\nઆ ખાતરો આપવાથી તમારા પાકની વૃદ્ધિમાં મદદ મળશે. જો તમને વધુ માહિતી જોઈએ, તો મને જણાવો!",
+        "en": "The next schedule for providing fertilizers for your potato crop is as follows:\n\n### Current Phase: Vegetative Growth (Week 6)\n* **today**: **Sulfate of Potash**: 6.5 kg/acre (given)\n\n### Next Stage: Tuber Development (Week 1)\n1. **11 January 2025** (Day 1):\n   **Potassium Nitrate**: 7 kg/acre\n   * *Ammonium Sulphate**: 5 kg/acre\n   **Calcium Nitrate**: 3.5 kg/acre (15-20 minutes after other fertilizers are given)\n\n2. **14 January 2025** (Day 4):\n   **Potassium Nitrate**: 3 kg/acre\n   * *Urea**: 3.5 kg/acre\n   * **Magnesium Sulphate**: 5 kg/acre\n\nGiving these fertilizers will help in the growth of your crop. If you need more information, let me know!",
+        "timestamp": {
+          "$date": "2025-01-05T07:39:02.020Z"
+        }
+      }
+    ],
+    "farmer_id": "bharatbhaichoudhary",
+    "farmer_plot_ids": [
+      "borvalopalot246"
+    ],
+    "conversation_id": "677a35eb4a2650e037c1fd5f",
+    "_id": "677a35eb4a2650e037c1fd5f",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-05T07:43:54.199000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-01-05T07:34:03.556000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં હાલમાં શું જરૂર છે",
+        "en": "What's currently needed on my farm",
+        "timestamp": {
+          "$date": "2025-01-05T06:03:28.410Z"
+        },
+        "standalone_question": "What does my farm currently need?",
+        "standalone_en": "What does my farm currently need?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara khetaraman halaman shu jarur che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં હાલમાં નીચેની જરૂરિયાતો છે:\n\n1. **પેસ્ટ અને રોગ સ્પ્રે**: હાલમાં કોઈ સ્પ્રે કરવાની જરૂર નથી.\n2. **ફર્ટિગેશન**: \"મેઇન પ્લોટ\"માં કોઈ પાક નથી ઉગાડવામાં આવ્યો, તેથી ફર્ટિગેશનની જરૂર નથી.\n3. **જળસંચય**: \"મેઇન પ્લોટ\" માટે યોગ્ય ભેજ શોધવામાં અસમર્થતા છે, તેથી જળસંચયની જરૂરિયાતની ચોક્કસ માહિતી ઉપલબ્ધ નથી.\n\nજો તમને વધુ માહિતી અથવા મદદની જરૂર હોય, તો કૃપા કરીને જણાવો!",
+        "en": "Your farm currently has the following requirements:\n\n1. **Paste and disease spray**: There is currently no need to spray.\n2. **Fertigation**: No crop has been grown in the \"Main Plot\", so fertigation is not required.\n3. **Water harvesting**: There is an inability to find the right moisture for the \"main plot\", so the exact information on the need for water harvesting is not available.\n\nIf you need more information or help, please let us know!",
+        "timestamp": {
+          "$date": "2025-01-05T06:03:38.436Z"
+        }
+      }
+    ],
+    "farmer_id": "VR5195",
+    "farmer_plot_ids": [
+      "mainplot283",
+      "vachchevalo"
+    ],
+    "conversation_id": "677a20b04a2650e037c1fd5d",
+    "_id": "677a20b04a2650e037c1fd5d",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-05T06:08:28.417000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-01-05T06:03:28.410000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મેન્કોઝેબ ફુવારા થી આપી શકાય સ્પ્રિકલર થી",
+        "en": "Mancozeb can be given from a fountain with a sprinkler",
+        "timestamp": {
+          "$date": "2025-01-05T03:54:31.244Z"
+        },
+        "standalone_question": "Can a sprinkler be supplied from a manhole?",
+        "standalone_en": "Can a sprinkler be supplied from a manhole?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mancozeb fuwara thi aapi sakay sprickler thi"
+      },
+      {
+        "role": "assistant",
+        "content": "હા, તમે **મેન્કોઝેબ** ફુવારા દ્વારા આપી શકો છો. આજે, 5 જાન્યુઆરી 2025ના રોજ, તમે નીચેના સ્પ્રે સંયોજનોમાંથી કોઈ એક પસંદ કરી શકો છો:\n\n1. **Metalaxyl Mancozeb** - 2.5 ગ્રામ\n2. **Dimethomorph** - 1.2 ગ્રામ\n3. **Cymoxanil 8% + Mancozeb 64% WP** - 2 ગ્રામ\n\nઆ સ્પ્રે ફોલિયર એપ્લિકેશન માટે છે અને તેનો ઉપયોગ લેટ બ્લાઇટના નિયંત્રણ માટે કરવામાં આવે છે.",
+        "en": "Yes, you can give through the **mancozeb** fountain. Today, on January 5, 2025, you can choose any one of the following spray combinations:\n\n1. **Metalaxyl Mancozeb** - 2.5 g\n2. **Dimethomorph** - 1.2 grams\n3. **Cymoxanil 8% + Mancozeb 64% WP** - 2 g\n\nThis spray is for foliar application and is used for the control of late blight.",
+        "timestamp": {
+          "$date": "2025-01-05T03:54:36.111Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ડોજ કેટલો",
+        "en": "How much dodge",
+        "timestamp": {
+          "$date": "2025-01-05T03:55:22.427Z"
+        },
+        "standalone_question": "What is the dosage?",
+        "standalone_en": "What is the dosage?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "doj ketlo"
+      },
+      {
+        "role": "assistant",
+        "content": "**Spray Conditions for \"kairo 1\" (5th January 2025):**\n\n- **09:30 AM**: WORST\n- **10:30 AM**: WORST\n- **11:30 AM**: IDEAL\n- **12:30 PM**: IDEAL\n- **01:30 PM**: IDEAL\n- **02:30 PM**: IDEAL\n- **03:30 PM**: IDEAL\n- **04:30 PM**: IDEAL\n- **05:30 PM**: IDEAL\n- **06:30 PM**: IDEAL\n- **07:30 PM**: IDEAL\n- **08:30 PM**: IDEAL\n- **09:30 PM**: IDEAL\n- **10:30 PM**: IDEAL\n- **11:30 PM**: IDEAL\n\n**Recommendation**: The best time to spray is from **11:30 AM** onwards, as the conditions are IDEAL throughout the afternoon and evening.",
+        "en": "**Spray Conditions for \"kairo 1\" (5th January 2025):**\n\n- **09:30 AM**: WORST\n- **10:30 AM**: WORST\n- **11:30 AM**: IDEAL\n- **12:30 PM**: IDEAL\n- **01:30 PM**: IDEAL\n- **02:30 PM**: IDEAL\n- **03:30 PM**: IDEAL\n- **04:30 PM**: IDEAL\n- **05:30 PM**: IDEAL\n- **06:30 PM**: IDEAL\n- **07:30 PM**: IDEAL\n- **08:30 PM**: IDEAL\n- **09:30 PM**: IDEAL\n- **10:30 PM**: IDEAL\n- **11:30 PM**: IDEAL\n\n**Recommendation**: The best time to spray is from **11:30 AM** onwards, as the conditions are IDEAL throughout the afternoon and evening.",
+        "timestamp": {
+          "$date": "2025-01-05T03:55:27.439Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "કઈ કંપની સારી",
+        "en": "Which company is better",
+        "timestamp": {
+          "$date": "2025-01-05T03:56:23.376Z"
+        },
+        "standalone_question": "Which company is good?",
+        "standalone_en": "Which company is good?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kai company sari"
+      },
+      {
+        "role": "assistant",
+        "content": "ફિલો (Fyllo) કંપની કૃષિ ટેકનોલોજી ક્ષેત્રમાં એક અગ્રણી છે, જે ખેડૂતોને ચોકસાઈ અને સચોટતા સાથે ખેતી કરવા માટે સહાય કરે છે. તેની વિશેષતાઓમાં શામેલ છે:\n\n1. **સંવેદક અને ડેટા**: ફિલો દ્વારા સ્થાપિત સંવેદકો અને ડેટા વિશ્લેષણ દ્વારા ખેડૂતોને તેમના પાકની સ્થિતિ અને જરૂરિયાતો વિશે ચોક્કસ માહિતી મળે છે.\n\n2. **વિજ્ઞાન આધારિત અલ્ગોરિધમ**: ડૉ. શિખામણ્યના નેતૃત્વમાં વૈજ્ઞાનિકોની ટીમ દ્વારા વિકસિત કૃષિ અલ્ગોરિધમ, જે પાકના વિકાસને વધુ અસરકારક બનાવે છે.\n\n3. **ગ્રાહક સેવા**: 24 કલાકની સમસ્યા ઉકેલવા સાથે 100% ગ્રાહક જાળવણી.\n\n4. **વપરાશકર્તા મૈત્રી**: સરળ અને સમજવા માટે અનુકૂળ ઇન્ટરફેસ, જે દરેક વય જૂથના વપરાશકર્તાઓ માટે અનુકૂળ છે.\n\nઆથી, ફિલો એક સારી પસંદગી છે, ખાસ કરીને જો તમે ચોકસાઈ અને ટેકનોલોજી આધારિત ખેતીમાં રસ ધરાવો છો.",
+        "en": "The Fyllo company is a pioneer in the field of agricultural technology, which helps farmers to take up farming with precision and accuracy. Its features include:\n\n1. **Sensitive and Data**: Through the sensitivities and data analysis established by Philo, farmers get accurate information about the status and requirements of their crops.\n\n2. **Science-based algorithm**: Dr. The agricultural algorithm developed by a team of scientists led by Shikhamanya makes crop development more effective.\n\n3. **Customer Service**: 100% customer retention with 24 hours of problem solving.\n\n4. **User Friendliness**: A simple and understandable interface, which is convenient for users of every age group.\n\nTherefore, Philo is a good choice, especially if you are interested in precision and technology-based farming.",
+        "timestamp": {
+          "$date": "2025-01-05T03:56:27.970Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140"
+    ],
+    "conversation_id": "677a0276cae8c9aa19e740a5",
+    "_id": "677a0276cae8c9aa19e740a5",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-05T04:01:23.384000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-01-05T03:54:31.244000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "બટાકાને મેગ્નેશિયમ સલ્ફેટ આપવાની જરૂર છે કે નહીં",
+        "en": "Whether potatoes need to be given magnesium sulfate",
+        "timestamp": {
+          "$date": "2025-01-05T03:31:10.396Z"
+        },
+        "standalone_question": "Does the potato need to be given magnesium sulfate?",
+        "standalone_en": "Does the potato need to be given magnesium sulfate?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "batakane magnesium sulfate apavani jarur che ke nahin"
+      },
+      {
+        "role": "assistant",
+        "content": "બટાકાના પાક માટે મેગ્નેશિયમ સલ્ફેટ આપવાની જરૂર છે. \n\n### Dela Valu (4 acres)\n- **વર્તમાન તબક્કો:** ટ્યુબર વિકાસ (Tuber Development)\n- **આજનો દિવસ:** 5 જાન્યુઆરી 2025\n- **ફર્ટિગેશન શેડ્યૂલ:**\n  - **4મો દિવસ:** મેગ્નેશિયમ સલ્ફેટ 5 કિલોગ્રામ/એકર\n\n### Khejada Valu (5 acres)\n- **વર્તમાન તબક્કો:** ટ્યુબર વિકાસ (Tuber Development)\n- **આજનો દિવસ:** 5 જાન્યુઆરી 2025\n- **ફર્ટિગેશન શેડ્યૂલ:** \n  - **આજે કોઈ ખાસ ફર્ટિગેશન નથી.**\n\n### Patsala (3 acres)\n- **વર્તમાન તબક્કો:** ટ્યુબર વિકાસ (Tuber Development)\n- **આજનો દિવસ:** 5 જાન્યુઆરી 2025\n- **ફર્ટિગેશન શેડ્યૂલ:**\n  - **4મો દિવસ:** મેગ્નેશિયમ સલ્ફેટ 5 કિલોગ્રામ/એકર\n\nતેથી, Dela Valu અને Patsala માટે મેગ્નેશિયમ સલ્ફેટ આપવું જરૂરી છે. Khejada Valu માટે આજના દિવસે કોઈ ખાસ ફર્ટિગેશન નથી.",
+        "en": "Magnesium sulfate needs to be given for the potato crop. \n\n### Dela Valu (4 acres)\n- **Current phase:** Tuber Development\n- **Today:** January 5, 2025\n- **Fertigation Schedule:**\n  Day 4:** Magnesium sulfate 5 kg/acre\n\n### Khejada Valu (5 acres)\n- **Current phase:** Tuber Development\n- **Today:** January 5, 2025\n- **Fertigation Schedule:** \n  - **There is no special fertigation today.**\n\n### Patsala (3 acres)\n- **Current phase:** Tuber Development\n- **Today:** January 5, 2025\n- **Fertigation Schedule:**\n  Day 4:** Magnesium sulfate 5 kg/acre\n\nTherefore, it is necessary to give magnesium sulfate for Dela Valu and Patsala. There is no special fertigation to this day for Khejada Valu.",
+        "timestamp": {
+          "$date": "2025-01-05T03:31:18.389Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "બટાકાને એમોનિયમ સલ્ફેટ આપવાની જરૂર છે કે નહીં",
+        "en": "Whether potatoes need to be given ammonium sulfate or not",
+        "timestamp": {
+          "$date": "2025-01-05T03:32:14.511Z"
+        },
+        "standalone_question": "Is it necessary to provide ammonium sulfate to potatoes?",
+        "standalone_en": "Is it necessary to provide ammonium sulfate to potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "batakane ammonium sulfate apavani jarur che ke nahin"
+      },
+      {
+        "role": "assistant",
+        "content": "બટાકાને એમોનિયમ સલ્ફેટ આપવાની જરૂર નથી. Dela Valu, Khejada Valu, અને Patsala માટે 4મા સપ્તાહમાં કોઈ ખાસ ફર્ટિગેશનની જરૂરિયાત નથી.",
+        "en": "There is no need to give ammonium sulfate to potatoes. No special fertigation is required in the 4th week for Dela Valu, Khejada Valu, and Patsala.",
+        "timestamp": {
+          "$date": "2025-01-05T03:32:20.924Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "બટાકાને કેલ્શિયમ નાઈટ્રેટ આપવાની જરૂર છે કે નહીં",
+        "en": "Whether potatoes need calcium nitrate",
+        "timestamp": {
+          "$date": "2025-01-05T03:32:37.741Z"
+        },
+        "standalone_question": "Is there a need to provide calcium nitrate to potatoes?",
+        "standalone_en": "Is there a need to provide calcium nitrate to potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "batakane kelshiyam naitret apavani jarur che ke nahin"
+      },
+      {
+        "role": "assistant",
+        "content": "બટાકાને કેલ્શિયમ નાઈટ્રેટ આપવાની જરૂર છે. \n\n### Dela Valu (4 acres)\n- **વર્તમાન તબક્કો:** ટ્યુબર વિકાસ (Tuber Development)\n- **આજનો દિવસ:** 5 જાન્યુઆરી 2025\n- **ફર્ટિગેશન શેડ્યૂલ:**\n  - **આજે:** \n    - **કેલ્શિયમ નાઈટ્રેટ:** 3.5 કિલોગ્રામ/એકર (અન્ય ખાતરોની એપ્લિકેશન પછી 15-20 મિનિટ પછી લાગુ કરવું)\n    - **સલ્ફેટ ઓફ પોટાશ:** 6.5 કિલોગ્રામ/એકર\n\n### Khejada Valu (5 acres)\n- **વર્તમાન તબક્કો:** ટ્યુબર વિકાસ (Tuber Development)\n- **આજનો દિવસ:** 5 જાન્યુઆરી 2025\n- **ફર્ટિગેશન શેડ્યૂલ:**\n  - **આજે:** \n    - **કેલ્શિયમ નાઈટ્રેટ:** 3.5 કિલોગ્રામ/એકર (અન્ય ખાતરોની એપ્લિકેશન પછી 15-20 મિનિટ પછી લાગુ કરવું)\n    - **સલ્ફેટ ઓફ પોટાશ:** 6.5 કિલોગ્રામ/એકર\n\n### Patsala (3 acres)\n- **વર્તમાન તબક્કો:** ટ્યુબર વિકાસ (Tuber Development)\n- **આજનો દિવસ:** 5 જાન્યુઆરી 2025\n- **ફર્ટિગેશન શેડ્યૂલ:**\n  - **આજે:** \n    - **કેલ્શિયમ નાઈટ્રેટ:** 3.5 કિલોગ્રામ/એકર (અન્ય ખાતરોની એપ્લિકેશન પછી 15-20 મિનિટ પછી લાગુ કરવું)\n    - **સલ્ફેટ ઓફ પોટાશ:** 6.5 કિલોગ્રામ/એકર\n\nતેથી, તમામ પ્લોટ માટે કેલ્શિયમ નાઈટ્રેટ આપવું જરૂરી છે.",
+        "en": "Potatoes need to be given calcium nitrate. \n\n### Dela Valu (4 acres)\n- **Current phase:** Tuber Development\n- **Today:** January 5, 2025\n- **Fertigation Schedule:**\n  -**Today:** \n    **Calcium nitrate:** 3.5 kg/acre (to be applied 15-20 minutes after application of other fertilizers)\n    **Sulphate of Potash:** 6.5 kg/acre\n\n### Khejada Valu (5 acres)\n- **Current phase:** Tuber Development\n- **Today:** January 5, 2025\n- **Fertigation Schedule:**\n  -**Today:** \n    **Calcium nitrate:** 3.5 kg/acre (to be applied 15-20 minutes after application of other fertilizers)\n    **Sulphate of Potash:** 6.5 kg/acre\n\n### Patsala (3 acres)\n- **Current phase:** Tuber Development\n- **Today:** January 5, 2025\n- **Fertigation Schedule:**\n  -**Today:** \n    **Calcium nitrate:** 3.5 kg/acre (to be applied 15-20 minutes after application of other fertilizers)\n    **Sulphate of Potash:** 6.5 kg/acre\n\nTherefore, it is necessary to give calcium nitrate for all plots.",
+        "timestamp": {
+          "$date": "2025-01-05T03:32:48.716Z"
+        }
+      }
+    ],
+    "farmer_id": "VR4859",
+    "farmer_plot_ids": [
+      "delavalu",
+      "khejadavalu",
+      "patsala"
+    ],
+    "conversation_id": "6779fcfdb1870fbbb5902df9",
+    "_id": "6779fcfdb1870fbbb5902df9",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-05T03:37:37.753000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-01-05T03:31:10.396000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "બટાકાને મેગ્નેશિયમ સલ્ફેટ આપવાની જરૂર છે કે નહીં",
+        "en": "Whether potatoes need to be given magnesium sulfate",
+        "timestamp": {
+          "$date": "2025-01-05T03:31:09.040Z"
+        },
+        "standalone_question": "Does the potato need to be given magnesium sulfate?",
+        "standalone_en": "Does the potato need to be given magnesium sulfate?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "batakane magnesium sulfate apavani jarur che ke nahin"
+      },
+      {
+        "role": "assistant",
+        "content": "હા, બટાકાને મેગ્નેશિયમ સલ્ફેટ આપવાની જરૂર છે. \n\n### Dela Valu (4 acres)\n- **Active Stage**: Tuber development (Started on 2025-01-03)\n- **Current Week Schedule**:\n  - **Day 4**: Apply **Magnesium Sulphate** at **5 kg/acre** along with **Sulfate of Potash** at **6.5 kg/acre**.\n\n### Khejada Valu (5 acres)\n- **Active Stage**: Tuber development (Started on 2024-12-15)\n- **Current Week Schedule**: No specific requirement for Magnesium Sulphate this week.\n\n### Patsala (3 acres)\n- **Active Stage**: Tuber development (Started on 2025-01-01)\n- **Current Week Schedule**:\n  - **Day 4**: Apply **Magnesium Sulphate** at **5 kg/acre** along with **Sulfate of Potash** at **6.5 kg/acre**.\n\nMake sure to follow the recommended application rates for effective results!",
+        "en": "હા, બટાકાને મેગ્નેશિયમ સલ્ફેટ આપવાની જરૂર છે. \n\n### Dela Valu (4 acres)\n- **Active Stage**: Tuber development (Started on 2025-01-03)\n- **Current Week Schedule**:\n  - **Day 4**: Apply **Magnesium Sulphate** at **5 kg/acre** along with **Sulfate of Potash** at **6.5 kg/acre**.\n\n### Khejada Valu (5 acres)\n- **Active Stage**: Tuber development (Started on 2024-12-15)\n- **Current Week Schedule**: No specific requirement for Magnesium Sulphate this week.\n\n### Patsala (3 acres)\n- **Active Stage**: Tuber development (Started on 2025-01-01)\n- **Current Week Schedule**:\n  - **Day 4**: Apply **Magnesium Sulphate** at **5 kg/acre** along with **Sulfate of Potash** at **6.5 kg/acre**.\n\nMake sure to follow the recommended application rates for effective results!",
+        "timestamp": {
+          "$date": "2025-01-05T03:31:17.279Z"
+        }
+      }
+    ],
+    "farmer_id": "VR4859",
+    "farmer_plot_ids": [
+      "delavalu",
+      "khejadavalu",
+      "patsala"
+    ],
+    "conversation_id": "6779fcfcb1870fbbb5902df8",
+    "_id": "6779fcfcb1870fbbb5902df8",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-05T03:36:09.048000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-01-05T03:31:09.040000+00:00"
+  }
+]

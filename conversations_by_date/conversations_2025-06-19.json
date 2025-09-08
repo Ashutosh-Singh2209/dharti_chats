@@ -1,0 +1,621 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can i mix kavach and tilt",
+        "en": "Can i mix kavach and tilt",
+        "timestamp": {
+          "$date": "2025-06-19T18:04:36.488Z"
+        },
+        "standalone_question": "Can I combine Kavach and Tilt?",
+        "standalone_en": "Can I combine Kavach and Tilt?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Mixing Kavach (a fungicide) and Tilt (another fungicide) can be done, but it's essential to check their compatibility. Always refer to the product labels for specific mixing instructions and consult with a local agricultural expert or Fyllo’s CRM for personalized advice.",
+        "en": "Mixing Kavach (a fungicide) and Tilt (another fungicide) can be done, but it's essential to check their compatibility. Always refer to the product labels for specific mixing instructions and consult with a local agricultural expert or Fyllo’s CRM for personalized advice.",
+        "timestamp": {
+          "$date": "2025-06-19T18:04:41.301Z"
+        }
+      }
+    ],
+    "farmer_id": "swathappa",
+    "farmer_plot_ids": [
+      "swathappa"
+    ],
+    "conversation_id": "6854513438e1b45dddc5379c",
+    "_id": "6854513438e1b45dddc5379c",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-06-19T18:09:36.491000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-06-19T18:04:36.488000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "तुमचा 2no चा सेन्सर खूप कोरडे का धावतोय",
+        "en": "Why does your 2no's sensor run too dry?",
+        "timestamp": {
+          "$date": "2025-06-19T08:07:22.341Z"
+        },
+        "standalone_question": "Why is your second sensor running very dry?",
+        "standalone_en": "Why is your second sensor running very dry?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Sensor is showing wet, i.e. less kpa but soil looks dry.\nA: The sensor measures the moisture around the rootzone which is not visible from the top. Ask use to check the moisture in rootzone around the sensor. If it matches, ask the user to irrigate.",
+            "Q: I irrigated still the sensor is showing dry.\nA: Ask user when he irrigated. It usually takes 12 hours to reach the water till sensor. If the sensor is not dropping even after 12 hours, it can be due to one of the following reasons :\nWater is not reaching properly till the sensor , this can be due to drip blocked , or slope in the land or dripper outlets far away from the sensor. Ask user to check if drip is fine and  dripper is within the range of sensor. \nThe sensor can be very old , more than two years , in this case , the sensor might be malfunction, ask user if he wants to raise a ticket",
+            "Q: Sensor is showing dry, but it rained recently.\nA: Rainwater doesn't percolate well in the soil. Most of it runs off. After a day of rain stops , if the sensor is still dry, you will have to irrigate. You can check the moisture by digging near the sensor . Irrigate accordingly.",
+            "Q: I irrigated still the sensor is dropping slowly.\nA: Sometimes, the water reaches slowly till root zone and the moisture sensor kPa value drops slowly. Always wait for 12 hours after irrigation for the moisture to saturate. If still some confusion, ask user to check moisture near the sensor and check if he wants to raise a ticket for the issue.",
+            "Q: What should I do if the soil moisture sensor always shows dry values?\nA: Check if irrigation water is reaching the sensor, verify sensor connection, and ensure the sensor is not damaged."
+          ]
+        },
+        "content_transliterated": "tumcha 2no cha sensor khoop korde ka dhavatoy"
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या प्लॉटमध्ये 2no चा सेन्सर खूप कोरडे धावतोय, याचे काही कारणे असू शकतात:\n\n1. **पाण्याची पोहोच**: तपासा की पाण्याची पोहोच सेन्सरपर्यंत होत आहे का. ड्रिप सिस्टीममध्ये अडथळा आहे का? \n2. **सेन्सरची स्थिती**: सेन्सर जुना आहे का? 2 वर्षांपेक्षा जुना असल्यास, तो खराब झाला असू शकतो.\n3. **जमिनीची स्थिती**: जमिनीच्या ढाल किंवा ड्रिप आउटलेट्सची स्थिती तपासा. सेन्सरच्या जवळ ड्रिप आउटलेट्स आहेत का?\n\nआपण हे सर्व तपासून पाहू शकता. जर समस्या कायम राहिली, तर आपण तिकीट उघडण्याचा विचार करू शकता.",
+        "en": "There may be a few reasons why the 2no sensor is running very dry in your plot:\n\n1. **Water access**: Check if water is reaching the sensor. Is there a barrier to the drip system? \n2. **The state of the sensor**: Is the sensor old? If older than 2 years, it may have been damaged.\n3. **Soil condition**: Check the position of soil shields or drip outlets. Are there drip outlets near the sensor?\n\nYou can check it all out. If the problem persists, you may want to consider opening a ticket.",
+        "timestamp": {
+          "$date": "2025-06-19T08:07:28.425Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "दोन दिवस सलग पाऊस होतोय 1नो cha बरोबर काम करतोय 2no cha khup कोरडे dkhvtoy",
+        "en": "It rains for two days simultaneously, 1 no cha works fine, 2no cha very dry",
+        "timestamp": {
+          "$date": "2025-06-19T08:09:42.756Z"
+        },
+        "standalone_question": "Why is the 2nd sensor showing very dry conditions even though it has been raining for two consecutive days and the 1st sensor is functioning properly?",
+        "standalone_en": "Why is the 2nd sensor showing very dry conditions even though it has been raining for two consecutive days and the 1st sensor is functioning properly?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Sensor is showing dry, but it rained recently.\nA: Rainwater doesn't percolate well in the soil. Most of it runs off. After a day of rain stops , if the sensor is still dry, you will have to irrigate. You can check the moisture by digging near the sensor . Irrigate accordingly.",
+            "Q: Sensor is showing wet, i.e. less kpa but soil looks dry.\nA: The sensor measures the moisture around the rootzone which is not visible from the top. Ask use to check the moisture in rootzone around the sensor. If it matches, ask the user to irrigate.",
+            "Q: I irrigated still the sensor is showing dry.\nA: Ask user when he irrigated. It usually takes 12 hours to reach the water till sensor. If the sensor is not dropping even after 12 hours, it can be due to one of the following reasons :\nWater is not reaching properly till the sensor , this can be due to drip blocked , or slope in the land or dripper outlets far away from the sensor. Ask user to check if drip is fine and  dripper is within the range of sensor. \nThe sensor can be very old , more than two years , in this case , the sensor might be malfunction, ask user if he wants to raise a ticket",
+            "Q: What should I do if the soil moisture sensor always shows dry values?\nA: Check if irrigation water is reaching the sensor, verify sensor connection, and ensure the sensor is not damaged.",
+            "Q: My  sensor is showing 0 Kpa for long.\nA: 0-5 kPa means wet soil. It can be due to following :\nIf the device is recently installed, there can be moisture  around the sensor because the sensor is dipped in the water before installing. If this is the case, ask them to do atleast 3 irrigations as per their previous schedule without sensors and sensors would b set by then.\nIf the crop stage is very early or pruing is done recently, the water takeup by plants is negligible in this period because of very less transpiration. If this is the case, ask them to wait till irrigation Kpa in the present stage.\nSometimes, the water can remain accumulated around the sensor due to local landscaping or slope in the land around sensor. In this case, please check the around the sensor. It will have to be reinstalled properly. Chatbot should ask the user if he wants to create an issue ticket for the same"
+          ]
+        },
+        "content_transliterated": "don divas salag paus hotoy 1no cha barobar kaam cartoy 2no cha khup korde dkhvtoy"
+      },
+      {
+        "role": "assistant",
+        "content": "जर 2no चा सेन्सर खूप कोरडे दाखवत असेल, तर याचे काही कारणे असू शकतात:\n\n1. **पाण्याची पोहोच**: पाऊस झाल्यानंतरही, पाण्याची पोहोच सेन्सरपर्यंत होत आहे का हे तपासा. पाण्याचा प्रवाह अडथळित झाला आहे का?\n2. **जमिनीची स्थिती**: पाऊस झाल्यानंतर, जमिनीच्या ढाल किंवा ड्रिप आउटलेट्सची स्थिती तपासा. सेन्सरच्या जवळ ड्रिप आउटलेट्स आहेत का?\n3. **सेन्सरची स्थिती**: सेन्सर जुना आहे का? 2 वर्षांपेक्षा जुना असल्यास, तो खराब झाला असू शकतो.\n\nआपण हे सर्व तपासून पाहू शकता. जर समस्या कायम राहिली, तर आपण तिकीट उघडण्याचा विचार करू शकता.",
+        "en": "If 2no's sensor shows too dry, there may be a few reasons for this:\n\n1. **Water access**: Even after rain, check that water is reaching the sensor. Has the flow of water been blocked?\n2. **Soil condition**: After rain, check the condition of soil shields or drip outlets. Are there drip outlets near the sensor?\n3. **The state of the sensor**: Is the sensor old? If older than 2 years, it may have been damaged.\n\nYou can check it all out. If the problem persists, you may want to consider opening a ticket.",
+        "timestamp": {
+          "$date": "2025-06-19T08:09:49.923Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "6महिन्या पूर्वी इश्टोल केला आहे",
+        "en": "Issued 6 months ago",
+        "timestamp": {
+          "$date": "2025-06-19T08:11:02.025Z"
+        },
+        "standalone_question": "When was the sensor installed?",
+        "standalone_en": "When was the sensor installed?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "6mahinya purvi ishtol kela aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "जर 2no चा सेन्सर 200 kPa दर्शवत असेल आणि तुम्ही 6 महिन्यांपूर्वी इश्टोल केला असेल, तर याचा अर्थ सेन्सर खराब झाला असू शकतो. 200 kPa म्हणजे माती पूर्णपणे कोरडी आहे किंवा सेन्सर योग्यरित्या कार्य करत नाही.\n\nतुम्हाला हे तपासण्याची आवश्यकता आहे:\n1. **सेन्सरची स्थिती**: सेन्सरची कनेक्शन तपासा, कनेक्शन ढिले असल्यास ते घट्ट करा.\n2. **पाण्याची पोहोच**: ड्रिप सिस्टीममध्ये अडथळा आहे का ते तपासा. \n3. **फिजिकल चेक**: सेन्सर मातीच्या बाहेर आहे का ते तपासा.\n\nजर तुम्हाला समस्या कायम राहिली, तर तुम्ही तिकीट उघडण्याचा विचार करू शकता.",
+        "en": "If the 2no sensor shows 200 kPa and you issued it 6 months ago, this could mean the sensor may have malfunctioned. 200 kPa means the soil is completely dry or the sensor is not working properly.\n\nYou need to check this:\n1. **Position of the sensor**: Check the connection of the sensor, tighten it if the connection is loose.\n2. **Water access**: Check if there is a bottleneck in the drip system. \n3. **Physical check**: Check if the sensor is out of the soil.\n\nIf you continue to have problems, you may want to consider opening a ticket.",
+        "timestamp": {
+          "$date": "2025-06-19T08:11:07.415Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "चेक केला जमिनीत पुरेसा ओलावा आहे",
+        "en": "The checked soil has enough moisture",
+        "timestamp": {
+          "$date": "2025-06-19T08:12:35.163Z"
+        },
+        "standalone_question": "Is there sufficient moisture in the soil?",
+        "standalone_en": "Is there sufficient moisture in the soil?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Sensor is showing wet, i.e. less kpa but soil looks dry.\nA: The sensor measures the moisture around the rootzone which is not visible from the top. Ask use to check the moisture in rootzone around the sensor. If it matches, ask the user to irrigate.",
+            "Q: Sensor is showing dry, but it rained recently.\nA: Rainwater doesn't percolate well in the soil. Most of it runs off. After a day of rain stops , if the sensor is still dry, you will have to irrigate. You can check the moisture by digging near the sensor . Irrigate accordingly."
+          ]
+        },
+        "content_transliterated": "check kela jaminit puresa olava aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "जर जमिनीत पुरेसा ओलावा आहे, पण 2no चा सेन्सर कोरडे दाखवत असेल, तर याचा अर्थ सेन्सर योग्यरित्या कार्य करत नाही. \n\nतुम्ही खालील गोष्टी तपासू शकता:\n1. **सेन्सरची स्थिती**: सेन्सरची कनेक्शन तपासा, कनेक्शन ढिले असल्यास ते घट्ट करा.\n2. **फिजिकल चेक**: सेन्सर मातीच्या बाहेर आहे का ते तपासा.\n3. **पाण्याची पोहोच**: ड्रिप सिस्टीममध्ये अडथळा आहे का ते तपासा.\n\nजर तुम्हाला समस्या कायम राहिली, तर तुम्ही तिकीट उघडण्याचा विचार करू शकता.",
+        "en": "If there's enough moisture in the soil, but a 2no sensor shows dryness, it means the sensor isn't working properly. \n\nYou can check the following:\n1. **Position of the sensor**: Check the connection of the sensor, tighten it if the connection is loose.\n2. **Physical check**: Check if the sensor is out of the soil.\n3. **Water access**: Check if there is a bottleneck in the drip system.\n\nIf you continue to have problems, you may want to consider opening a ticket.",
+        "timestamp": {
+          "$date": "2025-06-19T08:12:40.877Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "कनेक्शन चेक ती एरियल का",
+        "en": "Check the connection of Ariel.",
+        "timestamp": {
+          "$date": "2025-06-19T08:13:47.364Z"
+        },
+        "standalone_question": "Is the connection check for the aerial?",
+        "standalone_en": "Is the connection check for the aerial?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "connection check ti aerial ka"
+      },
+      {
+        "role": "assistant",
+        "content": "जर तुम्हाला कनेक्शन चेक करायचे असेल, तर तुम्ही खालील गोष्टी तपासू शकता:\n\n1. **एरियल कनेक्शन**: एरियल कनेक्शन चांगले आहे का ते तपासा. कनेक्शन ढिले असल्यास, ते घट्ट करा.\n2. **सिग्नल स्ट्रेंथ**: एरियलच्या सिग्नल स्ट्रेंथची तपासणी करा. कमी सिग्नल असल्यास, एरियलची स्थिती बदलण्याचा विचार करा.\n3. **डिव्हाइस रिस्टार्ट**: डिव्हाइस रिस्टार्ट करून पाहा, कधी कधी हे कनेक्शन समस्यांचे निराकरण करते.\n\nजर तुम्हाला अजूनही समस्या येत असेल, तर तुम्ही तिकीट उघडण्याचा विचार करू शकता.",
+        "en": "If you want to check the connection, you can check the following:\n\n1. **Aerial Connection**: Check if the aerial connection is good. If the connection is loose, tighten it.\n2. **Signal Strength**: Check Ariel's signal strength. If there is a low signal, consider changing the position of the aerial.\n3. **Device Restart**: Try device restart, sometimes it solves connection issues.\n\nIf you're still having problems, you may want to consider opening tickets.",
+        "timestamp": {
+          "$date": "2025-06-19T08:13:53.503Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "डेव्हिस रिस्टार्ट कसे करायचे",
+        "en": "How to restart Davis",
+        "timestamp": {
+          "$date": "2025-06-19T08:15:10.322Z"
+        },
+        "standalone_question": "How do I restart the device?",
+        "standalone_en": "How do I restart the device?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "davis restart kase karayache"
+      },
+      {
+        "role": "assistant",
+        "content": "डिव्हाइस रिस्टार्ट करण्यासाठी, तुम्ही खालील पायऱ्या अनुसरण करू शकता:\n\n1. **पावर बटण शोधा**: डिव्हाइसच्या खालील भागात पावर बटण असेल.\n2. **पावर बटण दाबा**: पावर बटण दाबा आणि थोडा वेळ धरून ठेवा.\n3. **डिव्हाइस बंद करा**: डिव्हाइस बंद झाल्यावर, पुन्हा पावर बटण दाबा.\n4. **पुनः सुरू होईपर्यंत थांबा**: डिव्हाइस सुरू होईपर्यंत थांबा आणि होम स्क्रीनवरील पॅरामीटर्स दिसेपर्यंत वाट पहा.\n\nयामुळे तुमचा डिव्हाइस रिस्टार्ट होईल. जर तुम्हाला अजूनही समस्या येत असेल, तर तुम्ही तिकीट उघडण्याचा विचार करू शकता.",
+        "en": "To restart the device, you can follow the following steps:\n\n1. **Find a power button**: There will be a power button in the lower part of the device.\n2. *** Press the power button**: Press the power button and hold it for a while.\n3. **Turn off the device**: After the device is turned off, press the power button again.\n4. **Wait until the device starts again**: Wait until the device starts and wait until the parameters on the home screen appear.\n\nThis will restart your device. If you're still having problems, you may want to consider opening tickets.",
+        "timestamp": {
+          "$date": "2025-06-19T08:15:17.281Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पण त्याला कोणतेही बटण नाही सोलर आणि एरियल आहे",
+        "en": "But it has no buttons solar and ariel",
+        "timestamp": {
+          "$date": "2025-06-19T08:16:47.973Z"
+        },
+        "standalone_question": "How do I restart a device that has no buttons and is powered by solar and aerial?",
+        "standalone_en": "How do I restart a device that has no buttons and is powered by solar and aerial?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pan tyala konatehi batan nahi solar ani ariel aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "जर तुमच्या डिव्हाइसवर कोणतेही बटण नसेल आणि ते सोलर आणि एरियलवर चालत असेल, तर तुम्ही खालील पायऱ्या अनुसरण करू शकता:\n\n1. **सोलर पॅनेल तपासा**: सोलर पॅनेलवर थेट सूर्यप्रकाश आहे का ते तपासा. जर पॅनेलवर धूळ किंवा अडथळा असेल, तर ते स्वच्छ करा.\n2. **पावर कनेक्शन**: डिव्हाइसच्या पावर कनेक्शनची तपासणी करा. कनेक्शन योग्य आहे का ते पाहा.\n3. **डिव्हाइस रिस्टार्ट**: काही वेळा डिव्हाइस आपोआप रिस्टार्ट होते. तुम्ही थोडा वेळ थांबून पाहू शकता.\n\nजर तुम्हाला अजूनही समस्या येत असेल, तर तुम्ही तिकीट उघडण्याचा विचार करू शकता.",
+        "en": "If there is no button on your device and it runs on solar and ariel, you can follow the following steps:\n\n1. **Check solar panels**: Check if there is direct sunlight on the solar panels. If there is dust or obstruction on the panel, clean it.\n2. **Power Connection**: Check the device's power connection. See if the connection is correct.\n3. **Device Restart**: Sometimes the device is automatically restarted. You can wait and see for a while.\n\nIf you're still having problems, you may want to consider opening tickets.",
+        "timestamp": {
+          "$date": "2025-06-19T08:16:54.100Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ok",
+        "en": "Ok",
+        "timestamp": {
+          "$date": "2025-06-19T08:17:28.960Z"
+        },
+        "standalone_question": "What should I do if my device has no buttons and runs on solar and aerial power?",
+        "standalone_en": "What should I do if my device has no buttons and runs on solar and aerial power?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "जर तुम्हाला आणखी काही विचारायचे असेल किंवा मदतीची आवश्यकता असेल, तर कृपया सांगा!",
+        "en": "If you have anything else to ask or need help, please let me know!",
+        "timestamp": {
+          "$date": "2025-06-19T08:17:34.357Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पण जर डिव्हाईस सेन्सर खराब झाला असेल तर काय करावं लागेल",
+        "en": "But what to do if the device sensor is damaged",
+        "timestamp": {
+          "$date": "2025-06-19T08:18:32.422Z"
+        },
+        "standalone_question": "What should be done if the device sensor is faulty?",
+        "standalone_en": "What should be done if the device sensor is faulty?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What should I do if the soil temperature sensor is not working?\nA: Check the sensor connection, tighten it if loose, and restart the device to check updated data.",
+            "Q: What should I do if the rain gauge is not working?\nA: Open the top cover of the rainfall sensor and clean it as suggested in the maintenance section.",
+            "Q: What should I do if the soil moisture sensor always shows dry values?\nA: Check if irrigation water is reaching the sensor, verify sensor connection, and ensure the sensor is not damaged.",
+            "Q: What should I do if the soil moisture sensor values fluctuate?\nA: Ensure the sensor is installed properly in the soil, check for air bubbles, and contact Fyllo representative if the issue persists.",
+            "Q: How do I replace the sensors for Nero?\nA: Disconnect the sensors by rotating them counterclockwise, unplug the connector, and replace them by following the steps in the manual."
+          ]
+        },
+        "content_transliterated": "pan jar device sensor kharab jhala asel tar kay karavam lagel"
+      },
+      {
+        "role": "assistant",
+        "content": "जर डिव्हाइसचा सेन्सर खराब झाला असेल, तर तुम्हाला खालील पायऱ्या अनुसरण कराव्या लागतील:\n\n1. **तपासणी करा**: सेन्सरची स्थिती तपासा. कनेक्शन ढिले असल्यास, ते घट्ट करा.\n2. **फिजिकल चेक**: सेन्सर मातीच्या बाहेर आहे का ते तपासा. जर तो खराब झाला असेल, तर त्याला बदलण्याची आवश्यकता असू शकते.\n3. **तांत्रिक सहाय्य**: जर तुम्हाला समस्या कायम राहिली, तर Fyllo च्या तांत्रिक सहाय्याशी संपर्क साधा. त्यांना तुमच्या डिव्हाइसची माहिती द्या आणि ते तुम्हाला योग्य मार्गदर्शन करतील.\n4. **तिकीट उघडा**: तुम्ही तिकीट उघडून तांत्रिक सहाय्य मागवू शकता, जेणेकरून ते तुमच्या समस्येवर त्वरित उपाययोजना करू शकतील.\n\nतुमच्या सेन्सरची स्थिती तपासणे आणि तांत्रिक सहाय्य घेणे हे महत्त्वाचे आहे.",
+        "en": "If the device's sensor is damaged, you may have to follow the following steps:\n\n1. **check**: Check the position of the sensor. If the connection is loose, tighten it.\n2. **Physical check**: Check if the sensor is out of the soil. If it's damaged, it may need to be replaced.\n3. **Technical Assistance**: If you continue to have a problem, contact Fyllo's technical assistance. Inform them about your device and they will guide you properly.\n4. **Open the ticket**: You can open the ticket and ask for technical assistance, so that they can solve your problem quickly.\n\nIt is important to check the status of your sensor and seek technical assistance.",
+        "timestamp": {
+          "$date": "2025-06-19T08:18:39.368Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "वेळ पडली तर बदलून मिळेल का",
+        "en": "If the time comes, will it be replaced?",
+        "timestamp": {
+          "$date": "2025-06-19T08:19:39.966Z"
+        },
+        "standalone_question": "Will it be possible to get a replacement if needed?",
+        "standalone_en": "Will it be possible to get a replacement if needed?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "vel padali tar badalun milel ka"
+      },
+      {
+        "role": "assistant",
+        "content": "जर तुमचा सेन्सर खराब झाला असेल आणि तुम्हाला तो बदलायचा असेल, तर तुम्ही Fyllo च्या ग्राहक सेवा किंवा तांत्रिक सहाय्याशी संपर्क साधून बदलण्याची प्रक्रिया विचारू शकता. \n\nत्यांना तुमच्या डिव्हाइसची माहिती द्या, आणि ते तुम्हाला योग्य मार्गदर्शन करतील. सामान्यतः, जर डिव्हाइसची वॉरंटी अद्याप चालू असेल, तर तुम्हाला बदलण्यासाठी मदत मिळू शकते. \n\nतुम्हाला आणखी काही विचारायचे असल्यास, कृपया सांगा!",
+        "en": "If your sensor is damaged and you want to change it, you can contact Fyllo's customer service or technical assistance and ask for a replacement process. \n\nLet them know about your device, and they'll guide you properly. In general, if the device's warranty is still on, you can get help replacing it. \n\nIf you have anything else to ask, please let me know!",
+        "timestamp": {
+          "$date": "2025-06-19T08:19:44.685Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पण पैसे पे करावे लागतील का आणि वोरांती कल किती असतो",
+        "en": "But will you have to pay the money and what is the trend?",
+        "timestamp": {
+          "$date": "2025-06-19T08:21:02.751Z"
+        },
+        "standalone_question": "Will I have to pay for the replacement, and what is the warranty period?",
+        "standalone_en": "Will I have to pay for the replacement, and what is the warranty period?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is the life of the device and how much is the warranty?\nA: The life of the device is 5-6 years, and it comes with a 2-year warranty, except for physical damage."
+          ]
+        },
+        "content_transliterated": "pan paise pay karave lagatil ka ani voranti kal kiti asato"
+      },
+      {
+        "role": "assistant",
+        "content": "डिव्हाइसची वॉरंटी 2 वर्षे असते, आणि ती फक्त भौतिक नुकसानाशिवाय लागू होते. \n\nजर तुमचा सेन्सर वॉरंटी अंतर्गत असेल आणि तो खराब झाला असेल, तर तुम्हाला बदलण्यासाठी पैसे देण्याची आवश्यकता नसते. पण जर वॉरंटी संपली असेल किंवा भौतिक नुकसान झाले असेल, तर तुम्हाला बदलण्यासाठी पैसे द्यावे लागतील.\n\nतुम्हाला आणखी काही विचारायचे असल्यास, कृपया सांगा!",
+        "en": "The warranty for the device is 2 years, and it only applies without material damage. \n\nIf your sensor is under warranty and it's damaged, you don't need to pay for a replacement. But if the warranty has expired or there is material damage, you will have to pay for the replacement.\n\nIf you have anything else to ask, please let me know!",
+        "timestamp": {
+          "$date": "2025-06-19T08:21:07.995Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ok",
+        "en": "Ok",
+        "timestamp": {
+          "$date": "2025-06-19T08:21:46.262Z"
+        },
+        "standalone_question": "Is there a warranty period for the device, and will I have to pay for a replacement if the sensor is faulty?",
+        "standalone_en": "Is there a warranty period for the device, and will I have to pay for a replacement if the sensor is faulty?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is the life of the device and how much is the warranty?\nA: The life of the device is 5-6 years, and it comes with a 2-year warranty, except for physical damage."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "जर तुम्हाला आणखी काही विचारायचे असेल किंवा मदतीची आवश्यकता असेल, तर कृपया सांगा!",
+        "en": "If you have anything else to ask or need help, please let me know!",
+        "timestamp": {
+          "$date": "2025-06-19T08:21:49.361Z"
+        }
+      }
+    ],
+    "farmer_id": "rahuldilipjadhav",
+    "farmer_plot_ids": [
+      "plotno1527"
+    ],
+    "conversation_id": "6853c53a38e1b45dddc53797",
+    "_id": "6853c53a38e1b45dddc53797",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-06-19T08:26:46.265000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-06-19T08:07:22.341000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "tell me yesterday's rainfall for all the divisions excluding Nero make it all in table format and average also ",
+        "en": "tell me yesterday's rainfall for all the divisions excluding Nero make it all in table format and average also ",
+        "timestamp": {
+          "$date": "2025-06-19T08:02:55.498Z"
+        },
+        "standalone_question": "What was yesterday's rainfall for all divisions excluding Nero, and could you present the data in table format along with the average?",
+        "standalone_en": "What was yesterday's rainfall for all divisions excluding Nero, and could you present the data in table format along with the average?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the rainfall data for yesterday (June 18, 2025) for all divisions excluding Nero:\n\n| Plot Name               | Rainfall (mm) |\n|------------------------|----------------|\n| Srock Attamala         | 38             |\n| Srock Chooralmala Kairo| 39             |\n| Srock Mundakkai Kairo  | 72             |\n| Srock Puthumala        | 53             |\n\n**Average Rainfall:** 50.5 mm",
+        "en": "Here's the rainfall data for yesterday (June 18, 2025) for all divisions excluding Nero:\n\n| Plot Name               | Rainfall (mm) |\n|------------------------|----------------|\n| Srock Attamala         | 38             |\n| Srock Chooralmala Kairo| 39             |\n| Srock Mundakkai Kairo  | 72             |\n| Srock Puthumala        | 53             |\n\n**Average Rainfall:** 50.5 mm",
+        "timestamp": {
+          "$date": "2025-06-19T08:03:03.286Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "same for 17th June also ",
+        "en": "same for 17th June also ",
+        "timestamp": {
+          "$date": "2025-06-19T08:03:15.304Z"
+        },
+        "standalone_question": "Could you provide the rainfall data for all divisions excluding Nero for June 17th as well?",
+        "standalone_en": "Could you provide the rainfall data for all divisions excluding Nero for June 17th as well?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the rainfall data for June 17, 2025, for all divisions excluding Nero:\n\n| Plot Name               | Rainfall (mm) |\n|------------------------|----------------|\n| Srock Attamala         | 75             |\n| Srock Chooralmala Kairo| 72             |\n| Srock Mundakkai Kairo  | 111            |\n| Srock Puthumala        | 97             |\n\n**Average Rainfall:** 83.75 mm",
+        "en": "Here's the rainfall data for June 17, 2025, for all divisions excluding Nero:\n\n| Plot Name               | Rainfall (mm) |\n|------------------------|----------------|\n| Srock Attamala         | 75             |\n| Srock Chooralmala Kairo| 72             |\n| Srock Mundakkai Kairo  | 111            |\n| Srock Puthumala        | 97             |\n\n**Average Rainfall:** 83.75 mm",
+        "timestamp": {
+          "$date": "2025-06-19T08:03:22.709Z"
+        }
+      }
+    ],
+    "farmer_id": "allenenoshmani",
+    "farmer_plot_ids": [
+      "attamaladivision",
+      "chooralmaladivision",
+      "chooralmalanerodivision",
+      "mundakainerodivision",
+      "mundakkaidivision",
+      "puthumaladivision"
+    ],
+    "conversation_id": "6853c42f38e1b45dddc53796",
+    "_id": "6853c42f38e1b45dddc53796",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-06-19T08:08:15.307000Z"
+    },
+    "tag": "historical data",
+    "conv_date": "2025-06-19T08:02:55.498000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": " लुना करण्याला काम करते का ? 6 दिवस झाले आहे स्प्रे करून ",
+        "en": " Does Luna work? It's been 6 days since I sprayed. ",
+        "timestamp": {
+          "$date": "2025-06-19T07:00:01.691Z"
+        },
+        "standalone_question": "Does Luna work? It has been 6 days since I sprayed it.",
+        "standalone_en": "Does Luna work? It has been 6 days since I sprayed it.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": " luna karanyala kaam karte ka ? 6 divas jhale aahe spray karun "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटसाठी या आठवड्यात कोणत्याही रोग किंवा कीटकांसाठी स्प्रे करण्याची आवश्यकता नाही. तुम्ही 6 दिवसांपूर्वी स्प्रे केले आहे, त्यामुळे तुम्ही आता आराम करू शकता.",
+        "en": "There is no need to spray for any diseases or insects for your plot this week. You sprayed 6 days ago, so you can relax now.",
+        "timestamp": {
+          "$date": "2025-06-19T07:00:07.798Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "लुना करप्याला काम करते का ? 6 दिवस झाले आहे स्प्रे करून ",
+        "en": "Does Luna work for Karpa? It's been 6 days since I sprayed. ",
+        "timestamp": {
+          "$date": "2025-06-19T07:01:03.748Z"
+        },
+        "standalone_question": "Does Luna work for you? It has been 6 days since you sprayed.",
+        "standalone_en": "Does Luna work for you? It has been 6 days since you sprayed.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "luna karpyala kaam karte ka ? 6 divas jhale aahe spray karun "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटसाठी या आठवड्यात कोणत्याही रोग किंवा कीटकांसाठी स्प्रे करण्याची आवश्यकता नाही. तुम्ही 6 दिवसांपूर्वी स्प्रे केले आहे, त्यामुळे तुम्ही आता आराम करू शकता.",
+        "en": "There is no need to spray for any diseases or insects for your plot this week. You sprayed 6 days ago, so you can relax now.",
+        "timestamp": {
+          "$date": "2025-06-19T07:01:09.987Z"
+        }
+      }
+    ],
+    "farmer_id": "ratnakarrayte",
+    "farmer_plot_ids": [
+      "thompsonplotno1matoshreekhadak"
+    ],
+    "conversation_id": "6853b57138e1b45dddc53793",
+    "_id": "6853b57138e1b45dddc53793",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-06-19T07:06:03.750000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-06-19T07:00:01.691000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Paus kadhi ughadel",
+        "en": "Pope Kadhi Ughadel",
+        "timestamp": {
+          "$date": "2025-06-19T04:56:17.933Z"
+        },
+        "standalone_question": "What does \"Paus kadhi ughadel\" mean?",
+        "standalone_en": "What does \"Paus kadhi ughadel\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"थॉम्पसन प्लॉट नं. 1\" मध्ये सध्या \"कॅन मॅच्युरिटी\" (Topping) या अवस्थेत आहे. या अवस्थेत, तुम्हाला पाण्याची आणि खतांची योग्य व्यवस्थापनाची आवश्यकता आहे. \n\nतुमच्या पिकाच्या वाढीच्या अवस्थेनुसार, तुम्हाला पाण्याची आवश्यकता कधी आहे हे जाणून घेण्यासाठी मी तुम्हाला पाण्याच्या गरजांचा अंदाज देऊ शकतो. तुम्हाला पाण्याची आवश्यकता आहे का?",
+        "en": "your \"Thompson Plot No. 1\" currently has a \"can maturity\" state. At this stage, you need proper management of water and fertilizers. \n\nDepending on the stage of your crop's growth, I can give you an estimate of your water needs to know when you need water. Do you need water?",
+        "timestamp": {
+          "$date": "2025-06-19T04:56:21.654Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ho",
+        "en": "Ho",
+        "timestamp": {
+          "$date": "2025-06-19T04:56:38.959Z"
+        },
+        "standalone_question": "Do you need water?",
+        "standalone_en": "Do you need water?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आज \"थॉम्पसन प्लॉट नं. 1\" साठी पाण्याची आवश्यकता नाही. तुम्हाला आज पाणी देण्याची गरज नाही. \n\nतुमच्या पिकाच्या आरोग्यासाठी योग्य पाण्याचे व्यवस्थापन महत्त्वाचे आहे, त्यामुळे भविष्यातील गरजांवर लक्ष ठेवा. काही अन्य प्रश्न असल्यास, कृपया सांगा!",
+        "en": "today \"Thompson Plot No. No water is required for 1\". You don't need to water today. \n\nProper water management is important for the health of your crop, so keep an eye on future needs. If you have any other questions, please let me know!",
+        "timestamp": {
+          "$date": "2025-06-19T04:56:46.574Z"
+        }
+      }
+    ],
+    "farmer_id": "akshaysomvanshi",
+    "farmer_plot_ids": [
+      "thompsonplotno1328"
+    ],
+    "conversation_id": "6853987138e1b45dddc53792",
+    "_id": "6853987138e1b45dddc53792",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-06-19T05:01:38.962000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-06-19T04:56:17.933000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is lux",
+        "en": "What is lux",
+        "timestamp": {
+          "$date": "2025-06-19T01:51:59.999Z"
+        },
+        "standalone_question": "What does \"lux\" mean?",
+        "standalone_en": "What does \"lux\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Lux is a unit of measurement for illuminance, which quantifies the amount of light that is received on a surface. It is used to assess light intensity in various environments, including agricultural settings. In farming, lux measurements help determine the light conditions for crops, which can influence growth, photosynthesis, and the potential for pest and disease incidence.",
+        "en": "Lux is a unit of measurement for illuminance, which quantifies the amount of light that is received on a surface. It is used to assess light intensity in various environments, including agricultural settings. In farming, lux measurements help determine the light conditions for crops, which can influence growth, photosynthesis, and the potential for pest and disease incidence.",
+        "timestamp": {
+          "$date": "2025-06-19T01:52:03.621Z"
+        }
+      }
+    ],
+    "farmer_id": "himanshu",
+    "farmer_plot_ids": [
+      "factory",
+      "kadoora",
+      "nedumballi",
+      "newclearing"
+    ],
+    "conversation_id": "68536d3f38e1b45dddc53791",
+    "_id": "68536d3f38e1b45dddc53791",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-06-19T01:57:00.007000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-06-19T01:51:59.999000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hya stages chi tarik kashi takavi<user uploaded image for analysis at 'chiratiplot/2025-06-19-1750297282844.jpg'>",
+        "en": "How to date these stages<user uploaded image for analysis at 'chiratiplot/2025-06-19-1750297282844.jpg'>",
+        "timestamp": {
+          "$date": "2025-06-19T01:41:44.607Z"
+        },
+        "standalone_question": "What are the stages of the process until the specified date?",
+        "standalone_en": "What are the stages of the process until the specified date?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या अपलोड केलेल्या चित्रात केळीच्या पिकाच्या वाढीच्या टप्प्यांबद्दल माहिती आहे, परंतु पिकाच्या आरोग्याचे तपशीलवार विश्लेषण करण्यासाठी पिकाचे स्पष्ट चित्र आवश्यक आहे. \n\nकृपया केळीच्या झाडांचे स्पष्ट चित्र अपलोड करा, विशेषतः कोणत्याही विशिष्ट समस्यांवर लक्ष केंद्रित करताना जसे की पाने, तने किंवा फळे. चांगले फोटो जवळून आणि चांगल्या फोकसमध्ये घेतलेले असावे लागतात, जेणेकरून संभाव्य समस्यांचे हायलाइट करता येईल.",
+        "en": "Your uploaded picture contains information about the growth stages of the banana crop, but a clear picture of the crop is necessary for a detailed analysis of the health of the crop. \n\nPlease upload a clear picture of banana trees, especially when focusing on any specific problems such as leaves, stems, or fruits. Good photos have to be taken closely and with a good focus, so that potential problems can be highlighted.",
+        "timestamp": {
+          "$date": "2025-06-19T01:41:56.776Z"
+        }
+      }
+    ],
+    "farmer_id": "sanjaydpatil",
+    "farmer_plot_ids": [
+      "chiratiplot"
+    ],
+    "conversation_id": "68536ad438e1b45dddc53790",
+    "_id": "68536ad438e1b45dddc53790",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-06-19T01:46:44.616000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-06-19T01:41:44.607000+00:00"
+  }
+]

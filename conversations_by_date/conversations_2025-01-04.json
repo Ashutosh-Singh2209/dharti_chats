@@ -1,0 +1,958 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "બટાકામાં કયો ઇશ્કરી મારો દવાનો",
+        "en": "Which is my medicine in the potato?",
+        "timestamp": {
+          "$date": "2025-01-04T16:07:14.166Z"
+        },
+        "standalone_question": "What is the best way to cook potatoes?",
+        "standalone_en": "What is the best way to cook potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "batakaman kayo ishkari maro davano"
+      },
+      {
+        "role": "assistant",
+        "content": "બટાકાની પાકમાં સામાન્ય રીતે નીચેના ઇશ્કરી મારો (પેસ્ટ) માટે દવા આપવામાં આવે છે:\n\n1. **ફ્રુટ બોરર** - આ માટે \"લેમ્બડા સાયહલોથ્રિન\" અથવા \"ક્લોરાન્ટ્રાનિલીપ્રોલ\" ઉપયોગી છે.\n2. **મગફળીનો કીટ** - \"મેટરફેનોન\" અથવા \"ક્લોરોપાયરીફોસ\" ઉપયોગ કરી શકાય છે.\n3. **લીફ ફોલ્ડર** - \"બેટા-ક્યાયલોથ્રિન\" અથવા \"ડેલ્ટામેથ્રિન\" ઉપયોગી છે.\n\nઆ દવાઓનો ઉપયોગ કરતી વખતે, દવા આપવાની યોગ્ય રીત અને માત્રા માટે નિષ્ણાતની સલાહ લેવી મહત્વપૂર્ણ છે.",
+        "en": "Potato crops are generally medicated for the following iskari mera (paste):\n\n1. **Fruit Borer** - \"Lambda cyhalothrin\" or \"Chlorantraniliprol\" is useful for this.\n2. **Peanut kit** - \"Materaphenone\" or \"Chloropyriphos\" can be used.\n3. **Leaf Folder** - \"Beta-Kyalothrin\" or \"Deltamethrin\" is useful.\n\nWhile using these drugs, it is important to seek expert advice for the correct method and dosage of the drug.",
+        "timestamp": {
+          "$date": "2025-01-04T16:07:18.207Z"
+        }
+      }
+    ],
+    "farmer_id": "bharatbhaichoudhary",
+    "farmer_plot_ids": [
+      "borvalopalot246"
+    ],
+    "conversation_id": "67795cb15b915bf7f7e2a99f",
+    "_id": "67795cb15b915bf7f7e2a99f",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-04T16:12:14.190000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-01-04T16:07:14.166000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં કયા ખાતર ની જરૂર છે",
+        "en": "What fertilizers are needed on my farm",
+        "timestamp": {
+          "$date": "2025-01-04T12:38:55.915Z"
+        },
+        "standalone_question": "What type of fertilizer does my field need?",
+        "standalone_en": "What type of fertilizer does my field need?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17"
+          ]
+        },
+        "content_transliterated": "mara khetaraman kaya khatar knee jarur che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં હાલની સ્થિતિ \"Vegetative growth\" (વૃદ્ધિ અવસ્થા) છે, જે 6મી સપ્તાહમાં છે. આજે, 4 જાન્યુઆરી 2025, માટેની ખાતર વિતરણની જરૂરિયાત નીચે મુજબ છે:\n\n### હાલની ખાતર જરૂરિયાત:\n- **Sulfate of Potash**: 6.5 કિલોગ્રામ/એકર\n\n### આગામી ખાતર જરૂરિયાત:\n1. **Tuber development** (ટ્યુબર વિકાસ) માટે:\n   - **7 કિલોગ્રામ/એકર** Potassium Nitrate\n   - **5 કિલોગ્રામ/એકર** Ammonium Sulphate\n   - **3.5 કિલોગ્રામ/એકર** Calcium Nitrate (અલગથી 15-20 મિનિટ પછી લાગુ કરવું)\n\n2. **Tuber development** (ટ્યુબર વિકાસ) માટે:\n   - **3 કિલોગ્રામ/એકર** Potassium Nitrate\n   - **3.5 કિલોગ્રામ/એકર** Urea\n   - **5 કિલોગ્રામ/એકર** Magnesium Sulphate\n\nઆ ખાતરો 11 જાન્યુઆરી 2025થી લાગુ કરવા માટે તૈયાર રાખો.",
+        "en": "The current state in your farm is \"Vegetative Growth\" which is in the 6th week. Today, 4th January 2025, the fertilizer distribution requirement for, is as follows:\n\n### Current fertilizer requirement:\n**Sulfate of Potash**: 6.5 kg/acre\n\n### Next fertilizer requirement:\n1. For **Tuber Development** (Tuber Development):\n   * **7 kg/acre** Potassium Nitrate\n   * **5 kg/acre** Ammonium Sulphate\n   **3.5 kg/acre** Calcium Nitrate (applied separately after 15-20 minutes)\n\n2. For **Tuber Development** (Tuber Development):\n   * **3 kg/acre** Potassium Nitrate\n   - **3.5 kg/acre** Urea\n   - **5 kg/acre** Magnesium Sulphate\n\nKeep these fertilizers ready to be implemented from January 11, 2025.",
+        "timestamp": {
+          "$date": "2025-01-04T12:39:03.541Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "પાણી કેટલા પ્રમાણમાં આપો",
+        "en": "How much water do you give?",
+        "timestamp": {
+          "$date": "2025-01-04T12:40:48.521Z"
+        },
+        "standalone_question": "What is the recommended amount of water to provide?",
+        "standalone_en": "What is the recommended amount of water to provide?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pani ketla pramanaman apo"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં \"Bor valo palot\" માટે હાલ પાણી આપવાની જરૂર નથી. \n\n### હાલની માળખું:\n- **માટીના આલમ (Soil Moisture)**: \n  - Sensor 1: 4 kPa (વેટ)\n  - Sensor 2: 7 kPa (વેટ)\n- **આપ્તમ આલમ (Optimal Moisture)**: 15 kPa\n\nમાટીના આલમ આપ્તમ આલમની નીચે છે, તેથી હાલ પાણી આપવાની જરૂર નથી.",
+        "en": "There is currently no need to water your farm for \"Bor valo palot\". \n\n### Current structure:\n- **Soil moisture**: \n  - Sensor 1: 4 kPa (wet)\n  - Sensor 2: 7 kPa (wet)\n- **Optimal Moisture**: 15 kPa\n\nThe earthen alam is below the alam alam, so there is no need to give water at present.",
+        "timestamp": {
+          "$date": "2025-01-04T12:40:54.562Z"
+        }
+      }
+    ],
+    "farmer_id": "bharatbhaichoudhary",
+    "farmer_plot_ids": [
+      "borvalopalot246"
+    ],
+    "conversation_id": "67792bdf625e8aa8bccd6506",
+    "_id": "67792bdf625e8aa8bccd6506",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-04T12:45:48.528000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-01-04T12:38:55.915000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "હું ફાઈલો ના સિડ્યુલ પ્રમાણે ખાતર અને દવા આપી છે છતો પણ યોગ્ય બેઠક સખ્યા જોવા મળતી નથી",
+        "en": "Even though I have given fertilizer and medicine according to the schedule of the files, the proper sitting is not found to be difficult.",
+        "timestamp": {
+          "$date": "2025-01-04T12:31:05.675Z"
+        },
+        "standalone_question": "I have given fertilizer and medicine according to the schedule, but I am not seeing the appropriate number of plants. What could be the reason for this?",
+        "standalone_en": "I have given fertilizer and medicine according to the schedule, but I am not seeing the appropriate number of plants. What could be the reason for this?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What should I do if I can't find the fertigation schedule after selecting the fertigation tab?\nA: If you don't see the fertigation schedule, you'll need to create a report first. Would you like assistance in creating a report? Do you have any soil, leaf, or petiole test data available? If not, we can generate a basic schedule for you using general crop and regional data.",
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        },
+        "content_transliterated": "hu phailo na sidyul pramane khatar ane dava aapi che chhato pan yogy bethak sakhya jova malti nathi"
+      },
+      {
+        "role": "assistant",
+        "content": "**Main Palot Plot Fertigation Schedule:**\n- **Current Stage:** Tuber Development (Week 2)\n- **Today (January 4, 2025):**\n  - **Fertigation:**\n    - **Day 1:**\n      - **Fertilizers:**\n        - Calcium Nitrate: 3 kg/acre\n        - Sulfate of Potash: 7 kg/acre\n      - **Note:** Apply Calcium Nitrate separately, 15-20 minutes after other fertilizers.\n    - **Day 4:**\n      - **Fertilizers:**\n        - Sulfate of Potash: 7 kg/acre\n\n- **Next Schedule:**\n  - **Week 3:**\n    - **Day 1:**\n      - **Fertilizers:**\n        - Calcium Nitrate: 3 kg/acre\n        - Sulfate of Potash: 7 kg/acre\n    - **Day 4:**\n      - **Fertilizers:**\n        - Sulfate of Potash: 7 kg/acre\n\n---\n\n**Sagha Valo Plot Fertigation Schedule:**\n- **Current Stage:** Tuber Development (Week 1)\n- **Today (January 4, 2025):**\n  - **Fertigation:**\n    - **Day 1:**\n      - **Fertilizers:**\n        - Potassium Nitrate: 7 kg/acre\n        - Urea: 2.5 kg/acre\n        - Calcium Nitrate: 3 kg/acre\n      - **Note:** Apply Calcium Nitrate separately, 15-20 minutes after other fertilizers.\n    - **Day 4:**\n      - **Fertilizers:**\n        - Potassium Nitrate: 3 kg/acre\n        - Ammonium Sulphate: 7.5 kg/acre\n        - Magnesium Sulphate: 5 kg/acre\n\n- **Next Schedule:**\n  - **Week 2:**\n    - **Day 1:**\n      - **Fertilizers:**\n        - Zinc Sulphate: 800 gm/acre\n        - Ferrous Sulphate: 600 gm/acre\n        - Manganese Sulphate: 400 gm/acre\n    - **Day 4:**\n      - **Fertilizers:**\n        - Potassium Nitrate: 1.5 kg/acre\n\n---\n\n**Disease and Pest Spray Schedule for Main Palot:**\n- **Today (January 4, 2025):**\n  - **Spray for:**\n    - Late Blight, Early Blight, Aphids, Whitefly, Leaf Eating Caterpillar, Mites\n  - **Recommended Combinations:**\n    - Ametoctradin + Dimethomorph: 2 g\n    - Broflanilide 300G/L SC: 0.4 mL\n\nMake sure to follow the recommended schedules for optimal results. If you have any further questions or need assistance, feel free to ask!",
+        "en": "**Main Palot Plot Fertigation Schedule:**\n- **Current Stage:** Tuber Development (Week 2)\n- **Today (January 4, 2025):**\n  - **Fertigation:**\n    - **Day 1:**\n      - **Fertilizers:**\n        - Calcium Nitrate: 3 kg/acre\n        - Sulfate of Potash: 7 kg/acre\n      - **Note:** Apply Calcium Nitrate separately, 15-20 minutes after other fertilizers.\n    - **Day 4:**\n      - **Fertilizers:**\n        - Sulfate of Potash: 7 kg/acre\n\n- **Next Schedule:**\n  - **Week 3:**\n    - **Day 1:**\n      - **Fertilizers:**\n        - Calcium Nitrate: 3 kg/acre\n        - Sulfate of Potash: 7 kg/acre\n    - **Day 4:**\n      - **Fertilizers:**\n        - Sulfate of Potash: 7 kg/acre\n\n---\n\n**Sagha Valo Plot Fertigation Schedule:**\n- **Current Stage:** Tuber Development (Week 1)\n- **Today (January 4, 2025):**\n  - **Fertigation:**\n    - **Day 1:**\n      - **Fertilizers:**\n        - Potassium Nitrate: 7 kg/acre\n        - Urea: 2.5 kg/acre\n        - Calcium Nitrate: 3 kg/acre\n      - **Note:** Apply Calcium Nitrate separately, 15-20 minutes after other fertilizers.\n    - **Day 4:**\n      - **Fertilizers:**\n        - Potassium Nitrate: 3 kg/acre\n        - Ammonium Sulphate: 7.5 kg/acre\n        - Magnesium Sulphate: 5 kg/acre\n\n- **Next Schedule:**\n  - **Week 2:**\n    - **Day 1:**\n      - **Fertilizers:**\n        - Zinc Sulphate: 800 gm/acre\n        - Ferrous Sulphate: 600 gm/acre\n        - Manganese Sulphate: 400 gm/acre\n    - **Day 4:**\n      - **Fertilizers:**\n        - Potassium Nitrate: 1.5 kg/acre\n\n---\n\n**Disease and Pest Spray Schedule for Main Palot:**\n- **Today (January 4, 2025):**\n  - **Spray for:**\n    - Late Blight, Early Blight, Aphids, Whitefly, Leaf Eating Caterpillar, Mites\n  - **Recommended Combinations:**\n    - Ametoctradin + Dimethomorph: 2 g\n    - Broflanilide 300G/L SC: 0.4 mL\n\nMake sure to follow the recommended schedules for optimal results. If you have any further questions or need assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-01-04T12:31:18.181Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મેઈન પ્લોટ મો બટાકા કેવા છે",
+        "en": "Main Plot How is mo potato",
+        "timestamp": {
+          "$date": "2025-01-04T12:32:15.635Z"
+        },
+        "standalone_question": "What type of potatoes are in the main plot?",
+        "standalone_en": "What type of potatoes are in the main plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "main plot mo bataka keva che"
+      },
+      {
+        "role": "assistant",
+        "content": "**Main Palot Plot - Potato Crop Details:**\n\n- **Current Stage:** Tuber Development (Week 2)\n- **Fertigation Schedule:**\n  \n  **Today (January 4, 2025):**\n  - **Day 1:**\n    - **Fertigation:**\n      - **Calcium Nitrate:** 3 kg/acre\n      - **Sulfate of Potash:** 7 kg/acre\n      - **Note:** Apply Calcium Nitrate separately, 15-20 minutes after other fertilizers.\n  \n  - **Foliar Spray:**\n    - **Zinc Sulphate:** 800 gm/acre\n    - **Ferrous Sulphate:** 600 gm/acre\n    - **Manganese Sulphate:** 400 gm/acre\n    - **Note:** Concentration should not exceed 1% (e.g., 5 kg in 500 liters of water per acre).\n\n  - **Day 4 (January 7, 2025):**\n    - **Fertigation:**\n      - **Sulfate of Potash:** 7 kg/acre\n  \n    - **Foliar Spray:**\n      - **Potassium Nitrate:** 1.5 kg/acre\n\n- **Next Schedule:**\n  - **Week 3:**\n    - **Day 1 (February 8, 2025):**\n      - **Fertigation:**\n        - **Calcium Nitrate:** 3 kg/acre\n        - **Sulfate of Potash:** 7 kg/acre\n      - **Note:** Apply Calcium Nitrate separately, 15-20 minutes after other fertilizers.\n  \n    - **Day 4 (February 11, 2025):**\n      - **Fertigation:**\n        - **Sulfate of Potash:** 7 kg/acre\n\nMake sure to follow the schedule for optimal growth and yield. If you have any further questions or need assistance, feel free to ask!",
+        "en": "**Main Palot Plot - Potato Crop Details:**\n\n- **Current Stage:** Tuber Development (Week 2)\n- **Fertigation Schedule:**\n  \n**Today (January 4, 2025):**\n  - **Day 1:**\n    - **Fertigation:**\n      - **Calcium Nitrate:** 3 kg/acre\n      - **Sulfate of Potash:** 7 kg/acre\n      - **Note:** Apply Calcium Nitrate separately, 15-20 minutes after other fertilizers.\n  \n- **Foliar Spray:**\n    - **Zinc Sulphate:** 800 gm/acre\n    - **Ferrous Sulphate:** 600 gm/acre\n    - **Manganese Sulphate:** 400 gm/acre\n    - **Note:** Concentration should not exceed 1% (e.g., 5 kg in 500 liters of water per acre).\n\n- **Day 4 (January 7, 2025):**\n    - **Fertigation:**\n      - **Sulfate of Potash:** 7 kg/acre\n  \n- **Foliar Spray:**\n      - **Potassium Nitrate:** 1.5 kg/acre\n\n- **Next Schedule:**\n  - **Week 3:**\n    - **Day 1 (February 8, 2025):**\n      - **Fertigation:**\n        - **Calcium Nitrate:** 3 kg/acre\n        - **Sulfate of Potash:** 7 kg/acre\n      - **Note:** Apply Calcium Nitrate separately, 15-20 minutes after other fertilizers.\n  \n- **Day 4 (February 11, 2025):**\n      - **Fertigation:**\n        - **Sulfate of Potash:** 7 kg/acre\n\nMake sure to follow the schedule for optimal growth and yield. If you have any further questions or need assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-01-04T12:32:23.816Z"
+        }
+      }
+    ],
+    "farmer_id": "dineshbhaipatel747",
+    "farmer_plot_ids": [
+      "mainpalot",
+      "saghavaloplot"
+    ],
+    "conversation_id": "67792a09b1870fbbb5902df6",
+    "_id": "67792a09b1870fbbb5902df6",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-04T12:37:15.642000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-01-04T12:31:05.675000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "હું ફાઈલો ના સિડ્યુલ પ્રમાણે ખાતર અને દવા આપી છે છતો પણ યોગ્ય બેઠક સખ્યા જોવા મળતી નથી",
+        "en": "Even though I have given fertilizer and medicine according to the schedule of the files, the proper sitting is not found to be difficult.",
+        "timestamp": {
+          "$date": "2025-01-04T12:31:05.675Z"
+        },
+        "standalone_question": "I have given fertilizer and medicine according to the schedule, but I am not seeing the proper number of plants. What could be the reason for this?",
+        "standalone_en": "I have given fertilizer and medicine according to the schedule, but I am not seeing the proper number of plants. What could be the reason for this?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What should I do if I can't find the fertigation schedule after selecting the fertigation tab?\nA: If you don't see the fertigation schedule, you'll need to create a report first. Would you like assistance in creating a report? Do you have any soil, leaf, or petiole test data available? If not, we can generate a basic schedule for you using general crop and regional data.",
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        },
+        "content_transliterated": "hu phailo na sidyul pramane khatar ane dava aapi che chhato pan yogy bethak sakhya jova malti nathi"
+      },
+      {
+        "role": "assistant",
+        "content": "**Main Palot Plot Fertigation Schedule:**\n- **Current Stage:** Tuber Development (Week 2)\n- **Today (January 4, 2025):**\n  - **Fertigation:**\n    - **Day 1:**\n      - **Fertilizers:**\n        - Calcium Nitrate: 3 kg/acre\n        - Sulfate of Potash: 7 kg/acre\n      - **Note:** Apply Calcium Nitrate separately, 15-20 minutes after other fertilizers.\n    - **Day 4:**\n      - **Fertilizers:**\n        - Sulfate of Potash: 7 kg/acre\n\n- **Next Schedule:**\n  - **Week 3:**\n    - **Day 1:**\n      - **Fertilizers:**\n        - Calcium Nitrate: 3 kg/acre\n        - Sulfate of Potash: 7 kg/acre\n    - **Day 4:**\n      - **Fertilizers:**\n        - Sulfate of Potash: 7 kg/acre\n\n---\n\n**Sagha Valo Plot Fertigation Schedule:**\n- **Current Stage:** Tuber Development (Week 1)\n- **Today (January 4, 2025):**\n  - **Fertigation:**\n    - **Day 1:**\n      - **Fertilizers:**\n        - Potassium Nitrate: 7 kg/acre\n        - Urea: 2.5 kg/acre\n        - Calcium Nitrate: 3 kg/acre\n      - **Note:** Apply Calcium Nitrate separately, 15-20 minutes after other fertilizers.\n    - **Day 4:**\n      - **Fertilizers:**\n        - Potassium Nitrate: 3 kg/acre\n        - Ammonium Sulphate: 7.5 kg/acre\n        - Magnesium Sulphate: 5 kg/acre\n\n- **Next Schedule:**\n  - **Week 2:**\n    - **Day 1:**\n      - **Fertilizers:**\n        - Zinc Sulphate: 800 gm/acre\n        - Ferrous Sulphate: 600 gm/acre\n        - Manganese Sulphate: 400 gm/acre\n    - **Day 4:**\n      - **Fertilizers:**\n        - Potassium Nitrate: 1.5 kg/acre\n\n---\n\n**Disease and Pest Spray Schedule for Main Palot:**\n- **Today (January 4, 2025):**\n  - **Spray for:**\n    - Late Blight, Early Blight, Aphids, Whitefly, Leaf Eating Caterpillar, Mites\n  - **Recommended Combinations:**\n    - Ametoctradin + Dimethomorph: 2 g\n    - Broflanilide 300G/L SC: 0.4 mL\n\nMake sure to follow the recommended schedules for optimal results. If you have any further questions or need assistance, feel free to ask!",
+        "en": "**Main Palot Plot Fertigation Schedule:**\n- **Current Stage:** Tuber Development (Week 2)\n- **Today (January 4, 2025):**\n  - **Fertigation:**\n    - **Day 1:**\n      - **Fertilizers:**\n        - Calcium Nitrate: 3 kg/acre\n        - Sulfate of Potash: 7 kg/acre\n      - **Note:** Apply Calcium Nitrate separately, 15-20 minutes after other fertilizers.\n    - **Day 4:**\n      - **Fertilizers:**\n        - Sulfate of Potash: 7 kg/acre\n\n- **Next Schedule:**\n  - **Week 3:**\n    - **Day 1:**\n      - **Fertilizers:**\n        - Calcium Nitrate: 3 kg/acre\n        - Sulfate of Potash: 7 kg/acre\n    - **Day 4:**\n      - **Fertilizers:**\n        - Sulfate of Potash: 7 kg/acre\n\n---\n\n**Sagha Valo Plot Fertigation Schedule:**\n- **Current Stage:** Tuber Development (Week 1)\n- **Today (January 4, 2025):**\n  - **Fertigation:**\n    - **Day 1:**\n      - **Fertilizers:**\n        - Potassium Nitrate: 7 kg/acre\n        - Urea: 2.5 kg/acre\n        - Calcium Nitrate: 3 kg/acre\n      - **Note:** Apply Calcium Nitrate separately, 15-20 minutes after other fertilizers.\n    - **Day 4:**\n      - **Fertilizers:**\n        - Potassium Nitrate: 3 kg/acre\n        - Ammonium Sulphate: 7.5 kg/acre\n        - Magnesium Sulphate: 5 kg/acre\n\n- **Next Schedule:**\n  - **Week 2:**\n    - **Day 1:**\n      - **Fertilizers:**\n        - Zinc Sulphate: 800 gm/acre\n        - Ferrous Sulphate: 600 gm/acre\n        - Manganese Sulphate: 400 gm/acre\n    - **Day 4:**\n      - **Fertilizers:**\n        - Potassium Nitrate: 1.5 kg/acre\n\n---\n\n**Disease and Pest Spray Schedule for Main Palot:**\n- **Today (January 4, 2025):**\n  - **Spray for:**\n    - Late Blight, Early Blight, Aphids, Whitefly, Leaf Eating Caterpillar, Mites\n  - **Recommended Combinations:**\n    - Ametoctradin + Dimethomorph: 2 g\n    - Broflanilide 300G/L SC: 0.4 mL\n\nMake sure to follow the recommended schedules for optimal results. If you have any further questions or need assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-01-04T12:31:18.181Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મેઈન પ્લોટ મો બટાકા કેવા છે",
+        "en": "Main Plot How is mo potato",
+        "timestamp": {
+          "$date": "2025-01-04T12:32:15.635Z"
+        },
+        "standalone_question": "What type of potatoes are in the main plot?",
+        "standalone_en": "What type of potatoes are in the main plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "main plot mo bataka keva che"
+      },
+      {
+        "role": "assistant",
+        "content": "**Main Palot Plot - Potato Crop Details:**\n\n- **Current Stage:** Tuber Development (Week 2)\n- **Fertigation Schedule:**\n  \n  **Today (January 4, 2025):**\n  - **Day 1:**\n    - **Fertigation:**\n      - **Calcium Nitrate:** 3 kg/acre\n      - **Sulfate of Potash:** 7 kg/acre\n      - **Note:** Apply Calcium Nitrate separately, 15-20 minutes after other fertilizers.\n  \n  - **Foliar Spray:**\n    - **Zinc Sulphate:** 800 gm/acre\n    - **Ferrous Sulphate:** 600 gm/acre\n    - **Manganese Sulphate:** 400 gm/acre\n    - **Note:** Concentration should not exceed 1% (e.g., 5 kg in 500 liters of water per acre).\n\n  - **Day 4 (January 7, 2025):**\n    - **Fertigation:**\n      - **Sulfate of Potash:** 7 kg/acre\n  \n    - **Foliar Spray:**\n      - **Potassium Nitrate:** 1.5 kg/acre\n\n- **Next Schedule:**\n  - **Week 3:**\n    - **Day 1 (February 8, 2025):**\n      - **Fertigation:**\n        - **Calcium Nitrate:** 3 kg/acre\n        - **Sulfate of Potash:** 7 kg/acre\n      - **Note:** Apply Calcium Nitrate separately, 15-20 minutes after other fertilizers.\n  \n    - **Day 4 (February 11, 2025):**\n      - **Fertigation:**\n        - **Sulfate of Potash:** 7 kg/acre\n\nMake sure to follow the schedule for optimal growth and yield. If you have any further questions or need assistance, feel free to ask!",
+        "en": "**Main Palot Plot - Potato Crop Details:**\n\n- **Current Stage:** Tuber Development (Week 2)\n- **Fertigation Schedule:**\n  \n**Today (January 4, 2025):**\n  - **Day 1:**\n    - **Fertigation:**\n      - **Calcium Nitrate:** 3 kg/acre\n      - **Sulfate of Potash:** 7 kg/acre\n      - **Note:** Apply Calcium Nitrate separately, 15-20 minutes after other fertilizers.\n  \n- **Foliar Spray:**\n    - **Zinc Sulphate:** 800 gm/acre\n    - **Ferrous Sulphate:** 600 gm/acre\n    - **Manganese Sulphate:** 400 gm/acre\n    - **Note:** Concentration should not exceed 1% (e.g., 5 kg in 500 liters of water per acre).\n\n- **Day 4 (January 7, 2025):**\n    - **Fertigation:**\n      - **Sulfate of Potash:** 7 kg/acre\n  \n- **Foliar Spray:**\n      - **Potassium Nitrate:** 1.5 kg/acre\n\n- **Next Schedule:**\n  - **Week 3:**\n    - **Day 1 (February 8, 2025):**\n      - **Fertigation:**\n        - **Calcium Nitrate:** 3 kg/acre\n        - **Sulfate of Potash:** 7 kg/acre\n      - **Note:** Apply Calcium Nitrate separately, 15-20 minutes after other fertilizers.\n  \n- **Day 4 (February 11, 2025):**\n      - **Fertigation:**\n        - **Sulfate of Potash:** 7 kg/acre\n\nMake sure to follow the schedule for optimal growth and yield. If you have any further questions or need assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-01-04T12:32:23.816Z"
+        }
+      }
+    ],
+    "farmer_id": "dineshbhaipatel747",
+    "farmer_plot_ids": [
+      "mainpalot",
+      "saghavaloplot"
+    ],
+    "conversation_id": "67792a09b1870fbbb5902df6",
+    "_id": "67792a09b1870fbbb5902df6",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-04T12:37:15.642000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-01-04T12:31:05.675000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "બેઠક ઓછી છે સુ કરવું 49 દિવસે",
+        "en": "The seat is less in 49 days.",
+        "timestamp": {
+          "$date": "2025-01-04T11:58:48.187Z"
+        },
+        "standalone_question": "What should I do if the meeting is short on the 49th day?",
+        "standalone_en": "What should I do if the meeting is short on the 49th day?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "bethak ochi che su karvu 49 divase"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પાક \"આલૂ\" માટે, 49 દિવસ પછી એટલે કે 2025-02-22 ના રોજ, પાકની \"મેચ્યુરિટી અને હાર્વેસ્ટ\" તબક્કામાં પ્રવેશ થશે. \n\nઆ તબક્કામાં, પાકને યોગ્ય જળ અને ખાતર આપવું મહત્વપૂર્ણ છે. જો તમને વધુ માહિતી અથવા માર્ગદર્શન જોઈએ તો જણાવો.",
+        "en": "For your crop \"aloo\", after 49 days i.e. on 2025-02-22, the crop will enter the \"maturity and harvest\" phase. \n\nAt this stage, it is important to provide proper water and fertilizer to the crop. Let me know if you need more information or guidance.",
+        "timestamp": {
+          "$date": "2025-01-04T11:58:51.398Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "હાલ કયા ખાતર આપવું જોઈએ ",
+        "en": "What fertilizers should be given at present ",
+        "timestamp": {
+          "$date": "2025-01-04T11:59:33.406Z"
+        },
+        "standalone_question": "What fertilizer should be given at this stage?",
+        "standalone_en": "What fertilizer should be given at this stage?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17"
+          ]
+        },
+        "content_transliterated": "hal kaya khatar apvu joie "
+      },
+      {
+        "role": "assistant",
+        "content": "હાલમાં, તમારા પાક \"આલૂ\" માટે નીચેના ખાતરો આપવાની ભલામણ છે:\n\n### **Main Palot (2nd Week of Tuber Development)**\n1. **Fertigation (Day 1)**:\n   - **Calcium Nitrate**: 3 kg/acre\n   - **Sulfate of Potash**: 7 kg/acre\n   - *Note*: Calcium nitrate should be applied separately, 15-20 minutes after application of other fertilizers.\n\n2. **Foliar Spray (Day 1)**:\n   - **Zinc Sulphate**: 800 gm/acre\n   - **Ferrous Sulphate**: 600 gm/acre\n   - **Manganese Sulphate**: 400 gm/acre\n\n3. **Fertigation (Day 4)**:\n   - **Sulfate of Potash**: 7 kg/acre\n\n4. **Foliar Spray (Day 4)**:\n   - **Potassium Nitrate**: 1.5 kg/acre\n\n---\n\n### **Sagha Valo Plot (1st Week of Tuber Development)**\n1. **Fertigation (Day 1)**:\n   - **Potassium Nitrate**: 7 kg/acre\n   - **Urea**: 2.5 kg/acre\n   - **Calcium Nitrate**: 3 kg/acre\n   - *Note*: Calcium nitrate should be applied separately, 15-20 minutes after application of other fertilizers.\n\n2. **Fertigation (Day 4)**:\n   - **Potassium Nitrate**: 3 kg/acre\n   - **Ammonium Sulphate**: 7.5 kg/acre\n   - **Magnesium Sulphate**: 5 kg/acre\n\n---\n\nઆ ખાતરો આપવાથી તમારા પાકની વૃદ્ધિ અને વિકાસમાં મદદ મળશે. જો તમને વધુ માહિતી જોઈએ તો જણાવો.",
+        "en": "હાલમાં, તમારા પાક \"આલૂ\" માટે નીચેના ખાતરો આપવાની ભલામણ છે:\n\n### **Main Palot (2nd Week of Tuber Development)**\n1. **Fertigation (Day 1)**:\n   - **Calcium Nitrate**: 3 kg/acre\n   - **Sulfate of Potash**: 7 kg/acre\n   - *Note*: Calcium nitrate should be applied separately, 15-20 minutes after application of other fertilizers.\n\n2. **Foliar Spray (Day 1)**:\n   - **Zinc Sulphate**: 800 gm/acre\n   - **Ferrous Sulphate**: 600 gm/acre\n   - **Manganese Sulphate**: 400 gm/acre\n\n3. **Fertigation (Day 4)**:\n   - **Sulfate of Potash**: 7 kg/acre\n\n4. **Foliar Spray (Day 4)**:\n   - **Potassium Nitrate**: 1.5 kg/acre\n\n---\n\n### **Sagha Valo Plot (1st Week of Tuber Development)**\n1. **Fertigation (Day 1)**:\n   - **Potassium Nitrate**: 7 kg/acre\n   - **Urea**: 2.5 kg/acre\n   - **Calcium Nitrate**: 3 kg/acre\n   - *Note*: Calcium nitrate should be applied separately, 15-20 minutes after application of other fertilizers.\n\n2. **Fertigation (Day 4)**:\n   - **Potassium Nitrate**: 3 kg/acre\n   - **Ammonium Sulphate**: 7.5 kg/acre\n   - **Magnesium Sulphate**: 5 kg/acre\n\n---\n\nઆ ખાતરો આપવાથી તમારા પાકની વૃદ્ધિ અને વિકાસમાં મદદ મળશે. જો તમને વધુ માહિતી જોઈએ તો જણાવો.",
+        "timestamp": {
+          "$date": "2025-01-04T11:59:45.000Z"
+        }
+      }
+    ],
+    "farmer_id": "dineshbhaipatel747",
+    "farmer_plot_ids": [
+      "mainpalot",
+      "saghavaloplot"
+    ],
+    "conversation_id": "6779227722c91533e323a074",
+    "_id": "6779227722c91533e323a074",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-04T12:04:33.412000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-01-04T11:58:48.187000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં પાણી ક્યારે આપો",
+        "en": "When to water my farm",
+        "timestamp": {
+          "$date": "2025-01-04T11:43:00.450Z"
+        },
+        "standalone_question": "When should I water my field?",
+        "standalone_en": "When should I water my field?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer.",
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate."
+          ]
+        },
+        "content_transliterated": "mara khetaraman pani kyare apo"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં, \"Bor valo palot\", પાણી આપવાની શ્રેષ્ઠ સમયસૂચી 5 જાન્યુઆરી, 2025, સવારે 8 વાગ્યે છે. વરસાદની અપેક્ષા ન હોવાથી, આ સમયે પાણી આપવું યોગ્ય રહેશે.",
+        "en": "In your farm, \"Bor valo palot\", the best timetable to water is January 5, 2025, at 8 am. Since rain is not expected, it would be appropriate to give water at this time.",
+        "timestamp": {
+          "$date": "2025-01-04T11:43:05.273Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારે પાણી કેટલું આપવુ",
+        "en": "How much water should I give",
+        "timestamp": {
+          "$date": "2025-01-04T11:43:51.882Z"
+        },
+        "standalone_question": "How much water should I give?",
+        "standalone_en": "How much water should I give?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mare pani ketalun apavu"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં \"Bor valo palot\" માટે, હાલની જમીનની ભેજ 3 kPa અને 5 kPa છે, જે ભેજની શ્રેણી (2-15 kPa)માં છે. આથી, પાણી આપવાની જરૂર નથી, કારણ કે જમીન પૂરતી ભેજ ધરાવે છે. \n\nજો ભેજ વધે અને 15 kPa થી વધુ થાય, ત્યારે પાણી આપવું જોઈએ.",
+        "en": "For \"Bor valo palot\" in your field, the current soil moisture is 3 kPa and 5 kPa, which is in the moisture range (2-15 kPa). Therefore, there is no need to give water, as the soil has enough moisture. \n\nIf the humidity increases and exceeds 15 kPa, water should be given.",
+        "timestamp": {
+          "$date": "2025-01-04T11:44:00.344Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં હાલ કયો રોગ છે",
+        "en": "What disease is there in my farm right now?",
+        "timestamp": {
+          "$date": "2025-01-04T11:45:10.423Z"
+        },
+        "standalone_question": "What disease is currently affecting my field?",
+        "standalone_en": "What disease is currently affecting my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara khetaraman hal kayo rog che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં હાલ કોઈ રોગની ઓળખ કરવામાં આવી નથી. જો તમને કોઈ વિશિષ્ટ ચિંતાઓ હોય, તો કૃપા કરીને વધુ માહિતી આપો.",
+        "en": "No disease has been identified in your farm at present. If you have any specific concerns, please provide more information.",
+        "timestamp": {
+          "$date": "2025-01-04T11:45:14.460Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "હાલમાં મારે કયો સ્પ્રે લેવો",
+        "en": "Which spray should I take at the moment?",
+        "timestamp": {
+          "$date": "2025-01-04T11:45:45.745Z"
+        },
+        "standalone_question": "What type of spray should I use right now?",
+        "standalone_en": "What type of spray should I use right now?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        },
+        "content_transliterated": "halaman mare kayo spray levo"
+      },
+      {
+        "role": "assistant",
+        "content": "હાલમાં તમારા ખેતરમાં કોઈ સ્પ્રે કરવાની જરૂર નથી, કારણ કે હાલમાં કોઈ રોગ અથવા પેસ્ટ માટે સ્પ્રે શેડ્યૂલ નથી. જો તમને વધુ માહિતી જોઈએ, તો કૃપા કરીને જણાવો.",
+        "en": "There is currently no need to spray on your farm, as there is currently no spray schedule for any disease or paste. If you need more information, please let me know.",
+        "timestamp": {
+          "$date": "2025-01-04T11:45:49.346Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં ઇયળનું વાતાવરણ કેવું છે",
+        "en": "What is the climate of eels in my farm",
+        "timestamp": {
+          "$date": "2025-01-04T11:46:06.142Z"
+        },
+        "standalone_question": "What is the current situation regarding caterpillars in my field?",
+        "standalone_en": "What is the current situation regarding caterpillars in my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara khetaraman iyalanun vatavaran kevu che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં \"Bor valo palot\" માટે ઇયળ (Caterpillar)નું વાતાવરણ હાલના સમયમાં નીચા જોખમ સ્તરે છે. \n\n- **4 જાન્યુઆરી 2025**: 39% સંભાવના, જોખમ સ્તર: નીચું\n- **3 જાન્યુઆરી 2025**: 38.1% સંભાવના, જોખમ સ્તર: નીચું\n- **2 જાન્યુઆરી 2025**: 36.3% સંભાવના, જોખમ સ્તર: નીચું\n\nઆથી, હાલ ઇયળ માટે કોઈ તાત્કાલિક પગલાં લેવાની જરૂર નથી.",
+        "en": "The caterpillar environment for \"Bor valo palot\" in your farm is currently at a low risk level. \n\n* **4 January 2025**: 39% probability, risk level: low\n* **3 January 2025**: 38.1% probability, risk level: low\n* **2 January 2025**: 36.3% probability, risk level: low\n\nTherefore, there is no need to take any immediate steps for eels at present.",
+        "timestamp": {
+          "$date": "2025-01-04T11:46:12.023Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં લેડ બ્લાઈક માટે કયું વાતાવરણ છે",
+        "en": "What's the atmosphere for lead blink in my farm",
+        "timestamp": {
+          "$date": "2025-01-04T11:46:50.880Z"
+        },
+        "standalone_question": "What is the current environment for the lead blight in my field?",
+        "standalone_en": "What is the current environment for the lead blight in my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara khetaraman led blaik mate kayu vatavaran che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં \"Bor valo palot\" માટે લેટ બ્લાઇટ (Late Blight) માટેનું વાતાવરણ હાલની તારીખે (4 જાન્યુઆરી 2025) મધ્યમ જોખમ સ્તરે છે, જેમાં 50.5% સંભાવના છે. \n\nઅગાઉના દિવસોમાં:\n- 3 જાન્યુઆરી 2025: 46.5% સંભાવના, જોખમ સ્તર: નીચું\n- 2 જાન્યુઆરી 2025: 47.9% સંભાવના, જોખમ સ્તર: નીચું\n\nઆથી, લેટ બ્લાઇટ માટે ધ્યાન રાખવું જરૂરી છે અને જો જરૂર પડે તો નિયંત્રણ પગલાં લેવા જોઈએ.",
+        "en": "The environment for Late Blight for \"Bor valo palot\" in your farm is at moderate risk levels as of the current date (January 4, 2025), with a 50.5% probability. \n\nIn previous days:\n3 January 2025: 46.5% probability, risk level: low\n2 January 2025: 47.9% probability, risk level: low\n\nTherefore, it is necessary to keep an eye out for late blight and take control measures if needed.",
+        "timestamp": {
+          "$date": "2025-01-04T11:46:59.665Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં આજથી દસ દિવસ પહેલા અર્લી ફ્લાઇટનું કેવું વાતાવરણ હતું",
+        "en": "What was the atmosphere of the early flight ten days ago on my farm today",
+        "timestamp": {
+          "$date": "2025-01-04T11:47:19.953Z"
+        },
+        "standalone_question": "What was the weather condition for early blight in my field ten days ago?",
+        "standalone_en": "What was the weather condition for early blight in my field ten days ago?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara khetaraman ajathi das divas pela early phlaitanun kevu vatavaran hatun"
+      },
+      {
+        "role": "assistant",
+        "content": "માફ કરશો, પરંતુ \"Bor valo palot\" માટે અર્લી બ્લાઇટ (Early Blight) માટેના રોગના મેટ્રિક્સ ઉપલબ્ધ નથી. જો તમને અન્ય માહિતી જોઈએ, તો કૃપા કરીને જણાવો.",
+        "en": "Sorry, but disease metrics for Early Blight for \"Bor valo palot\" are not available. If you want other information, please let me know.",
+        "timestamp": {
+          "$date": "2025-01-04T11:47:25.358Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં પરંપરિક બ્લેડ નું વાતાવરણ 10 દિવસ પહેલાં કેવું હતું",
+        "en": "What was the atmosphere of traditional blades in my farm 10 days ago",
+        "timestamp": {
+          "$date": "2025-01-04T11:47:46.085Z"
+        },
+        "standalone_question": "What was the environment for traditional blight in my field ten days ago?",
+        "standalone_en": "What was the environment for traditional blight in my field ten days ago?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara khetaraman paranparik blade nu vatavaran 10 divas pahelan kevu hatun"
+      },
+      {
+        "role": "assistant",
+        "content": "માફ કરશો, પરંતુ \"Bor valo palot\" માટે પરંપરિક બ્લેડ (Alternaria) માટેના રોગના મેટ્રિક્સ ઉપલબ્ધ નથી. જો તમને અન્ય માહિતી જોઈએ, તો કૃપા કરીને જણાવો.",
+        "en": "Sorry, but disease metrics for the traditional blade (Alternaria) for \"Bor valo palot\" are not available. If you want other information, please let me know.",
+        "timestamp": {
+          "$date": "2025-01-04T11:47:52.749Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "હાલ મારા ખેતરમાં પ્રારંભિક લાઈટનું વાતાવરણ કેવું છે",
+        "en": "What's the initial light atmosphere on my farm right now?",
+        "timestamp": {
+          "$date": "2025-01-04T11:48:04.716Z"
+        },
+        "standalone_question": "What is the current environment for early blight in my field?",
+        "standalone_en": "What is the current environment for early blight in my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "hal mara khetaraman praranbhik laitanun vatavaran kevu che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં \"Bor valo palot\" માટે પ્રારંભિક લાઈટ (Early Blight)નું વાતાવરણ નીચે મુજબ છે:\n\n- **4 જાન્યુઆરી 2025**: 49.5% સંભાવના, જોખમ સ્તર: નીચું\n- **3 જાન્યુઆરી 2025**: 49.6% સંભાવના, જોખમ સ્તર: નીચું\n- **2 જાન્યુઆરી 2025**: 51.3% સંભાવના, જોખમ સ્તર: મધ્યમ\n\nહાલમાં, પ્રારંભિક લાઈટ માટેનું જોખમ નીચું છે, પરંતુ જો જરૂર પડે તો નિયંત્રણ પગલાં લેવા માટે ધ્યાન રાખવું જોઈએ.",
+        "en": "The atmosphere of early Blight for \"Bor valo palot\" in your farm is as follows:\n\n* **4 January 2025**: 49.5% probability, risk level: low\n* **3 January 2025**: 49.6% probability, risk level: low\n* **2 January 2025**: 51.3% probability, risk level: median\n\nCurrently, the risk for early lighting is low, but care must be taken to take control measures if needed.",
+        "timestamp": {
+          "$date": "2025-01-04T11:48:13.412Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં ત્રણ દિવસ પહેલા કેટલું જમીનનો ભેદ હતો",
+        "en": "How much land difference was there in my farm three days ago",
+        "timestamp": {
+          "$date": "2025-01-04T11:48:38.566Z"
+        },
+        "standalone_question": "What was the soil moisture level in my field three days ago?",
+        "standalone_en": "What was the soil moisture level in my field three days ago?",
+        "retrieval": {
+          "tools": [
+            "get_daily_soil_moisture_data  \nRetrieves historical daily soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for larger duration.",
+            "get_hourly_soil_moisture_data  \nRetrieves historical hourly soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for less than 5 days duration.",
+            "get_soil_moisture_sensor_depth  \nReturns the depths in inches of the soil moisture sensors 1 and 2 installed on the plots.",
+            "get_soil_moisture_percentage_from_kpa_reading  \nGets the estimated soil moisture percentage for a given plot and kPa reading.",
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range."
+          ],
+          "faq": [
+            "Q: What is my soil moisture depletion?\nA: Soil moisture depletion %age = (100 - soil moisture %age)",
+            "Q: In the latest irrigation , sensor didn't drop to 0.\nA: 0 to 5 Kpa means soil is fully wet. It need not drop to 0 every time. Moisture less than 5 also means wet conditions. So, need not worry. Also ask to wait for 12 hours after irrigation.",
+            "Q: How do I know if my soil  moisture sensor is working fine ?\nA: The only way to know is if after irrigation the sensor is dropping below 5 kpa and increasing continuously unless next irrigation is done. You can try putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. Also, a soil moisture reading of 0 kPa is perfectly fine, meaning wet soil, but a reading of 200 kPa could mean fault. If the soil moisture sensor reading is consistently at 0 from few 48 hours, then it could be anamolous (use live and historical hourly soil moisture data (use tool) to validate).",
+            "Q: Sensor is showing wet, i.e. less kpa but soil looks dry.\nA: The sensor measures the moisture around the rootzone which is not visible from the top. Ask use to check the moisture in rootzone around the sensor. If it matches, ask the user to irrigate.",
+            "Q: How much kPa should be set for a 4-inch depth soil moisture sensor?\nA: The kPa value for a 4-inch depth soil moisture sensor should be set based on the **soil type** and **crop requirements**. Here are general guidelines for different soil types:\n\n### **Sandy Soil:**\n- **Optimal range:** 10–20 kPa\n- **Irrigation threshold:** Above 30 kPa\n\n### **Loamy Soil (Silty or Mixed):**\n- **Optimal range:** 20–40 kPa\n- **Irrigation threshold:** Above 50 kPa\n\n### **Clay Soil:**\n- **Optimal range:** 40–70 kPa\n- **Irrigation threshold:** Above 80 kPa\n\n### **Additional Considerations:**\n- For **sensitive crops** like vegetables, maintain lower kPa thresholds to avoid water stress.\n- For **deep-rooted crops**, kPa values may vary at different depths; calibrate accordingly.\n- **Calibration** of the sensor to your specific soil and crop is essential for accuracy.\n\nConsulting with an agronomist or referring to crop-specific irrigation guides will help you fine-tune the kPa range."
+          ]
+        },
+        "content_transliterated": "mara khetaraman tran divas pela ketalun jaminano bhed hato"
+      },
+      {
+        "role": "assistant",
+        "content": "માફ કરશો, પરંતુ \"Bor valo palot\" માટે ત્રણ દિવસ પહેલા જમીનનો ભેજનો ડેટા ઉપલબ્ધ નથી. જો તમને વધુ માહિતી જોઈએ, તો કૃપા કરીને જણાવો.",
+        "en": "Sorry, but soil moisture data is not available three days ago for \"Bor valo palot\". If you need more information, please let me know.",
+        "timestamp": {
+          "$date": "2025-01-04T11:48:44.083Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "કેલ્શિયમ નાઇટ્રેટ કોઇબી ખાતર ભેગો મિક્સ કરી શકાય કે નહીં",
+        "en": "Whether calcium nitrate can be mixed with coib fertilizer combinations",
+        "timestamp": {
+          "$date": "2025-01-04T11:50:03.678Z"
+        },
+        "standalone_question": "Can calcium nitrate be mixed with any other fertilizers?",
+        "standalone_en": "Can calcium nitrate be mixed with any other fertilizers?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17"
+          ]
+        },
+        "content_transliterated": "kelshiyam nitrate koibi khatar bhego mix kari sakay ke nahin"
+      },
+      {
+        "role": "assistant",
+        "content": "કેલ્શિયમ નાઇટ્રેટ (Calcium Nitrate) સાથે અન્ય ખાતરો મિક્સ કરી શકાય છે, પરંતુ કેટલીક બાબતો ધ્યાનમાં રાખવી જરૂરી છે:\n\n1. **ખાતરોની સુસંગતતા**: ખાતરોની સુસંગતતા તપાસો, કારણ કે કેટલાક ખાતરો સાથે મિક્સ કરવાથી રાસાયણિક પ્રતિક્રિયા થઈ શકે છે.\n\n2. **PH સ્તર**: ખાતરોના PH સ્તરનું ધ્યાન રાખવું મહત્વપૂર્ણ છે, કારણ કે કેટલાક ખાતરો સાથે મિક્સ કરવાથી PH સ્તર બદલાઈ શકે છે.\n\n3. **અન્ય પોષક તત્વો**: ખાતરોમાં રહેલા અન્ય પોષક તત્વોનું ધ્યાન રાખવું, જેથી તમારા પાકની જરૂરિયાતોને અનુરૂપ ખાતરો મળી શકે.\n\n4. **ફોલિયર સ્પ્રે**: જો તમે ફોલિયર સ્પ્રે માટે મિક્સ કરી રહ્યા છો, તો ખાતરોની મિશ્રણની સલાહ લેવી વધુ સારી રહેશે.\n\nસાવચેતી રાખવી અને ખાતરોને મિક્સ કરતા પહેલા નિષ્ણાતની સલાહ લેવી શ્રેષ્ઠ રહેશે.",
+        "en": "Other fertilizers can be mixed with calcium nitrate, but there are a few things that need to be kept in mind:\n\n1. Compatibility of **Fertilizers**: Check the compatibility of fertilizers, as mixing with some fertilizers can lead to a chemical reaction.\n\n2. **PH level**: It is important to take care of the pH level of fertilizers, as mixing with some fertilizers can change the pH level.\n\n3. **Other nutrients**: Take care of other nutrients present in fertilizers, so that fertilizers can be obtained to suit the needs of your crop.\n\n4. **Foliar spray**: If you are mixing for foliar spray, it would be better to consult a mixture of fertilizers.\n\nIt would be best to take precautions and seek expert advice before mixing fertilizers.",
+        "timestamp": {
+          "$date": "2025-01-04T11:50:11.357Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં કેટલું પાણી આપો હાલ",
+        "en": "How much water do you give to my farm right now?",
+        "timestamp": {
+          "$date": "2025-01-04T11:54:10.523Z"
+        },
+        "standalone_question": "How much water should I currently provide to my field?",
+        "standalone_en": "How much water should I currently provide to my field?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer."
+          ]
+        },
+        "content_transliterated": "mara khetaraman ketalun pani apo hall"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં \"Bor valo palot\" માટે હાલ પાણી આપવાની જરૂર નથી. \n\n- **જમીનનો ભેજ**: 3 kPa (સેંસર 1), 5 kPa (સેંસર 2)\n- **ઓપ્ટિમલ ભેજ**: 15 kPa\n\nજમીનનો ભેજ ઓપ્ટિમલ મૂલ્યથી નીચે છે, તેથી હાલ પાણી આપવાની જરૂર નથી.",
+        "en": "There is currently no need to water your farm for \"Bor valo palot\". \n\n* **Soil moisture**: 3 kPa (sensor 1), 5 kPa (sensor 2)\n- **Optimal moisture**: 15 kPa\n\nSoil moisture is below optimal value, so there is no need to water at present.",
+        "timestamp": {
+          "$date": "2025-01-04T11:54:15.403Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારો સેન્સર જે આઠ ઇંચ ઉપર લગાવેલું છે એ કેટલા કેપી ઉપર હોય તો જ પાણી અપાય",
+        "en": "My sensor, which is installed at eight inches, is watered only if it is on how many kp",
+        "timestamp": {
+          "$date": "2025-01-04T11:54:38.404Z"
+        },
+        "standalone_question": "At what kPa level should I water my crops if my sensor is placed eight inches above the ground?",
+        "standalone_en": "At what kPa level should I water my crops if my sensor is placed eight inches above the ground?",
+        "retrieval": {
+          "tools": [
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range."
+          ],
+          "faq": [
+            "Q: How much kPa should be set for a 4-inch depth soil moisture sensor?\nA: The kPa value for a 4-inch depth soil moisture sensor should be set based on the **soil type** and **crop requirements**. Here are general guidelines for different soil types:\n\n### **Sandy Soil:**\n- **Optimal range:** 10–20 kPa\n- **Irrigation threshold:** Above 30 kPa\n\n### **Loamy Soil (Silty or Mixed):**\n- **Optimal range:** 20–40 kPa\n- **Irrigation threshold:** Above 50 kPa\n\n### **Clay Soil:**\n- **Optimal range:** 40–70 kPa\n- **Irrigation threshold:** Above 80 kPa\n\n### **Additional Considerations:**\n- For **sensitive crops** like vegetables, maintain lower kPa thresholds to avoid water stress.\n- For **deep-rooted crops**, kPa values may vary at different depths; calibrate accordingly.\n- **Calibration** of the sensor to your specific soil and crop is essential for accuracy.\n\nConsulting with an agronomist or referring to crop-specific irrigation guides will help you fine-tune the kPa range.",
+            "Q: My  sensor is showing 0 Kpa for long.\nA: 0-5 kPa means wet soil. It can be due to following :\nIf the device is recently installed, there can be moisture  around the sensor because the sensor is dipped in the water before installing. If this is the case, ask them to do atleast 3 irrigations as per their previous schedule without sensors and sensors would b set by then.\nIf the crop stage is very early or pruing is done recently, the water takeup by plants is negligible in this period because of very less transpiration. If this is the case, ask them to wait till irrigation Kpa in the present stage.\nSometimes, the water can remain accumulated around the sensor due to local landscaping or slope in the land around sensor. In this case, please check the around the sensor. It will have to be reinstalled properly. Chatbot should ask the user if he wants to create an issue ticket for the same",
+            "Q: In the latest irrigation , sensor didn't drop to 0.\nA: 0 to 5 Kpa means soil is fully wet. It need not drop to 0 every time. Moisture less than 5 also means wet conditions. So, need not worry. Also ask to wait for 12 hours after irrigation.",
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer.",
+            "Q: I irrigated still the sensor is dropping slowly.\nA: Sometimes, the water reaches slowly till root zone and the moisture sensor kPa value drops slowly. Always wait for 12 hours after irrigation for the moisture to saturate. If still some confusion, ask user to check moisture near the sensor and check if he wants to raise a ticket for the issue."
+          ]
+        },
+        "content_transliterated": "maro sensor jay aath inc upar lagavelun che a ketla kp upar hoy to j pani apay"
+      },
+      {
+        "role": "assistant",
+        "content": "આઠ ઇંચ (8-inch) ઊંડાઈના જમીન ભેજ સેન્સર માટે, પાણી આપવાની શ્રેષ્ઠ કીપી (kPa) મૂલ્ય નીચે મુજબ છે:\n\n### **જમીનના પ્રકાર અનુસાર:**\n\n- **સેંદી જમીન (Sandy Soil):**\n  - **ઓપ્ટિમલ શ્રેણી:** 10–20 kPa\n  - **પાણી આપવાની મર્યાદા:** 30 kPa ઉપર\n\n- **લોયમી જમીન (Loamy Soil):**\n  - **ઓપ્ટિમલ શ્રેણી:** 20–40 kPa\n  - **પાણી આપવાની મર્યાદા:** 50 kPa ઉપર\n\n- **ક્લે જમીન (Clay Soil):**\n  - **ઓપ્ટિમલ શ્રેણી:** 40–70 kPa\n  - **પાણી આપવાની મર્યાદા:** 80 kPa ઉપર\n\n### **અન્ય બાબતો:**\n- **સંવેદનશીલ પાકો** માટે, જેમ કે શાકભાજી, ઓછા kPa મર્યાદા જાળવવી મહત્વપૂર્ણ છે.\n- **ગહન-મૂળવાળા પાકો** માટે, kPa મૂલ્યો વિવિધ ઊંડાઈઓ પર બદલાઈ શકે છે; તેને અનુરૂપ કૅલિબ્રેટ કરવું.\n\nતમારા જમીનના પ્રકાર અને પાકની જરૂરિયાતોને આધારે, યોગ્ય kPa મૂલ્ય જાળવવું મહત્વપૂર્ણ છે.",
+        "en": "For an eight-inch (8-inch) depth soil moisture sensor, the best kPa value for watering is as follows:\n\n### ** According to land type:**\n\n- **Sandy Soil :**\n  * **Optimal Series:** 10–20 kPa\n  - **Watering limit:** above 30 kPa\n\n* **Loamy Soil :**\n  * *Optimal Series:** 20–40 kPa\n  - **Watering limit:** above 50 kPa\n\n- **Clay Soil :**\n  * **Optimal Series:** 40–70 kPa\n  - **Watering limit:** above 80 kPa\n\n### **Other things:**\n- For **sensitive crops**, such as vegetables, it is important to maintain a low kPa limit.\nFor **deep-rooted crops**, kPa values can vary at different depths; Calibrate it accordingly.\n\nDepending on your land type and crop requirements, it is important to maintain the right kPa value.",
+        "timestamp": {
+          "$date": "2025-01-04T11:54:52.678Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારી જમીન સેન્ડલ લો છે તો કેટલું પાણી આપવું આઠ ઇંચ ના સેન્સર ઉપર",
+        "en": "If my land takes sandals, how much water to give over an eight-inch sensor",
+        "timestamp": {
+          "$date": "2025-01-04T11:55:56.492Z"
+        },
+        "standalone_question": "What is the appropriate amount of water to give if my soil is sandy and the moisture sensor is placed at eight inches deep?",
+        "standalone_en": "What is the appropriate amount of water to give if my soil is sandy and the moisture sensor is placed at eight inches deep?",
+        "retrieval": {
+          "tools": [
+            "get_soil_moisture_sensor_depth  \nReturns the depths in inches of the soil moisture sensors 1 and 2 installed on the plots.",
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: How much kPa should be set for a 4-inch depth soil moisture sensor?\nA: The kPa value for a 4-inch depth soil moisture sensor should be set based on the **soil type** and **crop requirements**. Here are general guidelines for different soil types:\n\n### **Sandy Soil:**\n- **Optimal range:** 10–20 kPa\n- **Irrigation threshold:** Above 30 kPa\n\n### **Loamy Soil (Silty or Mixed):**\n- **Optimal range:** 20–40 kPa\n- **Irrigation threshold:** Above 50 kPa\n\n### **Clay Soil:**\n- **Optimal range:** 40–70 kPa\n- **Irrigation threshold:** Above 80 kPa\n\n### **Additional Considerations:**\n- For **sensitive crops** like vegetables, maintain lower kPa thresholds to avoid water stress.\n- For **deep-rooted crops**, kPa values may vary at different depths; calibrate accordingly.\n- **Calibration** of the sensor to your specific soil and crop is essential for accuracy.\n\nConsulting with an agronomist or referring to crop-specific irrigation guides will help you fine-tune the kPa range.",
+            "Q: What should I do if the soil moisture sensor always shows dry values?\nA: Check if irrigation water is reaching the sensor, verify sensor connection, and ensure the sensor is not damaged.",
+            "Q: I irrigated still the sensor is dropping slowly.\nA: Sometimes, the water reaches slowly till root zone and the moisture sensor kPa value drops slowly. Always wait for 12 hours after irrigation for the moisture to saturate. If still some confusion, ask user to check moisture near the sensor and check if he wants to raise a ticket for the issue.",
+            "Q: Sensor is showing dry, but it rained recently.\nA: Rainwater doesn't percolate well in the soil. Most of it runs off. After a day of rain stops , if the sensor is still dry, you will have to irrigate. You can check the moisture by digging near the sensor . Irrigate accordingly.",
+            "Q: What should I do if the soil moisture sensor always shows wet values?\nA: Verify the irrigation frequency, check the installation point, and contact Fyllo representative if the issue persists."
+          ]
+        },
+        "content_transliterated": "mari jamin sendal low che to ketalun pani apvu aath inc na sensor upar"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારી જમીન સેન્ડી છે, અને 8 ઇંચના સેન્સર માટે, પાણી આપવાની જરૂર નથી. \n\n- **ઓપ્ટિમલ ભેજ**: 2 kPa (વેટ) થી 15 kPa (ડ્રાય)\n- **હાલનો ભેજ**: 3 kPa (સેન્સર 1), 5 kPa (સેન્સર 2)\n\nજમીનનો ભેજ ઓપ્ટિમલ મૂલ્યની અંદર છે, તેથી હાલ પાણી આપવાની જરૂર નથી.",
+        "en": "Your land is sandy, and for an 8-inch sensor, there is no need to water. \n\n* **Optimal moisture**: 2 kPa (wet) to 15 kPa (dry)\n* **Current humidity**: 3 kPa (sensor 1), 5 kPa (sensor 2)\n\nSoil moisture is within optimal value, so there is no need to water at present.",
+        "timestamp": {
+          "$date": "2025-01-04T11:56:07.380Z"
+        }
+      }
+    ],
+    "farmer_id": "bharatbhaichoudhary",
+    "farmer_plot_ids": [
+      "borvalopalot246"
+    ],
+    "conversation_id": "67791ec4b1870fbbb5902df5",
+    "_id": "67791ec4b1870fbbb5902df5",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-04T12:00:56.502000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-01-04T11:43:00.450000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "रोग कीटक सेन्सर बंद आहे ",
+        "en": "The disease insect sensor is turned off ",
+        "timestamp": {
+          "$date": "2025-01-04T11:14:01.617Z"
+        },
+        "standalone_question": "The sensor for the disease insect is off. \n\nStandalone Question: Is the sensor for the disease insect turned off?",
+        "standalone_en": "The sensor for the disease insect is off. \n\nStandalone Question: Is the sensor for the disease insect turned off?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "rog kitak sensor band aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "रोग कीटक सेन्सर बंद असल्यास, कृपया खालील गोष्टी तपासा:\n\n1. **सेंसर कनेक्शन**: सेंसरचे कनेक्शन तपासा, जर ते ढिले असतील तर त्यांना घट्ट करा.\n2. **डिव्हाइस रीस्टार्ट करा**: डिव्हाइस रीस्टार्ट करा आणि नंतर डेटा तपासा.\n3. **सेंसरची स्थिती**: जर सेंसर अजूनही कार्यरत नसेल, तर ते बदलण्याची आवश्यकता असू शकते.\n\nजर तुम्हाला आणखी मदतीची आवश्यकता असेल, तर कृपया सांगा.",
+        "en": "If the disease insect sensor is turned off, please check the following:\n\n1. **Sensor Connection**: Check the connection of the sensor, if they are loose, tighten them.\n2. **Restart the device**: Restart the device and then check the data.\n3. Status of the sensor**: If the sensor is still not working, it may need to be replaced.\n\nIf you need more help, please let me know.",
+        "timestamp": {
+          "$date": "2025-01-04T11:14:06.135Z"
+        }
+      }
+    ],
+    "farmer_id": "sushilataidaulatthete",
+    "farmer_plot_ids": [
+      "plotno1anushkabhagirathi"
+    ],
+    "conversation_id": "677917f9625e8aa8bccd6505",
+    "_id": "677917f9625e8aa8bccd6505",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-01-04T11:19:01.624000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-01-04T11:14:01.617000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ph 8.15 आहे तर तुरटी कुती किलो दिली पाहिजे ",
+        "en": "If the pH is 8.15 kg, the turti kuti kg should be given ",
+        "timestamp": {
+          "$date": "2025-01-04T09:03:42.734Z"
+        },
+        "standalone_question": "If the pH is 8.15, how many kilograms of lime should be given?",
+        "standalone_en": "If the pH is 8.15, how many kilograms of lime should be given?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "Ph 8.15 aahe tar turati kuti kilo dili pahije "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या मातीचा pH 8.15 आहे, जो थोडा उच्च आहे. मातीच्या pH कमी करण्यासाठी, तुम्ही सल्फर किंवा अमोनियम सल्फेट वापरू शकता. \n\nतुमच्या मातीच्या प्रकारानुसार, सामान्यतः 100 किलोग्राम मातीसाठी 1-2 किलोग्राम सल्फर वापरण्याची शिफारस केली जाते. \n\nतुमच्या मातीच्या विशिष्ट गरजेनुसार, तुम्हाला 1.5 किलोग्राम सल्फर वापरण्याची शिफारस करतो. \n\nतुमच्या मातीच्या pH कमी करण्यासाठी, सल्फर मातीमध्ये चांगल्या प्रकारे मिसळा आणि नंतर पाण्याने पाण्याचा वापर करा.",
+        "en": "Your soil pH is 8.15, which is slightly higher. To reduce soil pH, you can use sulfur or ammonium sulfate. \n\nDepending on your soil type, it's generally recommended to use 1–2 kilograms of sulfur for 100 kilograms of soil. \n\nDepending on your soil specific needs, I recommend you use 1.5 kg of sulfur. \n\nTo reduce the pH of your soil, mix sulfur well with the soil and then use water.",
+        "timestamp": {
+          "$date": "2025-01-04T09:03:49.519Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "तुरटी नाही चालत",
+        "en": "It doesn't work",
+        "timestamp": {
+          "$date": "2025-01-04T09:05:43.215Z"
+        },
+        "standalone_question": "What should I use instead of sulfur?",
+        "standalone_en": "What should I use instead of sulfur?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "turati nahi chalat"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या मातीच्या pH 8.15 च्या स्थितीत, तुम्ही तुरटी (गंधक) वापरण्याऐवजी, तुम्ही अमोनियम सल्फेट वापरू शकता. \n\nअमोनियम सल्फेट वापरल्यास, तुम्हाला 100 किलोग्राम मातीसाठी 2-3 किलोग्राम अमोनियम सल्फेट वापरण्याची शिफारस केली जाते. \n\nतुमच्या मातीच्या pH कमी करण्यासाठी, 2.5 किलोग्राम अमोनियम सल्फेट वापरा आणि ते मातीमध्ये चांगल्या प्रकारे मिसळा. \n\nयामुळे तुमच्या मातीचा pH कमी होईल आणि पिकांच्या वाढीसाठी अनुकूल वातावरण तयार होईल.",
+        "en": "In your soil pH 8.15 condition, you can use ammonium sulfate, instead of using turpentine (sulfur). \n\nIf using ammonium sulfate, it is recommended that you use 2–3 kg of ammonium sulfate for 100 kg of soil. \n\nTo reduce the pH of your soil, use 2.5 kg of ammonium sulfate and mix it well in the soil. \n\nThis will reduce the pH of your soil and create a conducive environment for crop growth.",
+        "timestamp": {
+          "$date": "2025-01-04T09:05:52.933Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "किती दिवसानी ",
+        "en": "How long ",
+        "timestamp": {
+          "$date": "2025-01-04T09:07:29.862Z"
+        },
+        "standalone_question": "How many days will it take?",
+        "standalone_en": "How many days will it take?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुम्ही पाण्याचा वापर कधी केला हे सांगा. पाण्याचा वापर केल्यानंतर साधारणतः 12 तास लागतात, त्यामुळे पाण्याचा स्तर सेन्सरपर्यंत पोहोचण्यासाठी वेळ लागतो. \n\nजर तुम्ही 12 तासांनंतरही सेन्सरवर पाण्याचा स्तर कमी होत नसेल, तर यामागील काही कारणे असू शकतात:\n\n1. पाणी सेन्सरपर्यंत पोहोचत नाही - यासाठी ड्रिप ब्लॉक झालेले असू शकते, किंवा जमिनीचा उतार किंवा सेन्सरच्या अंतरावर ड्रिपर असू शकतो.\n2. सेन्सर जुना झाला असेल - जर सेन्सर दोन वर्षांपेक्षा जुना असेल, तर तो खराब होऊ शकतो.\n\nकृपया तपासा की ड्रिप व्यवस्थित आहे का आणि सेन्सरच्या रेंजमध्ये ड्रिपर आहे का.",
+        "en": "Tell me when you used water. It usually takes 12 hours after using water, so it takes time for the water level to reach the sensor. \n\nIf the water level on the sensor still doesn't drop after 12 hours, there may be a few reasons for this:\n\n1. Water doesn't reach the sensor - for this the drip may be blocked, or there may be a slope of the ground or a dripper within the distance of the sensor.\n2. If the sensor is older than two years, it may be damaged.\n\nPlease check if the drip is in order and if there is a dripper within the range of the sensor.",
+        "timestamp": {
+          "$date": "2025-01-04T09:07:39.578Z"
+        }
+      }
+    ],
+    "farmer_id": "sagaramrutsalunkhe",
+    "farmer_plot_ids": [
+      "4KSq4KWH4KSw4KWB1735706326201",
+      "peruplot377"
+    ],
+    "conversation_id": "6778f96eb1870fbbb5902df2",
+    "_id": "6778f96eb1870fbbb5902df2",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-01-04T09:12:29.869000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-01-04T09:03:42.734000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "હવે બટાકા માં કયું ખાતર ની જરૂર છે",
+        "en": "Which fertilizer is needed in potatoes now",
+        "timestamp": {
+          "$date": "2025-01-04T08:07:28.165Z"
+        },
+        "standalone_question": "What type of fertilizer is needed for potatoes now?",
+        "standalone_en": "What type of fertilizer is needed for potatoes now?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "have bataka man kayu khatar knee jarur che"
+      },
+      {
+        "role": "assistant",
+        "content": "હવે તમારા બટાકા માટેની ખાતરની જરૂરિયાતો નીચે મુજબ છે:\n\n### 1. **Dela Valu (Vegetative Growth - Week 6)**\n- **તારીખ:** 2025-01-04\n- **ખાતર:**\n  - **પોટેશિયમ નાઇટ્રેટ:** 7 કિલોગ્રામ/એકર\n  - **યૂરિયા:** 5 કિલોગ્રામ/એકર\n  - અથવા\n  - **યૂરિયા:** 6.5 કિલોગ્રામ/એકર\n  - **સલ્ફેટ ઓફ પોટાશ:** 6.5 કિલોગ્રામ/એકર\n\n### 2. **Khejada Valu (Tuber Development - Week 3)**\n- **તારીખ:** 2025-01-04\n- **ખાતર:**\n  - **કેલ્શિયમ નાઇટ્રેટ:** 3.5 કિલોગ્રામ/એકર (અલગથી લાગુ કરવું, અન્ય ખાતરોની લાગુ કરવાની 15-20 મિનિટ પછી)\n  - **સલ્ફેટ ઓફ પોટાશ:** 6.5 કિલોગ્રામ/એકર\n\n### 3. **Patsala (Tuber Development - Week 1)**\n- **તારીખ:** 2025-01-04\n- **ખાતર:**\n  - **કેલ્શિયમ નાઇટ્રેટ:** 3.5 કિલોગ્રામ/એકર (અલગથી લાગુ કરવું, અન્ય ખાતરોની લાગુ કરવાની 15-20 મિનિટ પછી)\n  - **સલ્ફેટ ઓફ પોટાશ:** 6.5 કિલોગ્રામ/એકર\n\nઆ ખાતરોને યોગ્ય રીતે લાગુ કરીને તમારા પાકની વૃદ્ધિમાં સુધારો કરી શકો છો.",
+        "en": "Now the fertilizer requirements for your potatoes are as follows:\n\n### 1. **Dela Valu (Vegetative Growth - Week 6)**\n- **Date:** 2025-01-04\n- **Fertilizer:**\n  * *Potassium Nitrate:** 7 kg/acre\n  * **urea:** 5 kg/acre\n  -or\n  * **Urea:** 6.5 kg/acre\n  **Sulphate of Potash:** 6.5 kg/acre\n\n### 2. **Khejada Valu (Tuber Development - Week 3)**\n- **Date:** 2025-01-04\n- **Fertilizer:**\n  **Calcium nitrate:** 3.5 kg/acre (applied separately, 15-20 minutes after applying other fertilizers)\n  **Sulphate of Potash:** 6.5 kg/acre\n\n### 3. **Patsala (Tuber Development - Week 1)**\n- **Date:** 2025-01-04\n- **Fertilizer:**\n  **Calcium nitrate:** 3.5 kg/acre (applied separately, 15-20 minutes after applying other fertilizers)\n  **Sulphate of Potash:** 6.5 kg/acre\n\nYou can improve the growth of your crop by applying these fertilizers properly.",
+        "timestamp": {
+          "$date": "2025-01-04T08:07:58.776Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ચરબી આવવાનો ભાઈ ખરી",
+        "en": "Fat coming brother is real",
+        "timestamp": {
+          "$date": "2025-01-04T08:09:37.150Z"
+        },
+        "standalone_question": "Is it true that potatoes can become fatty?",
+        "standalone_en": "Is it true that potatoes can become fatty?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "carabi avavano bhai khari"
+      },
+      {
+        "role": "assistant",
+        "content": "### Dela Valu (Vegetative Growth - Week 6)\n- **તારીખ:** 2025-01-04\n- **ખાતર:**\n  - **પોટેશિયમ નાઇટ્રેટ:** 7 કિલોગ્રામ/એકર\n  - **યૂરિયા:** 5 કિલોગ્રામ/એકર\n  - અથવા\n  - **યૂરિયા:** 6.5 કિલોગ્રામ/એકર\n  - **સલ્ફેટ ઓફ પોટાશ:** 6.5 કિલોગ્રામ/એકર\n\n### Khejada Valu (Tuber Development - Week 3)\n- **તારીખ:** 2025-01-04\n- **ખાતર:**\n  - **ફોલિયર સ્પ્રે:**\n    - **પોટેશિયમ નાઇટ્રેટ:** 1.5 કિલોગ્રામ/એકર\n  - **ફર્ટિગેશન:**\n    - **કેલ્શિયમ નાઇટ્રેટ:** 3.5 કિલોગ્રામ/એકર\n    - **સલ્ફેટ ઓફ પોટાશ:** 6.5 કિલોગ્રામ/એકર\n\n### Patsala (Tuber Development - Week 1)\n- **તારીખ:** 2025-01-04\n- **ખાતર:**\n  - **ફર્ટિગેશન:**\n    - **કેલ્શિયમ નાઇટ્રેટ:** 3.5 કિલોગ્રામ/એકર\n    - **સલ્ફેટ ઓફ પોટાશ:** 6.5 કિલોગ્રામ/એકર\n  - **4 દિવસ પછી:**\n    - **મેગ્નેશિયમ સલ્ફેટ:** 5 કિલોગ્રામ/એકર\n    - **સલ્ફેટ ઓફ પોટાશ:** 6.5 કિલોગ્રામ/એકર\n\nઆ ખાતરોને યોગ્ય રીતે લાગુ કરીને તમારા પાકની વૃદ્ધિમાં સુધારો કરી શકો છો.",
+        "en": "### Dela Valu (Vegetative Growth - Week 6)\n- **Date:** 2025-01-04\n- **Fertilizer:**\n  * *Potassium Nitrate:** 7 kg/acre\n  * **urea:** 5 kg/acre\n  -or\n  * **Urea:** 6.5 kg/acre\n  **Sulphate of Potash:** 6.5 kg/acre\n\n### Khejada Valu (Tuber Development - Week 3)\n- **Date:** 2025-01-04\n- **Fertilizer:**\n  - **Foliar Spray:**\n    * *Potassium Nitrate:** 1.5 kg/acre\n  - **Fertigation:**\n    **Calcium nitrate:** 3.5 kg/acre\n    **Sulphate of Potash:** 6.5 kg/acre\n\n### Patsala (Tuber Development - Week 1)\n- **Date:** 2025-01-04\n- **Fertilizer:**\n  - **Fertigation:**\n    **Calcium nitrate:** 3.5 kg/acre\n    **Sulphate of Potash:** 6.5 kg/acre\n  * **After 4 days:**\n    * *Magnesium sulfate:** 5 kg/acre\n    **Sulphate of Potash:** 6.5 kg/acre\n\nYou can improve the growth of your crop by applying these fertilizers properly.",
+        "timestamp": {
+          "$date": "2025-01-04T08:10:53.946Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ચરબી આવવાના કોઈ સંજોગો ખરા",
+        "en": "There are no chances of fat coming in.",
+        "timestamp": {
+          "$date": "2025-01-04T08:11:04.623Z"
+        },
+        "standalone_question": "Are there any conditions for the arrival of fat?",
+        "standalone_en": "Are there any conditions for the arrival of fat?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "carabi avavana koi sanjogo khara"
+      },
+      {
+        "role": "assistant",
+        "content": "હવે તમારા બટાકા માટે ચરબી આવવાના સંજોગો વિશે માહિતી ઉપલબ્ધ નથી. દરેક પ્લોટ માટે ચરબીના રોગોની મેટ્રિક્સ ઉપલબ્ધ નથી. \n\nજો તમને વધુ માહિતી જોઈએ તો કૃપા કરીને અન્ય પ્રશ્નો પૂછો.",
+        "en": "Now information is not available about the chances of fat coming in for your potatoes. Fat disease metrics are not available for each plot. \n\nPlease ask other questions if you need more information.",
+        "timestamp": {
+          "$date": "2025-01-04T08:11:33.541Z"
+        }
+      }
+    ],
+    "farmer_id": "VR4859",
+    "farmer_plot_ids": [
+      "delavalu",
+      "khejadavalu",
+      "patsala"
+    ],
+    "conversation_id": "6778ec3fb1870fbbb5902df1",
+    "_id": "6778ec3fb1870fbbb5902df1",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-04T08:16:04.631000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-01-04T08:07:28.165000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is my plot update",
+        "en": "What is my plot update",
+        "timestamp": {
+          "$date": "2025-01-04T07:43:29.705Z"
+        },
+        "standalone_question": "What is the update on my plot?",
+        "standalone_en": "What is the update on my plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Your plots are currently in the following stages:\n\n1. **Plot 1 (Water Melon)**\n   - **Active Stage:** Crop establishment\n   - **Stage Start Date:** December 21, 2024\n\n2. **Plot 2 (Banana)**\n   - **Active Stage:** Grand growth\n   - **Stage Start Date:** November 24, 2024\n\nIf you need more specific information or assistance regarding your plots, feel free to ask!",
+        "en": "Your plots are currently in the following stages:\n\n1. **Plot 1 (Water Melon)**\n   - **Active Stage:** Crop establishment\n   - **Stage Start Date:** December 21, 2024\n\n2. **Plot 2 (Banana)**\n   - **Active Stage:** Grand growth\n   - **Stage Start Date:** November 24, 2024\n\nIf you need more specific information or assistance regarding your plots, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-01-04T07:43:33.078Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Watermelon me kya hai<user uploaded image for analysis at 'plot1598/2025-01-04-1735976665093.jpg'>",
+        "en": "What's in Watermelon<user uploaded image for analysis at 'plot1598/2025-01-04-1735976665093.jpg'>",
+        "timestamp": {
+          "$date": "2025-01-04T07:44:27.318Z"
+        },
+        "standalone_question": "What is the status of the watermelon plot?",
+        "standalone_en": "What is the status of the watermelon plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The image of your watermelon plant shows some leaf discoloration and possible damage. Here are the potential issues:\n\n1. **Nutrient Deficiency**: The yellowing and mottled appearance may indicate a lack of essential nutrients, particularly nitrogen or magnesium.\n2. **Pest Damage**: The spots and discoloration could suggest pest activity, such as aphids or leaf miners.\n3. **Disease**: Fungal infections or viral diseases might also be a factor, especially if there are unusual patterns on the leaves.\n\nFor a more accurate diagnosis, a clearer image focusing on the affected areas would be helpful. If you suspect pest or disease issues, I can provide specific spray recommendations based on your crop type and growth stage. Would you like to proceed with that?",
+        "en": "The image of your watermelon plant shows some leaf discoloration and possible damage. Here are the potential issues:\n\n1. **Nutrient Deficiency**: The yellowing and mottled appearance may indicate a lack of essential nutrients, particularly nitrogen or magnesium.\n2. **Pest Damage**: The spots and discoloration could suggest pest activity, such as aphids or leaf miners.\n3. **Disease**: Fungal infections or viral diseases might also be a factor, especially if there are unusual patterns on the leaves.\n\nFor a more accurate diagnosis, a clearer image focusing on the affected areas would be helpful. If you suspect pest or disease issues, I can provide specific spray recommendations based on your crop type and growth stage. Would you like to proceed with that?",
+        "timestamp": {
+          "$date": "2025-01-04T07:44:39.548Z"
+        }
+      }
+    ],
+    "farmer_id": "atulmahajan",
+    "farmer_plot_ids": [
+      "plot1598",
+      "plot2136"
+    ],
+    "conversation_id": "6778e6a1b1870fbbb5902df0",
+    "_id": "6778e6a1b1870fbbb5902df0",
+    "language": "hi",
+    "expiry": {
+      "$date": "2025-01-04T07:49:27.326000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-01-04T07:43:29.705000+00:00"
+  }
+]

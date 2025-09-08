@@ -1,0 +1,504 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पानी चालू आहे का ",
+        "en": "Is the water running? ",
+        "timestamp": {
+          "$date": "2025-05-05T16:43:08.607Z"
+        },
+        "standalone_question": "Is the water running?",
+        "standalone_en": "Is the water running?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pani chalu aahe ka "
+      },
+      {
+        "role": "assistant",
+        "content": "प्लॉट नंबर 1 (Plot No.1) मध्ये सध्या पाण्याची गरज नाही. सॉइल मॉइश्चर 79% आणि 85% आहे, जे की 60% च्या ऑप्टिमल किमतींपेक्षा जास्त आहे. त्यामुळे, सध्या पाणी चालू करण्याची आवश्यकता नाही.",
+        "en": "Plot No.1 (Plot No.1) currently does not require water. Soil moisture is 79% and 85%, which is higher than the optimal prices of 60%. Therefore, there is no need to turn on the water at present.",
+        "timestamp": {
+          "$date": "2025-05-05T16:43:13.748Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पानी पडत आहे का ",
+        "en": "Is it watering? ",
+        "timestamp": {
+          "$date": "2025-05-05T16:43:54.059Z"
+        },
+        "standalone_question": "Is it raining?",
+        "standalone_en": "Is it raining?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pani padat aahe ka "
+      },
+      {
+        "role": "assistant",
+        "content": "प्लॉट नंबर 1 (Plot No.1) मध्ये आज (5 मे 2025) पाण्याची नोंद नाही. सर्व तासांमध्ये पाऊस झाला नाही. त्यामुळे, सध्या पाण्याची गरज नाही.",
+        "en": "Plot No.1 does not record water today (May 5, 2025). It didn't rain all the hours. So, there is no need for water at the moment.",
+        "timestamp": {
+          "$date": "2025-05-05T16:43:59.455Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "शेवतचा डाटा किती टाइम चा आहे ",
+        "en": "How long is shevat's data ",
+        "timestamp": {
+          "$date": "2025-05-05T16:45:14.622Z"
+        },
+        "standalone_question": "What time is the last recorded data?",
+        "standalone_en": "What time is the last recorded data?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "shevatacha data kiti time cha aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "प्लॉट नंबर 1 (Plot No.1) चा शेवटचा डेटा 5 मे 2025 रोजी रात्री 9:39 वाजता नोंदवला गेला होता. सध्या बॅटरीची स्थिती 90% आहे.",
+        "en": "The last data of Plot No.1 (Plot No.1) was recorded on 5th May 2025 at 9:39 pm. The battery status is currently 90%.",
+        "timestamp": {
+          "$date": "2025-05-05T16:45:20.771Z"
+        }
+      }
+    ],
+    "farmer_id": "sandipkale",
+    "farmer_plot_ids": [
+      "plotno1224"
+    ],
+    "conversation_id": "6818ea9c2e9cfe37e851d091",
+    "_id": "6818ea9c2e9cfe37e851d091",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-05T16:50:14.631000Z"
+    },
+    "tag": "historical data",
+    "conv_date": "2025-05-05T16:43:08.607000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Eto su se?",
+        "en": "There they are?",
+        "timestamp": {
+          "$date": "2025-05-05T16:32:44.885Z"
+        },
+        "standalone_question": "What is this?",
+        "standalone_en": "What is this?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Evapotranspiration (ETO) ek prakriya chhe jema paani zameen par thi evaporate thaye chhe ane paani podao dwara transpire thaye chhe. ETO ne samajva thi, tamne khabar pade chhe ke tamara khed ma kitlu paani kharch thaye chhe, je tamne irrigation ne plan karva ma madad kare chhe. \n\nAapne ETO ni mahiti jova maate koi specific plot ni jarur chhe?",
+        "en": "Evapotranspiran (Ato) is a process in which water is evaporated from the ground and water is transpired through the pods. By understanding atto, you get to know how much water is spent in your farm, which helps you plan the irrigation. \n\nDo you need a specific plot to see the information of Ato?",
+        "timestamp": {
+          "$date": "2025-05-05T16:32:49.027Z"
+        }
+      }
+    ],
+    "farmer_id": "aniruddhbhai",
+    "farmer_plot_ids": [
+      "plot1405",
+      "plot1pomo755"
+    ],
+    "conversation_id": "6818e82cf7ac3c5270f53d46",
+    "_id": "6818e82cf7ac3c5270f53d46",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-05-05T16:37:44.893000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-05-05T16:32:44.885000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "खरड छाटणी नंतर एक सारखी फूट होत नाही",
+        "en": "There is no uniform split after pruning",
+        "timestamp": {
+          "$date": "2025-05-05T16:20:17.977Z"
+        },
+        "standalone_question": "Why doesn't the grass grow evenly after mowing?",
+        "standalone_en": "Why doesn't the grass grow evenly after mowing?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kharad chhatani nantar ek sarakhi foot hot nahi"
+      },
+      {
+        "role": "assistant",
+        "content": "खरड छाटणी नंतर फूट न होण्याची अनेक कारणे असू शकतात. यामध्ये खालील गोष्टींचा समावेश होतो:\n\n1. **पाण्याची कमी किंवा जास्ती**: योग्य पाण्याची पातळी राखणे महत्त्वाचे आहे. पाण्याची कमी किंवा जास्ती फूट होण्यात अडथळा आणू शकते.\n\n2. **खते**: योग्य खते वापरणे आवश्यक आहे. कमी किंवा जास्त खते फूट होण्यावर परिणाम करू शकतात.\n\n3. **तापमान**: तापमानाच्या बदलामुळेही फूट होण्यात अडथळा येऊ शकतो. \n\n4. **जातीची गुणवत्ता**: काही जातींची फूट होण्याची क्षमता कमी असू शकते.\n\n5. **पोषणाची कमतरता**: आवश्यक पोषण तत्वांची कमतरता असल्यास फूट होण्यात अडथळा येऊ शकतो.\n\nआपण आपल्या पिकाच्या स्थितीवर लक्ष ठेवून योग्य उपाययोजना करू शकता. जर तुम्हाला अधिक माहिती हवी असेल तर कृपया अधिक तपशील द्या.",
+        "en": "There can be several reasons why there is no split after a scratch pruning. These include the following:\n\n1. **Low or excess of water**: It is important to maintain proper water levels. It can prevent less or more water from bursting.\n\n2. **Fertilizers**: It is necessary to use the right fertilizers. Fewer or more fertilizers can affect rupture.\n\n3. **Temperature**: Changes in temperature can also hinder the splitting. \n\n4. **Species quality**: Some species may have less potential to divide.\n\n5. **Nutritional deficiency**: Deficiency of essential nutrients can hinder rupture.\n\nYou can monitor the condition of your crop and take appropriate measures. If you would like more information, please provide more details.",
+        "timestamp": {
+          "$date": "2025-05-05T16:20:24.691Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "हो ",
+        "en": "be ",
+        "timestamp": {
+          "$date": "2025-05-05T16:21:27.217Z"
+        },
+        "standalone_question": "What should I do if my crop is not sprouting evenly after cutting?",
+        "standalone_en": "What should I do if my crop is not sprouting evenly after cutting?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ho "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्याला अधिक माहिती हवी आहे का? कृपया सांगा, मी आपल्याला मदत करण्यास तयार आहे.",
+        "en": "Do you want more information? Please tell me, I'm willing to help you.",
+        "timestamp": {
+          "$date": "2025-05-05T16:21:30.683Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "हो ",
+        "en": "be ",
+        "timestamp": {
+          "$date": "2025-05-05T16:21:38.764Z"
+        },
+        "standalone_question": "Do you need more information?",
+        "standalone_en": "Do you need more information?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ho "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या पिकासाठी सध्या कोणतीही कीड किंवा रोग नियंत्रणासाठी स्प्रेची शिफारस नाही. जर तुम्हाला आणखी काही माहिती हवी असेल तर कृपया सांगा.",
+        "en": "There is currently no pest or disease control recommendation for your crop. If you need any more information, please let me know.",
+        "timestamp": {
+          "$date": "2025-05-05T16:21:43.222Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "फूट एक सारखी होण्यासाठी काय उपाय योजना करावी",
+        "en": "What measures should be taken to make the foot one equal?",
+        "timestamp": {
+          "$date": "2025-05-05T16:22:15.339Z"
+        },
+        "standalone_question": "What measures can be taken to ensure uniform sprouting?",
+        "standalone_en": "What measures can be taken to ensure uniform sprouting?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How to improve the germination percent\nA: Use of good quality seeds and seeds to be treated with insecticide, Fungicide and biological agents",
+            "Q: What are the important Pest occur during seedling stage and control measures?\nA: Ants, Termites, root aphids, thrips and internal borer’s pest infect during seedling stage\nDrench/spray seedling with: Chlorpyriphos @ 5mL/Ltr or Thiamethoxam @ 0.5g/ltr",
+            "Q: What are the important diseases occur during seedling stage and control measures?\nA: Collar rot, Damping off, Seedling blight diseases infect during seedling stage.\nDrench/spray seedling with: Carbendazim @ 2.5g/ltr",
+            "Q: How to check seed germination percent\nA:\n- Take Germination paper/ thick cotton cloth moist with water\n- Select random samples from each seed lot.\n- Take at least three seed samples from the seed lot.\n- Count out 100 (small size seeds)/ 50 seeds (large size seeds) from each sample and place on wet germination paper/ thick cotton cloth fold it carefully\n- Keep germination paper/ thick cotton cloth moist\n- Record the seed number germinated after 3 days/ 5days and calculate germination percent\n- Germination % = Number of seed germinated /Number of seed keep for germination X 100",
+            "Q: What should be the optimum depth of seed to be sown?\nA: Seed to be sown at the depth of twice the seed size"
+          ]
+        },
+        "content_transliterated": "foot ek sarakhi honyasathi kay upay yojana karavi"
+      },
+      {
+        "role": "assistant",
+        "content": "फूट एकसारखी होण्यासाठी खालील उपाययोजना करा:\n\n1. **उत्तम दर्जाचे बियाणे**: उच्च गुणवत्तेची बियाणे वापरा. बियाणे खरेदी करताना त्यांची गुणवत्ता आणि प्रमाणपत्र तपासा.\n\n2. **बियाणे उपचार**: बियाणे कीडनाशक, फंगीसाइड आणि जैविक एजंटसह उपचारित करा. यामुळे बियाण्यांची सुरक्षा वाढते.\n\n3. **पाण्याचे व्यवस्थापन**: पाण्याची योग्य पातळी राखा. बियाणे लागवडीनंतर योग्य प्रमाणात पाणी द्या, जेणेकरून माती ओलसर राहील.\n\n4. **खते**: योग्य खते वापरा. नायट्रोजन, फॉस्फरस आणि पोटॅशियम यांचे संतुलित प्रमाण आवश्यक आहे.\n\n5. **तापमान नियंत्रण**: तापमानाची योग्य पातळी राखा. अत्यधिक तापमान किंवा कमी तापमानामुळे फूट होण्यात अडथळा येऊ शकतो.\n\n6. **पोषणाची कमतरता**: आवश्यक पोषण तत्वांची कमतरता असल्यास, योग्य खते वापरून ती भरून काढा.\n\n7. **कीड आणि रोग नियंत्रण**: बियाणे लागवडीनंतर कीड आणि रोगांवर लक्ष ठेवा. आवश्यक असल्यास कीडनाशकांचा वापर करा.\n\n8. **सिंचन**: योग्य सिंचन पद्धती वापरा. ओलसर माती फूट होण्यासाठी उपयुक्त आहे.\n\nया उपाययोजनांनी तुम्हाला फूट एकसारखी होण्यात मदत होईल. जर तुम्हाला अधिक माहिती हवी असेल तर कृपया सांगा.",
+        "en": "Take the following steps to make the foot uniform:\n\n1. **Good quality seeds**: Use high quality seeds. Check their quality and certification when purchasing seeds.\n\n2. **Seed Treatment**: Treat the seeds with pesticides, fungicides, and biological agents. This increases the safety of seeds.\n\n3. **Water management**: Maintain proper water levels. Water the right amount after planting the seeds, so that the soil remains moist.\n\n4. **Fertilizers**: Use the right fertilizers. A balanced amount of nitrogen, phosphorus and potassium is required.\n\n5. **Temperature control**: Maintain the right level of temperature. Extreme temperatures or low temperatures can interfere with the rupture.\n\n6. **Nutritional deficiency**: If you are deficient in essential nutrients, make up for it by using the right fertilizers.\n\n7. **Pest and Disease Control**: Monitor pests and diseases after seed planting. Use pesticides if necessary.\n\n8. **Irrigation**: Use proper irrigation methods. Moist soil is useful for breaking down.\n\nThese measures will help you level the divide. If you need more information, please let me know.",
+        "timestamp": {
+          "$date": "2025-05-05T16:22:28.890Z"
+        }
+      }
+    ],
+    "farmer_id": "nileshniphade",
+    "farmer_plot_ids": [
+      "plotno1tomato635"
+    ],
+    "conversation_id": "6818e541f7ac3c5270f53d45",
+    "_id": "6818e541f7ac3c5270f53d45",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-05T16:27:15.349000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-05-05T16:20:17.977000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Network means ",
+        "en": "Network means ",
+        "timestamp": {
+          "$date": "2025-05-05T16:20:05.485Z"
+        },
+        "standalone_question": "What does the term \"network\" mean?",
+        "standalone_en": "What does the term \"network\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "I'm here to assist you with agricultural practices and crop management. If you have any questions related to farming, crop care, or soil health, feel free to ask!",
+        "en": "I'm here to assist you with agricultural practices and crop management. If you have any questions related to farming, crop care, or soil health, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-05T16:20:08.377Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Fayllo app ma network graph su darsave se?",
+        "en": "Fayllo app ma network graph on darsave se?",
+        "timestamp": {
+          "$date": "2025-05-05T16:21:04.894Z"
+        },
+        "standalone_question": "Does the Fayllo app display a network graph?",
+        "standalone_en": "Does the Fayllo app display a network graph?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Fyllo app માં નેટવર્ક ગ્રાફ સામાન્ય રીતે તમારા ખેતીના પ્લોટ્સમાં સેનસર્સ દ્વારા એકત્રિત કરવામાં આવેલા ડેટાને દર્શાવે છે. આ ગ્રાફમાં વિવિધ સેનસર્સના ડેટા, જેમ કે જમીનનું આલમ્બ, આકાશનું તાપમાન, આકાશની આદ્રતા, અને અન્ય પરિમાણોનો સમાવેશ થાય છે. \n\nઆ ગ્રાફ તમને તમારા ખેતીના પરિસ્થિતિઓને સમજવામાં મદદ કરે છે, જેથી તમે યોગ્ય નિર્ણય લઈ શકો છો, જેમ કે સિંચાઈ, ખાતર, અને રોગ-કીટક નિયંત્રણ માટે. \n\nજો તમને વધુ માહિતી જોઈએ છે, તો કૃપા કરીને પૂછો!",
+        "en": "The network graph in the Fyllo app usually shows the data collected by censors in your farming plots. This graph includes data from various sensors, such as land length, sky temperature, sky humidity, and other parameters. \n\nThis graph helps you understand your farming conditions, so that you can make the right decision, such as for irrigation, fertilizer, and disease-pest control. \n\nIf you would like more information, please ask!",
+        "timestamp": {
+          "$date": "2025-05-05T16:21:10.203Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Network graph ni sampurna mahiti aapo",
+        "en": "Network graph ni sampurna mahiti aapo",
+        "timestamp": {
+          "$date": "2025-05-05T16:22:08.696Z"
+        },
+        "standalone_question": "Can you provide complete information about the network graph?",
+        "standalone_en": "Can you provide complete information about the network graph?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Fyllo એપ્લિકેશનમાં નેટવર્ક ગ્રાફ વિવિધ સેનસર્સ દ્વારા એકત્રિત કરવામાં આવેલા ડેટાને દર્શાવે છે, જે તમારા ખેતીના પ્લોટ્સની પરિસ્થિતિઓને સમજવામાં મદદ કરે છે. અહીં નેટવર્ક ગ્રાફની કેટલીક મુખ્ય વિગતો છે:\n\n1. **સેન્સર ડેટા**: નેટવર્ક ગ્રાફમાં વિવિધ પ્રકારના સેન્સર્સના ડેટા દર્શાવવામાં આવે છે, જેમ કે:\n   - જમીનનું આલમ્બ (Soil Moisture)\n   - આકાશનું તાપમાન (Air Temperature)\n   - આકાશની આદ્રતા (Air Humidity)\n   - પાનની ભેજ (Leaf Wetness)\n   - અન્ય પરિમાણો\n\n2. **ડેટા વિઝ્યુલાઇઝેશન**: આ ગ્રાફમાં વિવિધ રંગો અને આકારોનો ઉપયોગ કરીને ડેટાને વિઝ્યુલાઇઝ કરવામાં આવે છે, જેથી તમે સરળતાથી સમજી શકો કે કયા પરિમાણો યોગ્ય છે અને કયા સુધારવાની જરૂર છે.\n\n3. **ટ્રેન્ડ્સ અને પેટર્ન**: નેટવર્ક ગ્રાફમાં સમય સાથેના ટ્રેન્ડ્સ અને પેટર્નને દર્શાવવામાં આવે છે, જે તમને તમારા પાકના વિકાસ અને પરિસ્થિતિઓને અનુસંધાનમાં રાખવામાં મદદ કરે છે.\n\n4. **નિર્ણય લેવાની સહાય**: આ ગ્રાફનો ઉપયોગ કરીને, તમે સિંચાઈ, ખાતર, અને રોગ-કીટક નિયંત્રણ માટે યોગ્ય નિર્ણય લઈ શકો છો.\n\n5. **સંવાદિતા**: નેટવર્ક ગ્રાફમાં આપેલ માહિતીનો ઉપયોગ કરીને, તમે તમારા પ્લોટની સ્થિતિને વધુ સારી રીતે સમજવા અને સંભાળવા માટે પગલાં લઈ શકો છો.\n\nજો તમને વધુ વિશિષ્ટ માહિતી જોઈએ છે, તો કૃપા કરીને જણાવો!",
+        "en": "The network graph in the Fyllo app shows the data collected by various sensors, which helps you understand the conditions of your farming plots. Here are some key details of the network graph:\n\n1. **Sensor data**: The network graph displays data from different types of sensors, such as:\n   - Soil moisture\n   - Air temperature\n   - Air Humidity\n   - Leaf wetness\n   - Other parameters\n\n2. **Data Visualization**: The data is visualized using different colors and shapes in this graph, so that you can easily understand which parameters are appropriate and which need to be improved.\n\n3. **Trends and Patterns**: The network graph depicts trends and patterns over time, which helps you keep your crop's growth and conditions in order.\n\n4. **Decision-making aid**: Using this graph, you can make the right decision for irrigation, fertilizer, and disease-pest control.\n\n5. **Harmony**: Using the information given in the network graph, you can take steps to better understand and handle the state of your plot.\n\nIf you'd like more specific information, please let us know!",
+        "timestamp": {
+          "$date": "2025-05-05T16:22:20.536Z"
+        }
+      }
+    ],
+    "farmer_id": "aniruddhbhai",
+    "farmer_plot_ids": [
+      "plot1405",
+      "plot1pomo755"
+    ],
+    "conversation_id": "6818e5352e9cfe37e851d08e",
+    "_id": "6818e5352e9cfe37e851d08e",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-05-05T16:27:08.707000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-05-05T16:20:05.485000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "हा रोग काय आहे<user uploaded image for analysis at 'thompsonplot342589/2025-05-05-1746450123668.jpg'>",
+        "en": "What is this disease<user uploaded image for analysis at 'thompsonplot342589/2025-05-05-1746450123668.jpg'>",
+        "timestamp": {
+          "$date": "2025-05-05T13:02:35.135Z"
+        },
+        "standalone_question": "What is this disease?",
+        "standalone_en": "What is this disease?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ha rog kay aahe<user uploaded image for analysis at 'thompsonplot342589/2025-05-05-1746450123668.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या दिलेल्या चित्रात, पानं आरोग्यदायी आणि हिरवी दिसत आहेत, पण कडांवर काही असमानता आहे, ज्यामुळे पोषणाच्या कमतरता किंवा कीटकांच्या हल्ल्याचे संकेत मिळू शकतात.\n\nअधिक अचूक विश्लेषणासाठी, कृपया प्रभावित भागांवर लक्ष केंद्रित करून एक स्पष्ट चित्र पाठवा. जर तुम्हाला कोणत्याही विशिष्ट समस्येचा संशय असेल, तर कृपया मला सांगा!",
+        "en": "In your given picture, the leaves look healthy and green, but there is some disparity on the edges, which can indicate nutritional deficiencies or insect attacks.\n\nFor a more accurate analysis, please send a clear picture focusing on the affected areas. If you suspect any specific problems, please let me know!",
+        "timestamp": {
+          "$date": "2025-05-05T13:02:49.164Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "H<user uploaded image for analysis at 'thompsonplot342589/2025-05-05-1746450245463.jpg'>",
+        "en": "H<user uploaded image for analysis at 'thompsonplot342589/2025-05-05-1746450245463.jpg'>",
+        "timestamp": {
+          "$date": "2025-05-05T13:04:07.702Z"
+        },
+        "standalone_question": "What does the new image indicate about the health of the plant?",
+        "standalone_en": "What does the new image indicate about the health of the plant?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या दिलेल्या चित्रात, द्राक्षांच्या पानांचा जवळचा फोटो आहे. पानं आरोग्यदायी आणि चमकदार हिरव्या रंगाची दिसत आहेत, आणि त्यात कोणतीही रंगाची बदल, ठिपके, किंवा कीटकांच्या हल्ल्याचे संकेत नाहीत.\n\nअधिक अचूक विश्लेषणासाठी, कृपया कोणत्याही विशिष्ट समस्यांच्या भागांवर लक्ष केंद्रित करून एक स्पष्ट चित्र पाठवा. प्रभावित क्षेत्रांचे स्पष्ट चित्र अधिक मदत करेल!",
+        "en": "In your given picture, there is a close-up photo of the grape leaves. The leaves appear healthy and bright green, and contain no color changes, patches, or signs of insect attack.\n\nFor a more accurate analysis, please send a clear picture focusing on parts of any specific problems. A clearer picture of the affected areas would help more!",
+        "timestamp": {
+          "$date": "2025-05-05T13:04:22.062Z"
+        }
+      }
+    ],
+    "farmer_id": "dnyaneshwarmore",
+    "farmer_plot_ids": [
+      "sonakaplot231",
+      "thompsonplot342589"
+    ],
+    "conversation_id": "6818b6eb2e9cfe37e851d08a",
+    "_id": "6818b6eb2e9cfe37e851d08a",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-05T13:09:07.721000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-05-05T13:02:35.135000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "काय कमी आहे <user uploaded image for analysis at 'thompsonplot342589/2025-05-05-1746416717063.jpg'>",
+        "en": "What's missing <user uploaded image for analysis at 'thompsonplot342589/2025-05-05-1746416717063.jpg'>",
+        "timestamp": {
+          "$date": "2025-05-05T03:45:29.820Z"
+        },
+        "standalone_question": "What is lacking?",
+        "standalone_en": "What is lacking?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kay kami aahe <user uploaded image for analysis at 'thompsonplot342589/2025-05-05-1746416717063.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या चित्रात दाखवलेले वेल म्हणजेच द्राक्षांचे वेल आहेत, जे निरोगी आणि तेजस्वी दिसत आहेत. तथापि, कोणत्याही संभाव्य रोग किंवा कीड यांचे मूल्यांकन करण्यासाठी अधिक तपशीलवार निरीक्षण आवश्यक आहे.\n\nकृपया लक्षात ठेवा:\n1. **प्रभावित क्षेत्रांवर लक्ष केंद्रित करा**: जर काही विशिष्ट चिंता असतील, तर त्या भागांचे जवळचे फोटो घ्या.\n2. **प्रकाश आणि स्पष्टता**: चित्र चांगल्या प्रकाशात आणि स्पष्ट असावे, जेणेकरून कोणत्याही सूक्ष्म चिन्हांचे निरीक्षण करता येईल.\n\nजर तुम्हाला तुमच्या पिकाबद्दल काही विशिष्ट चिंता असतील, तर कृपया मला सांगा!",
+        "en": "The vines shown in your picture are grape vines, which look healthy and bright. However, more detailed monitoring is needed to evaluate any potential diseases or pests.\n\nPlease note:\n1. **Focus on the affected areas**: If there are any specific concerns, take close photos of those areas.\n2. **Light and clarity**: The picture should be in good light and clear, so that any subtle signs can be observed.\n\nIf you have any specific concerns about your crop, please let me know!",
+        "timestamp": {
+          "$date": "2025-05-05T03:45:42.370Z"
+        }
+      }
+    ],
+    "farmer_id": "dnyaneshwarmore",
+    "farmer_plot_ids": [
+      "sonakaplot231",
+      "thompsonplot342589"
+    ],
+    "conversation_id": "681834592e9cfe37e851d086",
+    "_id": "681834592e9cfe37e851d086",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-05T03:50:29.831000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-05-05T03:45:29.820000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How can i get the sensor id ? ",
+        "en": "How can i get the sensor id ? ",
+        "timestamp": {
+          "$date": "2025-05-05T02:25:43.698Z"
+        },
+        "standalone_question": "What is the process for obtaining the sensor ID?",
+        "standalone_en": "What is the process for obtaining the sensor ID?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The sensor ID is typically found in the device's manual or on the device itself. You can also check the Kairo device's interface or app, where it may display the connected sensors and their IDs. If you need further assistance, please refer to the user manual or contact customer support for the Kairo device.",
+        "en": "The sensor ID is typically found in the device's manual or on the device itself. You can also check the Kairo device's interface or app, where it may display the connected sensors and their IDs. If you need further assistance, please refer to the user manual or contact customer support for the Kairo device.",
+        "timestamp": {
+          "$date": "2025-05-05T02:25:47.006Z"
+        }
+      }
+    ],
+    "farmer_id": "sreeharis",
+    "farmer_plot_ids": [
+      "number1division",
+      "number2division"
+    ],
+    "conversation_id": "681821a7f7ac3c5270f53d44",
+    "_id": "681821a7f7ac3c5270f53d44",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-05-05T02:30:43.708000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-05-05T02:25:43.698000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "कोणते मूलद्रव्य कमी आहे<user uploaded image for analysis at 'sonakaplot231/2025-05-05-1746407152698.jpg'>",
+        "en": "Which element is less<user uploaded image for analysis at 'sonakaplot231/2025-05-05-1746407152698.jpg'>",
+        "timestamp": {
+          "$date": "2025-05-05T01:05:58.186Z"
+        },
+        "standalone_question": "What essential nutrient is lacking?",
+        "standalone_en": "What essential nutrient is lacking?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "conte muladravy kami aahe<user uploaded image for analysis at 'sonakaplot231/2025-05-05-1746407152698.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या दिलेल्या चित्रावरून, द्राक्षांच्या पानांची स्थिती चांगली दिसत आहे, परंतु कोणत्याही विशिष्ट रोग किंवा कीडांच्या नुकसानीचे स्पष्ट संकेत दिसत नाहीत. अधिक तपशीलवार विश्लेषणासाठी, कृपया कोणत्याही विशिष्ट समस्यांच्या क्षेत्रांवर लक्ष केंद्रित करून एक स्पष्ट चित्र प्रदान करा, जसे की रंग बदलणे, ठिपके, किंवा असामान्य वाढीचे नमुने. \n\nतुमच्या पिकाच्या आरोग्याबद्दल अधिक माहिती मिळवण्यासाठी, तुम्हाला आणखी काही तपशील आवश्यक आहेत का?",
+        "en": "From your given picture, the condition of the grape leaves looks good, but there is no clear indication of any specific disease or pest damage. For more detailed analysis, please provide a clear picture focusing on any specific problem areas, such as color changes, patches, or abnormal growth patterns. \n\nTo learn more about the health of your crop, do you need any more details?",
+        "timestamp": {
+          "$date": "2025-05-05T01:06:10.493Z"
+        }
+      }
+    ],
+    "farmer_id": "dnyaneshwarmore",
+    "farmer_plot_ids": [
+      "sonakaplot231",
+      "thompsonplot342589"
+    ],
+    "conversation_id": "68180ef5f7ac3c5270f53d42",
+    "_id": "68180ef5f7ac3c5270f53d42",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-05T01:10:58.203000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-05-05T01:05:58.186000+00:00"
+  }
+]

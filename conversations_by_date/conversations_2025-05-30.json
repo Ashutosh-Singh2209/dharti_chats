@@ -1,0 +1,644 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "tell me the total rainfall from 20th May to 30th may for all the divisions",
+        "en": "tell me the total rainfall from 20th May to 30th may for all the divisions",
+        "timestamp": {
+          "$date": "2025-05-30T13:05:36.594Z"
+        },
+        "standalone_question": "What is the total rainfall for all divisions from May 20th to May 30th?",
+        "standalone_en": "What is the total rainfall for all divisions from May 20th to May 30th?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the total rainfall from 20th May to 30th May for all the divisions:\n\n1. **Srock Attamala**: 751 mm\n2. **Srock Chooralmala Kairo**: 747 mm\n3. **Srock Chooralmala Nero**: No data available\n4. **Srock Mundakai Nero**: No data available\n5. **Srock Mundakkai Kairo**: 1143 mm\n6. **Srock Puthumala**: 897 mm\n\nIf you need further assistance, feel free to ask!",
+        "en": "Here is the total rainfall from 20th May to 30th May for all the divisions:\n\n1. **Srock Attamala**: 751 mm\n2. **Srock Chooralmala Kairo**: 747 mm\n3. **Srock Chooralmala Nero**: No data available\n4. **Srock Mundakai Nero**: No data available\n5. **Srock Mundakkai Kairo**: 1143 mm\n6. **Srock Puthumala**: 897 mm\n\nIf you need further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-30T13:05:51.069Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "exclude Nero and make in centimetre",
+        "en": "exclude Nero and make in centimetre",
+        "timestamp": {
+          "$date": "2025-05-30T13:06:16.475Z"
+        },
+        "standalone_question": "Could you provide the total rainfall from 20th May to 30th May for all divisions, excluding Nero, and convert the measurements to centimeters?",
+        "standalone_en": "Could you provide the total rainfall from 20th May to 30th May for all divisions, excluding Nero, and convert the measurements to centimeters?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the total rainfall from 20th May to 30th May for all the Kairo divisions, converted to centimeters:\n\n1. **Srock Attamala**:  7.51 cm\n2. **Srock Chooralmala Kairo**:  7.47 cm\n3. **Srock Mundakkai Kairo**:  11.43 cm\n4. **Srock Puthumala**:  8.97 cm\n\nIf you need any further assistance, feel free to ask!",
+        "en": "Here is the total rainfall from 20th May to 30th May for all the Kairo divisions, converted to centimeters:\n\n1. **Srock Attamala**:  7.51 cm\n2. **Srock Chooralmala Kairo**:  7.47 cm\n3. **Srock Mundakkai Kairo**:  11.43 cm\n4. **Srock Puthumala**:  8.97 cm\n\nIf you need any further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-30T13:06:24.604Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "add total and average also make it all in table format",
+        "en": "add total and average also make it all in table format",
+        "timestamp": {
+          "$date": "2025-05-30T13:06:42.831Z"
+        },
+        "standalone_question": "Could you provide the total and average rainfall in a table format, excluding the Nero divisions?",
+        "standalone_en": "Could you provide the total and average rainfall in a table format, excluding the Nero divisions?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the rainfall data from 20th May to 30th May for all Kairo divisions, along with the total and average rainfall in centimeters:\n\n| Plot Name                | Total Rainfall (cm) | Average Rainfall (cm) |\n|--------------------------|----------------------|------------------------|\n| Srock Attamala           | 7.51                 | 0.75                   |\n| Srock Chooralmala Kairo  | 7.47                 | 0.75                   |\n| Srock Mundakkai Kairo    | 11.43                | 1.14                   |\n| Srock Puthumala          | 8.97                 | 0.90                   |\n| **Total**                | **35.38**            | **0.88**               |\n\nIf you need any further assistance, feel free to ask!",
+        "en": "Here is the rainfall data from 20th May to 30th May for all Kairo divisions, along with the total and average rainfall in centimeters:\n\n| Plot Name                | Total Rainfall (cm) | Average Rainfall (cm) |\n|--------------------------|----------------------|------------------------|\n| Srock Attamala           | 7.51                 | 0.75                   |\n| Srock Chooralmala Kairo  | 7.47                 | 0.75                   |\n| Srock Mundakkai Kairo    | 11.43                | 1.14                   |\n| Srock Puthumala          | 8.97                 | 0.90                   |\n| **Total**                | **35.38**            | **0.88**               |\n\nIf you need any further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-30T13:06:52.796Z"
+        }
+      }
+    ],
+    "farmer_id": "allenenoshmani",
+    "farmer_plot_ids": [
+      "attamaladivision",
+      "chooralmaladivision",
+      "chooralmalanerodivision",
+      "mundakainerodivision",
+      "mundakkaidivision",
+      "puthumaladivision"
+    ],
+    "conversation_id": "6839ad2077b6a39322c1614e",
+    "_id": "6839ad2077b6a39322c1614e",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-05-30T13:11:42.834000Z"
+    },
+    "tag": "historical data",
+    "conv_date": "2025-05-30T13:05:36.594000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi",
+        "en": "Hi",
+        "timestamp": {
+          "$date": "2025-05-30T09:22:33.157Z"
+        },
+        "standalone_question": "What would you like to talk about?",
+        "standalone_en": "What would you like to talk about?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Hello Jayant! How can I assist you with your farming needs today?",
+        "en": "Hello Jayant! How can I assist you with your farming needs today?",
+        "timestamp": {
+          "$date": "2025-05-30T09:22:35.249Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "What all pests attack pear in this season ",
+        "en": "What all pests attack pear in this season ",
+        "timestamp": {
+          "$date": "2025-05-30T09:22:47.902Z"
+        },
+        "standalone_question": "What pests typically attack pears during this season?",
+        "standalone_en": "What pests typically attack pears during this season?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "During the growth stage of pear trees, the following pests may attack:\n\n1. **Aphids** - They can cause damage by sucking sap from the leaves.\n2. **Caterpillars** - Various species may feed on the leaves and fruits.\n3. **Fruit Flies** - They can infest the fruits, leading to decay.\n4. **Mealybugs** - They can weaken the plant by feeding on sap.\n5. **Leaf Miners** - Their larvae can create tunnels in the leaves, affecting photosynthesis.\n\nIt's essential to monitor your pear trees regularly for any signs of these pests and take appropriate control measures if necessary. Would you like to know about specific control measures for any of these pests?",
+        "en": "During the growth stage of pear trees, the following pests may attack:\n\n1. **Aphids** - They can cause damage by sucking sap from the leaves.\n2. **Caterpillars** - Various species may feed on the leaves and fruits.\n3. **Fruit Flies** - They can infest the fruits, leading to decay.\n4. **Mealybugs** - They can weaken the plant by feeding on sap.\n5. **Leaf Miners** - Their larvae can create tunnels in the leaves, affecting photosynthesis.\n\nIt's essential to monitor your pear trees regularly for any signs of these pests and take appropriate control measures if necessary. Would you like to know about specific control measures for any of these pests?",
+        "timestamp": {
+          "$date": "2025-05-30T09:22:53.490Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Leaf miners pesticide in pear ?",
+        "en": "Leaf miners pesticide in pear ?",
+        "timestamp": {
+          "$date": "2025-05-30T09:23:24.154Z"
+        },
+        "standalone_question": "What pesticide is effective against leaf miners in pear trees?",
+        "standalone_en": "What pesticide is effective against leaf miners in pear trees?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For controlling leaf miners in pear trees, you can use the following pesticides:\n\n1. **Spinosad** - Effective against leaf miners and is less harmful to beneficial insects.\n2. **Imidacloprid** - A systemic insecticide that can help control leaf miners.\n3. **Bacillus thuringiensis (Bt)** - A biological control option that targets caterpillars, including leaf miners.\n\nMake sure to follow the manufacturer's instructions for application rates and timing. It's also advisable to monitor the trees regularly to determine the best time for treatment. Would you like more information on application methods or timing?",
+        "en": "For controlling leaf miners in pear trees, you can use the following pesticides:\n\n1. **Spinosad** - Effective against leaf miners and is less harmful to beneficial insects.\n2. **Imidacloprid** - A systemic insecticide that can help control leaf miners.\n3. **Bacillus thuringiensis (Bt)** - A biological control option that targets caterpillars, including leaf miners.\n\nMake sure to follow the manufacturer's instructions for application rates and timing. It's also advisable to monitor the trees regularly to determine the best time for treatment. Would you like more information on application methods or timing?",
+        "timestamp": {
+          "$date": "2025-05-30T09:23:28.817Z"
+        }
+      }
+    ],
+    "farmer_id": "jayantnyol",
+    "farmer_plot_ids": [
+      "patharnakhnursery"
+    ],
+    "conversation_id": "683978d777b6a39322c1614a",
+    "_id": "683978d777b6a39322c1614a",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-05-30T09:28:24.157000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-05-30T09:22:33.157000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi",
+        "en": "Hi",
+        "timestamp": {
+          "$date": "2025-05-30T09:22:33.157Z"
+        },
+        "standalone_question": "What would you like to talk about today?",
+        "standalone_en": "What would you like to talk about today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Hello Jayant! How can I assist you with your farming needs today?",
+        "en": "Hello Jayant! How can I assist you with your farming needs today?",
+        "timestamp": {
+          "$date": "2025-05-30T09:22:35.249Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "What all pests attack pear in this season ",
+        "en": "What all pests attack pear in this season ",
+        "timestamp": {
+          "$date": "2025-05-30T09:22:47.902Z"
+        },
+        "standalone_question": "What pests typically attack pears during this season?",
+        "standalone_en": "What pests typically attack pears during this season?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "During the growth stage of pear trees, the following pests may attack:\n\n1. **Aphids** - They can cause damage by sucking sap from the leaves.\n2. **Caterpillars** - Various species may feed on the leaves and fruits.\n3. **Fruit Flies** - They can infest the fruits, leading to decay.\n4. **Mealybugs** - They can weaken the plant by feeding on sap.\n5. **Leaf Miners** - Their larvae can create tunnels in the leaves, affecting photosynthesis.\n\nIt's essential to monitor your pear trees regularly for any signs of these pests and take appropriate control measures if necessary. Would you like to know about specific control measures for any of these pests?",
+        "en": "During the growth stage of pear trees, the following pests may attack:\n\n1. **Aphids** - They can cause damage by sucking sap from the leaves.\n2. **Caterpillars** - Various species may feed on the leaves and fruits.\n3. **Fruit Flies** - They can infest the fruits, leading to decay.\n4. **Mealybugs** - They can weaken the plant by feeding on sap.\n5. **Leaf Miners** - Their larvae can create tunnels in the leaves, affecting photosynthesis.\n\nIt's essential to monitor your pear trees regularly for any signs of these pests and take appropriate control measures if necessary. Would you like to know about specific control measures for any of these pests?",
+        "timestamp": {
+          "$date": "2025-05-30T09:22:53.490Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Leaf miners pesticide in pear ?",
+        "en": "Leaf miners pesticide in pear ?",
+        "timestamp": {
+          "$date": "2025-05-30T09:23:24.154Z"
+        },
+        "standalone_question": "What pesticide is effective against leaf miners in pear trees?",
+        "standalone_en": "What pesticide is effective against leaf miners in pear trees?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For controlling leaf miners in pear trees, you can use the following pesticides:\n\n1. **Spinosad** - Effective against leaf miners and is less harmful to beneficial insects.\n2. **Imidacloprid** - A systemic insecticide that can help control leaf miners.\n3. **Bacillus thuringiensis (Bt)** - A biological control option that targets caterpillars, including leaf miners.\n\nMake sure to follow the manufacturer's instructions for application rates and timing. It's also advisable to monitor the trees regularly to determine the best time for treatment. Would you like more information on application methods or timing?",
+        "en": "For controlling leaf miners in pear trees, you can use the following pesticides:\n\n1. **Spinosad** - Effective against leaf miners and is less harmful to beneficial insects.\n2. **Imidacloprid** - A systemic insecticide that can help control leaf miners.\n3. **Bacillus thuringiensis (Bt)** - A biological control option that targets caterpillars, including leaf miners.\n\nMake sure to follow the manufacturer's instructions for application rates and timing. It's also advisable to monitor the trees regularly to determine the best time for treatment. Would you like more information on application methods or timing?",
+        "timestamp": {
+          "$date": "2025-05-30T09:23:28.817Z"
+        }
+      }
+    ],
+    "farmer_id": "jayantnyol",
+    "farmer_plot_ids": [
+      "patharnakhnursery"
+    ],
+    "conversation_id": "683978d777b6a39322c1614a",
+    "_id": "683978d777b6a39322c1614a",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-05-30T09:28:24.157000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-05-30T09:22:33.157000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "एक प्लॉटचे डिटेल्स दाखवत नाहीए काय karave",
+        "en": "Don't show details of a plot What to do",
+        "timestamp": {
+          "$date": "2025-05-30T06:27:08.093Z"
+        },
+        "standalone_question": "What should I do if the details of a plot are not being displayed?",
+        "standalone_en": "What should I do if the details of a plot are not being displayed?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ek plautche details dakhvat nahiye kay karave"
+      },
+      {
+        "role": "assistant",
+        "content": "आपण कोणत्या प्लॉटचे डिटेल्स पाहू इच्छिता? कृपया प्लॉटचे नाव सांगा, म्हणजे मी त्याचे डिटेल्स आपल्याला देऊ शकेन. आपले प्लॉट्स आहेत:\n\n1. SSN\n2. Sudhakar Seedless\n\nकृपया यापैकी कोणते प्लॉट आपल्याला पाहिजे ते सांगा.",
+        "en": "What plot details would you like to see? Please name the plot, so that I can give you the details. Your plots are:\n\n1. SSN\n2. Sudhakar Seedless\n\nPlease tell me which of these plots you want.",
+        "timestamp": {
+          "$date": "2025-05-30T06:27:11.779Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "सुधाकर सीडलेस ",
+        "en": "Sudhakar Seedless ",
+        "timestamp": {
+          "$date": "2025-05-30T06:27:32.971Z"
+        },
+        "standalone_question": "Could you provide the details for the Sudhakar Seedless plot?",
+        "standalone_en": "Could you provide the details for the Sudhakar Seedless plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "sudhakar seedless "
+      },
+      {
+        "role": "assistant",
+        "content": "**सुधाकर सीडलेस प्लॉटचे डिटेल्स:**\n\n- **स्थान:** नाशिक, महाराष्ट्र\n- **प्लॉट क्षेत्र:** 3 एकर\n- **पिकाचे नाव:** द्राक्षे\n- **सोंगण्याची तारीख:** 2 एप्रिल 2025\n- **सक्रिय टप्पा:** **Subcane** (सुरूवात: 5 मे 2025)\n- **गेल्या टप्पे:**\n  - **Foundation Pruning** (सुरूवात: 26 मार्च 2025)\n  - **Break Bud** (सुरूवात: 11 एप्रिल 2025)\n  - **Cane thinning** (सुरूवात: 1 मे 2025)\n- **उपलब्ध टप्पे:**\n  - Subcane\n  - Topping\n  - Fruit Pruning\n  - Break bud\n  - Shoot Development\n  - Beginning of Bloom\n  - Fruit Set\n  - Berry Development\n  - Beginning Veraison\n  - Harvest\n\n**सेंसर वाचन:**\n- **मातीचे तापमान:** 26.12°C\n- **मातीची आर्द्रता:** \n  - Sensor 1: 0 kPa (ओलसर)\n  - Sensor 2: 5 kPa (ओलसर)\n- **बॅटरी:** 100%\n- **Vi:** 9\n- **BATV:** 4271\n\nआपल्याला आणखी काही माहिती हवी आहे का?",
+        "en": "**Sudhakar Seedless Plot Details:**\n\n- **Location:** Nashik, Maharashtra\n- **Plot area:** 3 acres\n- **Pica Name:** Grape\n- **Ask Date:** April 2, 2025\n- **Active Phase:** **Subcane** (Start: 5 May 2025)\n- **Past Phase:**\n  - Foundation Pruning (Start: 26 March 2025)\n  - Break Bud (Start: April 11, 2025)\n  - **Cane thinning** (Start: 1 May 2025)\n- **Available Phases:**\n  - Subcane\n  - Topping\n  - Fruit Pruning\n  - Break bud\n  - Shoot Development\n  - Beginning of Bloom\n  - Fruit Set\n  - Berry Development\n  - Beginning Veraison\n  - Harvest\n\n**Censored Reading:**\n- **Soil Temperature:** 26.12°C\n- **Soil Humidity:** \n  - Sensor 1: 0 kPa (Olser)\n  - Sensor 2: 5 kPa (Olser)\n- **Battery:** 100%\n- **Vi:** 9\n- **BATV:** 4271\n\nDo you need any more information?",
+        "timestamp": {
+          "$date": "2025-05-30T06:27:45.590Z"
+        }
+      }
+    ],
+    "farmer_id": "uttamvalukasbe",
+    "farmer_plot_ids": [
+      "ssn877",
+      "sudhakarseedless429"
+    ],
+    "conversation_id": "68394fbb77b6a39322c16148",
+    "_id": "68394fbb77b6a39322c16148",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-30T06:32:32.973000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-05-30T06:27:08.093000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "स्टेज update का होत नाहीत ",
+        "en": "Why is the stage not updating? ",
+        "timestamp": {
+          "$date": "2025-05-30T05:37:38.707Z"
+        },
+        "standalone_question": "Why are stage updates not happening?",
+        "standalone_en": "Why are stage updates not happening?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "stage update ka hot nahit "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या पिकाच्या स्टेज अपडेट होत नसल्यास, कृपया खालील गोष्टी तपासा:\n\n1. **अॅप अपडेट**: Kairo किंवा Nero अॅप अपडेट केले आहे का? नवीनतम आवृत्ती वापरणे महत्त्वाचे आहे.\n2. **इंटरनेट कनेक्शन**: आपल्या डिव्हाइसचे इंटरनेट कनेक्शन चांगले आहे का? \n3. **डिव्हाइस कनेक्शन**: डिव्हाइस अॅपशी योग्यरित्या कनेक्ट केले आहे का?\n4. **पिकाची स्थिती**: पिकाची स्थिती योग्य आहे का? काही वेळा, पिकाच्या स्थितीमध्ये बदल होण्यासाठी काही वेळ लागतो.\n\nजर या सर्व गोष्टी तपासल्यानंतरही समस्या कायम राहिली, तर कृपया तांत्रिक सहाय्यकांसोबत संपर्क साधा.",
+        "en": "If your crop stage is not updated, please check the following:\n\n1. **App Update**: Has the Kairo or Nero app been updated? It is important to use the latest version.\n2. **Internet connection**: Is your device's internet connection good? \n3. **Device connection**: Is the device properly connected to the app?\n4. **Crop condition**: Is crop condition correct? Sometimes, it takes some time for crop conditions to change.\n\nIf the problem persists even after checking all these things, please contact the technical assistant.",
+        "timestamp": {
+          "$date": "2025-05-30T05:37:43.833Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "लेट छाटणी प्लॉटच्या स्टेज लवकर आल्या आहेत...update झालं पाहीजेत ना ",
+        "en": "The late layoff plot stages have come soon... Should be updated? ",
+        "timestamp": {
+          "$date": "2025-05-30T05:38:34.845Z"
+        },
+        "standalone_question": "Why haven't the updates for the late pruning plot stages been received yet?",
+        "standalone_en": "Why haven't the updates for the late pruning plot stages been received yet?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "late chhatani platochia stage lavkar alya aahet... update jhalam pahijet na "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या प्लॉटच्या स्टेज लवकर आल्यास, हे सामान्यतः पिकाच्या विकासाच्या गतीवर अवलंबून असते. जर लेट छाटणी (प्रुनिंग) केल्यानंतर स्टेज लवकर आल्या असतील, तर याचा अर्थ पिकाची वाढ वेगाने होत आहे.\n\nआपण आपल्या पिकाच्या सध्याच्या स्टेजची माहिती तपासू शकता. जर स्टेज अद्ययावत होत नसल्यास, कृपया खालील गोष्टी तपासा:\n\n1. **अॅप अपडेट**: Kairo किंवा Nero अॅप अपडेट केले आहे का?\n2. **इंटरनेट कनेक्शन**: आपल्या डिव्हाइसचे इंटरनेट कनेक्शन चांगले आहे का?\n3. **डिव्हाइस कनेक्शन**: डिव्हाइस अॅपशी योग्यरित्या कनेक्ट केले आहे का?\n\nजर या सर्व गोष्टी तपासल्यानंतरही समस्या कायम राहिली, तर कृपया तांत्रिक सहाय्यकांसोबत संपर्क साधा. \n\nआपल्याला आणखी काही मदतीची आवश्यकता आहे का?",
+        "en": "If your plot stage arrives early, it usually depends on the speed of crop development. If the stages arrive early after late pruning, it means the crop is growing faster.\n\nYou can check information about the current stage of your crop. If the stage is not updated, please check the following:\n\n1. **App Update**: Has the Kairo or Nero app been updated?\n2. **Internet connection**: Is your device's internet connection good?\n3. **Device connection**: Is the device properly connected to the app?\n\nIf the problem persists even after checking all these things, please contact the technical assistant. \n\nDo you need any more help?",
+        "timestamp": {
+          "$date": "2025-05-30T05:38:42.556Z"
+        }
+      }
+    ],
+    "farmer_id": "yogeshbhausahebchaudhary",
+    "farmer_plot_ids": [
+      "promogranate317",
+      "sudhakar401",
+      "tomato699",
+      "vange"
+    ],
+    "conversation_id": "6839442277b6a39322c16147",
+    "_id": "6839442277b6a39322c16147",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-30T05:43:34.847000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-05-30T05:37:38.707000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "add average also ",
+        "en": "add average also ",
+        "timestamp": {
+          "$date": "2025-05-30T03:07:27.716Z"
+        },
+        "standalone_question": "What is the average as well?",
+        "standalone_en": "What is the average as well?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Please provide the values you would like to add and average, and I'll assist you with that!",
+        "en": "Please provide the values you would like to add and average, and I'll assist you with that!",
+        "timestamp": {
+          "$date": "2025-05-30T03:07:32.190Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "for the above ",
+        "en": "for the above ",
+        "timestamp": {
+          "$date": "2025-05-30T03:07:40.112Z"
+        },
+        "standalone_question": "What values would you like to add and average?",
+        "standalone_en": "What values would you like to add and average?",
+        "retrieval": {
+          "tools": [
+            "average\nreturns the average/mean value of the list of floating values. Don't pass more than 500 values at once. Break into parts if needed.",
+            "add\nThis function returns the sum of the list of floating values. Don't pass more than 500 values at once. Break into parts if needed."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems that the irrigation installation settings for all your plots are currently set to zero. Here are the details:\n\n1. **Srock Attamala**\n   - Root Width: 0 inches\n   - Root Depth: 0 inches\n   - Soil Retention: 0 mm\n   - Dripper Distance: 0 mm\n   - Dripper Discharge: 0 liters\n\n2. **Srock Chooralmala Kairo**\n   - Root Width: 0 inches\n   - Root Depth: 0 inches\n   - Soil Retention: 0 mm\n   - Dripper Distance: 0 mm\n   - Dripper Discharge: 0 liters\n\n3. **Srock Chooralmala Nero**\n   - Root Width: 0 inches\n   - Root Depth: 0 inches\n   - Soil Retention: 0 mm\n   - Dripper Distance: 0 mm\n   - Dripper Discharge: 0 liters\n\n4. **Srock Mundakai Nero**\n   - Root Width: 0 inches\n   - Root Depth: 0 inches\n   - Soil Retention: 0 mm\n   - Dripper Distance: 0 mm\n   - Dripper Discharge: 0 liters\n\n5. **Srock Mundakkai Kairo**\n   - Root Width: 0 inches\n   - Root Depth: 0 inches\n   - Soil Retention: 0 mm\n   - Dripper Distance: 0 mm\n   - Dripper Discharge: 0 liters\n\n6. **Srock Puthumala**\n   - Root Width: 0 inches\n   - Root Depth: 0 inches\n   - Soil Retention: 0 mm\n   - Dripper Distance: 0 mm\n   - Dripper Discharge: 0 liters\n\nSince all values are zero, I cannot calculate the irrigation hours. Please provide the following missing values for at least one of your plots:\n\n- Root Width (inches)\n- Root Depth (inches)\n- Soil Retention (mm)\n- Dripper Distance (feet)\n- Dripper Discharge (liters)\n\nOnce you provide these details, I can complete the calculation for you!",
+        "en": "It seems that the irrigation installation settings for all your plots are currently set to zero. Here are the details:\n\n1. **Srock Attamala**\n   - Root Width: 0 inches\n   - Root Depth: 0 inches\n   - Soil Retention: 0 mm\n   - Dripper Distance: 0 mm\n   - Dripper Discharge: 0 liters\n\n2. **Srock Chooralmala Kairo**\n   - Root Width: 0 inches\n   - Root Depth: 0 inches\n   - Soil Retention: 0 mm\n   - Dripper Distance: 0 mm\n   - Dripper Discharge: 0 liters\n\n3. **Srock Chooralmala Nero**\n   - Root Width: 0 inches\n   - Root Depth: 0 inches\n   - Soil Retention: 0 mm\n   - Dripper Distance: 0 mm\n   - Dripper Discharge: 0 liters\n\n4. **Srock Mundakai Nero**\n   - Root Width: 0 inches\n   - Root Depth: 0 inches\n   - Soil Retention: 0 mm\n   - Dripper Distance: 0 mm\n   - Dripper Discharge: 0 liters\n\n5. **Srock Mundakkai Kairo**\n   - Root Width: 0 inches\n   - Root Depth: 0 inches\n   - Soil Retention: 0 mm\n   - Dripper Distance: 0 mm\n   - Dripper Discharge: 0 liters\n\n6. **Srock Puthumala**\n   - Root Width: 0 inches\n   - Root Depth: 0 inches\n   - Soil Retention: 0 mm\n   - Dripper Distance: 0 mm\n   - Dripper Discharge: 0 liters\n\nSince all values are zero, I cannot calculate the irrigation hours. Please provide the following missing values for at least one of your plots:\n\n- Root Width (inches)\n- Root Depth (inches)\n- Soil Retention (mm)\n- Dripper Distance (feet)\n- Dripper Discharge (liters)\n\nOnce you provide these details, I can complete the calculation for you!",
+        "timestamp": {
+          "$date": "2025-05-30T03:07:50.480Z"
+        }
+      }
+    ],
+    "farmer_id": "allenenoshmani",
+    "farmer_plot_ids": [
+      "attamaladivision",
+      "chooralmaladivision",
+      "chooralmalanerodivision",
+      "mundakainerodivision",
+      "mundakkaidivision",
+      "puthumaladivision"
+    ],
+    "conversation_id": "683920ef673c3285b60142bf",
+    "_id": "683920ef673c3285b60142bf",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-05-30T03:12:40.114000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-05-30T03:07:27.716000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "This is the stage of crop ,what’s the cause of dropping <user uploaded image for analysis at 'shivajibodhkefarmguavakairo/2025-05-30-1748572871219.jpeg'>",
+        "en": "This is the stage of crop ,what’s the cause of dropping <user uploaded image for analysis at 'shivajibodhkefarmguavakairo/2025-05-30-1748572871219.jpeg'>",
+        "timestamp": {
+          "$date": "2025-05-30T02:41:29.487Z"
+        },
+        "standalone_question": "What could be the cause of the crop dropping at this stage?",
+        "standalone_en": "What could be the cause of the crop dropping at this stage?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of your crop image shows healthy green leaves with a small green fruit, indicating that the crop is in the fruiting stage. However, there are some minor damages on the leaves, which could be due to pests or environmental stress.\n\nTo address the dropping issue, I recommend checking for any signs of pests or diseases, such as discoloration, spots, or unusual growth patterns on the leaves. If you suspect any pest or disease issues, please consider providing a clearer image focusing on the affected areas for a more detailed assessment.\n\nIf you would like to proceed with pest management, I can suggest appropriate sprays. Please confirm if you want to do that.",
+        "en": "The analysis of your crop image shows healthy green leaves with a small green fruit, indicating that the crop is in the fruiting stage. However, there are some minor damages on the leaves, which could be due to pests or environmental stress.\n\nTo address the dropping issue, I recommend checking for any signs of pests or diseases, such as discoloration, spots, or unusual growth patterns on the leaves. If you suspect any pest or disease issues, please consider providing a clearer image focusing on the affected areas for a more detailed assessment.\n\nIf you would like to proceed with pest management, I can suggest appropriate sprays. Please confirm if you want to do that.",
+        "timestamp": {
+          "$date": "2025-05-30T02:41:47.249Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "This is Guava plant stage <user uploaded image for analysis at 'shivajibodhkefarmguavakairo/2025-05-30-1748573123899.jpeg'>",
+        "en": "This is Guava plant stage <user uploaded image for analysis at 'shivajibodhkefarmguavakairo/2025-05-30-1748573123899.jpeg'>",
+        "timestamp": {
+          "$date": "2025-05-30T02:45:40.864Z"
+        },
+        "standalone_question": "What stage is the Guava plant in based on the uploaded image?",
+        "standalone_en": "What stage is the Guava plant in based on the uploaded image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of your guava plant image shows healthy green leaves and some developing fruit, indicating that the plant is in a productive stage. There are no clear signs of disease or pest damage visible in the image.\n\nTo maintain the health of your guava plant, consider the following:\n\n1. **Leaf Color and Texture**: The leaves appear vibrant and healthy, which is a positive sign.\n2. **Fruit Development**: The presence of small fruits indicates good growth.\n3. **Pest Inspection**: Regularly check for any signs of pests, such as holes in the leaves or webbing.\n\nIf you notice any specific symptoms like discoloration, wilting, or unusual spots in the future, please provide a clearer image focusing on those areas for a more detailed analysis. If you have any further concerns or questions, feel free to ask!",
+        "en": "The analysis of your guava plant image shows healthy green leaves and some developing fruit, indicating that the plant is in a productive stage. There are no clear signs of disease or pest damage visible in the image.\n\nTo maintain the health of your guava plant, consider the following:\n\n1. **Leaf Color and Texture**: The leaves appear vibrant and healthy, which is a positive sign.\n2. **Fruit Development**: The presence of small fruits indicates good growth.\n3. **Pest Inspection**: Regularly check for any signs of pests, such as holes in the leaves or webbing.\n\nIf you notice any specific symptoms like discoloration, wilting, or unusual spots in the future, please provide a clearer image focusing on those areas for a more detailed analysis. If you have any further concerns or questions, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-30T02:45:55.398Z"
+        }
+      }
+    ],
+    "farmer_id": "sumeetbodkhe",
+    "farmer_plot_ids": [
+      "shivajibodhkefarmguavakairo",
+      "shivajibodkefarmguavanero",
+      "ssbfarmgrapesnero",
+      "ssbfarmguavakairo",
+      "ssbfarmguavanero1",
+      "ssbfarmguavanero2"
+    ],
+    "conversation_id": "68391ad5673c3285b60142be",
+    "_id": "68391ad5673c3285b60142be",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-05-30T02:50:40.867000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-05-30T02:41:29.487000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Why this tiny fruit dropped <user uploaded image for analysis at 'shivajibodhkefarmguavakairo/2025-05-30-1748572248853.jpeg'>",
+        "en": "Why this tiny fruit dropped <user uploaded image for analysis at 'shivajibodhkefarmguavakairo/2025-05-30-1748572248853.jpeg'>",
+        "timestamp": {
+          "$date": "2025-05-30T02:31:22.548Z"
+        },
+        "standalone_question": "What could be the reasons for this small fruit to have fallen?",
+        "standalone_en": "What could be the reasons for this small fruit to have fallen?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The tiny fruit appears to have a split or crack, along with some discoloration. This could indicate a few potential issues:\n\n1. **Physiological Stress**: The splitting may be due to rapid growth or fluctuations in water availability, causing the fruit to expand too quickly.\n2. **Pest Damage**: The discoloration and damage could suggest the presence of pests feeding on the fruit.\n3. **Disease**: Fungal or bacterial infections could lead to similar symptoms, especially if there are signs of rot or unusual growths.\n\n### Recommended Actions:\n- **Inspect for Pests**: Check the surrounding area and other fruits for signs of pests.\n- **Water Management**: Ensure consistent watering practices to avoid stress on the plants.\n- **Fungicide or Insecticide**: If pests or diseases are confirmed, appropriate sprays may be necessary.\n\nIf you can provide the crop type and its growth stage, I can assist you further with specific recommendations.",
+        "en": "The tiny fruit appears to have a split or crack, along with some discoloration. This could indicate a few potential issues:\n\n1. **Physiological Stress**: The splitting may be due to rapid growth or fluctuations in water availability, causing the fruit to expand too quickly.\n2. **Pest Damage**: The discoloration and damage could suggest the presence of pests feeding on the fruit.\n3. **Disease**: Fungal or bacterial infections could lead to similar symptoms, especially if there are signs of rot or unusual growths.\n\n### Recommended Actions:\n- **Inspect for Pests**: Check the surrounding area and other fruits for signs of pests.\n- **Water Management**: Ensure consistent watering practices to avoid stress on the plants.\n- **Fungicide or Insecticide**: If pests or diseases are confirmed, appropriate sprays may be necessary.\n\nIf you can provide the crop type and its growth stage, I can assist you further with specific recommendations.",
+        "timestamp": {
+          "$date": "2025-05-30T02:31:38.109Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Guava ,fruit setting stage ",
+        "en": "Guava ,fruit setting stage ",
+        "timestamp": {
+          "$date": "2025-05-30T02:35:56.557Z"
+        },
+        "standalone_question": "What are the potential causes for the tiny guava fruit to drop during the fruit setting stage?",
+        "standalone_en": "What are the potential causes for the tiny guava fruit to drop during the fruit setting stage?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the image indicates that the tiny fruit has a split or crack, along with some discoloration. This could be due to:\n\n1. **Physiological Stress**: Irregular watering or rapid growth may cause the fruit to expand too quickly.\n2. **Pest Damage**: The discoloration might suggest pests feeding on the fruit.\n3. **Disease**: Fungal or bacterial infections could also be a factor.\n\n### Recommended Actions:\n- **Inspect for Pests**: Look for any signs of pests on the fruit and surrounding plants.\n- **Water Management**: Ensure consistent watering to avoid stress on the plants.\n- **Fungicide or Insecticide**: If pests or diseases are confirmed, consider using appropriate sprays.\n\nFor guava in the fruit setting stage, you can use the following:\n\n- **Insecticide**: Imidacloprid 600 FS at 5 to 8 ml/kg seeds.\n- **Fungicide**: Thiram at 2 to 3 gm/kg seed.\n\nIf you have any specific concerns or need further assistance, feel free to ask!",
+        "en": "The analysis of the image indicates that the tiny fruit has a split or crack, along with some discoloration. This could be due to:\n\n1. **Physiological Stress**: Irregular watering or rapid growth may cause the fruit to expand too quickly.\n2. **Pest Damage**: The discoloration might suggest pests feeding on the fruit.\n3. **Disease**: Fungal or bacterial infections could also be a factor.\n\n### Recommended Actions:\n- **Inspect for Pests**: Look for any signs of pests on the fruit and surrounding plants.\n- **Water Management**: Ensure consistent watering to avoid stress on the plants.\n- **Fungicide or Insecticide**: If pests or diseases are confirmed, consider using appropriate sprays.\n\nFor guava in the fruit setting stage, you can use the following:\n\n- **Insecticide**: Imidacloprid 600 FS at 5 to 8 ml/kg seeds.\n- **Fungicide**: Thiram at 2 to 3 gm/kg seed.\n\nIf you have any specific concerns or need further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-30T02:36:14.157Z"
+        }
+      }
+    ],
+    "farmer_id": "sumeetbodkhe",
+    "farmer_plot_ids": [
+      "shivajibodhkefarmguavakairo",
+      "shivajibodkefarmguavanero",
+      "ssbfarmgrapesnero",
+      "ssbfarmguavakairo",
+      "ssbfarmguavanero1",
+      "ssbfarmguavanero2"
+    ],
+    "conversation_id": "6839187977b6a39322c16145",
+    "_id": "6839187977b6a39322c16145",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-30T02:40:56.560000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-05-30T02:31:22.548000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Why this tiny fruit dropped <user uploaded image for analysis at 'shivajibodhkefarmguavakairo/2025-05-30-1748572248853.jpeg'>",
+        "en": "Why this tiny fruit dropped <user uploaded image for analysis at 'shivajibodhkefarmguavakairo/2025-05-30-1748572248853.jpeg'>",
+        "timestamp": {
+          "$date": "2025-05-30T02:31:22.548Z"
+        },
+        "standalone_question": "What could be the reasons for this small fruit to have fallen?",
+        "standalone_en": "What could be the reasons for this small fruit to have fallen?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The tiny fruit appears to have a split or crack, along with some discoloration. This could indicate a few potential issues:\n\n1. **Physiological Stress**: The splitting may be due to rapid growth or fluctuations in water availability, causing the fruit to expand too quickly.\n2. **Pest Damage**: The discoloration and damage could suggest the presence of pests feeding on the fruit.\n3. **Disease**: Fungal or bacterial infections could lead to similar symptoms, especially if there are signs of rot or unusual growths.\n\n### Recommended Actions:\n- **Inspect for Pests**: Check the surrounding area and other fruits for signs of pests.\n- **Water Management**: Ensure consistent watering practices to avoid stress on the plants.\n- **Fungicide or Insecticide**: If pests or diseases are confirmed, appropriate sprays may be necessary.\n\nIf you can provide the crop type and its growth stage, I can assist you further with specific recommendations.",
+        "en": "The tiny fruit appears to have a split or crack, along with some discoloration. This could indicate a few potential issues:\n\n1. **Physiological Stress**: The splitting may be due to rapid growth or fluctuations in water availability, causing the fruit to expand too quickly.\n2. **Pest Damage**: The discoloration and damage could suggest the presence of pests feeding on the fruit.\n3. **Disease**: Fungal or bacterial infections could lead to similar symptoms, especially if there are signs of rot or unusual growths.\n\n### Recommended Actions:\n- **Inspect for Pests**: Check the surrounding area and other fruits for signs of pests.\n- **Water Management**: Ensure consistent watering practices to avoid stress on the plants.\n- **Fungicide or Insecticide**: If pests or diseases are confirmed, appropriate sprays may be necessary.\n\nIf you can provide the crop type and its growth stage, I can assist you further with specific recommendations.",
+        "timestamp": {
+          "$date": "2025-05-30T02:31:38.109Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Guava ,fruit setting stage ",
+        "en": "Guava ,fruit setting stage ",
+        "timestamp": {
+          "$date": "2025-05-30T02:35:56.557Z"
+        },
+        "standalone_question": "What are the potential causes for the tiny guava fruit to drop during the fruit setting stage?",
+        "standalone_en": "What are the potential causes for the tiny guava fruit to drop during the fruit setting stage?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the image indicates that the tiny fruit has a split or crack, along with some discoloration. This could be due to:\n\n1. **Physiological Stress**: Irregular watering or rapid growth may cause the fruit to expand too quickly.\n2. **Pest Damage**: The discoloration might suggest pests feeding on the fruit.\n3. **Disease**: Fungal or bacterial infections could also be a factor.\n\n### Recommended Actions:\n- **Inspect for Pests**: Look for any signs of pests on the fruit and surrounding plants.\n- **Water Management**: Ensure consistent watering to avoid stress on the plants.\n- **Fungicide or Insecticide**: If pests or diseases are confirmed, consider using appropriate sprays.\n\nFor guava in the fruit setting stage, you can use the following:\n\n- **Insecticide**: Imidacloprid 600 FS at 5 to 8 ml/kg seeds.\n- **Fungicide**: Thiram at 2 to 3 gm/kg seed.\n\nIf you have any specific concerns or need further assistance, feel free to ask!",
+        "en": "The analysis of the image indicates that the tiny fruit has a split or crack, along with some discoloration. This could be due to:\n\n1. **Physiological Stress**: Irregular watering or rapid growth may cause the fruit to expand too quickly.\n2. **Pest Damage**: The discoloration might suggest pests feeding on the fruit.\n3. **Disease**: Fungal or bacterial infections could also be a factor.\n\n### Recommended Actions:\n- **Inspect for Pests**: Look for any signs of pests on the fruit and surrounding plants.\n- **Water Management**: Ensure consistent watering to avoid stress on the plants.\n- **Fungicide or Insecticide**: If pests or diseases are confirmed, consider using appropriate sprays.\n\nFor guava in the fruit setting stage, you can use the following:\n\n- **Insecticide**: Imidacloprid 600 FS at 5 to 8 ml/kg seeds.\n- **Fungicide**: Thiram at 2 to 3 gm/kg seed.\n\nIf you have any specific concerns or need further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-30T02:36:14.157Z"
+        }
+      }
+    ],
+    "farmer_id": "sumeetbodkhe",
+    "farmer_plot_ids": [
+      "shivajibodhkefarmguavakairo",
+      "shivajibodkefarmguavanero",
+      "ssbfarmgrapesnero",
+      "ssbfarmguavakairo",
+      "ssbfarmguavanero1",
+      "ssbfarmguavanero2"
+    ],
+    "conversation_id": "6839187977b6a39322c16145",
+    "_id": "6839187977b6a39322c16145",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-30T02:40:56.560000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-05-30T02:31:22.548000+00:00"
+  }
+]

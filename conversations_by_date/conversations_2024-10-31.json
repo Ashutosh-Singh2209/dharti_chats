@@ -1,0 +1,458 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "When I want to talk spray",
+        "timestamp": {
+          "$date": "2024-10-31T15:56:05.437Z"
+        },
+        "standalone_question": "What should I do when I want to talk about spray?",
+        "standalone_en": "What should I do when I want to talk about spray?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems there are no scheduled spray recommendations for any of your plots for the upcoming week. You can monitor the conditions and spray as needed based on the current pest and disease situation. If you notice any issues, feel free to check back for updates.",
+        "timestamp": {
+          "$date": "2024-10-31T15:56:12.232Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Which is the best guava Verity ",
+        "timestamp": {
+          "$date": "2024-10-31T15:56:31.836Z"
+        },
+        "standalone_question": "What is the best variety of guava?",
+        "standalone_en": "What is the best variety of guava?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The best guava varieties can vary based on local climate, soil conditions, and market demand. However, some popular and high-yielding guava varieties in India include:\n\n1. **Allahabad Safeda**: Known for its sweet taste and high yield.\n2. **L-49**: A hybrid variety that is resistant to diseases and has good fruit quality.\n3. **Pink Guava**: Known for its unique flavor and attractive color.\n4. **White Guava**: Popular for its crisp texture and sweet taste.\n\nIt's advisable to choose a variety that suits your local conditions and market preferences.",
+        "timestamp": {
+          "$date": "2024-10-31T15:56:35.505Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Best guava spray for gaggi",
+        "timestamp": {
+          "$date": "2024-10-31T15:57:15.806Z"
+        },
+        "standalone_question": "What is the best spray for guava plants, specifically for the Gaggi variety?",
+        "standalone_en": "What is the best spray for guava plants, specifically for the Gaggi variety?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For controlling pests like Gaggi (fruit fly) in guava, you can use the following sprays:\n\n1. **Malathion**: Effective against fruit flies. Use it at a concentration of 0.1-0.2%.\n2. **Spinosad**: A natural insecticide that is effective against fruit flies and is safe for beneficial insects.\n3. **Neem Oil**: A natural pesticide that can help deter various pests, including fruit flies.\n\nAlways follow the manufacturer's instructions for application rates and safety precautions. Additionally, consider integrating cultural practices like trapping to manage fruit fly populations effectively.",
+        "timestamp": {
+          "$date": "2024-10-31T15:57:20.136Z"
+        }
+      }
+    ],
+    "farmer_id": "varunmgowda",
+    "farmer_plot_ids": [
+      "bottleguard1690370133678",
+      "guavaplotmunirajfarm",
+      "guavaplotmunirajfarm2"
+    ],
+    "conversation_id": "6723a8954ed5827a5daf49bf",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-10-31T15:56:05.437000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "When I want to talk spray",
+        "timestamp": {
+          "$date": "2024-10-31T15:56:05.437Z"
+        },
+        "standalone_question": "What should I do when I want to talk about spray?",
+        "standalone_en": "What should I do when I want to talk about spray?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems there are no scheduled spray recommendations for any of your plots for the upcoming week. You can monitor the conditions and spray as needed based on the current pest and disease situation. If you notice any issues, feel free to check back for updates.",
+        "timestamp": {
+          "$date": "2024-10-31T15:56:12.232Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Which is the best guava Verity ",
+        "timestamp": {
+          "$date": "2024-10-31T15:56:31.836Z"
+        },
+        "standalone_question": "What is the best variety of guava?",
+        "standalone_en": "What is the best variety of guava?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The best guava varieties can vary based on local climate, soil conditions, and market demand. However, some popular and high-yielding guava varieties in India include:\n\n1. **Allahabad Safeda**: Known for its sweet taste and high yield.\n2. **L-49**: A hybrid variety that is resistant to diseases and has good fruit quality.\n3. **Pink Guava**: Known for its unique flavor and attractive color.\n4. **White Guava**: Popular for its crisp texture and sweet taste.\n\nIt's advisable to choose a variety that suits your local conditions and market preferences.",
+        "timestamp": {
+          "$date": "2024-10-31T15:56:35.505Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Best guava spray for gaggi",
+        "timestamp": {
+          "$date": "2024-10-31T15:57:15.806Z"
+        },
+        "standalone_question": "What is the best spray for guava plants, specifically for the Gaggi variety?",
+        "standalone_en": "What is the best spray for guava plants, specifically for the Gaggi variety?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For controlling pests like Gaggi (fruit fly) in guava, you can use the following sprays:\n\n1. **Malathion**: Effective against fruit flies. Use it at a concentration of 0.1-0.2%.\n2. **Spinosad**: A natural insecticide that is effective against fruit flies and is safe for beneficial insects.\n3. **Neem Oil**: A natural pesticide that can help deter various pests, including fruit flies.\n\nAlways follow the manufacturer's instructions for application rates and safety precautions. Additionally, consider integrating cultural practices like trapping to manage fruit fly populations effectively.",
+        "timestamp": {
+          "$date": "2024-10-31T15:57:20.136Z"
+        }
+      }
+    ],
+    "farmer_id": "varunmgowda",
+    "farmer_plot_ids": [
+      "bottleguard1690370133678",
+      "guavaplotmunirajfarm",
+      "guavaplotmunirajfarm2"
+    ],
+    "conversation_id": "6723a8954ed5827a5daf49bf",
+    "tag": "others",
+    "conv_date": "2024-10-31T15:56:05.437000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tell me <user uploaded image for analysis at 'ajor/2024-10-31-1730387507154.jpg'>",
+        "timestamp": {
+          "$date": "2024-10-31T15:12:02.890Z"
+        },
+        "standalone_question": "What can you tell me about the image I uploaded?",
+        "standalone_en": "What can you tell me about the image I uploaded?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of your cotton crop image indicates that the crop health is currently **unhealthy**. Here are the details:\n\n### Diagnosis:\n- **Common Issue**: Leaf Reddening of Cotton\n- **Likelihood**: Likely\n\n### Symptoms:\n- Leaf margins initially turn red, eventually affecting the entire leaf.\n- Wilting and reddening of stems.\n- Shedding of leaves and fruits.\n- Stunted growth.\n\n### Treatment Recommendations:\n- There is no specific chemical control for leaf reddening in cotton. \n- Consider an integrated approach with preventive measures and biological treatments if available.\n- Ensure a good supply of farmyard manure, maintain a proper irrigation schedule, and provide balanced fertilization to help mitigate the issue.\n- If symptoms appear early in the season, nutrient amendments may be beneficial.\n- If symptoms coincide with the opening of the first bolls, no action may be necessary.\n\n### Additional Notes:\n- The image quality was mediocre in distance but good in focus.\n\nPlease take appropriate measures based on this analysis to improve the health of your cotton crop.",
+        "timestamp": {
+          "$date": "2024-10-31T15:12:10.560Z"
+        }
+      }
+    ],
+    "farmer_id": "vishalbhai9316730543",
+    "farmer_plot_ids": [
+      "ajor"
+    ],
+    "conversation_id": "67239e4271d64c74cc3daecb",
+    "tag": "others",
+    "conv_date": "2024-10-31T15:12:02.890000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "बॅटरी किती आहे ",
+        "timestamp": {
+          "$date": "2024-10-31T14:09:37.967Z"
+        },
+        "standalone_question": "What is the battery level?",
+        "standalone_en": "What is the battery level?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is the current battery health and battery level of my Fyllo device?\nA: I'll check the battery information for your device. Let me gather that information for you.\n\nTo answer this question, I need to use the live sensor data tool to retrieve the most current battery readings.\n\nTool Selection: I should use the live_sensor_data tool\nTool Input: {\"plot_ids\": [\"your_plot_id\"]}\nTool Output: \n```\n{\n  \"airTemperature\": 28,\n  \"airHumidity\": 65,\n  \"soilTemperature\": 26,\n  \"soilMoisture1\": \"45 kPa\",\n  \"soilMoisture2\": \"62 kPa\",\n  \"leafWetness\": 0,\n  \"airPressure\": 1013.2,\n  \"lightIntensity\": 12540,\n  \"uvIndex\": 6,\n  \"windSpeed\": \"3.5kmph\",\n  \"windDirection\": \"NE\",\n  \"rainfall\": 0,\n  \"battery\": \"82%\",\n  \"timestamp\": \"2023-10-15 14:30:00\"\n}\n```\n\nYour Fyllo device currently has a battery level of 82%, which is good. This information was recorded at 2:30 PM today. The battery is in good health and has sufficient charge for continued operation."
+          ]
+        },
+        "content_transliterated": "battery kiti aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot No 1 SSN\" च्या बॅटरीची स्थिती 47% आहे.",
+        "timestamp": {
+          "$date": "2024-10-31T14:09:41.808Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "16 दिवसांचा प्लॉट झाला आहे ",
+        "timestamp": {
+          "$date": "2024-10-31T14:10:29.095Z"
+        },
+        "standalone_question": "How long has the plot been?",
+        "standalone_en": "How long has the plot been?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "16 divasancha plot jhala aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"Plot No 1 SSN\" च्या वेलांचा सध्या \"Shoot Development\" हा सक्रिय टप्पा आहे, जो 30 ऑक्टोबर 2024 पासून सुरू झाला आहे. त्यामुळे, 16 दिवसांचा प्लॉट झाला आहे.",
+        "timestamp": {
+          "$date": "2024-10-31T14:10:33.208Z"
+        }
+      }
+    ],
+    "farmer_id": "sachinniphade",
+    "farmer_plot_ids": [
+      "plotno1ssnraje"
+    ],
+    "conversation_id": "67238fa171d64c74cc3daeca",
+    "tag": "others",
+    "conv_date": "2024-10-31T14:09:37.967000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hello",
+        "timestamp": {
+          "$date": "2024-10-31T06:38:05.553Z"
+        },
+        "standalone_question": "What would you like to talk about?",
+        "standalone_en": "What would you like to talk about?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "नमस्कार, दिनेश पाटील! आपल्याला कशाबद्दल मदतीची आवश्यकता आहे?",
+        "timestamp": {
+          "$date": "2024-10-31T06:38:07.975Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Sigatoka ",
+        "timestamp": {
+          "$date": "2024-10-31T06:39:01.798Z"
+        },
+        "standalone_question": "What can you tell me about Sigatoka?",
+        "standalone_en": "What can you tell me about Sigatoka?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपण \"सिगाटोका\" रोगाबद्दल माहिती विचारत आहात. सिगाटोका एक फुलांवर होणारा रोग आहे जो मुख्यतः केळीच्या पिकांवर आढळतो. यामुळे पानांवर काळे किंवा तपकिरी डाग पडतात, ज्यामुळे पानांची गुणवत्ता कमी होते आणि उत्पादनावर परिणाम होतो.\n\nआपल्याला सिगाटोका रोगाच्या संभाव्य प्रादुर्भावाबद्दल माहिती हवी आहे का? किंवा आपण यावर नियंत्रण ठेवण्यासाठी काही उपाययोजना विचारत आहात का?",
+        "timestamp": {
+          "$date": "2024-10-31T06:39:05.605Z"
+        }
+      }
+    ],
+    "farmer_id": "dineshpatil",
+    "farmer_plot_ids": [
+      "patilfarm1",
+      "patilfarm2"
+    ],
+    "conversation_id": "672325cc71d64c74cc3daec6",
+    "tag": "disease_pest",
+    "conv_date": "2024-10-31T06:38:05.553000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "करपा  दिसत आहे कोणता स्प्रे घ्यावा ",
+        "timestamp": {
+          "$date": "2024-10-31T04:24:18.272Z"
+        },
+        "standalone_question": "Which spray should I take for my condition?",
+        "standalone_en": "Which spray should I take for my condition?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "karpa disat aahe konta spray ghyava "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या \"Plot No 1 Clone\" मध्ये कोणत्या रोग किंवा कीडांचा सामना करावा लागतो हे जाणून घेण्यासाठी, कृपया एक पिकाची छायाचित्र अपलोड करा. त्यानंतर मी त्याचे विश्लेषण करून योग्य स्प्रेची शिफारस करेन.",
+        "timestamp": {
+          "$date": "2024-10-31T04:24:20.985Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "करपा साठी कोणता स्प्रे घ्यावा <user uploaded image for analysis at 'plotno1clone103/2024-10-31-1730348674805.jpg'>",
+        "timestamp": {
+          "$date": "2024-10-31T04:24:45.036Z"
+        },
+        "standalone_question": "What spray should be used for the disease?",
+        "standalone_en": "What spray should be used for the disease?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या पिकाच्या छायाचित्रानुसार, काही संभाव्य रोगांचे निदान झाले आहे. खालील रोगांवर लक्ष द्या:\n\n1. **अँथ्रॅक्नोज (Anthracnose of Grape)**:\n   - लक्षणे: तरुण पानांवर लहान तपकिरी ठिपके, मोठे राखाडी आणि कोरडे ठिपके, पानांमध्ये छिद्र निर्माण करणारे ठिपके.\n   - उपचार: \n     - लिक्विड लाइम सल्फर किंवा बोरडो मिश्रणाचा स्प्रे बडबडण्याच्या वेळी वापरा.\n     - कॅप्टन, क्लोरोथालोनिल, आणि मॅन्कोजेब यांसारखे फंगिसाइड्स २ आठवड्यांच्या अंतराने वापरा.\n\n2. **ग्रेप रस्ट (Grape Rust)**:\n   - लक्षणे: पानांच्या तळाशी नारिंगी-तपकिरी पावडर, लवकर पान गळणे.\n   - उपचार: \n     - बोरडो मिश्रण, डिफोलाटान, प्रोपिकोनाझोल, किंवा टेबुकोनाझोल यांसारखे फंगिसाइड्स वापरा.\n\n3. **डाऊनी मिल्ड्यू (Downy Mildew of Grape)**:\n   - लक्षणे: पानांवर पिवळसर-हिरव्या तेलकट ठिपके, पांढरे किंवा राखाडी कापडासारखे आवरण.\n   - उपचार: \n     - बोरडो मिश्रण आणि डिथिओकार्बामेट्स यांसारखे फंगिसाइड्स वापरा.\n\nसर्व रोगांवर प्रभावीपणे नियंत्रण ठेवण्यासाठी एकत्रित दृष्टिकोन वापरा आणि योग्य फंगिसाइड्सची निवड करा.",
+        "timestamp": {
+          "$date": "2024-10-31T04:24:53.215Z"
+        }
+      }
+    ],
+    "farmer_id": "vishalbankar",
+    "farmer_plot_ids": [
+      "plotno1clone103"
+    ],
+    "conversation_id": "6723067271d64c74cc3daec5",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-10-31T04:24:18.272000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Flowering stage in ",
+        "timestamp": {
+          "$date": "2024-10-31T01:43:57.942Z"
+        },
+        "standalone_question": "What is the flowering stage in plants?",
+        "standalone_en": "What is the flowering stage in plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The flowering stage in grape cultivation is crucial as it marks the transition from vegetative growth to fruit development. During this stage, the following practices are important:\n\n1. **Water Management**: Ensure adequate moisture levels in the soil, as flowering requires consistent watering. Monitor soil moisture closely.\n\n2. **Nutrient Management**: Fertilization should be adjusted to support flowering. Use balanced fertilizers that provide essential nutrients like nitrogen, phosphorus, and potassium.\n\n3. **Pest and Disease Control**: Monitor for pests and diseases that can affect flowering. Implement control measures as needed.\n\n4. **Pruning**: Proper pruning before flowering can help improve air circulation and light penetration, which are essential for healthy flower development.\n\n5. **Weather Monitoring**: Keep an eye on weather conditions, as extreme temperatures or humidity can impact flowering.\n\nIf you need specific advice or forecasts related to your plot, please let me know!",
+        "timestamp": {
+          "$date": "2024-10-31T01:44:05.442Z"
+        }
+      }
+    ],
+    "farmer_id": "bhushangaikwad",
+    "farmer_plot_ids": [
+      "thompsonplotno1krushnakunj"
+    ],
+    "conversation_id": "6722e0dd71d64c74cc3daec4",
+    "tag": "others",
+    "conv_date": "2024-10-31T01:43:57.942000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ya device chi battery low ahe ka",
+        "timestamp": {
+          "$date": "2024-10-31T00:43:17.345Z"
+        },
+        "standalone_question": "Is the device's battery low?",
+        "standalone_en": "Is the device's battery low?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉट्सच्या डिव्हाइसची बॅटरी स्थिती खालीलप्रमाणे आहे:\n\n1. **Plot No.1**: 99% (चांगली स्थिती)\n2. **Plot No.2**: 34% (कमी बॅटरी, लवकर रिचार्ज करणे आवश्यक आहे)\n3. **Plot No.3 sonaka**: 79% (चांगली स्थिती)\n4. **Plot No.4 Thompson**: 68% (चांगली स्थिती)\n\nफक्त Plot No.2 च्या डिव्हाइसची बॅटरी कमी आहे. कृपया त्याला लवकर रिचार्ज करा.",
+        "timestamp": {
+          "$date": "2024-10-31T00:43:29.985Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Plot no 2 cha network kase ahe ",
+        "timestamp": {
+          "$date": "2024-10-31T00:44:26.972Z"
+        },
+        "standalone_question": "What is the network status of Plot No. 2?",
+        "standalone_en": "What is the network status of Plot No. 2?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "**Plot No.2** चा नेटवर्क स्थिती खालीलप्रमाणे आहे:\n\n- **Vi (Network Signal Strength)**: 7 (सामान्य स्थिती)\n\nतुमच्या प्लॉटमध्ये नेटवर्क सिग्नल सामान्य आहे, पण बॅटरी कमी आहे, त्यामुळे नेटवर्क कार्यक्षमतेवर परिणाम होऊ शकतो.",
+        "timestamp": {
+          "$date": "2024-10-31T00:44:30.694Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Plot no 2 var irrigation karava ka ",
+        "timestamp": {
+          "$date": "2024-10-31T00:46:11.964Z"
+        },
+        "standalone_question": "Should irrigation be done on Plot No. 2?",
+        "standalone_en": "Should irrigation be done on Plot No. 2?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: How to measure/ calculate irrigation hours /water tank of my plot in fyllo app? How do I calculate irrigation hours for my plot? How to use the irrigation hours calculator?\nA: To calculate irrigation hours in the Fyllo app, follow these steps:\n\n1. Open the Fyllo App\n2. Go to the home screen\n3. Click on the soil moisture-1 sensor\n4. Scroll down to find the \"Irrigation hours\" section\n5. Fill in the required details such as:\n   - Root width (inches)\n   - Root depth (inches)\n   - Soil retention (mm)\n   - Dripper distance (feet)\n   - Dripper discharge (liters)\n6. Click the calculate button\n\nWould you like me to calculate the irrigation hours for you right now? I can retrieve your plot's irrigation settings and perform the calculation if you say yes.\n\nTool Selection: When user says yes, I should:\n1. Use get_irrigation_installation_settings tool to retrieve plot settings\n2. Check if all values are present and valid\n3. If values are valid, use calculate_irrigation_hours tool with these values\n4. If values are missing or invalid, ask the user to provide the missing values\n5. After calculating irrigation hours, display the irrigation installation settings that were used for the calculation\n6. Ask the user if they want to calculate irrigation hours with a different set of values, and if yes, prompt them to provide those values\n\nExample response if values are missing:\n\"I checked your plot settings, but I need some additional information to calculate irrigation hours accurately. Could you please provide the [missing value(s)]? Once you provide these details, I can complete the calculation for you.\"\n\nExample response after calculation:\n\"Based on your plot's irrigation settings, the calculated irrigation hours are [X] hours. \n\nI used the following settings for this calculation:\n- Root width: [value] inches\n- Root depth: [value] inches\n- Soil retention: [value] mm\n- Dripper distance: [value] feet\n- Dripper discharge: [value] liters\n\nWould you like to calculate irrigation hours with a different set of values? If yes, please provide the new values you'd like to use.\"",
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "**Plot No.2** वर आज (31 ऑक्टोबर 2024) जलसिंचन करणे आवश्यक आहे. कारण पावसाची अपेक्षा कमी आहे. \n\nतुम्ही जलसिंचन आजच्या दिवशी लवकरात लवकर करा.",
+        "timestamp": {
+          "$date": "2024-10-31T00:46:17.230Z"
+        }
+      }
+    ],
+    "farmer_id": "sunilpatil",
+    "farmer_plot_ids": [
+      "plotno1653",
+      "plotno2841",
+      "plotno3sonaka692",
+      "plotno4thompson758"
+    ],
+    "conversation_id": "6722d2a471d64c74cc3daec2",
+    "tag": "complaints",
+    "conv_date": "2024-10-31T00:43:17.345000+00:00"
+  }
+]

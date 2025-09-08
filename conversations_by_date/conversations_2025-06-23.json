@@ -1,0 +1,196 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पाऊस कधी उघडिप देईल",
+        "en": "When will the rain open up?",
+        "timestamp": {
+          "$date": "2025-06-23T22:59:52.046Z"
+        },
+        "standalone_question": "When will the rain stop?",
+        "standalone_en": "When will the rain stop?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "paus kadhi ughadip deil"
+      },
+      {
+        "role": "assistant",
+        "content": "पाऊस पुढील काही दिवसांत असेल. येथे काही महत्त्वाचे दिवस आहेत:\n\n- **24 जून 2025**: 14.1 मिमी पाऊस, 55% पाऊस येण्याची शक्यता.\n- **25 जून 2025**: 6.5 मिमी पाऊस, 60% पाऊस येण्याची शक्यता.\n- **26 जून 2025**: 2.9 मिमी पाऊस, 35% पाऊस येण्याची शक्यता.\n- **27 जून 2025**: 2.9 मिमी पाऊस, 35% पाऊस येण्याची शक्यता.\n- **28 जून 2025**: 0.3 मिमी पाऊस, 50% पाऊस येण्याची शक्यता.\n\nतुमच्या क्षेत्रात पाऊस येण्याची शक्यता आहे, त्यामुळे पाण्याची गरज कमी होऊ शकते.",
+        "en": "Rain will be in the next few days. Here are some important days:\n\n- **24 June 2025**: 14.1 mm rainfall, 55% chance of rain.\n- **25 June 2025**: 6.5 mm rainfall, 60% chance of rain.\n- **26 June 2025**: 2.9 mm rainfall, 35% chance of rain.\n- **27 June 2025**: 2.9 mm rainfall, 35% chance of rain.\n- **28 June 2025**: 0.3 mm rainfall, 50% chance of rain.\n\nThere is a possibility of rain in your area, which may reduce the need for water.",
+        "timestamp": {
+          "$date": "2025-06-23T23:00:00.144Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "फवारणी कशी करावी",
+        "en": "How to spray",
+        "timestamp": {
+          "$date": "2025-06-23T23:00:34.573Z"
+        },
+        "standalone_question": "How should I apply the spray?",
+        "standalone_en": "How should I apply the spray?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        },
+        "content_transliterated": "favarani kashi karavi"
+      },
+      {
+        "role": "assistant",
+        "content": "फवारणीसाठी खालील सूचना आहेत:\n\n### फवारणीची वेळ:\n- **Plot No 1 SSN**:\n  - आज (24 जून 2025) संध्याकाळी 6:30 वाजता फवारणीसाठी \"मध्यम\" स्थिती आहे.\n  - इतर वेळा (सकाळी 5:30 ते 5:30 पर्यंत) \"वाईट\" स्थिती आहे, त्यामुळे त्या वेळेत फवारणी करू नका.\n\n### इतर प्लॉट्स:\n- **Plot No 2 Crimson**, **Sudhakar**, आणि **Sudhakar 2** साठी फवारणी स्थिती तपासता आलेली नाही.\n\n### सूचना:\nफवारणी करताना हवामानाच्या स्थितीचा विचार करा. जर पाऊस येण्याची शक्यता असेल, तर फवारणी टाळा.",
+        "en": "The following are the instructions for spraying:\n\n### Spraying Time:\n- Plot No 1 SSN:\n  - Today (24 June 2025) at 6:30 p.m. is the \"moderate\" condition for showering.\n  - Other times (5:30 am to 5:30 am) is in a \"bad\" situation, so don't spray at that time.\n\n### Other Plots:\n- Spraying conditions for **Plot No 2 Crimson**, **Sudhakar**, and **Sudhakar 2** have not been checked.\n\n### Notice:\nConsider weather conditions when spraying. If there is a possibility of rain, avoid showering.",
+        "timestamp": {
+          "$date": "2025-06-23T23:00:43.684Z"
+        }
+      }
+    ],
+    "farmer_id": "pankajsadashivkhandave",
+    "farmer_plot_ids": [
+      "plotnoonessn",
+      "plotnotwocrimson",
+      "sudhakar156",
+      "sudhakar2101"
+    ],
+    "conversation_id": "6859dc6738e1b45dddc537b8",
+    "_id": "6859dc6738e1b45dddc537b8",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-06-23T23:05:34.576000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-06-23T22:59:52.046000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tell me about this plant <user uploaded image for analysis at '4acrskinnowplot/2025-06-23-1750685935867.jpg'>",
+        "en": "Tell me about this plant <user uploaded image for analysis at '4acrskinnowplot/2025-06-23-1750685935867.jpg'>",
+        "timestamp": {
+          "$date": "2025-06-23T13:39:15.463Z"
+        },
+        "standalone_question": "What can you tell me about the plant in the image?",
+        "standalone_en": "What can you tell me about the plant in the image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The image shows avocado fruits on a tree, but there are signs of potential issues with the leaves. Some leaves appear yellow and may have spots, indicating possible nutrient deficiencies or pest damage.\n\nFor a more accurate analysis, a clearer image focusing on the affected leaves would be helpful. If you can provide a closer shot, I can assist you further with specific recommendations.",
+        "en": "The image shows avocado fruits on a tree, but there are signs of potential issues with the leaves. Some leaves appear yellow and may have spots, indicating possible nutrient deficiencies or pest damage.\n\nFor a more accurate analysis, a clearer image focusing on the affected leaves would be helpful. If you can provide a closer shot, I can assist you further with specific recommendations.",
+        "timestamp": {
+          "$date": "2025-06-23T13:39:28.376Z"
+        }
+      }
+    ],
+    "farmer_id": "ankitmalelthia",
+    "farmer_plot_ids": [
+      "4acrskinnowplot"
+    ],
+    "conversation_id": "6859590338e1b45dddc537b7",
+    "_id": "6859590338e1b45dddc537b7",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-06-23T13:44:15.466000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-06-23T13:39:15.463000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पाणी ",
+        "en": "Water ",
+        "timestamp": {
+          "$date": "2025-06-23T12:04:00.345Z"
+        },
+        "standalone_question": "What about water?",
+        "standalone_en": "What about water?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "paani "
+      },
+      {
+        "role": "assistant",
+        "content": "आपको \"Manikchaman\" खेत में पानी देना चाहिए। वर्तमान में मिट्टी की नमी 27% और 44% है, जबकि आदर्श नमी 55% है। चूंकि मिट्टी की नमी आदर्श स्तर से कम है, इसलिए आप पानी दे सकते हैं।",
+        "en": "You should water the \"Manikchaman\" field. Currently the soil moisture is 27% and 44%, while the ideal moisture is 55%. Since the soil moisture is lower than the ideal level, you can water.",
+        "timestamp": {
+          "$date": "2025-06-23T12:04:04.230Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "मराठी ",
+        "en": "Marathi ",
+        "timestamp": {
+          "$date": "2025-06-23T12:04:40.073Z"
+        },
+        "standalone_question": "What is the meaning of \"मराठी\"?",
+        "standalone_en": "What is the meaning of \"मराठी\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "marathi "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या \"Manikchaman\" शेतात पाणी देणे आवश्यक आहे. सध्या मातीची आर्द्रता 27% आणि 44% आहे, तर आदर्श आर्द्रता 55% आहे. मातीची आर्द्रता आदर्श स्तरापेक्षा कमी आहे, त्यामुळे आपण पाणी देऊ शकता.",
+        "en": "It is necessary to water your \"Manikchaman\" fields. Currently, soil moisture is 27% and 44%, while the ideal humidity is 55%. Soil moisture is below ideal levels, so you can water.",
+        "timestamp": {
+          "$date": "2025-06-23T12:04:46.071Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "खत ",
+        "en": "letter ",
+        "timestamp": {
+          "$date": "2025-06-23T12:05:25.923Z"
+        },
+        "standalone_question": "What type of fertilizer should be used?",
+        "standalone_en": "What type of fertilizer should be used?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "khat "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या \"Manikchaman\" शेतात सध्या \"Subcane\" या पिकाच्या चौथ्या आठवड्यात आहात. आज, 23 जून 2025 रोजी, खालील खतांचा वापर करणे आवश्यक आहे:\n\n### सध्याचे खत वितरण:\n1. **Mono potassium phosphate** - 3 किलोग्राम/एकर\n2. **Phosphoric acid 80%** - 1 किलोग्राम/एकर (इतर खतांच्या वापरापूर्वी 15-20 मिनिटे स्वतंत्रपणे लागू करावे)\n3. **Magnesium Sulphate** - 1 किलोग्राम/एकर\n\n#### किंवा\n1. **0-60-20** - 4 किलोग्राम/एकर\n2. **Magnesium Sulphate** - 1 किलोग्राम/एकर\n\n#### किंवा\n1. **Phosphoric acid 80%** - 3 किलोग्राम/एकर\n2. **Sulfate of Potash** - 2 किलोग्राम/एकर\n3. **Magnesium Sulphate** - 1 किलोग्राम/एकर\n\n### पुढील खत वितरण:\nपुढील आठवड्यात (5वी आठवडा) \"Subcane\" स्टेजमध्ये खालील खतांचा वापर करणे आवश्यक आहे:\n- **Magnesium Sulphate** - 1 किलोग्राम/एकर\n- **Sulfate of Potash** - 6.5 किलोग्राम/एकर\n\nही प्रक्रिया 5 ऑगस्ट 2025 पासून सुरू होईल.",
+        "en": "In your \"Manikchaman\" farm, currently \"Subcane\" is in the fourth week of this pica. Today, on June 23, 2025, the following khatas must be used:\n\n### Current Letter Delivery:\n1. Mono potassium phosphate - 3 kg/acre\n2. **Phosphoric acid 80%** - 1 kg/acre (should be applied separately for 15-20 minutes before use of other fertilizers)\n3. Magnesium Sulphate - 1 kg/acre\n\n#### or\n1. **0-60-20** - 4 Kg/acre\n2. Magnesium Sulphate - 1 kg/acre\n\n#### or\n1. Phosphoric acid 80%** - 3 kg/acre\n2. Sulfate of Potash - 2 kg/acre\n3. Magnesium Sulphate - 1 kg/acre\n\n### Next Letter Delivery:\nThe following bars must be used in the \"Subcane\" stage the following weeks (5th week):\n- Magnesium Sulphate - 1 kg/acre\n- Sulfate of Potash - 6.5 kg/acre\n\nThis process will start from 5th August 2025.",
+        "timestamp": {
+          "$date": "2025-06-23T12:05:39.662Z"
+        }
+      }
+    ],
+    "farmer_id": "shubhamshashikantshinde",
+    "farmer_plot_ids": [
+      "manikchaman614"
+    ],
+    "conversation_id": "685942af38e1b45dddc537b4",
+    "_id": "685942af38e1b45dddc537b4",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-06-23T12:10:25.925000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-06-23T12:04:00.345000+00:00"
+  }
+]

@@ -1,0 +1,1163 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Keya samaya hai batay",
+        "en": "Tell me what is the problem?",
+        "timestamp": {
+          "$date": "2025-04-18T16:03:33.433Z"
+        },
+        "standalone_question": "What time is it?",
+        "standalone_en": "What time is it?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aaj 18 April 2025, Shukravaar hai.",
+        "en": "Today is Friday, April 18, 2025.",
+        "timestamp": {
+          "$date": "2025-04-18T16:03:36.802Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Mera bagan ke khet me Keya Keya samsya hai",
+        "en": "What is the problem in my garden field?",
+        "timestamp": {
+          "$date": "2025-04-18T16:04:49.646Z"
+        },
+        "standalone_question": "What problems are there in my garden field?",
+        "standalone_en": "What problems are there in my garden field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapke \"Brinjal Plot\" mein kuch samasyaen hain:\n\n1. **Soil Moisture**: Soil moisture readings 9 kPa aur 17 kPa hain, jo ki achhi sthiti hai (0 kPa se 20 kPa tak ka range wet soil ke liye hai). Iska matlab hai ki mitti mein kaafi paani hai.\n\n2. **Leaf Wetness**: Leaf wetness ka reading 0 hai, jo ki yeh darshata hai ki patte sukhe hain. Yeh kisi bhi foliar spray ke liye achha nahi hai.\n\n3. **Air Humidity**: Air humidity 83% hai, jo ki uchit hai, lekin agar aapko kisi prakar ki fungal ya bacterial samasya ka samna karna hai, toh is par nazar rakhna zaroori hai.\n\n4. **Temperature**: Air temperature 22°C aur soil temperature 26.31°C hai, jo ki brinjal ke liye sahi hai.\n\nAgar aapko kisi vishesh samasya ka samna karna hai, toh mujhe batayein.",
+        "en": "There are a few problems with your \"Brinjal Plot\":\n\n1. Soil moisture: Soil moisture readings are 9 kPa and 17 kPa, which is a good condition (0 kPa to 20 kPa is the range for wet soil). This means that there is a lot of water in the soil.\n\n2. Leaf Weightness: The leaf weightness reading is 0, which indicates that the leaves are dry. It is not good for any foliar spray.\n\nAir humidity: Air humidity is 83%, which is reasonable, but if you face any kind of fungal or bacterial problem, it is important to keep an eye on it.\n\n4. Temperature: The air temperature is 22°C and the soil temperature is 26.31°C, which is suitable for Brinjal.\n\nIf you have any particular problem, let me know.",
+        "timestamp": {
+          "$date": "2025-04-18T16:04:57.550Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Phal chhedak jayda ho raha hai",
+        "en": "The fruit borer is getting too much",
+        "timestamp": {
+          "$date": "2025-04-18T16:06:24.060Z"
+        },
+        "standalone_question": "What can be done to address the issue of increased fruit borer infestation?",
+        "standalone_en": "What can be done to address the issue of increased fruit borer infestation?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What pests predictions does fyllo support?\nA: Fyllo supports the following pests:\n   Aphids, Banana aphids, Bihar hairy caterpillar, Broad mites, Brown plant hopper, Capsule borer, Caterpillar,\n   Citrus Psylla, Cut worm, Early shoot borer, European red mites, Flat mites, Flea Beetle, Flea beetle, Fruit Borer,\n   Fruit Fly, Fruit borer, Fruit fly, Green aphids, Hispa beetle, Jassids, Leaf eating caterpillar, Leaf folder, Leaf miner,\n   Leaf roller, Mango hopper, Mealy Bug, Mealy bug, Mealybug, Mites, Perianth mites, Pin worm, Pink bollworm,\n   Pseudostem weevil, Red Spider Mites, Red palm weevil, Red spider mites, Rhinoceros beetle, Rhizome weevil, Root Grubs,\n   Root knot nematode, Rugose spiraling whitefly, Rust mites, Rust thrips, Scale Insects, Scale insects, Scarring beetle,\n   Shoot borer, Skipper, Spiraling whitefly, Spodoptera, Stem Borer, Stem borer, Striped beetle, Striped cucumber beetle,\n   Tea Mosquitto Bug, Tea mosquitto bug, Termite, Thrips, White Fly, White fly, Whitefly, and Wooly aphids.",
+            "Q: What are the important Pest occur during seedling stage and control measures?\nA: Ants, Termites, root aphids, thrips and internal borer’s pest infect during seedling stage\nDrench/spray seedling with: Chlorpyriphos @ 5mL/Ltr or Thiamethoxam @ 0.5g/ltr",
+            "Q: How to improve the germination percent\nA: Use of good quality seeds and seeds to be treated with insecticide, Fungicide and biological agents"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Agar aapke \"Brinjal Plot\" mein phal chhedak (fruit borer) ka samasya hai, toh yeh kuch kadam hain jo aap le sakte hain:\n\n1. **Pest Monitoring**: Aapko apne khet mein phal chhedak ke prabhav ko monitor karna hoga. Iske liye, aapko phalon par nigrani rakhni hogi aur chhedak ke prabhav ko dekhna hoga.\n\n2. **Pesticide Application**: Agar aapko phal chhedak ka prabhav dikhai deta hai, toh aapko pesticide ka istemal karna chahiye. Fyllo ke paas iske liye spray recommendations hain. Kya aap chahte hain ki main aapko pesticide spray schedule ke liye jaanch karun?\n\n3. **Cultural Practices**: Kheti ke kuch sanskritik abhyas jaise ki crop rotation aur proper sanitation bhi madadgar ho sakte hain.\n\n4. **Traps**: Aap phal chhedak ke liye traps bhi laga sakte hain, jo inke prabhav ko kam karne mein madad karte hain.\n\nAgar aapko pesticide spray schedule ki zarurat hai, toh mujhe batayein, main aapke liye jaanch kar sakta hoon.",
+        "en": "If your \"brindle plot\" has a fruit borer problem, here are some steps you can take:\n\n1. Pest Monitoring: You need to monitor the effect of fruit borer in your field. For this, you have to monitor the fruits and watch the effect of the piercing.\n\n2. Pesticide Application: If you see the effect of fruit borer, then you should use pesticide. Philo has spray recommendations for this. Do you want me to check you for a pesticide spray schedule?\n\n3. Cultural Practices: Some cultural practices of farming such as crop rotation and proper sanitation can also be helpful.\n\n4. Traps: You can also set traps for fruit borers, which help reduce their impact.\n\nIf you need a pesticide spray schedule, let me know, I can check for you.",
+        "timestamp": {
+          "$date": "2025-04-18T16:06:33.382Z"
+        }
+      }
+    ],
+    "farmer_id": "laxmansahu",
+    "farmer_plot_ids": [
+      "brinjalplot496"
+    ],
+    "conversation_id": "680277d56a8ce14c172808ad",
+    "_id": "680277d56a8ce14c172808ad",
+    "language": "hi",
+    "expiry": {
+      "$date": "2025-04-18T16:11:24.068000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-18T16:03:33.433000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Magneshium sulfhet +12.61.0 एकत्र चालते का ",
+        "en": "Does Magnesium sulfhet +12.61.0 run together? ",
+        "timestamp": {
+          "$date": "2025-04-18T15:28:11.094Z"
+        },
+        "standalone_question": "Does magnesium sulfate +12.61.0 work together?",
+        "standalone_en": "Does magnesium sulfate +12.61.0 work together?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "Magneshium sulfhet +12.61.0 ekatra chalte ka "
+      },
+      {
+        "role": "assistant",
+        "content": "होय, Magnesium Sulfate (मॅग्नेशियम सल्फेट) आणि 12-61-0 (युरिया फॉस्फेट) एकत्र चालतात. हे दोन्ही खत एकत्रितपणे वापरल्यास पिकांच्या पोषणासाठी फायदेशीर ठरू शकतात. मॅग्नेशियम पिकांच्या वाढीसाठी आवश्यक आहे, तर 12-61-0 फॉस्फरस प्रदान करते, जे मुळांच्या विकासासाठी आणि फुलांच्या उत्पादनासाठी महत्त्वाचे आहे. \n\nतथापि, एकत्रित वापर करण्यापूर्वी, योग्य प्रमाण आणि पिकांच्या आवश्यकतांनुसार सल्ला घेणे महत्त्वाचे आहे.",
+        "en": "Yes, magnesium sulfate (magnesium sulfate) and 12-61-0 (urea phosphate) run together. Both of these fertilizers, when used together, can be beneficial for crop nutrition. Magnesium is essential for crop growth, while 12-61-0 provides phosphorus, which is important for root development and flower production. \n\nHowever, before using together, it is important to consult according to the right quantity and crop requirements.",
+        "timestamp": {
+          "$date": "2025-04-18T15:28:16.315Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Calsium natret +12.61 एकत्र चालते का ",
+        "en": "Does Calsium natret +12.61 run together ",
+        "timestamp": {
+          "$date": "2025-04-18T15:30:21.718Z"
+        },
+        "standalone_question": "Does Calcium Nitrate work well when combined with 12-61-0?",
+        "standalone_en": "Does Calcium Nitrate work well when combined with 12-61-0?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "Calsium natret +12.61 ekatra chalte ka "
+      },
+      {
+        "role": "assistant",
+        "content": "होय, Calcium Nitrate (कॅल्शियम नायट्रेट) आणि 12-61-0 (युरिया फॉस्फेट) एकत्र चालतात. कॅल्शियम नायट्रेट पिकांना कॅल्शियम आणि नायट्रोजन प्रदान करते, जे मुळांच्या विकासासाठी आणि पिकांच्या आरोग्यासाठी महत्त्वाचे आहे. 12-61-0 फॉस्फरस प्रदान करते, जे फुलांच्या उत्पादनासाठी आणि मुळांच्या विकासासाठी आवश्यक आहे.\n\nतथापि, एकत्रित वापर करण्यापूर्वी, योग्य प्रमाण आणि पिकांच्या आवश्यकतांनुसार सल्ला घेणे महत्त्वाचे आहे.",
+        "en": "Yes, Calcium Nitrate (calcium nitrate) and 12-61-0 (urea phosphate) run together. Calcium nitrate provides calcium and nitrogen to crops, which is important for root development and crop health. 12-61-0 provides phosphorus, which is essential for flower production and root development.\n\nHowever, before using together, it is important to consult according to the right quantity and crop requirements.",
+        "timestamp": {
+          "$date": "2025-04-18T15:30:28.232Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पानी कधी द्यायचे ",
+        "en": "When to water ",
+        "timestamp": {
+          "$date": "2025-04-18T15:32:01.675Z"
+        },
+        "standalone_question": "When should water be given?",
+        "standalone_en": "When should water be given?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer."
+          ]
+        },
+        "content_transliterated": "pani kadhi dyayache "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot No.1\" साठी सध्या पाणी देण्याची आवश्यकता नाही. \n\n- मातीतील आर्द्रता: \n  - Soil Moisture 1: 98%\n  - Soil Moisture 2: 92%\n- आदर्श आर्द्रता: 60%\n\nसध्या मातीतील आर्द्रता आदर्श आर्द्रतेच्या वर आहे, त्यामुळे पाणी देण्याची आवश्यकता नाही.",
+        "en": "\"Plot No.1\" does not require water at present. \n\n- Soil Moisture: \n  - Soil Moisture 1: 98%\n  - Soil Moisture 2: 92%\n- Ideal humidity: 60%\n\nCurrently, the soil humidity is above the ideal humidity, so there is no need for watering.",
+        "timestamp": {
+          "$date": "2025-04-18T15:32:06.338Z"
+        }
+      }
+    ],
+    "farmer_id": "sandipkale",
+    "farmer_plot_ids": [
+      "plotno1224"
+    ],
+    "conversation_id": "68026f8a6a8ce14c172808ac",
+    "_id": "68026f8a6a8ce14c172808ac",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-18T15:37:01.682000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-18T15:28:11.094000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "उडदया नही आहे बागेवर ",
+        "en": "It's not flying in the garden. ",
+        "timestamp": {
+          "$date": "2025-04-18T13:58:11.071Z"
+        },
+        "standalone_question": "Is there no one in the garden?",
+        "standalone_en": "Is there no one in the garden?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "udadaya nahi aahe bagevar "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या बागेत उडद्या (पाण्याची आवश्यकता) नाही. सध्या मातीची आर्द्रता योग्य आहे. जर तुम्हाला आणखी काही माहिती हवी असेल तर सांगा.",
+        "en": "Don't fly (need water) in your garden. The soil moisture is right now. If you need any more information, let me know.",
+        "timestamp": {
+          "$date": "2025-04-18T13:58:14.378Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पण तुम्ही उडदयावर स्प्रे सांगितला आहे ",
+        "en": "But you've said a spray on the fly ",
+        "timestamp": {
+          "$date": "2025-04-18T13:59:11.097Z"
+        },
+        "standalone_question": "But you mentioned a spray for the udad (black gram).",
+        "standalone_en": "But you mentioned a spray for the udad (black gram).",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pan tumhi udadayavar spray sangitala aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "होय, तुम्हाला उडद्या (फ्ली बीटल) वर स्प्रे करण्याची शिफारस केली आहे. आज, 18 एप्रिल 2025 रोजी, तुम्ही खालील स्प्रे वापरू शकता:\n\n1. **Clothianidin** - 80 मिली\n2. **Alphamethrin** - 140 मिली\n\nतुम्हाला 400 लिटर पाण्यात हे मिश्रण करणे आवश्यक आहे. जर तुम्ही आधीच स्प्रे केला असेल, तर काही दिवस थांबा आणि पुन्हा तपासा.",
+        "en": "Yes, you're recommended to spray on flea (flea beetles). Today, April 18, 2025, you can use the following spray:\n\n1. **Clothianidin** - 80 ml\n2. **Alphamethrin** - 140 ml\n\nYou need to mix it in 400 litres of water. If you've already sprayed, wait a few days and check again.",
+        "timestamp": {
+          "$date": "2025-04-18T13:59:17.026Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "थ्रीप्स आहे का ",
+        "en": "Is there a thrips? ",
+        "timestamp": {
+          "$date": "2025-04-18T14:00:08.803Z"
+        },
+        "standalone_question": "Is there a thrips problem?",
+        "standalone_en": "Is there a thrips problem?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "thrips aahe ka "
+      },
+      {
+        "role": "assistant",
+        "content": "होय, तुमच्या बागेत थ्रीप्सचा उच्च धोका आहे. 18 एप्रिल 2025 रोजी थ्रीप्सची 100% शक्यता आहे, ज्यामुळे त्याचा धोका \"उच्च\" आहे. तुम्हाला त्वरित नियंत्रण उपाययोजना करणे आवश्यक आहे.",
+        "en": "Yes, there is a high risk of thrips in your garden. There is a 100% chance of trips on April 18, 2025, making its risk \"high.\" You need to take immediate control measures.",
+        "timestamp": {
+          "$date": "2025-04-18T14:00:14.517Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "काय स्प्रे घेऊ ",
+        "en": "What spray to take ",
+        "timestamp": {
+          "$date": "2025-04-18T14:00:42.505Z"
+        },
+        "standalone_question": "What spray should I use?",
+        "standalone_en": "What spray should I use?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        },
+        "content_transliterated": "kay spray gheu "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या बागेसाठी, आज, 18 एप्रिल 2025 रोजी, तुम्हाला खालील स्प्रे घेण्याची शिफारस केली आहे:\n\n1. **Clothianidin** - 80 मिली\n2. **Alphamethrin** - 140 मिली\n\nतुम्हाला 400 लिटर पाण्यात हे मिश्रण करणे आवश्यक आहे. हे स्प्रे उडद्या (फ्ली बीटल) वर प्रभावी आहे.",
+        "en": "For your garden, today, April 18, 2025, you are recommended to take the following spray:\n\n1. **Clothianidin** - 80 ml\n2. **Alphamethrin** - 140 ml\n\nYou need to mix it in 400 litres of water. This spray is effective on flea (flea beetles).",
+        "timestamp": {
+          "$date": "2025-04-18T14:00:48.452Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "हा स्प्रे झाला आहे ",
+        "en": "It's a spray ",
+        "timestamp": {
+          "$date": "2025-04-18T14:01:29.026Z"
+        },
+        "standalone_question": "Has the spray been applied?",
+        "standalone_en": "Has the spray been applied?",
+        "retrieval": {
+          "tools": [
+            "check_spray_conditions  \nGets the spray condition forecast for the next few hours for the farmer's plots and returns the condition for each hour as GOOD, MODERATE, or WORST, based on deltaT, VPD, and rainfall conditions."
+          ],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        },
+        "content_transliterated": "ha spray jhala aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "तुम्ही 18 एप्रिल 2025 रोजी स्प्रे केला आहे. सध्या, तुम्हाला थ्रीप्ससाठी आणखी स्प्रे करण्याची आवश्यकता नाही. तुम्ही आधीच Clothianidin आणि Alphamethrin वापरले आहे. \n\nआता काही दिवस थांबा आणि पुन्हा तपासा. जर Fyllo अॅपने पुन्हा स्प्रे करण्याची शिफारस केली, तर त्यानुसार कार्य करा.",
+        "en": "You sprayed on April 18, 2025. Right now, you don't need to spray any more for trips. You have already used Clothianidin and Alphamethrin. \n\nNow wait a few days and check again. If the Fyllo app recommends spraying again, act accordingly.",
+        "timestamp": {
+          "$date": "2025-04-18T14:01:34.983Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "अल्फा चा स्प्रे झाला ",
+        "en": "Alpha sprayed ",
+        "timestamp": {
+          "$date": "2025-04-18T14:02:10.323Z"
+        },
+        "standalone_question": "Has the Alphamethrin spray been applied?",
+        "standalone_en": "Has the Alphamethrin spray been applied?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        },
+        "content_transliterated": "alpha cha spray jhala "
+      },
+      {
+        "role": "assistant",
+        "content": "तुम्ही अल्फामेथ्रिनचा स्प्रे केला आहे, आणि सध्या पुढील आठवड्यात थ्रीप्ससाठी कोणतीही स्प्रे शिफारस नाही. तुम्ही काही दिवस थांबा आणि पुन्हा तपासा. जर Fyllo अॅपने पुन्हा स्प्रे करण्याची शिफारस केली, तर त्यानुसार कार्य करा.",
+        "en": "You've sprayed alphamethrin, and there's currently no spray recommendation for thrips next week. You wait a few days and check again. If the Fyllo app recommends spraying again, act accordingly.",
+        "timestamp": {
+          "$date": "2025-04-18T14:02:16.678Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ok",
+        "en": "Ok",
+        "timestamp": {
+          "$date": "2025-04-18T14:02:34.431Z"
+        },
+        "standalone_question": "Is there anything else you would like to know?",
+        "standalone_en": "Is there anything else you would like to know?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "जर तुम्हाला आणखी काही विचारायचे असेल किंवा मदतीची आवश्यकता असेल, तर कृपया सांगा. मी येथे मदतीसाठी आहे!",
+        "en": "If you have anything else to ask or need help, please let me know. I'm here to help!",
+        "timestamp": {
+          "$date": "2025-04-18T14:02:37.463Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "मैक्रोनुट्रिट चि गरज आहे का ",
+        "en": "Is macronutrite a need? ",
+        "timestamp": {
+          "$date": "2025-04-18T14:03:48.556Z"
+        },
+        "standalone_question": "Is there a need for macronutrients?",
+        "standalone_en": "Is there a need for macronutrients?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "macronutrit chi garaj aahe ka "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या बागेत सध्या \"ब्रेक बड\" (Break Bud) या सक्रिय पिकाच्या टप्प्यात आहात, जो 2 व्या आठवड्यात आहे. या टप्प्यात, तुम्हाला खालील मैक्रोन्यूट्रिएंट्सची गरज आहे:\n\n### फर्टिगेशनद्वारे:\n1. **12-61-0** - 4 किलोग्राम/एकर\n2. **कॅल्शियम नायट्रेट** - 9 किलोग्राम/एकर\n\n### फोलिअर स्प्रे:\n- **फेरस सल्फेट** - 800 ग्रॅम/एकर\n- **मॅंगनीज सल्फेट** - 800 ग्रॅम/एकर\n\nतुम्ही या फर्टिगेशन आणि फोलिअर स्प्रेची अंमलबजावणी करू शकता. जर तुम्हाला आणखी काही माहिती हवी असेल तर सांगा!",
+        "en": "Your garden is currently in the active crop phase of \"Break Bud\" which is in week 2. At this stage, you need the following macronutrients:\n\n### Via Fertigation:\n1. **12-61-0** - 4 kg/acre\n2. **Calcium nitrate** - 9 kg/acre\n\n### Foliar Spray:\n- **Ferrous sulfate** - 800 g/acre\n- **Manganese sulfate** - 800 g/acre\n\nYou can implement this fertigation and foliar spray. If you need any more information, let me know!",
+        "timestamp": {
+          "$date": "2025-04-18T14:03:55.869Z"
+        }
+      }
+    ],
+    "farmer_id": "sandipkale",
+    "farmer_plot_ids": [
+      "plotno1224"
+    ],
+    "conversation_id": "68025a727309317e279e7345",
+    "_id": "68025a727309317e279e7345",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-18T14:08:48.563000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-04-18T13:58:11.071000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "उडदया नही आहे बागेवर ",
+        "en": "It's not flying in the garden. ",
+        "timestamp": {
+          "$date": "2025-04-18T13:58:11.071Z"
+        },
+        "standalone_question": "Is there no one in the garden?",
+        "standalone_en": "Is there no one in the garden?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "udadaya nahi aahe bagevar "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या बागेत उडद्या (पाण्याची आवश्यकता) नाही. सध्या मातीची आर्द्रता योग्य आहे. जर तुम्हाला आणखी काही माहिती हवी असेल तर सांगा.",
+        "en": "Don't fly (need water) in your garden. The soil moisture is right now. If you need any more information, let me know.",
+        "timestamp": {
+          "$date": "2025-04-18T13:58:14.378Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पण तुम्ही उडदयावर स्प्रे सांगितला आहे ",
+        "en": "But you've said a spray on the fly ",
+        "timestamp": {
+          "$date": "2025-04-18T13:59:11.097Z"
+        },
+        "standalone_question": "But you mentioned a spray for the udad (black gram).",
+        "standalone_en": "But you mentioned a spray for the udad (black gram).",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pan tumhi udadayavar spray sangitala aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "होय, तुम्हाला उडद्या (फ्ली बीटल) वर स्प्रे करण्याची शिफारस केली आहे. आज, 18 एप्रिल 2025 रोजी, तुम्ही खालील स्प्रे वापरू शकता:\n\n1. **Clothianidin** - 80 मिली\n2. **Alphamethrin** - 140 मिली\n\nतुम्हाला 400 लिटर पाण्यात हे मिश्रण करणे आवश्यक आहे. जर तुम्ही आधीच स्प्रे केला असेल, तर काही दिवस थांबा आणि पुन्हा तपासा.",
+        "en": "Yes, you're recommended to spray on flea (flea beetles). Today, April 18, 2025, you can use the following spray:\n\n1. **Clothianidin** - 80 ml\n2. **Alphamethrin** - 140 ml\n\nYou need to mix it in 400 litres of water. If you've already sprayed, wait a few days and check again.",
+        "timestamp": {
+          "$date": "2025-04-18T13:59:17.026Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "थ्रीप्स आहे का ",
+        "en": "Is there a thrips? ",
+        "timestamp": {
+          "$date": "2025-04-18T14:00:08.803Z"
+        },
+        "standalone_question": "Is there a thrips problem?",
+        "standalone_en": "Is there a thrips problem?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "thrips aahe ka "
+      },
+      {
+        "role": "assistant",
+        "content": "होय, तुमच्या बागेत थ्रीप्सचा उच्च धोका आहे. 18 एप्रिल 2025 रोजी थ्रीप्सची 100% शक्यता आहे, ज्यामुळे त्याचा धोका \"उच्च\" आहे. तुम्हाला त्वरित नियंत्रण उपाययोजना करणे आवश्यक आहे.",
+        "en": "Yes, there is a high risk of thrips in your garden. There is a 100% chance of trips on April 18, 2025, making its risk \"high.\" You need to take immediate control measures.",
+        "timestamp": {
+          "$date": "2025-04-18T14:00:14.517Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "काय स्प्रे घेऊ ",
+        "en": "What spray to take ",
+        "timestamp": {
+          "$date": "2025-04-18T14:00:42.505Z"
+        },
+        "standalone_question": "What spray should I use?",
+        "standalone_en": "What spray should I use?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        },
+        "content_transliterated": "kay spray gheu "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या बागेसाठी, आज, 18 एप्रिल 2025 रोजी, तुम्हाला खालील स्प्रे घेण्याची शिफारस केली आहे:\n\n1. **Clothianidin** - 80 मिली\n2. **Alphamethrin** - 140 मिली\n\nतुम्हाला 400 लिटर पाण्यात हे मिश्रण करणे आवश्यक आहे. हे स्प्रे उडद्या (फ्ली बीटल) वर प्रभावी आहे.",
+        "en": "For your garden, today, April 18, 2025, you are recommended to take the following spray:\n\n1. **Clothianidin** - 80 ml\n2. **Alphamethrin** - 140 ml\n\nYou need to mix it in 400 litres of water. This spray is effective on flea (flea beetles).",
+        "timestamp": {
+          "$date": "2025-04-18T14:00:48.452Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "हा स्प्रे झाला आहे ",
+        "en": "It's a spray ",
+        "timestamp": {
+          "$date": "2025-04-18T14:01:29.026Z"
+        },
+        "standalone_question": "Has the spray been applied?",
+        "standalone_en": "Has the spray been applied?",
+        "retrieval": {
+          "tools": [
+            "check_spray_conditions  \nGets the spray condition forecast for the next few hours for the farmer's plots and returns the condition for each hour as GOOD, MODERATE, or WORST, based on deltaT, VPD, and rainfall conditions."
+          ],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        },
+        "content_transliterated": "ha spray jhala aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "तुम्ही 18 एप्रिल 2025 रोजी स्प्रे केला आहे. सध्या, तुम्हाला थ्रीप्ससाठी आणखी स्प्रे करण्याची आवश्यकता नाही. तुम्ही आधीच Clothianidin आणि Alphamethrin वापरले आहे. \n\nआता काही दिवस थांबा आणि पुन्हा तपासा. जर Fyllo अॅपने पुन्हा स्प्रे करण्याची शिफारस केली, तर त्यानुसार कार्य करा.",
+        "en": "You sprayed on April 18, 2025. Right now, you don't need to spray any more for trips. You have already used Clothianidin and Alphamethrin. \n\nNow wait a few days and check again. If the Fyllo app recommends spraying again, act accordingly.",
+        "timestamp": {
+          "$date": "2025-04-18T14:01:34.983Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "अल्फा चा स्प्रे झाला ",
+        "en": "Alpha sprayed ",
+        "timestamp": {
+          "$date": "2025-04-18T14:02:10.323Z"
+        },
+        "standalone_question": "Has the Alphamethrin spray been applied?",
+        "standalone_en": "Has the Alphamethrin spray been applied?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        },
+        "content_transliterated": "alpha cha spray jhala "
+      },
+      {
+        "role": "assistant",
+        "content": "तुम्ही अल्फामेथ्रिनचा स्प्रे केला आहे, आणि सध्या पुढील आठवड्यात थ्रीप्ससाठी कोणतीही स्प्रे शिफारस नाही. तुम्ही काही दिवस थांबा आणि पुन्हा तपासा. जर Fyllo अॅपने पुन्हा स्प्रे करण्याची शिफारस केली, तर त्यानुसार कार्य करा.",
+        "en": "You've sprayed alphamethrin, and there's currently no spray recommendation for thrips next week. You wait a few days and check again. If the Fyllo app recommends spraying again, act accordingly.",
+        "timestamp": {
+          "$date": "2025-04-18T14:02:16.678Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ok",
+        "en": "Ok",
+        "timestamp": {
+          "$date": "2025-04-18T14:02:34.431Z"
+        },
+        "standalone_question": "Is there anything else you would like to know?",
+        "standalone_en": "Is there anything else you would like to know?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "जर तुम्हाला आणखी काही विचारायचे असेल किंवा मदतीची आवश्यकता असेल, तर कृपया सांगा. मी येथे मदतीसाठी आहे!",
+        "en": "If you have anything else to ask or need help, please let me know. I'm here to help!",
+        "timestamp": {
+          "$date": "2025-04-18T14:02:37.463Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "मैक्रोनुट्रिट चि गरज आहे का ",
+        "en": "Is macronutrite a need? ",
+        "timestamp": {
+          "$date": "2025-04-18T14:03:48.556Z"
+        },
+        "standalone_question": "Is there a need for macronutrients?",
+        "standalone_en": "Is there a need for macronutrients?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "macronutrit chi garaj aahe ka "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या बागेत सध्या \"ब्रेक बड\" (Break Bud) या सक्रिय पिकाच्या टप्प्यात आहात, जो 2 व्या आठवड्यात आहे. या टप्प्यात, तुम्हाला खालील मैक्रोन्यूट्रिएंट्सची गरज आहे:\n\n### फर्टिगेशनद्वारे:\n1. **12-61-0** - 4 किलोग्राम/एकर\n2. **कॅल्शियम नायट्रेट** - 9 किलोग्राम/एकर\n\n### फोलिअर स्प्रे:\n- **फेरस सल्फेट** - 800 ग्रॅम/एकर\n- **मॅंगनीज सल्फेट** - 800 ग्रॅम/एकर\n\nतुम्ही या फर्टिगेशन आणि फोलिअर स्प्रेची अंमलबजावणी करू शकता. जर तुम्हाला आणखी काही माहिती हवी असेल तर सांगा!",
+        "en": "Your garden is currently in the active crop phase of \"Break Bud\" which is in week 2. At this stage, you need the following macronutrients:\n\n### Via Fertigation:\n1. **12-61-0** - 4 kg/acre\n2. **Calcium nitrate** - 9 kg/acre\n\n### Foliar Spray:\n- **Ferrous sulfate** - 800 g/acre\n- **Manganese sulfate** - 800 g/acre\n\nYou can implement this fertigation and foliar spray. If you need any more information, let me know!",
+        "timestamp": {
+          "$date": "2025-04-18T14:03:55.869Z"
+        }
+      }
+    ],
+    "farmer_id": "sandipkale",
+    "farmer_plot_ids": [
+      "plotno1224"
+    ],
+    "conversation_id": "68025a727309317e279e7345",
+    "_id": "68025a727309317e279e7345",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-18T14:08:48.563000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-18T13:58:11.071000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં ખાતર ની જરૂર ક્યારે પડશે ",
+        "en": "When will my farm need fertilizer? ",
+        "timestamp": {
+          "$date": "2025-04-18T12:52:03.229Z"
+        },
+        "standalone_question": "When will my field need fertilizer?",
+        "standalone_en": "When will my field need fertilizer?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate.",
+            "Q: If I don't add any test data, what is the basis for the generated fertigation schedule?\nA: When no specific test data is provided, Fyllo generates a basic fertigation schedule based on:\n\n    1. Typical nutrient needs for your crop type\n    2. General soil characteristics common in your region\n    3. Standard growing practices for your area\n    This schedule provides a starting point, but may not be as precise as one based on specific test data."
+          ]
+        },
+        "content_transliterated": "mara khetaraman khatar knee jarur kyare padse "
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં, \"Ghar valo plot\" પર, હાલની પાકની સ્થિતિ \"Flowering and Fruiting\" છે, જે 2મી સપ્તાહમાં છે. ખાતર આપવાની જરૂરિયાત નીચે મુજબ છે:\n\n### હાલની સપ્તાહ માટે:\n1. **પ્રથમ દિવસ (18 એપ્રિલ 2025)**:\n   - **ફોલિયર પદ્ધતિ**: \n     - **Manganese Sulphate**: 400 gm/acre\n     - **Zinc Sulphate**: 600 gm/acre\n     - **Ferrous Sulphate**: 500 gm/acre\n\n   - **ફર્ટિગેશન પદ્ધતિ**:\n     - **Potassium Nitrate**: 3 kg/acre\n     - **Magnesium Sulphate**: 3 kg/acre\n\n2. **ચોથા દિવસ (21 એપ્રિલ 2025)**:\n   - **ફર્ટિગેશન પદ્ધતિ**:\n     - **Calcium nitrate**: 3 kg/acre\n     - **Sulfate of Potash**: 3 kg/acre\n\n### આગામી સપ્તાહ માટે:\n- **ફળની પરિપક્વતા (Fruit maturity)**: 28 એપ્રિલ 2025 થી શરૂ થશે.\n\nઆ માહિતીના આધારે, ખાતર આપવાની તૈયારી કરો અને યોગ્ય પદ્ધતિઓનો ઉપયોગ કરો.",
+        "en": "In your farm, on the \"Ghar valo plot\", the current crop condition is \"Flowering and Fruiting\", which is in the 2nd week. The requirement of composting is as follows:\n\n### For the current week:\n1. **First Day (18 April 2025)**:\n   - **Foliar method**: \n     - **Manganese Sulphate**: 400 gm/acre\n     - **Zinc Sulphate**: 600 gm/acre\n     - **Ferrous Sulphate**: 500 gm/acre\n\n- **Fertigation method**:\n     - **Potassium Nitrate**: 3 kg/acre\n     - **Magnesium Sulphate**: 3 kg/acre\n\n2. **Fourth Day (21 April 2025)**:\n   - **Fertigation method**:\n     - **Calcium nitrate**: 3 kg/acre\n     - **Sulfate of Potash**: 3 kg/acre\n\n### For next week:\n**Fruit maturity**: Will start from April 28, 2025.\n\nBased on this information, prepare to give fertilizer and use the right methods.",
+        "timestamp": {
+          "$date": "2025-04-18T12:52:13.055Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "કેલ્શિયમ બોરોન ની જરૂર ક્યારે પડશે ",
+        "en": "When will calcium boron be needed ",
+        "timestamp": {
+          "$date": "2025-04-18T12:52:56.607Z"
+        },
+        "standalone_question": "When will calcium boron be needed?",
+        "standalone_en": "When will calcium boron be needed?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kelshiyam boron knee jarur kyare padse "
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં \"Ghar valo plot\" પર, \"Calcium\" અને \"Boron\" ની જરૂરિયાત નીચે મુજબ છે:\n\n### 1. **Calcium Nitrate**:\n- **તારીખ**: 21 એપ્રિલ 2025 (ચોથા દિવસ)\n- **જથ્થો**: 3 kg/acre\n\n### 2. **Boron**:\n- **તારીખ**: 21 એપ્રિલ 2025 (ચોથા દિવસ)\n- **જથ્થો**: Boron માટે ખાસ સૂચન નથી, પરંતુ સામાન્ય રીતે 0.5-1 kg/acre Boron ઉમેરવું યોગ્ય છે.\n\nઆ માહિતીના આધારે, ખાતર આપવાની તૈયારી કરો અને યોગ્ય પદ્ધતિઓનો ઉપયોગ કરો.",
+        "en": "On the \"Ghar valo plot\" in your farm, the requirements for \"Calcium\" and \"Boron\" are as follows:\n\n### 1. **Calcium Nitrate**:\n* **Date**: 21 April 2025 (4th day)\n- **Quantity**: 3 kg/acre\n\n### 2. **Boron**:\n* **Date**: 21 April 2025 (4th day)\n* **Quantity**: Not a specific suggestion for Boron, but it is usually appropriate to add 0.5-1 kg/acre Boron.\n\nBased on this information, prepare to give fertilizer and use the right methods.",
+        "timestamp": {
+          "$date": "2025-04-18T12:53:03.560Z"
+        }
+      }
+    ],
+    "farmer_id": "bhaveshbhaisomajisolanki",
+    "farmer_plot_ids": [
+      "gharvaloplot405"
+    ],
+    "conversation_id": "68024af27309317e279e7344",
+    "_id": "68024af27309317e279e7344",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-18T12:57:56.614000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-18T12:52:03.229000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Setting of flower",
+        "en": "Setting of flower",
+        "timestamp": {
+          "$date": "2025-04-18T12:21:02.818Z"
+        },
+        "standalone_question": "What is the setting for the flower?",
+        "standalone_en": "What is the setting for the flower?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Could you please clarify what you mean by \"setting of flower\"? Are you looking for information on flower development stages, fertilization, or something else related to your crops?",
+        "en": "Could you please clarify what you mean by \"setting of flower\"? Are you looking for information on flower development stages, fertilization, or something else related to your crops?",
+        "timestamp": {
+          "$date": "2025-04-18T12:21:05.869Z"
+        }
+      }
+    ],
+    "farmer_id": "manjunathb",
+    "farmer_plot_ids": [
+      "grapebengalurublue",
+      "pomegranate688"
+    ],
+    "conversation_id": "680243aeab46268871c3ef6f",
+    "_id": "680243aeab46268871c3ef6f",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-18T12:26:02.825000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-18T12:21:02.818000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How to relate pan reading with soil temp and atmospheric temperature ",
+        "en": "How to relate pan reading with soil temp and atmospheric temperature ",
+        "timestamp": {
+          "$date": "2025-04-18T11:38:36.742Z"
+        },
+        "standalone_question": "How can pan reading be related to soil temperature and atmospheric temperature?",
+        "standalone_en": "How can pan reading be related to soil temperature and atmospheric temperature?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Pan evaporation readings can be related to soil temperature and atmospheric temperature in the following ways:\n\n1. **Evaporation Rate**: Higher atmospheric temperatures generally lead to increased evaporation rates from the pan. This can indicate how much water may be lost from the soil, affecting irrigation needs.\n\n2. **Soil Temperature Influence**: Soil temperature affects the moisture retention capacity of the soil. Warmer soil can lead to higher evaporation rates, which may require more frequent irrigation.\n\n3. **Weather Conditions**: Both atmospheric temperature and soil temperature can influence the rate of evaporation from the pan. For instance, on hot, dry days, evaporation rates will be higher, indicating a need for irrigation.\n\n4. **Irrigation Scheduling**: By monitoring pan readings alongside soil and atmospheric temperatures, farmers can better schedule irrigation to minimize water loss and ensure optimal soil moisture levels.\n\nIn summary, understanding the relationship between these factors helps in making informed decisions about irrigation and crop management.",
+        "en": "Pan evaporation readings can be related to soil temperature and atmospheric temperature in the following ways:\n\n1. **Evaporation Rate**: Higher atmospheric temperatures generally lead to increased evaporation rates from the pan. This can indicate how much water may be lost from the soil, affecting irrigation needs.\n\n2. **Soil Temperature Influence**: Soil temperature affects the moisture retention capacity of the soil. Warmer soil can lead to higher evaporation rates, which may require more frequent irrigation.\n\n3. **Weather Conditions**: Both atmospheric temperature and soil temperature can influence the rate of evaporation from the pan. For instance, on hot, dry days, evaporation rates will be higher, indicating a need for irrigation.\n\n4. **Irrigation Scheduling**: By monitoring pan readings alongside soil and atmospheric temperatures, farmers can better schedule irrigation to minimize water loss and ensure optimal soil moisture levels.\n\nIn summary, understanding the relationship between these factors helps in making informed decisions about irrigation and crop management.",
+        "timestamp": {
+          "$date": "2025-04-18T11:38:41.837Z"
+        }
+      }
+    ],
+    "farmer_id": "shreeshailgoudapatil",
+    "farmer_plot_ids": [
+      "infinityplot1121",
+      "infinityplot4",
+      "plotno6792",
+      "plotno7454"
+    ],
+    "conversation_id": "680239bc7309317e279e7342",
+    "_id": "680239bc7309317e279e7342",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-18T11:43:36.750000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-18T11:38:36.742000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "प्लॉट कांटेक्ट अनिल",
+        "en": "Plot Contact Anil",
+        "timestamp": {
+          "$date": "2025-04-18T10:21:03.014Z"
+        },
+        "standalone_question": "Plot contact Anil.",
+        "standalone_en": "Plot contact Anil.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "plot contect anil"
+      },
+      {
+        "role": "assistant",
+        "content": "आपका प्लॉट \"clone plot\" है, जो कि \"Raulas, Niphad, Nashik, Maharashtra\" में स्थित है। यदि आपको किसी विशेष जानकारी की आवश्यकता है, तो कृपया बताएं!",
+        "en": "Your plot is \"clone plot\", which is located in \"Raulas, Niphad, Nashik, Maharashtra\". If you need any special information, please let us know!",
+        "timestamp": {
+          "$date": "2025-04-18T10:21:05.620Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "कितने तक क्यों अपनी तेज",
+        "en": "How long is your speed?",
+        "timestamp": {
+          "$date": "2025-04-18T10:21:26.941Z"
+        },
+        "standalone_question": "Why is it so fast?",
+        "standalone_en": "Why is it so fast?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kitne tak kyon apni tej"
+      },
+      {
+        "role": "assistant",
+        "content": "आपका प्लॉट \"clone plot\" में वर्तमान में \"Foundation Pruning\" चरण में है। इस चरण की अवधि समाप्त होने में कुछ दिन बाकी हैं। यदि आपको इस चरण के बारे में अधिक जानकारी चाहिए या अगली गतिविधियों के बारे में जानना है, तो कृपया बताएं!",
+        "en": "Your plot is currently in the \"Foundation Pruning\" phase in the \"Clone plot\". There are a few days left for this phase to end. If you need more information about this step or want to know about the next activities, please let us know!",
+        "timestamp": {
+          "$date": "2025-04-18T10:21:30.123Z"
+        }
+      }
+    ],
+    "farmer_id": "dattatreyasapte",
+    "farmer_plot_ids": [
+      "cloneplot193",
+      "thompson2899",
+      "thompsonplot1631"
+    ],
+    "conversation_id": "6802278e7309317e279e7341",
+    "_id": "6802278e7309317e279e7341",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-18T10:26:26.949000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-18T10:21:03.014000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Avacado ",
+        "en": "Avacado ",
+        "timestamp": {
+          "$date": "2025-04-18T09:26:38.972Z"
+        },
+        "standalone_question": "What is an avocado?",
+        "standalone_en": "What is an avocado?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like you're interested in avocados. However, I can only provide assistance related to the crops you are currently growing, which are grapes. If you have any questions or need assistance regarding your grape crops, feel free to ask!",
+        "en": "It seems like you're interested in avocados. However, I can only provide assistance related to the crops you are currently growing, which are grapes. If you have any questions or need assistance regarding your grape crops, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-04-18T09:26:41.738Z"
+        }
+      }
+    ],
+    "farmer_id": "rajkumarmetri",
+    "farmer_plot_ids": [
+      "metriplot4",
+      "rajkumarmetripkot1"
+    ],
+    "conversation_id": "68021ace7309317e279e733f",
+    "_id": "68021ace7309317e279e733f",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-18T09:31:38.979000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-18T09:26:38.972000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Zestis key hai",
+        "en": "Zestis key hai",
+        "timestamp": {
+          "$date": "2025-04-18T08:11:32.062Z"
+        },
+        "standalone_question": "What is the key to Zestis?",
+        "standalone_en": "What is the key to Zestis?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Zestis (ज़ेस्टिस) एक कीटाणु नाशक है, जिसका उपयोग फसलों में कीटों और बीमारियों के नियंत्रण के लिए किया जाता है। यह विशेष रूप से फसलों की सुरक्षा के लिए महत्वपूर्ण है। यदि आपको अपने बृंजल के खेत में कीटों या बीमारियों के बारे में जानकारी चाहिए, तो कृपया बताएं।",
+        "en": "Zestis is an insecticide, which is used for the control of pests and diseases in crops. This is especially important for the protection of crops. If you need information about pests or diseases in your brinejal farm, please let us know.",
+        "timestamp": {
+          "$date": "2025-04-18T08:11:35.270Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Zesedees key hai ",
+        "en": "Jesseidis ",
+        "timestamp": {
+          "$date": "2025-04-18T08:13:10.069Z"
+        },
+        "standalone_question": "What is Zesedees?",
+        "standalone_en": "What is Zesedees?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Zesedees (ज़ेसिडीज़) एक कीटाणु नाशक है, जिसका उपयोग फसलों में कीटों और बीमारियों के नियंत्रण के लिए किया जाता है। यह विशेष रूप से फसलों की सुरक्षा के लिए महत्वपूर्ण है। यदि आपको अपने बृंजल के खेत में कीटों या बीमारियों के बारे में जानकारी चाहिए, तो कृपया बताएं।",
+        "en": "Zesedees is an insecticide, which is used for the control of pests and diseases in crops. This is especially important for the protection of crops. If you need information about pests or diseases in your brinejal farm, please let us know.",
+        "timestamp": {
+          "$date": "2025-04-18T08:13:13.943Z"
+        }
+      }
+    ],
+    "farmer_id": "laxmansahu",
+    "farmer_plot_ids": [
+      "brinjalplot496"
+    ],
+    "conversation_id": "68020933ab46268871c3ef6e",
+    "_id": "68020933ab46268871c3ef6e",
+    "language": "hi",
+    "expiry": {
+      "$date": "2025-04-18T08:18:10.076000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-18T08:11:32.062000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "अल्फामेथरीन चा स्प्रे घेतला आहे 15/4 ला ",
+        "en": "Taken alphamethrin spray at 15/4 ",
+        "timestamp": {
+          "$date": "2025-04-18T07:58:04.180Z"
+        },
+        "standalone_question": "Did you use the alpha-cypermethrin spray on April 15th?",
+        "standalone_en": "Did you use the alpha-cypermethrin spray on April 15th?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "alphametharin cha spray ghetala aahe 15/4 la "
+      },
+      {
+        "role": "assistant",
+        "content": "आपण 15 एप्रिलला अल्फामेथ्रीनचा स्प्रे घेतला आहे. तथापि, आज (18 एप्रिल) आपल्याला \"फ्ली बीटल\" साठी स्प्रे करण्याची शिफारस केली आहे. \n\nआपण पुढील स्प्रे साठी खालील पर्याय वापरू शकता:\n- **क्लोथियानिडिन**: 80 मिली\n- **अल्फामेथ्रीन**: 140 मिली\n\nजर आपल्याला अधिक माहिती हवी असेल तर कृपया सांगा!",
+        "en": "You took a spray of alphamethrin on April 15. However, it's recommended that you spray for \"Flea Beetle\" today (April 18). \n\nYou can use the following options for the following sprays:\n- **Clothinidin**: 80 ml\n- **Alphamethrin**: 140 ml\n\nIf you need more information, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-18T07:58:09.142Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "हे प्रमाण 200 लीटर पाण्यासाठी आहे का ",
+        "en": "Is this for 200 litres of water? ",
+        "timestamp": {
+          "$date": "2025-04-18T07:59:16.317Z"
+        },
+        "standalone_question": "Is this dosage for 200 liters of water?",
+        "standalone_en": "Is this dosage for 200 liters of water?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "he praman 200 liter panyasathi aahe ka "
+      },
+      {
+        "role": "assistant",
+        "content": "200 लीटर पाण्याचे प्रमाण म्हणजे एक निश्चित पाण्याची मात्रा आहे, जी आपल्या पिकाच्या आवश्यकतेनुसार वापरली जाऊ शकते. \n\nपाण्याचे प्रमाण किती लागेल हे ठरवण्यासाठी, आपल्याला आपल्या मातीतील आर्द्रता, पिकाची वाढीची अवस्था, आणि इतर घटक विचारात घ्यावे लागतील. \n\nआपण आपल्या प्लॉटच्या पाण्याच्या आवश्यकतेसाठी अधिक माहिती हवी असल्यास, कृपया सांगा, मी आपल्याला अधिक मदत करू शकतो.",
+        "en": "The amount of 200 liters of water is a fixed amount of water, which can be used according to your crop needs. \n\nTo determine how much water will be needed, you have to take into account the humidity of your soil, the growth stage of the crop, and other factors. \n\nIf you want more information on your plot's water needs, please let me know, I can help you more.",
+        "timestamp": {
+          "$date": "2025-04-18T07:59:20.558Z"
+        }
+      }
+    ],
+    "farmer_id": "sandipkale",
+    "farmer_plot_ids": [
+      "plotno1224"
+    ],
+    "conversation_id": "6802060c7309317e279e733e",
+    "_id": "6802060c7309317e279e733e",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-18T08:04:16.324000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-04-18T07:58:04.180000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "उडदया वर स्प्रे गार्जेचा आहे का ",
+        "en": "Is there a spray gargoyle on the fly? ",
+        "timestamp": {
+          "$date": "2025-04-18T07:12:30.876Z"
+        },
+        "standalone_question": "Is there a spray for the garden on the udadya?",
+        "standalone_en": "Is there a spray for the garden on the udadya?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "udadaya var spray garjecha aahe ka "
+      },
+      {
+        "role": "assistant",
+        "content": "होय, आज (18 एप्रिल 2025) उडदया वर स्प्रे गार्जेचा आहे. तुम्हाला खालील स्प्रे वापरायचे आहेत:\n\n1. **Clothianidin**: 80 ml\n2. **Alphamethrin**: 140 ml\n\nतुम्हाला 400 लिटर पाण्यात हे मिश्रण करायचे आहे.",
+        "en": "Yes, today (April 18, 2025) is a spray thunderbolt on the fly. You want to use the following sprays:\n\n1. Clothianidin: 80 ml\n2. Alphamethrin: 140 ml\n\nYou have to mix this in 400 liters of water.",
+        "timestamp": {
+          "$date": "2025-04-18T07:12:36.209Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "16 तारखेला अल्फा मेसरीन स्प्रे घेतला आहे ",
+        "en": "Taken alpha mesrin spray on the 16th ",
+        "timestamp": {
+          "$date": "2025-04-18T07:14:24.070Z"
+        },
+        "standalone_question": "Did you use Alphamethrin spray on the 16th?",
+        "standalone_en": "Did you use Alphamethrin spray on the 16th?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "16 tarkhela alpha mesrin spray ghetala aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "तुम्ही 16 तारखेला अल्फा मेसरीन स्प्रे घेतला आहे, त्यामुळे तुम्हाला काही दिवस थांबावे लागेल. जर फायलो अॅपने पुन्हा स्प्रे करण्याची शिफारस केली, तरच पुन्हा स्प्रे करा.",
+        "en": "You've taken alpha mesrin spray on the 16th, so you'll have to wait a few days. Spray again only if the Filo app recommends spraying again.",
+        "timestamp": {
+          "$date": "2025-04-18T07:14:28.006Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Fhyllo स्प्रे सांगत आहे ",
+        "en": "Fhyllo Spray Tells ",
+        "timestamp": {
+          "$date": "2025-04-18T07:15:28.896Z"
+        },
+        "standalone_question": "Is Fhyllo recommending a spray?",
+        "standalone_en": "Is Fhyllo recommending a spray?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available.",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: How does the Fyllo device work?\nA: The Fyllo device captures data from 11 sensors at regular intervals. This data is then analyzed using Fyllo's Weather & Agronomical Algorithms to provide alerts to farmers for disease & pest management, irrigation management, fertigation management, and weather prediction."
+          ]
+        },
+        "content_transliterated": "Fhyllo spray sangat aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "तुम्हाला Fyllo अॅपने स्प्रे करण्याची शिफारस केली आहे, त्यामुळे तुम्ही स्प्रे करू शकता. तुम्ही अल्फा मेसरीन स्प्रे घेतला आहे, त्यामुळे तुम्हाला दुसरा स्प्रे वापरण्याची आवश्यकता आहे. \n\nकृपया Fyllo अॅपवर दिलेल्या सूचनांचे पालन करा आणि योग्य स्प्रे वापरा.",
+        "en": "You are recommended to spray with the Fyllo app, so you can spray. You've taken alpha mesrin spray, so you need to use another spray. \n\nPlease follow the instructions given on the Fyllo app and use the appropriate spray.",
+        "timestamp": {
+          "$date": "2025-04-18T07:15:32.991Z"
+        }
+      }
+    ],
+    "farmer_id": "sandipkale",
+    "farmer_plot_ids": [
+      "plotno1224"
+    ],
+    "conversation_id": "6801fb5e7309317e279e733d",
+    "_id": "6801fb5e7309317e279e733d",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-18T07:20:28.907000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-04-18T07:12:30.876000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "रसायन काय सोडावे",
+        "en": "What to release the chemical",
+        "timestamp": {
+          "$date": "2025-04-18T04:23:53.128Z"
+        },
+        "standalone_question": "What chemicals should be discarded?",
+        "standalone_en": "What chemicals should be discarded?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "rasayan kay sodave"
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या प्लॉटसाठी योग्य रसायनांची निवड करण्यासाठी, मला तुमच्या प्लॉटच्या सध्याच्या पिकाच्या अवस्थेची माहिती आवश्यक आहे. कृपया सांगा की तुम्हाला कोणत्या प्लॉटसाठी रसायनांची आवश्यकता आहे: \n\n1. **aara36** (गृप)\n2. **RK Plot no1** (गृप)\n3. **SSN Plot no2** (गृप)\n\nतुमच्या प्लॉटच्या सध्याच्या अवस्थेवर आधारित, मी तुम्हाला योग्य रसायनांची शिफारस करू शकतो.",
+        "en": "To select the right chemicals for my plot, I need to know the current crop condition of my plot. Please tell me which plot you need chemicals for: \n\n1. **aara36** (Grip)\n2. **RK Plot no1** (Group)\n3. SSN Plot no2**\n\nBased on the current state of your plot, I can recommend you the right chemicals.",
+        "timestamp": {
+          "$date": "2025-04-18T04:23:57.800Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "आरा36 रिकट घेऊन एक मिहिना  झाले",
+        "en": "Ara became a Mihinah with 36 rickets",
+        "timestamp": {
+          "$date": "2025-04-18T04:26:29.025Z"
+        },
+        "standalone_question": "How long has it been since you took a fallow period for the aara36 plot?",
+        "standalone_en": "How long has it been since you took a fallow period for the aara36 plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ara36 ricket gheun ek mihina jhale"
+      },
+      {
+        "role": "assistant",
+        "content": "\"आरा36\" प्लॉटसाठी रसायनांची फर्टिगेशन शेड्यूल उपलब्ध नाही. तुम्हाला अधिक माहिती हवी असल्यास, कृपया सांगा.",
+        "en": "A fertigation schedule of chemicals is not available for the \"Ara36\" plot. If you need more information, please let me know.",
+        "timestamp": {
+          "$date": "2025-04-18T04:26:33.340Z"
+        }
+      }
+    ],
+    "farmer_id": "shrishabra108shivlingshivacharyaswamiji",
+    "farmer_plot_ids": [
+      "aara36398",
+      "rkplotno1172",
+      "ssnplotno2596"
+    ],
+    "conversation_id": "6801d3d87309317e279e733c",
+    "_id": "6801d3d87309317e279e733c",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-18T04:31:29.034000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-18T04:23:53.128000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "કયુ ખાતર આપવું",
+        "en": "What fertilizer to give",
+        "timestamp": {
+          "$date": "2025-04-18T01:50:07.288Z"
+        },
+        "standalone_question": "What should I give?",
+        "standalone_en": "What should I give?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kayu khatar apvu"
+      },
+      {
+        "role": "assistant",
+        "content": "હેમાજી, તમારા પાક માટે ખાતર આપવાની સૂચનાઓ નીચે મુજબ છે:\n\n### 1. **Gharvalo (Muskmelon)**\n- **વર્તમાન તબક્કો:** ફળ પકવવાની (Fruit maturity)\n- **આજની તારીખ:** 2025-04-18\n- **આઠવાડિયાની યોજના:**\n  - **દિવસ 1:** \n    - **ફોલિયર પદ્ધતિ:** \n      - **Potassium Nitrate:** 2 કિલોગ્રામ/એકર\n      - **નોટ:** ફોલિયર સ્પ્રે માટે માઇક્રો-પોષક ખાતરોની સંકેત 1% થી વધુ ન હોવી જોઈએ.\n  - **દિવસ 1:** \n    - **ફર્ટિગેશન પદ્ધતિ:** \n      - **Calcium Nitrate:** 3 કિલોગ્રામ/એકર\n      - **Sulfate of Potash:** 3 કિલોગ્રામ/એકર\n      - **નોટ:** Calcium nitrate અન્ય ખાતરોની લાગણી પછી 15-20 મિનિટ પછી લાગુ કરવું જોઈએ.\n  - **દિવસ 4:** \n    - **ફર્ટિગેશન પદ્ધતિ:** \n      - **Sulfate of Potash:** 3 કિલોગ્રામ/એકર\n\n### 2. **S.B.Solanki (Muskmelon)**\n- **વર્તમાન તબક્કો:** ફૂલ અને ફળ (Flowering and Fruiting)\n- **આજની તારીખ:** 2025-04-18\n- **આઠવાડિયાની યોજના:**\n  - **દિવસ 1:** \n    - **ફોલિયર પદ્ધતિ:** \n      - **Manganese Sulphate:** 400 ગ્રામ/એકર\n      - **Zinc Sulphate:** 600 ગ્રામ/એકર\n      - **Ferrous Sulphate:** 500 ગ્રામ/એકર\n  - **દિવસ 1:** \n    - **ફર્ટિગેશન પદ્ધતિ:** \n      - **Potassium Nitrate:** 3 કિલોગ્રામ/એકર\n      - **Magnesium Sulphate:** 3 કિલોગ્રામ/એકર\n  - **દિવસ 4:** \n    - **ફર્ટિગેશન પદ્ધતિ:** \n      - **Calcium Nitrate:** 3 કિલોગ્રામ/એકર\n      - **Sulfate of Potash:** 3 કિલોગ્રામ/એકર\n\nઆ ખાતરોનો ઉપયોગ કરીને, તમારા પાકની વૃદ્ધિ અને ઉત્પાદનને સુધારવા માટે મદદ મળશે.",
+        "en": "Hemaji, the instructions for composting for your crop are as follows:\n\n### 1. **Gharvalo (Muskmelon)**\n- **Current stage:** Fruit maturity\n- **Today date:** 2025-04-18\n- **Plan of eight:**\n  - **Day 1:** \n    - **Foliar method:** \n      * *Potassium Nitrate:** 2 kg/acre\n      * *Note:** The indication of micro-nutrient fertilizers for foliar spray should not be more than 1%.\n  - **Day 1:** \n    * **Fertigation method:** \n      **Calcium Nitrate:** 3 kg/acre\n      - **Sulfate of Potash:** 3 kg/acre\n      * *Note:** Calcium nitrate should be applied 15-20 minutes after the feeling of other fertilizers.\n  - **Day 4:** \n    * **Fertigation method:** \n      - **Sulfate of Potash:** 3 kg/acre\n\n### 2. **S.B.Solanki (Muskmelon)**\n- **Current stage:** Flowers and fruiting\n- **Today date:** 2025-04-18\n- **Plan of eight:**\n  - **Day 1:** \n    - **Foliar method:** \n      * **Manganese Sulphate:** 400 g/acre\n      - **Zinc Sulphate:** 600 g/acre\n      * *Ferrous Sulphate:** 500 g/acre\n  - **Day 1:** \n    * **Fertigation method:** \n      * *Potassium Nitrate:** 3 kg/acre\n      - **Magnesium Sulphate:** 3 kg/acre\n  - **Day 4:** \n    * **Fertigation method:** \n      **Calcium Nitrate:** 3 kg/acre\n      - **Sulfate of Potash:** 3 kg/acre\n\nUsing these fertilizers will help in improving the growth and production of your crop.",
+        "timestamp": {
+          "$date": "2025-04-18T01:50:20.205Z"
+        }
+      }
+    ],
+    "farmer_id": "hemajibabujimali",
+    "farmer_plot_ids": [
+      "gharvalo339",
+      "sbsolanki"
+    ],
+    "conversation_id": "6801afcf057a0577cfb9bca0",
+    "_id": "6801afcf057a0577cfb9bca0",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-18T01:55:07.297000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-18T01:50:07.288000+00:00"
+  }
+]

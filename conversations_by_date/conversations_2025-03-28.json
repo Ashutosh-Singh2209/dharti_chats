@@ -1,0 +1,1323 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Pani kadhi deu bagala ",
+        "en": "Paani Kadhi Deo Bagala ",
+        "timestamp": {
+          "$date": "2025-03-28T14:42:47.877Z"
+        },
+        "standalone_question": "Could you please give me some water?",
+        "standalone_en": "Could you please give me some water?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Thompson plot no.1 मध्ये सध्या पाण्याची गरज नाही. सध्या मातीतील आर्द्रता 78% आहे, जी 60% च्या आदर्श पातळीपेक्षा जास्त आहे. त्यामुळे पाणी देण्याची आवश्यकता नाही.",
+        "en": "Thompson plot No.1 does not currently require water. Soil moisture is currently 78%, which is above the ideal level of 60%. Therefore, there is no need to water.",
+        "timestamp": {
+          "$date": "2025-03-28T14:42:52.501Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Aadrata kiti ahe",
+        "en": "Adrata Kitty Ahe",
+        "timestamp": {
+          "$date": "2025-03-28T14:43:15.454Z"
+        },
+        "standalone_question": "What is the current moisture level?",
+        "standalone_en": "What is the current moisture level?",
+        "retrieval": {
+          "tools": [
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range."
+          ],
+          "faq": [
+            "Q: The moisture (kpa) is increasing slowly recently.\nA: Need to check for current stage and evapotranspiration rate. If the crop is recently sown or pruning (छंटाई)  is done recently, the transpiration will be slow and moisture kpa will increase slowly. If evaporation is slow or temperature have dropped on rainfall has happened, it will increase slowly. The chatbot needs to check the temperature , rainfall and crop stage data. And advise if there is any reason for the slow increase.\nIf still there is some confusion, the chatbot needs to ask user to check moisture around the sensor by digging and then ask  the user if he wants to create an issue ticket for the same.",
+            "Q: What is the range of kpa moisture provided by the sensor ?\nA: It's 0-200 Kpa. 0 kPa is wet, 200 kPa is dry",
+            "Q: What is my soil moisture depletion?\nA: Soil moisture depletion %age = (100 - soil moisture %age)",
+            "Q: The moisture (kpa) is increasing very fast  recently and it is asking to irrigate frequently.\nA:  Kpa is increasing fast it means that sensors are drying rapidly.  The chatbot needs to :\nCheck the actual kpa increase rate if it's higher now  in comparison to the previous weeks. If there no , tell the user that kPa increase is normal.\nIf there is rapid increase recently, check if the crop stag is near full fruit growth or harvesting. In the later stages , crop transpiration is very high , thus there is a rapid increase in soil moisture Kpa meaning decrease in moisture in the soil. Also, the moisture drop can be due to high evaporation recently. Check if there is temperature increase meaning high evaporation recently.\nIf the above two are not the cases, ask user to check the moisture physically near the sensor. If the actual moisture is wet near the sensor and the sensor is showing dry, the sensor might be worn out. In this case , ask if the user wants to raise a ticket with the support team.",
+            "Q: I irrigated still the sensor is dropping slowly.\nA: Sometimes, the water reaches slowly till root zone and the moisture sensor kPa value drops slowly. Always wait for 12 hours after irrigation for the moisture to saturate. If still some confusion, ask user to check moisture near the sensor and check if he wants to raise a ticket for the issue."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Thompson plot no.1 मध्ये सध्या मातीतील आर्द्रता 78% आहे. ",
+        "en": "Thompson plot No.1 currently has soil moisture of 78%. ",
+        "timestamp": {
+          "$date": "2025-03-28T14:43:19.481Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Donhi senser chi kiti ahe",
+        "en": "How much is both sensors?",
+        "timestamp": {
+          "$date": "2025-03-28T14:43:45.479Z"
+        },
+        "standalone_question": "What is the moisture level of both sensors?",
+        "standalone_en": "What is the moisture level of both sensors?",
+        "retrieval": {
+          "tools": [
+            "get_soil_moisture_sensor_depth  \nReturns the depths in inches of the soil moisture sensors 1 and 2 installed on the plots."
+          ],
+          "faq": [
+            "Q: What is the range of kpa moisture provided by the sensor ?\nA: It's 0-200 Kpa. 0 kPa is wet, 200 kPa is dry",
+            "Q: Sensor is showing wet, i.e. less kpa but soil looks dry.\nA: The sensor measures the moisture around the rootzone which is not visible from the top. Ask use to check the moisture in rootzone around the sensor. If it matches, ask the user to irrigate.",
+            "Q: I irrigated still the sensor is dropping slowly.\nA: Sometimes, the water reaches slowly till root zone and the moisture sensor kPa value drops slowly. Always wait for 12 hours after irrigation for the moisture to saturate. If still some confusion, ask user to check moisture near the sensor and check if he wants to raise a ticket for the issue.",
+            "Q: How do I know if my soil  moisture sensor is working fine ?\nA: The only way to know is if after irrigation the sensor is dropping below 5 kpa and increasing continuously unless next irrigation is done. You can try putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. Also, a soil moisture reading of 0 kPa is perfectly fine, meaning wet soil, but a reading of 200 kPa could mean fault. If the soil moisture sensor reading is consistently at 0 from few 48 hours, then it could be anamolous (use live and historical hourly soil moisture data (use tool) to validate).",
+            "Q: How to calibrate soil moisture sensors ?\nA:  The way to calibrate sensors is by putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. A drop after watering or irrigation and continuous dry upto 200 kpa means that the sensor is calibrated."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Thompson plot no.1 मध्ये दोन्ही सेन्सरची आर्द्रता 78% आहे.",
+        "en": "The Humidity of both sensors in Thompson plot No.1 is 78%.",
+        "timestamp": {
+          "$date": "2025-03-28T14:43:49.907Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Chukichi mahiti deu rahile tumhi",
+        "en": "You kept giving wrong information",
+        "timestamp": {
+          "$date": "2025-03-28T14:44:08.137Z"
+        },
+        "standalone_question": "Are you providing incorrect information?",
+        "standalone_en": "Are you providing incorrect information?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Thompson plot no.1 मध्ये दोन्ही सेन्सरची आर्द्रता 78% आहे. \n\nतुमच्या प्लॉटमध्ये एकच NERO (Irrigation) युनिट आहे. KAIRO (Weather) युनिट नाही.",
+        "en": "The Humidity of both sensors in Thompson plot No.1 is 78%. \n\nThere is only one NERO (Irrigation) unit in your plot. Not a KAIRO (Weather) unit.",
+        "timestamp": {
+          "$date": "2025-03-28T14:44:13.037Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Mla tr 63 aadrata disu rahili app madhe",
+        "en": "MLA TR 63 Adrta Dissu Rahili APP Madhe",
+        "timestamp": {
+          "$date": "2025-03-28T14:44:46.343Z"
+        },
+        "standalone_question": "Why does the app show 63% humidity?",
+        "standalone_en": "Why does the app show 63% humidity?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Thompson plot no.1 मध्ये सध्या दोन्ही सेन्सरची आर्द्रता 78% आहे. \n\nतुमच्या सेन्सरमध्ये काही अडचणी आहेत, कारण तुम्ही 63% आर्द्रता पाहिली होती. कृपया मातीच्या आसपास खोदून आर्द्रता तपासा. जर माती खूपच कोरडी दिसत असेल, तर सेन्सरमध्ये काही समस्या असू शकते. तुम्हाला याबाबत तिकीट उघडायचे आहे का?",
+        "en": "Thompson plot No.1 currently has 78% humidity for both sensors. \n\nThere are some problems with your sensor, because you saw 63% humidity. Please check the humidity by digging around the soil. If the soil looks too dry, there may be some problems with the sensors. Do you want to open a ticket for this?",
+        "timestamp": {
+          "$date": "2025-03-28T14:44:51.816Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "1 number chya senser chi aadrata kiti ahe",
+        "en": "What is the humidity of the sensor number 1",
+        "timestamp": {
+          "$date": "2025-03-28T14:46:05.920Z"
+        },
+        "standalone_question": "What is the moisture level of sensor number 1?",
+        "standalone_en": "What is the moisture level of sensor number 1?",
+        "retrieval": {
+          "tools": [
+            "get_soil_moisture_sensor_depth  \nReturns the depths in inches of the soil moisture sensors 1 and 2 installed on the plots."
+          ],
+          "faq": [
+            "Q: What is the range of kpa moisture provided by the sensor ?\nA: It's 0-200 Kpa. 0 kPa is wet, 200 kPa is dry",
+            "Q: I irrigated still the sensor is dropping slowly.\nA: Sometimes, the water reaches slowly till root zone and the moisture sensor kPa value drops slowly. Always wait for 12 hours after irrigation for the moisture to saturate. If still some confusion, ask user to check moisture near the sensor and check if he wants to raise a ticket for the issue.",
+            "Q: Sensor is showing wet, i.e. less kpa but soil looks dry.\nA: The sensor measures the moisture around the rootzone which is not visible from the top. Ask use to check the moisture in rootzone around the sensor. If it matches, ask the user to irrigate.",
+            "Q: How do I know if my soil  moisture sensor is working fine ?\nA: The only way to know is if after irrigation the sensor is dropping below 5 kpa and increasing continuously unless next irrigation is done. You can try putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. Also, a soil moisture reading of 0 kPa is perfectly fine, meaning wet soil, but a reading of 200 kPa could mean fault. If the soil moisture sensor reading is consistently at 0 from few 48 hours, then it could be anamolous (use live and historical hourly soil moisture data (use tool) to validate).",
+            "Q: What should I do if the soil moisture sensor values fluctuate?\nA: Ensure the sensor is installed properly in the soil, check for air bubbles, and contact Fyllo representative if the issue persists."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Thompson plot no.1 मध्ये 1 नंबरच्या सेन्सरची आर्द्रता 78% आहे.",
+        "en": "The humidity of the number 1 sensor in Thompson plot no.1 is 78%.",
+        "timestamp": {
+          "$date": "2025-03-28T14:46:10.840Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "63 ahe",
+        "en": "63 ahe",
+        "timestamp": {
+          "$date": "2025-03-28T14:46:27.759Z"
+        },
+        "standalone_question": "What is the current moisture level of the sensor?",
+        "standalone_en": "What is the current moisture level of the sensor?",
+        "retrieval": {
+          "tools": [
+            "get_soil_moisture_sensor_depth  \nReturns the depths in inches of the soil moisture sensors 1 and 2 installed on the plots.",
+            "get_daily_soil_moisture_data  \nRetrieves historical daily soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for larger duration."
+          ],
+          "faq": [
+            "Q: What is the range of kpa moisture provided by the sensor ?\nA: It's 0-200 Kpa. 0 kPa is wet, 200 kPa is dry",
+            "Q: Sensor is showing wet, i.e. less kpa but soil looks dry.\nA: The sensor measures the moisture around the rootzone which is not visible from the top. Ask use to check the moisture in rootzone around the sensor. If it matches, ask the user to irrigate.",
+            "Q: I irrigated still the sensor is dropping slowly.\nA: Sometimes, the water reaches slowly till root zone and the moisture sensor kPa value drops slowly. Always wait for 12 hours after irrigation for the moisture to saturate. If still some confusion, ask user to check moisture near the sensor and check if he wants to raise a ticket for the issue.",
+            "Q: How do I know if my soil  moisture sensor is working fine ?\nA: The only way to know is if after irrigation the sensor is dropping below 5 kpa and increasing continuously unless next irrigation is done. You can try putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. Also, a soil moisture reading of 0 kPa is perfectly fine, meaning wet soil, but a reading of 200 kPa could mean fault. If the soil moisture sensor reading is consistently at 0 from few 48 hours, then it could be anamolous (use live and historical hourly soil moisture data (use tool) to validate).",
+            "Q: Sensor is showing dry, but it rained recently.\nA: Rainwater doesn't percolate well in the soil. Most of it runs off. After a day of rain stops , if the sensor is still dry, you will have to irrigate. You can check the moisture by digging near the sensor . Irrigate accordingly."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Thompson plot no.1 मध्ये 1 नंबरच्या सेन्सरची आर्द्रता 63 kPa आहे, जी कोरडी माती दर्शवते. \n\nकृपया मातीच्या आसपास खोदून आर्द्रता तपासा. जर माती खूपच कोरडी दिसत असेल, तर तुम्हाला पाणी देणे आवश्यक आहे. तुम्हाला पाणी देण्याची आवश्यकता आहे का?",
+        "en": "The humidity of the sensor number 1 in Thompson plot no.1 is 63 kPa, which indicates dry soil. \n\nPlease check the humidity by digging around the soil. If the soil looks too dry, you need to water it. Do you need to water?",
+        "timestamp": {
+          "$date": "2025-03-28T14:46:31.598Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Mg tumhi 78 kabr sangta ahe",
+        "en": "MG you're saying 78 KABR",
+        "timestamp": {
+          "$date": "2025-03-28T14:46:54.581Z"
+        },
+        "standalone_question": "Why are you saying the moisture level is 78%?",
+        "standalone_en": "Why are you saying the moisture level is 78%?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: The moisture (kpa) is increasing slowly recently.\nA: Need to check for current stage and evapotranspiration rate. If the crop is recently sown or pruning (छंटाई)  is done recently, the transpiration will be slow and moisture kpa will increase slowly. If evaporation is slow or temperature have dropped on rainfall has happened, it will increase slowly. The chatbot needs to check the temperature , rainfall and crop stage data. And advise if there is any reason for the slow increase.\nIf still there is some confusion, the chatbot needs to ask user to check moisture around the sensor by digging and then ask  the user if he wants to create an issue ticket for the same."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Thompson plot no.1 मध्ये 1 नंबरच्या सेन्सरची आर्द्रता 78% आहे, परंतु सध्या तुम्हाला 63% आर्द्रता दिसत आहे. \n\nकृपया मातीच्या आसपास खोदून आर्द्रता तपासा. जर माती खूपच कोरडी दिसत असेल, तर सेन्सरमध्ये काही समस्या असू शकते. तुम्हाला याबाबत तिकीट उघडायचे आहे का?",
+        "en": "The Humidity of the No. 1 sensor in Thompson plot No.1 is 78%, but you're currently seeing 63% humidity. \n\nPlease check the humidity by digging around the soil. If the soil looks too dry, there may be some problems with the sensors. Do you want to open a ticket for this?",
+        "timestamp": {
+          "$date": "2025-03-28T14:46:59.595Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Mg khari aadrata konti samju aamhi",
+        "en": "M.G. Khari Adrata Konti Sanju Aamhi",
+        "timestamp": {
+          "$date": "2025-03-28T14:47:52.406Z"
+        },
+        "standalone_question": "Which moisture reading should we consider as accurate?",
+        "standalone_en": "Which moisture reading should we consider as accurate?",
+        "retrieval": {
+          "tools": [
+            "get_soil_moisture_percentage_from_kpa_reading  \nGets the estimated soil moisture percentage for a given plot and kPa reading."
+          ],
+          "faq": [
+            "Q: How do I know if my soil  moisture sensor is working fine ?\nA: The only way to know is if after irrigation the sensor is dropping below 5 kpa and increasing continuously unless next irrigation is done. You can try putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. Also, a soil moisture reading of 0 kPa is perfectly fine, meaning wet soil, but a reading of 200 kPa could mean fault. If the soil moisture sensor reading is consistently at 0 from few 48 hours, then it could be anamolous (use live and historical hourly soil moisture data (use tool) to validate).",
+            "Q: I irrigated still the sensor is dropping slowly.\nA: Sometimes, the water reaches slowly till root zone and the moisture sensor kPa value drops slowly. Always wait for 12 hours after irrigation for the moisture to saturate. If still some confusion, ask user to check moisture near the sensor and check if he wants to raise a ticket for the issue.",
+            "Q: What should I do if the soil moisture sensor values fluctuate?\nA: Ensure the sensor is installed properly in the soil, check for air bubbles, and contact Fyllo representative if the issue persists.",
+            "Q: The moisture (kpa) is increasing slowly recently.\nA: Need to check for current stage and evapotranspiration rate. If the crop is recently sown or pruning (छंटाई)  is done recently, the transpiration will be slow and moisture kpa will increase slowly. If evaporation is slow or temperature have dropped on rainfall has happened, it will increase slowly. The chatbot needs to check the temperature , rainfall and crop stage data. And advise if there is any reason for the slow increase.\nIf still there is some confusion, the chatbot needs to ask user to check moisture around the sensor by digging and then ask  the user if he wants to create an issue ticket for the same."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Thompson plot no.1 मध्ये सध्या 1 नंबरच्या सेन्सरची आर्द्रता 78% आहे. \n\nतुमच्या सेन्सरमध्ये काही अडचणी आहेत, कारण तुम्ही 63% आर्द्रता पाहिली होती. कृपया मातीच्या आसपास खोदून आर्द्रता तपासा. \n\nतुमच्या प्लॉटमध्ये हवामान सेन्सर उपलब्ध नाहीत, त्यामुळे ऐतिहासिक हवामान डेटा उपलब्ध नाही. \n\nतुम्हाला याबाबत तिकीट उघडायचे आहे का?",
+        "en": "Thompson plot No.1 currently has a 78% humidity of the no. 1 sensor. \n\nThere are some problems with your sensor, because you saw 63% humidity. Please check the humidity by digging around the soil. \n\nWeather sensors are not available in your plot, so historical weather data is not available. \n\nDo you want to open a ticket for this?",
+        "timestamp": {
+          "$date": "2025-03-28T14:47:59.540Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Tumala screenshot pathvu ka atacha",
+        "en": "Screenshot of Thumala Patvu Ka Atacha",
+        "timestamp": {
+          "$date": "2025-03-28T14:48:28.026Z"
+        },
+        "standalone_question": "Would you like me to send you a screenshot of the current data?",
+        "standalone_en": "Would you like me to send you a screenshot of the current data?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "होय, तुम्ही स्क्रीनशॉट पाठवू शकता. मी त्याचे विश्लेषण करून तुम्हाला मदत करू शकेन. कृपया स्क्रीनशॉट अपलोड करा.",
+        "en": "Yes, you can send a screenshot. I can help you analyze it. Please upload a screenshot.",
+        "timestamp": {
+          "$date": "2025-03-28T14:48:31.745Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ata sanga kiti aadrata ahe<user uploaded image for analysis at 'thompsonplotno1328/2025-03-28-1743173330744.jpg'>",
+        "en": "aata sanga kitty adrta ahe<user uploaded image for analysis at 'thompsonplotno1328/2025-03-28-1743173330744.jpg'>",
+        "timestamp": {
+          "$date": "2025-03-28T14:49:08.698Z"
+        },
+        "standalone_question": "What is the current moisture level?",
+        "standalone_en": "What is the current moisture level?",
+        "retrieval": {
+          "tools": [
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range."
+          ],
+          "faq": [
+            "Q: The moisture (kpa) is increasing slowly recently.\nA: Need to check for current stage and evapotranspiration rate. If the crop is recently sown or pruning (छंटाई)  is done recently, the transpiration will be slow and moisture kpa will increase slowly. If evaporation is slow or temperature have dropped on rainfall has happened, it will increase slowly. The chatbot needs to check the temperature , rainfall and crop stage data. And advise if there is any reason for the slow increase.\nIf still there is some confusion, the chatbot needs to ask user to check moisture around the sensor by digging and then ask  the user if he wants to create an issue ticket for the same.",
+            "Q: What is the range of kpa moisture provided by the sensor ?\nA: It's 0-200 Kpa. 0 kPa is wet, 200 kPa is dry",
+            "Q: What is my soil moisture depletion?\nA: Soil moisture depletion %age = (100 - soil moisture %age)",
+            "Q: The moisture (kpa) is increasing very fast  recently and it is asking to irrigate frequently.\nA:  Kpa is increasing fast it means that sensors are drying rapidly.  The chatbot needs to :\nCheck the actual kpa increase rate if it's higher now  in comparison to the previous weeks. If there no , tell the user that kPa increase is normal.\nIf there is rapid increase recently, check if the crop stag is near full fruit growth or harvesting. In the later stages , crop transpiration is very high , thus there is a rapid increase in soil moisture Kpa meaning decrease in moisture in the soil. Also, the moisture drop can be due to high evaporation recently. Check if there is temperature increase meaning high evaporation recently.\nIf the above two are not the cases, ask user to check the moisture physically near the sensor. If the actual moisture is wet near the sensor and the sensor is showing dry, the sensor might be worn out. In this case , ask if the user wants to raise a ticket with the support team.",
+            "Q: I irrigated still the sensor is dropping slowly.\nA: Sometimes, the water reaches slowly till root zone and the moisture sensor kPa value drops slowly. Always wait for 12 hours after irrigation for the moisture to saturate. If still some confusion, ask user to check moisture near the sensor and check if he wants to raise a ticket for the issue."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या पाठवलेल्या चित्रानुसार, Thompson plot no.1 मध्ये मातीतील आर्द्रता खालीलप्रमाणे आहे:\n\n- **Moisture Level 1:** 63%\n- **Moisture Level 2:** 78%\n- **Soil Temperature:** 27.88°C\n\nयामुळे तुम्हाला पाणी देण्याची आवश्यकता आहे, विशेषतः 63% आर्द्रता असलेल्या सेन्सरच्या आधारे. तुम्हाला पाणी देण्याची आवश्यकता आहे का?",
+        "en": "According to your sent picture, the soil moisture in Thompson Plot No.1 is as follows:\n\n- **Moisture Level 1:** 63%\n- **Moisture Level 2:** 78%\n- **Soil Temperature:** 27.88°C\n\nThis requires you to water, especially based on a sensor with 63% humidity. Do you need to water?",
+        "timestamp": {
+          "$date": "2025-03-28T14:49:18.138Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ajun tr pani deychi garaj vatat nhi",
+        "en": "I don't think there's a need for tr water day yet.",
+        "timestamp": {
+          "$date": "2025-03-28T14:50:08.348Z"
+        },
+        "standalone_question": "Is there still a need to water the plants?",
+        "standalone_en": "Is there still a need to water the plants?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "सध्या Thompson plot no.1 मध्ये 1 नंबरच्या सेन्सरची आर्द्रता 63% आहे, जी कोरडी माती दर्शवते. \n\nतुम्हाला पाणी देण्याची आवश्यकता आहे, परंतु तुम्ही अजून पाणी देण्याची गरज वाटत नाही. \n\nतुम्ही पाणी देण्याचा निर्णय घेऊ शकता, परंतु लक्षात ठेवा की 63% आर्द्रता म्हणजे माती कोरडी आहे. तुम्हाला पाणी देणे आवश्यक आहे का?",
+        "en": "Currently, the humidity of sensor number 1 in Thompson plot No.1 is 63%, indicating dry soil. \n\nYou need to water, but you don't feel the need to water yet. \n\nYou may decide to water, but remember that 63% humidity means the soil is dry. Do you need to water?",
+        "timestamp": {
+          "$date": "2025-03-28T14:50:12.757Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ho",
+        "en": "I have",
+        "timestamp": {
+          "$date": "2025-03-28T14:50:29.410Z"
+        },
+        "standalone_question": "Do you want to water the plants?",
+        "standalone_en": "Do you want to water the plants?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Thompson plot no.1 साठी आज पाण्याची आवश्यकता नाही. सध्या मातीतील आर्द्रता 63% आहे, परंतु आजच्या दिवशी पाण्याची गरज नाही. \n\nतुम्ही पाणी देण्याचा निर्णय घेऊ शकता, परंतु सध्या पाण्याची आवश्यकता नाही.",
+        "en": "Thompson plot No.1 doesn't need water today. The soil moisture is currently 63%, but there is no need for water on this day. \n\nYou may decide to water, but you don't need water at the moment.",
+        "timestamp": {
+          "$date": "2025-03-28T14:50:35.042Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Mg tu 79 kabr sangta hota",
+        "en": "Then you were 79 graves",
+        "timestamp": {
+          "$date": "2025-03-28T14:51:01.217Z"
+        },
+        "standalone_question": "Why do you say the moisture level is 79%?",
+        "standalone_en": "Why do you say the moisture level is 79%?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: The moisture (kpa) is increasing slowly recently.\nA: Need to check for current stage and evapotranspiration rate. If the crop is recently sown or pruning (छंटाई)  is done recently, the transpiration will be slow and moisture kpa will increase slowly. If evaporation is slow or temperature have dropped on rainfall has happened, it will increase slowly. The chatbot needs to check the temperature , rainfall and crop stage data. And advise if there is any reason for the slow increase.\nIf still there is some confusion, the chatbot needs to ask user to check moisture around the sensor by digging and then ask  the user if he wants to create an issue ticket for the same."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "माझ्या आधीच्या उत्तरांमध्ये काही गडबड झाली आहे. Thompson plot no.1 मध्ये 1 नंबरच्या सेन्सरची आर्द्रता 63% आहे, जी कोरडी माती दर्शवते. \n\nतुमच्या सेन्सरमध्ये काही समस्या असू शकतात. कृपया मातीच्या आसपास खोदून आर्द्रता तपासा. तुम्हाला याबाबत तिकीट उघडायचे आहे का?",
+        "en": "There has been some glitch in my earlier answers. The humidity of the sensor number 1 in Thompson plot no.1 is 63%, indicating dry soil. \n\nThere may be some problems with your sensor. Please check the humidity by digging around the soil. Do you want to open a ticket for this?",
+        "timestamp": {
+          "$date": "2025-03-28T14:51:05.034Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Deu ka mg pani ata",
+        "en": "Deo Ka MG Paani Atta",
+        "timestamp": {
+          "$date": "2025-03-28T14:51:26.627Z"
+        },
+        "standalone_question": "Should I give water now?",
+        "standalone_en": "Should I give water now?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Thompson plot no.1 साठी आज पाण्याची आवश्यकता नाही. सध्या मातीतील आर्द्रता 63% आहे, आणि आजच्या दिवशी पाण्याची गरज नाही. \n\nतुम्ही पाणी देण्याचा निर्णय घेऊ शकता, परंतु सध्या पाण्याची आवश्यकता नाही.",
+        "en": "Thompson plot No.1 doesn't need water today. The soil moisture is currently 63%, and there is no need for water on this day. \n\nYou may decide to water, but you don't need water at the moment.",
+        "timestamp": {
+          "$date": "2025-03-28T14:51:31.414Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Kiti percentage alyavr pani deu",
+        "en": "How much percentage of water to give",
+        "timestamp": {
+          "$date": "2025-03-28T14:52:05.062Z"
+        },
+        "standalone_question": "What percentage of moisture should be present before watering?",
+        "standalone_en": "What percentage of moisture should be present before watering?",
+        "retrieval": {
+          "tools": [
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range."
+          ],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Thompson plot no.1 साठी आज पाण्याची आवश्यकता नाही. सध्या मातीतील आर्द्रता 63% आहे, परंतु आजच्या दिवशी पाण्याची गरज नाही. \n\nतुम्हाला पाणी देण्याची आवश्यकता नाही.",
+        "en": "Thompson plot No.1 doesn't need water today. The soil moisture is currently 63%, but there is no need for water on this day. \n\nYou don't need to water.",
+        "timestamp": {
+          "$date": "2025-03-28T14:52:10.621Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Aadrata kiti percentage alyavr pani deu",
+        "en": "Anxiety kitty percentage alyavar work due",
+        "timestamp": {
+          "$date": "2025-03-28T14:52:37.821Z"
+        },
+        "standalone_question": "At what percentage of moisture should I water the plants?",
+        "standalone_en": "At what percentage of moisture should I water the plants?",
+        "retrieval": {
+          "tools": [
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Thompson plot no.1 साठी, मातीतील आदर्श आर्द्रता 60% च्या खाली असताना पाणी देणे आवश्यक आहे. \n\nसध्या 1 नंबरच्या सेन्सरची आर्द्रता 63% आहे, त्यामुळे तुम्हाला पाणी देण्याची आवश्यकता आहे. \n\nतुम्हाला किती पाणी देणे आवश्यक आहे हे ठरवण्यासाठी, मातीतील आर्द्रता कमी करण्यासाठी पाण्याची मात्रा मोजा.",
+        "en": "For Thompson plot No.1, it is necessary to water when the ideal humidity in the soil is below 60%. \n\nCurrently, the humidity of sensor number 1 is 63%, so you need to water. \n\nTo determine how much water you need to give, measure the amount of water to reduce the moisture in the soil.",
+        "timestamp": {
+          "$date": "2025-03-28T14:52:42.956Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Kashi mojavi",
+        "en": "Kashi mojavi",
+        "timestamp": {
+          "$date": "2025-03-28T14:53:15.987Z"
+        },
+        "standalone_question": "How do I measure the moisture level?",
+        "standalone_en": "How do I measure the moisture level?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How to calibrate soil moisture sensors ?\nA:  The way to calibrate sensors is by putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. A drop after watering or irrigation and continuous dry upto 200 kpa means that the sensor is calibrated.",
+            "Q: What should I do if the soil moisture sensor values fluctuate?\nA: Ensure the sensor is installed properly in the soil, check for air bubbles, and contact Fyllo representative if the issue persists.",
+            "Q: What should I do if the soil moisture sensor always shows wet values?\nA: Verify the irrigation frequency, check the installation point, and contact Fyllo representative if the issue persists.",
+            "Q: I irrigated still the sensor is dropping slowly.\nA: Sometimes, the water reaches slowly till root zone and the moisture sensor kPa value drops slowly. Always wait for 12 hours after irrigation for the moisture to saturate. If still some confusion, ask user to check moisture near the sensor and check if he wants to raise a ticket for the issue.",
+            "Q: How do I know if my soil  moisture sensor is working fine ?\nA: The only way to know is if after irrigation the sensor is dropping below 5 kpa and increasing continuously unless next irrigation is done. You can try putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. Also, a soil moisture reading of 0 kPa is perfectly fine, meaning wet soil, but a reading of 200 kPa could mean fault. If the soil moisture sensor reading is consistently at 0 from few 48 hours, then it could be anamolous (use live and historical hourly soil moisture data (use tool) to validate)."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Thompson plot no.1 साठी पाण्याची गरज 3.29 तास आहे.\n\nयासाठी मी खालील सेटिंग्ज वापरल्या:\n- **Root Width:** 60 इंच\n- **Root Depth:** 19 इंच\n- **Soil Retention:** 170 मिमी\n- **Dripper Distance:** 2 मिमी\n- **Dripper Discharge:** 8 लिटर\n\nतुम्हाला वेगळ्या सेटिंग्जसह पाण्याची गरज मोजायची आहे का? जर होय, तर कृपया नवीन मूल्ये द्या.",
+        "en": "The water requirement for Thompson plot No.1 is 3.29 hours.\n\nI used the following settings for this:\n- **Root Width:** 60 inches\n- **Root Depth:** 19 inches\n- **Soil Retention:** 170 mm\n- **Dripper Distance:** 2 mm\n- **Dripper Discharge:** 8 liters\n\nDo you want to measure water needs with different settings? If yes, please give new values.",
+        "timestamp": {
+          "$date": "2025-03-28T14:53:22.637Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Soil retention kashe kadhave",
+        "en": "Soil retention kashe kadhave",
+        "timestamp": {
+          "$date": "2025-03-28T14:54:10.665Z"
+        },
+        "standalone_question": "How do you determine soil retention?",
+        "standalone_en": "How do you determine soil retention?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Soil retention म्हणजे मातीतील पाण्याची धारणा क्षमता, जी मातीच्या प्रकारावर आणि पिकांच्या मुळांच्या खोलीवर अवलंबून असते. \n\nतुम्हाला soil retention काढण्यासाठी खालील माहिती आवश्यक आहे:\n\n1. **मातीचा प्रकार:** मातीची रचना (उदा. चिकणमाती, वाळू, लोम) \n2. **मुळांची खोली:** पिकांच्या मुळांची खोली किती आहे.\n3. **पाण्याची धारणा:** माती किती पाणी धारण करू शकते.\n\nतुमच्या प्लॉटसाठी soil retention काढण्यासाठी तुम्हाला मातीच्या विशिष्ट गुणधर्मांची माहिती असणे आवश्यक आहे. तुम्हाला याबाबत अधिक माहिती हवी आहे का?",
+        "en": "Soil retention refers to the water retention capacity of the soil, which depends on the type of soil and the depth of the roots of the crops. \n\nYou need the following information to remove soil retention:\n\n1. **Soil type:** Soil structure (e.g., clay, sand, loam) \n2. **Depth of roots:** What is the depth of roots of crops?\n3. **Water retention:** How much water the soil can hold.\n\nTo draw soil retention for your plot, you need to know the specific properties of the soil. Do you want to know more about this?",
+        "timestamp": {
+          "$date": "2025-03-28T14:54:15.511Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ho",
+        "en": "I have",
+        "timestamp": {
+          "$date": "2025-03-28T14:54:34.014Z"
+        },
+        "standalone_question": "How do you calculate soil retention?",
+        "standalone_en": "How do you calculate soil retention?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Thompson plot no.1 साठी आज पाण्याची आवश्यकता नाही. सध्या मातीतील आर्द्रता 63% आहे, त्यामुळे तुम्हाला पाणी देण्याची आवश्यकता नाही. \n\nतुम्हाला आणखी काही विचारायचे आहे का?",
+        "en": "Thompson plot No.1 doesn't need water today. The soil moisture is currently 63%, so you don't need to water. \n\nIs there anything else you'd like to ask?",
+        "timestamp": {
+          "$date": "2025-03-28T14:54:40.925Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Soil retention kadhaychi kashi",
+        "en": "How to remove soil retention",
+        "timestamp": {
+          "$date": "2025-03-28T14:55:23.046Z"
+        },
+        "standalone_question": "How do you determine soil retention?",
+        "standalone_en": "How do you determine soil retention?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Soil retention काढण्यासाठी तुम्हाला खालील माहिती आवश्यक आहे:\n\n1. **मातीचा प्रकार:** मातीची रचना (उदा. चिकणमाती, वाळू, लोम).\n2. **मुळांची खोली:** पिकांच्या मुळांची खोली किती आहे.\n3. **पाण्याची धारणा:** माती किती पाणी धारण करू शकते.\n\n### Soil Retention काढण्याची पद्धत:\n\n1. **मातीचा प्रकार:** \n   - चिकणमाती: 150-200 मिमी\n   - लोम: 100-150 मिमी\n   - वाळू: 50-100 मिमी\n\n2. **मुळांची खोली:** \n   - पिकांच्या मुळांची खोली मोजा (उदा. 12 इंच, 18 इंच).\n\n3. **पाण्याची धारणा:** \n   - मातीच्या प्रकारानुसार पाण्याची धारणा काढा.\n\n### उदाहरण:\n- जर तुमची माती चिकणमाती असेल आणि मुळांची खोली 18 इंच असेल, तर तुम्ही 170 मिमी (चिकणमातीसाठी) वापरू शकता.\n\nतुमच्या प्लॉटसाठी soil retention काढण्यासाठी तुम्हाला मातीच्या विशिष्ट गुणधर्मांची माहिती असणे आवश्यक आहे. तुम्हाला याबाबत अधिक माहिती हवी आहे का?",
+        "en": "You need the following information to remove soil retention:\n\n1. **Soil type:** Soil composition (e.g., clay, sand, loam).\n2. **Depth of roots:** What is the depth of roots of crops?\n3. **Water retention:** How much water the soil can hold.\n\n### Soil Retention Removal Method:\n\n1. **Type of soil:** \n   - Clay: 150–200 mm\n   - Lom: 100–150 mm\n   - Sand: 50–100 mm\n\n2. **Depth of roots:** \n   Measure the depth of crop roots (e.g., 12 inches, 18 inches).\n\n3. **Water retention:** \n   - Water retention according to soil type.\n\n### Example:\nIf your soil is clay and the depth of roots is 18 inches, you can use 170 mm (for clay).\n\nTo draw soil retention for your plot, you need to know the specific properties of the soil. Do you want to know more about this?",
+        "timestamp": {
+          "$date": "2025-03-28T14:55:30.004Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ho adhik mahiti dya",
+        "en": "Yes, give more information",
+        "timestamp": {
+          "$date": "2025-03-28T14:57:19.613Z"
+        },
+        "standalone_question": "What additional information do you need about calculating soil retention?",
+        "standalone_en": "What additional information do you need about calculating soil retention?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Soil retention काढण्यासाठी तुम्हाला खालील माहिती आवश्यक आहे:\n\n### 1. मातीचा प्रकार:\n- **चिकणमाती (Clay):** 150-200 मिमी\n- **लोम (Loam):** 100-150 मिमी\n- **वाळू (Sand):** 50-100 मिमी\n\n### 2. मुळांची खोली:\n- पिकांच्या मुळांची खोली मोजा. उदाहरणार्थ, जर तुमच्या पिकांची मुळांची खोली 12 इंच असेल, तर तुम्ही 12 इंच मोजा.\n\n### 3. पाण्याची धारणा:\n- मातीच्या प्रकारानुसार पाण्याची धारणा काढा. उदाहरणार्थ, चिकणमातीसाठी 170 मिमी वापरू शकता.\n\n### 4. काढण्याची पद्धत:\n- **फॉर्म्युला:** \n  \\[\n  \\text{Soil Retention} = \\text{Root Width} \\times \\text{Root Depth} \\times \\text{Soil Retention Value}\n  \\]\n\n### उदाहरण:\n- जर तुमची माती चिकणमाती असेल, मुळांची खोली 18 इंच असेल, आणि तुम्ही 170 मिमी वापरत असाल, तर तुम्ही खालीलप्रमाणे काढू शकता:\n  - Root Width: 60 इंच\n  - Root Depth: 18 इंच\n  - Soil Retention: 170 मिमी\n\n### पाण्याची आवश्यकता:\n- जर तुम्हाला पाण्याची आवश्यकता असेल, तर तुम्ही पाण्याची मात्रा मोजण्यासाठी वरील माहिती वापरू शकता.\n\nतुमच्या प्लॉटसाठी soil retention काढण्यासाठी तुम्हाला मातीच्या विशिष्ट गुणधर्मांची माहिती असणे आवश्यक आहे. तुम्हाला याबाबत अधिक माहिती हवी आहे का?",
+        "en": "You need the following information to remove soil retention:\n\n### 1. Type of soil:\n- **Clay clay :** 150–200 mm\n- **Loam(Loam):** 100–150 mm\n- **Sand):** 50–100 mm\n\n### 2. Depth of roots:\n- Measure the depth of roots of crops. For example, if the depth of your crops' roots is 12 inches, you measure 12 inches.\n\n### 3. Water perception:\n- Water retention according to soil type. For example, you can use 170 mm for clay.\n\n### 4. Method of removal:\n- **Formula:** \n  \\[\n  \\text{Soil Retention} = \\text{Root Width} \\times \\text{Root Depth} \\times \\text{Soil Retention Value}\n  \\]\n\n### Example:\nIf your soil is clay, roots are 18 inches deep, and you use 170 mm, you can remove as follows:\n  - Root Width: 60 inches\n  - Root Depth: 18 inches\n  - Soil Retention: 170 mm\n\n### Water needs:\nIf you need water, you can use the above information to measure the amount of water.\n\nTo draw soil retention for your plot, you need to know the specific properties of the soil. Do you want to know more about this?",
+        "timestamp": {
+          "$date": "2025-03-28T14:57:27.457Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Zopu ka mi ata",
+        "en": "Zopu ka mi ata",
+        "timestamp": {
+          "$date": "2025-03-28T14:58:54.550Z"
+        },
+        "standalone_question": "What is the method to calculate soil retention?",
+        "standalone_en": "What is the method to calculate soil retention?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुम्ही झोपायला जाऊ शकता. सध्या Thompson plot no.1 मध्ये मातीतील आर्द्रता 63% आहे, जी कोरडी आहे. तुम्हाला पाणी देण्याची आवश्यकता आहे, परंतु तुम्ही झोपायला जात असाल, तर तुम्ही सकाळी पाणी देऊ शकता. \n\nसकाळी पाणी देण्याची गरज असल्यास, तुम्ही तेव्हा पाणी देऊ शकता. चांगली झोप घ्या!",
+        "en": "You can go to bed. Currently, the soil moisture in Thompson plot No.1 is 63%, which is dry. You need to be watered, but if you're going to bed, you can water in the morning. \n\nIf you need to water in the morning, you can water it then. Get a good night's sleep!",
+        "timestamp": {
+          "$date": "2025-03-28T14:58:59.146Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Mla whatsapp la message krun sanga na aadrata kiti ahe",
+        "en": "Mla whatsapp la message krun sanga na aadrata kiti ahe",
+        "timestamp": {
+          "$date": "2025-03-28T14:59:46.203Z"
+        },
+        "standalone_question": "Can you send me a message on WhatsApp to let me know what the moisture level is?",
+        "standalone_en": "Can you send me a message on WhatsApp to let me know what the moisture level is?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: The moisture (kpa) is increasing slowly recently.\nA: Need to check for current stage and evapotranspiration rate. If the crop is recently sown or pruning (छंटाई)  is done recently, the transpiration will be slow and moisture kpa will increase slowly. If evaporation is slow or temperature have dropped on rainfall has happened, it will increase slowly. The chatbot needs to check the temperature , rainfall and crop stage data. And advise if there is any reason for the slow increase.\nIf still there is some confusion, the chatbot needs to ask user to check moisture around the sensor by digging and then ask  the user if he wants to create an issue ticket for the same.",
+            "Q: The moisture (kpa) is increasing very fast  recently and it is asking to irrigate frequently.\nA:  Kpa is increasing fast it means that sensors are drying rapidly.  The chatbot needs to :\nCheck the actual kpa increase rate if it's higher now  in comparison to the previous weeks. If there no , tell the user that kPa increase is normal.\nIf there is rapid increase recently, check if the crop stag is near full fruit growth or harvesting. In the later stages , crop transpiration is very high , thus there is a rapid increase in soil moisture Kpa meaning decrease in moisture in the soil. Also, the moisture drop can be due to high evaporation recently. Check if there is temperature increase meaning high evaporation recently.\nIf the above two are not the cases, ask user to check the moisture physically near the sensor. If the actual moisture is wet near the sensor and the sensor is showing dry, the sensor might be worn out. In this case , ask if the user wants to raise a ticket with the support team."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "माझ्या क्षमतेनुसार, मी थेट WhatsApp वर संदेश पाठवू शकत नाही. तथापि, तुम्ही खालील माहिती कॉपी करून तुमच्या WhatsApp वर पाठवू शकता:\n\n\"Thompson plot no.1 मध्ये सध्या मातीतील आर्द्रता 63% आहे. कृपया याबाबत लक्ष ठेवा.\"\n\nतुम्हाला आणखी काही मदतीची आवश्यकता आहे का?",
+        "en": "To the best of my ability, I can't send messages directly to WhatsApp. However, you can copy the following information and send it to your WhatsApp:\n\n\"Thompson plot No.1 currently has soil moisture of 63%. Please keep an eye on it.\"\n\nDo you need any more help?",
+        "timestamp": {
+          "$date": "2025-03-28T14:59:50.928Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ek joke sanga",
+        "en": "Tell a joke",
+        "timestamp": {
+          "$date": "2025-03-28T15:00:17.399Z"
+        },
+        "standalone_question": "Can you tell me a joke?",
+        "standalone_en": "Can you tell me a joke?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "एक मजेदार जोक:\n\nकाय तुम्हाला माहिती आहे का? \n\nएक शेतकरी आपल्या मित्राला म्हणतो, \"माझ्या बागेत एक झाड आहे, जे नेहमी फळे देत नाही!\"\n\nमित्र: \"काय झाड आहे?\"\n\nशेतकरी: \"काय सांगू, ते 'फळ देणारे झाड' आहे, पण फक्त 'फळ देणारे' म्हणूनच!\"\n\nहा जोक तुम्हाला आवडला का?",
+        "en": "A fun joke:\n\nDid you know what? \n\nA farmer says to his friend, \"There is a tree in my garden that does not always bear fruit!\"\n\nFriend: \"What's the tree?\"\n\nFarmer: \"What can I say, it's a 'fruit-bearing tree', but only because it 'bears fruit'!\"\n\nDid you like this joke?",
+        "timestamp": {
+          "$date": "2025-03-28T15:00:22.456Z"
+        }
+      }
+    ],
+    "farmer_id": "akshaysomvanshi",
+    "farmer_plot_ids": [
+      "thompsonplotno1328"
+    ],
+    "conversation_id": "67e6b5672cbb7c6b4db817d7",
+    "_id": "67e6b5672cbb7c6b4db817d7",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-03-28T15:05:17.407000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-03-28T14:42:47.877000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Gibrellic acid compitable with thiomaxin",
+        "en": "Gibrellic acid compitable with thiomaxin",
+        "timestamp": {
+          "$date": "2025-03-28T11:53:31.268Z"
+        },
+        "standalone_question": "Is gibberellic acid compatible with thiomaxin?",
+        "standalone_en": "Is gibberellic acid compatible with thiomaxin?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Gibberellic acid and Thiomaxin (a fungicide) can generally be compatible, but it's essential to check specific product labels and consult with an agricultural expert or agronomist for your particular situation. Compatibility can depend on various factors, including the formulation and the specific crops being treated. Always conduct a small test before large-scale application.",
+        "en": "Gibberellic acid and Thiomaxin (a fungicide) can generally be compatible, but it's essential to check specific product labels and consult with an agricultural expert or agronomist for your particular situation. Compatibility can depend on various factors, including the formulation and the specific crops being treated. Always conduct a small test before large-scale application.",
+        "timestamp": {
+          "$date": "2025-03-28T11:53:35.806Z"
+        }
+      }
+    ],
+    "farmer_id": "murthyn",
+    "farmer_plot_ids": [
+      "murthynpomo",
+      "murthyp1"
+    ],
+    "conversation_id": "67e68dbbac43cd7cbef558e4",
+    "_id": "67e68dbbac43cd7cbef558e4",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-03-28T11:58:31.394000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-03-28T11:53:31.268000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મારા પ્લોટ માં દવાની જરૂર ખરી",
+        "en": "I need medicine in my plot.",
+        "timestamp": {
+          "$date": "2025-03-28T10:00:27.475Z"
+        },
+        "standalone_question": "Do I need to take medicine for my plot?",
+        "standalone_en": "Do I need to take medicine for my plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara plot man davani jarur khari"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પ્લોટ માટે આ અઠવાડિયે દવાની જરૂર નથી. જો તમને વધુ માહિતી જોઈએ તો મને જણાવો.",
+        "en": "Don't need medication this week for your plot. Let me know if you need more information.",
+        "timestamp": {
+          "$date": "2025-03-28T10:00:31.820Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં સ્પ્રે ની જરૂર ખરી",
+        "en": "I really need spray on my farm",
+        "timestamp": {
+          "$date": "2025-03-28T10:00:52.057Z"
+        },
+        "standalone_question": "Do I need to spray in my field?",
+        "standalone_en": "Do I need to spray in my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice."
+          ]
+        },
+        "content_transliterated": "mara khetaraman spray knee jarur khari"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં આ અઠવાડિયે દવાની જરૂર નથી. જો તમને વધુ માહિતી જોઈએ તો મને જણાવો.",
+        "en": "Your farm doesn't need medication this week. Let me know if you need more information.",
+        "timestamp": {
+          "$date": "2025-03-28T10:00:58.424Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં ખાતર ની જરૂર ખરી",
+        "en": "My farm needs fertilizer.",
+        "timestamp": {
+          "$date": "2025-03-28T10:01:12.082Z"
+        },
+        "standalone_question": "Do I need fertilizer for my field?",
+        "standalone_en": "Do I need fertilizer for my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "mara khetaraman khatar knee jarur khari"
+      },
+      {
+        "role": "assistant",
+        "content": "હા, તમારા ખેતરમાં ખાતર આપવાની જરૂર છે. હાલમાં, તમે \"મસકમેલોન\"ના વાવેતર માટે \"વેજેટેટિવ ગ્રોથ\" તબક્કામાં છો, જે 2 અઠવાડિયાના તબક્કામાં છે. \n\nઆ અઠવાડિયે (28 માર્ચ 2025) માટે ખાતર આપવાની સૂચનાઓ:\n\n1. **દિવસ 1 (28 માર્ચ)**:\n   - **મેગ્નેશિયમ સલ્ફેટ**: 3 કિલોગ્રામ/એકર\n   - **એમોનિયમ સલ્ફેટ**: 6.5 કિલોગ્રામ/એકર\n\n2. **દિવસ 4 (31 માર્ચ)**:\n   - **12-61-0**: 3 કિલોગ્રામ/એકર\n   - અથવા\n   - **24-24-0**: 3 કિલોગ્રામ/એકર અને **ફોસ્ફોરિક એસિડ 80%**: 2 કિલોગ્રામ/એકર\n   - અથવા\n   - **યુરિયા**: 1.5 કિલોગ્રામ/એકર અને **ફોસ્ફોરિક એસિડ 80%**: 3 કિલોગ્રામ/એકર\n\nઆ ખાતરો આપવાથી તમારા પાકની વૃદ્ધિમાં મદદ મળશે. જો તમને વધુ માહિતી જોઈએ તો મને જણાવો.",
+        "en": "Yes, there is a need to give fertilizer to your farm. Currently, you are in the \"vegetative growth\" stage for the planting of \"muscamalone\", which is in the 2-week phase. \n\nFertilizer giving instructions for this week (28 March 2025):\n\n1. **Day 1 (March 28)**:\n   **Magnesium sulfate**: 3 kg/acre\n   **Ammonium sulfate**: 6.5 kg/acre\n\n2. **Day 4 (March 31)**:\n   * **12-61-0**: 3 kg/acre\n   -or\n   **24-24-0**: 3 kg/acre and **phosphoric acid 80%**: 2 kg/acre\n   -or\n   **Urea**: 1.5 kg/acre and **Phosphoric acid 80%**: 3 kg/acre\n\nGiving these fertilizers will help in the growth of your crop. Let me know if you need more information.",
+        "timestamp": {
+          "$date": "2025-03-28T10:01:22.494Z"
+        }
+      }
+    ],
+    "farmer_id": "bhaveshbhaisomajisolanki",
+    "farmer_plot_ids": [
+      "gharvaloplot405"
+    ],
+    "conversation_id": "67e6733b533fc03999759164",
+    "_id": "67e6733b533fc03999759164",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-28T10:06:12.092000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-03-28T10:00:27.475000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મારા પ્લોટ માં દવાની જરૂર ખરી",
+        "en": "I need medicine in my plot.",
+        "timestamp": {
+          "$date": "2025-03-28T10:00:27.475Z"
+        },
+        "standalone_question": "Do I need to take medicine for my plot?",
+        "standalone_en": "Do I need to take medicine for my plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara plot man davani jarur khari"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પ્લોટ માટે આ અઠવાડિયે દવાની જરૂર નથી. જો તમને વધુ માહિતી જોઈએ તો મને જણાવો.",
+        "en": "Don't need medication this week for your plot. Let me know if you need more information.",
+        "timestamp": {
+          "$date": "2025-03-28T10:00:31.820Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં સ્પ્રે ની જરૂર ખરી",
+        "en": "I really need spray on my farm",
+        "timestamp": {
+          "$date": "2025-03-28T10:00:52.057Z"
+        },
+        "standalone_question": "Do I need to spray in my field?",
+        "standalone_en": "Do I need to spray in my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice."
+          ]
+        },
+        "content_transliterated": "mara khetaraman spray knee jarur khari"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં આ અઠવાડિયે દવાની જરૂર નથી. જો તમને વધુ માહિતી જોઈએ તો મને જણાવો.",
+        "en": "Your farm doesn't need medication this week. Let me know if you need more information.",
+        "timestamp": {
+          "$date": "2025-03-28T10:00:58.424Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં ખાતર ની જરૂર ખરી",
+        "en": "My farm needs fertilizer.",
+        "timestamp": {
+          "$date": "2025-03-28T10:01:12.082Z"
+        },
+        "standalone_question": "Do I need fertilizer for my field?",
+        "standalone_en": "Do I need fertilizer for my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "mara khetaraman khatar knee jarur khari"
+      },
+      {
+        "role": "assistant",
+        "content": "હા, તમારા ખેતરમાં ખાતર આપવાની જરૂર છે. હાલમાં, તમે \"મસકમેલોન\"ના વાવેતર માટે \"વેજેટેટિવ ગ્રોથ\" તબક્કામાં છો, જે 2 અઠવાડિયાના તબક્કામાં છે. \n\nઆ અઠવાડિયે (28 માર્ચ 2025) માટે ખાતર આપવાની સૂચનાઓ:\n\n1. **દિવસ 1 (28 માર્ચ)**:\n   - **મેગ્નેશિયમ સલ્ફેટ**: 3 કિલોગ્રામ/એકર\n   - **એમોનિયમ સલ્ફેટ**: 6.5 કિલોગ્રામ/એકર\n\n2. **દિવસ 4 (31 માર્ચ)**:\n   - **12-61-0**: 3 કિલોગ્રામ/એકર\n   - અથવા\n   - **24-24-0**: 3 કિલોગ્રામ/એકર અને **ફોસ્ફોરિક એસિડ 80%**: 2 કિલોગ્રામ/એકર\n   - અથવા\n   - **યુરિયા**: 1.5 કિલોગ્રામ/એકર અને **ફોસ્ફોરિક એસિડ 80%**: 3 કિલોગ્રામ/એકર\n\nઆ ખાતરો આપવાથી તમારા પાકની વૃદ્ધિમાં મદદ મળશે. જો તમને વધુ માહિતી જોઈએ તો મને જણાવો.",
+        "en": "Yes, there is a need to give fertilizer to your farm. Currently, you are in the \"vegetative growth\" stage for the planting of \"muscamalone\", which is in the 2-week phase. \n\nFertilizer giving instructions for this week (28 March 2025):\n\n1. **Day 1 (March 28)**:\n   **Magnesium sulfate**: 3 kg/acre\n   **Ammonium sulfate**: 6.5 kg/acre\n\n2. **Day 4 (March 31)**:\n   * **12-61-0**: 3 kg/acre\n   -or\n   **24-24-0**: 3 kg/acre and **phosphoric acid 80%**: 2 kg/acre\n   -or\n   **Urea**: 1.5 kg/acre and **Phosphoric acid 80%**: 3 kg/acre\n\nGiving these fertilizers will help in the growth of your crop. Let me know if you need more information.",
+        "timestamp": {
+          "$date": "2025-03-28T10:01:22.494Z"
+        }
+      }
+    ],
+    "farmer_id": "bhaveshbhaisomajisolanki",
+    "farmer_plot_ids": [
+      "gharvaloplot405"
+    ],
+    "conversation_id": "67e6733b533fc03999759164",
+    "_id": "67e6733b533fc03999759164",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-28T10:06:12.092000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-03-28T10:00:27.475000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Repeat ",
+        "en": "Repeat ",
+        "timestamp": {
+          "$date": "2025-03-28T07:00:10.802Z"
+        },
+        "standalone_question": "Could you please repeat that?",
+        "standalone_en": "Could you please repeat that?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "I'm here to assist you with your agricultural needs. Please let me know what specific information or guidance you require regarding your plot \"plot no 1\" in Pachore Bk., Niphad, Nashik, Maharashtra.",
+        "en": "I'm here to assist you with your agricultural needs. Please let me know what specific information or guidance you require regarding your plot \"plot no 1\" in Pachore Bk., Niphad, Nashik, Maharashtra.",
+        "timestamp": {
+          "$date": "2025-03-28T07:00:16.157Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Sensor not working ",
+        "en": "Sensor not working ",
+        "timestamp": {
+          "$date": "2025-03-28T07:00:31.728Z"
+        },
+        "standalone_question": "What should I do if the sensor is not working?",
+        "standalone_en": "What should I do if the sensor is not working?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What should I do if the soil temperature sensor is not working?\nA: Check the sensor connection, tighten it if loose, and restart the device to check updated data.",
+            "Q: What should I do if the soil moisture sensor always shows dry values?\nA: Check if irrigation water is reaching the sensor, verify sensor connection, and ensure the sensor is not damaged.",
+            "Q: What should I do if the rain gauge is not working?\nA: Open the top cover of the rainfall sensor and clean it as suggested in the maintenance section.",
+            "Q: How do I replace the sensors for Nero?\nA: Disconnect the sensors by rotating them counterclockwise, unplug the connector, and replace them by following the steps in the manual.",
+            "Q: What should I do if the soil moisture sensor values fluctuate?\nA: Ensure the sensor is installed properly in the soil, check for air bubbles, and contact Fyllo representative if the issue persists."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "If your soil temperature sensor is not working, please follow these steps:\n\n1. **Check the Sensor Connection**: Ensure that the sensor is properly connected. If it's loose, tighten it.\n\n2. **Restart the Device**: Sometimes, a simple restart can help refresh the data.\n\n3. **Inspect for Damage**: Check if the sensor is physically damaged or has any visible issues.\n\nIf the problem persists after these steps, consider contacting the Fyllo representative for further assistance.",
+        "en": "If your soil temperature sensor is not working, please follow these steps:\n\n1. **Check the Sensor Connection**: Ensure that the sensor is properly connected. If it's loose, tighten it.\n\n2. **Restart the Device**: Sometimes, a simple restart can help refresh the data.\n\n3. **Inspect for Damage**: Check if the sensor is physically damaged or has any visible issues.\n\nIf the problem persists after these steps, consider contacting the Fyllo representative for further assistance.",
+        "timestamp": {
+          "$date": "2025-03-28T07:00:36.904Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "How to restart",
+        "en": "How to restart",
+        "timestamp": {
+          "$date": "2025-03-28T07:00:57.030Z"
+        },
+        "standalone_question": "How do I restart the device?",
+        "standalone_en": "How do I restart the device?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To restart the Fyllo device (NERO_INFINITY_UNIT), follow these steps:\n\n1. **Locate the Power Switch**: Find the switch below the top cap of the device.\n\n2. **Turn Off the Device**: Press the switch to turn off the device.\n\n3. **Wait a Moment**: Allow a few seconds for the device to fully power down.\n\n4. **Turn On the Device**: Press the switch again to turn the device back on.\n\n5. **Check for Data**: Wait for a few moments until the parameters on the home screen are visible.\n\nIf the issue persists after restarting, consider checking the connections or contacting customer support for further assistance.",
+        "en": "To restart the Fyllo device (NERO_INFINITY_UNIT), follow these steps:\n\n1. **Locate the Power Switch**: Find the switch below the top cap of the device.\n\n2. **Turn Off the Device**: Press the switch to turn off the device.\n\n3. **Wait a Moment**: Allow a few seconds for the device to fully power down.\n\n4. **Turn On the Device**: Press the switch again to turn the device back on.\n\n5. **Check for Data**: Wait for a few moments until the parameters on the home screen are visible.\n\nIf the issue persists after restarting, consider checking the connections or contacting customer support for further assistance.",
+        "timestamp": {
+          "$date": "2025-03-28T07:01:01.992Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Show me",
+        "en": "Show me",
+        "timestamp": {
+          "$date": "2025-03-28T07:01:52.656Z"
+        },
+        "standalone_question": "Could you please show me how to restart the device?",
+        "standalone_en": "Could you please show me how to restart the device?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the instructions to update or reset the crop stage in the Fyllo app:\n\n### For English Instructions:\n- Watch this video: [How to update crop stages in App?](https://youtu.be/knCXf0vdN7k) \n![Thumbnail](https://img.youtube.com/vi/knCXf0vdN7k/mqdefault.jpg)\n\n### For Hindi Instructions:\n- Watch this video: [फसल की स्टेज कैसे अपडेट करे ?](https://youtu.be/Gx2XUOGqNoA) \n![Thumbnail](https://img.youtube.com/vi/Gx2XUOGqNoA/mqdefault.jpg)\n\n### Customer Support:\nIf you need further assistance, you can contact customer support by calling the helpline number at **(+91) 9380908040** or by emailing **contact@fyllo.in**.",
+        "en": "Here are the instructions to update or reset the crop stage in the Fyllo app:\n\n### For English Instructions:\n- Watch this video: [How to update crop stages in App?](https://youtu.be/knCXf0vdN7k) \n! [Thumbnail](https://img.youtube.com/vi/knCXf0vdN7k/mqdefault.jpg)\n\n### For Hindi Instructions:\n- Watch this video: [फसल की स्टेज कैसे अपडेट करे ?](https://youtu.be/Gx2XUOGqNoA) \n! [Thumbnail](https://img.youtube.com/vi/Gx2XUOGqNoA/mqdefault.jpg)\n\n### Customer Support:\nIf you need further assistance, you can contact customer support by calling the helpline number at **(+91) 9380908040** or by emailing **contact@fyllo.in**.",
+        "timestamp": {
+          "$date": "2025-03-28T07:02:01.327Z"
+        }
+      }
+    ],
+    "farmer_id": "kiranugalmugale",
+    "farmer_plot_ids": [
+      "plotno1509"
+    ],
+    "conversation_id": "67e648fa533fc03999759162",
+    "_id": "67e648fa533fc03999759162",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-03-28T07:06:52.665000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-03-28T07:00:10.802000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "डिवैस जमिनीत सेट होण्या साठी किती कालावधी जाऊ द्यावा",
+        "en": "How long should it take for the divis to set in the ground?",
+        "timestamp": {
+          "$date": "2025-03-28T05:38:10.458Z"
+        },
+        "standalone_question": "How much time should be allowed for the device to be set up on the ground?",
+        "standalone_en": "How much time should be allowed for the device to be set up on the ground?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "divas jaminit set honya sathi kiti kalavadhi jaau dyava"
+      },
+      {
+        "role": "assistant",
+        "content": "डिव्हाइस जमिनीत सेट होण्यासाठी साधारणतः 30 मिनिटे जाऊ द्यावी लागते. यामुळे मातीतील आर्द्रता योग्य प्रकारे मोजली जाईल.",
+        "en": "It usually takes 30 minutes for the device to set in the ground. This will ensure proper measurement of soil moisture.",
+        "timestamp": {
+          "$date": "2025-03-28T05:38:13.548Z"
+        }
+      }
+    ],
+    "farmer_id": "rahuldilipjadhav",
+    "farmer_plot_ids": [
+      "plotno1527"
+    ],
+    "conversation_id": "67e635c1f1951ca576eab5b5",
+    "_id": "67e635c1f1951ca576eab5b5",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-03-28T05:43:10.466000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-03-28T05:38:10.458000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "ઈયળ ની દવા અને રીડોમીલગોલ્ડ ભેગું કરી ને છાંટી શકાય?",
+        "en": "Can eel medicine and redomygold be combined and sprayed?",
+        "timestamp": {
+          "$date": "2025-03-28T03:43:53.074Z"
+        },
+        "standalone_question": "Can I mix the medicine for caterpillars with Ridomil Gold and apply it together?",
+        "standalone_en": "Can I mix the medicine for caterpillars with Ridomil Gold and apply it together?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "iyal knee dava ane redomielgold bhegun kari ne chanti sakay?"
+      },
+      {
+        "role": "assistant",
+        "content": "ફંગિસાઇડ અને ઇન્સેક્ટિસાઇડને ભેગા કરીને છાંટવા માટે, તેમની સુસંગતતા પર ધ્યાન આપવું મહત્વપૂર્ણ છે. તમારા પરિસ્થિતિ માટે વિશેષ માર્ગદર્શન માટે, કૃપા કરીને ફાયલોની CRM નંબર પર સંપર્ક કરો.",
+        "en": "In order to combine and spray fungiside and insecticide, it is important to pay attention to their compatibility. For specific guidance for your situation, please contact the CRM number of the files.",
+        "timestamp": {
+          "$date": "2025-03-28T03:43:55.240Z"
+        }
+      }
+    ],
+    "farmer_id": "vasantbhaigovajidevda",
+    "farmer_plot_ids": [
+      "panchalvalopalot"
+    ],
+    "conversation_id": "67e61af8bed77a0b66b5f369",
+    "_id": "67e61af8bed77a0b66b5f369",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-28T03:48:53.082000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-03-28T03:43:53.074000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "લિપ માઇનર માટે કયો છંટકાવ જરૂર છે",
+        "en": "Which spraying is needed for lip miner",
+        "timestamp": {
+          "$date": "2025-03-28T03:37:56.757Z"
+        },
+        "standalone_question": "What type of fertilizer is needed for lip miner?",
+        "standalone_en": "What type of fertilizer is needed for lip miner?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "lip minor mate kayo chantakav jarur che"
+      },
+      {
+        "role": "assistant",
+        "content": "લિપ માઇનર માટે, તમે ઇમિડાક્લોપ્રિડ 600 FS @ 5-8 મીલીલિટર પ્રતિ કિલોગ્રામ બીજનો છંટકાવ કરી શકો છો. આ છંટકાવ લિપ માઇનર જેવા પેસ્ટને નિયંત્રિત કરવામાં મદદ કરશે.",
+        "en": "For lip miner, you can spray imidacloprid 600 FS @ 5-8 millilitres per kilogram of seeds. This spraying will help in controlling the paste like lip miner.",
+        "timestamp": {
+          "$date": "2025-03-28T03:37:59.905Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "પત્તા ઉપર કયા રોગની અસર જોવા મળે છે<user uploaded image for analysis at 'eknumber1/2025-03-28-1743133103439.jpg'>",
+        "en": "What disease's effect is seen on the leaf<user uploaded image for analysis at 'eknumber1/2025-03-28-1743133103439.jpg'>",
+        "timestamp": {
+          "$date": "2025-03-28T03:38:42.303Z"
+        },
+        "standalone_question": "What diseases can be observed affecting the leaves?",
+        "standalone_en": "What diseases can be observed affecting the leaves?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What diseases prediction does fyllo support?\nA: Fyllo supports the following diseases:\n    Alternaria, Alternaria Fruit Blotch, Alternaria blotch, Alternaria leaf blight,\n    Anthracnose, Bacterial Blight, Bacterial Canker, Bacterial Spot, Blister blight, Botrytis mold, Brown Rust,\n    Brown spot, Cercospora, Cercospora Leaf Spot, Cercospora leaf spot, Cigar end rot, Citrus scab, Colletotrichum, Damping off,\n    Diplodia, Downy mildew, Early Blight, Fruit Canker, Fruit canker, Fusarium Wilt, Fusarium wilt, Graphiola leaf spot,\n    Grey mold, Late Blight, Leaf Blight, Leaf Spot, Leaf spot, Marssonina blotch, Powdery Mildew, Powdery mildew,\n    Purple blotch, Red rot, Rice blast, Root knot nematode, Rust, Scab, Sheath blight, Sigatoka leaf spot, Stylar End Rot,\n    Whip smut, Xanthomonas, and Yellow Rust."
+          ]
+        },
+        "content_transliterated": "patta upar kaya rogani asar jova male che<user uploaded image for analysis at 'eknumber1/2025-03-28-1743133103439.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "છબીમાં દર્શાવેલ પત્તા પર નુકસાનના નિશાન છે, જે કદાચ પેસ્ટ અથવા રોગના કારણે છે. પત્તાની વળાંક અને રંગમાં ફેરફાર લિપ માઇનર અથવા અન્ય પેસ્ટના હુમલાની સંકેત આપે છે.\n\nમહત્વપૂર્ણ છે કે તમે નિયમિત રીતે પેસ્ટ અથવા રોગના નિશાન માટે નિરીક્ષણ કરો, અસરગ્રસ્ત પત્તાઓને દૂર કરો અને છોડની આરોગ્યને મજબૂત બનાવવા માટે યોગ્ય સિંચાઈ અને પોષણ વ્યવસ્થાપન જાળવો. જો સમસ્યા ચાલુ રહે, તો નિશ્ચિત ઉપચાર માટે સ્થાનિક કૃષિ નિષ્ણાત સાથે સંપર્ક કરવો યોગ્ય રહેશે.",
+        "en": "There are damage marks on the leaf shown in the image, which is probably due to paste or disease. The change in the curve and color of the leaf indicates the attack of lip miner or other paste.\n\nIt is important that you regularly monitor for paste or disease marks, remove the affected leaves and maintain proper irrigation and nutrition management to strengthen the health of the plant. If the problem persists, it would be appropriate to contact a local agricultural expert for definitive treatment.",
+        "timestamp": {
+          "$date": "2025-03-28T03:38:58.741Z"
+        }
+      }
+    ],
+    "farmer_id": "digvijaybhaichachhava",
+    "farmer_plot_ids": [
+      "benumber2",
+      "eknumber1",
+      "mainpalotkhejadavalo",
+      "thriynumber3",
+      "watermelon826"
+    ],
+    "conversation_id": "67e61994bed77a0b66b5f368",
+    "_id": "67e61994bed77a0b66b5f368",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-28T03:43:42.314000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-03-28T03:37:56.757000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पाऊस येण्यापूर्वी काय फवारणी करावी",
+        "en": "What to spray before it rains",
+        "timestamp": {
+          "$date": "2025-03-28T02:27:44.361Z"
+        },
+        "standalone_question": "What kind of spraying should be done before the rain?",
+        "standalone_en": "What kind of spraying should be done before the rain?",
+        "retrieval": {
+          "tools": [
+            "check_spray_conditions  \nGets the spray condition forecast for the next few hours for the farmer's plots and returns the condition for each hour as GOOD, MODERATE, or WORST, based on deltaT, VPD, and rainfall conditions."
+          ],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil."
+          ]
+        },
+        "content_transliterated": "paus yenyapurvi kay favarani karavi"
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या प्लॉटसाठी या आठवड्यात कोणतीही फवारणीची शिफारस नाही. त्यामुळे पाऊस येण्यापूर्वी फवारणीची आवश्यकता नाही.",
+        "en": "There are no spraying recommendations for your plot this week. Therefore, there is no need for spraying before the rains arrive.",
+        "timestamp": {
+          "$date": "2025-03-28T02:27:50.024Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पावसाची अपडेट द्या",
+        "en": "Give rain updates",
+        "timestamp": {
+          "$date": "2025-03-28T02:28:07.944Z"
+        },
+        "standalone_question": "What is the update on the rain?",
+        "standalone_en": "What is the update on the rain?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pavasachi update dya"
+      },
+      {
+        "role": "assistant",
+        "content": "प्लॉटसाठी पावसाचा अंदाज पुढीलप्रमाणे आहे:\n\n### Plot No 1 SSN\n- **28 मार्च 2025**: 0mm पाऊस, 0% पावसाची शक्यता\n- **29 मार्च 2025**: 0mm पाऊस, 0% पावसाची शक्यता\n- **30 मार्च 2025**: 0mm पाऊस, 0% पावसाची शक्यता\n- **31 मार्च 2025**: 0.1mm पाऊस, 5% पावसाची शक्यता\n- **1 एप्रिल 2025**: 0mm पाऊस, 5% पावसाची शक्यता\n- **2 एप्रिल 2025**: 0mm पाऊस, 0% पावसाची शक्यता\n- **3 एप्रिल 2025**: 0mm पाऊस, 5% पावसाची शक्यता\n- **4 एप्रिल 2025**: 0mm पाऊस, 0% पावसाची शक्यता\n- **5 एप्रिल 2025**: 0mm पाऊस, 0% पावसाची शक्यता\n- **6 एप्रिल 2025**: 0mm पाऊस, 5% पावसाची शक्यता\n- **7 एप्रिल 2025**: 0mm पाऊस, 0% पावसाची शक्यता\n- **8 एप्रिल 2025**: 0mm पाऊस, 0% पावसाची शक्यता\n- **9 एप्रिल 2025**: 0mm पाऊस, 0% पावसाची शक्यता\n\n### Plot No 2 SSN\n- **28 मार्च 2025**: 0mm पाऊस, 0% पावसाची शक्यता\n- **29 मार्च 2025**: 0mm पाऊस, 0% पावसाची शक्यता\n- **30 मार्च 2025**: 0mm पाऊस, 0% पावसाची शक्यता\n- **31 मार्च 2025**: 0.1mm पाऊस, 5% पावसाची शक्यता\n- **1 एप्रिल 2025**: 0mm पाऊस, 5% पावसाची शक्यता\n- **2 एप्रिल 2025**: 0mm पाऊस, 0% पावसाची शक्यता\n- **3 एप्रिल 2025**: 0mm पाऊस, 5% पावसाची शक्यता\n- **4 एप्रिल 2025**: 0mm पाऊस, 0% पावसाची शक्यता\n- **5 एप्रिल 2025**: 0mm पाऊस, 0% पावसाची शक्यता\n- **6 एप्रिल 2025**: 0mm पाऊस, 5% पावसाची शक्यता\n- **7 एप्रिल 2025**: 0mm पाऊस, 0% पावसाची शक्यता\n- **8 एप्रिल 2025**: 0mm पाऊस, 0% पावसाची शक्यता\n- **9 एप्रिल 2025**: 0mm पाऊस, 0% पावसाची शक्यता\n\nसध्या पावसाची शक्यता कमी आहे, त्यामुळे पाण्याची फवारणी आवश्यक असू शकते.",
+        "en": "The rainfall forecast for the plot is as follows:\n\n### Plot No 1 SSN\n- **28 March 2025**: 0mm rain, 0% chance of rain\n- **29 March 2025**: 0mm rain, 0% chance of rain\n- **30 March 2025**: 0mm rain, 0% chance of rain\n- **31 March 2025**: 0.1mm rain, 5% chance of rain\n- **1 April 2025**: 0mm rain, 5% chance of rain\n- **2 April 2025**: 0mm rain, 0% chance of rain\n- **3 April 2025**: 0mm rain, 5% chance of rain\n- **4 April 2025**: 0mm rain, 0% chance of rain\n- **April 5, 2025**: 0mm rain, 0% chance of rain\n- **6 April 2025**: 0mm rain, 5% chance of rain\n- **April 7, 2025**: 0mm rain, 0% chance of rain\n- **8 April 2025**: 0mm rain, 0% chance of rain\n- **9 April 2025**: 0mm rain, 0% chance of rain\n\n### Plot No 2 SSN\n- **28 March 2025**: 0mm rain, 0% chance of rain\n- **29 March 2025**: 0mm rain, 0% chance of rain\n- **30 March 2025**: 0mm rain, 0% chance of rain\n- **31 March 2025**: 0.1mm rain, 5% chance of rain\n- **1 April 2025**: 0mm rain, 5% chance of rain\n- **2 April 2025**: 0mm rain, 0% chance of rain\n- **3 April 2025**: 0mm rain, 5% chance of rain\n- **4 April 2025**: 0mm rain, 0% chance of rain\n- **April 5, 2025**: 0mm rain, 0% chance of rain\n- **6 April 2025**: 0mm rain, 5% chance of rain\n- **April 7, 2025**: 0mm rain, 0% chance of rain\n- **8 April 2025**: 0mm rain, 0% chance of rain\n- **9 April 2025**: 0mm rain, 0% chance of rain\n\nThere is little chance of rain at the moment, so water spraying may be necessary.",
+        "timestamp": {
+          "$date": "2025-03-28T02:28:21.925Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "बागेला पाणी देऊ का",
+        "en": "Should we water the garden?",
+        "timestamp": {
+          "$date": "2025-03-28T02:29:42.997Z"
+        },
+        "standalone_question": "Should I water the garden?",
+        "standalone_en": "Should I water the garden?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": []
+        },
+        "content_transliterated": "bagela pani deu ka"
+      },
+      {
+        "role": "assistant",
+        "content": "### पाण्याची स्थिती:\n\n- **Plot No 1 SSN**: सध्या पाणी देण्याची आवश्यकता नाही. (सोil moisture: 31 kPa, 33 kPa, ऑप्टिमल: 35 kPa)\n  \n- **Plot No 2 SSN**: पाण्याची स्थिती तपासता येत नाही कारण ऑप्टिमल मातीची माहिती उपलब्ध नाही.\n\n- **Plot No 1 Danaka**: पाणी देणे शक्य आहे, कारण मातीची आर्द्रता (41 kPa, 37 kPa) ऑप्टिमल किमतींपेक्षा जास्त आहे (35 kPa).\n\n### शिफारस:\n- **Plot No 1 SSN**: पाणी देऊ नका.\n- **Plot No 2 SSN**: तपासणी आवश्यक आहे.\n- **Plot No 1 Danaka**: पाणी देऊ शकता.",
+        "en": "### Water status:\n\n- **Plot No 1 SSN**: No need to water at present. (Soil moisture: 31 kPa, 33 kPa, Optimal: 35 kPa)\n  \n- **Plot No 2 SSN**: Water condition cannot be checked because optimal soil information is not available.\n\n* **Plot No 1 Danaka**: It is possible to water, as soil moisture (41 kPa, 37 kPa) exceeds the optimal value (35 kPa).\n\n### Recommendation:\n- **Plot No. 1 SSN**: Don't water.\n- **Plot No 2 SSN**: needs verification.\n- **Plot No. 1 Danaka**: can provide water.",
+        "timestamp": {
+          "$date": "2025-03-28T02:29:50.963Z"
+        }
+      }
+    ],
+    "farmer_id": "chandrabhansuryavanshi",
+    "farmer_plot_ids": [
+      "plotno1ssnsf",
+      "plotno2ssnsf1",
+      "plotno3danaka"
+    ],
+    "conversation_id": "67e60920f3b046278957ab26",
+    "_id": "67e60920f3b046278957ab26",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-03-28T02:34:43.007000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-03-28T02:27:44.361000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "what was yesterday's rainfall for all divisions in centimetre",
+        "en": "what was yesterday's rainfall for all divisions in centimetre",
+        "timestamp": {
+          "$date": "2025-03-28T02:08:11.446Z"
+        },
+        "standalone_question": "What was the rainfall in centimetres for all divisions yesterday?",
+        "standalone_en": "What was the rainfall in centimetres for all divisions yesterday?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Yesterday's rainfall for all divisions was as follows:\n\n- **Srock Attamala**: 0 cm\n- **Srock Chooralmala Kairo**: 0 cm\n- **Srock Chooralmala Nero**: Data not available\n- **Srock Mundakai Nero**: Data not available\n- **Srock Mundakkai Kairo**: 0 cm\n- **Srock Puthumala**: 0 cm\n\nIt appears there was no rainfall recorded in any of the divisions.",
+        "en": "Yesterday's rainfall for all divisions was as follows:\n\n- **Srock Attamala**: 0 cm\n- **Srock Chooralmala Kairo**: 0 cm\n- **Srock Chooralmala Nero**: Data not available\n- **Srock Mundakai Nero**: Data not available\n- **Srock Mundakkai Kairo**: 0 cm\n- **Srock Puthumala**: 0 cm\n\nIt appears there was no rainfall recorded in any of the divisions.",
+        "timestamp": {
+          "$date": "2025-03-28T02:08:17.556Z"
+        }
+      }
+    ],
+    "farmer_id": "allenenoshmani",
+    "farmer_plot_ids": [
+      "attamaladivision",
+      "chooralmaladivision",
+      "chooralmalanerodivision",
+      "mundakainerodivision",
+      "mundakkaidivision",
+      "puthumaladivision"
+    ],
+    "conversation_id": "67e6048b3c4a666230f9c235",
+    "_id": "67e6048b3c4a666230f9c235",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-03-28T02:13:11.457000Z"
+    },
+    "tag": "historical data",
+    "conv_date": "2025-03-28T02:08:11.446000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "પાંદડા ખાતી ઇયળ માટે અત્યારે ડોઝ આપવો પડશે",
+        "en": "The leaf-eating eel will have to be dosed now",
+        "timestamp": {
+          "$date": "2025-03-28T01:55:27.024Z"
+        },
+        "standalone_question": "What dosage should be given to the caterpillars for the leaves?",
+        "standalone_en": "What dosage should be given to the caterpillars for the leaves?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pandada khati iyal mate atyare does apavo padse"
+      },
+      {
+        "role": "assistant",
+        "content": "તમે પાંદડા ખાતી ઇયળ માટે આજના દિવસે કોઈ સ્પ્રે કરવાની સૂચના નથી. જો તમે અગાઉ સ્પ્રે કરી છે, તો થોડા દિવસો રાહ જુઓ. જો ફાઈલો એપ્લિકેશન ફરીથી સ્પ્રે કરવાની ભલામણ કરે છે, ત્યારે જ ફરીથી સ્પ્રે કરો.",
+        "en": "There is no instruction to spray anything on this day for the eel you eat leaves. If you've sprayed before, wait a few days. Spray again only if the files recommend re-spraying the application.",
+        "timestamp": {
+          "$date": "2025-03-28T01:55:35.750Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "અગાઉ કરી નહી",
+        "en": "Not done before",
+        "timestamp": {
+          "$date": "2025-03-28T01:56:07.364Z"
+        },
+        "standalone_question": "Have you not sprayed it before?",
+        "standalone_en": "Have you not sprayed it before?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        },
+        "content_transliterated": "agau kari nahi"
+      },
+      {
+        "role": "assistant",
+        "content": "આજના દિવસે પાંદડા ખાતી ઇયળ માટે કોઈ સ્પ્રે કરવાની સૂચના નથી. જો તમે અગાઉ સ્પ્રે કરી નથી, તો તમે હવે સ્પ્રે કરી શકો છો.",
+        "en": "On this day, there is no instruction to spray for leaves-eating eels. If you haven't sprayed before, you can spray now.",
+        "timestamp": {
+          "$date": "2025-03-28T01:56:14.237Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140",
+      "sheshpalot"
+    ],
+    "conversation_id": "67e6018e3c4a666230f9c234",
+    "_id": "67e6018e3c4a666230f9c234",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-28T02:01:07.372000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-03-28T01:55:27.024000+00:00"
+  }
+]

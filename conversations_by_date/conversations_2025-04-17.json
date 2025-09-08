@@ -1,0 +1,708 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "रोग",
+        "en": "disease",
+        "timestamp": {
+          "$date": "2025-04-17T15:59:03.752Z"
+        },
+        "standalone_question": "What is the meaning of the word \"रोग\"?",
+        "standalone_en": "What is the meaning of the word \"रोग\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "rogue"
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या पिकांसाठी खालील रोगांची भविष्यवाणी फायलो समर्थन करते:\n\n1. अल्टरनारिया\n2. अल्टरनारिया फळ ब्लॉच\n3. अल्टरनारिया ब्लॉच\n4. अल्टरनारिया पान ब्लीट\n5. अँथ्रॅक्नोज\n6. बॅक्टेरियल ब्लाइट\n7. बॅक्टेरियल कँकर\n8. बॅक्टेरियल स्पॉट\n9. ब्लिस्टर ब्लाइट\n10. बोट्रिटिस मोल्ड\n11. ब्राउन रस्ट\n12. ब्राउन स्पॉट\n13. सर्कोस्पोरा\n14. सर्कोस्पोरा पान स्पॉट\n15. सिगार एंड रॉट\n16. सिट्रस स्कॅब\n17. कोलेटोट्रिचम\n18. डॅम्पिंग ऑफ\n19. डिप्लोडिया\n20. डाउन मिल्ड्यू\n21. अर्ली ब्लाइट\n22. फळ कँकर\n23. फ्यूसारियम विल्ट\n24. ग्राफिओला पान स्पॉट\n25. ग्रे मोल्ड\n26. लेट ब्लाइट\n27. पान ब्लीट\n28. पान स्पॉट\n29. मार्सोनिना ब्लॉच\n30. पावडरी मिल्ड्यू\n31. पर्पल ब्लॉच\n32. रेड रॉट\n33. राईस ब्लास्ट\n34. रूट नॉट नेमाटोड\n35. रस्ट\n36. शेड ब्लाइट\n37. सिगाटोका पान स्पॉट\n38. स्टायलर एंड रॉट\n39. व्हिप स्मट\n40. झांथोमोनस\n41. यलो रस्ट\n\nआपल्याला आणखी काही माहिती हवी असल्यास, कृपया सांगा!",
+        "en": "Filo supports the prediction of the following diseases for your crops:\n\n1. Alternaria\n2. Alternaria fruit bloch\n3. Alternaria bloch\n4. Alternaria Pan Blit\n5. Anthraxons\n6. Bacterial Blight\n7. Bacterial Canker\n8. Bacterial Spots\n9. Blister Blight\n10. Botritis Mold\n11. Brown Rust\n12. Brown Spot\n13. Sarcospora\n14. Sarcospora Leaf Spot\n15. Cigars and Rot\n16. Citrus Scab\n17. Choletotrichum\n18. Dumping Off\n19. Diplodia\n20. Down Mildew\n21. Early Blight\n22. Fruit Canker\n23. Fusarium wilt\n24. Graphiola Page Spot\n25. Grey Mold\n26. Late Blight\n27. Page Blit\n28. Page Spot\n29. Marsonina Bloch\n30. Powdery Mildew\n31. Purple Bloch\n32. Red Rot\n33. Rice Blast\n34. Root Not Nematode\n35. Rust\n36. Shade Blight\n37. Sigato's Pan Spot\n38. Styler & Rot\n39. Whip Smutt\n40. Xanthomonas\n41. Yellow Rust\n\nIf you need any more information, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-17T15:59:12.128Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "किती दिवसांनीा पाणी द्यावे लागेल",
+        "en": "How many days will you have to water?",
+        "timestamp": {
+          "$date": "2025-04-17T16:01:32.123Z"
+        },
+        "standalone_question": "How many days should I wait before watering again?",
+        "standalone_en": "How many days should I wait before watering again?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: I irrigated still the sensor is dropping slowly.\nA: Sometimes, the water reaches slowly till root zone and the moisture sensor kPa value drops slowly. Always wait for 12 hours after irrigation for the moisture to saturate. If still some confusion, ask user to check moisture near the sensor and check if he wants to raise a ticket for the issue.",
+            "Q: I irrigated still the sensor is showing dry.\nA: Ask user when he irrigated. It usually takes 12 hours to reach the water till sensor. If the sensor is not dropping even after 12 hours, it can be due to one of the following reasons :\nWater is not reaching properly till the sensor , this can be due to drip blocked , or slope in the land or dripper outlets far away from the sensor. Ask user to check if drip is fine and  dripper is within the range of sensor. \nThe sensor can be very old , more than two years , in this case , the sensor might be malfunction, ask user if he wants to raise a ticket"
+          ]
+        },
+        "content_transliterated": "kitty divasanni pani dyave lagel"
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या \"Plot No 1 Crimson\" साठी, पाणी देण्याची योग्य वेळ 21 एप्रिल 2025 रोजी सकाळी आहे. या दिवशी पावसाची अपेक्षा कमी आहे, त्यामुळे पाणी देणे आवश्यक आहे. \n\nकृपया या तारखेला पाणी द्या!",
+        "en": "For your \"Plot No 1 Crimson\", the right time to water is on April 21, 2025. The expectation of rain is low on this day, so watering is necessary. \n\nPlease water this date!",
+        "timestamp": {
+          "$date": "2025-04-17T16:01:37.476Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पाऊस कदि पडेल",
+        "en": "When will it rain?",
+        "timestamp": {
+          "$date": "2025-04-17T16:03:06.889Z"
+        },
+        "standalone_question": "When will it rain?",
+        "standalone_en": "When will it rain?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "paus kadi padel"
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot No 1 Crimson\" साठी पुढील आठवड्यात पावसाची अपेक्षा नाही. 18 एप्रिल 2025 पासून 25 एप्रिल 2025 पर्यंत सर्व दिवसांमध्ये पाऊस पडण्याची शक्यता 0% आहे. \n\nआपल्याला पाण्याची आवश्यकता असल्यास, कृपया पाणी द्या!",
+        "en": "No rain is expected for \"Plot No 1 Crimson\" next week. The probability of rain on all days from 18th April 2025 to 25th April 2025 is 0%. \n\nIf you need water, please water!",
+        "timestamp": {
+          "$date": "2025-04-17T16:03:13.782Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ok",
+        "en": "Ok",
+        "timestamp": {
+          "$date": "2025-04-17T16:03:39.801Z"
+        },
+        "standalone_question": "When will it rain?",
+        "standalone_en": "When will it rain?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्याला आणखी काही विचारायचे असल्यास, कृपया सांगा! मी मदतीसाठी येथे आहे.",
+        "en": "If you have anything else you'd like to ask, please let me know! I'm here to help.",
+        "timestamp": {
+          "$date": "2025-04-17T16:03:43.052Z"
+        }
+      }
+    ],
+    "farmer_id": "sandipshirsath",
+    "farmer_plot_ids": [
+      "plotno1crimson713"
+    ],
+    "conversation_id": "680125477309317e279e733b",
+    "_id": "680125477309317e279e733b",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-17T16:08:39.808000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-17T15:59:03.752000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "केळीसाठी सॉईल टेंपरेचर किती असावे ",
+        "en": "What should be the soil temperature for bananas? ",
+        "timestamp": {
+          "$date": "2025-04-17T15:31:46.187Z"
+        },
+        "standalone_question": "What should the soil temperature be for bananas?",
+        "standalone_en": "What should the soil temperature be for bananas?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kelisathi soil temperature kiti asave "
+      },
+      {
+        "role": "assistant",
+        "content": "केळीसाठी सॉईल टेंपरेचर 20 ते 30 डिग्री सेल्सियस असावे. या तापमानात केळीची वाढ आणि विकास चांगला होतो.",
+        "en": "The soil temperature for bananas should be 20 to 30 degrees Celsius. Banana growth and development is good at this temperature.",
+        "timestamp": {
+          "$date": "2025-04-17T15:31:48.989Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "जैविक मल्चिंग केल्यानंतर सॉईल टेंपरेचर मेंटेन होईल का",
+        "en": "Will soil temperature be maintained after biological mulching?",
+        "timestamp": {
+          "$date": "2025-04-17T15:32:54.489Z"
+        },
+        "standalone_question": "Will soil temperature be maintained after applying organic mulching?",
+        "standalone_en": "Will soil temperature be maintained after applying organic mulching?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "jaivik mulching kelyanantar soil temperature maintain hoil ka"
+      },
+      {
+        "role": "assistant",
+        "content": "होय, जैविक मल्चिंग केल्यानंतर सॉईल टेंपरेचर स्थिर राहील. मल्चिंग मुळे सॉईलच्या तापमानात कमी वाढ होते, ज्या मुळे सॉईलची आर्द्रता आणि पोषण तत्वे देखील चांगली राहतात. यामुळे पिकांच्या वाढीसाठी अनुकूल वातावरण तयार होते.",
+        "en": "Yes, soil temperature will remain stable after biological mulching. Mulching causes a small increase in the temperature of the soil, which also keeps the soil's moisture and nutrients good. This creates a conducive environment for the growth of crops.",
+        "timestamp": {
+          "$date": "2025-04-17T15:32:58.903Z"
+        }
+      }
+    ],
+    "farmer_id": "sanjayjagtap",
+    "farmer_plot_ids": [
+      "bananaplot641"
+    ],
+    "conversation_id": "68011ee26a8ce14c172808aa",
+    "_id": "68011ee26a8ce14c172808aa",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-17T15:37:54.495000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-17T15:31:46.187000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "या स्टेज ला ड्रिप द्वारे काय सोडावे",
+        "en": "What to leave this stage by drip",
+        "timestamp": {
+          "$date": "2025-04-17T15:00:12.150Z"
+        },
+        "standalone_question": "What should be released through the drip at this stage?",
+        "standalone_en": "What should be released through the drip at this stage?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ya stage la drip dvare kay sodave"
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या \"ब्रेक बड\" (Break Bud) स्टेजसाठी, सध्या कोणतीही फर्टिगेशनची आवश्यकता नाही. तथापि, पुढील आठवड्यात (2025-05-22 पासून) फर्टिगेशनसाठी काही सूचना आहेत:\n\n### फर्टिगेशन पद्धती:\n1. **फर्टिगेशन पद्धतीद्वारे:**\n   - **12-61-0**: 4 किलोग्राम/एकर\n   - **कॅल्शियम नायट्रेट**: 9 किलोग्राम/एकर\n\n   किंवा\n\n   - **24-24-0**: 7.5 किलोग्राम/एकर\n   - **फॉस्फोरिक आम्ल 80%**: 1.5 किलोग्राम/एकर\n\n   किंवा\n\n   - **कॅल्शियम नायट्रेट**: 12 किलोग्राम/एकर\n   - **फॉस्फोरिक आम्ल 80%**: 3.5 किलोग्राम/एकर\n\n### फोलिअर पद्धतीद्वारे:\n- **फेरस सल्फेट**: 800 ग्रॅम/एकर\n- **मॅंगनीज सल्फेट**: 800 ग्रॅम/एकर\n\nफोलिअर स्प्रेमध्ये सूक्ष्म-खते 1% पेक्षा जास्त नसावी, उदाहरणार्थ, 500 लिटर पाण्यात 5 किलोग्राम.\n\nकृपया या सूचनांचे पालन करा आणि आवश्यकतेनुसार फर्टिगेशन करा.",
+        "en": "For your \"break bud\" stage, no fertigation is currently required. However, there are some suggestions for fertigation next week (starting 2025-05-22):\n\n### Fertigation Method:\n1. **By fertigation method:**\n   - **12-61-0**: 4 kg/acre\n   - **Calcium nitrate**: 9 kg/acre\n\nor\n\n- **24-24-0**: 7.5 kg/acre\n   - **Phosphoric acid 80%**: 1.5 kg/acre\n\nor\n\n- **Calcium nitrate**: 12 kg/acre\n   - **Phosphoric acid 80%**: 3.5 kg/acre\n\n### By Folière method:\n- **Ferrous sulfate**: 800 g/acre\n- **Manganese sulfate**: 800 g/acre\n\nMicro-fertilizers in foliar spray should not exceed 1%, for example, 5 kilograms of 500 liters of water.\n\nPlease follow these instructions and perform fertigation as needed.",
+        "timestamp": {
+          "$date": "2025-04-17T15:00:20.821Z"
+        }
+      }
+    ],
+    "farmer_id": "kamleshborgude",
+    "farmer_plot_ids": [
+      "plotno1ssn608"
+    ],
+    "conversation_id": "6801177c7309317e279e7338",
+    "_id": "6801177c7309317e279e7338",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-17T15:05:12.159000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-17T15:00:12.150000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Magnesium sulphate and ferrous sulphate and 0 52 34 combination ",
+        "en": "Magnesium sulphate and ferrous sulphate and 0 52 34 combination ",
+        "timestamp": {
+          "$date": "2025-04-17T14:30:39.911Z"
+        },
+        "standalone_question": "What is the combination of magnesium sulfate, ferrous sulfate, and the ratio 0-52-34?",
+        "standalone_en": "What is the combination of magnesium sulfate, ferrous sulfate, and the ratio 0-52-34?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The combination of Magnesium Sulphate, Ferrous Sulphate, and 0-52-34 (Mono Potassium Phosphate) can be beneficial for crops, especially for enhancing nutrient availability and improving plant health. \n\n1. **Magnesium Sulphate**: Provides magnesium, which is essential for photosynthesis and helps in the formation of chlorophyll. It also aids in the uptake of other nutrients.\n\n2. **Ferrous Sulphate**: Supplies iron, which is crucial for chlorophyll synthesis and overall plant growth. It helps in preventing iron deficiency, which can lead to yellowing of leaves.\n\n3. **0-52-34 (Mono Potassium Phosphate)**: This fertilizer is high in phosphorus and potassium, promoting root development, flowering, and fruiting. It enhances the overall vigor of the plant.\n\n### Application Tips:\n- **Mixing**: Ensure proper mixing of these fertilizers to avoid any chemical reactions that may reduce their effectiveness.\n- **Timing**: Apply during the early growth stages or when plants show signs of nutrient deficiency.\n- **Soil Testing**: Conduct a soil test to determine the exact nutrient needs and adjust the application rates accordingly.\n\nThis combination can be particularly effective for crops like grapes, as it supports healthy growth and fruit development.",
+        "en": "The combination of Magnesium Sulphate, Ferrous Sulphate, and 0-52-34 (Mono Potassium Phosphate) can be beneficial for crops, especially for enhancing nutrient availability and improving plant health. \n\n1. **Magnesium Sulphate**: Provides magnesium, which is essential for photosynthesis and helps in the formation of chlorophyll. It also aids in the uptake of other nutrients.\n\n2. **Ferrous Sulphate**: Supplies iron, which is crucial for chlorophyll synthesis and overall plant growth. It helps in preventing iron deficiency, which can lead to yellowing of leaves.\n\n3. **0-52-34 (Mono Potassium Phosphate)**: This fertilizer is high in phosphorus and potassium, promoting root development, flowering, and fruiting. It enhances the overall vigor of the plant.\n\n### Application Tips:\n- **Mixing**: Ensure proper mixing of these fertilizers to avoid any chemical reactions that may reduce their effectiveness.\n- **Timing**: Apply during the early growth stages or when plants show signs of nutrient deficiency.\n- **Soil Testing**: Conduct a soil test to determine the exact nutrient needs and adjust the application rates accordingly.\n\nThis combination can be particularly effective for crops like grapes, as it supports healthy growth and fruit development.",
+        "timestamp": {
+          "$date": "2025-04-17T14:30:46.573Z"
+        }
+      }
+    ],
+    "farmer_id": "balasahebchavan",
+    "farmer_plot_ids": [
+      "anushkaplot166",
+      "govindplot378",
+      "rkplot360",
+      "ssn872"
+    ],
+    "conversation_id": "6801108fce38ca90bf779f24",
+    "_id": "6801108fce38ca90bf779f24",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-17T14:35:39.918000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-17T14:30:39.911000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Phal chhedak ke mata barh gaya hai",
+        "en": "The mother of the fruit borer has gone to the breecher",
+        "timestamp": {
+          "$date": "2025-04-17T13:53:20.389Z"
+        },
+        "standalone_question": "Is the phal chhedak (fruit borer) increasing in number?",
+        "standalone_en": "Is the phal chhedak (fruit borer) increasing in number?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is the pest prediction?\nA: Check the all pest predictions relevant. We support Aphids, Banana aphids, Bihar hairy caterpillar, Broad mites, Brown plant hopper, Capsule borer, Caterpillar,\n   Citrus Psylla, Cut worm, Early shoot borer, European red mites, Flat mites, Flea Beetle, Flea beetle, Fruit Borer,\n   Fruit Fly, Fruit borer, Fruit fly, Green aphids, Hispa beetle, Jassids, Leaf eating caterpillar, Leaf folder, Leaf miner,\n   Leaf roller, Mango hopper, Mealy Bug, Mealy bug, Mealybug, Mites, Perianth mites, Pin worm, Pink bollworm,\n   Pseudostem weevil, Red Spider Mites, Red palm weevil, Red spider mites, Rhinoceros beetle, Rhizome weevil, Root Grubs,\n   Root knot nematode, Rugose spiraling whitefly, Rust mites, Rust thrips, Scale Insects, Scale insects, Scarring beetle,\n   Shoot borer, Skipper, Spiraling whitefly, Spodoptera, Stem Borer, Stem borer, Striped beetle, Striped cucumber beetle,\n   Tea Mosquitto Bug, Tea mosquitto bug, Termite, Thrips, White Fly, White fly, Whitefly, and Wooly aphids."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Phal chhedak (fruit borer) ke liye aapko kuch control measures lene chahiye. Aap in pesticides ka istemal kar sakte hain:\n\n1. **Bacillus thuringiensis (Bt)**: Iska spray karna phal chhedak ke liye bahut prabhavi hota hai.\n2. **Chlorpyrifos**: Iska istemal bhi kiya ja sakta hai, lekin isse istemal karte waqt dhyan rakhein ki aapki crop stage kya hai.\n\nAgar aapko specific spray schedule ya aur koi madad chahiye, toh mujhe batayein.",
+        "en": "For a fruit borer, you should take some control measures. You can use these pesticides:\n\n1. Bacillus thuringiensis (Bt): Spraying is very effective for fruit borer.\n2. Chlorpyrifos: It can also be used, but keep in mind what your crop stage is when using it.\n\nLet me know if you need a specific spray schedule or any other help.",
+        "timestamp": {
+          "$date": "2025-04-17T13:53:26.383Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Coregen chala chuke hai",
+        "en": "Coregen chala chuke hai",
+        "timestamp": {
+          "$date": "2025-04-17T13:55:34.831Z"
+        },
+        "standalone_question": "Have you already applied Coregen?",
+        "standalone_en": "Have you already applied Coregen?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Agar aapne coregen (pest control) ka spray kiya hai, toh aapko kuch din tak crop ko monitor karna chahiye. Yeh dekhein ki kya phal chhedak ki sankhya kam hui hai ya nahi. \n\nAgar aapko aur koi madad chahiye, jaise ki agle spray ka schedule ya kisi aur pest control ke liye, toh mujhe batayein.",
+        "en": "If you have sprayed Corragen (pest control), you should monitor the crop for a few days. Check if the number of fruit borers has decreased. \n\nIf you need any further help, such as scheduling your next spray or any other pest control, let me know.",
+        "timestamp": {
+          "$date": "2025-04-17T13:55:38.811Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Kon sa dava spray kare",
+        "en": "Kon sa dava spray kare",
+        "timestamp": {
+          "$date": "2025-04-17T13:57:41.769Z"
+        },
+        "standalone_question": "Which pesticide should I spray?",
+        "standalone_en": "Which pesticide should I spray?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice.",
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Is samay par aapke Brinjal Plot ke liye koi specific spray schedule nahi hai. Lekin, aap phal chhedak ke liye pehle se bataye gaye pesticides jaise Bacillus thuringiensis (Bt) ya Chlorpyrifos ka istemal kar sakte hain.\n\nAgar aapko aur koi madad chahiye, toh mujhe batayein.",
+        "en": "There is no specific spray schedule for your brindle plot at this time. However, you can use the previously mentioned pesticides such as Bacillus thuringiensis (Bt) or chlorpyrifos for fruit borers.\n\nIf you need any more help, let me know.",
+        "timestamp": {
+          "$date": "2025-04-17T13:57:47.267Z"
+        }
+      }
+    ],
+    "farmer_id": "laxmansahu",
+    "farmer_plot_ids": [
+      "brinjalplot496"
+    ],
+    "conversation_id": "680107d07309317e279e7337",
+    "_id": "680107d07309317e279e7337",
+    "language": "hi",
+    "expiry": {
+      "$date": "2025-04-17T14:02:41.778000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-17T13:53:20.389000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Phal chhedak ke mata barh gaya hai",
+        "en": "The mother of the fruit borer has gone to the breecher",
+        "timestamp": {
+          "$date": "2025-04-17T13:53:20.389Z"
+        },
+        "standalone_question": "Is the phal chhedak (fruit borer) increasing?",
+        "standalone_en": "Is the phal chhedak (fruit borer) increasing?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is the pest prediction?\nA: Check the all pest predictions relevant. We support Aphids, Banana aphids, Bihar hairy caterpillar, Broad mites, Brown plant hopper, Capsule borer, Caterpillar,\n   Citrus Psylla, Cut worm, Early shoot borer, European red mites, Flat mites, Flea Beetle, Flea beetle, Fruit Borer,\n   Fruit Fly, Fruit borer, Fruit fly, Green aphids, Hispa beetle, Jassids, Leaf eating caterpillar, Leaf folder, Leaf miner,\n   Leaf roller, Mango hopper, Mealy Bug, Mealy bug, Mealybug, Mites, Perianth mites, Pin worm, Pink bollworm,\n   Pseudostem weevil, Red Spider Mites, Red palm weevil, Red spider mites, Rhinoceros beetle, Rhizome weevil, Root Grubs,\n   Root knot nematode, Rugose spiraling whitefly, Rust mites, Rust thrips, Scale Insects, Scale insects, Scarring beetle,\n   Shoot borer, Skipper, Spiraling whitefly, Spodoptera, Stem Borer, Stem borer, Striped beetle, Striped cucumber beetle,\n   Tea Mosquitto Bug, Tea mosquitto bug, Termite, Thrips, White Fly, White fly, Whitefly, and Wooly aphids."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Phal chhedak (fruit borer) ke liye aapko kuch control measures lene chahiye. Aap in pesticides ka istemal kar sakte hain:\n\n1. **Bacillus thuringiensis (Bt)**: Iska spray karna phal chhedak ke liye bahut prabhavi hota hai.\n2. **Chlorpyrifos**: Iska istemal bhi kiya ja sakta hai, lekin isse istemal karte waqt dhyan rakhein ki aapki crop stage kya hai.\n\nAgar aapko specific spray schedule ya aur koi madad chahiye, toh mujhe batayein.",
+        "en": "For a fruit borer, you should take some control measures. You can use these pesticides:\n\n1. Bacillus thuringiensis (Bt): Spraying is very effective for fruit borer.\n2. Chlorpyrifos: It can also be used, but keep in mind what your crop stage is when using it.\n\nLet me know if you need a specific spray schedule or any other help.",
+        "timestamp": {
+          "$date": "2025-04-17T13:53:26.383Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Coregen chala chuke hai",
+        "en": "Coregen chala chuke hai",
+        "timestamp": {
+          "$date": "2025-04-17T13:55:34.831Z"
+        },
+        "standalone_question": "Have you already applied Coregen?",
+        "standalone_en": "Have you already applied Coregen?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Agar aapne coregen (pest control) ka spray kiya hai, toh aapko kuch din tak crop ko monitor karna chahiye. Yeh dekhein ki kya phal chhedak ki sankhya kam hui hai ya nahi. \n\nAgar aapko aur koi madad chahiye, jaise ki agle spray ka schedule ya kisi aur pest control ke liye, toh mujhe batayein.",
+        "en": "If you have sprayed Corragen (pest control), you should monitor the crop for a few days. Check if the number of fruit borers has decreased. \n\nIf you need any further help, such as scheduling your next spray or any other pest control, let me know.",
+        "timestamp": {
+          "$date": "2025-04-17T13:55:38.811Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Kon sa dava spray kare",
+        "en": "Kon sa dava spray kare",
+        "timestamp": {
+          "$date": "2025-04-17T13:57:41.769Z"
+        },
+        "standalone_question": "Which pesticide should I spray?",
+        "standalone_en": "Which pesticide should I spray?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice.",
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Is samay par aapke Brinjal Plot ke liye koi specific spray schedule nahi hai. Lekin, aap phal chhedak ke liye pehle se bataye gaye pesticides jaise Bacillus thuringiensis (Bt) ya Chlorpyrifos ka istemal kar sakte hain.\n\nAgar aapko aur koi madad chahiye, toh mujhe batayein.",
+        "en": "There is no specific spray schedule for your brindle plot at this time. However, you can use the previously mentioned pesticides such as Bacillus thuringiensis (Bt) or chlorpyrifos for fruit borers.\n\nIf you need any more help, let me know.",
+        "timestamp": {
+          "$date": "2025-04-17T13:57:47.267Z"
+        }
+      }
+    ],
+    "farmer_id": "laxmansahu",
+    "farmer_plot_ids": [
+      "brinjalplot496"
+    ],
+    "conversation_id": "680107d07309317e279e7337",
+    "_id": "680107d07309317e279e7337",
+    "language": "hi",
+    "expiry": {
+      "$date": "2025-04-17T14:02:41.778000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-04-17T13:53:20.389000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How much water apply for plot ",
+        "en": "How much water apply for plot ",
+        "timestamp": {
+          "$date": "2025-04-17T13:30:15.549Z"
+        },
+        "standalone_question": "How much water should be applied to the plot?",
+        "standalone_en": "How much water should be applied to the plot?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today.",
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range."
+          ],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: How can the sensor monitor the whole plot when it's installed near one plant?\nA: The installation process includes a detailed survey of the plot regarding variations in soil type and root zone. A point for installation is selected with a plant of average growth representing the whole plot.",
+            "Q: How to measure/ calculate irrigation hours /water tank of my plot in fyllo app? How do I calculate irrigation hours for my plot? How to use the irrigation hours calculator?\nA: To calculate irrigation hours in the Fyllo app, follow these steps:\n\n1. Open the Fyllo App\n2. Go to the home screen\n3. Click on the soil moisture-1 sensor\n4. Scroll down to find the \"Irrigation hours\" section\n5. Fill in the required details such as:\n   - Root width (inches)\n   - Root depth (inches)\n   - Soil retention (mm)\n   - Dripper distance (feet)\n   - Dripper discharge (liters)\n6. Click the calculate button\n\nWould you like me to calculate the irrigation hours for you right now? I can retrieve your plot's irrigation settings and perform the calculation if you say yes.\n\nTool Selection: When user says yes, I should:\n1. Use get_irrigation_installation_settings tool to retrieve plot settings\n2. Check if all values are present and valid\n3. If values are valid, use calculate_irrigation_hours tool with these values\n4. If values are missing or invalid, ask the user to provide the missing values\n5. After calculating irrigation hours, display the irrigation installation settings that were used for the calculation\n6. Ask the user if they want to calculate irrigation hours with a different set of values, and if yes, prompt them to provide those values\n\nExample response if values are missing:\n\"I checked your plot settings, but I need some additional information to calculate irrigation hours accurately. Could you please provide the [missing value(s)]? Once you provide these details, I can complete the calculation for you.\"\n\nExample response after calculation:\n\"Based on your plot's irrigation settings, the calculated irrigation hours are [X] hours. \n\nI used the following settings for this calculation:\n- Root width: [value] inches\n- Root depth: [value] inches\n- Soil retention: [value] mm\n- Dripper distance: [value] feet\n- Dripper discharge: [value] liters\n\nWould you like to calculate irrigation hours with a different set of values? If yes, please provide the new values you'd like to use.\"",
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer.",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To determine how much water to apply for your plot, I need to check the current soil moisture levels and the optimal moisture values. This will help in calculating the moisture deficit and the amount of water required.\n\nLet me retrieve the necessary data for your plots. Please hold on for a moment.:\n\nHere are the current soil moisture readings and optimal moisture values for your plots:\n\n### Guava plot No. 1\n- **Current Soil Moisture:** 69% (moist)\n- **Optimal Soil Moisture Range:** 100% (wet) - 60% (dry)\n- **Recommendation:** No irrigation needed as the moisture level is above the dry threshold.\n\n### Guava plot No. 2\n- **Current Soil Moisture:** -9% (indicating a possible sensor error or very dry condition)\n- **Optimal Soil Moisture Range:** 100% (wet) - 60% (dry)\n- **Recommendation:** Since the reading is anomalous, please check the sensor. If the soil is indeed dry, irrigation may be required.\n\n### Summary\n- **Guava plot No. 1:** No irrigation needed.\n- **Guava plot No. 2:** Check the sensor; if dry, irrigation may be necessary.\n\nWould you like to proceed with irrigation for Guava plot No. 2, or do you need assistance with anything else?",
+        "en": "To determine how much water to apply for your plot, I need to check the current soil moisture levels and the optimal moisture values. This will help in calculating the moisture deficit and the amount of water required.\n\nLet me retrieve the necessary data for your plots. Please hold on for a moment.:\n\nHere are the current soil moisture readings and optimal moisture values for your plots:\n\n### Guava plot No. 1\n- **Current Soil Moisture:** 69% (moist)\n- **Optimal Soil Moisture Range:** 100% (wet) - 60% (dry)\n- **Recommendation:** No irrigation needed as the moisture level is above the dry threshold.\n\n### Guava plot No. 2\n- **Current Soil Moisture:** -9% (indicating a possible sensor error or very dry condition)\n- **Optimal Soil Moisture Range:** 100% (wet) - 60% (dry)\n- **Recommendation:** Since the reading is anomalous, please check the sensor. If the soil is indeed dry, irrigation may be required.\n\n### Summary\n- **Guava plot No. 1:** No irrigation needed.\n- **Guava plot No. 2:** Check the sensor; if dry, irrigation may be necessary.\n\nWould you like to proceed with irrigation for Guava plot No. 2, or do you need assistance with anything else?",
+        "timestamp": {
+          "$date": "2025-04-17T13:30:28.663Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Which disease is present ",
+        "en": "Which disease is present ",
+        "timestamp": {
+          "$date": "2025-04-17T13:31:30.400Z"
+        },
+        "standalone_question": "What disease is present?",
+        "standalone_en": "What disease is present?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Currently, there are no available disease prediction metrics for both of your plots:\n\n- **Guava plot No. 1:** No disease metrics available.\n- **Guava plot No. 2:** No disease metrics available.\n\nIt seems that the system could not detect any diseases in your plots during the specified period. If you have any specific concerns or if you would like to check for pests or other issues, please let me know!",
+        "en": "Currently, there are no available disease prediction metrics for both of your plots:\n\n- **Guava plot No. 1:** No disease metrics available.\n- **Guava plot No. 2:** No disease metrics available.\n\nIt seems that the system could not detect any diseases in your plots during the specified period. If you have any specific concerns or if you would like to check for pests or other issues, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-17T13:31:37.494Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Which fertilizer requirement ",
+        "en": "Which fertilizer requirement ",
+        "timestamp": {
+          "$date": "2025-04-17T13:31:48.812Z"
+        },
+        "standalone_question": "What are the fertilizer requirements for the plots?",
+        "standalone_en": "What are the fertilizer requirements for the plots?",
+        "retrieval": {
+          "tools": [
+            "get_specific_fertigation_requirements  \nFinds the fertigation requirements for the plots with a particular crop stage and week numbers.",
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: How to measure/ calculate irrigation hours /water tank of my plot in fyllo app? How do I calculate irrigation hours for my plot? How to use the irrigation hours calculator?\nA: To calculate irrigation hours in the Fyllo app, follow these steps:\n\n1. Open the Fyllo App\n2. Go to the home screen\n3. Click on the soil moisture-1 sensor\n4. Scroll down to find the \"Irrigation hours\" section\n5. Fill in the required details such as:\n   - Root width (inches)\n   - Root depth (inches)\n   - Soil retention (mm)\n   - Dripper distance (feet)\n   - Dripper discharge (liters)\n6. Click the calculate button\n\nWould you like me to calculate the irrigation hours for you right now? I can retrieve your plot's irrigation settings and perform the calculation if you say yes.\n\nTool Selection: When user says yes, I should:\n1. Use get_irrigation_installation_settings tool to retrieve plot settings\n2. Check if all values are present and valid\n3. If values are valid, use calculate_irrigation_hours tool with these values\n4. If values are missing or invalid, ask the user to provide the missing values\n5. After calculating irrigation hours, display the irrigation installation settings that were used for the calculation\n6. Ask the user if they want to calculate irrigation hours with a different set of values, and if yes, prompt them to provide those values\n\nExample response if values are missing:\n\"I checked your plot settings, but I need some additional information to calculate irrigation hours accurately. Could you please provide the [missing value(s)]? Once you provide these details, I can complete the calculation for you.\"\n\nExample response after calculation:\n\"Based on your plot's irrigation settings, the calculated irrigation hours are [X] hours. \n\nI used the following settings for this calculation:\n- Root width: [value] inches\n- Root depth: [value] inches\n- Soil retention: [value] mm\n- Dripper distance: [value] feet\n- Dripper discharge: [value] liters\n\nWould you like to calculate irrigation hours with a different set of values? If yes, please provide the new values you'd like to use.\"",
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the fertigation requirements for your guava plots:\n\n### Guava plot No. 1\n- **Current Stage:** Growth stage 1 (Week 7)\n- **Fertigation Schedule:**\n  - **Fertilizers:**\n    1. **Option 1:**\n       - 24-24-0: 2 kg/acre\n       - Urea: 1 kg/acre\n       - Magnesium Sulphate: 1.5 kg/acre\n    2. **Option 2:**\n       - Urea: 2 kg/acre\n       - Phosphoric acid 80%: 590 gm/acre (apply separately, 15-20 minutes before other fertilizers)\n       - Magnesium Sulphate: 1.5 kg/acre\n\n### Guava plot No. 2\n- **Current Stage:** Growth stage 1 (Week 7)\n- **Fertigation Schedule:**\n  - **Fertilizers:**\n    1. **Option 1:**\n       - 24-24-0: 2 kg/acre\n       - Urea: 1 kg/acre\n       - Magnesium Sulphate: 1.5 kg/acre\n    2. **Option 2:**\n       - Urea: 2 kg/acre\n       - Phosphoric acid 80%: 590 gm/acre (apply separately, 15-20 minutes before other fertilizers)\n       - Magnesium Sulphate: 1.5 kg/acre\n\n### Upcoming Schedule\n- **Next Stage:** Growth stage 2 (starting on June 6, 2025)\n  - **Foliar Method:**\n    - Zinc Sulphate: 500 gm/acre\n    - Ferrous Sulphate: 700 gm/acre (concentration should not exceed 1%)\n  - **Fertigation Method:**\n    - 24-24-0: 2.5 kg/acre\n    - Urea: 2 kg/acre\n    - Phosphoric acid 80%: 740 gm/acre\n\nWould you like to proceed with the fertigation, or do you need any further assistance?",
+        "en": "Here are the fertigation requirements for your guava plots:\n\n### Guava plot No. 1\n- **Current Stage:** Growth stage 1 (Week 7)\n- **Fertigation Schedule:**\n  - **Fertilizers:**\n    1. **Option 1:**\n       - 24-24-0: 2 kg/acre\n       - Urea: 1 kg/acre\n       - Magnesium Sulphate: 1.5 kg/acre\n    2. **Option 2:**\n       - Urea: 2 kg/acre\n       - Phosphoric acid 80%: 590 gm/acre (apply separately, 15-20 minutes before other fertilizers)\n       - Magnesium Sulphate: 1.5 kg/acre\n\n### Guava plot No. 2\n- **Current Stage:** Growth stage 1 (Week 7)\n- **Fertigation Schedule:**\n  - **Fertilizers:**\n    1. **Option 1:**\n       - 24-24-0: 2 kg/acre\n       - Urea: 1 kg/acre\n       - Magnesium Sulphate: 1.5 kg/acre\n    2. **Option 2:**\n       - Urea: 2 kg/acre\n       - Phosphoric acid 80%: 590 gm/acre (apply separately, 15-20 minutes before other fertilizers)\n       - Magnesium Sulphate: 1.5 kg/acre\n\n### Upcoming Schedule\n- **Next Stage:** Growth stage 2 (starting on June 6, 2025)\n  - **Foliar Method:**\n    - Zinc Sulphate: 500 gm/acre\n    - Ferrous Sulphate: 700 gm/acre (concentration should not exceed 1%)\n  - **Fertigation Method:**\n    - 24-24-0: 2.5 kg/acre\n    - Urea: 2 kg/acre\n    - Phosphoric acid 80%: 740 gm/acre\n\nWould you like to proceed with the fertigation, or do you need any further assistance?",
+        "timestamp": {
+          "$date": "2025-04-17T13:32:00.063Z"
+        }
+      }
+    ],
+    "farmer_id": "pratapdhane",
+    "farmer_plot_ids": [
+      "guavaplotno1829",
+      "guavaplotno2193"
+    ],
+    "conversation_id": "680102677309317e279e7336",
+    "_id": "680102677309317e279e7336",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-17T13:36:48.821000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-17T13:30:15.549000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How much water apply for plot ",
+        "en": "How much water apply for plot ",
+        "timestamp": {
+          "$date": "2025-04-17T13:30:15.549Z"
+        },
+        "standalone_question": "How much water should be applied to the plot?",
+        "standalone_en": "How much water should be applied to the plot?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today.",
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range."
+          ],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: How can the sensor monitor the whole plot when it's installed near one plant?\nA: The installation process includes a detailed survey of the plot regarding variations in soil type and root zone. A point for installation is selected with a plant of average growth representing the whole plot.",
+            "Q: How to measure/ calculate irrigation hours /water tank of my plot in fyllo app? How do I calculate irrigation hours for my plot? How to use the irrigation hours calculator?\nA: To calculate irrigation hours in the Fyllo app, follow these steps:\n\n1. Open the Fyllo App\n2. Go to the home screen\n3. Click on the soil moisture-1 sensor\n4. Scroll down to find the \"Irrigation hours\" section\n5. Fill in the required details such as:\n   - Root width (inches)\n   - Root depth (inches)\n   - Soil retention (mm)\n   - Dripper distance (feet)\n   - Dripper discharge (liters)\n6. Click the calculate button\n\nWould you like me to calculate the irrigation hours for you right now? I can retrieve your plot's irrigation settings and perform the calculation if you say yes.\n\nTool Selection: When user says yes, I should:\n1. Use get_irrigation_installation_settings tool to retrieve plot settings\n2. Check if all values are present and valid\n3. If values are valid, use calculate_irrigation_hours tool with these values\n4. If values are missing or invalid, ask the user to provide the missing values\n5. After calculating irrigation hours, display the irrigation installation settings that were used for the calculation\n6. Ask the user if they want to calculate irrigation hours with a different set of values, and if yes, prompt them to provide those values\n\nExample response if values are missing:\n\"I checked your plot settings, but I need some additional information to calculate irrigation hours accurately. Could you please provide the [missing value(s)]? Once you provide these details, I can complete the calculation for you.\"\n\nExample response after calculation:\n\"Based on your plot's irrigation settings, the calculated irrigation hours are [X] hours. \n\nI used the following settings for this calculation:\n- Root width: [value] inches\n- Root depth: [value] inches\n- Soil retention: [value] mm\n- Dripper distance: [value] feet\n- Dripper discharge: [value] liters\n\nWould you like to calculate irrigation hours with a different set of values? If yes, please provide the new values you'd like to use.\"",
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer.",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To determine how much water to apply for your plot, I need to check the current soil moisture levels and the optimal moisture values. This will help in calculating the moisture deficit and the amount of water required.\n\nLet me retrieve the necessary data for your plots. Please hold on for a moment.:\n\nHere are the current soil moisture readings and optimal moisture values for your plots:\n\n### Guava plot No. 1\n- **Current Soil Moisture:** 69% (moist)\n- **Optimal Soil Moisture Range:** 100% (wet) - 60% (dry)\n- **Recommendation:** No irrigation needed as the moisture level is above the dry threshold.\n\n### Guava plot No. 2\n- **Current Soil Moisture:** -9% (indicating a possible sensor error or very dry condition)\n- **Optimal Soil Moisture Range:** 100% (wet) - 60% (dry)\n- **Recommendation:** Since the reading is anomalous, please check the sensor. If the soil is indeed dry, irrigation may be required.\n\n### Summary\n- **Guava plot No. 1:** No irrigation needed.\n- **Guava plot No. 2:** Check the sensor; if dry, irrigation may be necessary.\n\nWould you like to proceed with irrigation for Guava plot No. 2, or do you need assistance with anything else?",
+        "en": "To determine how much water to apply for your plot, I need to check the current soil moisture levels and the optimal moisture values. This will help in calculating the moisture deficit and the amount of water required.\n\nLet me retrieve the necessary data for your plots. Please hold on for a moment.:\n\nHere are the current soil moisture readings and optimal moisture values for your plots:\n\n### Guava plot No. 1\n- **Current Soil Moisture:** 69% (moist)\n- **Optimal Soil Moisture Range:** 100% (wet) - 60% (dry)\n- **Recommendation:** No irrigation needed as the moisture level is above the dry threshold.\n\n### Guava plot No. 2\n- **Current Soil Moisture:** -9% (indicating a possible sensor error or very dry condition)\n- **Optimal Soil Moisture Range:** 100% (wet) - 60% (dry)\n- **Recommendation:** Since the reading is anomalous, please check the sensor. If the soil is indeed dry, irrigation may be required.\n\n### Summary\n- **Guava plot No. 1:** No irrigation needed.\n- **Guava plot No. 2:** Check the sensor; if dry, irrigation may be necessary.\n\nWould you like to proceed with irrigation for Guava plot No. 2, or do you need assistance with anything else?",
+        "timestamp": {
+          "$date": "2025-04-17T13:30:28.663Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Which disease is present ",
+        "en": "Which disease is present ",
+        "timestamp": {
+          "$date": "2025-04-17T13:31:30.400Z"
+        },
+        "standalone_question": "What disease is present?",
+        "standalone_en": "What disease is present?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Currently, there are no available disease prediction metrics for both of your plots:\n\n- **Guava plot No. 1:** No disease metrics available.\n- **Guava plot No. 2:** No disease metrics available.\n\nIt seems that the system could not detect any diseases in your plots during the specified period. If you have any specific concerns or if you would like to check for pests or other issues, please let me know!",
+        "en": "Currently, there are no available disease prediction metrics for both of your plots:\n\n- **Guava plot No. 1:** No disease metrics available.\n- **Guava plot No. 2:** No disease metrics available.\n\nIt seems that the system could not detect any diseases in your plots during the specified period. If you have any specific concerns or if you would like to check for pests or other issues, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-17T13:31:37.494Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Which fertilizer requirement ",
+        "en": "Which fertilizer requirement ",
+        "timestamp": {
+          "$date": "2025-04-17T13:31:48.812Z"
+        },
+        "standalone_question": "What are the fertilizer requirements for the plots?",
+        "standalone_en": "What are the fertilizer requirements for the plots?",
+        "retrieval": {
+          "tools": [
+            "get_specific_fertigation_requirements  \nFinds the fertigation requirements for the plots with a particular crop stage and week numbers.",
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: How to measure/ calculate irrigation hours /water tank of my plot in fyllo app? How do I calculate irrigation hours for my plot? How to use the irrigation hours calculator?\nA: To calculate irrigation hours in the Fyllo app, follow these steps:\n\n1. Open the Fyllo App\n2. Go to the home screen\n3. Click on the soil moisture-1 sensor\n4. Scroll down to find the \"Irrigation hours\" section\n5. Fill in the required details such as:\n   - Root width (inches)\n   - Root depth (inches)\n   - Soil retention (mm)\n   - Dripper distance (feet)\n   - Dripper discharge (liters)\n6. Click the calculate button\n\nWould you like me to calculate the irrigation hours for you right now? I can retrieve your plot's irrigation settings and perform the calculation if you say yes.\n\nTool Selection: When user says yes, I should:\n1. Use get_irrigation_installation_settings tool to retrieve plot settings\n2. Check if all values are present and valid\n3. If values are valid, use calculate_irrigation_hours tool with these values\n4. If values are missing or invalid, ask the user to provide the missing values\n5. After calculating irrigation hours, display the irrigation installation settings that were used for the calculation\n6. Ask the user if they want to calculate irrigation hours with a different set of values, and if yes, prompt them to provide those values\n\nExample response if values are missing:\n\"I checked your plot settings, but I need some additional information to calculate irrigation hours accurately. Could you please provide the [missing value(s)]? Once you provide these details, I can complete the calculation for you.\"\n\nExample response after calculation:\n\"Based on your plot's irrigation settings, the calculated irrigation hours are [X] hours. \n\nI used the following settings for this calculation:\n- Root width: [value] inches\n- Root depth: [value] inches\n- Soil retention: [value] mm\n- Dripper distance: [value] feet\n- Dripper discharge: [value] liters\n\nWould you like to calculate irrigation hours with a different set of values? If yes, please provide the new values you'd like to use.\"",
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the fertigation requirements for your guava plots:\n\n### Guava plot No. 1\n- **Current Stage:** Growth stage 1 (Week 7)\n- **Fertigation Schedule:**\n  - **Fertilizers:**\n    1. **Option 1:**\n       - 24-24-0: 2 kg/acre\n       - Urea: 1 kg/acre\n       - Magnesium Sulphate: 1.5 kg/acre\n    2. **Option 2:**\n       - Urea: 2 kg/acre\n       - Phosphoric acid 80%: 590 gm/acre (apply separately, 15-20 minutes before other fertilizers)\n       - Magnesium Sulphate: 1.5 kg/acre\n\n### Guava plot No. 2\n- **Current Stage:** Growth stage 1 (Week 7)\n- **Fertigation Schedule:**\n  - **Fertilizers:**\n    1. **Option 1:**\n       - 24-24-0: 2 kg/acre\n       - Urea: 1 kg/acre\n       - Magnesium Sulphate: 1.5 kg/acre\n    2. **Option 2:**\n       - Urea: 2 kg/acre\n       - Phosphoric acid 80%: 590 gm/acre (apply separately, 15-20 minutes before other fertilizers)\n       - Magnesium Sulphate: 1.5 kg/acre\n\n### Upcoming Schedule\n- **Next Stage:** Growth stage 2 (starting on June 6, 2025)\n  - **Foliar Method:**\n    - Zinc Sulphate: 500 gm/acre\n    - Ferrous Sulphate: 700 gm/acre (concentration should not exceed 1%)\n  - **Fertigation Method:**\n    - 24-24-0: 2.5 kg/acre\n    - Urea: 2 kg/acre\n    - Phosphoric acid 80%: 740 gm/acre\n\nWould you like to proceed with the fertigation, or do you need any further assistance?",
+        "en": "Here are the fertigation requirements for your guava plots:\n\n### Guava plot No. 1\n- **Current Stage:** Growth stage 1 (Week 7)\n- **Fertigation Schedule:**\n  - **Fertilizers:**\n    1. **Option 1:**\n       - 24-24-0: 2 kg/acre\n       - Urea: 1 kg/acre\n       - Magnesium Sulphate: 1.5 kg/acre\n    2. **Option 2:**\n       - Urea: 2 kg/acre\n       - Phosphoric acid 80%: 590 gm/acre (apply separately, 15-20 minutes before other fertilizers)\n       - Magnesium Sulphate: 1.5 kg/acre\n\n### Guava plot No. 2\n- **Current Stage:** Growth stage 1 (Week 7)\n- **Fertigation Schedule:**\n  - **Fertilizers:**\n    1. **Option 1:**\n       - 24-24-0: 2 kg/acre\n       - Urea: 1 kg/acre\n       - Magnesium Sulphate: 1.5 kg/acre\n    2. **Option 2:**\n       - Urea: 2 kg/acre\n       - Phosphoric acid 80%: 590 gm/acre (apply separately, 15-20 minutes before other fertilizers)\n       - Magnesium Sulphate: 1.5 kg/acre\n\n### Upcoming Schedule\n- **Next Stage:** Growth stage 2 (starting on June 6, 2025)\n  - **Foliar Method:**\n    - Zinc Sulphate: 500 gm/acre\n    - Ferrous Sulphate: 700 gm/acre (concentration should not exceed 1%)\n  - **Fertigation Method:**\n    - 24-24-0: 2.5 kg/acre\n    - Urea: 2 kg/acre\n    - Phosphoric acid 80%: 740 gm/acre\n\nWould you like to proceed with the fertigation, or do you need any further assistance?",
+        "timestamp": {
+          "$date": "2025-04-17T13:32:00.063Z"
+        }
+      }
+    ],
+    "farmer_id": "pratapdhane",
+    "farmer_plot_ids": [
+      "guavaplotno1829",
+      "guavaplotno2193"
+    ],
+    "conversation_id": "680102677309317e279e7336",
+    "_id": "680102677309317e279e7336",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-17T13:36:48.821000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-17T13:30:15.549000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "what is the disease<user uploaded image for analysis at 'jeevanpomo1/2025-04-17-1744883532424.jpg'>",
+        "en": "what is the disease<user uploaded image for analysis at 'jeevanpomo1/2025-04-17-1744883532424.jpg'>",
+        "timestamp": {
+          "$date": "2025-04-17T09:52:20.644Z"
+        },
+        "standalone_question": "What disease is depicted in the uploaded image?",
+        "standalone_en": "What disease is depicted in the uploaded image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the crop image indicates potential issues with the capsicum plant, showing signs of curling and discoloration. Here are the possible problems identified:\n\n### Possible Issues:\n- **Aphids**\n- **Cercospora leaf spot**\n- **Thrips**\n- **Whitefly**\n\n### Recommendations for Treatment:\n1. **Option 1**:\n   - Isocycloseram 9.2% w/w DC + Isocycloseram 10% w/v DC: 0.3 mL\n   - Propiconazole: 0.5 mL\n\n2. **Option 2**:\n   - Fluxametamide 10% EC: 1.5 mL\n   - Difenoconazole: 0.5 mL\n\n3. **Option 3**:\n   - Broflanilide 300G/L SC: 0.2 mL\n   - Tebuconazole: 1 mL\n\nMake sure to follow the recommended dosages and application methods for effective results. Regular monitoring of the plants will help in early detection and management of any further issues.",
+        "en": "The analysis of the crop image indicates potential issues with the capsicum plant, showing signs of curling and discoloration. Here are the possible problems identified:\n\n### Possible Issues:\n- **Aphids**\n- **Cercospora leaf spot**\n- **Thrips**\n- **Whitefly**\n\n### Recommendations for Treatment:\n1. **Option 1**:\n   - Isocycloseram 9.2% w/w DC + Isocycloseram 10% w/v DC: 0.3 mL\n   - Propiconazole: 0.5 mL\n\n2. **Option 2**:\n   - Fluxametamide 10% EC: 1.5 mL\n   - Difenoconazole: 0.5 mL\n\n3. **Option 3**:\n   - Broflanilide 300G/L SC: 0.2 mL\n   - Tebuconazole: 1 mL\n\nMake sure to follow the recommended dosages and application methods for effective results. Regular monitoring of the plants will help in early detection and management of any further issues.",
+        "timestamp": {
+          "$date": "2025-04-17T09:52:42.733Z"
+        }
+      }
+    ],
+    "farmer_id": "devarajutv",
+    "farmer_plot_ids": [
+      "jeevanpomo",
+      "jeevanpomo1"
+    ],
+    "conversation_id": "6800cf547309317e279e7334",
+    "_id": "6800cf547309317e279e7334",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-17T09:57:20.658000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-17T09:52:20.644000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "खते टाकण्याची गरज आहे का ",
+        "en": "Do you need to put fertilizer in? ",
+        "timestamp": {
+          "$date": "2025-04-17T04:57:46.580Z"
+        },
+        "standalone_question": "Is it necessary to throw away the letters?",
+        "standalone_en": "Is it necessary to throw away the letters?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "khate takanyachi garaj aahe ka "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या \"साखरेच्या पिक 1\" प्लॉटमध्ये सध्या \"तिल्लींग\" टप्प्यात आहात, जो 2 व्या आठवड्यात आहे. आज, 17 एप्रिल 2025 रोजी, आपल्याला खते टाकण्याची आवश्यकता आहे. \n\nआपल्याला \"अमोनियम सल्फेट\" 167.5 किलोग्राम प्रति एकर प्रमाणात टाकावे लागेल. \n\nतुमच्या पुढील खते टाकण्याची वेळ \"ग्रँड ग्रोथ\" टप्प्यात 2 व्या आठवड्यात, 2 जुलै 2025 पासून असेल, ज्यामध्ये \"अमोनियम सल्फेट\" 125.5 किलोग्राम प्रति एकर आणि \"म्युरिएट ऑफ पोटाश\" 24 किलोग्राम प्रति एकर टाकावे लागेल.",
+        "en": "You're currently in the \"tilling\" phase of your \"Sugar Pick 1\" plot, which is in week 2. Today, April 17, 2025, you need to put in the fertilizer. \n\nYou'll need to pour \"ammonium sulfate\" at 167.5 kilograms per acre. \n\nYour next fertilizer laying time will be in week 2 of the \"Grand Growth\" phase, starting July 2, 2025, with \"ammonium sulfate\" at 125.5 kg/acre and \"Murriet of Potash\" at 24 kg/acre.",
+        "timestamp": {
+          "$date": "2025-04-17T04:57:53.590Z"
+        }
+      }
+    ],
+    "farmer_id": "harshalsajane",
+    "farmer_plot_ids": [
+      "sugarcaneplot1118"
+    ],
+    "conversation_id": "68008a4ace38ca90bf779f22",
+    "_id": "68008a4ace38ca90bf779f22",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-17T05:02:46.595000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-17T04:57:46.580000+00:00"
+  }
+]

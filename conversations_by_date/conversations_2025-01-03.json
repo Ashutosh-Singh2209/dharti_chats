@@ -1,0 +1,1089 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Thandi ki aarti parichay",
+        "en": "Cold Aarti Introduction",
+        "timestamp": {
+          "$date": "2025-01-03T15:40:42.860Z"
+        },
+        "standalone_question": "What is the introduction to Thandi's aarti?",
+        "standalone_en": "What is the introduction to Thandi's aarti?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Mujhe khed hai, par main sirf krishi sambandhi prashno ka uttar de sakta hoon. Agar aapko kisaan ki krishi ya kheti se judi koi jankari chahiye, to aap puch sakte hain.",
+        "en": "I am sorry, but I can only answer questions on agriculture. If you need any information related to the farmer's agriculture or farming, then you can ask.",
+        "timestamp": {
+          "$date": "2025-01-03T15:40:50.006Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ઠંડી ક્યારથી પડશે",
+        "en": "When will it be cold?",
+        "timestamp": {
+          "$date": "2025-01-03T15:41:23.209Z"
+        },
+        "standalone_question": "When will it get cold?",
+        "standalone_en": "When will it get cold?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "thandi kyarathi padse"
+      },
+      {
+        "role": "assistant",
+        "content": "મને માફ કરશો, પરંતુ હું ફક્ત કૃષિ સંબંધિત પ્રશ્નોનો જવાબ આપી શકું છું. જો તમને ખેતી અથવા પાક સંચાલન વિશે કોઈ માહિતી જોઈએ, તો કૃપા કરીને પૂછો.",
+        "en": "I'm sorry, but I can only answer questions related to agriculture. If you would like any information about farming or crop management, please ask.",
+        "timestamp": {
+          "$date": "2025-01-03T15:41:27.074Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "રોગ આવેલો છે",
+        "en": "The disease has arrived",
+        "timestamp": {
+          "$date": "2025-01-03T15:41:56.895Z"
+        },
+        "standalone_question": "Is there a disease affecting the crops?",
+        "standalone_en": "Is there a disease affecting the crops?",
+        "retrieval": {
+          "tools": [
+            "analyse_crop_image  \nGets the analysis of the uploaded crop image for any diseases or pests.",
+            "get_historical_disease_prediction_metrics  \nReturns the historical daily crop disease prediction metrics for the given diseases, checking all dependent parameters inherently."
+          ],
+          "faq": [
+            "Q: What diseases prediction does fyllo support?\nA: Fyllo supports the following diseases:\n    Alternaria, Alternaria Fruit Blotch, Alternaria blotch, Alternaria leaf blight,\n    Anthracnose, Bacterial Blight, Bacterial Canker, Bacterial Spot, Blister blight, Botrytis mold, Brown Rust,\n    Brown spot, Cercospora, Cercospora Leaf Spot, Cercospora leaf spot, Cigar end rot, Citrus scab, Colletotrichum, Damping off,\n    Diplodia, Downy mildew, Early Blight, Fruit Canker, Fruit canker, Fusarium Wilt, Fusarium wilt, Graphiola leaf spot,\n    Grey mold, Late Blight, Leaf Blight, Leaf Spot, Leaf spot, Marssonina blotch, Powdery Mildew, Powdery mildew,\n    Purple blotch, Red rot, Rice blast, Root knot nematode, Rust, Scab, Sheath blight, Sigatoka leaf spot, Stylar End Rot,\n    Whip smut, Xanthomonas, and Yellow Rust."
+          ]
+        },
+        "content_transliterated": "rog avelo che"
+      },
+      {
+        "role": "assistant",
+        "content": "કૃપા કરીને જણાવો કે કયા પાકમાં રોગ આવ્યો છે અને કયા પ્રકારના લક્ષણો દેખાઈ રહ્યા છે. હું તમને યોગ્ય ઉપાય અને દવાઓની સલાહ આપી શકું છું.",
+        "en": "Please tell which crops have got the disease and what kind of symptoms are showing. I can advise you the right remedies and medicines.",
+        "timestamp": {
+          "$date": "2025-01-03T15:42:02.727Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "પાકમાં બાણ નીચે કેમ પડી ગયો છે",
+        "en": "Why the arrow has fallen down in the crop",
+        "timestamp": {
+          "$date": "2025-01-03T15:42:27.085Z"
+        },
+        "standalone_question": "Why has the crop fallen down?",
+        "standalone_en": "Why has the crop fallen down?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pakaman ban nice came padi gayo che"
+      },
+      {
+        "role": "assistant",
+        "content": "પાકમાં બાણ નીચે પડવાના ઘણા કારણો હોઈ શકે છે, જેમ કે:\n\n1. **પાણીની અછત**: જો પાકને પૂરતું પાણી ન મળે, તો તે સુકાઈ જાય છે અને બાણ નીચે પડી શકે છે.\n2. **ખોરાકની અછત**: ખાતર અથવા પોષક તત્વોની અછત પણ બાણને નબળું કરી શકે છે.\n3. **રોગ અથવા કીટક**: રોગો અથવા કીટકોના હુમલાથી પણ બાણ નબળા થઈ શકે છે.\n4. **હવા અથવા વરસાદ**: ભારે હવા અથવા વરસાદથી પણ બાણ નીચે પડી શકે છે.\n\nકૃપા કરીને વધુ વિગતો આપો, જેમ કે પાકનો પ્રકાર અને અન્ય લક્ષણો, જેથી હું વધુ ચોક્કસ સલાહ આપી શકું.",
+        "en": "There can be many reasons why arrows fall down in crops, such as:\n\n1. **Water scarcity**: If the crop does not get enough water, it dries up and the arrow can fall down.\n2. **Lack of food**: Lack of fertilizers or nutrients can also weaken the arrow.\n3. **Disease or pest**: An arrow can also be weakened by diseases or attacks by pests.\n4. **Wind or rain**: Heavy wind or rain can also cause the arrow to fall down.\n\nPlease give more details, such as crop type and other symptoms, so that I can give more precise advice.",
+        "timestamp": {
+          "$date": "2025-01-03T15:42:35.980Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ના પાક માં બાણ નીચે પડી ગયો છે",
+        "en": "The arrow has fallen down in the crop of",
+        "timestamp": {
+          "$date": "2025-01-03T15:43:20.501Z"
+        },
+        "standalone_question": "What could be the reasons for the stalks in my crop to have fallen down?",
+        "standalone_en": "What could be the reasons for the stalks in my crop to have fallen down?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "na pak man ban nice padi gayo che"
+      },
+      {
+        "role": "assistant",
+        "content": "પાકમાં બાણ નીચે પડવાના કારણો અને નિયંત્રણ માટેની કેટલીક સૂચનાઓ:\n\n1. **પાણીની અછત**: ખાતરી કરો કે પાકને પૂરતું પાણી મળી રહ્યું છે. જો જમીન સૂકી હોય, તો તરત જ પાણી આપો.\n\n2. **ખોરાકની અછત**: ખાતરો અને પોષક તત્વો પૂરતા પ્રમાણમાં આપો. ખાતરોમાં નાઇટ્રોજન, ફોસ્ફોરસ અને પોટેશિયમનો સમાવેશ કરો.\n\n3. **રોગો અને કીટકો**: જો રોગ અથવા કીટકના લક્ષણો દેખાય છે, તો યોગ્ય દવાઓનો ઉપયોગ કરો. ઉદાહરણ તરીકે, બાણ નીચે પડવા માટે \"કાર્બેન્ડાઝિમ\" (Carbendazim) @ 2.5 ગ્રામ/લિટર દ્રાવક તરીકે છંટકાવ કરો.\n\n4. **હવા અને વરસાદ**: જો ભારે હવા અથવા વરસાદના કારણે બાણ નીચે પડી ગયા હોય, તો પાકને સુરક્ષિત સ્થાન પર ખસેડવા પર વિચાર કરો.\n\nજો તમે વધુ વિગતો આપી શકો, તો હું વધુ ચોક્કસ સલાહ આપી શકું છું.",
+        "en": "The reasons for the fall of the arrow in the crop and some instructions for control:\n\n1. **Water scarcity**: Make sure the crop is getting enough water. If the ground is dry, water immediately.\n\n2. **Lack of food**: Give enough fertilizers and nutrients. Include nitrogen, phosphorus and potassium in fertilizers.\n\n3. **Diseases and pests**: If symptoms of disease or pest appear, use the right medications. For example, spray as a \"Carbendazim\" @ 2.5 g/l solvent to fall down the arrow.\n\n4. **Wind and rain**: If the arrows have fallen down due to heavy wind or rain, consider moving the crop to a safe place.\n\nIf you can give more details, I can give more precise advice.",
+        "timestamp": {
+          "$date": "2025-01-03T15:43:31.929Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "60 દિવસમાં બટાકાનું બહાર નીચે કેમ બેસી ગયો છે",
+        "en": "Why has the potato sat down outside in 60 days",
+        "timestamp": {
+          "$date": "2025-01-03T15:44:14.040Z"
+        },
+        "standalone_question": "Why has the potato plant fallen over after 60 days?",
+        "standalone_en": "Why has the potato plant fallen over after 60 days?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "60 divasaman batakanun bahar nice came besi gayo che"
+      },
+      {
+        "role": "assistant",
+        "content": "બટાકાના પાકમાં 60 દિવસમાં બાણ નીચે બેસી જવાની કેટલીક શક્યતાઓ હોઈ શકે છે:\n\n1. **પાણીની અછત**: જો જમીનમાં પાણીની અછત છે, તો બાણ નબળા થઈ શકે છે. ખાતરી કરો કે પાકને પૂરતું પાણી મળી રહ્યું છે.\n\n2. **ખોરાકની અછત**: ખાતરોમાં પોષક તત્વોની અછત, ખાસ કરીને નાઇટ્રોજન, બાણને નબળું કરી શકે છે. ખાતરોનું યોગ્ય પ્રમાણ આપવું મહત્વપૂર્ણ છે.\n\n3. **રોગો અને કીટકો**: રોગો અથવા કીટકોના હુમલાથી પણ બાણ નબળા થઈ શકે છે. જો કોઈ લક્ષણો દેખાય છે, તો યોગ્ય દવાઓનો ઉપયોગ કરો.\n\n4. **જમીનનું સ્વરૂપ**: જમીનનું સ્વરૂપ અને પાણીની જાળવણી ક્ષમતા પણ અસર કરી શકે છે. જો જમીન વધુ ભેજ ધરાવતી હોય, તો બાણ નીચે બેસી શકે છે.\n\n5. **હવા અને વાતાવરણ**: ભારે હવા અથવા વરસાદના કારણે પણ બાણ નીચે પડી શકે છે.\n\nજો તમે વધુ વિગતો આપી શકો, તો હું વધુ ચોક્કસ સલાહ આપી શકું છું.",
+        "en": "Potato crop may have some chances of sitting under the arrow in 60 days:\n\n1. **Water scarcity**: If there is a shortage of water in the soil, the arrow can weaken. Make sure the crop is getting enough water.\n\n2. **Lack of food**: Lack of nutrients in fertilizers, especially nitrogen, can weaken the arrow. It is important to give proper quantity of fertilizers.\n\n3. **Diseases and pests**: Diseases or attacks by pests can also weaken the arrow. If any symptoms appear, use the right medications.\n\n4. **Nature of the soil**: The nature of the soil and the storage capacity of the water can also be affected. If the ground is more moisture, the arrow can sit down.\n\n5. **Air and atmosphere**: The arrow can fall down even due to heavy wind or rain.\n\nIf you can give more details, I can give more precise advice.",
+        "timestamp": {
+          "$date": "2025-01-03T15:44:24.220Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "કાકાના ભાગમાં પીળો પડવાનું કારણ શું",
+        "en": "What causes the yellowing on uncle's part",
+        "timestamp": {
+          "$date": "2025-01-03T15:45:05.877Z"
+        },
+        "standalone_question": "What could be the reason for the yellowing of the leaves in the cucumber plant?",
+        "standalone_en": "What could be the reason for the yellowing of the leaves in the cucumber plant?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kakana bhagaman pilo padavanun karan shu"
+      },
+      {
+        "role": "assistant",
+        "content": "કાકાના ભાગમાં પીળો પડવાનું કારણ વિવિધ હોઈ શકે છે:\n\n1. **પાણીની અછત**: જો પાકને પૂરતું પાણી ન મળે, તો પાંદડા પીળા પડી શકે છે. ખાતરી કરો કે જમીન ભેજમાં છે.\n\n2. **ખોરાકની અછત**: ખાસ કરીને નાઇટ્રોજનની અછતથી પાંદડા પીળા પડી શકે છે. ખાતરોમાં યોગ્ય પોષક તત્વો ઉમેરવા પર ધ્યાન આપો.\n\n3. **રોગો**: ફૂગ અથવા બેક્ટેરિયલ રોગો, જેમ કે બેક્ટેરિયલ બ્લાઇટ, પણ પીળા પડવાના કારણ બની શકે છે. જો કોઈ લક્ષણો દેખાય છે, તો યોગ્ય દવાઓનો ઉપયોગ કરો.\n\n4. **કીટકો**: કીટકોના હુમલાથી પણ પાંદડા પીળા પડી શકે છે. કીટક નિયંત્રણ માટે યોગ્ય દવાઓનો ઉપયોગ કરો.\n\n5. **જમીનનું સ્વરૂપ**: જમીનનું સ્વરૂપ અને પોષક તત્વોની ઉપલબ્ધતા પણ અસર કરી શકે છે.\n\nજો તમે વધુ વિગતો આપી શકો, તો હું વધુ ચોક્કસ સલાહ આપી શકું છું.",
+        "en": "The cause of yellowing on uncle's part can be various:\n\n1. **Water scarcity**: If the crop does not get enough water, the leaves can turn yellow. Make sure the ground is in moisture.\n\n2. **Lack of food**: Lack of nitrogen in particular can cause leaves to turn yellow. Focus on adding the right nutrients to fertilizers.\n\n3. **Diseases**: Fungi or bacterial diseases, such as bacterial blight, can also cause yellowing. If any symptoms appear, use the right medications.\n\n4. **Pests**: The leaves can also turn yellow due to the attack of insects. Use the right medications for pest control.\n\n5. **Soil form**: The nature of the soil and the availability of nutrients can also be affected.\n\nIf you can give more details, I can give more precise advice.",
+        "timestamp": {
+          "$date": "2025-01-03T15:45:19.246Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "બટાકાના પાકમાં પાડવાનું કારણ શું",
+        "en": "What is the reason for planting in the potato crop",
+        "timestamp": {
+          "$date": "2025-01-03T15:45:59.911Z"
+        },
+        "standalone_question": "What are the reasons for yellowing in potato plants?",
+        "standalone_en": "What are the reasons for yellowing in potato plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "batakana pakaman padvanu karan shu"
+      },
+      {
+        "role": "assistant",
+        "content": "બટાકાના પાકમાં પાંદડા પીળા પડવાના કેટલાક મુખ્ય કારણો હોઈ શકે છે:\n\n1. **પાણીની અછત**: જો પાકને પૂરતું પાણી ન મળે, તો પાંદડા પીળા પડી શકે છે. જમીન ભેજમાં રાખવા માટે નિયમિત રીતે પાણી આપવું મહત્વપૂર્ણ છે.\n\n2. **ખોરાકની અછત**: ખાસ કરીને નાઇટ્રોજન, ફોસ્ફોરસ અને પોટેશિયમની અછતથી પાંદડા પીળા પડી શકે છે. ખાતરોમાં યોગ્ય પોષક તત્વો ઉમેરવા પર ધ્યાન આપો.\n\n3. **રોગો**: ફૂગ અથવા બેક્ટેરિયલ રોગો, જેમ કે ફૂગના રોગો, પણ પીળા પડવાના કારણ બની શકે છે. જો કોઈ લક્ષણો દેખાય છે, તો યોગ્ય દવાઓનો ઉપયોગ કરો.\n\n4. **કીટકો**: કીટકોના હુમલાથી પણ પાંદડા પીળા પડી શકે છે. કીટક નિયંત્રણ માટે યોગ્ય દવાઓનો ઉપયોગ કરો.\n\n5. **જમીનનું સ્વરૂપ**: જમીનનું સ્વરૂપ અને પોષક તત્વોની ઉપલબ્ધતા પણ અસર કરી શકે છે.\n\nજો તમે વધુ વિગતો આપી શકો, તો હું વધુ ચોક્કસ સલાહ આપી શકું છું.",
+        "en": "Some of the main reasons for yellowing of leaves in potato crops may be:\n\n1. **Water scarcity**: If the crop does not get enough water, the leaves can turn yellow. It is important to water regularly to keep the soil moist.\n\n2. **Food shortage**: Lack of nitrogen, phosphorus and potassium in particular can cause leaves to turn yellow. Focus on adding the right nutrients to fertilizers.\n\n3. **Diseases**: Fungal or bacterial diseases, such as fungal diseases, can also cause yellowing. If any symptoms appear, use the right medications.\n\n4. **Pests**: The leaves can also turn yellow due to the attack of insects. Use the right medications for pest control.\n\n5. **Soil form**: The nature of the soil and the availability of nutrients can also be affected.\n\nIf you can give more details, I can give more precise advice.",
+        "timestamp": {
+          "$date": "2025-01-03T15:46:16.039Z"
+        }
+      }
+    ],
+    "farmer_id": "VR4859",
+    "farmer_plot_ids": [
+      "delavalu",
+      "khejadavalu",
+      "patsala"
+    ],
+    "conversation_id": "677804fab1870fbbb5902dec",
+    "_id": "677804fab1870fbbb5902dec",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-03T15:50:59.920000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-01-03T15:40:42.860000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "કેલશીયમ નાઈટ્રેટ માં કેટલા ટકા નાઈટ્રોજન આવે",
+        "en": "What percentage of nitrogen comes in calcium nitrate",
+        "timestamp": {
+          "$date": "2025-01-03T13:31:40.188Z"
+        },
+        "standalone_question": "What percentage of nitrogen is present in calcium nitrate?",
+        "standalone_en": "What percentage of nitrogen is present in calcium nitrate?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kelashiyam naitret man ketla taka naitrojan ave"
+      },
+      {
+        "role": "assistant",
+        "content": "કેલશીયમ નાઈટ્રેટ (Calcium Nitrate) માં લગભગ 15.5% નાઈટ્રોજન હોય છે.",
+        "en": "Calcium nitrate contains about 15.5% nitrogen.",
+        "timestamp": {
+          "$date": "2025-01-03T13:31:42.739Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140"
+    ],
+    "conversation_id": "6777e6bbb1870fbbb5902deb",
+    "_id": "6777e6bbb1870fbbb5902deb",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-03T13:36:40.195000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-01-03T13:31:40.188000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "કેલશીયમ નાઈટ્રેટ શુ કામ કરે",
+        "en": "What does calcium nitrate work for?",
+        "timestamp": {
+          "$date": "2025-01-03T13:16:30.368Z"
+        },
+        "standalone_question": "What is the function of calcium nitrate?",
+        "standalone_en": "What is the function of calcium nitrate?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kelashiyam naitret shoe calm kare"
+      },
+      {
+        "role": "assistant",
+        "content": "કેલશીયમ નાઈટ્રેટ (Ca(NO3)2) એક મહત્વપૂર્ણ ખાતર છે જે મુખ્યત્વે પાકના વિકાસ માટે ઉપયોગમાં લેવાય છે. આ ખાતરમાં કેલશિયમ અને નાઈટ્રોજન બંને હોય છે, જે પાકના વિવિધ તબક્કાઓમાં મહત્વપૂર્ણ ભૂમિકા ભજવે છે:\n\n1. **નાઈટ્રોજન**: પાકના પાંદડા અને શાખાઓના વિકાસ માટે જરૂરી છે. તે પ્રોટીન અને ક્લોરોફિલના નિર્માણમાં મદદ કરે છે, જે પાકને વધુ લીલા અને સ્વસ્થ બનાવે છે.\n\n2. **કેલશિયમ**: પાકની કોષિકાઓની દિવાલોને મજબૂત બનાવે છે, જે પાકને રોગો અને જીવાતો સામે રક્ષણ આપે છે. તે ફળોના ગુણવત્તા અને સંગ્રહણ જીવનને સુધારવામાં પણ મદદ કરે છે.\n\n3. **પાણીની શોષણ ક્ષમતા**: કેલશીયમ નાઈટ્રેટ જમીનમાં પાણીની શોષણ ક્ષમતા વધારવામાં મદદ કરે છે, જે પાકને વધુ સારી રીતે પોષણ મેળવવામાં મદદ કરે છે.\n\nઆથી, કેલશીયમ નાઈટ્રેટનો ઉપયોગ પાકના વિકાસને પ્રોત્સાહન આપવા અને ફળોની ગુણવત્તા સુધારવા માટે કરવામાં આવે છે.",
+        "en": "Calcium nitrate (Ca3)2) is an important fertilizer mainly used for crop development. These fertilizers contain both calcium and nitrogen, which play an important role in different stages of the crop:\n\n1. **Nitrogen**: Essential for the growth of the leaves and branches of the crop. It helps in the production of protein and chlorophyll, which makes the crop more green and healthy.\n\n2. **Calcium**: Strengthens the walls of crop cells, which protects the crop against diseases and pests. It also helps in improving the quality and storage life of fruits.\n\n3. **Water absorption capacity**: Calcium nitrate helps to increase the water absorption capacity in the soil, which helps the crop to get better nutrition.\n\nTherefore, calcium nitrate is used to promote crop growth and improve the quality of fruits.",
+        "timestamp": {
+          "$date": "2025-01-03T13:16:43.178Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140"
+    ],
+    "conversation_id": "6777e32dcae8c9aa19e740a3",
+    "_id": "6777e32dcae8c9aa19e740a3",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-03T13:21:30.375000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-01-03T13:16:30.368000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "0050 એકલુ આપવાથી છોડ બેસસે નહીને",
+        "en": "Giving 0050 alone will not make the plant sit",
+        "timestamp": {
+          "$date": "2025-01-03T13:01:33.893Z"
+        },
+        "standalone_question": "Is it true that giving 0050 alone will not allow the tree to sit?",
+        "standalone_en": "Is it true that giving 0050 alone will not allow the tree to sit?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "0050 ekalu apavathi chhod besase nahine"
+      },
+      {
+        "role": "assistant",
+        "content": "છોડ બેસવા માટે યોગ્ય ખાતર અને પાણીની જરૂર છે. 0050 ખાતરનો ઉપયોગ છોડની વૃદ્ધિ માટે યોગ્ય છે, પરંતુ ખાતર આપ્યા પછી, ખાતરી કરો કે છોડને પૂરતું પાણી મળે છે અને જમીનનું સ્વાસ્થ્ય સારું છે. ખાતર આપ્યા પછી, 12-24 કલાક સુધી પાણી ન આપવું, જેથી ખાતર જમીનમાં સારી રીતે મિશ્રિત થાય.",
+        "en": "The plant needs proper fertilizer and water to sit. The use of 0050 fertilizer is suitable for plant growth, but after fertilizing, make sure that the plant gets enough water and the soil is in good health. After giving fertilizer, do not water for 12-24 hours, so that the fertilizer mixes well in the soil.",
+        "timestamp": {
+          "$date": "2025-01-03T13:01:39.918Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "સાથે 50 દીવસ વધુ છોડ ને ટકાવી રાખવા શુ કરવુ",
+        "en": "Also, what to do to sustain more plants for 50 days",
+        "timestamp": {
+          "$date": "2025-01-03T13:03:02.864Z"
+        },
+        "standalone_question": "What should be done to keep the plant alive for an additional 50 days?",
+        "standalone_en": "What should be done to keep the plant alive for an additional 50 days?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "sathe 50 divas vadhu chhod ne takavi rakhva shoe karavu"
+      },
+      {
+        "role": "assistant",
+        "content": "50 દિવસ સુધી છોડને ટકાવી રાખવા માટે, નીચેના પગલાંઓ અનુસરો:\n\n1. **જમીનનું સ્વાસ્થ્ય**: જમીનનું યોગ્ય પોષણ અને સ્વાસ્થ્ય જાળવવા માટે યોગ્ય ખાતર અને ઓર્ગેનિક મટેરિયલ ઉમેરો.\n\n2. **પાણી આપવું**: જમીનની ભેજ જાળવવા માટે નિયમિત રીતે પાણી આપો. જમીનનું આલમ (soil moisture) 0 kPa (વેટ) થી 200 kPa (ડ્રાય) વચ્ચે જાળવવું મહત્વપૂર્ણ છે.\n\n3. **રોગ અને કીટક નિયંત્રણ**: રોગ અને કીટકોથી બચવા માટે યોગ્ય દવાઓનો ઉપયોગ કરો. જેમ કે, કોલર રોટ અને ડેમ્પિંગ ઓફ માટે કાર્બેન્ડાઝિમનો ઉપયોગ કરો.\n\n4. **સૂર્યપ્રકાશ**: છોડને પૂરતું સૂર્યપ્રકાશ મળે તે સુનિશ્ચિત કરો, જેથી તે સારી રીતે વિકસે.\n\n5. **નિયમિત નિરીક્ષણ**: છોડની સ્થિતિ અને જમીનના સ્વાસ્થ્યનું નિયમિત નિરીક્ષણ કરો, જેથી કોઈ સમસ્યા આવે તો તરત જ પગલાં લઈ શકાય.\n\n6. **ફર્ટિગેશન**: જો જરૂરી હોય, તો ફર્ટિગેશન દ્વારા ખાતર આપવું.\n\nઆ પગલાંઓને અનુસરીને, તમે તમારા છોડને 50 દિવસ સુધી ટકાવી રાખી શકો છો.",
+        "en": "To sustain the plant for up to 50 days, follow the following steps:\n\n1. **Soil health**: Add the right fertilizer and organic material to maintain proper nutrition and health of the soil.\n\n2. **Watering**: Water regularly to maintain soil moisture. It is important to maintain soil moisture between 0 kPa (wet) to 200 kPa (dry).\n\n3. **Disease and Pest Control**: Use the right medications to avoid disease and pests. For example, use carbendazim for collar rot and damping off.\n\n4. **Sunlight**: Make sure the plant gets enough sunlight, so that it grows well.\n\n5. **Regular monitoring**: Regularly monitor the condition of the plant and the health of the soil, so that immediate action can be taken in case of any problem.\n\n6. **Fertigation**: If necessary, fertilize by fertigation.\n\nBy following these steps, you can sustain your plant for up to 50 days.",
+        "timestamp": {
+          "$date": "2025-01-03T13:03:24.029Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "oo૫૦ સાથે બીજુ કઈ ૬ ઠા સપ્તાહ આપવુ જોઈએ",
+        "en": "Which other 6th week should be given with oo50",
+        "timestamp": {
+          "$date": "2025-01-03T13:04:08.112Z"
+        },
+        "standalone_question": "What additional care should be provided for the plants over the next six weeks?",
+        "standalone_en": "What additional care should be provided for the plants over the next six weeks?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "oop sathe biju kai bhai thakur saptah apavu joie"
+      },
+      {
+        "role": "assistant",
+        "content": "\"કૈરો 1\" પ્લોટ માટે 6ઠા સપ્તાહમાં આપવાની ફર્ટિગેશન જરૂરિયાત નીચે મુજબ છે:\n\n- **સપ્તાહ 6**:\n  - **દિવસ 1**:\n    - **ખાતર**: સલ્ફેટ ઓફ પોટાશ\n    - **જથ્થો**: 6 કિલોગ્રામ/એકર\n    - **પોટેશિયમ (K)**: 2.93 કિલોગ્રામ/એકર\n\nઆ ખાતર આપવાથી છોડની વૃદ્ધિ અને વિકાસમાં મદદ મળશે. ખાતર આપ્યા પછી, પાણી આપવાનું ન ભૂલતા.",
+        "en": "The fertigation requirement to be given in the 6th week for the \"Cairo 1\" plot is as follows:\n\n- **Week 6**:\n  - **Day 1**:\n    * **Fertilizer**: Sulfate of Potash\n    * **Quantity**: 6 kg/acre\n    **Potassium (K)**: 2.93 kg/acre\n\nGiving this fertilizer will help in the growth and development of the plant. After giving fertilizer, do not forget to give water.",
+        "timestamp": {
+          "$date": "2025-01-03T13:04:20.604Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "૬ કીલો ડોઝ સલ્ફેટ અને પોટાશ નો કે એકલુ પોટાશ",
+        "en": "6 kilos of sulfate and potash or potash alone",
+        "timestamp": {
+          "$date": "2025-01-03T13:06:31.779Z"
+        },
+        "standalone_question": "Is the dosage of 6 kilograms for sulfate of potash or just for potash alone?",
+        "standalone_en": "Is the dosage of 6 kilograms for sulfate of potash or just for potash alone?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "a kilo does sulfate ane potash no ke ekalu potash"
+      },
+      {
+        "role": "assistant",
+        "content": "6 કિલોગ્રામ સલ્ફેટ ઓફ પોટાશ (SOP) નો ઉપયોગ કરવો જોઈએ. SOPમાં પોટેશિયમ (K) અને સલ્ફર (S) બંને હોય છે, જે છોડની વૃદ્ધિ માટે મહત્વપૂર્ણ છે. \n\nજો તમે માત્ર પોટાશ (K) આપવાનું વિચારી રહ્યા છો, તો 6 કિલોગ્રામ SOP આપવાથી 2.93 કિલોગ્રામ પોટેશિયમ મળે છે. \n\nતેથી, સલ્ફેટ ઓફ પોટાશનો ઉપયોગ કરવો વધુ લાભદાયક રહેશે.",
+        "en": "6 kg of sulphate of potash (SOP) should be used. SOPs contain both potassium (K) and sulfur (S), which are important for plant growth. \n\nIf you are thinking of giving only potash (K), giving 6 kg OF SOP gives 2.93 kg of potassium. \n\nTherefore, it would be more beneficial to use sulfate of potash.",
+        "timestamp": {
+          "$date": "2025-01-03T13:06:39.114Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "એમોનિયમ સલ્ફેટ સાથે ૦૦ ૫૦ કે બીજુ કઈ",
+        "en": "With ammonium sulfate 00 50 or what else",
+        "timestamp": {
+          "$date": "2025-01-03T13:09:49.158Z"
+        },
+        "standalone_question": "What should be used along with ammonium sulfate, 0050 or something else?",
+        "standalone_en": "What should be used along with ammonium sulfate, 0050 or something else?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ammonium sulfate sathe a p k biju kai"
+      },
+      {
+        "role": "assistant",
+        "content": "એમોનિયમ સલ્ફેટ સાથે 00-50 (ડાયમોનિયમ ફોસ્ફેટ) નો ઉપયોગ કરવો યોગ્ય રહેશે. \n\n- **એમોનિયમ સલ્ફેટ**: આ ખાતર નાઇટ્રોજન (N) અને સલ્ફર (S) પૂરો પાડે છે, જે છોડની વૃદ્ધિ માટે મહત્વપૂર્ણ છે.\n- **00-50**: આ ખાતર ફોસ્ફરસ (P) અને પોટેશિયમ (K) પૂરો પાડે છે, જે છોડના વિકાસ અને ફળના ગુણવત્તા માટે જરૂરી છે.\n\nઆ બંને ખાતરોનો સંયોજન છોડની વૃદ્ધિ અને વિકાસને પ્રોત્સાહન આપશે. ખાતર આપ્યા પછી, પાણી આપવાનું ન ભૂલતા.",
+        "en": "It would be advisable to use 00-50 (diammonium phosphate) with ammonium sulfate. \n\n**Ammonium sulfate**: This fertilizer provides nitrogen (N) and sulfur (S), which are important for plant growth.\n**00-50**: This fertilizer provides phosphorus (P) and potassium (K), which are essential for plant growth and fruit quality.\n\nA combination of these two fertilizers will promote plant growth and development. After giving fertilizer, do not forget to give water.",
+        "timestamp": {
+          "$date": "2025-01-03T13:09:59.153Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "કેલશીયમ નાઈટ્રેટ",
+        "en": "Calcium nitrate",
+        "timestamp": {
+          "$date": "2025-01-03T13:11:05.799Z"
+        },
+        "standalone_question": "What is the role of calcium nitrate in plant growth?",
+        "standalone_en": "What is the role of calcium nitrate in plant growth?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kelashiyam naitret"
+      },
+      {
+        "role": "assistant",
+        "content": "કેલ્શિયમ નાઈટ્રેટ (Calcium Nitrate) એક મહત્વપૂર્ણ ખાતર છે, જે કેલ્શિયમ (Ca) અને નાઇટ્રોજન (N) પૂરો પાડે છે. આ ખાતરનો ઉપયોગ છોડની વૃદ્ધિ અને વિકાસ માટે કરવામાં આવે છે, ખાસ કરીને ફળો અને શાકભાજી માટે.\n\n### ફાયદા:\n1. **કેલ્શિયમ પુરવઠો**: છોડના કોષો માટે જરૂરી છે, જે મજબૂત અને સ્વસ્થ વૃદ્ધિ માટે મહત્વપૂર્ણ છે.\n2. **નાઇટ્રોજન પુરવઠો**: છોડની પાંદડાં અને શાખાઓની વૃદ્ધિ માટે જરૂરી છે.\n3. **જમીનનું pH સંતુલન**: આ ખાતર જમીનના pH સ્તરને સંતુલિત કરવામાં મદદ કરે છે.\n\n### ઉપયોગ:\n- **અનુસૂચિત જથ્થો**: 100-200 કિલોગ્રામ/એકર, પરંતુ ચોક્કસ જરૂરિયાતો માટે જમીન અને છોડના સ્વાસ્થ્યને ધ્યાનમાં રાખવું જોઈએ.\n- **પાણી સાથે મિશ્રણ**: આ ખાતરને પાણીમાં મિશ્રિત કરીને ફર્ટિગેશન દ્વારા આપવું વધુ અસરકારક છે.\n\nકેલ્શિયમ નાઈટ્રેટનો ઉપયોગ કરીને, તમે તમારા છોડની વૃદ્ધિ અને ઉત્પાદનને સુધારી શકો છો.",
+        "en": "Calcium Nitrate is an important fertilizer, which provides calcium (Ca) and nitrogen (N). This fertilizer is used for plant growth and development, especially for fruits and vegetables.\n\n### Benefits:\n1. **Calcium supply**: Essential for plant cells, which is important for strong and healthy growth.\n2. **Nitrogen supply**: Essential for the growth of leaves and branches of the plant.\n3. **PH balance of soil**: This fertilizer helps in balancing the pH level of the soil.\n\n### Usage:\n* **Scheduled quantity**: 100-200 kg/acre, but the health of the land and plants should be taken into account for specific needs.\n* **Mixture with water**: It is more effective to mix this fertilizer with water and give it by fertigation.\n\nBy using calcium nitrate, you can improve the growth and production of your plants.",
+        "timestamp": {
+          "$date": "2025-01-03T13:11:22.067Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140"
+    ],
+    "conversation_id": "6777dfadcae8c9aa19e740a2",
+    "_id": "6777dfadcae8c9aa19e740a2",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-03T13:16:05.808000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-01-03T13:01:33.893000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Water melon me yah kya dekar hai<user uploaded image for analysis at 'kakajiwala/2025-01-03-1735896579434.jpg'>",
+        "en": "What is this giving in water melon<user uploaded image for analysis at 'kakajiwala/2025-01-03-1735896579434.jpg'>",
+        "timestamp": {
+          "$date": "2025-01-03T09:30:12.231Z"
+        },
+        "standalone_question": "What does the watermelon look like in the image I uploaded?",
+        "standalone_en": "What does the watermelon look like in the image I uploaded?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपके तरबूज के पौधे में कुछ समस्याएँ दिखाई दे रही हैं, विशेष रूप से पत्तियों में। पत्तियाँ मुड़ी हुई हैं और उनमें हल्का मॉटल टेक्सचर है। यह निम्नलिखित समस्याओं का संकेत हो सकता है:\n\n1. **कीट संक्रमण**: आम कीट जैसे कि एफिड्स या पत्ते खाने वाले कीड़े इस तरह की समस्याएँ पैदा कर सकते हैं।\n2. **रोग**: फफूंद संक्रमण या वायरल बीमारियाँ भी इसी तरह के लक्षण पैदा कर सकती हैं।\n\nयदि आप चाहें, तो मैं संभावित समस्याओं के आधार पर उचित स्प्रे की सिफारिश कर सकता हूँ। क्या आप आगे बढ़ना चाहेंगे?",
+        "en": "Your watermelon plant is showing some problems, especially in the leaves. The leaves are curled and have a light mottled texture. This may be a sign of the following problems:\n\n1. Insect infestation: Common pests such as aphids or leaf-eating insects can cause such problems.\n2. Diseases: Fungal infections or viral diseases can also cause similar symptoms.\n\nIf you want, I can recommend the proper spray depending on the potential problems. Would you like to proceed?",
+        "timestamp": {
+          "$date": "2025-01-03T09:30:27.745Z"
+        }
+      }
+    ],
+    "farmer_id": "chandrkishorbhawsar",
+    "farmer_plot_ids": [
+      "kakajiwala",
+      "shivlalwala",
+      "yadavjiwala",
+      "mamawala"
+    ],
+    "conversation_id": "6777ae2322c91533e323a073",
+    "_id": "6777ae2322c91533e323a073",
+    "language": "hi",
+    "expiry": {
+      "$date": "2025-01-03T09:35:12.238000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-01-03T09:30:12.231000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "બટાકાને પાણીની જરૂર છે કે નહીં",
+        "en": "Whether potatoes need water or not",
+        "timestamp": {
+          "$date": "2025-01-03T09:07:08.783Z"
+        },
+        "standalone_question": "Does a potato need water?",
+        "standalone_en": "Does a potato need water?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "batakane panini jarur che ke nahin"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા બટાકાના પાકને પાણીની જરૂર નથી. \n\n1. **Dela Valu**: \n   - મીઠા: 0 kPa, 3 kPa\n   - ઓપ્ટિમલ: 15 kPa\n   - પાણીની જરૂર નથી.\n\n2. **Khejada Valu**: \n   - મીઠા: 14 kPa, 5 kPa\n   - ઓપ્ટિમલ: 20 kPa\n   - પાણીની જરૂર નથી.\n\n3. **Patsala**: \n   - મીઠા: 0 kPa, 12 kPa\n   - ઓપ્ટિમલ: 20 kPa\n   - પાણીની જરૂર નથી.\n\nમીઠા ઓપ્ટિમલ મૂલ્યની નીચે છે, તેથી હાલ પાણી આપવાની જરૂર નથી.",
+        "en": "Your potato crop doesn't need water. \n\n1. **Dela Valu**: \n   Salt: 0 kPa, 3 kPa\n   - Optimal: 15 kPa\n   - There is no need for water.\n\n2. **Khejada Valu**: \n   Salt: 14 kPa, 5 kPa\n   - Optimal: 20 kPa\n   - There is no need for water.\n\n3. **Patsala**: \n   Salt: 0 kPa, 12 kPa\n   - Optimal: 20 kPa\n   - There is no need for water.\n\nSalt is below optimal value, so there is no need to water at present.",
+        "timestamp": {
+          "$date": "2025-01-03T09:07:17.251Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "બટાકામાં હાલ કોઈ રોગ છે કે નહીં",
+        "en": "Whether there is currently any disease in potato or not",
+        "timestamp": {
+          "$date": "2025-01-03T09:07:30.092Z"
+        },
+        "standalone_question": "Is there currently any disease in the potatoes?",
+        "standalone_en": "Is there currently any disease in the potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "batakaman hal koi rog che ke nahin"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા બટાકાના પાકમાં હાલ કેટલાક રોગો છે:\n\n1. **Dela Valu**:\n   - **લેટ બ્લાઇટ**: 53.3% (મધ્યમ જોખમ)\n   - **અર્લી બ્લાઇટ**: 51.1% (મધ્યમ જોખમ)\n\n2. **Khejada Valu**:\n   - **લેટ બ્લાઇટ**: 53.3% (મધ્યમ જોખમ)\n   - **અર્લી બ્લાઇટ**: 51.1% (મધ્યમ જોખમ)\n\n3. **Patsala**:\n   - **લેટ બ્લાઇટ**: 53.3% (મધ્યમ જોખમ)\n   - **અર્લી બ્લાઇટ**: 51.1% (મધ્યમ જોખમ)\n\nઆ રોગોનું જોખમ મધ્યમ છે, તેથી યોગ્ય પગલાં લેવા માટે તાત્કાલિક કાર્યવાહી કરવી જરૂરી છે.",
+        "en": "There are currently some diseases in your potato crop:\n\n1. **Dela Valu**:\n   * **Late Blight**: 53.3% (moderate risk)\n   **Early Blight**: 51.1% (moderate risk)\n\n2. **Khejada Valu**:\n   * **Late Blight**: 53.3% (moderate risk)\n   **Early Blight**: 51.1% (moderate risk)\n\n3. **Patsala**:\n   * **Late Blight**: 53.3% (moderate risk)\n   **Early Blight**: 51.1% (moderate risk)\n\nThe risk of these diseases is moderate, so immediate action needs to be taken to take appropriate action.",
+        "timestamp": {
+          "$date": "2025-01-03T09:07:41.821Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "આજે બટાકામાં શું સારવાર આપવી",
+        "en": "What treatment to give in potatoes today",
+        "timestamp": {
+          "$date": "2025-01-03T09:07:58.433Z"
+        },
+        "standalone_question": "What treatment should be given to the potatoes today?",
+        "standalone_en": "What treatment should be given to the potatoes today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "aje batakaman shu sarvar apavi"
+      },
+      {
+        "role": "assistant",
+        "content": "આજે તમારા બટાકાના પાક માટે નીચેની સારવાર આપવી જોઈએ:\n\n### Dela Valu (Vegetative Growth - Week 6)\n- **Fertigation**:\n  - **Potassium Nitrate**: 7 kg/acre\n  - **Urea**: 5 kg/acre\n  - અથવા\n  - **Urea**: 6.5 kg/acre\n  - **Sulfate of Potash**: 6.5 kg/acre\n\n### Khejada Valu (Tuber Development - Week 3)\n- **Foliar Spray**:\n  - **Potassium Nitrate**: 1.5 kg/acre\n- **Fertigation**:\n  - **Calcium Nitrate**: 3.5 kg/acre (15-20 મિનિટ પછી અન્ય ખાતરોની એપ્લિકેશન)\n  - **Sulfate of Potash**: 6.5 kg/acre\n\n### Patsala (Tuber Development - Week 1)\n- **Fertigation**:\n  - **Calcium Nitrate**: 3.5 kg/acre (15-20 મિનિટ પછી અન્ય ખાતરોની એપ્લિકેશન)\n  - **Sulfate of Potash**: 6.5 kg/acre\n- **Next Schedule**:\n  - **Magnesium Sulphate**: 5 kg/acre\n  - **Sulfate of Potash**: 6.5 kg/acre (4 દિવસ પછી)\n\nઆ સારવાર આપવાથી તમારા પાકની વૃદ્ધિ અને આરોગ્યમાં સુધારો થશે.",
+        "en": "આજે તમારા બટાકાના પાક માટે નીચેની સારવાર આપવી જોઈએ:\n\n### Dela Valu (Vegetative Growth - Week 6)\n- **Vertigation**:\n  - **Potassium Nitrate**: 7 kg/acre\n  - **Urea**: 5 kg/acre\n  - અથવા\n  - **Urea**: 6.5 kg/acre\n  - **Sulfate of Potash**: 6.5 kg/acre\n\n### Khejada Valu (Tuber Development - Week 3)\n- **Foliar Spray**:\n  - **Potassium Nitrate**: 1.5 kg/acre\n- **Vertigation**:\n  - **Calcium Nitrate**: 3.5 kg/acre (15-20 મિનિટ પછી અન્ય ખાતરોની એપ્લિકેશન)\n  - **Sulfate of Potash**: 6.5 kg/acre\n\n### Patsala (Tuber Development - Week 1)\n- **Vertigation**:\n  - **Calcium Nitrate**: 3.5 kg/acre (15-20 મિનિટ પછી અન્ય ખાતરોની એપ્લિકેશન)\n  - **Sulfate of Potash**: 6.5 kg/acre\n- **Next Schedule**:\n  - **Magnesium Sulphate**: 5 kg/acre\n  - **Sulfate of Potash**: 6.5 kg/acre (4 દિવસ પછી)\n\nઆ સારવાર આપવાથી તમારા પાકની વૃદ્ધિ અને આરોગ્યમાં સુધારો થશે.",
+        "timestamp": {
+          "$date": "2025-01-03T09:08:10.169Z"
+        }
+      }
+    ],
+    "farmer_id": "VR4859",
+    "farmer_plot_ids": [
+      "delavalu",
+      "khejadavalu",
+      "patsala"
+    ],
+    "conversation_id": "6777a8bcb1870fbbb5902de9",
+    "_id": "6777a8bcb1870fbbb5902de9",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-03T09:12:58.444000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-01-03T09:07:08.783000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Dallas news number.com",
+        "en": "Dallas news number.com",
+        "timestamp": {
+          "$date": "2025-01-03T07:10:49.916Z"
+        },
+        "standalone_question": "What is the website for Dallas news?",
+        "standalone_en": "What is the website for Dallas news?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "I'm here to assist you with agricultural practices and crop management. If you have any questions related to farming, crop care, or soil health, feel free to ask!",
+        "en": "I'm here to assist you with agricultural practices and crop management. If you have any questions related to farming, crop care, or soil health, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-01-03T07:10:55.729Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": " 40 દિવસના બટાકામાં કયું ખાતર વાપરવાનું",
+        "en": " Which fertilizer to use in 40 days of potatoes",
+        "timestamp": {
+          "$date": "2025-01-03T07:11:14.610Z"
+        },
+        "standalone_question": "What fertilizer should be used for potatoes after 40 days?",
+        "standalone_en": "What fertilizer should be used for potatoes after 40 days?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": " 40 divasana batakaman kayu khatar vaaparvaanun"
+      },
+      {
+        "role": "assistant",
+        "content": "For your potato crop at 40 days old, here are the recommended fertilizers based on the current vegetative growth stage:\n\n### Main Palot Bor valo (Week 5)\n1. **Fertigation (Day 1)**:\n   - **Calcium Nitrate**: 3.5 kg/acre\n   - **Magnesium Sulphate**: 5 kg/acre\n   - **Urea**: 6.5 kg/acre\n   - *Note*: Apply Calcium Nitrate separately, 15-20 minutes after other fertilizers.\n\n2. **Fertigation (Day 4)**:\n   - **Potassium Nitrate**: 7 kg/acre\n   - **Urea**: 5 kg/acre\n   - *or*\n   - **Urea**: 6.5 kg/acre\n   - **Sulfate of Potash**: 6.5 kg/acre\n\n### Vada valo Palot (Week 4)\n1. **Fertigation (Day 1)**:\n   - **Calcium Nitrate**: 3.5 kg/acre\n   - **Urea**: 6.5 kg/acre\n   - *Note*: Apply Calcium Nitrate separately, 15-20 minutes after other fertilizers.\n\n2. **Fertigation (Day 4)**:\n   - **Potassium Nitrate**: 7 kg/acre\n   - **Urea**: 5 kg/acre\n   - *or*\n   - **Urea**: 6.5 kg/acre\n   - **Sulfate of Potash**: 6.5 kg/acre\n\n### Vada valo Palot (Week 4)\n1. **Foliar Spray**:\n   - **Zinc Sulphate**: 800 gm/acre\n   - **Ferrous Sulphate**: 600 gm/acre\n   - **Manganese Sulphate**: 400 gm/acre\n\nMake sure to follow the application guidelines for optimal results! If you have any further questions, feel free to ask.",
+        "en": "For your potato crop at 40 days old, here are the recommended fertilizers based on the current vegetative growth stage:\n\n### Main Palot Bor valo (Week 5)\n1. **Fertigation (Day 1)**:\n   - **Calcium Nitrate**: 3.5 kg/acre\n   - **Magnesium Sulphate**: 5 kg/acre\n   - **Urea**: 6.5 kg/acre\n   - *Note*: Apply Calcium Nitrate separately, 15-20 minutes after other fertilizers.\n\n2. **Fertigation (Day 4)**:\n   - **Potassium Nitrate**: 7 kg/acre\n   - **Urea**: 5 kg/acre\n   - *or*\n   - **Urea**: 6.5 kg/acre\n   - **Sulfate of Potash**: 6.5 kg/acre\n\n### Vada valo Palot (Week 4)\n1. **Fertigation (Day 1)**:\n   - **Calcium Nitrate**: 3.5 kg/acre\n   - **Urea**: 6.5 kg/acre\n   - *Note*: Apply Calcium Nitrate separately, 15-20 minutes after other fertilizers.\n\n2. **Fertigation (Day 4)**:\n   - **Potassium Nitrate**: 7 kg/acre\n   - **Urea**: 5 kg/acre\n   - *or*\n   - **Urea**: 6.5 kg/acre\n   - **Sulfate of Potash**: 6.5 kg/acre\n\n### Vada valo Palot (Week 4)\n1. **Foliar Spray**:\n   - **Zinc Sulphate**: 800 gm/acre\n   - **Ferrous Sulphate**: 600 gm/acre\n   - **Manganese Sulphate**: 400 gm/acre\n\nMake sure to follow the application guidelines for optimal results! If you have any further questions, feel free to ask.",
+        "timestamp": {
+          "$date": "2025-01-03T07:11:32.529Z"
+        }
+      }
+    ],
+    "farmer_id": "VR4872",
+    "farmer_plot_ids": [
+      "mainpalotborvalo",
+      "vadavalopalot",
+      "vadavalopalot405"
+    ],
+    "conversation_id": "67778d79b1870fbbb5902de7",
+    "_id": "67778d79b1870fbbb5902de7",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-03T07:16:14.618000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-01-03T07:10:49.916000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "हे काय असेल ",
+        "en": "What would it be? ",
+        "timestamp": {
+          "$date": "2025-01-03T07:08:08.754Z"
+        },
+        "standalone_question": "What could this be?",
+        "standalone_en": "What could this be?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "he kay asel "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमचं प्रश्न स्पष्ट नाही. कृपया अधिक माहिती द्या, म्हणजे मी तुम्हाला मदत करू शकेन. तुम्हाला कोणत्या कृषी संबंधित गोष्टीसाठी मदतीची आवश्यकता आहे?",
+        "en": "Your question is not clear. Please provide more information so I can help you. What agricultural related things do you need help with?",
+        "timestamp": {
+          "$date": "2025-01-03T07:08:15.307Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "हे",
+        "en": "O",
+        "timestamp": {
+          "$date": "2025-01-03T07:08:40.220Z"
+        },
+        "standalone_question": "What is this?",
+        "standalone_en": "What is this?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "hey"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमचं प्रश्न स्पष्ट नाही. कृपया अधिक माहिती द्या, म्हणजे मी तुम्हाला मदत करू शकेन. तुम्हाला कोणत्या कृषी संबंधित गोष्टीसाठी मदतीची आवश्यकता आहे?",
+        "en": "Your question is not clear. Please provide more information so I can help you. What agricultural related things do you need help with?",
+        "timestamp": {
+          "$date": "2025-01-03T07:08:44.311Z"
+        }
+      }
+    ],
+    "farmer_id": "sumeetbodkhe",
+    "farmer_plot_ids": [
+      "shivajibodhkefarmguavakairo",
+      "shivajibodkefarmguavanero",
+      "ssbfarmgrapesnero",
+      "ssbfarmguavakairo",
+      "ssbfarmguavanero1",
+      "ssbfarmguavanero2"
+    ],
+    "conversation_id": "67778cd8625e8aa8bccd6500",
+    "_id": "67778cd8625e8aa8bccd6500",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-01-03T07:13:40.228000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-01-03T07:08:08.754000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "We found this insect in our Guava farm what is it ",
+        "en": "We found this insect in our Guava farm what is it ",
+        "timestamp": {
+          "$date": "2025-01-03T07:06:12.623Z"
+        },
+        "standalone_question": "What insect did you find in your Guava farm?",
+        "standalone_en": "What insect did you find in your Guava farm?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Please upload an image of the insect you found in your Guava farm, and I will analyze it for you.",
+        "en": "Please upload an image of the insect you found in your Guava farm, and I will analyze it for you.",
+        "timestamp": {
+          "$date": "2025-01-03T07:06:22.193Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "This insect ",
+        "en": "This insect ",
+        "timestamp": {
+          "$date": "2025-01-03T07:09:02.778Z"
+        },
+        "standalone_question": "What insect did you find in your Guava farm?",
+        "standalone_en": "What insect did you find in your Guava farm?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Please upload the image of the insect you found in your Guava farm so I can analyze it for you.",
+        "en": "Please upload the image of the insect you found in your Guava farm so I can analyze it for you.",
+        "timestamp": {
+          "$date": "2025-01-03T07:09:06.505Z"
+        }
+      }
+    ],
+    "farmer_id": "sumeetbodkhe",
+    "farmer_plot_ids": [
+      "shivajibodhkefarmguavakairo",
+      "shivajibodkefarmguavanero",
+      "ssbfarmgrapesnero",
+      "ssbfarmguavakairo",
+      "ssbfarmguavanero1",
+      "ssbfarmguavanero2"
+    ],
+    "conversation_id": "67778c64b1870fbbb5902de6",
+    "_id": "67778c64b1870fbbb5902de6",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-01-03T07:14:02.785000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-01-03T07:06:12.623000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "योग्य आहे काय ",
+        "en": "Is it right? ",
+        "timestamp": {
+          "$date": "2025-01-03T06:06:15.446Z"
+        },
+        "standalone_question": "Is it suitable?",
+        "standalone_en": "Is it suitable?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया अधिक माहिती द्या, तुम्हाला कोणत्या गोष्टीसाठी योग्य आहे का ते विचारायचं आहे?",
+        "en": "Please provide more information, what do you want to ask if it's the right thing to do?",
+        "timestamp": {
+          "$date": "2025-01-03T06:06:18.267Z"
+        }
+      }
+    ],
+    "farmer_id": "shivkumarkagale",
+    "farmer_plot_ids": [
+      "peruplot"
+    ],
+    "conversation_id": "67777e56cae8c9aa19e740a1",
+    "_id": "67777e56cae8c9aa19e740a1",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-01-03T06:11:15.452000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-01-03T06:06:15.446000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Casium naitret maa naitrozen ketla taka aave che ",
+        "en": "What is the percentage of nitrogen in casium nitrate ",
+        "timestamp": {
+          "$date": "2025-01-03T05:19:41.996Z"
+        },
+        "standalone_question": "How much nitrogen is present in casium nitrate?",
+        "standalone_en": "How much nitrogen is present in casium nitrate?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Casium nitrate (Ca(NO3)2) ma nitrogen na 15.5% taka aave che. Aama nitrogen na 2 mole aave che, je 28 grams na 1 mole ma aave che. Aam, 1 kg casium nitrate ma lagbhag 155 grams nitrogen hase.",
+        "en": "Casium nitrate (Ca(No3)2) contains 15.5% of nitrogen. It contains 2 moles of nitrogen, which comes in 1 mole of 28 grams. Thus, 1 kg of caesium nitrate will contain about 155 grams of nitrogen.",
+        "timestamp": {
+          "$date": "2025-01-03T05:19:45.424Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Uriya ma ketla taka naitrozen aave che ",
+        "en": "What percentage of nitrogen comes into urea ",
+        "timestamp": {
+          "$date": "2025-01-03T05:21:14.129Z"
+        },
+        "standalone_question": "What percentage of nitrogen is present in casium nitrate?",
+        "standalone_en": "What percentage of nitrogen is present in casium nitrate?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Uriya (urea) ma nitrogen na 46% taka aave che. Aam, 1 kg uriya ma lagbhag 460 grams nitrogen hase.",
+        "en": "Urea accounts for 46% of nitrogen. Thus, 1 kg of urea will contain about 460 grams of nitrogen.",
+        "timestamp": {
+          "$date": "2025-01-03T05:21:17.371Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Uriya Ane calsiuum naitret ma thi kyu saru ",
+        "en": "Q is good in urea and calcium nitrate ",
+        "timestamp": {
+          "$date": "2025-01-03T05:22:25.243Z"
+        },
+        "standalone_question": "Which is better, urea or calcium nitrate?",
+        "standalone_en": "Which is better, urea or calcium nitrate?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Uriya (urea) ane calcium nitrate (Ca(NO3)2) be alag alag prakar na fertilizers che, ane teo na upyog alag alag paristhitiyo par aadharit che.\n\n1. **Uriya (Urea)**:\n   - Nitrogen na 46% taka aave che, je pota na vikas mate bahu mahatvapurn che.\n   - Te khad ma jaldi pighalvama aave che, je karane te turant upyog ma aavi shake che.\n\n2. **Calcium Nitrate**:\n   - Nitrogen na 15.5% ane calcium na 19% taka aave che.\n   - Te calcium na kami ne pura karva mate upyogi che, je podo na moolo ne majboot banavva ma madad kare che.\n   - Te soil ma pH ne sudharva ma pan madad kare che.\n\n**Saru Kya?**\n- Agar tamara podo ma nitrogen ni jarurat che, to uriya saru chhe.\n- Agar tamara podo ma calcium ni kami chhe, to calcium nitrate saru chhe.\n\nAapne potana podo ni jarurat ne anusar khad ni chuno.",
+        "en": "Urea (urea) and calcium nitrate (Ca(No3)2) are two different types of fertilizers, and their use depends on different conditions.\n\n1. **Urea (Urea)**:\n   46% of nitrogen comes, which is very important for its own development.\n   - It is quickly melted in the pit, due to which it can be used in turent use.\n\n2. **Calcium Nitrate**:\n   15.5% of nitrogen and 19% of calcium.\n   - It is useful for filling calcium deficiency, which helps in strengthening the roots of podo.\n   - It also helps in improving The F in the soil.\n\n**Where's the good?**\n- If you need nitrogen in your pods, urea is good.\n- If there is a lack of calcium in your pods, then calcium nitrate is good.\n\nMake a pit according to your need for your podo.",
+        "timestamp": {
+          "$date": "2025-01-03T05:22:34.205Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140"
+    ],
+    "conversation_id": "6777736d625e8aa8bccd64ff",
+    "_id": "6777736d625e8aa8bccd64ff",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-03T05:27:25.249000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-01-03T05:19:41.996000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ajay khatara kyon Gujarati",
+        "en": "Why Ajay Danger Gujarati?",
+        "timestamp": {
+          "$date": "2025-01-03T05:00:57.463Z"
+        },
+        "standalone_question": "Why is Ajay Khatara Gujarati?",
+        "standalone_en": "Why is Ajay Khatara Gujarati?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Mujhe khed hai, par main sirf krishi sambandhi prashnon ka uttar de sakta hoon. Agar aapko kheti ya faslon se sambandhit koi prashna hai, toh main madad karne ke liye tayyar hoon.",
+        "en": "I am sorry, but I can only reply to questions on agriculture. If you have any questions related to farming or crops, I am ready to help.",
+        "timestamp": {
+          "$date": "2025-01-03T05:01:00.524Z"
+        }
+      }
+    ],
+    "farmer_id": "VR4859",
+    "farmer_plot_ids": [
+      "delavalu",
+      "khejadavalu",
+      "patsala"
+    ],
+    "conversation_id": "67776f09b1870fbbb5902de3",
+    "_id": "67776f09b1870fbbb5902de3",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-03T05:05:57.471000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-01-03T05:00:57.463000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "૬ ઠા સપ્તાહ એ 0050 સાથે યુરિયા અથવા કેલશીયમ નાઈટ્રેટ આપી શકાય",
+        "en": "Urea or calcium nitrate can be given with 0050 at 6th week",
+        "timestamp": {
+          "$date": "2025-01-03T04:54:02.295Z"
+        },
+        "standalone_question": "Can urea or calcium nitrate be applied with 6-7 weeks old plants at 0050?",
+        "standalone_en": "Can urea or calcium nitrate be applied with 6-7 weeks old plants at 0050?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "a thakur saptah a 0050 sathe yuriya athava kelashiyam naitret aapi sakay"
+      },
+      {
+        "role": "assistant",
+        "content": "For the 6th week of the vegetative growth stage for your potato crop in \"kairo 1,\" you can apply the following fertigation:\n\n- **Fertilizer**: Sulfate of Potash\n- **Amount**: 6 kg/acre\n\nThis will help in providing the necessary potassium (K) of approximately 2.93 kg/acre. \n\nIf you need to use Urea or Calcium Nitrate specifically, please let me know, and I can provide further guidance!",
+        "en": "For the 6th week of the vegetative growth stage for your potato crop in \"kairo 1,\" you can apply the following fertigation:\n\n- **Fertilizer**: Sulfate of Potash\n- **Amount**: 6 kg/acre\n\nThis will help in providing the necessary potassium (K) of approximately 2.93 kg/acre. \n\nIf you need to use Urea or Calcium Nitrate specifically, please let me know, and I can provide further guidance!",
+        "timestamp": {
+          "$date": "2025-01-03T04:54:08.698Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ગુજરાતી મા કહો",
+        "en": "Say Gujarati Maa",
+        "timestamp": {
+          "$date": "2025-01-03T04:54:53.384Z"
+        },
+        "standalone_question": "Can you explain that in Gujarati?",
+        "standalone_en": "Can you explain that in Gujarati?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "gujarati ma kaho"
+      },
+      {
+        "role": "assistant",
+        "content": "છે, ૬ઠ્ઠા સપ્તાહમાં તમારા બટાકાના પાક માટે \"કૈરો ૧\"માં નીચે મુજબ ફર્ટિગેશન આપી શકાય છે:\n\n- **ખાતર**: સલ્ફેટ ઓફ પોટાશ\n- **જથ્થો**: ૬ કિલોગ્રામ/એકર\n\nઆ ખાતર પોટેશિયમ (K) ની જરૂરિયાત પૂરી પાડવામાં મદદ કરશે, જે લગભગ ૨.૯૩ કિલોગ્રામ/એકર છે.\n\nજો તમે યુરિયા અથવા કેલ્શિયમ નાઈટ્રેટનો ઉપયોગ કરવા માંગતા હો, તો કૃપા કરીને મને જણાવો, હું વધુ માર્ગદર્શન આપી શકું છું!",
+        "en": "In the 6th week, for your potato crop, \"Cairo 1\" can be given as follows:\n\n* **Fertilizer**: Sulfate of Potash\n* **Quantity**: 6 kg/acre\n\nThis fertilizer will help in providing potassium (K) requirement, which is about 2.93 kg/acre.\n\nIf you would like to use urea or calcium nitrate, please let me know, I can give more guidance!",
+        "timestamp": {
+          "$date": "2025-01-03T04:54:57.749Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "હા",
+        "en": "Yes man",
+        "timestamp": {
+          "$date": "2025-01-03T04:55:20.312Z"
+        },
+        "standalone_question": "Would you like guidance on using Urea or Calcium Nitrate for your potato crop?",
+        "standalone_en": "Would you like guidance on using Urea or Calcium Nitrate for your potato crop?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17"
+          ]
+        },
+        "content_transliterated": "haa"
+      },
+      {
+        "role": "assistant",
+        "content": "જો તમે યુરિયા અથવા કેલ્શિયમ નાઈટ્રેટનો ઉપયોગ કરવા માંગતા હો, તો ૬ઠ્ઠા સપ્તાહમાં નીચે મુજબની માહિતી છે:\n\n- **યુરિયા**: ૧૦ કિલોગ્રામ/એકર\n- **કેલ્શિયમ નાઈટ્રેટ**: ૫ કિલોગ્રામ/એકર\n\nઆ ખાતરો તમારા બટાકાના પાક માટે યોગ્ય રહેશે. જો વધુ માહિતી જોઈએ તો જણાવશો!",
+        "en": "If you want to use urea or calcium nitrate, then in the 6th week the following information is:\n\n* **Urea**: 10 kg/acre\n* **Calcium nitrate**: 5 kg/acre\n\nThese fertilizers will be suitable for your potato crop. Let me know if you need more information!",
+        "timestamp": {
+          "$date": "2025-01-03T04:55:23.607Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140"
+    ],
+    "conversation_id": "67776d69625e8aa8bccd64fe",
+    "_id": "67776d69625e8aa8bccd64fe",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-03T05:00:20.320000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-01-03T04:54:02.295000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "3 ",
+        "en": "3 ",
+        "timestamp": {
+          "$date": "2025-01-03T04:23:06.931Z"
+        },
+        "standalone_question": "What is the significance of the number 3?",
+        "standalone_en": "What is the significance of the number 3?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like your message is incomplete. Could you please provide more details or clarify your request?",
+        "en": "It seems like your message is incomplete. Could you please provide more details or clarify your request?",
+        "timestamp": {
+          "$date": "2025-01-03T04:23:09.935Z"
+        }
+      }
+    ],
+    "farmer_id": "prashantkisankumathesirsal",
+    "farmer_plot_ids": [
+      "clonprashnatkumathesirsal"
+    ],
+    "conversation_id": "6777662ab1870fbbb5902de2",
+    "_id": "6777662ab1870fbbb5902de2",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-01-03T04:28:06.938000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-01-03T04:23:06.931000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "આજે બટાકામાં શું સારવાર આપવી",
+        "en": "What treatment to give in potatoes today",
+        "timestamp": {
+          "$date": "2025-01-03T02:13:02.000Z"
+        },
+        "standalone_question": "What treatment should be given to potatoes today?",
+        "standalone_en": "What treatment should be given to potatoes today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "aje batakaman shu sarvar apavi"
+      },
+      {
+        "role": "assistant",
+        "content": "આજે બટાકાના પાકમાં કોઈ ખાસ રોગ અથવા કીટકની સારવારની જરૂર નથી. જો કે, નિયમિત રીતે પાકની દેખરેખ રાખવી અને કોઈ પણ અસામાન્ય લક્ષણો માટે ચકાસવું મહત્વપૂર્ણ છે.",
+        "en": "Today there is no need for treatment of any particular disease or pest in the potato crop. However, it is important to monitor the crop regularly and check for any unusual symptoms.",
+        "timestamp": {
+          "$date": "2025-01-03T02:13:12.088Z"
+        }
+      }
+    ],
+    "farmer_id": "VR4859",
+    "farmer_plot_ids": [
+      "delavalu",
+      "khejadavalu",
+      "patsala"
+    ],
+    "conversation_id": "677747ad22c91533e323a071",
+    "_id": "677747ad22c91533e323a071",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-03T02:18:02.007000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-01-03T02:13:02+00:00"
+  }
+]

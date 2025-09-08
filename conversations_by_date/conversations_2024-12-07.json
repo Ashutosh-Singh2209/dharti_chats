@@ -1,0 +1,1106 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "गोबी लागवड नियोजन पत्रक ",
+        "timestamp": {
+          "$date": "2024-12-07T15:35:28.877Z"
+        },
+        "standalone_question": "Standalone Question: What is a planning sheet for cauliflower cultivation?",
+        "standalone_en": "Standalone Question: What is a planning sheet for cauliflower cultivation?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "gobi lagavad niyojan patrak "
+      },
+      {
+        "role": "assistant",
+        "content": "गोबी लागवड नियोजन पत्रक तयार करण्यासाठी, तुम्हाला काही महत्त्वाच्या गोष्टींचा विचार करावा लागेल:\n\n1. **सिंचन**: गोबीच्या लागवडीसाठी योग्य सिंचन पद्धती निवडा. मातीची आर्द्रता तपासून त्यानुसार पाणी द्या.\n\n2. **खते**: गोबीच्या वाढीसाठी आवश्यक खते आणि त्यांचे प्रमाण ठरवा. पानांच्या आणि मातीच्या चाचण्या घेतल्यास अधिक अचूकता मिळेल.\n\n3. **पिकांची निवड**: योग्य गोबीची जात निवडा, जसे की 'पंजाब गोबी' किंवा 'हिमाचल गोबी'.\n\n4. **सिंचन वेळ**: पाण्याची आवश्यकता आणि हवामानानुसार सिंचनाचे वेळ ठरवा.\n\n5. **किड आणि रोग नियंत्रण**: गोबीच्या पिकांवर येणाऱ्या किड आणि रोगांचे निरीक्षण करा आणि त्यानुसार उपाययोजना करा.\n\n6. **कापणी**: गोबीची कापणी कधी करायची हे ठरवा, साधारणतः 70-90 दिवसांच्या आत.\n\nजर तुम्हाला अधिक तपशील किंवा विशिष्ट माहिती हवी असेल, तर कृपया सांगा!",
+        "timestamp": {
+          "$date": "2024-12-07T15:35:33.608Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "भेंडी खत नियोजन पत्रक व फवारणी पत्रक ",
+        "timestamp": {
+          "$date": "2024-12-07T15:36:09.635Z"
+        },
+        "standalone_question": "What is the planning document for okra fertilizer and spraying?",
+        "standalone_en": "What is the planning document for okra fertilizer and spraying?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        },
+        "content_transliterated": "bhendi khat niyojan patrak v favarani patrak "
+      },
+      {
+        "role": "assistant",
+        "content": "### भेंडी खत नियोजन पत्रक\n\n**सध्याची अवस्था**: प्रारंभिक वनस्पती वाढ (Early Vegetative Growth)  \n**सध्याचा आठवडा**: 2  \n**तारीख**: 2024-12-07\n\n#### खत वितरण योजना:\n1. **फर्टिगेशन पद्धती**:\n   - **फर्टिलायझर**: \n     - 12-61-0: 3 किलोग्राम\n     - युरिया: 4.5 किलोग्राम\n     - कॅल्शियम नायट्रेट: 3 किलोग्राम\n   - **फर्टिलायझर**: \n     - 24-24-0: 8 किलोग्राम\n     - युरिया: 1 किलोग्राम\n     - कॅल्शियम नायट्रेट: 3 किलोग्राम\n   - **फर्टिलायझर**: \n     - युरिया: 5.5 किलोग्राम\n     - फॉस्फोरिक आम्ल (80%): 2.5 किलोग्राम\n     - कॅल्शियम नायट्रेट: 3 किलोग्राम\n\n2. **फोलिअर पद्धती** (आगामी आठवडा):\n   - **फर्टिलायझर**: \n     - जिंक सल्फेट: 0.9 किलोग्राम\n     - फेरस सल्फेट: 0.6 किलोग्राम\n     - मँगनीज सल्फेट: 0.7 किलोग्राम\n\n### फवारणी पत्रक\n\nसध्या कोणती फवारणीची आवश्यकता नाही. तुम्हाला पुढील आठवड्यात फवारणीसाठी कोणतीही विशेष सूचना नाही. \n\nजर तुम्हाला अधिक माहिती हवी असेल किंवा काही विशिष्ट गोष्टींची आवश्यकता असेल, तर कृपया सांगा!",
+        "timestamp": {
+          "$date": "2024-12-07T15:36:16.997Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "साठ दिवसाची भेंडी खत व फवारणी नियोजन ",
+        "timestamp": {
+          "$date": "2024-12-07T15:38:08.705Z"
+        },
+        "standalone_question": "What is the fertilizer and spraying plan for okra for a duration of sixty days?",
+        "standalone_en": "What is the fertilizer and spraying plan for okra for a duration of sixty days?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "sath divasachi bhendi khat v favarani niyojan "
+      },
+      {
+        "role": "assistant",
+        "content": "### भेंडी खत व फवारणी नियोजन (साठ दिवस)\n\n#### सध्याची अवस्था: प्रारंभिक वनस्पती वाढ (Early Vegetative Growth)  \n**सध्याचा आठवडा**: 2  \n**तारीख**: 2024-12-07\n\n### खत नियोजन\n\n#### सध्याचा आठवडा (आठवडा 2):\n1. **फर्टिगेशन पद्धती**:\n   - **फर्टिलायझर**:\n     - 12-61-0: 3 किलोग्राम\n     - युरिया: 4.5 किलोग्राम\n     - कॅल्शियम नायट्रेट: 3 किलोग्राम\n   - **फर्टिलायझर**:\n     - 24-24-0: 8 किलोग्राम\n     - युरिया: 1 किलोग्राम\n     - कॅल्शियम नायट्रेट: 3 किलोग्राम\n   - **फर्टिलायझर**:\n     - युरिया: 5.5 किलोग्राम\n     - फॉस्फोरिक आम्ल (80%): 2.5 किलोग्राम\n     - कॅल्शियम नायट्रेट: 3 किलोग्राम\n\n#### आगामी आठवडा (आठवडा 3):\n1. **फोलिअर पद्धती**:\n   - **फर्टिलायझर**:\n     - जिंक सल्फेट: 0.9 किलोग्राम\n     - फेरस सल्फेट: 0.6 किलोग्राम\n     - मँगनीज सल्फेट: 0.7 किलोग्राम\n\n2. **फर्टिगेशन पद्धती**:\n   - **फर्टिलायझर**:\n     - पोटॅशियम नायट्रेट: 8 किलोग्राम\n     - युरिया: 3 किलोग्राम\n     - मॅग्नेशियम सल्फेट: 3.5 किलोग्राम\n   - **फर्टिलायझर**:\n     - युरिया: 5.5 किलोग्राम\n     - व्हाइट म्युरिएट ऑफ पोटॅश: 6 किलोग्राम\n     - मॅग्नेशियम सल्फेट: 3.5 किलोग्राम\n\n### फवारणी नियोजन\n\nसध्या कोणती फवारणीची आवश्यकता नाही. पुढील आठवड्यात फवारणीसाठी कोणतीही विशेष सूचना नाही.\n\nजर तुम्हाला अधिक माहिती हवी असेल किंवा काही विशिष्ट गोष्टींची आवश्यकता असेल, तर कृपया सांगा!",
+        "timestamp": {
+          "$date": "2024-12-07T15:38:18.545Z"
+        }
+      }
+    ],
+    "farmer_id": "santoshnarayanpatin",
+    "farmer_plot_ids": [
+      "varlashet"
+    ],
+    "conversation_id": "67546b401a3d097f13881041",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-12-07T15:35:28.877000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "टोमॅटो वरील फुल गड रोखण्यासाठी काय फवारावे ",
+        "timestamp": {
+          "$date": "2024-12-07T15:26:22.217Z"
+        },
+        "standalone_question": "What should be sprayed on tomatoes to prevent flower drop?",
+        "standalone_en": "What should be sprayed on tomatoes to prevent flower drop?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "tomato varil full gad rokhanyasathi kay favarave "
+      },
+      {
+        "role": "assistant",
+        "content": "टोमॅटोवरील फुल गड रोखण्यासाठी तुम्ही खालील फवारणी वापरू शकता:\n\n1. **फंगिसाइड**: \n   - **कॅप्टन**: 2-3 ग्रॅम प्रति लिटर पाण्यात.\n   - **मेटालॅक्सिल**: 1-2 ग्रॅम प्रति लिटर पाण्यात.\n\n2. **इन्सेक्टिसाइड**:\n   - **इमिडाक्लोप्रिड**: 0.5-1 मिली प्रति लिटर पाण्यात.\n\nफवारणी करताना योग्य पद्धतीने आणि योग्य वेळेत फवारणी करणे महत्त्वाचे आहे.",
+        "timestamp": {
+          "$date": "2024-12-07T15:26:26.158Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "टोमॅटोचे फुलातील रूपांत फळांमध्ये होण्यासाठी काय मग काय खते द्यावी ",
+        "timestamp": {
+          "$date": "2024-12-07T15:26:51.550Z"
+        },
+        "standalone_question": "What fertilizers should be used to promote the transformation of tomato flowers into fruits?",
+        "standalone_en": "What fertilizers should be used to promote the transformation of tomato flowers into fruits?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "tomatoche phulatil rupant phalammadhye honyasathi kay mag kay khate dyavi "
+      },
+      {
+        "role": "assistant",
+        "content": "टोमॅटोच्या फुलातील रूपांत फळांमध्ये होण्यासाठी तुम्ही खालील खते वापरू शकता:\n\n1. **NPK खते**: \n   - **10-20-20** किंवा **15-15-15** प्रमाणात द्या. \n   - फुलांच्या विकासासाठी फॉस्फरस (P) आणि पोटॅशियम (K) महत्त्वाचे आहेत.\n\n2. **कॅल्शियम**: \n   - **कॅल्शियम नाइट्रेट**: फळांच्या गुणवत्तेसाठी आवश्यक आहे.\n\n3. **मॅग्नेशियम**: \n   - **मॅग्नेशियम सल्फेट**: फुलांच्या आणि फळांच्या विकासासाठी उपयुक्त आहे.\n\n4. **सूक्ष्म पोषक तत्वे**: \n   - **बोरॉन** आणि **झिंक**: फुलांच्या सेटिंगसाठी आवश्यक आहेत.\n\nखते द्यायच्या वेळेस मातीच्या चाचणीचा विचार करा आणि योग्य प्रमाणात खते द्या.",
+        "timestamp": {
+          "$date": "2024-12-07T15:26:56.401Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "टोमॅटो फुलाचे रूपांतर फळा मध्ये होण्यासाठी काय फवारावे ",
+        "timestamp": {
+          "$date": "2024-12-07T15:27:22.202Z"
+        },
+        "standalone_question": "What should be sprayed to ensure the transformation of tomato flowers into fruits?",
+        "standalone_en": "What should be sprayed to ensure the transformation of tomato flowers into fruits?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed",
+            "Q: How to improve the germination percent\nA: Use of good quality seeds and seeds to be treated with insecticide, Fungicide and biological agents"
+          ]
+        },
+        "content_transliterated": "tomato phulache rupantar phala madhye honyasathi kay favarave "
+      },
+      {
+        "role": "assistant",
+        "content": "टोमॅटो फुलाचे रूपांतर फळांमध्ये होण्यासाठी तुम्ही खालील फवारणी करू शकता:\n\n1. **फुलांच्या सेटिंगसाठी**:\n   - **बोरॉन**: 0.1% बोरॉन फोलिअर स्प्रे.\n   - **झिंक**: 0.5% झिंक सल्फेट फोलिअर स्प्रे.\n\n2. **फंगिसाइड**:\n   - **कॅप्टन**: 2-3 ग्रॅम प्रति लिटर पाण्यात.\n\n3. **इन्सेक्टिसाइड**:\n   - **इमिडाक्लोप्रिड**: 0.5-1 मिली प्रति लिटर पाण्यात.\n\nफवारणी करताना योग्य पद्धतीने आणि योग्य वेळेत फवारणी करणे महत्त्वाचे आहे.",
+        "timestamp": {
+          "$date": "2024-12-07T15:27:29.389Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "डाऊनिया आजारावर काय फवारावे ",
+        "timestamp": {
+          "$date": "2024-12-07T15:27:51.312Z"
+        },
+        "standalone_question": "What should be sprayed to treat Downy Mildew disease?",
+        "standalone_en": "What should be sprayed to treat Downy Mildew disease?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed",
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        },
+        "content_transliterated": "dauniya ajaravar kay favarave "
+      },
+      {
+        "role": "assistant",
+        "content": "डाऊनिया आजारावर फवारण्यासाठी तुम्ही खालील उपाय करू शकता:\n\n1. **फंगिसाइड**:\n   - **कॅप्टन**: 2-3 ग्रॅम प्रति लिटर पाण्यात.\n\n2. **इन्सेक्टिसाइड**:\n   - **इमिडाक्लोप्रिड**: 0.5-1 मिली प्रति लिटर पाण्यात.\n\nफवारणी करताना योग्य पद्धतीने आणि योग्य वेळेत फवारणी करणे महत्त्वाचे आहे.",
+        "timestamp": {
+          "$date": "2024-12-07T15:27:57.130Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "बेड  भुसभुशीत करण्यासाठी काय सोडावे ",
+        "timestamp": {
+          "$date": "2024-12-07T15:28:25.183Z"
+        },
+        "standalone_question": "What should be applied to make the bed fluffy?",
+        "standalone_en": "What should be applied to make the bed fluffy?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "bed bhusabhushit karanyasathi kay sodave "
+      },
+      {
+        "role": "assistant",
+        "content": "बेड भुसभुशीत करण्यासाठी तुम्ही खालील गोष्टी सोडू शकता:\n\n1. **कंपोस्ट**: नैसर्गिक कंपोस्ट वापरा, ज्यामुळे मातीची गुणवत्ता सुधारते.\n\n2. **पर्णकुंड**: सुकलेले पानं किंवा गवताचे तुकडे वापरा, जे मातीला पोषण देतात.\n\n3. **मुल्च**: चांगल्या प्रकारच्या मुल्चसाठी चिरलेले गवत, सुकलेले पानं किंवा कापलेले लाकूड वापरा.\n\n4. **गाय किंवा भेंडीचे खत**: हे नैसर्गिक खत मातीला पोषण देण्यासाठी उपयुक्त आहे.\n\nया सर्व गोष्टी मातीच्या संरचनेत सुधारणा करतात आणि पाण्याची धारणा वाढवतात.",
+        "timestamp": {
+          "$date": "2024-12-07T15:28:30.536Z"
+        }
+      }
+    ],
+    "farmer_id": "santoshnarayanpatin",
+    "farmer_plot_ids": [
+      "varlashet"
+    ],
+    "conversation_id": "6754691d1a3d097f13881040",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-07T15:26:22.217000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "टोमॅटो वरील फुल गड रोखण्यासाठी काय फवारावे ",
+        "timestamp": {
+          "$date": "2024-12-07T15:26:22.217Z"
+        },
+        "standalone_question": "What should be sprayed on tomatoes to prevent flower drop?",
+        "standalone_en": "What should be sprayed on tomatoes to prevent flower drop?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "tomato varil full gad rokhanyasathi kay favarave "
+      },
+      {
+        "role": "assistant",
+        "content": "टोमॅटोवरील फुल गड रोखण्यासाठी तुम्ही खालील फवारणी वापरू शकता:\n\n1. **फंगिसाइड**: \n   - **कॅप्टन**: 2-3 ग्रॅम प्रति लिटर पाण्यात.\n   - **मेटालॅक्सिल**: 1-2 ग्रॅम प्रति लिटर पाण्यात.\n\n2. **इन्सेक्टिसाइड**:\n   - **इमिडाक्लोप्रिड**: 0.5-1 मिली प्रति लिटर पाण्यात.\n\nफवारणी करताना योग्य पद्धतीने आणि योग्य वेळेत फवारणी करणे महत्त्वाचे आहे.",
+        "timestamp": {
+          "$date": "2024-12-07T15:26:26.158Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "टोमॅटोचे फुलातील रूपांत फळांमध्ये होण्यासाठी काय मग काय खते द्यावी ",
+        "timestamp": {
+          "$date": "2024-12-07T15:26:51.550Z"
+        },
+        "standalone_question": "What fertilizers should be used to promote the transformation of tomato flowers into fruits?",
+        "standalone_en": "What fertilizers should be used to promote the transformation of tomato flowers into fruits?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "tomatoche phulatil rupant phalammadhye honyasathi kay mag kay khate dyavi "
+      },
+      {
+        "role": "assistant",
+        "content": "टोमॅटोच्या फुलातील रूपांत फळांमध्ये होण्यासाठी तुम्ही खालील खते वापरू शकता:\n\n1. **NPK खते**: \n   - **10-20-20** किंवा **15-15-15** प्रमाणात द्या. \n   - फुलांच्या विकासासाठी फॉस्फरस (P) आणि पोटॅशियम (K) महत्त्वाचे आहेत.\n\n2. **कॅल्शियम**: \n   - **कॅल्शियम नाइट्रेट**: फळांच्या गुणवत्तेसाठी आवश्यक आहे.\n\n3. **मॅग्नेशियम**: \n   - **मॅग्नेशियम सल्फेट**: फुलांच्या आणि फळांच्या विकासासाठी उपयुक्त आहे.\n\n4. **सूक्ष्म पोषक तत्वे**: \n   - **बोरॉन** आणि **झिंक**: फुलांच्या सेटिंगसाठी आवश्यक आहेत.\n\nखते द्यायच्या वेळेस मातीच्या चाचणीचा विचार करा आणि योग्य प्रमाणात खते द्या.",
+        "timestamp": {
+          "$date": "2024-12-07T15:26:56.401Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "टोमॅटो फुलाचे रूपांतर फळा मध्ये होण्यासाठी काय फवारावे ",
+        "timestamp": {
+          "$date": "2024-12-07T15:27:22.202Z"
+        },
+        "standalone_question": "What should be sprayed to ensure the transformation of tomato flowers into fruits?",
+        "standalone_en": "What should be sprayed to ensure the transformation of tomato flowers into fruits?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed",
+            "Q: How to improve the germination percent\nA: Use of good quality seeds and seeds to be treated with insecticide, Fungicide and biological agents"
+          ]
+        },
+        "content_transliterated": "tomato phulache rupantar phala madhye honyasathi kay favarave "
+      },
+      {
+        "role": "assistant",
+        "content": "टोमॅटो फुलाचे रूपांतर फळांमध्ये होण्यासाठी तुम्ही खालील फवारणी करू शकता:\n\n1. **फुलांच्या सेटिंगसाठी**:\n   - **बोरॉन**: 0.1% बोरॉन फोलिअर स्प्रे.\n   - **झिंक**: 0.5% झिंक सल्फेट फोलिअर स्प्रे.\n\n2. **फंगिसाइड**:\n   - **कॅप्टन**: 2-3 ग्रॅम प्रति लिटर पाण्यात.\n\n3. **इन्सेक्टिसाइड**:\n   - **इमिडाक्लोप्रिड**: 0.5-1 मिली प्रति लिटर पाण्यात.\n\nफवारणी करताना योग्य पद्धतीने आणि योग्य वेळेत फवारणी करणे महत्त्वाचे आहे.",
+        "timestamp": {
+          "$date": "2024-12-07T15:27:29.389Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "डाऊनिया आजारावर काय फवारावे ",
+        "timestamp": {
+          "$date": "2024-12-07T15:27:51.312Z"
+        },
+        "standalone_question": "What should be sprayed to treat Downy Mildew disease?",
+        "standalone_en": "What should be sprayed to treat Downy Mildew disease?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed",
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        },
+        "content_transliterated": "dauniya ajaravar kay favarave "
+      },
+      {
+        "role": "assistant",
+        "content": "डाऊनिया आजारावर फवारण्यासाठी तुम्ही खालील उपाय करू शकता:\n\n1. **फंगिसाइड**:\n   - **कॅप्टन**: 2-3 ग्रॅम प्रति लिटर पाण्यात.\n\n2. **इन्सेक्टिसाइड**:\n   - **इमिडाक्लोप्रिड**: 0.5-1 मिली प्रति लिटर पाण्यात.\n\nफवारणी करताना योग्य पद्धतीने आणि योग्य वेळेत फवारणी करणे महत्त्वाचे आहे.",
+        "timestamp": {
+          "$date": "2024-12-07T15:27:57.130Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "बेड  भुसभुशीत करण्यासाठी काय सोडावे ",
+        "timestamp": {
+          "$date": "2024-12-07T15:28:25.183Z"
+        },
+        "standalone_question": "What should be applied to make the bed fluffy?",
+        "standalone_en": "What should be applied to make the bed fluffy?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "bed bhusabhushit karanyasathi kay sodave "
+      },
+      {
+        "role": "assistant",
+        "content": "बेड भुसभुशीत करण्यासाठी तुम्ही खालील गोष्टी सोडू शकता:\n\n1. **कंपोस्ट**: नैसर्गिक कंपोस्ट वापरा, ज्यामुळे मातीची गुणवत्ता सुधारते.\n\n2. **पर्णकुंड**: सुकलेले पानं किंवा गवताचे तुकडे वापरा, जे मातीला पोषण देतात.\n\n3. **मुल्च**: चांगल्या प्रकारच्या मुल्चसाठी चिरलेले गवत, सुकलेले पानं किंवा कापलेले लाकूड वापरा.\n\n4. **गाय किंवा भेंडीचे खत**: हे नैसर्गिक खत मातीला पोषण देण्यासाठी उपयुक्त आहे.\n\nया सर्व गोष्टी मातीच्या संरचनेत सुधारणा करतात आणि पाण्याची धारणा वाढवतात.",
+        "timestamp": {
+          "$date": "2024-12-07T15:28:30.536Z"
+        }
+      }
+    ],
+    "farmer_id": "santoshnarayanpatin",
+    "farmer_plot_ids": [
+      "varlashet"
+    ],
+    "conversation_id": "6754691d1a3d097f13881040",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-12-07T15:26:22.217000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "मी आज 14/48/0 आणि एन 20 फटिॅनेशन ने सोडले",
+        "timestamp": {
+          "$date": "2024-12-07T11:27:41.578Z"
+        },
+        "standalone_question": "I released 14/48/0 and N 20 fertilization today. \n\nWhat did you release today?",
+        "standalone_en": "I released 14/48/0 and N 20 fertilization today. \n\nWhat did you release today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "me aj 14/48/0 ani n 20 fatieneshan ne sodale"
+      },
+      {
+        "role": "assistant",
+        "content": "आपण 14/48/0 आणि एन 20 फर्टीगेशन केले आहे, हे चांगले आहे. यामुळे आपल्या केळीच्या पिकाला आवश्यक पोषण मिळेल. \n\nआपण आपल्या पिकाच्या पुढील फर्टीगेशन शेड्यूलसाठी तपासू इच्छित असल्यास, कृपया मला सांगा.",
+        "timestamp": {
+          "$date": "2024-12-07T11:27:44.179Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "हो",
+        "timestamp": {
+          "$date": "2024-12-07T11:27:58.293Z"
+        },
+        "standalone_question": "Would you like to check the next fertilization schedule for your crop?",
+        "standalone_en": "Would you like to check the next fertilization schedule for your crop?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\".",
+            "get_specific_fertigation_requirements  \nFinds the fertigation requirements for the plots with a particular crop stage and week numbers."
+          ],
+          "faq": [
+            "Q: What should I do if I can't find the fertigation schedule after selecting the fertigation tab?\nA: If you don't see the fertigation schedule, you'll need to create a report first. Would you like assistance in creating a report? Do you have any soil, leaf, or petiole test data available? If not, we can generate a basic schedule for you using general crop and regional data.",
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: Where can I find the fertigation schedule in the Fyllo app?\nA: To access the fertigation schedule:\n    1. Open the Fyllo app\n    2. Select \"My Farm\" at the bottom\n    3. Tap on the \"Fertigation\" option\n   You'll find the fertigation schedule there, including details about the required fertilizer applications."
+          ]
+        },
+        "content_transliterated": "ho"
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या \"21 partan farm\" प्लॉटसाठी फर्टीगेशन शेड्यूल खालीलप्रमाणे आहे:\n\n### सध्याचा फर्टीगेशन शेड्यूल (सप्ताह 6)\n- **पिकाचे स्तर:** प्रारंभिक वनस्पती वाढ (Early vegetative growth)\n- **फर्टीगेशन पद्धती:**\n  - **फर्टीगेशन:**\n    1. **कॅल्शियम नायट्रेट:** 8 किलोग्राम\n    2. **युरिया:** 3 किलोग्राम\n    3. **मॅग्नेशियम सल्फेट:** 3.5 किलोग्राम\n  - **फोलिअर:**\n    1. **जिंक सल्फेट:** 0.9 किलोग्राम\n    2. **फेरस सल्फेट:** 0.6 किलोग्राम\n    3. **मॅंगनीज सल्फेट:** 0.7 किलोग्राम\n\n### पुढील फर्टीगेशन शेड्यूल (सप्ताह 7)\n- **फर्टीगेशन पद्धती:**\n  1. **12-61-0:** 3 किलोग्राम\n  2. **युरिया:** 4.5 किलोग्राम\n  3. **फॉस्फोरिक आम्ल:** 2.5 किलोग्राम (इतर खतांच्या आधी 15-20 मिनिटे लागू करावे)\n\nआपण या शेड्यूलनुसार फर्टीगेशन करू शकता. अधिक माहिती हवी असल्यास, कृपया सांगा!",
+        "timestamp": {
+          "$date": "2024-12-07T11:28:04.639Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "हे केव्हा दयायचे",
+        "timestamp": {
+          "$date": "2024-12-07T11:28:50.949Z"
+        },
+        "standalone_question": "When should this be applied?",
+        "standalone_en": "When should this be applied?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या \"21 partan farm\" प्लॉटसाठी, पाण्याची आवश्यकता खालीलप्रमाणे आहे:\n\n### पाण्याची वेळ:\n- **पाण्याची वेळ:** 8 डिसेंबर 2024, दुपारी 2 वाजता\n\n### कारण:\n- या वेळेस पाण्याची आवश्यकता आहे कारण पावसाची अपेक्षा कमी आहे.\n\nकृपया या वेळेस पाणी द्या. अधिक माहिती हवी असल्यास, कृपया सांगा!",
+        "timestamp": {
+          "$date": "2024-12-07T11:28:56.166Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "हो",
+        "timestamp": {
+          "$date": "2024-12-07T11:29:43.523Z"
+        },
+        "standalone_question": "When should I water my \"21 partan farm\" plot?",
+        "standalone_en": "When should I water my \"21 partan farm\" plot?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer.",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate."
+          ]
+        },
+        "content_transliterated": "ho"
+      },
+      {
+        "role": "assistant",
+        "content": "### पाण्याची आवश्यकता:\nआपल्या \"21 partan farm\" प्लॉटसाठी आज पाण्याची आवश्यकता नाही. त्यामुळे आज पाणी देण्याची गरज नाही.\n\n### फर्टीगेशन शेड्यूल:\n#### सध्याचा फर्टीगेशन शेड्यूल (सप्ताह 6):\n- **पिकाचे स्तर:** प्रारंभिक वनस्पती वाढ (Early vegetative growth)\n- **फर्टीगेशन पद्धती:**\n  - **फर्टीगेशन:**\n    1. **पोटॅशियम नायट्रेट:** 8 किलोग्राम\n    2. **युरिया:** 3 किलोग्राम\n    3. **मॅग्नेशियम सल्फेट:** 3.5 किलोग्राम\n  - **फोलिअर:**\n    1. **जिंक सल्फेट:** 0.9 किलोग्राम\n    2. **फेरस सल्फेट:** 0.6 किलोग्राम\n    3. **मॅंगनीज सल्फेट:** 0.7 किलोग्राम\n\n#### पुढील फर्टीगेशन शेड्यूल (सप्ताह 7):\n- **फर्टीगेशन पद्धती:**\n  1. **12-61-0:** 3 किलोग्राम\n  2. **युरिया:** 4.5 किलोग्राम\n  3. **फॉस्फोरिक आम्ल:** 2.5 किलोग्राम (इतर खतांच्या आधी 15-20 मिनिटे लागू करावे)\n\n### कृपया लक्षात ठेवा:\n- पुढील फर्टीगेशन 10 फेब्रुवारी 2025 पासून सुरू होईल.\n\nआपल्याला आणखी काही माहिती हवी असल्यास, कृपया सांगा!",
+        "timestamp": {
+          "$date": "2024-12-07T11:29:54.164Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "आज मी जे सोडले तरी पण हे सोडायचे का",
+        "timestamp": {
+          "$date": "2024-12-07T11:30:42.375Z"
+        },
+        "standalone_question": "Should I apply the fertilizer today even though I have already done so?",
+        "standalone_en": "Should I apply the fertilizer today even though I have already done so?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "aj me j sodale tari pan he sodayache ka"
+      },
+      {
+        "role": "assistant",
+        "content": "आपण आज 14/48/0 आणि एन 20 फर्टीगेशन केले आहे, त्यामुळे आज फर्टीगेशनची आवश्यकता नाही. \n\nआपण पुढील फर्टीगेशन शेड्यूलनुसार 10 फेब्रुवारी 2025 पासून फर्टीगेशन करणे सुरू करू शकता. \n\nकृपया याबद्दल अधिक माहिती हवी असल्यास, मला सांगा!",
+        "timestamp": {
+          "$date": "2024-12-07T11:30:46.035Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ok",
+        "timestamp": {
+          "$date": "2024-12-07T11:31:13.226Z"
+        },
+        "standalone_question": "Is it necessary to apply fertilizer today even though I have already done so?",
+        "standalone_en": "Is it necessary to apply fertilizer today even though I have already done so?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "If you have any more questions or need further assistance regarding your farming practices, fertigation schedule, or anything else, feel free to ask! I'm here to help.",
+        "timestamp": {
+          "$date": "2024-12-07T11:31:15.881Z"
+        }
+      }
+    ],
+    "farmer_id": "manishpramodpatil",
+    "farmer_plot_ids": [
+      "21partanfarm",
+      "21partanfarm888"
+    ],
+    "conversation_id": "6754312db1712aff9787eb07",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-12-07T11:27:41.578000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Mere khet mein kya problem hai<user uploaded image for analysis at 'talwarafarm/2024-12-07-1733567498070.jpg'>",
+        "timestamp": {
+          "$date": "2024-12-07T10:31:44.055Z"
+        },
+        "standalone_question": "What problems are present in my field?",
+        "standalone_en": "What problems are present in my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapke khet mein kuch samasyaayein dikh rahi hain. Yahan kuch observations hain:\n\n1. **Dhabbe aur Rang Badalna**: Patton par bhure dhabbe aur rang badalne se yeh lagta hai ki yeh fungal infection, jaise ki early blight ya late blight, ka sanket ho sakta hai, jo aloo jaise faslon mein aam hai.\n\n2. **Powdery Residue**: Kuch patton par safed powdery dikhne se yeh powdery mildew ya kisi pest issue, jaise ki aphids ya whiteflies, ka sanket ho sakta hai.\n\n3. **Patton ka Curling**: Agar patton mein curling ya distortion hai, to yeh pest damage ya viral infection ka sanket ho sakta hai.\n\n### Sujhav:\n- **Gehraai se Jaanch Karein**: Patton ke neeche pests ya disease ke anya sanket ke liye jaanch karein.\n- **Image Quality Sudhaarein**: Agar sambhav ho, to prabhavit kshetron ka nazdeek aur spasht image pradan karein, khaas taur par un patton par jo symptoms dikhate hain.\n- **Sthaniya Visheshagya se Salah Le**: Agar samasya bana rahe, to local agricultural extension services se targeted treatment options ke liye salah lein.\n\nIn kadmon ko uthane se aap samasya ko behtar tarike se diagnose kar sakte hain.",
+        "timestamp": {
+          "$date": "2024-12-07T10:31:57.380Z"
+        }
+      }
+    ],
+    "farmer_id": "PBCS-1",
+    "farmer_plot_ids": [
+      "abupurafarm",
+      "jandifarm",
+      "kishanpura",
+      "talwarafarm"
+    ],
+    "conversation_id": "6754240eb1712aff9787eb06",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-07T10:31:44.055000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is my farm problem ",
+        "timestamp": {
+          "$date": "2024-12-07T08:24:27.061Z"
+        },
+        "standalone_question": "What issue are you experiencing with your farm?",
+        "standalone_en": "What issue are you experiencing with your farm?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To assist you better, could you please specify the issues you're facing on your farm? Are you concerned about crop health, irrigation, pest control, or something else?",
+        "timestamp": {
+          "$date": "2024-12-07T08:24:29.173Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "What is the problem in potato plant or else it is healthy <user uploaded image for analysis at 'kishanpura/2024-12-07-1733559995385.jpg'>",
+        "timestamp": {
+          "$date": "2024-12-07T08:27:01.068Z"
+        },
+        "standalone_question": "What is the condition of the potato plant in the uploaded image? Is it healthy or does it have any problems?",
+        "standalone_en": "What is the condition of the potato plant in the uploaded image? Is it healthy or does it have any problems?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of your potato plants shows that they are generally healthy, with vibrant green leaves. However, there are some potential issues to address:\n\n1. **Leaf Color**: Some leaves exhibit a lighter green or yellowish tint, which may indicate nutrient deficiencies, particularly nitrogen or magnesium.\n\n2. **Leaf Texture**: A slightly mottled appearance on the leaves could suggest the presence of pests or diseases, such as aphids or viral infections.\n\n### Recommendations:\n- **Nutrient Check**: Conduct a soil test to assess nutrient levels and adjust fertilization as needed.\n- **Pest Inspection**: Check the undersides of the leaves for pests like aphids or spider mites. If detected, take appropriate pest control measures.\n- **Disease Monitoring**: Keep an eye on the plants for any further symptoms of disease, such as wilting or unusual spots.\n\nFor a more accurate assessment, a closer image focusing on specific affected areas would be beneficial.",
+        "timestamp": {
+          "$date": "2024-12-07T08:27:12.265Z"
+        }
+      }
+    ],
+    "farmer_id": "PBCS-1",
+    "farmer_plot_ids": [
+      "abupurafarm",
+      "jandifarm",
+      "kishanpura",
+      "talwarafarm"
+    ],
+    "conversation_id": "6754063ab1712aff9787eb05",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-07T08:24:27.061000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the plot update ",
+        "timestamp": {
+          "$date": "2024-12-07T08:23:10.468Z"
+        },
+        "standalone_question": "What is the latest update on the plot?",
+        "standalone_en": "What is the latest update on the plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The current crop stage updates for your plots are as follows:\n\n1. **PBCS-4-abupura** (Location: Shafipura, Jagraon, Ludhiana, Punjab)\n   - **Crop Name**: Potato (Hyfun)\n   - **Active Stage**: Vegetative Growth (Started on 30th October 2024)\n\n2. **PBCS-2-Jandi** (Location: Bhamal, Jagraon, Ludhiana, Punjab)\n   - **Crop Name**: Potato (Hyfun)\n   - **Active Stage**: Vegetative Growth (Started on 29th October 2024)\n\n3. **PBCS-1-kishan pura** (Location: Indergarh, Moga, Punjab)\n   - **Crop Name**: Potato (Hyfun)\n   - **Active Stage**: Tuber Development (Started on 4th December 2024)\n\n4. **PBCS-3-Talwara** (Location: Bhamal, Jagraon, Ludhiana, Punjab)\n   - **Crop Name**: Potato (Hyfun)\n   - **Active Stage**: Tuber Development (Started on 4th December 2024)\n\nIf you need more specific information or assistance regarding any plot, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-12-07T08:23:14.281Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "What is problem <user uploaded image for analysis at 'jandifarm/2024-12-07-1733559910704.jpg'>",
+        "timestamp": {
+          "$date": "2024-12-07T08:25:31.541Z"
+        },
+        "standalone_question": "What issue is present in the uploaded image from the Jandi farm?",
+        "standalone_en": "What issue is present in the uploaded image from the Jandi farm?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the uploaded image from **PBCS-2-Jandi** indicates potential nutrient deficiency, specifically phosphorus deficiency, as shown by the purplish coloration on the edges of the leaves. Here are the observations and recommendations:\n\n1. **Symptoms**: The purplish tint on the leaves is commonly associated with phosphorus deficiency. Healthy potato plants should have deep green leaves.\n\n2. **Recommendations**:\n   - **Soil Testing**: Conduct a soil test to check nutrient levels, particularly phosphorus.\n   - **Fertilization**: If phosphorus levels are low, consider applying a phosphorus-rich fertilizer.\n   - **Watering**: Ensure that the plants are adequately watered, as water stress can worsen nutrient uptake issues.\n\n3. **Further Monitoring**: Keep an eye on the overall growth and health of the plants. If symptoms worsen or new symptoms appear, further investigation may be needed.\n\nIf you have any more questions or need further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-12-07T08:25:42.700Z"
+        }
+      }
+    ],
+    "farmer_id": "PBCS-1",
+    "farmer_plot_ids": [
+      "abupurafarm",
+      "jandifarm",
+      "kishanpura",
+      "talwarafarm"
+    ],
+    "conversation_id": "675405eeb1712aff9787eb04",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-07T08:23:10.468000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is my plot update ",
+        "timestamp": {
+          "$date": "2024-12-07T08:22:41.518Z"
+        },
+        "standalone_question": "What is the update on my plot?",
+        "standalone_en": "What is the update on my plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Your current plot updates are as follows:\n\n1. **Plot Name:** PBCS-4-abupura\n   - **Location:** Shafipura, Jagraon, Ludhiana, Punjab\n   - **Crop Name:** Potato (Hyfun)\n   - **Active Stage:** Vegetative Growth\n   - **Stage Start Date:** October 30, 2024\n\n2. **Plot Name:** PBCS-2-Jandi\n   - **Location:** Bhamal, Jagraon, Ludhiana, Punjab\n   - **Crop Name:** Potato (Hyfun)\n   - **Active Stage:** Vegetative Growth\n   - **Stage Start Date:** October 29, 2024\n\n3. **Plot Name:** PBCS-1-kishan pura\n   - **Location:** Indergarh, Moga, Punjab\n   - **Crop Name:** Potato (Hyfun)\n   - **Active Stage:** Tuber Development\n   - **Stage Start Date:** December 4, 2024\n\n4. **Plot Name:** PBCS-3-Talwara\n   - **Location:** Bhamal, Jagraon, Ludhiana, Punjab\n   - **Crop Name:** Potato (Hyfun)\n   - **Active Stage:** Tuber Development\n   - **Stage Start Date:** December 4, 2024\n\nIf you need more specific information or updates, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-12-07T08:22:45.907Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "What is the problem <user uploaded image for analysis at 'abupurafarm/2024-12-07-1733559797533.jpg'>",
+        "timestamp": {
+          "$date": "2024-12-07T08:23:32.122Z"
+        },
+        "standalone_question": "What issue is depicted in the image uploaded from 'abupurafarm/2024-12-07-1733559797533.jpg'?",
+        "standalone_en": "What issue is depicted in the image uploaded from 'abupurafarm/2024-12-07-1733559797533.jpg'?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the uploaded image indicates the following potential issues with your potato plants:\n\n1. **Nutrient Deficiency**: The purplish tint along the edges of the leaves is often associated with phosphorus deficiency. It's essential to ensure that the soil has adequate phosphorus levels, as this nutrient is crucial for healthy plant growth.\n\n2. **Environmental Stress**: The plants may be experiencing stress from cold temperatures or waterlogged conditions, which can also lead to similar symptoms.\n\n3. **Pest Damage**: Check for any signs of pests on the leaves, as they can cause stress and lead to discoloration.\n\n### Recommendations:\n- **Soil Test**: Conduct a soil test to check nutrient levels, particularly phosphorus.\n- **Water Management**: Ensure proper drainage and avoid overwatering.\n- **Pest Inspection**: Look closely for any pests or signs of damage.\n\nIf you can provide a closer image of the affected leaves, it may help in giving a more detailed analysis.",
+        "timestamp": {
+          "$date": "2024-12-07T08:23:41.726Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "What is the problem?<user uploaded image for analysis at 'abupurafarm/2024-12-07-1733559947754.jpg'>",
+        "timestamp": {
+          "$date": "2024-12-07T08:25:58.588Z"
+        },
+        "standalone_question": "What issues are present in the uploaded image?",
+        "standalone_en": "What issues are present in the uploaded image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the uploaded image indicates the following potential issues with your potato plants:\n\n1. **Surface Texture**: The leaves show a rough texture, which may suggest a pest infestation or disease. Check for any visible pests or webbing on the underside of the leaves.\n\n2. **Spots and Discoloration**: Dark spots on the leaves could indicate fungal infections or pest damage. This may be a sign of diseases like early blight or late blight, or it could be due to insect feeding.\n\n3. **Overall Health**: While the leaves are still green, the presence of spots and rough texture indicates that the plants may be under stress.\n\n### Recommendations:\n- **Inspect Closely**: Look at the undersides of the leaves for pests like aphids or spider mites.\n- **Fungicide Treatment**: If a fungal infection is suspected, consider applying a suitable fungicide.\n- **Improve Air Circulation**: Ensure that the plants have good spacing to reduce humidity and prevent fungal growth.\n- **Monitor Regularly**: Keep an eye on the plants for any changes in health or further spread of symptoms.\n\nIf you can provide a closer image of the affected areas, it may help in giving a more detailed assessment.",
+        "timestamp": {
+          "$date": "2024-12-07T08:26:11.935Z"
+        }
+      }
+    ],
+    "farmer_id": "PBCS-1",
+    "farmer_plot_ids": [
+      "abupurafarm",
+      "jandifarm",
+      "kishanpura",
+      "talwarafarm"
+    ],
+    "conversation_id": "675405d01a3d097f1388103d",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-07T08:22:41.518000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kinnow m water shoot kyu aate h?",
+        "timestamp": {
+          "$date": "2024-12-07T08:11:24.480Z"
+        },
+        "standalone_question": "Why do Kinnow trees produce water shoots?",
+        "standalone_en": "Why do Kinnow trees produce water shoots?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Kinnow ke paani ki zaroorat ka pata lagane ke liye soil moisture (kPa) ka dhyan rakhna zaroori hai. Agar soil moisture 0-5 kPa hai, toh yeh wet hai, aur agar yeh 200 kPa ke aas-paas hai, toh yeh dry hai. \n\nAgar moisture level badh raha hai, toh iska matlab hai ki zameen sukhd rahi hai aur paani dene ki zaroorat hai. Kinnow ki growth stage bhi mahatvapurn hai; jaise jaise wo mature hote hain, unhe zyada paani ki zaroorat hoti hai.\n\nAapko irrigation forecast check karna chahiye taaki aapko sahi samay par paani dene ki salah mil sake. Kya aap chahte hain ki main aapke plot ke liye irrigation forecast check karun?",
+        "timestamp": {
+          "$date": "2024-12-07T08:11:28.577Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Kinnow m shoots kyu nikalte h?",
+        "timestamp": {
+          "$date": "2024-12-07T08:12:03.795Z"
+        },
+        "standalone_question": "Why do shoots emerge in Kinnow?",
+        "standalone_en": "Why do shoots emerge in Kinnow?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Kinnow mein shoots nikalne ke kai karan ho sakte hain:\n\n1. **Growth Stage**: Kinnow ki growth stage ke dauran naye shoots nikalna ek prakritik prakriya hai. Yeh naye patte aur branches ki growth ko darshata hai.\n\n2. **Environmental Factors**: Agar mausam sukhad hai ya paani ki kami hai, toh plants naye shoots nikalne ki koshish karte hain taaki wo zyada sunlight aur nutrients le sakein.\n\n3. **Nutrient Availability**: Agar zameen mein nutrients ki kami hai, toh plants naye shoots nikalne ke liye prerit hote hain. Yeh unki growth aur development ke liye zaroori hai.\n\n4. **Pest or Disease Stress**: Kabhi-kabhi pests ya diseases ke stress ke karan bhi plants naye shoots nikalte hain, taaki wo apne aap ko bachane ki koshish kar sakein.\n\n5. **Pruning**: Agar aapne plants ko prune kiya hai, toh naye shoots nikalna aam hai, kyunki pruning se plants ko naye growth ke liye prerit kiya jata hai.\n\nAgar aapko shoots ki growth ke baare mein aur jaankari chahiye ya kisi specific samasya ka samna kar rahe hain, toh aap mujhe bata sakte hain.",
+        "timestamp": {
+          "$date": "2024-12-07T08:12:09.668Z"
+        }
+      }
+    ],
+    "farmer_id": "mandeepbishnoi1661062088650",
+    "farmer_plot_ids": [
+      "kairokinnowfarm",
+      "kinnowplotnero1"
+    ],
+    "conversation_id": "6754032c1a3d097f1388103c",
+    "tag": "others",
+    "conv_date": "2024-12-07T08:11:24.480000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "20 kap Kay aahe",
+        "timestamp": {
+          "$date": "2024-12-07T08:02:03.788Z"
+        },
+        "standalone_question": "What is 20 kap?",
+        "standalone_en": "What is 20 kap?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "20 kPa म्हणजे मातीतील आर्द्रता कमी आहे, म्हणजेच माती थोडीशी कोरडी आहे. याचा अर्थ तुम्हाला पाण्याची आवश्यकता आहे. 200 kPa म्हणजे माती पूर्णपणे कोरडी आहे. 0 kPa म्हणजे माती ओलसर आहे.",
+        "timestamp": {
+          "$date": "2024-12-07T08:02:06.322Z"
+        }
+      }
+    ],
+    "farmer_id": "dipakwaykole",
+    "farmer_plot_ids": [
+      "dipakfarm1"
+    ],
+    "conversation_id": "675400fbb1712aff9787eb03",
+    "tag": "others",
+    "conv_date": "2024-12-07T08:02:03.788000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "?",
+        "timestamp": {
+          "$date": "2024-12-07T07:02:21.597Z"
+        },
+        "standalone_question": "Sure! Please provide the follow-up input you would like me to rephrase into a standalone question.",
+        "standalone_en": "Sure! Please provide the follow-up input you would like me to rephrase into a standalone question.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "नमस्ते, मandeep! कैसे मदद कर सकता हूँ? अगर आपके पास खेती से संबंधित कोई सवाल है, तो बेझिझक पूछें।",
+        "timestamp": {
+          "$date": "2024-12-07T07:02:23.909Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Kinnow m pruning krne baad cut pr gum niklna  Normal h kya?",
+        "timestamp": {
+          "$date": "2024-12-07T07:03:12.673Z"
+        },
+        "standalone_question": "Is it normal for gum to come out after pruning Kinnow?",
+        "standalone_en": "Is it normal for gum to come out after pruning Kinnow?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Kinnow ke pruning ke baad cut par gum nikalna ek normal prakriya hai. Jab aap pruning karte hain, to paudhe ka stress hota hai, jisse gum nikalne lagta hai. Yeh gum paudhe ko suraksha pradan karta hai aur infection se bachata hai. \n\nLekin agar gum bahut adhik nikal raha hai ya iske saath kisi aur samasya ka samna kar rahe hain, to aapko is par dhyan dena chahiye. Agar aapko kisi vishesh samasya ka shak hai, to mujhe bataiye, main madad karne ke liye yahan hoon!",
+        "timestamp": {
+          "$date": "2024-12-07T07:03:16.413Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Iske saath or kya samasya ho skti h?",
+        "timestamp": {
+          "$date": "2024-12-07T07:04:35.478Z"
+        },
+        "standalone_question": "What other problems could occur with this?",
+        "standalone_en": "What other problems could occur with this?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Kinnow ke pruning ke baad gum nikalne ke alawa kuch aur samasyaayein ho sakti hain:\n\n1. **Fungal Infection**: Agar cut par gum ke saath kisi prakar ka discoloration ya swelling hai, to yeh fungal infection ka sanket ho sakta hai.\n\n2. **Bacterial Canker**: Yeh ek serious bimari hai jo paudhe ke branches par gum nikalne ka karan ban sakti hai. Ismein paudhe ke patte peela hone lagte hain.\n\n3. **Water Stress**: Agar paudhe ko adhik ya kam paani mil raha hai, to bhi yeh gum nikalne ka karan ban sakta hai.\n\n4. **Nutrient Deficiency**: Kahi baar, agar paudhe ko zaroori nutrients nahi milte, to yeh bhi gum nikalne ka karan ban sakta hai.\n\n5. **Environmental Stress**: Bahar ke paryavaran, jaise ki adhik garmi ya thand, bhi paudhe par stress daal sakte hain.\n\nAgar aapko inme se kisi bhi samasya ka shak hai, to aapko kisi krishi visheshagya se sampark karna chahiye ya mujhe aur vistar se bataye, main madad karne ke liye yahan hoon!",
+        "timestamp": {
+          "$date": "2024-12-07T07:04:39.962Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "?",
+        "timestamp": {
+          "$date": "2024-12-07T07:04:50.406Z"
+        },
+        "standalone_question": "What other problems can occur after pruning Kinnow?",
+        "standalone_en": "What other problems can occur after pruning Kinnow?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapka koi specific sawaal hai ya kisi vishay par jaanakari chahiye? Kripya batayein, main madad karne ke liye yahan hoon!",
+        "timestamp": {
+          "$date": "2024-12-07T07:04:53.720Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Kinnow m Copper ki kmi k kya laksan ho skte h ?",
+        "timestamp": {
+          "$date": "2024-12-07T07:06:11.773Z"
+        },
+        "standalone_question": "What are the symptoms of copper deficiency in Kinnow?",
+        "standalone_en": "What are the symptoms of copper deficiency in Kinnow?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Kinnow mein copper ki kami ke kuch lakshan ho sakte hain:\n\n1. **Patton ka Peela Hona**: Patte peele hone lagte hain, jo ki copper deficiency ka prabhav hota hai.\n\n2. **New Growth ka Stunted Hona**: Naye patte aur shoots ka vikas ruk jata hai ya dheere hota hai.\n\n3. **Leaf Curling**: Patte curl hone lagte hain, jo ki copper ki kami ka sanket hai.\n\n4. **Fruit Development mein Samasya**: Kinnow ke phalon ka vikas sahi se nahi hota, aur phal chhote ya deformed ho sakte hain.\n\n5. **Blossom Drop**: Phool girne lagte hain, jo ki nutrient deficiency ka ek aur lakshan hai.\n\nAgar aapko in lakshanon ka samna karna pad raha hai, to aapko copper ki kami ko door karne ke liye foliar spray ya soil application ke madhyam se copper sulfate ya kisi aur copper-based fertilizer ka istemal karna chahiye. \n\nAgar aapko aur vistar se jaanakari chahiye ya kisi vishesh samasya ka samna kar rahe hain, to mujhe batayein!",
+        "timestamp": {
+          "$date": "2024-12-07T07:06:16.673Z"
+        }
+      }
+    ],
+    "farmer_id": "mandeepbishnoi1661062088650",
+    "farmer_plot_ids": [
+      "kairokinnowfarm",
+      "kinnowplotnero1"
+    ],
+    "conversation_id": "6753f2fdf7744d4e5aff97ea",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-07T07:02:21.597000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Isme kya kami h",
+        "timestamp": {
+          "$date": "2024-12-07T06:59:23.189Z"
+        },
+        "standalone_question": "What is lacking in this?",
+        "standalone_en": "What is lacking in this?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपके द्वारा दिए गए विवरण में कोई स्पष्ट कमी नहीं है। हालांकि, यदि आप विशेष जानकारी या सलाह चाहते हैं, जैसे कि फसल प्रबंधन, सिंचाई, या कीट नियंत्रण के बारे में, तो कृपया बताएं। मैं आपकी मदद करने के लिए यहाँ हूँ!",
+        "timestamp": {
+          "$date": "2024-12-07T06:59:29.257Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Is photo m jo leaf h usme kya kami h??<user uploaded image for analysis at 'kairokinnowfarm/2024-12-07-1733554789937.jpg'>",
+        "timestamp": {
+          "$date": "2024-12-07T07:00:02.295Z"
+        },
+        "standalone_question": "What is lacking in the leaf shown in this photo?",
+        "standalone_en": "What is lacking in the leaf shown in this photo?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "पत्तियों में कुछ स्वास्थ्य समस्याओं के संकेत दिखाई दे रहे हैं। पीले और धब्बेदार रूप, विशेष रूप से हरे और पीले धब्बों के साथ, कुछ संभावित समस्याओं को इंगित कर सकते हैं:\n\n1. **पोषक तत्वों की कमी**: यह नाइट्रोजन या मैग्नीशियम की कमी का संकेत हो सकता है, जो अक्सर पत्तियों की नसों के बीच पीलेपन का कारण बनता है।\n   \n2. **वायरल संक्रमण**: धब्बेदार पैटर्न भी वायरल संक्रमण का संकेत हो सकता है, जो पौधे की वृद्धि को रोक सकता है और उपज को कम कर सकता है।\n\n3. **कीटों का नुकसान**: किसी भी कीट, जैसे कि एफिड्स या स्पाइडर माइट्स, के संकेतों की जांच करें, जो पौधे को खाकर समान लक्षण पैदा कर सकते हैं।\n\n### सिफारिशें:\n- **पौधे की जांच करें**: किसी भी कीट या बीमारी के संकेतों के लिए ध्यान से देखें।\n- **मिट्टी परीक्षण**: पोषक तत्वों के स्तर और कमी की जांच के लिए मिट्टी परीक्षण करें।\n- **उर्वरक का उपयोग**: यदि पोषक तत्वों की कमी का संदेह है, तो संतुलित उर्वरक लगाने पर विचार करें।\n- **अलगाव**: यदि वायरल संक्रमण का संदेह है, तो प्रभावित पौधों को अलग करें ताकि फैलाव रोका जा सके।\n\nयदि आप और अधिक सटीक निदान चाहते हैं, तो कृपया प्रभावित पत्तियों और अन्य लक्षणों पर ध्यान केंद्रित करते हुए एक स्पष्ट छवि प्रदान करें।",
+        "timestamp": {
+          "$date": "2024-12-07T07:00:15.419Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Gum niklna shi h kya ?",
+        "timestamp": {
+          "$date": "2024-12-07T07:00:49.905Z"
+        },
+        "standalone_question": "Is it normal for the sap to come out?",
+        "standalone_en": "Is it normal for the sap to come out?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "किन्नू (Kinnow) के पौधों में गोंद निकलना सामान्यतः एक समस्या का संकेत हो सकता है। यह निम्नलिखित कारणों से हो सकता है:\n\n1. **कीटों का हमला**: जैसे कि सफेद मक्खी या अन्य कीट, जो पौधे से रस चूसते हैं और गोंद निकलने का कारण बन सकते हैं।\n\n2. **बीमारियाँ**: कुछ फंगल या बैक्टीरियल संक्रमण भी गोंद निकलने का कारण बन सकते हैं।\n\n3. **पौधे का तनाव**: जल, पोषण, या पर्यावरणीय तनाव के कारण भी गोंद निकल सकता है।\n\n### सिफारिशें:\n- **कीटों की जांच करें**: पौधे की पत्तियों और तनों पर कीटों के संकेतों की जांच करें।\n- **बीमारियों का निदान**: यदि कोई बीमारी का संदेह है, तो उचित उपचार करें।\n- **सिंचाई और पोषण**: पौधे को सही मात्रा में पानी और पोषक तत्व दें ताकि वह स्वस्थ रह सके।\n\nयदि गोंद निकलना अधिक है या पौधे की अन्य समस्याएँ हैं, तो विशेषज्ञ से सलाह लेना उचित होगा।",
+        "timestamp": {
+          "$date": "2024-12-07T07:00:54.699Z"
+        }
+      }
+    ],
+    "farmer_id": "mandeepbishnoi1661062088650",
+    "farmer_plot_ids": [
+      "kairokinnowfarm",
+      "kinnowplotnero1"
+    ],
+    "conversation_id": "6753f24a1a3d097f1388103a",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-07T06:59:23.189000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Cut pr gum ana normal h kya?<user uploaded image for analysis at 'kairokinnowfarm/2024-12-07-1733551023492.jpg'>",
+        "timestamp": {
+          "$date": "2024-12-07T05:57:17.892Z"
+        },
+        "standalone_question": "Is it normal for cut or damaged gum?",
+        "standalone_en": "Is it normal for cut or damaged gum?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपके द्वारा अपलोड की गई छवि में एक पौधे की शाखा दिखाई दे रही है, जिसे संभवतः एक हरे पदार्थ से उपचारित किया गया है, जो एक सुरक्षात्मक कोटिंग या पेंट हो सकता है। हालांकि, इस छवि के आधार पर फसल की समग्र स्वास्थ्य का आकलन करना कठिन है।\n\nसटीक विश्लेषण के लिए, कृपया निम्नलिखित पर विचार करें:\n\n1. **प्रभावित क्षेत्र पर ध्यान दें**: किसी बीमारी या कीट के नुकसान के संकेत दिखाने वाले विशेष क्षेत्र की एक करीबी तस्वीर मददगार होगी।\n2. **स्पष्ट दृश्यता**: सुनिश्चित करें कि छवि अच्छी रोशनी में है और धुंधली नहीं है, क्योंकि इससे महत्वपूर्ण विवरण अस्पष्ट हो सकते हैं।\n3. **पत्तियों और परिवेश को शामिल करें**: पौधे के अन्य भागों के साथ एक व्यापक दृश्य समग्र स्वास्थ्य का आकलन करने में मदद कर सकता है।\n\nयदि आप एक स्पष्ट छवि अपलोड करते हैं, तो मैं और अधिक विस्तृत विश्लेषण प्रदान कर सकता हूँ!",
+        "timestamp": {
+          "$date": "2024-12-07T05:57:28.982Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Pruning baad Cut pr  gum ana normal h kya?",
+        "timestamp": {
+          "$date": "2024-12-07T05:58:07.616Z"
+        },
+        "standalone_question": "Is it normal for sap to ooze after pruning?",
+        "standalone_en": "Is it normal for sap to ooze after pruning?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "प्रूनिंग के बाद पौधों पर गम आना सामान्य हो सकता है। यह अक्सर पौधों की प्राकृतिक प्रतिक्रिया होती है, जब वे अपनी चोटों को ठीक करने की कोशिश करते हैं। गम का निकलना पौधे के स्वास्थ्य का संकेत हो सकता है, लेकिन यह भी ध्यान देने योग्य है कि:\n\n1. **गम की मात्रा**: यदि गम की मात्रा बहुत अधिक है, तो यह किसी बीमारी या कीट के हमले का संकेत हो सकता है।\n2. **पौधे की स्थिति**: पौधे की अन्य स्वास्थ्य संकेतों पर ध्यान दें, जैसे पत्तियों का रंग, आकार, और सामान्य वृद्धि।\n3. **जलवायु और मिट्टी की स्थिति**: अत्यधिक नमी या सूखे की स्थिति भी गम के निकलने का कारण बन सकती है।\n\nयदि आपको गम निकलने की समस्या के बारे में चिंता है, तो पौधे की अन्य विशेषताओं की जांच करें या किसी कृषि विशेषज्ञ से सलाह लें।",
+        "timestamp": {
+          "$date": "2024-12-07T05:58:15.059Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Gum ki matra thodi h?",
+        "timestamp": {
+          "$date": "2024-12-07T06:01:07.106Z"
+        },
+        "standalone_question": "Is the amount of gum small?",
+        "standalone_en": "Is the amount of gum small?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "छवि के विश्लेषण के अनुसार, पौधे की शाखा पर गम की मात्रा कम प्रतीत होती है। हालांकि, यह सुनिश्चित करने के लिए कि यह सामान्य है या नहीं, पौधे की अन्य विशेषताओं पर ध्यान देना महत्वपूर्ण है। \n\nयदि गम की मात्रा थोड़ी है और पौधा अन्य स्वास्थ्य संकेतों (जैसे पत्तियों का रंग और आकार) में सामान्य है, तो यह सामान्य हो सकता है। लेकिन यदि आपको कोई अन्य समस्या या चिंता है, तो पौधे की स्थिति की और जांच करें या किसी कृषि विशेषज्ञ से सलाह लें।",
+        "timestamp": {
+          "$date": "2024-12-07T06:01:16.173Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Baaki podhe ki. Health shi h",
+        "timestamp": {
+          "$date": "2024-12-07T06:01:52.974Z"
+        },
+        "standalone_question": "Is the health of the other plants good?",
+        "standalone_en": "Is the health of the other plants good?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "यदि बाकी पौधों की स्वास्थ्य स्थिति सामान्य है और उनमें कोई अन्य समस्या नहीं है, तो यह संकेत है कि प्रूनिंग के बाद गम निकलना सामान्य हो सकता है। पौधों की सामान्य वृद्धि, पत्तियों का रंग, और आकार सभी अच्छे संकेत हैं।\n\nयदि आपको किसी विशेष पौधे में कोई चिंता है, तो उसकी स्थिति की और जांच करें। अन्यथा, पौधों की देखभाल जारी रखें और नियमित रूप से उनकी स्थिति की निगरानी करें।",
+        "timestamp": {
+          "$date": "2024-12-07T06:01:56.905Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Itna gum Normal' h",
+        "timestamp": {
+          "$date": "2024-12-07T06:02:30.443Z"
+        },
+        "standalone_question": "Is it normal for there to be this much gum?",
+        "standalone_en": "Is it normal for there to be this much gum?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "यदि गम की मात्रा थोड़ी है और बाकी पौधों की स्वास्थ्य स्थिति सामान्य है, तो यह सामान्य हो सकता है। प्रूनिंग के बाद पौधों से गम निकलना एक सामान्य प्रक्रिया है, जब पौधे अपनी चोटों को ठीक करने की कोशिश करते हैं। \n\nहालांकि, यदि गम की मात्रा बढ़ती है या पौधे की अन्य स्वास्थ्य संकेतों में कोई बदलाव आता है, तो यह किसी समस्या का संकेत हो सकता है। नियमित रूप से पौधों की स्थिति की निगरानी करें और यदि आवश्यक हो, तो किसी कृषि विशेषज्ञ से सलाह लें।",
+        "timestamp": {
+          "$date": "2024-12-07T06:02:35.017Z"
+        }
+      }
+    ],
+    "farmer_id": "mandeepbishnoi1661062088650",
+    "farmer_plot_ids": [
+      "kairokinnowfarm",
+      "kinnowplotnero1"
+    ],
+    "conversation_id": "6753e3bd42531ce3bbc3f1c2",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-07T05:57:17.892000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "काय खत देऊ",
+        "timestamp": {
+          "$date": "2024-12-07T04:38:23.533Z"
+        },
+        "standalone_question": "What should I give as an offering?",
+        "standalone_en": "What should I give as an offering?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kay khat deu"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"Plot no 1\" वरील पेरूच्या पिकासाठी, सध्या तुम्ही \"Growth stage 2\" मध्ये आहात, आणि ही पिकाची 5वी आठवडा आहे. खालील प्रमाणे खत देण्याची शिफारस केली जाते:\n\n### सध्याची फर्टिगेशन शेड्यूल:\n1. **फोलिअर पद्धतीने:**\n   - **Solubor**: 400 ग्रॅम/एकर\n   - **सूचना**: सूक्ष्म पोषण घटकांच्या फोलिअर स्प्रेमध्ये एक टक्क्यांपेक्षा जास्त एकाग्रता नसावी, म्हणजेच 500 लिटर पाण्यात 5 किलो.\n\n2. **फर्टिगेशन पद्धतीने:**\n   - **संभाव्य वितरण संयोजन:**\n     - 2.5 किलो **24-24-0** + 1 किलो **Urea** + 1 किलो **Magnesium Sulphate** प्रति एकर\n     - किंवा\n     - 2 किलो **Urea** + 680 ग्रॅम **Phosphoric acid 80%** + 1 किलो **Magnesium Sulphate** प्रति एकर\n   - **सूचना**: फॉस्फोरिक आम्ल इतर खतांच्या अनुप्रयोगापूर्वी 15-20 मिनिटे स्वतंत्रपणे लागू करावे.\n\n### पुढील फर्टिगेशन शेड्यूल:\nतुमच्या पिकाची पुढील अवस्था \"Growth stage 3\" आहे, जी 2025-03-15 पासून सुरू होईल. \n\nतुम्हाला या शेड्यूलनुसार खत देणे आवश्यक आहे. अधिक माहिती हवी असल्यास, कृपया सांगा!",
+        "timestamp": {
+          "$date": "2024-12-07T04:38:43.853Z"
+        }
+      }
+    ],
+    "farmer_id": "shubhamdheple",
+    "farmer_plot_ids": [
+      "plotno1370"
+    ],
+    "conversation_id": "6753d13f42531ce3bbc3f1c1",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-12-07T04:38:23.533000+00:00"
+  }
+]

@@ -1,0 +1,1200 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "कोणता रोग येऊ शकतो ",
+        "en": "What disease can occur? ",
+        "timestamp": {
+          "$date": "2025-07-14T16:14:35.003Z"
+        },
+        "standalone_question": "What disease could occur?",
+        "standalone_en": "What disease could occur?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "konta rog yeu shakato "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot no.1 Thompson\" साठी रोगांचे मेट्रिक्स उपलब्ध नाहीत. त्यामुळे कोणतेही रोग येऊ शकतात याबद्दल माहिती देता येत नाही. तुम्हाला आणखी काही माहिती हवी का?",
+        "en": "Patient metrics for \"Plot no.1 Thompson\" are not available. Therefore, information about any diseases can be given. Do you need any more information?",
+        "timestamp": {
+          "$date": "2025-07-14T16:14:54.477Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "डाऊनी  येईल का ",
+        "en": "Will Downey come? ",
+        "timestamp": {
+          "$date": "2025-07-14T16:15:15.508Z"
+        },
+        "standalone_question": "Could Downy occur?",
+        "standalone_en": "Could Downy occur?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "downey yeil ka "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot no.1 Thompson\" साठी डाऊनी मिड्यूवसाठी रोग मेट्रिक्स उपलब्ध नाहीत. त्यामुळे याबद्दल निश्चित माहिती देता येत नाही. तुम्हाला आणखी काही विचारायचं आहे का?",
+        "en": "Disease metrics are not available for the down midway for \"Plot no.1 Thompson\". Therefore, definitive information cannot be given about this. Do you want to ask anything else?",
+        "timestamp": {
+          "$date": "2025-07-14T16:15:22.107Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पाऊस पडेल का ",
+        "en": "Will it rain? ",
+        "timestamp": {
+          "$date": "2025-07-14T16:15:38.529Z"
+        },
+        "standalone_question": "Will it rain?",
+        "standalone_en": "Will it rain?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "paus padel ka "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot no.1 Thompson\" साठी 15 जुलै 2025 रोजी पाऊस पडण्याची शक्यता आहे. त्या दिवशी 3.2 मिमी पाऊस पडण्याची अपेक्षा आहे, परंतु पाऊस पडण्याची शक्यता 35% आहे. \n\nतुम्हाला आणखी काही माहिती हवी का?",
+        "en": "The rain for \"Plot no.1 Thompson\" is expected to fall on July 15, 2025. It is expected to rain 3.2 mm on that day, but the chance of rain falling is 35%. \n\nDo you need any more information?",
+        "timestamp": {
+          "$date": "2025-07-14T16:15:45.228Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "मला समाधान कारक उत्तर भेटत नाही ",
+        "en": "I can't find a satisfactory answer ",
+        "timestamp": {
+          "$date": "2025-07-14T16:16:12.684Z"
+        },
+        "standalone_question": "Why am I not receiving a satisfactory answer?",
+        "standalone_en": "Why am I not receiving a satisfactory answer?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mala samadhan karak uttar bhetat nahi "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या डिव्हाइससाठी रिचार्ज योजना सक्रिय आहे. तुमची योजना 25 सप्टेंबर 2025 पर्यंत सक्रिय आहे. \n\nतुमचा डिव्हाइस सध्या सक्रिय आहे आणि डेटा पाठवत आहे. \n\nतुम्हाला आणखी काही विचारायचं आहे का?",
+        "en": "The recharge plan for your device is active. Your plan is active until September 25, 2025. \n\nYour device is currently active and sending data. \n\nIs there anything else you'd like to ask?",
+        "timestamp": {
+          "$date": "2025-07-14T16:16:15.918Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "मला समाधान कारण उत्तर भेटत नाहीये ",
+        "en": "I'm satisfied because I can't find an answer ",
+        "timestamp": {
+          "$date": "2025-07-14T16:16:40.369Z"
+        },
+        "standalone_question": "Why am I not receiving a satisfactory answer?",
+        "standalone_en": "Why am I not receiving a satisfactory answer?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mala samadhan karan uttar bhetat nahiye "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या डिव्हाइससाठी रिचार्ज योजना सक्रिय आहे. तुमची योजना 25 सप्टेंबर 2025 पर्यंत सक्रिय आहे. तुमचा डिव्हाइस सध्या सक्रिय आहे आणि डेटा पाठवत आहे.\n\nतुम्हाला आणखी काही विचारायचं आहे का?",
+        "en": "The recharge plan for your device is active. Your plan is active until September 25, 2025. Your device is currently active and sending data.\n\nIs there anything else you'd like to ask?",
+        "timestamp": {
+          "$date": "2025-07-14T16:16:44.298Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "मी असमाधानी आहे ",
+        "en": "I am dissatisfied ",
+        "timestamp": {
+          "$date": "2025-07-14T16:17:09.871Z"
+        },
+        "standalone_question": "I am dissatisfied.",
+        "standalone_en": "I am dissatisfied.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "me asamadhani aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "माझ्या उत्तरांमुळे तुम्हाला असमाधान वाटत असल्याबद्दल मला खेद आहे. कृपया तुम्हाला कोणत्या विशिष्ट माहितीची आवश्यकता आहे ते सांगा, जेणेकरून मी तुम्हाला अधिक चांगल्या प्रकारे मदत करू शकेन.",
+        "en": "I'm sorry you're dissatisfied with my answers. Please tell me what specific information you need, so I can help you better.",
+        "timestamp": {
+          "$date": "2025-07-14T16:17:13.272Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पाऊस किती दिवस नाही ",
+        "en": "How long is it not raining? ",
+        "timestamp": {
+          "$date": "2025-07-14T16:17:37.999Z"
+        },
+        "standalone_question": "How many days will it not rain?",
+        "standalone_en": "How many days will it not rain?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "paus kiti divas nahi "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot no.1 Thompson\" साठी पुढील 7 दिवसांमध्ये पाऊस पडण्याची शक्यता खालीलप्रमाणे आहे:\n\n- **15 जुलै 2025**: 3.2 मिमी (35% शक्यता)\n- **16 जुलै 2025**: 2.1 मिमी (25% शक्यता)\n- **17 जुलै 2025**: 1.8 मिमी (20% शक्यता)\n- **18 जुलै 2025**: 1.1 मिमी (15% शक्यता)\n- **19 जुलै 2025**: 0.2 मिमी (20% शक्यता)\n- **20 जुलै 2025**: 0.2 मिमी (20% शक्यता)\n- **21 जुलै 2025**: 0.2 मिमी (20% शक्यता)\n- **22 जुलै 2025**: 0.5 मिमी (25% शक्यता)\n\nतुमच्या प्लॉटसाठी पाऊस येण्याची शक्यता कमी आहे. तुम्हाला आणखी काही विचारायचं आहे का?",
+        "en": "The chances of rain over the next 7 days for \"Plot No.1 Thompson\" are as follows:\n\n- **15 July 2025**: 3.2 mm (35% chance)\n- **16 July 2025**: 2.1 mm (25% chance)\n- **17 July 2025**: 1.8 mm (20% chance)\n- **18 July 2025**: 1.1 mm (15% chance)\n- **19 July 2025**: 0.2 mm (20% chance)\n- **20 July 2025**: 0.2 mm (20% chance)\n- **21 July 2025**: 0.2 mm (20% chance)\n- **22 July 2025**: 0.5 mm (25% chance)\n\nIt's unlikely to rain for your plot. Is there anything else you'd like to ask?",
+        "timestamp": {
+          "$date": "2025-07-14T16:17:47.519Z"
+        }
+      }
+    ],
+    "farmer_id": "vishalbhalerao514",
+    "farmer_plot_ids": [
+      "plotno1thompson682"
+    ],
+    "conversation_id": "68752cea20da621314aa4e4c",
+    "_id": "68752cea20da621314aa4e4c",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-14T16:22:38.004000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-07-14T16:14:35.003000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "कोणता रोग येऊ शकतो ",
+        "en": "What disease can occur? ",
+        "timestamp": {
+          "$date": "2025-07-14T16:14:35.003Z"
+        },
+        "standalone_question": "What disease could occur?",
+        "standalone_en": "What disease could occur?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "konta rog yeu shakato "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot no.1 Thompson\" साठी रोगांचे मेट्रिक्स उपलब्ध नाहीत. त्यामुळे कोणतेही रोग येऊ शकतात याबद्दल माहिती देता येत नाही. तुम्हाला आणखी काही माहिती हवी का?",
+        "en": "Patient metrics for \"Plot no.1 Thompson\" are not available. Therefore, information about any diseases can be given. Do you need any more information?",
+        "timestamp": {
+          "$date": "2025-07-14T16:14:54.477Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "डाऊनी  येईल का ",
+        "en": "Will Downey come? ",
+        "timestamp": {
+          "$date": "2025-07-14T16:15:15.508Z"
+        },
+        "standalone_question": "Will Downy come?",
+        "standalone_en": "Will Downy come?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "downey yeil ka "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot no.1 Thompson\" साठी डाऊनी मिड्यूवसाठी रोग मेट्रिक्स उपलब्ध नाहीत. त्यामुळे याबद्दल निश्चित माहिती देता येत नाही. तुम्हाला आणखी काही विचारायचं आहे का?",
+        "en": "Disease metrics are not available for the down midway for \"Plot no.1 Thompson\". Therefore, definitive information cannot be given about this. Do you want to ask anything else?",
+        "timestamp": {
+          "$date": "2025-07-14T16:15:22.107Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पाऊस पडेल का ",
+        "en": "Will it rain? ",
+        "timestamp": {
+          "$date": "2025-07-14T16:15:38.529Z"
+        },
+        "standalone_question": "Will it rain?",
+        "standalone_en": "Will it rain?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "paus padel ka "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot no.1 Thompson\" साठी 15 जुलै 2025 रोजी पाऊस पडण्याची शक्यता आहे. त्या दिवशी 3.2 मिमी पाऊस पडण्याची अपेक्षा आहे, परंतु पाऊस पडण्याची शक्यता 35% आहे. \n\nतुम्हाला आणखी काही माहिती हवी का?",
+        "en": "The rain for \"Plot no.1 Thompson\" is expected to fall on July 15, 2025. It is expected to rain 3.2 mm on that day, but the chance of rain falling is 35%. \n\nDo you need any more information?",
+        "timestamp": {
+          "$date": "2025-07-14T16:15:45.228Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "मला समाधान कारक उत्तर भेटत नाही ",
+        "en": "I can't find a satisfactory answer ",
+        "timestamp": {
+          "$date": "2025-07-14T16:16:12.684Z"
+        },
+        "standalone_question": "Why am I not receiving a satisfactory answer?",
+        "standalone_en": "Why am I not receiving a satisfactory answer?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mala samadhan karak uttar bhetat nahi "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या डिव्हाइससाठी रिचार्ज योजना सक्रिय आहे. तुमची योजना 25 सप्टेंबर 2025 पर्यंत सक्रिय आहे. \n\nतुमचा डिव्हाइस सध्या सक्रिय आहे आणि डेटा पाठवत आहे. \n\nतुम्हाला आणखी काही विचारायचं आहे का?",
+        "en": "The recharge plan for your device is active. Your plan is active until September 25, 2025. \n\nYour device is currently active and sending data. \n\nIs there anything else you'd like to ask?",
+        "timestamp": {
+          "$date": "2025-07-14T16:16:15.918Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "मला समाधान कारण उत्तर भेटत नाहीये ",
+        "en": "I'm satisfied because I can't find an answer ",
+        "timestamp": {
+          "$date": "2025-07-14T16:16:40.369Z"
+        },
+        "standalone_question": "Why am I not receiving a satisfactory answer?",
+        "standalone_en": "Why am I not receiving a satisfactory answer?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mala samadhan karan uttar bhetat nahiye "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या डिव्हाइससाठी रिचार्ज योजना सक्रिय आहे. तुमची योजना 25 सप्टेंबर 2025 पर्यंत सक्रिय आहे. तुमचा डिव्हाइस सध्या सक्रिय आहे आणि डेटा पाठवत आहे.\n\nतुम्हाला आणखी काही विचारायचं आहे का?",
+        "en": "The recharge plan for your device is active. Your plan is active until September 25, 2025. Your device is currently active and sending data.\n\nIs there anything else you'd like to ask?",
+        "timestamp": {
+          "$date": "2025-07-14T16:16:44.298Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "मी असमाधानी आहे ",
+        "en": "I am dissatisfied ",
+        "timestamp": {
+          "$date": "2025-07-14T16:17:09.871Z"
+        },
+        "standalone_question": "I am dissatisfied.",
+        "standalone_en": "I am dissatisfied.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "me asamadhani aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "माझ्या उत्तरांमुळे तुम्हाला असमाधान वाटत असल्याबद्दल मला खेद आहे. कृपया तुम्हाला कोणत्या विशिष्ट माहितीची आवश्यकता आहे ते सांगा, जेणेकरून मी तुम्हाला अधिक चांगल्या प्रकारे मदत करू शकेन.",
+        "en": "I'm sorry you're dissatisfied with my answers. Please tell me what specific information you need, so I can help you better.",
+        "timestamp": {
+          "$date": "2025-07-14T16:17:13.272Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पाऊस किती दिवस नाही ",
+        "en": "How long is it not raining? ",
+        "timestamp": {
+          "$date": "2025-07-14T16:17:37.999Z"
+        },
+        "standalone_question": "How many days will it not rain?",
+        "standalone_en": "How many days will it not rain?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "paus kiti divas nahi "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot no.1 Thompson\" साठी पुढील 7 दिवसांमध्ये पाऊस पडण्याची शक्यता खालीलप्रमाणे आहे:\n\n- **15 जुलै 2025**: 3.2 मिमी (35% शक्यता)\n- **16 जुलै 2025**: 2.1 मिमी (25% शक्यता)\n- **17 जुलै 2025**: 1.8 मिमी (20% शक्यता)\n- **18 जुलै 2025**: 1.1 मिमी (15% शक्यता)\n- **19 जुलै 2025**: 0.2 मिमी (20% शक्यता)\n- **20 जुलै 2025**: 0.2 मिमी (20% शक्यता)\n- **21 जुलै 2025**: 0.2 मिमी (20% शक्यता)\n- **22 जुलै 2025**: 0.5 मिमी (25% शक्यता)\n\nतुमच्या प्लॉटसाठी पाऊस येण्याची शक्यता कमी आहे. तुम्हाला आणखी काही विचारायचं आहे का?",
+        "en": "The chances of rain over the next 7 days for \"Plot No.1 Thompson\" are as follows:\n\n- **15 July 2025**: 3.2 mm (35% chance)\n- **16 July 2025**: 2.1 mm (25% chance)\n- **17 July 2025**: 1.8 mm (20% chance)\n- **18 July 2025**: 1.1 mm (15% chance)\n- **19 July 2025**: 0.2 mm (20% chance)\n- **20 July 2025**: 0.2 mm (20% chance)\n- **21 July 2025**: 0.2 mm (20% chance)\n- **22 July 2025**: 0.5 mm (25% chance)\n\nIt's unlikely to rain for your plot. Is there anything else you'd like to ask?",
+        "timestamp": {
+          "$date": "2025-07-14T16:17:47.519Z"
+        }
+      }
+    ],
+    "farmer_id": "vishalbhalerao514",
+    "farmer_plot_ids": [
+      "plotno1thompson682"
+    ],
+    "conversation_id": "68752cea20da621314aa4e4c",
+    "_id": "68752cea20da621314aa4e4c",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-14T16:22:38.004000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-07-14T16:14:35.003000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "@Rupesh-ws5hw",
+        "en": "@Rupesh-ws5hw",
+        "timestamp": {
+          "$date": "2025-07-14T11:07:19.537Z"
+        },
+        "standalone_question": "What is the username of the person you are referring to?",
+        "standalone_en": "What is the username of the person you are referring to?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like you mentioned a name or a tag. How can I assist you with your agricultural needs today?",
+        "en": "It seems like you mentioned a name or a tag. How can I assist you with your agricultural needs today?",
+        "timestamp": {
+          "$date": "2025-07-14T11:07:22.629Z"
+        }
+      }
+    ],
+    "farmer_id": "govindshinde",
+    "farmer_plot_ids": [
+      "4KSF4KSo4KWB4KS34KWN4KSV4KS1752490768938",
+      "4KSF4KSo4KWB4KS34KWN4KSV4KS1752490121194",
+      "4KSF4KSo4KWB4KS34KWN4KSV4KS1752490506325",
+      "4KSF4KSo4KWB4KS34KWN4KSV4KS1752490595458",
+      "plotno1anuksha"
+    ],
+    "conversation_id": "6874e4e6bf6de27ddb56c365",
+    "_id": "6874e4e6bf6de27ddb56c365",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-07-14T11:12:19.542000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-07-14T11:07:19.537000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "केळीवरील करप्या साठी काय फवारणी घेऊ",
+        "en": "What should we spray on bananas?",
+        "timestamp": {
+          "$date": "2025-07-14T10:46:09.485Z"
+        },
+        "standalone_question": "What treatment should be applied to prevent rot on bananas?",
+        "standalone_en": "What treatment should be applied to prevent rot on bananas?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kelivaril karapya sathi kay favarani gheu"
+      },
+      {
+        "role": "assistant",
+        "content": "सध्या \"केळीवरील करप्या\" साठी कोणतीही फवारणीची शेड्यूल उपलब्ध नाही. तुम्ही पुढील फवारणीसाठी योग्य वेळेची वाट पाहू शकता. जर तुम्हाला आणखी काही माहिती हवी असेल तर कृपया सांगा.",
+        "en": "There is currently no spraying schedule available for \"banana stalks.\" You can wait for the right time for the next spray. If you need any more information, please let me know.",
+        "timestamp": {
+          "$date": "2025-07-14T10:46:18.263Z"
+        }
+      }
+    ],
+    "farmer_id": "anilmahadevbhagat",
+    "farmer_plot_ids": [
+      "bananaplot1698"
+    ],
+    "conversation_id": "6874dff1ad22117e65d94ccd",
+    "_id": "6874dff1ad22117e65d94ccd",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-14T10:51:09.489000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-07-14T10:46:09.485000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "what is day degree for Puthumala",
+        "en": "what is day degree for Puthumala",
+        "timestamp": {
+          "$date": "2025-07-14T08:23:46.666Z"
+        },
+        "standalone_question": "What is the day degree for Puthumala?",
+        "standalone_en": "What is the day degree for Puthumala?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The growing degree days (GDD) for the plot \"Srock Puthumala\" are as follows:\n\n- **Total GDD**: 1347.0\n\nHere are the GDD values for the last few days:\n- **July 14, 2025**: 10.1\n- **July 13, 2025**: 11.1\n- **July 12, 2025**: 9.3\n- **July 11, 2025**: 10.2\n- **July 10, 2025**: 9.9\n\nIf you need more specific information or further assistance, feel free to ask!",
+        "en": "The growing degree days (GDD) for the plot \"Srock Puthumala\" are as follows:\n\n- **Total GDD**: 1347.0\n\nHere are the GDD values for the last few days:\n- **July 14, 2025**: 10.1\n- **July 13, 2025**: 11.1\n- **July 12, 2025**: 9.3\n- **July 11, 2025**: 10.2\n- **July 10, 2025**: 9.9\n\nIf you need more specific information or further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-07-14T08:23:54.425Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "what is the unit",
+        "en": "what is the unit",
+        "timestamp": {
+          "$date": "2025-07-14T08:24:08.945Z"
+        },
+        "standalone_question": "What is the unit of measurement for the growing degree days (GDD)?",
+        "standalone_en": "What is the unit of measurement for the growing degree days (GDD)?",
+        "retrieval": {
+          "tools": [
+            "get_historical_growing_degree_days  \nCalculates and retrieves historical growing degree days (GDD) data from all plots for the given date range."
+          ],
+          "faq": [
+            "Q: What are degree days?\nA: Degree days refer to the sum of temperature (heat) accumulated during the growth of the crop. It can also be called the age of the crop."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The unit for growing degree days (GDD) is typically expressed in degrees Celsius (°C) or degrees Fahrenheit (°F). GDD is calculated based on the average daily temperature, and it represents the accumulated heat required for crops to grow. \n\nIf you need further details or calculations, feel free to ask!",
+        "en": "The unit for growing degree days (GDD) is typically expressed in degrees Celsius (°C) or degrees Fahrenheit (°F). GDD is calculated based on the average daily temperature, and it represents the accumulated heat required for crops to grow. \n\nIf you need further details or calculations, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-07-14T08:24:12.688Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Tell me sunshine hours for puthumala",
+        "en": "Tell me sunshine hours for puthumala",
+        "timestamp": {
+          "$date": "2025-07-14T08:24:53.628Z"
+        },
+        "standalone_question": "What are the sunshine hours for Puthumala?",
+        "standalone_en": "What are the sunshine hours for Puthumala?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The sunshine hours for \"Srock Puthumala\" from July 10 to July 13, 2025, are as follows:\n\n- **July 10, 2025**: 5 hours\n- **July 11, 2025**: 4 hours\n- **July 12, 2025**: 6 hours\n- **July 13, 2025**: 3 hours\n\nIf you need more information or assistance, feel free to ask!",
+        "en": "The sunshine hours for \"Srock Puthumala\" from July 10 to July 13, 2025, are as follows:\n\n- **July 10, 2025**: 5 hours\n- **July 11, 2025**: 4 hours\n- **July 12, 2025**: 6 hours\n- **July 13, 2025**: 3 hours\n\nIf you need more information or assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-07-14T08:24:59.797Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "where I can check in the Fyllo aap",
+        "en": "where I can check in the Fyllo aap",
+        "timestamp": {
+          "$date": "2025-07-14T08:25:53.823Z"
+        },
+        "standalone_question": "Where can I check this information in the Fyllo app?",
+        "standalone_en": "Where can I check this information in the Fyllo app?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How I check my Fyllo app version? Or how do I know my Fyllo app is updated or not?\nA: In Fyllo app go to hamburger menu (click on “≡” three lines).\n   Then scroll down, you will see Fyllo logo and app version under it.",
+            "Q: Where can I find the fertigation schedule in the Fyllo app?\nA: To access the fertigation schedule:\n    1. Open the Fyllo app\n    2. Select \"My Farm\" at the bottom\n    3. Tap on the \"Fertigation\" option\n   You'll find the fertigation schedule there, including details about the required fertilizer applications.",
+            "Q: What is the current battery health and battery level of my Fyllo device?\nA: I'll check the battery information for your device. Let me gather that information for you.\n\nTo answer this question, I need to use the live sensor data tool to retrieve the most current battery readings.\n\nTool Selection: I should use the live_sensor_data tool\nTool Input: {\"plot_ids\": [\"your_plot_id\"]}\nTool Output: \n```\n{\n  \"airTemperature\": 28,\n  \"airHumidity\": 65,\n  \"soilTemperature\": 26,\n  \"soilMoisture1\": \"45 kPa\",\n  \"soilMoisture2\": \"62 kPa\",\n  \"leafWetness\": 0,\n  \"airPressure\": 1013.2,\n  \"lightIntensity\": 12540,\n  \"uvIndex\": 6,\n  \"windSpeed\": \"3.5kmph\",\n  \"windDirection\": \"NE\",\n  \"rainfall\": 0,\n  \"battery\": \"82%\",\n  \"timestamp\": \"2023-10-15 14:30:00\"\n}\n```\n\nYour Fyllo device currently has a battery level of 82%, which is good. This information was recorded at 2:30 PM today. The battery is in good health and has sufficient charge for continued operation.",
+            "Q: How does the Fyllo device work?\nA: The Fyllo device captures data from 11 sensors at regular intervals. This data is then analyzed using Fyllo's Weather & Agronomical Algorithms to provide alerts to farmers for disease & pest management, irrigation management, fertigation management, and weather prediction.",
+            "Q: How do I contact customer support for Fyllo?\nA: You can contact customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in. Do you want me to raise a support ticket for you?"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To check the battery health and battery level of your Fyllo device in the Fyllo app, follow these steps:\n\n1. **Open the Fyllo app** on your device.\n2. **Go to the hamburger menu** (click on the three lines \"≡\").\n3. **Select \"My Farm\"** from the options.\n4. Look for the **device information** section, where you should find details about the battery health and level.\n\nIf you have any more questions or need further assistance, feel free to ask!",
+        "en": "To check the battery health and battery level of your Fyllo device in the Fyllo app, follow these steps:\n\n1. **Open the Fyllo app** on your device.\n2. **Go to the hamburger menu** (click on the three lines \"≡\").\n3. **Select \"My Farm\"** from the options.\n4. Look for the **device information** section, where you should find details about the battery health and level.\n\nIf you have any more questions or need further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-07-14T08:26:00.083Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "where can I check Sunshine hours in fyllo application ",
+        "en": "where can I check Sunshine hours in fyllo application ",
+        "timestamp": {
+          "$date": "2025-07-14T08:26:22.823Z"
+        },
+        "standalone_question": "Where can I find the sunshine hours in the Fyllo application?",
+        "standalone_en": "Where can I find the sunshine hours in the Fyllo application?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How to measure/ calculate irrigation hours /water tank of my plot in fyllo app? How do I calculate irrigation hours for my plot? How to use the irrigation hours calculator?\nA: To calculate irrigation hours in the Fyllo app, follow these steps:\n\n1. Open the Fyllo App\n2. Go to the home screen\n3. Click on the soil moisture-1 sensor\n4. Scroll down to find the \"Irrigation hours\" section\n5. Fill in the required details such as:\n   - Root width (inches)\n   - Root depth (inches)\n   - Soil retention (mm)\n   - Dripper distance (feet)\n   - Dripper discharge (liters)\n6. Click the calculate button\n\nWould you like me to calculate the irrigation hours for you right now? I can retrieve your plot's irrigation settings and perform the calculation if you say yes.\n\nTool Selection: When user says yes, I should:\n1. Use get_irrigation_installation_settings tool to retrieve plot settings\n2. Check if all values are present and valid\n3. If values are valid, use calculate_irrigation_hours tool with these values\n4. If values are missing or invalid, ask the user to provide the missing values\n5. After calculating irrigation hours, display the irrigation installation settings that were used for the calculation\n6. Ask the user if they want to calculate irrigation hours with a different set of values, and if yes, prompt them to provide those values\n\nExample response if values are missing:\n\"I checked your plot settings, but I need some additional information to calculate irrigation hours accurately. Could you please provide the [missing value(s)]? Once you provide these details, I can complete the calculation for you.\"\n\nExample response after calculation:\n\"Based on your plot's irrigation settings, the calculated irrigation hours are [X] hours. \n\nI used the following settings for this calculation:\n- Root width: [value] inches\n- Root depth: [value] inches\n- Soil retention: [value] mm\n- Dripper distance: [value] feet\n- Dripper discharge: [value] liters\n\nWould you like to calculate irrigation hours with a different set of values? If yes, please provide the new values you'd like to use.\"",
+            "Q: What is the current battery health and battery level of my Fyllo device?\nA: I'll check the battery information for your device. Let me gather that information for you.\n\nTo answer this question, I need to use the live sensor data tool to retrieve the most current battery readings.\n\nTool Selection: I should use the live_sensor_data tool\nTool Input: {\"plot_ids\": [\"your_plot_id\"]}\nTool Output: \n```\n{\n  \"airTemperature\": 28,\n  \"airHumidity\": 65,\n  \"soilTemperature\": 26,\n  \"soilMoisture1\": \"45 kPa\",\n  \"soilMoisture2\": \"62 kPa\",\n  \"leafWetness\": 0,\n  \"airPressure\": 1013.2,\n  \"lightIntensity\": 12540,\n  \"uvIndex\": 6,\n  \"windSpeed\": \"3.5kmph\",\n  \"windDirection\": \"NE\",\n  \"rainfall\": 0,\n  \"battery\": \"82%\",\n  \"timestamp\": \"2023-10-15 14:30:00\"\n}\n```\n\nYour Fyllo device currently has a battery level of 82%, which is good. This information was recorded at 2:30 PM today. The battery is in good health and has sufficient charge for continued operation.",
+            "Q: Where can I find the fertigation schedule in the Fyllo app?\nA: To access the fertigation schedule:\n    1. Open the Fyllo app\n    2. Select \"My Farm\" at the bottom\n    3. Tap on the \"Fertigation\" option\n   You'll find the fertigation schedule there, including details about the required fertilizer applications."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To check sunshine hours in the Fyllo app, follow these steps:\n\n1. **Open the Fyllo app** on your device.\n2. **Go to the \"My Farm\" section** from the bottom menu.\n3. **Select your plot** for which you want to check the sunshine hours.\n4. Look for the **weather data section**, where you should find information about sunshine hours.\n\nIf you have any more questions or need further assistance, feel free to ask!",
+        "en": "To check sunshine hours in the Fyllo app, follow these steps:\n\n1. **Open the Fyllo app** on your device.\n2. **Go to the \"My Farm\" section** from the bottom menu.\n3. **Select your plot** for which you want to check the sunshine hours.\n4. Look for the **weather data section**, where you should find information about sunshine hours.\n\nIf you have any more questions or need further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-07-14T08:26:28.005Z"
+        }
+      }
+    ],
+    "farmer_id": "allenenoshmani",
+    "farmer_plot_ids": [
+      "attamaladivision",
+      "chooralmaladivision",
+      "chooralmalanerodivision",
+      "mundakainerodivision",
+      "mundakkaidivision",
+      "puthumaladivision"
+    ],
+    "conversation_id": "6874be9213b74ad18452e3c8",
+    "_id": "6874be9213b74ad18452e3c8",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-07-14T08:31:22.830000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-07-14T08:23:46.666000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ya vr sprey konta ghyava",
+        "en": "What to take this VR spray",
+        "timestamp": {
+          "$date": "2025-07-14T08:09:12.874Z"
+        },
+        "standalone_question": "What is the meaning of \"Ya vr sprey konta ghyava\"?",
+        "standalone_en": "What is the meaning of \"Ya vr sprey konta ghyava\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटसाठी या आठवड्यात कोणतीही रोग किंवा कीटक स्प्रेची शिफारस नाही. तुम्हाला स्प्रे करण्याची आवश्यकता नाही.",
+        "en": "There is no disease or insect spray recommended for your plot this week. You don't need to spray.",
+        "timestamp": {
+          "$date": "2025-07-14T08:09:20.589Z"
+        }
+      }
+    ],
+    "farmer_id": "balajikharabe",
+    "farmer_plot_ids": [
+      "supersonakagrepsplot678"
+    ],
+    "conversation_id": "6874bb28c56f790a309be18c",
+    "_id": "6874bb28c56f790a309be18c",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-14T08:14:12.878000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-07-14T08:09:12.874000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Spre for powederymeldeo",
+        "en": "Spre for powederymeldeo",
+        "timestamp": {
+          "$date": "2025-07-14T07:53:04.569Z"
+        },
+        "standalone_question": "What does \"Spre for powederymeldeo\" mean?",
+        "standalone_en": "What does \"Spre for powederymeldeo\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like you're looking for a spray recommendation for powdery mildew. Let me check the current conditions for your Ginger plot to see if it's a good time for spraying. Please hold on for a moment. \n\nI'll get the spray condition forecast for your plot.:\n\nI couldn't check the spray conditions for your Ginger plot at the moment. It might be due to a temporary issue with the system.\n\nIn the meantime, I recommend checking the weather conditions, such as humidity and temperature, as powdery mildew thrives in warm, dry conditions. If the weather is suitable, you can proceed with the spray.\n\nIf you need further assistance or want to raise a support ticket regarding this issue, please let me know!",
+        "en": "It seems like you're looking for a spray recommendation for powdery mildew. Let me check the current conditions for your Ginger plot to see if it's a good time for spraying. Please hold on for a moment. \n\nI'll get the spray condition forecast for your plot.:\n\nI couldn't check the spray conditions for your Ginger plot at the moment. It might be due to a temporary issue with the system.\n\nIn the meantime, I recommend checking the weather conditions, such as humidity and temperature, as powdery mildew thrives in warm, dry conditions. If the weather is suitable, you can proceed with the spray.\n\nIf you need further assistance or want to raise a support ticket regarding this issue, please let me know!",
+        "timestamp": {
+          "$date": "2025-07-14T07:53:14.058Z"
+        }
+      }
+    ],
+    "farmer_id": "pratikdeshmukh",
+    "farmer_plot_ids": [
+      "ginger379"
+    ],
+    "conversation_id": "6874b760a1f7b2a364e7607c",
+    "_id": "6874b760a1f7b2a364e7607c",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-07-14T07:58:04.573000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-07-14T07:53:04.569000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "या केळीच्या रोपाला कशामुळे झाले असेल<user uploaded image for analysis at 'bananaplot1332/2025-07-14-1752474763107.jpg'>",
+        "en": "What could have caused this banana plant<user uploaded image for analysis at 'bananaplot1332/2025-07-14-1752474763107.jpg' >",
+        "timestamp": {
+          "$date": "2025-07-14T06:33:08.042Z"
+        },
+        "standalone_question": "What could have caused the issue with the banana plant?",
+        "standalone_en": "What could have caused the issue with the banana plant?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ya kelichya ropala kashamule jhale asel<user uploaded image for analysis at 'bananaplot1332/2025-07-14-1752474763107.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "केळीच्या रोपांमध्ये पानांचे पिवळे आणि तपकिरी होणे हे पोषणाच्या कमतरते किंवा फंगल संक्रमणाचे संकेत असू शकतात. \n\nतुमच्या रोपांच्या आरोग्यावर लक्ष ठेवणे आणि खालील सामान्य उपाययोजना विचारात घेणे आवश्यक आहे:\n\n1. **मातीचे आरोग्य सुधारणा**: मातीमध्ये आवश्यक पोषक तत्वांची उपलब्धता सुनिश्चित करा.\n2. **पाण्याचे व्यवस्थापन**: जास्त पाणी देण्यापासून टाळा, ज्यामुळे मुळांमध्ये सड येऊ शकतो.\n3. **फंगल नियंत्रण**: जर फंगल संक्रमणाचा संशय असेल, तर व्यापक स्पेक्ट्रम फंगिसाइड वापरण्याचा विचार करा.\n\nअधिक अचूक निदान आणि उपचारांसाठी, कृपया प्रभावित क्षेत्रांवर लक्ष केंद्रित करून स्पष्ट चित्र प्रदान करा.",
+        "en": "Yellowing and browning of leaves in banana plants may be an indication of nutritional deficiencies or fungal infections. \n\nIt is important to monitor the health of your plants and consider the following general measures:\n\n1. **Improve soil health**: Ensure availability of essential nutrients in the soil.\n2. **Water management**: Avoid overwatering, which can cause rot in the roots.\n3. **Fungal control**: If fungal infection is suspected, consider using a broad spectrum fungicide.\n\nFor a more accurate diagnosis and treatment, please provide a clear picture by focusing on the affected areas.",
+        "timestamp": {
+          "$date": "2025-07-14T06:33:34.367Z"
+        }
+      }
+    ],
+    "farmer_id": "vijaybagalgulsadi",
+    "farmer_plot_ids": [
+      "bananaplot1332"
+    ],
+    "conversation_id": "6874a4a3c673f7945db9b94e",
+    "_id": "6874a4a3c673f7945db9b94e",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-14T06:38:08.048000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-07-14T06:33:08.042000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "आर्यन फोर जी काय आहे",
+        "en": "What is Aryan 4G?",
+        "timestamp": {
+          "$date": "2025-07-14T06:29:18.219Z"
+        },
+        "standalone_question": "What is Aryan 4G?",
+        "standalone_en": "What is Aryan 4G?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "aryan for g kay aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "माझ्या क्षमतेनुसार, \"आर्यन फोर जी\" संदर्भात माहिती नाही. कृपया अधिक स्पष्टता द्या किंवा दुसरे प्रश्न विचारा, जे मी तुम्हाला मदत करू शकतो.",
+        "en": "To the best of my ability, \"Aryan 4G\" is not known. Please provide more clarity or ask another question, which I can help you with.",
+        "timestamp": {
+          "$date": "2025-07-14T06:29:26.891Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Rn 4g काय आहे",
+        "en": "What is RN 4G",
+        "timestamp": {
+          "$date": "2025-07-14T06:30:45.252Z"
+        },
+        "standalone_question": "What is Rn 4G?",
+        "standalone_en": "What is Rn 4G?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "Rn 4g kay aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "\"RN 4G\" संदर्भात माहिती नाही. तुम्हाला \"4G\" तंत्रज्ञानाबद्दल माहिती हवी का? 4G म्हणजे चौथी पिढी मोबाइल नेटवर्क तंत्रज्ञान, जे जलद इंटरनेट कनेक्टिव्हिटी आणि डेटा ट्रान्सफर प्रदान करते. कृपया अधिक माहिती द्या, जेणेकरून मी तुम्हाला योग्य माहिती देऊ शकेन.",
+        "en": "No information about \"RN 4G\". Do you need to know about \"4G\" technology? 4G stands for fourth generation mobile network technology, which provides fast internet connectivity and data transfer. Please provide more information, so that I can give you the correct information.",
+        "timestamp": {
+          "$date": "2025-07-14T06:30:49.715Z"
+        }
+      }
+    ],
+    "farmer_id": "anilmahadevbhagat",
+    "farmer_plot_ids": [
+      "bananaplot1698"
+    ],
+    "conversation_id": "6874a3bdb4b3ff80c8af60f3",
+    "_id": "6874a3bdb4b3ff80c8af60f3",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-14T06:35:45.256000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-07-14T06:29:18.219000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पेस्टिसाइड तपशील द्यावा",
+        "en": "Pestide details should be given",
+        "timestamp": {
+          "$date": "2025-07-14T05:16:33.820Z"
+        },
+        "standalone_question": "Please provide details about the pesticide.",
+        "standalone_en": "Please provide details about the pesticide.",
+        "retrieval": {
+          "tools": [
+            "get_disease_pest_schedule  \nRetrieves the farmer's current and past pesticide-related spray recommendations with spray details, based on dates. Dates are mandatory."
+          ],
+          "faq": []
+        },
+        "content_transliterated": "pesticide tapashil dyava"
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या \"बनाना प्लॉट 1\" साठी या आठवड्यात कोणतेही पेस्टिसाइड स्प्रे करण्याची शिफारस केलेली नाही. जर तुम्हाला आणखी काही माहिती हवी असेल तर कृपया सांगा.",
+        "en": "No pesticide spray is recommended this week for your \"Banana Plot 1.\" If you need any more information, please let me know.",
+        "timestamp": {
+          "$date": "2025-07-14T05:16:37.817Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पेस्टिसाइड मध्ये कुठले घटक असलेले फवारणी करू",
+        "en": "What ingredients should we spray with pesticides?",
+        "timestamp": {
+          "$date": "2025-07-14T05:17:04.149Z"
+        },
+        "standalone_question": "What ingredients should be included in the pesticide spray?",
+        "standalone_en": "What ingredients should be included in the pesticide spray?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice.",
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed"
+          ]
+        },
+        "content_transliterated": "pesticide madhye kuthale ghatak asalele favarani karu"
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या \"बनाना प्लॉट 1\" साठी पेस्टिसाइड फवारणीसाठी खालील घटकांचा वापर केला जाऊ शकतो:\n\n1. **इमिडाक्लोप्रिड (Insecticide)**: 600 FS – 5 ते 8 मिली/किलो बियाणे\n2. **थिराम (Fungicide)**: 2 ते 3 ग्रॅम/किलो बियाणे\n\nकृपया या घटकांचा वापर करताना योग्य प्रमाण आणि पद्धतींचा विचार करा. अधिक माहिती हवी असल्यास, कृपया सांगा.",
+        "en": "The following ingredients can be used for pesticide spraying for your \"banana plot 1\":\n\n1. Imidacloprid (Insecticide): 600 FS – 5 to 8 ml/kg of seeds\n2. Thiram (Fungicide): 2 to 3 gm/kg of seeds\n\nPlease consider the correct amounts and methods when using these components. If you need more information, please let me know.",
+        "timestamp": {
+          "$date": "2025-07-14T05:17:10.634Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "या संदर्भात अधिक माहिती द्यावी",
+        "en": "More information should be provided in this regard.",
+        "timestamp": {
+          "$date": "2025-07-14T05:17:44.019Z"
+        },
+        "standalone_question": "Could you provide more information on this topic?",
+        "standalone_en": "Could you provide more information on this topic?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ya sandarbhat adhik mahiti dyavi"
+      },
+      {
+        "role": "assistant",
+        "content": "\"बनाना प्लॉट 1\" साठी 14 जुलै 2025 ते 21 जुलै 2025 या कालावधीत कोणतीही पेस्टिसाइड फवारणीची शिफारस केलेली नाही. \n\nजर तुम्हाला विशिष्ट पेस्टिसाइड घटकांबद्दल अधिक माहिती हवी असेल किंवा कोणत्या विशिष्ट समस्यांसाठी उपाययोजना हवी असतील, तर कृपया सांगा.",
+        "en": "No pesticide spraying is recommended for \"Banana Plot 1\" from July 14, 2025 to July 21, 2025. \n\nIf you would like more information about specific pesticide ingredients or need solutions for specific problems, please let us know.",
+        "timestamp": {
+          "$date": "2025-07-14T05:17:49.668Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "थेराम काय आहे",
+        "en": "What is Theram",
+        "timestamp": {
+          "$date": "2025-07-14T05:18:47.895Z"
+        },
+        "standalone_question": "What is thiram?",
+        "standalone_en": "What is thiram?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "theram kay aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "थिराम (Thiram) एक प्रकारचा फंगीसाइड आहे जो मुख्यतः पिकांच्या बियाण्यांच्या उपचारासाठी वापरला जातो. याचा उपयोग बियाण्यांवर विविध फंगसजन्य रोगांपासून संरक्षण करण्यासाठी केला जातो. थिराम बियाण्यांच्या उगवणीत सुधारणा करतो आणि त्यांना अधिक मजबूत बनवतो.\n\n**उपयोग:**\n- बियाण्यांच्या उपचारासाठी: थिराम 2 ते 3 ग्रॅम प्रति किलो बियाणे प्रमाणात वापरला जातो.\n- विविध पिकांमध्ये फंगसजन्य रोगांवर नियंत्रण ठेवण्यासाठी.\n\nकृपया थिरामचा वापर करताना योग्य प्रमाण आणि पद्धतींचा विचार करा. अधिक माहिती हवी असल्यास, कृपया सांगा.",
+        "en": "Thiram is a type of fungicide that is mainly used to treat crop seeds. It is used to protect the seeds from various fungal diseases. Thiram improves the germination of seeds and makes them stronger.\n\n**Use:**\nFor seed treatment: Thiram is used in 2 to 3 grams per kilogram of seed.\n- To control fungal diseases in various crops.\n\nPlease consider the appropriate standards and methods when using Thiram. If you need more information, please let me know.",
+        "timestamp": {
+          "$date": "2025-07-14T05:18:54.652Z"
+        }
+      }
+    ],
+    "farmer_id": "anilmahadevbhagat",
+    "farmer_plot_ids": [
+      "bananaplot1698"
+    ],
+    "conversation_id": "687492b1b7a144ddaa4092d5",
+    "_id": "687492b1b7a144ddaa4092d5",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-14T05:23:47.901000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-07-14T05:16:33.820000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पेस्टिसाइड तपशील द्यावा",
+        "en": "Pestide details should be given",
+        "timestamp": {
+          "$date": "2025-07-14T05:16:33.820Z"
+        },
+        "standalone_question": "Please provide details about the pesticide.",
+        "standalone_en": "Please provide details about the pesticide.",
+        "retrieval": {
+          "tools": [
+            "get_disease_pest_schedule  \nRetrieves the farmer's current and past pesticide-related spray recommendations with spray details, based on dates. Dates are mandatory."
+          ],
+          "faq": []
+        },
+        "content_transliterated": "pesticide tapashil dyava"
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या \"बनाना प्लॉट 1\" साठी या आठवड्यात कोणतेही पेस्टिसाइड स्प्रे करण्याची शिफारस केलेली नाही. जर तुम्हाला आणखी काही माहिती हवी असेल तर कृपया सांगा.",
+        "en": "No pesticide spray is recommended this week for your \"Banana Plot 1.\" If you need any more information, please let me know.",
+        "timestamp": {
+          "$date": "2025-07-14T05:16:37.817Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पेस्टिसाइड मध्ये कुठले घटक असलेले फवारणी करू",
+        "en": "What ingredients should we spray with pesticides?",
+        "timestamp": {
+          "$date": "2025-07-14T05:17:04.149Z"
+        },
+        "standalone_question": "What ingredients should be included in the pesticide spray?",
+        "standalone_en": "What ingredients should be included in the pesticide spray?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice.",
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed"
+          ]
+        },
+        "content_transliterated": "pesticide madhye kuthale ghatak asalele favarani karu"
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या \"बनाना प्लॉट 1\" साठी पेस्टिसाइड फवारणीसाठी खालील घटकांचा वापर केला जाऊ शकतो:\n\n1. **इमिडाक्लोप्रिड (Insecticide)**: 600 FS – 5 ते 8 मिली/किलो बियाणे\n2. **थिराम (Fungicide)**: 2 ते 3 ग्रॅम/किलो बियाणे\n\nकृपया या घटकांचा वापर करताना योग्य प्रमाण आणि पद्धतींचा विचार करा. अधिक माहिती हवी असल्यास, कृपया सांगा.",
+        "en": "The following ingredients can be used for pesticide spraying for your \"banana plot 1\":\n\n1. Imidacloprid (Insecticide): 600 FS – 5 to 8 ml/kg of seeds\n2. Thiram (Fungicide): 2 to 3 gm/kg of seeds\n\nPlease consider the correct amounts and methods when using these components. If you need more information, please let me know.",
+        "timestamp": {
+          "$date": "2025-07-14T05:17:10.634Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "या संदर्भात अधिक माहिती द्यावी",
+        "en": "More information should be provided in this regard.",
+        "timestamp": {
+          "$date": "2025-07-14T05:17:44.019Z"
+        },
+        "standalone_question": "Could you provide more information on this topic?",
+        "standalone_en": "Could you provide more information on this topic?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ya sandarbhat adhik mahiti dyavi"
+      },
+      {
+        "role": "assistant",
+        "content": "\"बनाना प्लॉट 1\" साठी 14 जुलै 2025 ते 21 जुलै 2025 या कालावधीत कोणतीही पेस्टिसाइड फवारणीची शिफारस केलेली नाही. \n\nजर तुम्हाला विशिष्ट पेस्टिसाइड घटकांबद्दल अधिक माहिती हवी असेल किंवा कोणत्या विशिष्ट समस्यांसाठी उपाययोजना हवी असतील, तर कृपया सांगा.",
+        "en": "No pesticide spraying is recommended for \"Banana Plot 1\" from July 14, 2025 to July 21, 2025. \n\nIf you would like more information about specific pesticide ingredients or need solutions for specific problems, please let us know.",
+        "timestamp": {
+          "$date": "2025-07-14T05:17:49.668Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "थेराम काय आहे",
+        "en": "What is Theram",
+        "timestamp": {
+          "$date": "2025-07-14T05:18:47.895Z"
+        },
+        "standalone_question": "What is thiram?",
+        "standalone_en": "What is thiram?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "theram kay aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "थिराम (Thiram) एक प्रकारचा फंगीसाइड आहे जो मुख्यतः पिकांच्या बियाण्यांच्या उपचारासाठी वापरला जातो. याचा उपयोग बियाण्यांवर विविध फंगसजन्य रोगांपासून संरक्षण करण्यासाठी केला जातो. थिराम बियाण्यांच्या उगवणीत सुधारणा करतो आणि त्यांना अधिक मजबूत बनवतो.\n\n**उपयोग:**\n- बियाण्यांच्या उपचारासाठी: थिराम 2 ते 3 ग्रॅम प्रति किलो बियाणे प्रमाणात वापरला जातो.\n- विविध पिकांमध्ये फंगसजन्य रोगांवर नियंत्रण ठेवण्यासाठी.\n\nकृपया थिरामचा वापर करताना योग्य प्रमाण आणि पद्धतींचा विचार करा. अधिक माहिती हवी असल्यास, कृपया सांगा.",
+        "en": "Thiram is a type of fungicide that is mainly used to treat crop seeds. It is used to protect the seeds from various fungal diseases. Thiram improves the germination of seeds and makes them stronger.\n\n**Use:**\nFor seed treatment: Thiram is used in 2 to 3 grams per kilogram of seed.\n- To control fungal diseases in various crops.\n\nPlease consider the appropriate standards and methods when using Thiram. If you need more information, please let me know.",
+        "timestamp": {
+          "$date": "2025-07-14T05:18:54.652Z"
+        }
+      }
+    ],
+    "farmer_id": "anilmahadevbhagat",
+    "farmer_plot_ids": [
+      "bananaplot1698"
+    ],
+    "conversation_id": "687492b1b7a144ddaa4092d5",
+    "_id": "687492b1b7a144ddaa4092d5",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-14T05:23:47.901000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-07-14T05:16:33.820000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पानावर काळे ठिपकेत आलेत पानाचे शेंडेकर पथ आहेत",
+        "en": "The leaf has black dotted leaves",
+        "timestamp": {
+          "$date": "2025-07-14T05:10:51.580Z"
+        },
+        "standalone_question": "What are the black spots on the leaves, and what are the symptoms associated with them?",
+        "standalone_en": "What are the black spots on the leaves, and what are the symptoms associated with them?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "panavar kale thipaket alet panache shendekar path ahet"
+      },
+      {
+        "role": "assistant",
+        "content": "काळ्या ठिपक्यांचे पानावर येणे हे सामान्यतः काही रोगांचे संकेत असू शकते, जसे की \"अल्टरनारिया\" किंवा \"बोट्रायटिस\" (ग्रे मोल्ड). यामुळे पानांचे शेंडेकर पथ देखील प्रभावित होऊ शकतात.\n\nआपण या समस्येवर उपाययोजना करण्यासाठी खालील गोष्टी करू शकता:\n\n1. **पेस्टिसाइड स्प्रे**: योग्य पेस्टिसाइड वापरून पानांवर स्प्रे करणे आवश्यक आहे. \n2. **साफसफाई**: प्रभावित पानांचे काढून टाका आणि शेतात स्वच्छता ठेवा.\n3. **पाण्याचे व्यवस्थापन**: पाण्याचे योग्य व्यवस्थापन करा, कारण ओलावा रोगांच्या प्रसाराला प्रोत्साहन देऊ शकतो.\n\nआपल्याला पेस्टिसाइड स्प्रे करण्याची शिफारस हवी असल्यास, कृपया मला सांगा, मी त्यासाठी तपशील देऊ शकतो.",
+        "en": "Black patches on the leaves can usually be a sign of certain diseases, such as \"alternaria\" or \"botritis\" (gray mold). It can also affect the shenanigan pathways of the leaves.\n\nYou can do the following to address this problem:\n\n1. **Pesticide Spray**: It is necessary to spray the leaves using the right pesticide. \n2. **Cleaning**: Remove the affected leaves and keep the field clean.\n3. **Water management**: Manage water properly, as moisture can promote the spread of diseases.\n\nIf you'd like a recommendation to spray pesticides, please let me know, I can provide details for that.",
+        "timestamp": {
+          "$date": "2025-07-14T05:10:59.967Z"
+        }
+      }
+    ],
+    "farmer_id": "anilmahadevbhagat",
+    "farmer_plot_ids": [
+      "bananaplot1698"
+    ],
+    "conversation_id": "6874915b2eed04a4c6c88c00",
+    "_id": "6874915b2eed04a4c6c88c00",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-14T05:15:51.584000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-07-14T05:10:51.580000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Npk",
+        "en": "Npk",
+        "timestamp": {
+          "$date": "2025-07-14T05:03:22.822Z"
+        },
+        "standalone_question": "What does \"Npk\" mean?",
+        "standalone_en": "What does \"Npk\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "NPK fertilizers are a type of mixed fertilizer that contains three essential nutrients for plant growth: Nitrogen (N), Phosphorus (P), and Potassium (K). The numbers associated with NPK fertilizers, such as 10-10-10, indicate the percentage by weight of each nutrient in the mixture. \n\n- **Nitrogen (N)** promotes leaf and stem growth.\n- **Phosphorus (P)** supports root development and flowering.\n- **Potassium (K)** enhances overall plant health and disease resistance.\n\nFor example, a fertilizer labeled 20-10-10 contains 20% Nitrogen, 10% Phosphorus, and 10% Potassium. Different formulations are available to meet specific crop needs, such as 0-40-37 or 10-26-26, depending on the nutrient requirements of the plants being cultivated. \n\nUsing the right NPK fertilizer can significantly improve crop yield and quality.",
+        "en": "NPK fertilizers are a type of mixed fertilizer that contains three essential nutrients for plant growth: Nitrogen (N), Phosphorus (P), and Potassium (K). The numbers associated with NPK fertilizers, such as 10-10-10, indicate the percentage by weight of each nutrient in the mixture. \n\n- **Nitrogen (N)** promotes leaf and stem growth.\n- **Phosphorus (P)** supports root development and flowering.\n- **Potassium (K)** enhances overall plant health and disease resistance.\n\nFor example, a fertilizer labeled 20-10-10 contains 20% Nitrogen, 10% Phosphorus, and 10% Potassium. Different formulations are available to meet specific crop needs, such as 0-40-37 or 10-26-26, depending on the nutrient requirements of the plants being cultivated. \n\nUsing the right NPK fertilizer can significantly improve crop yield and quality.",
+        "timestamp": {
+          "$date": "2025-07-14T05:03:28.624Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Cal",
+        "en": "Cal",
+        "timestamp": {
+          "$date": "2025-07-14T05:03:50.715Z"
+        },
+        "standalone_question": "What does \"Cal\" refer to in the context of fertilizers?",
+        "standalone_en": "What does \"Cal\" refer to in the context of fertilizers?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Calcium (Ca) is an essential nutrient for plants, playing a crucial role in various physiological processes. Here are some key points about calcium in agriculture:\n\n1. **Cell Wall Structure**: Calcium is vital for the formation and stability of cell walls, helping to maintain plant structure and integrity.\n\n2. **Nutrient Uptake**: It aids in the uptake of other nutrients and helps in the transport of sugars and starches within the plant.\n\n3. **Root Development**: Calcium promotes healthy root growth and development, which is essential for nutrient absorption.\n\n4. **Disease Resistance**: Adequate calcium levels can enhance a plant's resistance to diseases and pests.\n\n5. **Soil pH**: Calcium can help to neutralize acidic soils, improving overall soil health and nutrient availability.\n\nCalcium can be supplied through various sources, including lime (calcium carbonate), gypsum (calcium sulfate), and specific calcium fertilizers. It's important to monitor soil calcium levels to ensure optimal plant growth and development.",
+        "en": "Calcium (Ca) is an essential nutrient for plants, playing a crucial role in various physiological processes. Here are some key points about calcium in agriculture:\n\n1. **Cell Wall Structure**: Calcium is vital for the formation and stability of cell walls, helping to maintain plant structure and integrity.\n\n2. **Nutrient Uptake**: It aids in the uptake of other nutrients and helps in the transport of sugars and starches within the plant.\n\n3. **Root Development**: Calcium promotes healthy root growth and development, which is essential for nutrient absorption.\n\n4. **Disease Resistance**: Adequate calcium levels can enhance a plant's resistance to diseases and pests.\n\n5. **Soil pH**: Calcium can help to neutralize acidic soils, improving overall soil health and nutrient availability.\n\nCalcium can be supplied through various sources, including lime (calcium carbonate), gypsum (calcium sulfate), and specific calcium fertilizers. It's important to monitor soil calcium levels to ensure optimal plant growth and development.",
+        "timestamp": {
+          "$date": "2025-07-14T05:03:55.546Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Bor",
+        "en": "There",
+        "timestamp": {
+          "$date": "2025-07-14T05:04:20.502Z"
+        },
+        "standalone_question": "What is the role of boron in plant growth and development?",
+        "standalone_en": "What is the role of boron in plant growth and development?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Boron (B) is a micronutrient essential for plant growth and development. Here are some key roles and benefits of boron in agriculture:\n\n1. **Cell Wall Formation**: Boron is crucial for the formation of cell walls, helping to maintain structural integrity in plants.\n\n2. **Pollination and Fruit Set**: It plays a significant role in pollination, seed development, and fruit set, making it vital for crops that produce fruits and seeds.\n\n3. **Nutrient Transport**: Boron aids in the transport of sugars and other nutrients within the plant, ensuring proper growth and development.\n\n4. **Root Development**: It promotes healthy root growth, which is essential for nutrient and water uptake.\n\n5. **Disease Resistance**: Adequate boron levels can enhance a plant's resistance to certain diseases.\n\nBoron deficiency can lead to various issues, such as poor fruit development, blossom drop, and stunted growth. It can be supplied through boron-containing fertilizers or soil amendments. Regular soil testing can help determine the need for boron application in your crops.",
+        "en": "Boron (B) is a micronutrient essential for plant growth and development. Here are some key roles and benefits of boron in agriculture:\n\n1. **Cell Wall Formation**: Boron is crucial for the formation of cell walls, helping to maintain structural integrity in plants.\n\n2. **Pollination and Fruit Set**: It plays a significant role in pollination, seed development, and fruit set, making it vital for crops that produce fruits and seeds.\n\n3. **Nutrient Transport**: Boron aids in the transport of sugars and other nutrients within the plant, ensuring proper growth and development.\n\n4. **Root Development**: It promotes healthy root growth, which is essential for nutrient and water uptake.\n\n5. **Disease Resistance**: Adequate boron levels can enhance a plant's resistance to certain diseases.\n\nBoron deficiency can lead to various issues, such as poor fruit development, blossom drop, and stunted growth. It can be supplied through boron-containing fertilizers or soil amendments. Regular soil testing can help determine the need for boron application in your crops.",
+        "timestamp": {
+          "$date": "2025-07-14T05:04:27.817Z"
+        }
+      }
+    ],
+    "farmer_id": "atishchavankasegaon",
+    "farmer_plot_ids": [
+      "manikchaman5acre"
+    ],
+    "conversation_id": "68748f9a5d83d9de43c4f555",
+    "_id": "68748f9a5d83d9de43c4f555",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-14T05:09:20.506000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-07-14T05:03:22.822000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "tell me yesterday's rainfall for all the division except Nero make it all in table format and add average also ",
+        "en": "tell me yesterday's rainfall for all the division except Nero make it all in table format and add average also ",
+        "timestamp": {
+          "$date": "2025-07-14T04:34:03.856Z"
+        },
+        "standalone_question": "What was yesterday's rainfall for all divisions except Nero, presented in a table format with the average included?",
+        "standalone_en": "What was yesterday's rainfall for all divisions except Nero, presented in a table format with the average included?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the rainfall data for all divisions except Nero for yesterday (July 13, 2025):\n\n| Plot Name               | Rainfall (mm) |\n|------------------------|----------------|\n| Srock Attamala         | 22             |\n| Srock Chooralmala Kairo| 20             |\n| Srock Mundakkai Kairo  | 21             |\n| Srock Puthumala        | 22             |\n| **Average**            | **21.25**      |\n\nThe average rainfall across these plots was 21.25 mm.",
+        "en": "Here is the rainfall data for all divisions except Nero for yesterday (July 13, 2025):\n\n| Plot Name               | Rainfall (mm) |\n|------------------------|----------------|\n| Srock Attamala         | 22             |\n| Srock Chooralmala Kairo| 20             |\n| Srock Mundakkai Kairo  | 21             |\n| Srock Puthumala        | 22             |\n| **Average**            | **21.25**      |\n\nThe average rainfall across these plots was 21.25 mm.",
+        "timestamp": {
+          "$date": "2025-07-14T04:34:30.841Z"
+        }
+      }
+    ],
+    "farmer_id": "allenenoshmani",
+    "farmer_plot_ids": [
+      "attamaladivision",
+      "chooralmaladivision",
+      "chooralmalanerodivision",
+      "mundakainerodivision",
+      "mundakkaidivision",
+      "puthumaladivision"
+    ],
+    "conversation_id": "687488ba7d1e821b2426920f",
+    "_id": "687488ba7d1e821b2426920f",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-07-14T04:39:03.872000Z"
+    },
+    "tag": "historical data",
+    "conv_date": "2025-07-14T04:34:03.856000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "tell me yesterday's rainfall for all the divisions except Nero make it all in table format and add average also ",
+        "en": "tell me yesterday's rainfall for all the divisions except Nero make it all in table format and add average also ",
+        "timestamp": {
+          "$date": "2025-07-14T02:27:45.831Z"
+        },
+        "standalone_question": "What was yesterday's rainfall for all divisions except Nero, presented in table format, including the average?",
+        "standalone_en": "What was yesterday's rainfall for all divisions except Nero, presented in table format, including the average?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the rainfall data for all the divisions except Nero for yesterday (July 13, 2025):\n\n| Plot Name               | Rainfall (mm) |\n|------------------------|----------------|\n| Srock Attamala         | 22             |\n| Srock Chooralmala Kairo| 20             |\n| Srock Mundakkai Kairo  | 21             |\n| Srock Puthumala        | 22             |\n| **Average**            | **21.25**      |\n\nThe average rainfall across these plots was 21.25 mm.",
+        "en": "Here's the rainfall data for all the divisions except Nero for yesterday (July 13, 2025):\n\n| Plot Name               | Rainfall (mm) |\n|------------------------|----------------|\n| Srock Attamala         | 22             |\n| Srock Chooralmala Kairo| 20             |\n| Srock Mundakkai Kairo  | 21             |\n| Srock Puthumala        | 22             |\n| **Average**            | **21.25**      |\n\nThe average rainfall across these plots was 21.25 mm.",
+        "timestamp": {
+          "$date": "2025-07-14T02:27:55.102Z"
+        }
+      }
+    ],
+    "farmer_id": "allenenoshmani",
+    "farmer_plot_ids": [
+      "attamaladivision",
+      "chooralmaladivision",
+      "chooralmalanerodivision",
+      "mundakainerodivision",
+      "mundakkaidivision",
+      "puthumaladivision"
+    ],
+    "conversation_id": "68746b21e8e6f50f824073d3",
+    "_id": "68746b21e8e6f50f824073d3",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-07-14T02:32:45.836000Z"
+    },
+    "tag": "historical data",
+    "conv_date": "2025-07-14T02:27:45.831000+00:00"
+  }
+]

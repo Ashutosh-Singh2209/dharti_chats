@@ -1,0 +1,563 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Fertigation ",
+        "en": "Fertigation ",
+        "timestamp": {
+          "$date": "2025-05-01T13:48:10.956Z"
+        },
+        "standalone_question": "What is fertigation?",
+        "standalone_en": "What is fertigation?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available.",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: Where can I find the fertigation schedule in the Fyllo app?\nA: To access the fertigation schedule:\n    1. Open the Fyllo app\n    2. Select \"My Farm\" at the bottom\n    3. Tap on the \"Fertigation\" option\n   You'll find the fertigation schedule there, including details about the required fertilizer applications.",
+            "Q: How do I generate a fertigation schedule in the app?\nA: To generate a fertigation schedule, follow these steps:\n\n    1. Go to \"My Farm\"\n    2. Select \"Fertigation\"\n    3. Tap \"Create Report\"\n    4. Fill in all the required details\n    5. Save the report\n    If you have soil, leaf, or petiole test data, you can input this for a more customized schedule. Otherwise, we can generate a basic schedule using general crop and regional data."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the fertigation schedule for your **Cucumber plots** during the **Vegetative growth** stage:\n\n### Current Week (Week 1)\n- **Day 1 (May 1, 2025)**:\n  - **Fertilizers**:\n    - 12-61-0: 3 kg/acre\n    - Calcium nitrate: 3 kg/acre\n  - **Notes**:\n    - Calcium nitrate should be applied separately, 15-20 minutes after application of other fertilizers.\n    - Phosphoric acid should be applied separately, 15-20 minutes before application of other fertilizers.\n\n- **Day 3 (May 3, 2025)**:\n  - **Fertilizers**:\n    - 12-61-0: 3.5 kg/acre\n  - **Notes**:\n    - Same as above.\n\n- **Day 5 (May 5, 2025)**:\n  - **Fertilizers**:\n    - 12-61-0: 3.5 kg/acre\n    - Magnesium Sulphate: 3 kg/acre\n  - **Notes**:\n    - Same as above.\n\n### Next Week (Week 2)\n- **Starts on June 2, 2025**:\n  - **Day 1**:\n    - **Fertilizers**:\n      - Potassium Nitrate: 4 kg/acre\n      - Calcium nitrate: 2 kg/acre\n    - **Notes**:\n      - Same as above.\n\n  - **Day 3**:\n    - **Fertilizers**:\n      - 12-61-0: 3.5 kg/acre\n    - **Notes**:\n      - Same as above.\n\n  - **Day 5**:\n    - **Fertilizers**:\n      - Potassium Nitrate: 4 kg/acre\n    - **Notes**:\n      - Same as above.\n\nMake sure to follow the notes regarding the application timing of Calcium nitrate and Phosphoric acid for optimal results!",
+        "en": "Here's the fertigation schedule for your **Cucumber plots** during the **Vegetative growth** stage:\n\n### Current Week (Week 1)\n- **Day 1 (May 1, 2025)**:\n  - **Fertilizers**:\n    - 12-61-0: 3 kg/acre\n    - Calcium nitrate: 3 kg/acre\n  - **Notes**:\n    - Calcium nitrate should be applied separately, 15-20 minutes after application of other fertilizers.\n    - Phosphoric acid should be applied separately, 15-20 minutes before application of other fertilizers.\n\n- **Day 3 (May 3, 2025)**:\n  - **Fertilizers**:\n    - 12-61-0: 3.5 kg/acre\n  - **Notes**:\n    - Same as above.\n\n- **Day 5 (May 5, 2025)**:\n  - **Fertilizers**:\n    - 12-61-0: 3.5 kg/acre\n    - Magnesium Sulphate: 3 kg/acre\n  - **Notes**:\n    - Same as above.\n\n### Next Week (Week 2)\n- **Starts on June 2, 2025**:\n  - **Day 1**:\n    - **Fertilizers**:\n      - Potassium Nitrate: 4 kg/acre\n      - Calcium nitrate: 2 kg/acre\n    - **Notes**:\n      - Same as above.\n\n- **Day 3**:\n    - **Fertilizers**:\n      - 12-61-0: 3.5 kg/acre\n    - **Notes**:\n      - Same as above.\n\n- **Day 5**:\n    - **Fertilizers**:\n      - Potassium Nitrate: 4 kg/acre\n    - **Notes**:\n      - Same as above.\n\nMake sure to follow the notes regarding the application timing of Calcium nitrate and Phosphoric acid for optimal results!",
+        "timestamp": {
+          "$date": "2025-05-01T13:48:22.126Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Fertigation timing between 12:61:00 and calcium nitrate ",
+        "en": "Fertigation timing between 12:61:00 and calcium nitrate ",
+        "timestamp": {
+          "$date": "2025-05-01T13:50:00.456Z"
+        },
+        "standalone_question": "What is the recommended timing for applying 12-61-0 fertilizer in relation to calcium nitrate during fertigation?",
+        "standalone_en": "What is the recommended timing for applying 12-61-0 fertilizer in relation to calcium nitrate during fertigation?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For your **Cucumber plots** during the **Vegetative growth** stage, here are the fertigation timings and details for **12-61-0** and **Calcium nitrate**:\n\n### Current Week (Week 1)\n- **Day 1 (May 1, 2025)**:\n  - **Fertilizers**:\n    - **12-61-0**: 3 kg/acre\n    - **Calcium nitrate**: 3 kg/acre\n  - **Timing**: Apply Calcium nitrate **15-20 minutes after** applying 12-61-0.\n\n- **Day 3 (May 3, 2025)**:\n  - **Fertilizers**:\n    - **12-61-0**: 3.5 kg/acre\n    - **Calcium nitrate**: 3 kg/acre\n  - **Timing**: Apply Calcium nitrate **15-20 minutes after** applying 12-61-0.\n\n- **Day 5 (May 5, 2025)**:\n  - **Fertilizers**:\n    - **12-61-0**: 3.5 kg/acre\n    - **Calcium nitrate**: 3 kg/acre\n  - **Timing**: Apply Calcium nitrate **15-20 minutes after** applying 12-61-0.\n\n### Next Week (Week 2)\n- **Day 1 (June 2, 2025)**:\n  - **Fertilizers**:\n    - **Potassium Nitrate**: 4 kg/acre\n    - **Calcium nitrate**: 2 kg/acre\n  - **Timing**: Apply Calcium nitrate **15-20 minutes after** applying Potassium Nitrate.\n\n### Installation Settings\n- **Root Width**: 12 inches\n- **Root Depth**: 8 inches\n- **Soil Retention**: 110 mm\n- **Dripper Distance**: 1.25 mm\n- **Dripper Discharge**: 4 liters\n\nMake sure to follow the timing instructions for optimal nutrient absorption!",
+        "en": "For your **Cucumber plots** during the **Vegetative growth** stage, here are the fertigation timings and details for **12-61-0** and **Calcium nitrate**:\n\n### Current Week (Week 1)\n- **Day 1 (May 1, 2025)**:\n  - **Fertilizers**:\n    - **12-61-0**: 3 kg/acre\n    - **Calcium nitrate**: 3 kg/acre\n  - **Timing**: Apply Calcium nitrate **15-20 minutes after** applying 12-61-0.\n\n- **Day 3 (May 3, 2025)**:\n  - **Fertilizers**:\n    - **12-61-0**: 3.5 kg/acre\n    - **Calcium nitrate**: 3 kg/acre\n  - **Timing**: Apply Calcium nitrate **15-20 minutes after** applying 12-61-0.\n\n- **Day 5 (May 5, 2025)**:\n  - **Fertilizers**:\n    - **12-61-0**: 3.5 kg/acre\n    - **Calcium nitrate**: 3 kg/acre\n  - **Timing**: Apply Calcium nitrate **15-20 minutes after** applying 12-61-0.\n\n### Next Week (Week 2)\n- **Day 1 (June 2, 2025)**:\n  - **Fertilizers**:\n    - **Potassium Nitrate**: 4 kg/acre\n    - **Calcium nitrate**: 2 kg/acre\n  - **Timing**: Apply Calcium nitrate **15-20 minutes after** applying Potassium Nitrate.\n\n### Installation Settings\n- **Root Width**: 12 inches\n- **Root Depth**: 8 inches\n- **Soil Retention**: 110 mm\n- **Dripper Distance**: 1.25 mm\n- **Dripper Discharge**: 4 liters\n\nMake sure to follow the timing instructions for optimal nutrient absorption!",
+        "timestamp": {
+          "$date": "2025-05-01T13:50:14.906Z"
+        }
+      }
+    ],
+    "farmer_id": "kuntalsinghranjitsinhjhala",
+    "farmer_plot_ids": [
+      "cucumberplots"
+    ],
+    "conversation_id": "68137b9a6726dde62ad1aa55",
+    "_id": "68137b9a6726dde62ad1aa55",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-05-01T13:55:00.466000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-05-01T13:48:10.956000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Add plot",
+        "en": "Add plot",
+        "timestamp": {
+          "$date": "2025-05-01T10:09:03.303Z"
+        },
+        "standalone_question": "Could you please add a plot?",
+        "standalone_en": "Could you please add a plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "I can assist you with information related to your existing plot, but I cannot add new plots. If you have any specific questions or need assistance with your current plot, please let me know!",
+        "en": "I can assist you with information related to your existing plot, but I cannot add new plots. If you have any specific questions or need assistance with your current plot, please let me know!",
+        "timestamp": {
+          "$date": "2025-05-01T10:09:05.986Z"
+        }
+      }
+    ],
+    "farmer_id": "varuntiwari",
+    "farmer_plot_ids": [
+      "varc"
+    ],
+    "conversation_id": "6813483f2e9cfe37e851d067",
+    "_id": "6813483f2e9cfe37e851d067",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-05-01T10:14:03.311000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-05-01T10:09:03.303000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hello",
+        "en": "Hello",
+        "timestamp": {
+          "$date": "2025-05-01T09:23:02.115Z"
+        },
+        "standalone_question": "What would you like to talk about today?",
+        "standalone_en": "What would you like to talk about today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Hello Varun! How can I assist you with your farming needs today?",
+        "en": "Hello Varun! How can I assist you with your farming needs today?",
+        "timestamp": {
+          "$date": "2025-05-01T09:23:04.852Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "How to add another plot",
+        "en": "How to add another plot",
+        "timestamp": {
+          "$date": "2025-05-01T09:23:18.781Z"
+        },
+        "standalone_question": "How can I add another plot?",
+        "standalone_en": "How can I add another plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To add another plot in the Fyllo app, follow these steps:\n\n1. Open the Fyllo App.\n2. Navigate to the \"Plots\" section from the home screen.\n3. Look for an option like \"Add New Plot\" or a \"+\" icon.\n4. Fill in the required details for the new plot, such as:\n   - Plot Name\n   - Location\n   - Area\n   - Soil Type\n   - Crop Name\n   - Sowing Date\n5. Save the information.\n\nIf you need assistance with specific details or have any questions while adding a new plot, feel free to ask!",
+        "en": "To add another plot in the Fyllo app, follow these steps:\n\n1. Open the Fyllo App.\n2. Navigate to the \"Plots\" section from the home screen.\n3. Look for an option like \"Add New Plot\" or a \"+\" icon.\n4. Fill in the required details for the new plot, such as:\n   - Plot Name\n   - Location\n   - Area\n   - Soil Type\n   - Crop Name\n   - Sowing Date\n5. Save the information.\n\nIf you need assistance with specific details or have any questions while adding a new plot, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-01T09:23:24.580Z"
+        }
+      }
+    ],
+    "farmer_id": "varuntiwari",
+    "farmer_plot_ids": [
+      "varc"
+    ],
+    "conversation_id": "68133d756726dde62ad1aa54",
+    "_id": "68133d756726dde62ad1aa54",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-05-01T09:28:18.792000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-05-01T09:23:02.115000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "स्प्रे",
+        "en": "spray",
+        "timestamp": {
+          "$date": "2025-05-01T06:37:31.395Z"
+        },
+        "standalone_question": "What is a spray?",
+        "standalone_en": "What is a spray?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "spray"
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the spray recommendations for your plots today:\n\n### Clone Plot 3\n- **Spray Date:** Today (May 1, 2025)\n- **Pest:** Flea beetle\n- **Water Required:** 400 liters\n- **Spray Combinations:**\n  - **Clothianidin:** 80 ml\n  - **Alphamethrin:** 140 ml\n- **Current Spray Condition:** \n  - **12:30 PM:** IDEAL\n  - **1:30 PM:** WORST\n  - **2:30 PM:** WORST\n  - **3:30 PM:** WORST\n  - **4:30 PM:** WORST\n  - **5:30 PM:** WORST\n  - **6:30 PM:** WORST\n  - **7:30 PM:** WORST\n  - **8:30 PM:** MODERATE\n  - **9:30 PM:** IDEAL\n  - **10:30 PM:** IDEAL\n  - **11:30 PM:** IDEAL\n\n### Clone Plot 1\n- **Spray Date:** Today (May 1, 2025)\n- **Pest:** Flea beetle\n- **Water Required:** 400 liters\n- **Spray Combinations:**\n  - **Imidacloprid 30.5 SC:** 200 ml\n  - **Lamda-Cyhalothrin:** 100 ml\n- **Current Spray Condition:** \n  - **12:30 PM:** IDEAL\n  - **1:30 PM:** WORST\n  - **2:30 PM:** WORST\n  - **3:30 PM:** WORST\n  - **4:30 PM:** WORST\n  - **5:30 PM:** WORST\n  - **6:30 PM:** WORST\n  - **7:30 PM:** WORST\n  - **8:30 PM:** MODERATE\n  - **9:30 PM:** IDEAL\n  - **10:30 PM:** IDEAL\n  - **11:30 PM:** IDEAL\n\n### Sonar Plot\n- **Spray Date:** Today (May 1, 2025)\n- **Pest:** Flea beetle\n- **Water Required:** 400 liters\n- **Spray Combinations:**\n  - **Clothianidin:** 80 ml\n  - **Alphamethrin:** 140 ml\n- **Current Spray Condition:** \n  - **12:30 PM:** IDEAL\n  - **1:30 PM:** WORST\n  - **2:30 PM:** WORST\n  - **3:30 PM:** WORST\n  - **4:30 PM:** WORST\n  - **5:30 PM:** WORST\n  - **6:30 PM:** WORST\n  - **7:30 PM:** WORST\n  - **8:30 PM:** MODERATE\n  - **9:30 PM:** IDEAL\n  - **10:30 PM:** IDEAL\n  - **11:30 PM:** IDEAL\n\n### Recommendations:\n- You can spray now as the conditions are IDEAL for **Clone Plot 3**, **Clone Plot 1**, and **Sonar Plot** at **12:30 PM** and later at **9:30 PM** and **10:30 PM**. \n- For the rest of the day, conditions are not favorable for spraying. \n\nMake sure to follow the recommended combinations for effective pest control!",
+        "en": "Here are the spray recommendations for your plots today:\n\n### Clone Plot 3\n- **Spray Date:** Today (May 1, 2025)\n- **Pest:** Flea beetle\n- **Water Required:** 400 liters\n- **Spray Combinations:**\n  - **Clothianidin:** 80 ml\n  - **Alphamethrin:** 140 ml\n- **Current Spray Condition:** \n  - **12:30 PM:** IDEAL\n  - **1:30 PM:** WORST\n  - **2:30 PM:** WORST\n  - **3:30 PM:** WORST\n  - **4:30 PM:** WORST\n  - **5:30 PM:** WORST\n  - **6:30 PM:** WORST\n  - **7:30 PM:** WORST\n  - **8:30 PM:** MODERATE\n  - **9:30 PM:** IDEAL\n  - **10:30 PM:** IDEAL\n  - **11:30 PM:** IDEAL\n\n### Clone Plot 1\n- **Spray Date:** Today (May 1, 2025)\n- **Pest:** Flea beetle\n- **Water Required:** 400 liters\n- **Spray Combinations:**\n  - **Imidacloprid 30.5 SC:** 200 ml\n  - **Lamda-Cyhalothrin:** 100 ml\n- **Current Spray Condition:** \n  - **12:30 PM:** IDEAL\n  - **1:30 PM:** WORST\n  - **2:30 PM:** WORST\n  - **3:30 PM:** WORST\n  - **4:30 PM:** WORST\n  - **5:30 PM:** WORST\n  - **6:30 PM:** WORST\n  - **7:30 PM:** WORST\n  - **8:30 PM:** MODERATE\n  - **9:30 PM:** IDEAL\n  - **10:30 PM:** IDEAL\n  - **11:30 PM:** IDEAL\n\n### Sonar Plot\n- **Spray Date:** Today (May 1, 2025)\n- **Pest:** Flea beetle\n- **Water Required:** 400 liters\n- **Spray Combinations:**\n  - **Clothianidin:** 80 ml\n  - **Alphamethrin:** 140 ml\n- **Current Spray Condition:** \n  - **12:30 PM:** IDEAL\n  - **1:30 PM:** WORST\n  - **2:30 PM:** WORST\n  - **3:30 PM:** WORST\n  - **4:30 PM:** WORST\n  - **5:30 PM:** WORST\n  - **6:30 PM:** WORST\n  - **7:30 PM:** WORST\n  - **8:30 PM:** MODERATE\n  - **9:30 PM:** IDEAL\n  - **10:30 PM:** IDEAL\n  - **11:30 PM:** IDEAL\n\n### Recommendations:\n- You can spray now as the conditions are IDEAL for **Clone Plot 3**, **Clone Plot 1**, and **Sonar Plot** at **12:30 PM** and later at **9:30 PM** and **10:30 PM**. \n- For the rest of the day, conditions are not favorable for spraying. \n\nMake sure to follow the recommended combinations for effective pest control!",
+        "timestamp": {
+          "$date": "2025-05-01T06:37:54.971Z"
+        }
+      }
+    ],
+    "farmer_id": "amoljayprakashbabar",
+    "farmer_plot_ids": [
+      "amolbabarclone",
+      "amolbabarclone1",
+      "amolbabarsonarplot",
+      "amolbabarsuper",
+      "cloneplot2633",
+      "manikchamanplot3"
+    ],
+    "conversation_id": "681316ab2e9cfe37e851d065",
+    "_id": "681316ab2e9cfe37e851d065",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-01T06:42:31.408000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-05-01T06:37:31.395000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Mera bagan ke khet me kis bimari ka dava chlana hai",
+        "en": "What disease is to be claimed in my plantation field?",
+        "timestamp": {
+          "$date": "2025-05-01T03:32:07.811Z"
+        },
+        "standalone_question": "What disease treatment should I apply in my garden's field?",
+        "standalone_en": "What disease treatment should I apply in my garden's field?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapke Brinjal Plot ke liye is hafte koi bimari ka dava chalane ki zarurat nahi hai. Agar aapko aur koi madad chahiye, to bataiye!",
+        "en": "There is no need to make any illness claim for your brindle plot this week. If you need any more help, let me know!",
+        "timestamp": {
+          "$date": "2025-05-01T03:32:11.962Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Keya es app ka recharg karna parta hai",
+        "en": "How do I need to recharge the app?",
+        "timestamp": {
+          "$date": "2025-05-01T03:33:49.415Z"
+        },
+        "standalone_question": "Does this app require a recharge?",
+        "standalone_en": "Does this app require a recharge?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Why is there a need for an annual recharge for Fyllo devices?\nA: Annual recharge for the sim card is done to send and receive the data from our server whenever required.\n   Also farm data is securely saved on cloud so that farmers can access their data when needed."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Haan, Fyllo ke devices ke liye annual recharge karna parta hai. Yeh recharge isliye zaroori hai taaki device data ko bhej aur prapt kar sake. Agar aapka recharge active hai, to aapka device sahi se kaam karega aur data bhej raha hoga. Agar recharge nahi hai, to device kaam nahi karega.",
+        "en": "Yes, Philo's devices require an annual recharge. This recharge is necessary so that the device can send and receive data. If your recharge is active, your device will work properly and will be sending data. If there is no recharge, then the device will not work.",
+        "timestamp": {
+          "$date": "2025-05-01T03:33:53.995Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ketna ka recharg hota hai",
+        "en": "How much is the recharge done?",
+        "timestamp": {
+          "$date": "2025-05-01T03:35:57.146Z"
+        },
+        "standalone_question": "How much is the recharge?",
+        "standalone_en": "How much is the recharge?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Fyllo ke devices ka annual recharge ka daam alag-alag ho sakta hai, lekin aam taur par yeh ₹2000 se ₹5000 ke beech hota hai. Yeh daam device aur service plan par depend karta hai. Aapko exact daam ke liye Fyllo ki website ya customer support se sampark karna chahiye.",
+        "en": "The annual recharge price of Philo devices may vary, but is generally between ₹2000 and ₹5000. This price depends on the device and service plan. You should contact Philo's website or customer support for the exact price.",
+        "timestamp": {
+          "$date": "2025-05-01T03:36:01.445Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Mahina ya sal ka",
+        "en": "Month or year",
+        "timestamp": {
+          "$date": "2025-05-01T03:37:23.079Z"
+        },
+        "standalone_question": "Is the recharge for a month or a year?",
+        "standalone_en": "Is the recharge for a month or a year?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapka recharge plan 31 March 2026 tak active hai. Agar aapko aur koi madad chahiye, to bataiye!",
+        "en": "Your recharge plan is active till 31st March 2026. If you need any more help, let me know!",
+        "timestamp": {
+          "$date": "2025-05-01T03:37:26.504Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Mhina ka ketna recharg hota hai",
+        "en": "How much recharge does Meena have?",
+        "timestamp": {
+          "$date": "2025-05-01T03:39:30.420Z"
+        },
+        "standalone_question": "What is the monthly recharge amount?",
+        "standalone_en": "What is the monthly recharge amount?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Why is there a need for an annual recharge for Fyllo devices?\nA: Annual recharge for the sim card is done to send and receive the data from our server whenever required.\n   Also farm data is securely saved on cloud so that farmers can access their data when needed."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Fyllo ke devices ka recharge saal bhar ke liye hota hai, isliye mahine ka recharge nahi hota. Aapko ek baar mein annual recharge karna hota hai, jo aam taur par ₹2000 se ₹5000 ke beech hota hai. Agar aapko aur koi madad chahiye, to bataiye!",
+        "en": "The recharge of Philo's devices is for a year, so there is no recharge for the month. You have to do an annual recharge at a time, which is generally between ₹2000 to ₹5000. If you need any more help, let me know!",
+        "timestamp": {
+          "$date": "2025-05-01T03:39:34.608Z"
+        }
+      }
+    ],
+    "farmer_id": "laxmansahu",
+    "farmer_plot_ids": [
+      "brinjalplot496"
+    ],
+    "conversation_id": "6812eb372e9cfe37e851d064",
+    "_id": "6812eb372e9cfe37e851d064",
+    "language": "hi",
+    "expiry": {
+      "$date": "2025-05-01T03:44:30.431000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-05-01T03:32:07.811000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Mera bagan ke khet me kis bimari ka dava chlana hai",
+        "en": "What disease is to be claimed in my plantation field?",
+        "timestamp": {
+          "$date": "2025-05-01T03:32:07.811Z"
+        },
+        "standalone_question": "What disease treatment should I apply in my garden's field?",
+        "standalone_en": "What disease treatment should I apply in my garden's field?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapke Brinjal Plot ke liye is hafte koi bimari ka dava chalane ki zarurat nahi hai. Agar aapko aur koi madad chahiye, to bataiye!",
+        "en": "There is no need to make any illness claim for your brindle plot this week. If you need any more help, let me know!",
+        "timestamp": {
+          "$date": "2025-05-01T03:32:11.962Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Keya es app ka recharg karna parta hai",
+        "en": "How do I need to recharge the app?",
+        "timestamp": {
+          "$date": "2025-05-01T03:33:49.415Z"
+        },
+        "standalone_question": "Does this app require a recharge?",
+        "standalone_en": "Does this app require a recharge?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Why is there a need for an annual recharge for Fyllo devices?\nA: Annual recharge for the sim card is done to send and receive the data from our server whenever required.\n   Also farm data is securely saved on cloud so that farmers can access their data when needed."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Haan, Fyllo ke devices ke liye annual recharge karna parta hai. Yeh recharge isliye zaroori hai taaki device data ko bhej aur prapt kar sake. Agar aapka recharge active hai, to aapka device sahi se kaam karega aur data bhej raha hoga. Agar recharge nahi hai, to device kaam nahi karega.",
+        "en": "Yes, Philo's devices require an annual recharge. This recharge is necessary so that the device can send and receive data. If your recharge is active, your device will work properly and will be sending data. If there is no recharge, then the device will not work.",
+        "timestamp": {
+          "$date": "2025-05-01T03:33:53.995Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ketna ka recharg hota hai",
+        "en": "How much is the recharge done?",
+        "timestamp": {
+          "$date": "2025-05-01T03:35:57.146Z"
+        },
+        "standalone_question": "How much is the recharge?",
+        "standalone_en": "How much is the recharge?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Fyllo ke devices ka annual recharge ka daam alag-alag ho sakta hai, lekin aam taur par yeh ₹2000 se ₹5000 ke beech hota hai. Yeh daam device aur service plan par depend karta hai. Aapko exact daam ke liye Fyllo ki website ya customer support se sampark karna chahiye.",
+        "en": "The annual recharge price of Philo devices may vary, but is generally between ₹2000 and ₹5000. This price depends on the device and service plan. You should contact Philo's website or customer support for the exact price.",
+        "timestamp": {
+          "$date": "2025-05-01T03:36:01.445Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Mahina ya sal ka",
+        "en": "Month or year",
+        "timestamp": {
+          "$date": "2025-05-01T03:37:23.079Z"
+        },
+        "standalone_question": "Is the recharge for a month or a year?",
+        "standalone_en": "Is the recharge for a month or a year?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapka recharge plan 31 March 2026 tak active hai. Agar aapko aur koi madad chahiye, to bataiye!",
+        "en": "Your recharge plan is active till 31st March 2026. If you need any more help, let me know!",
+        "timestamp": {
+          "$date": "2025-05-01T03:37:26.504Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Mhina ka ketna recharg hota hai",
+        "en": "How much recharge does Meena have?",
+        "timestamp": {
+          "$date": "2025-05-01T03:39:30.420Z"
+        },
+        "standalone_question": "What is the monthly recharge amount?",
+        "standalone_en": "What is the monthly recharge amount?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Why is there a need for an annual recharge for Fyllo devices?\nA: Annual recharge for the sim card is done to send and receive the data from our server whenever required.\n   Also farm data is securely saved on cloud so that farmers can access their data when needed."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Fyllo ke devices ka recharge saal bhar ke liye hota hai, isliye mahine ka recharge nahi hota. Aapko ek baar mein annual recharge karna hota hai, jo aam taur par ₹2000 se ₹5000 ke beech hota hai. Agar aapko aur koi madad chahiye, to bataiye!",
+        "en": "The recharge of Philo's devices is for a year, so there is no recharge for the month. You have to do an annual recharge at a time, which is generally between ₹2000 to ₹5000. If you need any more help, let me know!",
+        "timestamp": {
+          "$date": "2025-05-01T03:39:34.608Z"
+        }
+      }
+    ],
+    "farmer_id": "laxmansahu",
+    "farmer_plot_ids": [
+      "brinjalplot496"
+    ],
+    "conversation_id": "6812eb372e9cfe37e851d064",
+    "_id": "6812eb372e9cfe37e851d064",
+    "language": "hi",
+    "expiry": {
+      "$date": "2025-05-01T03:44:30.431000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-05-01T03:32:07.811000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hii",
+        "en": "Hii",
+        "timestamp": {
+          "$date": "2025-05-01T01:41:02.950Z"
+        },
+        "standalone_question": "Hello! How can I assist you today?",
+        "standalone_en": "Hello! How can I assist you today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Hello Anuj! How can I assist you with your farming needs today?",
+        "en": "Hello Anuj! How can I assist you with your farming needs today?",
+        "timestamp": {
+          "$date": "2025-05-01T01:41:06.044Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Av kon sa khad chlaye",
+        "en": "By the cow said khad chlaye",
+        "timestamp": {
+          "$date": "2025-05-01T01:41:18.050Z"
+        },
+        "standalone_question": "Which fertilizer should I use?",
+        "standalone_en": "Which fertilizer should I use?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For your **School Para Plot** with cucumber in the **Crop Establishment** stage (Week 1), here are the recommended fertilizers to apply:\n\n### Current Fertigation Schedule:\n1. **Zinc Sulphate**: 4.5 kg/acre\n2. **Farmyard Manure**: 10,000 kg/acre\n3. **10-26-26**: 61.5 kg/acre\n4. **Urea**: 32 kg/acre\n5. **Muriate of Potash**: 6 kg/acre\n\n### Alternative Combinations:\n- **Zinc Sulphate**: 4.5 kg/acre\n- **Farmyard Manure**: 10,000 kg/acre\n- **12-32-16**: 50 kg/acre\n- **Urea**: 32 kg/acre\n- **Muriate of Potash**: 19.5 kg/acre\n\n- **Zinc Sulphate**: 4.5 kg/acre\n- **Farmyard Manure**: 10,000 kg/acre\n- **Urea**: 45 kg/acre\n- **Single Superphosphate**: 100 kg/acre\n- **Sulfate of Potash**: 39 kg/acre\n\nMake sure to apply these fertilizers as per the recommended amounts for optimal growth. If you have any further questions or need assistance, feel free to ask!",
+        "en": "For your **School Para Plot** with cucumber in the **Crop Establishment** stage (Week 1), here are the recommended fertilizers to apply:\n\n### Current Fertigation Schedule:\n1. **Zinc Sulphate**: 4.5 kg/acre\n2. **Farmyard Manure**: 10,000 kg/acre\n3. **10-26-26**: 61.5 kg/acre\n4. **Urea**: 32 kg/acre\n5. **Muriate of Potash**: 6 kg/acre\n\n### Alternative Combinations:\n- **Zinc Sulphate**: 4.5 kg/acre\n- **Farmyard Manure**: 10,000 kg/acre\n- **12-32-16**: 50 kg/acre\n- **Urea**: 32 kg/acre\n- **Muriate of Potash**: 19.5 kg/acre\n\n- **Zinc Sulphate**: 4.5 kg/acre\n- **Farmyard Manure**: 10,000 kg/acre\n- **Urea**: 45 kg/acre\n- **Single Superphosphate**: 100 kg/acre\n- **Sulfate of Potash**: 39 kg/acre\n\nMake sure to apply these fertilizers as per the recommended amounts for optimal growth. If you have any further questions or need assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-01T01:41:29.600Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ohk",
+        "en": "Ohk",
+        "timestamp": {
+          "$date": "2025-05-01T01:42:16.914Z"
+        },
+        "standalone_question": "What fertilizers should I use for my cucumber crop in the Crop Establishment stage?",
+        "standalone_en": "What fertilizers should I use for my cucumber crop in the Crop Establishment stage?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "If you have any more questions or need further assistance with your farming practices, feel free to ask! I'm here to help.",
+        "en": "If you have any more questions or need further assistance with your farming practices, feel free to ask! I'm here to help.",
+        "timestamp": {
+          "$date": "2025-05-01T01:42:19.574Z"
+        }
+      }
+    ],
+    "farmer_id": "anujgupta",
+    "farmer_plot_ids": [
+      "schoolparaplot"
+    ],
+    "conversation_id": "6812d12ef7ac3c5270f53d34",
+    "_id": "6812d12ef7ac3c5270f53d34",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-05-01T01:47:16.925000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-05-01T01:41:02.950000+00:00"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Mere Thompson ke plot ko konsi khad dalni hai",
+        "timestamp": {
+          "$date": "2024-10-01T12:24:52.540Z"
+        },
+        "standalone_question": "What type of fertilizer should I use for my Thompson grapes?",
+        "standalone_en": "What type of fertilizer should I use for my Thompson grapes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Amol, aapke dono plots \"Thompson Fast\" aur \"Thompson second\" ke liye, abhi \"CANE MATURITY\" stage mein hain. Is stage ke liye aapko ye khad dalni chahiye:\n\n### Thompson Fast\n1. **Foliar Spray:**\n   - **Ferrous Sulphate:** 600 gm/acre\n   - **Manganese Sulphate:** 600 gm/acre\n\n2. **Fertigation:**\n   - **Magnesium Sulphate:** 2.5 kg/acre\n   - **Phosphoric Acid (80%):** 3.5 kg/acre\n\n### Thompson second\n1. **Foliar Spray:**\n   - **Ferrous Sulphate:** 600 gm/acre\n   - **Manganese Sulphate:** 600 gm/acre\n\n2. **Fertigation:**\n   - **Magnesium Sulphate:** 2.5 kg/acre\n   - **Phosphoric Acid (80%):** 3.5 kg/acre\n\nYeh khad aapke grapes ki growth aur health ke liye faydemand rahegi.",
+        "timestamp": {
+          "$date": "2024-10-01T12:25:05.327Z"
+        }
+      }
+    ],
+    "farmer_id": "amolprabhakarmore",
+    "farmer_plot_ids": [
+      "thompsonfast",
+      "thompsonmamtafarm"
+    ],
+    "conversation_id": "66fbea14cf66d9fcea2dfa35",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-10-01T12:24:52.540000+00:00"
+  }
+]

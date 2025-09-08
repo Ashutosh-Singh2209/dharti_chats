@@ -1,0 +1,1454 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi",
+        "timestamp": {
+          "$date": "2024-12-04T17:21:56.046Z"
+        },
+        "standalone_question": "What would you like to talk about today?",
+        "standalone_en": "What would you like to talk about today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! How can I assist you with your farming needs today?",
+        "timestamp": {
+          "$date": "2024-12-04T17:21:59.795Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "How to add a new crop stage",
+        "timestamp": {
+          "$date": "2024-12-04T17:22:36.792Z"
+        },
+        "standalone_question": "How can I add a new crop stage?",
+        "standalone_en": "How can I add a new crop stage?",
+        "retrieval": {
+          "tools": [
+            "get_crop_stages  \nRetrieves all the crop stage IDs (past, active, and upcoming) of the crop and their starting dates for the plots, for the current crop season."
+          ],
+          "faq": [
+            "Q: How can I reset or restart the Fyllo crop stage on the app?\nA: For Hindi instructions, please watch this video: [फसल की स्टेज कैसे अपडेट करे ?](https://youtu.be/Gx2XUOGqNoA) (Thumbnail: https://img.youtube.com/vi/Gx2XUOGqNoA/mqdefault.jpg). For English instructions, please watch this video: [How to update crop stages in App?](https://youtu.be/knCXf0vdN7k) (Thumbnail: https://img.youtube.com/vi/knCXf0vdN7k/mqdefault.jpg). For additional info, contact the CRM team: You can contact customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in.\nMake sure to give both hindi and english links."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To add a new crop stage, you typically need to follow these steps:\n\n1. **Access Your Farm Management App**: Log in to your farm management application.\n2. **Select Your Plot**: Choose the specific plot where you want to add the new crop stage.\n3. **Navigate to Crop Stages**: Look for the section related to crop management or crop stages.\n4. **Add New Stage**: There should be an option to add a new crop stage. Click on it.\n5. **Enter Details**: Fill in the required details for the new crop stage, such as the name, start date, and any specific notes.\n6. **Save Changes**: After entering all necessary information, save the changes.\n\nIf you need assistance with specific details or have any questions about the process, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-12-04T17:22:42.233Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Hiii",
+        "timestamp": {
+          "$date": "2024-12-04T17:24:37.241Z"
+        },
+        "standalone_question": "What are the steps to add a new crop stage in a farm management application?",
+        "standalone_en": "What are the steps to add a new crop stage in a farm management application?",
+        "retrieval": {
+          "tools": [
+            "get_crop_stages  \nRetrieves all the crop stage IDs (past, active, and upcoming) of the crop and their starting dates for the plots, for the current crop season.",
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\".",
+            "get_specific_fertigation_requirements  \nFinds the fertigation requirements for the plots with a particular crop stage and week numbers."
+          ],
+          "faq": [
+            "Q: How do I generate a fertigation schedule in the app?\nA: To generate a fertigation schedule, follow these steps:\n\n    1. Go to \"My Farm\"\n    2. Select \"Fertigation\"\n    3. Tap \"Create Report\"\n    4. Fill in all the required details\n    5. Save the report\n    If you have soil, leaf, or petiole test data, you can input this for a more customized schedule. Otherwise, we can generate a basic schedule using general crop and regional data.",
+            "Q: How can I reset or restart the Fyllo crop stage on the app?\nA: For Hindi instructions, please watch this video: [फसल की स्टेज कैसे अपडेट करे ?](https://youtu.be/Gx2XUOGqNoA) (Thumbnail: https://img.youtube.com/vi/Gx2XUOGqNoA/mqdefault.jpg). For English instructions, please watch this video: [How to update crop stages in App?](https://youtu.be/knCXf0vdN7k) (Thumbnail: https://img.youtube.com/vi/knCXf0vdN7k/mqdefault.jpg). For additional info, contact the CRM team: You can contact customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in.\nMake sure to give both hindi and english links.",
+            "Q: What should I do if I can't find the fertigation schedule after selecting the fertigation tab?\nA: If you don't see the fertigation schedule, you'll need to create a report first. Would you like assistance in creating a report? Do you have any soil, leaf, or petiole test data available? If not, we can generate a basic schedule for you using general crop and regional data."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Hello again! How can I assist you today?",
+        "timestamp": {
+          "$date": "2024-12-04T17:24:40.491Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Hiii",
+        "timestamp": {
+          "$date": "2024-12-04T17:25:03.966Z"
+        },
+        "standalone_question": "What can I help you with today?",
+        "standalone_en": "What can I help you with today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! How can I help you today? If you have any questions about your crops or farming practices, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-12-04T17:25:07.908Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "How to add a crop stage ",
+        "timestamp": {
+          "$date": "2024-12-04T17:25:58.506Z"
+        },
+        "standalone_question": "What are the steps to add a new crop stage?",
+        "standalone_en": "What are the steps to add a new crop stage?",
+        "retrieval": {
+          "tools": [
+            "get_crop_stages  \nRetrieves all the crop stage IDs (past, active, and upcoming) of the crop and their starting dates for the plots, for the current crop season.",
+            "get_specific_fertigation_requirements  \nFinds the fertigation requirements for the plots with a particular crop stage and week numbers.",
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: How do I generate a fertigation schedule in the app?\nA: To generate a fertigation schedule, follow these steps:\n\n    1. Go to \"My Farm\"\n    2. Select \"Fertigation\"\n    3. Tap \"Create Report\"\n    4. Fill in all the required details\n    5. Save the report\n    If you have soil, leaf, or petiole test data, you can input this for a more customized schedule. Otherwise, we can generate a basic schedule using general crop and regional data.",
+            "Q: What should I do if I can't find the fertigation schedule after selecting the fertigation tab?\nA: If you don't see the fertigation schedule, you'll need to create a report first. Would you like assistance in creating a report? Do you have any soil, leaf, or petiole test data available? If not, we can generate a basic schedule for you using general crop and regional data.",
+            "Q: How can I reset or restart the Fyllo crop stage on the app?\nA: For Hindi instructions, please watch this video: [फसल की स्टेज कैसे अपडेट करे ?](https://youtu.be/Gx2XUOGqNoA) (Thumbnail: https://img.youtube.com/vi/Gx2XUOGqNoA/mqdefault.jpg). For English instructions, please watch this video: [How to update crop stages in App?](https://youtu.be/knCXf0vdN7k) (Thumbnail: https://img.youtube.com/vi/knCXf0vdN7k/mqdefault.jpg). For additional info, contact the CRM team: You can contact customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in.\nMake sure to give both hindi and english links."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To add a crop stage, you typically need to follow these steps:\n\n1. **Access Your Farm Management App**: Log in to your farm management application.\n2. **Select Your Plot**: Choose the specific plot where you want to add the new crop stage.\n3. **Navigate to Crop Stages**: Look for the section related to crop management or crop stages.\n4. **Add New Stage**: There should be an option to add a new crop stage. Click on it.\n5. **Enter Details**: Fill in the required details for the new crop stage, such as:\n   - Name of the crop stage\n   - Start date\n   - Duration (if applicable)\n   - Any specific notes or requirements\n6. **Save Changes**: After entering all necessary information, save the changes.\n\nIf you need specific assistance or have questions about your current crop stages, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-12-04T17:26:04.960Z"
+        }
+      }
+    ],
+    "farmer_id": "swamiagri1",
+    "farmer_plot_ids": [
+      "swamiagri15",
+      "swamiagri16",
+      "swamiagri17",
+      "swamiagri19",
+      "swamiagri20",
+      "swamiagri23",
+      "swamiagri24"
+    ],
+    "conversation_id": "67508fb396c81e1c0a3d7a75",
+    "tag": "others",
+    "conv_date": "2024-12-04T17:21:56.046000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Polyhouse m rootstock germinate krne k liye kitna temperature humidity chahiye ",
+        "timestamp": {
+          "$date": "2024-12-04T13:46:39.162Z"
+        },
+        "standalone_question": "What temperature and humidity are needed for germinating polyhouse rootstock?",
+        "standalone_en": "What temperature and humidity are needed for germinating polyhouse rootstock?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Polyhouse mein rootstock germinate karne ke liye, aapko in cheezon ka dhyan rakhna chahiye:\n\n1. **Temperature**: \n   - Germination ke liye ideal temperature 20°C se 25°C (68°F se 77°F) hona chahiye.\n\n2. **Humidity**: \n   - Humidity level 70% se 80% ke beech hona chahiye, taaki beej achhe se germinate ho sakein.\n\nIn conditions ko maintain karne se aapki germination percent badh sakti hai.",
+        "timestamp": {
+          "$date": "2024-12-04T13:46:43.241Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Or koi khas baat ka dhyan rakhna h kya?",
+        "timestamp": {
+          "$date": "2024-12-04T13:47:14.510Z"
+        },
+        "standalone_question": "Is there anything else specific that I should pay attention to?",
+        "standalone_en": "Is there anything else specific that I should pay attention to?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Haan, rootstock germination ke liye kuch aur khas baatein bhi dhyan rakhni chahiye:\n\n1. **Soil Preparation**: \n   - Soil ko achhe se tayar karein, jismein organic matter ho. Soil pH 6.0 se 7.0 ke beech hona chahiye.\n\n2. **Watering**: \n   - Beej lagane ke baad soil ko halka geela rakhein, lekin zyada paani na dein, kyunki isse beej sadh ja sakte hain.\n\n3. **Light**: \n   - Germination ke liye indirect sunlight ya filtered light ka istemal karein. Seedlings ko direct sunlight se bachana chahiye.\n\n4. **Ventilation**: \n   - Polyhouse mein achhi ventilation ka dhyan rakhein, taaki air circulation bana rahe.\n\n5. **Monitoring**: \n   - Temperature aur humidity ko regular check karte rahein, aur zarurat padne par adjustments karein.\n\nIn sab baaton ka dhyan rakhne se aapki rootstock ki germination mein sudhar hoga.",
+        "timestamp": {
+          "$date": "2024-12-04T13:47:19.718Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Soil preparation. Kya kre?",
+        "timestamp": {
+          "$date": "2024-12-04T13:48:20.209Z"
+        },
+        "standalone_question": "What should be done for soil preparation?",
+        "standalone_en": "What should be done for soil preparation?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Soil preparation ke liye aapko kuch steps follow karne chahiye:\n\n1. **Soil Testing**: \n   - Pehle soil ka test karwayen taaki pH aur nutrient levels ka pata chale.\n\n2. **Clearing the Area**: \n   - Khar patwar aur purani jhaadiyon ko saaf karein. \n\n3. **Tilling**: \n   - Soil ko achhe se jor kar kholna (tilling) karein, taaki air aur paani ka achha circulation ho sake.\n\n4. **Adding Organic Matter**: \n   - Compost ya well-rotted manure ko soil mein milayen, taaki soil ki fertility badhe.\n\n5. **Adjusting pH**: \n   - Agar soil ka pH theek nahi hai, toh lime (alkaline) ya sulfur (acidic) add karein.\n\n6. **Fertilization**: \n   - Soil test ke adhar par zaroori nutrients (NPK) ka istemal karein.\n\n7. **Leveling**: \n   - Soil ko achhe se level karein, taaki paani ka drainage sahi rahe.\n\n8. **Moisture Management**: \n   - Soil ko halka geela rakhein, lekin zyada paani na dein.\n\nIn steps ko follow karke aap apni soil ko behtar bana sakte hain, jo ki rootstock germination ke liye zaroori hai.",
+        "timestamp": {
+          "$date": "2024-12-04T13:48:29.373Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "1 kilo miti ka soil ka ph 8.2 se 7 krne adjust krne k liye   kitna sulfur dale",
+        "timestamp": {
+          "$date": "2024-12-04T13:49:50.222Z"
+        },
+        "standalone_question": "How much sulfur should be added to 1 kilogram of soil with a pH of 8.2 to adjust it to a pH of 7?",
+        "standalone_en": "How much sulfur should be added to 1 kilogram of soil with a pH of 8.2 to adjust it to a pH of 7?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Soil pH ko 8.2 se 7.0 tak lane ke liye sulfur ka istemal karna hota hai. Aam taur par, 1 kilo soil ke liye pH ko 1 unit kam karne ke liye lagbhag 0.5 se 1.0 gram sulfur ki zarurat hoti hai.\n\nIs hisaab se, aapko 1 kilo soil ke liye 6.0 se 12.0 gram sulfur dalna hoga, taaki pH 8.2 se 7.0 tak kam ho sake. \n\nLekin, ye bhi dhyan rahe ki soil ka actual sulfur requirement soil type aur organic matter ke hisaab se thoda alag ho sakta hai. Isliye, soil test karwana hamesha behtar hota hai.",
+        "timestamp": {
+          "$date": "2024-12-04T13:49:55.994Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Actual sulfur requirement ka kya matlab ",
+        "timestamp": {
+          "$date": "2024-12-04T13:51:27.254Z"
+        },
+        "standalone_question": "What does the term \"actual sulfur requirement\" mean?",
+        "standalone_en": "What does the term \"actual sulfur requirement\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Actual sulfur requirement ka matlab hai ki soil ki specific conditions, jaise ki soil type, organic matter content, aur existing nutrient levels ke adhar par kitna sulfur zaroori hai. \n\nHar soil ka apna unique composition hota hai, aur isliye sulfur ki requirement bhi alag hoti hai. Soil test karne se aapko ye pata chalega ki aapki soil mein sulfur ki kami hai ya nahi, aur kitna sulfur dalna chahiye taaki pH ko desired level tak laaya ja sake.\n\nIsliye, actual sulfur requirement ko samajhne ke liye soil testing karna zaroori hai, taaki aap sahi amount mein sulfur daal sakein aur soil health ko behtar bana sakein.",
+        "timestamp": {
+          "$date": "2024-12-04T13:51:33.026Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Rootstock Nursery tayar krni h us soil ka ph 8.4 h or ph 7.5 krna h mitti ka  weight 1500kg h  kya kre?",
+        "timestamp": {
+          "$date": "2024-12-04T13:53:31.454Z"
+        },
+        "standalone_question": "What should be done to reduce the pH of 1500 kg of soil from 8.4 to 7.5 for preparing a rootstock nursery?",
+        "standalone_en": "What should be done to reduce the pH of 1500 kg of soil from 8.4 to 7.5 for preparing a rootstock nursery?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Soil ka pH 8.4 se 7.5 tak lane ke liye, aapko sulfur ka istemal karna hoga. Aam taur par, 1 unit pH ko kam karne ke liye 0.5 se 1.0 gram sulfur ki zarurat hoti hai.\n\nIs hisaab se, aapko pH 8.4 se 7.5 tak lane ke liye 0.9 units kam karna hoga. \n\nToh, sulfur ki requirement hogi:\n\n- **Sulfur Required**: 0.5 to 1.0 gram per kg soil\n- **Total Soil Weight**: 1500 kg\n- **Total Sulfur Required**: 1500 kg × 0.5 to 1.0 gram = 750 to 1500 grams\n\nIsliye, aapko 750 se 1500 grams sulfur dalna hoga, lekin ye bhi dhyan rahe ki ye ek approximate value hai. Soil test karne se aapko exact requirement ka pata chalega. \n\nSulfur ko soil mein achhe se milayein aur kuch samay ke liye chhod dein, taaki pH level adjust ho sake.",
+        "timestamp": {
+          "$date": "2024-12-04T13:53:38.283Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Kitna time chode?",
+        "timestamp": {
+          "$date": "2024-12-04T13:54:16.594Z"
+        },
+        "standalone_question": "How long should the sulfur be left in the soil?",
+        "standalone_en": "How long should the sulfur be left in the soil?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Sulfur ko soil mein milane ke baad, aapko kam se kam **2 se 4 hafte** ka intezar karna chahiye, taaki sulfur soil mein achhe se react kar sake aur pH level adjust ho sake. \n\nIs dauran, soil ka moisture level bhi maintain karein aur regular monitoring karte rahein. Agar aapko pH level check karna ho, toh 2 hafte baad soil ka pH test kar sakte hain.",
+        "timestamp": {
+          "$date": "2024-12-04T13:54:20.996Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Sulfur kaise dale",
+        "timestamp": {
+          "$date": "2024-12-04T13:54:55.927Z"
+        },
+        "standalone_question": "How should sulfur be applied to the soil?",
+        "standalone_en": "How should sulfur be applied to the soil?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Sulfur dalne ke liye aapko ye steps follow karne chahiye:\n\n1. **Sulfur ka Chayan**: \n   - Aapko powdered sulfur ya granulated sulfur ka istemal karna chahiye, jo easily soil mein mil sake.\n\n2. **Soil ko Tayaar Karein**: \n   - Soil ko achhe se jor kar khol lein, taaki sulfur ko milana asan ho.\n\n3. **Sulfur ka Measurement**: \n   - Pichle calculation ke hisaab se, aapko 750 se 1500 grams sulfur lena hai.\n\n4. **Sulfur ko Soil mein Milana**: \n   - Sulfur ko soil ke upar evenly spread karein. Phir, soil ko achhe se mix karein taaki sulfur har jagah mil jaye.\n\n5. **Watering**: \n   - Sulfur dalne ke baad, soil ko halka geela karne ke liye paani de. Isse sulfur soil mein achhe se dissolve hoga.\n\n6. **Monitoring**: \n   - Soil ka moisture level maintain karein aur 2 se 4 hafte baad pH level check karein.\n\nIn steps ko follow karke aap sulfur ko effectively soil mein daal sakte hain.",
+        "timestamp": {
+          "$date": "2024-12-04T13:55:03.278Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Or gypsum kitni lagegi ek kg soil m",
+        "timestamp": {
+          "$date": "2024-12-04T13:57:38.257Z"
+        },
+        "standalone_question": "How much gypsum is needed for one kilogram of soil?",
+        "standalone_en": "How much gypsum is needed for one kilogram of soil?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Gypsum ka istemal soil ki structure aur fertility ko sudharne ke liye kiya jata hai. Aam taur par, 1 kg soil ke liye gypsum ki requirement lagbhag **1% se 5%** ke beech hoti hai, jo soil ki condition par depend karta hai.\n\nIs hisaab se:\n\n- **1 kg soil ke liye**: 10 gram se 50 gram gypsum dalna chahiye.\n\nAgar aapki soil mein sodium ya salinity ki samasya hai, toh aap higher range (30-50 gram) ka istemal kar sakte hain. Lekin, soil test karne se aapko exact requirement ka pata chalega. \n\nGypsum ko soil mein achhe se milana na bhoolen aur paani de kar soil ko geela rakhein.",
+        "timestamp": {
+          "$date": "2024-12-04T13:57:43.601Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "8.5 se 7 ph krne k liye ek kg miti m kitna gypsum lagega ",
+        "timestamp": {
+          "$date": "2024-12-04T13:58:41.881Z"
+        },
+        "standalone_question": "How much gypsum is needed to lower the pH from 8.5 to 7 in 1 kg of soil?",
+        "standalone_en": "How much gypsum is needed to lower the pH from 8.5 to 7 in 1 kg of soil?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Soil pH ko 8.5 se 7.0 tak lane ke liye gypsum ka istemal karna hota hai. Aam taur par, pH ko 1 unit kam karne ke liye 1 kg soil mein lagbhag **1% se 5%** gypsum ki zarurat hoti hai.\n\nIs hisaab se, aapko pH 8.5 se 7.0 tak lane ke liye 1.5 units kam karna hoga. \n\nToh, gypsum ki requirement hogi:\n\n- **Gypsum Required**: 1% se 5% per kg soil\n- **Total Gypsum Required**: \n  - 1 kg soil ke liye: 10 gram se 50 gram\n  - 1.5 units ke liye: 15 gram se 75 gram\n\nIsliye, aapko 15 se 75 grams gypsum dalna hoga. Lekin, ye approximate value hai, aur soil test karne se aapko exact requirement ka pata chalega. \n\nGypsum ko soil mein achhe se milana na bhoolen aur paani de kar soil ko geela rakhein.",
+        "timestamp": {
+          "$date": "2024-12-04T13:58:48.082Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "1500 kg miti k liye kitna chahiye gypsum ",
+        "timestamp": {
+          "$date": "2024-12-04T14:01:06.327Z"
+        },
+        "standalone_question": "How much gypsum is needed for 1500 kg of soil to reduce the pH from 8.5 to 7.0?",
+        "standalone_en": "How much gypsum is needed for 1500 kg of soil to reduce the pH from 8.5 to 7.0?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Agar aapko pH 8.5 se 7.0 tak lane ke liye gypsum ki zarurat hai, toh aapko 1500 kg soil ke liye gypsum ki requirement calculate karni hogi.\n\nPichle calculation ke hisaab se, aapko 1.5 units pH kam karne ke liye 15 se 75 grams gypsum per kg soil ki zarurat hai.\n\nToh, 1500 kg soil ke liye:\n\n- **Minimum Gypsum**: 15 grams/kg × 1500 kg = 22,500 grams (22.5 kg)\n- **Maximum Gypsum**: 75 grams/kg × 1500 kg = 112,500 grams (112.5 kg)\n\nIsliye, aapko 1500 kg soil ke liye **22.5 kg se 112.5 kg** gypsum dalna hoga. Lekin, ye approximate value hai, aur soil test karne se aapko exact requirement ka pata chalega.",
+        "timestamp": {
+          "$date": "2024-12-04T14:01:12.443Z"
+        }
+      }
+    ],
+    "farmer_id": "mandeepbishnoi1661062088650",
+    "farmer_plot_ids": [
+      "kairokinnowfarm",
+      "kinnowplotnero1"
+    ],
+    "conversation_id": "67505d3e96c81e1c0a3d7a73",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-12-04T13:46:39.162000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "4 इंची सेंसर को कितना रखे ",
+        "timestamp": {
+          "$date": "2024-12-04T13:34:42.931Z"
+        },
+        "standalone_question": "How much should a 4-inch sensor be placed?",
+        "standalone_en": "How much should a 4-inch sensor be placed?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "4 inchi sensor ko kitna rakhe "
+      },
+      {
+        "role": "assistant",
+        "content": "4 इंची सेंसर को मिट्टी में 4 इंच की गहराई पर स्थापित किया जाना चाहिए। यह सुनिश्चित करता है कि सेंसर मिट्टी की नमी को सही तरीके से माप सके। यदि आपके पास कोई विशेष स्थिति है या आपको और जानकारी चाहिए, तो कृपया बताएं!",
+        "timestamp": {
+          "$date": "2024-12-04T13:34:46.406Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "4 इंची सेंसर को कितना kpa रखे ",
+        "timestamp": {
+          "$date": "2024-12-04T13:35:22.030Z"
+        },
+        "standalone_question": "What should be the kPa setting for a 4-inch sensor?",
+        "standalone_en": "What should be the kPa setting for a 4-inch sensor?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How much kPa should be set for a 4-inch depth soil moisture sensor?\nA: The kPa value for a 4-inch depth soil moisture sensor should be set based on the **soil type** and **crop requirements**. Here are general guidelines for different soil types:\n\n### **Sandy Soil:**\n- **Optimal range:** 10–20 kPa\n- **Irrigation threshold:** Above 30 kPa\n\n### **Loamy Soil (Silty or Mixed):**\n- **Optimal range:** 20–40 kPa\n- **Irrigation threshold:** Above 50 kPa\n\n### **Clay Soil:**\n- **Optimal range:** 40–70 kPa\n- **Irrigation threshold:** Above 80 kPa\n\n### **Additional Considerations:**\n- For **sensitive crops** like vegetables, maintain lower kPa thresholds to avoid water stress.\n- For **deep-rooted crops**, kPa values may vary at different depths; calibrate accordingly.\n- **Calibration** of the sensor to your specific soil and crop is essential for accuracy.\n\nConsulting with an agronomist or referring to crop-specific irrigation guides will help you fine-tune the kPa range.",
+            "Q: My  sensor is showing 0 Kpa for long.\nA: 0-5 kPa means wet soil. It can be due to following :\nIf the device is recently installed, there can be moisture  around the sensor because the sensor is dipped in the water before installing. If this is the case, ask them to do atleast 3 irrigations as per their previous schedule without sensors and sensors would b set by then.\nIf the crop stage is very early or pruing is done recently, the water takeup by plants is negligible in this period because of very less transpiration. If this is the case, ask them to wait till irrigation Kpa in the present stage.\nSometimes, the water can remain accumulated around the sensor due to local landscaping or slope in the land around sensor. In this case, please check the around the sensor. It will have to be reinstalled properly. Chatbot should ask the user if he wants to create an issue ticket for the same",
+            "Q: What is the range of kpa moisture provided by the sensor ?\nA: It's 0-200 Kpa. 0 kPa is wet, 200 kPa is dry",
+            "Q: My sensor is 200. What can be the reason ?\nA: The 200 kPa means:\neither the soil is fully dry or the sensor is put outside the soil or there is no current reaching the sensor rods meaning the wire is cut or connectors are removed. \nIn this case, check if the moisture went to 200 kpa suddenly or it went gradually. If it went suddenly , it means the wire is broken or the connector is broken. A physical verification of the device is required in this case. Ask user to check or create a support ticket.\nIf it increased gradually, ask user when he irrigated last. If he has not irrigated for long time, the soil would be dry and 200 kpa is fine."
+          ]
+        },
+        "content_transliterated": "4 inchi sensor ko kitna kpa rakhe "
+      },
+      {
+        "role": "assistant",
+        "content": "4 इंची सेंसर के लिए आदर्श मिट्टी की नमी का स्तर 0 से 200 kPa के बीच होना चाहिए। \n\n- 0 kPa का मतलब है कि मिट्टी बहुत गीली है।\n- 200 kPa का मतलब है कि मिट्टी पूरी तरह से सूखी है।\n\nआपको यह सुनिश्चित करना चाहिए कि मिट्टी की नमी 0 से 200 kPa के बीच रहे। यदि आपकी मिट्टी की नमी 200 kPa तक पहुँच गई है, तो आपको सिंचाई करनी चाहिए।",
+        "timestamp": {
+          "$date": "2024-12-04T13:35:26.455Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "8 इंची सेंसर को कितना रखे ",
+        "timestamp": {
+          "$date": "2024-12-04T13:36:04.534Z"
+        },
+        "standalone_question": "What should be the kPa setting for an 8-inch sensor?",
+        "standalone_en": "What should be the kPa setting for an 8-inch sensor?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How much kPa should be set for a 4-inch depth soil moisture sensor?\nA: The kPa value for a 4-inch depth soil moisture sensor should be set based on the **soil type** and **crop requirements**. Here are general guidelines for different soil types:\n\n### **Sandy Soil:**\n- **Optimal range:** 10–20 kPa\n- **Irrigation threshold:** Above 30 kPa\n\n### **Loamy Soil (Silty or Mixed):**\n- **Optimal range:** 20–40 kPa\n- **Irrigation threshold:** Above 50 kPa\n\n### **Clay Soil:**\n- **Optimal range:** 40–70 kPa\n- **Irrigation threshold:** Above 80 kPa\n\n### **Additional Considerations:**\n- For **sensitive crops** like vegetables, maintain lower kPa thresholds to avoid water stress.\n- For **deep-rooted crops**, kPa values may vary at different depths; calibrate accordingly.\n- **Calibration** of the sensor to your specific soil and crop is essential for accuracy.\n\nConsulting with an agronomist or referring to crop-specific irrigation guides will help you fine-tune the kPa range.",
+            "Q: What is the range of kpa moisture provided by the sensor ?\nA: It's 0-200 Kpa. 0 kPa is wet, 200 kPa is dry",
+            "Q: My  sensor is showing 0 Kpa for long.\nA: 0-5 kPa means wet soil. It can be due to following :\nIf the device is recently installed, there can be moisture  around the sensor because the sensor is dipped in the water before installing. If this is the case, ask them to do atleast 3 irrigations as per their previous schedule without sensors and sensors would b set by then.\nIf the crop stage is very early or pruing is done recently, the water takeup by plants is negligible in this period because of very less transpiration. If this is the case, ask them to wait till irrigation Kpa in the present stage.\nSometimes, the water can remain accumulated around the sensor due to local landscaping or slope in the land around sensor. In this case, please check the around the sensor. It will have to be reinstalled properly. Chatbot should ask the user if he wants to create an issue ticket for the same",
+            "Q: My sensor is 200. What can be the reason ?\nA: The 200 kPa means:\neither the soil is fully dry or the sensor is put outside the soil or there is no current reaching the sensor rods meaning the wire is cut or connectors are removed. \nIn this case, check if the moisture went to 200 kpa suddenly or it went gradually. If it went suddenly , it means the wire is broken or the connector is broken. A physical verification of the device is required in this case. Ask user to check or create a support ticket.\nIf it increased gradually, ask user when he irrigated last. If he has not irrigated for long time, the soil would be dry and 200 kpa is fine."
+          ]
+        },
+        "content_transliterated": "8 inchi sensor ko kitna rakhe "
+      },
+      {
+        "role": "assistant",
+        "content": "8 इंची सेंसर को मिट्टी में 8 इंच की गहराई पर स्थापित किया जाना चाहिए। यह सुनिश्चित करता है कि सेंसर मिट्टी की नमी को सही तरीके से माप सके। यदि आपके पास कोई विशेष स्थिति है या आपको और जानकारी चाहिए, तो कृपया बताएं!",
+        "timestamp": {
+          "$date": "2024-12-04T13:36:09.795Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "8 इंची सेंसर को कितना kpa रखे ",
+        "timestamp": {
+          "$date": "2024-12-04T13:36:56.795Z"
+        },
+        "standalone_question": "What should be the kPa level for an 8-inch sensor?",
+        "standalone_en": "What should be the kPa level for an 8-inch sensor?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How much kPa should be set for a 4-inch depth soil moisture sensor?\nA: The kPa value for a 4-inch depth soil moisture sensor should be set based on the **soil type** and **crop requirements**. Here are general guidelines for different soil types:\n\n### **Sandy Soil:**\n- **Optimal range:** 10–20 kPa\n- **Irrigation threshold:** Above 30 kPa\n\n### **Loamy Soil (Silty or Mixed):**\n- **Optimal range:** 20–40 kPa\n- **Irrigation threshold:** Above 50 kPa\n\n### **Clay Soil:**\n- **Optimal range:** 40–70 kPa\n- **Irrigation threshold:** Above 80 kPa\n\n### **Additional Considerations:**\n- For **sensitive crops** like vegetables, maintain lower kPa thresholds to avoid water stress.\n- For **deep-rooted crops**, kPa values may vary at different depths; calibrate accordingly.\n- **Calibration** of the sensor to your specific soil and crop is essential for accuracy.\n\nConsulting with an agronomist or referring to crop-specific irrigation guides will help you fine-tune the kPa range.",
+            "Q: What is the range of kpa moisture provided by the sensor ?\nA: It's 0-200 Kpa. 0 kPa is wet, 200 kPa is dry",
+            "Q: My  sensor is showing 0 Kpa for long.\nA: 0-5 kPa means wet soil. It can be due to following :\nIf the device is recently installed, there can be moisture  around the sensor because the sensor is dipped in the water before installing. If this is the case, ask them to do atleast 3 irrigations as per their previous schedule without sensors and sensors would b set by then.\nIf the crop stage is very early or pruing is done recently, the water takeup by plants is negligible in this period because of very less transpiration. If this is the case, ask them to wait till irrigation Kpa in the present stage.\nSometimes, the water can remain accumulated around the sensor due to local landscaping or slope in the land around sensor. In this case, please check the around the sensor. It will have to be reinstalled properly. Chatbot should ask the user if he wants to create an issue ticket for the same",
+            "Q: My sensor is 200. What can be the reason ?\nA: The 200 kPa means:\neither the soil is fully dry or the sensor is put outside the soil or there is no current reaching the sensor rods meaning the wire is cut or connectors are removed. \nIn this case, check if the moisture went to 200 kpa suddenly or it went gradually. If it went suddenly , it means the wire is broken or the connector is broken. A physical verification of the device is required in this case. Ask user to check or create a support ticket.\nIf it increased gradually, ask user when he irrigated last. If he has not irrigated for long time, the soil would be dry and 200 kpa is fine."
+          ]
+        },
+        "content_transliterated": "8 inchi sensor ko kitna kpa rakhe "
+      },
+      {
+        "role": "assistant",
+        "content": "8 इंची सेंसर के लिए आदर्श मिट्टी की नमी का स्तर भी 0 से 200 kPa के बीच होना चाहिए। \n\n- 0 kPa का मतलब है कि मिट्टी बहुत गीली है।\n- 200 kPa का मतलब है कि मिट्टी पूरी तरह से सूखी है।\n\nआपको यह सुनिश्चित करना चाहिए कि मिट्टी की नमी 0 से 200 kPa के बीच रहे। यदि आपकी मिट्टी की नमी 200 kPa तक पहुँच गई है, तो आपको सिंचाई करनी चाहिए।",
+        "timestamp": {
+          "$date": "2024-12-04T13:37:01.963Z"
+        }
+      }
+    ],
+    "farmer_id": "VR367",
+    "farmer_plot_ids": [
+      "margad"
+    ],
+    "conversation_id": "67505a72a40af4c57e5d9dcb",
+    "tag": "others",
+    "conv_date": "2024-12-04T13:34:42.931000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Cut worm",
+        "timestamp": {
+          "$date": "2024-12-04T11:50:24.669Z"
+        },
+        "standalone_question": "What does \"cut worm\" mean?",
+        "standalone_en": "What does \"cut worm\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The pest prediction for Cut Worm in your plot \"railwala\" is as follows:\n\n- **December 4, 2024**: Probability 64.0% - Risk Level: Medium\n- **December 3, 2024**: Probability 74.9% - Risk Level: Medium\n- **December 2, 2024**: Probability 77.9% - Risk Level: High\n- **December 1, 2024**: Probability 76.1% - Risk Level: High\n- **November 30, 2024**: Probability 74.1% - Risk Level: Medium\n- **November 29, 2024**: Probability 70.0% - Risk Level: Medium\n- **November 28, 2024**: Probability 68.0% - Risk Level: Medium\n- **November 27, 2024**: Probability 68.0% - Risk Level: Medium\n- **November 26, 2024**: Probability 68.0% - Risk Level: Medium\n- **November 25, 2024**: Probability 52.7% - Risk Level: Medium\n\nThe risk levels have fluctuated, with higher risks observed on December 1st and 2nd. It's advisable to monitor your crops closely and consider pest control measures if necessary.",
+        "timestamp": {
+          "$date": "2024-12-04T11:50:31.444Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Tuber size increase",
+        "timestamp": {
+          "$date": "2024-12-04T11:51:17.818Z"
+        },
+        "standalone_question": "What is the impact of cut worms on tuber size increase?",
+        "standalone_en": "What is the impact of cut worms on tuber size increase?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To promote tuber size increase in your potato crop during the \"Tuber Development\" stage, consider the following practices:\n\n1. **Adequate Watering**: Ensure consistent moisture levels in the soil, avoiding both drought and waterlogging. Irrigation should be adjusted based on soil moisture readings.\n\n2. **Nutrient Management**: Apply balanced fertilizers, particularly those high in potassium and phosphorus, which are essential for tuber development. Follow the fertigation schedule for optimal nutrient uptake.\n\n3. **Pest and Disease Control**: Monitor for pests like cutworms and diseases that can affect tuber growth. Implement control measures as needed.\n\n4. **Soil Health**: Maintain good soil structure and health by incorporating organic matter and ensuring proper pH levels.\n\n5. **Crop Rotation**: If possible, practice crop rotation to prevent soil nutrient depletion and reduce pest buildup.\n\n6. **Mulching**: Use mulch to retain soil moisture and regulate temperature, which can help in tuber growth.\n\n7. **Regular Monitoring**: Keep an eye on the crop's growth and health, adjusting practices as necessary based on observations.\n\nImplementing these practices will help in maximizing tuber size and overall yield.",
+        "timestamp": {
+          "$date": "2024-12-04T11:51:29.276Z"
+        }
+      }
+    ],
+    "farmer_id": "VR253",
+    "farmer_plot_ids": [
+      "railwala"
+    ],
+    "conversation_id": "675042003bf73e327ae9d9f2",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-04T11:50:24.669000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "मारा खेत में पानी में क्या रिजल्ट है",
+        "timestamp": {
+          "$date": "2024-12-04T11:26:16.902Z"
+        },
+        "standalone_question": "What is the result of the water in my field?",
+        "standalone_en": "What is the result of the water in my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara khet mein paani mein kya result hai"
+      },
+      {
+        "role": "assistant",
+        "content": "आपके खेत \"Bor valo palot\" में पानी की स्थिति इस प्रकार है:\n\n- **मिट्टी की नमी**:\n  - **सेंसर 1**: 0 kPa (यह पूरी तरह से गीला है)\n  - **सेंसर 2**: 6 kPa (यह भी गीला है)\n\nइसका मतलब है कि मिट्टी में पर्याप्त नमी है। आपको अभी पानी देने की आवश्यकता नहीं है। 0 से 5 kPa के बीच की नमी गीली स्थिति को दर्शाती है। \n\nअगर आपको और जानकारी चाहिए, तो बताएं!",
+        "timestamp": {
+          "$date": "2024-12-04T11:26:22.165Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં કયો ખાતર આપવો",
+        "timestamp": {
+          "$date": "2024-12-04T11:27:53.598Z"
+        },
+        "standalone_question": "What fertilizer should I use in my field?",
+        "standalone_en": "What fertilizer should I use in my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17"
+          ]
+        },
+        "content_transliterated": "mara khetaraman kayo khatar apavo"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં \"Bor valo palot\" માં હાલની પાકની સ્થિતિ \"Vegetative growth\" છે, જે 1 સપ્તાહમાં છે. અહીં આપેલ ખાતરનો શેડ્યૂલ છે:\n\n### હાલનું ખાતર (આજે - 2024-12-04):\n1. **1 દિવસ**:\n   - **Humic acid**: 1 લિટર/એકર\n   - નોંધ: ફોસ્ફોરિક એસિડને અન્ય ખાતરોની એપ્લિકેશન કરતા 15-20 મિનિટ પહેલા અલગથી લાગુ કરવું જોઈએ.\n\n2. **4 દિવસ**:\n   - **12-61-0**: 5 કિલોગ્રામ/એકર\n   - **Urea**: 4.5 કિલોગ્રામ/એકર\n   - અથવા\n   - **24-24-0**: 10.5 કિલોગ્રામ/એકર\n   - **Phosphoric acid 80%**: 1 કિલોગ્રામ/એકર\n   - અથવા\n   - **Urea**: 5.5 કિલોગ્રામ/એકર\n   - **Phosphoric acid 80%**: 4 કિલોગ્રામ/એકર\n   - નોંધ: ફોસ્ફોરિક એસિડને અન્ય ખાતરોની એપ્લિકેશન કરતા 15-20 મિનિટ પહેલા અલગથી લાગુ કરવું જોઈએ.\n\n### આગામી ખાતર (આગામી સપ્તાહ):\n- **2 દિવસ**:\n   - **Urea**: 7.5 કિલોગ્રામ/એકર\n\n- **4 દિવસ**:\n   - **12-61-0**: 5 કિલોગ્રામ/એકર\n   - **Urea**: 4.5 કિલોગ્રામ/એકર\n   - **Magnesium Sulphate**: 6 કિલોગ્રામ/એકર\n   - અથવા\n   - **24-24-0**: 10.5 કિલોગ્રામ/એકર\n   - **Phosphoric acid 80%**: 1 કિલોગ્રામ/એકર\n   - **Magnesium Sulphate**: 6 કિલોગ્રામ/એકર\n   - અથવા\n   - **Urea**: 5.5 કિલોગ્રામ/એકર\n   - **Phosphoric acid 80%**: 4 કિલોગ્રામ/એકર\n   - **Magnesium Sulphate**: 6 કિલોગ્રામ/એકર\n   - નોંધ: ફોસ્ફોરિક એસિડને અન્ય ખાતરોની એપ્લિકેશન કરતા 15-20 મિનિટ પહેલા અલગથી લાગુ કરવું જોઈએ.\n\nજો તમને વધુ માહિતી જોઈએ, તો જણાવો!",
+        "timestamp": {
+          "$date": "2024-12-04T11:28:04.301Z"
+        }
+      }
+    ],
+    "farmer_id": "ramjibhaiparjapati",
+    "farmer_plot_ids": [
+      "borvalopalot"
+    ],
+    "conversation_id": "67503c5896c81e1c0a3d7a71",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-12-04T11:26:16.902000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "चांगली सर्विस",
+        "timestamp": {
+          "$date": "2024-12-04T09:32:02.205Z"
+        },
+        "standalone_question": "Good service?",
+        "standalone_en": "Good service?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "changli service"
+      },
+      {
+        "role": "assistant",
+        "content": "धन्यवाद, प्रशांत! तुम्हाला आणखी काही मदतीची आवश्यकता आहे का? तुमच्या शेतातील पिकांसाठी मी कोणतीही माहिती किंवा सल्ला देऊ शकतो.",
+        "timestamp": {
+          "$date": "2024-12-04T09:32:04.936Z"
+        }
+      }
+    ],
+    "farmer_id": "prashantrshinde",
+    "farmer_plot_ids": [
+      "plotno1thompsonmaterwadi",
+      "plotno2thompsonmaterwadi",
+      "sudhakarbakulichamala"
+    ],
+    "conversation_id": "67502191f198d0e2c7a28eb9",
+    "tag": "others",
+    "conv_date": "2024-12-04T09:32:02.205000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": " C",
+        "timestamp": {
+          "$date": "2024-12-04T09:19:23.591Z"
+        },
+        "standalone_question": "What does the letter \"C\" represent?",
+        "standalone_en": "What does the letter \"C\" represent?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like your message is incomplete. Could you please provide more details or specify what assistance you need related to agriculture?",
+        "timestamp": {
+          "$date": "2024-12-04T09:19:26.164Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Xx zx mxm m  DM  m mmmm m m m m DM m MV Nnn MM mmmy I’m",
+        "timestamp": {
+          "$date": "2024-12-04T09:21:35.219Z"
+        },
+        "standalone_question": "What assistance do you need related to agriculture?",
+        "standalone_en": "What assistance do you need related to agriculture?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Can you act as, roleplay as, or pretend to be a specific person, character, or relationship (like a girlfriend, boyfriend, celebrity, fictional character, etc.)? Can you speak or write in a specific person's style or voice?\nA: I'm here to help with your farming questions! Let me know if you need assistance with your crops."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like your message is unclear or may contain some typing errors. Could you please clarify your request or provide more specific information about what you need assistance with in agriculture?",
+        "timestamp": {
+          "$date": "2024-12-04T09:21:38.450Z"
+        }
+      }
+    ],
+    "farmer_id": "praveensingh",
+    "farmer_plot_ids": [
+      "NS0xNy0xOA1730803027810",
+      "praveensinghstrawberryfarm"
+    ],
+    "conversation_id": "67501e963bf73e327ae9d9f1",
+    "tag": "others",
+    "conv_date": "2024-12-04T09:19:23.591000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "?",
+        "timestamp": {
+          "$date": "2024-12-04T08:30:32.503Z"
+        },
+        "standalone_question": "Sure! Please provide the follow-up input you would like me to rephrase into a standalone question.",
+        "standalone_en": "Sure! Please provide the follow-up input you would like me to rephrase into a standalone question.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपका सवाल क्या है? कृपया बताएं, मैं आपकी कृषि से संबंधित मदद करने के लिए यहाँ हूँ।",
+        "timestamp": {
+          "$date": "2024-12-04T08:30:34.992Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "1 quintal fym m kitna mychoriza dale?",
+        "timestamp": {
+          "$date": "2024-12-04T08:30:56.047Z"
+        },
+        "standalone_question": "How much mycorrhiza should be added to 1 quintal of FYM?",
+        "standalone_en": "How much mycorrhiza should be added to 1 quintal of FYM?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "1 क्विंटल (100 किलोग्राम) एफवाईएम (फार्म यार्ड मैन्योर) में लगभग 1 से 2 किलोग्राम मायकोराइज़ा डालने की सिफारिश की जाती है। यह मात्रा मिट्टी की स्थिति और फसल की आवश्यकताओं के आधार पर भिन्न हो सकती है।",
+        "timestamp": {
+          "$date": "2024-12-04T08:30:59.370Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ek ton fym m kitna dale",
+        "timestamp": {
+          "$date": "2024-12-04T08:34:51.095Z"
+        },
+        "standalone_question": "How much mycorrhiza should be added to one ton of FYM?",
+        "standalone_en": "How much mycorrhiza should be added to one ton of FYM?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "1 टन (1000 किलोग्राम) एफवाईएम (फार्म यार्ड मैन्योर) में लगभग 10 से 20 किलोग्राम मायकोराइज़ा डालने की सिफारिश की जाती है। यह मात्रा मिट्टी की स्थिति और फसल की आवश्यकताओं के आधार पर भिन्न हो सकती है।",
+        "timestamp": {
+          "$date": "2024-12-04T08:35:00.809Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Fym m. Nutrient kaise badhaye",
+        "timestamp": {
+          "$date": "2024-12-04T08:35:21.012Z"
+        },
+        "standalone_question": "How can I increase the nutrients in farm yard manure (FYM)?",
+        "standalone_en": "How can I increase the nutrients in farm yard manure (FYM)?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available.",
+            "Q: What are the advantages of adding soil, leaf, or petiole test reports?\nA: By adding test reports, Fyllo can generate a more precise fertigation schedule tailored to your specific conditions. Benefits include:\n\n    1. More accurate nutrient recommendations\n    2. Better alignment with your crop's actual needs\n    3. Potential for improved crop health and yield\n    4. More efficient use of fertilizers\n    5. Possible reduction in fertilizer costs and environmental impact"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "एफवाईएम (फार्म यार्ड मैन्योर) में पोषक तत्वों को बढ़ाने के लिए निम्नलिखित उपाय किए जा सकते हैं:\n\n1. **कम्पोस्टिंग**: एफवाईएम को कम्पोस्ट के साथ मिलाने से उसमें पोषक तत्वों की मात्रा बढ़ाई जा सकती है। कम्पोस्ट में नाइट्रोजन, फास्फोरस और पोटाश जैसे महत्वपूर्ण पोषक तत्व होते हैं।\n\n2. **मिनरल फर्टिलाइज़र**: एफवाईएम में आवश्यक मिनरल फर्टिलाइज़र जैसे कि यूरिया, डीएपी (डायअमोनियम फॉस्फेट) और म्यूरेट ऑफ पोटाश मिलाने से पोषक तत्वों की मात्रा बढ़ाई जा सकती है।\n\n3. **मायकोराइज़ा**: एफवाईएम में मायकोराइज़ा (एक प्रकार का फफूंद) मिलाने से पौधों की पोषक तत्वों को अवशोषित करने की क्षमता बढ़ती है।\n\n4. **जैविक उर्वरक**: जैविक उर्वरकों का उपयोग करने से एफवाईएम में पोषक तत्वों की मात्रा बढ़ाई जा सकती है। जैसे कि नीम की खली, वर्मीकम्पोस्ट आदि।\n\n5. **पौधों के अवशेष**: फसल के अवशेषों को एफवाईएम में मिलाने से भी पोषक तत्वों की मात्रा बढ़ाई जा सकती है।\n\nइन उपायों को अपनाकर आप एफवाईएम में पोषक तत्वों की मात्रा को बढ़ा सकते हैं, जिससे फसल की वृद्धि और उत्पादन में सुधार होगा।",
+        "timestamp": {
+          "$date": "2024-12-04T08:35:27.864Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Neem khali kitni. Daale",
+        "timestamp": {
+          "$date": "2024-12-04T08:35:55.331Z"
+        },
+        "standalone_question": "How much neem cake should be added?",
+        "standalone_en": "How much neem cake should be added?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "नीम की खली डालने की सिफारिश आमतौर पर मिट्टी की स्थिति और फसल की आवश्यकताओं के आधार पर होती है। सामान्यतः, 1 टन एफवाईएम (फार्म यार्ड मैन्योर) में 5 से 10 किलोग्राम नीम की खली मिलाने की सिफारिश की जाती है। \n\nयदि आप नीम की खली का उपयोग अकेले कर रहे हैं, तो 100 से 200 किलोग्राम प्रति एकड़ की दर से डाल सकते हैं। यह मात्रा मिट्टी की उर्वरता और फसल की आवश्यकताओं के अनुसार समायोजित की जा सकती है।",
+        "timestamp": {
+          "$date": "2024-12-04T08:35:59.890Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Tricodurma",
+        "timestamp": {
+          "$date": "2024-12-04T08:36:23.724Z"
+        },
+        "standalone_question": "What is the recommended amount of Trichoderma to add?",
+        "standalone_en": "What is the recommended amount of Trichoderma to add?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "ट्राइकोडर्मा एक प्रकार का फफूंद है जो पौधों के लिए लाभकारी होता है। यह मुख्य रूप से मिट्टी में मौजूद रोगजनकों को नियंत्रित करने और पौधों की वृद्धि को बढ़ावा देने के लिए उपयोग किया जाता है। ट्राइकोडर्मा का उपयोग करने के कुछ लाभ निम्नलिखित हैं:\n\n1. **रोग नियंत्रण**: यह फफूंद मिट्टी में मौजूद हानिकारक रोगजनकों को नियंत्रित करता है, जिससे पौधों में बीमारियों का खतरा कम होता है।\n\n2. **पोषक तत्वों का अवशोषण**: ट्राइकोडर्मा पौधों की जड़ों के साथ सहजीवी संबंध बनाता है, जिससे पौधे अधिक पोषक तत्वों को अवशोषित कर सकते हैं।\n\n3. **मिट्टी की उर्वरता**: यह मिट्टी की संरचना को सुधारता है और मिट्टी की उर्वरता को बढ़ाता है।\n\n4. **जैविक उर्वरक**: ट्राइकोडर्मा का उपयोग जैविक खेती में किया जा सकता है, जिससे रासायनिक उर्वरकों की आवश्यकता कम होती है।\n\nट्राइकोडर्मा का उपयोग करने के लिए, इसे मिट्टी में मिलाया जा सकता है या पौधों की जड़ों के आसपास छिड़काव किया जा सकता है। इसकी मात्रा और उपयोग विधि फसल की आवश्यकताओं और मिट्टी की स्थिति के आधार पर भिन्न हो सकती है। सामान्यतः, 1-2 किलोग्राम ट्राइकोडर्मा प्रति एकड़ की दर से उपयोग किया जा सकता है।",
+        "timestamp": {
+          "$date": "2024-12-04T08:36:31.495Z"
+        }
+      }
+    ],
+    "farmer_id": "mandeepbishnoi1661062088650",
+    "farmer_plot_ids": [
+      "kairokinnowfarm",
+      "kinnowplotnero1"
+    ],
+    "conversation_id": "6750131566d66cf5bee2e3e9",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-12-04T08:30:32.503000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "100din ke keli ko Kaya fertication karna hoga",
+        "timestamp": {
+          "$date": "2024-12-04T07:51:45.537Z"
+        },
+        "standalone_question": "What kind of fertilization is needed for 100 din?",
+        "standalone_en": "What kind of fertilization is needed for 100 din?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "\"Watermelon Savkar\" के लिए कोई fertigation डेटा उपलब्ध नहीं है। यदि आपको विशेष जानकारी चाहिए, तो कृपया बताएं।",
+        "timestamp": {
+          "$date": "2024-12-04T07:51:49.553Z"
+        }
+      }
+    ],
+    "farmer_id": "prashantchaudhari",
+    "farmer_plot_ids": [
+      "watermelonsavkar"
+    ],
+    "conversation_id": "67500a1096c81e1c0a3d7a6f",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-12-04T07:51:45.537000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "I thing",
+        "timestamp": {
+          "$date": "2024-12-04T07:26:20.855Z"
+        },
+        "standalone_question": "What do you think?",
+        "standalone_en": "What do you think?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like your message got cut off. Could you please provide more details or clarify what you need assistance with?",
+        "timestamp": {
+          "$date": "2024-12-04T07:26:23.591Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Thrips asel ka ",
+        "timestamp": {
+          "$date": "2024-12-04T07:26:52.315Z"
+        },
+        "standalone_question": "What are thrips?",
+        "standalone_en": "What are thrips?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Thrips (Thrips spp.) are small, slender insects that can cause significant damage to crops, including grapes. They feed on plant sap, leading to discoloration, stunted growth, and even fruit drop. \n\n### Control Measures for Thrips:\n1. **Cultural Practices:**\n   - Maintain good field hygiene by removing debris and weeds.\n   - Rotate crops to disrupt the life cycle of thrips.\n\n2. **Biological Control:**\n   - Introduce natural predators like predatory mites or ladybugs.\n\n3. **Chemical Control:**\n   - Use insecticides such as **Thiamethoxam** or **Chlorpyrifos** as per recommended dosages.\n   - Apply insecticidal soap or neem oil for organic control.\n\n4. **Monitoring:**\n   - Regularly inspect plants for signs of thrips and use sticky traps to monitor their population.\n\nIf you need specific recommendations or further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-12-04T07:26:57.372Z"
+        }
+      }
+    ],
+    "farmer_id": "nikhilwaluje",
+    "farmer_plot_ids": [
+      "thompsonseedleesplot1"
+    ],
+    "conversation_id": "6750041cf198d0e2c7a28eb8",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-04T07:26:20.855000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Atta  delta kasa ahe",
+        "timestamp": {
+          "$date": "2024-12-04T07:25:17.211Z"
+        },
+        "standalone_question": "What is the condition of Atta and Delta?",
+        "standalone_en": "What is the condition of Atta and Delta?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Thompson Seedless Plot 1 साठी Delta T आणि VPD च्या स्थिती खालीलप्रमाणे आहे:\n\n- **13:30**: Delta T = 6, VPD = 1.61 (IDEAL)\n- **14:30**: Delta T = 7, VPD = 1.75 (IDEAL)\n- **15:30**: Delta T = 7, VPD = 1.72 (IDEAL)\n- **16:30**: Delta T = 6, VPD = 1.56 (IDEAL)\n- **17:30**: Delta T = 5, VPD = 1.34 (IDEAL)\n- **18:30**: Delta T = 4, VPD = 1.03 (IDEAL)\n- **19:30**: Delta T = 3, VPD = 0.78 (IDEAL)\n- **20:30**: Delta T = 3, VPD = 0.66 (IDEAL)\n- **21:30**: Delta T = 2, VPD = 0.53 (MODERATE)\n- **22:30**: Delta T = 2, VPD = 0.43 (MODERATE)\n- **23:30**: Delta T = 1, VPD = 0.30 (MODERATE)\n\nसर्वात उत्तम स्थिती 13:30 ते 20:30 दरम्यान आहे, जिथे Delta T आणि VPD दोन्ही IDEAL आहेत.",
+        "timestamp": {
+          "$date": "2024-12-04T07:25:25.583Z"
+        }
+      }
+    ],
+    "farmer_id": "nikhilwaluje",
+    "farmer_plot_ids": [
+      "thompsonseedleesplot1"
+    ],
+    "conversation_id": "675003dcf198d0e2c7a28eb7",
+    "tag": "others",
+    "conv_date": "2024-12-04T07:25:17.211000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "ઓળખી બતાવો?<user uploaded image for analysis at 'plot1batata/2024-12-04-1733291217608.jpg'>",
+        "timestamp": {
+          "$date": "2024-12-04T05:47:07.256Z"
+        },
+        "standalone_question": "Can you identify what is shown in the uploaded image?",
+        "standalone_en": "Can you identify what is shown in the uploaded image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "olakhi dekhado? <user uploaded image for analysis at 'plot1batata/2024-12-04-1733291217608.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા છોડની છબીમાં કેટલીક સમસ્યાઓના સંકેતો જોવા મળે છે:\n\n1. **પાંદડાની વળાંક**: કેટલાક પાંદડા વળાંકવાળા દેખાય છે, જે વાયરસના સંક્રમણ અથવા પર્યાવરણના તણાવ (જેમ કે ગરમી અથવા પાણીની તણાવ)નું સંકેત હોઈ શકે છે.\n\n2. **રંગમાં ફેરફાર**: પાંદડાઓનું રંગ સામાન્ય રીતે હેલ્ધી લીલું છે, પરંતુ જો કોઈ પીળા અથવા રંગમાં ફેરફાર હોય, તો તે પોષક તત્વોની અછત અથવા કીટકના નુકસાનનું સંકેત હોઈ શકે છે.\n\n3. **કીટકની હાજરી**: પાંદડાઓ અને ડાળીઓની નીચે કોઈ દૃશ્યમાન કીટકો, જેમ કે આફિડ અથવા સ્પાઇડર માઇટ્સ, માટે તપાસો.\n\n4. **કુલ વૃદ્ધિ**: છોડ સારી રીતે વધતું દેખાય છે, પરંતુ કોઈ અટકેલી વૃદ્ધિ અથવા વિલ્ટિંગ માટે મોનિટર કરો.\n\n### ભલામણો:\n- **કીટકોની તપાસ**: પાંદડાઓ અને ડાળીઓની નજીકથી કીટકોના સંકેતો માટે ધ્યાનથી જુઓ.\n- **પાણી આપવાની તપાસ**: ખાતરી કરો કે છોડને પૂરતું પાણી મળી રહ્યું છે, પરંતુ વધુ પાણી ન આપવું.\n- **પોષક તત્વોનું સંચાલન**: પોષક તત્વોની અછત માટે જમીનનું પરીક્ષણ કરવા પર વિચાર કરો.\n- **વધુ છબીઓ પ્રદાન કરો**: વધુ ચોક્કસ વિશ્લેષણ માટે, અસરગ્રસ્ત પાંદડાઓની નજીકની છબીઓ પ્રદાન કરો.\n\nજો તમે કોઈ વિશિષ્ટ લક્ષણો અથવા ફેરફારો નોંધો છો, તો વધુ વિશ્લેષણ માટે વધુ વિગતવાર છબીઓ પ્રદાન કરો.",
+        "timestamp": {
+          "$date": "2024-12-04T05:47:22.419Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "આજે spray kyare krvo",
+        "timestamp": {
+          "$date": "2024-12-04T05:48:04.188Z"
+        },
+        "standalone_question": "When should I spray today?",
+        "standalone_en": "When should I spray today?",
+        "retrieval": {
+          "tools": [
+            "check_spray_conditions  \nGets the spray condition forecast for the next few hours for the farmer's plots and returns the condition for each hour as GOOD, MODERATE, or WORST, based on deltaT, VPD, and rainfall conditions."
+          ],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "આજે કોઈ સ્પ્રે કરવાની સૂચના નથી. જો તમે કીટક અથવા રોગ માટે સ્પ્રે કરી છે, તો વધુ સ્પ્રે કરવાની જરૂર નથી. જો તમને વધુ માહિતી જોઈએ, તો કૃપા કરીને જણાવો.",
+        "timestamp": {
+          "$date": "2024-12-04T05:48:08.301Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "આજે spray kya samye krvo",
+        "timestamp": {
+          "$date": "2024-12-04T05:48:29.995Z"
+        },
+        "standalone_question": "What time should I spray today?",
+        "standalone_en": "What time should I spray today?",
+        "retrieval": {
+          "tools": [
+            "check_spray_conditions  \nGets the spray condition forecast for the next few hours for the farmer's plots and returns the condition for each hour as GOOD, MODERATE, or WORST, based on deltaT, VPD, and rainfall conditions."
+          ],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "આજે કોઈ સ્પ્રે કરવાની સૂચના નથી. જો તમને વધુ માહિતી જોઈએ, તો કૃપા કરીને જણાવો.",
+        "timestamp": {
+          "$date": "2024-12-04T05:48:34.307Z"
+        }
+      }
+    ],
+    "farmer_id": "rashikbhai9428895303",
+    "farmer_plot_ids": [
+      "plot1batata"
+    ],
+    "conversation_id": "674fecdbf198d0e2c7a28eb6",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-12-04T05:47:07.256000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पुढील पाच दिवसात पाऊस पडणार आहे काय",
+        "timestamp": {
+          "$date": "2024-12-04T05:37:56.694Z"
+        },
+        "standalone_question": "Will it rain in the next five days?",
+        "standalone_en": "Will it rain in the next five days?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pudhil pach divasat paus padanar aahe kay"
+      },
+      {
+        "role": "assistant",
+        "content": "पुढील पाच दिवसांत पाऊस पडण्याची शक्यता आहे:\n\n- **4 डिसेंबर**: 0.1 मिमी पाऊस, 5% शक्यता\n- **5 डिसेंबर**: 0.4 मिमी पाऊस, 10% शक्यता\n- **6 डिसेंबर**: 0.5 मिमी पाऊस, 40% शक्यता\n- **7 डिसेंबर**: 1.3 मिमी पाऊस, 30% शक्यता\n- **8 डिसेंबर**: 0.5 मिमी पाऊस, 15% शक्यता\n- **9 डिसेंबर**: पाऊस नाही, 5% शक्यता\n\nत्यामुळे, 6 आणि 7 डिसेंबरला पाऊस पडण्याची अधिक शक्यता आहे.",
+        "timestamp": {
+          "$date": "2024-12-04T05:38:02.363Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "फोटो डाऊनी करप्या भुरीचा अटॅक दिसून येतोय का",
+        "timestamp": {
+          "$date": "2024-12-04T05:38:59.121Z"
+        },
+        "standalone_question": "Is there a visible attack of photo downy mildew?",
+        "standalone_en": "Is there a visible attack of photo downy mildew?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "photo downey karapya bhuricha attack disun yetoy ka"
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया फोटो अपलोड करा, जेणेकरून मी त्याचे विश्लेषण करू शकू.",
+        "timestamp": {
+          "$date": "2024-12-04T05:39:02.121Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "फोटो पाठवलेला आहे",
+        "timestamp": {
+          "$date": "2024-12-04T05:44:19.115Z"
+        },
+        "standalone_question": "Have you sent the photo?",
+        "standalone_en": "Have you sent the photo?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "photo pathavalela aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "माझ्याकडे फोटो प्राप्त झालेला नाही. कृपया पुन्हा एकदा फोटो अपलोड करा, जेणेकरून मी त्याचे विश्लेषण करू शकू.",
+        "timestamp": {
+          "$date": "2024-12-04T05:44:22.650Z"
+        }
+      }
+    ],
+    "farmer_id": "ramchandrabapuravsurwase",
+    "farmer_plot_ids": [
+      "ssnplot425"
+    ],
+    "conversation_id": "674feab466d66cf5bee2e3e8",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-04T05:37:56.694000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "यह कौन सी समस्या आ रही है<user uploaded image for analysis at 'plot1899/2024-12-04-1733290007361.jpg'>",
+        "timestamp": {
+          "$date": "2024-12-04T05:26:56.036Z"
+        },
+        "standalone_question": "What issue is occurring in the uploaded image?",
+        "standalone_en": "What issue is occurring in the uploaded image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "yeh kaun si samasya aa rahi hai<user uploaded image for analysis at 'plot1899/2024-12-04-1733290007361.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "आपकी फसल में कुछ समस्याएँ दिखाई दे रही हैं, जो संभवतः कीटों के नुकसान या रोग से संबंधित हैं। यहाँ कुछ अवलोकन हैं:\n\n1. **पत्तियों का मुड़ना**: पत्तियाँ मुड़ती हुई दिखाई दे रही हैं, जो कीटों (जैसे कि एफिड्स या थ्रिप्स) या वायरल संक्रमण के कारण तनाव का संकेत हो सकता है।\n   \n2. **रंग में बदलाव**: कुछ पत्तियों में पीला रंग दिखाई दे रहा है, जो पोषक तत्वों की कमी या रोग का संकेत हो सकता है।\n\n3. **पत्तियों में छिद्र**: पत्तियों में छिद्र होने से पता चलता है कि कीटों ने भोजन किया है।\n\n### सिफारिशें:\n- **कीट निरीक्षण**: पत्तियों और तनों के नीचे की जाँच करें। छोटे कीट या जाले देखें।\n- **पोषक तत्वों का मूल्यांकन**: पोषक तत्वों की कमी की जाँच के लिए मिट्टी का परीक्षण करें, विशेष रूप से नाइट्रोजन और पोटेशियम के लिए।\n- **फंगिसाइड/कीटनाशक**: यदि कीट पाए जाते हैं, तो उचित उपचार की आवश्यकता हो सकती है। विशेष सिफारिशों के लिए स्थानीय कृषि विशेषज्ञ से परामर्श करें।\n- **बेहतर छवि**: बेहतर विश्लेषण के लिए, कृपया प्रभावित क्षेत्रों पर ध्यान केंद्रित करते हुए एक करीबी और स्पष्ट छवि प्रदान करें।\n\nइन कदमों को उठाने से आपकी फसल की सेहत का प्रबंधन करने में मदद मिलेगी।",
+        "timestamp": {
+          "$date": "2024-12-04T05:27:12.205Z"
+        }
+      }
+    ],
+    "farmer_id": "jitendragurjar",
+    "farmer_plot_ids": [
+      "plot1899"
+    ],
+    "conversation_id": "674fe81f96c81e1c0a3d7a6d",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-04T05:26:56.036000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં પાણીની ક્યારે જરૂર છે",
+        "timestamp": {
+          "$date": "2024-12-04T05:10:23.091Z"
+        },
+        "standalone_question": "When does my field need water?",
+        "standalone_en": "When does my field need water?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate.",
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: In the latest irrigation , sensor didn't drop to 0.\nA: 0 to 5 Kpa means soil is fully wet. It need not drop to 0 every time. Moisture less than 5 also means wet conditions. So, need not worry. Also ask to wait for 12 hours after irrigation.",
+            "Q: What should I do if the soil moisture sensor always shows wet values?\nA: Verify the irrigation frequency, check the installation point, and contact Fyllo representative if the issue persists."
+          ]
+        },
+        "content_transliterated": "mara khetaraman panini kyare jarur che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં પાણીની જરૂરિયાતની સ્થિતિ નીચે મુજબ છે:\n\n1. **લક્ષ્મણ ભાઈ વાળો પ્લોટ**:\n   - **મૂળભૂત ભેજ**: 11 kPa (મીઠું), 0 kPa (મીઠું)\n   - **ઓપ્ટિમલ ભેજ**: 18 kPa\n   - **પાણી આપવાની જરૂર નથી**, કારણ કે જમીનનો ભેજ ઓપ્ટિમલ મૂલ્યથી નીચે છે.\n\n2. **મેઇન પ્લોટ**:\n   - **મૂળભૂત ભેજ**: 0 kPa (મીઠું), 0 kPa (મીઠું)\n   - **ઓપ્ટિમલ ભેજ**: 18 kPa\n   - **પાણી આપવાની જરૂર નથી**, કારણ કે જમીનનો ભેજ ઓપ્ટિમલ મૂલ્યથી નીચે છે.\n\nતમે હાલ પાણી આપવાની જરૂર નથી. જો ભેજ વધે અને ઓપ્ટિમલ મૂલ્યથી ઉપર જાય, ત્યારે પાણી આપવું જોઈએ.",
+        "timestamp": {
+          "$date": "2024-12-04T05:10:30.109Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં દવા ક્યારે આપવી",
+        "timestamp": {
+          "$date": "2024-12-04T05:11:21.330Z"
+        },
+        "standalone_question": "When should I apply medicine to my field?",
+        "standalone_en": "When should I apply medicine to my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise."
+          ]
+        },
+        "content_transliterated": "mara khetaraman dava kyare apavi"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં દવા આપવાની કોઈ નિર્ધારિત તારીખો નથી. જો તમને કોઈ ખાસ સમસ્યા હોય, તો કૃપા કરીને જણાવો, હું વધુ મદદ કરી શકું છું.",
+        "timestamp": {
+          "$date": "2024-12-04T05:11:30.451Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "સફેદ માખી માટે ક્યારે આલવી દવા",
+        "timestamp": {
+          "$date": "2024-12-04T05:11:58.022Z"
+        },
+        "standalone_question": "When should I apply the pesticide for whiteflies?",
+        "standalone_en": "When should I apply the pesticide for whiteflies?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "safed makhi mate kyare alavi dava"
+      },
+      {
+        "role": "assistant",
+        "content": "આજે (4 ડિસેમ્બર 2024) માટે સફેદ માખી માટે કોઈ દવા આપવાની સૂચના નથી. જો તમને વધુ માહિતી જોઈએ, તો કૃપા કરીને જણાવો.",
+        "timestamp": {
+          "$date": "2024-12-04T05:12:02.436Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં રેડબલાઇટ ની દવા ક્યારે આપવી",
+        "timestamp": {
+          "$date": "2024-12-04T05:12:30.234Z"
+        },
+        "standalone_question": "When should I apply medication for red blight in my field?",
+        "standalone_en": "When should I apply medication for red blight in my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: What are the important diseases occur during seedling stage and control measures?\nA: Collar rot, Damping off, Seedling blight diseases infect during seedling stage.\nDrench/spray seedling with: Carbendazim @ 2.5g/ltr"
+          ]
+        },
+        "content_transliterated": "mara khetaraman redublight knee dava kyare apavi"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં રેડબલાઇટ માટે દવા આપવાની કોઈ નિર્ધારિત તારીખ નથી. જો તમને વધુ માહિતી જોઈએ, તો કૃપા કરીને જણાવો.",
+        "timestamp": {
+          "$date": "2024-12-04T05:12:35.202Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં દવા ક્યારે ખાતર કયું આપવું",
+        "timestamp": {
+          "$date": "2024-12-04T05:12:57.545Z"
+        },
+        "standalone_question": "When should I apply fertilizer in my field?",
+        "standalone_en": "When should I apply fertilizer in my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise."
+          ]
+        },
+        "content_transliterated": "mara khetaraman dava kyare khatar kayu apvu"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં ખાતર આપવાની સૂચનાઓ નીચે મુજબ છે:\n\n1. **લક્ષ્મણ ભાઈ વાળો પ્લોટ** (Potato - Santanahyfun):\n   - **હાલની સ્થિતિ**: વેજિટેટિવ ગ્રોથ (Vegetative Growth), સપ્તાહ 1\n   - **આજે (4 ડિસેમ્બર 2024)**:\n     - **દિવસ 1**: \n       - **હ્યુમિક એસિડ**: 1 લિટર/એકર\n     - **દિવસ 4** (7 ડિસેમ્બર 2024):\n       - **ફોસ્ફોરિક એસિડ**: 15-20 મિનિટ પહેલા લાગુ કરવું.\n       - **12-61-0**: 6 કિલોગ્રામ/એકર\n       - **યૂરિયા**: 5 કિલોગ્રામ/એકર\n\n2. **મેઇન પ્લોટ** (Potato - Other Potato):\n   - **હાલની સ્થિતિ**: વેજિટેટિવ ગ્રોથ (Vegetative Growth), સપ્તાહ 1\n   - **આજે (4 ડિસેમ્બર 2024)**:\n     - **હ્યુમિક એસિડ**: 1 લિટર/એકર\n     - **દિવસ 4** (7 ડિસેમ્બર 2024):\n       - **ફોસ્ફોરિક એસિડ**: 15-20 મિનિટ પહેલા લાગુ કરવું.\n       - **12-61-0**: 6 કિલોગ્રામ/એકર\n       - **યૂરિયા**: 4 કિલોગ્રામ/એકર\n\nઆ સૂચનાઓ અનુસાર ખાતર આપવું. જો વધુ માહિતી જોઈએ, તો જણાવો.",
+        "timestamp": {
+          "$date": "2024-12-04T05:13:05.140Z"
+        }
+      }
+    ],
+    "farmer_id": "ishavarjipokarjigehlot",
+    "farmer_plot_ids": [
+      "laxmanbhaivaloplot",
+      "main635"
+    ],
+    "conversation_id": "674fe43e96c81e1c0a3d7a6c",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-12-04T05:10:23.091000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "આપણા ખેતરમાં દવા ક્યારે નાખવી",
+        "timestamp": {
+          "$date": "2024-12-04T05:03:45.071Z"
+        },
+        "standalone_question": "When should we apply medicine in our field?",
+        "standalone_en": "When should we apply medicine in our field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "apana khetaraman dava kyare nakhavi"
+      },
+      {
+        "role": "assistant",
+        "content": "Currently, there are no scheduled pesticide spray recommendations for your plots for the week of December 4 to December 11, 2024. You can monitor your crops regularly for any signs of pests or diseases and take action as needed.",
+        "timestamp": {
+          "$date": "2024-12-04T05:03:50.455Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં દવાની ક્યારે જરૂર છે",
+        "timestamp": {
+          "$date": "2024-12-04T05:04:15.257Z"
+        },
+        "standalone_question": "When does my field need pesticide treatment?",
+        "standalone_en": "When does my field need pesticide treatment?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise.",
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed"
+          ]
+        },
+        "content_transliterated": "mara khetaraman davani kyare jarur che"
+      },
+      {
+        "role": "assistant",
+        "content": "Currently, there are no scheduled pesticide spray recommendations for your plots for the week of December 4 to December 11, 2024. You can continue to monitor your crops for any signs of pests or diseases and take action as needed.",
+        "timestamp": {
+          "$date": "2024-12-04T05:04:20.360Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં પાણી ની જરૂર કયારે છે",
+        "timestamp": {
+          "$date": "2024-12-04T05:07:40.867Z"
+        },
+        "standalone_question": "When does my field need water?",
+        "standalone_en": "When does my field need water?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate.",
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: In the latest irrigation , sensor didn't drop to 0.\nA: 0 to 5 Kpa means soil is fully wet. It need not drop to 0 every time. Moisture less than 5 also means wet conditions. So, need not worry. Also ask to wait for 12 hours after irrigation.",
+            "Q: What should I do if the soil moisture sensor always shows wet values?\nA: Verify the irrigation frequency, check the installation point, and contact Fyllo representative if the issue persists."
+          ]
+        },
+        "content_transliterated": "mara khetaraman pani knee jarur kayre che"
+      },
+      {
+        "role": "assistant",
+        "content": "For your plots:\n\n1. **Laxman Bhai Valo Plot**: The irrigation forecast indicates that it is unable to provide a specific forecast. Please check the soil moisture readings to determine if irrigation is needed.\n\n2. **Main Plot**: No irrigation is required for today.\n\nMake sure to monitor the soil moisture levels regularly to decide on irrigation needs.",
+        "timestamp": {
+          "$date": "2024-12-04T05:07:46.331Z"
+        }
+      }
+    ],
+    "farmer_id": "ishavarjipokarjigehlot",
+    "farmer_plot_ids": [
+      "laxmanbhaivaloplot",
+      "main635"
+    ],
+    "conversation_id": "674fe2af96c81e1c0a3d7a6b",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-12-04T05:03:45.071000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can you tell me what is the lower and the upper limit of nero ",
+        "timestamp": {
+          "$date": "2024-12-04T05:03:21.819Z"
+        },
+        "standalone_question": "What are the lower and upper limits of Nero?",
+        "standalone_en": "What are the lower and upper limits of Nero?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For your Nero plots, the optimal soil moisture limits are as follows:\n\n- **puranpur potato Nero 1**:\n  - Lower Limit: 2 kPa (wet)\n  - Upper Limit: 18 kPa (dry)\n\n- **puranpur potato Nero 2**:\n  - Lower Limit: 2 kPa (wet)\n  - Upper Limit: 18 kPa (dry)\n\nIrrigation should be done when the soil moisture exceeds the upper limit of 18 kPa.",
+        "timestamp": {
+          "$date": "2024-12-04T05:03:27.212Z"
+        }
+      }
+    ],
+    "farmer_id": "dW1lc2hzaW5naA1730207885965",
+    "farmer_plot_ids": [
+      "puranpurpotatokairo",
+      "puranpurpotatonero1",
+      "puranpurpotatonero2"
+    ],
+    "conversation_id": "674fe299a40af4c57e5d9dc9",
+    "tag": "others",
+    "conv_date": "2024-12-04T05:03:21.819000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "દવા નાખવાની સમય આપો ",
+        "timestamp": {
+          "$date": "2024-12-04T02:42:10.706Z"
+        },
+        "standalone_question": "Please provide the time for taking the medicine.",
+        "standalone_en": "Please provide the time for taking the medicine.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "deva nakhavani samay apo "
+      },
+      {
+        "role": "assistant",
+        "content": "આપના પાક માટે દવા નાખવાની સમયસૂચી નીચે મુજબ છે:\n\n### **J.J PATEL FARM**\n- **દવા નાખવાની તારીખ:** 2024-12-03\n  - **પેસ્ટ:** Leaf eating Caterpillar\n    - **દવા:** Chlorantraniliporle (0.4 mL), Tetraniliprole 18.18 SC (1 mL), Flubendiamide 19.92 + Thiacloprid 19.92 ww SC (0.4 mL)\n  - **પેસ્ટ:** Aphids, Thrips, Whitefly\n    - **દવા:** Tolfenpyrad 15% EC (1.25 mL), spirotetramat11Imidacloprid11 (0.8 mL), Pyrifluquinazon 20% WG (1 g), Broflanilide 300G/L SC (0.4 mL)\n  - **પેસ્ટ:** Mites, Red spider mites\n    - **દવા:** Chlorfenapyr 10 SC (1 mL), Propargite 42% + Hexythiazox 2% EC (2.5 mL), Cyenopyrafen 30 SC (0.6 mL)\n\n### **padar valu plot**\n- **દવા નાખવાની તારીખ:** 2024-12-04\n  - **પેસ્ટ:** Cutworm\n    - **દવા:** Tetraniliprole 18.18 SC (1 mL), Chlorantraniliporle 18.5% SC + Thiamethoxam 25% WG (0.4 mL), Flubendiamide 19.92 + Thiacloprid 19.92 ww SC (0.5 mL)\n  - **પેસ્ટ:** Leaf eating Caterpillar\n    - **દવા:** Chlorantraniliporle (0.4 mL), Tetraniliprole 18.18 SC (1 mL), Flubendiamide 19.92 + Thiacloprid 19.92 ww SC (0.4 mL)\n  - **પેસ્ટ:** Aphids, Thrips, Whitefly\n    - **દવા:** Tolfenpyrad 15% EC (1.25 mL), spirotetramat11Imidacloprid11 (0.8 mL), Pyrifluquinazon 20% WG (1 g), Broflanilide 300G/L SC (0.4 mL)\n  - **પેસ્ટ:** Mites, Red spider mites\n    - **દવા:** Chlorfenapyr 10 SC (1 mL), Propargite 42% + Hexythiazox 2% EC (2.5 mL), Cyenopyrafen 30 SC (0.6 mL)\n\n### **vadi**\n- **દવા નાખવાની તારીખ:** 2024-12-04\n  - **પેસ્ટ:** Cutworm\n    - **દવા:** Tetraniliprole 18.18 SC (1 mL), Chlorantraniliporle 18.5% SC + Thiamethoxam 25% WG (0.4 mL), Flubendiamide 19.92 + Thiacloprid 19.92 ww SC (0.5 mL)\n  - **પેસ્ટ:** Leaf eating Caterpillar\n    - **દવા:** Chlorantraniliporle (0.4 mL), Tetraniliporle 18.18 SC (1 mL), Flubendiamide 19.92 + Thiacloprid 19.92 ww SC (0.4 mL)\n  - **પેસ્ટ:** Aphids, Thrips, Whitefly\n    - **દવા:** Tolfenpyrad 15% EC (1.25 mL), spirotetramat11Imidacloprid11 (0.8 mL), Pyrifluquinazon 20% WG (1 g), Broflanilide 300G/L SC (0.4 mL)\n  - **પેસ્ટ:** Mites, Red spider mites\n    - **દવા:** Chlorfenapyr 10 SC (1 mL), Propargite 42% + Hexythiazox 2% EC (2.5 mL), Cyenopyrafen 30 SC (0.6 mL)\n\nકૃપા કરીને આ સૂચનાઓ અનુસાર દવા નાખો.",
+        "timestamp": {
+          "$date": "2024-12-04T02:42:29.096Z"
+        }
+      }
+    ],
+    "farmer_id": "VR8571",
+    "farmer_plot_ids": [
+      "jjpatelfarm",
+      "padarvaluplot",
+      "vadi"
+    ],
+    "conversation_id": "674fc1824d26d00f070e786c",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-12-04T02:42:10.706000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ok",
+        "timestamp": {
+          "$date": "2024-12-04T01:48:39.410Z"
+        },
+        "standalone_question": "What do you mean by \"Ok\"?",
+        "standalone_en": "What do you mean by \"Ok\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "How can I assist you today with your farming needs?",
+        "timestamp": {
+          "$date": "2024-12-04T01:48:42.502Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Drop the flower",
+        "timestamp": {
+          "$date": "2024-12-04T01:49:29.764Z"
+        },
+        "standalone_question": "Could you please drop the flower?",
+        "standalone_en": "Could you please drop the flower?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like you want to manage the flowering stage of your Red Chilli crop. However, I need more context to assist you properly. Are you looking for advice on how to manage the flowering stage, or do you want to know about any specific practices related to it? Please clarify!",
+        "timestamp": {
+          "$date": "2024-12-04T01:49:34.189Z"
+        }
+      }
+    ],
+    "farmer_id": "lokulanaresh",
+    "farmer_plot_ids": [
+      "nareshchilli"
+    ],
+    "conversation_id": "674fb4f7a8caf3e2051e54bb",
+    "tag": "others",
+    "conv_date": "2024-12-04T01:48:39.410000+00:00"
+  }
+]

@@ -1,0 +1,799 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "અત્યારે કોઈ રોગ",
+        "en": "A disease right now",
+        "timestamp": {
+          "$date": "2025-04-15T16:49:51.731Z"
+        },
+        "standalone_question": "Is there any disease currently?",
+        "standalone_en": "Is there any disease currently?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "atyare koi rog"
+      },
+      {
+        "role": "assistant",
+        "content": "અત્યારે, તમારા બંને પ્લોટમાં \"Cercospora Leaf Spot\" રોગની આગાહી કરવામાં આવી છે. અહીં તાજેતરના દિવસોમાં રોગની સંભાવના અને જોખમ સ્તર છે:\n\n### TARAK (TARAK)\n- **15 એપ્રિલ 2025**: 20.0% - જોખમ સ્તર: NIL\n- **14 એપ્રિલ 2025**: 26.3% - જોખમ સ્તર: LOW\n- **13 એપ્રિલ 2025**: 37.1% - જોખમ સ્તર: LOW\n- **12 એપ્રિલ 2025**: 41.8% - જોખમ સ્તર: LOW\n\n### SHESH PLOT\n- **15 એપ્રિલ 2025**: 20.0% - જોખમ સ્તર: NIL\n- **14 એપ્રિલ 2025**: 26.3% - જોખમ સ્તર: LOW\n- **13 એપ્રિલ 2025**: 37.2% - જોખમ સ્તર: LOW\n- **12 એપ્રિલ 2025**: 41.9% - જોખમ સ્તર: LOW\n\nઆ માહિતી મુજબ, હાલ રોગનું જોખમ ઓછું છે, પરંતુ ધ્યાન રાખવું મહત્વપૂર્ણ છે.",
+        "en": "Right now, \"Cercospora Leaf Spot\" disease is predicted in both of your plots. Here is the probability and risk level of the disease in recent days:\n\n### TARAK (TARAK)\n* **15 April 2025**: 20.0% - Risk level: NIL\n* **14 April 2025**: 26.3% - Risk level: LOW\n* **13 April 2025**: 37.1% - Risk Level: LOW\n* **12 April 2025**: 41.8% - Risk Level: LOW\n\n### SHESH PLOT\n* **15 April 2025**: 20.0% - Risk level: NIL\n* **14 April 2025**: 26.3% - Risk level: LOW\n* **13 April 2025**: 37.2% - Risk Level: LOW\n* **12 April 2025**: 41.9% - Risk Level: LOW\n\nAccording to this information, the risk of disease is currently low, but it is important to take care.",
+        "timestamp": {
+          "$date": "2025-04-15T16:50:02.057Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "અત્યારે કોઈ ટ્રીટમેન્ટ આપવાની જરૂર",
+        "en": "Need to give any treatment right now",
+        "timestamp": {
+          "$date": "2025-04-15T16:50:47.788Z"
+        },
+        "standalone_question": "Is there a need for treatment at this time?",
+        "standalone_en": "Is there a need for treatment at this time?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "atyare koi treatment apavani jarur"
+      },
+      {
+        "role": "assistant",
+        "content": "અત્યારે તમારા પ્લોટમાં કોઈ રોગ અથવા પેસ્ટ માટે ટ્રીટમેન્ટ આપવાની જરૂર નથી. કોઈ સ્પ્રે શેડ્યૂલ નથી. જો તમને વધુ માહિતી જોઈએ તો મને જણાવો.",
+        "en": "Right now there is no need to give treatment for any disease or paste in your plot. There is no spray schedule. Let me know if you need more information.",
+        "timestamp": {
+          "$date": "2025-04-15T16:50:53.861Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ખાતર માટે ક્યારથી",
+        "en": "From when for fertilizer",
+        "timestamp": {
+          "$date": "2025-04-15T16:51:15.474Z"
+        },
+        "standalone_question": "When should fertilizer be applied?",
+        "standalone_en": "When should fertilizer be applied?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise."
+          ]
+        },
+        "content_transliterated": "khatar mate kyarathi"
+      },
+      {
+        "role": "assistant",
+        "content": "### Fertigation Schedule for Your Plots\n\n#### TARAK (TARAK)\n- **Current Stage**: Vegetative (Week 4)\n- **Current Fertigation**:\n  - **Foliar Method**:\n    - **Zinc Sulphate**: 600 gm/acre\n    - **Ferrous Sulphate**: 600 gm/acre\n    - **Magnesium Sulphate**: 1.2 kg/acre\n    - **Note**: The concentration of micro-nutrient fertilizers for foliar spray should not exceed 1% (e.g., 5 kg in 500 liters of water per acre).\n\n- **Next Fertigation Schedule** (Starting from **May 1, 2025**):\n  - **Soil Application**:\n    - **Ammonium Sulphate**: 43 kg/acre\n    - **Sulfate of Potash**: 32 kg/acre\n  - **Foliar Method**:\n    - **Solubor**: 800 gm/acre\n\n#### SHESH PLOT\n- **Current Stage**: Vegetative (Week 4)\n- **Current Fertigation**:\n  - **Foliar Method**:\n    - **Zinc Sulphate**: 600 gm/acre\n    - **Ferrous Sulphate**: 600 gm/acre\n    - **Magnesium Sulphate**: 1.2 kg/acre\n    - **Note**: The concentration of micro-nutrient fertilizers for foliar spray should not exceed 1% (e.g., 5 kg in 500 liters of water per acre).\n\n- **Next Fertigation Schedule** (Starting from **May 1, 2025**):\n  - **Soil Application**: Details not available.\n  - **Foliar Method**:\n    - **Solubor**: 800 gm/acre\n\nMake sure to follow the recommended amounts and methods for effective fertilization! If you have any further questions, feel free to ask.",
+        "en": "### Fertigation Schedule for Your Plots\n\n#### TARAK (TARAK)\n- **Current Stage**: Vegetative (Week 4)\n- **Current Fertigation**:\n  - **Foliar Method**:\n    - **Zinc Sulphate**: 600 gm/acre\n    - **Ferrous Sulphate**: 600 gm/acre\n    - **Magnesium Sulphate**: 1.2 kg/acre\n    - **Note**: The concentration of micro-nutrient fertilizers for foliar spray should not exceed 1% (e.g., 5 kg in 500 liters of water per acre).\n\n- **Next Fertigation Schedule** (Starting from **May 1, 2025**):\n  - **Soil Application**:\n    - **Ammonium Sulphate**: 43 kg/acre\n    - **Sulfate of Potash**: 32 kg/acre\n  - **Foliar Method**:\n    - **Solubor**: 800 gm/acre\n\n#### SHESH PLOT\n- **Current Stage**: Vegetative (Week 4)\n- **Current Fertigation**:\n  - **Foliar Method**:\n    - **Zinc Sulphate**: 600 gm/acre\n    - **Ferrous Sulphate**: 600 gm/acre\n    - **Magnesium Sulphate**: 1.2 kg/acre\n    - **Note**: The concentration of micro-nutrient fertilizers for foliar spray should not exceed 1% (e.g., 5 kg in 500 liters of water per acre).\n\n- **Next Fertigation Schedule** (Starting from **May 1, 2025**):\n  - **Soil Application**: Details not available.\n  - **Foliar Method**:\n    - **Solubor**: 800 gm/acre\n\nMake sure to follow the recommended amounts and methods for effective fertilization! If you have any further questions, feel free to ask.",
+        "timestamp": {
+          "$date": "2025-04-15T16:51:34.542Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140",
+      "sheshpalot"
+    ],
+    "conversation_id": "67fe8e2f6a8ce14c172808a2",
+    "_id": "67fe8e2f6a8ce14c172808a2",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-15T16:56:15.480000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-15T16:49:51.731000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "અત્યારે કોઈ રોગ",
+        "en": "A disease right now",
+        "timestamp": {
+          "$date": "2025-04-15T16:49:51.731Z"
+        },
+        "standalone_question": "Is there any disease currently?",
+        "standalone_en": "Is there any disease currently?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "atyare koi rog"
+      },
+      {
+        "role": "assistant",
+        "content": "અત્યારે, તમારા બંને પ્લોટમાં \"Cercospora Leaf Spot\" રોગની આગાહી કરવામાં આવી છે. અહીં તાજેતરના દિવસોમાં રોગની સંભાવના અને જોખમ સ્તર છે:\n\n### TARAK (TARAK)\n- **15 એપ્રિલ 2025**: 20.0% - જોખમ સ્તર: NIL\n- **14 એપ્રિલ 2025**: 26.3% - જોખમ સ્તર: LOW\n- **13 એપ્રિલ 2025**: 37.1% - જોખમ સ્તર: LOW\n- **12 એપ્રિલ 2025**: 41.8% - જોખમ સ્તર: LOW\n\n### SHESH PLOT\n- **15 એપ્રિલ 2025**: 20.0% - જોખમ સ્તર: NIL\n- **14 એપ્રિલ 2025**: 26.3% - જોખમ સ્તર: LOW\n- **13 એપ્રિલ 2025**: 37.2% - જોખમ સ્તર: LOW\n- **12 એપ્રિલ 2025**: 41.9% - જોખમ સ્તર: LOW\n\nઆ માહિતી મુજબ, હાલ રોગનું જોખમ ઓછું છે, પરંતુ ધ્યાન રાખવું મહત્વપૂર્ણ છે.",
+        "en": "Right now, \"Cercospora Leaf Spot\" disease is predicted in both of your plots. Here is the probability and risk level of the disease in recent days:\n\n### TARAK (TARAK)\n* **15 April 2025**: 20.0% - Risk level: NIL\n* **14 April 2025**: 26.3% - Risk level: LOW\n* **13 April 2025**: 37.1% - Risk Level: LOW\n* **12 April 2025**: 41.8% - Risk Level: LOW\n\n### SHESH PLOT\n* **15 April 2025**: 20.0% - Risk level: NIL\n* **14 April 2025**: 26.3% - Risk level: LOW\n* **13 April 2025**: 37.2% - Risk Level: LOW\n* **12 April 2025**: 41.9% - Risk Level: LOW\n\nAccording to this information, the risk of disease is currently low, but it is important to take care.",
+        "timestamp": {
+          "$date": "2025-04-15T16:50:02.057Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "અત્યારે કોઈ ટ્રીટમેન્ટ આપવાની જરૂર",
+        "en": "Need to give any treatment right now",
+        "timestamp": {
+          "$date": "2025-04-15T16:50:47.788Z"
+        },
+        "standalone_question": "Is there a need for treatment at this time?",
+        "standalone_en": "Is there a need for treatment at this time?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "atyare koi treatment apavani jarur"
+      },
+      {
+        "role": "assistant",
+        "content": "અત્યારે તમારા પ્લોટમાં કોઈ રોગ અથવા પેસ્ટ માટે ટ્રીટમેન્ટ આપવાની જરૂર નથી. કોઈ સ્પ્રે શેડ્યૂલ નથી. જો તમને વધુ માહિતી જોઈએ તો મને જણાવો.",
+        "en": "Right now there is no need to give treatment for any disease or paste in your plot. There is no spray schedule. Let me know if you need more information.",
+        "timestamp": {
+          "$date": "2025-04-15T16:50:53.861Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ખાતર માટે ક્યારથી",
+        "en": "From when for fertilizer",
+        "timestamp": {
+          "$date": "2025-04-15T16:51:15.474Z"
+        },
+        "standalone_question": "When should fertilizer be applied?",
+        "standalone_en": "When should fertilizer be applied?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise."
+          ]
+        },
+        "content_transliterated": "khatar mate kyarathi"
+      },
+      {
+        "role": "assistant",
+        "content": "### Fertigation Schedule for Your Plots\n\n#### TARAK (TARAK)\n- **Current Stage**: Vegetative (Week 4)\n- **Current Fertigation**:\n  - **Foliar Method**:\n    - **Zinc Sulphate**: 600 gm/acre\n    - **Ferrous Sulphate**: 600 gm/acre\n    - **Magnesium Sulphate**: 1.2 kg/acre\n    - **Note**: The concentration of micro-nutrient fertilizers for foliar spray should not exceed 1% (e.g., 5 kg in 500 liters of water per acre).\n\n- **Next Fertigation Schedule** (Starting from **May 1, 2025**):\n  - **Soil Application**:\n    - **Ammonium Sulphate**: 43 kg/acre\n    - **Sulfate of Potash**: 32 kg/acre\n  - **Foliar Method**:\n    - **Solubor**: 800 gm/acre\n\n#### SHESH PLOT\n- **Current Stage**: Vegetative (Week 4)\n- **Current Fertigation**:\n  - **Foliar Method**:\n    - **Zinc Sulphate**: 600 gm/acre\n    - **Ferrous Sulphate**: 600 gm/acre\n    - **Magnesium Sulphate**: 1.2 kg/acre\n    - **Note**: The concentration of micro-nutrient fertilizers for foliar spray should not exceed 1% (e.g., 5 kg in 500 liters of water per acre).\n\n- **Next Fertigation Schedule** (Starting from **May 1, 2025**):\n  - **Soil Application**: Details not available.\n  - **Foliar Method**:\n    - **Solubor**: 800 gm/acre\n\nMake sure to follow the recommended amounts and methods for effective fertilization! If you have any further questions, feel free to ask.",
+        "en": "### Fertigation Schedule for Your Plots\n\n#### TARAK (TARAK)\n- **Current Stage**: Vegetative (Week 4)\n- **Current Fertigation**:\n  - **Foliar Method**:\n    - **Zinc Sulphate**: 600 gm/acre\n    - **Ferrous Sulphate**: 600 gm/acre\n    - **Magnesium Sulphate**: 1.2 kg/acre\n    - **Note**: The concentration of micro-nutrient fertilizers for foliar spray should not exceed 1% (e.g., 5 kg in 500 liters of water per acre).\n\n- **Next Fertigation Schedule** (Starting from **May 1, 2025**):\n  - **Soil Application**:\n    - **Ammonium Sulphate**: 43 kg/acre\n    - **Sulfate of Potash**: 32 kg/acre\n  - **Foliar Method**:\n    - **Solubor**: 800 gm/acre\n\n#### SHESH PLOT\n- **Current Stage**: Vegetative (Week 4)\n- **Current Fertigation**:\n  - **Foliar Method**:\n    - **Zinc Sulphate**: 600 gm/acre\n    - **Ferrous Sulphate**: 600 gm/acre\n    - **Magnesium Sulphate**: 1.2 kg/acre\n    - **Note**: The concentration of micro-nutrient fertilizers for foliar spray should not exceed 1% (e.g., 5 kg in 500 liters of water per acre).\n\n- **Next Fertigation Schedule** (Starting from **May 1, 2025**):\n  - **Soil Application**: Details not available.\n  - **Foliar Method**:\n    - **Solubor**: 800 gm/acre\n\nMake sure to follow the recommended amounts and methods for effective fertilization! If you have any further questions, feel free to ask.",
+        "timestamp": {
+          "$date": "2025-04-15T16:51:34.542Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140",
+      "sheshpalot"
+    ],
+    "conversation_id": "67fe8e2f6a8ce14c172808a2",
+    "_id": "67fe8e2f6a8ce14c172808a2",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-15T16:56:15.480000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-15T16:49:51.731000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "आंबा पीकातील पानावर पिवळे ठिपके दिसतात ",
+        "en": "Yellow dots appear on the leaves of mango crop ",
+        "timestamp": {
+          "$date": "2025-04-15T11:41:53.184Z"
+        },
+        "standalone_question": "What are the yellow spots seen on the leaves of mango trees?",
+        "standalone_en": "What are the yellow spots seen on the leaves of mango trees?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "amba pikatil panavar pivale thipake disatat "
+      },
+      {
+        "role": "assistant",
+        "content": "आंबा पीकातील पानावर पिवळे ठिपके दिसणे म्हणजे काही रोग किंवा कीडांचा संकेत असू शकतो. यामध्ये \"Alternaria\" किंवा \"Powdery Mildew\" सारखे रोग असू शकतात. \n\nकृपया तुम्ही पानाचा फोटो अपलोड करा, जेणेकरून मी त्याचे विश्लेषण करू शकू आणि योग्य उपाययोजना सुचवू शकू.",
+        "en": "The appearance of yellow patches on the leaves of the mango crop may be an indication of some disease or pest. It can contain diseases such as \"Alternaria\" or \"Powdery Mildew\". \n\nPlease upload a photo of the page so I can analyze it and suggest appropriate measures.",
+        "timestamp": {
+          "$date": "2025-04-15T11:41:56.842Z"
+        }
+      }
+    ],
+    "farmer_id": "ajayvilasraoborkar",
+    "farmer_plot_ids": [
+      "mangoplot527",
+      "orangekairo",
+      "orangenero"
+    ],
+    "conversation_id": "67fe46006ec5128db05cbe27",
+    "_id": "67fe46006ec5128db05cbe27",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-15T11:46:53.190000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-15T11:41:53.184000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "service is not good ",
+        "en": "service is not good ",
+        "timestamp": {
+          "$date": "2025-04-15T10:46:09.880Z"
+        },
+        "standalone_question": "What are your thoughts on the quality of the service?",
+        "standalone_en": "What are your thoughts on the quality of the service?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "I'm here to assist you with any agricultural queries or tasks you may have. Please let me know how I can help you today!",
+        "en": "I'm here to assist you with any agricultural queries or tasks you may have. Please let me know how I can help you today!",
+        "timestamp": {
+          "$date": "2025-04-15T10:46:12.564Z"
+        }
+      }
+    ],
+    "farmer_id": "subhashhasabehivare",
+    "farmer_plot_ids": [
+      "supersonakaplotno1687"
+    ],
+    "conversation_id": "67fe38f18a576712a1338f02",
+    "_id": "67fe38f18a576712a1338f02",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-15T10:51:09.887000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-04-15T10:46:09.880000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kelele kachi mahiti karavi",
+        "en": "Know the glass done",
+        "timestamp": {
+          "$date": "2025-04-15T10:17:22.836Z"
+        },
+        "standalone_question": "What information should I gather about Kelele?",
+        "standalone_en": "What information should I gather about Kelele?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"Balaji Jadhav Manikchaman\" प्लॉटसाठी कच्ची माहिती खालीलप्रमाणे आहे:\n\n- **मातीचे तापमान:** 33.69°C\n- **बॅटरी:** 91%\n- **मातीची आर्द्रता:**\n  - **सेंसर 1:** 100% (खूप ओलसर)\n  - **सेंसर 2:** 56% (सामान्य आर्द्रता)\n- **सौर व्होल्टेज:** 4314\n\nतुमच्या प्लॉटमध्ये मातीची आर्द्रता चांगली आहे, त्यामुळे जलसिंचनाची आवश्यकता नाही.",
+        "en": "The raw information for your \"Balaji Jadhav Manikchaman\" plot is as follows:\n\n- **Soil Temperature:** 33.69°C\n- **Battery:** 91%\n- **Soil Humidity:**\n  - **Sensor 1:** 100% (too dolser)\n  - **Sensor 2:** 56% (normal humidity)\n- **Solar Voltage:** 4314\n\nYour plot has good soil moisture, so no water irrigation is required.",
+        "timestamp": {
+          "$date": "2025-04-15T10:17:28.450Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "फवारणी केलेले माहिती कशी भरावी",
+        "en": "How to fill in the sprayed information",
+        "timestamp": {
+          "$date": "2025-04-15T10:18:27.808Z"
+        },
+        "standalone_question": "How should I fill in the information for the spraying?",
+        "standalone_en": "How should I fill in the information for the spraying?",
+        "retrieval": {
+          "tools": [
+            "check_spray_conditions  \nGets the spray condition forecast for the next few hours for the farmer's plots and returns the condition for each hour as GOOD, MODERATE, or WORST, based on deltaT, VPD, and rainfall conditions.",
+            "get_disease_pest_schedule  \nRetrieves the farmer's current and past pesticide-related spray recommendations with spray details, based on dates. Dates are mandatory."
+          ],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice."
+          ]
+        },
+        "content_transliterated": "favarani kelele mahiti kashi bharavi"
+      },
+      {
+        "role": "assistant",
+        "content": "फवारणी केलेले माहिती भरण्यासाठी तुम्हाला खालील गोष्टींची आवश्यकता असेल:\n\n1. **फवारणीची तारीख:** तुम्ही फवारणी केल्याची तारीख.\n2. **फवारणीचा प्रकार:** तुम्ही कोणता कीटकनाशक किंवा फफूंदनाशक वापरले.\n3. **अवश्यकता:** तुम्हाला का फवारणी करायची होती, म्हणजे कोणत्या रोग किंवा कीटकांपासून संरक्षण करायचे होते.\n4. **अवशेष:** फवारणी केल्यानंतर तुम्हाला कोणते परिणाम दिसले का.\n\nतुम्ही या माहितीचा वापर करून फवारणीची माहिती भरू शकता. तुम्हाला अधिक मदतीची आवश्यकता असल्यास, कृपया सांगा!",
+        "en": "You'll need the following to fill out the sprayed information:\n\n1. **Date of spraying:** Date of spraying.\n2. **Type of spraying:** What pesticide or fungicide did you use?\n3. **need:** Why did you want to spray, i.e., what diseases or insects did you want to protect against?\n4. **Residue:** Did you see any effects after spraying?\n\nYou can use this information to fill in the spraying information. If you need more help, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-15T10:18:32.583Z"
+        }
+      }
+    ],
+    "farmer_id": "balajijadhav",
+    "farmer_plot_ids": [
+      "balajijadhavmanikchaman"
+    ],
+    "conversation_id": "67fe32326ec5128db05cbe26",
+    "_id": "67fe32326ec5128db05cbe26",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-15T10:23:27.815000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-04-15T10:17:22.836000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the condition of my device",
+        "en": "What is the condition of my device",
+        "timestamp": {
+          "$date": "2025-04-15T08:45:06.689Z"
+        },
+        "standalone_question": "What is the condition of my device?",
+        "standalone_en": "What is the condition of my device?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Your device is currently in good condition. Here are the details:\n\n- **Battery Level:** 94%\n- **Soil Temperature:** 32.06°C\n- **Soil Moisture 1:** 56%\n- **Soil Moisture 2:** 30%\n- **Timestamp of Data:** 2:07 PM today\n\nThe device is actively sending data and appears to be functioning properly. If you have any further questions or need assistance, feel free to ask!",
+        "en": "Your device is currently in good condition. Here are the details:\n\n- **Battery Level:** 94%\n- **Soil Temperature:** 32.06°C\n- **Soil Moisture 1:** 56%\n- **Soil Moisture 2:** 30%\n- **Timestamp of Data:** 2:07 PM today\n\nThe device is actively sending data and appears to be functioning properly. If you have any further questions or need assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-04-15T08:45:12.555Z"
+        }
+      }
+    ],
+    "farmer_id": "dipeshbeniwal",
+    "farmer_plot_ids": [
+      "21acrskinnowplot"
+    ],
+    "conversation_id": "67fe1c926ec5128db05cbe24",
+    "_id": "67fe1c926ec5128db05cbe24",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-15T08:50:06.696000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-15T08:45:06.689000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "खरड छाटणीनंतरचे",
+        "en": "Post-pruning",
+        "timestamp": {
+          "$date": "2025-04-15T05:58:30.776Z"
+        },
+        "standalone_question": "What happens after cutting the paper?",
+        "standalone_en": "What happens after cutting the paper?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kharad chhataninantarache"
+      },
+      {
+        "role": "assistant",
+        "content": "खरड छाटणीनंतर, तुमच्या अंगठीच्या वेलांवर \"फाउंडेशन प्रुनिंग\" या टप्प्यात आहात. या टप्प्यात वेलांच्या आकाराला योग्य दिशा देणे आणि त्यांची वाढ नियंत्रित करणे महत्त्वाचे आहे. \n\nतुमच्या वेलांवर योग्य पोषण आणि पाण्याची व्यवस्था सुनिश्चित करणे आवश्यक आहे. जर तुम्हाला अधिक माहिती हवी असेल, तर कृपया सांगा!",
+        "en": "After a scratch pruning, you're in the \"foundation pruning\" phase on your ring vines. At this stage, it is important to give the right direction to the size of the vines and control their growth. \n\nIt is important to ensure proper nutrition and watering system on your vines. If you need more information, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-15T05:58:34.648Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "खरड छाटणीनंतर फवारणीचे शेड्युल काय",
+        "en": "What is the spraying schedule after the pruning?",
+        "timestamp": {
+          "$date": "2025-04-15T05:59:10.189Z"
+        },
+        "standalone_question": "What is the spraying schedule after pruning?",
+        "standalone_en": "What is the spraying schedule after pruning?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        },
+        "content_transliterated": "kharad chhataninantar favaraniche schedule kay"
+      },
+      {
+        "role": "assistant",
+        "content": "खरड छाटणीनंतरच्या फवारणीसाठी सध्या कोणतेही शेड्युल उपलब्ध नाहीत. तुम्हाला पुढील आठवड्यात फवारणीची आवश्यकता भासल्यास, कृपया पुन्हा तपासा. \n\nतुमच्या वेलांच्या आरोग्यासाठी योग्य काळजी घेणे महत्त्वाचे आहे. काही प्रश्न असल्यास, कृपया सांगा!",
+        "en": "There are currently no schedules available for post-harvest spraying. If you need spraying next week, please check again. \n\nIt is important to take proper care of the health of your vines. If you have any questions, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-15T05:59:15.668Z"
+        }
+      }
+    ],
+    "farmer_id": "kedudhumal",
+    "farmer_plot_ids": [
+      "plotno1thompson663"
+    ],
+    "conversation_id": "67fdf5866ec5128db05cbe22",
+    "_id": "67fdf5866ec5128db05cbe22",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-15T06:04:10.197000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-04-15T05:58:30.776000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "હવે શેની જરૂર લાગે છે",
+        "en": "What do you feel needed now?",
+        "timestamp": {
+          "$date": "2025-04-15T04:20:52.493Z"
+        },
+        "standalone_question": "What do you think is needed now?",
+        "standalone_en": "What do you think is needed now?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "have sheni jarur lage che"
+      },
+      {
+        "role": "assistant",
+        "content": "હવે \"Aba valo plot\" માટેની સ્થિતિ નીચે મુજબ છે:\n\n### પાણી આપવાની જરૂર:\n- **મૂળભૂત માળખું**: \n  - **મૂળભૂત ભેજ**: 99% (સોયલ મોઈશ્ચર 1)\n  - **મૂળભૂત ભેજ**: 81% (સોયલ મોઈશ્ચર 2)\n  - **ઓપ્ટિમલ ભેજ**: 60%\n- **નિર્ણય**: હાલ પાણી આપવાની જરૂર નથી, કારણ કે જમીનનો ભેજ ઓપ્ટિમલ મર્યાદા કરતાં વધુ છે.\n\n### ફર્ટિગેશન શેડ્યૂલ:\n- **હાલની સ્થિતિ**: \"Flowering\" (ફૂલણ) - 4મી સપ્તાહ (શરૂઆત તારીખ: 21 માર્ચ 2025)\n- **હાલમાં ફર્ટિગેશનની જરૂર નથી.**\n- **આગામી ફર્ટિગેશન શેડ્યૂલ**:\n  - **પોડ ફોર્મેશન અને વિકાસ** (1મો સપ્તાહ):\n    - **ફોલિયર પદ્ધતિ**:\n      - **ઝિંક સલ્ફેટ**: 1 કિગ્રા/એકર\n      - **ફેરસ સલ્ફેટ**: 800 ગ્રામ/એકર\n      - **નોટ**: ફોલિયર સ્પ્રે માટે માઇક્રો-ન્યુટ્રિયન્ટ ફર્ટિલાઇઝર્સની સંકેત 1% થી વધુ ન હોવી જોઈએ (ઉદાહરણ: 5 કિગ્રા 500 લિટર પાણીમાં).\n    - **ફર્ટિગેશન પદ્ધતિ**:\n      - **પોટેશિયમ નાઇટ્રેટ**: 6 કિગ્રા/એકર\n      - **કેલ્શિયમ નાઇટ્રેટ**: 3 કિગ્રા/એકર (અન્ય ફર્ટિલાઇઝર્સના 15-20 મિનિટ પછી લાગુ કરવું).\n      - **યુરિયા**: 1.5 કિગ્રા/એકર\n      - **સલ્ફેટ ઓફ પોટાશ**: 5.5 કિગ્રા/એકર\n\n### રોગ અને કીટક શેડ્યૂલ:\n- હાલ કોઈ વિશેષ માહિતી ઉપલબ્ધ નથી.\n\nજો તમને વધુ માહિતી અથવા મદદની જરૂર હોય, તો કૃપા કરીને જણાવો!",
+        "en": "Now the condition for \"Aba valo plot\" is as follows:\n\n### Need to water:\n- **Default structure**: \n  * **Basic moisture**: 99% (Soyle Moisture 1)\n  * **Basic moisture**: 81% (Soyle Moisture 2)\n  * **Optimal Humidity**: 60%\n* **Decision**: There is no need to water at present, as the moisture of the soil exceeds the optimal limit.\n\n### Fertigation Schedule:\n- **Current status**: \"Flowering\" (flowering) - 4th week (start date: 21 March 2025)\n- **There is no need for fertigation at present.**\n- **Upcoming Fertigation Schedule**:\n  * **Pod Formation and Development** (1st week):\n    - **Foliar method**:\n      * **Zinc sulfate**: 1 kg/acre\n      **Ferrous sulfate**: 800 g/acre\n      * **Note**: The indication of micro-nutrient fertilizers for foliar spray should not exceed 1% (example: 5 kg in 500 liters of water).\n    - **Fertigation method**:\n      **Potassium Nitrate**: 6 kg/acre\n      **Calcium nitrate**: 3 kg/acre (applied after 15-20 minutes of other fertilizers).\n      * **Urea**: 1.5 kg/acre\n      **Sulphate of Potash**: 5.5 kg/acre\n\n### Disease and Pest Schedule:\nNo specific information is currently available.\n\nIf you need more information or help, please let us know!",
+        "timestamp": {
+          "$date": "2025-04-15T04:21:05.307Z"
+        }
+      }
+    ],
+    "farmer_id": "tejabhaihemabhaipatel",
+    "farmer_plot_ids": [
+      "abavaloplot"
+    ],
+    "conversation_id": "67fddea48a713b1eb0ce3737",
+    "_id": "67fddea48a713b1eb0ce3737",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-15T04:25:52.499000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-15T04:20:52.493000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi",
+        "en": "Hi",
+        "timestamp": {
+          "$date": "2025-04-15T03:10:49.605Z"
+        },
+        "standalone_question": "What would you like to talk about?",
+        "standalone_en": "What would you like to talk about?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "नमस्कार चंदू! तुम्हाला कशाबद्दल मदतीची आवश्यकता आहे?",
+        "en": "Hello Chandu! What do you need help with?",
+        "timestamp": {
+          "$date": "2025-04-15T03:10:53.513Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "डपिंग साठी",
+        "en": "For dumping",
+        "timestamp": {
+          "$date": "2025-04-15T03:11:26.587Z"
+        },
+        "standalone_question": "What do you need help with regarding doping?",
+        "standalone_en": "What do you need help with regarding doping?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "dupping sathi"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"Plot no. 1 Shimla\" साठी या आठवड्यात कोणतीही डपिंग (पेस्टिसाइड) शिफारस नाही. तुम्हाला अजून काही मदतीची आवश्यकता आहे का?",
+        "en": "There is no dumping (pesticide) recommendation for your \"Plot no. 1 Shimla\" this week. Do you still need any help?",
+        "timestamp": {
+          "$date": "2025-04-15T03:11:31.313Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ब्लॉक थीपस ",
+        "en": "Block Theeps ",
+        "timestamp": {
+          "$date": "2025-04-15T03:13:37.702Z"
+        },
+        "standalone_question": "What is \"ब्लॉक थीपस\"?",
+        "standalone_en": "What is \"Block Theeps\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "block thepes "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot no. 1 Shimla\" साठी 15 एप्रिल 2025 ते 22 एप्रिल 2025 दरम्यान कोणतीही ब्लॉक थीपस (पेस्टिसाइड) शिफारस नाही. तुम्हाला अजून काही माहिती हवी का?",
+        "en": "No block theppus (pesticide) recommendation for \"Plot no. 1 Shimla\" between 15th April 2025 to 22nd April 2025. Do you need any more information?",
+        "timestamp": {
+          "$date": "2025-04-15T03:13:42.495Z"
+        }
+      }
+    ],
+    "farmer_id": "chandukhoskar",
+    "farmer_plot_ids": [
+      "plotno1shimla"
+    ],
+    "conversation_id": "67fdce396ec5128db05cbe21",
+    "_id": "67fdce396ec5128db05cbe21",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-15T03:18:37.709000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-15T03:10:49.605000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં દવા ની જરૂર ક્યારે પડશે ",
+        "en": "When will the medicine be needed on my farm? ",
+        "timestamp": {
+          "$date": "2025-04-15T02:09:46.717Z"
+        },
+        "standalone_question": "When will my field need treatment?",
+        "standalone_en": "When will my field need treatment?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara khetaraman dava knee jarur kyare padse "
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં દવા છંટકાવની કોઈ જરૂરત નથી. ",
+        "en": "There is no need to spray medicine on your farm. ",
+        "timestamp": {
+          "$date": "2025-04-15T02:09:50.502Z"
+        }
+      }
+    ],
+    "farmer_id": "bhaveshbhaisomajisolanki",
+    "farmer_plot_ids": [
+      "gharvaloplot405"
+    ],
+    "conversation_id": "67fdbfea6ec5128db05cbe20",
+    "_id": "67fdbfea6ec5128db05cbe20",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-15T02:14:46.723000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-04-15T02:09:46.717000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "फूट ऐक सारखी नाही काय करावे",
+        "en": "Listen to Foot What to Do",
+        "timestamp": {
+          "$date": "2025-04-15T02:02:21.575Z"
+        },
+        "standalone_question": "What should I do if it doesn't feel like a foot?",
+        "standalone_en": "What should I do if it doesn't feel like a foot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "foot ache sarakhi nahi kay karave"
+      },
+      {
+        "role": "assistant",
+        "content": "फूट ऐक सारखी नसल्यास, तुम्हाला काही गोष्टींची तपासणी करावी लागेल:\n\n1. **पाण्याची उपलब्धता**: तुमच्या मातीतील आर्द्रता तपासा. जर माती कोरडी असेल, तर पाण्याची गरज असू शकते.\n\n2. **खते**: योग्य खते वापरणे महत्त्वाचे आहे. तुमच्या पिकाच्या आवश्यकतांनुसार खते द्या.\n\n3. **पिकांची आरोग्य तपासणी**: पिकांमध्ये कोणतीही रोग किंवा कीड असल्यास, त्यावर उपाययोजना करा.\n\n4. **तापमान आणि आर्द्रता**: हवामानाच्या परिस्थितीवर लक्ष ठेवा, कारण तापमान आणि आर्द्रता पिकांच्या वाढीवर प्रभाव टाकतात.\n\nतुमच्या पिकाच्या विशेष गरजांनुसार अधिक माहिती हवी असल्यास, कृपया सांगा.",
+        "en": "If foot listen isn't the same, there are a few things you'll need to check out:\n\n1. **Availability of water**: Check the moisture in your soil. If the soil is dry, water may be needed.\n\n2. **Fertilizers**: It is important to use the right fertilizers. Fertilizers according to the requirements of your crop.\n\n3. **Crop health check-up**: If there is any disease or pest in the crops, take measures.\n\n4. **Temperature and humidity**: Keep an eye on weather conditions, as temperature and humidity affect the growth of crops.\n\nIf you would like more information based on your crop's specific needs, please let me know.",
+        "timestamp": {
+          "$date": "2025-04-15T02:02:26.770Z"
+        }
+      }
+    ],
+    "farmer_id": "jagdishgambhire",
+    "farmer_plot_ids": [
+      "plotno1thompson348",
+      "plotno2sudhakar492"
+    ],
+    "conversation_id": "67fdbe2d6ec5128db05cbe1f",
+    "_id": "67fdbe2d6ec5128db05cbe1f",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-15T02:07:21.581000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-15T02:02:21.575000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Plot  2",
+        "en": "Plot  2",
+        "timestamp": {
+          "$date": "2025-04-15T02:01:36.699Z"
+        },
+        "standalone_question": "What is the plot of 2?",
+        "standalone_en": "What is the plot of 2?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Based on your plot's irrigation settings, the calculated irrigation hours for **Plot no 2** are **2.32 hours**.\n\nI used the following settings for this calculation:\n- Root width: 60 inches\n- Root depth: 19 inches\n- Soil retention: 120 mm\n- Dripper distance: 2 mm\n- Dripper discharge: 8 liters\n\nWould you like to calculate irrigation hours with a different set of values? If yes, please provide the new values you'd like to use.",
+        "en": "Based on your plot's irrigation settings, the calculated irrigation hours for **Plot no 2** are **2.32 hours**.\n\nI used the following settings for this calculation:\n- Root width: 60 inches\n- Root depth: 19 inches\n- Soil retention: 120 mm\n- Dripper distance: 2 mm\n- Dripper discharge: 8 liters\n\nWould you like to calculate irrigation hours with a different set of values? If yes, please provide the new values you'd like to use.",
+        "timestamp": {
+          "$date": "2025-04-15T02:01:43.357Z"
+        }
+      }
+    ],
+    "farmer_id": "vishalbagal",
+    "farmer_plot_ids": [
+      "plotno1476",
+      "plotno2199"
+    ],
+    "conversation_id": "67fdbe00ed429c600758754d",
+    "_id": "67fdbe00ed429c600758754d",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-15T02:06:36.705000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-15T02:01:36.699000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "स्प्रे काय घ्यावा ",
+        "en": "What to take the spray ",
+        "timestamp": {
+          "$date": "2025-04-15T01:33:52.495Z"
+        },
+        "standalone_question": "What kind of spray should I use?",
+        "standalone_en": "What kind of spray should I use?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        },
+        "content_transliterated": "spray kay ghyava "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या प्लॉटसाठी या आठवड्यात कोणत्याही रोग किंवा कीटकांसाठी स्प्रेची शिफारस नाही. त्यामुळे, सध्या स्प्रे घेण्याची आवश्यकता नाही.",
+        "en": "Spray is not recommended for any diseases or pests this week for your plot. Therefore, there is no need to take a spray at the moment.",
+        "timestamp": {
+          "$date": "2025-04-15T01:33:56.848Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "उडद्या साठी स्प्रे ",
+        "en": "Spray for flying ",
+        "timestamp": {
+          "$date": "2025-04-15T01:34:26.046Z"
+        },
+        "standalone_question": "What spray should be used for urad (black gram)?",
+        "standalone_en": "What spray should be used for urad (black gram)?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "उडद्या साठी या आठवड्यात कोणत्याही रोग किंवा कीटकांसाठी स्प्रेची शिफारस नाही. त्यामुळे, सध्या स्प्रे घेण्याची आवश्यकता नाही.",
+        "en": "Sprays are not recommended for any diseases or pests this week. Therefore, there is no need to take a spray at the moment.",
+        "timestamp": {
+          "$date": "2025-04-15T01:34:30.634Z"
+        }
+      }
+    ],
+    "farmer_id": "vishalbhalerao514",
+    "farmer_plot_ids": [
+      "plotno1thompson682"
+    ],
+    "conversation_id": "67fdb780ed429c600758754c",
+    "_id": "67fdb780ed429c600758754c",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-15T01:39:26.061000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-04-15T01:33:52.495000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "હાલો બાજરીમાં કયું ખાતર આપો ",
+        "en": "Which fertilizer to give to the current millet ",
+        "timestamp": {
+          "$date": "2025-04-15T01:21:14.089Z"
+        },
+        "standalone_question": "What fertilizer should be given to millet?",
+        "standalone_en": "What fertilizer should be given to millet?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "halo bajariman kayu khatar apo "
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા બાજરીના પાક માટે, \"VACHALO PLOT\" માં હાલ કોઈ ફર્ટિગેશનની જરૂર નથી. પરંતુ આગામી ફર્ટિગેશન માટે, flowering તબક્કામાં 18 એપ્રિલ 2025 થી શરૂ થશે. \n\n### ફર્ટિગેશન માટે સૂચનો:\n1. **Foliar Spray**:\n   - **Solubor**: 800 gm/acre\n\n2. **Fertigation**:\n   - **12-61-0**: 4 kg/acre\n   - **Calcium Nitrate**: 3 kg/acre\n   - **Phosphoric Acid 80%**: 2.5 kg/acre (અલગથી 15-20 મિનિટ પહેલા)\n   - **Urea**: 1.5 kg/acre (અલગથી 15-20 મિનિટ પછી)\n\nઆ માહિતીનો ઉપયોગ કરીને, તમે યોગ્ય રીતે ખાતર આપી શકો છો.",
+        "en": "For your millet crop, there is currently no fertigation required in the \"VACHALO PLOT\". But for the next fertigation, the flowering phase will start from 18 April 2025. \n\n### Suggestions for Fertigation:\n1. **Foliar Spray**:\n   - **Solubor**: 800 gm/acre\n\n2. **Fertigation**:\n   - **12-61-0**: 4 kg/acre\n   - **Calcium Nitrate**: 3 kg/acre\n   **Phosphoric Acid 80%**: 2.5 kg/acre (15-20 minutes ago separately)\n   **Urea**: 1.5 kg/acre (separately after 15-20 minutes)\n\nUsing this information, you can properly compost.",
+        "timestamp": {
+          "$date": "2025-04-15T01:21:21.565Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "પ્રથમ તબક્કે જારમાં કયુ ખાતર આપવું ",
+        "en": "In the first stage, what fertilizer to give in the jar ",
+        "timestamp": {
+          "$date": "2025-04-15T01:24:50.853Z"
+        },
+        "standalone_question": "What fertilizer should be applied in the first stage?",
+        "standalone_en": "What fertilizer should be applied in the first stage?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17"
+          ]
+        },
+        "content_transliterated": "pratham tabakke jaraman kayu khatar apvu "
+      },
+      {
+        "role": "assistant",
+        "content": "\"GHAR VALU PLOT\" માટે પ્રથમ તબક્કે ફર્ટિગેશન માટે કોઈ ખાસ માહિતી ઉપલબ્ધ નથી. તેથી, આ તબક્કે ખાતર આપવાની જરૂર નથી.",
+        "en": "There is no specific information available for fertigation in the first stage for the \"GHAR VALU PLOT\". Therefore, there is no need to give fertilizer at this stage.",
+        "timestamp": {
+          "$date": "2025-04-15T01:24:57.049Z"
+        }
+      }
+    ],
+    "farmer_id": "babrabhairanapatel",
+    "farmer_plot_ids": [
+      "gharvaluplot",
+      "vachaloplot"
+    ],
+    "conversation_id": "67fdb4898a713b1eb0ce3736",
+    "_id": "67fdb4898a713b1eb0ce3736",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-15T01:29:50.860000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-15T01:21:14.089000+00:00"
+  }
+]

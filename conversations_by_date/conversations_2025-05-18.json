@@ -1,0 +1,630 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can I see my device location live",
+        "en": "Can I see my device location live",
+        "timestamp": {
+          "$date": "2025-05-18T17:11:45.842Z"
+        },
+        "standalone_question": "Can I view the live location of my device?",
+        "standalone_en": "Can I view the live location of my device?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Currently, I don't have access to the live location data of your device. You may want to check the Fyllo app for any location tracking features or contact support for assistance regarding live location tracking. If you have any other questions or need further assistance, feel free to ask!",
+        "en": "Currently, I don't have access to the live location data of your device. You may want to check the Fyllo app for any location tracking features or contact support for assistance regarding live location tracking. If you have any other questions or need further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-18T17:11:49.707Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "How can you help me",
+        "en": "How can you help me",
+        "timestamp": {
+          "$date": "2025-05-18T17:12:35.654Z"
+        },
+        "standalone_question": "How can you assist me?",
+        "standalone_en": "How can you assist me?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "I can assist you with various aspects of precision agriculture, including:\n\n1. **Crop Management**: Guidance on best practices for growing your crops, including fertilization and pest control.\n2. **Soil Health**: Recommendations for maintaining and improving soil quality.\n3. **Irrigation Strategies**: Advice on when and how much to irrigate based on soil moisture readings and weather forecasts.\n4. **Pest Control**: Information on pest management and disease prevention.\n5. **Weather Forecasts**: Providing daily and hourly weather forecasts to help you plan your farming activities.\n\nIf you have specific questions or need assistance with a particular task, feel free to ask!",
+        "en": "I can assist you with various aspects of precision agriculture, including:\n\n1. **Crop Management**: Guidance on best practices for growing your crops, including fertilization and pest control.\n2. **Soil Health**: Recommendations for maintaining and improving soil quality.\n3. **Irrigation Strategies**: Advice on when and how much to irrigate based on soil moisture readings and weather forecasts.\n4. **Pest Control**: Information on pest management and disease prevention.\n5. **Weather Forecasts**: Providing daily and hourly weather forecasts to help you plan your farming activities.\n\nIf you have specific questions or need assistance with a particular task, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-18T17:12:41.527Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "2",
+        "en": "2",
+        "timestamp": {
+          "$date": "2025-05-18T17:13:45.384Z"
+        },
+        "standalone_question": "What specific aspect of precision agriculture would you like assistance with?",
+        "standalone_en": "What specific aspect of precision agriculture would you like assistance with?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like your message is incomplete. Could you please provide more details or clarify what you need assistance with? I'm here to help!",
+        "en": "It seems like your message is incomplete. Could you please provide more details or clarify what you need assistance with? I'm here to help!",
+        "timestamp": {
+          "$date": "2025-05-18T17:13:48.552Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Tips for spraying ",
+        "en": "Tips for spraying ",
+        "timestamp": {
+          "$date": "2025-05-18T17:14:24.752Z"
+        },
+        "standalone_question": "What are some tips for effective spraying?",
+        "standalone_en": "What are some tips for effective spraying?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice.",
+            "Q: How to improve the germination percent\nA: Use of good quality seeds and seeds to be treated with insecticide, Fungicide and biological agents"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here are some tips for effective spraying:\n\n1. **Timing**: Spray early in the morning or late in the evening when temperatures are cooler and wind speeds are lower to minimize evaporation and drift.\n\n2. **Weather Conditions**: Avoid spraying during windy or rainy conditions. Check the forecast to ensure optimal conditions for spraying.\n\n3. **Equipment Calibration**: Ensure that your spraying equipment is properly calibrated to deliver the correct amount of pesticide or fungicide.\n\n4. **Mixing**: Follow the manufacturer's instructions for mixing chemicals. Ensure compatibility if mixing different products.\n\n5. **Coverage**: Aim for thorough coverage of the target area, including the undersides of leaves where pests often hide.\n\n6. **Safety Gear**: Always wear appropriate personal protective equipment (PPE) such as gloves, masks, and goggles while spraying.\n\n7. **Follow Recommendations**: Adhere to the recommended rates and timings for the specific pesticides or fungicides you are using.\n\n8. **Record Keeping**: Maintain records of what was sprayed, when, and under what conditions for future reference.\n\nIf you need specific recommendations based on your current crop or pest situation, feel free to ask!",
+        "en": "Here are some tips for effective spraying:\n\n1. **Timing**: Spray early in the morning or late in the evening when temperatures are cooler and wind speeds are lower to minimize evaporation and drift.\n\n2. **Weather Conditions**: Avoid spraying during windy or rainy conditions. Check the forecast to ensure optimal conditions for spraying.\n\n3. **Equipment Calibration**: Ensure that your spraying equipment is properly calibrated to deliver the correct amount of pesticide or fungicide.\n\n4. **Mixing**: Follow the manufacturer's instructions for mixing chemicals. Ensure compatibility if mixing different products.\n\n5. **Coverage**: Aim for thorough coverage of the target area, including the undersides of leaves where pests often hide.\n\n6. **Safety Gear**: Always wear appropriate personal protective equipment (PPE) such as gloves, masks, and goggles while spraying.\n\n7. **Follow Recommendations**: Adhere to the recommended rates and timings for the specific pesticides or fungicides you are using.\n\n8. **Record Keeping**: Maintain records of what was sprayed, when, and under what conditions for future reference.\n\nIf you need specific recommendations based on your current crop or pest situation, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-18T17:14:31.503Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "How much water need for spray on 27 days plot",
+        "en": "How much water need for spray on 27 days plot",
+        "timestamp": {
+          "$date": "2025-05-18T17:16:50.414Z"
+        },
+        "standalone_question": "What is the recommended amount of water needed for spraying on a 27-day-old plot?",
+        "standalone_en": "What is the recommended amount of water needed for spraying on a 27-day-old plot?",
+        "retrieval": {
+          "tools": [
+            "check_spray_conditions  \nGets the spray condition forecast for the next few hours for the farmer's plots and returns the condition for each hour as GOOD, MODERATE, or WORST, based on deltaT, VPD, and rainfall conditions.",
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For your plot, you will need approximately **4.65 hours** of irrigation to adequately prepare for spraying. Make sure to monitor soil moisture levels and adjust as necessary. If you have any further questions or need assistance, feel free to ask!",
+        "en": "For your plot, you will need approximately **4.65 hours** of irrigation to adequately prepare for spraying. Make sure to monitor soil moisture levels and adjust as necessary. If you have any further questions or need assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-18T17:16:56.819Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "1350 tree take 30 minutes ",
+        "en": "1350 tree take 30 minutes ",
+        "timestamp": {
+          "$date": "2025-05-18T17:17:41.632Z"
+        },
+        "standalone_question": "How much water is needed to spray on a plot with 1,350 trees if it takes 30 minutes?",
+        "standalone_en": "How much water is needed to spray on a plot with 1,350 trees if it takes 30 minutes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For your 1350 trees, it takes approximately **30 minutes** to spray. If you need to irrigate after spraying, you will require about **0.04 hours** (or about 2.4 minutes) of irrigation based on the calculations. \n\nIf you have any further questions or need assistance, feel free to ask!",
+        "en": "For your 1350 trees, it takes approximately **30 minutes** to spray. If you need to irrigate after spraying, you will require about **0.04 hours** (or about 2.4 minutes) of irrigation based on the calculations. \n\nIf you have any further questions or need assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-18T17:17:46.342Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "My irrigation hours",
+        "en": "My irrigation hours",
+        "timestamp": {
+          "$date": "2025-05-18T17:18:15.008Z"
+        },
+        "standalone_question": "What are my irrigation hours?",
+        "standalone_en": "What are my irrigation hours?",
+        "retrieval": {
+          "tools": [
+            "calculate_irrigation_hours\nCalculate the irrigation hours needed for irrigation by the farmer based on the mandatory provided values.\n    The formula used is\n    (root_width * root_depth * soil_retention * dripper_distance * calc_constant) / dripper_discharge\n    where calc_constant = 0.00006784244",
+            "get_irrigation_installation_settings\n    retrieves the irrigation installation settings in the farmer's plots, can be used to calculate the irrigation hours.\n    returns root_width, root_depth, soil_retention, dripper_distance, dripper_discharge",
+            "get_irrigation_forecast  \nGives the irrigation requirement forecast for any day, today and beyond. Dates are mandatory. Output is humanized with day of the week and optimal moisture details if suitable."
+          ],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: How to measure/ calculate irrigation hours /water tank of my plot in fyllo app? How do I calculate irrigation hours for my plot? How to use the irrigation hours calculator?\nA: To calculate irrigation hours in the Fyllo app, follow these steps:\n\n1. Open the Fyllo App\n2. Go to the home screen\n3. Click on the soil moisture-1 sensor\n4. Scroll down to find the \"Irrigation hours\" section\n5. Fill in the required details such as:\n   - Root width (inches)\n   - Root depth (inches)\n   - Soil retention (mm)\n   - Dripper distance (feet)\n   - Dripper discharge (liters)\n6. Click the calculate button\n\nWould you like me to calculate the irrigation hours for you right now? I can retrieve your plot's irrigation settings and perform the calculation if you say yes.\n\nTool Selection: When user says yes, I should:\n1. Use get_irrigation_installation_settings tool to retrieve plot settings\n2. Check if all values are present and valid\n3. If values are valid, use calculate_irrigation_hours tool with these values\n4. If values are missing or invalid, ask the user to provide the missing values\n5. After calculating irrigation hours, display the irrigation installation settings that were used for the calculation\n6. Ask the user if they want to calculate irrigation hours with a different set of values, and if yes, prompt them to provide those values\n\nExample response if values are missing:\n\"I checked your plot settings, but I need some additional information to calculate irrigation hours accurately. Could you please provide the [missing value(s)]? Once you provide these details, I can complete the calculation for you.\"\n\nExample response after calculation:\n\"Based on your plot's irrigation settings, the calculated irrigation hours are [X] hours. \n\nI used the following settings for this calculation:\n- Root width: [value] inches\n- Root depth: [value] inches\n- Soil retention: [value] mm\n- Dripper distance: [value] feet\n- Dripper discharge: [value] liters\n\nWould you like to calculate irrigation hours with a different set of values? If yes, please provide the new values you'd like to use.\"",
+            "Q: In the latest irrigation , sensor didn't drop to 0.\nA: 0 to 5 Kpa means soil is fully wet. It need not drop to 0 every time. Moisture less than 5 also means wet conditions. So, need not worry. Also ask to wait for 12 hours after irrigation."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Based on your plot's irrigation settings, here are the calculated irrigation hours:\n\n### Plot No 1 SSN\n- **Irrigation Hours Needed**: **4.65 hours**\n- **Settings Used**:\n  - Root Width: 55 inches\n  - Root Depth: 21 inches\n  - Soil Retention: 190 mm\n  - Dripper Distance: 2.5 mm\n  - Dripper Discharge: 8 liters\n\n### Plot No 2 Mama Jumbo\n- **Irrigation Hours Needed**: **3.43 hours**\n- **Settings Used**:\n  - Root Width: 50 inches\n  - Root Depth: 18 inches\n  - Soil Retention: 180 mm\n  - Dripper Distance: 2.5 mm\n  - Dripper Discharge: 8 liters\n\n### Watering Status\n- **Plot No 1 SSN**: Watering not required as the soil moisture is above the optimal values.\n- **Plot No 2 Mama Jumbo**: Watering can be done since the soil moisture is below the optimal values.\n\nWould you like to proceed with irrigation for Plot No 2 Mama Jumbo or need assistance with anything else?",
+        "en": "Based on your plot's irrigation settings, here are the calculated irrigation hours:\n\n### Plot No 1 SSN\n- **Irrigation Hours Needed**: **4.65 hours**\n- **Settings Used**:\n  - Root Width: 55 inches\n  - Root Depth: 21 inches\n  - Soil Retention: 190 mm\n  - Dripper Distance: 2.5 mm\n  - Dripper Discharge: 8 liters\n\n### Plot No 2 Mama Jumbo\n- **Irrigation Hours Needed**: **3.43 hours**\n- **Settings Used**:\n  - Root Width: 50 inches\n  - Root Depth: 18 inches\n  - Soil Retention: 180 mm\n  - Dripper Distance: 2.5 mm\n  - Dripper Discharge: 8 liters\n\n### Watering Status\n- **Plot No 1 SSN**: Watering not required as the soil moisture is above the optimal values.\n- **Plot No 2 Mama Jumbo**: Watering can be done since the soil moisture is below the optimal values.\n\nWould you like to proceed with irrigation for Plot No 2 Mama Jumbo or need assistance with anything else?",
+        "timestamp": {
+          "$date": "2025-05-18T17:18:26.233Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Calculate it in liters ",
+        "en": "Calculate it in liters ",
+        "timestamp": {
+          "$date": "2025-05-18T17:19:40.197Z"
+        },
+        "standalone_question": "How many liters of water are needed for irrigation?",
+        "standalone_en": "How many liters of water are needed for irrigation?",
+        "retrieval": {
+          "tools": [
+            "calculate_irrigation_hours\nCalculate the irrigation hours needed for irrigation by the farmer based on the mandatory provided values.\n    The formula used is\n    (root_width * root_depth * soil_retention * dripper_distance * calc_constant) / dripper_discharge\n    where calc_constant = 0.00006784244"
+          ],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the calculated irrigation requirements in liters for your plots:\n\n### Plot No 1 SSN\n- **Irrigation Needed**: **37.2 liters**\n\n### Plot No 2 Mama Jumbo\n- **Irrigation Needed**: **27.44 liters**\n\nIf you need further assistance or have any other questions, feel free to ask!",
+        "en": "Here are the calculated irrigation requirements in liters for your plots:\n\n### Plot No 1 SSN\n- **Irrigation Needed**: **37.2 liters**\n\n### Plot No 2 Mama Jumbo\n- **Irrigation Needed**: **27.44 liters**\n\nIf you need further assistance or have any other questions, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-18T17:19:50.773Z"
+        }
+      }
+    ],
+    "farmer_id": "sanketshinde",
+    "farmer_plot_ids": [
+      "plotno1ssn619",
+      "plotno2mamajumbo242"
+    ],
+    "conversation_id": "682a14d13ed15105dfe2e1ad",
+    "_id": "682a14d13ed15105dfe2e1ad",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-18T17:24:40.205000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-05-18T17:11:45.842000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Data is not receiving ",
+        "en": "Data is not receiving ",
+        "timestamp": {
+          "$date": "2025-05-18T16:45:29.298Z"
+        },
+        "standalone_question": "Why is the data not being received?",
+        "standalone_en": "Why is the data not being received?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems your device may not be sending data properly. This could be due to connectivity issues or other technical problems. Here are a few steps you can take:\n\n1. **Check Device Connection**: Ensure that the device is properly connected to the app.\n2. **Network Connectivity**: Verify that there is a stable internet connection.\n3. **Battery Status**: Check the battery level of the device.\n4. **Restart the Device**: Sometimes, simply restarting the device can resolve the issue.\n\nIf the problem persists after these checks, please consider raising a support ticket in the Fyllo App for further assistance. Would you like the contact details of our support team?",
+        "en": "It seems your device may not be sending data properly. This could be due to connectivity issues or other technical problems. Here are a few steps you can take:\n\n1. **Check Device Connection**: Ensure that the device is properly connected to the app.\n2. **Network Connectivity**: Verify that there is a stable internet connection.\n3. **Battery Status**: Check the battery level of the device.\n4. **Restart the Device**: Sometimes, simply restarting the device can resolve the issue.\n\nIf the problem persists after these checks, please consider raising a support ticket in the Fyllo App for further assistance. Would you like the contact details of our support team?",
+        "timestamp": {
+          "$date": "2025-05-18T16:45:33.488Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ever thing is good ",
+        "en": "Ever thing is good ",
+        "timestamp": {
+          "$date": "2025-05-18T16:46:11.057Z"
+        },
+        "standalone_question": "Is everything functioning properly now?",
+        "standalone_en": "Is everything functioning properly now?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "That's great to hear! If everything is functioning well with your device and recharge plan, you're all set for your farming activities. If you have any more questions or need assistance with anything related to your crops or farming practices, feel free to ask!",
+        "en": "That's great to hear! If everything is functioning well with your device and recharge plan, you're all set for your farming activities. If you have any more questions or need assistance with anything related to your crops or farming practices, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-18T16:46:14.024Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Send contact ",
+        "en": "Send contact ",
+        "timestamp": {
+          "$date": "2025-05-18T16:46:36.058Z"
+        },
+        "standalone_question": "Could you please provide the contact details for support?",
+        "standalone_en": "Could you please provide the contact details for support?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How do I contact customer support for Fyllo?\nA: You can contact customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in. Do you want me to raise a support ticket for you?"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "You can contact Fyllo customer support by calling the helpline number at **(+91) 9380908040** or by emailing **contact@fyllo.in**. If you need further assistance, feel free to ask!",
+        "en": "You can contact Fyllo customer support by calling the helpline number at **(+91) 9380908040** or by emailing **contact@fyllo.in**. If you need further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-18T16:46:40.069Z"
+        }
+      }
+    ],
+    "farmer_id": "venugopalm",
+    "farmer_plot_ids": [
+      "vgm1"
+    ],
+    "conversation_id": "682a0ea938476bbfb114cc10",
+    "_id": "682a0ea938476bbfb114cc10",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-05-18T16:51:36.067000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-05-18T16:45:29.298000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "युरेशिल +झिंक ओक्साईड+चिं़कशिअम +मॅग्नेशियम सल्फेट फवारणी चालेल का द्राक्षाला",
+        "en": "Whether euresil +zinc oxide+calcium +magnesium sulfate spraying will work for grapes?",
+        "timestamp": {
+          "$date": "2025-05-18T11:06:52.453Z"
+        },
+        "standalone_question": "Can a spray of urea, zinc oxide, calcium, and magnesium sulfate be used on grapes?",
+        "standalone_en": "Can a spray of urea, zinc oxide, calcium, and magnesium sulfate be used on grapes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "yureshil +zinc oxide+chinkshiam +magnesium sulphate favarani chalel ka drakshala"
+      },
+      {
+        "role": "assistant",
+        "content": "युरेशिल, झिंक ओक्साईड, चिंकशिअम, आणि मॅग्नेशियम सल्फेट यांचा फवारणीसाठी एकत्रित वापर करण्यापूर्वी, त्यांच्या संगणकता आणि फवारणीच्या अटींचा विचार करणे आवश्यक आहे. याबाबत अधिक माहिती आणि सल्ला मिळवण्यासाठी, कृपया Fyllo च्या CRM नंबरवर संपर्क साधा.",
+        "en": "Before using urhesil, zinc oxide, chinksium, and magnesium sulfate together for spraying, it is necessary to consider their computerization and terms of spraying. For more information and advice, please contact Fyllo's CRM number.",
+        "timestamp": {
+          "$date": "2025-05-18T11:06:56.207Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "CRM  नंबर पाठवा",
+        "en": "Send CRM Number",
+        "timestamp": {
+          "$date": "2025-05-18T11:09:18.817Z"
+        },
+        "standalone_question": "Could you please provide the CRM number?",
+        "standalone_en": "Could you please provide the CRM number?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "CRM number pathava"
+      },
+      {
+        "role": "assistant",
+        "content": "Fyllo चा CRM नंबर आहे: (+91) 9380908040. तुम्ही या नंबरवर संपर्क साधून अधिक माहिती मिळवू शकता.",
+        "en": "Fyllo's CRM number is: (+91) 9380908040. You can get more information by contacting this number.",
+        "timestamp": {
+          "$date": "2025-05-18T11:09:22.390Z"
+        }
+      }
+    ],
+    "farmer_id": "pankajsadashivkhandave",
+    "farmer_plot_ids": [
+      "plotnoonessn",
+      "plotnotwocrimson",
+      "sudhakar156",
+      "sudhakar2101"
+    ],
+    "conversation_id": "6829bf4c3ed15105dfe2e1ab",
+    "_id": "6829bf4c3ed15105dfe2e1ab",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-18T11:14:18.824000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-05-18T11:06:52.453000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Plot pivla pdla aahe ",
+        "en": "The plot is yellow PDLA ",
+        "timestamp": {
+          "$date": "2025-05-18T10:50:26.757Z"
+        },
+        "standalone_question": "What is the plot of the movie \"Pivla Pdla\"?",
+        "standalone_en": "What is the plot of the movie \"Pivla Pdla\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Tumcha plot \"Plot No 1 King Berry\" aahe, jo Pimpalgaon Baswant, Niphad, Nashik, Maharashtra madhe aahe. Tumhi grapes cha kheti karat aahat. Tumcha active crop stage \"Subcane\" aahe. Tumhala kahi madat pahije ka?",
+        "en": "Your plot is \"Plot No 1 King Berry\", which is located in Pimpalgaon Baswant, Niphad, Nashik, Maharashtra. You're cultivating grapes. Your active crop stage is \"Sabken.\" Do you need any help?",
+        "timestamp": {
+          "$date": "2025-05-18T10:50:31.046Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Plot pivla pdla aahe Kuthla spray gheu",
+        "en": "Plot yellow PDLA which spray to take",
+        "timestamp": {
+          "$date": "2025-05-18T10:51:02.601Z"
+        },
+        "standalone_question": "What spray should I use for my plot?",
+        "standalone_en": "What spray should I use for my plot?",
+        "retrieval": {
+          "tools": [
+            "check_spray_conditions  \nGets the spray condition forecast for the next few hours for the farmer's plots and returns the condition for each hour as GOOD, MODERATE, or WORST, based on deltaT, VPD, and rainfall conditions."
+          ],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Tumcha plot \"Plot No 1 King Berry\" sathi aata kahi spray schedule nahi aahe. Tumhala kahi dusre prashna asel tar vicharu shakta.",
+        "en": "There's no spray schedule for your plot \"Plot No 1 King Berry\" anymore. If you have any other questions, you can ask.",
+        "timestamp": {
+          "$date": "2025-05-18T10:51:12.002Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Mazya question ch ans nhi bhetat ye",
+        "en": "I'm meeting an ANS in my question.",
+        "timestamp": {
+          "$date": "2025-05-18T10:51:48.052Z"
+        },
+        "standalone_question": "Why am I not getting an answer to my question?",
+        "standalone_en": "Why am I not getting an answer to my question?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Tumcha recharge plan active aahe, jo 22 June 2025 paryant aahe. Tumcha device sadhya active aahe aani data pathavto aahe. Tumhala kahi dusre prashna asel tar vicharu shakta.",
+        "en": "Your recharge plan is active, which is till June 22, 2025. Your device is currently active and sending data. If you have any other questions, you can ask.",
+        "timestamp": {
+          "$date": "2025-05-18T10:51:52.802Z"
+        }
+      }
+    ],
+    "farmer_id": "tusharmore",
+    "farmer_plot_ids": [
+      "plotno1kingberry850"
+    ],
+    "conversation_id": "6829bb7275826862df6a79bd",
+    "_id": "6829bb7275826862df6a79bd",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-18T10:56:48.059000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-05-18T10:50:26.757000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Plot pivla pdla aahe ",
+        "en": "The plot is yellow PDLA ",
+        "timestamp": {
+          "$date": "2025-05-18T10:50:26.757Z"
+        },
+        "standalone_question": "What is the plot of the movie \"Pivla Pdla\"?",
+        "standalone_en": "What is the plot of the movie \"Pivla Pdla\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Tumcha plot \"Plot No 1 King Berry\" aahe, jo Pimpalgaon Baswant, Niphad, Nashik, Maharashtra madhe aahe. Tumhi grapes cha kheti karat aahat. Tumcha active crop stage \"Subcane\" aahe. Tumhala kahi madat pahije ka?",
+        "en": "Your plot is \"Plot No 1 King Berry\", which is located in Pimpalgaon Baswant, Niphad, Nashik, Maharashtra. You're cultivating grapes. Your active crop stage is \"Sabken.\" Do you need any help?",
+        "timestamp": {
+          "$date": "2025-05-18T10:50:31.046Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Plot pivla pdla aahe Kuthla spray gheu",
+        "en": "Plot yellow PDLA which spray to take",
+        "timestamp": {
+          "$date": "2025-05-18T10:51:02.601Z"
+        },
+        "standalone_question": "What spray should I use for my plot?",
+        "standalone_en": "What spray should I use for my plot?",
+        "retrieval": {
+          "tools": [
+            "check_spray_conditions  \nGets the spray condition forecast for the next few hours for the farmer's plots and returns the condition for each hour as GOOD, MODERATE, or WORST, based on deltaT, VPD, and rainfall conditions."
+          ],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Tumcha plot \"Plot No 1 King Berry\" sathi aata kahi spray schedule nahi aahe. Tumhala kahi dusre prashna asel tar vicharu shakta.",
+        "en": "There's no spray schedule for your plot \"Plot No 1 King Berry\" anymore. If you have any other questions, you can ask.",
+        "timestamp": {
+          "$date": "2025-05-18T10:51:12.002Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Mazya question ch ans nhi bhetat ye",
+        "en": "I'm meeting an ANS in my question.",
+        "timestamp": {
+          "$date": "2025-05-18T10:51:48.052Z"
+        },
+        "standalone_question": "Why am I not getting an answer to my question?",
+        "standalone_en": "Why am I not getting an answer to my question?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Tumcha recharge plan active aahe, jo 22 June 2025 paryant aahe. Tumcha device sadhya active aahe aani data pathavto aahe. Tumhala kahi dusre prashna asel tar vicharu shakta.",
+        "en": "Your recharge plan is active, which is till June 22, 2025. Your device is currently active and sending data. If you have any other questions, you can ask.",
+        "timestamp": {
+          "$date": "2025-05-18T10:51:52.802Z"
+        }
+      }
+    ],
+    "farmer_id": "tusharmore",
+    "farmer_plot_ids": [
+      "plotno1kingberry850"
+    ],
+    "conversation_id": "6829bb7275826862df6a79bd",
+    "_id": "6829bb7275826862df6a79bd",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-18T10:56:48.059000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-05-18T10:50:26.757000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Device deta pathvat nahi",
+        "en": "The device does not send data",
+        "timestamp": {
+          "$date": "2025-05-18T03:53:59.391Z"
+        },
+        "standalone_question": "The device is not working properly. What should I do?",
+        "standalone_en": "The device is not working properly. What should I do?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What should I do if the soil temperature sensor is not working?\nA: Check the sensor connection, tighten it if loose, and restart the device to check updated data.",
+            "Q: What should I do if the Kairo app is not showing updated data?\nA: Ensure the device is attached to the app, check network connectivity, verify battery status, and restart the device if needed."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमचा डिव्हाइस सध्या डेटा पाठवत नाही. हे कनेक्टिव्हिटी समस्यांमुळे असू शकते. कृपया खालील गोष्टी तपासा:\n\n1. डिव्हाइसची कनेक्शन तपासा.\n2. नेटवर्क कनेक्टिव्हिटी तपासा.\n3. बॅटरीची स्थिती तपासा.\n4. डिव्हाइस रीस्टार्ट करा.\n\nजर समस्या कायम राहिली, तर कृपया आमच्या समर्थन टीमशी संपर्क साधा. तुम्हाला समर्थन टीमच्या संपर्क तपशीलांची आवश्यकता आहे का?",
+        "en": "Your device is not currently sending data. This may be due to connectivity issues. Please check the following:\n\n1. Check the device's connection.\n2. Check network connectivity.\n3. Check battery status.\n4. Restart the device.\n\nIf the problem persists, please contact our support team. Do you need the contact details of the support team?",
+        "timestamp": {
+          "$date": "2025-05-18T03:54:02.647Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ok",
+        "en": "Ok",
+        "timestamp": {
+          "$date": "2025-05-18T03:54:27.840Z"
+        },
+        "standalone_question": "Do you need the contact details for the support team?",
+        "standalone_en": "Do you need the contact details for the support team?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How do I contact customer support for Fyllo?\nA: You can contact customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in. Do you want me to raise a support ticket for you?"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "जर तुम्हाला आणखी काही विचारायचं असेल किंवा मदतीची आवश्यकता असेल, तर कृपया सांगा!",
+        "en": "If you have anything else to ask or need help, please let me know!",
+        "timestamp": {
+          "$date": "2025-05-18T03:54:30.745Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Device connection kase check karayacbe",
+        "en": "Device connection kase check karayacbe",
+        "timestamp": {
+          "$date": "2025-05-18T03:55:47.282Z"
+        },
+        "standalone_question": "How do I check the device connection?",
+        "standalone_en": "How do I check the device connection?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "डिव्हाइस कनेक्शन तपासण्यासाठी खालील पायऱ्या अनुसरा:\n\n1. **फायलो अॅप उघडा**: तुमच्या मोबाइलवर फायलो अॅप उघडा.\n\n2. **डिव्हाइस सेटिंग्ज**: अॅपच्या सेटिंग्ज किंवा डिव्हाइस सेक्शनमध्ये जा.\n\n3. **कनेक्शन स्थिती**: तिथे तुम्हाला तुमच्या डिव्हाइसची कनेक्शन स्थिती दिसेल. \"कनेक्टेड\" किंवा \"ऑफलाइन\" अशी माहिती मिळेल.\n\n4. **नेटवर्क तपासा**: तुमच्या मोबाइलच्या इंटरनेट कनेक्शनची स्थिती तपासा. Wi-Fi किंवा मोबाइल डेटा चालू आहे का ते पाहा.\n\n5. **डिव्हाइस रीस्टार्ट करा**: जर कनेक्शन समस्या असेल, तर डिव्हाइस रीस्टार्ट करा आणि पुन्हा कनेक्ट करण्याचा प्रयत्न करा.\n\n6. **सपोर्ट टीमशी संपर्क**: जर समस्या कायम राहिली, तर फायलो सपोर्ट टीमशी संपर्क साधा.\n\nतुम्हाला आणखी काही मदतीची आवश्यकता आहे का?",
+        "en": "Follow the following steps to check the device connection:\n\n1. **Open the Filo app**: Open the Filo app on your mobile.\n\n2. **Device Settings**: Go to the app's settings or device section.\n\n3. **Connection Status**: There you will see the connection status of your device. Information such as \"connected\" or \"offline\" will be available.\n\n4. **Check the network**: Check the status of your mobile's internet connection. See if Wi-Fi or mobile data is running.\n\n5. **Restart the device**: If there is a connection problem, restart the device and try to reconnect.\n\n6. **Contact the support team**: If the problem persists, contact the Filo support team.\n\nDo you need any more help?",
+        "timestamp": {
+          "$date": "2025-05-18T03:55:53.121Z"
+        }
+      }
+    ],
+    "farmer_id": "karannikhade",
+    "farmer_plot_ids": [
+      "plotno1sudhakar746"
+    ],
+    "conversation_id": "682959d73ed15105dfe2e1a9",
+    "_id": "682959d73ed15105dfe2e1a9",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-18T04:00:47.290000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-05-18T03:53:59.391000+00:00"
+  }
+]

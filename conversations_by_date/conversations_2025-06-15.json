@@ -1,0 +1,1053 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What should I Give In Drip for better Leafs ",
+        "en": "What should I Give In Drip for better Leafs ",
+        "timestamp": {
+          "$date": "2025-06-15T15:21:46.797Z"
+        },
+        "standalone_question": "What should I give in Drip to improve the leaves?",
+        "standalone_en": "What should I give in Drip to improve the leaves?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For better leaf growth in your pomegranate crop, consider using a balanced fertilizer that includes the following nutrients:\n\n1. **Nitrogen (N)**: Essential for leaf growth and overall plant vigor. A higher nitrogen content can promote lush, green foliage.\n2. **Phosphorus (P)**: Important for root development and energy transfer, which supports leaf growth.\n3. **Potassium (K)**: Enhances overall plant health and improves resistance to diseases.\n\nYou can apply these nutrients through fertigation in your drip irrigation system. A common recommendation is to use a balanced NPK fertilizer (e.g., 20-20-20) or a specific foliar fertilizer designed for leafy growth.\n\nAdditionally, consider adding micronutrients like magnesium, iron, and manganese, which are vital for chlorophyll production and overall leaf health.\n\nIf you have specific soil or leaf test results, I can help you create a more tailored fertigation schedule. Would you like to proceed with that?",
+        "en": "For better leaf growth in your pomegranate crop, consider using a balanced fertilizer that includes the following nutrients:\n\n1. **Nitrogen (N)**: Essential for leaf growth and overall plant vigor. A higher nitrogen content can promote lush, green foliage.\n2. **Phosphorus (P)**: Important for root development and energy transfer, which supports leaf growth.\n3. **Potassium (K)**: Enhances overall plant health and improves resistance to diseases.\n\nYou can apply these nutrients through fertigation in your drip irrigation system. A common recommendation is to use a balanced NPK fertilizer (e.g., 20-20-20) or a specific foliar fertilizer designed for leafy growth.\n\nAdditionally, consider adding micronutrients like magnesium, iron, and manganese, which are vital for chlorophyll production and overall leaf health.\n\nIf you have specific soil or leaf test results, I can help you create a more tailored fertigation schedule. Would you like to proceed with that?",
+        "timestamp": {
+          "$date": "2025-06-15T15:21:52.050Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "What should I Give in Drip in rest periods",
+        "en": "What should I Give in Drip in rest periods",
+        "timestamp": {
+          "$date": "2025-06-15T15:22:35.357Z"
+        },
+        "standalone_question": "What should I apply in the drip irrigation system during rest periods?",
+        "standalone_en": "What should I apply in the drip irrigation system during rest periods?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today.",
+            "calculate_irrigation_hours\nCalculate the irrigation hours needed for irrigation by the farmer based on the mandatory provided values.\n    The formula used is\n    (root_width * root_depth * soil_retention * dripper_distance * calc_constant) / dripper_discharge\n    where calc_constant = 0.00006784244"
+          ],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: I irrigated still the sensor is dropping slowly.\nA: Sometimes, the water reaches slowly till root zone and the moisture sensor kPa value drops slowly. Always wait for 12 hours after irrigation for the moisture to saturate. If still some confusion, ask user to check moisture near the sensor and check if he wants to raise a ticket for the issue.",
+            "Q: In the latest irrigation , sensor didn't drop to 0.\nA: 0 to 5 Kpa means soil is fully wet. It need not drop to 0 every time. Moisture less than 5 also means wet conditions. So, need not worry. Also ask to wait for 12 hours after irrigation.",
+            "Q: I irrigated still the sensor is showing dry.\nA: Ask user when he irrigated. It usually takes 12 hours to reach the water till sensor. If the sensor is not dropping even after 12 hours, it can be due to one of the following reasons :\nWater is not reaching properly till the sensor , this can be due to drip blocked , or slope in the land or dripper outlets far away from the sensor. Ask user to check if drip is fine and  dripper is within the range of sensor. \nThe sensor can be very old , more than two years , in this case , the sensor might be malfunction, ask user if he wants to raise a ticket",
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "During the rest periods for your pomegranate crop, it's essential to provide nutrients that support recovery and prepare the plants for the next growth phase. Here are some recommendations for drip irrigation during rest periods:\n\n1. **Balanced Fertilizer**: Use a balanced NPK fertilizer (e.g., 10-10-10 or 15-15-15) to maintain nutrient levels in the soil.\n\n2. **Micronutrients**: Incorporate micronutrients like magnesium, calcium, and iron to support overall plant health and prepare for the next growth stage.\n\n3. **Organic Matter**: If possible, consider adding organic matter such as compost or well-rotted manure through the drip system. This can improve soil structure and nutrient availability.\n\n4. **Water Management**: Ensure that the soil remains adequately moist but not waterlogged. Monitor soil moisture levels to avoid stress on the plants.\n\n5. **Foliar Sprays**: You can also consider foliar sprays of micronutrients during this period to enhance leaf health and prepare for the next growth phase.\n\nIf you have specific soil test results or nutrient deficiencies, I can help you create a more tailored fertigation schedule. Would you like to proceed with that?",
+        "en": "During the rest periods for your pomegranate crop, it's essential to provide nutrients that support recovery and prepare the plants for the next growth phase. Here are some recommendations for drip irrigation during rest periods:\n\n1. **Balanced Fertilizer**: Use a balanced NPK fertilizer (e.g., 10-10-10 or 15-15-15) to maintain nutrient levels in the soil.\n\n2. **Micronutrients**: Incorporate micronutrients like magnesium, calcium, and iron to support overall plant health and prepare for the next growth stage.\n\n3. **Organic Matter**: If possible, consider adding organic matter such as compost or well-rotted manure through the drip system. This can improve soil structure and nutrient availability.\n\n4. **Water Management**: Ensure that the soil remains adequately moist but not waterlogged. Monitor soil moisture levels to avoid stress on the plants.\n\n5. **Foliar Sprays**: You can also consider foliar sprays of micronutrients during this period to enhance leaf health and prepare for the next growth phase.\n\nIf you have specific soil test results or nutrient deficiencies, I can help you create a more tailored fertigation schedule. Would you like to proceed with that?",
+        "timestamp": {
+          "$date": "2025-06-15T15:22:42.145Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "For Best Female Flowers what should I do In Rest Periods",
+        "en": "For Best Female Flowers what should I do In Rest Periods",
+        "timestamp": {
+          "$date": "2025-06-15T15:23:31.978Z"
+        },
+        "standalone_question": "What should I do during the rest periods to promote the best female flowers?",
+        "standalone_en": "What should I do during the rest periods to promote the best female flowers?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To promote the development of the best female flowers during the rest periods for your pomegranate crop, consider the following practices:\n\n1. **Balanced Nutrient Supply**: Use a balanced NPK fertilizer (e.g., 10-10-10) to ensure that the plants have adequate nutrients for flower development when they resume growth.\n\n2. **Calcium and Boron**: These micronutrients are crucial for flower and fruit set. Consider applying calcium and boron through fertigation or foliar sprays.\n\n3. **Water Management**: Maintain optimal soil moisture levels. Avoid overwatering or underwatering, as both can stress the plants and affect flower quality.\n\n4. **Organic Matter**: Incorporate organic matter into the soil to improve soil health and nutrient availability. This can be done through compost or well-rotted manure.\n\n5. **Pest and Disease Management**: Monitor for pests and diseases that can affect flower quality. Implement preventive measures as needed.\n\n6. **Foliar Sprays**: Consider using foliar sprays of micronutrients to enhance flower quality and promote better fruit set.\n\n7. **Pruning**: If applicable, light pruning can help redirect energy to flower production.\n\nBy following these practices, you can enhance the chances of producing high-quality female flowers in your pomegranate crop. If you need a specific fertigation schedule or further assistance, feel free to ask!",
+        "en": "To promote the development of the best female flowers during the rest periods for your pomegranate crop, consider the following practices:\n\n1. **Balanced Nutrient Supply**: Use a balanced NPK fertilizer (e.g., 10-10-10) to ensure that the plants have adequate nutrients for flower development when they resume growth.\n\n2. **Calcium and Boron**: These micronutrients are crucial for flower and fruit set. Consider applying calcium and boron through fertigation or foliar sprays.\n\n3. **Water Management**: Maintain optimal soil moisture levels. Avoid overwatering or underwatering, as both can stress the plants and affect flower quality.\n\n4. **Organic Matter**: Incorporate organic matter into the soil to improve soil health and nutrient availability. This can be done through compost or well-rotted manure.\n\n5. **Pest and Disease Management**: Monitor for pests and diseases that can affect flower quality. Implement preventive measures as needed.\n\n6. **Foliar Sprays**: Consider using foliar sprays of micronutrients to enhance flower quality and promote better fruit set.\n\n7. **Pruning**: If applicable, light pruning can help redirect energy to flower production.\n\nBy following these practices, you can enhance the chances of producing high-quality female flowers in your pomegranate crop. If you need a specific fertigation schedule or further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-06-15T15:23:39.089Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "I Have Done Hard Pruning And want to set the flowers on 15th August what Should I do in this short periods",
+        "en": "I Have Done Hard Pruning And want to set the flowers on 15th August what Should I do in this short periods",
+        "timestamp": {
+          "$date": "2025-06-15T15:24:45.563Z"
+        },
+        "standalone_question": "What steps should I take to encourage flower set by August 15th after performing hard pruning?",
+        "standalone_en": "What steps should I take to encourage flower set by August 15th after performing hard pruning?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To encourage flower set after hard pruning and target a flowering date of August 15th, follow these steps in the short period leading up to that date:\n\n1. **Nutrient Management**:\n   - **Balanced Fertilizer**: Apply a balanced NPK fertilizer (e.g., 10-10-10) to support new growth and flower development.\n   - **Calcium and Boron**: Incorporate calcium and boron to enhance flower quality and set. These can be applied through fertigation or foliar sprays.\n\n2. **Water Management**:\n   - Ensure consistent soil moisture. Avoid water stress, as it can hinder flower development. Monitor soil moisture levels closely.\n\n3. **Pest and Disease Control**:\n   - Monitor for pests that may affect new growth and flowers. Implement preventive measures as needed, such as using insecticides if necessary.\n\n4. **Foliar Sprays**:\n   - Consider foliar applications of micronutrients to boost plant health and flower set. This can include magnesium and iron.\n\n5. **Temperature Management**:\n   - If possible, manage the microclimate around the plants to ensure optimal temperatures for flower development.\n\n6. **Pruning and Training**:\n   - Ensure that any remaining branches are well-positioned to receive sunlight and air circulation, which can help in flower development.\n\n7. **Regular Monitoring**:\n   - Keep an eye on the plants for any signs of stress or nutrient deficiencies, and adjust your management practices accordingly.\n\nBy following these practices, you can enhance the chances of successful flower set by your target date of August 15th. If you need specific fertigation recommendations or further assistance, feel free to ask!",
+        "en": "To encourage flower set after hard pruning and target a flowering date of August 15th, follow these steps in the short period leading up to that date:\n\n1. **Nutrient Management**:\n   - **Balanced Fertilizer**: Apply a balanced NPK fertilizer (e.g., 10-10-10) to support new growth and flower development.\n   - **Calcium and Boron**: Incorporate calcium and boron to enhance flower quality and set. These can be applied through fertigation or foliar sprays.\n\n2. **Water Management**:\n   - Ensure consistent soil moisture. Avoid water stress, as it can hinder flower development. Monitor soil moisture levels closely.\n\n3. **Pest and Disease Control**:\n   - Monitor for pests that may affect new growth and flowers. Implement preventive measures as needed, such as using insecticides if necessary.\n\n4. **Foliar Sprays**:\n   - Consider foliar applications of micronutrients to boost plant health and flower set. This can include magnesium and iron.\n\n5. **Temperature Management**:\n   - If possible, manage the microclimate around the plants to ensure optimal temperatures for flower development.\n\n6. **Pruning and Training**:\n   - Ensure that any remaining branches are well-positioned to receive sunlight and air circulation, which can help in flower development.\n\n7. **Regular Monitoring**:\n   - Keep an eye on the plants for any signs of stress or nutrient deficiencies, and adjust your management practices accordingly.\n\nBy following these practices, you can enhance the chances of successful flower set by your target date of August 15th. If you need specific fertigation recommendations or further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-06-15T15:25:01.354Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "How much minimum time period should be given to crop for an stress period",
+        "en": "How much minimum time period should be given to crop for an stress period",
+        "timestamp": {
+          "$date": "2025-06-15T15:26:06.797Z"
+        },
+        "standalone_question": "What is the minimum time period that should be allowed for a crop to recover during a stress period?",
+        "standalone_en": "What is the minimum time period that should be allowed for a crop to recover during a stress period?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The minimum time period for a stress period in crops can vary based on the specific crop and its growth stage. However, for pomegranate and similar fruit-bearing crops, a stress period of about **2 to 4 weeks** is generally recommended. \n\nDuring this time, the plants should be monitored closely for signs of stress, and appropriate water and nutrient management practices should be implemented to help them recover. \n\nIf you have specific conditions or concerns regarding your crop, please let me know, and I can provide more tailored advice!",
+        "en": "The minimum time period for a stress period in crops can vary based on the specific crop and its growth stage. However, for pomegranate and similar fruit-bearing crops, a stress period of about **2 to 4 weeks** is generally recommended. \n\nDuring this time, the plants should be monitored closely for signs of stress, and appropriate water and nutrient management practices should be implemented to help them recover. \n\nIf you have specific conditions or concerns regarding your crop, please let me know, and I can provide more tailored advice!",
+        "timestamp": {
+          "$date": "2025-06-15T15:26:13.481Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Stress periods me paani dena chaiya nai ?",
+        "en": "Stress periods me paani dena chaiya nai ?",
+        "timestamp": {
+          "$date": "2025-06-15T15:26:48.917Z"
+        },
+        "standalone_question": "Should water be given during stress periods?",
+        "standalone_en": "Should water be given during stress periods?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Stress periods ke dauran paani dena zaroori hai, lekin isse bahut dhyan se karna chahiye. Stress period ka matlab hai ki aapke paudhe ko kuch samay ke liye stress mein rakhna hai taaki wo behtar tarike se phool aur phal set kar sakein.\n\n1. **Paani ki Matra**: Stress period ke dauran, paani dene ki matra ko kam rakhein. Sirf tab paani dein jab soil moisture kPa 100 se zyada ho, yaani jab zameen sookh rahi ho.\n\n2. **Soil Moisture Monitoring**: Soil moisture ko monitor karte rahein. Agar soil moisture 0-5 kPa ke beech hai, toh paani dene ki zaroorat nahi hai.\n\n3. **Paani dene ka Samay**: Agar aapko paani dena hai, toh thoda thoda karke dena behtar hai, taaki paudhe ko stress se nikalne ka mauka mile.\n\n4. **Nutrient Management**: Stress period ke dauran, nutrients ka dhyan rakhna bhi zaroori hai. Isse paudhe ki health behtar rahegi.\n\nAgar aapko kisi specific situation ke liye madad chahiye, toh mujhe bataiye!",
+        "en": "Watering is important during stress periods, but it should be done very carefully. A stress period means that your plants have to be kept under stress for some time so that they can set flowers and fruits in a better way.\n\n1. Water Content: During stress periods, keep the amount of water to a minimum. Water only when the soil moisture is more than 100 kPa, i.e. when the ground is dry.\n\n2. Soil Moisture Monitoring: Keep monitoring the soil moisture. If soil moisture is between 0-5 kPa, there is no need to water.\n\n3. **Watering time**: If you have to water, it is better to give it little by little, so that the plant gets a chance to get out of the stress.\n\n4. Nutrient Management: During the stress period, it is also important to take care of the nutrient. The health of this plant will be better.\n\nIf you need help with a specific situation, let me know!",
+        "timestamp": {
+          "$date": "2025-06-15T15:26:58.133Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Paudhe ko stress me kese daale",
+        "en": "How to put the plant in stress",
+        "timestamp": {
+          "$date": "2025-06-15T15:27:40.874Z"
+        },
+        "standalone_question": "How can I put plants under stress?",
+        "standalone_en": "How can I put plants under stress?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Paudhe ko stress me daalne ke liye kuch specific practices apna sakte hain. Yahan kuch tarike diye gaye hain:\n\n1. **Paani ki Matra Kam Karein**: Paudhe ko paani dena band kar dein ya bahut hi kam paani dein. Soil moisture ko 100 kPa se zyada hone dein, taaki paudhe ko stress mehsoos ho.\n\n2. **Nutrient Supply Kam Karein**: Fertilizer ka istemal kam karein ya band karein. Isse paudhe ko nutrients ki kami mehsoos hogi, jo stress ka ek hissa hai.\n\n3. **Pruning**: Agar zaroorat ho, toh kuch patte ya branches ko prune kar sakte hain. Isse paudhe ki energy flower aur fruit set par kendrit hoti hai.\n\n4. **Temperature Control**: Agar aap greenhouse ya controlled environment me hain, toh temperature ko thoda badha sakte hain, lekin dhyan rahe ki paudhe ko extreme conditions na milein.\n\n5. **Pest Management**: Pests ko control karne ke liye kuch samay ke liye unhe chhod sakte hain, lekin dhyan rahe ki ye unhe zyada stress na de.\n\n6. **Monitoring**: Paudhe ko dhyan se monitor karein. Agar paudhe zyada stress mehsoos kar rahe hain, toh unhe jaldi se recover karne ke liye paani aur nutrients dena shuru karein.\n\nIn practices se aap paudhe ko stress me daal sakte hain, lekin hamesha dhyan rahe ki paudhe ki health ko bhi monitor karte rahein. Agar aapko kisi specific situation ke liye madad chahiye, toh mujhe bataiye!",
+        "en": "You can adopt some specific practices to put the plant in stress. Here are a few ways:\n\n1. Reduce water content: Stop watering the plant or water very little. Allow the soil moisture to exceed 100 kPa to make the plant feel stressed.\n\n2. Reduce Nutrient Supply: Reduce or stop the use of fertilizer. This plant will feel the lack of nutrients, which is a part of stress.\n\n3. Pruning: If needed, prune some leaves or branches. The energy of this plant is focused on the flower and fruit set.\n\n4. Temperature Control: If you are in a greenhouse or controlled environment, you can increase the temperature slightly, but keep in mind that the plant does not get extreme conditions.\n\n5. Paste Management: You can leave the pests for some time to control them, but be careful not to stress them too much.\n\n6. **Monitoring**: Monitor the plant carefully. If the plants are feeling too stressed, start giving them water and nutrients to recover quickly.\n\nWith these practices, you can put the plant in stress, but always keep in mind that the health of the plant should also be monitored. If you need help with a specific situation, let me know!",
+        "timestamp": {
+          "$date": "2025-06-15T15:27:51.786Z"
+        }
+      }
+    ],
+    "farmer_id": "saurabh9998260403",
+    "farmer_plot_ids": [
+      "plot1478",
+      "plot2mevai"
+    ],
+    "conversation_id": "684ee5091e1a12f9b9b4dd2e",
+    "_id": "684ee5091e1a12f9b9b4dd2e",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-06-15T15:32:40.878000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-06-15T15:21:46.797000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What should I Give In Drip for better Leafs ",
+        "en": "What should I Give In Drip for better Leafs ",
+        "timestamp": {
+          "$date": "2025-06-15T15:21:46.797Z"
+        },
+        "standalone_question": "What should I give in Drip to improve the leaves?",
+        "standalone_en": "What should I give in Drip to improve the leaves?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For better leaf growth in your pomegranate crop, consider using a balanced fertilizer that includes the following nutrients:\n\n1. **Nitrogen (N)**: Essential for leaf growth and overall plant vigor. A higher nitrogen content can promote lush, green foliage.\n2. **Phosphorus (P)**: Important for root development and energy transfer, which supports leaf growth.\n3. **Potassium (K)**: Enhances overall plant health and improves resistance to diseases.\n\nYou can apply these nutrients through fertigation in your drip irrigation system. A common recommendation is to use a balanced NPK fertilizer (e.g., 20-20-20) or a specific foliar fertilizer designed for leafy growth.\n\nAdditionally, consider adding micronutrients like magnesium, iron, and manganese, which are vital for chlorophyll production and overall leaf health.\n\nIf you have specific soil or leaf test results, I can help you create a more tailored fertigation schedule. Would you like to proceed with that?",
+        "en": "For better leaf growth in your pomegranate crop, consider using a balanced fertilizer that includes the following nutrients:\n\n1. **Nitrogen (N)**: Essential for leaf growth and overall plant vigor. A higher nitrogen content can promote lush, green foliage.\n2. **Phosphorus (P)**: Important for root development and energy transfer, which supports leaf growth.\n3. **Potassium (K)**: Enhances overall plant health and improves resistance to diseases.\n\nYou can apply these nutrients through fertigation in your drip irrigation system. A common recommendation is to use a balanced NPK fertilizer (e.g., 20-20-20) or a specific foliar fertilizer designed for leafy growth.\n\nAdditionally, consider adding micronutrients like magnesium, iron, and manganese, which are vital for chlorophyll production and overall leaf health.\n\nIf you have specific soil or leaf test results, I can help you create a more tailored fertigation schedule. Would you like to proceed with that?",
+        "timestamp": {
+          "$date": "2025-06-15T15:21:52.050Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "What should I Give in Drip in rest periods",
+        "en": "What should I Give in Drip in rest periods",
+        "timestamp": {
+          "$date": "2025-06-15T15:22:35.357Z"
+        },
+        "standalone_question": "What should I apply in the drip irrigation system during rest periods?",
+        "standalone_en": "What should I apply in the drip irrigation system during rest periods?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today.",
+            "calculate_irrigation_hours\nCalculate the irrigation hours needed for irrigation by the farmer based on the mandatory provided values.\n    The formula used is\n    (root_width * root_depth * soil_retention * dripper_distance * calc_constant) / dripper_discharge\n    where calc_constant = 0.00006784244"
+          ],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: I irrigated still the sensor is dropping slowly.\nA: Sometimes, the water reaches slowly till root zone and the moisture sensor kPa value drops slowly. Always wait for 12 hours after irrigation for the moisture to saturate. If still some confusion, ask user to check moisture near the sensor and check if he wants to raise a ticket for the issue.",
+            "Q: In the latest irrigation , sensor didn't drop to 0.\nA: 0 to 5 Kpa means soil is fully wet. It need not drop to 0 every time. Moisture less than 5 also means wet conditions. So, need not worry. Also ask to wait for 12 hours after irrigation.",
+            "Q: I irrigated still the sensor is showing dry.\nA: Ask user when he irrigated. It usually takes 12 hours to reach the water till sensor. If the sensor is not dropping even after 12 hours, it can be due to one of the following reasons :\nWater is not reaching properly till the sensor , this can be due to drip blocked , or slope in the land or dripper outlets far away from the sensor. Ask user to check if drip is fine and  dripper is within the range of sensor. \nThe sensor can be very old , more than two years , in this case , the sensor might be malfunction, ask user if he wants to raise a ticket",
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "During the rest periods for your pomegranate crop, it's essential to provide nutrients that support recovery and prepare the plants for the next growth phase. Here are some recommendations for drip irrigation during rest periods:\n\n1. **Balanced Fertilizer**: Use a balanced NPK fertilizer (e.g., 10-10-10 or 15-15-15) to maintain nutrient levels in the soil.\n\n2. **Micronutrients**: Incorporate micronutrients like magnesium, calcium, and iron to support overall plant health and prepare for the next growth stage.\n\n3. **Organic Matter**: If possible, consider adding organic matter such as compost or well-rotted manure through the drip system. This can improve soil structure and nutrient availability.\n\n4. **Water Management**: Ensure that the soil remains adequately moist but not waterlogged. Monitor soil moisture levels to avoid stress on the plants.\n\n5. **Foliar Sprays**: You can also consider foliar sprays of micronutrients during this period to enhance leaf health and prepare for the next growth phase.\n\nIf you have specific soil test results or nutrient deficiencies, I can help you create a more tailored fertigation schedule. Would you like to proceed with that?",
+        "en": "During the rest periods for your pomegranate crop, it's essential to provide nutrients that support recovery and prepare the plants for the next growth phase. Here are some recommendations for drip irrigation during rest periods:\n\n1. **Balanced Fertilizer**: Use a balanced NPK fertilizer (e.g., 10-10-10 or 15-15-15) to maintain nutrient levels in the soil.\n\n2. **Micronutrients**: Incorporate micronutrients like magnesium, calcium, and iron to support overall plant health and prepare for the next growth stage.\n\n3. **Organic Matter**: If possible, consider adding organic matter such as compost or well-rotted manure through the drip system. This can improve soil structure and nutrient availability.\n\n4. **Water Management**: Ensure that the soil remains adequately moist but not waterlogged. Monitor soil moisture levels to avoid stress on the plants.\n\n5. **Foliar Sprays**: You can also consider foliar sprays of micronutrients during this period to enhance leaf health and prepare for the next growth phase.\n\nIf you have specific soil test results or nutrient deficiencies, I can help you create a more tailored fertigation schedule. Would you like to proceed with that?",
+        "timestamp": {
+          "$date": "2025-06-15T15:22:42.145Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "For Best Female Flowers what should I do In Rest Periods",
+        "en": "For Best Female Flowers what should I do In Rest Periods",
+        "timestamp": {
+          "$date": "2025-06-15T15:23:31.978Z"
+        },
+        "standalone_question": "What should I do during the rest periods to promote the best female flowers?",
+        "standalone_en": "What should I do during the rest periods to promote the best female flowers?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To promote the development of the best female flowers during the rest periods for your pomegranate crop, consider the following practices:\n\n1. **Balanced Nutrient Supply**: Use a balanced NPK fertilizer (e.g., 10-10-10) to ensure that the plants have adequate nutrients for flower development when they resume growth.\n\n2. **Calcium and Boron**: These micronutrients are crucial for flower and fruit set. Consider applying calcium and boron through fertigation or foliar sprays.\n\n3. **Water Management**: Maintain optimal soil moisture levels. Avoid overwatering or underwatering, as both can stress the plants and affect flower quality.\n\n4. **Organic Matter**: Incorporate organic matter into the soil to improve soil health and nutrient availability. This can be done through compost or well-rotted manure.\n\n5. **Pest and Disease Management**: Monitor for pests and diseases that can affect flower quality. Implement preventive measures as needed.\n\n6. **Foliar Sprays**: Consider using foliar sprays of micronutrients to enhance flower quality and promote better fruit set.\n\n7. **Pruning**: If applicable, light pruning can help redirect energy to flower production.\n\nBy following these practices, you can enhance the chances of producing high-quality female flowers in your pomegranate crop. If you need a specific fertigation schedule or further assistance, feel free to ask!",
+        "en": "To promote the development of the best female flowers during the rest periods for your pomegranate crop, consider the following practices:\n\n1. **Balanced Nutrient Supply**: Use a balanced NPK fertilizer (e.g., 10-10-10) to ensure that the plants have adequate nutrients for flower development when they resume growth.\n\n2. **Calcium and Boron**: These micronutrients are crucial for flower and fruit set. Consider applying calcium and boron through fertigation or foliar sprays.\n\n3. **Water Management**: Maintain optimal soil moisture levels. Avoid overwatering or underwatering, as both can stress the plants and affect flower quality.\n\n4. **Organic Matter**: Incorporate organic matter into the soil to improve soil health and nutrient availability. This can be done through compost or well-rotted manure.\n\n5. **Pest and Disease Management**: Monitor for pests and diseases that can affect flower quality. Implement preventive measures as needed.\n\n6. **Foliar Sprays**: Consider using foliar sprays of micronutrients to enhance flower quality and promote better fruit set.\n\n7. **Pruning**: If applicable, light pruning can help redirect energy to flower production.\n\nBy following these practices, you can enhance the chances of producing high-quality female flowers in your pomegranate crop. If you need a specific fertigation schedule or further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-06-15T15:23:39.089Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "I Have Done Hard Pruning And want to set the flowers on 15th August what Should I do in this short periods",
+        "en": "I Have Done Hard Pruning And want to set the flowers on 15th August what Should I do in this short periods",
+        "timestamp": {
+          "$date": "2025-06-15T15:24:45.563Z"
+        },
+        "standalone_question": "What steps should I take to encourage flower set by August 15th after performing hard pruning?",
+        "standalone_en": "What steps should I take to encourage flower set by August 15th after performing hard pruning?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To encourage flower set after hard pruning and target a flowering date of August 15th, follow these steps in the short period leading up to that date:\n\n1. **Nutrient Management**:\n   - **Balanced Fertilizer**: Apply a balanced NPK fertilizer (e.g., 10-10-10) to support new growth and flower development.\n   - **Calcium and Boron**: Incorporate calcium and boron to enhance flower quality and set. These can be applied through fertigation or foliar sprays.\n\n2. **Water Management**:\n   - Ensure consistent soil moisture. Avoid water stress, as it can hinder flower development. Monitor soil moisture levels closely.\n\n3. **Pest and Disease Control**:\n   - Monitor for pests that may affect new growth and flowers. Implement preventive measures as needed, such as using insecticides if necessary.\n\n4. **Foliar Sprays**:\n   - Consider foliar applications of micronutrients to boost plant health and flower set. This can include magnesium and iron.\n\n5. **Temperature Management**:\n   - If possible, manage the microclimate around the plants to ensure optimal temperatures for flower development.\n\n6. **Pruning and Training**:\n   - Ensure that any remaining branches are well-positioned to receive sunlight and air circulation, which can help in flower development.\n\n7. **Regular Monitoring**:\n   - Keep an eye on the plants for any signs of stress or nutrient deficiencies, and adjust your management practices accordingly.\n\nBy following these practices, you can enhance the chances of successful flower set by your target date of August 15th. If you need specific fertigation recommendations or further assistance, feel free to ask!",
+        "en": "To encourage flower set after hard pruning and target a flowering date of August 15th, follow these steps in the short period leading up to that date:\n\n1. **Nutrient Management**:\n   - **Balanced Fertilizer**: Apply a balanced NPK fertilizer (e.g., 10-10-10) to support new growth and flower development.\n   - **Calcium and Boron**: Incorporate calcium and boron to enhance flower quality and set. These can be applied through fertigation or foliar sprays.\n\n2. **Water Management**:\n   - Ensure consistent soil moisture. Avoid water stress, as it can hinder flower development. Monitor soil moisture levels closely.\n\n3. **Pest and Disease Control**:\n   - Monitor for pests that may affect new growth and flowers. Implement preventive measures as needed, such as using insecticides if necessary.\n\n4. **Foliar Sprays**:\n   - Consider foliar applications of micronutrients to boost plant health and flower set. This can include magnesium and iron.\n\n5. **Temperature Management**:\n   - If possible, manage the microclimate around the plants to ensure optimal temperatures for flower development.\n\n6. **Pruning and Training**:\n   - Ensure that any remaining branches are well-positioned to receive sunlight and air circulation, which can help in flower development.\n\n7. **Regular Monitoring**:\n   - Keep an eye on the plants for any signs of stress or nutrient deficiencies, and adjust your management practices accordingly.\n\nBy following these practices, you can enhance the chances of successful flower set by your target date of August 15th. If you need specific fertigation recommendations or further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-06-15T15:25:01.354Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "How much minimum time period should be given to crop for an stress period",
+        "en": "How much minimum time period should be given to crop for an stress period",
+        "timestamp": {
+          "$date": "2025-06-15T15:26:06.797Z"
+        },
+        "standalone_question": "What is the minimum time period that should be allowed for a crop to recover during a stress period?",
+        "standalone_en": "What is the minimum time period that should be allowed for a crop to recover during a stress period?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The minimum time period for a stress period in crops can vary based on the specific crop and its growth stage. However, for pomegranate and similar fruit-bearing crops, a stress period of about **2 to 4 weeks** is generally recommended. \n\nDuring this time, the plants should be monitored closely for signs of stress, and appropriate water and nutrient management practices should be implemented to help them recover. \n\nIf you have specific conditions or concerns regarding your crop, please let me know, and I can provide more tailored advice!",
+        "en": "The minimum time period for a stress period in crops can vary based on the specific crop and its growth stage. However, for pomegranate and similar fruit-bearing crops, a stress period of about **2 to 4 weeks** is generally recommended. \n\nDuring this time, the plants should be monitored closely for signs of stress, and appropriate water and nutrient management practices should be implemented to help them recover. \n\nIf you have specific conditions or concerns regarding your crop, please let me know, and I can provide more tailored advice!",
+        "timestamp": {
+          "$date": "2025-06-15T15:26:13.481Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Stress periods me paani dena chaiya nai ?",
+        "en": "Stress periods me paani dena chaiya nai ?",
+        "timestamp": {
+          "$date": "2025-06-15T15:26:48.917Z"
+        },
+        "standalone_question": "Should water be given during stress periods?",
+        "standalone_en": "Should water be given during stress periods?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Stress periods ke dauran paani dena zaroori hai, lekin isse bahut dhyan se karna chahiye. Stress period ka matlab hai ki aapke paudhe ko kuch samay ke liye stress mein rakhna hai taaki wo behtar tarike se phool aur phal set kar sakein.\n\n1. **Paani ki Matra**: Stress period ke dauran, paani dene ki matra ko kam rakhein. Sirf tab paani dein jab soil moisture kPa 100 se zyada ho, yaani jab zameen sookh rahi ho.\n\n2. **Soil Moisture Monitoring**: Soil moisture ko monitor karte rahein. Agar soil moisture 0-5 kPa ke beech hai, toh paani dene ki zaroorat nahi hai.\n\n3. **Paani dene ka Samay**: Agar aapko paani dena hai, toh thoda thoda karke dena behtar hai, taaki paudhe ko stress se nikalne ka mauka mile.\n\n4. **Nutrient Management**: Stress period ke dauran, nutrients ka dhyan rakhna bhi zaroori hai. Isse paudhe ki health behtar rahegi.\n\nAgar aapko kisi specific situation ke liye madad chahiye, toh mujhe bataiye!",
+        "en": "Watering is important during stress periods, but it should be done very carefully. A stress period means that your plants have to be kept under stress for some time so that they can set flowers and fruits in a better way.\n\n1. Water Content: During stress periods, keep the amount of water to a minimum. Water only when the soil moisture is more than 100 kPa, i.e. when the ground is dry.\n\n2. Soil Moisture Monitoring: Keep monitoring the soil moisture. If soil moisture is between 0-5 kPa, there is no need to water.\n\n3. **Watering time**: If you have to water, it is better to give it little by little, so that the plant gets a chance to get out of the stress.\n\n4. Nutrient Management: During the stress period, it is also important to take care of the nutrient. The health of this plant will be better.\n\nIf you need help with a specific situation, let me know!",
+        "timestamp": {
+          "$date": "2025-06-15T15:26:58.133Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Paudhe ko stress me kese daale",
+        "en": "How to put the plant in stress",
+        "timestamp": {
+          "$date": "2025-06-15T15:27:40.874Z"
+        },
+        "standalone_question": "How can I put plants under stress?",
+        "standalone_en": "How can I put plants under stress?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Paudhe ko stress me daalne ke liye kuch specific practices apna sakte hain. Yahan kuch tarike diye gaye hain:\n\n1. **Paani ki Matra Kam Karein**: Paudhe ko paani dena band kar dein ya bahut hi kam paani dein. Soil moisture ko 100 kPa se zyada hone dein, taaki paudhe ko stress mehsoos ho.\n\n2. **Nutrient Supply Kam Karein**: Fertilizer ka istemal kam karein ya band karein. Isse paudhe ko nutrients ki kami mehsoos hogi, jo stress ka ek hissa hai.\n\n3. **Pruning**: Agar zaroorat ho, toh kuch patte ya branches ko prune kar sakte hain. Isse paudhe ki energy flower aur fruit set par kendrit hoti hai.\n\n4. **Temperature Control**: Agar aap greenhouse ya controlled environment me hain, toh temperature ko thoda badha sakte hain, lekin dhyan rahe ki paudhe ko extreme conditions na milein.\n\n5. **Pest Management**: Pests ko control karne ke liye kuch samay ke liye unhe chhod sakte hain, lekin dhyan rahe ki ye unhe zyada stress na de.\n\n6. **Monitoring**: Paudhe ko dhyan se monitor karein. Agar paudhe zyada stress mehsoos kar rahe hain, toh unhe jaldi se recover karne ke liye paani aur nutrients dena shuru karein.\n\nIn practices se aap paudhe ko stress me daal sakte hain, lekin hamesha dhyan rahe ki paudhe ki health ko bhi monitor karte rahein. Agar aapko kisi specific situation ke liye madad chahiye, toh mujhe bataiye!",
+        "en": "You can adopt some specific practices to put the plant in stress. Here are a few ways:\n\n1. Reduce water content: Stop watering the plant or water very little. Allow the soil moisture to exceed 100 kPa to make the plant feel stressed.\n\n2. Reduce Nutrient Supply: Reduce or stop the use of fertilizer. This plant will feel the lack of nutrients, which is a part of stress.\n\n3. Pruning: If needed, prune some leaves or branches. The energy of this plant is focused on the flower and fruit set.\n\n4. Temperature Control: If you are in a greenhouse or controlled environment, you can increase the temperature slightly, but keep in mind that the plant does not get extreme conditions.\n\n5. Paste Management: You can leave the pests for some time to control them, but be careful not to stress them too much.\n\n6. **Monitoring**: Monitor the plant carefully. If the plants are feeling too stressed, start giving them water and nutrients to recover quickly.\n\nWith these practices, you can put the plant in stress, but always keep in mind that the health of the plant should also be monitored. If you need help with a specific situation, let me know!",
+        "timestamp": {
+          "$date": "2025-06-15T15:27:51.786Z"
+        }
+      }
+    ],
+    "farmer_id": "saurabh9998260403",
+    "farmer_plot_ids": [
+      "plot1478",
+      "plot2mevai"
+    ],
+    "conversation_id": "684ee5091e1a12f9b9b4dd2e",
+    "_id": "684ee5091e1a12f9b9b4dd2e",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-06-15T15:32:40.878000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-06-15T15:21:46.797000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Pesticides for fertility ",
+        "en": "Pesticides for fertility ",
+        "timestamp": {
+          "$date": "2025-06-15T13:36:28.007Z"
+        },
+        "standalone_question": "What is the impact of pesticides on fertility?",
+        "standalone_en": "What is the impact of pesticides on fertility?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Pesticides are generally not used for fertility; instead, they are used to control pests and diseases that can affect crop health. For improving soil fertility, consider using organic fertilizers, compost, or specific nutrient supplements based on soil tests.\n\nIf you need information on pest control or specific pesticide recommendations for your crops, please let me know!",
+        "en": "Pesticides are generally not used for fertility; instead, they are used to control pests and diseases that can affect crop health. For improving soil fertility, consider using organic fertilizers, compost, or specific nutrient supplements based on soil tests.\n\nIf you need information on pest control or specific pesticide recommendations for your crops, please let me know!",
+        "timestamp": {
+          "$date": "2025-06-15T13:36:31.681Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Pesticides for Breeding ",
+        "en": "Pesticides for Breeding ",
+        "timestamp": {
+          "$date": "2025-06-15T13:39:59.931Z"
+        },
+        "standalone_question": "What are the effects of pesticides on breeding?",
+        "standalone_en": "What are the effects of pesticides on breeding?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Pesticides are not typically used for breeding; they are primarily used for pest and disease control. However, if you're looking to protect your crops during the breeding or flowering stages, you may consider using specific insecticides or fungicides to prevent damage from pests and diseases.\n\nIf you need information on specific pesticide recommendations or a spray schedule for your crops, please let me know!",
+        "en": "Pesticides are not typically used for breeding; they are primarily used for pest and disease control. However, if you're looking to protect your crops during the breeding or flowering stages, you may consider using specific insecticides or fungicides to prevent damage from pests and diseases.\n\nIf you need information on specific pesticide recommendations or a spray schedule for your crops, please let me know!",
+        "timestamp": {
+          "$date": "2025-06-15T13:40:04.608Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Use of 6BA and uracil",
+        "en": "Use of 6BA and uracil",
+        "timestamp": {
+          "$date": "2025-06-15T13:40:39.651Z"
+        },
+        "standalone_question": "What is the use of 6BA and uracil in agriculture?",
+        "standalone_en": "What is the use of 6BA and uracil in agriculture?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "6-Benzylaminopurine (6BA) and uracil are plant growth regulators and compounds that can be used to enhance plant growth and development.\n\n### 6BA (6-Benzylaminopurine):\n- **Function**: It is a cytokinin that promotes cell division and can enhance shoot proliferation, delay leaf senescence, and improve fruit set and quality.\n- **Use**: Commonly used in tissue culture and for promoting branching in crops like grapes.\n\n### Uracil:\n- **Function**: It is a pyrimidine base that can stimulate plant growth and improve stress tolerance.\n- **Use**: Often used in combination with other growth regulators to enhance seed germination and root development.\n\n### Application:\n- **6BA** can be applied as a foliar spray or in tissue culture media.\n- **Uracil** can be used in seed treatments or as a foliar application.\n\nIf you need specific application rates or methods for your grape crop, please let me know!",
+        "en": "6-Benzylaminopurine (6BA) and uracil are plant growth regulators and compounds that can be used to enhance plant growth and development.\n\n### 6BA (6-Benzylaminopurine):\n- **Function**: It is a cytokinin that promotes cell division and can enhance shoot proliferation, delay leaf senescence, and improve fruit set and quality.\n- **Use**: Commonly used in tissue culture and for promoting branching in crops like grapes.\n\n### Uracil:\n- **Function**: It is a pyrimidine base that can stimulate plant growth and improve stress tolerance.\n- **Use**: Often used in combination with other growth regulators to enhance seed germination and root development.\n\n### Application:\n- **6BA** can be applied as a foliar spray or in tissue culture media.\n- **Uracil** can be used in seed treatments or as a foliar application.\n\nIf you need specific application rates or methods for your grape crop, please let me know!",
+        "timestamp": {
+          "$date": "2025-06-15T13:40:45.485Z"
+        }
+      }
+    ],
+    "farmer_id": "shashidharnaruni",
+    "farmer_plot_ids": [
+      "shashidharthomson3acar"
+    ],
+    "conversation_id": "684ecc5b833ae84496ee7040",
+    "_id": "684ecc5b833ae84496ee7040",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-06-15T13:45:39.653000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-06-15T13:36:28.007000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Pesticides for fertility ",
+        "en": "Pesticides for fertility ",
+        "timestamp": {
+          "$date": "2025-06-15T13:36:28.007Z"
+        },
+        "standalone_question": "What is the impact of pesticides on fertility?",
+        "standalone_en": "What is the impact of pesticides on fertility?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Pesticides are generally not used for fertility; instead, they are used to control pests and diseases that can affect crop health. For improving soil fertility, consider using organic fertilizers, compost, or specific nutrient supplements based on soil tests.\n\nIf you need information on pest control or specific pesticide recommendations for your crops, please let me know!",
+        "en": "Pesticides are generally not used for fertility; instead, they are used to control pests and diseases that can affect crop health. For improving soil fertility, consider using organic fertilizers, compost, or specific nutrient supplements based on soil tests.\n\nIf you need information on pest control or specific pesticide recommendations for your crops, please let me know!",
+        "timestamp": {
+          "$date": "2025-06-15T13:36:31.681Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Pesticides for Breeding ",
+        "en": "Pesticides for Breeding ",
+        "timestamp": {
+          "$date": "2025-06-15T13:39:59.931Z"
+        },
+        "standalone_question": "What are the effects of pesticides on breeding?",
+        "standalone_en": "What are the effects of pesticides on breeding?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Pesticides are not typically used for breeding; they are primarily used for pest and disease control. However, if you're looking to protect your crops during the breeding or flowering stages, you may consider using specific insecticides or fungicides to prevent damage from pests and diseases.\n\nIf you need information on specific pesticide recommendations or a spray schedule for your crops, please let me know!",
+        "en": "Pesticides are not typically used for breeding; they are primarily used for pest and disease control. However, if you're looking to protect your crops during the breeding or flowering stages, you may consider using specific insecticides or fungicides to prevent damage from pests and diseases.\n\nIf you need information on specific pesticide recommendations or a spray schedule for your crops, please let me know!",
+        "timestamp": {
+          "$date": "2025-06-15T13:40:04.608Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Use of 6BA and uracil",
+        "en": "Use of 6BA and uracil",
+        "timestamp": {
+          "$date": "2025-06-15T13:40:39.651Z"
+        },
+        "standalone_question": "What is the use of 6BA and uracil in agriculture?",
+        "standalone_en": "What is the use of 6BA and uracil in agriculture?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "6-Benzylaminopurine (6BA) and uracil are plant growth regulators and compounds that can be used to enhance plant growth and development.\n\n### 6BA (6-Benzylaminopurine):\n- **Function**: It is a cytokinin that promotes cell division and can enhance shoot proliferation, delay leaf senescence, and improve fruit set and quality.\n- **Use**: Commonly used in tissue culture and for promoting branching in crops like grapes.\n\n### Uracil:\n- **Function**: It is a pyrimidine base that can stimulate plant growth and improve stress tolerance.\n- **Use**: Often used in combination with other growth regulators to enhance seed germination and root development.\n\n### Application:\n- **6BA** can be applied as a foliar spray or in tissue culture media.\n- **Uracil** can be used in seed treatments or as a foliar application.\n\nIf you need specific application rates or methods for your grape crop, please let me know!",
+        "en": "6-Benzylaminopurine (6BA) and uracil are plant growth regulators and compounds that can be used to enhance plant growth and development.\n\n### 6BA (6-Benzylaminopurine):\n- **Function**: It is a cytokinin that promotes cell division and can enhance shoot proliferation, delay leaf senescence, and improve fruit set and quality.\n- **Use**: Commonly used in tissue culture and for promoting branching in crops like grapes.\n\n### Uracil:\n- **Function**: It is a pyrimidine base that can stimulate plant growth and improve stress tolerance.\n- **Use**: Often used in combination with other growth regulators to enhance seed germination and root development.\n\n### Application:\n- **6BA** can be applied as a foliar spray or in tissue culture media.\n- **Uracil** can be used in seed treatments or as a foliar application.\n\nIf you need specific application rates or methods for your grape crop, please let me know!",
+        "timestamp": {
+          "$date": "2025-06-15T13:40:45.485Z"
+        }
+      }
+    ],
+    "farmer_id": "shashidharnaruni",
+    "farmer_plot_ids": [
+      "shashidharthomson3acar"
+    ],
+    "conversation_id": "684ecc5b833ae84496ee7040",
+    "_id": "684ecc5b833ae84496ee7040",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-06-15T13:45:39.653000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-06-15T13:36:28.007000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "करपा डावणि भुरि साठी एकत्रित फवारणी कोणत्या करावे",
+        "en": "What to spray together for karpa left and brown",
+        "timestamp": {
+          "$date": "2025-06-15T13:11:58.396Z"
+        },
+        "standalone_question": "What type of combined spray should be used for the crop of Karpa Davni Bhuri Sathi?",
+        "standalone_en": "What type of combined spray should be used for the crop of Karpa Davni Bhuri Sathi?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "karpa davani bhuri sathi ekatrit favarani konatya karave"
+      },
+      {
+        "role": "assistant",
+        "content": "करपा डावणि भुरि साठी एकत्रित फवारणीसाठी, तुम्ही खालील औषधांचा वापर करू शकता:\n\n1. **फंगिसाइड**: \n   - **बोर्डो मिश्रण** (Copper Sulfate + Lime) \n   - **कॅरबेंडाझिम** (Carbendazim)\n\n2. **कीटकनाशक**: \n   - **इमिडाक्लोप्रिड** (Imidacloprid)\n   - **मालाथियॉन** (Malathion)\n\nतुमच्या स्थानिक कृषी तज्ञांशी संपर्क साधून योग्य प्रमाण आणि फवारणीची पद्धत जाणून घ्या.",
+        "en": "For a combined spraying for Karpa Davani Bhuri, you can use the following medications:\n\n1. **Fungicide**: \n   - Copper Sulfate + Lime \n   - Carbendazim\n\n2. **Insecticides**: \n   - Imidacloprid\n   - Malathion\n\nContact your local agricultural expert to find out the right dosage and method of spraying.",
+        "timestamp": {
+          "$date": "2025-06-15T13:12:02.566Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ब्रोर्डो मध्ये काय मिक्स करावे",
+        "en": "What to mix in brodo",
+        "timestamp": {
+          "$date": "2025-06-15T13:14:09.222Z"
+        },
+        "standalone_question": "What should be mixed in Bordeaux mixture?",
+        "standalone_en": "What should be mixed in Bordeaux mixture?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "brordo madhye kay mix karave"
+      },
+      {
+        "role": "assistant",
+        "content": "बोर्डो मिश्रण तयार करण्यासाठी तुम्हाला खालील घटकांची आवश्यकता आहे:\n\n1. **कॉपर सल्फेट** (Copper Sulfate) - 1 किलो\n2. **कॅल्शियम हायड्रॉक्साइड** (Calcium Hydroxide) - 1 किलो\n3. **पाणी** - 100 लिटर\n\n**तयारीची पद्धत:**\n1. कॉपर सल्फेटला पाण्यात विरघळा.\n2. दुसऱ्या पाण्यात कॅल्शियम हायड्रॉक्साइडला विरघळा.\n3. दोन्ही मिश्रण एकत्र करा आणि चांगले ढवळा.\n\nहे मिश्रण फवारणीसाठी तयार आहे. फवारणी करताना योग्य प्रमाण आणि पद्धतींचा विचार करा.",
+        "en": "To make a Bordeaux blend, you need the following ingredients:\n\n1. **Copper Sulfate** (Copper Sulfate) - 1 kg\n2. **Calcium Hydroxide** (Calcium Hydroxide) - 1 kg\n3. **Water** - 100 litres\n\n**Method of preparation:**\n1. Dissolve copper sulfate in water.\n2. Dissolve calcium hydroxide in another water.\n3. Combine both mixtures and stir well.\n\nThe mixture is ready for spraying. Consider the right quantity and methods when spraying.",
+        "timestamp": {
+          "$date": "2025-06-15T13:14:15.929Z"
+        }
+      }
+    ],
+    "farmer_id": "pankajsadashivkhandave",
+    "farmer_plot_ids": [
+      "plotnoonessn",
+      "plotnotwocrimson",
+      "sudhakar156",
+      "sudhakar2101"
+    ],
+    "conversation_id": "684ec69d1e1a12f9b9b4dd2d",
+    "_id": "684ec69d1e1a12f9b9b4dd2d",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-06-15T13:19:09.224000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-06-15T13:11:58.396000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "करपा डावणि भुरि साठी एकत्रित फवारणी कोणत्या करावे",
+        "en": "What to spray together for karpa left and brown",
+        "timestamp": {
+          "$date": "2025-06-15T13:11:58.396Z"
+        },
+        "standalone_question": "What type of combined spraying should be done for the crop of Karpa, Davni, and Bhuri Sathi?",
+        "standalone_en": "What type of combined spraying should be done for the crop of Karpa, Davni, and Bhuri Sathi?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        },
+        "content_transliterated": "karpa davani bhuri sathi ekatrit favarani konatya karave"
+      },
+      {
+        "role": "assistant",
+        "content": "करपा डावणि भुरि साठी एकत्रित फवारणीसाठी, तुम्ही खालील औषधांचा वापर करू शकता:\n\n1. **फंगिसाइड**: \n   - **बोर्डो मिश्रण** (Copper Sulfate + Lime) \n   - **कॅरबेंडाझिम** (Carbendazim)\n\n2. **कीटकनाशक**: \n   - **इमिडाक्लोप्रिड** (Imidacloprid)\n   - **मालाथियॉन** (Malathion)\n\nतुमच्या स्थानिक कृषी तज्ञांशी संपर्क साधून योग्य प्रमाण आणि फवारणीची पद्धत जाणून घ्या.",
+        "en": "For a combined spraying for Karpa Davani Bhuri, you can use the following medications:\n\n1. **Fungicide**: \n   - Copper Sulfate + Lime \n   - Carbendazim\n\n2. **Insecticides**: \n   - Imidacloprid\n   - Malathion\n\nContact your local agricultural expert to find out the right dosage and method of spraying.",
+        "timestamp": {
+          "$date": "2025-06-15T13:12:02.566Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ब्रोर्डो मध्ये काय मिक्स करावे",
+        "en": "What to mix in brodo",
+        "timestamp": {
+          "$date": "2025-06-15T13:14:09.222Z"
+        },
+        "standalone_question": "What should be mixed in Bordeaux mixture?",
+        "standalone_en": "What should be mixed in Bordeaux mixture?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "brordo madhye kay mix karave"
+      },
+      {
+        "role": "assistant",
+        "content": "बोर्डो मिश्रण तयार करण्यासाठी तुम्हाला खालील घटकांची आवश्यकता आहे:\n\n1. **कॉपर सल्फेट** (Copper Sulfate) - 1 किलो\n2. **कॅल्शियम हायड्रॉक्साइड** (Calcium Hydroxide) - 1 किलो\n3. **पाणी** - 100 लिटर\n\n**तयारीची पद्धत:**\n1. कॉपर सल्फेटला पाण्यात विरघळा.\n2. दुसऱ्या पाण्यात कॅल्शियम हायड्रॉक्साइडला विरघळा.\n3. दोन्ही मिश्रण एकत्र करा आणि चांगले ढवळा.\n\nहे मिश्रण फवारणीसाठी तयार आहे. फवारणी करताना योग्य प्रमाण आणि पद्धतींचा विचार करा.",
+        "en": "To make a Bordeaux blend, you need the following ingredients:\n\n1. **Copper Sulfate** (Copper Sulfate) - 1 kg\n2. **Calcium Hydroxide** (Calcium Hydroxide) - 1 kg\n3. **Water** - 100 litres\n\n**Method of preparation:**\n1. Dissolve copper sulfate in water.\n2. Dissolve calcium hydroxide in another water.\n3. Combine both mixtures and stir well.\n\nThe mixture is ready for spraying. Consider the right quantity and methods when spraying.",
+        "timestamp": {
+          "$date": "2025-06-15T13:14:15.929Z"
+        }
+      }
+    ],
+    "farmer_id": "pankajsadashivkhandave",
+    "farmer_plot_ids": [
+      "plotnoonessn",
+      "plotnotwocrimson",
+      "sudhakar156",
+      "sudhakar2101"
+    ],
+    "conversation_id": "684ec69d1e1a12f9b9b4dd2d",
+    "_id": "684ec69d1e1a12f9b9b4dd2d",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-06-15T13:19:09.224000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-06-15T13:11:58.396000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Rise tickets ",
+        "en": "Rise tickets ",
+        "timestamp": {
+          "$date": "2025-06-15T10:22:06.555Z"
+        },
+        "standalone_question": "What are the prices for Rise tickets?",
+        "standalone_en": "What are the prices for Rise tickets?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "I'm here to assist you with agricultural practices. If you have any questions or need guidance related to your cucumber plots or farming, feel free to ask!",
+        "en": "I'm here to assist you with agricultural practices. If you have any questions or need guidance related to your cucumber plots or farming, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-06-15T10:22:09.304Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Rise tickets ",
+        "en": "Rise tickets ",
+        "timestamp": {
+          "$date": "2025-06-15T10:22:22.081Z"
+        },
+        "standalone_question": "What are rise tickets?",
+        "standalone_en": "What are rise tickets?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "I can only assist you with agricultural-related queries. If you have any questions about your cucumber plots or farming practices, please let me know!",
+        "en": "I can only assist you with agricultural-related queries. If you have any questions about your cucumber plots or farming practices, please let me know!",
+        "timestamp": {
+          "$date": "2025-06-15T10:22:27.734Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "How to make complain ",
+        "en": "How to make complain ",
+        "timestamp": {
+          "$date": "2025-06-15T10:23:01.199Z"
+        },
+        "standalone_question": "How can I file a complaint?",
+        "standalone_en": "How can I file a complaint?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "I can assist you with agricultural queries, but for complaints related to Fyllo services or devices, you can raise a support ticket in the Fyllo app. Alternatively, you can contact Fyllo customer support at (+91) 9380908040 or email them at contact@fyllo.in for further assistance. If you have any farming-related questions, feel free to ask!",
+        "en": "I can assist you with agricultural queries, but for complaints related to Fyllo services or devices, you can raise a support ticket in the Fyllo app. Alternatively, you can contact Fyllo customer support at (+91) 9380908040 or email them at contact@fyllo.in for further assistance. If you have any farming-related questions, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-06-15T10:23:04.758Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "How rise support tickets ",
+        "en": "How rise support tickets ",
+        "timestamp": {
+          "$date": "2025-06-15T10:23:40.918Z"
+        },
+        "standalone_question": "How do I raise support tickets?",
+        "standalone_en": "How do I raise support tickets?",
+        "retrieval": {
+          "tools": [
+            "raise_support_ticket  \nRaises a support ticket for the given plot. Dharti decides the priority and message based on the conversation."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To raise a support ticket for Fyllo services, you can follow these steps:\n\n1. **Open the Fyllo App**: Launch the Fyllo application on your device.\n2. **Navigate to Support**: Look for the support or help section within the app.\n3. **Create a Ticket**: Select the option to create a new support ticket. Provide details about your issue or request.\n4. **Submit**: Once you've filled in the necessary information, submit the ticket.\n\nIf you need further assistance, you can also contact Fyllo customer support at (+91) 9380908040 or email them at contact@fyllo.in. If you have any agricultural-related questions, feel free to ask!",
+        "en": "To raise a support ticket for Fyllo services, you can follow these steps:\n\n1. **Open the Fyllo App**: Launch the Fyllo application on your device.\n2. **Navigate to Support**: Look for the support or help section within the app.\n3. **Create a Ticket**: Select the option to create a new support ticket. Provide details about your issue or request.\n4. **Submit**: Once you've filled in the necessary information, submit the ticket.\n\nIf you need further assistance, you can also contact Fyllo customer support at (+91) 9380908040 or email them at contact@fyllo.in. If you have any agricultural-related questions, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-06-15T10:23:44.896Z"
+        }
+      }
+    ],
+    "farmer_id": "kuntalsinghranjitsinhjhala",
+    "farmer_plot_ids": [
+      "cucumberplots"
+    ],
+    "conversation_id": "684e9ece38e1b45dddc5377e",
+    "_id": "684e9ece38e1b45dddc5377e",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-06-15T10:28:40.921000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-06-15T10:22:06.555000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Rise tickets ",
+        "en": "Rise tickets ",
+        "timestamp": {
+          "$date": "2025-06-15T10:22:06.555Z"
+        },
+        "standalone_question": "What are the prices for Rise tickets?",
+        "standalone_en": "What are the prices for Rise tickets?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "I'm here to assist you with agricultural practices. If you have any questions or need guidance related to your cucumber plots or farming, feel free to ask!",
+        "en": "I'm here to assist you with agricultural practices. If you have any questions or need guidance related to your cucumber plots or farming, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-06-15T10:22:09.304Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Rise tickets ",
+        "en": "Rise tickets ",
+        "timestamp": {
+          "$date": "2025-06-15T10:22:22.081Z"
+        },
+        "standalone_question": "What are rise tickets?",
+        "standalone_en": "What are rise tickets?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "I can only assist you with agricultural-related queries. If you have any questions about your cucumber plots or farming practices, please let me know!",
+        "en": "I can only assist you with agricultural-related queries. If you have any questions about your cucumber plots or farming practices, please let me know!",
+        "timestamp": {
+          "$date": "2025-06-15T10:22:27.734Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "How to make complain ",
+        "en": "How to make complain ",
+        "timestamp": {
+          "$date": "2025-06-15T10:23:01.199Z"
+        },
+        "standalone_question": "How can I file a complaint?",
+        "standalone_en": "How can I file a complaint?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "I can assist you with agricultural queries, but for complaints related to Fyllo services or devices, you can raise a support ticket in the Fyllo app. Alternatively, you can contact Fyllo customer support at (+91) 9380908040 or email them at contact@fyllo.in for further assistance. If you have any farming-related questions, feel free to ask!",
+        "en": "I can assist you with agricultural queries, but for complaints related to Fyllo services or devices, you can raise a support ticket in the Fyllo app. Alternatively, you can contact Fyllo customer support at (+91) 9380908040 or email them at contact@fyllo.in for further assistance. If you have any farming-related questions, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-06-15T10:23:04.758Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "How rise support tickets ",
+        "en": "How rise support tickets ",
+        "timestamp": {
+          "$date": "2025-06-15T10:23:40.918Z"
+        },
+        "standalone_question": "How do I raise support tickets?",
+        "standalone_en": "How do I raise support tickets?",
+        "retrieval": {
+          "tools": [
+            "raise_support_ticket  \nRaises a support ticket for the given plot. Dharti decides the priority and message based on the conversation."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To raise a support ticket for Fyllo services, you can follow these steps:\n\n1. **Open the Fyllo App**: Launch the Fyllo application on your device.\n2. **Navigate to Support**: Look for the support or help section within the app.\n3. **Create a Ticket**: Select the option to create a new support ticket. Provide details about your issue or request.\n4. **Submit**: Once you've filled in the necessary information, submit the ticket.\n\nIf you need further assistance, you can also contact Fyllo customer support at (+91) 9380908040 or email them at contact@fyllo.in. If you have any agricultural-related questions, feel free to ask!",
+        "en": "To raise a support ticket for Fyllo services, you can follow these steps:\n\n1. **Open the Fyllo App**: Launch the Fyllo application on your device.\n2. **Navigate to Support**: Look for the support or help section within the app.\n3. **Create a Ticket**: Select the option to create a new support ticket. Provide details about your issue or request.\n4. **Submit**: Once you've filled in the necessary information, submit the ticket.\n\nIf you need further assistance, you can also contact Fyllo customer support at (+91) 9380908040 or email them at contact@fyllo.in. If you have any agricultural-related questions, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-06-15T10:23:44.896Z"
+        }
+      }
+    ],
+    "farmer_id": "kuntalsinghranjitsinhjhala",
+    "farmer_plot_ids": [
+      "cucumberplots"
+    ],
+    "conversation_id": "684e9ece38e1b45dddc5377e",
+    "_id": "684e9ece38e1b45dddc5377e",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-06-15T10:28:40.921000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-06-15T10:22:06.555000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "It is not updating since 1.5 hours, does it calibrating now or something else?",
+        "en": "It is not updating since 1.5 hours, does it calibrating now or something else?",
+        "timestamp": {
+          "$date": "2025-06-15T05:51:52.876Z"
+        },
+        "standalone_question": "Is it currently calibrating, or is there another reason why it hasn't updated for the past 1.5 hours?",
+        "standalone_en": "Is it currently calibrating, or is there another reason why it hasn't updated for the past 1.5 hours?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The sensor may not be updating for a few reasons:\n\n1. **Calibration**: If the sensor was recently installed or reset, it might be calibrating, which can take some time.\n\n2. **Connectivity Issues**: There could be a problem with the connection to the device or the data transmission.\n\n3. **Malfunction**: If the sensor is old or has been exposed to extreme conditions, it might be malfunctioning.\n\nPlease check if the sensor is properly connected and if there are any visible issues. If the problem persists, would you like to raise a ticket for further assistance?",
+        "en": "The sensor may not be updating for a few reasons:\n\n1. **Calibration**: If the sensor was recently installed or reset, it might be calibrating, which can take some time.\n\n2. **Connectivity Issues**: There could be a problem with the connection to the device or the data transmission.\n\n3. **Malfunction**: If the sensor is old or has been exposed to extreme conditions, it might be malfunctioning.\n\nPlease check if the sensor is properly connected and if there are any visible issues. If the problem persists, would you like to raise a ticket for further assistance?",
+        "timestamp": {
+          "$date": "2025-06-15T05:51:57.495Z"
+        }
+      }
+    ],
+    "farmer_id": "jameerahman",
+    "farmer_plot_ids": [
+      "jameerahman"
+    ],
+    "conversation_id": "684e5f781e1a12f9b9b4dd2c",
+    "_id": "684e5f781e1a12f9b9b4dd2c",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-06-15T05:56:52.879000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-06-15T05:51:52.876000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "If my friend downloads fyllo app on my referral will i get bonus",
+        "en": "If my friend downloads fyllo app on my referral will i get bonus",
+        "timestamp": {
+          "$date": "2025-06-15T05:43:58.598Z"
+        },
+        "standalone_question": "If my friend downloads the Fyllo app using my referral, will I receive a bonus?",
+        "standalone_en": "If my friend downloads the Fyllo app using my referral, will I receive a bonus?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "I don't have information regarding referral bonuses for the Fyllo app. Please check the app's official website or contact customer support for details on referral programs and bonuses.",
+        "en": "I don't have information regarding referral bonuses for the Fyllo app. Please check the app's official website or contact customer support for details on referral programs and bonuses.",
+        "timestamp": {
+          "$date": "2025-06-15T05:44:01.507Z"
+        }
+      }
+    ],
+    "farmer_id": "jameerahman",
+    "farmer_plot_ids": [
+      "jameerahman"
+    ],
+    "conversation_id": "684e5d9d1e1a12f9b9b4dd2b",
+    "_id": "684e5d9d1e1a12f9b9b4dd2b",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-06-15T05:48:58.601000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-06-15T05:43:58.598000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "खत काय द्याव लागेल",
+        "en": "What fertilizer to give",
+        "timestamp": {
+          "$date": "2025-06-15T05:02:24.542Z"
+        },
+        "standalone_question": "What documents need to be provided?",
+        "standalone_en": "What documents need to be provided?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "khat kay dyav lagel"
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या \"तैडी\" प्लॉटमध्ये सध्या \"बनाना\" पिकाची \"प्रारंभिक वनस्पती वाढ\" अवस्था आहे, जी 1 व्या आठवड्यात आहे. \n\n### सध्याचा फर्टिगेशन शेड्यूल:\n- **फर्टिलायझर**: \n  - **युरिया**: 10 ग्रॅम/प्लांट\n  - **फॉस्फोरिक आम्ल**: 0 ग्रॅम/प्लांट (फॉस्फोरिक आम्ल इतर खतांच्या अनुप्रयोगापूर्वी 15-20 मिनिटे स्वतंत्रपणे लागू करावे.)\n\n### पुढील शेड्यूल:\n- **अवस्था**: प्रारंभिक वनस्पती वाढ (2 व्या आठवड्यात)\n  - **फर्टिलायझर**:\n    - **युरिया**: 10 ग्रॅम/प्लांट\n    - **फॉस्फोरिक आम्ल**: 0 ग्रॅम/प्लांट\n    - **कॅल्शियम नायट्रेट**: 0 ग्रॅम/प्लांट\n  - **सुरूवात तारीख**: 19 ऑगस्ट 2025\n\nआपण या शेड्यूलनुसार खतांचा वापर करावा.",
+        "en": "Your \"taidi\" plot currently has an \"early plant growth\" stage of the \"banana\" crop, which is in its 1st week. \n\n### Current Fertigation Schedule:\n- **Fertilizer**: \n  - **Urea**: 10 g/plant\n  **Phosphoric acid**: 0 g/plant (phosphoric acid should be applied separately for 15-20 minutes before application of other fertilizers.)\n\n### Next schedule:\n- **stage**: Early plant growth (week 2)\n  - **Fertilizer**:\n    - **Urea**: 10 g/plant\n    - **Phosphoric acid**: 0 g/plant\n    - **Calcium nitrate**: 0 g/plant\n  - **Start date**: 19 August 2025\n\nYou should use fertilizers according to this schedule.",
+        "timestamp": {
+          "$date": "2025-06-15T05:02:33.326Z"
+        }
+      }
+    ],
+    "farmer_id": "kailasbongalar",
+    "farmer_plot_ids": [
+      "taydi"
+    ],
+    "conversation_id": "684e53de38e1b45dddc5377c",
+    "_id": "684e53de38e1b45dddc5377c",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-06-15T05:07:24.546000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-06-15T05:02:24.542000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "tell me yesterday's rainfall for all the divisions excluding Meerut Megatron table format Android result",
+        "en": "tell me yesterday's rainfall for all the divisions excluding Meerut Megatron table format Android result",
+        "timestamp": {
+          "$date": "2025-06-15T02:51:34.952Z"
+        },
+        "standalone_question": "What was yesterday's rainfall for all divisions, excluding Meerut, presented in a Megatron table format for Android?",
+        "standalone_en": "What was yesterday's rainfall for all divisions, excluding Meerut, presented in a Megatron table format for Android?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the rainfall data for yesterday (June 14, 2025) for all divisions excluding Meerut Megatron:\n\n| Plot Name                  | Rainfall (mm) |\n|----------------------------|----------------|\n| Srock Attamala             | 47             |\n| Srock Chooralmala Kairo    | 46             |\n| Srock Chooralmala Nero     | No data available |\n| Srock Mundakai Nero        | No data available |\n| Srock Mundakkai Kairo      | 79             |\n| Srock Puthumala            | 60             |\n\nPlease note that weather sensors are not present in the devices for \"Srock Chooralmala Nero\" and \"Srock Mundakai Nero,\" so historical data is not available for those plots.",
+        "en": "Here's the rainfall data for yesterday (June 14, 2025) for all divisions excluding Meerut Megatron:\n\n| Plot Name                  | Rainfall (mm) |\n|----------------------------|----------------|\n| Srock Attamala             | 47             |\n| Srock Chooralmala Kairo    | 46             |\n| Srock Chooralmala Nero     | No data available |\n| Srock Mundakai Nero        | No data available |\n| Srock Mundakkai Kairo      | 79             |\n| Srock Puthumala            | 60             |\n\nPlease note that weather sensors are not present in the devices for \"Srock Chooralmala Nero\" and \"Srock Mundakai Nero,\" so historical data is not available for those plots.",
+        "timestamp": {
+          "$date": "2025-06-15T02:51:43.514Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "add only kairo and add an average also ",
+        "en": "add only kairo and add an average also ",
+        "timestamp": {
+          "$date": "2025-06-15T02:52:18.186Z"
+        },
+        "standalone_question": "Could you provide the rainfall data for the Kairo divisions and include an average rainfall calculation?",
+        "standalone_en": "Could you provide the rainfall data for the Kairo divisions and include an average rainfall calculation?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How do I maintain the weather station for Kairo?\nA: Clean the rain gauge and solar radiation sensor every three months with a damp cloth, and spray the array lightly with insecticide if needed.",
+            "Q: How do I install the rain gauge for Kairo?\nA: Keep the indication mark in a straight line and ensure the wind direction sensor is positioned correctly during installation."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the rainfall data for yesterday (June 14, 2025) for the Kairo divisions, along with the average rainfall:\n\n| Plot Name                  | Rainfall (mm) |\n|----------------------------|----------------|\n| Srock Attamala             | 47             |\n| Srock Chooralmala Kairo    | 46             |\n| Srock Mundakkai Kairo      | 79             |\n| Srock Puthumala            | 60             |\n| **Average**                | **58**         |\n\nThe average rainfall across the Kairo divisions is 58 mm.",
+        "en": "Here's the rainfall data for yesterday (June 14, 2025) for the Kairo divisions, along with the average rainfall:\n\n| Plot Name                  | Rainfall (mm) |\n|----------------------------|----------------|\n| Srock Attamala             | 47             |\n| Srock Chooralmala Kairo    | 46             |\n| Srock Mundakkai Kairo      | 79             |\n| Srock Puthumala            | 60             |\n| **Average**                | **58**         |\n\nThe average rainfall across the Kairo divisions is 58 mm.",
+        "timestamp": {
+          "$date": "2025-06-15T02:52:25.831Z"
+        }
+      }
+    ],
+    "farmer_id": "allenenoshmani",
+    "farmer_plot_ids": [
+      "attamaladivision",
+      "chooralmaladivision",
+      "chooralmalanerodivision",
+      "mundakainerodivision",
+      "mundakkaidivision",
+      "puthumaladivision"
+    ],
+    "conversation_id": "684e3536833ae84496ee703e",
+    "_id": "684e3536833ae84496ee703e",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-06-15T02:57:18.190000Z"
+    },
+    "tag": "historical data",
+    "conv_date": "2025-06-15T02:51:34.952000+00:00"
+  }
+]

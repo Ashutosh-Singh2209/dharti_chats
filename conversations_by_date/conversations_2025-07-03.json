@@ -1,0 +1,175 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "रोग किडीचा प्रादुर्भाव दिसून येतो का ",
+        "en": "Does the disease appear to be an infestation of the pest? ",
+        "timestamp": {
+          "$date": "2025-07-03T15:15:20.766Z"
+        },
+        "standalone_question": "Is there an outbreak of the disease?",
+        "standalone_en": "Is there an outbreak of the disease?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "rog kidicha pradurbhav disun yeto ka "
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया आपला प्लॉट निवडा, ज्यासाठी आपल्याला रोग आणि किडींचा प्रादुर्भाव तपासायचा आहे. आपले प्लॉट आहेत:\n\n1. डाळींब\n2. डाळींब (पदसाळी, माढा, सोलापूर, महाराष्ट्र)\n3. डाळींब\n\nकृपया योग्य प्लॉटचे नाव सांगा.",
+        "en": "Please choose your plot, for which you want to check for diseases and pest infestations. Your plots are:\n\n1. Pomegranate\n2. Pomegranate (Padsali, Madha, Solapur, Maharashtra)\n3. Pomegranate\n\nPlease name the correct plot.",
+        "timestamp": {
+          "$date": "2025-07-03T15:15:29.573Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Sirsat ",
+        "en": "Sirsat ",
+        "timestamp": {
+          "$date": "2025-07-03T15:15:58.997Z"
+        },
+        "standalone_question": "Which plot would you like to select for checking the disease and pest infestation?",
+        "standalone_en": "Which plot would you like to select for checking the disease and pest infestation?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: How can the sensor monitor the whole plot when it's installed near one plant?\nA: The installation process includes a detailed survey of the plot regarding variations in soil type and root zone. A point for installation is selected with a plant of average growth representing the whole plot.",
+            "Q: How does the device predict diseases and pests?\nA: It captures data from different parameters using sensors and analyzes it using various agronomical algorithms, including different models for all diseases and pests.\n   Each disease and pest has a specific etymology, which is the suitable environment for its incidence."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या दोन्ही प्लॉटसाठी (डाळींब आणि डाळींब (पदसाळी, माढा, सोलापूर, महाराष्ट्र)) किडींच्या प्रादुर्भावाबाबत कोणतीही माहिती उपलब्ध नाही. \n\nआपल्याला आणखी काही मदतीची आवश्यकता आहे का?",
+        "en": "For both our plots (pomegranate and pomegranate (Padsali, Madha, Solapur, Maharashtra)), there is no information available on insect infestation. \n\nDo you need any more help?",
+        "timestamp": {
+          "$date": "2025-07-03T15:16:08.364Z"
+        }
+      }
+    ],
+    "farmer_id": "nanasahebbhaskarsirsat",
+    "farmer_plot_ids": [
+      "4KSh4KS4KSz4KWA4KSC4KSs1751555356983",
+      "4KSm4KS4KSz4KWA4KSC4KSs1751555238270",
+      "dalimbplot122"
+    ],
+    "conversation_id": "68669e86248ad97af81b9f67",
+    "_id": "68669e86248ad97af81b9f67",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-03T15:20:59Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-07-03T15:15:20.766000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "કેટલા ઇંચ વરસાદ થયો ",
+        "en": "How many inches of rain has it rained ",
+        "timestamp": {
+          "$date": "2025-07-03T03:33:10.121Z"
+        },
+        "standalone_question": "How many inches of rain fell?",
+        "standalone_en": "How many inches of rain fell?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ketla inc varsad thayo "
+      },
+      {
+        "role": "assistant",
+        "content": "મને વરસાદની ચોક્કસ માત્રા જણાવવા માટે તમારા પ્લોટના હવામાન ડેટા જોઈએ. કૃપા કરીને હું કયા તારીખના વરસાદની માહિતી જોઈએ તે જણાવો.",
+        "en": "I need weather data of your plot to tell you the exact amount of rain. Please tell me which date of rainfall information I want.",
+        "timestamp": {
+          "$date": "2025-07-03T03:33:16.783Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મશીન ડેટા સુ કહે છે ",
+        "en": "Says machine data sue ",
+        "timestamp": {
+          "$date": "2025-07-03T03:33:54.570Z"
+        },
+        "standalone_question": "What does the machine data indicate?",
+        "standalone_en": "What does the machine data indicate?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "machine data su kahe che "
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પ્લોટના મશીન ડેટા મુજબ:\n\n### TARAK (કાઈરો પ્લોટ)\n- **તારીખ અને સમય:** 2025-07-03 08:43\n- **હવા તાપમાન:** 26°C\n- **હવા આर्द્રતા:** 99%\n- **માટીના તાપમાન:** 25.62°C\n- **માટીની ભેજ (Sensor 1):** 3 kPa (ખૂબ ભેજવાળી)\n- **માટીની ભેજ (Sensor 2):** 4 kPa (ખૂબ ભેજવાળી)\n- **પાનની ભેજ:** 32%\n- **હવા દબાણ:** 98.2 kPa\n- **પ્રકાશની તીવ્રતા:** 5865 lux\n- **UV ઇન્ડેક્સ:** 45\n- **હવા ગતિ:** 1.8 km/h\n- **વાવાઝોડું:** 1.5 mm\n- **બેટરી:** 57%\n\n### SHESH PLOT (નેરો પ્લોટ)\n- **તારીખ અને સમય:** 2025-06-21 09:48\n- **માટીના તાપમાન:** 29.06°C\n- **હવા દબાણ:** 98.4 kPa\n- **બેટરી:** 90%\n- **માટીની ભેજ (Sensor 1):** 65%\n- **માટીની ભેજ (Sensor 2):** 71%\n- **સોલર વોલ્ટેજ:** 4296 mV\n\n** નોંધ:** TARAK પ્લોટમાં વરસાદ 1.5 mm થયો છે. \n\nજો તમને વધુ માહિતી જોઈએ તો જણાવો!",
+        "en": "According to the machine data of your plot:\n\n### TARAK (Kairo Plot)\n- **Date and Time:** 2025-07-03 08:43\n- **Air temperature:** 26°C\n- **Air intensity:** 99%\n* **Soil temperature:** 25.62°C\n* **Soil moisture (Sensor 1):** 3 kPa (very humid)\n* **Soil moisture (Sensor 2):** 4 kPa (very humid)\n* **Leaf moisture:** 32%\n* **Air pressure:** 98.2 kPa\n* **Light intensity:** 5865 lux\n- **UV Index:** 45\n* ** Wind speed:** 1.8 km/h\n- **Hurricane:** 1.5 mm\n* **Battery:** 57%\n\n### SHESH PLOT (Narrow Plot)\n* **Date and Time:** 2025-06-21 09:48\n* **Soil temperature:** 29.06°C\n- **Air pressure:** 98.4 kPa\n* **Battery:** 90%\n* **Soil moisture (Sensor 1):** 65%\n* * Soil moisture (Sensor 2):** 71%\n- **Solar voltage:** 4296 mV\n\n** Note:** The rainfall in the TARAK plot has been 1.5 mm. \n\nLet me know if you need more information!",
+        "timestamp": {
+          "$date": "2025-07-03T03:34:04.301Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140",
+      "sheshpalot"
+    ],
+    "conversation_id": "6865f9f5383a2c8819166f91",
+    "_id": "6865f9f5383a2c8819166f91",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-07-03T03:38:54.573000Z"
+    },
+    "tag": "historical data",
+    "conv_date": "2025-07-03T03:33:10.121000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "give me yesterday's rainfall for all the divisions except Nero make it all and table format and add average also",
+        "en": "give me yesterday's rainfall for all the divisions except Nero make it all and table format and add average also",
+        "timestamp": {
+          "$date": "2025-07-03T02:36:59.777Z"
+        },
+        "standalone_question": "What was yesterday's rainfall for all divisions except Nero, and can you present the data in a table format including the average?",
+        "standalone_en": "What was yesterday's rainfall for all divisions except Nero, and can you present the data in a table format including the average?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the rainfall data for yesterday (July 2, 2025) for all divisions except Nero:\n\n| Plot Name                | Rainfall (mm) |\n|--------------------------|----------------|\n| Srock Attamala           | 61             |\n| Srock Chooralmala Kairo  | 60             |\n| Srock Mundakkai Kairo    | 81             |\n| Srock Puthumala          | 87             |\n| **Average**              | **72.25**      |\n\nIf you need any further information, feel free to ask!",
+        "en": "Here is the rainfall data for yesterday (July 2, 2025) for all divisions except Nero:\n\n| Plot Name                | Rainfall (mm) |\n|--------------------------|----------------|\n| Srock Attamala           | 61             |\n| Srock Chooralmala Kairo  | 60             |\n| Srock Mundakkai Kairo    | 81             |\n| Srock Puthumala          | 87             |\n| **Average**              | **72.25**      |\n\nIf you need any further information, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-07-03T02:37:09.191Z"
+        }
+      }
+    ],
+    "farmer_id": "allenenoshmani",
+    "farmer_plot_ids": [
+      "attamaladivision",
+      "chooralmaladivision",
+      "chooralmalanerodivision",
+      "mundakainerodivision",
+      "mundakkaidivision",
+      "puthumaladivision"
+    ],
+    "conversation_id": "6865eccbad206a9d3a268869",
+    "_id": "6865eccbad206a9d3a268869",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-07-03T02:41:59.780000Z"
+    },
+    "tag": "historical data",
+    "conv_date": "2025-07-03T02:36:59.777000+00:00"
+  }
+]

@@ -1,0 +1,296 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "खंताची गरज आहे का ",
+        "timestamp": {
+          "$date": "2024-11-15T14:28:04.438Z"
+        },
+        "standalone_question": "Is there a need for a complaint?",
+        "standalone_en": "Is there a need for a complaint?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "khantachi garaj aahe ka "
+      },
+      {
+        "role": "assistant",
+        "content": "होय, \"Plot no 1\" साठी खंताची गरज आहे. सध्या मातीची आर्द्रता 26 kPa आणि 33 kPa आहे, जी शुष्क आदर्श मूल्यांपेक्षा जास्त आहे. त्यामुळे तुम्ही खंत करू शकता.",
+        "timestamp": {
+          "$date": "2024-11-15T14:28:11.625Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "काय खत देने गरजेचे आहे",
+        "timestamp": {
+          "$date": "2024-11-15T14:28:45.066Z"
+        },
+        "standalone_question": "What type of fertilizer is needed?",
+        "standalone_en": "What type of fertilizer is needed?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17"
+          ]
+        },
+        "content_transliterated": "kay khat dene garjeche ahe"
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot no 1\" साठी सध्या कोणतेही खत देण्याची गरज नाही. तुम्ही \"Growth stage 2\" मध्ये आहात, आणि सध्या 2 व्या आठवड्यात आहात. \n\nतुमच्या पुढील खताची वेळ 29 मार्च 2025 पासून सुरू होईल. त्यावेळी तुम्हाला खालील खतांचे वितरण करणे आवश्यक आहे:\n\n1. **पोटॅशियम नाइट्रेट** - 1 किलोग्राम/एकर\n2. **युरिया** - 1.5 किलोग्राम/एकर\n3. **मॅग्नेशियम सल्फेट** - 1 किलोग्राम/एकर\n\nकिंवा\n\n1. **युरिया** - 2 किलोग्राम/एकर\n2. **पोटाशचा सल्फेट** - 1.5 किलोग्राम/एकर\n3. **मॅग्नेशियम सल्फेट** - 1 किलोग्राम/एकर\n\nतुम्ही या दोन्ही पद्धतींपैकी कोणतीही एक निवडू शकता.",
+        "timestamp": {
+          "$date": "2024-11-15T14:28:56.350Z"
+        }
+      }
+    ],
+    "farmer_id": "shubhamdheple",
+    "farmer_plot_ids": [
+      "plotno1370"
+    ],
+    "conversation_id": "67375a74b31962df20b4fbad",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-11-15T14:28:04.438000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "गड लांबवण्यासाठी कुठल्या औषधाची फवारणी केली पाहिजे ",
+        "timestamp": {
+          "$date": "2024-11-15T14:26:13.670Z"
+        },
+        "standalone_question": "What medication should be sprayed to elongate the crop?",
+        "standalone_en": "What medication should be sprayed to elongate the crop?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        },
+        "content_transliterated": "gad lambavanyasathi kuthalya ausadhachi favarani kelley pahije "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटसाठी या आठवड्यात गड लांबवण्यासाठी कोणतीही फवारणी शेड्यूल केलेली नाही. जर तुम्हाला गड लांबवण्यासाठी औषधाची आवश्यकता असेल, तर कृपया स्थानिक कृषी तज्ञांशी संपर्क साधा किंवा फ्यलो अॅपवरून पुढील सूचना पहा.",
+        "timestamp": {
+          "$date": "2024-11-15T14:26:18.919Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "घड लांबवण्यासाठी कुठल्या औषधाची फवारणी केली पाहिजे ",
+        "timestamp": {
+          "$date": "2024-11-15T14:26:40.583Z"
+        },
+        "standalone_question": "What pesticide should be used for controlling weeds?",
+        "standalone_en": "What pesticide should be used for controlling weeds?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ghad lambavanyasathi kuthalya ausadhachi favarani kelley pahije "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटसाठी या आठवड्यात गड लांबवण्यासाठी कोणतीही फवारणी शेड्यूल केलेली नाही. जर तुम्हाला गड लांबवण्यासाठी औषधाची आवश्यकता असेल, तर कृपया स्थानिक कृषी तज्ञांशी संपर्क साधा किंवा फ्यलो अॅपवरून पुढील सूचना पहा.",
+        "timestamp": {
+          "$date": "2024-11-15T14:26:45.913Z"
+        }
+      }
+    ],
+    "farmer_id": "sudarshanvaware",
+    "farmer_plot_ids": [
+      "tomatoplot1"
+    ],
+    "conversation_id": "67375a05b31962df20b4fbac",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-11-15T14:26:13.670000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "પ્લોટ 2 નું મશીન કેમ બંધ થઈ ગયું છે ",
+        "timestamp": {
+          "$date": "2024-11-15T12:34:25.821Z"
+        },
+        "standalone_question": "Why has the machine in Plot 2 stopped working?",
+        "standalone_en": "Why has the machine in Plot 2 stopped working?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "plot 2 nu machine came bandh thai gayu che "
+      },
+      {
+        "role": "assistant",
+        "content": "પ્લોટ 2 (plot 2) નું મશીન બંધ થઈ ગયું છે કારણ કે તેની બેટરી માત્ર 14% છે. બેટરીની સ્થિતિને સુધારવા માટે મશીનને ચાર્જ કરવું જરૂરી છે.",
+        "timestamp": {
+          "$date": "2024-11-15T12:34:35.716Z"
+        }
+      }
+    ],
+    "farmer_id": "mayurbhai370",
+    "farmer_plot_ids": [
+      "pomegranate1",
+      "pomegranate3"
+    ],
+    "conversation_id": "67373fd10686e5e05458a36a",
+    "tag": "others",
+    "conv_date": "2024-11-15T12:34:25.821000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "खत आता कोणती द्यावी",
+        "timestamp": {
+          "$date": "2024-11-15T07:52:47.002Z"
+        },
+        "standalone_question": "What kind of letter should I send?",
+        "standalone_en": "What kind of letter should I send?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "khat ata konati dyavi"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"Plot No 1 Thompson\" मध्ये सध्या \"Berry Development\" या टप्प्यात आहात, जो आजपासून सुरू झाला आहे. या टप्प्यातील खतांचे शेड्यूल खालीलप्रमाणे आहे:\n\n### आजच्या फर्टिगेशनसाठी:\n1. **फोलिअर पद्धतीने:**\n   - **Gibberallic acid (GA3)**: 20 ppm\n   - **CPPU (0.1%)**: 1 ppm\n   - **Zinc Oxide**: 200 gm/acre\n\n   *फोलिअर स्प्रेमध्ये सूक्ष्म पोषक तत्वांचे प्रमाण 1% पेक्षा जास्त नसावे, म्हणजे 500 लिटर पाण्यात 5 किलो.*\n\n2. **फर्टिगेशन पद्धतीने:**\n   - **11-44-11**: 6.5 kg/acre\n   - **Calcium nitrate**: 4.5 kg/acre\n   - **Sulfate of Potash**: 3.5 kg/acre\n   - **Magnesium Sulphate**: 1.5 kg/acre\n\n   *फॉस्फोरिक आम्ल वेगळे लागू करावे, इतर खतांच्या 15-20 मिनिटे आधी.*\n\n### पुढील आठवड्यातील शेड्यूल:\n- **फोलिअर पद्धतीने:** \n   - **Gibberallic acid (GA3)**: 35 ppm\n   - **CPPU (0.1%)**: 1 ppm\n\n- **फर्टिगेशन पद्धतीने:**\n   - **13-40-13**: 3 kg/acre\n   - **Calcium nitrate**: 6.5 kg/acre\n   - **Sulfate of Potash**: 6.5 kg/acre\n   - **Magnesium Sulphate**: 2.5 kg/acre\n\nहे खतांचे प्रमाण आणि पद्धती वापरून तुमच्या द्राक्षांच्या उत्पादनाला उत्तम वाढ मिळवू शकता.",
+        "timestamp": {
+          "$date": "2024-11-15T07:52:57.343Z"
+        }
+      }
+    ],
+    "farmer_id": "vijaykadam465",
+    "farmer_plot_ids": [
+      "plotno1thompson137"
+    ],
+    "conversation_id": "6736fdceda1d93d803b5cbf7",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-11-15T07:52:47.002000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पान असे का होत आहे <user uploaded image for analysis at 'manikchaman452/2024-11-15-1731654900259.jpg'>",
+        "timestamp": {
+          "$date": "2024-11-15T07:15:04.913Z"
+        },
+        "standalone_question": "Why is this happening?",
+        "standalone_en": "Why is this happening?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pan ase ka hot aahe <user uploaded image for analysis at 'manikchaman452/2024-11-15-1731654900259.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या पिकाच्या चित्राचे विश्लेषण केले असता, त्यात कोणतीही विशिष्ट लक्षणे ओळखली गेली नाहीत. हे असे होऊ शकते की समस्या अद्याप समर्थित नाही. \n\nकृपया पिकाच्या आरोग्याबद्दल अधिक माहिती मिळवण्यासाठी, तुम्ही स्थानिक कृषी तज्ञांशी संपर्क साधू शकता किंवा पिकाच्या लक्षणांची तपासणी करू शकता. \n\nतुम्हाला आणखी काही मदतीची आवश्यकता आहे का?",
+        "timestamp": {
+          "$date": "2024-11-15T07:15:17.815Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "13.00.45 हा घटक कोणते आहेत ",
+        "timestamp": {
+          "$date": "2024-11-15T07:16:19.401Z"
+        },
+        "standalone_question": "What are the components of 13.00.45?",
+        "standalone_en": "What are the components of 13.00.45?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "13.00.45 ha ghatak conte ahet "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्रश्नानुसार, \"13.00.45\" हा घटक म्हणजे 1:00:45 PM चा वेळ आहे. यामध्ये:\n\n- **13** म्हणजे तास (1 PM)\n- **00** म्हणजे मिनिटे\n- **45** म्हणजे सेकंद\n\nतुम्हाला याबद्दल अधिक माहिती हवी आहे का?",
+        "timestamp": {
+          "$date": "2024-11-15T07:16:22.809Z"
+        }
+      }
+    ],
+    "farmer_id": "yogirajgangadharbirajdar",
+    "farmer_plot_ids": [
+      "manikchaman452"
+    ],
+    "conversation_id": "6736f4f8da1d93d803b5cbf6",
+    "tag": "disease_pest",
+    "conv_date": "2024-11-15T07:15:04.913000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "या रिपोर्ट नुसार खत व्यवस्थापन कसे करावे ",
+        "timestamp": {
+          "$date": "2024-11-15T05:32:06.073Z"
+        },
+        "standalone_question": "How should waste management be conducted according to this report?",
+        "standalone_en": "How should waste management be conducted according to this report?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ya report nusar khat vyavasthapan kase karave "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"थॉम्पसन\" प्लॉटसाठी खत व्यवस्थापनाची माहिती खालीलप्रमाणे आहे:\n\n### सध्याची अवस्था: शूट विकास (Shoot Development)\n- **सुरूवात तारीख:** 8 नोव्हेंबर 2024\n- **सध्याचा आठवडा:** 1\n\n#### खत व्यवस्थापन:\n1. **फोलिअर पद्धतीने:**\n   - **फेरस सल्फेट:** 600 ग्रॅम/एकर\n   - **मॅंगनीज सल्फेट:** 600 ग्रॅम/एकर\n   - **सूचना:** फोलिअर स्प्रेमध्ये सूक्ष्म पोषण खतांची एकाग्रता 1% पेक्षा जास्त नसावी (उदाहरणार्थ, 500 लिटर पाण्यात 5 किलो).\n\n2. **फर्टिगेशन पद्धतीने:**\n   - **संभाव्य वितरण संयोजन:**\n     - **11-44-11:** 3 किलो/एकर\n     - **कॅल्शियम नायट्रेट:** 13 किलो/एकर\n     - **सल्फेट ऑफ पोटाश:** 1.5 किलो/एकर\n   - **सूचना:** \n     - फॉस्फोरिक आम्ल 15-20 मिनिटे आधी लागू करावे.\n     - कॅल्शियम नायट्रेट 15-20 मिनिटे नंतर लागू करावे.\n\n### पुढील वेळापत्रक:\n- **आगामी अवस्था:** फूलणाची सुरुवात (Beginning of Bloom)\n- **आगामी आठवडा:** 2 (सुरूवात तारीख: 13 डिसेंबर 2024)\n- **फोलिअर पद्धतीने:**\n   - **जिंक ऑक्साइड:** 200 ग्रॅम/एकर\n   - **गिब्बेरलिक आम्ल (GA3):** 10 ppm\n\nया माहितीच्या आधारे तुम्ही खत व्यवस्थापनाची योजना तयार करू शकता. अधिक माहिती हवी असल्यास, कृपया सांगा!",
+        "timestamp": {
+          "$date": "2024-11-15T05:32:16.608Z"
+        }
+      }
+    ],
+    "farmer_id": "sharadbarde",
+    "farmer_plot_ids": [
+      "thompson751"
+    ],
+    "conversation_id": "6736dcd47a60a51e6399ccd3",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-11-15T05:32:06.073000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "13.00.45 ",
+        "timestamp": {
+          "$date": "2024-11-15T03:08:44.898Z"
+        },
+        "standalone_question": "What does the time 13:00:45 represent?",
+        "standalone_en": "What does the time 13:00:45 represent?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like you've entered a time. How can I assist you with your agricultural needs related to your plot \"Manik Chaman\"?",
+        "timestamp": {
+          "$date": "2024-11-15T03:08:47.707Z"
+        }
+      }
+    ],
+    "farmer_id": "yogirajgangadharbirajdar",
+    "farmer_plot_ids": [
+      "manikchaman452"
+    ],
+    "conversation_id": "6736bb3cda1d93d803b5cbf4",
+    "tag": "others",
+    "conv_date": "2024-11-15T03:08:44.898000+00:00"
+  }
+]

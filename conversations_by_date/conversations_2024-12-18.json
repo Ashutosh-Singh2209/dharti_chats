@@ -1,0 +1,392 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "October month date wise maximum, minimum and mean data ",
+        "timestamp": {
+          "$date": "2024-12-18T15:36:47.722Z"
+        },
+        "standalone_question": "What are the maximum, minimum, and mean values for each date in the month of October?",
+        "standalone_en": "What are the maximum, minimum, and mean values for each date in the month of October?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the weather data for October 2024 for your plots:\n\n### Kairo Potato Plot\n- **Maximum Temperature**: 33°C\n- **Minimum Temperature**: 17°C\n- **Mean Temperature**: 25°C (average of daily average temperatures)\n- **Rainfall**: 0 mm (no rainfall recorded)\n\n### Other Plots (Nero Series)\nUnfortunately, the weather sensors are not present in the devices for the following plots, so historical weather data is not available:\n- Potato Plot Nero 1\n- Potato Plot Nero 2\n- Potato Plot Nero 3\n- Potato Plot Nero 4\n\nIf you need further assistance or specific data for the other plots, please let me know!",
+        "timestamp": {
+          "$date": "2024-12-18T15:36:57.095Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "October month complete 30 days weather data",
+        "timestamp": {
+          "$date": "2024-12-18T15:38:12.113Z"
+        },
+        "standalone_question": "What is the complete weather data for all 30 days of October?",
+        "standalone_en": "What is the complete weather data for all 30 days of October?",
+        "retrieval": {
+          "tools": [
+            "get_historical_daily_weather_data  \nFetches daily historical weather data from all plot sensors for the given date range, including air temperature, air humidity, and rainfall. Suitable for larger durations.",
+            "get_historical_hourly_weather_data  \nFetches hourly historical weather data from all plot sensors for the given datetime range, including air temperature, air humidity, and rainfall. Suitable only for less than 5 days duration."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the complete weather data for October 2024 for your Kairo Potato Plot:\n\n### Kairo Potato Plot Weather Data (October 2024)\n\n| Date       | Min Temp (°C) | Max Temp (°C) | Avg Temp (°C) | Air Humidity (%) | Rainfall (mm) |\n|------------|----------------|----------------|----------------|-------------------|----------------|\n| 2024-10-01 | 20             | 30             | 25             | 75                | 0              |\n| 2024-10-02 | 19             | 31             | 25             | 78                | 0              |\n| 2024-10-03 | 18             | 32             | 25             | 80                | 0              |\n| 2024-10-04 | 19             | 31             | 25             | 79                | 0              |\n| 2024-10-05 | 20             | 30             | 25             | 77                | 0              |\n| 2024-10-06 | 19             | 31             | 25             | 76                | 0              |\n| 2024-10-07 | 20             | 32             | 26             | 75                | 0              |\n| 2024-10-08 | 19             | 31             | 25             | 74                | 0              |\n| 2024-10-09 | 20             | 32             | 26             | 73                | 0              |\n| 2024-10-10 | 22             | 33             | 27             | 59                | 0              |\n| 2024-10-11 | 18             | 33             | 25             | 66                | 0              |\n| 2024-10-12 | 18             | 32             | 25             | 70                | 0              |\n| 2024-10-13 | 19             | 32             | 25             | 71                | 0              |\n| 2024-10-14 | 18             | 32             | 24             | 69                | 0              |\n| 2024-10-15 | 20             | 32             | 25             | 65                | 0              |\n| 2024-10-16 | 17             | 32             | 24             | 71                | 0              |\n| 2024-10-17 | 18             | 33             | 25             | 79                | 0              |\n| 2024-10-18 | 19             | 33             | 25             | 80                | 0              |\n| 2024-10-19 | 20             | 32             | 25             | 82                | 0              |\n| 2024-10-20 | 20             | 31             | 25             | 83                | 0              |\n| 2024-10-21 | 20             | 31             | 24             | 82                | 0              |\n| 2024-10-22 | 19             | 31             | 24             | 80                | 0              |\n| 2024-10-23 | 20             | 31             | 25             | 75                | 0              |\n| 2024-10-24 | 20             | 33             | 25             | 69                | 0              |\n| 2024-10-25 | 17             | 32             | 23             | 71                | 0              |\n| 2024-10-26 | 17             | 32             | 23             | 77                | 0              |\n| 2024-10-27 | 19             | 30             | 24             | 85                | 0              |\n| 2024-10-28 | 19             | 31             | 24             | 83                | 0              |\n| 2024-10-29 | 20             | 33             | 25             | 79                | 0              |\n| 2024-10-30 | 20             | 33             | 25             | 78                | 0              |\n\n### Other Plots (Nero Series)\nUnfortunately, the weather sensors are not present in the devices for the following plots, so historical weather data is not available:\n- Potato Plot Nero 1\n- Potato Plot Nero 2\n- Potato Plot Nero 3\n- Potato Plot Nero 4\n\nIf you need further assistance or specific data for the other plots, please let me know!",
+        "timestamp": {
+          "$date": "2024-12-18T15:38:32.459Z"
+        }
+      }
+    ],
+    "farmer_id": "ankurrana",
+    "farmer_plot_ids": [
+      "kairopotatoplot",
+      "potatoplotnero1",
+      "potatoplotnero2",
+      "potatoplotnero3",
+      "potatoplotnero4"
+    ],
+    "conversation_id": "6762ec0fcd789760285d5387",
+    "tag": "historical data",
+    "conv_date": "2024-12-18T15:36:47.722000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hello",
+        "timestamp": {
+          "$date": "2024-12-18T15:17:04.537Z"
+        },
+        "standalone_question": "What would you like to talk about?",
+        "standalone_en": "What would you like to talk about?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Hello Ankur! How can I assist you with your farming needs today?",
+        "timestamp": {
+          "$date": "2024-12-18T15:17:11.405Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Plzz provide me October, November and december weather history data",
+        "timestamp": {
+          "$date": "2024-12-18T15:18:21.279Z"
+        },
+        "standalone_question": "Could you please provide me with the weather history data for October, November, and December?",
+        "standalone_en": "Could you please provide me with the weather history data for October, November, and December?",
+        "retrieval": {
+          "tools": [
+            "get_historical_hourly_weather_data  \nFetches hourly historical weather data from all plot sensors for the given datetime range, including air temperature, air humidity, and rainfall. Suitable only for less than 5 days duration.",
+            "get_historical_daily_weather_data  \nFetches daily historical weather data from all plot sensors for the given date range, including air temperature, air humidity, and rainfall. Suitable for larger durations."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the historical weather data for your **Kairo Potato Plot** from October to December 2024:\n\n### October 2024\n| Date       | Min Temp (°C) | Max Temp (°C) | Avg Temp (°C) | Humidity (%) | Rainfall (mm) |\n|------------|----------------|----------------|----------------|---------------|----------------|\n| 2024-10-01 | 20             | 30             | 25             | 75            | 0              |\n| 2024-10-02 | 19             | 31             | 25             | 72            | 0              |\n| 2024-10-03 | 20             | 32             | 26             | 70            | 0              |\n| ...        | ...            | ...            | ...            | ...           | ...            |\n| 2024-10-30 | 20             | 33             | 25             | 78            | 0              |\n| 2024-10-31 | 19             | 31             | 25             | 70            | 0              |\n\n### November 2024\n| Date       | Min Temp (°C) | Max Temp (°C) | Avg Temp (°C) | Humidity (%) | Rainfall (mm) |\n|------------|----------------|----------------|----------------|---------------|----------------|\n| 2024-11-01 | 17             | 31             | 23             | 64            | 0              |\n| 2024-11-02 | 15             | 31             | 22             | 70            | 0              |\n| 2024-11-03 | 15             | 30             | 22             | 74            | 0              |\n| ...        | ...            | ...            | ...            | ...           | ...            |\n| 2024-11-29 | 8              | 25             | 16             | 77            | 0              |\n| 2024-11-30 | 9              | 24             | 16             | 76            | 0              |\n\n### December 2024 (up to 18th)\n| Date       | Min Temp (°C) | Max Temp (°C) | Avg Temp (°C) | Humidity (%) | Rainfall (mm) |\n|------------|----------------|----------------|----------------|---------------|----------------|\n| 2024-12-01 | 10             | 23             | 16             | 80            | 0              |\n| 2024-12-02 | 9              | 25             | 16             | 78            | 0              |\n| 2024-12-03 | 12             | 25             | 18             | 67            | 0              |\n| ...        | ...            | ...            | ...            | ...           | ...            |\n| 2024-12-17 | 4              | 22             | 12             | 86            | 0              |\n\nIf you need more specific details or further analysis, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-12-18T15:18:39.008Z"
+        }
+      }
+    ],
+    "farmer_id": "ankurrana",
+    "farmer_plot_ids": [
+      "kairopotatoplot",
+      "potatoplotnero1",
+      "potatoplotnero2",
+      "potatoplotnero3",
+      "potatoplotnero4"
+    ],
+    "conversation_id": "6762e77042af7f718f8a033a",
+    "tag": "historical data",
+    "conv_date": "2024-12-18T15:17:04.537000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "मिर्च की फसल में ठंड में मिर्च का विकास काम हो रहा है क्या डालें",
+        "timestamp": {
+          "$date": "2024-12-18T12:53:22.670Z"
+        },
+        "standalone_question": "What should be added to improve the growth of chili plants during cold weather?",
+        "standalone_en": "What should be added to improve the growth of chili plants during cold weather?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mirch ki fasal mein thand mein mirch ka vikas kaam ho raha hai kya dalen"
+      },
+      {
+        "role": "assistant",
+        "content": "ठंड के मौसम में मिर्च की फसल के विकास को बढ़ाने के लिए निम्नलिखित उपाय करें:\n\n1. **फर्टिलाइज़र्स**: मिर्च की फसल के लिए नाइट्रोजन, फास्फोरस और पोटाश का संतुलित उपयोग करें। आप 20:20:20 का फर्टिलाइज़र या 15:15:15 का उपयोग कर सकते हैं।\n\n2. **पानी**: सुनिश्चित करें कि मिट्टी में नमी बनी रहे। अगर मिट्टी सूखी है, तो उचित मात्रा में पानी दें।\n\n3. **मल्चिंग**: मिट्टी के तापमान को बनाए रखने के लिए मल्चिंग करें। यह मिट्टी की नमी को भी बनाए रखेगा।\n\n4. **पौधों की सुरक्षा**: ठंड से पौधों की सुरक्षा के लिए कवर या शेड का उपयोग करें।\n\n5. **पोषण**: जैविक खाद जैसे गोबर की खाद या कंपोस्ट का उपयोग करें, जिससे पौधों को आवश्यक पोषक तत्व मिल सकें।\n\nइन उपायों से मिर्च की फसल का विकास बेहतर होगा।",
+        "timestamp": {
+          "$date": "2024-12-18T12:53:33.129Z"
+        }
+      }
+    ],
+    "farmer_id": "jitendragurjar",
+    "farmer_plot_ids": [
+      "plot1899"
+    ],
+    "conversation_id": "6762c5c2dfb0ff18a26fa4a8",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-12-18T12:53:22.670000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Patte sukoda rahe hain variety Sonakshi se free hai Aalu mein aur ismein kaun si dawai ka spry Karen",
+        "timestamp": {
+          "$date": "2024-12-18T09:40:54.759Z"
+        },
+        "standalone_question": "What medicine should be sprayed on potatoes that are affected by the Sonakshi variety?",
+        "standalone_en": "What medicine should be sprayed on potatoes that are affected by the Sonakshi variety?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapke plot \"railwala\" ke liye is hafte koi spray schedule nahi hai. \n\nAalu ke patte sukne par aapko \"Chlorpyriphos @ 5mL/Ltr\" ya \"Thiamethoxam @ 0.5g/Ltr\" ka spray karna chahiye. Ye dawaiyan aapke aalu ke rogon aur keet prabandhan mein madad karengi.",
+        "timestamp": {
+          "$date": "2024-12-18T09:41:04.177Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Lahsun Mein Palash per a raha hai uske liye kaun sa Khad Dale ya Dawai dalen",
+        "timestamp": {
+          "$date": "2024-12-18T09:41:49.744Z"
+        },
+        "standalone_question": "What fertilizer or pesticide should be applied for the issue with Palash in garlic?",
+        "standalone_en": "What fertilizer or pesticide should be applied for the issue with Palash in garlic?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How to improve the germination percent\nA: Use of good quality seeds and seeds to be treated with insecticide, Fungicide and biological agents"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Lahsun mein palash (leaf blight) ke liye aapko \"Copper Oxychloride\" ya \"Mancozeb\" ka spray karna chahiye. \n\nFertigation ke liye, aap \"Urea\" aur \"DAP\" ka istemal kar sakte hain. Urea ka 100-150 kg/ha aur DAP ka 50-100 kg/ha daalna uchit rahega. \n\nYeh dawaiyan aur khad aapke lahsun ki sehat ko sudharne mein madad karengi.",
+        "timestamp": {
+          "$date": "2024-12-18T09:41:55.251Z"
+        }
+      }
+    ],
+    "farmer_id": "VR253",
+    "farmer_plot_ids": [
+      "railwala"
+    ],
+    "conversation_id": "676298a6872dd75d5ac8537a",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-18T09:40:54.759000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Patte sukoda rahe hain variety Sonakshi se free hai Aalu mein aur ismein kaun si dawai ka spry Karen",
+        "timestamp": {
+          "$date": "2024-12-18T09:40:54.759Z"
+        },
+        "standalone_question": "What medicine should be sprayed on potatoes that are affected by the Sonakshi variety?",
+        "standalone_en": "What medicine should be sprayed on potatoes that are affected by the Sonakshi variety?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapke plot \"railwala\" ke liye is hafte koi spray schedule nahi hai. \n\nAalu ke patte sukne par aapko \"Chlorpyriphos @ 5mL/Ltr\" ya \"Thiamethoxam @ 0.5g/Ltr\" ka spray karna chahiye. Ye dawaiyan aapke aalu ke rogon aur keet prabandhan mein madad karengi.",
+        "timestamp": {
+          "$date": "2024-12-18T09:41:04.177Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Lahsun Mein Palash per a raha hai uske liye kaun sa Khad Dale ya Dawai dalen",
+        "timestamp": {
+          "$date": "2024-12-18T09:41:49.744Z"
+        },
+        "standalone_question": "What fertilizer or pesticide should be applied for the issue with Palash in garlic?",
+        "standalone_en": "What fertilizer or pesticide should be applied for the issue with Palash in garlic?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How to improve the germination percent\nA: Use of good quality seeds and seeds to be treated with insecticide, Fungicide and biological agents"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Lahsun mein palash (leaf blight) ke liye aapko \"Copper Oxychloride\" ya \"Mancozeb\" ka spray karna chahiye. \n\nFertigation ke liye, aap \"Urea\" aur \"DAP\" ka istemal kar sakte hain. Urea ka 100-150 kg/ha aur DAP ka 50-100 kg/ha daalna uchit rahega. \n\nYeh dawaiyan aur khad aapke lahsun ki sehat ko sudharne mein madad karengi.",
+        "timestamp": {
+          "$date": "2024-12-18T09:41:55.251Z"
+        }
+      }
+    ],
+    "farmer_id": "VR253",
+    "farmer_plot_ids": [
+      "railwala"
+    ],
+    "conversation_id": "676298a6872dd75d5ac8537a",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-12-18T09:40:54.759000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "या रोगांना माहिती सांगा",
+        "timestamp": {
+          "$date": "2024-12-18T05:03:26.258Z"
+        },
+        "standalone_question": "Please provide information about these diseases.",
+        "standalone_en": "Please provide information about these diseases.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ya roganna mahiti sanga"
+      },
+      {
+        "role": "assistant",
+        "content": "फाय्लो खालील रोगांची माहिती देते:\n\n1. **Alternaria**: पानांवर काळे ठिपके येतात, ज्यामुळे पानांचा नाश होतो.\n2. **Alternaria Fruit Blotch**: फळांवर काळे ठिपके येतात, ज्यामुळे फळांचा दर्जा कमी होतो.\n3. **Alternaria Leaf Blight**: पानांवर पांढरे किंवा हलके पिवळे ठिपके येतात.\n4. **Anthracnose**: फळांवर काळे किंवा गडद ठिपके येतात, ज्यामुळे फळांचा नाश होतो.\n5. **Bacterial Blight**: पानांवर पांढरे किंवा हलके पिवळे ठिपके येतात, ज्यामुळे पानांचा नाश होतो.\n6. **Bacterial Canker**: पानांवर गडद ठिपके येतात, ज्यामुळे पानांचा नाश होतो.\n7. **Bacterial Spot**: पानांवर काळे ठिपके येतात, ज्यामुळे पानांचा नाश होतो.\n8. **Blister Blight**: पानांवर फुगलेले ठिपके येतात, ज्यामुळे पानांचा नाश होतो.\n9. **Botrytis Mold**: फळांवर आणि पानांवर धुंद किंवा पांढरे कव्हर येते.\n10. **Brown Rust**: पानांवर तपकिरी ठिपके येतात, ज्यामुळे पानांचा नाश होतो.\n11. **Cercospora**: पानांवर काळे ठिपके येतात, ज्यामुळे पानांचा नाश होतो.\n12. **Downy Mildew**: पानांवर पांढरे किंवा हलके पिवळे ठिपके येतात.\n13. **Fusarium Wilt**: वनस्पतींचा नाश होतो, ज्यामुळे पानं वाळतात.\n14. **Powdery Mildew**: पानांवर पांढरे धूळ येते.\n15. **Root Knot Nematode**: मुळांवर गाठ येतात, ज्यामुळे वनस्पतींचा विकास थांबतो.\n\nया रोगांवर नियंत्रण ठेवण्यासाठी योग्य उपाययोजना करणे आवश्यक आहे, जसे की योग्य कीटकनाशकांचा वापर, पाण्याची योग्य व्यवस्था, आणि रोगप्रतिकारक वनस्पतींचा वापर.",
+        "timestamp": {
+          "$date": "2024-12-18T05:03:35.918Z"
+        }
+      }
+    ],
+    "farmer_id": "samadhanchaudhari",
+    "farmer_plot_ids": [
+      "samadhanfarm1"
+    ],
+    "conversation_id": "6762579e00d7ac609d5db775",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-18T05:03:26.258000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Magil pani kite tarkhela dela hota",
+        "timestamp": {
+          "$date": "2024-12-18T04:24:54.220Z"
+        },
+        "standalone_question": "What is the significance of the Magil water in the context of its use?",
+        "standalone_en": "What is the significance of the Magil water in the context of its use?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Tumhala \"Plot No 1 Sharad\" sathi paani dene sathi 22 December 2024 la, 6:10 vaje cha samay thevava. Tya divshi barasaat honar nahiye, mhanun paani dene yogya ahe.",
+        "timestamp": {
+          "$date": "2024-12-18T04:25:02.235Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "मागील पाणी देण्याची तारखा",
+        "timestamp": {
+          "$date": "2024-12-18T04:26:25.192Z"
+        },
+        "standalone_question": "What are the previous dates for providing water?",
+        "standalone_en": "What are the previous dates for providing water?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "magil pani denyachi tarkha"
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot No 1 Sharad\" साठी मागील पाणी देण्याच्या तारखा खालीलप्रमाणे आहेत:\n\n- 16 डिसेंबर 2024\n- 11 डिसेंबर 2024\n- 4 डिसेंबर 2024\n- 27 नोव्हेंबर 2024\n- 25 नोव्हेंबर 2024\n- 21 नोव्हेंबर 2024\n- 15 नोव्हेंबर 2024\n- 7 नोव्हेंबर 2024\n- 30 ऑक्टोबर 2024\n- 23 सप्टेंबर 2024\n- 16 सप्टेंबर 2024",
+        "timestamp": {
+          "$date": "2024-12-18T04:26:31.407Z"
+        }
+      }
+    ],
+    "farmer_id": "ankushkad",
+    "farmer_plot_ids": [
+      "plotno1sharad504"
+    ],
+    "conversation_id": "67624e9501502fd08955a60b",
+    "tag": "historical data",
+    "conv_date": "2024-12-18T04:24:54.220000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Plantation se phele pit m kya kya dale",
+        "timestamp": {
+          "$date": "2024-12-18T03:46:31.150Z"
+        },
+        "standalone_question": "What should be added to the pit before planting?",
+        "standalone_en": "What should be added to the pit before planting?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Plantation se pehle, aapko pit mein kuch mahatvapurn cheezein dalni chahiye:\n\n1. **Khudai ki Mitti**: Pit ki mitti ko achhe se khod kar nikaalna.\n2. **Organic Compost**: Jaise ki gobar khad ya vermicompost, jo mitti ki fertility badhata hai.\n3. **NPK Fertilizer**: Nitrogen, Phosphorus, aur Potassium ka sahi matra, jo paudon ki vikas mein madad karta hai.\n4. **Neem Cake**: Yeh keet prabandhan mein madad karta hai aur mitti ki health ko sudharne mein bhi.\n5. **Mitti ka pH**: Agar zaroorat ho, to mitti ka pH sudharne ke liye lime ya sulfur bhi daal sakte hain.\n\nIn sab cheezon ko achhe se mila kar pit ko tayar karein, taaki paudon ki growth ke liye ek achha mahol ban sake.",
+        "timestamp": {
+          "$date": "2024-12-18T03:46:40.401Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Kitna sulfur ",
+        "timestamp": {
+          "$date": "2024-12-18T03:47:16.688Z"
+        },
+        "standalone_question": "How much sulfur should be added?",
+        "standalone_en": "How much sulfur should be added?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Sulfur ka istemal mitti ke pH ko sudharne ke liye kiya jata hai. Aam taur par, sulfur ki matra ka andaza mitti ke pH aur uski current condition par depend karta hai. \n\nYadi mitti ka pH 7 se zyada hai (alkaline), to aapko 1-2 kg sulfur per 100 sq. meter (0.1 acre) dalna chahiye. \n\nYadi aapki mitti ka pH 8 ya usse zyada hai, to aapko zyada sulfur ki zaroorat ho sakti hai. \n\nYeh matra aapki mitti ki specific condition ke hisaab se badal sakti hai, isliye soil test karwana behtar rahega.",
+        "timestamp": {
+          "$date": "2024-12-18T03:47:21.348Z"
+        }
+      }
+    ],
+    "farmer_id": "mandeepbishnoi1661062088650",
+    "farmer_plot_ids": [
+      "kairokinnowfarm",
+      "kinnowplotnero1"
+    ],
+    "conversation_id": "6762459601502fd08955a60a",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-12-18T03:46:31.150000+00:00"
+  }
+]

@@ -1,0 +1,588 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "सेन्सर बंद पडले आहे ",
+        "ans": "data ni aa rha, reasons for device stop, network, battery etc. or raise ticket",
+        "en": "The sensor is off ",
+        "done": "faq can't be retrieved",
+        "timestamp": {
+          "$date": "2025-07-25T16:30:13.797Z"
+        },
+        "standalone_question": "The sensor has stopped working.",
+        "standalone_en": "The sensor has stopped working.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "censor band padale aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "आपण सेन्सर कनेक्शन तपासावे, जर ते ढिले असतील तर त्यांना घट्ट करा. त्यानंतर डिव्हाइस रीस्टार्ट करा आणि अद्ययावत डेटा तपासा. \n\nआपल्याला समस्या टिकिट तयार करायचे आहे का?",
+        "en": "You should check the sensor connection, tightening them if they're loose. Then restart the device and check the latest data. \n\nDo you want to create a problem ticket?",
+        "timestamp": {
+          "$date": "2025-07-25T16:30:17.772Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "बॅटरी कशी चेक करायची ",
+        "ans": "change FAQ, explain components of kairo. ask which device have the problem kairo/nero",
+        "en": "How to check the battery ",
+        "timestamp": {
+          "$date": "2025-07-25T16:30:52.333Z"
+        },
+        "standalone_question": "How do I check the battery?",
+        "standalone_en": "How do I check the battery?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How do I insert batteries into the Kairo device?\nA: Insert 2xAA batteries into the battery compartment, and ensure the LED indicator turns on and flashes every 16 seconds."
+          ]
+        },
+        "content_transliterated": "battery kashi check karayachi "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या प्लॉट्सच्या बॅटरी स्थिती खालीलप्रमाणे आहे:\n\n1. **Plot No 2 Sudhakar**: 75%\n2. **Plot No 1 Sudhakar**: 64%\n3. **Plot No 3 Mama Jumbo**: 99%\n4. **Plot No 4 (Pomegranate)**: 89%\n\nसर्व बॅटरी स्तर चांगले आहेत. जर तुम्हाला आणखी काही मदतीची आवश्यकता असेल तर कृपया सांगा!",
+        "en": "The battery status of your plots is as follows:\n\n1. Plot No 2 Sudhakar: 75%\n2. Plot No 1 Sudhakar: 64%\n3. Plot No 3 Mama Jumbo: 99%\n4. Plot No 4 (Pomegranate): 89%\n\nAll battery levels are good. If you need any more help, please let me know!",
+        "timestamp": {
+          "$date": "2025-07-25T16:30:59.342Z"
+        }
+      }
+    ],
+    "farmer_id": "cmF0bmFrYXJzaHJpcGF0cmF2a2FkYW0=1715272288003",
+    "farmer_plot_ids": [
+      "plot2sudhakarkf",
+      "plotno1sudhakarkadamfarm",
+      "plotno3mamajumbo415",
+      "plotno4pomegranate481"
+    ],
+    "conversation_id": "6883b11491b285c244a0c8e6",
+    "_id": "6883b11491b285c244a0c8e6",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-25T16:35:52.336000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-07-25T16:30:13.797000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "व्यवस्थित दाखवत नाही प्लॉट",
+        "ans": "same catagory as device/sensor not working, fallback to ask followup clearificationn question, or raise ticket.",
+        "en": "The plot does not show properly",
+        "done":"true",
+        "timestamp": {
+          "$date": "2025-07-25T15:30:15.314Z"
+        },
+        "standalone_question": "The standalone question could be: \"Why is the plot not displaying properly?\"",
+        "standalone_en": "The standalone question could be: \"Why is the plot not displaying properly?\"",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "vyavasthit dakhavat nahi plot"
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया तुम्ही कोणत्या प्लॉटबद्दल बोलत आहात हे स्पष्ट करा. तुमच्या प्लॉटचे नाव \"Ssn\" आहे, परंतु तुम्हाला कोणती विशिष्ट समस्या आहे? तुम्हाला कोणती माहिती हवी आहे?",
+        "en": "Please clarify which plot you are talking about. Your plot name is \"Ssn\", but what specific problems do you have? What information do you want?",
+        "timestamp": {
+          "$date": "2025-07-25T15:30:22.042Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "शाहू प्लॉट कॅन्सल करायचा आहे",
+        "en": "Shahu wants to cancel plot",
+        "done":"true",
+        "timestamp": {
+          "$date": "2025-07-25T15:30:42.972Z"
+        },
+        "standalone_question": "I want to cancel the Shahu plot.",
+        "standalone_en": "I want to cancel the Shahu plot.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "shahu plot cancel karayacha aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "तुम्हाला \"Ssn\" प्लॉट (शाहू प्लॉट) कॅन्सल करायचा आहे का? कृपया कॅन्सलेशनची पुष्टी करा, आणि मी तुम्हाला पुढील प्रक्रिया सांगू शकेन.",
+        "en": "Do you want to cancel the \"Ssn\" plot? Please confirm the cancellation, and I can tell you the next process.",
+        "timestamp": {
+          "$date": "2025-07-25T15:30:47.508Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "हो",
+        "ans": "fallback to ticket raise",
+        "en": "be",
+        "done":"true",
+        "timestamp": {
+          "$date": "2025-07-25T15:30:56.474Z"
+        },
+        "standalone_question": "Do you confirm that you want to cancel the Shahoo plot?",
+        "standalone_en": "Do you confirm that you want to cancel the Shahoo plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ho"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटच्या सिंचन सेटिंग्जनुसार, सिंचनासाठी लागणारे गणित केलेले तास 0.17 तास आहेत.\n\nमी खालील सेटिंग्ज वापरल्या:\n- रूट रुंदी: 8 इंच\n- रूट खोली: 6 इंच\n- मातीची धारणा: 180 मिमी\n- ड्रिपर अंतर: 1.15 मिमी\n- ड्रिपर डिस्चार्ज: 4 लिटर\n\nतुम्हाला दुसऱ्या सेटिंग्जसह सिंचन तासांची गणना करायची आहे का? जर होय, तर कृपया नवीन मूल्ये द्या.",
+        "en": "Depending on the irrigation settings of your plot, the calculated hours required for irrigation are 0.17 hours.\n\nI used the following settings:\n- Route width: 8 inches\n- Root depth: 6 inches\n- Soil retention: 180 mm\n- Dripper distance: 1.15 mm\n- Dripper discharge: 4 liters\n\nDo you want to count irrigation hours with other settings? If yes, please give new values.",
+        "timestamp": {
+          "$date": "2025-07-25T15:31:06.406Z"
+        },
+        "ans":"this crap shouldn't have come, and ticket should've been raised right away"
+      },
+      {
+        "role": "user",
+        "content": "हेच आहे नव्याने प्लॉट दाखवा",
+        "en": "That's what it is to show the plot afresh.",
+        "done":"true",
+        "timestamp": {
+          "$date": "2025-07-25T15:31:42.231Z"
+        },
+        "standalone_question": "Could you please show the new plot?",
+        "standalone_en": "Could you please show the new plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "hech aahe navyane plot dakhava"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"Ssn\" प्लॉट (शाहू प्लॉट) कॅन्सल करण्यासाठी सपोर्ट तिकीट उघडले आहे. तिकीट क्रमांक: 685183.\n\nतुम्हाला आणखी काही मदतीची आवश्यकता आहे का?",
+        "en": "Support tickets are opened to cancel your \"Ssn\" plot. Ticket number: 685183.\n\nDo you need any more help?",
+        "timestamp": {
+          "$date": "2025-07-25T15:31:48.796Z"
+        }
+      }
+    ],
+    "farmer_id": "tanmaypradeepkarale",
+    "farmer_plot_ids": [
+      "c3Nu1751912895717",
+      "sahuplot"
+    ],
+    "conversation_id": "6883a30591b285c244a0c8e5",
+    "_id": "6883a30591b285c244a0c8e5",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-25T15:36:42.236000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-07-25T15:30:15.314000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "प्लॉटला पाण्याची गरज आहे का",
+        "en": "Does the plot need water?",
+        "done":"true",
+        "timestamp": {
+          "$date": "2025-07-25T09:38:54.424Z"
+        },
+        "standalone_question": "Does the plot need water?",
+        "standalone_en": "Does the plot need water?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": []
+        },
+        "content_transliterated": "plotala panyachi garaj aahe ka"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"Plot no 1 Thompson\" प्लॉटला सध्या पाण्याची गरज नाही. \n\nसध्याची मातीची आर्द्रता:\n- माती आर्द्रता 1: 69%\n- माती आर्द्रता 2: 78%\n\nआवश्यक आर्द्रता:\n- आदर्श 1: 60%\n- आदर्श 2: 60%\n\nसध्या मातीची आर्द्रता आदर्श आर्द्रतेच्या वर आहे, त्यामुळे पाण्याची आवश्यकता नाही.",
+        "en": "Your \"Plot No. 1 Thompson\" plot doesn't need water right now. \n\nCurrent soil moisture:\n- Soil moisture 1:69%\n- Soil moisture 2:78%\n\nRequired humidity:\n- Ideal 1: 60%\n- Ideal 2: 60%\n\nCurrently, soil moisture is above ideal humidity, so there is no need for water.",
+        "timestamp": {
+          "$date": "2025-07-25T09:39:05.104Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "गाडी पक्व तोडून गर्भधारणा झाली आहे का",
+        "content_corrected": "काडी पक्व होऊन गर्भधारणा झाली आहे का?",
+        "ans": "plot and crop stages ki info jati hai, usme stage duration for currnt and upcoming ka date nahi jata, so, duration update kr do. it depends on many factors like sunlight, so, acknowledge that it is approximate",
+        "en": "Has the car been broken and pregnant?",
+        "done":"true",
+        "correct_trans": "Has the cane matured and fruit set occurred?",
+        "timestamp": {
+          "$date": "2025-07-25T09:39:38.663Z"
+        },
+        "standalone_question": "Has the vehicle been damaged and is it pregnant?",
+        "standalone_en": "Has the vehicle been damaged and is it pregnant?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "gadi pakv todun garbhadharana jhali aahe ka"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"Plot no 1 Thompson\" प्लॉटमध्ये सध्या \"CANE MATURITY\" (Topping) या सक्रिय अवस्थेत आहे. गर्भधारणा (Fruit Set) होण्यासाठी पुढील अवस्था \"FRUIT PRUNING\" आहे, जी अद्याप आलेली नाही. त्यामुळे गर्भधारणा झालेली नाही. \n\nतुमच्या प्लॉटमध्ये गर्भधारणा होण्यासाठी पुढील अवस्थेची प्रतीक्षा करावी लागेल.",
+        "en": "Your \"Plot no 1 Thompson\" plot currently has \"CANE MATURITY\" (Topping) in an active state. THE NEXT STAGE FOR GETTING A FRUIT SET IS \"FRUIT PRUNING\", WHICH HAS NOT YET OCCURRED. It did not cause pregnancy. \n\nYou will have to wait for the next stage to conceive in your plot.",
+        "timestamp": {
+          "$date": "2025-07-25T09:39:44.506Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "कधी होईल",
+        "en": "When will it happen?",
+        "timestamp": {
+          "$date": "2025-07-25T09:40:34.902Z"
+        },
+        "standalone_question": "When will it happen?",
+        "standalone_en": "When will it happen?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kadhi hoil"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"Plot no 1 Thompson\" प्लॉटमध्ये गर्भधारणा (Fruit Set) होण्यासाठी \"FRUIT PRUNING\" अवस्था येईल. \n\nसक्रिय अवस्था \"CANE MATURITY\" 20 जून 2025 पासून सुरू आहे. \"FRUIT PRUNING\" अवस्था 20 जुलै 2025 पासून सुरू होईल. त्यामुळे गर्भधारणा 20 जुलै 2025 नंतर होईल. \n\nतुम्हाला याबद्दल अधिक माहिती हवी असल्यास, कृपया सांगा!",
+        "en": "Your \"Plot no 1 Thompson\" plot will have a \"FRUIT PRUNING\" stage in order to conceive (Fruit Set). \n\nACTIVE STATE \"CANE MATURITY\" BEGINS ON 20TH JUNE 2025. The \"FRUIT PRUNING\" stage will begin on July 20, 2025. So the pregnancy will take place after 20th July 2025. \n\nIf you need more information about this, please let me know!",
+        "timestamp": {
+          "$date": "2025-07-25T09:40:39.363Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "शंभर टक्के गर्भधारणा झाली पाहिजे घड स्ट्रॉंग निघाले पाहिजे हीच अपेक्षा",
+        "en": "The only hope is that 100 per cent of the pregnancy should be done.",
+        "timestamp": {
+          "$date": "2025-07-25T09:41:17.758Z"
+        },
+        "standalone_question": "Should there be a hundred percent fruit set, and should the plants be strong?",
+        "standalone_en": "Should there be a hundred percent fruit set, and should the plants be strong?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "shambhar takke garbhadharana jhali pahije ghad strong nighale pahije heech apeksa"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"Plot no 1 Thompson\" प्लॉटमध्ये गर्भधारणा (Fruit Set) 20 जुलै 2025 पासून सुरू होईल. तुम्हाला शंभर टक्के गर्भधारणा आणि मजबूत फळे हवी आहेत, तर तुम्हाला योग्य काळजी घेणे आवश्यक आहे.\n\nतुमच्या प्लॉटमध्ये योग्य पाण्याची व्यवस्था, खतांचा वापर, आणि रोग व कीटक नियंत्रण यावर लक्ष केंद्रित करणे महत्त्वाचे आहे. \n\nतुमच्या प्लॉटच्या स्थितीवर लक्ष ठेवून, योग्य वेळी फळांची काळजी घेणे आणि आवश्यकतेनुसार पाणी व खत देणे आवश्यक आहे. तुम्हाला अधिक मार्गदर्शन हवे असल्यास, कृपया सांगा!",
+        "en": "The fruit set in your \"Plot No. 1 Thompson\" plot will begin on July 20, 2025. If you want 100 per cent pregnancy and strong fruits, you need to take proper care.\n\nIt is important to focus on proper water management, fertilizer use, and disease and pest control in your plot. \n\nIt is important to monitor the condition of your plot, take care of the fruit at the right time and provide water and fertilizer as needed. If you need more guidance, please let me know!",
+        "timestamp": {
+          "$date": "2025-07-25T09:41:23.700Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "गाईडलाईन्स प्रमाणे प्लॉटच्या सर्व क्रिया पूर्ण केलेले आहेत",
+        "en": "All the activities of the plot have been completed as per the guidelines",
+        "timestamp": {
+          "$date": "2025-07-25T09:41:54.950Z"
+        },
+        "standalone_question": "Have all the actions for the plot been completed according to the guidelines?",
+        "standalone_en": "Have all the actions for the plot been completed according to the guidelines?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"Plot no 1 Thompson\" प्लॉटसाठी सर्व क्रिया पूर्ण झाल्या आहेत. तुम्हाला पाण्याची गरज आहे का, याबद्दल तुम्ही विचारले होते, आणि सध्या पाण्याची आवश्यकता नाही.\n\nतुमच्या प्लॉटमध्ये योग्य काळजी घेणे महत्त्वाचे आहे, विशेषतः गर्भधारणा (Fruit Set) आणि मजबूत फळे मिळवण्यासाठी. तुम्हाला आणखी काही माहिती हवी असल्यास, कृपया सांगा!",
+        "en": "All the actions for your \"Plot no 1 Thompson\" plot are completed. Do you need water, you asked about this, and currently do not need water.\n\nIt is important to take proper care in your plot, especially to conceive (Fruit Set) and get strong fruits. If you need more information, please let me know!",
+        "timestamp": {
+          "$date": "2025-07-25T09:42:00.404Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "धन्यवाद",
+        "en": "thank you",
+        "timestamp": {
+          "$date": "2025-07-25T09:42:29.850Z"
+        },
+        "standalone_question": "Thank you.",
+        "standalone_en": "Thank you.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "dhanyavad"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमचे स्वागत आहे! तुम्हाला आणखी काही विचारायचे असल्यास, कृपया सांगा. तुमच्या शेतीसाठी शुभेच्छा!",
+        "en": "Welcome! If you have anything else to ask, please let me know. Good luck with your farm!",
+        "timestamp": {
+          "$date": "2025-07-25T09:42:33.605Z"
+        }
+      }
+    ],
+    "farmer_id": "devramgopalnathe",
+    "farmer_plot_ids": [
+      "plotno1thompson282"
+    ],
+    "conversation_id": "688350ad2dd7f292f55ff2d5",
+    "_id": "688350ad2dd7f292f55ff2d5",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-25T09:47:29.860000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-07-25T09:38:54.424000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "pH ",
+        "en": "pH ",
+        "done": "true",
+        "timestamp": {
+          "$date": "2025-07-25T08:36:09.259Z"
+        },
+        "standalone_question": "What is pH?",
+        "standalone_en": "What is pH?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "pH is a measure of the acidity or alkalinity of the soil, which can significantly affect plant growth and nutrient availability. The pH scale ranges from 0 to 14, where:\n\n- A pH of 7 is neutral.\n- A pH below 7 indicates acidic soil.\n- A pH above 7 indicates alkaline soil.\n\nFor most crops, including groundnut, an optimal pH range is typically between 6.0 and 7.5. It's essential to test the soil pH regularly to ensure it remains within this range for healthy crop growth. If you need specific recommendations for adjusting soil pH, please let me know!",
+        "en": "pH is a measure of the acidity or alkalinity of the soil, which can significantly affect plant growth and nutrient availability. The pH scale ranges from 0 to 14, where:\n\n- A pH of 7 is neutral.\n- A pH below 7 indicates acidic soil.\n- A pH above 7 indicates alkaline soil.\n\nFor most crops, including groundnut, an optimal pH range is typically between 6.0 and 7.5. It's essential to test the soil pH regularly to ensure it remains within this range for healthy crop growth. If you need specific recommendations for adjusting soil pH, please let me know!",
+        "timestamp": {
+          "$date": "2025-07-25T08:36:15.419Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Not saw",
+        "en": "Not saw",
+        "done": "true",
+        "timestamp": {
+          "$date": "2025-07-25T08:36:27.227Z"
+        },
+        "standalone_question": "What do you mean by \"Not saw\"?",
+        "standalone_en": "What do you mean by \"Not saw\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like you might be looking for information on soil pH or related soil health aspects. If you have specific questions or need assistance with soil testing, amendments, or anything else related to your crops, please let me know!",
+        "en": "It seems like you might be looking for information on soil pH or related soil health aspects. If you have specific questions or need assistance with soil testing, amendments, or anything else related to your crops, please let me know!",
+        "timestamp": {
+          "$date": "2025-07-25T08:36:31.455Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Soil ph does not saw in application ",
+        "ans": "dont have sensor, not supported for pH",
+        "ans1": "add device info detailed in prompt",
+        "en": "Soil ph does not saw in application ",
+        "done": "true",
+        "timestamp": {
+          "$date": "2025-07-25T08:37:08.231Z"
+        },
+        "standalone_question": "Why is soil pH not visible in the application?",
+        "standalone_en": "Why is soil pH not visible in the application?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "If the soil pH is not visible in your application, it may not be included in the current data being displayed. Here are a few steps you can take:\n\n1. **Check Soil Testing**: Ensure that you have conducted a soil test that includes pH analysis. If not, consider getting a soil test done.\n\n2. **Update the Application**: Make sure your application is updated to the latest version, as updates may include new features or data displays.\n\n3. **Contact Support**: If the issue persists, it may be best to contact Fyllo's support team for assistance in retrieving soil pH data.\n\nIf you need help with anything else or have specific questions about your plots, feel free to ask!",
+        "en": "If the soil pH is not visible in your application, it may not be included in the current data being displayed. Here are a few steps you can take:\n\n1. **Check Soil Testing**: Ensure that you have conducted a soil test that includes pH analysis. If not, consider getting a soil test done.\n\n2. **Update the Application**: Make sure your application is updated to the latest version, as updates may include new features or data displays.\n\n3. **Contact Support**: If the issue persists, it may be best to contact Fyllo's support team for assistance in retrieving soil pH data.\n\nIf you need help with anything else or have specific questions about your plots, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-07-25T08:37:15.151Z"
+        }
+      }
+    ],
+    "farmer_id": "VR459",
+    "farmer_plot_ids": [
+      "aravallistoragewalu1",
+      "asthafarmtabelapasal",
+      "kantikakawalu"
+    ],
+    "conversation_id": "688341f7368aa29c84a48d8d",
+    "_id": "688341f7368aa29c84a48d8d",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-07-25T08:42:08.237000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-07-25T08:36:09.259000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "बुटींग काळात m45 व टाटा मेडा फवारणी घेऊ का",
+        "ans": "3 tools for sprey should be called",
+        "en": "Should we spray m45 and Tata Meda during the booting period?",
+        "done": "true",
+        "timestamp": {
+          "$date": "2025-07-25T08:13:12.684Z"
+        },
+        "standalone_question": "Should I apply M45 and Tata Meda during the flowering period?",
+        "standalone_en": "Should I apply M45 and Tata Meda during the flowering period?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "butting kalat m45 v tata meda favarani gheu ka"
+      },
+      {
+        "role": "assistant",
+        "content": "सध्या बुटींग काळात M45 आणि टाटा मेडा फवारणी घेण्याची आवश्यकता नाही, कारण कोणतीही पूर्वनिर्धारित फवारणीची शेड्यूल नाही. तुम्ही फवारणी घेऊ शकता, पण याबाबत अधिक माहिती किंवा सल्ला घेणे चांगले ठरेल.",
+        "en": "Currently, there is no need to take M45 and Tata Meda spraying during the butting period, as there is no predetermined spraying schedule. You can spray, but it would be best to seek more information or advice.",
+        "timestamp": {
+          "$date": "2025-07-25T08:13:22.170Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "या अगोदर बाविस्टीन व डिशेस घेतले आहे",
+        "en": "I've had bavistin and dishes before",
+        "done": "true",
+        "timestamp": {
+          "$date": "2025-07-25T08:14:19.876Z"
+        },
+        "standalone_question": "Have you previously used Bavistin and Dishes?",
+        "standalone_en": "Have you previously used Bavistin and Dishes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ya agodar bavistin v dishes ghetale aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "जर तुम्ही याआधी बाविस्टीन आणि डिशेस फवारणी घेतली असेल, तर तुम्हाला पुढील फवारणीसाठी योग्य अंतर ठेवणे आवश्यक आहे. बुटींग काळात फवारणीसाठी योग्य वेळ आणि उत्पादने निवडणे महत्त्वाचे आहे. \n\nतुमच्या पिकाच्या स्थितीवर आणि हवामानाच्या परिस्थितीवर आधारित, तुम्ही पुढील फवारणीसाठी योग्य सल्ला घेऊ शकता. अधिक माहिती किंवा सल्ला हवे असल्यास, कृपया संपर्क साधा.",
+        "en": "If you've sprayed Bavistin and Dishes before, you'll need to keep a proper distance for the next spray. It is important to choose the right time and products for spraying during the butting period. \n\nDepending on your crop conditions and weather conditions, you can seek appropriate advice for further spraying. If you need more information or advice, please get in touch.",
+        "timestamp": {
+          "$date": "2025-07-25T08:14:24.505Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "संपर्कासाठी नंबर पाठवा",
+        "en": "Send number for contact",
+        "done": "true",
+        "timestamp": {
+          "$date": "2025-07-25T08:14:50.248Z"
+        },
+        "standalone_question": "Could you please provide a contact number?",
+        "standalone_en": "Could you please provide a contact number?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "samparkasathi number pathava"
+      },
+      {
+        "role": "assistant",
+        "content": "तुम्ही Fyllo ग्राहक समर्थनाशी संपर्क साधण्यासाठी खालील नंबरवर कॉल करू शकता:\n\n**हेल्पलाइन नंबर:** (+91) 9380908040\n\nतुम्ही ईमेलद्वारे देखील संपर्क साधू शकता: **contact@fyllo.in**. \n\nकृपया आणखी काही मदतीची आवश्यकता असल्यास सांगा!",
+        "en": "You can call the following number to contact Fyllo Customer Support:\n\n**Helpline Number:** (+91) 9380908040\n\nYou can also contact: **contact@fyllo.in*** via email. \n\nPlease let me know if you need any more help!",
+        "timestamp": {
+          "$date": "2025-07-25T08:14:54.412Z"
+        }
+      }
+    ],
+    "farmer_id": "anilmahadevbhagat",
+    "farmer_plot_ids": [
+      "bananaplot1698"
+    ],
+    "conversation_id": "68833c98ac9b7cc936735093",
+    "_id": "68833c98ac9b7cc936735093",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-25T08:19:50.253000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-07-25T08:13:12.684000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "No alerts for this plot ",
+        "en": "No alerts for this plot ",
+        "timestamp": {
+          "$date": "2025-07-25T00:41:26.841Z"
+        },
+        "standalone_question": "What are the reasons for not receiving any alerts for this plot?",
+        "standalone_en": "What are the reasons for not receiving any alerts for this plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems there are no alerts currently for your plot \"Shashidhar thomson 3 acar.\" If you have any specific concerns or need assistance with crop management, soil health, pest control, or irrigation strategies, please let me know!",
+        "en": "It seems there are no alerts currently for your plot \"Shashidhar thomson 3 acar.\" If you have any specific concerns or need assistance with crop management, soil health, pest control, or irrigation strategies, please let me know!",
+        "timestamp": {
+          "$date": "2025-07-25T00:41:34.013Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "For fertility ",
+        "en": "For fertility ",
+        "timestamp": {
+          "$date": "2025-07-25T00:42:41.180Z"
+        },
+        "standalone_question": "What can you tell me about fertility for this plot?",
+        "standalone_en": "What can you tell me about fertility for this plot?",
+        "retrieval": {
+          "tools": [
+            "get_specific_fertigation_requirements  \nFinds the fertigation requirements for the plots with a particular crop stage and week numbers."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For your plot \"Shashidhar thomson 3 acar,\" currently in the **Topping** stage (Week 4), here is the fertigation schedule:\n\n### Current Week (Week 4)\n- **Fertilizers to Apply:**\n  - **Magnesium Sulphate:** 1.5 kg/acre\n  - **Sulfate of Potash:** 2.5 kg/acre\n\n### Next Week (Week 5)\n- **Fertilizers to Apply:**\n  - **Sulfate of Potash:** 2.5 kg/acre\n- **Start Date of Week 5:** October 23, 2025\n\nMake sure to follow this schedule for optimal growth and health of your grape crop! If you have any further questions or need assistance, feel free to ask.",
+        "en": "For your plot \"Shashidhar thomson 3 acar,\" currently in the **Topping** stage (Week 4), here is the fertigation schedule:\n\n### Current Week (Week 4)\n- **Fertilizers to Apply:**\n  - **Magnesium Sulphate:** 1.5 kg/acre\n  - **Sulfate of Potash:** 2.5 kg/acre\n\n### Next Week (Week 5)\n- **Fertilizers to Apply:**\n  - **Sulfate of Potash:** 2.5 kg/acre\n- **Start Date of Week 5:** October 23, 2025\n\nMake sure to follow this schedule for optimal growth and health of your grape crop! If you have any further questions or need assistance, feel free to ask.",
+        "timestamp": {
+          "$date": "2025-07-25T00:42:50.008Z"
+        }
+      }
+    ],
+    "farmer_id": "shashidharnaruni",
+    "farmer_plot_ids": [
+      "shashidharthomson3acar"
+    ],
+    "conversation_id": "6882d2b6da1dec7bd420b056",
+    "_id": "6882d2b6da1dec7bd420b056",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-07-25T00:47:41.183000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-07-25T00:41:26.841000+00:00"
+  }
+]

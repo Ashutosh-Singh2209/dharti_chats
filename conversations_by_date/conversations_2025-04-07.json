@@ -1,0 +1,1708 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "एप्रिल छाटणी 5 एप्रिल ला झाली आहे खते के द्यावी",
+        "en": "April pruning took place on April 5.",
+        "timestamp": {
+          "$date": "2025-04-07T16:34:07.123Z"
+        },
+        "standalone_question": "When is the April cut-off date for submitting the application?",
+        "standalone_en": "When is the April cut-off date for submitting the application?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "april chhatani 5 april la jhali aahe khate k dyavi"
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या सर्व प्लॉटसाठी खते देण्याची माहिती उपलब्ध नाही. कृपया आपल्या स्थानिक कृषी तज्ञांशी संपर्क साधा किंवा आपल्या पिकांच्या गरजेनुसार खते द्या.",
+        "en": "Fertilizer information is not available for all your plots. Please contact your local agricultural expert or provide fertilizers as per the needs of your crops.",
+        "timestamp": {
+          "$date": "2025-04-07T16:34:11.849Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "एप्रिल छाटणी कधी करावी",
+        "en": "When to prune April",
+        "timestamp": {
+          "$date": "2025-04-07T16:35:33.804Z"
+        },
+        "standalone_question": "When should the April harvest be done?",
+        "standalone_en": "When should the April harvest be done?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise."
+          ]
+        },
+        "content_transliterated": "april chhatani kadhi karavi"
+      },
+      {
+        "role": "assistant",
+        "content": "एप्रिल छाटणी सामान्यतः पिकांच्या विकासाच्या अवस्थेनुसार केली जाते. आपल्या अंगठीच्या पिकांसाठी, एप्रिलमध्ये छाटणी करण्याची योग्य वेळ म्हणजे पिकांच्या वाढीच्या अवस्थेनुसार. \n\nआपल्या पिकांच्या विशेष गरजेनुसार आणि स्थानिक हवामानाच्या परिस्थितीनुसार छाटणीची वेळ ठरवा. जर आपल्याला अधिक माहिती हवी असेल, तर कृपया आपल्या स्थानिक कृषी तज्ञांशी संपर्क साधा.",
+        "en": "April pruning is usually done according to the stage of development of crops. For your ring crops, the perfect time to prune in April is depending on the growth stage of the crop. \n\nDetermine the pruning time according to the special needs of your crops and local weather conditions. If you would like more information, please contact your local agricultural expert.",
+        "timestamp": {
+          "$date": "2025-04-07T16:35:39.299Z"
+        }
+      }
+    ],
+    "farmer_id": "manojpadol",
+    "farmer_plot_ids": [
+      "plotno",
+      "plotno1parple",
+      "plotno4flame",
+      "plotno6sudhakar240"
+    ],
+    "conversation_id": "67f3fe7e8151dcf30eb9025a",
+    "_id": "67f3fe7e8151dcf30eb9025a",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-07T16:40:33.812000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-07T16:34:07.123000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Pani kab de",
+        "en": "Mrs. kab de",
+        "timestamp": {
+          "$date": "2025-04-07T13:10:58.742Z"
+        },
+        "standalone_question": "When will the water be given?",
+        "standalone_en": "When will the water be given?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Plot 1 (Hivare, Muktainagar) mein abhi paani dene ki zarurat nahi hai. Soil moisture 78% aur 86% hai, jo ki optimal 60% se zyada hai. Aap thodi der intezaar karein.",
+        "en": "Plot 1 (Hiware, Muktainagar) does not need watering right now. Soil moisture is 78% and 86%, which is more than the optimal 60%. You wait a little longer.",
+        "timestamp": {
+          "$date": "2025-04-07T13:11:03.004Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ok",
+        "en": "Ok",
+        "timestamp": {
+          "$date": "2025-04-07T13:11:27.806Z"
+        },
+        "standalone_question": "Is water currently needed in Plot 1 (Hivare, Muktainagar)?",
+        "standalone_en": "Is water currently needed in Plot 1 (Hivare, Muktainagar)?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Agar aapko aur koi madad chahiye ho, toh zaroor batayein!",
+        "en": "If you need any more help, be sure to tell!",
+        "timestamp": {
+          "$date": "2025-04-07T13:11:32.275Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Phytophthora ",
+        "en": "Phytophthora ",
+        "timestamp": {
+          "$date": "2025-04-07T13:11:54.691Z"
+        },
+        "standalone_question": "What is Phytophthora?",
+        "standalone_en": "What is Phytophthora?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Phytophthora is not listed among the diseases that Fyllo supports for prediction. However, it is important to monitor your crops for any signs of disease and take preventive measures. If you suspect Phytophthora or any other disease, consider consulting with a local agricultural expert for specific advice and treatment options.",
+        "en": "Phytophthora is not listed among the diseases that Fyllo supports for prediction. However, it is important to monitor your crops for any signs of disease and take preventive measures. If you suspect Phytophthora or any other disease, consider consulting with a local agricultural expert for specific advice and treatment options.",
+        "timestamp": {
+          "$date": "2025-04-07T13:11:58.591Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Tumch name Kay aahe",
+        "en": "What's your name?",
+        "timestamp": {
+          "$date": "2025-04-07T13:12:15.751Z"
+        },
+        "standalone_question": "What is your name?",
+        "standalone_en": "What is your name?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Maza naav Dharti aahe. Mi tumhala kheti sambandhit madat karayla ahe. Tumhala kahi vishayavar madat hava ka?",
+        "en": "My name is Earth. I'm here to help you with farming. Do you need help on a topic?",
+        "timestamp": {
+          "$date": "2025-04-07T13:12:19.942Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Fertilizer kb dose de",
+        "en": "Fertilizer kb dose de",
+        "timestamp": {
+          "$date": "2025-04-07T13:13:02.783Z"
+        },
+        "standalone_question": "When should fertilizer be applied?",
+        "standalone_en": "When should fertilizer be applied?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Plot 1 (Hivare, Muktainagar) sathi fertigation schedule available nahi ahe. Krupaya, aapla kheti sambandhit vishayavar local agricultural expert kade sampark kara.",
+        "en": "The fertigation schedule for Plot 1 (Hivre, Muktainagar) is not available. Please contact a local agricultural expert on your farming related topic.",
+        "timestamp": {
+          "$date": "2025-04-07T13:13:08.053Z"
+        }
+      }
+    ],
+    "farmer_id": "idbarramjantadvi",
+    "farmer_plot_ids": [
+      "plot1714"
+    ],
+    "conversation_id": "67f3cee273241029a19774b4",
+    "_id": "67f3cee273241029a19774b4",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-07T13:18:02.791000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-07T13:10:58.742000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Pani kab de",
+        "en": "Mrs. kab de",
+        "timestamp": {
+          "$date": "2025-04-07T13:10:58.742Z"
+        },
+        "standalone_question": "When will the water be given?",
+        "standalone_en": "When will the water be given?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Plot 1 (Hivare, Muktainagar) mein abhi paani dene ki zarurat nahi hai. Soil moisture 78% aur 86% hai, jo ki optimal 60% se zyada hai. Aap thodi der intezaar karein.",
+        "en": "Plot 1 (Hiware, Muktainagar) does not need watering right now. Soil moisture is 78% and 86%, which is more than the optimal 60%. You wait a little longer.",
+        "timestamp": {
+          "$date": "2025-04-07T13:11:03.004Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ok",
+        "en": "Ok",
+        "timestamp": {
+          "$date": "2025-04-07T13:11:27.806Z"
+        },
+        "standalone_question": "Is there a need for water in Plot 1 (Hivare, Muktainagar) right now?",
+        "standalone_en": "Is there a need for water in Plot 1 (Hivare, Muktainagar) right now?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Agar aapko aur koi madad chahiye ho, toh zaroor batayein!",
+        "en": "If you need any more help, be sure to tell!",
+        "timestamp": {
+          "$date": "2025-04-07T13:11:32.275Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Phytophthora ",
+        "en": "Phytophthora ",
+        "timestamp": {
+          "$date": "2025-04-07T13:11:54.691Z"
+        },
+        "standalone_question": "What is Phytophthora?",
+        "standalone_en": "What is Phytophthora?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Phytophthora is not listed among the diseases that Fyllo supports for prediction. However, it is important to monitor your crops for any signs of disease and take preventive measures. If you suspect Phytophthora or any other disease, consider consulting with a local agricultural expert for specific advice and treatment options.",
+        "en": "Phytophthora is not listed among the diseases that Fyllo supports for prediction. However, it is important to monitor your crops for any signs of disease and take preventive measures. If you suspect Phytophthora or any other disease, consider consulting with a local agricultural expert for specific advice and treatment options.",
+        "timestamp": {
+          "$date": "2025-04-07T13:11:58.591Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Tumch name Kay aahe",
+        "en": "What's your name?",
+        "timestamp": {
+          "$date": "2025-04-07T13:12:15.751Z"
+        },
+        "standalone_question": "What is your name?",
+        "standalone_en": "What is your name?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Maza naav Dharti aahe. Mi tumhala kheti sambandhit madat karayla ahe. Tumhala kahi vishayavar madat hava ka?",
+        "en": "My name is Earth. I'm here to help you with farming. Do you need help on a topic?",
+        "timestamp": {
+          "$date": "2025-04-07T13:12:19.942Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Fertilizer kb dose de",
+        "en": "Fertilizer kb dose de",
+        "timestamp": {
+          "$date": "2025-04-07T13:13:02.783Z"
+        },
+        "standalone_question": "When should fertilizer be applied?",
+        "standalone_en": "When should fertilizer be applied?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Plot 1 (Hivare, Muktainagar) sathi fertigation schedule available nahi ahe. Krupaya, aapla kheti sambandhit vishayavar local agricultural expert kade sampark kara.",
+        "en": "The fertigation schedule for Plot 1 (Hivre, Muktainagar) is not available. Please contact a local agricultural expert on your farming related topic.",
+        "timestamp": {
+          "$date": "2025-04-07T13:13:08.053Z"
+        }
+      }
+    ],
+    "farmer_id": "idbarramjantadvi",
+    "farmer_plot_ids": [
+      "plot1714"
+    ],
+    "conversation_id": "67f3cee273241029a19774b4",
+    "_id": "67f3cee273241029a19774b4",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-07T13:18:02.791000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-07T13:10:58.742000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Nano dap aapi sakaye muskmelon ma",
+        "en": "Nano dap aapi sakaye muskmelon ma",
+        "timestamp": {
+          "$date": "2025-04-07T10:22:33.523Z"
+        },
+        "standalone_question": "What is the process for making a nano dap with muskmelon?",
+        "standalone_en": "What is the process for making a nano dap with muskmelon?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Muskmelon (Kharbuja) ma Nano DAP (Di-Ammonium Phosphate) aapva maate, aapne khyal rakhvu pade che ke aapna crop na current stage ne anusar aapva maate ni matra su che. \n\nAapna muskmelon na active stage \"Flowering and Fruiting\" chhe. Aapne Nano DAP ni aapva maate ni matra ne samajva maate, aapne fertigation schedule ne check karvu pade. \n\nHu aapne fertigation schedule ni mahiti aapvu chhu. Thodi vaar maate ruko.:\n\nAapna muskmelon na \"Flowering and Fruiting\" stage ma, je week 2 chhe, maate Nano DAP ni aapva maate ni mahiti aavi chhe:\n\n### Current Fertigation Schedule:\n1. **Day 1 (Today)**:\n   - **Fertigation**:\n     - Potassium Nitrate: 3 kg/acre\n     - Magnesium Sulphate: 3 kg/acre\n   - **Foliar Spray**: \n     - Concentration should not exceed 1% (e.g., 5 kg in 500 liters of water per acre).\n\n2. **Day 4**:\n   - **Fertigation**:\n     - Calcium Nitrate: 3 kg/acre\n     - Sulfate of Potash: 3 kg/acre\n\n### Next Schedule (Starting from April 20, 2025):\n- **Week 1 of Fruit Maturity**:\n  - **Day 1**:\n    - Calcium Nitrate: 3 kg/acre (apply separately, 15-20 minutes after other fertilizers).\n    - Sulfate of Potash: 3 kg/acre.\n  - **Day 4**:\n    - Sulfate of Potash: 3 kg/acre.\n\nAap Nano DAP ne aapva maate aapne aavi matra maate dhyan rakhvu pade chhe. Aapne koi vishesh prashna hoy to puchho!",
+        "en": "Muskmelon (Kharbuja) ma Nano DAP (Di-Ammonium Phosphate) aapva maate, aapne khyal rakhvu pade che ke aapna crop na current stage ne anusar aapva maate ni matra su che. \n\nAapna muskmelon na active stage \"Flowering and Fruiting\" chhe. Aapne Nano DAP ni aapva maate ni matra ne samajva maate, aapne fertigation schedule ne check karvu pade. \n\nHu aapne fertigation schedule ni mahiti aapvu chhu. Thodi vaar maate ruko.:\n\nAapna muskmelon na \"Flowering and Fruiting\" stage ma, je week 2 chhe, maate Nano DAP ni aapva maate ni mahiti aavi chhe:\n\n### Current Fertigation Schedule:\n1. **Day 1 (Today)**:\n   - **Fertigation**:\n     - Potassium Nitrate: 3 kg/acre\n     - Magnesium Sulphate: 3 kg/acre\n   - **Foliar Spray**: \n     - Concentration should not exceed 1% (e.g., 5 kg in 500 liters of water per acre).\n\n2. **Day 4**:\n   - **Fertigation**:\n     - Calcium Nitrate: 3 kg/acre\n     - Sulfate of Potash: 3 kg/acre\n\n### Next Schedule (Starting from April 20, 2025):\n- **Week 1 of Fruit Maturity**:\n  - **Day 1**:\n    - Calcium Nitrate: 3 kg/acre (apply separately, 15-20 minutes after other fertilizers).\n    - Sulfate of Potash: 3 kg/acre.\n  - **Day 4**:\n    - Sulfate of Potash: 3 kg/acre.\n\nAap Nano DAP ne aapva maate aapne aavi matra maate dhyan rakhvu pade chhe. Aapne koi vishesh prashna hoy to puchho!",
+        "timestamp": {
+          "$date": "2025-04-07T10:22:51.912Z"
+        }
+      }
+    ],
+    "farmer_id": "anilkumarprabhujiparmar",
+    "farmer_plot_ids": [
+      "tetivaloplot"
+    ],
+    "conversation_id": "67f3a76973241029a19774b3",
+    "_id": "67f3a76973241029a19774b3",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-07T10:27:33.532000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-07T10:22:33.523000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "जून महीने नेट हाउस मधे कोनति पीके घ्या वी",
+        "en": "Which PK should I take in the net house in the month of June?",
+        "timestamp": {
+          "$date": "2025-04-07T07:50:40.371Z"
+        },
+        "standalone_question": "What crops should be planted in a net house in June?",
+        "standalone_en": "What crops should be planted in a net house in June?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "june mahine net house madhe konti pk ghya v"
+      },
+      {
+        "role": "assistant",
+        "content": "जून महिन्यात नेट हाउस मध्ये घेतलेल्या काही लोकप्रिय पिकांमध्ये खालील समाविष्ट आहेत:\n\n1. **टोमॅटो** - टोमॅटोचे उत्पादन नेट हाउस मध्ये चांगले होते, कारण यामुळे तापमान नियंत्रित ठेवता येते.\n2. **कॅप्सिकम** - कॅप्सिकम साठी नेट हाउस एक उत्तम पर्याय आहे, कारण यामुळे त्याला आवश्यक असलेले तापमान आणि आर्द्रता नियंत्रित करता येते.\n3. **काकडी** - काकडी सुद्धा नेट हाउस मध्ये चांगली वाढते.\n4. **भाजीपाला** - विविध प्रकारच्या भाज्या जसे की पालक, मेथी, आणि कोथिंबीर सुद्धा नेट हाउस मध्ये घेतल्या जातात.\n\nतुमच्या स्थानिक हवामान आणि बाजारातील मागणीच्या आधारे योग्य पिक निवडणे महत्त्वाचे आहे.",
+        "en": "Some of the popular crops grown at Net House in the month of June include:\n\n1. **Tomato** - Tomato production is good in net house, as it allows temperature to be controlled.\n2. **Capsicum** - A net house is a great option for capsicum, as it allows it to control the temperature and humidity it needs.\n3. **Cucumber** - Cucumbers also grow well in net houses.\n4. **Vegetables** - A variety of vegetables such as spinach, fenugreek, and cilantro are also grown at the Net House.\n\nIt is important to choose the right crop based on your local climate and market demand.",
+        "timestamp": {
+          "$date": "2025-04-07T07:50:46.595Z"
+        }
+      }
+    ],
+    "farmer_id": "shivajinamdevshirsath",
+    "farmer_plot_ids": [
+      "testplotcapsicum"
+    ],
+    "conversation_id": "67f383d03c62389d803554f0",
+    "_id": "67f383d03c62389d803554f0",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-07T07:55:40.380000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-07T07:50:40.371000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "मातीचे टेंपरेचर जीरो होते का",
+        "en": "Was the temperature zero of the soil?",
+        "timestamp": {
+          "$date": "2025-04-07T07:36:40.719Z"
+        },
+        "standalone_question": "Does the temperature of the soil reach zero?",
+        "standalone_en": "Does the temperature of the soil reach zero?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "मातीचे तापमान कधीही शून्य होत नाही. जर तुमचा सेन्सर शून्य तापमान दर्शवत असेल, तर ते एक तांत्रिक समस्या असू शकते. कृपया सेन्सरची कनेक्शन तपासा, जर ते ढिले असतील तर त्यांना घट्ट करा आणि डिव्हाइस रीस्टार्ट करा. यामुळे अद्ययावत डेटा मिळवता येईल.",
+        "en": "The soil temperature is never zero. If your sensor is showing zero temperature, it could be a technical problem. Please check the connection of the sensors, tighten them if they are loose, and restart the device. This will allow us to get up-to-date data.",
+        "timestamp": {
+          "$date": "2025-04-07T07:36:44.536Z"
+        }
+      }
+    ],
+    "farmer_id": "shivajinamdevshirsath",
+    "farmer_plot_ids": [
+      "testplotcapsicum"
+    ],
+    "conversation_id": "67f38088cb2271ee962c2083",
+    "_id": "67f38088cb2271ee962c2083",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-07T07:41:40.727000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-07T07:36:40.719000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "माझ्या शेताला पाण्याची आवश्यकता आहे का ",
+        "en": "Does my farm need water? ",
+        "timestamp": {
+          "$date": "2025-04-07T05:19:12.774Z"
+        },
+        "standalone_question": "Does my farm need water?",
+        "standalone_en": "Does my farm need water?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate.",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer."
+          ]
+        },
+        "content_transliterated": "mazya shetala panyachi avashyakata aahe ka "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या शेताला पाण्याची आवश्यकता आहे. \n\n**प्लॉट 1 (plot no 1 Arra 35)**:\n- सध्या मातीची आर्द्रता: 67% (आवश्यक 70%).\n- पाण्याची आवश्यकता आहे. आज पाणी देणे योग्य आहे, कारण पावसाची अपेक्षा कमी आहे.\n\n**प्लॉट 2 (plot no 2 Arra 36)**:\n- सध्या मातीची आर्द्रता: 63% (आवश्यक 70%).\n- पाण्याची आवश्यकता आहे. आज पाणी देणे योग्य आहे, कारण पावसाची अपेक्षा कमी आहे.\n\nतुम्ही आज पाणी देऊ शकता.",
+        "en": "Your farm needs water. \n\n**Plot 1 (plot no 1 Arra 35)*:\nSoil moisture currently: 67% (required 70%).\n- Needs water. It is appropriate to water today, because the expectation of rain is low.\n\n**Plot 2 (plot no 2 Arra 36)*:\nSoil moisture currently: 63% (required 70%).\n- Needs water. It is appropriate to water today, because the expectation of rain is low.\n\nYou can give water today.",
+        "timestamp": {
+          "$date": "2025-04-07T05:19:20.287Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "कॅन्सर पिवळ्यामध्ये काटा आल्यानंतर किती टक्क्याला पाणी द्यावे ",
+        "en": "What percentage of water should be watered after cancer yellow ",
+        "timestamp": {
+          "$date": "2025-04-07T05:20:04.646Z"
+        },
+        "standalone_question": "How much water should be given to a plant after a thorn appears in the yellow cancer plant?",
+        "standalone_en": "How much water should be given to a plant after a thorn appears in the yellow cancer plant?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "cancer pivalyamadhye kata alyanantar kiti takkyala pani dyave "
+      },
+      {
+        "role": "assistant",
+        "content": "कॅन्सर पिवळ्यामध्ये काटा आल्यानंतर, तुम्हाला मातीच्या आर्द्रतेच्या आधारावर पाणी द्यावे लागेल. सामान्यतः, कॅन्सर पिवळा (Grapes) साठी मातीची आर्द्रता 70% च्या आसपास असावी. \n\nजर मातीची आर्द्रता 60% पेक्षा कमी असेल, तर तुम्ही 100% पाण्याची आवश्यकता आहे. \n\nतुमच्या प्लॉटच्या सध्याच्या आर्द्रतेनुसार, तुम्हाला पाण्याची आवश्यकता आहे. तुम्ही 70% पर्यंत पोहोचण्यासाठी आवश्यक पाण्याची मात्रा द्या. \n\nतुमच्या प्लॉटच्या सध्याच्या आर्द्रतेसाठी मी अधिक माहिती देऊ शकतो, जर तुम्हाला हवी असेल.",
+        "en": "Once the cancer is in yellow, you'll need to water based on soil moisture. In general, soil moisture should be around 70% for cancer yellow (grapes). \n\nIf the soil moisture is less than 60%, you need 100% water. \n\nDepending on the current humidity of your plot, you need water. Give the amount of water you need to reach 70%. \n\nI can provide more information for the current humidity of your plot, if you want.",
+        "timestamp": {
+          "$date": "2025-04-07T05:20:10.897Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "सध्या प्लॉटमध्ये कुठले रोग व कीड येऊ शकते ",
+        "en": "What diseases and pests may be present in the plot at present ",
+        "timestamp": {
+          "$date": "2025-04-07T05:22:04.923Z"
+        },
+        "standalone_question": "What diseases and pests can currently affect the plot?",
+        "standalone_en": "What diseases and pests can currently affect the plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What pests predictions does fyllo support?\nA: Fyllo supports the following pests:\n   Aphids, Banana aphids, Bihar hairy caterpillar, Broad mites, Brown plant hopper, Capsule borer, Caterpillar,\n   Citrus Psylla, Cut worm, Early shoot borer, European red mites, Flat mites, Flea Beetle, Flea beetle, Fruit Borer,\n   Fruit Fly, Fruit borer, Fruit fly, Green aphids, Hispa beetle, Jassids, Leaf eating caterpillar, Leaf folder, Leaf miner,\n   Leaf roller, Mango hopper, Mealy Bug, Mealy bug, Mealybug, Mites, Perianth mites, Pin worm, Pink bollworm,\n   Pseudostem weevil, Red Spider Mites, Red palm weevil, Red spider mites, Rhinoceros beetle, Rhizome weevil, Root Grubs,\n   Root knot nematode, Rugose spiraling whitefly, Rust mites, Rust thrips, Scale Insects, Scale insects, Scarring beetle,\n   Shoot borer, Skipper, Spiraling whitefly, Spodoptera, Stem Borer, Stem borer, Striped beetle, Striped cucumber beetle,\n   Tea Mosquitto Bug, Tea mosquitto bug, Termite, Thrips, White Fly, White fly, Whitefly, and Wooly aphids.",
+            "Q: What is the pest prediction?\nA: Check the all pest predictions relevant. We support Aphids, Banana aphids, Bihar hairy caterpillar, Broad mites, Brown plant hopper, Capsule borer, Caterpillar,\n   Citrus Psylla, Cut worm, Early shoot borer, European red mites, Flat mites, Flea Beetle, Flea beetle, Fruit Borer,\n   Fruit Fly, Fruit borer, Fruit fly, Green aphids, Hispa beetle, Jassids, Leaf eating caterpillar, Leaf folder, Leaf miner,\n   Leaf roller, Mango hopper, Mealy Bug, Mealy bug, Mealybug, Mites, Perianth mites, Pin worm, Pink bollworm,\n   Pseudostem weevil, Red Spider Mites, Red palm weevil, Red spider mites, Rhinoceros beetle, Rhizome weevil, Root Grubs,\n   Root knot nematode, Rugose spiraling whitefly, Rust mites, Rust thrips, Scale Insects, Scale insects, Scarring beetle,\n   Shoot borer, Skipper, Spiraling whitefly, Spodoptera, Stem Borer, Stem borer, Striped beetle, Striped cucumber beetle,\n   Tea Mosquitto Bug, Tea mosquitto bug, Termite, Thrips, White Fly, White fly, Whitefly, and Wooly aphids.",
+            "Q: What diseases prediction does fyllo support?\nA: Fyllo supports the following diseases:\n    Alternaria, Alternaria Fruit Blotch, Alternaria blotch, Alternaria leaf blight,\n    Anthracnose, Bacterial Blight, Bacterial Canker, Bacterial Spot, Blister blight, Botrytis mold, Brown Rust,\n    Brown spot, Cercospora, Cercospora Leaf Spot, Cercospora leaf spot, Cigar end rot, Citrus scab, Colletotrichum, Damping off,\n    Diplodia, Downy mildew, Early Blight, Fruit Canker, Fruit canker, Fusarium Wilt, Fusarium wilt, Graphiola leaf spot,\n    Grey mold, Late Blight, Leaf Blight, Leaf Spot, Leaf spot, Marssonina blotch, Powdery Mildew, Powdery mildew,\n    Purple blotch, Red rot, Rice blast, Root knot nematode, Rust, Scab, Sheath blight, Sigatoka leaf spot, Stylar End Rot,\n    Whip smut, Xanthomonas, and Yellow Rust."
+          ]
+        },
+        "content_transliterated": "sadhya plautmadhye kuthale rog v kid yeu shakate "
+      },
+      {
+        "role": "assistant",
+        "content": "सध्या तुमच्या प्लॉटमध्ये कोणतेही रोग किंवा कीड येण्याची माहिती उपलब्ध नाही. \n\n**प्लॉट 1 (plot no 1 Arra 35)**:\n- रोग आणि कीड याबाबत कोणतीही मेट्रिक्स उपलब्ध नाहीत.\n\n**प्लॉट 2 (plot no 2 Arra 36)**:\n- रोग आणि कीड याबाबत कोणतीही मेट्रिक्स उपलब्ध नाहीत.\n\nतुमच्या प्लॉटमध्ये रोग किंवा कीड येण्याची शक्यता कमी आहे, पण सतत निरीक्षण ठेवणे महत्त्वाचे आहे.",
+        "en": "At present, there is no information about any disease or pest in your plot. \n\n**Plot 1 (plot no 1 Arra 35)*:\n- There are no metrics available on diseases and pests.\n\n**Plot 2 (plot no 2 Arra 36)*:\n- There are no metrics available on diseases and pests.\n\nThe chances of disease or pests coming into your plot are low, but it is important to keep constant monitoring.",
+        "timestamp": {
+          "$date": "2025-04-07T05:22:16.372Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "डेल्टा म्हणजे काय",
+        "en": "What is Delta?",
+        "timestamp": {
+          "$date": "2025-04-07T05:22:43.902Z"
+        },
+        "standalone_question": "What does \"delta\" mean?",
+        "standalone_en": "What does \"delta\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is the difference between the predicted delta and the calculated delta?\nA: Predicted delta is derived from weather prediction data, whereas calculated delta is derived from live data.",
+            "Q: What is Delta T & VPD?\nA: Delta T is the difference between dry bulb and wet bulb temperature values. When this value is between 2-9, the stomatal cells on plant leaves are open, increasing the effectiveness of foliar applications.\n   VPD (Vapor Pressure Deficit) represents the right time for fertigation when active absorption by a plant is highest."
+          ]
+        },
+        "content_transliterated": "delta mhanaje kay"
+      },
+      {
+        "role": "assistant",
+        "content": "डेल्टा म्हणजे तापमानातील फरक, विशेषतः \"ड्राय बल्ब\" (कोरडे तापमान) आणि \"वेट बल्ब\" (आर्द्र तापमान) यामध्ये असलेला फरक. \n\nडेल्टा T चा उपयोग पानांच्या स्टोमेटल पेशींच्या उघडण्याच्या स्थितीचे मूल्यांकन करण्यासाठी केला जातो. जेव्हा डेल्टा T 2 ते 9 दरम्यान असतो, तेव्हा पानांच्या स्टोमेटल पेशी उघडतात, ज्यामुळे फोलिअर अॅप्लिकेशन्सची कार्यक्षमता वाढते. \n\nयामुळे पाण्याच्या वापराचे व्यवस्थापन आणि फर्टिगेशनच्या योग्य वेळेचे ठरविण्यात मदत होते.",
+        "en": "Delta refers to the difference in temperature, especially the difference between \"dry bulb\" (dry temperature) and \"wet bulb\" (moist temperature). \n\nDelta T is used to evaluate the opening status of leaf stomatal cells. When delta T is between 2 and 9, leaf stomatal cells open up, increasing the efficiency of foliar applications. \n\nThis helps in managing water use and deciding the right time for fertigation.",
+        "timestamp": {
+          "$date": "2025-04-07T05:22:51.012Z"
+        }
+      }
+    ],
+    "farmer_id": "dattatrayhagawane",
+    "farmer_plot_ids": [
+      "plotno1arra35532",
+      "plotno2arra36341"
+    ],
+    "conversation_id": "67f3605073241029a19774b1",
+    "_id": "67f3605073241029a19774b1",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-07T05:27:43.914000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-07T05:19:12.774000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Disease <user uploaded image for analysis at 'rrplot/2025-04-07-1744000797521.jpg'>",
+        "en": "Disease <user uploaded image for analysis at 'rrplot/2025-04-07-1744000797521.jpg'>",
+        "timestamp": {
+          "$date": "2025-04-07T04:40:15.994Z"
+        },
+        "standalone_question": "What disease is depicted in the uploaded image?",
+        "standalone_en": "What disease is depicted in the uploaded image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the uploaded image indicates that there are no specific spray suggestions available for your young guava plant at the vegetative stage. Here are some general recommendations to maintain the health of your guava plants:\n\n1. **Regular Monitoring**: Keep an eye on the leaves for any further discoloration or pest activity.\n2. **Cultural Practices**: Ensure proper spacing and air circulation around the plants to reduce humidity, which can lead to fungal diseases.\n3. **Organic Options**: Consider using neem oil or insecticidal soap if you notice pests.\n\nIf the condition of the plant worsens or if you notice specific pests, please provide another image for further analysis.",
+        "en": "The analysis of the uploaded image indicates that there are no specific spray suggestions available for your young guava plant at the vegetative stage. Here are some general recommendations to maintain the health of your guava plants:\n\n1. **Regular Monitoring**: Keep an eye on the leaves for any further discoloration or pest activity.\n2. **Cultural Practices**: Ensure proper spacing and air circulation around the plants to reduce humidity, which can lead to fungal diseases.\n3. **Organic Options**: Consider using neem oil or insecticidal soap if you notice pests.\n\nIf the condition of the plant worsens or if you notice specific pests, please provide another image for further analysis.",
+        "timestamp": {
+          "$date": "2025-04-07T04:40:37.413Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Disease <user uploaded image for analysis at 'rrplot/2025-04-07-1744000955464.jpg'>",
+        "en": "Disease <user uploaded image for analysis at 'rrplot/2025-04-07-1744000955464.jpg'>",
+        "timestamp": {
+          "$date": "2025-04-07T04:43:03.337Z"
+        },
+        "standalone_question": "Could you analyze the newly uploaded image for any signs of disease?",
+        "standalone_en": "Could you analyze the newly uploaded image for any signs of disease?",
+        "retrieval": {
+          "tools": [
+            "analyse_crop_image  \nGets the analysis of the uploaded crop image for any diseases or pests."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the uploaded image shows that the plant has green leaves, but there are signs of stress, such as yellowing and browning of certain leaves. This could indicate potential issues like nutrient deficiency, pest infestation, or environmental stress.\n\nFor a more accurate analysis, a clearer image focusing on the affected areas would be helpful. Please ensure the photo is taken from a closer distance and in good focus, highlighting any specific symptoms on the leaves or stems.\n\nIf you suspect a pest or disease, I can provide spray recommendations based on the crop type and stage. Please provide a clearer image for a more detailed assessment.",
+        "en": "The analysis of the uploaded image shows that the plant has green leaves, but there are signs of stress, such as yellowing and browning of certain leaves. This could indicate potential issues like nutrient deficiency, pest infestation, or environmental stress.\n\nFor a more accurate analysis, a clearer image focusing on the affected areas would be helpful. Please ensure the photo is taken from a closer distance and in good focus, highlighting any specific symptoms on the leaves or stems.\n\nIf you suspect a pest or disease, I can provide spray recommendations based on the crop type and stage. Please provide a clearer image for a more detailed assessment.",
+        "timestamp": {
+          "$date": "2025-04-07T04:43:17.857Z"
+        }
+      }
+    ],
+    "farmer_id": "mohankumar",
+    "farmer_plot_ids": [
+      "rrplot"
+    ],
+    "conversation_id": "67f3572f3c62389d803554ef",
+    "_id": "67f3572f3c62389d803554ef",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-07T04:48:03.346000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-07T04:40:15.994000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં પાણીની ક્યારે જરૂર છે",
+        "en": "When do I need water on my farm?",
+        "timestamp": {
+          "$date": "2025-04-07T03:18:58.849Z"
+        },
+        "standalone_question": "When does my field need water?",
+        "standalone_en": "When does my field need water?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate.",
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: In the latest irrigation , sensor didn't drop to 0.\nA: 0 to 5 Kpa means soil is fully wet. It need not drop to 0 every time. Moisture less than 5 also means wet conditions. So, need not worry. Also ask to wait for 12 hours after irrigation.",
+            "Q: What should I do if the soil moisture sensor always shows wet values?\nA: Verify the irrigation frequency, check the installation point, and contact Fyllo representative if the issue persists."
+          ]
+        },
+        "content_transliterated": "mara khetaraman panini kyare jarur che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં, \"Teba Valo Palot\" માં, હાલની જમીનની ભેજ 76% અને 70% છે, જે 100% (વેટ) થી 60% (ડ્રાય) ની શ્રેણીમાં આવે છે. \n\nઆથી, તમે પાણી આપવાની જરૂર નથી, કારણ કે જમીનનું ભેજ આદર્શ શ્રેણીમાં છે. જો ભેજ 60% ની નીચે જાય, ત્યારે પાણી આપવું જોઈએ. \n\nજો તમને વધુ માહિતી જોઈએ, તો મને જણાવો!",
+        "en": "In your farm, \"Teba Valo Palot\", the current soil moisture is 76% and 70%, which falls in the range of 100% (VAT) to 60% (dry). \n\nTherefore, you do not need to water, as soil moisture is in the ideal range. If the humidity goes below 60%, water should be given. \n\nIf you need more information, let me know!",
+        "timestamp": {
+          "$date": "2025-04-07T03:19:07.218Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારો પાક તૈયાર થવામાં કેટલા દિવસ બાકી છે",
+        "en": "How many days are left for my crop to be ready",
+        "timestamp": {
+          "$date": "2025-04-07T03:19:40.217Z"
+        },
+        "standalone_question": "How many days are left until my crop is ready?",
+        "standalone_en": "How many days are left until my crop is ready?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is the right time to sow the seeds?\nA: Check the weather forecast for the next few days (tool call), and then decide the right time for the crop, based on own's knowledge."
+          ]
+        },
+        "content_transliterated": "maro pak taiyar thavaman ketla divas baaki che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પાક \"Muskmelon\" માટે, હાલની સક્રિય તબક્કો \"Fruit maturity\" છે, જે 28 માર્ચ 2025 થી શરૂ થયો છે. \n\nઆ તબક્કામાં, પાકની કાપણી માટેની આગામી તબક્કો \"Harvest\" છે. સામાન્ય રીતે, \"Fruit maturity\" તબક્કો લગભગ 15-20 દિવસ સુધી ચાલે છે. \n\nતેથી, તમારું પાક કાપવા માટે લગભગ 10-15 દિવસ બાકી છે. \n\nજો તમને વધુ માહિતી જોઈએ, તો મને જણાવો!",
+        "en": "For your crop \"Muskmelon\", the current active phase is \"Fruit maturity\", which has started from 28 March 2025. \n\nIn this phase, the next stage for harvesting the crop is \"harvesting\". Generally, the \"Fruit Maturity\" phase lasts for about 15-20 days. \n\nSo, there are about 10-15 days left for you to harvest your crop. \n\nIf you need more information, let me know!",
+        "timestamp": {
+          "$date": "2025-04-07T03:19:44.692Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં ભમરાતા ભમરા દેખાતા નથી તો શું કરવું",
+        "en": "What to do if i don't see bumblebees in my farm",
+        "timestamp": {
+          "$date": "2025-04-07T03:20:27.362Z"
+        },
+        "standalone_question": "What should I do if I don't see any buzzing bees in my field?",
+        "standalone_en": "What should I do if I don't see any buzzing bees in my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara khetaraman bhamrata bhamra dekhata nathi to shun karvu"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં, \"Teba Valo Palot\" માં, 4 એપ્રિલ 2025 ના રોજ ભમરા માટેની સ્પ્રે કરવાની ભલામણ કરવામાં આવી હતી. આ સ્પ્રે માટેની કેટલીક દવાઓ છે:\n\n1. **Azoxystrobin 18.2% + Difenoconazole 11.4% SC** - 0.5 મીલીલિટર\n2. **Diafenthiuron** - 0.6 ગ્રામ\n\nઅથવા\n\n1. **Tebuconazole 50% + Trifloxystrobin 25%** - 0.5 ગ્રામ\n2. **Thiacloprid** - 0.8 મીલીલિટર\n\nઅથવા\n\n1. **Captan 70% + Hexaconazole 5% WP** - 1 ગ્રામ\n2. **Thiamethoxam 25% WG + Lamdacyhalothrin 5% SC** - 0.5 મીલીલિટર\n\nજો તમે આ સ્પ્રે કરી છે અને હજુ પણ ભમરા દેખાતા નથી, તો થોડીવાર રાહ જુઓ. જો ફાઇલો એપ્લિકેશન ફરીથી સ્પ્રે કરવાની ભલામણ કરે છે, તો પછી ફરીથી સ્પ્રે કરો. \n\nજો તમને વધુ મદદ જોઈએ, તો મને જણાવો!",
+        "en": "On your farm, \"Teba Valo Palot\", spraying for bumblebees was recommended on April 4, 2025. Some of the medications for this spray are:\n\n1. **Azoxystrobin 18.2% + Difenoconazole 11.4% SC** - 0.5 milliliters\n2. **Diafenthiuron** - 0.6 g\n\nor\n\n1. **Tebuconazole 50% + Trifloxystrobin 25%** - 0.5 grams\n2. **Thiacloprid** - 0.8 milliliters\n\nor\n\n1. **Captan 70% + Hexaconazole 5% WP** - 1 gram\n2. **Thiamethoxam 25% WG + Lamdacyhalothrin 5% SC** - 0.5 milliliters\n\nIf you've sprayed this and still don't look bumblebees, wait a while. If the files recommend re-spraying the application, then spray again. \n\nIf you need more help, let me know!",
+        "timestamp": {
+          "$date": "2025-04-07T03:20:38.387Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં ટેટી નો કોક લોકો જાય છે તો શું કરવું",
+        "en": "What to do if Tetty's Coke people go to my farm",
+        "timestamp": {
+          "$date": "2025-04-07T03:21:41.142Z"
+        },
+        "standalone_question": "What should I do if there are caterpillars in my field?",
+        "standalone_en": "What should I do if there are caterpillars in my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara khetaraman tatty no kok loko jay che to shun karvu"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં \"ટેટી\" (જેમ કે ટેટીનો કોક) માટે કોઈ સ્પ્રે કરવાની ભલામણ નથી. \n\nજો તમે ટેટી માટે કોઈ સ્પ્રે કરી છે અને હજુ પણ સમસ્યા છે, તો થોડીવાર રાહ જુઓ. જો ફાઇલો એપ્લિકેશન ફરીથી સ્પ્રે કરવાની ભલામણ કરે છે, ત્યારે ફરીથી સ્પ્રે કરો. \n\nજો તમને વધુ મદદ જોઈએ, તો મને જણાવો!",
+        "en": "It is not recommended to spray any for \"teti\" (such as tettino coke) in your farm. \n\nIf you've sprayed any for Taity and still have a problem, wait a while. If the files recommend re-spraying the application, spray again. \n\nIf you need more help, let me know!",
+        "timestamp": {
+          "$date": "2025-04-07T03:21:46.469Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ટેટી  ની સાઈઝ બનાવવા માટે કયું ખાતર વાપરવું જોઈએ",
+        "en": "Which fertilizer should be used to make the size of the teti",
+        "timestamp": {
+          "$date": "2025-04-07T03:22:31.691Z"
+        },
+        "standalone_question": "What fertilizer should be used to increase the size of the \"ટેટી\"?",
+        "standalone_en": "What fertilizer should be used to increase the size of the \"ટેટી\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "tatty knee saijh banavava mate kayu khatar vaparvu joie"
+      },
+      {
+        "role": "assistant",
+        "content": "ટેટી (મસકમેલોન) ની સાઈઝ અને ગુણવત્તા સુધારવા માટે, તમે NPK ખાતરોનો ઉપયોગ કરી શકો છો. સામાન્ય રીતે, 20-20-20 અથવા 15-30-15 જેવા ખાતરો યોગ્ય રહેશે. \n\nઆ ખાતરોમાં નાઈટ્રોજન, ફોસ્ફોરસ અને પોટેશિયમનું સંતુલિત પ્રમાણ છે, જે પાકની વૃદ્ધિ અને ફળના વિકાસ માટે મહત્વપૂર્ણ છે. \n\nતમે ખાતરનો ઉપયોગ કરતી વખતે, જમીનની સ્થિતિ અને પાકની જરૂરિયાતોનું ધ્યાન રાખવું મહત્વપૂર્ણ છે. \n\nજો તમને વધુ માહિતી જોઈએ, તો મને જણાવો!",
+        "en": "To improve the size and quality of the teti (muscumelon), you can use NPK fertilizers. Generally, fertilizers like 20-20-20 or 15-30-15 will be suitable. \n\nThese fertilizers contain a balanced amount of nitrogen, phosphorus and potassium, which are important for crop growth and fruit growth. \n\nWhile you use fertilizer, it is important to take care of the condition of the soil and the requirements of the crop. \n\nIf you need more information, let me know!",
+        "timestamp": {
+          "$date": "2025-04-07T03:22:36.563Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "એક એકર નું માપ કેટલું છે ખાતરનું",
+        "en": "What is the size of an acre of fertilizer?",
+        "timestamp": {
+          "$date": "2025-04-07T03:23:36.958Z"
+        },
+        "standalone_question": "What is the measurement of fertilizer needed for one acre?",
+        "standalone_en": "What is the measurement of fertilizer needed for one acre?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "ek ekar nu map ketalun che khataranun"
+      },
+      {
+        "role": "assistant",
+        "content": "એક એકરનું માપ 43,560 ચોરસ ફૂટ (Square Feet) છે. \n\nખાતરનો ઉપયોગ કરતી વખતે, ખાતરના પ્રકાર અને પાકની જરૂરિયાતો અનુસાર, એક એકરમાં કેટલું ખાતર વાપરવું તે નક્કી કરવું મહત્વપૂર્ણ છે. સામાન્ય રીતે, ખાતરનો ઉપયોગ 100-200 કિલોગ્રામ પ્રતિ એકર થાય છે, પરંતુ આ પાકના પ્રકાર અને જમીનની સ્થિતિ પર આધાર રાખે છે.\n\nજો તમને વધુ માહિતી જોઈએ, તો મને જણાવો!",
+        "en": "The size of one acre is 43,560 square feet. \n\nWhen using fertilizer, it is important to decide how much fertilizer to use in an acre, according to the type of fertilizer and crop requirements. Generally, fertilizer is used in 100-200 kg per acre, but this depends on the type of crop and the condition of the soil.\n\nIf you need more information, let me know!",
+        "timestamp": {
+          "$date": "2025-04-07T03:23:42.340Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ટેટી ની સાઇડ બનાવવા કયુ ખાતર વાપરવું અને એકરે કેટલું વાપરવું ",
+        "en": "Which fertilizer to use to make the side of the tetti and how much to use in the acre ",
+        "timestamp": {
+          "$date": "2025-04-07T03:25:02.248Z"
+        },
+        "standalone_question": "What type of fertilizer should be used to enhance the size of muskmelons, and how much should be applied per acre?",
+        "standalone_en": "What type of fertilizer should be used to enhance the size of muskmelons, and how much should be applied per acre?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "tatty knee side banavava kayu khatar vaparvu ane ekre ketalun vaparvu "
+      },
+      {
+        "role": "assistant",
+        "content": "ટેટી (મસકમેલોન) ની સાઈઝ અને ગુણવત્તા સુધારવા માટે, તમે નીચેના ખાતરોનો ઉપયોગ કરી શકો છો:\n\n1. **NPK 20-20-20** અથવા **15-30-15** - આ ખાતરોમાં નાઈટ્રોજન, ફોસ્ફોરસ અને પોટેશિયમનું સંતુલિત પ્રમાણ છે, જે પાકની વૃદ્ધિ અને ફળના વિકાસ માટે મહત્વપૂર્ણ છે.\n\n**એકરે ખાતરનો ઉપયોગ:**\n- સામાન્ય રીતે, 100-200 કિલોગ્રામ ખાતર પ્રતિ એકર વાપરવું યોગ્ય છે. \n- ખાસ કરીને, 150 કિલોગ્રામ NPK ખાતર પ્રતિ એકર એક સારી શરૂઆત હોઈ શકે છે.\n\nખાતરનો ઉપયોગ કરતી વખતે, જમીનની સ્થિતિ અને પાકની જરૂરિયાતોનું ધ્યાન રાખવું મહત્વપૂર્ણ છે. \n\nજો તમને વધુ માહિતી જોઈએ, તો મને જણાવો!",
+        "en": "To improve the size and quality of the teti (muscamalone), you can use the following fertilizers:\n\n1. **NPK 20-20-20** or **15-30-15** - These fertilizers have a balanced amount of nitrogen, phosphorus and potassium, which is important for crop growth and fruit growth.\n\n**Acre fertilizer usage:**\nGenerally, 100-200 kg of fertilizer per acre is worth using. \nIn particular, 150 kilograms of NPK fertilizer per acre can be a good start.\n\nWhile using fertilizers, it is important to take care of the condition of the soil and the requirements of the crop. \n\nIf you need more information, let me know!",
+        "timestamp": {
+          "$date": "2025-04-07T03:25:07.792Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મરચામાં કૂકડો માટે કઈ દવા નાખવી જોઈએ",
+        "en": "What medicine should be added to the chili for the dog",
+        "timestamp": {
+          "$date": "2025-04-07T03:26:28.816Z"
+        },
+        "standalone_question": "What medicine should be used for controlling aphids in chili plants?",
+        "standalone_en": "What medicine should be used for controlling aphids in chili plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "maracaman kukado mate kai dava nakhavi joie"
+      },
+      {
+        "role": "assistant",
+        "content": "મરચામાં કૂકડો (અથવા કૂકડા) માટે, તમે નીચેની દવાઓનો ઉપયોગ કરી શકો છો:\n\n1. **Chlorpyrifos** - 2-3 મીલીલિટર પ્રતિ લિટર પાણીમાં મિશ્રિત કરો.\n2. **Thiamethoxam** - 0.5 ગ્રામ પ્રતિ લિટર પાણીમાં મિશ્રિત કરો.\n\nઆ દવાઓ કૂકડાને નિયંત્રિત કરવામાં મદદ કરશે. સ્પ્રે કરતી વખતે, સૂર્યપ્રકાશમાં ન કરો અને વરસાદી દિવસોમાં સ્પ્રે ન કરો.\n\nજો તમને વધુ માહિતી જોઈએ, તો મને જણાવો!",
+        "en": "For chickens (or chickens) in chili, you can use the following medications:\n\n1. **Chlorpyrifos** - Mix in 2-3 milliliters per litre of water.\n2. **Thiamethoxam** - Mix in 0.5 grams per litre of water.\n\nThese medicines will help in controlling the dog. While spraying, do not indulge in sunlight and do not spray on rainy days.\n\nIf you need more information, let me know!",
+        "timestamp": {
+          "$date": "2025-04-07T03:26:33.631Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મરચામાં વધુ ફાલ માટે કઈ દવા અથવા ખાતર આપવો જોઈએ",
+        "en": "What medicine or fertilizer should be given for more fall in chili",
+        "timestamp": {
+          "$date": "2025-04-07T03:27:11.048Z"
+        },
+        "standalone_question": "What fertilizer or pesticide should be used to increase the yield of chili peppers?",
+        "standalone_en": "What fertilizer or pesticide should be used to increase the yield of chili peppers?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How to improve the germination percent\nA: Use of good quality seeds and seeds to be treated with insecticide, Fungicide and biological agents",
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed"
+          ]
+        },
+        "content_transliterated": "maracaman vadhu fall mate kai dava athava khatar apavo joie"
+      },
+      {
+        "role": "assistant",
+        "content": "મરચામાં વધુ ફળો માટે, તમે નીચેના ખાતરો અને દવાઓનો ઉપયોગ કરી શકો છો:\n\n### ખાતરો:\n1. **NPK 20-20-20** - આ ખાતર ફળના વિકાસને પ્રોત્સાહિત કરે છે.\n2. **Calcium Nitrate** - ફળના ગુણવત્તા અને કદને સુધારવા માટે ઉપયોગી છે.\n3. **Potassium Sulfate** - ફળના સ્વાદ અને રંગને સુધારવા માટે મદદ કરે છે.\n\n### દવાઓ:\n1. **Growth Regulators**: \n   - **Gibberellic Acid** - ફળના વિકાસને પ્રોત્સાહિત કરવા માટે.\n   - **NAA (Naphthalene Acetic Acid)** - ફળના ગળવા અને વૃદ્ધિ માટે.\n\n### ઉપયોગ:\n- ખાતરોનો ઉપયોગ 100-150 કિલોગ્રામ પ્રતિ એકર કરી શકાય છે, પરંતુ પાકની જરૂરિયાતો અને જમીનની સ્થિતિને ધ્યાનમાં રાખીને આમાં ફેરફાર કરી શકાય છે.\n\nજો તમને વધુ માહિતી જોઈએ, તો મને જણાવો!",
+        "en": "For more fruits in chili, you can use the following fertilizers and medications:\n\n### Fertilizers:\n1. **NPK 20-20-20** - This fertilizer promotes the growth of the fruit.\n2. **Calcium Nitrate** - useful for improving the quality and size of the fruit.\n3. **Potassium Sulfate** - Helps to improve the taste and color of the fruit.\n\n### Medicines:\n1. **Growth Regulators**: \n   * **Gibberellic Acid** - To encourage fruit growth.\n   **NAA (Naphthalene Acetic Acid)** - For fruit melting and growth.\n\n### Usage:\nFertilizers can be used at 100-150 kg per acre, but this can be modified keeping in mind the crop requirements and the condition of the land.\n\nIf you need more information, let me know!",
+        "timestamp": {
+          "$date": "2025-04-07T03:27:19.021Z"
+        }
+      }
+    ],
+    "farmer_id": "mukeshbhaidamrajidevda",
+    "farmer_plot_ids": [
+      "tebavalopalot"
+    ],
+    "conversation_id": "67f344222cbb697f306e4bc4",
+    "_id": "67f344222cbb697f306e4bc4",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-07T03:32:11.057000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-07T03:18:58.849000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં પાણીની ક્યારે જરૂર છે",
+        "en": "When do I need water on my farm?",
+        "timestamp": {
+          "$date": "2025-04-07T03:18:58.849Z"
+        },
+        "standalone_question": "When does my field need water?",
+        "standalone_en": "When does my field need water?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate.",
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: In the latest irrigation , sensor didn't drop to 0.\nA: 0 to 5 Kpa means soil is fully wet. It need not drop to 0 every time. Moisture less than 5 also means wet conditions. So, need not worry. Also ask to wait for 12 hours after irrigation.",
+            "Q: What should I do if the soil moisture sensor always shows wet values?\nA: Verify the irrigation frequency, check the installation point, and contact Fyllo representative if the issue persists."
+          ]
+        },
+        "content_transliterated": "mara khetaraman panini kyare jarur che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં, \"Teba Valo Palot\" માં, હાલની જમીનની ભેજ 76% અને 70% છે, જે 100% (વેટ) થી 60% (ડ્રાય) ની શ્રેણીમાં આવે છે. \n\nઆથી, તમે પાણી આપવાની જરૂર નથી, કારણ કે જમીનનું ભેજ આદર્શ શ્રેણીમાં છે. જો ભેજ 60% ની નીચે જાય, ત્યારે પાણી આપવું જોઈએ. \n\nજો તમને વધુ માહિતી જોઈએ, તો મને જણાવો!",
+        "en": "In your farm, \"Teba Valo Palot\", the current soil moisture is 76% and 70%, which falls in the range of 100% (VAT) to 60% (dry). \n\nTherefore, you do not need to water, as soil moisture is in the ideal range. If the humidity goes below 60%, water should be given. \n\nIf you need more information, let me know!",
+        "timestamp": {
+          "$date": "2025-04-07T03:19:07.218Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારો પાક તૈયાર થવામાં કેટલા દિવસ બાકી છે",
+        "en": "How many days are left for my crop to be ready",
+        "timestamp": {
+          "$date": "2025-04-07T03:19:40.217Z"
+        },
+        "standalone_question": "How many days are left until my crop is ready?",
+        "standalone_en": "How many days are left until my crop is ready?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is the right time to sow the seeds?\nA: Check the weather forecast for the next few days (tool call), and then decide the right time for the crop, based on own's knowledge."
+          ]
+        },
+        "content_transliterated": "maro pak taiyar thavaman ketla divas baaki che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પાક \"Muskmelon\" માટે, હાલની સક્રિય તબક્કો \"Fruit maturity\" છે, જે 28 માર્ચ 2025 થી શરૂ થયો છે. \n\nઆ તબક્કામાં, પાકની કાપણી માટેની આગામી તબક્કો \"Harvest\" છે. સામાન્ય રીતે, \"Fruit maturity\" તબક્કો લગભગ 15-20 દિવસ સુધી ચાલે છે. \n\nતેથી, તમારું પાક કાપવા માટે લગભગ 10-15 દિવસ બાકી છે. \n\nજો તમને વધુ માહિતી જોઈએ, તો મને જણાવો!",
+        "en": "For your crop \"Muskmelon\", the current active phase is \"Fruit maturity\", which has started from 28 March 2025. \n\nIn this phase, the next stage for harvesting the crop is \"harvesting\". Generally, the \"Fruit Maturity\" phase lasts for about 15-20 days. \n\nSo, there are about 10-15 days left for you to harvest your crop. \n\nIf you need more information, let me know!",
+        "timestamp": {
+          "$date": "2025-04-07T03:19:44.692Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં ભમરાતા ભમરા દેખાતા નથી તો શું કરવું",
+        "en": "What to do if i don't see bumblebees in my farm",
+        "timestamp": {
+          "$date": "2025-04-07T03:20:27.362Z"
+        },
+        "standalone_question": "What should I do if I don't see any buzzing bees in my field?",
+        "standalone_en": "What should I do if I don't see any buzzing bees in my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara khetaraman bhamrata bhamra dekhata nathi to shun karvu"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં, \"Teba Valo Palot\" માં, 4 એપ્રિલ 2025 ના રોજ ભમરા માટેની સ્પ્રે કરવાની ભલામણ કરવામાં આવી હતી. આ સ્પ્રે માટેની કેટલીક દવાઓ છે:\n\n1. **Azoxystrobin 18.2% + Difenoconazole 11.4% SC** - 0.5 મીલીલિટર\n2. **Diafenthiuron** - 0.6 ગ્રામ\n\nઅથવા\n\n1. **Tebuconazole 50% + Trifloxystrobin 25%** - 0.5 ગ્રામ\n2. **Thiacloprid** - 0.8 મીલીલિટર\n\nઅથવા\n\n1. **Captan 70% + Hexaconazole 5% WP** - 1 ગ્રામ\n2. **Thiamethoxam 25% WG + Lamdacyhalothrin 5% SC** - 0.5 મીલીલિટર\n\nજો તમે આ સ્પ્રે કરી છે અને હજુ પણ ભમરા દેખાતા નથી, તો થોડીવાર રાહ જુઓ. જો ફાઇલો એપ્લિકેશન ફરીથી સ્પ્રે કરવાની ભલામણ કરે છે, તો પછી ફરીથી સ્પ્રે કરો. \n\nજો તમને વધુ મદદ જોઈએ, તો મને જણાવો!",
+        "en": "On your farm, \"Teba Valo Palot\", spraying for bumblebees was recommended on April 4, 2025. Some of the medications for this spray are:\n\n1. **Azoxystrobin 18.2% + Difenoconazole 11.4% SC** - 0.5 milliliters\n2. **Diafenthiuron** - 0.6 g\n\nor\n\n1. **Tebuconazole 50% + Trifloxystrobin 25%** - 0.5 grams\n2. **Thiacloprid** - 0.8 milliliters\n\nor\n\n1. **Captan 70% + Hexaconazole 5% WP** - 1 gram\n2. **Thiamethoxam 25% WG + Lamdacyhalothrin 5% SC** - 0.5 milliliters\n\nIf you've sprayed this and still don't look bumblebees, wait a while. If the files recommend re-spraying the application, then spray again. \n\nIf you need more help, let me know!",
+        "timestamp": {
+          "$date": "2025-04-07T03:20:38.387Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં ટેટી નો કોક લોકો જાય છે તો શું કરવું",
+        "en": "What to do if Tetty's Coke people go to my farm",
+        "timestamp": {
+          "$date": "2025-04-07T03:21:41.142Z"
+        },
+        "standalone_question": "What should I do if there are caterpillars in my field?",
+        "standalone_en": "What should I do if there are caterpillars in my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara khetaraman tatty no kok loko jay che to shun karvu"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં \"ટેટી\" (જેમ કે ટેટીનો કોક) માટે કોઈ સ્પ્રે કરવાની ભલામણ નથી. \n\nજો તમે ટેટી માટે કોઈ સ્પ્રે કરી છે અને હજુ પણ સમસ્યા છે, તો થોડીવાર રાહ જુઓ. જો ફાઇલો એપ્લિકેશન ફરીથી સ્પ્રે કરવાની ભલામણ કરે છે, ત્યારે ફરીથી સ્પ્રે કરો. \n\nજો તમને વધુ મદદ જોઈએ, તો મને જણાવો!",
+        "en": "It is not recommended to spray any for \"teti\" (such as tettino coke) in your farm. \n\nIf you've sprayed any for Taity and still have a problem, wait a while. If the files recommend re-spraying the application, spray again. \n\nIf you need more help, let me know!",
+        "timestamp": {
+          "$date": "2025-04-07T03:21:46.469Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ટેટી  ની સાઈઝ બનાવવા માટે કયું ખાતર વાપરવું જોઈએ",
+        "en": "Which fertilizer should be used to make the size of the teti",
+        "timestamp": {
+          "$date": "2025-04-07T03:22:31.691Z"
+        },
+        "standalone_question": "What fertilizer should be used to increase the size of the \"ટેટી\" (teti)?",
+        "standalone_en": "What fertilizer should be used to increase the size of the \"ટેટી\" (teti)?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "tatty knee saijh banavava mate kayu khatar vaparvu joie"
+      },
+      {
+        "role": "assistant",
+        "content": "ટેટી (મસકમેલોન) ની સાઈઝ અને ગુણવત્તા સુધારવા માટે, તમે NPK ખાતરોનો ઉપયોગ કરી શકો છો. સામાન્ય રીતે, 20-20-20 અથવા 15-30-15 જેવા ખાતરો યોગ્ય રહેશે. \n\nઆ ખાતરોમાં નાઈટ્રોજન, ફોસ્ફોરસ અને પોટેશિયમનું સંતુલિત પ્રમાણ છે, જે પાકની વૃદ્ધિ અને ફળના વિકાસ માટે મહત્વપૂર્ણ છે. \n\nતમે ખાતરનો ઉપયોગ કરતી વખતે, જમીનની સ્થિતિ અને પાકની જરૂરિયાતોનું ધ્યાન રાખવું મહત્વપૂર્ણ છે. \n\nજો તમને વધુ માહિતી જોઈએ, તો મને જણાવો!",
+        "en": "To improve the size and quality of the teti (muscumelon), you can use NPK fertilizers. Generally, fertilizers like 20-20-20 or 15-30-15 will be suitable. \n\nThese fertilizers contain a balanced amount of nitrogen, phosphorus and potassium, which are important for crop growth and fruit growth. \n\nWhile you use fertilizer, it is important to take care of the condition of the soil and the requirements of the crop. \n\nIf you need more information, let me know!",
+        "timestamp": {
+          "$date": "2025-04-07T03:22:36.563Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "એક એકર નું માપ કેટલું છે ખાતરનું",
+        "en": "What is the size of an acre of fertilizer?",
+        "timestamp": {
+          "$date": "2025-04-07T03:23:36.958Z"
+        },
+        "standalone_question": "What is the measurement of fertilizer needed for one acre?",
+        "standalone_en": "What is the measurement of fertilizer needed for one acre?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "ek ekar nu map ketalun che khataranun"
+      },
+      {
+        "role": "assistant",
+        "content": "એક એકરનું માપ 43,560 ચોરસ ફૂટ (Square Feet) છે. \n\nખાતરનો ઉપયોગ કરતી વખતે, ખાતરના પ્રકાર અને પાકની જરૂરિયાતો અનુસાર, એક એકરમાં કેટલું ખાતર વાપરવું તે નક્કી કરવું મહત્વપૂર્ણ છે. સામાન્ય રીતે, ખાતરનો ઉપયોગ 100-200 કિલોગ્રામ પ્રતિ એકર થાય છે, પરંતુ આ પાકના પ્રકાર અને જમીનની સ્થિતિ પર આધાર રાખે છે.\n\nજો તમને વધુ માહિતી જોઈએ, તો મને જણાવો!",
+        "en": "The size of one acre is 43,560 square feet. \n\nWhen using fertilizer, it is important to decide how much fertilizer to use in an acre, according to the type of fertilizer and crop requirements. Generally, fertilizer is used in 100-200 kg per acre, but this depends on the type of crop and the condition of the soil.\n\nIf you need more information, let me know!",
+        "timestamp": {
+          "$date": "2025-04-07T03:23:42.340Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ટેટી ની સાઇડ બનાવવા કયુ ખાતર વાપરવું અને એકરે કેટલું વાપરવું ",
+        "en": "Which fertilizer to use to make the side of the tetti and how much to use in the acre ",
+        "timestamp": {
+          "$date": "2025-04-07T03:25:02.248Z"
+        },
+        "standalone_question": "What type of fertilizer should be used to enhance the size of muskmelons, and how much should be applied per acre?",
+        "standalone_en": "What type of fertilizer should be used to enhance the size of muskmelons, and how much should be applied per acre?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "tatty knee side banavava kayu khatar vaparvu ane ekre ketalun vaparvu "
+      },
+      {
+        "role": "assistant",
+        "content": "ટેટી (મસકમેલોન) ની સાઈઝ અને ગુણવત્તા સુધારવા માટે, તમે નીચેના ખાતરોનો ઉપયોગ કરી શકો છો:\n\n1. **NPK 20-20-20** અથવા **15-30-15** - આ ખાતરોમાં નાઈટ્રોજન, ફોસ્ફોરસ અને પોટેશિયમનું સંતુલિત પ્રમાણ છે, જે પાકની વૃદ્ધિ અને ફળના વિકાસ માટે મહત્વપૂર્ણ છે.\n\n**એકરે ખાતરનો ઉપયોગ:**\n- સામાન્ય રીતે, 100-200 કિલોગ્રામ ખાતર પ્રતિ એકર વાપરવું યોગ્ય છે. \n- ખાસ કરીને, 150 કિલોગ્રામ NPK ખાતર પ્રતિ એકર એક સારી શરૂઆત હોઈ શકે છે.\n\nખાતરનો ઉપયોગ કરતી વખતે, જમીનની સ્થિતિ અને પાકની જરૂરિયાતોનું ધ્યાન રાખવું મહત્વપૂર્ણ છે. \n\nજો તમને વધુ માહિતી જોઈએ, તો મને જણાવો!",
+        "en": "To improve the size and quality of the teti (muscamalone), you can use the following fertilizers:\n\n1. **NPK 20-20-20** or **15-30-15** - These fertilizers have a balanced amount of nitrogen, phosphorus and potassium, which is important for crop growth and fruit growth.\n\n**Acre fertilizer usage:**\nGenerally, 100-200 kg of fertilizer per acre is worth using. \nIn particular, 150 kilograms of NPK fertilizer per acre can be a good start.\n\nWhile using fertilizers, it is important to take care of the condition of the soil and the requirements of the crop. \n\nIf you need more information, let me know!",
+        "timestamp": {
+          "$date": "2025-04-07T03:25:07.792Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મરચામાં કૂકડો માટે કઈ દવા નાખવી જોઈએ",
+        "en": "What medicine should be added to the chili for the dog",
+        "timestamp": {
+          "$date": "2025-04-07T03:26:28.816Z"
+        },
+        "standalone_question": "What medicine should be used for controlling aphids in chili plants?",
+        "standalone_en": "What medicine should be used for controlling aphids in chili plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "maracaman kukado mate kai dava nakhavi joie"
+      },
+      {
+        "role": "assistant",
+        "content": "મરચામાં કૂકડો (અથવા કૂકડા) માટે, તમે નીચેની દવાઓનો ઉપયોગ કરી શકો છો:\n\n1. **Chlorpyrifos** - 2-3 મીલીલિટર પ્રતિ લિટર પાણીમાં મિશ્રિત કરો.\n2. **Thiamethoxam** - 0.5 ગ્રામ પ્રતિ લિટર પાણીમાં મિશ્રિત કરો.\n\nઆ દવાઓ કૂકડાને નિયંત્રિત કરવામાં મદદ કરશે. સ્પ્રે કરતી વખતે, સૂર્યપ્રકાશમાં ન કરો અને વરસાદી દિવસોમાં સ્પ્રે ન કરો.\n\nજો તમને વધુ માહિતી જોઈએ, તો મને જણાવો!",
+        "en": "For chickens (or chickens) in chili, you can use the following medications:\n\n1. **Chlorpyrifos** - Mix in 2-3 milliliters per litre of water.\n2. **Thiamethoxam** - Mix in 0.5 grams per litre of water.\n\nThese medicines will help in controlling the dog. While spraying, do not indulge in sunlight and do not spray on rainy days.\n\nIf you need more information, let me know!",
+        "timestamp": {
+          "$date": "2025-04-07T03:26:33.631Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મરચામાં વધુ ફાલ માટે કઈ દવા અથવા ખાતર આપવો જોઈએ",
+        "en": "What medicine or fertilizer should be given for more fall in chili",
+        "timestamp": {
+          "$date": "2025-04-07T03:27:11.048Z"
+        },
+        "standalone_question": "What fertilizer or pesticide should be used to increase the yield of chili peppers?",
+        "standalone_en": "What fertilizer or pesticide should be used to increase the yield of chili peppers?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How to improve the germination percent\nA: Use of good quality seeds and seeds to be treated with insecticide, Fungicide and biological agents",
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed"
+          ]
+        },
+        "content_transliterated": "maracaman vadhu fall mate kai dava athava khatar apavo joie"
+      },
+      {
+        "role": "assistant",
+        "content": "મરચામાં વધુ ફળો માટે, તમે નીચેના ખાતરો અને દવાઓનો ઉપયોગ કરી શકો છો:\n\n### ખાતરો:\n1. **NPK 20-20-20** - આ ખાતર ફળના વિકાસને પ્રોત્સાહિત કરે છે.\n2. **Calcium Nitrate** - ફળના ગુણવત્તા અને કદને સુધારવા માટે ઉપયોગી છે.\n3. **Potassium Sulfate** - ફળના સ્વાદ અને રંગને સુધારવા માટે મદદ કરે છે.\n\n### દવાઓ:\n1. **Growth Regulators**: \n   - **Gibberellic Acid** - ફળના વિકાસને પ્રોત્સાહિત કરવા માટે.\n   - **NAA (Naphthalene Acetic Acid)** - ફળના ગળવા અને વૃદ્ધિ માટે.\n\n### ઉપયોગ:\n- ખાતરોનો ઉપયોગ 100-150 કિલોગ્રામ પ્રતિ એકર કરી શકાય છે, પરંતુ પાકની જરૂરિયાતો અને જમીનની સ્થિતિને ધ્યાનમાં રાખીને આમાં ફેરફાર કરી શકાય છે.\n\nજો તમને વધુ માહિતી જોઈએ, તો મને જણાવો!",
+        "en": "For more fruits in chili, you can use the following fertilizers and medications:\n\n### Fertilizers:\n1. **NPK 20-20-20** - This fertilizer promotes the growth of the fruit.\n2. **Calcium Nitrate** - useful for improving the quality and size of the fruit.\n3. **Potassium Sulfate** - Helps to improve the taste and color of the fruit.\n\n### Medicines:\n1. **Growth Regulators**: \n   * **Gibberellic Acid** - To encourage fruit growth.\n   **NAA (Naphthalene Acetic Acid)** - For fruit melting and growth.\n\n### Usage:\nFertilizers can be used at 100-150 kg per acre, but this can be modified keeping in mind the crop requirements and the condition of the land.\n\nIf you need more information, let me know!",
+        "timestamp": {
+          "$date": "2025-04-07T03:27:19.021Z"
+        }
+      }
+    ],
+    "farmer_id": "mukeshbhaidamrajidevda",
+    "farmer_plot_ids": [
+      "tebavalopalot"
+    ],
+    "conversation_id": "67f344222cbb697f306e4bc4",
+    "_id": "67f344222cbb697f306e4bc4",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-07T03:32:11.057000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-07T03:18:58.849000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Pani सोडले ahe taripan Machine response det nahi",
+        "en": "Water is released but the machine does not respond",
+        "timestamp": {
+          "$date": "2025-04-07T02:06:42.383Z"
+        },
+        "standalone_question": "Is the water turned off, but the machine is not responding?",
+        "standalone_en": "Is the water turned off, but the machine is not responding?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुम्ही पाणी सोडले आहे, तरी मशीनने प्रतिसाद देत नसेल तर काही गोष्टी तपासाव्यात:\n\n1. **सेंसरची स्थिती**: कृपया तपासा की सेंसर योग्य प्रकारे मातीमध्ये स्थापित आहे का.\n2. **ड्रिप सिस्टीम**: ड्रिप सिस्टीममध्ये अडथळा आहे का? ड्रिपर चांगले कार्य करत आहेत का?\n3. **पाण्याचा प्रवाह**: पाण्याचा प्रवाह योग्य आहे का? ड्रिपर सेंसरच्या जवळ आहेत का?\n\nजर तुम्हाला अजूनही समस्या येत असेल, तर तुम्ही तिकीट उघडण्याची इच्छा आहे का?",
+        "en": "If the machine doesn't respond even if you've released water, here are a few things to check:\n\n1. **Status of the sensor**: Please check that the sensor is properly installed in the soil.\n2. **Drip System**: Is there a barrier to the drip system? Are drippers doing a good job?\n3. **Water flow**: Is the flow of water right? Are drippers close to sensors?\n\nIf you're still having a problem, do you want to open a ticket?",
+        "timestamp": {
+          "$date": "2025-04-07T02:06:46.895Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Hoi",
+        "en": "Hi",
+        "timestamp": {
+          "$date": "2025-04-07T02:07:12.210Z"
+        },
+        "standalone_question": "Would you like to open a support ticket for further assistance?",
+        "standalone_en": "Would you like to open a support ticket for further assistance?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Send the experts tomorrow. Yes send. Send to visit. Send the visitor to farm/plot visit.  \nA: To schedule a visit, please raise a maintenance ticket in the app or reach out to the our team for further assistance. Do you want me to raise a support ticket for you?",
+            "Q: My Kairo/Nero device is not working.\nA: If some issue is being faced, user can raise the support ticket in the Fyllo app. If the issue is not solved please contact Fyllo customer support for further assistance. Do you want me to raise the support ticket for you?"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमचं स्वागत आहे! तुम्हाला कशाबद्दल मदतीची आवश्यकता आहे?",
+        "en": "You're welcome! What do you need help with?",
+        "timestamp": {
+          "$date": "2025-04-07T02:07:15.359Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "सेन्सर काम करत नाही",
+        "en": "The sensor doesn't work",
+        "timestamp": {
+          "$date": "2025-04-07T02:07:33.656Z"
+        },
+        "standalone_question": "Is the sensor not working?",
+        "standalone_en": "Is the sensor not working?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What should I do if the soil temperature sensor is not working?\nA: Check the sensor connection, tighten it if loose, and restart the device to check updated data."
+          ]
+        },
+        "content_transliterated": "censor calm karat nahi"
+      },
+      {
+        "role": "assistant",
+        "content": "जर सेन्सर काम करत नसेल, तर तुम्ही खालील गोष्टी तपासू शकता:\n\n1. **सेन्सर कनेक्शन**: सेन्सरची कनेक्शन तपासा, कनेक्शन ढिल आहे का ते बघा.\n2. **डिव्हाइस रीस्टार्ट करा**: डिव्हाइस रीस्टार्ट करून पाहा, कधी कधी यामुळे समस्या सुटू शकते.\n3. **सेन्सरची स्थिती**: सेन्सर योग्य प्रकारे मातीमध्ये स्थापित आहे का ते तपासा.\n4. **पाण्याचा प्रवाह**: पाण्याचा प्रवाह योग्य आहे का? ड्रिपर चांगले कार्य करत आहेत का?\n\nजर तुम्हाला अजूनही समस्या येत असेल, तर तुम्ही तिकीट उघडण्याची इच्छा आहे का?",
+        "en": "If the sensor doesn't work, you can check the following:\n\n1. **Sensor Connection**: Check the connection of the sensor, see if the connection is loose.\n2. **Restart the device**: Try the device restart, sometimes it can solve the problem.\n3. **Position of the sensor**: Check that the sensor is properly installed in the soil.\n4. **Water flow**: Is the flow of water appropriate? Are drippers doing a good job?\n\nIf you're still having a problem, do you want to open a ticket?",
+        "timestamp": {
+          "$date": "2025-04-07T02:07:38.069Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "तिकीट kai ahe",
+        "en": "What is a Ticket",
+        "timestamp": {
+          "$date": "2025-04-07T02:08:03.946Z"
+        },
+        "standalone_question": "What is a ticket?",
+        "standalone_en": "What is a ticket?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तिकीट म्हणजे तुम्ही तांत्रिक समस्यांसाठी मदतीसाठी एक अधिकृत विनंती उघडणे. तुम्ही तिकीट उघडल्यास, तांत्रिक समर्थन टीम तुमच्या समस्येवर लक्ष देईल आणि तुम्हाला आवश्यक ती मदत प्रदान करेल.\n\nतुम्हाला तिकीट उघडायचं आहे का?",
+        "en": "The ticket is for you to open an official request for help with technical issues. If you open the ticket, the technical support team will address your issue and provide you with the help you need.\n\nDo you want to open a ticket?",
+        "timestamp": {
+          "$date": "2025-04-07T02:08:07.358Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Customer care number ",
+        "en": "Customer care number ",
+        "timestamp": {
+          "$date": "2025-04-07T02:08:33.234Z"
+        },
+        "standalone_question": "What is the customer care number?",
+        "standalone_en": "What is the customer care number?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How do I contact customer support for Fyllo?\nA: You can contact customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in. Do you want me to raise a support ticket for you?"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Fyllo चा ग्राहक सेवा क्रमांक आहे: (+91) 9380908040. तुम्ही या क्रमांकावर कॉल करून मदतीसाठी संपर्क साधू शकता.",
+        "en": "Fyllo's customer service number is: (+91) 9380908040. You can call this number and reach out for help.",
+        "timestamp": {
+          "$date": "2025-04-07T02:08:36.720Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Sangli",
+        "en": "Sangli",
+        "timestamp": {
+          "$date": "2025-04-07T02:08:41.355Z"
+        },
+        "standalone_question": "What is the customer care number for Fyllo in Sangli?",
+        "standalone_en": "What is the customer care number for Fyllo in Sangli?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How do I contact customer support for Fyllo?\nA: You can contact customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in. Do you want me to raise a support ticket for you?",
+            "Q: What makes Fyllo different from its competitors?\nA: Fyllo differentiates itself through:\n - Precision & accuracy due to unique installation and sensor positioning.\n - Agronomical Algorithms created by a team of scientists led by Dr. Shikhamany, who is considered by many as the father of Indian grape industry.\n - 100% customer retention: Fyllo is known for its service on the ground, 24-hour issue resolution.\n - User-friendly interface that's easy to understand for all language and age group users.",
+            "Q: How can I reset or restart the Fyllo crop stage on the app?\nA: For Hindi instructions, please watch this video: [फसल की स्टेज कैसे अपडेट करे ?](https://youtu.be/Gx2XUOGqNoA) (Thumbnail: https://img.youtube.com/vi/Gx2XUOGqNoA/mqdefault.jpg). For English instructions, please watch this video: [How to update crop stages in App?](https://youtu.be/knCXf0vdN7k) (Thumbnail: https://img.youtube.com/vi/knCXf0vdN7k/mqdefault.jpg). For additional info, contact the CRM team: You can contact customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in.\nMake sure to give both hindi and english links.",
+            "Q: How does the Fyllo device work?\nA: The Fyllo device captures data from 11 sensors at regular intervals. This data is then analyzed using Fyllo's Weather & Agronomical Algorithms to provide alerts to farmers for disease & pest management, irrigation management, fertigation management, and weather prediction.",
+            "Q: My Kairo/Nero device is not working.\nA: If some issue is being faced, user can raise the support ticket in the Fyllo app. If the issue is not solved please contact Fyllo customer support for further assistance. Do you want me to raise the support ticket for you?"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "सांगलीमध्ये तुम्हाला कोणत्या प्रकारची माहिती हवी आहे? तुम्ही पिके, माती, पाण्याची गरज किंवा इतर कोणत्याही कृषी संबंधित गोष्टींबद्दल विचारू शकता.",
+        "en": "What kind of information do you want in Sangli? You can ask about crops, soil, water needs or any other agricultural related things.",
+        "timestamp": {
+          "$date": "2025-04-07T02:08:44.893Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Machine price ",
+        "en": "Machine price ",
+        "timestamp": {
+          "$date": "2025-04-07T02:09:06.069Z"
+        },
+        "standalone_question": "What is the price of the machine?",
+        "standalone_en": "What is the price of the machine?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "मशीनची किंमत साधारणतः 15,000 ते 25,000 रुपये दरम्यान असते, परंतु यामध्ये विविधता असू शकते. तुम्हाला अधिक माहिती हवी असल्यास, कृपया ग्राहक सेवा केंद्राशी संपर्क साधा.",
+        "en": "The machine usually costs between Rs 15,000 and Rs 25,000, but it can vary. If you would like more information, please contact the Customer Service Center.",
+        "timestamp": {
+          "$date": "2025-04-07T02:09:09.386Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ok",
+        "en": "Ok",
+        "timestamp": {
+          "$date": "2025-04-07T02:09:23.562Z"
+        },
+        "standalone_question": "What is the price of the machine?",
+        "standalone_en": "What is the price of the machine?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "ठीक आहे! तुम्हाला आणखी काही विचारायचं आहे का? मी मदतीसाठी येथे आहे.",
+        "en": "All right! Is there anything else you'd like to ask? I'm here to help.",
+        "timestamp": {
+          "$date": "2025-04-07T02:09:26.534Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "रोग नियंत्रण ",
+        "en": "Disease Control ",
+        "timestamp": {
+          "$date": "2025-04-07T02:09:46.781Z"
+        },
+        "standalone_question": "What are the methods for disease control?",
+        "standalone_en": "What are the methods for disease control?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "rogue niyantran "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटसाठी या आठवड्यात कोणतीही रोग नियंत्रणाची शिफारस नाही. \n\nतुमच्या प्लॉट्समध्ये हवामानाच्या सेन्सर्स उपलब्ध नाहीत, त्यामुळे ऐतिहासिक हवामान डेटा देखील उपलब्ध नाही. \n\nजर तुम्हाला विशिष्ट रोग किंवा कीटकांबद्दल माहिती हवी असेल, तर कृपया सांगा.",
+        "en": "There are no disease control recommendations for your plot this week. \n\nWeather sensors are not available in your plots, so historical weather data is also not available. \n\nIf you want information about specific diseases or insects, please let me know.",
+        "timestamp": {
+          "$date": "2025-04-07T02:09:55.086Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Hoi",
+        "en": "Hi",
+        "timestamp": {
+          "$date": "2025-04-07T02:10:08.534Z"
+        },
+        "standalone_question": "Hello! How can I assist you today?",
+        "standalone_en": "Hello! How can I assist you today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "नमस्कार! तुम्हाला कशाबद्दल मदतीची आवश्यकता आहे?",
+        "en": "Hello! What do you need help with?",
+        "timestamp": {
+          "$date": "2025-04-07T02:10:11.817Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "रोग ",
+        "en": "disease ",
+        "timestamp": {
+          "$date": "2025-04-07T02:10:18.722Z"
+        },
+        "standalone_question": "What information do you need about diseases?",
+        "standalone_en": "What information do you need about diseases?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "rogue "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटसाठी रोग नियंत्रणाची शिफारस खालीलप्रमाणे आहे:\n\n1. **Alternaria**: 7 एप्रिल 2025 रोजी.\n2. **Anthracnose**: 7 एप्रिल 2025 रोजी.\n3. **Powdery Mildew**: 7 एप्रिल 2025 रोजी.\n\nकृपया या रोगांवर नियंत्रण ठेवण्यासाठी योग्य उपाययोजना करा. तुम्हाला आणखी काही माहिती हवी असल्यास, कृपया सांगा!",
+        "en": "The disease control recommendation for your plot is as follows:\n\n1. **Alternaria**: On April 7, 2025.\n2. **Anthracnose**: On April 7, 2025.\n3. **Powdery Mildew**: On April 7, 2025.\n\nPlease take appropriate measures to control these diseases. If you need any more information, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-07T02:10:24.085Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ok",
+        "en": "Ok",
+        "timestamp": {
+          "$date": "2025-04-07T02:10:37.713Z"
+        },
+        "standalone_question": "Is there anything else you would like to know?",
+        "standalone_en": "Is there anything else you would like to know?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "ठीक आहे! तुम्हाला आणखी काही विचारायचं आहे का? मी मदतीसाठी येथे आहे.",
+        "en": "All right! Is there anything else you'd like to ask? I'm here to help.",
+        "timestamp": {
+          "$date": "2025-04-07T02:10:40.802Z"
+        }
+      }
+    ],
+    "farmer_id": "balasahebchavan",
+    "farmer_plot_ids": [
+      "anushkaplot166",
+      "govindplot378",
+      "rkplot360"
+    ],
+    "conversation_id": "67f33332c01cb2e8efdbccc9",
+    "_id": "67f33332c01cb2e8efdbccc9",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-07T02:15:37.722000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-04-07T02:06:42.383000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Pani सोडले ahe taripan Machine response det nahi",
+        "en": "Water is released but the machine does not respond",
+        "timestamp": {
+          "$date": "2025-04-07T02:06:42.383Z"
+        },
+        "standalone_question": "Is the water turned off, but the machine is not responding?",
+        "standalone_en": "Is the water turned off, but the machine is not responding?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुम्ही पाणी सोडले आहे, तरी मशीनने प्रतिसाद देत नसेल तर काही गोष्टी तपासाव्यात:\n\n1. **सेंसरची स्थिती**: कृपया तपासा की सेंसर योग्य प्रकारे मातीमध्ये स्थापित आहे का.\n2. **ड्रिप सिस्टीम**: ड्रिप सिस्टीममध्ये अडथळा आहे का? ड्रिपर चांगले कार्य करत आहेत का?\n3. **पाण्याचा प्रवाह**: पाण्याचा प्रवाह योग्य आहे का? ड्रिपर सेंसरच्या जवळ आहेत का?\n\nजर तुम्हाला अजूनही समस्या येत असेल, तर तुम्ही तिकीट उघडण्याची इच्छा आहे का?",
+        "en": "If the machine doesn't respond even if you've released water, here are a few things to check:\n\n1. **Status of the sensor**: Please check that the sensor is properly installed in the soil.\n2. **Drip System**: Is there a barrier to the drip system? Are drippers doing a good job?\n3. **Water flow**: Is the flow of water right? Are drippers close to sensors?\n\nIf you're still having a problem, do you want to open a ticket?",
+        "timestamp": {
+          "$date": "2025-04-07T02:06:46.895Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Hoi",
+        "en": "Hi",
+        "timestamp": {
+          "$date": "2025-04-07T02:07:12.210Z"
+        },
+        "standalone_question": "Would you like to open a support ticket for further assistance?",
+        "standalone_en": "Would you like to open a support ticket for further assistance?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Send the experts tomorrow. Yes send. Send to visit. Send the visitor to farm/plot visit.  \nA: To schedule a visit, please raise a maintenance ticket in the app or reach out to the our team for further assistance. Do you want me to raise a support ticket for you?",
+            "Q: My Kairo/Nero device is not working.\nA: If some issue is being faced, user can raise the support ticket in the Fyllo app. If the issue is not solved please contact Fyllo customer support for further assistance. Do you want me to raise the support ticket for you?"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमचं स्वागत आहे! तुम्हाला कशाबद्दल मदतीची आवश्यकता आहे?",
+        "en": "You're welcome! What do you need help with?",
+        "timestamp": {
+          "$date": "2025-04-07T02:07:15.359Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "सेन्सर काम करत नाही",
+        "en": "The sensor doesn't work",
+        "timestamp": {
+          "$date": "2025-04-07T02:07:33.656Z"
+        },
+        "standalone_question": "Is the sensor not functioning?",
+        "standalone_en": "Is the sensor not functioning?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What should I do if the soil temperature sensor is not working?\nA: Check the sensor connection, tighten it if loose, and restart the device to check updated data."
+          ]
+        },
+        "content_transliterated": "censor calm karat nahi"
+      },
+      {
+        "role": "assistant",
+        "content": "जर सेन्सर काम करत नसेल, तर तुम्ही खालील गोष्टी तपासू शकता:\n\n1. **सेन्सर कनेक्शन**: सेन्सरची कनेक्शन तपासा, कनेक्शन ढिल आहे का ते बघा.\n2. **डिव्हाइस रीस्टार्ट करा**: डिव्हाइस रीस्टार्ट करून पाहा, कधी कधी यामुळे समस्या सुटू शकते.\n3. **सेन्सरची स्थिती**: सेन्सर योग्य प्रकारे मातीमध्ये स्थापित आहे का ते तपासा.\n4. **पाण्याचा प्रवाह**: पाण्याचा प्रवाह योग्य आहे का? ड्रिपर चांगले कार्य करत आहेत का?\n\nजर तुम्हाला अजूनही समस्या येत असेल, तर तुम्ही तिकीट उघडण्याची इच्छा आहे का?",
+        "en": "If the sensor doesn't work, you can check the following:\n\n1. **Sensor Connection**: Check the connection of the sensor, see if the connection is loose.\n2. **Restart the device**: Try the device restart, sometimes it can solve the problem.\n3. **Position of the sensor**: Check that the sensor is properly installed in the soil.\n4. **Water flow**: Is the flow of water appropriate? Are drippers doing a good job?\n\nIf you're still having a problem, do you want to open a ticket?",
+        "timestamp": {
+          "$date": "2025-04-07T02:07:38.069Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "तिकीट kai ahe",
+        "en": "What is a Ticket",
+        "timestamp": {
+          "$date": "2025-04-07T02:08:03.946Z"
+        },
+        "standalone_question": "What is a ticket?",
+        "standalone_en": "What is a ticket?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तिकीट म्हणजे तुम्ही तांत्रिक समस्यांसाठी मदतीसाठी एक अधिकृत विनंती उघडणे. तुम्ही तिकीट उघडल्यास, तांत्रिक समर्थन टीम तुमच्या समस्येवर लक्ष देईल आणि तुम्हाला आवश्यक ती मदत प्रदान करेल.\n\nतुम्हाला तिकीट उघडायचं आहे का?",
+        "en": "The ticket is for you to open an official request for help with technical issues. If you open the ticket, the technical support team will address your issue and provide you with the help you need.\n\nDo you want to open a ticket?",
+        "timestamp": {
+          "$date": "2025-04-07T02:08:07.358Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Customer care number ",
+        "en": "Customer care number ",
+        "timestamp": {
+          "$date": "2025-04-07T02:08:33.234Z"
+        },
+        "standalone_question": "What is the customer care number?",
+        "standalone_en": "What is the customer care number?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How do I contact customer support for Fyllo?\nA: You can contact customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in. Do you want me to raise a support ticket for you?"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Fyllo चा ग्राहक सेवा क्रमांक आहे: (+91) 9380908040. तुम्ही या क्रमांकावर कॉल करून मदतीसाठी संपर्क साधू शकता.",
+        "en": "Fyllo's customer service number is: (+91) 9380908040. You can call this number and reach out for help.",
+        "timestamp": {
+          "$date": "2025-04-07T02:08:36.720Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Sangli",
+        "en": "Sangli",
+        "timestamp": {
+          "$date": "2025-04-07T02:08:41.355Z"
+        },
+        "standalone_question": "What is the customer care number for Fyllo in Sangli?",
+        "standalone_en": "What is the customer care number for Fyllo in Sangli?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How do I contact customer support for Fyllo?\nA: You can contact customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in. Do you want me to raise a support ticket for you?",
+            "Q: What makes Fyllo different from its competitors?\nA: Fyllo differentiates itself through:\n - Precision & accuracy due to unique installation and sensor positioning.\n - Agronomical Algorithms created by a team of scientists led by Dr. Shikhamany, who is considered by many as the father of Indian grape industry.\n - 100% customer retention: Fyllo is known for its service on the ground, 24-hour issue resolution.\n - User-friendly interface that's easy to understand for all language and age group users.",
+            "Q: How can I reset or restart the Fyllo crop stage on the app?\nA: For Hindi instructions, please watch this video: [फसल की स्टेज कैसे अपडेट करे ?](https://youtu.be/Gx2XUOGqNoA) (Thumbnail: https://img.youtube.com/vi/Gx2XUOGqNoA/mqdefault.jpg). For English instructions, please watch this video: [How to update crop stages in App?](https://youtu.be/knCXf0vdN7k) (Thumbnail: https://img.youtube.com/vi/knCXf0vdN7k/mqdefault.jpg). For additional info, contact the CRM team: You can contact customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in.\nMake sure to give both hindi and english links.",
+            "Q: How does the Fyllo device work?\nA: The Fyllo device captures data from 11 sensors at regular intervals. This data is then analyzed using Fyllo's Weather & Agronomical Algorithms to provide alerts to farmers for disease & pest management, irrigation management, fertigation management, and weather prediction.",
+            "Q: My Kairo/Nero device is not working.\nA: If some issue is being faced, user can raise the support ticket in the Fyllo app. If the issue is not solved please contact Fyllo customer support for further assistance. Do you want me to raise the support ticket for you?"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "सांगलीमध्ये तुम्हाला कोणत्या प्रकारची माहिती हवी आहे? तुम्ही पिके, माती, पाण्याची गरज किंवा इतर कोणत्याही कृषी संबंधित गोष्टींबद्दल विचारू शकता.",
+        "en": "What kind of information do you want in Sangli? You can ask about crops, soil, water needs or any other agricultural related things.",
+        "timestamp": {
+          "$date": "2025-04-07T02:08:44.893Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Machine price ",
+        "en": "Machine price ",
+        "timestamp": {
+          "$date": "2025-04-07T02:09:06.069Z"
+        },
+        "standalone_question": "What is the price of the machine?",
+        "standalone_en": "What is the price of the machine?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "मशीनची किंमत साधारणतः 15,000 ते 25,000 रुपये दरम्यान असते, परंतु यामध्ये विविधता असू शकते. तुम्हाला अधिक माहिती हवी असल्यास, कृपया ग्राहक सेवा केंद्राशी संपर्क साधा.",
+        "en": "The machine usually costs between Rs 15,000 and Rs 25,000, but it can vary. If you would like more information, please contact the Customer Service Center.",
+        "timestamp": {
+          "$date": "2025-04-07T02:09:09.386Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ok",
+        "en": "Ok",
+        "timestamp": {
+          "$date": "2025-04-07T02:09:23.562Z"
+        },
+        "standalone_question": "What is the price of the machine?",
+        "standalone_en": "What is the price of the machine?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "ठीक आहे! तुम्हाला आणखी काही विचारायचं आहे का? मी मदतीसाठी येथे आहे.",
+        "en": "All right! Is there anything else you'd like to ask? I'm here to help.",
+        "timestamp": {
+          "$date": "2025-04-07T02:09:26.534Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "रोग नियंत्रण ",
+        "en": "Disease Control ",
+        "timestamp": {
+          "$date": "2025-04-07T02:09:46.781Z"
+        },
+        "standalone_question": "What are the methods for disease control?",
+        "standalone_en": "What are the methods for disease control?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "rogue niyantran "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटसाठी या आठवड्यात कोणतीही रोग नियंत्रणाची शिफारस नाही. \n\nतुमच्या प्लॉट्समध्ये हवामानाच्या सेन्सर्स उपलब्ध नाहीत, त्यामुळे ऐतिहासिक हवामान डेटा देखील उपलब्ध नाही. \n\nजर तुम्हाला विशिष्ट रोग किंवा कीटकांबद्दल माहिती हवी असेल, तर कृपया सांगा.",
+        "en": "There are no disease control recommendations for your plot this week. \n\nWeather sensors are not available in your plots, so historical weather data is also not available. \n\nIf you want information about specific diseases or insects, please let me know.",
+        "timestamp": {
+          "$date": "2025-04-07T02:09:55.086Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Hoi",
+        "en": "Hi",
+        "timestamp": {
+          "$date": "2025-04-07T02:10:08.534Z"
+        },
+        "standalone_question": "Hello! How can I assist you today?",
+        "standalone_en": "Hello! How can I assist you today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "नमस्कार! तुम्हाला कशाबद्दल मदतीची आवश्यकता आहे?",
+        "en": "Hello! What do you need help with?",
+        "timestamp": {
+          "$date": "2025-04-07T02:10:11.817Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "रोग ",
+        "en": "disease ",
+        "timestamp": {
+          "$date": "2025-04-07T02:10:18.722Z"
+        },
+        "standalone_question": "What information do you need about diseases?",
+        "standalone_en": "What information do you need about diseases?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "rogue "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटसाठी रोग नियंत्रणाची शिफारस खालीलप्रमाणे आहे:\n\n1. **Alternaria**: 7 एप्रिल 2025 रोजी.\n2. **Anthracnose**: 7 एप्रिल 2025 रोजी.\n3. **Powdery Mildew**: 7 एप्रिल 2025 रोजी.\n\nकृपया या रोगांवर नियंत्रण ठेवण्यासाठी योग्य उपाययोजना करा. तुम्हाला आणखी काही माहिती हवी असल्यास, कृपया सांगा!",
+        "en": "The disease control recommendation for your plot is as follows:\n\n1. **Alternaria**: On April 7, 2025.\n2. **Anthracnose**: On April 7, 2025.\n3. **Powdery Mildew**: On April 7, 2025.\n\nPlease take appropriate measures to control these diseases. If you need any more information, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-07T02:10:24.085Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ok",
+        "en": "Ok",
+        "timestamp": {
+          "$date": "2025-04-07T02:10:37.713Z"
+        },
+        "standalone_question": "Is there anything else you would like to know?",
+        "standalone_en": "Is there anything else you would like to know?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "ठीक आहे! तुम्हाला आणखी काही विचारायचं आहे का? मी मदतीसाठी येथे आहे.",
+        "en": "All right! Is there anything else you'd like to ask? I'm here to help.",
+        "timestamp": {
+          "$date": "2025-04-07T02:10:40.802Z"
+        }
+      }
+    ],
+    "farmer_id": "balasahebchavan",
+    "farmer_plot_ids": [
+      "anushkaplot166",
+      "govindplot378",
+      "rkplot360"
+    ],
+    "conversation_id": "67f33332c01cb2e8efdbccc9",
+    "_id": "67f33332c01cb2e8efdbccc9",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-07T02:15:37.722000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-07T02:06:42.383000+00:00"
+  }
+]

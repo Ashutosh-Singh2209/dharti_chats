@@ -1,0 +1,701 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "13.40.13 ह्यात कोणते घटक आहे ",
+        "en": "13.40.13 What is the component of ",
+        "timestamp": {
+          "$date": "2025-05-21T14:25:03.355Z"
+        },
+        "standalone_question": "What components are present in 13.40.13?",
+        "standalone_en": "What components are present in 13.40.13?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "13.40.13 hyat conte ghatak aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "13-40-13 या NPK मिश्रणात खालील घटक आहेत:\n\n- **13% नायट्रोजन (N)**: पिकांच्या वाढीसाठी आवश्यक आहे.\n- **40% फॉस्फरस (P)**: मुळांच्या विकासासाठी आणि फुलांच्या उत्पादनासाठी महत्त्वाचा आहे.\n- **13% पोटॅशियम (K)**: पिकांच्या रोग प्रतिकारक शक्ती आणि जल व्यवस्थापनासाठी आवश्यक आहे.\n\nहे मिश्रण सामान्यतः विविध पिकांसाठी वापरले जाते, विशेषतः जेव्हा मुळांच्या विकासाला प्रोत्साहन देणे आवश्यक असते.",
+        "en": "The NPK blend of 13-40-13 contains the following ingredients:\n\n- **13% nitrogen (N)**: Essential for crop growth.\n* **40% phosphorus (P)**: Important for root development and flower production.\n* **13% potassium (K)**: Essential for crop immunity and water management.\n\nThis mixture is commonly used for a variety of crops, especially when it is necessary to promote the development of roots.",
+        "timestamp": {
+          "$date": "2025-05-21T14:25:10.138Z"
+        }
+      }
+    ],
+    "farmer_id": "yogirajgangadharbirajdar",
+    "farmer_plot_ids": [
+      "manikchaman452"
+    ],
+    "conversation_id": "682de23e84a6200d06f2f314",
+    "_id": "682de23e84a6200d06f2f314",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-21T14:30:03.364000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-05-21T14:25:03.355000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "वातावरण डावनिचि कि भुरि चे कि करप्याचे आहे",
+        "en": "The atmosphere is of the doer or the doer",
+        "timestamp": {
+          "$date": "2025-05-21T14:01:39.825Z"
+        },
+        "standalone_question": "Is the environment deteriorating or improving?",
+        "standalone_en": "Is the environment deteriorating or improving?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आजच्या वातावरणाची स्थिती खालीलप्रमाणे आहे:\n\n### Plot No 1 SSN\n- **तापमान:** 31°C (17:00)\n- **आर्द्रता:** 65%\n- **पाऊस:** 0 मिमी\n\n### Plot No 2 Crimson\n- **पाऊस:** 0 मिमी (सर्व तास)\n\n### Sudhakar\n- **पाऊस:** 0 मिमी (सर्व तास)\n\n### Sudhakar 2\n- **पाऊस:** 0 मिमी (सर्व तास)\n\nसर्व प्लॉट्समध्ये पाऊस झाला नाही, त्यामुळे पाण्याची गरज आहे का ते तपासणे आवश्यक आहे.",
+        "en": "The state of today's environment is as follows:\n\n### Plot No 1 SSN\n- **Temperature:** 31°C (17:00)\n- **Humidity:** 65%\n- **Rain:**0mm\n\n### Plot No 2 Crimson\n- **Rain:** 0 mm (all hours)\n\n### Sudhakar\n- **Rain:** 0 mm (all hours)\n\n### Sudhakar 2\n- **Rain:** 0 mm (all hours)\n\nNot all plots have rain, so it is necessary to check if there is a need for water.",
+        "timestamp": {
+          "$date": "2025-05-21T14:01:49.803Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "फवारणी भुरि कि डावणि चे कि करप्याचे करावे",
+        "en": "Should be sprayed brown or left or curly",
+        "timestamp": {
+          "$date": "2025-05-21T14:02:41.090Z"
+        },
+        "standalone_question": "Should I apply a spray for the crops or the soil?",
+        "standalone_en": "Should I apply a spray for the crops or the soil?",
+        "retrieval": {
+          "tools": [
+            "check_spray_conditions  \nGets the spray condition forecast for the next few hours for the farmer's plots and returns the condition for each hour as GOOD, MODERATE, or WORST, based on deltaT, VPD, and rainfall conditions.",
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate.",
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        },
+        "content_transliterated": "favarani bhuri ki davani che ki karapyache karave"
+      },
+      {
+        "role": "assistant",
+        "content": "फवारणीसाठी योग्य वेळ खालीलप्रमाणे आहे:\n\n### Plot No 1 SSN\n- **फवारणीची स्थिती:** आदर्श\n- **सर्वोत्तम वेळ:** \n  - 20:30 - 23:30 (आदर्श स्थिती)\n  - 00:30 - 01:30 (आदर्श स्थिती)\n  - 03:30 - 05:30 (आदर्श स्थिती)\n\n### Plot No 2 Crimson, Sudhakar, Sudhakar 2\n- **फवारणीची स्थिती:** तपासता आले नाही.\n\nआपण Plot No 1 SSN साठी फवारणी करू शकता. इतर प्लॉट्ससाठी स्थिती तपासता आलेली नाही.",
+        "en": "The right time for spraying is as follows:\n\n### Plot No 1 SSN\n- **Spraying Position:** Model\n- **Best Time:** \n  - 20:30 - 23:30 (Ideal position)\n  - 00:30 - 01:30 (Ideal position)\n  - 03:30 - 05:30 (Ideal position)\n\n### Plot No 2 Crimson, Sudhakar, Sudhakar 2\n- **Spraying Status:** Not checked.\n\nYou can spray for the Plot No 1 SSN. The status has not been checked for other plots.",
+        "timestamp": {
+          "$date": "2025-05-21T14:02:48.752Z"
+        }
+      }
+    ],
+    "farmer_id": "pankajsadashivkhandave",
+    "farmer_plot_ids": [
+      "plotnoonessn",
+      "plotnotwocrimson",
+      "sudhakar156",
+      "sudhakar2101"
+    ],
+    "conversation_id": "682ddcc384a6200d06f2f313",
+    "_id": "682ddcc384a6200d06f2f313",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-21T14:07:41.098000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-05-21T14:01:39.825000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "वातावरण डावनिचि कि भुरि चे कि करप्याचे आहे",
+        "en": "The atmosphere is of the doer or the doer",
+        "timestamp": {
+          "$date": "2025-05-21T14:01:39.825Z"
+        },
+        "standalone_question": "Is the environment deteriorating or improving?",
+        "standalone_en": "Is the environment deteriorating or improving?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आजच्या वातावरणाची स्थिती खालीलप्रमाणे आहे:\n\n### Plot No 1 SSN\n- **तापमान:** 31°C (17:00)\n- **आर्द्रता:** 65%\n- **पाऊस:** 0 मिमी\n\n### Plot No 2 Crimson\n- **पाऊस:** 0 मिमी (सर्व तास)\n\n### Sudhakar\n- **पाऊस:** 0 मिमी (सर्व तास)\n\n### Sudhakar 2\n- **पाऊस:** 0 मिमी (सर्व तास)\n\nसर्व प्लॉट्समध्ये पाऊस झाला नाही, त्यामुळे पाण्याची गरज आहे का ते तपासणे आवश्यक आहे.",
+        "en": "The state of today's environment is as follows:\n\n### Plot No 1 SSN\n- **Temperature:** 31°C (17:00)\n- **Humidity:** 65%\n- **Rain:**0mm\n\n### Plot No 2 Crimson\n- **Rain:** 0 mm (all hours)\n\n### Sudhakar\n- **Rain:** 0 mm (all hours)\n\n### Sudhakar 2\n- **Rain:** 0 mm (all hours)\n\nNot all plots have rain, so it is necessary to check if there is a need for water.",
+        "timestamp": {
+          "$date": "2025-05-21T14:01:49.803Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "फवारणी भुरि कि डावणि चे कि करप्याचे करावे",
+        "en": "Should be sprayed brown or left or curly",
+        "timestamp": {
+          "$date": "2025-05-21T14:02:41.090Z"
+        },
+        "standalone_question": "Should we apply a spray for the crops or the soil?",
+        "standalone_en": "Should we apply a spray for the crops or the soil?",
+        "retrieval": {
+          "tools": [
+            "check_spray_conditions  \nGets the spray condition forecast for the next few hours for the farmer's plots and returns the condition for each hour as GOOD, MODERATE, or WORST, based on deltaT, VPD, and rainfall conditions."
+          ],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice.",
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed",
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil."
+          ]
+        },
+        "content_transliterated": "favarani bhuri ki davani che ki karapyache karave"
+      },
+      {
+        "role": "assistant",
+        "content": "फवारणीसाठी योग्य वेळ खालीलप्रमाणे आहे:\n\n### Plot No 1 SSN\n- **फवारणीची स्थिती:** आदर्श\n- **सर्वोत्तम वेळ:** \n  - 20:30 - 23:30 (आदर्श स्थिती)\n  - 00:30 - 01:30 (आदर्श स्थिती)\n  - 03:30 - 05:30 (आदर्श स्थिती)\n\n### Plot No 2 Crimson, Sudhakar, Sudhakar 2\n- **फवारणीची स्थिती:** तपासता आले नाही.\n\nआपण Plot No 1 SSN साठी फवारणी करू शकता. इतर प्लॉट्ससाठी स्थिती तपासता आलेली नाही.",
+        "en": "The right time for spraying is as follows:\n\n### Plot No 1 SSN\n- **Spraying Position:** Model\n- **Best Time:** \n  - 20:30 - 23:30 (Ideal position)\n  - 00:30 - 01:30 (Ideal position)\n  - 03:30 - 05:30 (Ideal position)\n\n### Plot No 2 Crimson, Sudhakar, Sudhakar 2\n- **Spraying Status:** Not checked.\n\nYou can spray for the Plot No 1 SSN. The status has not been checked for other plots.",
+        "timestamp": {
+          "$date": "2025-05-21T14:02:48.752Z"
+        }
+      }
+    ],
+    "farmer_id": "pankajsadashivkhandave",
+    "farmer_plot_ids": [
+      "plotnoonessn",
+      "plotnotwocrimson",
+      "sudhakar156",
+      "sudhakar2101"
+    ],
+    "conversation_id": "682ddcc384a6200d06f2f313",
+    "_id": "682ddcc384a6200d06f2f313",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-21T14:07:41.098000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-05-21T14:01:39.825000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Amchya keli che khupach nuksan jhale aahe tya vr kay upay aahe",
+        "en": "What's the solution to that VR that's really damaged our kelly?",
+        "timestamp": {
+          "$date": "2025-05-21T11:54:55.983Z"
+        },
+        "standalone_question": "What measures can be taken to address the significant damage caused to my crops?",
+        "standalone_en": "What measures can be taken to address the significant damage caused to my crops?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Tumcha kharif kharacha nuksan zhalyavar, tumhala khup upay ghenyachi garaj aahe. Yaa sathi kahi upay ahet:\n\n1. **Pest Control**: Pests cha nuksan kam karanyasathi pesticide vapra. Tumhi pest control schedule check karu shakta.\n\n2. **Soil Health**: Zameenachi swasthya sudharanyasathi organic fertilizers va compost vapra.\n\n3. **Irrigation**: Pani puravta sathi sahi irrigation techniques vapra. Soil moisture check karun, jar zameen khushk asel tar pani dya.\n\n4. **Crop Rotation**: Agle varshat vegvege crop ghenyacha vichar kara, jya mule zameenachi swasthya sudharu shakta.\n\n5. **Disease Management**: Tumhi crop diseases cha vishay check karu shakta, ani tya sathi upay ghenyacha prayatna kara.\n\nTumhala kahi specific madat pahije ka?",
+        "en": "When your kharif is truly damaged, you need to take a lot of measures. Here are some solutions:\n\n1. **Pest Control**: Use pestides to work paste damage. You can check the pest control schedule.\n\n2. **Soil Health**: Use organic fertilizers or compost to improve Zamina's health.\n\n3. **Irrigation**: Use the right irrigation technique to supply water. Check the soil moisturizer and water if the ground is dry.\n\n4. **Crop Rotation**: Consider getting a fast crop in the next year, which can improve Zamina's health.\n\n5. **Disease Management**: You can check out crop disease topics, and try to find a solution.\n\nDo you need any specific help?",
+        "timestamp": {
+          "$date": "2025-05-21T11:55:01.757Z"
+        }
+      }
+    ],
+    "farmer_id": "sanjaydpatil",
+    "farmer_plot_ids": [
+      "chiratiplot"
+    ],
+    "conversation_id": "682dbf0e7e2ad3a4e2401547",
+    "_id": "682dbf0e7e2ad3a4e2401547",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-21T11:59:55.994000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-05-21T11:54:55.983000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "रोग",
+        "en": "disease",
+        "timestamp": {
+          "$date": "2025-05-21T11:18:21.359Z"
+        },
+        "standalone_question": "What is the meaning of the word \"रोग\"?",
+        "standalone_en": "What is the meaning of the word \"रोग\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "rogue"
+      },
+      {
+        "role": "assistant",
+        "content": "आपको किस प्रकार के रोगों की जानकारी चाहिए? फायलो निम्नलिखित रोगों की भविष्यवाणी का समर्थन करता है:\n\n1. अल्टरनेरिया\n2. अल्टरनेरिया फल धब्बा\n3. अल्टरनेरिया धब्बा\n4. अल्टरनेरिया पत्ते की सड़न\n5. एंथ्रैकोनोज़\n6. बैक्टीरियल ब्लाइट\n7. बैक्टीरियल कैंकर\n8. बैक्टीरियल स्पॉट\n9. ब्लिस्टर ब्लाइट\n10. बोट्रिटिस मोल्ड\n11. ब्राउन रस्ट\n12. ब्राउन स्पॉट\n13. सर्कोस्पोरा\n14. सर्कोस्पोरा पत्ते का धब्बा\n15. सिगार एंड रॉट\n16. सिट्रस स्कैब\n17. कोलेटोट्रिचम\n18. डैम्पिंग ऑफ\n19. डिप्लोडिया\n20. डाउन मिल्ड्यू\n21. अर्ली ब्लाइट\n22. फल कैंकर\n23. फ्यूज़ेरियम विल्ट\n24. ग्राफिओला पत्ते का धब्बा\n25. ग्रे मोल्ड\n26. लेट ब्लाइट\n27. पत्ते की सड़न\n28. पत्ते का धब्बा\n29. मार्सोनिना ब्लॉच\n30. पाउडरी मिल्ड्यू\n31. पर्पल ब्लॉच\n32. रेड रॉट\n33. चावल का विस्फोट\n34. रूट नॉट नेमाटोड\n35. रस्ट\n36. स्कैब\n37. शीथ ब्लाइट\n38. सिगाटोका पत्ते का धब्बा\n39. स्टाइलर एंड रॉट\n40. व्हिप स्मट\n41. ज़ैंथोमोनस\n42. येलो रस्ट\n\nयदि आपको किसी विशेष रोग के बारे में अधिक जानकारी चाहिए, तो कृपया बताएं।",
+        "en": "What types of diseases do you need to know? Phyllo supports the prediction of the following diseases:\n\n1. Alternaria\n2. Alternaria Fruit Spot\n3. Alternaria blot\n4. Alternaria leaf rot\n5. Anthracnose\n6. Bacterial Blight\n7. Bacterial Canker\n8. Bacterial Spots\n9. Blister Blight\n10. Botrytis Mold\n11. Brown Rust\n12. Brown Spot\n13. Cercospora\n14. Cercospora leaf spot\n15. Cigar & Rot\n16. Citrus Scab\n17. Colletotrichum\n18. Damping Off\n19. Diplodia\n20. Down Mildew\n21. Early Blight\n22. Fruit Canker\n23. Fusarium Wilt\n24. Grafiola leaf spot\n25. Grey Mold\n26. Late Blight\n27. Leaf rot\n28. Leaf Spot\n29. Marsonina Bloch\n30. Powdery Mildew\n31. Purple Blotch\n32. Red Rot\n33. Rice Explosion\n34. Root Knot Nematode\n35. Rust\n36. Scab\n37. Sheath Blight\n38. Sigatoka Leaf Spot\n39. Styler & Rot\n40. Whip Smut\n41. Xanthomonas\n42. Yellow Rust\n\nIf you need more information about a particular disease, please let me know.",
+        "timestamp": {
+          "$date": "2025-05-21T11:18:32.450Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "सध्याच्या वातावर्णमध्ये येणारे रोग",
+        "en": "Diseases in the current climate",
+        "timestamp": {
+          "$date": "2025-05-21T11:20:11.677Z"
+        },
+        "standalone_question": "What are the diseases that occur in the current environment?",
+        "standalone_en": "What are the diseases that occur in the current environment?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "sadhyachya vatavarnamadhye yenare rog"
+      },
+      {
+        "role": "assistant",
+        "content": "सध्याच्या वातावरणात कोणतेही रोग किंवा कीड नियंत्रणासाठी कोणतीही शिफारस नाही. त्यामुळे, आपल्याला सध्या कोणतीही औषध फवारणी करण्याची आवश्यकता नाही. \n\nजर आपल्याला आणखी काही माहिती हवी असेल तर कृपया सांगा.",
+        "en": "There is no recommendation for any disease or pest control in the current environment. Therefore, you don't need to spray any medication at this time. \n\nIf you need any more information, please let me know.",
+        "timestamp": {
+          "$date": "2025-05-21T11:20:20.124Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "सध्याच्या वातावर्णमध्ये येणारे रोग",
+        "en": "Diseases in the current climate",
+        "timestamp": {
+          "$date": "2025-05-21T11:20:29.397Z"
+        },
+        "standalone_question": "What diseases are currently present in the environment?",
+        "standalone_en": "What diseases are currently present in the environment?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "sadhyachya vatavarnamadhye yenare rog"
+      },
+      {
+        "role": "assistant",
+        "content": "सध्याच्या वातावरणात खालील रोगांचा धोका आहे:\n\n### SSN Plot No 2\n1. **डाउन मिल्ड्यू (Downy Mildew)**\n   - **धोका स्तर:** मध्यम\n   - **संभावना:** 58.0% (21 मे 2025)\n   \n2. **पाउडरी मिल्ड्यू (Powdery Mildew)**\n   - **धोका स्तर:** मध्यम\n   - **संभावना:** 58.0% (21 मे 2025)\n\n### इतर प्लॉट्स\n- **Plot No 1sudhakar** आणि **Thompson plot 3** साठी रोग मेट्रिक्स उपलब्ध नाहीत.\n\nआपल्याला या रोगांवर नियंत्रण ठेवण्यासाठी औषध फवारणी करण्याची आवश्यकता आहे. जर आपल्याला अधिक माहिती हवी असेल तर कृपया सांगा.",
+        "en": "In the current environment, there is a risk of the following diseases:\n\n### SSN Plot No 2\n1. Downy Mildew\n   - **Hazard Level:** Moderate\n   - **Probability:** 58.0% (21 May 2025)\n   \n2. Powdery Mildew\n   - **Hazard Level:** Moderate\n   - **Probability:** 58.0% (21 May 2025)\n\n### Other Plots\n- Disease metrics are not available for **Plot No 1sudhakar** and **Thompson plot 3**.\n\nYou need to spray medicine to keep these diseases under control. If you need more information, please let me know.",
+        "timestamp": {
+          "$date": "2025-05-21T11:20:45.008Z"
+        }
+      }
+    ],
+    "farmer_id": "rajaramtarle",
+    "farmer_plot_ids": [
+      "plotno1sudhakarmuktai",
+      "ssnplotno2muktai",
+      "thompsonplot3rajaram"
+    ],
+    "conversation_id": "682db67d84a6200d06f2f310",
+    "_id": "682db67d84a6200d06f2f310",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-21T11:25:29.407000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-05-21T11:18:21.359000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is in kairo system pan reading gives❓",
+        "en": "Is in kairo system pan reading gives❓",
+        "timestamp": {
+          "$date": "2025-05-21T11:15:03.006Z"
+        },
+        "standalone_question": "Is the Kairo system capable of reading PAN?",
+        "standalone_en": "Is the Kairo system capable of reading PAN?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The Kairo system does not provide a pan reading feature. It primarily focuses on monitoring soil moisture, temperature, and other environmental parameters. If you need specific data or readings, please let me know!",
+        "en": "The Kairo system does not provide a pan reading feature. It primarily focuses on monitoring soil moisture, temperature, and other environmental parameters. If you need specific data or readings, please let me know!",
+        "timestamp": {
+          "$date": "2025-05-21T11:15:07.006Z"
+        }
+      }
+    ],
+    "farmer_id": "shreeshailgoudapatil",
+    "farmer_plot_ids": [
+      "infinityplot1121",
+      "infinityplot4",
+      "plotno6792",
+      "plotno7454"
+    ],
+    "conversation_id": "682db5b67e2ad3a4e2401546",
+    "_id": "682db5b67e2ad3a4e2401546",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-05-21T11:20:03.015000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-05-21T11:15:03.006000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "T moskito bug Kay Rog AAHE ",
+        "en": "T Mosquito Bug Ke Rog Ah ",
+        "timestamp": {
+          "$date": "2025-05-21T10:34:23.085Z"
+        },
+        "standalone_question": "What is the issue with the mosquito bug?",
+        "standalone_en": "What is the issue with the mosquito bug?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Tea Mosquitto Bug चा रोगाचा अंदाज खालीलप्रमाणे आहे:\n\n### Plot no 2 Red Diamond\n- **21 मे 2025**: 72.5% (मध्यम धोका)\n- **20 मे 2025**: 52.2% (मध्यम धोका)\n- **19 मे 2025**: 52.2% (मध्यम धोका)\n- **18 मे 2025**: 57.1% (मध्यम धोका)\n- **17 मे 2025**: 59.1% (मध्यम धोका)\n- **15 मे 2025**: 76.1% (उच्च धोका)\n\n### Plot no 4 Pink Taivan\n- **21 मे 2025**: 72.5% (मध्यम धोका)\n- **20 मे 2025**: 52.2% (मध्यम धोका)\n- **19 मे 2025**: 52.2% (मध्यम धोका)\n- **18 मे 2025**: 57.1% (मध्यम धोका)\n- **17 मे 2025**: 59.1% (मध्यम धोका)\n- **15 मे 2025**: 76.1% (उच्च धोका)\n\n### Plot No 5 Red Diamond\n- **21 मे 2025**: 72.5% (मध्यम धोका)\n- **20 मे 2025**: 52.2% (मध्यम धोका)\n- **19 मे 2025**: 52.2% (मध्यम धोका)\n- **18 मे 2025**: 57.1% (मध्यम धोका)\n- **17 मे 2025**: 59.1% (मध्यम धोका)\n- **15 मे 2025**: 76.1% (उच्च धोका)\n\n### V N R FIRST\n- **21 मे 2025**: 72.5% (मध्यम धोका)\n- **20 मे 2025**: 52.2% (मध्यम धोका)\n- **19 मे 2025**: 52.2% (मध्यम धोका)\n- **18 मे 2025**: 57.1% (मध्यम धोका)\n- **17 मे 2025**: 59.1% (मध्यम धोका)\n- **15 मे 2025**: 76.1% (उच्च धोका)\n\n### Dragon Fruit\n- Pest metrics उपलब्ध नाहीत.\n\nआपण या माहितीच्या आधारे योग्य उपाययोजना करू शकता.",
+        "en": "The disease estimate of Tea Mosquitto Bug is as follows:\n\n### Plot no 2 Red Diamond\n- **21 May 2025**: 72.5% (medium risk)\n- **20 May 2025**: 52.2% (medium risk)\n- **19 May 2025**: 52.2% (medium risk)\n- **18 May 2025**: 57.1% (Medium Risk)\n- **17 May 2025**: 59.1% (medium risk)\n- **15 May 2025**: 76.1% (high risk)\n\n### Plot no 4 Pink Taiwan\n- **21 May 2025**: 72.5% (medium risk)\n- **20 May 2025**: 52.2% (medium risk)\n- **19 May 2025**: 52.2% (medium risk)\n- **18 May 2025**: 57.1% (Medium Risk)\n- **17 May 2025**: 59.1% (medium risk)\n- **15 May 2025**: 76.1% (high risk)\n\n### Plot No 5 Red Diamond\n- **21 May 2025**: 72.5% (medium risk)\n- **20 May 2025**: 52.2% (medium risk)\n- **19 May 2025**: 52.2% (medium risk)\n- **18 May 2025**: 57.1% (Medium Risk)\n- **17 May 2025**: 59.1% (medium risk)\n- **15 May 2025**: 76.1% (high risk)\n\n### V N R FIRST\n- **21 May 2025**: 72.5% (medium risk)\n- **20 May 2025**: 52.2% (medium risk)\n- **19 May 2025**: 52.2% (medium risk)\n- **18 May 2025**: 57.1% (Medium Risk)\n- **17 May 2025**: 59.1% (medium risk)\n- **15 May 2025**: 76.1% (high risk)\n\n### Dragon Fruit\n- Pest metrics are not available.\n\nYou can take appropriate measures based on this information.",
+        "timestamp": {
+          "$date": "2025-05-21T10:34:39.928Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "T moskito bug Rog kasa Aasto",
+        "en": "T. Muskito Bug Disease Casa Whole",
+        "timestamp": {
+          "$date": "2025-05-21T10:35:51.950Z"
+        },
+        "standalone_question": "What is the disease caused by the mosquito bug?",
+        "standalone_en": "What is the disease caused by the mosquito bug?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Tea Mosquitto Bug चा रोगाचा अंदाज खालीलप्रमाणे आहे:\n\n### Plot no 2 Red Diamond\n- **21 मे 2025**: 72.5% (मध्यम धोका)\n- **20 मे 2025**: 52.2% (मध्यम धोका)\n- **19 मे 2025**: 52.2% (मध्यम धोका)\n- **18 मे 2025**: 57.1% (मध्यम धोका)\n- **17 मे 2025**: 59.1% (मध्यम धोका)\n- **15 मे 2025**: 76.1% (उच्च धोका)\n\n### Plot no 4 Pink Taivan\n- **21 मे 2025**: 72.5% (मध्यम धोका)\n- **20 मे 2025**: 52.2% (मध्यम धोका)\n- **19 मे 2025**: 52.2% (मध्यम धोका)\n- **18 मे 2025**: 57.1% (मध्यम धोका)\n- **17 मे 2025**: 59.1% (मध्यम धोका)\n- **15 मे 2025**: 76.1% (उच्च धोका)\n\n### Plot No 5 Red Diamond\n- **21 मे 2025**: 72.5% (मध्यम धोका)\n- **20 मे 2025**: 52.2% (मध्यम धोका)\n- **19 मे 2025**: 52.2% (मध्यम धोका)\n- **18 मे 2025**: 57.1% (मध्यम धोका)\n- **17 मे 2025**: 59.1% (मध्यम धोका)\n- **15 मे 2025**: 76.1% (उच्च धोका)\n\n### V N R FIRST\n- **21 मे 2025**: 72.5% (मध्यम धोका)\n- **20 मे 2025**: 52.2% (मध्यम धोका)\n- **19 मे 2025**: 52.2% (मध्यम धोका)\n- **18 मे 2025**: 57.1% (मध्यम धोका)\n- **17 मे 2025**: 59.1% (मध्यम धोका)\n- **15 मे 2025**: 76.1% (उच्च धोका)\n\n### Dragon Fruit\n- Pest metrics उपलब्ध नाहीत.\n\nआपण या माहितीच्या आधारे योग्य उपाययोजना करू शकता.",
+        "en": "The disease estimate of Tea Mosquitto Bug is as follows:\n\n### Plot no 2 Red Diamond\n- **21 May 2025**: 72.5% (medium risk)\n- **20 May 2025**: 52.2% (medium risk)\n- **19 May 2025**: 52.2% (medium risk)\n- **18 May 2025**: 57.1% (Medium Risk)\n- **17 May 2025**: 59.1% (medium risk)\n- **15 May 2025**: 76.1% (high risk)\n\n### Plot no 4 Pink Taiwan\n- **21 May 2025**: 72.5% (medium risk)\n- **20 May 2025**: 52.2% (medium risk)\n- **19 May 2025**: 52.2% (medium risk)\n- **18 May 2025**: 57.1% (Medium Risk)\n- **17 May 2025**: 59.1% (medium risk)\n- **15 May 2025**: 76.1% (high risk)\n\n### Plot No 5 Red Diamond\n- **21 May 2025**: 72.5% (medium risk)\n- **20 May 2025**: 52.2% (medium risk)\n- **19 May 2025**: 52.2% (medium risk)\n- **18 May 2025**: 57.1% (Medium Risk)\n- **17 May 2025**: 59.1% (medium risk)\n- **15 May 2025**: 76.1% (high risk)\n\n### V N R FIRST\n- **21 May 2025**: 72.5% (medium risk)\n- **20 May 2025**: 52.2% (medium risk)\n- **19 May 2025**: 52.2% (medium risk)\n- **18 May 2025**: 57.1% (Medium Risk)\n- **17 May 2025**: 59.1% (medium risk)\n- **15 May 2025**: 76.1% (high risk)\n\n### Dragon Fruit\n- Pest metrics are not available.\n\nYou can take appropriate measures based on this information.",
+        "timestamp": {
+          "$date": "2025-05-21T10:36:22.016Z"
+        }
+      }
+    ],
+    "farmer_id": "satwashilatatyachinchkar",
+    "farmer_plot_ids": [
+      "ZHJhZ29uZnJ1aXQ1734320960020",
+      "cGxvdG5vMnJlZGRpYW1vbmQ=1693894679851",
+      "cGxvdG5vNHBpbmt0YWl2YW4=1693895240117",
+      "cGxvdG5vNXJlZGRpYW1vbmQ=1693895672036",
+      "dm5yZmlyc3Q=1693894925861",
+      "gauvaplothariom"
+    ],
+    "conversation_id": "682dac2e7e2ad3a4e2401545",
+    "_id": "682dac2e7e2ad3a4e2401545",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-21T10:40:51.958000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-05-21T10:34:23.085000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Paus zala tari te dakhvat nai pani<user uploaded image for analysis at 'crimpson240/2025-05-21-1747793207456.png'>",
+        "en": "Barber water showing even if it rains<user uploaded image for analysis at 'crimpson240/2025-05-21-1747793207456.png'>",
+        "timestamp": {
+          "$date": "2025-05-21T02:07:04.893Z"
+        },
+        "standalone_question": "What does the image uploaded by the user depict?",
+        "standalone_en": "What does the image uploaded by the user depict?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या दिलेल्या प्रतिमेत मातीचा अहवाल आहे. येथे काही महत्त्वाचे तपशील आहेत:\n\n- आर्द्रता स्तर 1: 98%\n- आर्द्रता स्तर 2: 79%\n- तापमान: 27.75°C\n\nआर्द्रता स्तर 1 98% आहे, म्हणजे माती खूपच ओलसर आहे. तुम्हाला पाण्याची गरज नाही. जर तुम्हाला आणखी काही विचारायचं असेल किंवा अधिक माहिती हवी असेल, तर कृपया सांगा!",
+        "en": "Your given image contains a soil report. Here are some important details:\n\n- Humidity level 1: 98%\n- Humidity level 2: 79%\n- Temperature: 27.75°C\n\nThe humidity level is 198%, meaning the soil is very moist. You don't need water. If you'd like to ask more or need more information, please let me know!",
+        "timestamp": {
+          "$date": "2025-05-21T02:07:15.498Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "2nd sensor pan 90 hoyla pahije hot te 79 ch ahe 2 divsapasun ",
+        "en": "2ND sensor but 90 should have been 79 from day 2. ",
+        "timestamp": {
+          "$date": "2025-05-21T02:08:11.473Z"
+        },
+        "standalone_question": "Why is the second sensor reading only 79% when it should be 90%? It has been like this for two days.",
+        "standalone_en": "Why is the second sensor reading only 79% when it should be 90%? It has been like this for two days.",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: I irrigated still the sensor is showing dry.\nA: Ask user when he irrigated. It usually takes 12 hours to reach the water till sensor. If the sensor is not dropping even after 12 hours, it can be due to one of the following reasons :\nWater is not reaching properly till the sensor , this can be due to drip blocked , or slope in the land or dripper outlets far away from the sensor. Ask user to check if drip is fine and  dripper is within the range of sensor. \nThe sensor can be very old , more than two years , in this case , the sensor might be malfunction, ask user if he wants to raise a ticket",
+            "Q: I irrigated still the sensor is dropping slowly.\nA: Sometimes, the water reaches slowly till root zone and the moisture sensor kPa value drops slowly. Always wait for 12 hours after irrigation for the moisture to saturate. If still some confusion, ask user to check moisture near the sensor and check if he wants to raise a ticket for the issue.",
+            "Q: Sensor is showing wet, i.e. less kpa but soil looks dry.\nA: The sensor measures the moisture around the rootzone which is not visible from the top. Ask use to check the moisture in rootzone around the sensor. If it matches, ask the user to irrigate."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुम्ही सांगितल्याप्रमाणे, दुसरा सेन्सर 79% आर्द्रता दर्शवत आहे, जो 90% च्या अपेक्षेपेक्षा कमी आहे. तुम्ही पाणी दिल्यानंतर 12 तासांनी मातीच्या आर्द्रतेत बदल अपेक्षित आहे. \n\nतुम्ही पाणी दिले आहे का? जर तुम्ही 12 तासांपूर्वी पाणी दिले असेल आणि आर्द्रता अजूनही कमी आहे, तर काही कारणे असू शकतात:\n\n1. **ड्रिप सिस्टीममध्ये अडथळा**: ड्रिप अडथळा झाला आहे का? \n2. **सेंसरची स्थिती**: सेंसर मातीच्या योग्य खोलीत आहे का? \n3. **जुना सेंसर**: सेंसर 2 वर्षांपेक्षा जुना आहे का? \n\nकृपया या गोष्टी तपासा. तुम्हाला आणखी काही मदतीची आवश्यकता आहे का?",
+        "en": "As you mentioned, the second sensor is showing 79% humidity, which is lower than expected at 90%. Soil moisture is expected to change 12 hours after you water. \n\nHave you given water? If you watered 12 hours ago and the humidity is still low, there may be a few reasons:\n\n1. **Barrier in drip system**: Is there a drip barrier? \n2. **Position of the sensor**: Is the sensor at the right depth of the soil? \n3. **Old sensor**: Is the sensor more than 2 years old? \n\nPlease check these things. Do you need any more help?",
+        "timestamp": {
+          "$date": "2025-05-21T02:08:21.924Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Paus zala 100mm 2 divas zale tari 2nd sensor 79 wr ch ahe",
+        "en": "Even though it's been 100mm 2 days, the 2ND sensor is 79wr.",
+        "timestamp": {
+          "$date": "2025-05-21T02:09:17.846Z"
+        },
+        "standalone_question": "Has it been two days since you watered with 100mm, yet the second sensor still reads 79% humidity?",
+        "standalone_en": "Has it been two days since you watered with 100mm, yet the second sensor still reads 79% humidity?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: I irrigated still the sensor is dropping slowly.\nA: Sometimes, the water reaches slowly till root zone and the moisture sensor kPa value drops slowly. Always wait for 12 hours after irrigation for the moisture to saturate. If still some confusion, ask user to check moisture near the sensor and check if he wants to raise a ticket for the issue.",
+            "Q: I irrigated still the sensor is showing dry.\nA: Ask user when he irrigated. It usually takes 12 hours to reach the water till sensor. If the sensor is not dropping even after 12 hours, it can be due to one of the following reasons :\nWater is not reaching properly till the sensor , this can be due to drip blocked , or slope in the land or dripper outlets far away from the sensor. Ask user to check if drip is fine and  dripper is within the range of sensor. \nThe sensor can be very old , more than two years , in this case , the sensor might be malfunction, ask user if he wants to raise a ticket",
+            "Q: Sensor is showing dry, but it rained recently.\nA: Rainwater doesn't percolate well in the soil. Most of it runs off. After a day of rain stops , if the sensor is still dry, you will have to irrigate. You can check the moisture by digging near the sensor . Irrigate accordingly.",
+            "Q: In the latest irrigation , sensor didn't drop to 0.\nA: 0 to 5 Kpa means soil is fully wet. It need not drop to 0 every time. Moisture less than 5 also means wet conditions. So, need not worry. Also ask to wait for 12 hours after irrigation.",
+            "Q: Sensor is showing wet, i.e. less kpa but soil looks dry.\nA: The sensor measures the moisture around the rootzone which is not visible from the top. Ask use to check the moisture in rootzone around the sensor. If it matches, ask the user to irrigate."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुम्ही 100 मिमी पाणी दिल्यानंतर 2 दिवस झाले आहेत, तरीही दुसरा सेन्सर 79% आर्द्रता दर्शवत आहे. हे काही कारणांमुळे असू शकते:\n\n1. **पाण्याचा पोहचण्याचा वेळ**: पाणी मुळांच्या क्षेत्रात पोहोचण्यासाठी 12 तास लागतात. तुम्ही पाणी दिल्यानंतर 12 तासांनी आर्द्रता तपासली का?\n  \n2. **ड्रिप सिस्टीम**: ड्रिप सिस्टीममध्ये अडथळा आहे का? ड्रिपच्या बाहेरच्या ठिकाणी पाणी पोहोचत आहे का?\n\n3. **सेंसरची स्थिती**: सेंसर योग्य खोलीत आहे का? कधी कधी, मातीच्या वरच्या स्तरावर ओलसरता असली तरी, मुळांच्या क्षेत्रात पाणी कमी असू शकते.\n\nतुम्ही मातीच्या आसपासच्या क्षेत्रात आर्द्रता तपासली का? जर तुम्हाला शंका असेल, तर तुम्ही तिकीट उघडू इच्छिता का?",
+        "en": "It's been 2 days since you gave 100mm of water, yet the second sensor is showing 79% humidity. This may be due to a few reasons:\n\n1. **Water reach time**: It takes 12 hours for water to reach the root area. Did you check humidity 12 hours after you watered?\n  \n2. **Drip System**: Is there a barrier to the drip system? Is water reaching the outside of the drip?\n\n3. **Position of the sensor**: Is the sensor in the right room? Sometimes, although there is moisture in the upper layer of the soil, there may be less water in the area of the roots.\n\nDid you check humidity in the area around the soil? If you have doubts, would you like to open the ticket?",
+        "timestamp": {
+          "$date": "2025-05-21T02:09:26.567Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ho",
+        "en": "Ho",
+        "timestamp": {
+          "$date": "2025-05-21T02:09:54.833Z"
+        },
+        "standalone_question": "Have you checked the moisture level in the surrounding area of the soil?",
+        "standalone_en": "Have you checked the moisture level in the surrounding area of the soil?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: Sensor is showing wet, i.e. less kpa but soil looks dry.\nA: The sensor measures the moisture around the rootzone which is not visible from the top. Ask use to check the moisture in rootzone around the sensor. If it matches, ask the user to irrigate.",
+            "Q: I irrigated still the sensor is dropping slowly.\nA: Sometimes, the water reaches slowly till root zone and the moisture sensor kPa value drops slowly. Always wait for 12 hours after irrigation for the moisture to saturate. If still some confusion, ask user to check moisture near the sensor and check if he wants to raise a ticket for the issue.",
+            "Q: Sensor is showing dry, but it rained recently.\nA: Rainwater doesn't percolate well in the soil. Most of it runs off. After a day of rain stops , if the sensor is still dry, you will have to irrigate. You can check the moisture by digging near the sensor . Irrigate accordingly.",
+            "Q: What should I do if the soil moisture sensor always shows wet values?\nA: Verify the irrigation frequency, check the installation point, and contact Fyllo representative if the issue persists.",
+            "Q: What should I do if the soil moisture sensor values fluctuate?\nA: Ensure the sensor is installed properly in the soil, check for air bubbles, and contact Fyllo representative if the issue persists."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुम्ही मातीच्या आर्द्रतेच्या सेन्सरच्या आसपासच्या क्षेत्रात आर्द्रता तपासली का? जर तुम्हाला तिथे ओलसरता आढळली, तर तुम्हाला पाणी देण्याची आवश्यकता नाही. \n\nजर तुम्हाला आर्द्रता कमी आढळली, तर तुम्ही पाणी देऊ शकता. तुम्हाला आणखी काही मदतीची आवश्यकता आहे का?",
+        "en": "Did you check humidity in the area around the soil moisture sensor? If you find dampness there, you don't need to water. \n\nIf you find moisture low, you can provide water. Do you need any more help?",
+        "timestamp": {
+          "$date": "2025-05-21T02:09:59.701Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ho",
+        "en": "Ho",
+        "timestamp": {
+          "$date": "2025-05-21T02:10:29.077Z"
+        },
+        "standalone_question": "Have you checked the moisture level in the area around the soil moisture sensor?",
+        "standalone_en": "Have you checked the moisture level in the area around the soil moisture sensor?",
+        "retrieval": {
+          "tools": [
+            "get_soil_moisture_sensor_depth  \nReturns the depths in inches of the soil moisture sensors 1 and 2 installed on the plots."
+          ],
+          "faq": [
+            "Q: Sensor is showing wet, i.e. less kpa but soil looks dry.\nA: The sensor measures the moisture around the rootzone which is not visible from the top. Ask use to check the moisture in rootzone around the sensor. If it matches, ask the user to irrigate.",
+            "Q: What should I do if the soil moisture sensor always shows dry values?\nA: Check if irrigation water is reaching the sensor, verify sensor connection, and ensure the sensor is not damaged.",
+            "Q: I irrigated still the sensor is dropping slowly.\nA: Sometimes, the water reaches slowly till root zone and the moisture sensor kPa value drops slowly. Always wait for 12 hours after irrigation for the moisture to saturate. If still some confusion, ask user to check moisture near the sensor and check if he wants to raise a ticket for the issue.",
+            "Q: Sensor is showing dry, but it rained recently.\nA: Rainwater doesn't percolate well in the soil. Most of it runs off. After a day of rain stops , if the sensor is still dry, you will have to irrigate. You can check the moisture by digging near the sensor . Irrigate accordingly.",
+            "Q: How do I know if my soil  moisture sensor is working fine ?\nA: The only way to know is if after irrigation the sensor is dropping below 5 kpa and increasing continuously unless next irrigation is done. You can try putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. Also, a soil moisture reading of 0 kPa is perfectly fine, meaning wet soil, but a reading of 200 kPa could mean fault. If the soil moisture sensor reading is consistently at 0 from few 48 hours, then it could be anamolous (use live and historical hourly soil moisture data (use tool) to validate)."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुम्ही मातीच्या आर्द्रतेच्या सेन्सरच्या आसपासच्या क्षेत्रात आर्द्रता तपासली का? जर तुम्हाला तिथे ओलसरता आढळली, तर तुम्हाला पाणी देण्याची आवश्यकता नाही. \n\nजर तुम्हाला आर्द्रता कमी आढळली, तर तुम्ही पाणी देऊ शकता. तुम्हाला आणखी काही मदतीची आवश्यकता आहे का?",
+        "en": "Did you check humidity in the area around the soil moisture sensor? If you find dampness there, you don't need to water. \n\nIf you find moisture low, you can provide water. Do you need any more help?",
+        "timestamp": {
+          "$date": "2025-05-21T02:10:33.200Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Service nahi changli fyllo chi",
+        "en": "Service nahi changli fyllo chi",
+        "timestamp": {
+          "$date": "2025-05-21T02:10:56.674Z"
+        },
+        "standalone_question": "Is the service not functioning properly?",
+        "standalone_en": "Is the service not functioning properly?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या समस्येसाठी मला खेद आहे. तुम्ही Fyllo अॅपमध्ये सपोर्ट तिकीट उघडू शकता. जर तुमची समस्या अद्याप सोडवली गेली नाही, तर कृपया Fyllo ग्राहक समर्थनाशी संपर्क साधा. \n\nतुम्हाला आणखी काही मदतीची आवश्यकता आहे का?",
+        "en": "I'm sorry for your problem. You can open support tickets in the Fyllo app. If your problem has not yet been resolved, please contact Fyllo Customer Support. \n\nDo you need any more help?",
+        "timestamp": {
+          "$date": "2025-05-21T02:11:01.111Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Numbar dya service centar cha",
+        "en": "Numbar dya service centar cha",
+        "timestamp": {
+          "$date": "2025-05-21T02:11:30.611Z"
+        },
+        "standalone_question": "What is the contact number for the service center?",
+        "standalone_en": "What is the contact number for the service center?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Fyllo च्या ग्राहक समर्थनासाठी तुम्ही खालील नंबरवर संपर्क साधू शकता:\n\n**फोन नंबर:** (+91) 9380908040\n\nतुम्हाला आणखी काही मदतीची आवश्यकता आहे का?",
+        "en": "For Fyllo's customer support, you can contact the following number:\n\n**Phone number:** (+91) 9380908040\n\nDo you need any more help?",
+        "timestamp": {
+          "$date": "2025-05-21T02:11:34.517Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Niphad pritinidhi cha numbar dya",
+        "en": "Give niphad preity fund number",
+        "timestamp": {
+          "$date": "2025-05-21T02:12:01.853Z"
+        },
+        "standalone_question": "What is the contact number for the representative in Niphad?",
+        "standalone_en": "What is the contact number for the representative in Niphad?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "माझ्याकडे Niphad प्रातिनिधीचा नंबर नाही. तुम्ही Fyllo च्या ग्राहक समर्थनाशी संपर्क साधून स्थानिक प्रातिनिधीचा नंबर मिळवू शकता. \n\nतुम्हाला आणखी काही मदतीची आवश्यकता आहे का?",
+        "en": "I don't have niphad representative number. You can get the local representative's number by contacting Fyllo's customer support. \n\nDo you need any more help?",
+        "timestamp": {
+          "$date": "2025-05-21T02:12:05.833Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "20 divas zale nero basun te return hoil ",
+        "en": "It's been 20 days since Nero sat down and it will return. ",
+        "timestamp": {
+          "$date": "2025-05-21T02:12:42.460Z"
+        },
+        "standalone_question": "Will the return be processed after 20 days of being on hold?",
+        "standalone_en": "Will the return be processed after 20 days of being on hold?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "जर तुमचा NERO युनिट 20 दिवसांपासून कार्यरत असेल आणि तुम्हाला अद्याप योग्य डेटा मिळत नसेल, तर हे काही कारणांमुळे असू शकते:\n\n1. **सेंसरची स्थिती**: सेंसर योग्य खोलीत आहे का? \n2. **सेंसरची वयोमान**: जर सेंसर 2 वर्षांपेक्षा जुना असेल, तर तो खराब झाला असू शकतो.\n3. **ड्रिप सिस्टीम**: ड्रिप सिस्टीममध्ये अडथळा आहे का?\n\nतुम्हाला तिकीट उघडायचं आहे का? यामुळे तांत्रिक सहाय्य मिळवण्यात मदत होईल.",
+        "en": "If your NERO unit has been operating for 20 days and you still aren't getting the right data, this may be due to a few reasons:\n\n1. **Position of the sensor**: Is the sensor in the right depth? \n2. **Age of the sensor**: If the sensor is older than 2 years, it may have been damaged.\n3. **Drip System**: Is there a barrier to the drip system?\n\nDo you want to open a ticket? This will help in obtaining technical assistance.",
+        "timestamp": {
+          "$date": "2025-05-21T02:12:48.426Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ho tickit open kara",
+        "en": "Ho tickit open kara",
+        "timestamp": {
+          "$date": "2025-05-21T02:13:53.140Z"
+        },
+        "standalone_question": "Would you like me to open a ticket for you?",
+        "standalone_en": "Would you like me to open a ticket for you?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या NERO युनिटसाठी तिकीट उघडण्यासाठी, कृपया Fyllo अॅपमध्ये खालील माहिती समाविष्ट करा:\n\n- **प्लॉटचे नाव**: crimpson\n- **समस्या**: NERO युनिट कार्यरत नाही, आणि मातीच्या आर्द्रतेच्या सेन्सरमध्ये अचूकता नाही.\n- **अलीकडील पाण्याचे इव्हेंट**: \n  - 19 मे 2025\n  - 14 मे 2025\n  - 12 मे 2025\n  - 5 मे 2025\n\nतुम्हाला आणखी काही मदतीची आवश्यकता आहे का?",
+        "en": "To open tickets for your NERO unit, please include the following information in the Fyllo app:\n\n- **Plot name**: crimpson\n- **Problem**: The NERO unit is not working, and the soil moisture sensor lacks accuracy.\n- **Recent water events**: \n  - 19 May 2025\n  - 14 May 2025\n  - 12 May 2025\n  - 5 May 2025\n\nDo you need any more help?",
+        "timestamp": {
+          "$date": "2025-05-21T02:13:58.909Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Barobar ahe",
+        "en": "Barobar ahe",
+        "timestamp": {
+          "$date": "2025-05-21T02:14:51.944Z"
+        },
+        "standalone_question": "Is everything correct?",
+        "standalone_en": "Is everything correct?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या तिकीट उघडण्यासाठी आवश्यक माहिती तयार आहे. कृपया Fyllo अॅपमध्ये तिकीट उघडा आणि वरील माहिती समाविष्ट करा. \n\nतुम्हाला आणखी काही मदतीची आवश्यकता आहे का?",
+        "en": "The information you need to open your ticket is ready. Please open the ticket in the Fyllo app and include the above information. \n\nDo you need any more help?",
+        "timestamp": {
+          "$date": "2025-05-21T02:14:55.353Z"
+        }
+      }
+    ],
+    "farmer_id": "maheshshinde",
+    "farmer_plot_ids": [
+      "crimpson240"
+    ],
+    "conversation_id": "682d3548030dfecdf0aff7a9",
+    "_id": "682d3548030dfecdf0aff7a9",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-21T02:19:51.953000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-05-21T02:07:04.893000+00:00"
+  }
+]

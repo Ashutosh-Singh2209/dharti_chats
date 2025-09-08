@@ -1,0 +1,320 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "कही रोग आहे का बागेवर ",
+        "en": "Is there a disease in the garden? ",
+        "timestamp": {
+          "$date": "2025-05-16T15:17:12.171Z"
+        },
+        "standalone_question": "Is there any disease in the garden?",
+        "standalone_en": "Is there any disease in the garden?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kahi rog aahe ka bagevar "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या बागेवर सध्या कोणतेही रोग नाहीत. तुम्ही काळजी न करता तुमच्या पिकांची देखभाल करू शकता.",
+        "en": "There are currently no diseases in your garden. You can take care of your crops without worrying.",
+        "timestamp": {
+          "$date": "2025-05-16T15:17:17.035Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "  कही कमतारता आहे का बागेवर ",
+        "en": "  Is there something lacking in the garden? ",
+        "timestamp": {
+          "$date": "2025-05-16T15:18:42.297Z"
+        },
+        "standalone_question": "Is there any deficiency in the garden?",
+        "standalone_en": "Is there any deficiency in the garden?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "  kahi kamatarata aahe ka bagevar "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या बागेवर सध्या कोणतीही कमतरता नाही. तुम्ही तुमच्या पिकांची काळजी घेऊ शकता.",
+        "en": "There's no shortage on your garden right now. You can take care of your crops.",
+        "timestamp": {
+          "$date": "2025-05-16T15:18:47.183Z"
+        }
+      }
+    ],
+    "farmer_id": "sandipkale",
+    "farmer_plot_ids": [
+      "plotno1224"
+    ],
+    "conversation_id": "682756f73ed15105dfe2e1a1",
+    "_id": "682756f73ed15105dfe2e1a1",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-16T15:23:42.305000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-05-16T15:17:12.171000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पाऊस पडेल का ",
+        "en": "Will it rain? ",
+        "timestamp": {
+          "$date": "2025-05-16T14:28:49.213Z"
+        },
+        "standalone_question": "Will it rain?",
+        "standalone_en": "Will it rain?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "paus padel ka "
+      },
+      {
+        "role": "assistant",
+        "content": "पुढील काही दिवसांमध्ये पाऊस पडण्याची शक्यता आहे. \n\n- **16 मे**: 2.0 मिमी पाऊस, 30% शक्यता\n- **17 मे**: 4.8 मिमी पाऊस, 25% शक्यता\n- **18 मे**: 6.0 मिमी पाऊस, 15% शक्यता\n- **19 मे**: 15.4 मिमी पाऊस, 5% शक्यता\n\nतुम्ही पाण्याची गरज असल्यास, पाऊस थांबल्यानंतर एक दिवसाने मातीची ओलसरता तपासा.",
+        "en": "Rain is expected in the next few days. \n\n- **16 May**: 2.0 mm rainfall, 30% chance\n- **17 May**: 4.8 mm rainfall, 25% chance\n- **18 May**: 6.0 mm rainfall, 15% chance\n- **19 May**: 15.4 mm rainfall, 5% chance\n\nIf you need water, check soil moisture a day after the rain stops.",
+        "timestamp": {
+          "$date": "2025-05-16T14:28:54.954Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "स्प्रे काय घ्यावा ",
+        "en": "What to take the spray ",
+        "timestamp": {
+          "$date": "2025-05-16T14:29:29.036Z"
+        },
+        "standalone_question": "What type of spray should I use?",
+        "standalone_en": "What type of spray should I use?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        },
+        "content_transliterated": "spray kay ghyava "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटसाठी या आठवड्यात कोणत्याही रोग किंवा कीटकांसाठी स्प्रेची शिफारस नाही. तुम्ही सध्या स्प्रे घेण्याची गरज नाही.",
+        "en": "Spray is not recommended for any diseases or pests this week for your plot. You don't need to take a spray right now.",
+        "timestamp": {
+          "$date": "2025-05-16T14:29:33.733Z"
+        }
+      }
+    ],
+    "farmer_id": "vishalbhalerao514",
+    "farmer_plot_ids": [
+      "plotno1thompson682"
+    ],
+    "conversation_id": "68274ba175826862df6a79ba",
+    "_id": "68274ba175826862df6a79ba",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-16T14:34:29.044000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-05-16T14:28:49.213000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पावसाळ्यात गर्भ धारणा होण्यासाठी काय उपाययोजना करावी",
+        "en": "What measures should be taken to get pregnant during monsoon",
+        "timestamp": {
+          "$date": "2025-05-16T14:18:36.322Z"
+        },
+        "standalone_question": "What measures should be taken to conceive during the rainy season?",
+        "standalone_en": "What measures should be taken to conceive during the rainy season?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pavasalyat garbh dharna honyasathi kay upayayojana karavi"
+      },
+      {
+        "role": "assistant",
+        "content": "पावसाळ्यात गर्भधारणेसाठी खालील उपाययोजना कराव्यात:\n\n1. **सिंचन व्यवस्थापन**: योग्य पाण्याचा वापर करून मातीची आर्द्रता नियंत्रित करा. पाण्याची ओलसरता 0-5 kPa असावी.\n\n2. **मातीची आरोग्य तपासणी**: मातीची गुणवत्ता आणि पोषणतत्त्वे तपासा. आवश्यक असल्यास, योग्य खतांचा वापर करा.\n\n3. **कीटक नियंत्रण**: पावसाळ्यात कीटकांची वाढ होऊ शकते, त्यामुळे कीटकनाशकांचा वापर करा.\n\n4. **पिकांची निवड**: पावसाळ्यात चांगली गर्भधारणा होणारी पिके निवडा.\n\n5. **सिंचन प्रणाली**: ड्रिप सिंचन किंवा स्प्रिंकलर प्रणालीचा वापर करून पाण्याचे व्यवस्थापन करा.\n\n6. **पिकांची काळजी**: पिकांच्या वाढीच्या अवस्थेनुसार योग्य काळजी घ्या, जसे की छाटणी आणि खतांचा वापर.\n\nया उपाययोजनांनी गर्भधारणेसाठी अनुकूल वातावरण तयार होईल.",
+        "en": "The following measures should be taken for pregnancy during the rainy season:\n\n1. **Irrigation Management**: Control soil moisture using proper water. The moisture content of the water should be 0-5 kPa.\n\n2. **Soil health check**: Check soil quality and nutrients. If necessary, use the right fertilizers.\n\n3. **Pest control**: Insects can grow during the rainy season, so use pesticides.\n\n4. **Crop selection**: Choose crops that have a good pregnancy during the rainy season.\n\n5. **Irrigation System**: Manage water using drip irrigation or sprinkler system.\n\n6. **Crop care**: Take proper care according to the growth stage of the crops, such as pruning and fertilizer use.\n\nThese measures will create a conducive environment for pregnancy.",
+        "timestamp": {
+          "$date": "2025-05-16T14:18:45.581Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "द्राक्ष साठी गर्भधारणा साठी काय करावे",
+        "en": "What to do to conceive for grapes",
+        "timestamp": {
+          "$date": "2025-05-16T14:19:24.326Z"
+        },
+        "standalone_question": "What measures should be taken for grape cultivation to ensure successful fertilization?",
+        "standalone_en": "What measures should be taken for grape cultivation to ensure successful fertilization?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How to improve the germination percent\nA: Use of good quality seeds and seeds to be treated with insecticide, Fungicide and biological agents"
+          ]
+        },
+        "content_transliterated": "draks sathi garbhadharana sathi kay karave"
+      },
+      {
+        "role": "assistant",
+        "content": "द्राक्षांच्या गर्भधारणेसाठी खालील उपाययोजना करा:\n\n1. **सिंचन व्यवस्थापन**: मातीची आर्द्रता योग्य ठेवण्यासाठी नियमितपणे पाणी द्या. द्राक्षांना 0-5 kPa ओलसरता आवश्यक आहे.\n\n2. **खतांचा वापर**: द्राक्षांच्या गर्भधारणेसाठी आवश्यक पोषणतत्त्वे सुनिश्चित करण्यासाठी संतुलित खतांचा वापर करा. विशेषतः नायट्रोजन, फॉस्फरस आणि पोटॅशियम यांचे प्रमाण योग्य ठेवा.\n\n3. **कीटक नियंत्रण**: द्राक्षांवर येणाऱ्या कीटकांपासून संरक्षण करण्यासाठी कीटकनाशकांचा वापर करा. \n\n4. **पिकांची काळजी**: योग्य छाटणी आणि पिकांच्या वाढीच्या अवस्थेनुसार काळजी घ्या. \n\n5. **सूर्यप्रकाश**: द्राक्षांना योग्य प्रमाणात सूर्यप्रकाश मिळावा याची काळजी घ्या, कारण यामुळे गर्भधारणा सुधारते.\n\n6. **पाण्याची गुणवत्ता**: पाण्याची गुणवत्ता चांगली असावी, त्यामुळे कोणत्याही प्रकारच्या प्रदूषणापासून द्राक्षांचे संरक्षण होईल.\n\nया उपाययोजनांनी द्राक्षांच्या गर्भधारणेसाठी अनुकूल वातावरण तयार होईल.",
+        "en": "Take the following measures for grape pregnancy:\n\n1. **Irrigation Management**: Water regularly to keep soil moisture right. Grapes require 0-5 kPa moisture.\n\n2. **Fertilizer use**: Use balanced fertilizers to ensure the nutrients needed for grape pregnancy. In particular, keep the amount of nitrogen, phosphorus and potassium right.\n\n3. **Pest Control**: Use pesticides to protect grapes from pests. \n\n4. **Crop care**: Take care according to proper pruning and crop growth stage. \n\n5. **Sunlight**: Make sure the grapes get the right amount of sunlight, as it improves pregnancy.\n\n6. **Water quality**: Water quality should be good, so that grapes will be protected from any kind of pollution.\n\nThese measures will create a conducive environment for grapes to conceive.",
+        "timestamp": {
+          "$date": "2025-05-16T14:19:33.078Z"
+        }
+      }
+    ],
+    "farmer_id": "pankajsadashivkhandave",
+    "farmer_plot_ids": [
+      "plotnoonessn",
+      "plotnotwocrimson",
+      "sudhakar156",
+      "sudhakar2101"
+    ],
+    "conversation_id": "6827493c3ed15105dfe2e1a0",
+    "_id": "6827493c3ed15105dfe2e1a0",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-16T14:24:24.344000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-05-16T14:18:36.322000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "120 ppm in gm ",
+        "en": "120 ppm in gm ",
+        "timestamp": {
+          "$date": "2025-05-16T03:28:04.719Z"
+        },
+        "standalone_question": "What is 120 ppm in grams?",
+        "standalone_en": "What is 120 ppm in grams?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To convert 120 ppm (parts per million) to grams, you need to know the volume of the solution you're referring to. \n\n1 ppm is equivalent to 1 mg of solute per liter of solution. Therefore, 120 ppm means 120 mg of solute per liter.\n\nIf you have a specific volume in liters, you can calculate the grams as follows:\n\n\\[\n\\text{Grams} = \\text{ppm} \\times \\text{Volume in liters} \\div 1000\n\\]\n\nPlease provide the volume of the solution in liters for a precise conversion.",
+        "en": "To convert 120 ppm (parts per million) to grams, you need to know the volume of the solution you're referring to. \n\n1 ppm is equivalent to 1 mg of solute per liter of solution. Therefore, 120 ppm means 120 mg of solute per liter.\n\nIf you have a specific volume in liters, you can calculate the grams as follows:\n\n\\[\n\\text{Grams} = \\text{ppm} \\times \\text{Volume in liters} \\div 1000\n\\]\n\nPlease provide the volume of the solution in liters for a precise conversion.",
+        "timestamp": {
+          "$date": "2025-05-16T03:28:09.044Z"
+        }
+      }
+    ],
+    "farmer_id": "hiteshmahale",
+    "farmer_plot_ids": [
+      "purpleplot1464",
+      "purpleplot2"
+    ],
+    "conversation_id": "6826b0c43ed15105dfe2e19e",
+    "_id": "6826b0c43ed15105dfe2e19e",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-05-16T03:33:04.729000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-05-16T03:28:04.719000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Purpal plot no 1 and 2<user uploaded image for analysis at 'purpleplot2/2025-05-16-1747365294916.jpg'>",
+        "en": "Purpal plot no 1 and 2<user uploaded image for analysis at 'purpleplot2/2025-05-16-1747365294916.jpg'>",
+        "timestamp": {
+          "$date": "2025-05-16T03:15:16.692Z"
+        },
+        "standalone_question": "What can you tell me about the analysis of the image uploaded for Purpal plot no 1 and 2?",
+        "standalone_en": "What can you tell me about the analysis of the image uploaded for Purpal plot no 1 and 2?",
+        "retrieval": {
+          "tools": [
+            "analyse_crop_image  \nGets the analysis of the uploaded crop image for any diseases or pests."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the soil report for your grape cultivation in **purple plot 2** has provided the following findings:\n\n### Soil Report Findings:\n1. **Total Nitrogen (N)**: 1.39% (Optimal: 0.91 - 1.61)\n2. **Nitrate Nitrogen (NO3-N)**: 1083 ppm (Optimal: 700 - 1200)\n3. **Ammonical Nitrogen (NH4-N)**: 1519 ppm (High: 400 - 700)\n4. **Phosphorus (P)**: 0.29% (Optimal: 0.21 - 0.51)\n5. **Potassium (K)**: 1.97% (Optimal: 1.21 - 2.51)\n6. **Calcium (Ca)**: 0.90% (Low: 1.51 - 2.51)\n7. **Magnesium (Mg)**: 0.41% (Optimal: 0.31 - 0.61)\n8. **Sulphur (S)**: 0.10% (Low: 0.15 - 0.51)\n9. **Ferrous (Fe)**: 58 ppm (Low: 80 - 120)\n10. **Manganese (Mn)**: 56 ppm (Optimal: 25 - 100)\n11. **Zinc (Zn)**: 41 ppm (Optimal: 20 - 50)\n12. **Copper (Cu)**: 14 ppm (Optimal: 5 - 15)\n13. **Boron (B)**: 40 ppm (High: 15 - 30)\n14. **Molybdenum (Mo)**: 1.65 ppm (High: 0.25 - 1.51)\n15. **Sodium (Na)**: 0.07% (Optimal: 0.01 - 0.51)\n16. **Chloride (Cl)**: 0.10% (Optimal: 0.05 - 0.25)\n\n### Summary:\n- Nitrogen levels are optimal, but ammonical nitrogen is high, which may lead to nutrient imbalances.\n- Phosphorus and potassium levels are within optimal ranges.\n- Calcium and sulphur levels are low, which could affect plant health.\n- Micronutrients show a mix of optimal and low levels, with iron, boron, and molybdenum being areas of concern.\n\n### Recommendations:\n- Consider adding calcium and sulphur to improve nutrient balance.\n- Monitor the high levels of ammonical nitrogen and boron to prevent potential toxicity.\n- Regularly check micronutrient levels to ensure they remain within optimal ranges.\n\nThis analysis indicates that while your grape crop has a good foundation, attention should be given to specific nutrient deficiencies and excesses for optimal growth. If you need further assistance or specific recommendations, feel free to ask!",
+        "en": "The analysis of the soil report for your grape cultivation in **purple plot 2** has provided the following findings:\n\n### Soil Report Findings:\n1. **Total Nitrogen (N)**: 1.39% (Optimal: 0.91 - 1.61)\n2. **Nitrate Nitrogen (NO3-N)**: 1083 ppm (Optimal: 700 - 1200)\n3. **Ammonical Nitrogen (NH4-N)**: 1519 ppm (High: 400 - 700)\n4. **Phosphorus (P)**: 0.29% (Optimal: 0.21 - 0.51)\n5. **Potassium (K)**: 1.97% (Optimal: 1.21 - 2.51)\n6. **Calcium (Ca)**: 0.90% (Low: 1.51 - 2.51)\n7. **Magnesium (Mg)**: 0.41% (Optimal: 0.31 - 0.61)\n8. **Sulphur (S)**: 0.10% (Low: 0.15 - 0.51)\n9. **Ferrous (Fe)**: 58 ppm (Low: 80 - 120)\n10. **Manganese (Mn)**: 56 ppm (Optimal: 25 - 100)\n11. **Zinc (Zn)**: 41 ppm (Optimal: 20 - 50)\n12. **Copper (Cu)**: 14 ppm (Optimal: 5 - 15)\n13. **Boron (B)**: 40 ppm (High: 15 - 30)\n14. **Molybdenum (Mo)**: 1.65 ppm (High: 0.25 - 1.51)\n15. **Sodium (Na)**: 0.07% (Optimal: 0.01 - 0.51)\n16. **Chloride (Cl)**: 0.10% (Optimal: 0.05 - 0.25)\n\n### Summary:\n- Nitrogen levels are optimal, but ammonical nitrogen is high, which may lead to nutrient imbalances.\n- Phosphorus and potassium levels are within optimal ranges.\n- Calcium and sulphur levels are low, which could affect plant health.\n- Micronutrients show a mix of optimal and low levels, with iron, boron, and molybdenum being areas of concern.\n\n### Recommendations:\n- Consider adding calcium and sulphur to improve nutrient balance.\n- Monitor the high levels of ammonical nitrogen and boron to prevent potential toxicity.\n- Regularly check micronutrient levels to ensure they remain within optimal ranges.\n\nThis analysis indicates that while your grape crop has a good foundation, attention should be given to specific nutrient deficiencies and excesses for optimal growth. If you need further assistance or specific recommendations, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-16T03:15:50.450Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "In 40 ppm what is in kg ",
+        "en": "In 40 ppm what is in kg ",
+        "timestamp": {
+          "$date": "2025-05-16T03:19:30.977Z"
+        },
+        "standalone_question": "What is the equivalent of 40 ppm in kilograms?",
+        "standalone_en": "What is the equivalent of 40 ppm in kilograms?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To convert parts per million (ppm) to kilograms, you can use the following formula:\n\n\\[\n\\text{kg} = \\frac{\\text{ppm} \\times \\text{volume of solution in liters}}{1,000,000}\n\\]\n\nIf you have a specific volume of solution in liters, please provide that, and I can calculate the equivalent in kilograms for you. If you want to assume a certain volume, please specify that as well.",
+        "en": "To convert parts per million (ppm) to kilograms, you can use the following formula:\n\n\\[\n\\text{kg} = \\frac{\\text{ppm} \\times \\text{volume of solution in liters}}{1,000,000}\n\\]\n\nIf you have a specific volume of solution in liters, please provide that, and I can calculate the equivalent in kilograms for you. If you want to assume a certain volume, please specify that as well.",
+        "timestamp": {
+          "$date": "2025-05-16T03:19:35.363Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "58 ppm in kg",
+        "en": "58 ppm in kg",
+        "timestamp": {
+          "$date": "2025-05-16T03:21:11.129Z"
+        },
+        "standalone_question": "What is the equivalent of 58 ppm in kilograms?",
+        "standalone_en": "What is the equivalent of 58 ppm in kilograms?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To convert 58 ppm to kilograms, we need to know the volume of the solution in liters. Assuming you want to calculate it for 1 liter of solution, the conversion would be:\n\n\\[\n\\text{kg} = \\frac{58 \\, \\text{ppm} \\times 1 \\, \\text{liter}}{1,000,000} = 0.000058 \\, \\text{kg} = 0.058 \\, \\text{grams}\n\\]\n\nSo, 58 ppm is equivalent to **0.058 grams** in 1 liter of solution. If you have a different volume in mind, please let me know!",
+        "en": "To convert 58 ppm to kilograms, we need to know the volume of the solution in liters. Assuming you want to calculate it for 1 liter of solution, the conversion would be:\n\n\\[\n\\text{kg} = \\frac{58 \\, \\text{ppm} \\times 1 \\, \\text{liter}}{1,000,000} = 0.000058 \\, \\text{kg} = 0.058 \\, \\text{grams}\n\\]\n\nSo, 58 ppm is equivalent to **0.058 grams** in 1 liter of solution. If you have a different volume in mind, please let me know!",
+        "timestamp": {
+          "$date": "2025-05-16T03:21:17.086Z"
+        }
+      }
+    ],
+    "farmer_id": "hiteshmahale",
+    "farmer_plot_ids": [
+      "purpleplot1464",
+      "purpleplot2"
+    ],
+    "conversation_id": "6826adc43ed15105dfe2e19d",
+    "_id": "6826adc43ed15105dfe2e19d",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-05-16T03:26:11.137000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-05-16T03:15:16.692000+00:00"
+  }
+]

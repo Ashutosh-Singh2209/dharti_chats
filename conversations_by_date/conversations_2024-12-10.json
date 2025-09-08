@@ -1,0 +1,1198 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Aata kay khabar ilahave aata hai what we have to spray now",
+        "timestamp": {
+          "$date": "2024-12-10T16:04:28.991Z"
+        },
+        "standalone_question": "What news do we have about what we need to spray now?",
+        "standalone_en": "What news do we have about what we need to spray now?",
+        "retrieval": {
+          "tools": [
+            "check_spray_conditions  \nGets the spray condition forecast for the next few hours for the farmer's plots and returns the condition for each hour as GOOD, MODERATE, or WORST, based on deltaT, VPD, and rainfall conditions."
+          ],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटसाठी या आठवड्यात कोणतीही स्प्रे शेड्यूल नाही. त्यामुळे सध्या स्प्रे करण्याची आवश्यकता नाही.",
+        "timestamp": {
+          "$date": "2024-12-10T16:04:33.668Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Thank you ",
+        "timestamp": {
+          "$date": "2024-12-10T16:04:54.615Z"
+        },
+        "standalone_question": "What should we spray now?",
+        "standalone_en": "What should we spray now?",
+        "retrieval": {
+          "tools": [
+            "check_spray_conditions  \nGets the spray condition forecast for the next few hours for the farmer's plots and returns the condition for each hour as GOOD, MODERATE, or WORST, based on deltaT, VPD, and rainfall conditions."
+          ],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमचे स्वागत आहे! तुम्हाला आणखी काही मदतीची आवश्यकता असल्यास, कृपया सांगा.",
+        "timestamp": {
+          "$date": "2024-12-10T16:04:57.840Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Is there any fertilizer we have to apply now",
+        "timestamp": {
+          "$date": "2024-12-10T16:05:53.015Z"
+        },
+        "standalone_question": "Is there any fertilizer that we need to apply now?",
+        "standalone_en": "Is there any fertilizer that we need to apply now?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटवर सध्या \"Beginning Veraison\" या सक्रिय पिकाच्या टप्प्यात आहात, आणि ही आठवड्यात 2 आहे. \n\nसध्या तुम्हाला खालील फर्टिगेशन करणे आवश्यक आहे:\n\n- **Magnesium Sulphate**: 1.5 किलोग्राम/एकर\n- **Sulfate of Potash**: 5 किलोग्राम/एकर\n\nतुम्ही हे फर्टिलायझर सध्या लागू करू शकता. पुढील फर्टिगेशन 2025-01-17 पासून सुरू होईल.",
+        "timestamp": {
+          "$date": "2024-12-10T16:05:59.582Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Thank you ",
+        "timestamp": {
+          "$date": "2024-12-10T16:06:34.076Z"
+        },
+        "standalone_question": "Is there any fertilizer that needs to be applied at this time?",
+        "standalone_en": "Is there any fertilizer that needs to be applied at this time?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमचे स्वागत आहे! तुम्हाला आणखी काही विचारायचे असल्यास, कृपया सांगा. शुभ कृषी!",
+        "timestamp": {
+          "$date": "2024-12-10T16:06:37.199Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ok",
+        "timestamp": {
+          "$date": "2024-12-10T16:06:49.952Z"
+        },
+        "standalone_question": "Is there any fertilizer that needs to be applied at this time?",
+        "standalone_en": "Is there any fertilizer that needs to be applied at this time?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "जर तुम्हाला आणखी काही विचारायचे असेल तर, कृपया सांगा. मी मदतीसाठी येथे आहे!",
+        "timestamp": {
+          "$date": "2024-12-10T16:06:53.556Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "No, thank you ",
+        "timestamp": {
+          "$date": "2024-12-10T16:07:26.892Z"
+        },
+        "standalone_question": "Is there anything else you need help with?",
+        "standalone_en": "Is there anything else you need help with?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमचे स्वागत आहे! तुम्हाला काहीही आवश्यक असल्यास, कधीही संपर्क साधा. शुभ कृषी!",
+        "timestamp": {
+          "$date": "2024-12-10T16:07:30.187Z"
+        }
+      }
+    ],
+    "farmer_id": "santoshtrambaksuryawanshi",
+    "farmer_plot_ids": [
+      "flameplotno1"
+    ],
+    "conversation_id": "6758668c270840bc18e07e6a",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-12-10T16:04:28.991000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Aata kay khabar ilahave aata hai what we have to spray now",
+        "timestamp": {
+          "$date": "2024-12-10T16:04:28.991Z"
+        },
+        "standalone_question": "What news do we have about what we need to spray now?",
+        "standalone_en": "What news do we have about what we need to spray now?",
+        "retrieval": {
+          "tools": [
+            "check_spray_conditions  \nGets the spray condition forecast for the next few hours for the farmer's plots and returns the condition for each hour as GOOD, MODERATE, or WORST, based on deltaT, VPD, and rainfall conditions."
+          ],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटसाठी या आठवड्यात कोणतीही स्प्रे शेड्यूल नाही. त्यामुळे सध्या स्प्रे करण्याची आवश्यकता नाही.",
+        "timestamp": {
+          "$date": "2024-12-10T16:04:33.668Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Thank you ",
+        "timestamp": {
+          "$date": "2024-12-10T16:04:54.615Z"
+        },
+        "standalone_question": "What should we spray now?",
+        "standalone_en": "What should we spray now?",
+        "retrieval": {
+          "tools": [
+            "check_spray_conditions  \nGets the spray condition forecast for the next few hours for the farmer's plots and returns the condition for each hour as GOOD, MODERATE, or WORST, based on deltaT, VPD, and rainfall conditions."
+          ],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमचे स्वागत आहे! तुम्हाला आणखी काही मदतीची आवश्यकता असल्यास, कृपया सांगा.",
+        "timestamp": {
+          "$date": "2024-12-10T16:04:57.840Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Is there any fertilizer we have to apply now",
+        "timestamp": {
+          "$date": "2024-12-10T16:05:53.015Z"
+        },
+        "standalone_question": "Is there any fertilizer that we need to apply now?",
+        "standalone_en": "Is there any fertilizer that we need to apply now?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटवर सध्या \"Beginning Veraison\" या सक्रिय पिकाच्या टप्प्यात आहात, आणि ही आठवड्यात 2 आहे. \n\nसध्या तुम्हाला खालील फर्टिगेशन करणे आवश्यक आहे:\n\n- **Magnesium Sulphate**: 1.5 किलोग्राम/एकर\n- **Sulfate of Potash**: 5 किलोग्राम/एकर\n\nतुम्ही हे फर्टिलायझर सध्या लागू करू शकता. पुढील फर्टिगेशन 2025-01-17 पासून सुरू होईल.",
+        "timestamp": {
+          "$date": "2024-12-10T16:05:59.582Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Thank you ",
+        "timestamp": {
+          "$date": "2024-12-10T16:06:34.076Z"
+        },
+        "standalone_question": "Is there any fertilizer that needs to be applied at this time?",
+        "standalone_en": "Is there any fertilizer that needs to be applied at this time?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमचे स्वागत आहे! तुम्हाला आणखी काही विचारायचे असल्यास, कृपया सांगा. शुभ कृषी!",
+        "timestamp": {
+          "$date": "2024-12-10T16:06:37.199Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ok",
+        "timestamp": {
+          "$date": "2024-12-10T16:06:49.952Z"
+        },
+        "standalone_question": "Is there any fertilizer that needs to be applied at this time?",
+        "standalone_en": "Is there any fertilizer that needs to be applied at this time?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "जर तुम्हाला आणखी काही विचारायचे असेल तर, कृपया सांगा. मी मदतीसाठी येथे आहे!",
+        "timestamp": {
+          "$date": "2024-12-10T16:06:53.556Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "No, thank you ",
+        "timestamp": {
+          "$date": "2024-12-10T16:07:26.892Z"
+        },
+        "standalone_question": "Is there anything else you need help with?",
+        "standalone_en": "Is there anything else you need help with?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमचे स्वागत आहे! तुम्हाला काहीही आवश्यक असल्यास, कधीही संपर्क साधा. शुभ कृषी!",
+        "timestamp": {
+          "$date": "2024-12-10T16:07:30.187Z"
+        }
+      }
+    ],
+    "farmer_id": "santoshtrambaksuryawanshi",
+    "farmer_plot_ids": [
+      "flameplotno1"
+    ],
+    "conversation_id": "6758668c270840bc18e07e6a",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-12-10T16:04:28.991000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पाला आलू को कितने डिग्री पर जला देता हे",
+        "timestamp": {
+          "$date": "2024-12-10T15:38:06.323Z"
+        },
+        "standalone_question": "At what temperature does frozen potato burn?",
+        "standalone_en": "At what temperature does frozen potato burn?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is the temperature at which cold/Frost/Paala(Hindi) will burn/damage the potato crop?\nA: Cold will burn the potato crop at 5 degrees Celsius and less. The minimum safe temperature for a potato crop to be left in so that it can survive is 6 degrees Celsius, so it is suggested to keep your crop above this value.\nStoring potatoes at a given temperature and letting the potato crop be in the field at a certain atmospheric temperature are two different things. If the question is not clear, or the user needs more info, prompt the user to contact the CRM team at (+91) 9380908040 or by emailing contact@fyllo.in as we don't have informaion about storage of potato."
+          ]
+        },
+        "content_transliterated": "pala aalu ko kitne degree par jala deta hay"
+      },
+      {
+        "role": "assistant",
+        "content": "पाला आलू को 0 डिग्री सेल्सियस (32 डिग्री फारेनहाइट) के आसपास जलने का खतरा होता है। जब तापमान इस स्तर से नीचे चला जाता है, तो आलू की पत्तियाँ और अन्य भाग प्रभावित हो सकते हैं। इसलिए, आलू की फसल की सुरक्षा के लिए ठंड के मौसम में उचित उपाय करना आवश्यक है।",
+        "timestamp": {
+          "$date": "2024-12-10T15:38:09.515Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "नहीं गलत बता रहे हो आप 5 डिग्री में भी जल जाता हैं ",
+        "timestamp": {
+          "$date": "2024-12-10T15:39:05.389Z"
+        },
+        "standalone_question": "At what temperature does frost damage occur in potatoes?",
+        "standalone_en": "At what temperature does frost damage occur in potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is the temperature at which cold/Frost/Paala(Hindi) will burn/damage the potato crop?\nA: Cold will burn the potato crop at 5 degrees Celsius and less. The minimum safe temperature for a potato crop to be left in so that it can survive is 6 degrees Celsius, so it is suggested to keep your crop above this value.\nStoring potatoes at a given temperature and letting the potato crop be in the field at a certain atmospheric temperature are two different things. If the question is not clear, or the user needs more info, prompt the user to contact the CRM team at (+91) 9380908040 or by emailing contact@fyllo.in as we don't have informaion about storage of potato."
+          ]
+        },
+        "content_transliterated": "nahi galat bata rahe ho aap 5 degree mein bhi jal jaata hain "
+      },
+      {
+        "role": "assistant",
+        "content": "आप सही हैं, पाला आलू को 5 डिग्री सेल्सियस (41 डिग्री फारेनहाइट) के आसपास भी जलने का खतरा होता है। इस तापमान पर आलू की पत्तियाँ प्रभावित हो सकती हैं, जिससे फसल को नुकसान पहुँच सकता है। ठंड के मौसम में आलू की फसल की सुरक्षा के लिए उचित उपाय करना बहुत महत्वपूर्ण है। धन्यवाद आपकी जानकारी के लिए!",
+        "timestamp": {
+          "$date": "2024-12-10T15:39:10.244Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पर आपने तो 0 डिग्री क्यों बताया",
+        "timestamp": {
+          "$date": "2024-12-10T15:39:58.815Z"
+        },
+        "standalone_question": "Why did you mention 0 degrees when discussing the temperature at which potatoes can be damaged by frost?",
+        "standalone_en": "Why did you mention 0 degrees when discussing the temperature at which potatoes can be damaged by frost?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is the temperature at which cold/Frost/Paala(Hindi) will burn/damage the potato crop?\nA: Cold will burn the potato crop at 5 degrees Celsius and less. The minimum safe temperature for a potato crop to be left in so that it can survive is 6 degrees Celsius, so it is suggested to keep your crop above this value.\nStoring potatoes at a given temperature and letting the potato crop be in the field at a certain atmospheric temperature are two different things. If the question is not clear, or the user needs more info, prompt the user to contact the CRM team at (+91) 9380908040 or by emailing contact@fyllo.in as we don't have informaion about storage of potato."
+          ]
+        },
+        "content_transliterated": "par aapne to 0 degree kyon bataya"
+      },
+      {
+        "role": "assistant",
+        "content": "मुझे खेद है कि मैंने गलत जानकारी दी। आलू की फसल को 5 डिग्री सेल्सियस पर पाले का खतरा होता है, और इससे पहले की जानकारी गलत थी। पाला आलू की फसल को नुकसान पहुँचा सकता है, इसलिए ठंड के मौसम में इसे सुरक्षित रखने के उपाय करना आवश्यक है। आपकी समझदारी के लिए धन्यवाद!",
+        "timestamp": {
+          "$date": "2024-12-10T15:40:02.760Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पर में आपकी बात मान लेता ओर 0 डिग्री तक कोई उपाय नहीं करता तो मेरा आलू तो जल जाता",
+        "timestamp": {
+          "$date": "2024-12-10T15:41:15.888Z"
+        },
+        "standalone_question": "If I don't take any precautions and believe your statement about 0 degrees, will my potatoes get damaged?",
+        "standalone_en": "If I don't take any precautions and believe your statement about 0 degrees, will my potatoes get damaged?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is the temperature at which cold/Frost/Paala(Hindi) will burn/damage the potato crop?\nA: Cold will burn the potato crop at 5 degrees Celsius and less. The minimum safe temperature for a potato crop to be left in so that it can survive is 6 degrees Celsius, so it is suggested to keep your crop above this value.\nStoring potatoes at a given temperature and letting the potato crop be in the field at a certain atmospheric temperature are two different things. If the question is not clear, or the user needs more info, prompt the user to contact the CRM team at (+91) 9380908040 or by emailing contact@fyllo.in as we don't have informaion about storage of potato."
+          ]
+        },
+        "content_transliterated": "par mein aapki baat maan leta or 0 degree tak koi upay nahi karta to mera aalu to jal jata"
+      },
+      {
+        "role": "assistant",
+        "content": "आपकी चिंता सही है। यदि तापमान 5 डिग्री सेल्सियस या उससे कम हो जाता है, तो आलू की फसल को पाले से नुकसान हो सकता है। इसलिए, ठंड के मौसम में आलू की फसल की सुरक्षा के लिए उचित उपाय करना आवश्यक है, जैसे कि फसल को कवर करना या अन्य सुरक्षा उपाय अपनाना। \n\nयदि आपको पाले की संभावना है, तो फसल की सुरक्षा के लिए तुरंत कदम उठाना चाहिए। धन्यवाद आपकी जानकारी के लिए!",
+        "timestamp": {
+          "$date": "2024-12-10T15:41:19.902Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "आप हमेशा गलत जानकारी क्यों देते हो",
+        "timestamp": {
+          "$date": "2024-12-10T15:42:10.646Z"
+        },
+        "standalone_question": "Why do you always provide incorrect information?",
+        "standalone_en": "Why do you always provide incorrect information?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "aap hamesha galat jankari kyon dete ho"
+      },
+      {
+        "role": "assistant",
+        "content": "मुझे खेद है कि मैंने आपको गलत जानकारी दी। मेरा उद्देश्य आपको सही और उपयोगी जानकारी प्रदान करना है। यदि आपके पास कोई विशेष प्रश्न या चिंता है, तो कृपया बताएं, मैं आपकी मदद करने के लिए यहाँ हूँ।",
+        "timestamp": {
+          "$date": "2024-12-10T15:42:15.718Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पाला आलू को कितने डिग्री पर जला देता हे ",
+        "timestamp": {
+          "$date": "2024-12-10T15:43:01.320Z"
+        },
+        "standalone_question": "At what temperature does frost damage potatoes?",
+        "standalone_en": "At what temperature does frost damage potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is the temperature at which cold/Frost/Paala(Hindi) will burn/damage the potato crop?\nA: Cold will burn the potato crop at 5 degrees Celsius and less. The minimum safe temperature for a potato crop to be left in so that it can survive is 6 degrees Celsius, so it is suggested to keep your crop above this value.\nStoring potatoes at a given temperature and letting the potato crop be in the field at a certain atmospheric temperature are two different things. If the question is not clear, or the user needs more info, prompt the user to contact the CRM team at (+91) 9380908040 or by emailing contact@fyllo.in as we don't have informaion about storage of potato."
+          ]
+        },
+        "content_transliterated": "pala aalu ko kitne degree par jala deta hay "
+      },
+      {
+        "role": "assistant",
+        "content": "आलू की फसल को पाले से नुकसान 0 से 5 डिग्री सेल्सियस के बीच हो सकता है। यदि तापमान 5 डिग्री सेल्सियस या उससे कम हो जाता है, तो आलू की पत्तियाँ जल सकती हैं। इसलिए, ठंड के मौसम में आलू की फसल की सुरक्षा के लिए उचित उपाय करना बहुत महत्वपूर्ण है।",
+        "timestamp": {
+          "$date": "2024-12-10T15:43:08.205Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "मुझे सेंसर कितना kpa रखना है ",
+        "timestamp": {
+          "$date": "2024-12-10T15:43:52.109Z"
+        },
+        "standalone_question": "What should be the pressure setting for the sensor in kPa?",
+        "standalone_en": "What should be the pressure setting for the sensor in kPa?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How much kPa should be set for a 4-inch depth soil moisture sensor?\nA: The kPa value for a 4-inch depth soil moisture sensor should be set based on the **soil type** and **crop requirements**. Here are general guidelines for different soil types:\n\n### **Sandy Soil:**\n- **Optimal range:** 10–20 kPa\n- **Irrigation threshold:** Above 30 kPa\n\n### **Loamy Soil (Silty or Mixed):**\n- **Optimal range:** 20–40 kPa\n- **Irrigation threshold:** Above 50 kPa\n\n### **Clay Soil:**\n- **Optimal range:** 40–70 kPa\n- **Irrigation threshold:** Above 80 kPa\n\n### **Additional Considerations:**\n- For **sensitive crops** like vegetables, maintain lower kPa thresholds to avoid water stress.\n- For **deep-rooted crops**, kPa values may vary at different depths; calibrate accordingly.\n- **Calibration** of the sensor to your specific soil and crop is essential for accuracy.\n\nConsulting with an agronomist or referring to crop-specific irrigation guides will help you fine-tune the kPa range.",
+            "Q: My  sensor is showing 0 Kpa for long.\nA: 0-5 kPa means wet soil. It can be due to following :\nIf the device is recently installed, there can be moisture  around the sensor because the sensor is dipped in the water before installing. If this is the case, ask them to do atleast 3 irrigations as per their previous schedule without sensors and sensors would b set by then.\nIf the crop stage is very early or pruing is done recently, the water takeup by plants is negligible in this period because of very less transpiration. If this is the case, ask them to wait till irrigation Kpa in the present stage.\nSometimes, the water can remain accumulated around the sensor due to local landscaping or slope in the land around sensor. In this case, please check the around the sensor. It will have to be reinstalled properly. Chatbot should ask the user if he wants to create an issue ticket for the same",
+            "Q: What is the range of kpa moisture provided by the sensor ?\nA: It's 0-200 Kpa. 0 kPa is wet, 200 kPa is dry",
+            "Q: My sensor is 200. What can be the reason ?\nA: The 200 kPa means:\neither the soil is fully dry or the sensor is put outside the soil or there is no current reaching the sensor rods meaning the wire is cut or connectors are removed. \nIn this case, check if the moisture went to 200 kpa suddenly or it went gradually. If it went suddenly , it means the wire is broken or the connector is broken. A physical verification of the device is required in this case. Ask user to check or create a support ticket.\nIf it increased gradually, ask user when he irrigated last. If he has not irrigated for long time, the soil would be dry and 200 kpa is fine.",
+            "Q: How do I know if my soil  moisture sensor is working fine ?\nA: The only way to know is if after irrigation the sensor is dropping below 5 kpa and increasing continuously unless next irrigation is done. You can try putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. Also, a soil moisture reading of 0 kPa is perfectly fine, meaning wet soil, but a reading of 200 kPa could mean fault. If the soil moisture sensor reading is consistently at 0 from few 48 hours, then it could be anamolous (use live and historical hourly soil moisture data (use tool) to validate)."
+          ]
+        },
+        "content_transliterated": "mujhe sensor kitna kpa rakhna hai "
+      },
+      {
+        "role": "assistant",
+        "content": "आपके प्लॉट \"margad\" के लिए, आदर्श मिट्टी की नमी 2 kPa (गीली) से 18 kPa (सूखी) के बीच होनी चाहिए। \n\nयदि मिट्टी की नमी 18 kPa से ऊपर जाती है, तो आपको सिंचाई करनी चाहिए। 0 kPa का मतलब है कि मिट्टी गीली है, जो एक सामान्य स्थिति है।",
+        "timestamp": {
+          "$date": "2024-12-10T15:44:03.533Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "सेंसर 1 या 2",
+        "timestamp": {
+          "$date": "2024-12-10T15:44:44.430Z"
+        },
+        "standalone_question": "Which sensor should I use, sensor 1 or sensor 2?",
+        "standalone_en": "Which sensor should I use, sensor 1 or sensor 2?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "sensor 1 ya 2"
+      },
+      {
+        "role": "assistant",
+        "content": "आपके प्लॉट \"margad\" के लिए, दोनों सेंसर (सेंसर 1 और सेंसर 2) के लिए आदर्श मिट्टी की नमी 2 kPa (गीली) से 18 kPa (सूखी) के बीच होनी चाहिए। \n\nयदि मिट्टी की नमी 18 kPa से ऊपर जाती है, तो आपको सिंचाई करनी चाहिए। 0 kPa का मतलब है कि मिट्टी गीली है, जो एक सामान्य स्थिति है।",
+        "timestamp": {
+          "$date": "2024-12-10T15:44:54.490Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "आप हमे पाला कब गिरेगा बता सकते है क्या ",
+        "timestamp": {
+          "$date": "2024-12-10T15:46:00.773Z"
+        },
+        "standalone_question": "Can you tell us when frost will occur?",
+        "standalone_en": "Can you tell us when frost will occur?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "aap hame pala kab girega bata sakte hai kya "
+      },
+      {
+        "role": "assistant",
+        "content": "मुझे खेद है, लेकिन वर्तमान में आपके प्लॉट \"margad\" के लिए पाले की भविष्यवाणी के लिए कोई ऐतिहासिक मौसम डेटा उपलब्ध नहीं है। \n\nआपके क्षेत्र में पाले की संभावना जानने के लिए, मैं सुझाव दूंगा कि आप स्थानीय मौसम सेवा या मौसम ऐप्स की जांच करें। यदि आपको और जानकारी चाहिए, तो कृपया बताएं!",
+        "timestamp": {
+          "$date": "2024-12-10T15:46:06.512Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "मौसम ऐप 7 डिग्री बता रहे है क्या करे",
+        "timestamp": {
+          "$date": "2024-12-10T15:47:19.625Z"
+        },
+        "standalone_question": "What should I do if the weather app is predicting a temperature of 7 degrees?",
+        "standalone_en": "What should I do if the weather app is predicting a temperature of 7 degrees?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mausam app 7 degree bata rahe hai kya kare"
+      },
+      {
+        "role": "assistant",
+        "content": "यदि मौसम ऐप 7 डिग्री सेल्सियस का तापमान बता रहा है, तो यह आलू की फसल के लिए पाले का खतरा हो सकता है। यहाँ कुछ सुझाव दिए गए हैं:\n\n1. **फसल को कवर करें**: आलू की फसल को कवर करने के लिए बायो-डेग्रेडेबल कवर या फसल कवर का उपयोग करें। यह पाले से सुरक्षा प्रदान करेगा।\n\n2. **सिंचाई करें**: हल्की सिंचाई करने से मिट्टी का तापमान बढ़ सकता है, जिससे पाले का प्रभाव कम हो सकता है।\n\n3. **स्थानीय मौसम की निगरानी करें**: मौसम की स्थिति पर नज़र रखें और यदि तापमान और गिरने की संभावना बढ़ती है, तो तुरंत सुरक्षा उपाय करें।\n\n4. **फसल की स्थिति की जांच करें**: यदि पाले का खतरा बढ़ता है, तो फसल की स्थिति की नियमित जांच करें और किसी भी नुकसान के लिए तैयार रहें।\n\nइन उपायों से आप अपनी आलू की फसल को पाले से बचा सकते हैं।",
+        "timestamp": {
+          "$date": "2024-12-10T15:47:25.604Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "मिट्टी का तापमान कितना रखे पाले से बचने के लिए",
+        "timestamp": {
+          "$date": "2024-12-10T15:48:52.193Z"
+        },
+        "standalone_question": "What temperature should the soil be maintained at to protect against frost?",
+        "standalone_en": "What temperature should the soil be maintained at to protect against frost?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is the temperature at which cold/Frost/Paala(Hindi) will burn/damage the potato crop?\nA: Cold will burn the potato crop at 5 degrees Celsius and less. The minimum safe temperature for a potato crop to be left in so that it can survive is 6 degrees Celsius, so it is suggested to keep your crop above this value.\nStoring potatoes at a given temperature and letting the potato crop be in the field at a certain atmospheric temperature are two different things. If the question is not clear, or the user needs more info, prompt the user to contact the CRM team at (+91) 9380908040 or by emailing contact@fyllo.in as we don't have informaion about storage of potato."
+          ]
+        },
+        "content_transliterated": "mitti ka tapaman kitna rakhe pale se bachane ke liye"
+      },
+      {
+        "role": "assistant",
+        "content": "पाले से बचने के लिए मिट्टी का तापमान 5 डिग्री सेल्सियस से ऊपर होना चाहिए। यदि मिट्टी का तापमान 5 डिग्री सेल्सियस या उससे कम हो जाता है, तो आलू की फसल को पाले का खतरा हो सकता है। \n\nइसलिए, सुनिश्चित करें कि मिट्टी का तापमान 5 डिग्री सेल्सियस से अधिक रहे, ताकि आपकी फसल सुरक्षित रहे।",
+        "timestamp": {
+          "$date": "2024-12-10T15:48:58.305Z"
+        }
+      }
+    ],
+    "farmer_id": "VR367",
+    "farmer_plot_ids": [
+      "margad"
+    ],
+    "conversation_id": "6758605e407f69bacc6a7e83",
+    "tag": "complaints",
+    "conv_date": "2024-12-10T15:38:06.323000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Fym म्हणजे  काय",
+        "timestamp": {
+          "$date": "2024-12-10T15:23:15.814Z"
+        },
+        "standalone_question": "What does \"Fym\" mean?",
+        "standalone_en": "What does \"Fym\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "Fym mhanaje kaya"
+      },
+      {
+        "role": "assistant",
+        "content": "FYM म्हणजे \"फार्मर यार्ड मॅन्युअर\" (Farm Yard Manure). हे एक जैविक खत आहे जे प्राण्यांच्या मल, पानं, आणि इतर जैविक पदार्थांच्या मिश्रणाने तयार केले जाते. FYM मातीच्या आरोग्यासाठी आणि उत्पादनक्षमतेसाठी उपयुक्त आहे, कारण ते मातीची संरचना सुधारते, पोषण प्रदान करते, आणि जलधारण क्षमता वाढवते. यामुळे पिकांच्या वाढीसाठी अनुकूल वातावरण तयार होते.",
+        "timestamp": {
+          "$date": "2024-12-10T15:23:20.348Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "फटिगेशन म्हणजे",
+        "timestamp": {
+          "$date": "2024-12-10T15:25:39.400Z"
+        },
+        "standalone_question": "What does \"फटिगेशन\" mean?",
+        "standalone_en": "What does \"फटिगेशन\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "fatigation mhanaje"
+      },
+      {
+        "role": "assistant",
+        "content": "फटिगेशन म्हणजे \"फर्टिगेशन\" (Fertigation). हे एक आधुनिक कृषी तंत्र आहे ज्यामध्ये खतांना पाण्यात मिसळून पिकांना सिंचनाच्या प्रक्रियेतून दिले जाते. यामुळे खतांचे पोषण अधिक प्रभावीपणे पिकांपर्यंत पोहोचते, कारण ते थेट मुळांजवळ जातात. फटिगेशनचा उपयोग पिकांच्या वाढीसाठी आवश्यक पोषक तत्वांची अचूकता आणि प्रमाणात देण्यासाठी केला जातो, ज्यामुळे उत्पादन वाढते आणि मातीची गुणवत्ता सुधारते.",
+        "timestamp": {
+          "$date": "2024-12-10T15:25:44.209Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "कोणते कोणते खंत ऐकत्र देऊ शकतो",
+        "timestamp": {
+          "$date": "2024-12-10T15:28:25.922Z"
+        },
+        "standalone_question": "What types of fertilizers can be used in fertigation?",
+        "standalone_en": "What types of fertilizers can be used in fertigation?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: Can I generate a fertigation schedule without soil, leaf, or petiole data?\nA: Yes, you can generate a basic fertigation schedule without specific soil, leaf, or petiole data. Fyllo will create a general schedule based on typical crop needs and soil types for your region.",
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available."
+          ]
+        },
+        "content_transliterated": "conte conte khant aikatr deu shakato"
+      },
+      {
+        "role": "assistant",
+        "content": "फटिगेशन प्रक्रियेत विविध प्रकारचे खतं एकत्रितपणे वापरले जाऊ शकतात. सामान्यतः, NPK (नायट्रोजन, फॉस्फरस, आणि पोटॅशियम) खतं सर्वाधिक वापरले जातात. याशिवाय, खालील प्रकारचे खतं एकत्रितपणे वापरले जाऊ शकतात:\n\n1. **NPK खतं**: जसे की 20-20-20, 10-26-26, इत्यादी.\n2. **सूक्ष्म पोषक तत्वं**: जसे की जस्त, बोरॉन, मॅंगनीज, इत्यादी.\n3. **जैविक खतं**: जसे की वर्मी कंपोस्ट, फर्म यार्ड मॅन्युअर (FYM).\n4. **अमोनियम नायट्रेट**: नायट्रोजन पुरवठा करण्यासाठी.\n5. **पोटॅशियम नायट्रेट**: पोटॅशियम आणि नायट्रोजन पुरवठा करण्यासाठी.\n6. **फॉस्फेट खतं**: फॉस्फरस पुरवठा करण्यासाठी.\n\nहे सर्व खतं एकत्रितपणे वापरल्यास पिकांच्या वाढीसाठी आवश्यक पोषण मिळवता येते. मात्र, खतांचा वापर करताना पिकांच्या आवश्यकतांनुसार आणि मातीच्या स्थितीनुसार योग्य प्रमाणात वापर करणे महत्त्वाचे आहे.",
+        "timestamp": {
+          "$date": "2024-12-10T15:28:32.481Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "कोणते कोणते खंत ऐकत्र देऊ शकतो",
+        "timestamp": {
+          "$date": "2024-12-10T15:28:27.485Z"
+        },
+        "standalone_question": "What types of fertilizers can be used together in fertigation?",
+        "standalone_en": "What types of fertilizers can be used together in fertigation?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice.",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17",
+            "Q: Can I generate a fertigation schedule without soil, leaf, or petiole data?\nA: Yes, you can generate a basic fertigation schedule without specific soil, leaf, or petiole data. Fyllo will create a general schedule based on typical crop needs and soil types for your region.",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users."
+          ]
+        },
+        "content_transliterated": "conte conte khant aikatr deu shakato"
+      },
+      {
+        "role": "assistant",
+        "content": "फटिगेशन प्रक्रियेत विविध प्रकारचे खतं एकत्रितपणे दिले जाऊ शकतात. सामान्यतः, खालील प्रकारचे खतं एकत्रितपणे वापरले जातात:\n\n1. **NPK खतं**: नायट्रोजन (N), फॉस्फरस (P), आणि पोटॅशियम (K) यांचे मिश्रण.\n2. **सूक्ष्म पोषक तत्वं**: जसे की जस्त, बोरॉन, मॅंगनीज, आणि आयरन.\n3. **जैविक खतं**: जसे की वर्मीकंपोस्ट किंवा फर्मेंटेड प्लांट एक्सट्रॅक्ट.\n4. **अमिनो आम्ल**: पिकांच्या वाढीसाठी आवश्यक पोषक तत्वं.\n5. **फॉस्फेट खतं**: फॉस्फरसची अधिकता असलेली खतं.\n\nहे सर्व खतं एकत्रितपणे वापरल्याने पिकांच्या वाढीसाठी आवश्यक पोषण अधिक प्रभावीपणे मिळवता येते. मात्र, प्रत्येक पिकाच्या आवश्यकतांनुसार आणि मातीच्या स्थितीनुसार खतांचा वापर करणे महत्त्वाचे आहे.",
+        "timestamp": {
+          "$date": "2024-12-10T15:28:33.338Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "कोणते खंत कोणत्या खंतात मिक्स करू शकतो व कोणते करु शकत नाही",
+        "timestamp": {
+          "$date": "2024-12-10T15:32:10.132Z"
+        },
+        "standalone_question": "Which fertilizers can be mixed together, and which ones should not be mixed?",
+        "standalone_en": "Which fertilizers can be mixed together, and which ones should not be mixed?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice.",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "conte khant konatya khantat mix karu shakato v conte karu shakat nahi"
+      },
+      {
+        "role": "assistant",
+        "content": "फटिगेशन प्रक्रियेत विविध खतं एकत्रितपणे वापरता येतात, परंतु काही खतं एकत्रित करणे टाळावे लागते कारण त्यांच्यात रासायनिक प्रतिक्रिया होऊ शकते. खालीलप्रमाणे काही सामान्य मार्गदर्शक तत्त्वे:\n\n### एकत्रित करू शकणारे खतं:\n1. **NPK खतं**: नायट्रोजन, फॉस्फरस, आणि पोटॅशियम यांचे मिश्रण.\n2. **सूक्ष्म पोषक तत्वं**: जसे की जस्त, बोरॉन, आणि मॅंगनीज.\n3. **जैविक खतं**: वर्मीकंपोस्ट किंवा फर्मेंटेड प्लांट एक्सट्रॅक्ट.\n\n### एकत्रित करू नये असे खतं:\n1. **अमोनियम नायट्रेट आणि कॅल्शियम खतं**: यामुळे अमोनियम नायट्रेटची स्थिरता कमी होते.\n2. **फॉस्फेट खतं आणि कॅल्शियम खतं**: यामुळे फॉस्फेटचे अवशोषण कमी होते.\n3. **अल्कलिन आणि आम्लीय खतं**: जसे की अमोनियम सल्फेट आणि कॅल्शियम नायट्रेट एकत्रित केल्यास रासायनिक प्रतिक्रिया होऊ शकते.\n\n### टिप:\nखतांचा वापर करताना, स्थानिक कृषी तज्ञांचा सल्ला घेणे आणि मातीच्या चाचणी अहवालांचा विचार करणे महत्त्वाचे आहे, जेणेकरून योग्य खतांचा वापर केला जाईल.",
+        "timestamp": {
+          "$date": "2024-12-10T15:32:16.704Z"
+        }
+      }
+    ],
+    "farmer_id": "sagaramrutsalunkhe",
+    "farmer_plot_ids": [
+      "peruplot377"
+    ],
+    "conversation_id": "67585ce3270840bc18e07e69",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-12-10T15:23:15.814000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મરચાં મા કોકડવા માટે કંઈ દવા છાંટવી ",
+        "timestamp": {
+          "$date": "2024-12-10T12:40:37.601Z"
+        },
+        "standalone_question": "What medicine should be sprayed on chili plants to control pests?",
+        "standalone_en": "What medicine should be sprayed on chili plants to control pests?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        },
+        "content_transliterated": "marchan ma kokadva mate kani dava chantavi "
+      },
+      {
+        "role": "assistant",
+        "content": "મરચાંમાં કોકડવા માટે, તમે નીચેની દવાઓ છાંટવા માટે વિચાર કરી શકો છો:\n\n1. **કર્બેન્ડાઝિમ** - 2.5 ગ્રામ પ્રતિ લિટર પાણીમાં મિશ્રિત કરો અને છાંટો.\n2. **મેટાલેક્સિલ** - 2.5 ગ્રામ પ્રતિ લિટર પાણીમાં મિશ્રિત કરો.\n\nઆ દવાઓ કોકડવા અને અન્ય ફૂગના રોગો સામે અસરકારક છે. છાંટણી સવારે અથવા સાંજના સમયે કરવી વધુ લાભદાયી રહેશે.",
+        "timestamp": {
+          "$date": "2024-12-10T12:40:43.080Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ટામેટા માટે કંઈ દવા છાંટવી ",
+        "timestamp": {
+          "$date": "2024-12-10T12:41:15.569Z"
+        },
+        "standalone_question": "What medicine can be sprayed for tomatoes?",
+        "standalone_en": "What medicine can be sprayed for tomatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "tameta mate kani dava chantavi "
+      },
+      {
+        "role": "assistant",
+        "content": "ટામેટા માટે હાલમાં કોઈ દવા છાંટવાની સૂચના નથી. જો તમે કોઈ ખાસ રોગ અથવા કીટક વિશે ચિંતિત છો, તો કૃપા કરીને વધુ માહિતી આપો, જેથી હું વધુ મદદ કરી શકું.",
+        "timestamp": {
+          "$date": "2024-12-10T12:41:23.236Z"
+        }
+      }
+    ],
+    "farmer_id": "VR10499",
+    "farmer_plot_ids": [
+      "kairomatiyal",
+      "neroretal"
+    ],
+    "conversation_id": "675836c499570ac0170862f6",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-12-10T12:40:37.601000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "અઠવાડિયા પહેલાં કયો રોગ આવવાનો સે તે કેવી રીતે જાણ થાય",
+        "timestamp": {
+          "$date": "2024-12-10T12:22:30.604Z"
+        },
+        "standalone_question": "How can one know which disease is coming a week in advance?",
+        "standalone_en": "How can one know which disease is coming a week in advance?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "athavadiya pahelan kayo rog avavano say te kv rite jan thay"
+      },
+      {
+        "role": "assistant",
+        "content": "અઠવાડિયા પહેલાં કયા રોગો આવવાના છે તે જાણવા માટે, ફાયલો ડેટા અને મેટ્રિક્સનો ઉપયોગ કરે છે. આમાં હવામાનની સ્થિતિ, જમીનની તાપમાન, આદ્રતા, અને અન્ય પરિમાણોનો સમાવેશ થાય છે. આ માહિતીના આધારે, વિવિધ રોગો માટેની આગાહી કરવામાં આવે છે, જેની મદદથી ખેડૂતોને યોગ્ય પગલાં લેવા માટે માર્ગદર્શન મળે છે. \n\nજો તમને ચોક્કસ રોગોની આગાહી વિશે માહિતી જોઈએ છે, તો હું તે માટે તપાસ કરી શકું છું.",
+        "timestamp": {
+          "$date": "2024-12-10T12:22:35.751Z"
+        }
+      }
+    ],
+    "farmer_id": "VR10499",
+    "farmer_plot_ids": [
+      "kairomatiyal",
+      "neroretal"
+    ],
+    "conversation_id": "67583286270840bc18e07e67",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-10T12:22:30.604000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Yellowing of Grapes vine leaves reason ",
+        "timestamp": {
+          "$date": "2024-12-10T11:09:05.360Z"
+        },
+        "standalone_question": "What causes the yellowing of grapevine leaves?",
+        "standalone_en": "What causes the yellowing of grapevine leaves?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Yellowing of grapevine leaves can be caused by several factors:\n\n1. **Nutrient Deficiency**: Lack of essential nutrients, particularly nitrogen, iron, or magnesium, can lead to yellowing leaves.\n\n2. **Water Stress**: Both overwatering and underwatering can cause stress to the plant, resulting in yellow leaves.\n\n3. **Pests and Diseases**: Infestations by pests like aphids or diseases such as powdery mildew can cause leaf discoloration.\n\n4. **Soil pH Imbalance**: An improper pH level can affect nutrient availability, leading to yellowing.\n\n5. **Environmental Stress**: Extreme temperatures, poor drainage, or compacted soil can also contribute to leaf yellowing.\n\nIt's essential to assess the specific conditions of your vineyard to determine the exact cause and take appropriate action.",
+        "timestamp": {
+          "$date": "2024-12-10T11:09:10.618Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "For flower initiation in mango what to do ",
+        "timestamp": {
+          "$date": "2024-12-10T11:10:09.157Z"
+        },
+        "standalone_question": "What steps can be taken to promote flower initiation in mango trees?",
+        "standalone_en": "What steps can be taken to promote flower initiation in mango trees?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To promote flower initiation in mango trees, consider the following practices:\n\n1. **Water Management**: Reduce irrigation to induce stress, as this can trigger flowering. However, ensure that the trees are not under severe stress that could harm them.\n\n2. **Nutrient Management**: Apply potassium-rich fertilizers to enhance flower development. A balanced NPK (Nitrogen, Phosphorus, Potassium) fertilizer can also be beneficial.\n\n3. **Pruning**: Prune the trees to remove excess foliage and encourage better air circulation and light penetration, which can stimulate flowering.\n\n4. **Pest and Disease Control**: Ensure that the trees are free from pests and diseases, as these can hinder flowering.\n\n5. **Temperature Management**: Mango trees require a certain temperature range for flowering. Ensure that the trees are exposed to cooler temperatures during the flowering period.\n\n6. **Hormonal Treatments**: In some cases, the application of plant growth regulators like paclobutrazol can help in inducing flowering.\n\nImplementing these practices can help in achieving better flower initiation in mango trees.",
+        "timestamp": {
+          "$date": "2024-12-10T11:10:18.080Z"
+        }
+      }
+    ],
+    "farmer_id": "yogeshpadman",
+    "farmer_plot_ids": [
+      "jyotipadmanfarm",
+      "padmankrishan",
+      "vihirpattipadmanfarm"
+    ],
+    "conversation_id": "67582151270840bc18e07e65",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-10T11:09:05.360000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Yellowing of Grapes vine leaves reason ",
+        "timestamp": {
+          "$date": "2024-12-10T11:09:05.360Z"
+        },
+        "standalone_question": "What causes the yellowing of grapevine leaves?",
+        "standalone_en": "What causes the yellowing of grapevine leaves?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Yellowing of grapevine leaves can be caused by several factors:\n\n1. **Nutrient Deficiency**: Lack of essential nutrients, particularly nitrogen, iron, or magnesium, can lead to yellowing leaves.\n\n2. **Water Stress**: Both overwatering and underwatering can cause stress to the plant, resulting in yellow leaves.\n\n3. **Pests and Diseases**: Infestations by pests like aphids or diseases such as powdery mildew can cause leaf discoloration.\n\n4. **Soil pH Imbalance**: An improper pH level can affect nutrient availability, leading to yellowing.\n\n5. **Environmental Stress**: Extreme temperatures, poor drainage, or compacted soil can also contribute to leaf yellowing.\n\nIt's essential to assess the specific conditions of your vineyard to determine the exact cause and take appropriate action.",
+        "timestamp": {
+          "$date": "2024-12-10T11:09:10.618Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "For flower initiation in mango what to do ",
+        "timestamp": {
+          "$date": "2024-12-10T11:10:09.157Z"
+        },
+        "standalone_question": "What steps can be taken to promote flower initiation in mango trees?",
+        "standalone_en": "What steps can be taken to promote flower initiation in mango trees?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To promote flower initiation in mango trees, consider the following practices:\n\n1. **Water Management**: Reduce irrigation to induce stress, as this can trigger flowering. However, ensure that the trees are not under severe stress that could harm them.\n\n2. **Nutrient Management**: Apply potassium-rich fertilizers to enhance flower development. A balanced NPK (Nitrogen, Phosphorus, Potassium) fertilizer can also be beneficial.\n\n3. **Pruning**: Prune the trees to remove excess foliage and encourage better air circulation and light penetration, which can stimulate flowering.\n\n4. **Pest and Disease Control**: Ensure that the trees are free from pests and diseases, as these can hinder flowering.\n\n5. **Temperature Management**: Mango trees require a certain temperature range for flowering. Ensure that the trees are exposed to cooler temperatures during the flowering period.\n\n6. **Hormonal Treatments**: In some cases, the application of plant growth regulators like paclobutrazol can help in inducing flowering.\n\nImplementing these practices can help in achieving better flower initiation in mango trees.",
+        "timestamp": {
+          "$date": "2024-12-10T11:10:18.080Z"
+        }
+      }
+    ],
+    "farmer_id": "yogeshpadman",
+    "farmer_plot_ids": [
+      "jyotipadmanfarm",
+      "padmankrishan",
+      "vihirpattipadmanfarm"
+    ],
+    "conversation_id": "67582151270840bc18e07e65",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-12-10T11:09:05.360000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Aalu Kitni degree Celsius Mein Jal jata hai",
+        "timestamp": {
+          "$date": "2024-12-10T06:30:18.724Z"
+        },
+        "standalone_question": "At what temperature in degrees Celsius does potato (aalu) burn?",
+        "standalone_en": "At what temperature in degrees Celsius does potato (aalu) burn?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is the temperature at which cold/Frost/Paala(Hindi) will burn/damage the potato crop?\nA: Cold will burn the potato crop at 5 degrees Celsius and less. The minimum safe temperature for a potato crop to be left in so that it can survive is 6 degrees Celsius, so it is suggested to keep your crop above this value.\nStoring potatoes at a given temperature and letting the potato crop be in the field at a certain atmospheric temperature are two different things. If the question is not clear, or the user needs more info, prompt the user to contact the CRM team at (+91) 9380908040 or by emailing contact@fyllo.in as we don't have informaion about storage of potato."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आलू 60 से 70 डिग्री सेल्सियस के बीच जलने लगता है। इस तापमान पर आलू का स्वाद और गुणवत्ता प्रभावित हो सकती है। इसलिए, आलू को पकाने के दौरान तापमान का ध्यान रखना महत्वपूर्ण है।",
+        "timestamp": {
+          "$date": "2024-12-10T06:30:21.301Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Aalu thand se kitne degree Mein Jal jata hai",
+        "timestamp": {
+          "$date": "2024-12-10T06:30:51.282Z"
+        },
+        "standalone_question": "At what temperature does potato burn when it is cold?",
+        "standalone_en": "At what temperature does potato burn when it is cold?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is the temperature at which cold/Frost/Paala(Hindi) will burn/damage the potato crop?\nA: Cold will burn the potato crop at 5 degrees Celsius and less. The minimum safe temperature for a potato crop to be left in so that it can survive is 6 degrees Celsius, so it is suggested to keep your crop above this value.\nStoring potatoes at a given temperature and letting the potato crop be in the field at a certain atmospheric temperature are two different things. If the question is not clear, or the user needs more info, prompt the user to contact the CRM team at (+91) 9380908040 or by emailing contact@fyllo.in as we don't have informaion about storage of potato."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आलू ठंड से जलने की प्रक्रिया को \"फ्रीजिंग\" कहा जाता है, जो आमतौर पर 0 डिग्री सेल्सियस से नीचे होती है। जब आलू को 0 डिग्री सेल्सियस या उससे कम तापमान पर रखा जाता है, तो यह फ्रीज हो सकता है, जिससे उसकी गुणवत्ता और स्वाद प्रभावित होते हैं।",
+        "timestamp": {
+          "$date": "2024-12-10T06:30:58.697Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Lahsun Mein pilapan a rahi hai uske liye kya dal dalen",
+        "timestamp": {
+          "$date": "2024-12-10T06:32:07.921Z"
+        },
+        "standalone_question": "What should I add to garlic that is becoming moist?",
+        "standalone_en": "What should I add to garlic that is becoming moist?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "लहसुन में पीलापन आने का कारण आमतौर पर पोषण की कमी या फंगस का संक्रमण हो सकता है। इसे सुधारने के लिए निम्नलिखित उपाय किए जा सकते हैं:\n\n1. **फर्टिलाइज़र**: लहसुन के लिए संतुलित नाइट्रोजन, फास्फोरस और पोटेशियम (NPK) वाले फर्टिलाइज़र का उपयोग करें। \n2. **जिंक और आयरन**: जिंक और आयरन की कमी के कारण भी पीलापन आ सकता है। इनकी कमी को पूरा करने के लिए जिंक सल्फेट या आयरन सल्फेट का उपयोग करें।\n3. **फंगिसाइड**: यदि फंगस का संक्रमण है, तो फंगिसाइड का छिड़काव करें।\n\nआपको यह सुनिश्चित करना चाहिए कि मिट्टी की सेहत ठीक है और पौधों को पर्याप्त पानी मिल रहा है।",
+        "timestamp": {
+          "$date": "2024-12-10T06:32:12.114Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Gehun Mein pilaspan a rahi hai",
+        "timestamp": {
+          "$date": "2024-12-10T06:32:50.862Z"
+        },
+        "standalone_question": "What can be done to address the yellowing in wheat?",
+        "standalone_en": "What can be done to address the yellowing in wheat?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "लहसुन में पीलापन आने के लिए निम्नलिखित स्प्रे की सिफारिश की जाती है:\n\n1. **फ्लूओपिकोलाइड + प्रोपामोकार्ब हाइड्रोक्लोराइड**: 1.5 मL प्रति लीटर पानी में मिलाकर छिड़काव करें।\n2. **क्लोरोथालोनिल**: 2 ग्राम प्रति लीटर पानी में मिलाकर छिड़काव करें।\n3. **कैप्टन + हेक्साकोनाज़ोल**: 2 ग्राम प्रति लीटर पानी में मिलाकर छिड़काव करें।\n\nइन स्प्रे को लहसुन के पीलापन के लक्षणों के साथ-साथ अन्य बीमारियों जैसे कि कटवर्म और पत्ते खाने वाले कीटों के खिलाफ भी उपयोग किया जा सकता है। सुनिश्चित करें कि स्प्रे सुबह या शाम के समय करें जब तापमान कम हो।",
+        "timestamp": {
+          "$date": "2024-12-10T06:32:56.793Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Gehun mein pilapan a rahi hai uske liye Kya upyog Karen",
+        "timestamp": {
+          "$date": "2024-12-10T06:33:25.985Z"
+        },
+        "standalone_question": "What should be done to address the yellowing in wheat?",
+        "standalone_en": "What should be done to address the yellowing in wheat?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "गेंहू में पीलापन आने के लिए निम्नलिखित उपाय किए जा सकते हैं:\n\n1. **फंगिसाइड का उपयोग**: यदि पीलापन फंगस के कारण है, तो आप **कार्बेंडाज़िम** का उपयोग कर सकते हैं। इसे 2.5 ग्राम प्रति लीटर पानी में मिलाकर छिड़काव करें।\n\n2. **पोषण की कमी**: यदि पीलापन पोषण की कमी के कारण है, तो संतुलित नाइट्रोजन, फास्फोरस और पोटेशियम (NPK) वाले फर्टिलाइज़र का उपयोग करें।\n\n3. **सिंचाई**: सुनिश्चित करें कि पौधों को पर्याप्त पानी मिल रहा है, लेकिन जलभराव से बचें।\n\nइन उपायों को अपनाने से गेंहू में पीलापन कम करने में मदद मिल सकती है।",
+        "timestamp": {
+          "$date": "2024-12-10T06:33:31.796Z"
+        }
+      }
+    ],
+    "farmer_id": "VR253",
+    "farmer_plot_ids": [
+      "railwala"
+    ],
+    "conversation_id": "6757dff099570ac0170862f3",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-10T06:30:18.724000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "बॅटरी चारजीं ग कीती आहे",
+        "timestamp": {
+          "$date": "2024-12-10T06:08:39.507Z"
+        },
+        "standalone_question": "How much is the battery charged?",
+        "standalone_en": "How much is the battery charged?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या प्लॉट्समध्ये \"Nero\" डिव्हाइस आहे, ज्यामध्ये बॅटरी चार्जिंगची आवश्यकता नाही. हे डिव्हाइस बॅटरीवर चालते आणि त्यात 2xAA बॅटरी असतात. बॅटरीची स्थिती चांगली असल्यास, LED इंडिकेटर चालू राहील. जर तुम्हाला बॅटरी बदलण्याची आवश्यकता असेल, तर 2xAA बॅटरी वापरा.",
+        "timestamp": {
+          "$date": "2024-12-10T06:08:42.976Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "बॅटरी चारजींग किती आहे पाण्याची गरज आहे का",
+        "timestamp": {
+          "$date": "2024-12-10T06:13:00.300Z"
+        },
+        "standalone_question": "Is there a need for water for battery charging?",
+        "standalone_en": "Is there a need for water for battery charging?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "battery charging kiti aahe panyachi garaj aahe ka"
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या प्लॉट्सची बॅटरी चार्जिंग स्थिती खालीलप्रमाणे आहे:\n\n1. **Kali Mandap**: 15%\n2. **Pabha H**: 95%\n3. **Y Plot 1 acra**: 83%\n\nपाण्याची गरज:\n- **Kali Mandap**: सध्या पाण्याची गरज नाही, कारण मातीची आर्द्रता 26kPa आणि 14kPa आहे, जी शुष्क आदर्श मूल्यांपेक्षा कमी आहे.\n- **Pabha H**: सध्या पाण्याची गरज नाही, कारण मातीची आर्द्रता 29kPa आणि 22kPa आहे, जी शुष्क आदर्श मूल्यांपेक्षा कमी आहे.\n- **Y Plot 1 acra**: पाण्याची गरज आहे, कारण मातीची आर्द्रता 34kPa आणि 33kPa आहे, जी शुष्क आदर्श मूल्यांपेक्षा जास्त आहे.\n\nआपण \"Y Plot 1 acra\" साठी पाणी देऊ शकता.",
+        "timestamp": {
+          "$date": "2024-12-10T06:13:08.685Z"
+        }
+      }
+    ],
+    "farmer_id": "prakashhrirampatil",
+    "farmer_plot_ids": [
+      "kalibabalu",
+      "pabhah",
+      "yplotacra"
+    ],
+    "conversation_id": "6757dae699570ac0170862f2",
+    "tag": "others",
+    "conv_date": "2024-12-10T06:08:39.507000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Mara ketarma kayokhatar apvu",
+        "timestamp": {
+          "$date": "2024-12-10T04:56:00.492Z"
+        },
+        "standalone_question": "What is the meaning of \"Mara ketarma kayokhatar apvu\"?",
+        "standalone_en": "What is the meaning of \"Mara ketarma kayokhatar apvu\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "**Ghar valo Palot (3 acres)**:\n- **Current Stage**: Vegetative Growth (Started on 8th December 2024)\n- **Current Week**: Week 1\n\n**Fertigation Schedule**:\n1. **Day 1**: \n   - Apply **Humic Acid**: 1 liter/acre\n   - Note: Phosphoric acid should be applied separately, 15-20 minutes before other fertilizers.\n   \n2. **Day 4**: \n   - Options:\n     - **12-61-0**: 6 kg/acre + **Urea**: 5 kg/acre\n     - **24-24-0**: 16 kg/acre\n     - **Urea**: 6.5 kg/acre + **Phosphoric Acid 80%**: 4.5 kg/acre\n   - Note: Phosphoric acid should be applied separately, 15-20 minutes before other fertilizers.\n\n**Next Schedule**:\n- **Week 2**:\n  - Day 1: **Urea**: 6.5 kg/acre\n  - Day 4: Options include **12-61-0**, **Urea**, and **Magnesium Sulphate**.\n\n---\n\n**Mota Jampur (Nero) (30 acres)**:\n- **Current Stage**: Vegetative Growth (Started on 3rd December 2024)\n- **Current Week**: Week 1\n\n**Fertigation Schedule**:\n1. **Day 1**: \n   - Apply **Humic Acid**: 1 liter/acre\n   - Note: Phosphoric acid should be applied separately, 15-20 minutes before other fertilizers.\n   \n2. **Day 4**: \n   - Options:\n     - **12-61-0**: 5 kg/acre + **Urea**: 4.5 kg/acre\n     - **24-24-0**: 10.5 kg/acre + **Phosphoric Acid 80%**: 1 kg/acre\n     - **Urea**: 5.5 kg/acre + **Phosphoric Acid 80%**: 4 kg/acre\n   - Note: Phosphoric acid should be applied separately, 15-20 minutes before other fertilizers.\n\n**Next Schedule**:\n- **Week 2**:\n  - Day 1: **Urea**: 7.5 kg/acre\n  - Day 4: Options include **12-61-0**, **Urea**, and **Magnesium Sulphate**.\n\nMake sure to follow the notes for phosphoric acid application for optimal results!",
+        "timestamp": {
+          "$date": "2024-12-10T04:56:10.666Z"
+        }
+      }
+    ],
+    "farmer_id": "VR5119",
+    "farmer_plot_ids": [
+      "gharvalopalot",
+      "motajampurnero"
+    ],
+    "conversation_id": "6757c9e099570ac0170862f1",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-12-10T04:56:00.492000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Gilki kitne temperature Mein Jal Jaati Hai",
+        "timestamp": {
+          "$date": "2024-12-10T03:47:32.770Z"
+        },
+        "standalone_question": "At what temperature does Gilki (bottle gourd) get cooked?",
+        "standalone_en": "At what temperature does Gilki (bottle gourd) get cooked?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Gilki (bottle gourd) ko jalne se bachane ke liye, uska temperature 30°C se zyada nahi hona chahiye. Agar temperature 35°C ya usse upar chala jata hai, to yeh plant ke liye nuksan daayak ho sakta hai. Isliye, garmi ke dino mein paani aur chhaon ka dhyan rakhna zaroori hai.",
+        "timestamp": {
+          "$date": "2024-12-10T03:47:35.859Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Thand se bachane ke liye kya karna chahie gilki ko",
+        "timestamp": {
+          "$date": "2024-12-10T03:48:16.879Z"
+        },
+        "standalone_question": "What should be done to protect bottle gourd from cold?",
+        "standalone_en": "What should be done to protect bottle gourd from cold?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Gilki (bottle gourd) ko thand se bachane ke liye aap kuch upay kar sakte hain:\n\n1. **Mulching**: Zameen par straw ya plastic mulch ka istemal karein, jo zameen ki taapmaan ko banaye rakhta hai.\n\n2. **Row Covers**: Raat ke samay ya jab thand badh jaaye, to plants par row covers ya fleece cloth ka istemal karein. Yeh plants ko thand se bachata hai.\n\n3. **Watering**: Raat ko paani dene se zameen ki taapmaan thodi der tak bani rahegi, jo plants ko thand se bachane mein madad karega.\n\n4. **Location**: Agar sambhav ho, to plants ko aise sthal par lagayein jahan par thand se bachne ke liye kuch natural shelter ho, jaise ki deewarein ya bade ped.\n\n5. **Fertilization**: Thand ke samay plants ko sahi matra mein khad dena bhi unki growth ko sudharne mein madad karega.\n\nIn upayon se aap apne gilki ke paudhe ko thand se surakshit rakh sakte hain.",
+        "timestamp": {
+          "$date": "2024-12-10T03:48:24.143Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Aalu thand Se bachne Ke Aalu thand mein kitne temperature Mein Jal jata hai",
+        "timestamp": {
+          "$date": "2024-12-10T03:49:07.552Z"
+        },
+        "standalone_question": "At what temperature do potatoes get damaged by cold?",
+        "standalone_en": "At what temperature do potatoes get damaged by cold?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is the temperature at which cold/Frost/Paala(Hindi) will burn/damage the potato crop?\nA: Cold will burn the potato crop at 5 degrees Celsius and less. The minimum safe temperature for a potato crop to be left in so that it can survive is 6 degrees Celsius, so it is suggested to keep your crop above this value.\nStoring potatoes at a given temperature and letting the potato crop be in the field at a certain atmospheric temperature are two different things. If the question is not clear, or the user needs more info, prompt the user to contact the CRM team at (+91) 9380908040 or by emailing contact@fyllo.in as we don't have informaion about storage of potato."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aloo (potato) ko thand se bachane ke liye, uska temperature 0°C se neeche nahi jaana chahiye. Agar temperature -2°C ya usse neeche chala jata hai, to yeh aloo ke liye nuksan daayak ho sakta hai, aur paudhe jalne lagte hain. \n\nIsliye, thand ke samay aloo ke paudhon ko surakshit rakhne ke liye, unhe mulching, row covers, aur sahi watering ka istemal karna chahiye.",
+        "timestamp": {
+          "$date": "2024-12-10T03:49:11.555Z"
+        }
+      }
+    ],
+    "farmer_id": "VR253",
+    "farmer_plot_ids": [
+      "railwala"
+    ],
+    "conversation_id": "6757b9d4c2433e350dd70b74",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-10T03:47:32.770000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "12.0.61 નો ફાયદો શું ",
+        "timestamp": {
+          "$date": "2024-12-10T02:39:34.073Z"
+        },
+        "standalone_question": "What are the benefits of version 12.0.61?",
+        "standalone_en": "What are the benefits of version 12.0.61?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "12.0.61 no phayado shu "
+      },
+      {
+        "role": "assistant",
+        "content": "12.0.61 એ એક પ્રકારનું ખાતર છે, જેમાં 12% નાઈટ્રોજન (N), 0% ફોસ્ફોરસ (P), અને 61% પોટેશિયમ (K) હોય છે. આ ખાતરનો ઉપયોગ મુખ્યત્વે નીચેના ફાયદાઓ માટે થાય છે:\n\n1. **પોટેશિયમનું પૂરતું પ્રમાણ**: પોટેશિયમ છોડની વૃદ્ધિ, ફળો અને કંદો (ટ્યુબર)ના વિકાસ માટે મહત્વપૂર્ણ છે. તે છોડની મજબૂતી અને રોગપ્રતિકારક શક્તિ વધારવામાં મદદ કરે છે.\n\n2. **ફળો અને કંદાના ગુણવત્તા**: 12.0.61 ખાતરનો ઉપયોગ ફળો અને કંદાના ગુણવત્તા સુધારવા માટે થાય છે, જે તેમને વધુ સ્વાદિષ્ટ અને મજબૂત બનાવે છે.\n\n3. **પાણીની અસરકારકતા**: પોટેશિયમ પાણીના સંચાલનને સુધારે છે, જે છોડને તણાવ સામે વધુ મજબૂત બનાવે છે.\n\n4. **ફળો અને કંદાના વિકાસમાં સહાય**: આ ખાતરનો ઉપયોગ ખાસ કરીને બટાકા જેવા પાકોમાં કરવામાં આવે છે, જ્યાં પોટેશિયમની જરૂરિયાત વધુ હોય છે.\n\nઆ ખાતરનો ઉપયોગ કરતી વખતે, જમીનની સ્થિતિ અને અન્ય ખાતરો સાથેનું સંતુલન ધ્યાનમાં રાખવું મહત્વપૂર્ણ છે.",
+        "timestamp": {
+          "$date": "2024-12-10T02:39:39.887Z"
+        }
+      }
+    ],
+    "farmer_id": "VR10499",
+    "farmer_plot_ids": [
+      "kairomatiyal",
+      "neroretal"
+    ],
+    "conversation_id": "6757a9e5c2433e350dd70b73",
+    "tag": "others",
+    "conv_date": "2024-12-10T02:39:34.073000+00:00"
+  }
+]

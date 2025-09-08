@@ -1,0 +1,452 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "શુ મારા ખેતરમા ઈયળ દેખાય છે",
+        "en": "Do you see eels in my farm?",
+        "timestamp": {
+          "$date": "2025-04-13T15:56:21.395Z"
+        },
+        "standalone_question": "Are there caterpillars visible in my field?",
+        "standalone_en": "Are there caterpillars visible in my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "shoe mara khetarama iyal dekhay che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં ઈયળ માટે કોઈ સ્પ્રે શેડ્યૂલ નથી. જો તમને કોઈ ઈયળ દેખાય છે, તો કૃપા કરીને તેને નિયંત્રિત કરવા માટે યોગ્ય પગલાં લો.",
+        "en": "There is no spray schedule for eels in your farm. If you notice any eels, please take appropriate steps to control it.",
+        "timestamp": {
+          "$date": "2025-04-13T15:56:25.158Z"
+        }
+      }
+    ],
+    "farmer_id": "tejabhaihemabhaipatel",
+    "farmer_plot_ids": [
+      "abavaloplot"
+    ],
+    "conversation_id": "67fbdea593d5a6b1b349878f",
+    "_id": "67fbdea593d5a6b1b349878f",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-13T16:01:21.401000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-13T15:56:21.395000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "how is the wheather",
+        "en": "how is the wheather",
+        "timestamp": {
+          "$date": "2025-04-13T11:37:11.812Z"
+        },
+        "standalone_question": "What is the weather like?",
+        "standalone_en": "What is the weather like?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The current weather conditions for your plots are as follows:\n\n### Jeevan Pomo\n- **Temperature:** 32°C\n- **Humidity:** 35%\n- **Rainfall:** 0 mm\n\n### Jeevan Pomo 1\n- **Temperature:** 32°C\n- **Humidity:** 36%\n- **Rainfall:** 0 mm\n\nOverall, it's a warm and dry day with no rainfall recorded.",
+        "en": "The current weather conditions for your plots are as follows:\n\n### Jeevan Pomo\n- **Temperature:** 32°C\n- **Humidity:** 35%\n- **Rainfall:** 0 mm\n\n### Jeevan Pomo 1\n- **Temperature:** 32°C\n- **Humidity:** 36%\n- **Rainfall:** 0 mm\n\nOverall, it's a warm and dry day with no rainfall recorded.",
+        "timestamp": {
+          "$date": "2025-04-13T11:37:17.078Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "is it the good time to spray fungicide and insecticide",
+        "en": "is it the good time to spray fungicide and insecticide",
+        "timestamp": {
+          "$date": "2025-04-13T11:37:54.754Z"
+        },
+        "standalone_question": "Is it a good time to apply fungicide and insecticide?",
+        "standalone_en": "Is it a good time to apply fungicide and insecticide?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice.",
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed",
+            "Q: why to use insecticide and fungicide for seed treatment?\nA:\n- Prevents the spread of plant diseases/pest\n- Protects the seed from seed rot and seedling blights\n- Improves the seed germination\n- Provides protection from storage insects\n- Controls the soil insects",
+            "Q: What is the right time to sow the seeds?\nA: Check the weather forecast for the next few days (tool call), and then decide the right time for the crop, based on own's knowledge."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "There are no scheduled spray recommendations for fungicide or insecticide for today, April 13, 2025. Therefore, it is not necessary to spray today. If you have any specific concerns or observations, please let me know!",
+        "en": "There are no scheduled spray recommendations for fungicide or insecticide for today, April 13, 2025. Therefore, it is not necessary to spray today. If you have any specific concerns or observations, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-13T11:37:59.859Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "there was a rainfall yesterday",
+        "en": "there was a rainfall yesterday",
+        "timestamp": {
+          "$date": "2025-04-13T11:38:47.377Z"
+        },
+        "standalone_question": "Was there any rainfall yesterday?",
+        "standalone_en": "Was there any rainfall yesterday?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Despite the rainfall yesterday, the soil moisture readings for your plots are as follows:\n\n### Jeevan Pomo\n- **Soil Moisture:** 200 kPa (Dry)\n\n### Jeevan Pomo 1\n- **Soil Moisture:** 29 kPa (Wet)\n\nFor **Jeevan Pomo**, the soil is showing a dry condition (200 kPa), indicating that irrigation is needed. The rainwater may not have percolated well into the soil, leading to this dry reading.\n\nFor **Jeevan Pomo 1**, the soil moisture is adequate (29 kPa), so no irrigation is needed there.\n\n### Recommendation:\n- **Irrigate** the **Jeevan Pomo** plot as it is dry.\n- **No action** is needed for **Jeevan Pomo 1**. \n\nIf you have any further questions or need assistance with irrigation, feel free to ask!",
+        "en": "Despite the rainfall yesterday, the soil moisture readings for your plots are as follows:\n\n### Jeevan Pomo\n- **Soil Moisture:** 200 kPa (Dry)\n\n### Jeevan Pomo 1\n- **Soil Moisture:** 29 kPa (Wet)\n\nFor **Jeevan Pomo**, the soil is showing a dry condition (200 kPa), indicating that irrigation is needed. The rainwater may not have percolated well into the soil, leading to this dry reading.\n\nFor **Jeevan Pomo 1**, the soil moisture is adequate (29 kPa), so no irrigation is needed there.\n\n### Recommendation:\n- **Irrigate** the **Jeevan Pomo** plot as it is dry.\n- **No action** is needed for **Jeevan Pomo 1**. \n\nIf you have any further questions or need assistance with irrigation, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-04-13T11:38:54.184Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "what will usuggest on a rainfall",
+        "en": "what will usuggest on a rainfall",
+        "timestamp": {
+          "$date": "2025-04-13T11:39:51.214Z"
+        },
+        "standalone_question": "What recommendations do you have regarding rainfall?",
+        "standalone_en": "What recommendations do you have regarding rainfall?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What should be the optimum rainfall for sowing?\nA: 50 to 100 mm is optimum rain fall required for sowing"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For effective irrigation management after rainfall, consider the following:\n\n1. **Check Soil Moisture:** Use soil moisture sensors or manually check the soil moisture levels. If the sensors indicate dry soil (above 200 kPa), irrigation may still be necessary.\n\n2. **Irrigation Needs:** If the soil is still dry after rainfall, irrigate according to the moisture deficit. The net quantity of water to be applied should equal the moisture deficit in the soil.\n\n3. **Monitor Weather Forecast:** Keep an eye on the weather forecast for any expected rainfall in the coming days. If more rain is expected, adjust your irrigation plans accordingly.\n\n4. **Avoid Over-Irrigation:** If the soil is adequately moist, avoid unnecessary irrigation to prevent waterlogging and nutrient leaching.\n\n5. **Observe Crop Response:** Monitor your crops for any signs of stress or waterlogging after rainfall and adjust your irrigation practices as needed.\n\nIf you have specific moisture readings or conditions, I can provide more tailored advice!",
+        "en": "For effective irrigation management after rainfall, consider the following:\n\n1. **Check Soil Moisture:** Use soil moisture sensors or manually check the soil moisture levels. If the sensors indicate dry soil (above 200 kPa), irrigation may still be necessary.\n\n2. **Irrigation Needs:** If the soil is still dry after rainfall, irrigate according to the moisture deficit. The net quantity of water to be applied should equal the moisture deficit in the soil.\n\n3. **Monitor Weather Forecast:** Keep an eye on the weather forecast for any expected rainfall in the coming days. If more rain is expected, adjust your irrigation plans accordingly.\n\n4. **Avoid Over-Irrigation:** If the soil is adequately moist, avoid unnecessary irrigation to prevent waterlogging and nutrient leaching.\n\n5. **Observe Crop Response:** Monitor your crops for any signs of stress or waterlogging after rainfall and adjust your irrigation practices as needed.\n\nIf you have specific moisture readings or conditions, I can provide more tailored advice!",
+        "timestamp": {
+          "$date": "2025-04-13T11:39:56.168Z"
+        }
+      }
+    ],
+    "farmer_id": "devarajutv",
+    "farmer_plot_ids": [
+      "jeevanpomo",
+      "jeevanpomo1"
+    ],
+    "conversation_id": "67fba1e793d5a6b1b349878e",
+    "_id": "67fba1e793d5a6b1b349878e",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-13T11:44:51.220000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-04-13T11:37:11.812000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Data q ni",
+        "en": "Data q ni",
+        "timestamp": {
+          "$date": "2025-04-13T10:02:20.653Z"
+        },
+        "standalone_question": "What is the data?",
+        "standalone_en": "What is the data?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपका प्लॉट \"Watermelon Savkar\" में वर्तमान में \"बूटिंग\" चरण चल रहा है। यदि आपको किसी विशेष जानकारी की आवश्यकता है, जैसे कि सिंचाई, उर्वरक, या कीट नियंत्रण, तो कृपया बताएं!",
+        "en": "Your plot \"Watermelon Savkar\" is currently running the \"booting\" phase. If you need any special information, such as irrigation, fertilizer, or pest control, please let us know!",
+        "timestamp": {
+          "$date": "2025-04-13T10:02:24.124Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Update q ni aarahi",
+        "en": "Update q by aarahi",
+        "timestamp": {
+          "$date": "2025-04-13T10:02:42.983Z"
+        },
+        "standalone_question": "Why is there no update coming?",
+        "standalone_en": "Why is there no update coming?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपके प्लॉट \"Watermelon Savkar\" से हालिया डेटा में निम्नलिखित जानकारी है:\n\n- **मिट्टी का तापमान:** 28.12°C\n- **मिट्टी की नमी (सेंसर 1):** 2 kPa (यह बहुत गीला है)\n- **मिट्टी की नमी (सेंसर 2):** 0 kPa (यह भी बहुत गीला है)\n- **बैटरी स्तर:** 0% (बैटरी खत्म हो गई है)\n\nआपका डिवाइस डेटा भेजने में असमर्थ है क्योंकि बैटरी पूरी तरह से खत्म हो गई है। कृपया बैटरी को चार्ज करें या बदलें ताकि डिवाइस फिर से सक्रिय हो सके। \n\nक्या आपको और कुछ जानकारी चाहिए?",
+        "en": "Recent data from your plot \"Watermelon Savkar\" contains the following information:\n\n- Soil temperature: 28.12°C\n- **Soil moisture (sensor 1):**2 kPa (it's too wet)\n- **Soil moisture (sensor 2):**0 kPa (it's also very wet)\n- **Battery level:**0% (battery is dead)\n\nYour device is unable to send data because the battery is completely drained. Please charge or replace the battery so that the device can be activated again. \n\nDo you need any more information?",
+        "timestamp": {
+          "$date": "2025-04-13T10:02:49.508Z"
+        }
+      }
+    ],
+    "farmer_id": "prashantchaudhari",
+    "farmer_plot_ids": [
+      "watermelonsavkar"
+    ],
+    "conversation_id": "67fb8bac93d5a6b1b349878d",
+    "_id": "67fb8bac93d5a6b1b349878d",
+    "language": "hi",
+    "expiry": {
+      "$date": "2025-04-13T10:07:42.989000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-04-13T10:02:20.653000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Koy samsaya hai to bataye",
+        "en": "Tell me if there is any problem.",
+        "timestamp": {
+          "$date": "2025-04-13T09:21:00.326Z"
+        },
+        "standalone_question": "If you have any questions, please let me know.",
+        "standalone_en": "If you have any questions, please let me know.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapke Brinjal Plot mein moisture (kPa) dheere dheere badh raha hai. Yeh kuch wajah se ho sakta hai:\n\n1. **Crop Stage**: Aapka crop ab \"Flowering and Fruiting\" stage mein hai, is dauraan transpiration dheere ho sakta hai.\n2. **Evapotranspiration**: Agar temperature kam hai ya baarish hui hai, toh evaporation dheere ho sakta hai.\n3. **Moisture Check**: Sensor ke aas-paas mitti ko khod kar moisture check karna bhi zaroori hai.\n\nAgar aapko abhi bhi samasya lag rahi hai, toh kya aap chahte hain ki hum is par ek issue ticket banayein?",
+        "en": "The moisture (kPa) in your brinjal plot is slowly increasing. This can be due to a few reasons:\n\n1. Crop Stage: Your crop is now in the \"Flooring and Fruiting\" stage, during which time the transpiration can be slow.\n2. Evaporation can be slow if the temperature is low or it rains.\n3. Moisture Check: It is also important to check the moisture by digging the soil around the sensor.\n\nIf you're still having problems, do you want us to create an issue ticket on it?",
+        "timestamp": {
+          "$date": "2025-04-13T09:21:05.422Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Hindi me",
+        "en": "Hindi me",
+        "timestamp": {
+          "$date": "2025-04-13T09:21:31.753Z"
+        },
+        "standalone_question": "Could you please provide your response in Hindi?",
+        "standalone_en": "Could you please provide your response in Hindi?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapka recharge plan 31 March 2026 tak active hai. Aapka device abhi bhi data bhej raha hai aur sahi se kaam kar raha hai.\n\nKya aapko aur koi madad chahiye?",
+        "en": "Your recharge plan is active till 31st March 2026. Your device is still sending data and working properly.\n\nDo you need any more help?",
+        "timestamp": {
+          "$date": "2025-04-13T09:21:39.176Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Mera bigan ke khet me koy samsya hai to batye hindi me",
+        "en": "What is the problem in my Bigan's farm, then tell me in Hindi.",
+        "timestamp": {
+          "$date": "2025-04-13T09:23:08.331Z"
+        },
+        "standalone_question": "What issues are you facing in your science field? Please explain in Hindi.",
+        "standalone_en": "What issues are you facing in your science field? Please explain in Hindi.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapke Brinjal Plot ki haal ki sensor readings ke anusar:\n\n- **Hawa ka taapmaan**: 31.7°C\n- **Hawa ki humidity**: 44%\n- **Mitti ka taapmaan**: 26.56°C\n- **Mitti ki moisture**: \n  - Sensor 1: 4 kPa (wet)\n  - Sensor 2: 17 kPa (wet)\n- **Patton ki geelaapan**: 0\n- **Hawa ka pressure**: 93.1 kPa\n- **Roshni ki intensity**: 57988 lux\n- **UV index**: 68\n- **Hawa ki gati**: 0 km/h\n- **Baarish**: 0 mm\n- **Battery**: 67%\n\nAapki mitti abhi wet hai, isliye aapko paani dene ki zaroorat nahi hai. Agar aapko aur koi samasya lag rahi hai, toh aap mujhe bata sakte hain.",
+        "en": "According to a recent sensor reading of your Brinjal plot:\n\n- Air Temperature: 31.7°C\n- Air humidity: 44%\n- Soil temperature: 26.56°C\n- **Soil Moisture**: \n  - Sensor 1: 4 kPa (Weight)\n  - Sensor 2: 17 kPa (weight)\n- Leaf wetness: 0\n- **Air Pressure**: 93.1 kPa\n- **Intensity of Light**: 57988 Lux\n- UV Index: 68\n- **wind speed**: 0 km/h\n- **Rain**: 0 mm\n- **Battery**: 67%\n\nYour soil is still wet, so you don't need to water. If you seem to be having any other problems, you can let me know.",
+        "timestamp": {
+          "$date": "2025-04-13T09:23:17.022Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Tana chhedak & phal chhedak ka esthiti me hai",
+        "en": "Stem borer & fruit borer is in position",
+        "timestamp": {
+          "$date": "2025-04-13T09:25:11.289Z"
+        },
+        "standalone_question": "Is the situation with the pest control for the fruit and flower pests currently under control?",
+        "standalone_en": "Is the situation with the pest control for the fruit and flower pests currently under control?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapke Brinjal Plot ke liye \"Tana Chhedak\" aur \"Phal Chhedak\" ke liye koi specific pest prediction metrics uplabdh nahi hai. Iska matlab hai ki in pests ka koi significant impact nahi hai ya data abhi tak update nahi hua hai.\n\nAgar aapko in pests ke liye spray karne ki zaroorat hai, toh aapko pesticide ka istemal karna chahiye. Kya aapko spray karne ke liye koi specific pesticide chahiye?",
+        "en": "There are no specific pest prediction metrics available for \"stem borer\" and \"fruit borer\" for your brinjal plot. This means that these pastes have no significant impact or the data is not updated yet.\n\nIf you need to spray for these pests, you should use a pesticide. Do you need a specific pesticide to spray?",
+        "timestamp": {
+          "$date": "2025-04-13T09:25:21.639Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ji",
+        "en": "Ji",
+        "timestamp": {
+          "$date": "2025-04-13T09:27:11.309Z"
+        },
+        "standalone_question": "Do you need a specific pesticide for spraying?",
+        "standalone_en": "Do you need a specific pesticide for spraying?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapke Brinjal Plot ke liye is samay koi specific pest spray ki zaroorat nahi hai. \n\n### Fertigation Schedule:\nAapka crop ab \"Flowering and Fruiting\" stage mein hai aur aaj 13 April 2025 ko aap 3rd week mein hain. Aapko is hafte ke liye ye fertilizers istemal karne chahiye:\n\n1. **Fertigation Options**:\n   - **Option 1**: \n     - 12-61-0: 3 kg/acre\n     - Urea: 2.5 kg/acre\n   - **Option 2**: \n     - 24-24-0: 6 kg/acre\n     - Phosphoric acid 80%: 1 kg/acre\n   - **Option 3**: \n     - Urea: 3 kg/acre\n     - Phosphoric acid 80%: 2.5 kg/acre\n\n**Note**: Phosphoric acid ko dusre fertilizers se 15-20 minute pehle alag se lagana chahiye.\n\n### Agla Schedule:\nAapka agla fertigation schedule 4th week ke liye hoga, jo 27 May 2025 se shuru hoga. Isme aapko Calcium nitrate ko dusre fertilizers se 15-20 minute baad lagana hoga.\n\nAgar aapko aur koi madad chahiye, toh aap mujhe bata sakte hain!",
+        "en": "No specific paste spray is required for your brindle plot at this time. \n\n### Fertigation Schedule:\nYour crop is now in the \"Flooring and Fruiting\" stage and today, April 13, 2025, you are in the 3rd week. You should use these fertilizers for this week:\n\n1. **Fertigation Options**:\n   - **Option 1**: \n     - 12-61-0: 3 kg/acre\n     - Urea: 2.5 kg/acre\n   - **Option 2**: \n     - 24-24-0: 6 kg/acre\n     - Phosphoric acid 80%: 1 kg/acre\n   - **Option 3**: \n     - Urea: 3 kg/acre\n     - Phosphoric acid 80%: 2.5 kg/acre\n\n**Note**: Phosphoric acid should be applied separately 15-20 minutes before other fertilizers.\n\n### Next schedule:\nYour next fertigation schedule will be for week 4, starting on May 27, 2025. In this, you have to apply calcium nitrate after 15-20 minutes with other fertilizers.\n\nIf you need any more help, you can let me know!",
+        "timestamp": {
+          "$date": "2025-04-13T09:27:20.388Z"
+        }
+      }
+    ],
+    "farmer_id": "laxmansahu",
+    "farmer_plot_ids": [
+      "brinjalplot496"
+    ],
+    "conversation_id": "67fb81fc93d5a6b1b349878c",
+    "_id": "67fb81fc93d5a6b1b349878c",
+    "language": "hi",
+    "expiry": {
+      "$date": "2025-04-13T09:32:11.317000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-13T09:21:00.326000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Sansar kam karat nahi",
+        "en": "The world doesn't work",
+        "timestamp": {
+          "$date": "2025-04-13T02:16:45.379Z"
+        },
+        "standalone_question": "Why don't you work?",
+        "standalone_en": "Why don't you work?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया स्पष्ट करें कि आपको किस प्रकार की सहायता चाहिए। क्या आप फसल प्रबंधन, सिंचाई, या किसी अन्य कृषि संबंधी विषय पर जानकारी चाहते हैं?",
+        "en": "Please explain what kind of help you need. Are you looking for information on crop management, irrigation, or any other agriculture-related topic?",
+        "timestamp": {
+          "$date": "2025-04-13T02:16:48.288Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "सेंसर काम नही कर रहा",
+        "en": "Sensor not working",
+        "timestamp": {
+          "$date": "2025-04-13T02:17:58.634Z"
+        },
+        "standalone_question": "The sensor is not working.",
+        "standalone_en": "The sensor is not working.",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What should I do if the soil temperature sensor is not working?\nA: Check the sensor connection, tighten it if loose, and restart the device to check updated data."
+          ]
+        },
+        "content_transliterated": "sensor kaam nahi kar raha"
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया यह सुनिश्चित करें कि सेंसर का कनेक्शन सही है। यदि कनेक्शन ढीला है, तो उसे कस लें और डिवाइस को पुनः चालू करें। \n\nयदि सेंसर फिर भी काम नहीं कर रहा है, तो यह जानना महत्वपूर्ण है कि क्या आपने हाल ही में सिंचाई की है। सिंचाई के बाद, सेंसर को सूक्ष्मता से प्रतिक्रिया देने में 12 घंटे लग सकते हैं। \n\nयदि 12 घंटे के बाद भी सेंसर का रीडिंग नहीं बदलता है, तो यह निम्नलिखित कारणों में से एक हो सकता है:\n1. पानी सेंसर तक सही से नहीं पहुँच रहा है (जैसे ड्रिप ब्लॉक होना, भूमि में ढलान होना, या ड्रिपर आउटलेट्स सेंसर से दूर होना)।\n2. सेंसर पुराना हो गया है (दो साल से अधिक) और संभवतः खराब हो गया है।\n\nक्या आप सेंसर की स्थिति की जांच कर सकते हैं? यदि आपको लगता है कि सेंसर खराब हो गया है, तो क्या आप एक टिकट उठाना चाहेंगे?",
+        "en": "Please make sure the sensor connection is correct. If the connection is loose, tighten it and restart the device. \n\nIf the sensor is still not working, it is important to know if you have recently irrigated. After irrigation, it can take up to 12 hours for the sensor to respond subtly. \n\nIf the reading of the sensor does not change even after 12 hours, it may be one of the following reasons:\n1. Water is not reaching the sensor properly (e.g. having a drip block, sloping in the ground, or dripper outlets being away from the sensor).\n2. The sensor has become outdated (more than two years) and possibly worn out.\n\nCan you check the status of the sensor? If you think the sensor is damaged, would you like to pick up a ticket?",
+        "timestamp": {
+          "$date": "2025-04-13T02:18:04.059Z"
+        }
+      }
+    ],
+    "farmer_id": "satishbhaskarshelke",
+    "farmer_plot_ids": [
+      "plotno1mamajumbo580",
+      "plotno2kalisonaka",
+      "plotno3kalisonaka",
+      "plotno4kalisonaka"
+    ],
+    "conversation_id": "67fb1e8d2ab587c873357ce4",
+    "_id": "67fb1e8d2ab587c873357ce4",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-13T02:22:58.640000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-04-13T02:16:45.379000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "द्राक्षाचे मनी साईज येत नाही ",
+        "en": "The money size of the grape does not come ",
+        "timestamp": {
+          "$date": "2025-04-13T01:15:03.626Z"
+        },
+        "standalone_question": "Why don't grapes come in a money size?",
+        "standalone_en": "Why don't grapes come in a money size?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "draksache money size yet nahi "
+      },
+      {
+        "role": "assistant",
+        "content": "द्राक्षाच्या मणीच्या आकारावर अनेक घटक प्रभाव टाकतात. यामध्ये खालील गोष्टींचा समावेश आहे:\n\n1. **पाण्याचे व्यवस्थापन**: योग्य पाण्याची मात्रा महत्त्वाची आहे. पाण्याची कमी किंवा जास्ती मणीच्या आकारावर परिणाम करू शकते.\n\n2. **खते**: योग्य प्रमाणात खते वापरणे आवश्यक आहे. नायट्रोजन, फॉस्फरस, आणि पोटॅशियम यांचे संतुलन मणीच्या विकासात महत्त्वाचे आहे.\n\n3. **तापमान**: द्राक्षांच्या मणीच्या आकारावर तापमानाचा प्रभाव असतो. अत्यधिक तापमान किंवा कमी तापमान मणीच्या विकासात अडथळा आणू शकते.\n\n4. **पिकाची काळजी**: रोग आणि कीड यांचे नियंत्रण करणे आवश्यक आहे. यामुळे मणीच्या आकारावर सकारात्मक परिणाम होतो.\n\n5. **सिंचन**: योग्य सिंचन पद्धती वापरणे आवश्यक आहे. \n\nआपण आपल्या द्राक्षांच्या पिकासाठी योग्य पाण्याचे व्यवस्थापन, खते, आणि रोग नियंत्रण यावर लक्ष केंद्रित करणे आवश्यक आहे. अधिक माहिती किंवा मदतीसाठी, कृपया सांगा.",
+        "en": "Several factors influence the shape of a grape's bead. These include the following:\n\n1. **Water management**: The right amount of water is important. Less or too much water can affect the size of the bead.\n\n2. **Fertilizers**: It is necessary to use the right amount of fertilizers. The balance of nitrogen, phosphorus, and potassium is important in the development of beads.\n\n3. **Temperature**: Temperature has an effect on the shape of grape beads. Extreme temperatures or low temperatures can hinder the development of beads.\n\n4. **Crop care**: Diseases and pests need to be controlled. This has a positive effect on the size of the bead.\n\n5. **Irrigation**: It is necessary to use proper irrigation methods. \n\nYou need to focus on managing the right water for your grape crop, fertilizers, and disease control. For more information or help, please let me know.",
+        "timestamp": {
+          "$date": "2025-04-13T01:15:11.554Z"
+        }
+      }
+    ],
+    "farmer_id": "jagdishgambhire",
+    "farmer_plot_ids": [
+      "plotno1thompson348",
+      "plotno2sudhakar492"
+    ],
+    "conversation_id": "67fb101748b0c74366c6b6db",
+    "_id": "67fb101748b0c74366c6b6db",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-13T01:20:03.632000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-13T01:15:03.626000+00:00"
+  }
+]

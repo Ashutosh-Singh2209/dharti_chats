@@ -1,0 +1,641 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Lihocin+talat+solman ",
+        "en": "Lihocin+talat+solman ",
+        "timestamp": {
+          "$date": "2025-05-09T23:13:38.697Z"
+        },
+        "standalone_question": "What do the names Lihocin, Talat, and Solman refer to?",
+        "standalone_en": "What do the names Lihocin, Talat, and Solman refer to?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like you are looking for information related to pest control or disease management. However, I need more specific details about the issue you are facing with your grapes plot. Could you please clarify what you need assistance with regarding \"Lihocin,\" \"talat,\" and \"solman\"?",
+        "en": "It seems like you are looking for information related to pest control or disease management. However, I need more specific details about the issue you are facing with your grapes plot. Could you please clarify what you need assistance with regarding \"Lihocin,\" \"talat,\" and \"solman\"?",
+        "timestamp": {
+          "$date": "2025-05-09T23:13:42.235Z"
+        }
+      }
+    ],
+    "farmer_id": "ajitkumarkolekar",
+    "farmer_plot_ids": [
+      "grapesplot752"
+    ],
+    "conversation_id": "681e8c223ed15105dfe2e165",
+    "_id": "681e8c223ed15105dfe2e165",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-09T23:18:38.703000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-05-09T23:13:38.697000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "स्प्रे काय घ्यावा ",
+        "en": "What to take the spray ",
+        "timestamp": {
+          "$date": "2025-05-09T17:35:13.989Z"
+        },
+        "standalone_question": "What type of spray should I use?",
+        "standalone_en": "What type of spray should I use?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        },
+        "content_transliterated": "spray kay ghyava "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटसाठी या आठवड्यात स्प्रे घेण्याची कोणतीही शिफारस नाही. तुम्हाला अजून काही विचारायचं असल्यास, कृपया सांगा!",
+        "en": "There are no recommendations for your plot to take a spray this week. If you have anything else to ask, please let me know!",
+        "timestamp": {
+          "$date": "2025-05-09T17:35:17.990Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "का गरज नाही ",
+        "en": "Why not need ",
+        "timestamp": {
+          "$date": "2025-05-09T17:35:29.303Z"
+        },
+        "standalone_question": "Why is there no need for a spray this week?",
+        "standalone_en": "Why is there no need for a spray this week?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        },
+        "content_transliterated": "ka garaj nahi "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटमध्ये सध्या कोणत्याही रोग किंवा कीडांचा धोका नाही, त्यामुळे स्प्रे घेण्याची गरज नाही. जर तुम्हाला पुढील काळात कोणतीही समस्या भासली, तर मी तुम्हाला योग्य सल्ला देऊ शकतो. तुम्हाला अजून काही विचारायचं आहे का?",
+        "en": "There is currently no risk of any diseases or pests in your plot, so there is no need to take a spray. If you have any problems in the future, I can give you the right advice. Is there anything else you'd like to ask?",
+        "timestamp": {
+          "$date": "2025-05-09T17:35:32.991Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "हॊ ",
+        "en": "Yes ",
+        "timestamp": {
+          "$date": "2025-05-09T17:35:43.574Z"
+        },
+        "standalone_question": "Is there a specific reason why a spray is not needed?",
+        "standalone_en": "Is there a specific reason why a spray is not needed?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        },
+        "content_transliterated": "ho "
+      },
+      {
+        "role": "assistant",
+        "content": "तुम्हाला अजून काही विचारायचं आहे का? तुमच्या पिकांबद्दल, सिंचन, किंवा इतर कोणत्याही कृषी संबंधित गोष्टींबद्दल मदतीची आवश्यकता असल्यास, कृपया सांगा!",
+        "en": "Is there anything else you'd like to ask? If you need help with your crops, irrigation, or any other agricultural related matters, please let me know!",
+        "timestamp": {
+          "$date": "2025-05-09T17:35:47.812Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "सांगितली ",
+        "en": "Sangitli ",
+        "timestamp": {
+          "$date": "2025-05-09T17:35:57.147Z"
+        },
+        "standalone_question": "What did you say?",
+        "standalone_en": "What did you say?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "sangitali "
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया तुमचा प्रश्न किंवा विचार स्पष्ट करा, म्हणजे मी तुम्हाला योग्य माहिती देऊ शकेन. तुम्हाला कोणत्या विशिष्ट गोष्टीसाठी मदतीची आवश्यकता आहे?",
+        "en": "Please clarify your question or thought, so that I can give you the right information. What specific thing do you need help with?",
+        "timestamp": {
+          "$date": "2025-05-09T17:36:00.869Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "आहे ",
+        "en": "It is ",
+        "timestamp": {
+          "$date": "2025-05-09T17:36:13.171Z"
+        },
+        "standalone_question": "What is your question?",
+        "standalone_en": "What is your question?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया तुमचा प्रश्न किंवा विचार स्पष्ट करा, म्हणजे मी तुम्हाला योग्य माहिती देऊ शकेन. तुम्हाला कोणत्या विशिष्ट गोष्टीसाठी मदतीची आवश्यकता आहे?",
+        "en": "Please clarify your question or thought, so that I can give you the right information. What specific thing do you need help with?",
+        "timestamp": {
+          "$date": "2025-05-09T17:36:17.789Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "स्प्रे काय घेऊ ",
+        "en": "What to take a spray ",
+        "timestamp": {
+          "$date": "2025-05-09T17:36:46.043Z"
+        },
+        "standalone_question": "What spray should I use?",
+        "standalone_en": "What spray should I use?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        },
+        "content_transliterated": "spray kay gheu "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटसाठी या आठवड्यात कोणतीही स्प्रे घेण्याची शिफारस नाही. तुम्हाला अजून काही विचारायचं असल्यास, कृपया सांगा!",
+        "en": "It's not recommended to take any spray this week for your plot. If you have anything else to ask, please let me know!",
+        "timestamp": {
+          "$date": "2025-05-09T17:36:51.852Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "स्प्रे ची गरज आहे ",
+        "en": "Spray needed ",
+        "timestamp": {
+          "$date": "2025-05-09T17:37:03.367Z"
+        },
+        "standalone_question": "Is there a need for spray?",
+        "standalone_en": "Is there a need for spray?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        },
+        "content_transliterated": "spray chi garaj aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटसाठी या आठवड्यात स्प्रे घेण्याची गरज नाही. सध्या कोणत्याही रोग किंवा कीडांचा धोका नाही. तुम्हाला अजून काही विचारायचं आहे का?",
+        "en": "You don't need to get a spray for your plot this week. There is currently no risk of any disease or pests. Is there anything else you'd like to ask?",
+        "timestamp": {
+          "$date": "2025-05-09T17:37:08.565Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "स्प्रे ची गरज आहे पाऊस पडतो आहे ",
+        "en": "Need spray It's raining ",
+        "timestamp": {
+          "$date": "2025-05-09T17:37:30.304Z"
+        },
+        "standalone_question": "Is there a need for spray since it is raining?",
+        "standalone_en": "Is there a need for spray since it is raining?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        },
+        "content_transliterated": "spray chi garaj aahe paus padato aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटसाठी या आठवड्यात स्प्रे घेण्याची कोणतीही शिफारस नाही. पाऊस पडत असला तरी, सध्या कोणत्याही रोग किंवा कीडांचा धोका नाही. तुम्हाला अजून काही विचारायचं आहे का?",
+        "en": "There are no recommendations for your plot to take a spray this week. Despite the rains, there is currently no risk of any diseases or pests. Is there anything else you'd like to ask?",
+        "timestamp": {
+          "$date": "2025-05-09T17:37:47.103Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पाऊस पडतो आहे ",
+        "en": "It's raining ",
+        "timestamp": {
+          "$date": "2025-05-09T17:38:08.300Z"
+        },
+        "standalone_question": "Is it raining?",
+        "standalone_en": "Is it raining?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "paus padato aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "जर पाऊस पडत असेल, तर तुम्हाला स्प्रे घेण्याची गरज नाही. पाऊस पिकांना नैसर्गिक पाणी देतो, त्यामुळे तुम्ही स्प्रे करण्याऐवजी पावसाच्या पाण्याचा फायदा घेऊ शकता. \n\nतुमच्या प्लॉटमध्ये पाण्याची गरज आहे का हे तपासण्यासाठी, मी तुमच्या प्लॉटसाठी सिंचनाची शिफारस तपासू शकतो. तुम्हाला हे करायचं आहे का?",
+        "en": "If it's raining, you don't need to take a spray. Rain gives natural water to crops, so you can take advantage of rainwater instead of spraying. \n\nTo check if your plot needs water, I can check the irrigation recommendation for your plot. Do you want to do this?",
+        "timestamp": {
+          "$date": "2025-05-09T17:38:12.928Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "हॊ ",
+        "en": "Yes ",
+        "timestamp": {
+          "$date": "2025-05-09T17:38:43.260Z"
+        },
+        "standalone_question": "Would you like me to check the irrigation recommendations for your plot?",
+        "standalone_en": "Would you like me to check the irrigation recommendations for your plot?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today.",
+            "get_irrigation_installation_settings\n    retrieves the irrigation installation settings in the farmer's plots, can be used to calculate the irrigation hours.\n    returns root_width, root_depth, soil_retention, dripper_distance, dripper_discharge",
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range.",
+            "calculate_irrigation_hours\nCalculate the irrigation hours needed for irrigation by the farmer based on the mandatory provided values.\n    The formula used is\n    (root_width * root_depth * soil_retention * dripper_distance * calc_constant) / dripper_discharge\n    where calc_constant = 0.00006784244"
+          ],
+          "faq": [
+            "Q: How to measure/ calculate irrigation hours /water tank of my plot in fyllo app? How do I calculate irrigation hours for my plot? How to use the irrigation hours calculator?\nA: To calculate irrigation hours in the Fyllo app, follow these steps:\n\n1. Open the Fyllo App\n2. Go to the home screen\n3. Click on the soil moisture-1 sensor\n4. Scroll down to find the \"Irrigation hours\" section\n5. Fill in the required details such as:\n   - Root width (inches)\n   - Root depth (inches)\n   - Soil retention (mm)\n   - Dripper distance (feet)\n   - Dripper discharge (liters)\n6. Click the calculate button\n\nWould you like me to calculate the irrigation hours for you right now? I can retrieve your plot's irrigation settings and perform the calculation if you say yes.\n\nTool Selection: When user says yes, I should:\n1. Use get_irrigation_installation_settings tool to retrieve plot settings\n2. Check if all values are present and valid\n3. If values are valid, use calculate_irrigation_hours tool with these values\n4. If values are missing or invalid, ask the user to provide the missing values\n5. After calculating irrigation hours, display the irrigation installation settings that were used for the calculation\n6. Ask the user if they want to calculate irrigation hours with a different set of values, and if yes, prompt them to provide those values\n\nExample response if values are missing:\n\"I checked your plot settings, but I need some additional information to calculate irrigation hours accurately. Could you please provide the [missing value(s)]? Once you provide these details, I can complete the calculation for you.\"\n\nExample response after calculation:\n\"Based on your plot's irrigation settings, the calculated irrigation hours are [X] hours. \n\nI used the following settings for this calculation:\n- Root width: [value] inches\n- Root depth: [value] inches\n- Soil retention: [value] mm\n- Dripper distance: [value] feet\n- Dripper discharge: [value] liters\n\nWould you like to calculate irrigation hours with a different set of values? If yes, please provide the new values you'd like to use.\"",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: What should I do if I can't find the fertigation schedule after selecting the fertigation tab?\nA: If you don't see the fertigation schedule, you'll need to create a report first. Would you like assistance in creating a report? Do you have any soil, leaf, or petiole test data available? If not, we can generate a basic schedule for you using general crop and regional data.",
+            "Q: How can the sensor monitor the whole plot when it's installed near one plant?\nA: The installation process includes a detailed survey of the plot regarding variations in soil type and root zone. A point for installation is selected with a plant of average growth representing the whole plot.",
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil."
+          ]
+        },
+        "content_transliterated": "ho "
+      },
+      {
+        "role": "assistant",
+        "content": "तुम्हाला अजून काही विचारायचं आहे का? तुम्ही पिकांच्या व्यवस्थापनाबद्दल, सिंचन, किंवा इतर कृषी संबंधित गोष्टींबद्दल मदतीची आवश्यकता असल्यास, कृपया सांगा!",
+        "en": "Is there anything else you'd like to ask? If you need help with crop management, irrigation, or other agricultural matters, please let me know!",
+        "timestamp": {
+          "$date": "2025-05-09T17:38:46.947Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "कॉपर चा स्प्रे घेऊ का ",
+        "en": "Should I take a copper spray? ",
+        "timestamp": {
+          "$date": "2025-05-09T17:40:51.820Z"
+        },
+        "standalone_question": "Should I use copper spray?",
+        "standalone_en": "Should I use copper spray?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "copper cha spray gheu ka "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटसाठी या आठवड्यात कोणतीही स्प्रे घेण्याची शिफारस नाही, त्यामुळे कॉपरचा स्प्रे घेण्याची गरज नाही. तुम्हाला अजून काही विचारायचं आहे का?",
+        "en": "It's not recommended to take any spray this week for your plot, so there's no need to take a copper spray. Is there anything else you'd like to ask?",
+        "timestamp": {
+          "$date": "2025-05-09T17:40:58.279Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पाणी किती दिवसांनी द्यावे ",
+        "en": "How many days should the water be given? ",
+        "timestamp": {
+          "$date": "2025-05-09T17:39:08.445Z"
+        },
+        "standalone_question": "How many days should I wait before watering?",
+        "standalone_en": "How many days should I wait before watering?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: I irrigated still the sensor is dropping slowly.\nA: Sometimes, the water reaches slowly till root zone and the moisture sensor kPa value drops slowly. Always wait for 12 hours after irrigation for the moisture to saturate. If still some confusion, ask user to check moisture near the sensor and check if he wants to raise a ticket for the issue.",
+            "Q: I irrigated still the sensor is showing dry.\nA: Ask user when he irrigated. It usually takes 12 hours to reach the water till sensor. If the sensor is not dropping even after 12 hours, it can be due to one of the following reasons :\nWater is not reaching properly till the sensor , this can be due to drip blocked , or slope in the land or dripper outlets far away from the sensor. Ask user to check if drip is fine and  dripper is within the range of sensor. \nThe sensor can be very old , more than two years , in this case , the sensor might be malfunction, ask user if he wants to raise a ticket",
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer."
+          ]
+        },
+        "content_transliterated": "pani kiti divasanni dyave "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटसाठी 10 मे 2025 ते 14 मे 2025 या कालावधीत पाणी देण्याची गरज नाही. सध्या मातीतील आर्द्रता योग्य आहे. तुम्हाला अजून काही विचारायचं आहे का?",
+        "en": "There is no need to provide water for your plot from May 10, 2025 to May 14, 2025. The soil moisture is right now. Is there anything else you'd like to ask?",
+        "timestamp": {
+          "$date": "2025-05-09T17:40:58.844Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पाणी किती दिवसांनी द्यावे ",
+        "en": "How many days should the water be given? ",
+        "timestamp": {
+          "$date": "2025-05-09T17:40:18.414Z"
+        },
+        "standalone_question": "How often should I water my plants?",
+        "standalone_en": "How often should I water my plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pani kiti divasanni dyave "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटसाठी 10 मे ते 14 मे 2025 या कालावधीत पाण्याची गरज नाही. सध्या मातीतील आर्द्रता योग्य आहे. तुम्हाला अजून काही विचारायचं आहे का?",
+        "en": "Your plot does not need water from May 10 to May 14, 2025. The soil moisture is right now. Is there anything else you'd like to ask?",
+        "timestamp": {
+          "$date": "2025-05-09T17:41:28.156Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पाणी द्यावे का ",
+        "en": "Should i water ",
+        "timestamp": {
+          "$date": "2025-05-09T17:41:22.311Z"
+        },
+        "standalone_question": "Should I water the plants?",
+        "standalone_en": "Should I water the plants?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": []
+        },
+        "content_transliterated": "pani dyave ka "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटसाठी 9 मे 2025 रोजी पाणी देण्याची गरज नाही. मातीतील आर्द्रता योग्य आहे. तुम्हाला अजून काही विचारायचं आहे का?",
+        "en": "There is no need to provide water for your plot on May 9, 2025. Soil moisture is right. Is there anything else you'd like to ask?",
+        "timestamp": {
+          "$date": "2025-05-09T17:41:55.406Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पाऊस पडेल का ",
+        "en": "Will it rain? ",
+        "timestamp": {
+          "$date": "2025-05-09T17:42:43.645Z"
+        },
+        "standalone_question": "Will it rain?",
+        "standalone_en": "Will it rain?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "paus padel ka "
+      },
+      {
+        "role": "assistant",
+        "content": "10 मे 2025 रोजी तुमच्या प्लॉटमध्ये 10.3 मिमी पाऊस पडण्याची शक्यता आहे, परंतु याची शक्यता फक्त 20% आहे. त्यामुळे पाऊस पडेल की नाही हे निश्चित नाही. \n\nजर तुम्हाला पाण्याची गरज भासली, तर तुम्ही सिंचनाची व्यवस्था करू शकता. तुम्हाला अजून काही विचारायचं आहे का?",
+        "en": "On May 10, 2025, your plot has a chance of receiving 10.3 mm of rain, but there is only a 20% chance of it. It's not certain if it's going to rain or not. \n\nIf you need water, you can make irrigation arrangements. Is there anything else you'd like to ask?",
+        "timestamp": {
+          "$date": "2025-05-09T17:43:06.933Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पाऊस किती दिवस ",
+        "en": "How long does it rain? ",
+        "timestamp": {
+          "$date": "2025-05-09T17:43:34.110Z"
+        },
+        "standalone_question": "How many days will it rain?",
+        "standalone_en": "How many days will it rain?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "paus kiti divas "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटसाठी पुढील 7 दिवसांमध्ये पाऊस पडण्याची शक्यता खालीलप्रमाणे आहे:\n\n- **10 मे 2025**: 10.3 मिमी (20% शक्यता)\n- **11 मे 2025**: 5.6 मिमी (20% शक्यता)\n- **12 मे 2025**: 6.4 मिमी (20% शक्यता)\n- **13 मे 2025**: 1.1 मिमी (20% शक्यता)\n- **14 मे 2025**: 0.1 मिमी (25% शक्यता)\n- **15 मे 2025**: 0 मिमी (15% शक्यता)\n- **16 मे 2025**: 0 मिमी (5% शक्यता)\n- **17 मे 2025**: 0 मिमी (0% शक्यता)\n\nतुम्हाला अजून काही विचारायचं आहे का?",
+        "en": "The chances of rain for your plot in the next 7 days are as follows:\n\n- **10 May 2025**: 10.3 mm (20% chance)\n- **11 May 2025**: 5.6 mm (20% chance)\n- **12 May 2025**: 6.4 mm (20% chance)\n- **13 May 2025**: 1.1 mm (20% chance)\n- **14 May 2025**: 0.1 mm (25% chance)\n- **15 May 2025**: 0 mm (15% chance)\n- **16 May 2025**: 0 mm (5% chance)\n- **17 May 2025**: 0 mm (0% chance)\n\nIs there anything else you'd like to ask?",
+        "timestamp": {
+          "$date": "2025-05-09T17:44:34.054Z"
+        }
+      }
+    ],
+    "farmer_id": "vishalbhalerao514",
+    "farmer_plot_ids": [
+      "plotno1thompson682"
+    ],
+    "conversation_id": "681e3cd13ed15105dfe2e164",
+    "_id": "681e3cd13ed15105dfe2e164",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-09T17:48:34.118000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-05-09T17:35:13.989000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Phal chhedak ka dava dena hai ka",
+        "en": "Do you have to give medicine for fruit borer?",
+        "timestamp": {
+          "$date": "2025-05-09T16:04:39.167Z"
+        },
+        "standalone_question": "Do you need to give medicine for a cold?",
+        "standalone_en": "Do you need to give medicine for a cold?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Is hafte mein phal chhedak ke liye koi dava dene ki zarurat nahi hai, kyunki koi spray schedule nahi hai. Aap apne podon ki dekhbhal karte rahiye.",
+        "en": "There is no need to give any medication for fruit borer this week, as there is no spray schedule. You keep taking care of your plants.",
+        "timestamp": {
+          "$date": "2025-05-09T16:04:43.917Z"
+        }
+      }
+    ],
+    "farmer_id": "laxmansahu",
+    "farmer_plot_ids": [
+      "brinjalplot496"
+    ],
+    "conversation_id": "681e27973ed15105dfe2e163",
+    "_id": "681e27973ed15105dfe2e163",
+    "language": "hi",
+    "expiry": {
+      "$date": "2025-05-09T16:09:39.173000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-05-09T16:04:39.167000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "હવે શુ કરવાનૂ છે",
+        "en": "What to do now",
+        "timestamp": {
+          "$date": "2025-05-09T15:33:09.415Z"
+        },
+        "standalone_question": "What should we do now?",
+        "standalone_en": "What should we do now?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "have shoe karavanu che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમે \"Aba valo plot\" પર ગ્રાઉન્ડનટની ફૂલિંગ સ્ટેજમાં છો. હવે, તમારે નીચેના પગલાં લેવા જોઈએ:\n\n1. **જળસંચય**: જમીનની ભેજની સ્થિતિ તપાસો. જો જમીન સૂકી હોય, તો પાણી આપવું જરૂરી છે.\n2. **ખાતર આપવું**: ફૂલિંગ સ્ટેજમાં ખાતર આપવાની જરૂર છે. ખાતર આપવાની યોજના માટે હું તમને મદદ કરી શકું છું.\n3. **પેસ્ટ અને રોગ નિયંત્રણ**: જો તમારી પાકમાં કોઈ રોગ અથવા પેસ્ટની સમસ્યા હોય, તો તે માટેની સલાહ લેવી મહત્વપૂર્ણ છે.\n\nતમે કઈ બાબતમાં વધુ માહિતી અથવા મદદ માંગો છો?",
+        "en": "You are in the fulling stage of the groundnut on \"Aba valo plot\". Now, you should take the following steps:\n\n1. **Water harvesting**: Check soil moisture status. If the land is dry, it is necessary to give water.\n2. **Fertilizing**: Fertilizer needs to be given in the flowering stage. I can help you with a plan to give fertilizer.\n3. **Pest and Disease Control**: If there is any disease or pest problem in your crop, it is important to seek advice for the same.\n\nWhat do you want more information or help on?",
+        "timestamp": {
+          "$date": "2025-05-09T15:33:13.917Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "હવે કયુ ખાતર આપવાની જરૂર છે",
+        "en": "Now what fertilizer needs to be given",
+        "timestamp": {
+          "$date": "2025-05-09T15:34:10.986Z"
+        },
+        "standalone_question": "What type of fertilizer should be applied now?",
+        "standalone_en": "What type of fertilizer should be applied now?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17"
+          ]
+        },
+        "content_transliterated": "have kayu khatar apavani jarur che"
+      },
+      {
+        "role": "assistant",
+        "content": "હવે \"Aba valo plot\" પર ગ્રાઉન્ડનટની ફૂલિંગ સ્ટેજમાં (8મી સપ્તાહ) તમે ખાતર આપવાની જરૂર નથી. \n\nપરંતુ, આગામી પોડ ફોર્મેશન અને ડેવલપમેન્ટ સ્ટેજમાં (1મી સપ્તાહ) નીચેના ખાતરોની જરૂર પડશે:\n\n### ફોલિયર પદ્ધતિ દ્વારા:\n- **ઝિંક સલ્ફેટ**: 1 કિલોગ્રામ/એકર\n- **ફેરસ સલ્ફેટ**: 800 ગ્રામ/એકર\n\n### ફર્ટિગેશન પદ્ધતિ દ્વારા:\n1. **પોટેશિયમ નાઇટ્રેટ**: 6 કિલોગ્રામ/એકર\n2. **કેલ્શિયમ નાઇટ્રેટ**: 3 કિલોગ્રામ/એકર (અન્ય ખાતરોની એપ્લિકેશન પછી 15-20 મિનિટ પછી લાગુ કરવું)\n\nઅગાઉના ખાતરોની માત્રા 1% ની સંકેત સાથે ફોલિયર સ્પ્રે માટે 5 કિલોગ્રામ 500 લિટર પાણીમાં ભેળવવાની સલાહ આપવામાં આવે છે.\n\nજો તમને વધુ માહિતી જોઈએ તો જણાવો!",
+        "en": "Now in the fulling stage (8th week) of the groundnut on \"Aba valo plot\" you do not need to give fertilizer. \n\nBut, the next pod formation and development stage (week 1st) will require the following fertilizers:\n\n### By foliar method:\n* **Zinc sulfate**: 1 kg/acre\n**Ferrous sulfate**: 800 g/acre\n\n### By fertigation method:\n1. **Potassium Nitrate**: 6 kg/acre\n2. **Calcium nitrate**: 3 kg/acre (to be applied 15-20 minutes after application of other fertilizers)\n\nIt is advisable to mix 5 kg 500 liters of water for foliar spray with an indication of the amount of previous fertilizers 1%.\n\nLet me know if you need more information!",
+        "timestamp": {
+          "$date": "2025-05-09T15:34:18.371Z"
+        }
+      }
+    ],
+    "farmer_id": "tejabhaihemabhaipatel",
+    "farmer_plot_ids": [
+      "abavaloplot"
+    ],
+    "conversation_id": "681e20343ed15105dfe2e162",
+    "_id": "681e20343ed15105dfe2e162",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-05-09T15:39:10.993000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-05-09T15:33:09.415000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "माल कमी निघत आहे",
+        "en": "Goods are running low",
+        "timestamp": {
+          "$date": "2025-05-09T10:31:14.332Z"
+        },
+        "standalone_question": "Is there a shortage of goods?",
+        "standalone_en": "Is there a shortage of goods?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mal kami nighat aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटमध्ये सध्या \"कैन थिनिंग\" (Cane thinning) चा सक्रिय टप्पा आहे, जो 4 मे 2025 पासून सुरू झाला आहे. \n\nसध्या मातीतील आर्द्रता 100% आणि 98% आहे, जे अत्यंत उच्च आहे. मागील आठवड्यातील मातीतील आर्द्रता खालीलप्रमाणे होती:\n- 1 मे: 93%\n- 2 मे: 91%\n- 3 मे: 90%\n- 4 मे: 86%\n- 5 मे: 79%\n- 6 मे: 73%\n\nआर्द्रता हळूहळू कमी होत आहे, परंतु सध्या ती उच्च आहे. याचा अर्थ तुमच्या प्लॉटमध्ये पाण्याची गरज नाही. \n\nतुमच्या प्लॉटमध्ये तापमान किंवा वाऱ्याच्या वेगाबद्दल कोणतीही माहिती उपलब्ध नाही, त्यामुळे तुम्हाला शारीरिकरित्या मातीची आर्द्रता तपासण्याची शिफारस करतो. जर तुम्हाला वाटत असेल की सेन्सर चुकीची माहिती देत आहे, तर तुम्ही तिकीट उघडू इच्छिता का?",
+        "en": "Your plot currently has an active phase of \"cane thinning\", which began on May 4, 2025. \n\nCurrently, soil moisture is between 100% and 98%, which is extremely high. Last week's soil moisture was as follows:\n- May 1: 93%\n- May 2: 91%\n- May 3: 90%\n- May 4: 86%\n- May 5: 79%\n- May 6: 73%\n\nHumidity is gradually decreasing, but right now it's high. This means your plot doesn't need water. \n\nThere is no information available about the temperature or wind speed in your plot, so I recommend that you physically check the soil moisture. If you think the sensor is giving incorrect information, do you want to open the ticket?",
+        "timestamp": {
+          "$date": "2025-05-09T10:31:27.572Z"
+        }
+      }
+    ],
+    "farmer_id": "tanjisangamnere",
+    "farmer_plot_ids": [
+      "sudhakar801"
+    ],
+    "conversation_id": "681dd97275826862df6a79aa",
+    "_id": "681dd97275826862df6a79aa",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-09T10:36:14.339000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-05-09T10:31:14.332000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is spray flame",
+        "en": "What is spray flame",
+        "timestamp": {
+          "$date": "2025-05-09T05:50:08.972Z"
+        },
+        "standalone_question": "What is a spray flame?",
+        "standalone_en": "What is a spray flame?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "\"Spray flame\" typically refers to a method of applying pesticides or fertilizers in a fine mist or spray form. This technique ensures even distribution over the crops, allowing for better absorption and effectiveness. It is commonly used in agriculture to control pests and diseases or to provide nutrients to plants. If you have specific questions about spray techniques or products, feel free to ask!",
+        "en": "\"Spray flame\" typically refers to a method of applying pesticides or fertilizers in a fine mist or spray form. This technique ensures even distribution over the crops, allowing for better absorption and effectiveness. It is commonly used in agriculture to control pests and diseases or to provide nutrients to plants. If you have specific questions about spray techniques or products, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-09T05:50:12.677Z"
+        }
+      }
+    ],
+    "farmer_id": "manjunathb",
+    "farmer_plot_ids": [
+      "grapebengalurublue",
+      "pomegranate688"
+    ],
+    "conversation_id": "681d97903ed15105dfe2e15f",
+    "_id": "681d97903ed15105dfe2e15f",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-05-09T05:55:08.981000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-05-09T05:50:08.972000+00:00"
+  }
+]

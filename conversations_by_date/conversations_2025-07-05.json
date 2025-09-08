@@ -1,0 +1,923 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "device कॅलिब्रेट कसे करायचे ",
+        "en": "How to calibrate a device ",
+        "timestamp": {
+          "$date": "2025-07-05T17:38:56.824Z"
+        },
+        "standalone_question": "How do I calibrate the device?",
+        "standalone_en": "How do I calibrate the device?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How to calibrate soil moisture sensors ?\nA:  The way to calibrate sensors is by putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. A drop after watering or irrigation and continuous dry upto 200 kpa means that the sensor is calibrated.",
+            "Q: How do I start the Kairo device?\nA: Press the switch below the top cap to start the device and wait until the parameters on the home screen are visible."
+          ]
+        },
+        "content_transliterated": "device calibrate kase karayche "
+      },
+      {
+        "role": "assistant",
+        "content": "सेंसर कॅलिब्रेट करण्यासाठी, तुम्हाला खालील प्रक्रिया अनुसरण करावी लागेल:\n\n1. **पाण्याचा वापर**: सेंसरवर पाणी टाका. पाण्यामुळे मातीतील आर्द्रता कमी होईल.\n2. **डेटा निरीक्षण**: पाण्याच्या टाकल्यानंतर, मातीतील आर्द्रता डेटा कमी होणे आवश्यक आहे. \n3. **कपात**: जर मातीची आर्द्रता 200 kPa पर्यंत वाढत असेल आणि पाण्याच्या टाकल्यानंतर डेटा स्थिर राहिला, तर सेंसर कॅलिब्रेटेड आहे.\n\nयामुळे तुम्ही तुमच्या सेंसरची कार्यक्षमता सुनिश्चित करू शकता.",
+        "en": "To calibrate the sensor, you have to follow the following procedure:\n\n1. **Water use**: Pour water on the sensor. Water will reduce the moisture in the soil.\n2. **Data observation**: After the water is poured, soil moisture data must decrease. \n3. **reduction**: If soil moisture rises to 200 kPa and the data remains stable after water ingesting, the sensor is calibrated.\n\nThis allows you to ensure the efficiency of your sensor.",
+        "timestamp": {
+          "$date": "2025-07-05T17:39:07.299Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "नवीन डिवाइस कॅलिब्रेट कसे करावे ",
+        "en": "How to calibrate a new device ",
+        "timestamp": {
+          "$date": "2025-07-05T17:40:50.499Z"
+        },
+        "standalone_question": "How do I calibrate a new device?",
+        "standalone_en": "How do I calibrate a new device?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How to calibrate soil moisture sensors ?\nA:  The way to calibrate sensors is by putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. A drop after watering or irrigation and continuous dry upto 200 kpa means that the sensor is calibrated."
+          ]
+        },
+        "content_transliterated": "navin device calibrate kase karave "
+      },
+      {
+        "role": "assistant",
+        "content": "नवीन डिवाइस कॅलिब्रेट करण्यासाठी खालील प्रक्रिया अनुसरण करा:\n\n1. **सेंसरची स्थापना**: डिवाइसच्या मॅन्युअलमध्ये दिलेल्या मार्गदर्शकानुसार सेंसर योग्य ठिकाणी स्थापित करा. हे सुनिश्चित करा की ते मातीच्या सक्रिय फीडर रूट झोनमध्ये आहेत.\n\n2. **पाण्याचा वापर**: सेंसरवर पाणी टाका. पाण्यामुळे मातीतील आर्द्रता कमी होईल.\n\n3. **डेटा निरीक्षण**: पाण्याच्या टाकल्यानंतर, मातीतील आर्द्रता डेटा कमी होणे आवश्यक आहे. \n\n4. **कपात**: जर मातीची आर्द्रता 200 kPa पर्यंत वाढत असेल आणि पाण्याच्या टाकल्यानंतर डेटा स्थिर राहिला, तर सेंसर कॅलिब्रेटेड आहे.\n\n5. **पुनरावलोकन**: काही वेळाने सेंसरच्या डेटा वाचनाची तपासणी करा. जर वाचन स्थिर आणि अचूक असेल, तर कॅलिब्रेशन यशस्वी झाले आहे.\n\nया प्रक्रियेमुळे तुम्ही तुमच्या नवीन डिवाइसची कार्यक्षमता सुनिश्चित करू शकता.",
+        "en": "To calibrate a new device, follow the following procedures:\n\n1. Installation of the sensor**: Install the sensor in the appropriate place as per the guide given in the manual of the device. Make sure they're in the soil's active feeder root zone.\n\n2. **Water use**: Pour water on the sensor. Water will reduce the moisture in the soil.\n\n3. **Data observation**: After the water is poured, soil moisture data must decrease. \n\n4. **Reduction**: If soil moisture rises to 200 kPa and the data remains stable after water ingesting, the sensor is calibrated.\n\n5. **Review**: Check the sensor's data reading after a while. If the reading is stable and accurate, the calibration is successful.\n\nThis process allows you to ensure the efficiency of your new device.",
+        "timestamp": {
+          "$date": "2025-07-05T17:40:59.428Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पुढील २४ तासाचे हवामान कसे राहील ",
+        "en": "What will be the weather for the next 24 hours? ",
+        "timestamp": {
+          "$date": "2025-07-05T17:42:41.599Z"
+        },
+        "standalone_question": "What will the weather be like in the next 24 hours?",
+        "standalone_en": "What will the weather be like in the next 24 hours?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pudhil 24 tasache havaman kase rahil "
+      },
+      {
+        "role": "assistant",
+        "content": "पुढील २४ तासांचे हवामान असेल:\n\n**तापमान**: \n- किमान: 26.1°C\n- कमाल: 31.3°C\n- सरासरी: 29.9°C\n\n**आर्द्रता**: 80.4%\n\n**हवा दाब**: 945.4 hPa\n\n**हवामान स्थिती**: \n- वाऱ्याची गती: 3.2 hPa\n- पाऊस: 2.4 mm\n- पाऊस पडण्याची शक्यता: 40%\n- ढगांचे प्रमाण: 100%\n- वाऱ्याची दिशा: पश्चिम-दक्षिण पश्चिम (WSW)\n\nतुमच्या पिकांसाठी हे हवामान अनुकूल आहे, त्यामुळे योग्य काळजी घ्या!",
+        "en": "The weather for the next 24 hours will be:\n\nTemperature: \n- Minimum: 26.1°C\n- Maximum: 31.3°C\n- Average: 29.9°C\n\nHumidity: 80.4%\n\nAir pressure: 945.4 hPa\n\nWeather Conditions: \n- Wind speed: 3.2 hPa\n- Rain: 2.4 mm\n- Chance of rain: 40%\n- Amount of Clouds: 100%\n- Wind direction: West-Southwest (WSW)\n\nThis weather is favorable for your crops, so take proper care!",
+        "timestamp": {
+          "$date": "2025-07-05T17:42:49.003Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "सध्याची आर्द्रता किती आहे ",
+        "en": "What is the current humidity ",
+        "timestamp": {
+          "$date": "2025-07-05T17:46:25.936Z"
+        },
+        "standalone_question": "What is the current humidity?",
+        "standalone_en": "What is the current humidity?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "sadhyachi ardrata kiti aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "सध्याची आर्द्रता खालीलप्रमाणे आहे:\n\n- **86032 Plot 1**: 48%\n- **86032 Plot 2**: 48%\n\nतुमच्या दोन्ही प्लॉट्समध्ये आर्द्रता समान आहे.",
+        "en": "The current humidity is as follows:\n\n- **86032 Plot 1**: 48%\n- **86032 Plot 2**: 48%\n\nThe humidity in both your plots is the same.",
+        "timestamp": {
+          "$date": "2025-07-05T17:46:30.337Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "सध्याची हवेची आर्द्रता किती आहे ",
+        "en": "What is the current air humidity ",
+        "timestamp": {
+          "$date": "2025-07-05T17:47:10.142Z"
+        },
+        "standalone_question": "What is the current air humidity?",
+        "standalone_en": "What is the current air humidity?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "sadhyachi havechi ardrata kiti aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "सध्याची हवेची आर्द्रता खालीलप्रमाणे आहे:\n\n- **86032 Plot 1**: 48%\n- **86032 Plot 2**: 48%\n\nदोन्ही प्लॉट्समध्ये हवेची आर्द्रता समान आहे.",
+        "en": "The current air moisture is as follows:\n\n- **86032 Plot 1**: 48%\n- **86032 Plot 2**: 48%\n\nThe air humidity is similar in both plots.",
+        "timestamp": {
+          "$date": "2025-07-05T17:47:17.109Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "फवारणी साठी आर्द्रता व वारे किती असावे ",
+        "en": "What should be the humidity and wind to spray ",
+        "timestamp": {
+          "$date": "2025-07-05T17:47:59.858Z"
+        },
+        "standalone_question": "What should the humidity and wind conditions be for spraying?",
+        "standalone_en": "What should the humidity and wind conditions be for spraying?",
+        "retrieval": {
+          "tools": [
+            "check_spray_conditions  \nGets the spray condition forecast for the next few hours for the farmer's plots and returns the condition for each hour as GOOD, MODERATE, or WORST, based on deltaT, VPD, and rainfall conditions."
+          ],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        },
+        "content_transliterated": "favarani sathi ardrata v vare kiti asave "
+      },
+      {
+        "role": "assistant",
+        "content": "फवारणीसाठी योग्य हवामान स्थिती खालीलप्रमाणे असावी:\n\n1. **आर्द्रता**: 40% ते 70% दरम्यान असावी. यामुळे फवारणीचा प्रभाव वाढतो.\n2. **वाऱ्याची गती**: 5 किमी/तास (3.1 मील/तास) पेक्षा कमी असावी. जास्त वाऱ्यामुळे फवारणीचा प्रभाव कमी होऊ शकतो.\n\nतुमच्या प्लॉट्समध्ये सध्या हवेची आर्द्रता 48% आहे, जी फवारणीसाठी योग्य आहे. वाऱ्याची गती देखील तपासून पहा, जर ती कमी असेल तर तुम्ही फवारणी करू शकता.",
+        "en": "The appropriate weather conditions for spraying should be as follows:\n\n1. **Humidity**: Should be between 40% and 70%. This increases the effect of spraying.\n2. **Wind speed**: Should be less than 5 km/h (3.1 mph). High winds can reduce the impact of spraying.\n\nThe air moisture in your plots is currently 48%, which is suitable for spraying. Also check the wind speed, if it's low, you can spray.",
+        "timestamp": {
+          "$date": "2025-07-05T17:48:06.166Z"
+        }
+      }
+    ],
+    "farmer_id": "abhaygadagebaramatimalad",
+    "farmer_plot_ids": [
+      "86032plot673",
+      "bananaplot113"
+    ],
+    "conversation_id": "68696330c68ddf9f8bafd65b",
+    "_id": "68696330c68ddf9f8bafd65b",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-05T17:52:59.862000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-07-05T17:38:56.824000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "कालीब्रेटेड नाही ",
+        "en": "Not calibrated ",
+        "timestamp": {
+          "$date": "2025-07-05T15:16:25.585Z"
+        },
+        "standalone_question": "Is it not calibrated?",
+        "standalone_en": "Is it not calibrated?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "collibrated nahi "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या मातीच्या आर्द्रता सेन्सरची कॅलिब्रेशन योग्यरित्या झाली नाही असे दिसते. 0-5 kPa म्हणजे माती ओलसर आहे. हे काही कारणांमुळे असू शकते:\n\n1. **नवीन स्थापना**: जर डिव्हाइस नुकतेच स्थापित केले असेल, तर सेन्सरच्या आजुबाजूला पाणी असू शकते कारण ते स्थापित करण्यापूर्वी पाण्यात बुडवले जाते. यासाठी, कृपया मागील वेळापत्रकानुसार 3 सिंचन करा.\n\n2. **पिकाची प्रारंभिक अवस्था**: जर पिकाची अवस्था खूप लहान असेल किंवा नुकतेच छाटणी केली असेल, तर पाण्याचा शोषण कमी असतो. यासाठी, कृपया सध्याच्या अवस्थेत सिंचनाच्या kPa ची वाट पहा.\n\n3. **स्थानिक भूप्रदेश**: कधी कधी, सेन्सरच्या आजुबाजूला पाणी जमा होऊ शकते. कृपया सेन्सरच्या आजुबाजूला तपासा आणि आवश्यक असल्यास ते पुन्हा स्थापित करा.\n\nआपण या समस्येसाठी एक तिकीट तयार करू इच्छिता का?",
+        "en": "Your soil's moisture sensor doesn't seem to have calibrated properly. 0-5 kPa means that the soil is moist. This may be due to a few reasons:\n\n1. **New installation**: If the device has just been installed, there may be water around the sensor as it is immersed in water before installing. For this, please do 3 irrigations as per the previous schedule.\n\n2. **Early stage of the crop**: If the crop stage is too small or has just been pruned, water absorption is low. For this, please wait for the kPa of irrigation in its present state.\n\n3. **Local terrain**: Sometimes, water can accumulate around the sensor. Please check around the sensor and reinstall it if necessary.\n\nDo you want to create a ticket to this problem?",
+        "timestamp": {
+          "$date": "2025-07-05T15:16:33.935Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "नाही ",
+        "en": "DO NOT ",
+        "timestamp": {
+          "$date": "2025-07-05T15:17:43.038Z"
+        },
+        "standalone_question": "Would you like to create a ticket for this issue?",
+        "standalone_en": "Would you like to create a ticket for this issue?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "naahi "
+      },
+      {
+        "role": "assistant",
+        "content": "ठीक आहे, जर तुम्हाला तिकीट तयार करायचे नसेल तर काही हरकत नाही. तुम्हाला आणखी काही मदतीची आवश्यकता आहे का?",
+        "en": "Well, if you don't want to make a ticket, it doesn't matter. Do you need any more help?",
+        "timestamp": {
+          "$date": "2025-07-05T15:17:48.198Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "किती दिवसात कालीब्रेटेड होईल डिवाइस ",
+        "en": "In how many days will the device be calibrated? ",
+        "timestamp": {
+          "$date": "2025-07-05T15:18:18.226Z"
+        },
+        "standalone_question": "How many days will it take for the device to be calibrated?",
+        "standalone_en": "How many days will it take for the device to be calibrated?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kitty divasat collibrated hoil device "
+      },
+      {
+        "role": "assistant",
+        "content": "साधारणतः, सेन्सर कॅलिब्रेट करण्यासाठी 12 तास लागतात. जर तुम्ही सिंचन केले असेल आणि त्यानंतरही सेन्सरचा वाचन कमी होत नसेल, तर काही कारणे असू शकतात:\n\n1. **पाणी सेन्सरपर्यंत पोहोचत नाही**: ड्रिप ब्लॉक झाल्यामुळे, जमिनीवरील उतारामुळे किंवा सेन्सरच्या जवळ नसलेल्या ड्रिपर आउटलेट्समुळे पाणी पोहोचत नसेल.\n\n2. **सेन्सर जुना आहे**: जर सेन्सर दोन वर्षांपेक्षा जुना असेल, तर तो खराब होऊ शकतो.\n\nकृपया तपासा की ड्रिप व्यवस्थित कार्यरत आहे का आणि सेन्सरच्या रेंजमध्ये ड्रिपर आहे का. तुम्हाला तिकीट तयार करायचे आहे का?",
+        "en": "Typically, it takes 12 hours to calibrate the sensor. If you've irrigated and still don't have a low reading of the sensor, there may be a few reasons:\n\n1. **Water does not reach the sensor**: Water may not be reaching due to drip block, slope on the ground, or draper outlets not close to the sensor.\n\n2. **The sensor is old**: If the sensor is more than two years old, it can be damaged.\n\nPlease check if the drip is working properly and if there is a dripper within the range of the sensor. Do you want to make a ticket?",
+        "timestamp": {
+          "$date": "2025-07-05T15:18:26.540Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ओके ",
+        "en": "OK ",
+        "timestamp": {
+          "$date": "2025-07-05T15:19:19.058Z"
+        },
+        "standalone_question": "How many days will it take for the device to be calibrated?",
+        "standalone_en": "How many days will it take for the device to be calibrated?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "okay "
+      },
+      {
+        "role": "assistant",
+        "content": "जर तुम्हाला आणखी काही विचारायचे असेल किंवा मदतीची आवश्यकता असेल, तर कृपया सांगा. मी येथे मदतीसाठी आहे!",
+        "en": "If you have anything else to ask or need help, please let me know. I'm here to help!",
+        "timestamp": {
+          "$date": "2025-07-05T15:19:22.708Z"
+        }
+      }
+    ],
+    "farmer_id": "anilmahadevbhagat",
+    "farmer_plot_ids": [
+      "bananaplot1698"
+    ],
+    "conversation_id": "686941c9655bfbd569f72a5d",
+    "_id": "686941c9655bfbd569f72a5d",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-05T15:24:19.062000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-07-05T15:16:25.585000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Please explain me<user uploaded image for analysis at 'vihanguavafarm/2025-07-05-1751727498360.jpg'>",
+        "en": "Please explain me<user uploaded image for analysis at 'vihanguavafarm/2025-07-05-1751727498360.jpg'>",
+        "timestamp": {
+          "$date": "2025-07-05T14:58:29.669Z"
+        },
+        "standalone_question": "Could you provide an explanation of the image I uploaded?",
+        "standalone_en": "Could you provide an explanation of the image I uploaded?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The image you provided appears to be a soil report. Here are the findings:\n\n- **Moisture Level 1**: 92% (indicating very wet soil)\n- **Moisture Level 2**: 39% (indicating moderately wet soil)\n- **Temperature**: 26.19°C\n\nIf you have any specific questions or need further assistance regarding crop health or soil management, feel free to ask!",
+        "en": "The image you provided appears to be a soil report. Here are the findings:\n\n- **Moisture Level 1**: 92% (indicating very wet soil)\n- **Moisture Level 2**: 39% (indicating moderately wet soil)\n- **Temperature**: 26.19°C\n\nIf you have any specific questions or need further assistance regarding crop health or soil management, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-07-05T14:58:38.252Z"
+        }
+      }
+    ],
+    "farmer_id": "sangappateli",
+    "farmer_plot_ids": [
+      "vihanguavafarm"
+    ],
+    "conversation_id": "68693d9525dda66fc85f881f",
+    "_id": "68693d9525dda66fc85f881f",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-05T15:03:29.671000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-07-05T14:58:29.669000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पाणी पुरवठा कसा करावा",
+        "en": "How to supply water",
+        "timestamp": {
+          "$date": "2025-07-05T14:34:18.104Z"
+        },
+        "standalone_question": "How should water supply be managed?",
+        "standalone_en": "How should water supply be managed?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pani puravatha kasa karava"
+      },
+      {
+        "role": "assistant",
+        "content": "पाणी पुरवठा करण्यासाठी खालील गोष्टींचा विचार करा:\n\n1. **मातीची आर्द्रता तपासा**: मातीची आर्द्रता कशी आहे हे तपासण्यासाठी तुमच्या सेंसर्सचा वापर करा. 0-5 kPa म्हणजे माती ओलसर आहे, तर 200 kPa म्हणजे माती कोरडी आहे.\n\n2. **आवश्यकता ओळखा**: जर माती कोरडी असेल (उदा. 100 kPa किंवा त्याहून अधिक), तर पाणी देणे आवश्यक आहे.\n\n3. **पाण्याची मात्रा**: पाण्याची योग्य मात्रा मातीच्या आर्द्रतेच्या आधारे ठरवा. पाण्याची मात्रा मातीच्या आर्द्रतेच्या तुटवड्यावर अवलंबून असते.\n\n4. **सिंचन पद्धती**: ड्रिप सिंचन किंवा स्प्रिंकलर प्रणाली वापरा. ड्रिप सिंचन अधिक प्रभावी आहे कारण ते थेट मुळांपर्यंत पाणी पोहचवते.\n\n5. **पाण्याचा वेळ**: पाणी देण्याचा सर्वोत्तम वेळ सकाळी किंवा संध्याकाळी असतो, जेव्हा तापमान कमी असते.\n\nजर तुम्हाला अधिक माहिती हवी असेल, तर मी तुमच्या प्लॉटसाठी सिंचनाचा अंदाज देऊ शकतो.",
+        "en": "Consider the following to supply water:\n\n1. **Check soil moisture**: Use your sensors to check how the soil moisture is. 0-5 kPa means the soil is moist, while 200 kPa means the soil is dry.\n\n2. **Identify requirements**: If the soil is dry (e.g., 100 kPa or more), it is necessary to water.\n\n3. **Amount of water**: Determine the correct amount of water based on soil moisture. The amount of water depends on the soil moisture deficiency.\n\n4. **Irrigation Methods**: Use drip irrigation or sprinkler systems. Drip irrigation is more effective because it delivers water directly to the roots.\n\n5. **Water time**: The best time to water is in the morning or evening, when the temperature is low.\n\nIf you want more information, I can give you an irrigation estimate for your plot.",
+        "timestamp": {
+          "$date": "2025-07-05T14:34:28.002Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पाणी किती वेळ दिले पाहिजे",
+        "en": "How long should water be given",
+        "timestamp": {
+          "$date": "2025-07-05T14:38:05.993Z"
+        },
+        "standalone_question": "How long should water be supplied?",
+        "standalone_en": "How long should water be supplied?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: I irrigated still the sensor is dropping slowly.\nA: Sometimes, the water reaches slowly till root zone and the moisture sensor kPa value drops slowly. Always wait for 12 hours after irrigation for the moisture to saturate. If still some confusion, ask user to check moisture near the sensor and check if he wants to raise a ticket for the issue.",
+            "Q: I irrigated still the sensor is showing dry.\nA: Ask user when he irrigated. It usually takes 12 hours to reach the water till sensor. If the sensor is not dropping even after 12 hours, it can be due to one of the following reasons :\nWater is not reaching properly till the sensor , this can be due to drip blocked , or slope in the land or dripper outlets far away from the sensor. Ask user to check if drip is fine and  dripper is within the range of sensor. \nThe sensor can be very old , more than two years , in this case , the sensor might be malfunction, ask user if he wants to raise a ticket"
+          ]
+        },
+        "content_transliterated": "pani kiti vel dile pahije"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"विहान गवा फार्म\" साठी पाणी देण्यासाठी तुम्हाला सुमारे **10.75 तास** लागतील. \n\nहे लक्षात ठेवा की पाण्याची मात्रा मातीच्या आर्द्रतेच्या स्थितीनुसार बदलू शकते. जर तुम्हाला अधिक माहिती हवी असेल तर मला सांगा!",
+        "en": "It will take you about **10.75 hours** to water for your \"Vihaan Gava Farm\". \n\nKeep in mind that the amount of water can vary depending on the moisture state of the soil. Let me know if you need more information!",
+        "timestamp": {
+          "$date": "2025-07-05T14:38:18.711Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "होय माहिती हवी",
+        "en": "Yes, we need information.",
+        "timestamp": {
+          "$date": "2025-07-05T14:40:16.342Z"
+        },
+        "standalone_question": "Could you provide more information?",
+        "standalone_en": "Could you provide more information?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "hoy mahiti havi"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"विहान गवा फार्म\" साठी सध्या मातीची आर्द्रता खालीलप्रमाणे आहे:\n\n- **मातीची आर्द्रता 1**: 92% (कोरडी)\n- **मातीची आर्द्रता 2**: 39% (ओलसर)\n\nसध्या, मातीची आर्द्रता 1 खूपच कमी आहे, तर मातीची आर्द्रता 2 चांगली आहे. \n\nतुमच्या प्लॉटमध्ये सध्या कोणतीही अडचण नाही, परंतु जर तुम्हाला वाटत असेल की सेंसर्स चुकीची माहिती देत आहेत, तर तुम्ही सेंसर्सच्या आजुबाजुच्या मातीची आर्द्रता तपासू शकता. \n\nजर तुम्हाला सेंसर्समध्ये काही समस्या असल्यास, मी तुमच्यासाठी एक सपोर्ट तिकीट उघडू शकतो. तुम्हाला ते करायचे आहे का?",
+        "en": "The soil moisture currently for your \"Vihaan Gava Farm\" is as follows:\n\n- **Soil moisture 1**: 92% (dry)\n- **Soil moisture 2**: 39% (moist)\n\nAt present, soil moisture 1 is very low, while soil moisture 2 is good. \n\nThere is no problem with your plot at the moment, but if you feel that the censors are giving wrong information, you can check the soil moisture around the sensors. \n\nIf you have any problems with sensors, I can open a support ticket for you. Do you want to do that?",
+        "timestamp": {
+          "$date": "2025-07-05T14:40:25.341Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "बुरशी आहे की नाही कसे कळू शकेल",
+        "en": "How to know if there is a fungus",
+        "timestamp": {
+          "$date": "2025-07-05T14:43:01.373Z"
+        },
+        "standalone_question": "How can I determine if there is mold present?",
+        "standalone_en": "How can I determine if there is mold present?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "burshi aahe ki nahi kase kalu shakel"
+      },
+      {
+        "role": "assistant",
+        "content": "बुरशी किंवा कीड असल्यास तपासण्यासाठी तुम्ही खालील पद्धतींचा वापर करू शकता:\n\n1. **पानांची तपासणी**: पानांवर काळे, पांढरे किंवा पिवळे धब्बे, किंवा पानांच्या काठावर गडद रंगाचे ठिपके असलेले दिसल्यास, ते बुरशीचे लक्षण असू शकते.\n\n2. **फळांची तपासणी**: फळांवर गडद ठिपके, सडलेले भाग किंवा असामान्य रंग दिसल्यास, ते बुरशीचे लक्षण असू शकते.\n\n3. **पिकांची वाढ**: जर पिकांची वाढ थांबली असेल किंवा पानं पिवळी होत असतील, तर ते बुरशीमुळे होऊ शकते.\n\n4. **सेंसर्स डेटा**: तुमच्या सेंसर्सच्या डेटामध्ये तापमान, आर्द्रता आणि इतर पर्यावरणीय घटकांची माहिती तपासा. बुरशीच्या वाढीसाठी योग्य वातावरण असलेले डेटा असू शकते.\n\nजर तुम्हाला खात्री करायची असेल, तर तुम्ही तुमच्या पिकांची प्रतिमा अपलोड करू शकता, आणि मी त्याचे विश्लेषण करू शकतो. तुम्हाला प्रतिमा अपलोड करायची आहे का?",
+        "en": "You can use the following methods to check if there is a fungus or pest:\n\n1. **Checking the leaves**: If you see black, white or yellow spots on the leaves, or dark-colored patches on the edges of the leaves, it may be a sign of a fungus.\n\n2. **Fruit screening**: If dark spots, rotten areas, or abnormal colors appear on the fruit, it may be a sign of a fungus.\n\n3. **Crop growth**: If the growth of crops has stopped or the leaves are turning yellow, it can be caused by a fungus.\n\n4. **Sensors Data**: Check information on temperature, humidity, and other environmental factors in your sensors' data. There may be data with the right environment for the fungus to grow.\n\nIf you want to be sure, you can upload an image of your crops, and I can analyze it. Do you want to upload an image?",
+        "timestamp": {
+          "$date": "2025-07-05T14:43:10.172Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Fertility schedule आपण कशा वरून दिलात please explain me",
+        "en": "Fertility schedule आपण कशा वरून दिलात please explain me",
+        "timestamp": {
+          "$date": "2025-07-05T14:45:32.334Z"
+        },
+        "standalone_question": "How did you determine the fertility schedule? Please explain.",
+        "standalone_en": "How did you determine the fertility schedule? Please explain.",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: If I don't add any test data, what is the basis for the generated fertigation schedule?\nA: When no specific test data is provided, Fyllo generates a basic fertigation schedule based on:\n\n    1. Typical nutrient needs for your crop type\n    2. General soil characteristics common in your region\n    3. Standard growing practices for your area\n    This schedule provides a starting point, but may not be as precise as one based on specific test data.",
+            "Q: Where can I find the fertigation schedule in the Fyllo app?\nA: To access the fertigation schedule:\n    1. Open the Fyllo app\n    2. Select \"My Farm\" at the bottom\n    3. Tap on the \"Fertigation\" option\n   You'll find the fertigation schedule there, including details about the required fertilizer applications."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"विहान गवा फार्म\" साठी फर्टिगेशन शेड्यूल खालीलप्रमाणे आहे:\n\n### सध्याचा फर्टिगेशन शेड्यूल:\n- **पिकाचे नाव**: गवा\n- **सध्याचा टप्पा**: फळांची परिपक्वता आणि काढणी (Fruit maturity and Harvest)\n- **सध्याचा आठवडा**: 3\n\n#### फर्टिगेशनसाठी शिफारसी:\n1. **पोटॅशियम नाइट्रेट**: 3 किलोग्राम/एकर\n2. **युरिया**: 1.5 किलोग्राम/एकर\n\n**किंवा** \n\n1. **युरिया**: 2.5 किलोग्राम/एकर\n2. **पोटाशचा सल्फेट**: 3 किलोग्राम/एकर\n\n### पुढील फर्टिगेशन शेड्यूल:\n- **पिकाचे नाव**: विश्रांती (Rest)\n- **आठवडा**: 1\n- **शिफारस**: \n  - फॉस्फोरिक आम्ल 15-20 मिनिटे आधी लागू करणे आवश्यक आहे.\n  \n#### फर्टिगेशनसाठी शिफारसी:\n1. **12-61-0**: 2 किलोग्राम/एकर\n2. **युरिया**: 2 किलोग्राम/एकर\n\n**किंवा** \n\n1. **24-24-0**: 4.5 किलोग्राम/एकर\n2. **फॉस्फोरिक आम्ल 80%**: 1 किलोग्राम/एकर\n\n**किंवा** \n\n1. **युरिया**: 2.5 किलोग्राम/एकर\n2. **फॉस्फोरिक आम्ल 80%**: 2 किलोग्राम/एकर\n\n### शेड्यूलची माहिती:\n- **सध्याची तारीख**: 2025-07-05\n- **सध्याचा टप्पा सुरू होण्याची तारीख**: 2025-06-18\n\nहे शेड्यूल तुमच्या पिकाच्या आवश्यकतांवर आधारित आहे, ज्यामध्ये सामान्य पोषण गरजा, मातीची वैशिष्ट्ये आणि तुमच्या क्षेत्रातील मानक पद्धतींचा समावेश आहे. जर तुम्हाला अधिक माहिती हवी असेल, तर मला सांगा!",
+        "en": "The fertigation schedule for your \"Vihaan Gava Farm\" is as follows:\n\n### Current Fertigation Schedule:\n- **Name of the crop**: Gava\n- **Current stage**: Fruit maturity and harvest\n- **Current Week**: 3\n\n#### Recommendations for Fertigation:\n1. **Potassium nitrate**: 3 kg/acre\n2. **Urea**: 1.5 kg/acre\n\n**or** \n\n1. **Urea**: 2.5 kg/acre\n2. **Potash sulfate**: 3 kg/acre\n\n### Further fertigation schedule:\n- **Name of the crop**: Rest\n- **Week**: 1\n- **Recommendation**: \n  Phosphoric acid must be applied 15-20 minutes in advance.\n  \n#### Recommendations for Fertigation:\n1. **12-61-0**: 2 kg/acre\n2. **Urea**: 2 kg/acre\n\n**or** \n\n1. **24-24-0**: 4.5 kg/acre\n2. **Phosphoric acid 80%**: 1 kg/acre\n\n**or** \n\n1. **Urea**: 2.5 kg/acre\n2. **Phosphoric acid 80%**: 2 kg/acre\n\n### Schedule information:\n- **Current date**: 2025-07-05\n- **Current phase start date**: 2025-06-18\n\nThis schedule is based on your crop needs, including general nutrition needs, soil characteristics, and standard practices in your area. If you need more information, let me know!",
+        "timestamp": {
+          "$date": "2025-07-05T14:45:44.683Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "तुम्ही माती परीक्षण केले आहे का",
+        "en": "Have you done a soil test?",
+        "timestamp": {
+          "$date": "2025-07-05T14:46:49.534Z"
+        },
+        "standalone_question": "Have you conducted a soil test?",
+        "standalone_en": "Have you conducted a soil test?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Why should I consider soil, leaf, or petiole testing?\nA: Soil, leaf, and petiole testing are crucial for effective plant health management. These tests provide specific data about your crop's nutrient needs, allowing for more precise fertilizer application. This can lead to higher productivity with optimized input use, potentially reducing costs and environmental impact."
+          ]
+        },
+        "content_transliterated": "tumhi mati pariksan kele aahe ka"
+      },
+      {
+        "role": "assistant",
+        "content": "माझ्याकडे तुमच्या \"विहान गवा फार्म\" साठी माती परीक्षणाची माहिती नाही. माती परीक्षणामुळे तुम्हाला तुमच्या पिकांच्या पोषण गरजांची अचूक माहिती मिळू शकते, ज्यामुळे तुम्ही अधिक प्रभावी फर्टिगेशन शेड्यूल तयार करू शकता.\n\nजर तुम्हाला माती परीक्षणाची माहिती असेल, तर ती सामायिक करा, किंवा तुम्ही माती परीक्षण करण्याचा विचार करत असाल, तर मी तुम्हाला त्याबद्दल मार्गदर्शन करू शकतो.",
+        "en": "I don't have soil testing information for your \"Vihaan Gava Farm\". Soil testing can give you accurate information about the nutritional needs of your crops, allowing you to create a more effective fertigation schedule.\n\nIf you know about soil testing, share it, or if you're thinking of doing soil testing, I can guide you on that.",
+        "timestamp": {
+          "$date": "2025-07-05T14:46:55.478Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Take information",
+        "en": "Take information",
+        "timestamp": {
+          "$date": "2025-07-05T14:48:00.303Z"
+        },
+        "standalone_question": "Could you provide information about soil testing?",
+        "standalone_en": "Could you provide information about soil testing?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Why should I consider soil, leaf, or petiole testing?\nA: Soil, leaf, and petiole testing are crucial for effective plant health management. These tests provide specific data about your crop's nutrient needs, allowing for more precise fertilizer application. This can lead to higher productivity with optimized input use, potentially reducing costs and environmental impact.",
+            "Q: What are the advantages of adding soil, leaf, or petiole test reports?\nA: By adding test reports, Fyllo can generate a more precise fertigation schedule tailored to your specific conditions. Benefits include:\n\n    1. More accurate nutrient recommendations\n    2. Better alignment with your crop's actual needs\n    3. Potential for improved crop health and yield\n    4. More efficient use of fertilizers\n    5. Possible reduction in fertilizer costs and environmental impact",
+            "Q: Where can I add soil, leaf, or petiole test reports in the app?\nA: You can add test reports in two ways:\n\n    1. When creating a new report: Go to \"Fertigation,\" then \"Create Report,\" and input the details from your test results.\n    2. Upload copies: You can directly upload photocopies or scans of your test reports in the app. Look for an \"Upload Reports\" or similar option in the Fertigation section.",
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"विहान गवा फार्म\" साठी सध्या सेंसर्सकडून मिळालेली माहिती खालीलप्रमाणे आहे:\n\n- **मातीचा तापमान**: 26.19°C\n- **बॅटरीची स्थिती**: 78%\n- **सौर व्होल्टेज**: 45V\n- **मातीची आर्द्रता 1**: 92% (कोरडी)\n- **मातीची आर्द्रता 2**: 39% (ओलसर)\n\nतुमच्या प्लॉटमध्ये सध्या मातीची आर्द्रता 1 खूपच कमी आहे, तर मातीची आर्द्रता 2 चांगली आहे. \n\nजर तुम्हाला आणखी काही माहिती हवी असेल किंवा तुम्हाला काही विशिष्ट तपासायचे असेल, तर मला सांगा!",
+        "en": "The following is the information currently received from sensors for your \"Vihaan Gava Farm\":\n\n- **Soil temperature**: 26.19°C\n- **Battery status**: 78%\n- **Solar Voltage**: 45V\n- **Soil moisture 1**: 92% (dry)\n- **Soil moisture 2**: 39% (moist)\n\nThe soil moisture in your plot is currently very low at 1, while the soil moisture is 2 good. \n\nIf you need any more information or you want to check anything specific, let me know!",
+        "timestamp": {
+          "$date": "2025-07-05T14:48:07.838Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Tumche sensory kay detect karte ",
+        "en": "Tümche sensory kay detect karte ",
+        "timestamp": {
+          "$date": "2025-07-05T14:48:50.110Z"
+        },
+        "standalone_question": "What do your sensors detect?",
+        "standalone_en": "What do your sensors detect?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"विहान गवा फार्म\" साठी सेंसर्स खालील गोष्टींचा तपास करतात:\n\n1. **हवा तापमान**: वातावरणातील तापमान मोजते.\n2. **हवा आर्द्रता**: वातावरणातील आर्द्रता मोजते.\n3. **माती तापमान**: मातीतील तापमान मोजते.\n4. **मातीची आर्द्रता**: मातीतील आर्द्रता (ओलसर किंवा कोरडी) मोजते.\n5. **पानांची ओलसरता**: पानांवर पाण्याची उपस्थिती मोजते.\n6. **हवा दाब**: वातावरणातील दाब मोजते.\n7. **प्रकाश तीव्रता (Lux)**: प्रकाशाची तीव्रता मोजते.\n8. **UV इंडेक्स**: UV विकिरणाची तीव्रता मोजते.\n9. **वाऱ्याची गती**: वाऱ्याची गती मोजते.\n10. **वाऱ्याची दिशा**: वाऱ्याची दिशा मोजते.\n11. **तत्काळ पर्जन्य**: पर्जन्याची मोजणी करते.\n\nहे सर्व डेटा एकत्र करून, सेंसर्स तुमच्या पिकांच्या आरोग्याची आणि वाढीची स्थिती समजून घेण्यास मदत करतात. जर तुम्हाला अधिक माहिती हवी असेल, तर मला सांगा!",
+        "en": "Sensors for your \"Vihaan Gava Farm\" check the following:\n\n1. **Air temperature**: Measures atmospheric temperature.\n2. **Air Humidity**: Measures humidity in the atmosphere.\n3. **Soil temperature**: Measures soil temperature.\n4. **Soil moisture**: Measures soil moisture (moist or dry).\n5. **Leaf dampness**: Measures the presence of water on leaves.\n6. **Air pressure**: Measures atmospheric pressure.\n7. **Lux)**: Measures the intensity of light.\n8. **UV Index**: Measures the intensity of UV radiation.\n9. **Wind speed**: Measures wind speed.\n10. **Wind direction**: Measures wind direction.\n11. **Immediate rain**: Calculates rainfall.\n\nBy combining all this data, sensors help you understand the health and growth status of your crops. If you need more information, let me know!",
+        "timestamp": {
+          "$date": "2025-07-05T14:48:58.630Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ok",
+        "en": "Ok",
+        "timestamp": {
+          "$date": "2025-07-05T14:49:39.797Z"
+        },
+        "standalone_question": "What do your sensors detect?",
+        "standalone_en": "What do your sensors detect?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "जर तुम्हाला आणखी काही विचारायचे असेल किंवा तुम्हाला अधिक माहिती हवी असेल, तर कृपया सांगा! मी तुमच्या मदतीसाठी येथे आहे.",
+        "en": "If you'd like to ask more or you'd like more information, please let me know! I'm here to help you.",
+        "timestamp": {
+          "$date": "2025-07-05T14:49:43.329Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Amhala amcya soil nusar fertility schedule karaycha asel tr kay karave",
+        "en": "What we should do if we want to schedule fertility according to our soil",
+        "timestamp": {
+          "$date": "2025-07-05T14:51:25.177Z"
+        },
+        "standalone_question": "What steps should we take to create a fertility schedule based on our soil?",
+        "standalone_en": "What steps should we take to create a fertility schedule based on our soil?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: How do I generate a fertigation schedule in the app?\nA: To generate a fertigation schedule, follow these steps:\n\n    1. Go to \"My Farm\"\n    2. Select \"Fertigation\"\n    3. Tap \"Create Report\"\n    4. Fill in all the required details\n    5. Save the report\n    If you have soil, leaf, or petiole test data, you can input this for a more customized schedule. Otherwise, we can generate a basic schedule using general crop and regional data.",
+            "Q: What should I do if I can't find the fertigation schedule after selecting the fertigation tab?\nA: If you don't see the fertigation schedule, you'll need to create a report first. Would you like assistance in creating a report? Do you have any soil, leaf, or petiole test data available? If not, we can generate a basic schedule for you using general crop and regional data.",
+            "Q: If I don't add any test data, what is the basis for the generated fertigation schedule?\nA: When no specific test data is provided, Fyllo generates a basic fertigation schedule based on:\n\n    1. Typical nutrient needs for your crop type\n    2. General soil characteristics common in your region\n    3. Standard growing practices for your area\n    This schedule provides a starting point, but may not be as precise as one based on specific test data.",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: Can I generate a fertigation schedule without soil, leaf, or petiole data?\nA: Yes, you can generate a basic fertigation schedule without specific soil, leaf, or petiole data. Fyllo will create a general schedule based on typical crop needs and soil types for your region."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या मातीच्या गुणधर्मांनुसार फर्टिगेशन शेड्यूल तयार करण्यासाठी तुम्हाला खालील पद्धतींचा अवलंब करावा लागेल:\n\n1. **माती परीक्षण**: तुमच्या मातीचे परीक्षण करा. यामध्ये नायट्रोजन, फॉस्फरस, पोटॅशियम, आणि इतर पोषक तत्वांची पातळी तपासली जाईल.\n\n2. **पिकाची माहिती**: तुमच्या पिकाची माहिती (उदा. गवा) आणि त्याच्या पोषण गरजांची माहिती मिळवा.\n\n3. **फर्टिगेशन रिपोर्ट तयार करणे**:\n   - \"My Farm\" मध्ये जा.\n   - \"Fertigation\" निवडा.\n   - \"Create Report\" वर टॅप करा.\n   - आवश्यक माहिती भरा, जसे की माती परीक्षण डेटा, पिकाची माहिती, आणि इतर संबंधित माहिती.\n   - रिपोर्ट जतन करा.\n\n4. **फर्टिगेशन शेड्यूल**: जर तुम्ही माती परीक्षण डेटा दिला, तर तुम्हाला एक सानुकूलित फर्टिगेशन शेड्यूल मिळेल. अन्यथा, सामान्य पिक आणि क्षेत्रीय डेटा वापरून एक मूलभूत शेड्यूल तयार केला जाईल.\n\nजर तुम्हाला माती परीक्षणाची माहिती उपलब्ध नसेल, तर तुम्ही सामान्य शेड्यूल तयार करण्यासाठी मदतीसाठी मला सांगा.",
+        "en": "To create a fertigation schedule according to your soil properties, you will have to follow the following methods:\n\n1. **Soil testing**: Test your soil. It will check levels of nitrogen, phosphorus, potassium, and other nutrients.\n\n2. *Crop information**: Get information about your crop (e.g. grass) and its nutritional needs.\n\n3. **Preparing the Fertigation Report**:\n   - Go to \"My Farm\".\n   - Select \"Fertigation\".\n   - Tap \"Create Report\".\n   Fill in the necessary information, such as soil testing data, crop information, and other relevant information.\n   - Save report.\n\n4. **Fertigation Schedule**: If you provide soil testing data, you will get a customized fertigation schedule. Otherwise, a basic schedule will be created using general crop and field data.\n\nIf you don't have access to soil testing information, ask me for help in creating a general schedule.",
+        "timestamp": {
+          "$date": "2025-07-05T14:51:31.523Z"
+        }
+      }
+    ],
+    "farmer_id": "sangappateli",
+    "farmer_plot_ids": [
+      "vihanguavafarm"
+    ],
+    "conversation_id": "686937e84773de14b42d40a4",
+    "_id": "686937e84773de14b42d40a4",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-05T14:56:25.182000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-07-05T14:34:18.104000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पाणी पुरवठा कसा करावा",
+        "en": "How to supply water",
+        "timestamp": {
+          "$date": "2025-07-05T14:34:18.104Z"
+        },
+        "standalone_question": "How should water supply be managed?",
+        "standalone_en": "How should water supply be managed?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pani puravatha kasa karava"
+      },
+      {
+        "role": "assistant",
+        "content": "पाणी पुरवठा करण्यासाठी खालील गोष्टींचा विचार करा:\n\n1. **मातीची आर्द्रता तपासा**: मातीची आर्द्रता कशी आहे हे तपासण्यासाठी तुमच्या सेंसर्सचा वापर करा. 0-5 kPa म्हणजे माती ओलसर आहे, तर 200 kPa म्हणजे माती कोरडी आहे.\n\n2. **आवश्यकता ओळखा**: जर माती कोरडी असेल (उदा. 100 kPa किंवा त्याहून अधिक), तर पाणी देणे आवश्यक आहे.\n\n3. **पाण्याची मात्रा**: पाण्याची योग्य मात्रा मातीच्या आर्द्रतेच्या आधारे ठरवा. पाण्याची मात्रा मातीच्या आर्द्रतेच्या तुटवड्यावर अवलंबून असते.\n\n4. **सिंचन पद्धती**: ड्रिप सिंचन किंवा स्प्रिंकलर प्रणाली वापरा. ड्रिप सिंचन अधिक प्रभावी आहे कारण ते थेट मुळांपर्यंत पाणी पोहचवते.\n\n5. **पाण्याचा वेळ**: पाणी देण्याचा सर्वोत्तम वेळ सकाळी किंवा संध्याकाळी असतो, जेव्हा तापमान कमी असते.\n\nजर तुम्हाला अधिक माहिती हवी असेल, तर मी तुमच्या प्लॉटसाठी सिंचनाचा अंदाज देऊ शकतो.",
+        "en": "Consider the following to supply water:\n\n1. **Check soil moisture**: Use your sensors to check how the soil moisture is. 0-5 kPa means the soil is moist, while 200 kPa means the soil is dry.\n\n2. **Identify requirements**: If the soil is dry (e.g., 100 kPa or more), it is necessary to water.\n\n3. **Amount of water**: Determine the correct amount of water based on soil moisture. The amount of water depends on the soil moisture deficiency.\n\n4. **Irrigation Methods**: Use drip irrigation or sprinkler systems. Drip irrigation is more effective because it delivers water directly to the roots.\n\n5. **Water time**: The best time to water is in the morning or evening, when the temperature is low.\n\nIf you want more information, I can give you an irrigation estimate for your plot.",
+        "timestamp": {
+          "$date": "2025-07-05T14:34:28.002Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पाणी किती वेळ दिले पाहिजे",
+        "en": "How long should water be given",
+        "timestamp": {
+          "$date": "2025-07-05T14:38:05.993Z"
+        },
+        "standalone_question": "How long should water be supplied?",
+        "standalone_en": "How long should water be supplied?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: I irrigated still the sensor is dropping slowly.\nA: Sometimes, the water reaches slowly till root zone and the moisture sensor kPa value drops slowly. Always wait for 12 hours after irrigation for the moisture to saturate. If still some confusion, ask user to check moisture near the sensor and check if he wants to raise a ticket for the issue.",
+            "Q: I irrigated still the sensor is showing dry.\nA: Ask user when he irrigated. It usually takes 12 hours to reach the water till sensor. If the sensor is not dropping even after 12 hours, it can be due to one of the following reasons :\nWater is not reaching properly till the sensor , this can be due to drip blocked , or slope in the land or dripper outlets far away from the sensor. Ask user to check if drip is fine and  dripper is within the range of sensor. \nThe sensor can be very old , more than two years , in this case , the sensor might be malfunction, ask user if he wants to raise a ticket"
+          ]
+        },
+        "content_transliterated": "pani kiti vel dile pahije"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"विहान गवा फार्म\" साठी पाणी देण्यासाठी तुम्हाला सुमारे **10.75 तास** लागतील. \n\nहे लक्षात ठेवा की पाण्याची मात्रा मातीच्या आर्द्रतेच्या स्थितीनुसार बदलू शकते. जर तुम्हाला अधिक माहिती हवी असेल तर मला सांगा!",
+        "en": "It will take you about **10.75 hours** to water for your \"Vihaan Gava Farm\". \n\nKeep in mind that the amount of water can vary depending on the moisture state of the soil. Let me know if you need more information!",
+        "timestamp": {
+          "$date": "2025-07-05T14:38:18.711Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "होय माहिती हवी",
+        "en": "Yes, we need information.",
+        "timestamp": {
+          "$date": "2025-07-05T14:40:16.342Z"
+        },
+        "standalone_question": "Could you provide more information?",
+        "standalone_en": "Could you provide more information?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "hoy mahiti havi"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"विहान गवा फार्म\" साठी सध्या मातीची आर्द्रता खालीलप्रमाणे आहे:\n\n- **मातीची आर्द्रता 1**: 92% (कोरडी)\n- **मातीची आर्द्रता 2**: 39% (ओलसर)\n\nसध्या, मातीची आर्द्रता 1 खूपच कमी आहे, तर मातीची आर्द्रता 2 चांगली आहे. \n\nतुमच्या प्लॉटमध्ये सध्या कोणतीही अडचण नाही, परंतु जर तुम्हाला वाटत असेल की सेंसर्स चुकीची माहिती देत आहेत, तर तुम्ही सेंसर्सच्या आजुबाजुच्या मातीची आर्द्रता तपासू शकता. \n\nजर तुम्हाला सेंसर्समध्ये काही समस्या असल्यास, मी तुमच्यासाठी एक सपोर्ट तिकीट उघडू शकतो. तुम्हाला ते करायचे आहे का?",
+        "en": "The soil moisture currently for your \"Vihaan Gava Farm\" is as follows:\n\n- **Soil moisture 1**: 92% (dry)\n- **Soil moisture 2**: 39% (moist)\n\nAt present, soil moisture 1 is very low, while soil moisture 2 is good. \n\nThere is no problem with your plot at the moment, but if you feel that the censors are giving wrong information, you can check the soil moisture around the sensors. \n\nIf you have any problems with sensors, I can open a support ticket for you. Do you want to do that?",
+        "timestamp": {
+          "$date": "2025-07-05T14:40:25.341Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "बुरशी आहे की नाही कसे कळू शकेल",
+        "en": "How to know if there is a fungus",
+        "timestamp": {
+          "$date": "2025-07-05T14:43:01.373Z"
+        },
+        "standalone_question": "How can I determine if there is mold present?",
+        "standalone_en": "How can I determine if there is mold present?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "burshi aahe ki nahi kase kalu shakel"
+      },
+      {
+        "role": "assistant",
+        "content": "बुरशी किंवा कीड असल्यास तपासण्यासाठी तुम्ही खालील पद्धतींचा वापर करू शकता:\n\n1. **पानांची तपासणी**: पानांवर काळे, पांढरे किंवा पिवळे धब्बे, किंवा पानांच्या काठावर गडद रंगाचे ठिपके असलेले दिसल्यास, ते बुरशीचे लक्षण असू शकते.\n\n2. **फळांची तपासणी**: फळांवर गडद ठिपके, सडलेले भाग किंवा असामान्य रंग दिसल्यास, ते बुरशीचे लक्षण असू शकते.\n\n3. **पिकांची वाढ**: जर पिकांची वाढ थांबली असेल किंवा पानं पिवळी होत असतील, तर ते बुरशीमुळे होऊ शकते.\n\n4. **सेंसर्स डेटा**: तुमच्या सेंसर्सच्या डेटामध्ये तापमान, आर्द्रता आणि इतर पर्यावरणीय घटकांची माहिती तपासा. बुरशीच्या वाढीसाठी योग्य वातावरण असलेले डेटा असू शकते.\n\nजर तुम्हाला खात्री करायची असेल, तर तुम्ही तुमच्या पिकांची प्रतिमा अपलोड करू शकता, आणि मी त्याचे विश्लेषण करू शकतो. तुम्हाला प्रतिमा अपलोड करायची आहे का?",
+        "en": "You can use the following methods to check if there is a fungus or pest:\n\n1. **Checking the leaves**: If you see black, white or yellow spots on the leaves, or dark-colored patches on the edges of the leaves, it may be a sign of a fungus.\n\n2. **Fruit screening**: If dark spots, rotten areas, or abnormal colors appear on the fruit, it may be a sign of a fungus.\n\n3. **Crop growth**: If the growth of crops has stopped or the leaves are turning yellow, it can be caused by a fungus.\n\n4. **Sensors Data**: Check information on temperature, humidity, and other environmental factors in your sensors' data. There may be data with the right environment for the fungus to grow.\n\nIf you want to be sure, you can upload an image of your crops, and I can analyze it. Do you want to upload an image?",
+        "timestamp": {
+          "$date": "2025-07-05T14:43:10.172Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Fertility schedule आपण कशा वरून दिलात please explain me",
+        "en": "Fertility schedule आपण कशा वरून दिलात please explain me",
+        "timestamp": {
+          "$date": "2025-07-05T14:45:32.334Z"
+        },
+        "standalone_question": "How did you determine the fertility schedule? Please explain.",
+        "standalone_en": "How did you determine the fertility schedule? Please explain.",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: If I don't add any test data, what is the basis for the generated fertigation schedule?\nA: When no specific test data is provided, Fyllo generates a basic fertigation schedule based on:\n\n    1. Typical nutrient needs for your crop type\n    2. General soil characteristics common in your region\n    3. Standard growing practices for your area\n    This schedule provides a starting point, but may not be as precise as one based on specific test data.",
+            "Q: Where can I find the fertigation schedule in the Fyllo app?\nA: To access the fertigation schedule:\n    1. Open the Fyllo app\n    2. Select \"My Farm\" at the bottom\n    3. Tap on the \"Fertigation\" option\n   You'll find the fertigation schedule there, including details about the required fertilizer applications."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"विहान गवा फार्म\" साठी फर्टिगेशन शेड्यूल खालीलप्रमाणे आहे:\n\n### सध्याचा फर्टिगेशन शेड्यूल:\n- **पिकाचे नाव**: गवा\n- **सध्याचा टप्पा**: फळांची परिपक्वता आणि काढणी (Fruit maturity and Harvest)\n- **सध्याचा आठवडा**: 3\n\n#### फर्टिगेशनसाठी शिफारसी:\n1. **पोटॅशियम नाइट्रेट**: 3 किलोग्राम/एकर\n2. **युरिया**: 1.5 किलोग्राम/एकर\n\n**किंवा** \n\n1. **युरिया**: 2.5 किलोग्राम/एकर\n2. **पोटाशचा सल्फेट**: 3 किलोग्राम/एकर\n\n### पुढील फर्टिगेशन शेड्यूल:\n- **पिकाचे नाव**: विश्रांती (Rest)\n- **आठवडा**: 1\n- **शिफारस**: \n  - फॉस्फोरिक आम्ल 15-20 मिनिटे आधी लागू करणे आवश्यक आहे.\n  \n#### फर्टिगेशनसाठी शिफारसी:\n1. **12-61-0**: 2 किलोग्राम/एकर\n2. **युरिया**: 2 किलोग्राम/एकर\n\n**किंवा** \n\n1. **24-24-0**: 4.5 किलोग्राम/एकर\n2. **फॉस्फोरिक आम्ल 80%**: 1 किलोग्राम/एकर\n\n**किंवा** \n\n1. **युरिया**: 2.5 किलोग्राम/एकर\n2. **फॉस्फोरिक आम्ल 80%**: 2 किलोग्राम/एकर\n\n### शेड्यूलची माहिती:\n- **सध्याची तारीख**: 2025-07-05\n- **सध्याचा टप्पा सुरू होण्याची तारीख**: 2025-06-18\n\nहे शेड्यूल तुमच्या पिकाच्या आवश्यकतांवर आधारित आहे, ज्यामध्ये सामान्य पोषण गरजा, मातीची वैशिष्ट्ये आणि तुमच्या क्षेत्रातील मानक पद्धतींचा समावेश आहे. जर तुम्हाला अधिक माहिती हवी असेल, तर मला सांगा!",
+        "en": "The fertigation schedule for your \"Vihaan Gava Farm\" is as follows:\n\n### Current Fertigation Schedule:\n- **Name of the crop**: Gava\n- **Current stage**: Fruit maturity and harvest\n- **Current Week**: 3\n\n#### Recommendations for Fertigation:\n1. **Potassium nitrate**: 3 kg/acre\n2. **Urea**: 1.5 kg/acre\n\n**or** \n\n1. **Urea**: 2.5 kg/acre\n2. **Potash sulfate**: 3 kg/acre\n\n### Further fertigation schedule:\n- **Name of the crop**: Rest\n- **Week**: 1\n- **Recommendation**: \n  Phosphoric acid must be applied 15-20 minutes in advance.\n  \n#### Recommendations for Fertigation:\n1. **12-61-0**: 2 kg/acre\n2. **Urea**: 2 kg/acre\n\n**or** \n\n1. **24-24-0**: 4.5 kg/acre\n2. **Phosphoric acid 80%**: 1 kg/acre\n\n**or** \n\n1. **Urea**: 2.5 kg/acre\n2. **Phosphoric acid 80%**: 2 kg/acre\n\n### Schedule information:\n- **Current date**: 2025-07-05\n- **Current phase start date**: 2025-06-18\n\nThis schedule is based on your crop needs, including general nutrition needs, soil characteristics, and standard practices in your area. If you need more information, let me know!",
+        "timestamp": {
+          "$date": "2025-07-05T14:45:44.683Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "तुम्ही माती परीक्षण केले आहे का",
+        "en": "Have you done a soil test?",
+        "timestamp": {
+          "$date": "2025-07-05T14:46:49.534Z"
+        },
+        "standalone_question": "Have you conducted a soil test?",
+        "standalone_en": "Have you conducted a soil test?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Why should I consider soil, leaf, or petiole testing?\nA: Soil, leaf, and petiole testing are crucial for effective plant health management. These tests provide specific data about your crop's nutrient needs, allowing for more precise fertilizer application. This can lead to higher productivity with optimized input use, potentially reducing costs and environmental impact."
+          ]
+        },
+        "content_transliterated": "tumhi mati pariksan kele aahe ka"
+      },
+      {
+        "role": "assistant",
+        "content": "माझ्याकडे तुमच्या \"विहान गवा फार्म\" साठी माती परीक्षणाची माहिती नाही. माती परीक्षणामुळे तुम्हाला तुमच्या पिकांच्या पोषण गरजांची अचूक माहिती मिळू शकते, ज्यामुळे तुम्ही अधिक प्रभावी फर्टिगेशन शेड्यूल तयार करू शकता.\n\nजर तुम्हाला माती परीक्षणाची माहिती असेल, तर ती सामायिक करा, किंवा तुम्ही माती परीक्षण करण्याचा विचार करत असाल, तर मी तुम्हाला त्याबद्दल मार्गदर्शन करू शकतो.",
+        "en": "I don't have soil testing information for your \"Vihaan Gava Farm\". Soil testing can give you accurate information about the nutritional needs of your crops, allowing you to create a more effective fertigation schedule.\n\nIf you know about soil testing, share it, or if you're thinking of doing soil testing, I can guide you on that.",
+        "timestamp": {
+          "$date": "2025-07-05T14:46:55.478Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Take information",
+        "en": "Take information",
+        "timestamp": {
+          "$date": "2025-07-05T14:48:00.303Z"
+        },
+        "standalone_question": "Could you please provide information about the soil testing?",
+        "standalone_en": "Could you please provide information about the soil testing?",
+        "retrieval": {
+          "tools": [
+            "get_daily_soil_moisture_data  \nRetrieves historical daily soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for larger duration."
+          ],
+          "faq": [
+            "Q: Why should I consider soil, leaf, or petiole testing?\nA: Soil, leaf, and petiole testing are crucial for effective plant health management. These tests provide specific data about your crop's nutrient needs, allowing for more precise fertilizer application. This can lead to higher productivity with optimized input use, potentially reducing costs and environmental impact.",
+            "Q: What are the advantages of adding soil, leaf, or petiole test reports?\nA: By adding test reports, Fyllo can generate a more precise fertigation schedule tailored to your specific conditions. Benefits include:\n\n    1. More accurate nutrient recommendations\n    2. Better alignment with your crop's actual needs\n    3. Potential for improved crop health and yield\n    4. More efficient use of fertilizers\n    5. Possible reduction in fertilizer costs and environmental impact",
+            "Q: Where can I add soil, leaf, or petiole test reports in the app?\nA: You can add test reports in two ways:\n\n    1. When creating a new report: Go to \"Fertigation,\" then \"Create Report,\" and input the details from your test results.\n    2. Upload copies: You can directly upload photocopies or scans of your test reports in the app. Look for an \"Upload Reports\" or similar option in the Fertigation section.",
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"विहान गवा फार्म\" साठी सध्या सेंसर्सकडून मिळालेली माहिती खालीलप्रमाणे आहे:\n\n- **मातीचा तापमान**: 26.19°C\n- **बॅटरीची स्थिती**: 78%\n- **सौर व्होल्टेज**: 45V\n- **मातीची आर्द्रता 1**: 92% (कोरडी)\n- **मातीची आर्द्रता 2**: 39% (ओलसर)\n\nतुमच्या प्लॉटमध्ये सध्या मातीची आर्द्रता 1 खूपच कमी आहे, तर मातीची आर्द्रता 2 चांगली आहे. \n\nजर तुम्हाला आणखी काही माहिती हवी असेल किंवा तुम्हाला काही विशिष्ट तपासायचे असेल, तर मला सांगा!",
+        "en": "The following is the information currently received from sensors for your \"Vihaan Gava Farm\":\n\n- **Soil temperature**: 26.19°C\n- **Battery status**: 78%\n- **Solar Voltage**: 45V\n- **Soil moisture 1**: 92% (dry)\n- **Soil moisture 2**: 39% (moist)\n\nThe soil moisture in your plot is currently very low at 1, while the soil moisture is 2 good. \n\nIf you need any more information or you want to check anything specific, let me know!",
+        "timestamp": {
+          "$date": "2025-07-05T14:48:07.838Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Tumche sensory kay detect karte ",
+        "en": "Tümche sensory kay detect karte ",
+        "timestamp": {
+          "$date": "2025-07-05T14:48:50.110Z"
+        },
+        "standalone_question": "What do your sensors detect?",
+        "standalone_en": "What do your sensors detect?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"विहान गवा फार्म\" साठी सेंसर्स खालील गोष्टींचा तपास करतात:\n\n1. **हवा तापमान**: वातावरणातील तापमान मोजते.\n2. **हवा आर्द्रता**: वातावरणातील आर्द्रता मोजते.\n3. **माती तापमान**: मातीतील तापमान मोजते.\n4. **मातीची आर्द्रता**: मातीतील आर्द्रता (ओलसर किंवा कोरडी) मोजते.\n5. **पानांची ओलसरता**: पानांवर पाण्याची उपस्थिती मोजते.\n6. **हवा दाब**: वातावरणातील दाब मोजते.\n7. **प्रकाश तीव्रता (Lux)**: प्रकाशाची तीव्रता मोजते.\n8. **UV इंडेक्स**: UV विकिरणाची तीव्रता मोजते.\n9. **वाऱ्याची गती**: वाऱ्याची गती मोजते.\n10. **वाऱ्याची दिशा**: वाऱ्याची दिशा मोजते.\n11. **तत्काळ पर्जन्य**: पर्जन्याची मोजणी करते.\n\nहे सर्व डेटा एकत्र करून, सेंसर्स तुमच्या पिकांच्या आरोग्याची आणि वाढीची स्थिती समजून घेण्यास मदत करतात. जर तुम्हाला अधिक माहिती हवी असेल, तर मला सांगा!",
+        "en": "Sensors for your \"Vihaan Gava Farm\" check the following:\n\n1. **Air temperature**: Measures atmospheric temperature.\n2. **Air Humidity**: Measures humidity in the atmosphere.\n3. **Soil temperature**: Measures soil temperature.\n4. **Soil moisture**: Measures soil moisture (moist or dry).\n5. **Leaf dampness**: Measures the presence of water on leaves.\n6. **Air pressure**: Measures atmospheric pressure.\n7. **Lux)**: Measures the intensity of light.\n8. **UV Index**: Measures the intensity of UV radiation.\n9. **Wind speed**: Measures wind speed.\n10. **Wind direction**: Measures wind direction.\n11. **Immediate rain**: Calculates rainfall.\n\nBy combining all this data, sensors help you understand the health and growth status of your crops. If you need more information, let me know!",
+        "timestamp": {
+          "$date": "2025-07-05T14:48:58.630Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ok",
+        "en": "Ok",
+        "timestamp": {
+          "$date": "2025-07-05T14:49:39.797Z"
+        },
+        "standalone_question": "What do your sensors detect?",
+        "standalone_en": "What do your sensors detect?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "जर तुम्हाला आणखी काही विचारायचे असेल किंवा तुम्हाला अधिक माहिती हवी असेल, तर कृपया सांगा! मी तुमच्या मदतीसाठी येथे आहे.",
+        "en": "If you'd like to ask more or you'd like more information, please let me know! I'm here to help you.",
+        "timestamp": {
+          "$date": "2025-07-05T14:49:43.329Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Amhala amcya soil nusar fertility schedule karaycha asel tr kay karave",
+        "en": "What we should do if we want to schedule fertility according to our soil",
+        "timestamp": {
+          "$date": "2025-07-05T14:51:25.177Z"
+        },
+        "standalone_question": "What steps should we take to create a fertility schedule based on our soil?",
+        "standalone_en": "What steps should we take to create a fertility schedule based on our soil?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: How do I generate a fertigation schedule in the app?\nA: To generate a fertigation schedule, follow these steps:\n\n    1. Go to \"My Farm\"\n    2. Select \"Fertigation\"\n    3. Tap \"Create Report\"\n    4. Fill in all the required details\n    5. Save the report\n    If you have soil, leaf, or petiole test data, you can input this for a more customized schedule. Otherwise, we can generate a basic schedule using general crop and regional data.",
+            "Q: What should I do if I can't find the fertigation schedule after selecting the fertigation tab?\nA: If you don't see the fertigation schedule, you'll need to create a report first. Would you like assistance in creating a report? Do you have any soil, leaf, or petiole test data available? If not, we can generate a basic schedule for you using general crop and regional data.",
+            "Q: If I don't add any test data, what is the basis for the generated fertigation schedule?\nA: When no specific test data is provided, Fyllo generates a basic fertigation schedule based on:\n\n    1. Typical nutrient needs for your crop type\n    2. General soil characteristics common in your region\n    3. Standard growing practices for your area\n    This schedule provides a starting point, but may not be as precise as one based on specific test data.",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: Can I generate a fertigation schedule without soil, leaf, or petiole data?\nA: Yes, you can generate a basic fertigation schedule without specific soil, leaf, or petiole data. Fyllo will create a general schedule based on typical crop needs and soil types for your region."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या मातीच्या गुणधर्मांनुसार फर्टिगेशन शेड्यूल तयार करण्यासाठी तुम्हाला खालील पद्धतींचा अवलंब करावा लागेल:\n\n1. **माती परीक्षण**: तुमच्या मातीचे परीक्षण करा. यामध्ये नायट्रोजन, फॉस्फरस, पोटॅशियम, आणि इतर पोषक तत्वांची पातळी तपासली जाईल.\n\n2. **पिकाची माहिती**: तुमच्या पिकाची माहिती (उदा. गवा) आणि त्याच्या पोषण गरजांची माहिती मिळवा.\n\n3. **फर्टिगेशन रिपोर्ट तयार करणे**:\n   - \"My Farm\" मध्ये जा.\n   - \"Fertigation\" निवडा.\n   - \"Create Report\" वर टॅप करा.\n   - आवश्यक माहिती भरा, जसे की माती परीक्षण डेटा, पिकाची माहिती, आणि इतर संबंधित माहिती.\n   - रिपोर्ट जतन करा.\n\n4. **फर्टिगेशन शेड्यूल**: जर तुम्ही माती परीक्षण डेटा दिला, तर तुम्हाला एक सानुकूलित फर्टिगेशन शेड्यूल मिळेल. अन्यथा, सामान्य पिक आणि क्षेत्रीय डेटा वापरून एक मूलभूत शेड्यूल तयार केला जाईल.\n\nजर तुम्हाला माती परीक्षणाची माहिती उपलब्ध नसेल, तर तुम्ही सामान्य शेड्यूल तयार करण्यासाठी मदतीसाठी मला सांगा.",
+        "en": "To create a fertigation schedule according to your soil properties, you will have to follow the following methods:\n\n1. **Soil testing**: Test your soil. It will check levels of nitrogen, phosphorus, potassium, and other nutrients.\n\n2. *Crop information**: Get information about your crop (e.g. grass) and its nutritional needs.\n\n3. **Preparing the Fertigation Report**:\n   - Go to \"My Farm\".\n   - Select \"Fertigation\".\n   - Tap \"Create Report\".\n   Fill in the necessary information, such as soil testing data, crop information, and other relevant information.\n   - Save report.\n\n4. **Fertigation Schedule**: If you provide soil testing data, you will get a customized fertigation schedule. Otherwise, a basic schedule will be created using general crop and field data.\n\nIf you don't have access to soil testing information, ask me for help in creating a general schedule.",
+        "timestamp": {
+          "$date": "2025-07-05T14:51:31.523Z"
+        }
+      }
+    ],
+    "farmer_id": "sangappateli",
+    "farmer_plot_ids": [
+      "vihanguavafarm"
+    ],
+    "conversation_id": "686937e84773de14b42d40a4",
+    "_id": "686937e84773de14b42d40a4",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-05T14:56:25.182000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-07-05T14:34:18.104000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "काडी पक्वतेसाठी काय करावे",
+        "en": "What to do for stick maturity",
+        "timestamp": {
+          "$date": "2025-07-05T08:31:08.590Z"
+        },
+        "standalone_question": "What should be done to ripen a mango?",
+        "standalone_en": "What should be done to ripen a mango?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kadi pakvatesathi kay karave"
+      },
+      {
+        "role": "assistant",
+        "content": "काडी पक्वतेसाठी खालील गोष्टी कराव्यात:\n\n1. **पाण्याचे व्यवस्थापन**: काडी पक्वतेसाठी योग्य पाण्याची गरज असते. मातीची आर्द्रता योग्य ठेवणे महत्त्वाचे आहे. \n\n2. **खते**: योग्य प्रमाणात खते वापरा. विशेषतः नायट्रोजन, फॉस्फरस आणि पोटॅशियम यांचे संतुलन राखा.\n\n3. **कापणी**: काडी पक्वतेसाठी योग्य वेळी कापणी करणे आवश्यक आहे. काडी पक्वतेसाठी कापणी साधारणतः काडीच्या रंगावर आणि आकारावर अवलंबून असते.\n\n4. **पिकांची काळजी**: काडी पक्वतेसाठी पिकांची योग्य काळजी घ्या, जसे की कीड नियंत्रण, रोग नियंत्रण, आणि योग्य पोषण.\n\n5. **तापमान आणि आर्द्रता**: तापमान आणि आर्द्रता यांचे निरीक्षण करा, कारण यांचा काडी पक्वतेवर मोठा प्रभाव असतो.\n\nजर तुम्हाला अधिक माहिती हवी असेल तर कृपया सांगा!",
+        "en": "The following should be done for stick maturity:\n\n1. **Water management**: Proper water is needed for stick maturity. It is important to keep the soil moisture right. \n\n2. **Fertilizers**: Use the right amount of fertilizers. In particular, maintain a balance of nitrogen, phosphorus, and potassium.\n\n3. **Harvesting**: It is necessary to harvest at the right time for the ripeness of the stick. Harvesting for stick maturity usually depends on the color and size of the stick.\n\n4. **Crop care**: Take proper care of crops for stick maturity, such as pest control, disease control, and proper nutrition.\n\n5. **Temperature and humidity**: Observe the temperature and humidity, as they have a big impact on stick maturity.\n\nIf you need more information, please let me know!",
+        "timestamp": {
+          "$date": "2025-07-05T08:31:19.906Z"
+        }
+      }
+    ],
+    "farmer_id": "khandupawar",
+    "farmer_plot_ids": [
+      "thompsongharajaval2laxmi",
+      "thompsonplotlaxmi",
+      "thompsontalyajaval3"
+    ],
+    "conversation_id": "6868e2cc5547e79dec06de20",
+    "_id": "6868e2cc5547e79dec06de20",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-05T08:36:08.594000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-07-05T08:31:08.590000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "वाघ आल्यावर काय करायचं ",
+        "en": "What to do when a tiger arrives ",
+        "timestamp": {
+          "$date": "2025-07-05T06:26:58.898Z"
+        },
+        "standalone_question": "What should one do when a tiger arrives?",
+        "standalone_en": "What should one do when a tiger arrives?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "wagh alyavar kay karaayachn "
+      },
+      {
+        "role": "assistant",
+        "content": "वाघ आल्यास, खालील गोष्टी कराव्यात:\n\n1. **सुरक्षित ठिकाणी जा**: वाघाच्या जवळ जाण्याचा प्रयत्न करू नका. सुरक्षित ठिकाणी जाऊन थांबा.\n2. **स्थानिक अधिकाऱ्यांना कळवा**: तात्काळ वन विभाग किंवा स्थानिक प्रशासनाला वाघाच्या उपस्थितीची माहिती द्या.\n3. **शांत रहा**: वाघाला घाबरवण्याचा प्रयत्न करू नका. आवाज न करता शांत रहा.\n4. **कृषी कामे थांबवा**: वाघाच्या उपस्थितीत शेतात काम करणे थांबवा.\n\nआपल्या शेतात वाघ आल्यास, तात्काळ स्थानिक वन विभागाशी संपर्क साधा.",
+        "en": "If a tiger comes, do the following:\n\n1. **Go to a safe place**: Don't try to get too close to a tiger. Go to a safe place and stop.\n2. **Inform the local authorities**: Immediately inform the forest department or local administration about the presence of the tiger.\n3. **Stay calm**: Don't try to scare the tiger. Stay calm without making noise.\n4. **Stop agricultural work**: Stop working in the field in the presence of a tiger.\n\nIf a tiger comes into your field, contact the local forest department immediately.",
+        "timestamp": {
+          "$date": "2025-07-05T06:27:10.804Z"
+        }
+      }
+    ],
+    "farmer_id": "jagdishgambhire",
+    "farmer_plot_ids": [
+      "plotno1thompson348",
+      "plotno2sudhakar492"
+    ],
+    "conversation_id": "6868c5b2ab716ecb9171683a",
+    "_id": "6868c5b2ab716ecb9171683a",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-05T06:31:58.900000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-07-05T06:26:58.898000+00:00"
+  }
+]

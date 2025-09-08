@@ -1,0 +1,636 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Peru yenare    rog",
+        "en": "The name of the disease",
+        "timestamp": {
+          "$date": "2025-07-09T12:12:46.717Z"
+        },
+        "standalone_question": "What does \"Peru yenare rog\" mean?",
+        "standalone_en": "What does \"Peru yenare rog\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Fyllo supports the following diseases for crops:\n\n1. Alternaria\n2. Alternaria Fruit Blotch\n3. Alternaria Blotch\n4. Alternaria Leaf Blight\n5. Anthracnose\n6. Bacterial Blight\n7. Bacterial Canker\n8. Bacterial Spot\n9. Blister Blight\n10. Botrytis Mold\n11. Brown Rust\n12. Brown Spot\n13. Cercospora\n14. Cercospora Leaf Spot\n15. Cigar End Rot\n16. Citrus Scab\n17. Colletotrichum\n18. Damping Off\n19. Diplodia\n20. Downy Mildew\n21. Early Blight\n22. Fruit Canker\n23. Fusarium Wilt\n24. Graphiola Leaf Spot\n25. Grey Mold\n26. Late Blight\n27. Leaf Blight\n28. Leaf Spot\n29. Marssonina Blotch\n30. Powdery Mildew\n31. Purple Blotch\n32. Red Rot\n33. Rice Blast\n34. Root Knot Nematode\n35. Rust\n36. Sheath Blight\n37. Sigatoka Leaf Spot\n38. Stylar End Rot\n39. Whip Smut\n40. Xanthomonas\n41. Yellow Rust\n\nIf you need information on a specific disease or its management, feel free to ask!",
+        "en": "Fyllo supports the following diseases for crops:\n\n1. Alternaria\n2. Alternaria Fruit Blotch\n3. Alternaria Blotch\n4. Alternaria Leaf Blight\n5. Anthracnose\n6. Bacterial Blight\n7. Bacterial Canker\n8. Bacterial Spot\n9. Blister Blight\n10. Botrytis Mold\n11. Brown Rust\n12. Brown Spot\n13. Cercospora\n14. Cercospora Leaf Spot\n15. Cigar End Rot\n16. Citrus Scab\n17. Colletotrichum\n18. Damping Off\n19. Diplodia\n20. Downy Mildew\n21. Early Blight\n22. Fruit Canker\n23. Fusarium Wilt\n24. Graphiola Leaf Spot\n25. Grey Mold\n26. Late Blight\n27. Leaf Blight\n28. Leaf Spot\n29. Marssonina Blotch\n30. Powdery Mildew\n31. Purple Blotch\n32. Red Rot\n33. Rice Blast\n34. Root Knot Nematode\n35. Rust\n36. Sheath Blight\n37. Sigatoka Leaf Spot\n38. Stylar End Rot\n39. Whip Smut\n40. Xanthomonas\n41. Yellow Rust\n\nIf you need information on a specific disease or its management, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-07-09T12:12:58.776Z"
+        }
+      }
+    ],
+    "farmer_id": "navnathbhangekandar",
+    "farmer_plot_ids": [
+      "guavaplot1847"
+    ],
+    "conversation_id": "686e5cbbbc469dc79e0616ee",
+    "_id": "686e5cbbbc469dc79e0616ee",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-09T12:17:47.786000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-07-09T12:12:46.717000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Mara khetar ma su rog che",
+        "en": "There is sue disease in my farm",
+        "timestamp": {
+          "$date": "2025-07-09T10:48:27.817Z"
+        },
+        "standalone_question": "What disease is present in the fields?",
+        "standalone_en": "What disease is present in the fields?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "**Mara khetar ma rog ane keet ni jankari:**\n\n### Kairo Khejdavalo (1.5 acres)\n#### Rog:\n1. **Cercospora Leaf Spot**: \n   - 9-Jul-2025: 55.1% (Medium Risk)\n   - 8-Jul-2025: 62.7% (Medium Risk)\n   - 7-Jul-2025: 58.1% (Medium Risk)\n   - 6-Jul-2025: 60.1% (Medium Risk)\n   \n2. **Downy Mildew**: \n   - 2-Jul-2025: 100% (High Risk)\n\n#### Keet:\n1. **Bihar Hairy Caterpillar**: \n   - 9-Jul-2025: 82.2% (High Risk)\n   \n2. **Leaf Eating Caterpillar**: \n   - 9-Jul-2025: 76.2% (High Risk)\n\n3. **Aphids**: \n   - 9-Jul-2025: 59.4% (Medium Risk)\n\n### Niro Moto Kataro (3.5 acres)\n#### Rog:\n1. **Cercospora Leaf Spot**: \n   - 9-Jul-2025: 55.1% (Medium Risk)\n   - 8-Jul-2025: 61.7% (Medium Risk)\n\n2. **Downy Mildew**: \n   - 2-Jul-2025: 100% (High Risk)\n\n#### Keet:\n1. **Bihar Hairy Caterpillar**: \n   - 9-Jul-2025: 82.2% (High Risk)\n\n2. **Leaf Eating Caterpillar**: \n   - 9-Jul-2025: 76.2% (High Risk)\n\n**Aapne aavti vaar spray karva ni jarur chhe, khaas kar jyaare rog ni sambhavnao vadhi rahi chhe.**",
+        "en": "**Mara khetar ma rog ane keet ni jankari:**\n\n### Kairo Khejdavalo (1.5 acres)\n#### Rog:\n1. **Cercospora Leaf Spot**: \n   - 9-Jul-2025: 55.1% (Medium Risk)\n   - 8-Jul-2025: 62.7% (Medium Risk)\n   - 7-Jul-2025: 58.1% (Medium Risk)\n   - 6-Jul-2025: 60.1% (Medium Risk)\n   \n2. **Downy Mildew**: \n   - 2-Jul-2025: 100% (High Risk)\n\n#### Keet:\n1. **Bihar Hairy Caterpillar**: \n   - 9-Jul-2025: 82.2% (High Risk)\n   \n2. **Leaf Eating Caterpillar**: \n   - 9-Jul-2025: 76.2% (High Risk)\n\n3. **Aphids**: \n   - 9-Jul-2025: 59.4% (Medium Risk)\n\n### Niro Moto Kataro (3.5 acres)\n#### Rog:\n1. **Cercospora Leaf Spot**: \n   - 9-Jul-2025: 55.1% (Medium Risk)\n   - 8-Jul-2025: 61.7% (Medium Risk)\n\n2. **Downy Mildew**: \n   - 2-Jul-2025: 100% (High Risk)\n\n#### Keet:\n1. **Bihar Hairy Caterpillar**: \n   - 9-Jul-2025: 82.2% (High Risk)\n\n2. **Leaf Eating Caterpillar**: \n   - 9-Jul-2025: 76.2% (High Risk)\n\n**Aapne aavti vaar spray karva ni jarur chhe, khaas kar jyaare rog ni sambhavnao vadhi rahi chhe.**",
+        "timestamp": {
+          "$date": "2025-07-09T10:48:45.054Z"
+        }
+      }
+    ],
+    "farmer_id": "am9zaGlmYXJt1732884683785",
+    "farmer_plot_ids": [
+      "kairokhejdavalo",
+      "niromotokataro"
+    ],
+    "conversation_id": "686e48fb63da03071352dc72",
+    "_id": "686e48fb63da03071352dc72",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-07-09T10:53:27.820000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-07-09T10:48:27.817000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Spray for powdery meledew",
+        "en": "Spray for powdery meledew",
+        "timestamp": {
+          "$date": "2025-07-09T06:35:11.081Z"
+        },
+        "standalone_question": "What spray can be used for powdery mildew?",
+        "standalone_en": "What spray can be used for powdery mildew?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "There are no scheduled sprays for powdery mildew in the upcoming week. If you notice any symptoms, consider monitoring the situation closely.",
+        "en": "There are no scheduled sprays for powdery mildew in the upcoming week. If you notice any symptoms, consider monitoring the situation closely.",
+        "timestamp": {
+          "$date": "2025-07-09T06:35:20.364Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Today spray",
+        "en": "Today spray",
+        "timestamp": {
+          "$date": "2025-07-09T06:35:50.546Z"
+        },
+        "standalone_question": "Can I spray for powdery mildew today?",
+        "standalone_en": "Can I spray for powdery mildew today?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "There are no scheduled sprays for today, July 9th. If you observe any signs of powdery mildew, you may consider taking action based on your observations.",
+        "en": "There are no scheduled sprays for today, July 9th. If you observe any signs of powdery mildew, you may consider taking action based on your observations.",
+        "timestamp": {
+          "$date": "2025-07-09T06:35:56.837Z"
+        }
+      }
+    ],
+    "farmer_id": "dipakkeshavpangavhane",
+    "farmer_plot_ids": [
+      "plotno1anushka383"
+    ],
+    "conversation_id": "686e0d9e8456a614e7e928c6",
+    "_id": "686e0d9e8456a614e7e928c6",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-07-09T06:40:50.549000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-07-09T06:35:11.081000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can I mix sulphur and magnesium sulphate",
+        "en": "Can I mix sulphur and magnesium sulphate",
+        "timestamp": {
+          "$date": "2025-07-09T05:54:15.340Z"
+        },
+        "standalone_question": "Can I combine sulfur and magnesium sulfate?",
+        "standalone_en": "Can I combine sulfur and magnesium sulfate?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, sulfur and magnesium sulfate can generally be mixed together. However, it's important to consider the specific crop requirements and soil conditions. Always check compatibility and consult with an agricultural expert or local agronomist for tailored advice.",
+        "en": "Yes, sulfur and magnesium sulfate can generally be mixed together. However, it's important to consider the specific crop requirements and soil conditions. Always check compatibility and consult with an agricultural expert or local agronomist for tailored advice.",
+        "timestamp": {
+          "$date": "2025-07-09T05:54:22.663Z"
+        }
+      }
+    ],
+    "farmer_id": "swathappa",
+    "farmer_plot_ids": [
+      "swathappa"
+    ],
+    "conversation_id": "686e04061b82fa9b1741f2cb",
+    "_id": "686e04061b82fa9b1741f2cb",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-07-09T05:59:15.342000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-07-09T05:54:15.340000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "hi",
+        "en": "hi",
+        "timestamp": {
+          "$date": "2025-07-09T05:07:56.470Z"
+        },
+        "standalone_question": "What would you like to talk about?",
+        "standalone_en": "What would you like to talk about?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Hello KSDMA! How can I assist you with your farming needs today?",
+        "en": "Hello KSDMA! How can I assist you with your farming needs today?",
+        "timestamp": {
+          "$date": "2025-07-09T05:08:04.932Z"
+        }
+      }
+    ],
+    "farmer_id": "ksdma",
+    "farmer_plot_ids": [
+      "achoordivision",
+      "factorydevision",
+      "kaloordivision",
+      "perringodadivision",
+      "factory",
+      "kadoora",
+      "nedumballi",
+      "newclearing",
+      "chundalefiledno7",
+      "fieldno4c",
+      "number1division277",
+      "number2division378",
+      "number3division",
+      "number1division",
+      "number2division",
+      "eastdivision",
+      "rubberdivision",
+      "westdivision",
+      "lahaidivision",
+      "perumondivision",
+      "avondaledivision",
+      "mayfielddivision",
+      "palapillydivision",
+      "valiyakulamdivision",
+      "attamaladivision",
+      "chooralmaladivision",
+      "chooralmalanerodivision",
+      "mundakainerodivision",
+      "mundakkaidivision",
+      "puthumaladivision"
+    ],
+    "conversation_id": "686df92a2c0b75ab17e89c27",
+    "_id": "686df92a2c0b75ab17e89c27",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-07-09T05:12:56.913000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-07-09T05:07:56.470000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Disease pest chances on farm?",
+        "en": "Disease pest chances on farm?",
+        "timestamp": {
+          "$date": "2025-07-09T04:36:05.479Z"
+        },
+        "standalone_question": "What are the chances of disease and pests on a farm?",
+        "standalone_en": "What are the chances of disease and pests on a farm?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: How does the device predict diseases and pests?\nA: It captures data from different parameters using sensors and analyzes it using various agronomical algorithms, including different models for all diseases and pests.\n   Each disease and pest has a specific etymology, which is the suitable environment for its incidence."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Currently, there are no available metrics for pest and disease predictions on your farms (G9 plot 1, G9 plot 2, G9 plot 3, G9 plot 4, and G9 plot 5). It may be beneficial to monitor the plots closely for any signs of pests or diseases and consider preventive measures as needed.",
+        "en": "Currently, there are no available metrics for pest and disease predictions on your farms (G9 plot 1, G9 plot 2, G9 plot 3, G9 plot 4, and G9 plot 5). It may be beneficial to monitor the plots closely for any signs of pests or diseases and consider preventive measures as needed.",
+        "timestamp": {
+          "$date": "2025-07-09T04:36:11.190Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "when to irrigate?",
+        "en": "when to irrigate?",
+        "timestamp": {
+          "$date": "2025-07-09T04:36:31.760Z"
+        },
+        "standalone_question": "When is the best time to irrigate?",
+        "standalone_en": "When is the best time to irrigate?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today.",
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range."
+          ],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate.",
+            "Q: What is the right time to sow the seeds?\nA: Check the weather forecast for the next few days (tool call), and then decide the right time for the crop, based on own's knowledge.",
+            "Q: In the latest irrigation , sensor didn't drop to 0.\nA: 0 to 5 Kpa means soil is fully wet. It need not drop to 0 every time. Moisture less than 5 also means wet conditions. So, need not worry. Also ask to wait for 12 hours after irrigation."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the irrigation forecast for your plots:\n\n1. **G9 plot 1**: \n   - Current Soil Moisture: 93% (Moisture 1), 99% (Moisture 2)\n   - Optimal Moisture: 70%\n   - **Recommendation**: Watering not required as the soil moisture is above the dry optimal values.\n\n2. **G9 plot 2**: \n   - Current Soil Moisture: 91% (Moisture 1), 80% (Moisture 2)\n   - Optimal Moisture: 70%\n   - **Recommendation**: Watering not required as the soil moisture is above the dry optimal values.\n\n3. **G9 plot 3**: \n   - Current Soil Moisture: 82% (Moisture 1), 97% (Moisture 2)\n   - Optimal Moisture: 70%\n   - **Recommendation**: Watering not required as the soil moisture is above the dry optimal values.\n\n4. **G9 plot 4**: \n   - Current Soil Moisture: 85% (Moisture 1), 96% (Moisture 2)\n   - Optimal Moisture: 75%\n   - **Recommendation**: Watering not required as the soil moisture is above the dry optimal values.\n\n5. **G9 plot 5**: \n   - Current Soil Moisture: 43% (Moisture 1), 51% (Moisture 2)\n   - Optimal Moisture: 80%\n   - **Recommendation**: Watering can be done, as the soil moisture is below the dry optimal values.\n\nYou should consider irrigating **G9 plot 5** while the other plots do not require watering at this time.",
+        "en": "Here's the irrigation forecast for your plots:\n\n1. **G9 plot 1**: \n   - Current Soil Moisture: 93% (Moisture 1), 99% (Moisture 2)\n   - Optimal Moisture: 70%\n   - **Recommendation**: Watering not required as the soil moisture is above the dry optimal values.\n\n2. **G9 plot 2**: \n   - Current Soil Moisture: 91% (Moisture 1), 80% (Moisture 2)\n   - Optimal Moisture: 70%\n   - **Recommendation**: Watering not required as the soil moisture is above the dry optimal values.\n\n3. **G9 plot 3**: \n   - Current Soil Moisture: 82% (Moisture 1), 97% (Moisture 2)\n   - Optimal Moisture: 70%\n   - **Recommendation**: Watering not required as the soil moisture is above the dry optimal values.\n\n4. **G9 plot 4**: \n   - Current Soil Moisture: 85% (Moisture 1), 96% (Moisture 2)\n   - Optimal Moisture: 75%\n   - **Recommendation**: Watering not required as the soil moisture is above the dry optimal values.\n\n5. **G9 plot 5**: \n   - Current Soil Moisture: 43% (Moisture 1), 51% (Moisture 2)\n   - Optimal Moisture: 80%\n   - **Recommendation**: Watering can be done, as the soil moisture is below the dry optimal values.\n\nYou should consider irrigating **G9 plot 5** while the other plots do not require watering at this time.",
+        "timestamp": {
+          "$date": "2025-07-09T04:36:47.179Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "agronomy visit",
+        "en": "agronomy visit",
+        "timestamp": {
+          "$date": "2025-07-09T04:37:10.476Z"
+        },
+        "standalone_question": "When is the agronomy visit scheduled?",
+        "standalone_en": "When is the agronomy visit scheduled?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To schedule an agronomy visit, please raise a maintenance ticket in the app or reach out to our team for further assistance. Would you like me to raise a support ticket for you? If so, please confirm, and I'll proceed with that.",
+        "en": "To schedule an agronomy visit, please raise a maintenance ticket in the app or reach out to our team for further assistance. Would you like me to raise a support ticket for you? If so, please confirm, and I'll proceed with that.",
+        "timestamp": {
+          "$date": "2025-07-09T04:37:14.529Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "yes",
+        "en": "yes",
+        "timestamp": {
+          "$date": "2025-07-09T04:37:21.318Z"
+        },
+        "standalone_question": "Would you like me to raise a support ticket for scheduling an agronomy visit?",
+        "standalone_en": "Would you like me to raise a support ticket for scheduling an agronomy visit?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Send the experts tomorrow. Yes send. Send to visit. Send the visitor to farm/plot visit.  \nA: To schedule a visit, please raise a maintenance ticket in the app or reach out to the our team for further assistance. Do you want me to raise a support ticket for you?",
+            "Q: What should I do if I can't find the fertigation schedule after selecting the fertigation tab?\nA: If you don't see the fertigation schedule, you'll need to create a report first. Would you like assistance in creating a report? Do you have any soil, leaf, or petiole test data available? If not, we can generate a basic schedule for you using general crop and regional data."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems there was an issue raising the support ticket for the agronomy visit. Please try again later or contact customer support directly for assistance. If you need help with anything else, feel free to ask!",
+        "en": "It seems there was an issue raising the support ticket for the agronomy visit. Please try again later or contact customer support directly for assistance. If you need help with anything else, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-07-09T04:37:26.570Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "device not working",
+        "en": "device not working",
+        "timestamp": {
+          "$date": "2025-07-09T04:37:43.481Z"
+        },
+        "standalone_question": "What should I do if my device is not working?",
+        "standalone_en": "What should I do if my device is not working?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What should I do if the soil temperature sensor is not working?\nA: Check the sensor connection, tighten it if loose, and restart the device to check updated data.",
+            "Q: What should I do if the Nero app is not showing updated data?\nA: Ensure the device is attached to the app, check network connectivity, verify battery status, and restart the device if needed.",
+            "Q: What should I do if the Kairo app is not showing updated data?\nA: Ensure the device is attached to the app, check network connectivity, verify battery status, and restart the device if needed.",
+            "Q: My Kairo/Nero device is not working.\nA: If some issue is being faced, user can raise the support ticket in the Fyllo app. If the issue is not solved please contact Fyllo customer support for further assistance. Do you want me to raise the support ticket for you?"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Please provide me with the specific plot name for which you want to raise the support ticket regarding the device not working. The options are:\n\n1. G9 plot 1\n2. G9 plot 2\n3. G9 plot 3\n4. G9 plot 4\n5. G9 plot 5\n\nLet me know your choice, and I'll proceed with raising the ticket.",
+        "en": "Please provide me with the specific plot name for which you want to raise the support ticket regarding the device not working. The options are:\n\n1. G9 plot 1\n2. G9 plot 2\n3. G9 plot 3\n4. G9 plot 4\n5. G9 plot 5\n\nLet me know your choice, and I'll proceed with raising the ticket.",
+        "timestamp": {
+          "$date": "2025-07-09T04:37:47.081Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "g9 plot 1",
+        "en": "g9 plot 1",
+        "timestamp": {
+          "$date": "2025-07-09T04:37:57.875Z"
+        },
+        "standalone_question": "Which plot are you experiencing device issues with?",
+        "standalone_en": "Which plot are you experiencing device issues with?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "I am currently unable to raise the support ticket for the device issue in G9 plot 1. Please try raising the ticket directly in the Fyllo app or contact customer support for further assistance. \n\nIf you need help with anything else, feel free to ask!",
+        "en": "I am currently unable to raise the support ticket for the device issue in G9 plot 1. Please try raising the ticket directly in the Fyllo app or contact customer support for further assistance. \n\nIf you need help with anything else, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-07-09T04:38:02.548Z"
+        }
+      }
+    ],
+    "farmer_id": "fulchandgholave",
+    "farmer_plot_ids": [
+      "g9plot1",
+      "g9plot2",
+      "g9plot3",
+      "g9plot4",
+      "g9plot5"
+    ],
+    "conversation_id": "686df1b4aed79bf57b973712",
+    "_id": "686df1b4aed79bf57b973712",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-07-09T04:42:57.878000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-07-09T04:36:05.479000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Disease pest chances on farm?",
+        "en": "Disease pest chances on farm?",
+        "timestamp": {
+          "$date": "2025-07-09T04:36:05.479Z"
+        },
+        "standalone_question": "What are the chances of disease and pests on a farm?",
+        "standalone_en": "What are the chances of disease and pests on a farm?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: How does the device predict diseases and pests?\nA: It captures data from different parameters using sensors and analyzes it using various agronomical algorithms, including different models for all diseases and pests.\n   Each disease and pest has a specific etymology, which is the suitable environment for its incidence."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Currently, there are no available metrics for pest and disease predictions on your farms (G9 plot 1, G9 plot 2, G9 plot 3, G9 plot 4, and G9 plot 5). It may be beneficial to monitor the plots closely for any signs of pests or diseases and consider preventive measures as needed.",
+        "en": "Currently, there are no available metrics for pest and disease predictions on your farms (G9 plot 1, G9 plot 2, G9 plot 3, G9 plot 4, and G9 plot 5). It may be beneficial to monitor the plots closely for any signs of pests or diseases and consider preventive measures as needed.",
+        "timestamp": {
+          "$date": "2025-07-09T04:36:11.190Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "when to irrigate?",
+        "en": "when to irrigate?",
+        "timestamp": {
+          "$date": "2025-07-09T04:36:31.760Z"
+        },
+        "standalone_question": "When is the best time to irrigate?",
+        "standalone_en": "When is the best time to irrigate?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today.",
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range."
+          ],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate.",
+            "Q: What is the right time to sow the seeds?\nA: Check the weather forecast for the next few days (tool call), and then decide the right time for the crop, based on own's knowledge.",
+            "Q: In the latest irrigation , sensor didn't drop to 0.\nA: 0 to 5 Kpa means soil is fully wet. It need not drop to 0 every time. Moisture less than 5 also means wet conditions. So, need not worry. Also ask to wait for 12 hours after irrigation."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the irrigation forecast for your plots:\n\n1. **G9 plot 1**: \n   - Current Soil Moisture: 93% (Moisture 1), 99% (Moisture 2)\n   - Optimal Moisture: 70%\n   - **Recommendation**: Watering not required as the soil moisture is above the dry optimal values.\n\n2. **G9 plot 2**: \n   - Current Soil Moisture: 91% (Moisture 1), 80% (Moisture 2)\n   - Optimal Moisture: 70%\n   - **Recommendation**: Watering not required as the soil moisture is above the dry optimal values.\n\n3. **G9 plot 3**: \n   - Current Soil Moisture: 82% (Moisture 1), 97% (Moisture 2)\n   - Optimal Moisture: 70%\n   - **Recommendation**: Watering not required as the soil moisture is above the dry optimal values.\n\n4. **G9 plot 4**: \n   - Current Soil Moisture: 85% (Moisture 1), 96% (Moisture 2)\n   - Optimal Moisture: 75%\n   - **Recommendation**: Watering not required as the soil moisture is above the dry optimal values.\n\n5. **G9 plot 5**: \n   - Current Soil Moisture: 43% (Moisture 1), 51% (Moisture 2)\n   - Optimal Moisture: 80%\n   - **Recommendation**: Watering can be done, as the soil moisture is below the dry optimal values.\n\nYou should consider irrigating **G9 plot 5** while the other plots do not require watering at this time.",
+        "en": "Here's the irrigation forecast for your plots:\n\n1. **G9 plot 1**: \n   - Current Soil Moisture: 93% (Moisture 1), 99% (Moisture 2)\n   - Optimal Moisture: 70%\n   - **Recommendation**: Watering not required as the soil moisture is above the dry optimal values.\n\n2. **G9 plot 2**: \n   - Current Soil Moisture: 91% (Moisture 1), 80% (Moisture 2)\n   - Optimal Moisture: 70%\n   - **Recommendation**: Watering not required as the soil moisture is above the dry optimal values.\n\n3. **G9 plot 3**: \n   - Current Soil Moisture: 82% (Moisture 1), 97% (Moisture 2)\n   - Optimal Moisture: 70%\n   - **Recommendation**: Watering not required as the soil moisture is above the dry optimal values.\n\n4. **G9 plot 4**: \n   - Current Soil Moisture: 85% (Moisture 1), 96% (Moisture 2)\n   - Optimal Moisture: 75%\n   - **Recommendation**: Watering not required as the soil moisture is above the dry optimal values.\n\n5. **G9 plot 5**: \n   - Current Soil Moisture: 43% (Moisture 1), 51% (Moisture 2)\n   - Optimal Moisture: 80%\n   - **Recommendation**: Watering can be done, as the soil moisture is below the dry optimal values.\n\nYou should consider irrigating **G9 plot 5** while the other plots do not require watering at this time.",
+        "timestamp": {
+          "$date": "2025-07-09T04:36:47.179Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "agronomy visit",
+        "en": "agronomy visit",
+        "timestamp": {
+          "$date": "2025-07-09T04:37:10.476Z"
+        },
+        "standalone_question": "When is the agronomy visit scheduled?",
+        "standalone_en": "When is the agronomy visit scheduled?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To schedule an agronomy visit, please raise a maintenance ticket in the app or reach out to our team for further assistance. Would you like me to raise a support ticket for you? If so, please confirm, and I'll proceed with that.",
+        "en": "To schedule an agronomy visit, please raise a maintenance ticket in the app or reach out to our team for further assistance. Would you like me to raise a support ticket for you? If so, please confirm, and I'll proceed with that.",
+        "timestamp": {
+          "$date": "2025-07-09T04:37:14.529Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "yes",
+        "en": "yes",
+        "timestamp": {
+          "$date": "2025-07-09T04:37:21.318Z"
+        },
+        "standalone_question": "Would you like me to raise a support ticket for scheduling an agronomy visit?",
+        "standalone_en": "Would you like me to raise a support ticket for scheduling an agronomy visit?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Send the experts tomorrow. Yes send. Send to visit. Send the visitor to farm/plot visit.  \nA: To schedule a visit, please raise a maintenance ticket in the app or reach out to the our team for further assistance. Do you want me to raise a support ticket for you?",
+            "Q: What should I do if I can't find the fertigation schedule after selecting the fertigation tab?\nA: If you don't see the fertigation schedule, you'll need to create a report first. Would you like assistance in creating a report? Do you have any soil, leaf, or petiole test data available? If not, we can generate a basic schedule for you using general crop and regional data."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems there was an issue raising the support ticket for the agronomy visit. Please try again later or contact customer support directly for assistance. If you need help with anything else, feel free to ask!",
+        "en": "It seems there was an issue raising the support ticket for the agronomy visit. Please try again later or contact customer support directly for assistance. If you need help with anything else, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-07-09T04:37:26.570Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "device not working",
+        "en": "device not working",
+        "timestamp": {
+          "$date": "2025-07-09T04:37:43.481Z"
+        },
+        "standalone_question": "What should I do if my device is not working?",
+        "standalone_en": "What should I do if my device is not working?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What should I do if the soil temperature sensor is not working?\nA: Check the sensor connection, tighten it if loose, and restart the device to check updated data.",
+            "Q: What should I do if the Nero app is not showing updated data?\nA: Ensure the device is attached to the app, check network connectivity, verify battery status, and restart the device if needed.",
+            "Q: What should I do if the Kairo app is not showing updated data?\nA: Ensure the device is attached to the app, check network connectivity, verify battery status, and restart the device if needed.",
+            "Q: My Kairo/Nero device is not working.\nA: If some issue is being faced, user can raise the support ticket in the Fyllo app. If the issue is not solved please contact Fyllo customer support for further assistance. Do you want me to raise the support ticket for you?"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Please provide me with the specific plot name for which you want to raise the support ticket regarding the device not working. The options are:\n\n1. G9 plot 1\n2. G9 plot 2\n3. G9 plot 3\n4. G9 plot 4\n5. G9 plot 5\n\nLet me know your choice, and I'll proceed with raising the ticket.",
+        "en": "Please provide me with the specific plot name for which you want to raise the support ticket regarding the device not working. The options are:\n\n1. G9 plot 1\n2. G9 plot 2\n3. G9 plot 3\n4. G9 plot 4\n5. G9 plot 5\n\nLet me know your choice, and I'll proceed with raising the ticket.",
+        "timestamp": {
+          "$date": "2025-07-09T04:37:47.081Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "g9 plot 1",
+        "en": "g9 plot 1",
+        "timestamp": {
+          "$date": "2025-07-09T04:37:57.875Z"
+        },
+        "standalone_question": "Which device is not working in G9 plot 1?",
+        "standalone_en": "Which device is not working in G9 plot 1?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "I am currently unable to raise the support ticket for the device issue in G9 plot 1. Please try raising the ticket directly in the Fyllo app or contact customer support for further assistance. \n\nIf you need help with anything else, feel free to ask!",
+        "en": "I am currently unable to raise the support ticket for the device issue in G9 plot 1. Please try raising the ticket directly in the Fyllo app or contact customer support for further assistance. \n\nIf you need help with anything else, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-07-09T04:38:02.548Z"
+        }
+      }
+    ],
+    "farmer_id": "fulchandgholave",
+    "farmer_plot_ids": [
+      "g9plot1",
+      "g9plot2",
+      "g9plot3",
+      "g9plot4",
+      "g9plot5"
+    ],
+    "conversation_id": "686df1b4aed79bf57b973712",
+    "_id": "686df1b4aed79bf57b973712",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-07-09T04:42:57.878000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-07-09T04:36:05.479000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पीक कॅलेंडर डावूनलोड कसे करावे ",
+        "en": "How to load the crop calendar by skipping ",
+        "timestamp": {
+          "$date": "2025-07-09T02:55:39.738Z"
+        },
+        "standalone_question": "How to download the peak calendar?",
+        "standalone_en": "How to download the peak calendar?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "peak calendar davunalod kase karave "
+      },
+      {
+        "role": "assistant",
+        "content": "पीक कॅलेंडर डाउनलोड करण्यासाठी, कृपया खालील चरणांचे पालन करा:\n\n1. **फाय्लो अॅप उघडा**: आपल्या मोबाइलवर फाय्लो अॅप सुरू करा.\n2. **माझा शेत** (My Farm) निवडा: अॅपच्या तळाशी \"माझा शेत\" पर्यायावर टॅप करा.\n3. **पीक कॅलेंडर** (Crop Calendar) शोधा: पीक कॅलेंडर पर्यायावर क्लिक करा.\n4. **डाउनलोड करा**: आवश्यक माहिती पाहिल्यानंतर, डाउनलोड बटणावर क्लिक करा.\n\nजर तुम्हाला आणखी मदतीची आवश्यकता असेल, तर कृपया ग्राहक समर्थनाशी संपर्क साधा.",
+        "en": "To download the peak calendar, please follow the steps below:\n\n1. **Open the Filo app**: Start the Filo app on your mobile.\n2. Select **My Farm:Tap the \"My Farm\" option at the bottom of the app.\n3. **Crop Calendar** Search for Crop Calendar: Click on the Crop Calendar option.\n4. *Download**: After seeing the required information, click on the download button.\n\nIf you need further help, please contact Customer Support.",
+        "timestamp": {
+          "$date": "2025-07-09T02:55:44.242Z"
+        }
+      }
+    ],
+    "farmer_id": "ajayvilasraoborkar",
+    "farmer_plot_ids": [
+      "mangoplot527",
+      "orangekairo",
+      "orangenero"
+    ],
+    "conversation_id": "686dda2b5b4bef6c495944d1",
+    "_id": "686dda2b5b4bef6c495944d1",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-09T03:00:39.741000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-07-09T02:55:39.738000+00:00"
+  }
+]

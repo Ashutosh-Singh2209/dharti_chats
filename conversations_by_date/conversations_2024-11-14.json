@@ -1,0 +1,718 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "અત્યારે કોઈપણ સ્પ્રે કરવો યોગ્ય સમય છે ",
+        "timestamp": {
+          "$date": "2024-11-14T12:02:00.197Z"
+        },
+        "standalone_question": "Is it the right time to use any spray right now?",
+        "standalone_en": "Is it the right time to use any spray right now?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        },
+        "content_transliterated": "atyare koipan spray karavo yogy samay che "
+      },
+      {
+        "role": "assistant",
+        "content": "અત્યારે સ્પ્રે કરવા માટે યોગ્ય સમય નથી. હાલના સમયે (14 નવેમ્બર, 2024) સ્પ્રેની સ્થિતિ \"મોડરેટ\" છે. \n\nઆગામી સમય માટેની સ્પ્રેની સ્થિતિ:\n- **18:30** - મોડરેટ\n- **19:30** - મોડરેટ\n- **20:30** - મોડરેટ\n- **21:30** - મોડરેટ\n- **22:30** - મોડરેટ\n\n**15 નવેમ્બર, 2024** ના રોજ, સવારે 01:30 થી 08:30 સુધી \"આદર્શ\" સ્થિતિ રહેશે, જે સ્પ્રે કરવા માટે શ્રેષ્ઠ સમય છે. \n\nતમે આ સમય દરમિયાન સ્પ્રે કરી શકો છો.",
+        "timestamp": {
+          "$date": "2024-11-14T12:02:06.690Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "અત્યારે સ્પ્રે કરવો કે નહિ",
+        "timestamp": {
+          "$date": "2024-11-14T12:02:52.539Z"
+        },
+        "standalone_question": "Should I spray now or not?",
+        "standalone_en": "Should I spray now or not?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        },
+        "content_transliterated": "atyare spray karavo ka nahi"
+      },
+      {
+        "role": "assistant",
+        "content": "અત્યારે સ્પ્રે કરવો યોગ્ય નથી. હાલના સમયે (14 નવેમ્બર, 2024) સ્પ્રેની સ્થિતિ \"મોડરેટ\" છે. \n\nઆગામી સમય માટેની સ્પ્રેની સ્થિતિ:\n- **18:30** - મોડરેટ\n- **19:30** - મોડરેટ\n- **20:30** - મોડરેટ\n- **21:30** - મોડરેટ\n- **22:30** - મોડરેટ\n\n**15 નવેમ્બર, 2024** ના રોજ, સવારે 01:30 થી 08:30 સુધી \"આદર્શ\" સ્થિતિ રહેશે, જે સ્પ્રે કરવા માટે શ્રેષ્ઠ સમય છે. \n\nતમે આ સમય દરમિયાન સ્પ્રે કરી શકો છો.",
+        "timestamp": {
+          "$date": "2024-11-14T12:03:05.066Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Moderate એટલે શું ",
+        "timestamp": {
+          "$date": "2024-11-14T12:03:29.321Z"
+        },
+        "standalone_question": "What does \"moderate\" mean?",
+        "standalone_en": "What does \"moderate\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "Moderate atale shu "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Moderate\" એટલે મધ્યમ સ્થિતિ, જે સ્પ્રે કરવા માટે યોગ્ય નથી. આ સ્થિતિમાં વાતાવરણમાં કેટલીક અણુકૂળતાઓ હોઈ શકે છે, જેમ કે હવા ની ભેજ, તાપમાન, અથવા અન્ય પરિસ્થિતિઓ, જે સ્પ્રેના પરિણામને અસર કરી શકે છે. \n\nઆ સ્થિતિમાં સ્પ્રે કરવાથી ફાયદા કરતાં નુકસાન થવાની શક્યતા વધુ હોય છે. તેથી, \"Moderate\" સ્થિતિમાં સ્પ્રે કરવું ટાળવું શ્રેષ્ઠ છે.",
+        "timestamp": {
+          "$date": "2024-11-14T12:03:33.411Z"
+        }
+      }
+    ],
+    "farmer_id": "mayurbhai370",
+    "farmer_plot_ids": [
+      "pomegranate1",
+      "pomegranate3"
+    ],
+    "conversation_id": "6735e6b7a1ed8cb10ddf5781",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-11-14T12:02:00.197000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "ಇದಕ್ಕೆ ಏನಾಗಿದೆ ಹೇಳಿ fyllo<user uploaded image for analysis at 'guruthomson2acre/2024-11-14-1731583646694.jpg'>",
+        "timestamp": {
+          "$date": "2024-11-14T11:27:54.353Z"
+        },
+        "standalone_question": "What has happened to this?",
+        "standalone_en": "What has happened to this?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "idakke enagide heli fyllo<user uploaded image for analysis at 'guruthomson2acre/2024-11-14-1731583646694.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "ನಿಮ್ಮ ದ್ರಾಕ್ಷಿ ಬೆಳೆ ಆರೋಗ್ಯವು \"ಅಸ್ವಸ್ಥ\" ಎಂದು ಕಂಡುಬಂದಿದೆ. ಚಿತ್ರದಲ್ಲಿ ಕಂಡುಬಂದ ಕೆಲವು ಸಮಸ್ಯೆಗಳು ಮತ್ತು ಚಿಕಿತ್ಸೆ ಕ್ರಮಗಳು ಈ ಕೆಳಗಿನಂತಿವೆ:\n\n1. **ಅಂತ್ರಾಕ್ನೋಸ್ (Anthracnose of Grape)**:\n   - **ಲಕ್ಷಣಗಳು**: ಯುವ ಎಲೆಗಳಲ್ಲಿ ಸಣ್ಣ ಕಂದು ಬಿಂದುಗಳು, ದೊಡ್ಡ ಬೂದು ಮತ್ತು ಒಣ ಪ್ಯಾಚ್‌ಗಳು, ಎಲೆಗಳಲ್ಲಿ ಹೋಲ್ಗಳನ್ನು ಉಂಟುಮಾಡುವ ಪ್ಯಾಚ್‌ಗಳು, ತೂಳಗಳು ಮತ್ತು ಶೂಟ್ಗಳ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರುತ್ತವೆ, ಹಣ್ಣುಗಳಲ್ಲಿ ಬೂದು ಬಣ್ಣದ ಪ್ಯಾಚ್‌ಗಳು.\n   - **ಚಿಕಿತ್ಸೆ**: ಉತ್ತಮ ಕೃಷಿ ಅಭ್ಯಾಸಗಳನ್ನು ಅನುಸರಿಸುವ ಮೂಲಕ ಮತ್ತು ಸಮಯಕ್ಕೆ ತಕ್ಕಂತೆ ರಕ್ಷಣಾತ್ಮಕ ಫಂಗಿಸೈಡ್ ಸ್ಪ್ರೇಗಳನ್ನು ಬಳಸುವ ಮೂಲಕ ನಿಯಂತ್ರಣ ಸಾಧ್ಯ. ಬಡ್ಡು ಮುರಿಯುವಾಗ ಲಿಕ್ವಿಡ್ ಲೈಮ್ ಸಲ್ಪರ್ ಅಥವಾ ಬೋರ್ಡೋ ಮಿಶ್ರಣವನ್ನು ಬಳಸುವುದು ಸಹಾಯ ಮಾಡುತ್ತದೆ. ಕ್ಯಾಪ್ಟಾನ್, ಕ್ಲೋಥಲಾನಿಲ್ ಮತ್ತು ಮ್ಯಾಂಕೋಝೆಬ್ ಅನ್ನು 2 ವಾರಗಳ ಅಂತರದಲ್ಲಿ ಬಳಸಬಹುದು.\n\n2. **ದ್ರಾಕ್ಷಿ ರಸ್ಟ್ (Grape Rust)**:\n   - **ಲಕ್ಷಣಗಳು**: ಎಲೆಗಳ ಅಡಿಯಲ್ಲಿ ಕಿತ್ತಳೆ-ಕಂದು ಪುಡಿಯ ಗುಂಡುಗಳು, ಮುಂಚಿನ ಎಲೆಗಳನ್ನು ಬಿಟ್ಟುಹೋಗುವುದು.\n   - **ಚಿಕಿತ್ಸೆ**: ಬೋರ್ಡೋ ಮಿಶ್ರಣ, ಡಿಫೋಲಟಾನ್, ಪ್ರೊಪಿಕೋನಜೋಲ್, ಟೆಬುಕೋನಜೋಲ್ ಅಥವಾ ಅಜೋಕ್ಸಿಸ್ಟ್ರೋಬಿನ್ ಅನ್ನು ಬಳಸಬಹುದು.\n\n3. **ಕಪ್ಪು ವೈನ್ ಥ್ರಿಪ್ಸ್ (Black Vine Thrips)**:\n   - **ಲಕ್ಷಣಗಳು**: ಎಲೆಗಳು ಮತ್ತು ಹಣ್ಣುಗಳಲ್ಲಿ ಬೆಳ್ಳಿಯ ಪ್ಯಾಚ್‌ಗಳು, ಎಲೆಗಳಲ್ಲಿ ಕಪ್ಪು ಬಿಂದುಗಳು.\n   - **ಚಿಕಿತ್ಸೆ**: ಇನ್ಸೆಕ್ಟಿಸೈಡ್‌ಗಳನ್ನು ಬಳಸುವುದು ಕಷ್ಟಕರವಾಗಬಹುದು. ಸ್ಪಿನೋಸಡ್ ಆಧಾರಿತ ಉತ್ಪನ್ನಗಳನ್ನು ಬಳಸಬಹುದು.\n\nಈ ಸಮಸ್ಯೆಗಳನ್ನು ಪರಿಹರಿಸಲು, ಉತ್ತಮ ಕೃಷಿ ಅಭ್ಯಾಸಗಳನ್ನು ಅನುಸರಿಸುವುದು ಮತ್ತು ಸಮಯಕ್ಕೆ ತಕ್ಕಂತೆ ಸೂಕ್ತ ಚಿಕಿತ್ಸೆಯನ್ನು ನೀಡುವುದು ಮುಖ್ಯವಾಗಿದೆ.",
+        "timestamp": {
+          "$date": "2024-11-14T11:28:06.608Z"
+        }
+      }
+    ],
+    "farmer_id": "guruprasadhadimani",
+    "farmer_plot_ids": [
+      "guruthomson2acre"
+    ],
+    "conversation_id": "6735debaa1ed8cb10ddf5780",
+    "tag": "disease_pest",
+    "conv_date": "2024-11-14T11:27:54.353000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Please give me salutations<user uploaded image for analysis at 'hadimanimanikchaman/2024-11-14-1731583416778.jpg'>",
+        "timestamp": {
+          "$date": "2024-11-14T11:23:43.478Z"
+        },
+        "standalone_question": "What are some examples of salutations?",
+        "standalone_en": "What are some examples of salutations?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of your grape crop image indicates that the plants are currently unhealthy. Here are the potential diagnoses and recommendations:\n\n### 1. **Anthracnose of Grape**\n- **Symptoms**: \n  - Small brown spots on young leaves.\n  - Larger gray and dry patches.\n  - Holes in leaves due to falling patches.\n  - Affects stems and shoots.\n  - Ashy gray spots with brown margins on fruit.\n- **Treatment**: \n  - Implement an integrated approach with preventive measures and biological treatments.\n  - Use protective fungicide sprays, such as liquid lime sulfur or Bordeaux mixture, at bud break.\n  - Pesticides like captan, chlorothalonil, and mancozeb can be effective. Spray every two weeks from bud break until fruit coloring begins.\n\n### 2. **Grape Rust**\n- **Symptoms**: \n  - Orange-brown powdery masses on the underside of leaves.\n  - Premature leaf drop.\n- **Treatment**: \n  - Use fungicides like Bordeaux mixture, difolatan, propiconazole, tebuconazole, or azoxystrobin.\n  - Apply 3-4 sprays of Baycor (0.1%) at fortnight intervals during the growing season.\n\n### 3. **Downy Mildew of Grape**\n- **Symptoms**: \n  - Yellowish-green oily spots with a brownish halo on leaves.\n  - Irregular brown patches.\n  - White to grayish cottony coat under the spots.\n  - Can affect shoots, tendrils, and inflorescence.\n  - Stunted growth.\n- **Treatment**: \n  - Use protectant fungicides, ensuring proper application to the underside of leaves.\n  - Copper-based fungicides like Bordeaux mixture and dithiocarbamates are recommended.\n  - Post-infection fungicides should be applied immediately after symptoms appear.\n\n### Notes\nIt's crucial to follow good cultural practices and monitor your crop regularly to manage these diseases effectively.",
+        "timestamp": {
+          "$date": "2024-11-14T11:23:52.878Z"
+        }
+      }
+    ],
+    "farmer_id": "arunhadimani",
+    "farmer_plot_ids": [
+      "hadimanimanikchaman"
+    ],
+    "conversation_id": "6735ddbebced6ec61db7b032",
+    "tag": "others",
+    "conv_date": "2024-11-14T11:23:43.478000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Sum black spots on leaf in my plot",
+        "timestamp": {
+          "$date": "2024-11-14T11:18:09.196Z"
+        },
+        "standalone_question": "How many black spots are there on the leaves in my plot?",
+        "standalone_en": "How many black spots are there on the leaves in my plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To assist you better, please upload an image of the leaves showing the black spots. I will analyze the image for any diseases or pests.",
+        "timestamp": {
+          "$date": "2024-11-14T11:18:11.288Z"
+        }
+      }
+    ],
+    "farmer_id": "arunhadimani",
+    "farmer_plot_ids": [
+      "hadimanimanikchaman"
+    ],
+    "conversation_id": "6735dc6decd470d3eaa81575",
+    "tag": "disease_pest",
+    "conv_date": "2024-11-14T11:18:09.196000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "रेस्ट पिरीयड आहे ",
+        "timestamp": {
+          "$date": "2024-11-14T11:12:41.777Z"
+        },
+        "standalone_question": "Is there a rest period?",
+        "standalone_en": "Is there a rest period?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या पेरणीसाठी रेस्ट पिरीयड म्हणजेच पिकाची विश्रांतीची अवस्था. पेरणीच्या प्रक्रियेत, पिकांना विश्रांतीची आवश्यकता असते, ज्यामुळे ते योग्य प्रकारे वाढू शकतात. \n\nआपल्या पिकाच्या सध्याच्या अवस्थेवरून, पomegranate च्या \"Growth Stage 2\" मध्ये आहात, ज्यामुळे पिकाला योग्य पोषण आणि पाण्याची आवश्यकता आहे. \n\nआपल्याला आणखी काही माहिती हवी असल्यास, कृपया सांगा!",
+        "timestamp": {
+          "$date": "2024-11-14T11:12:46.058Z"
+        }
+      }
+    ],
+    "farmer_id": "shubhamdheple",
+    "farmer_plot_ids": [
+      "plotno1370"
+    ],
+    "conversation_id": "6735db29ecd470d3eaa81574",
+    "tag": "others",
+    "conv_date": "2024-11-14T11:12:41.777000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "આ થિપ્સ માટે કઈ દવા કામ આવે? પ્લોટ નંબર બેમાં<user uploaded image for analysis at 'plot1800/2024-11-14-1731577875496.jpg'>",
+        "timestamp": {
+          "$date": "2024-11-14T09:51:19.464Z"
+        },
+        "standalone_question": "What medication is effective for this condition?",
+        "standalone_en": "What medication is effective for this condition?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "a thips mate kai dava calm ave? plot number beman<user uploaded image for analysis at 'plot1800/2024-11-14-1731577875496.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "પ્લોટ 2માં થિપ્સ (Thrips)ના સંકેત જોવા મળ્યા છે. આ જીવાત પomegranates પર અસર કરે છે અને નીચેના લક્ષણો દર્શાવે છે:\n\n- પાનના ઉપરના ભાગે નાના ચાંદીના ધબ્બા.\n- પાનનો પીળો પડવો.\n- પાન, ફૂલો અને ફળોમાં વિકાર.\n\nથિપ્સને નિયંત્રિત કરવા માટે, તમે નીચેની દવાઓનો ઉપયોગ કરી શકો છો:\n\n1. **Fipronil**\n2. **Imidacloprid**\n3. **Acetamiprid**\n\nઆ દવાઓમાં પાઇપેરોનિલ બ્યુટોક્સાઇડનો સમાવેશ થાય છે, જે અસરકારકતા વધારવા માટે ઉપયોગી છે. \n\nયાદ રાખો કે, થિપ્સની ઝડપી પ્રજનન દરને કારણે, વિવિધ પ્રકારની પેસ્ટિસાઇડ્સ સામે તેઓ પ્રતિરોધક બની ગયા છે. તેથી, એકીકૃત દૃષ્ટિકોણ અપનાવવો અને બાયોલોજિકલ ઉપાયો સાથે પ્રિવેન્ટિવ પગલાં લેવું મહત્વપૂર્ણ છે.",
+        "timestamp": {
+          "$date": "2024-11-14T09:51:26.867Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Hggggg<user uploaded image for analysis at 'plot1800/2024-11-14-1731577920348.jpg'>",
+        "timestamp": {
+          "$date": "2024-11-14T09:52:04.535Z"
+        },
+        "standalone_question": "What is the best way to control thrips in my crops?",
+        "standalone_en": "What is the best way to control thrips in my crops?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are the important Pest occur during seedling stage and control measures?\nA: Ants, Termites, root aphids, thrips and internal borer’s pest infect during seedling stage\nDrench/spray seedling with: Chlorpyriphos @ 5mL/Ltr or Thiamethoxam @ 0.5g/ltr",
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "પ્લોટ 1માં, તમારું પomegranatesનું સ્વાસ્થ્ય અસ્વસ્થ છે. અહીં મીલીબગ (Mealybug)ના સંકેત જોવા મળ્યા છે, જે નીચેના લક્ષણો દર્શાવે છે:\n\n- પાન, ડાળીઓ, ફૂલો અને ફળોમાં સફેદ કોટન જેવા જીવાતોનું ભીડ.\n- પાનનો પીળો પડવો અને વળવું.\n- વૃક્ષની વૃદ્ધિમાં અટકાવટ.\n\nમીલીબગને નિયંત્રિત કરવા માટે, તમે નીચેની દવાઓનો ઉપયોગ કરી શકો છો:\n\n1. **Imidacloprid**\n2. **Acetamiprid**\n3. **Chlorpyrifos**\n\nયાદ રાખો કે, મીલીબગની નિયંત્રણ માટે એકીકૃત દૃષ્ટિકોણ અપનાવવો મહત્વપૂર્ણ છે, જેમાં બાયોલોજિકલ ઉપાયો અને પ્રિવેન્ટિવ પગલાંનો સમાવેશ થાય છે.",
+        "timestamp": {
+          "$date": "2024-11-14T09:52:11.165Z"
+        }
+      }
+    ],
+    "farmer_id": "mukeshbhaidealermotalaiza8",
+    "farmer_plot_ids": [
+      "plot1800",
+      "plot2799"
+    ],
+    "conversation_id": "6735c81763b7003e1d513a5c",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-11-14T09:51:19.464000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Benefits of g a",
+        "timestamp": {
+          "$date": "2024-11-14T08:05:05.583Z"
+        },
+        "standalone_question": "What are the benefits of G A?",
+        "standalone_en": "What are the benefits of G A?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "I'm here to assist you with agricultural practices and crop management. If you have specific questions about crop management, soil health, pest control, or irrigation strategies, please let me know!",
+        "timestamp": {
+          "$date": "2024-11-14T08:05:11.029Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Benefits of gibrelic acid benefits of gibrelic acid",
+        "timestamp": {
+          "$date": "2024-11-14T08:05:39.983Z"
+        },
+        "standalone_question": "What are the benefits of gibberellic acid?",
+        "standalone_en": "What are the benefits of gibberellic acid?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Gibberellic acid (GA) is a plant hormone that offers several benefits in agriculture, particularly in crop management. Here are some key advantages:\n\n1. **Promotes Seed Germination**: GA helps in breaking seed dormancy and enhances germination rates.\n\n2. **Stimulates Growth**: It promotes stem elongation and leaf expansion, leading to taller plants and increased biomass.\n\n3. **Improves Fruit Set and Size**: GA can enhance fruit development, leading to larger and more uniform fruits.\n\n4. **Increases Yield**: By promoting overall plant growth and fruit development, GA can contribute to higher crop yields.\n\n5. **Delays Senescence**: It can help delay the aging process in plants, allowing for a longer growing season and better quality produce.\n\n6. **Enhances Flowering**: GA can induce flowering in certain crops, improving the timing and quantity of blooms.\n\n7. **Improves Quality**: It can enhance the quality of fruits and vegetables by affecting color, flavor, and texture.\n\nUsing gibberellic acid can be a valuable tool in precision agriculture to optimize crop production and quality.",
+        "timestamp": {
+          "$date": "2024-11-14T08:05:49.443Z"
+        }
+      }
+    ],
+    "farmer_id": "jayantsankpalzaregaon",
+    "farmer_plot_ids": [
+      "anushkaplotjayantsankpal",
+      "manikchamanplotjayantzaregaonkairo",
+      "ssnplotjayantsapkalzaregaon",
+      "superplotjayantsankpalzaregaon"
+    ],
+    "conversation_id": "6735af31ecd470d3eaa81573",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-11-14T08:05:05.583000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is this",
+        "timestamp": {
+          "$date": "2024-11-14T07:08:53.756Z"
+        },
+        "standalone_question": "What is this?",
+        "standalone_en": "What is this?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "This is a summary of your farming details, including information about your plots, crops, and their current stages. It includes specifics like the types of crops you are growing (Grapes, Guava, and Drumstick), their locations, soil types, and the active growth stages of each crop. If you have any specific questions or need assistance with your farming practices, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-11-14T07:08:57.127Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "What is this",
+        "timestamp": {
+          "$date": "2024-11-14T07:09:23.681Z"
+        },
+        "standalone_question": "What does this summary contain?",
+        "standalone_en": "What does this summary contain?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "This is a set of frequently asked questions (FAQs) related to using the Fyllo app for managing your farming activities. It includes guidance on how to measure irrigation hours, generate a fertigation schedule, the importance of watering crops, and troubleshooting if you can't find the fertigation schedule. If you have specific questions or need help with any of these topics, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-11-14T07:09:27.549Z"
+        }
+      }
+    ],
+    "farmer_id": "pravinbalubhange",
+    "farmer_plot_ids": [
+      "Z3JhcGVzcGxvdA1730201691968",
+      "guavaplots",
+      "shevgaplot"
+    ],
+    "conversation_id": "6735a204501ba6f9fac128ae",
+    "tag": "others",
+    "conv_date": "2024-11-14T07:08:53.756000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "सध्या कुठला औषधाची गरज आहे",
+        "timestamp": {
+          "$date": "2024-11-14T05:42:10.789Z"
+        },
+        "standalone_question": "What medicine is currently needed?",
+        "standalone_en": "What medicine is currently needed?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "sadhya kuthala ausadhachi garaj aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "सध्या तुमच्या दोन्ही प्लॉट्ससाठी कोणत्याही औषधाची गरज नाही. तुम्ही तुमच्या पिकांची नियमितपणे तपासणी करत राहा.",
+        "timestamp": {
+          "$date": "2024-11-14T05:42:15.920Z"
+        }
+      }
+    ],
+    "farmer_id": "basavrajsidarayakarajanagi",
+    "farmer_plot_ids": [
+      "anushka176",
+      "manikchaman402"
+    ],
+    "conversation_id": "67358db2afeba317212a52b3",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-11-14T05:42:10.789000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is captan compitable with hexaconozole",
+        "timestamp": {
+          "$date": "2024-11-14T05:14:43.193Z"
+        },
+        "standalone_question": "Is captan compatible with hexaconazole?",
+        "standalone_en": "Is captan compatible with hexaconazole?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Captan and hexaconazole are generally not recommended to be mixed together. Captan is a broad-spectrum fungicide, while hexaconazole is a systemic fungicide. Mixing them can lead to reduced efficacy of one or both products and may increase the risk of phytotoxicity to the plants. It's best to use them separately and follow the manufacturer's guidelines for application. Always conduct a compatibility test if you are considering mixing any chemicals.",
+        "timestamp": {
+          "$date": "2024-11-14T05:14:45.907Z"
+        }
+      }
+    ],
+    "farmer_id": "murthyn",
+    "farmer_plot_ids": [
+      "murthyp1"
+    ],
+    "conversation_id": "67358743e2997f4f9451ce43",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-11-14T05:14:43.193000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Alika, segenta ,praman ",
+        "timestamp": {
+          "$date": "2024-11-14T05:00:04.767Z"
+        },
+        "standalone_question": "What do the terms \"Alika,\" \"segenta,\" and \"praman\" mean?",
+        "standalone_en": "What do the terms \"Alika,\" \"segenta,\" and \"praman\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like you are asking for information related to \"Alika,\" \"segenta,\" and \"praman.\" However, I need more context to provide accurate agricultural advice or information. Could you please clarify what specific information or assistance you need regarding these terms?",
+        "timestamp": {
+          "$date": "2024-11-14T05:00:07.325Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "All bhurshinashak ",
+        "timestamp": {
+          "$date": "2024-11-14T05:00:46.864Z"
+        },
+        "standalone_question": "What does \"bhurshinashak\" mean?",
+        "standalone_en": "What does \"bhurshinashak\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like you are asking about \"bhurshinashak,\" which typically refers to pest control or management in agriculture. If you need information on pest management strategies, pest identification, or specific pest control measures for your grape crop, please provide more details, and I'll be happy to assist you!",
+        "timestamp": {
+          "$date": "2024-11-14T05:00:50.222Z"
+        }
+      }
+    ],
+    "farmer_id": "yogirajgangadharbirajdar",
+    "farmer_plot_ids": [
+      "manikchaman452"
+    ],
+    "conversation_id": "673583d4afeba317212a52b2",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-11-14T05:00:04.767000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "13:40:13 mai kya hota hi",
+        "timestamp": {
+          "$date": "2024-11-14T04:50:51.611Z"
+        },
+        "standalone_question": "What does \"mai kya hota hi\" mean?",
+        "standalone_en": "What does \"mai kya hota hi\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "13:40:13 ka samay dopahar ka hai, jo ki 1:40 PM ke barabar hai. Is samay aap apne khet ki dekhbhal ya paani dene ki yojana bana sakte hain. Agar aapko paani dene ki zarurat hai, to is samay ka istemal kar sakte hain.",
+        "timestamp": {
+          "$date": "2024-11-14T04:50:54.927Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Khad he",
+        "timestamp": {
+          "$date": "2024-11-14T04:51:07.541Z"
+        },
+        "standalone_question": "What is fertilizer?",
+        "standalone_en": "What is fertilizer?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapko khad (fertilizer) ki zarurat hai ya nahi, yeh aapke khet ki avastha par nirbhar karta hai. Aapke plots mein \"Green Chilli\" ka \"Vegetative\" charan chal raha hai. \n\nKya aap chahte hain ki main aapke plots ke liye khad ki yojana ya schedule dekhun?",
+        "timestamp": {
+          "$date": "2024-11-14T04:51:11.392Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Haa",
+        "timestamp": {
+          "$date": "2024-11-14T04:51:27.640Z"
+        },
+        "standalone_question": "Would you like me to create a fertilizer plan or schedule for your plots?",
+        "standalone_en": "Would you like me to create a fertilizer plan or schedule for your plots?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: What should I do if I can't find the fertigation schedule after selecting the fertigation tab?\nA: If you don't see the fertigation schedule, you'll need to create a report first. Would you like assistance in creating a report? Do you have any soil, leaf, or petiole test data available? If not, we can generate a basic schedule for you using general crop and regional data.",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: How do I generate a fertigation schedule in the app?\nA: To generate a fertigation schedule, follow these steps:\n\n    1. Go to \"My Farm\"\n    2. Select \"Fertigation\"\n    3. Tap \"Create Report\"\n    4. Fill in all the required details\n    5. Save the report\n    If you have soil, leaf, or petiole test data, you can input this for a more customized schedule. Otherwise, we can generate a basic schedule using general crop and regional data.",
+            "Q: How to measure/ calculate irrigation hours /water tank of my plot in fyllo app? How do I calculate irrigation hours for my plot? How to use the irrigation hours calculator?\nA: To calculate irrigation hours in the Fyllo app, follow these steps:\n\n1. Open the Fyllo App\n2. Go to the home screen\n3. Click on the soil moisture-1 sensor\n4. Scroll down to find the \"Irrigation hours\" section\n5. Fill in the required details such as:\n   - Root width (inches)\n   - Root depth (inches)\n   - Soil retention (mm)\n   - Dripper distance (feet)\n   - Dripper discharge (liters)\n6. Click the calculate button\n\nWould you like me to calculate the irrigation hours for you right now? I can retrieve your plot's irrigation settings and perform the calculation if you say yes.\n\nTool Selection: When user says yes, I should:\n1. Use get_irrigation_installation_settings tool to retrieve plot settings\n2. Check if all values are present and valid\n3. If values are valid, use calculate_irrigation_hours tool with these values\n4. If values are missing or invalid, ask the user to provide the missing values\n5. After calculating irrigation hours, display the irrigation installation settings that were used for the calculation\n6. Ask the user if they want to calculate irrigation hours with a different set of values, and if yes, prompt them to provide those values\n\nExample response if values are missing:\n\"I checked your plot settings, but I need some additional information to calculate irrigation hours accurately. Could you please provide the [missing value(s)]? Once you provide these details, I can complete the calculation for you.\"\n\nExample response after calculation:\n\"Based on your plot's irrigation settings, the calculated irrigation hours are [X] hours. \n\nI used the following settings for this calculation:\n- Root width: [value] inches\n- Root depth: [value] inches\n- Soil retention: [value] mm\n- Dripper distance: [value] feet\n- Dripper discharge: [value] liters\n\nWould you like to calculate irrigation hours with a different set of values? If yes, please provide the new values you'd like to use.\""
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "### Fertigation Schedule for Your Plots\n\n#### Plot 1 (Deepgaon Kalan, Sirali, Harda, Madhya Pradesh)\n- **Current Stage**: Vegetative (Started on 15th October 2024)\n- **Current Week Schedule**: No fertigation needed.\n- **Next Schedule**: \n  - **Stage**: Flowering and Fruiting\n  - **Week**: 3 (Starting from 5th December 2024)\n  - **Fertigation Method**: Foliar\n  - **Fertilizers**:\n    - Magnesium oxide: 300 gm/acre\n    - Zinc Sulphate: 1.1 kg/acre\n    - Ferrous Sulphate: 300 gm/acre\n  - **Note**: The concentration of micro-nutrient fertilizers for foliar spray should not exceed 1% (e.g., 5 kg in 500 liters of water per acre).\n\n#### Plot 2 (Deepgaon Kalan, Sirali, Harda, Madhya Pradesh)\n- **Current Stage**: Vegetative (Started on 15th October 2024)\n- **Current Week Schedule**: No fertigation needed.\n- **Next Schedule**: \n  - **Stage**: Flowering and Fruiting\n  - **Week**: 1 (Starting from 21st November 2024)\n  - **Fertigation Method**: Fertigation\n  - **Fertilizers**:\n    - Option 1: \n      - 12-61-0: 2 kg/acre\n      - Urea: 2.5 kg/acre\n      - Magnesium Sulphate: 2 kg/acre\n    - Option 2: \n      - 24-24-0: 6 kg/acre\n      - Magnesium Sulphate: 2 kg/acre\n    - Option 3: \n      - Urea: 3 kg/acre\n      - Phosphoric acid 80%: 1.5 kg/acre\n      - Magnesium Sulphate: 2 kg/acre\n  - **Note**: Phosphoric acid should be applied separately, 15-20 minutes before applying other fertilizers.\n\n### Optimal Soil Moisture Levels\n- **Plot 1**: \n  - Soil Moisture 1: 0 (wet) - 23 (dry), irrigate above dry kPa\n  - Soil Moisture 2: 0 (wet) - 23 (dry), irrigate above dry kPa\n- **Plot 2**: \n  - Soil Moisture 1: 0 (wet) - 23 (dry), irrigate above dry kPa\n  - Soil Moisture 2: 0 (wet) - 23 (dry), irrigate above dry kPa\n\nAgar aapko aur koi madad chahiye, to batayein!",
+        "timestamp": {
+          "$date": "2024-11-14T04:51:41.604Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "13:40:13 grade mai kya kya ata hai",
+        "timestamp": {
+          "$date": "2024-11-14T04:52:16.786Z"
+        },
+        "standalone_question": "What topics are covered in the 13:40:13 grade?",
+        "standalone_en": "What topics are covered in the 13:40:13 grade?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "13:40:13 grade (time) ka matlab hai dopahar ka 1:40 PM. Is samay aapko kuch kaam karne ka samay milta hai, jaise:\n\n1. **Khet ki dekhbhal**: Aap apne khet ki avastha check kar sakte hain.\n2. **Paani dena**: Agar zarurat ho to paani dene ka samay hai.\n3. **Khad dena**: Agar aapko khad dena hai to is samay ka istemal kar sakte hain.\n4. **Kisan sammelan**: Agar aapke aas-paas koi kisan sammelan ya meeting ho to usme shamil ho sakte hain.\n\nYeh samay aapke dincharya ke liye mahatvapurn hai, isliye is samay ka sahi istemal karna chahiye.",
+        "timestamp": {
+          "$date": "2024-11-14T04:52:22.657Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Npk ki grade 13:40:13 mai kya kya ata hai",
+        "timestamp": {
+          "$date": "2024-11-14T04:52:43.503Z"
+        },
+        "standalone_question": "What components are included in the NPK grade 13:40:13?",
+        "standalone_en": "What components are included in the NPK grade 13:40:13?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "NPK 13:40:13 ka matlab hai ki is khad mein:\n\n- **Nitrogen (N)**: 13% \n- **Phosphorus (P)**: 40% \n- **Potassium (K)**: 13%\n\n### Iska Vistar:\n\n1. **Nitrogen (N)**: \n   - Yeh podon ki patte aur overall growth ke liye zaroori hai. Nitrogen se plants ki leafy growth badhti hai.\n\n2. **Phosphorus (P)**: \n   - Yeh podon ki root development, flowering, aur fruiting ke liye mahatvapurn hai. Phosphorus se podon ki energy transfer aur photosynthesis mein madad milti hai.\n\n3. **Potassium (K)**: \n   - Yeh podon ki overall health aur disease resistance ke liye zaroori hai. Potassium se plants ki water regulation aur enzyme activity sudharne mein madad milti hai.\n\n### Istemal:\nNPK 13:40:13 ka istemal aise samay kiya jata hai jab aapko phosphorus ki zarurat hoti hai, jaise ki flowering aur fruiting ke dauran. Yeh khad aapke khet ki soil ki avastha aur crop ki zarurat ke anusar dena chahiye. \n\nAgar aapko aur koi jankari chahiye, to batayein!",
+        "timestamp": {
+          "$date": "2024-11-14T04:52:50.678Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Or 13:0:45",
+        "timestamp": {
+          "$date": "2024-11-14T04:53:13.650Z"
+        },
+        "standalone_question": "What nutrients are present in the NPK fertilizer with a ratio of 13:0:45?",
+        "standalone_en": "What nutrients are present in the NPK fertilizer with a ratio of 13:0:45?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "NPK 13:0:45 ka matlab hai ki is khad mein:\n\n- **Nitrogen (N)**: 13%\n- **Phosphorus (P)**: 0%\n- **Potassium (K)**: 45%\n\n### Iska Vistar:\n\n1. **Nitrogen (N)**: \n   - Yeh podon ki leafy growth ke liye zaroori hai. Nitrogen se plants ki patte aur overall growth badhti hai.\n\n2. **Phosphorus (P)**: \n   - Is khad mein phosphorus nahi hai, jo ki root development aur flowering ke liye mahatvapurn hota hai.\n\n3. **Potassium (K)**: \n   - Yeh khad potassium ka uchit matra pradan karta hai, jo podon ki overall health, disease resistance, aur water regulation ke liye zaroori hai. Potassium se plants ki fruit quality aur yield sudharne mein madad milti hai.\n\n### Istemal:\nNPK 13:0:45 ka istemal tab kiya jata hai jab aapko potassium ki zarurat hoti hai, jaise ki fruiting ke dauran. Yeh khad aapke khet ki soil ki avastha aur crop ki zarurat ke anusar dena chahiye.\n\nAgar aapko aur koi jankari chahiye, to batayein!",
+        "timestamp": {
+          "$date": "2024-11-14T04:53:20.489Z"
+        }
+      }
+    ],
+    "farmer_id": "mohanpatel",
+    "farmer_plot_ids": [
+      "plot1533",
+      "plot2882"
+    ],
+    "conversation_id": "673581ab2d05a8342f1ab22a",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-11-14T04:50:51.611000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "जमिनीतून काय देणे गरजेचे आहे",
+        "timestamp": {
+          "$date": "2024-11-14T03:14:14.174Z"
+        },
+        "standalone_question": "What needs to be given from the land?",
+        "standalone_en": "What needs to be given from the land?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "jaminitun kay dene garajeche aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या प्लॉटमध्ये (Plot No 2 Sudhakar) सध्या \"Shoot Development\" या अवस्थेत आहे. या अवस्थेत, जमिनीतून खालील गोष्टी देणे गरजेचे आहे:\n\n1. **पाण्याचे व्यवस्थापन**: योग्य पाण्याची मात्रा देणे आवश्यक आहे. जमिनीतील आर्द्रता तपासून पाण्याची गरज ठरवा.\n2. **खते**: या अवस्थेत, विशेषतः नायट्रोजन, फॉस्फरस आणि पोटॅशियम यांचे संतुलित प्रमाण आवश्यक आहे. \n3. **पिकांचे संरक्षण**: रोग आणि कीड नियंत्रणासाठी योग्य उपाययोजना करणे आवश्यक आहे.\n\nआपल्याला अधिक माहिती हवी असल्यास, कृपया सांगा!",
+        "timestamp": {
+          "$date": "2024-11-14T03:14:18.067Z"
+        }
+      }
+    ],
+    "farmer_id": "maniksangamnere",
+    "farmer_plot_ids": [
+      "plotno2sudhakar637187"
+    ],
+    "conversation_id": "67356b05e2997f4f9451ce42",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-11-14T03:14:14.174000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Leaf spot",
+        "timestamp": {
+          "$date": "2024-11-14T02:45:53.509Z"
+        },
+        "standalone_question": "What is leaf spot?",
+        "standalone_en": "What is leaf spot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Leaf spot is a common plant disease caused by various pathogens, including fungi and bacteria. It manifests as dark, water-soaked spots on leaves, which can lead to leaf drop and reduced photosynthesis. \n\nTo manage leaf spot effectively, consider the following practices:\n\n1. **Cultural Practices**: Ensure proper spacing between plants for good air circulation. Avoid overhead watering to reduce leaf wetness.\n\n2. **Sanitation**: Remove and destroy infected leaves and debris to prevent the spread of the disease.\n\n3. **Fungicides**: Apply appropriate fungicides if the disease is severe. Follow the recommended application rates and timings.\n\n4. **Resistant Varieties**: If available, choose resistant varieties of crops to minimize the risk of infection.\n\n5. **Monitoring**: Regularly inspect plants for early signs of leaf spot and take action promptly.\n\nIf you need specific recommendations or a spray schedule for your Dragon fruit plot, please let me know!",
+        "timestamp": {
+          "$date": "2024-11-14T02:45:58.209Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Yellow leaf spot spery",
+        "timestamp": {
+          "$date": "2024-11-14T02:46:21.339Z"
+        },
+        "standalone_question": "What is a suitable spray for treating yellow leaf spot?",
+        "standalone_en": "What is a suitable spray for treating yellow leaf spot?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed",
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It appears that there is no scheduled spray for yellow leaf spot in your Dragon fruit plot for the upcoming week. If you notice symptoms of yellow leaf spot, you may consider applying a fungicide. \n\nPlease monitor the plants closely and take action if the disease worsens. If you need further assistance or specific product recommendations, let me know!",
+        "timestamp": {
+          "$date": "2024-11-14T02:46:26.346Z"
+        }
+      }
+    ],
+    "farmer_id": "abhijeetsarjeraoghorpade",
+    "farmer_plot_ids": [
+      "dragonfruitplot636"
+    ],
+    "conversation_id": "67356460e2997f4f9451ce40",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-11-14T02:45:53.509000+00:00"
+  }
+]

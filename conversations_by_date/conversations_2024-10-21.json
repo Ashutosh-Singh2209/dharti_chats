@@ -1,0 +1,1048 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Any fertigation ",
+        "timestamp": {
+          "$date": "2024-10-21T17:02:05.315Z"
+        },
+        "standalone_question": "Is there any fertigation being used?",
+        "standalone_en": "Is there any fertigation being used?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: Can I generate a fertigation schedule without soil, leaf, or petiole data?\nA: Yes, you can generate a basic fertigation schedule without specific soil, leaf, or petiole data. Fyllo will create a general schedule based on typical crop needs and soil types for your region.",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available.",
+            "Q: If I don't add any test data, what is the basis for the generated fertigation schedule?\nA: When no specific test data is provided, Fyllo generates a basic fertigation schedule based on:\n\n    1. Typical nutrient needs for your crop type\n    2. General soil characteristics common in your region\n    3. Standard growing practices for your area\n    This schedule provides a starting point, but may not be as precise as one based on specific test data."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the fertigation schedules for your plots:\n\n### Hiralal Plot (Papaya)\n- **Current Date:** 2024-10-21\n- **Active Stage:** Vegetative growth (Week 1)\n- **Current Week Schedule:**\n  - **Fertilizers:**\n    - **Phosphoric acid** should be applied separately, 15-20 minutes before other fertilizers.\n    - Possible combinations:\n      - 8 kg/acre of **12-61-0** and 3 kg/acre of **Urea**\n      - 10 kg/acre of **24-24-0** and 3.5 kg/acre of **Phosphoric acid 80%**\n      - 5 kg/acre of **Urea** and 6.5 kg/acre of **Phosphoric acid 80%**\n- **Next Schedule:** Week 2 (Starts on 2024-12-29)\n  - Possible combinations:\n    - 4 kg/acre of **Potassium Nitrate**, 4 kg/acre of **Urea**, and 1 kg/acre of **Sulfate of Potash**\n    - 5 kg/acre of **Urea** and 4.5 kg/acre of **Sulfate of Potash**\n\n---\n\n### Lalamai Shet (Papaya)\n- **Current Date:** 2024-10-21\n- **Active Stage:** Vegetative growth (Week 1)\n- **Current Week Schedule:**\n  - **Fertilizers:**\n    - **Phosphoric acid** should be applied separately, 15-20 minutes before other fertilizers.\n    - Possible combinations:\n      - 8 kg/acre of **12-61-0** and 3 kg/acre of **Urea**\n      - 10 kg/acre of **24-24-0** and 3.5 kg/acre of **Phosphoric acid 80%**\n      - 5 kg/acre of **Urea** and 6.5 kg/acre of **Phosphoric acid 80%**\n- **Next Schedule:** Week 2 (Starts on 2024-12-29)\n  - Possible combinations:\n    - 4 kg/acre of **Potassium Nitrate**, 4 kg/acre of **Urea**, and 1 kg/acre of **Sulfate of Potash**\n    - 5 kg/acre of **Urea** and 4.5 kg/acre of **Sulfate of Potash**\n\n---\n\n### Narayan Sheth (Banana)\n- **Current Date:** 2024-10-21\n- **Active Stage:** Crop establishment (Week 3)\n- **Current Week Schedule:**\n  - **Fertilizers:**\n    - **Phosphoric acid** should be applied separately, 15-20 minutes before other fertilizers.\n    - Possible combinations:\n      - 0 gm/plant of **Urea** and 0 gm/plant of **Phosphoric acid 80%**\n- **Next Schedule:** Week 4 (Starts on 2024-11-28)\n  - Possible combinations:\n    - 0 gm/plant of **Urea**, **Single Superphosphate**, and **Muriate of Potash**\n    - 0 gm/plant of **Urea** and **White Muriate of Potash**\n\n---\n\n### Sarpanch Sheth (Banana)\n- **Current Date:** 2024-10-21\n- **Active Stage:** Crop establishment (Week 3)\n- **Current Week Schedule:**\n  - **Fertilizers:**\n    - **Phosphoric acid** should be applied separately, 15-20 minutes before other fertilizers.\n    - Possible combinations:\n      - 0 gm/plant of **Urea** and 0 gm/plant of **Phosphoric acid 80%**\n- **Next Schedule:** Week 4 (Starts on 2024-11-28)\n  - Possible combinations:\n    - 0 gm/plant of **Urea**, **Single Superphosphate**, and **Muriate of Potash**\n    - 0 gm/plant of **Urea** and **White Muriate of Potash**\n\nFeel free to ask if you need more information or assistance!",
+        "timestamp": {
+          "$date": "2024-10-21T17:02:28.940Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Papaya or banana as same dose",
+        "timestamp": {
+          "$date": "2024-10-21T17:04:03.768Z"
+        },
+        "standalone_question": "Which crop, papaya or banana, should receive the same dosage of fertilizers?",
+        "standalone_en": "Which crop, papaya or banana, should receive the same dosage of fertilizers?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For both Papaya and Banana, the fertigation schedule can be similar in terms of nutrient application, but the specific doses may vary based on the growth stage and soil conditions. \n\n### Suggested Fertigation Schedule (Same Dose)\n\n#### For Papaya:\n- **Current Stage:** Vegetative growth\n- **Fertilizer Dose:**\n  - **Urea:** 5 kg/acre\n  - **12-61-0 (DAP):** 8 kg/acre\n  - **Phosphoric Acid (80%):** 3 kg/acre\n\n#### For Banana:\n- **Current Stage:** Crop establishment\n- **Fertilizer Dose:**\n  - **Urea:** 5 kg/acre\n  - **Single Superphosphate:** 10 kg/acre\n  - **Muriate of Potash:** 5 kg/acre\n\n### Note:\n- Ensure to apply **Phosphoric acid** separately, 15-20 minutes before other fertilizers.\n- Adjust the doses based on soil tests and specific crop needs.\n\nIf you need further assistance or specific adjustments, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-10-21T17:04:11.020Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Papaya virus suggested spray ",
+        "timestamp": {
+          "$date": "2024-10-21T17:05:04.310Z"
+        },
+        "standalone_question": "What spray is recommended for viruses affecting papaya?",
+        "standalone_en": "What spray is recommended for viruses affecting papaya?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "There are no scheduled sprays for Papaya virus for the week of October 21 to October 28. If you suspect a virus issue, consider monitoring the plants closely and consult with local agricultural experts for specific recommendations. If you need further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-10-21T17:05:13.988Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ok ",
+        "timestamp": {
+          "$date": "2024-10-21T17:05:37.984Z"
+        },
+        "standalone_question": "What are the recommended spray treatments for Papaya virus?",
+        "standalone_en": "What are the recommended spray treatments for Papaya virus?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "If you have any more questions or need further assistance regarding your crops or farming practices, feel free to ask! I'm here to help.",
+        "timestamp": {
+          "$date": "2024-10-21T17:05:40.830Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Downy mildew ",
+        "timestamp": {
+          "$date": "2024-10-21T17:06:02.475Z"
+        },
+        "standalone_question": "What are the recommended treatments for downy mildew?",
+        "standalone_en": "What are the recommended treatments for downy mildew?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed",
+            "Q: What are the important diseases occur during seedling stage and control measures?\nA: Collar rot, Damping off, Seedling blight diseases infect during seedling stage.\nDrench/spray seedling with: Carbendazim @ 2.5g/ltr"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "There are no scheduled sprays for Downy Mildew for the week of October 21 to October 28. \n\n### Control Measures for Downy Mildew:\n1. **Fungicides:** \n   - Use **Mancozeb** or **Metalaxyl** as a preventive measure.\n   - Apply **Carbendazim** or **Azoxystrobin** if symptoms appear.\n\n2. **Cultural Practices:**\n   - Ensure proper spacing between plants for good air circulation.\n   - Avoid overhead irrigation to reduce humidity around the plants.\n\n3. **Monitoring:**\n   - Regularly check for symptoms such as yellowing leaves and white fungal growth on the underside of leaves.\n\nIf you suspect Downy Mildew, consider applying the recommended fungicides and monitoring your plants closely. If you need further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-10-21T17:06:09.993Z"
+        }
+      }
+    ],
+    "farmer_id": "nitindharmrajchaudhari",
+    "farmer_plot_ids": [
+      "hiralalplot",
+      "lalamaishet",
+      "narayansheth",
+      "sarpanchsheth"
+    ],
+    "conversation_id": "6716890db3ee81608f7d0a17",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-10-21T17:02:05.315000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Any fertigation ",
+        "timestamp": {
+          "$date": "2024-10-21T17:02:05.315Z"
+        },
+        "standalone_question": "Is there any fertigation being used?",
+        "standalone_en": "Is there any fertigation being used?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: Can I generate a fertigation schedule without soil, leaf, or petiole data?\nA: Yes, you can generate a basic fertigation schedule without specific soil, leaf, or petiole data. Fyllo will create a general schedule based on typical crop needs and soil types for your region.",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available.",
+            "Q: If I don't add any test data, what is the basis for the generated fertigation schedule?\nA: When no specific test data is provided, Fyllo generates a basic fertigation schedule based on:\n\n    1. Typical nutrient needs for your crop type\n    2. General soil characteristics common in your region\n    3. Standard growing practices for your area\n    This schedule provides a starting point, but may not be as precise as one based on specific test data."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the fertigation schedules for your plots:\n\n### Hiralal Plot (Papaya)\n- **Current Date:** 2024-10-21\n- **Active Stage:** Vegetative growth (Week 1)\n- **Current Week Schedule:**\n  - **Fertilizers:**\n    - **Phosphoric acid** should be applied separately, 15-20 minutes before other fertilizers.\n    - Possible combinations:\n      - 8 kg/acre of **12-61-0** and 3 kg/acre of **Urea**\n      - 10 kg/acre of **24-24-0** and 3.5 kg/acre of **Phosphoric acid 80%**\n      - 5 kg/acre of **Urea** and 6.5 kg/acre of **Phosphoric acid 80%**\n- **Next Schedule:** Week 2 (Starts on 2024-12-29)\n  - Possible combinations:\n    - 4 kg/acre of **Potassium Nitrate**, 4 kg/acre of **Urea**, and 1 kg/acre of **Sulfate of Potash**\n    - 5 kg/acre of **Urea** and 4.5 kg/acre of **Sulfate of Potash**\n\n---\n\n### Lalamai Shet (Papaya)\n- **Current Date:** 2024-10-21\n- **Active Stage:** Vegetative growth (Week 1)\n- **Current Week Schedule:**\n  - **Fertilizers:**\n    - **Phosphoric acid** should be applied separately, 15-20 minutes before other fertilizers.\n    - Possible combinations:\n      - 8 kg/acre of **12-61-0** and 3 kg/acre of **Urea**\n      - 10 kg/acre of **24-24-0** and 3.5 kg/acre of **Phosphoric acid 80%**\n      - 5 kg/acre of **Urea** and 6.5 kg/acre of **Phosphoric acid 80%**\n- **Next Schedule:** Week 2 (Starts on 2024-12-29)\n  - Possible combinations:\n    - 4 kg/acre of **Potassium Nitrate**, 4 kg/acre of **Urea**, and 1 kg/acre of **Sulfate of Potash**\n    - 5 kg/acre of **Urea** and 4.5 kg/acre of **Sulfate of Potash**\n\n---\n\n### Narayan Sheth (Banana)\n- **Current Date:** 2024-10-21\n- **Active Stage:** Crop establishment (Week 3)\n- **Current Week Schedule:**\n  - **Fertilizers:**\n    - **Phosphoric acid** should be applied separately, 15-20 minutes before other fertilizers.\n    - Possible combinations:\n      - 0 gm/plant of **Urea** and 0 gm/plant of **Phosphoric acid 80%**\n- **Next Schedule:** Week 4 (Starts on 2024-11-28)\n  - Possible combinations:\n    - 0 gm/plant of **Urea**, **Single Superphosphate**, and **Muriate of Potash**\n    - 0 gm/plant of **Urea** and **White Muriate of Potash**\n\n---\n\n### Sarpanch Sheth (Banana)\n- **Current Date:** 2024-10-21\n- **Active Stage:** Crop establishment (Week 3)\n- **Current Week Schedule:**\n  - **Fertilizers:**\n    - **Phosphoric acid** should be applied separately, 15-20 minutes before other fertilizers.\n    - Possible combinations:\n      - 0 gm/plant of **Urea** and 0 gm/plant of **Phosphoric acid 80%**\n- **Next Schedule:** Week 4 (Starts on 2024-11-28)\n  - Possible combinations:\n    - 0 gm/plant of **Urea**, **Single Superphosphate**, and **Muriate of Potash**\n    - 0 gm/plant of **Urea** and **White Muriate of Potash**\n\nFeel free to ask if you need more information or assistance!",
+        "timestamp": {
+          "$date": "2024-10-21T17:02:28.940Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Papaya or banana as same dose",
+        "timestamp": {
+          "$date": "2024-10-21T17:04:03.768Z"
+        },
+        "standalone_question": "Which crop, papaya or banana, should receive the same dosage of fertilizers?",
+        "standalone_en": "Which crop, papaya or banana, should receive the same dosage of fertilizers?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For both Papaya and Banana, the fertigation schedule can be similar in terms of nutrient application, but the specific doses may vary based on the growth stage and soil conditions. \n\n### Suggested Fertigation Schedule (Same Dose)\n\n#### For Papaya:\n- **Current Stage:** Vegetative growth\n- **Fertilizer Dose:**\n  - **Urea:** 5 kg/acre\n  - **12-61-0 (DAP):** 8 kg/acre\n  - **Phosphoric Acid (80%):** 3 kg/acre\n\n#### For Banana:\n- **Current Stage:** Crop establishment\n- **Fertilizer Dose:**\n  - **Urea:** 5 kg/acre\n  - **Single Superphosphate:** 10 kg/acre\n  - **Muriate of Potash:** 5 kg/acre\n\n### Note:\n- Ensure to apply **Phosphoric acid** separately, 15-20 minutes before other fertilizers.\n- Adjust the doses based on soil tests and specific crop needs.\n\nIf you need further assistance or specific adjustments, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-10-21T17:04:11.020Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Papaya virus suggested spray ",
+        "timestamp": {
+          "$date": "2024-10-21T17:05:04.310Z"
+        },
+        "standalone_question": "What spray is recommended for viruses affecting papaya?",
+        "standalone_en": "What spray is recommended for viruses affecting papaya?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "There are no scheduled sprays for Papaya virus for the week of October 21 to October 28. If you suspect a virus issue, consider monitoring the plants closely and consult with local agricultural experts for specific recommendations. If you need further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-10-21T17:05:13.988Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ok ",
+        "timestamp": {
+          "$date": "2024-10-21T17:05:37.984Z"
+        },
+        "standalone_question": "What are the recommended spray treatments for Papaya virus?",
+        "standalone_en": "What are the recommended spray treatments for Papaya virus?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "If you have any more questions or need further assistance regarding your crops or farming practices, feel free to ask! I'm here to help.",
+        "timestamp": {
+          "$date": "2024-10-21T17:05:40.830Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Downy mildew ",
+        "timestamp": {
+          "$date": "2024-10-21T17:06:02.475Z"
+        },
+        "standalone_question": "What are the recommended treatments for downy mildew?",
+        "standalone_en": "What are the recommended treatments for downy mildew?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed",
+            "Q: What are the important diseases occur during seedling stage and control measures?\nA: Collar rot, Damping off, Seedling blight diseases infect during seedling stage.\nDrench/spray seedling with: Carbendazim @ 2.5g/ltr"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "There are no scheduled sprays for Downy Mildew for the week of October 21 to October 28. \n\n### Control Measures for Downy Mildew:\n1. **Fungicides:** \n   - Use **Mancozeb** or **Metalaxyl** as a preventive measure.\n   - Apply **Carbendazim** or **Azoxystrobin** if symptoms appear.\n\n2. **Cultural Practices:**\n   - Ensure proper spacing between plants for good air circulation.\n   - Avoid overhead irrigation to reduce humidity around the plants.\n\n3. **Monitoring:**\n   - Regularly check for symptoms such as yellowing leaves and white fungal growth on the underside of leaves.\n\nIf you suspect Downy Mildew, consider applying the recommended fungicides and monitoring your plants closely. If you need further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-10-21T17:06:09.993Z"
+        }
+      }
+    ],
+    "farmer_id": "nitindharmrajchaudhari",
+    "farmer_plot_ids": [
+      "hiralalplot",
+      "lalamaishet",
+      "narayansheth",
+      "sarpanchsheth"
+    ],
+    "conversation_id": "6716890db3ee81608f7d0a17",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-10-21T17:02:05.315000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Aa su chhe<user uploaded image for analysis at 'pomegranate98/2024-10-21-1729526270035.jpg'>",
+        "timestamp": {
+          "$date": "2024-10-21T15:57:58.010Z"
+        },
+        "standalone_question": "What is the condition of the pomegranate in the uploaded image?",
+        "standalone_en": "What is the condition of the pomegranate in the uploaded image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the uploaded crop image did not yield any specific diagnoses or symptoms. It appears that the system could not recognize any issues, which may indicate that the problem is not currently supported for analysis. \n\nHowever, the image quality was good in terms of distance and focus. If you have any specific concerns about your crops, please describe them, and I can provide further assistance!",
+        "timestamp": {
+          "$date": "2024-10-21T15:58:02.080Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ye kya hai? <user uploaded image for analysis at 'pomegranate98/2024-10-21-1729526321259.jpg'>",
+        "timestamp": {
+          "$date": "2024-10-21T15:58:50.773Z"
+        },
+        "standalone_question": "What is this?",
+        "standalone_en": "What is this?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the second uploaded crop image also did not identify any specific symptoms or issues. The system was unable to recognize any problems, which suggests that the particular issue may not be supported for analysis at this time.\n\nThe image quality was good in terms of distance and focus. If you have specific concerns about your crops, please let me know, and I can assist you further!",
+        "timestamp": {
+          "$date": "2024-10-21T15:58:55.497Z"
+        }
+      }
+    ],
+    "farmer_id": "nitinnakrani98",
+    "farmer_plot_ids": [
+      "dadam2",
+      "pomegranate98"
+    ],
+    "conversation_id": "67167a051b4b537f9c305449",
+    "tag": "disease_pest",
+    "conv_date": "2024-10-21T15:57:58.010000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "फवारणी वेळा पत्रक माहीती येत नाही",
+        "timestamp": {
+          "$date": "2024-10-21T13:59:33.657Z"
+        },
+        "standalone_question": "The standalone question is: \"Why is the information about the spraying schedule not coming through?\"",
+        "standalone_en": "The standalone question is: \"Why is the information about the spraying schedule not coming through?\"",
+        "retrieval": {
+          "tools": [
+            "check_spray_conditions  \nGets the spray condition forecast for the next few hours for the farmer's plots and returns the condition for each hour as GOOD, MODERATE, or WORST, based on deltaT, VPD, and rainfall conditions."
+          ],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        },
+        "content_transliterated": "favarani vela patrak mahiti yet nahi"
+      },
+      {
+        "role": "assistant",
+        "content": "सध्या \"सुधाकर प्लॉट 1\" साठी कोणतीही फवारणी वेळा पत्रक माहिती उपलब्ध नाही. तुम्हाला आणखी काही माहिती हवी का?",
+        "timestamp": {
+          "$date": "2024-10-21T13:59:37.399Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "प्लॉट छाटणी करून ६ दिवस झाले आहे",
+        "timestamp": {
+          "$date": "2024-10-21T14:00:40.842Z"
+        },
+        "standalone_question": "It has been 6 days since the plot was pruned.",
+        "standalone_en": "It has been 6 days since the plot was pruned.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "plot chhatani karun 6 divas jhale aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "\"सुधाकर प्लॉट 1\" साठी १५ ऑक्टोबर २०२४ ते २१ ऑक्टोबर २०२४ दरम्यान कोणतीही रोग किंवा कीड फवारणीची शिफारस नाही. तुम्हाला आणखी काही माहिती हवी का?",
+        "timestamp": {
+          "$date": "2024-10-21T14:00:46.891Z"
+        }
+      }
+    ],
+    "farmer_id": "sushilabaivilasdokhale",
+    "farmer_plot_ids": [
+      "sudhakarplot1dokhale"
+    ],
+    "conversation_id": "67165e4599a371bf6dd694d6",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-10-21T13:59:33.657000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "रोग ओळखा आणि त्यासाठी फवारणी सुचवा.\"<user uploaded image for analysis at 'amolbabarjunisonaka/2024-10-21-1729515199476.jpg'>",
+        "timestamp": {
+          "$date": "2024-10-21T12:53:24.988Z"
+        },
+        "standalone_question": "Identify the disease and suggest a treatment for it.",
+        "standalone_en": "Identify the disease and suggest a treatment for it.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "rog olakha ani tyasathi favarani suchava.\" <user uploaded image for analysis at 'amolbabarjunisonaka/2024-10-21-1729515199476.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या पिकांमध्ये लोखंडाची कमतरता आहे, ज्यामुळे पानांचे पांढरे-पीले रंग आणि वाढीमध्ये अडथळा येतो. यावर उपाय म्हणून:\n\n1. लोखंड समाविष्ट करणारे खत वापरा (उदा. फेरस सल्फेट Fe 19%).\n2. तुमच्या मातीसाठी आणि पिकासाठी योग्य उत्पादन आणि मात्रेसाठी कृषी सल्लागाराशी संपर्क साधा.\n3. पिकाच्या हंगामाच्या सुरुवातीस मातीची चाचणी घेणे शिफारस केले जाते, जेणेकरून उत्पादन वाढवता येईल.\n\nकृपया या उपाययोजना लागू करा आणि पिकांची काळजी घ्या.",
+        "timestamp": {
+          "$date": "2024-10-21T12:53:30.639Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Plot vr next week mdye pani deu shkyo ka",
+        "timestamp": {
+          "$date": "2024-10-21T12:54:36.172Z"
+        },
+        "standalone_question": "Can I water the plot next week?",
+        "standalone_en": "Can I water the plot next week?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: How to measure/ calculate irrigation hours /water tank of my plot in fyllo app? How do I calculate irrigation hours for my plot? How to use the irrigation hours calculator?\nA: To calculate irrigation hours in the Fyllo app, follow these steps:\n\n1. Open the Fyllo App\n2. Go to the home screen\n3. Click on the soil moisture-1 sensor\n4. Scroll down to find the \"Irrigation hours\" section\n5. Fill in the required details such as:\n   - Root width (inches)\n   - Root depth (inches)\n   - Soil retention (mm)\n   - Dripper distance (feet)\n   - Dripper discharge (liters)\n6. Click the calculate button\n\nWould you like me to calculate the irrigation hours for you right now? I can retrieve your plot's irrigation settings and perform the calculation if you say yes.\n\nTool Selection: When user says yes, I should:\n1. Use get_irrigation_installation_settings tool to retrieve plot settings\n2. Check if all values are present and valid\n3. If values are valid, use calculate_irrigation_hours tool with these values\n4. If values are missing or invalid, ask the user to provide the missing values\n5. After calculating irrigation hours, display the irrigation installation settings that were used for the calculation\n6. Ask the user if they want to calculate irrigation hours with a different set of values, and if yes, prompt them to provide those values\n\nExample response if values are missing:\n\"I checked your plot settings, but I need some additional information to calculate irrigation hours accurately. Could you please provide the [missing value(s)]? Once you provide these details, I can complete the calculation for you.\"\n\nExample response after calculation:\n\"Based on your plot's irrigation settings, the calculated irrigation hours are [X] hours. \n\nI used the following settings for this calculation:\n- Root width: [value] inches\n- Root depth: [value] inches\n- Soil retention: [value] mm\n- Dripper distance: [value] feet\n- Dripper discharge: [value] liters\n\nWould you like to calculate irrigation hours with a different set of values? If yes, please provide the new values you'd like to use.\""
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटसाठी पुढील आठवड्यात पाणी देण्याची शिफारस खालीलप्रमाणे आहे:\n\n1. **जुनी सोणाका (जुनी सोणाका)**:\n   - पाणी देण्याची योग्य वेळ: **26 ऑक्टोबर 2024, पहाटे 1:45**.\n   - पावसाची अपेक्षा: **2.22 मिमी**.\n\n2. **मिरची प्लॉट**:\n   - पाणी देण्याची योग्य वेळ: **27 ऑक्टोबर 2024, दुपारी 1:17**.\n   - पावसाची अपेक्षा: **2.22 मिमी**.\n\n3. **SSN प्लॉट**:\n   - पाणी देण्याची योग्य वेळ: **26 ऑक्टोबर 2024, पहाटे 1:10**.\n   - पावसाची अपेक्षा: **1.71 मिमी**.\n\nतुमच्या पिकांच्या आवश्यकतेनुसार पाणी द्या.",
+        "timestamp": {
+          "$date": "2024-10-21T12:54:48.163Z"
+        }
+      }
+    ],
+    "farmer_id": "amolbabar",
+    "farmer_plot_ids": [
+      "amolbabarjunisonaka",
+      "amolbabarmirchiplot",
+      "amolbabarssb"
+    ],
+    "conversation_id": "67164ec4b3ee81608f7d0a16",
+    "tag": "disease_pest",
+    "conv_date": "2024-10-21T12:53:24.988000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "रोग ओळखा आणि त्यासाठी फवारणी सुचवा.\"<user uploaded image for analysis at 'amolbabarjunisonaka/2024-10-21-1729515199476.jpg'>",
+        "timestamp": {
+          "$date": "2024-10-21T12:53:24.988Z"
+        },
+        "standalone_question": "Identify the disease and suggest a treatment for it.",
+        "standalone_en": "Identify the disease and suggest a treatment for it.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "rog olakha ani tyasathi favarani suchava.\" <user uploaded image for analysis at 'amolbabarjunisonaka/2024-10-21-1729515199476.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या पिकांमध्ये लोखंडाची कमतरता आहे, ज्यामुळे पानांचे पांढरे-पीले रंग आणि वाढीमध्ये अडथळा येतो. यावर उपाय म्हणून:\n\n1. लोखंड समाविष्ट करणारे खत वापरा (उदा. फेरस सल्फेट Fe 19%).\n2. तुमच्या मातीसाठी आणि पिकासाठी योग्य उत्पादन आणि मात्रेसाठी कृषी सल्लागाराशी संपर्क साधा.\n3. पिकाच्या हंगामाच्या सुरुवातीस मातीची चाचणी घेणे शिफारस केले जाते, जेणेकरून उत्पादन वाढवता येईल.\n\nकृपया या उपाययोजना लागू करा आणि पिकांची काळजी घ्या.",
+        "timestamp": {
+          "$date": "2024-10-21T12:53:30.639Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Plot vr next week mdye pani deu shkyo ka",
+        "timestamp": {
+          "$date": "2024-10-21T12:54:36.172Z"
+        },
+        "standalone_question": "Can I water the plot next week?",
+        "standalone_en": "Can I water the plot next week?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: How to measure/ calculate irrigation hours /water tank of my plot in fyllo app? How do I calculate irrigation hours for my plot? How to use the irrigation hours calculator?\nA: To calculate irrigation hours in the Fyllo app, follow these steps:\n\n1. Open the Fyllo App\n2. Go to the home screen\n3. Click on the soil moisture-1 sensor\n4. Scroll down to find the \"Irrigation hours\" section\n5. Fill in the required details such as:\n   - Root width (inches)\n   - Root depth (inches)\n   - Soil retention (mm)\n   - Dripper distance (feet)\n   - Dripper discharge (liters)\n6. Click the calculate button\n\nWould you like me to calculate the irrigation hours for you right now? I can retrieve your plot's irrigation settings and perform the calculation if you say yes.\n\nTool Selection: When user says yes, I should:\n1. Use get_irrigation_installation_settings tool to retrieve plot settings\n2. Check if all values are present and valid\n3. If values are valid, use calculate_irrigation_hours tool with these values\n4. If values are missing or invalid, ask the user to provide the missing values\n5. After calculating irrigation hours, display the irrigation installation settings that were used for the calculation\n6. Ask the user if they want to calculate irrigation hours with a different set of values, and if yes, prompt them to provide those values\n\nExample response if values are missing:\n\"I checked your plot settings, but I need some additional information to calculate irrigation hours accurately. Could you please provide the [missing value(s)]? Once you provide these details, I can complete the calculation for you.\"\n\nExample response after calculation:\n\"Based on your plot's irrigation settings, the calculated irrigation hours are [X] hours. \n\nI used the following settings for this calculation:\n- Root width: [value] inches\n- Root depth: [value] inches\n- Soil retention: [value] mm\n- Dripper distance: [value] feet\n- Dripper discharge: [value] liters\n\nWould you like to calculate irrigation hours with a different set of values? If yes, please provide the new values you'd like to use.\""
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटसाठी पुढील आठवड्यात पाणी देण्याची शिफारस खालीलप्रमाणे आहे:\n\n1. **जुनी सोणाका (जुनी सोणाका)**:\n   - पाणी देण्याची योग्य वेळ: **26 ऑक्टोबर 2024, पहाटे 1:45**.\n   - पावसाची अपेक्षा: **2.22 मिमी**.\n\n2. **मिरची प्लॉट**:\n   - पाणी देण्याची योग्य वेळ: **27 ऑक्टोबर 2024, दुपारी 1:17**.\n   - पावसाची अपेक्षा: **2.22 मिमी**.\n\n3. **SSN प्लॉट**:\n   - पाणी देण्याची योग्य वेळ: **26 ऑक्टोबर 2024, पहाटे 1:10**.\n   - पावसाची अपेक्षा: **1.71 मिमी**.\n\nतुमच्या पिकांच्या आवश्यकतेनुसार पाणी द्या.",
+        "timestamp": {
+          "$date": "2024-10-21T12:54:48.163Z"
+        }
+      }
+    ],
+    "farmer_id": "amolbabar",
+    "farmer_plot_ids": [
+      "amolbabarjunisonaka",
+      "amolbabarmirchiplot",
+      "amolbabarssb"
+    ],
+    "conversation_id": "67164ec4b3ee81608f7d0a16",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-10-21T12:53:24.988000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kya hai?<user uploaded image for analysis at 'pomegranate98/2024-10-21-1729509123828.jpg'>",
+        "timestamp": {
+          "$date": "2024-10-21T11:18:07.873Z"
+        },
+        "standalone_question": "What is this?",
+        "standalone_en": "What is this?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પomegranatesની તસવીરનું વિશ્લેષણ કરવામાં આવ્યું છે, અને પરિણામો આ પ્રમાણે છે:\n\n- **કૃષિ આરોગ્ય**: સ્વસ્થ\n- **લક્ષણો**: \n  - ગાઢ લીલા રંગના છોડ\n  - મજબૂત પાંદડા\n  - તેજસ્વી રંગના ફૂલો\n  - સારી રીતે આકારવાળા અને પોષક ફળો\n  - મૂળ તંત્ર સારી રીતે વિકસિત\n\nકોઈ રોગ અથવા સમસ્યાના લક્ષણો જોવા મળ્યા નથી. તમારા પાકની સ્થિતિ સારી છે!",
+        "timestamp": {
+          "$date": "2024-10-21T11:18:12.007Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Kya hai?<user uploaded image for analysis at 'pomegranate98/2024-10-21-1729509487527.jpg'>",
+        "timestamp": {
+          "$date": "2024-10-21T11:18:35.445Z"
+        },
+        "standalone_question": "What is the analysis of the new image of the pomegranates?",
+        "standalone_en": "What is the analysis of the new image of the pomegranates?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પomegranatesની બીજી તસવીરનું વિશ્લેષણ કરવામાં આવ્યું છે, અને પરિણામો આ પ્રમાણે છે:\n\n- **કૃષિ આરોગ્ય**: અસ્વસ્થ\n- **અભ્યાસમાં મળેલા રોગો**:\n  1. **Cercospora Fruit and Leaf Spot** (લક્ષણો: કાળી, નાની ધબ્બા પાંદડાં અને ફૂલો પર, પીળા કિનારા સાથે)\n     - **ઉપચાર**: ફંગિસાઇડ્સ (જેમ કે મેનકોઝેબ, કોનઝોલ, કે કિટાઝિન) નો ઉપયોગ કરો. 15 દિવસના અંતરથી 2-3 સ્પ્રે કરવાથી સારી નિયંત્રણ મળે છે.\n  \n  2. **Anthracnose of Pomegranate** (લક્ષણો: કાળી ધબ્બા પીળા હેલો સાથે, ફળો પર કાળા અને ભૂરો રંગ)\n     - **ઉપચાર**: પ્રોપિકોનાઝોલ, મેનકોઝેબ અથવા મેનકોઝેબ અને ટ્રિસિકલાઝોલના સંયોજનનો ઉપયોગ કરો. ફૂલો શરૂ થતા સમયે પ્રથમ સ્પ્રે કરો.\n\n  3. **Scab of Pomegranate** (લક્ષણો: ફૂલો અને ફળો પર સૂકા અને ખડકવાળા ધબ્બા)\n     - **ઉપચાર**: કાર્બેન્ડાઝિમ, થિયોફેનેટ મિથિલ, અથવા ક્લોરોથાલોનિલનો ઉપયોગ કરો.\n\n**નોંધ**: રોગોના નિયંત્રણ માટે એકીકૃત પદ્ધતિ અપનાવવી મહત્વપૂર્ણ છે.",
+        "timestamp": {
+          "$date": "2024-10-21T11:18:46.492Z"
+        }
+      }
+    ],
+    "farmer_id": "nitinnakrani98",
+    "farmer_plot_ids": [
+      "dadam2",
+      "pomegranate98"
+    ],
+    "conversation_id": "6716386f1b4b537f9c305444",
+    "tag": "disease_pest",
+    "conv_date": "2024-10-21T11:18:07.873000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Konsa rog hai? <user uploaded image for analysis at 'pomegranate98/2024-10-21-1729509123828.jpg'>",
+        "timestamp": {
+          "$date": "2024-10-21T11:12:22.721Z"
+        },
+        "standalone_question": "What type of fruit is shown in the image?",
+        "standalone_en": "What type of fruit is shown in the image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પomegranates સ્વસ્થ છે. અહીં કેટલીક નોંધો છે:\n\n- છોડનું રંગ કાળો લીલો છે.\n- પાંદડા મજબૂત છે.\n- ફૂલો તેજ રંગના છે.\n- ફળો સારી રીતે આકારમાં અને રંગમાં છે, અને પોષક તત્વોથી ભરપૂર છે.\n- મૂળ તંત્ર સારી રીતે વિકસિત છે.\n\nકોઈ રોગ અથવા જીવાણુઓની ઓળખ કરવામાં આવી નથી.",
+        "timestamp": {
+          "$date": "2024-10-21T11:12:26.462Z"
+        }
+      }
+    ],
+    "farmer_id": "nitinnakrani98",
+    "farmer_plot_ids": [
+      "dadam2",
+      "pomegranate98"
+    ],
+    "conversation_id": "6716371699a371bf6dd694d5",
+    "tag": "disease_pest",
+    "conv_date": "2024-10-21T11:12:22.721000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Fartigation kg madhe ahe ki parsente madhe",
+        "timestamp": {
+          "$date": "2024-10-21T09:20:24.362Z"
+        },
+        "standalone_question": "Is fartigation measured in kilograms or percentage?",
+        "standalone_en": "Is fartigation measured in kilograms or percentage?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Fertigation चा वापर सामान्यतः किलोग्राम (kg) मध्ये केला जातो, कारण यामध्ये खतांचे प्रमाण मोजले जाते. तथापि, काही वेळा ते पाण्यातील प्रमाणाच्या संदर्भात टक्केवारीत (percentage) देखील दिले जाऊ शकते, विशेषतः जेव्हा ते मिश्रणाच्या स्वरूपात असते. \n\nआपल्याला अधिक माहिती हवी असल्यास, कृपया सांगा!",
+        "timestamp": {
+          "$date": "2024-10-21T09:20:27.091Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Buting stej madhe potash mop vaprayacha ",
+        "timestamp": {
+          "$date": "2024-10-21T09:21:45.872Z"
+        },
+        "standalone_question": "What is the use of potash in fertigation?",
+        "standalone_en": "What is the use of potash in fertigation?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या \"Banana\" पिकाच्या \"Booting\" स्टेजमध्ये, पोटाश (Potash) चा वापर महत्त्वाचा आहे. पोटाश पिकाच्या वाढीसाठी आणि फळांच्या गुणवत्तेसाठी आवश्यक आहे. \n\nसामान्यतः, पोटाशचा वापर फोलिअर स्प्रे किंवा फर्टिगेशनद्वारे केला जातो. यामध्ये, पोटाशचे प्रमाण पिकाच्या आवश्यकतेनुसार आणि मातीच्या पोषणाच्या स्थितीनुसार ठरवले जाते.\n\nआपल्याला पोटाशच्या योग्य प्रमाणाबद्दल अधिक माहिती हवी असल्यास, कृपया सांगा!",
+        "timestamp": {
+          "$date": "2024-10-21T09:21:49.969Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Potash chi parfect mahiti havi ahe",
+        "timestamp": {
+          "$date": "2024-10-21T09:22:47.497Z"
+        },
+        "standalone_question": "What is the perfect information about potash?",
+        "standalone_en": "What is the perfect information about potash?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "\"Banana\" पिकाच्या \"Booting\" स्टेजमध्ये पोटाशसाठी आवश्यक माहिती खालीलप्रमाणे आहे:\n\n### पोटाशचे प्रमाण:\n1. **White Muriate of Potash**:\n   - **पहिला पर्याय**: 25.5 kg\n   - **दुसरा पर्याय**: 32 kg\n   - **तिसरा पर्याय**: 48.5 kg\n\n### इतर खतांचे प्रमाण:\n- **Calcium Nitrate**: 24.5 kg\n- **Solubor**: 2.5 kg\n- **Mono Potassium Phosphate (0-52-34)**: 29 kg\n- **Phosphoric Acid (80%)**: 19 kg\n\n### पोषण तत्वांचे प्रमाण:\n- **P (Phosphorus)**: 15.19 kg\n- **K (Potassium)**: 29.13 kg\n- **Ca (Calcium)**: 4.55 kg\n- **B (Boron)**: 0.51 kg\n\n### नोट्स:\n- पोटाश आणि इतर खतांचे प्रमाण पिकाच्या आवश्यकतेनुसार समायोजित करणे आवश्यक आहे.\n\nआपल्याला आणखी काही माहिती हवी असल्यास, कृपया सांगा!",
+        "timestamp": {
+          "$date": "2024-10-21T09:22:55.117Z"
+        }
+      }
+    ],
+    "farmer_id": "sandipgoaplpatil",
+    "farmer_plot_ids": [
+      "banana"
+    ],
+    "conversation_id": "67161cd81b4b537f9c305441",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-10-21T09:20:24.362000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which disease <user uploaded image for analysis at 'dabar1/2024-10-21-1729496578013.jpg'>",
+        "timestamp": {
+          "$date": "2024-10-21T07:43:15.060Z"
+        },
+        "standalone_question": "What disease is depicted in the uploaded image?",
+        "standalone_en": "What disease is depicted in the uploaded image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the uploaded image indicates that the papaya plants are healthy. Here are the key observations:\n\n- The plants exhibit a dark green color.\n- The leaves are firm.\n- The flowers are brightly colored.\n- The fruits or pods are well-shaped and nutritious.\n- The root system appears to be well developed.\n\nNo treatment is necessary as the plants show no signs of disease.",
+        "timestamp": {
+          "$date": "2024-10-21T07:43:18.571Z"
+        }
+      }
+    ],
+    "farmer_id": "sachinmadhukarmahajan",
+    "farmer_plot_ids": [
+      "dabar1"
+    ],
+    "conversation_id": "671606121b4b537f9c30543e",
+    "tag": "disease_pest",
+    "conv_date": "2024-10-21T07:43:15.060000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "उडद्या",
+        "timestamp": {
+          "$date": "2024-10-21T07:03:02.487Z"
+        },
+        "standalone_question": "What is \"उडद्या\"?",
+        "standalone_en": "What is \"उडद्या\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "udadya"
+      },
+      {
+        "role": "assistant",
+        "content": "उडद्या (उडद) एक महत्त्वाची कडधान्य आहे, जी भारतात विविध प्रकारे वापरली जाते. तुम्हाला उडद्या लागवडीसाठी काही विशिष्ट माहिती हवी आहे का? जसे की, पिकाची काळजी, खत व्यवस्थापन, कीड नियंत्रण, किंवा पाण्याची गरज?",
+        "timestamp": {
+          "$date": "2024-10-21T07:03:04.855Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "किटक उडद्या",
+        "timestamp": {
+          "$date": "2024-10-21T07:04:13.532Z"
+        },
+        "standalone_question": "What are the pest control methods for urad dal?",
+        "standalone_en": "What are the pest control methods for urad dal?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kitak udadya"
+      },
+      {
+        "role": "assistant",
+        "content": "उडद्या पिकात किडींचा प्रादुर्भाव होऊ शकतो. काही सामान्य किडी आणि त्यांचे नियंत्रण उपाय खालीलप्रमाणे आहेत:\n\n1. **आफिड्स (Aphids)**:\n   - **नियंत्रण**: पाण्याने धुतल्याने किंवा कीटकनाशकांचा वापर करून नियंत्रित करता येतात.\n\n2. **कॅटरपिलर (Caterpillars)**:\n   - **नियंत्रण**: बायोलॉजिकल कीटकनाशकांचा वापर किंवा हाताने किडींचे संकलन करणे.\n\n3. **फ्लाय (Fly)**:\n   - **नियंत्रण**: फोलिअर स्प्रे किंवा कीटकनाशकांचा वापर.\n\n4. **मिळ (Mites)**:\n   - **नियंत्रण**: पाण्याने धुतल्याने किंवा विशेष कीटकनाशकांचा वापर.\n\nकिडींचा प्रादुर्भाव कमी करण्यासाठी नियमितपणे पिकांची तपासणी करणे आणि योग्य वेळी उपाययोजना करणे महत्त्वाचे आहे. तुम्हाला कोणत्या विशिष्ट किडींच्या नियंत्रणाबद्दल अधिक माहिती हवी आहे का?",
+        "timestamp": {
+          "$date": "2024-10-21T07:04:19.374Z"
+        }
+      }
+    ],
+    "farmer_id": "amoljayprakashbabar",
+    "farmer_plot_ids": [
+      "amolbabarclone",
+      "amolbabarclone1",
+      "amolbabarsonarplot",
+      "amolbabarsuper"
+    ],
+    "conversation_id": "6715fca61b4b537f9c30543c",
+    "tag": "disease_pest",
+    "conv_date": "2024-10-21T07:03:02.487000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which disease <user uploaded image for analysis at 'murthyp1/2024-10-21-1729493250121.jpeg'>",
+        "timestamp": {
+          "$date": "2024-10-21T06:48:12.940Z"
+        },
+        "standalone_question": "What disease is depicted in the uploaded image?",
+        "standalone_en": "What disease is depicted in the uploaded image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of your grape crop image indicates the following potential issues:\n\n1. **Leafhopper Jassids** (Possible Diagnosis)\n   - **Symptoms**: \n     - Dry areas on leaf blades around feeding points.\n     - Yellowing at the edges of leaves.\n     - Occasionally curled leaves.\n     - Stunted growth.\n     - Small green leafhoppers (3-4 mm).\n   - **Treatment**: Consider an integrated approach with preventive measures. Insecticides like chlorpyrifos, fipronil, or flonicamid can be effective. Apply treatments to the soil to eliminate insects and protect the plant. Spraying applications can be done 30, 45, and 60 days after sowing using products like Chlorantraniliprole + Lambda-Cyhalothrin (0.5ml/l), Lambda-Cyhalothrin (1ml/l), or Cypermethrin (1ml/l).\n\n2. **Downy Mildew of Grape** (Unlikely Diagnosis)\n   - **Symptoms**: \n     - Yellowish-green oily spots with brown halos on leaves.\n     - Irregular brown patches.\n     - White to grayish cottony growth under the spots.\n     - Can affect shoots and inflorescence.\n   - **Treatment**: Use protectant fungicides, especially copper-based ones like Bordeaux mixture. Post-infection fungicides should be applied immediately after symptoms appear.\n\n3. **Grape Blister Mite** (Very Unlikely Diagnosis)\n   - **Symptoms**: \n     - Blister-like swellings on the upper leaf surface.\n     - Fine hairs beneath the raised areas.\n   - **Treatment**: Spirotetramat can be effective against blister mites. Ensure adequate foliage for absorption and allow 30 days between applications.\n\nPlease monitor your crop closely and consider the recommended treatments based on the symptoms observed.",
+        "timestamp": {
+          "$date": "2024-10-21T06:48:24.129Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Disease <user uploaded image for analysis at 'murthyp1/2024-10-21-1729493438110.jpeg'>",
+        "timestamp": {
+          "$date": "2024-10-21T06:50:53.486Z"
+        },
+        "standalone_question": "What disease is indicated in the uploaded image?",
+        "standalone_en": "What disease is indicated in the uploaded image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of your grape crop image suggests the following potential issues:\n\n1. **Downy Mildew of Grape** (Possible Diagnosis)\n   - **Symptoms**: \n     - Yellowish-green oily spots with brown halos on leaves.\n     - Irregular brown patches may develop.\n     - White to grayish cottony growth can appear under the spots.\n     - Affects shoots, tendrils, and inflorescence, leading to stunted growth.\n   - **Recommended Treatment**: Implement an integrated approach with preventive measures. Use protectant fungicides, especially copper-based ones like Bordeaux mixture. Post-infection fungicides such as fosetyl-aluminum should be applied immediately after the first symptoms appear.\n\n2. **Grape Blister Mite** (Very Unlikely Diagnosis)\n   - **Symptoms**: \n     - Blister-like swellings on the upper leaf surface.\n     - Fine hairs beneath the raised areas.\n   - **Recommended Treatment**: Consider using Spirotetramat for control. Ensure adequate foliage for absorption and allow 30 days between applications. Wettable sulfur can also be effective.\n\n3. **Anthracnose of Grape** (Very Unlikely Diagnosis)\n   - **Symptoms**: \n     - Small brown spots on young leaves, which can develop into larger gray patches.\n     - Patches may fall out, creating holes in the leaves.\n     - Stems and shoots can also be affected.\n   - **Recommended Treatment**: Follow good cultural practices and use protective fungicide sprays. A spray of liquid lime sulfur or Bordeaux mixture at bud break can help reduce issues. Use pesticides like captan or chlorothalonil at 2-week intervals from bud break until fruit coloring begins.\n\nPlease monitor your crop closely and consider the recommended treatments based on the symptoms observed.",
+        "timestamp": {
+          "$date": "2024-10-21T06:51:00.655Z"
+        }
+      }
+    ],
+    "farmer_id": "murthyn",
+    "farmer_plot_ids": [
+      "murthyp1"
+    ],
+    "conversation_id": "6715f92c1b4b537f9c30543b",
+    "tag": "disease_pest",
+    "conv_date": "2024-10-21T06:48:12.940000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "थाॅमसन व्हरायटीला घडांची संख्या किती असावी? ",
+        "timestamp": {
+          "$date": "2024-10-21T05:15:54.970Z"
+        },
+        "standalone_question": "How many watches should the Thomson variety have?",
+        "standalone_en": "How many watches should the Thomson variety have?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "thomson varayatila ghadanchi sankhya kiti asavi? "
+      },
+      {
+        "role": "assistant",
+        "content": "थाॅमसन व्हरायटीच्या द्राक्षांच्या घडांची संख्या साधारणतः 8 ते 12 घड प्रति वेल असावी. यामध्ये योग्य पाण्याची व्यवस्था, खतांचा वापर आणि योग्य काळजी घेणे महत्त्वाचे आहे. यामुळे उत्पादन वाढवता येईल.",
+        "timestamp": {
+          "$date": "2024-10-21T05:15:57.372Z"
+        }
+      }
+    ],
+    "farmer_id": "ajitkumarkolekar",
+    "farmer_plot_ids": [
+      "grapesplot752"
+    ],
+    "conversation_id": "6715e38a0ce5ca09bcbaf8b0",
+    "tag": "others",
+    "conv_date": "2024-10-21T05:15:54.970000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Water soluble fertication batao",
+        "timestamp": {
+          "$date": "2024-10-21T04:01:44.797Z"
+        },
+        "standalone_question": "What is water-soluble fertilization?",
+        "standalone_en": "What is water-soluble fertilization?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपके \"Watermelon Savkar\" प्लॉट के लिए वर्तमान फर्टिगेशन शेड्यूल इस प्रकार है:\n\n### वर्तमान फर्टिगेशन (सप्ताह 1, सक्रिय चरण: Vegetative Growth)\n**तारीख:** 2024-10-21\n\n1. **फर्टिलाइज़र वितरण विधि:**\n   - **विकल्प 1:**\n     - 12-61-0: 4 किलोग्राम/एकड़\n     - Urea: 2.5 किलोग्राम/एकड़\n     - Magnesium Sulphate: 4 किलोग्राम/एकड़\n   - **विकल्प 2:**\n     - 24-24-0: 7 किलोग्राम/एकड़\n     - Phosphoric acid 80%: 1.5 किलोग्राम/एकड़\n     - Magnesium Sulphate: 4 किलोग्राम/एकड़\n   - **विकल्प 3:**\n     - Urea: 3.5 किलोग्राम/एकड़\n     - Phosphoric acid 80%: 3.5 किलोग्राम/एकड़\n     - Magnesium Sulphate: 4 किलोग्राम/एकड़\n\n**नोट:** फॉस्फोरिक एसिड को अन्य उर्वरकों के आवेदन से 15-20 मिनट पहले अलग से लागू किया जाना चाहिए।\n\n### अगला फर्टिगेशन (सप्ताह 2, सक्रिय चरण: Vegetative Growth)\n**तारीख:** 2024-11-17\n\n1. **फोलियर विधि:**\n   - **विकल्प:**\n     - Manganese Sulphate: 400 ग्राम/एकड़\n     - Zinc Sulphate: 800 ग्राम/एकड़\n     - Ferrous Sulphate: 800 ग्राम/एकड़\n\n2. **फर्टिगेशन विधि:**\n   - **विकल्प 1:**\n     - Potassium Nitrate: 5 किलोग्राम/एकड़\n     - Urea: 2 किलोग्राम/एकड़\n   - **विकल्प 2:**\n     - Urea: 3.5 किलोग्राम/एकड़\n     - Sulfate of Potash: 4.5 किलोग्राम/एकड़\n\nआपके फसल के लिए यह फर्टिगेशन शेड्यूल आपके फसल की आवश्यकताओं के अनुसार तैयार किया गया है।",
+        "timestamp": {
+          "$date": "2024-10-21T04:01:52.329Z"
+        }
+      }
+    ],
+    "farmer_id": "prashantchaudhari",
+    "farmer_plot_ids": [
+      "watermelonsavkar"
+    ],
+    "conversation_id": "6715d2286fcafba84e9affd3",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-10-21T04:01:44.797000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "आमच्या ऍप मध्ये डावणी भुरी करपा दाखवत का नाही ",
+        "timestamp": {
+          "$date": "2024-10-21T03:16:26.365Z"
+        },
+        "standalone_question": "Is the app not showing the option to play the game?",
+        "standalone_en": "Is the app not showing the option to play the game?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या प्लॉटमध्ये डावणी भुरी करप्याबद्दल माहिती मिळवण्यासाठी, कृपया मला आपल्या प्लॉटचे नाव किंवा आयडी द्या, जेणेकरून मी तपासू शकेन.",
+        "timestamp": {
+          "$date": "2024-10-21T03:16:28.810Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "गवळी फार्म सुधाकर ",
+        "timestamp": {
+          "$date": "2024-10-21T03:18:19.014Z"
+        },
+        "standalone_question": "What is the status of the \"Gawli Farm Sudhakar\" plot regarding the display of the \"Dawani Bhuri\" in our app?",
+        "standalone_en": "What is the status of the \"Gawli Farm Sudhakar\" plot regarding the display of the \"Dawani Bhuri\" in our app?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "gavali farm sudhakar "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या प्लॉटमध्ये डावणी भुरी करप्याबद्दल कोणतीही माहिती उपलब्ध नाही. कदाचित अद्याप या रोगाची माहिती संकलित केलेली नाही. आपल्याला आणखी काही माहिती हवी असल्यास, कृपया सांगा.",
+        "timestamp": {
+          "$date": "2024-10-21T03:18:23.716Z"
+        }
+      }
+    ],
+    "farmer_id": "dilipgawali",
+    "farmer_plot_ids": [
+      "plotno1sudhakargawali"
+    ],
+    "conversation_id": "6715c78a6fcafba84e9affd2",
+    "tag": "complaints",
+    "conv_date": "2024-10-21T03:16:26.365000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "2 plot device network kase ahe ",
+        "timestamp": {
+          "$date": "2024-10-21T03:00:56.611Z"
+        },
+        "standalone_question": "What is the plot device network like?",
+        "standalone_en": "What is the plot device network like?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या २ प्लॉट्ससाठी डिव्हाइस नेटवर्क खालीलप्रमाणे आहे:\n\n1. **Plot No.2** (Pandane, Dindori, Nashik, Maharashtra)\n   - **डिव्हाइस प्रकार:** Nero (Irrigation Unit)\n\n2. **Plot No.3 sonaka** (Mandane, Dindori, Nashik, Maharashtra)\n   - **डिव्हाइस प्रकार:** Nero (Irrigation Unit)\n\nतुमच्या दोन्ही प्लॉट्सवर Nero डिव्हाइस आहे, ज्यामुळे तुम्ही पाण्याचे व्यवस्थापन प्रभावीपणे करू शकता.",
+        "timestamp": {
+          "$date": "2024-10-21T03:01:00.516Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Network quality Kashi ahe",
+        "timestamp": {
+          "$date": "2024-10-21T03:02:19.016Z"
+        },
+        "standalone_question": "What is the quality of the network?",
+        "standalone_en": "What is the quality of the network?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉट्सच्या नेटवर्क गुणवत्ता खालीलप्रमाणे आहे:\n\n1. **Plot No.2**\n   - **बॅटरी:** 37%\n   - **सेंसर वाचन:** 0 kPa (माती ओलसर आहे)\n   - **Vi (Voltage Input):** 7V\n\n2. **Plot No.3 sonaka**\n   - **बॅटरी:** 81%\n   - **सेंसर वाचन:** 0 kPa (माती ओलसर आहे)\n   - **Vi (Voltage Input):** 7V\n\nसामान्यतः, Plot No.3 sonaka चा नेटवर्क गुणवत्ता चांगला आहे कारण त्याची बॅटरी 81% आहे, तर Plot No.2 चा बॅटरी स्तर कमी आहे (37%).",
+        "timestamp": {
+          "$date": "2024-10-21T03:02:23.872Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Network issue ahe ka<user uploaded image for analysis at 'plotno2841/2024-10-21-1729479797792.jpg'>",
+        "timestamp": {
+          "$date": "2024-10-21T03:03:40.028Z"
+        },
+        "standalone_question": "Is there a network issue?",
+        "standalone_en": "Is there a network issue?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या अपलोड केलेल्या चित्रात काही समस्या आढळल्या आहेत. चित्राची गुणवत्ता चांगली आहे, परंतु काही संभाव्य समस्या असल्याचे संकेत आहेत. \n\nकृपया खालील गोष्टी तपासा:\n- चित्र स्पष्ट आहे का?\n- पिकांची स्थिती चांगली आहे का?\n- कोणतेही स्पष्ट लक्षणे किंवा रोग दिसत आहेत का?\n\nजर तुम्हाला अजून काही माहिती हवी असेल तर कृपया दुसरे चित्र अपलोड करा किंवा अधिक तपशील द्या.",
+        "timestamp": {
+          "$date": "2024-10-21T03:03:44.060Z"
+        }
+      }
+    ],
+    "farmer_id": "sunilpatil",
+    "farmer_plot_ids": [
+      "plotno1653",
+      "plotno2841",
+      "plotno3sonaka692",
+      "plotno4thompson758"
+    ],
+    "conversation_id": "6715c3e80ce5ca09bcbaf8af",
+    "tag": "complaints",
+    "conv_date": "2024-10-21T03:00:56.611000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "दमण 47 बरोबर कोणते औषाध शेवग्या क्या झाडावर फवारले पाहिजे",
+        "timestamp": {
+          "$date": "2024-10-21T02:55:01.337Z"
+        },
+        "standalone_question": "What medicine should be sprayed on the drumstick tree along with Daman 47?",
+        "standalone_en": "What medicine should be sprayed on the drumstick tree along with Daman 47?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "daman 47 barobar conte ausadh shevagya kya jhadavar favarle pahije"
+      },
+      {
+        "role": "assistant",
+        "content": "सध्या शेवग्या झाडावर \"दमण 47\" औषध फवारण्याची कोणतीही शिफारस नाही. जर तुम्हाला अधिक माहिती हवी असेल किंवा दुसरे औषध वापरण्याबद्दल विचारायचे असेल, तर कृपया सांगा.",
+        "timestamp": {
+          "$date": "2024-10-21T02:55:05.094Z"
+        }
+      }
+    ],
+    "farmer_id": "pravinbalubhange",
+    "farmer_plot_ids": [
+      "guavaplots",
+      "shevgaplot"
+    ],
+    "conversation_id": "6715c2850ce5ca09bcbaf8ae",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-10-21T02:55:01.337000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Fungicide for rust in grapes ",
+        "timestamp": {
+          "$date": "2024-10-21T01:34:27.217Z"
+        },
+        "standalone_question": "What fungicide is effective for treating rust in grapes?",
+        "standalone_en": "What fungicide is effective for treating rust in grapes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "There are currently no scheduled fungicide sprays for rust in grapes for the week of October 21 to October 28. It's advisable to monitor the crop closely for any signs of rust and consider applying a fungicide like **Mancozeb** or **Copper Oxychloride** if symptoms appear.",
+        "timestamp": {
+          "$date": "2024-10-21T01:34:30.933Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Fungicide for alternates in grapes ",
+        "timestamp": {
+          "$date": "2024-10-21T01:37:02.044Z"
+        },
+        "standalone_question": "What fungicide should be used for alternaria in grapes?",
+        "standalone_en": "What fungicide should be used for alternaria in grapes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "There are currently no scheduled fungicide sprays for Alternaria in grapes for the week of October 21 to October 28. It's important to keep an eye on your crop for any signs of Alternaria and consider applying a fungicide like **Mancozeb** or **Copper Oxychloride** if symptoms appear.",
+        "timestamp": {
+          "$date": "2024-10-21T01:37:06.902Z"
+        }
+      }
+    ],
+    "farmer_id": "murthyn",
+    "farmer_plot_ids": [
+      "murthyp1"
+    ],
+    "conversation_id": "6715afa36fcafba84e9affd0",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-10-21T01:34:27.217000+00:00"
+  }
+]

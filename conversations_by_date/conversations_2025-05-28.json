@@ -1,0 +1,964 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "આજનુ હવામાન ખોટુ બતાવ્યુ",
+        "en": "Today's weather is shown to be wrong",
+        "timestamp": {
+          "$date": "2025-05-28T18:15:35.250Z"
+        },
+        "standalone_question": "The weather forecast for today was incorrect.",
+        "standalone_en": "The weather forecast for today was incorrect.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ajanu havaman khotu batavyu"
+      },
+      {
+        "role": "assistant",
+        "content": "હવામાનની આગાહી 65-70% ની ચોકસાઈ સાથે થાય છે, તેથી ક્યારેક ખોટા પરિણામો મળી શકે છે. જો તમને વધુ ચોકસાઈની જરૂર હોય, તો તમે જીવંત ડેટા અથવા અન્ય સ્ત્રોતોનો ઉપયોગ કરી શકો છો.",
+        "en": "Weather forecasts are made with an accuracy of 65-70%, so sometimes wrong results can be obtained. If you need more accuracy, you can use live data or other sources.",
+        "timestamp": {
+          "$date": "2025-05-28T18:15:39.018Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "આસ્ત્રોત શુ કામનો",
+        "en": "What is the source of work?",
+        "timestamp": {
+          "$date": "2025-05-28T18:16:07.062Z"
+        },
+        "standalone_question": "What is the purpose of these sources?",
+        "standalone_en": "What is the purpose of these sources?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "astrot shoe kamano"
+      },
+      {
+        "role": "assistant",
+        "content": "હવામાનની આગાહી માટેના સ્ત્રોતો વિવિધ પ્રકારના ડેટા પ્રદાન કરે છે, જેમ કે:\n\n1. **જીવંત હવામાન ડેટા**: આમાં તાજા હવામાનની માહિતી, જેમ કે તાપમાન, આહલાદકતા, અને વરસાદનો સમાવેશ થાય છે.\n\n2. **હવામાનની આગાહી**: આમાં આગામી દિવસો માટેની હવામાનની આગાહી હોય છે, જે ખેડૂતોને ખેતીની યોજના બનાવવા માટે મદદ કરે છે.\n\n3. **હવામાનના ઐતિહાસિક ડેટા**: આમાં ભૂતકાળમાંના હવામાનના આંકડા હોય છે, જે ખેડૂતોને પાકની વૃદ્ધિ અને વિકાસ માટેની શરતોને સમજવામાં મદદ કરે છે.\n\nઆ માહિતીનો ઉપયોગ કરીને, તમે તમારા પાકની સંભાળ અને સંચાલન માટે યોગ્ય નિર્ણય લઈ શકો છો.",
+        "en": "Sources for weather forecasting provide a variety of data, such as:\n\n1. **Live weather data**: This includes fresh weather information, such as temperature, humidity, and rainfall.\n\n2. **Weather Forecast**: This has a weather forecast for the coming days, which helps the farmers to plan for farming.\n\n3. **Historical weather data**: These contain weather statistics from the past, which help farmers understand the conditions for crop growth and development.\n\nUsing this information, you can make the right decision for the care and management of your crops.",
+        "timestamp": {
+          "$date": "2025-05-28T18:16:13.136Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "આગાહી ખોટી કેમ છે",
+        "en": "Why the forecast is wrong",
+        "timestamp": {
+          "$date": "2025-05-28T18:16:47.475Z"
+        },
+        "standalone_question": "Why is the weather forecast sometimes inaccurate?",
+        "standalone_en": "Why is the weather forecast sometimes inaccurate?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is the weather forecast accuracy?\nA: Only Weather algorithms have an accuracy of 65-70%."
+          ]
+        },
+        "content_transliterated": "agahi khoti came che"
+      },
+      {
+        "role": "assistant",
+        "content": "હવામાનની આગાહી ખોટી હોઈ શકે છે કારણ કે:\n\n1. **અલ્ગોરિધમની મર્યાદા**: હવામાનની આગાહી માટેના અલ્ગોરિધમમાં 65-70% ની ચોકસાઈ હોય છે, જે ક્યારેક ખોટા પરિણામો આપી શકે છે.\n\n2. **સ્થાનિક પરિસ્થિતિઓ**: સ્થાનિક પરિસ્થિતિઓ, જેમ કે ભૂગોળ, વાવાઝોડા, અને અન્ય પર્યાવરણના તત્વો, આગાહી પર અસર કરી શકે છે.\n\n3. **ડેટા સ્રોતો**: જો હવામાનના ડેટા સ્રોતોમાં ખામી હોય, તો તે ખોટી આગાહીનું કારણ બની શકે છે.\n\n4. **અનિશ્ચિતતા**: હવામાનમાં સ્વાભાવિક અનિશ્ચિતતા હોય છે, જે આગાહી કરવામાં મુશ્કેલીઓ ઊભી કરી શકે છે.\n\nજો તમને ચોકસાઈની જરૂર હોય, તો જીવંત ડેટા અથવા અન્ય સ્ત્રોતોનો ઉપયોગ કરવો વધુ સારું રહેશે.",
+        "en": "The weather forecast may be incorrect because:\n\n1. Limitation of the **algorithm**: The algorithm for weather forecasting has an accuracy of 65-70%, which can sometimes give wrong results.\n\n2. **Local conditions**: Local conditions, such as elements of geography, hurricanes, and other environments, can affect forecasting.\n\n3. **Data sources**: If there is a flaw in weather data sources, it can lead to incorrect forecasts.\n\n4. **Uncertainty**: There is a natural uncertainty in the weather, which can create difficulties in making predictions.\n\nIf you need accuracy, it would be better to use live data or other sources.",
+        "timestamp": {
+          "$date": "2025-05-28T18:16:54.894Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખ્યાલથી ફાયલો બરાબર કામ નથી કરતુ",
+        "en": "I don't think the file is working properly",
+        "timestamp": {
+          "$date": "2025-05-28T18:17:43.589Z"
+        },
+        "standalone_question": "Why do you think the files are not working properly?",
+        "standalone_en": "Why do you think the files are not working properly?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara khyalathi faylo barabar calm nathi kartu"
+      },
+      {
+        "role": "assistant",
+        "content": "જો તમને ફાયલો સાથે સમસ્યા આવી રહી છે, તો તમે ફાયલો એપ્લિકેશનમાં સપોર્ટ ટિકિટ ઉઠાવી શકો છો. જો સમસ્યા હલ ન થાય, તો વધુ સહાય માટે ફાયલોના ગ્રાહક સપોર્ટનો સંપર્ક કરો.",
+        "en": "If you are having a problem with the files, you can pick up the support ticket in the Files app. If the problem is not resolved, contact The File's customer support for further help.",
+        "timestamp": {
+          "$date": "2025-05-28T18:17:48.135Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140",
+      "sheshpalot"
+    ],
+    "conversation_id": "683752c5b400ee2193acdac3",
+    "_id": "683752c5b400ee2193acdac3",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-05-28T18:22:43.592000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-05-28T18:15:35.250000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "कशामुळे होत आहे<user uploaded image for analysis at 'guavaplot271/2025-05-28-1748453566061.jpg'>",
+        "en": "What is causing it<user uploaded image for analysis at 'guavaplot271/2025-05-28-1748453566061.jpg' >",
+        "timestamp": {
+          "$date": "2025-05-28T17:32:52.658Z"
+        },
+        "standalone_question": "What is causing this?",
+        "standalone_en": "What is causing this?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kashamule hot aahe<user uploaded image for analysis at 'guavaplot271/2025-05-28-1748453566061.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या पिकावर दिसणाऱ्या लक्षणांवरून, हे संभाव्य पोषणाच्या कमतरते किंवा कीडांच्या समस्यांमुळे प्रभावित झालेले दिसते. येथे काही शिफारसी आहेत:\n\n### शिफारसी केलेली क्रिया:\n1. **पिवळ्या चिकट ट्रॅप्सची स्थापना करा**: प्रति एकर २५ ते ३० ट्रॅप्स ठेवा, ज्यामुळे एफिड्स आणि पांढऱ्या माशांच्या सारख्या कीडांचे निरीक्षण आणि नियंत्रण करण्यात मदत होईल.\n\n### अतिरिक्त शिफारसी:\n- **पोषण व्यवस्थापन**: पोषणाच्या कमतरतेसाठी मातीची चाचणी घेण्याचा विचार करा, विशेषतः फॉस्फरससाठी, आणि त्यानुसार खतांचे समायोजन करा.\n- **नियमित निरीक्षण**: पिकावर रोग किंवा कीडांच्या आक्रमणाच्या आणखी कोणत्याही लक्षणांवर लक्ष ठेवा.\n\nजर तुम्ही अधिक स्पष्ट चित्र किंवा पिकाच्या प्रकाराबद्दल अधिक माहिती देऊ शकत असाल, तर मी अधिक सुसंगत सल्ला देऊ शकतो.",
+        "en": "Depending on the symptoms you see on your crop, it appears to be influenced by potential nutritional deficiencies or pest problems. Here are some recommendations:\n\n### Recommended action:\n1. **Establish yellow sticky traps**: Keep 25 to 30 traps per acre, which will help monitor and control pests such as aphids and whitefish.\n\n### Additional recommendations:\n**Nutrition management**: Consider testing the soil for nutritional deficiencies, especially for phosphorus, and adjusting fertilizers accordingly.\n* *Regular observation**: Monitor for any other signs of disease or insect invasion of the crop.\n\nIf you can give a clearer picture or more information about the type of crop, I can offer more consistent advice.",
+        "timestamp": {
+          "$date": "2025-05-28T17:33:35.763Z"
+        }
+      }
+    ],
+    "farmer_id": "prashantgorakhchavan",
+    "farmer_plot_ids": [
+      "4KS24KWH4KS14KSC4KSk4KWA1742196383068",
+      "4KSV4KS4KSV4KSh4KWA1736404317389",
+      "ZHJhZ29uZnJ1aXQ=1721915593615",
+      "bWFyaWdvbGQ=1723816184472",
+      "c2hpbWxhMg==1721961218559",
+      "c2hpbWxhbWlyY2hp1721915694830",
+      "c3VwZXJzb25ha2E1726644860472",
+      "cGVydQ==1722006635084",
+      "cGVydQ==1722254051518",
+      "clone859",
+      "dG9tYXRv1721915765602",
+      "guavaplot2",
+      "guavaplot271",
+      "kharbujplot",
+      "ssnplot179"
+    ],
+    "conversation_id": "683748c2bf2e0c9608c85a16",
+    "_id": "683748c2bf2e0c9608c85a16",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-28T17:37:52.660000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-05-28T17:32:52.658000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "कशामुळे होत आहे<user uploaded image for analysis at 'guavaplot271/2025-05-28-1748453566061.jpg'>",
+        "en": "What is causing it<user uploaded image for analysis at 'guavaplot271/2025-05-28-1748453566061.jpg' >",
+        "timestamp": {
+          "$date": "2025-05-28T17:32:52.658Z"
+        },
+        "standalone_question": "What is causing this?",
+        "standalone_en": "What is causing this?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kashamule hot aahe<user uploaded image for analysis at 'guavaplot271/2025-05-28-1748453566061.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या पिकावर दिसणाऱ्या लक्षणांवरून, हे संभाव्य पोषणाच्या कमतरते किंवा कीडांच्या समस्यांमुळे प्रभावित झालेले दिसते. येथे काही शिफारसी आहेत:\n\n### शिफारसी केलेली क्रिया:\n1. **पिवळ्या चिकट ट्रॅप्सची स्थापना करा**: प्रति एकर २५ ते ३० ट्रॅप्स ठेवा, ज्यामुळे एफिड्स आणि पांढऱ्या माशांच्या सारख्या कीडांचे निरीक्षण आणि नियंत्रण करण्यात मदत होईल.\n\n### अतिरिक्त शिफारसी:\n- **पोषण व्यवस्थापन**: पोषणाच्या कमतरतेसाठी मातीची चाचणी घेण्याचा विचार करा, विशेषतः फॉस्फरससाठी, आणि त्यानुसार खतांचे समायोजन करा.\n- **नियमित निरीक्षण**: पिकावर रोग किंवा कीडांच्या आक्रमणाच्या आणखी कोणत्याही लक्षणांवर लक्ष ठेवा.\n\nजर तुम्ही अधिक स्पष्ट चित्र किंवा पिकाच्या प्रकाराबद्दल अधिक माहिती देऊ शकत असाल, तर मी अधिक सुसंगत सल्ला देऊ शकतो.",
+        "en": "Depending on the symptoms you see on your crop, it appears to be influenced by potential nutritional deficiencies or pest problems. Here are some recommendations:\n\n### Recommended action:\n1. **Establish yellow sticky traps**: Keep 25 to 30 traps per acre, which will help monitor and control pests such as aphids and whitefish.\n\n### Additional recommendations:\n**Nutrition management**: Consider testing the soil for nutritional deficiencies, especially for phosphorus, and adjusting fertilizers accordingly.\n* *Regular observation**: Monitor for any other signs of disease or insect invasion of the crop.\n\nIf you can give a clearer picture or more information about the type of crop, I can offer more consistent advice.",
+        "timestamp": {
+          "$date": "2025-05-28T17:33:35.763Z"
+        }
+      }
+    ],
+    "farmer_id": "prashantgorakhchavan",
+    "farmer_plot_ids": [
+      "4KS24KWH4KS14KSC4KSk4KWA1742196383068",
+      "4KSV4KS4KSV4KSh4KWA1736404317389",
+      "ZHJhZ29uZnJ1aXQ=1721915593615",
+      "bWFyaWdvbGQ=1723816184472",
+      "c2hpbWxhMg==1721961218559",
+      "c2hpbWxhbWlyY2hp1721915694830",
+      "c3VwZXJzb25ha2E1726644860472",
+      "cGVydQ==1722006635084",
+      "cGVydQ==1722254051518",
+      "clone859",
+      "dG9tYXRv1721915765602",
+      "guavaplot2",
+      "guavaplot271",
+      "kharbujplot",
+      "ssnplot179"
+    ],
+    "conversation_id": "683748c2bf2e0c9608c85a16",
+    "_id": "683748c2bf2e0c9608c85a16",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-28T17:37:52.660000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-05-28T17:32:52.658000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Chhatria wala kinow ",
+        "en": "Chhatria wala kinow ",
+        "timestamp": {
+          "$date": "2025-05-28T11:22:04.208Z"
+        },
+        "standalone_question": "What is a Chhatria wala?",
+        "standalone_en": "What is a Chhatria wala?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems you meant \"Chhatri Wala Khet.\" How can I assist you with this plot?",
+        "en": "It seems you meant \"Chhatri Wala Khet.\" How can I assist you with this plot?",
+        "timestamp": {
+          "$date": "2025-05-28T11:22:06.829Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Not working at site ",
+        "en": "Not working at site ",
+        "timestamp": {
+          "$date": "2025-05-28T11:22:47.836Z"
+        },
+        "standalone_question": "Why is the work not progressing at the site?",
+        "standalone_en": "Why is the work not progressing at the site?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Could you please provide more details about the issue you're facing at the \"Chhatri Wala Khet\"? Are you experiencing problems with irrigation, sensors, or something else? This will help me assist you better.",
+        "en": "Could you please provide more details about the issue you're facing at the \"Chhatri Wala Khet\"? Are you experiencing problems with irrigation, sensors, or something else? This will help me assist you better.",
+        "timestamp": {
+          "$date": "2025-05-28T11:22:52.355Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Sarver not connecting ",
+        "en": "Sarver not connecting ",
+        "timestamp": {
+          "$date": "2025-05-28T11:23:43.721Z"
+        },
+        "standalone_question": "Is the server not connecting?",
+        "standalone_en": "Is the server not connecting?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Your recharge plan for the \"Chhatri Wala Khet\" is active until July 2, 2025. However, if you're experiencing issues with the server connection, it might be due to connectivity problems with the device.\n\nHere are a few steps you can take:\n\n1. **Check Device Placement**: Ensure that the device is placed in an area with good network coverage.\n2. **Restart the Device**: Sometimes, a simple restart can resolve connectivity issues.\n3. **Check for Obstructions**: Make sure there are no physical obstructions blocking the signal.\n\nIf the problem persists, please consider raising a support ticket in the Fyllo App for further assistance. Would you like the contact details of our support team?",
+        "en": "Your recharge plan for the \"Chhatri Wala Khet\" is active until July 2, 2025. However, if you're experiencing issues with the server connection, it might be due to connectivity problems with the device.\n\nHere are a few steps you can take:\n\n1. **Check Device Placement**: Ensure that the device is placed in an area with good network coverage.\n2. **Restart the Device**: Sometimes, a simple restart can resolve connectivity issues.\n3. **Check for Obstructions**: Make sure there are no physical obstructions blocking the signal.\n\nIf the problem persists, please consider raising a support ticket in the Fyllo App for further assistance. Would you like the contact details of our support team?",
+        "timestamp": {
+          "$date": "2025-05-28T11:23:48.333Z"
+        }
+      }
+    ],
+    "farmer_id": "lalchand",
+    "farmer_plot_ids": [
+      "chhatriwalakhet",
+      "khatwanroadkinnow",
+      "sherewalakinnow1"
+    ],
+    "conversation_id": "6836f1dbae665bed54d98dac",
+    "_id": "6836f1dbae665bed54d98dac",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-05-28T11:28:43.724000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-05-28T11:22:04.208000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "sensor chalat nahi",
+        "en": "Sensor does not work",
+        "timestamp": {
+          "$date": "2025-05-28T10:21:12.137Z"
+        },
+        "standalone_question": "The sensor is not working.",
+        "standalone_en": "The sensor is not working.",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What should I do if the soil temperature sensor is not working?\nA: Check the sensor connection, tighten it if loose, and restart the device to check updated data."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Sensor चालत नाही असे दिसत आहे. कृपया खालील गोष्टी तपासा:\n\n1. **सेंसर कनेक्शन**: सेंसर चांगल्या प्रकारे जोडलेला आहे का? जर तो सैल असेल तर त्याला घट्ट करा.\n2. **पाण्याची पोहोच**: पाण्याची पोहोच सेंसरपर्यंत होत आहे का? पाण्याचा प्रवाह चांगला आहे का हे तपासा.\n3. **सेंसरची वयोमर्यादा**: जर सेंसर दोन वर्षांपेक्षा जुना असेल, तर तो खराब झाला असू शकतो. \n\nजर तुम्हाला अजूनही समस्या येत असेल, तर तुम्ही तिकीट उघडण्याची इच्छा आहे का?",
+        "en": "The sensor doesn't seem to be working. Please check the following:\n\n1. **Sensor connection**: Is the sensor connected well? If it's loose, tighten it.\n2. **Water access**: Is water reaching the sensor? Check if the water flow is good.\n3. Age limit of the sensor**: If the sensor is more than two years old, it may have been damaged. \n\nIf you're still having a problem, do you want to open a ticket?",
+        "timestamp": {
+          "$date": "2025-05-28T10:21:21.784Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Service nahi changli",
+        "en": "Service nahi changli",
+        "timestamp": {
+          "$date": "2025-05-28T10:21:55.021Z"
+        },
+        "standalone_question": "Is the service not functioning properly?",
+        "standalone_en": "Is the service not functioning properly?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"crimpson\" प्लॉटसाठी खालील माहिती आहे:\n\n### सेंसर वाचन:\n- **मातीचे तापमान**: 25.94°C\n- **बॅटरी**: 89%\n- **मातीची आर्द्रता 1**: 89%\n- **मातीची आर्द्रता 2**: 84%\n\n### इरिगेशन सेटिंग्ज:\n- **मूळ रुंदी**: 58 इंच\n- **मूळ खोली**: 15 इंच\n- **मातीची धारणा**: 170 मिमी\n- **ड्रिपर अंतर**: 1.6 मिमी\n- **ड्रिपर डिस्चार्ज**: 4 लिटर\n\nतुमच्या प्लॉटचा बॅटरी स्तर चांगला आहे आणि मातीची आर्द्रता देखील उच्च आहे. त्यामुळे, सध्या पाण्याची गरज नाही. \n\nजर तुम्हाला अजून काही मदतीची आवश्यकता असेल तर कृपया सांगा!",
+        "en": "Here's the following information for your \"crimpson\" plot:\n\n### Sensor Reading:\n- **Soil temperature**: 25.94°C\n- **Battery**: 89%\n- **Soil moisture 1**: 89%\n- **Soil moisture 2**: 84%\n\n### Irrigation Settings:\n- **Original width**: 58 inches\n- **Original room**: 15 inches\n- **Soil perception**: 170 mm\n- **Draper distance**: 1.6 mm\n- **Draper discharge**: 4 liters\n\nYour plot's battery level is good and soil moisture is also high. So, there is no need for water at the moment. \n\nIf you need any more help, please let me know!",
+        "timestamp": {
+          "$date": "2025-05-28T10:22:04.670Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Service nahi bhetat ",
+        "en": "No service meets ",
+        "timestamp": {
+          "$date": "2025-05-28T10:22:59.645Z"
+        },
+        "standalone_question": "Why is the service not available?",
+        "standalone_en": "Why is the service not available?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"crimpson\" प्लॉटसाठी सेवा कार्यरत नाही असे दिसत आहे. तुमच्या प्लॉटसाठी डेटा प्लान सक्रिय आहे आणि तो 2025-07-22 पर्यंत वैध आहे. \n\nतुमच्या डिव्हाइसने डेटा पाठवला नाही. हे कनेक्टिव्हिटी समस्यांमुळे असू शकते. कृपया खालील गोष्टी तपासा:\n\n1. **नेटवर्क कनेक्टिव्हिटी**: तुमच्या डिव्हाइसला इंटरनेट कनेक्शन आहे का?\n2. **बॅटरी स्थिती**: बॅटरी चांगली आहे का? (89% आहे)\n3. **डिव्हाइस रीस्टार्ट करा**: डिव्हाइस रीस्टार्ट करून पहा.\n\nजर तुम्हाला अजूनही समस्या येत असेल, तर कृपया Fyllo ग्राहक समर्थनाशी संपर्क साधा. तुम्हाला मदतीची आवश्यकता असल्यास, मी संपर्क माहिती देऊ शकतो.",
+        "en": "The service doesn't seem to be working for your \"crimpson\" plot. The data plan for your plot is active and valid till 2025-07-22. \n\nYour device did not send data. This may be due to connectivity issues. Please check the following:\n\n1. **Network Connectivity**: Does your device have an internet connection?\n2. **Battery status**: Is the battery good? (89% is)\n3. **Restart the device**: Try the device restart.\n\nIf you are still having a problem, please contact Fyllo Customer Support. If you need help, I can provide contact information.",
+        "timestamp": {
+          "$date": "2025-05-28T10:23:06.709Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Sampark mahiti dya",
+        "en": "Provide contact information",
+        "timestamp": {
+          "$date": "2025-05-28T10:23:59.481Z"
+        },
+        "standalone_question": "Could you please provide the contact information?",
+        "standalone_en": "Could you please provide the contact information?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Fyllo ग्राहक समर्थनाशी संपर्क साधण्यासाठी तुम्ही खालील माहितीचा वापर करू शकता:\n\n- **हेल्पलाइन नंबर**: (+91) 9380908040\n- **ई-मेल**: contact@fyllo.in\n\nकृपया तुमच्या समस्येबद्दल माहिती द्या, आणि ते तुम्हाला मदत करतील.",
+        "en": "You can use the following information to contact Fyllo Customer Support:\n\n- **Helpline number**: (+91) 9380908040\n- **E-mail**: contact@fyllo.in\n\nPlease inform about your problem, and they will help you.",
+        "timestamp": {
+          "$date": "2025-05-28T10:24:03.221Z"
+        }
+      }
+    ],
+    "farmer_id": "maheshshinde",
+    "farmer_plot_ids": [
+      "crimpson240"
+    ],
+    "conversation_id": "6836e398ab2cd366b32fd12d",
+    "_id": "6836e398ab2cd366b32fd12d",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-28T10:28:59.483000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-05-28T10:21:12.137000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "23",
+        "en": "23",
+        "timestamp": {
+          "$date": "2025-05-28T09:30:55.046Z"
+        },
+        "standalone_question": "What is the significance of the number 23?",
+        "standalone_en": "What is the significance of the number 23?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like your message is incomplete or unclear. Could you please provide more details or specify what you need assistance with regarding your agricultural practices?",
+        "en": "It seems like your message is incomplete or unclear. Could you please provide more details or specify what you need assistance with regarding your agricultural practices?",
+        "timestamp": {
+          "$date": "2025-05-28T09:30:59.205Z"
+        }
+      }
+    ],
+    "farmer_id": "mahendrasurwade",
+    "farmer_plot_ids": [
+      "thompsonplotno3mamashri",
+      "thompsonplotnumber1",
+      "thomsonplotno2mamashrifarm"
+    ],
+    "conversation_id": "6836d7ce1593d9a25552b2d4",
+    "_id": "6836d7ce1593d9a25552b2d4",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-28T09:35:55.048000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-05-28T09:30:55.046000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "પાકને કેટલા દીવસ થયા",
+        "en": "How many days have it been for the crop",
+        "timestamp": {
+          "$date": "2025-05-28T08:35:40.359Z"
+        },
+        "standalone_question": "How many days has it been since the event?",
+        "standalone_en": "How many days has it been since the event?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pakane ketla divas thaya"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પાકને 79 દિવસ થયા છે. પાકની વાવણી 10 માર્ચ 2025ના રોજ કરવામાં આવી હતી.",
+        "en": "It's been 79 days since your harvest. The crop was sown on March 10, 2025.",
+        "timestamp": {
+          "$date": "2025-05-28T08:35:43.008Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140",
+      "sheshpalot"
+    ],
+    "conversation_id": "6836cadc36edfcf327248ae7",
+    "_id": "6836cadc36edfcf327248ae7",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-05-28T08:40:40.361000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-05-28T08:35:40.359000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "tell me rainfall from yesterday's 7 am to today's 7 am for all divisions excluding Nero. make it in table format and add average also ",
+        "en": "tell me rainfall from yesterday's 7 am to today's 7 am for all divisions excluding Nero. make it in table format and add average also ",
+        "timestamp": {
+          "$date": "2025-05-28T06:59:28.368Z"
+        },
+        "standalone_question": "What was the rainfall from yesterday at 7 am to today at 7 am for all divisions excluding Nero? Please present the data in a table format and include the average.",
+        "standalone_en": "What was the rainfall from yesterday at 7 am to today at 7 am for all divisions excluding Nero? Please present the data in a table format and include the average.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the rainfall data from yesterday's 7 AM to today's 7 AM for all divisions excluding Nero:\n\n| Plot Name                | Rainfall (mm) |\n|--------------------------|----------------|\n| Srock Attamala           |  56            |\n| Srock Chooralmala Kairo  |  38            |\n| Srock Mundakkai Kairo    |  43            |\n| Srock Puthumala          |  43            |\n| **Average**              | **45**         |\n\nThe average rainfall across the plots is 45 mm.",
+        "en": "Here is the rainfall data from yesterday's 7 AM to today's 7 AM for all divisions excluding Nero:\n\n| Plot Name                | Rainfall (mm) |\n|--------------------------|----------------|\n| Srock Attamala           |  56            |\n| Srock Chooralmala Kairo  |  38            |\n| Srock Mundakkai Kairo    |  43            |\n| Srock Puthumala          |  43            |\n| **Average**              | **45**         |\n\nThe average rainfall across the plots is 45 mm.",
+        "timestamp": {
+          "$date": "2025-05-28T06:59:36.224Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "from may 27 2025-7 am to 28 may 2025 - 7 am",
+        "en": "from may 27 2025-7 am to 28 may 2025 - 7 am",
+        "timestamp": {
+          "$date": "2025-05-28T07:00:54.494Z"
+        },
+        "standalone_question": "What is the rainfall data from May 27, 2025, at 7 AM to May 28, 2025, at 7 AM for all divisions excluding Nero?",
+        "standalone_en": "What is the rainfall data from May 27, 2025, at 7 AM to May 28, 2025, at 7 AM for all divisions excluding Nero?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the rainfall data from May 27, 2025, 7 AM to May 28, 2025, 7 AM for all divisions excluding Nero:\n\n| Plot Name                | Rainfall (mm) |\n|--------------------------|----------------|\n| Srock Attamala           |  71            |\n| Srock Chooralmala Kairo  |  75            |\n| Srock Mundakkai Kairo    |  107           |\n| Srock Puthumala          |  89            |\n| **Average**              | **83**         |\n\nThe average rainfall across the plots is 83 mm.",
+        "en": "Here is the rainfall data from May 27, 2025, 7 AM to May 28, 2025, 7 AM for all divisions excluding Nero:\n\n| Plot Name                | Rainfall (mm) |\n|--------------------------|----------------|\n| Srock Attamala           |  71            |\n| Srock Chooralmala Kairo  |  75            |\n| Srock Mundakkai Kairo    |  107           |\n| Srock Puthumala          |  89            |\n| **Average**              | **83**         |\n\nThe average rainfall across the plots is 83 mm.",
+        "timestamp": {
+          "$date": "2025-05-28T07:01:04.226Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "in centimetres",
+        "en": "in centimetres",
+        "timestamp": {
+          "$date": "2025-05-28T07:01:41.946Z"
+        },
+        "standalone_question": "What is the rainfall data in centimeters?",
+        "standalone_en": "What is the rainfall data in centimeters?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the rainfall data from May 27, 2025, 7 AM to May 28, 2025, 7 AM for all divisions excluding Nero, converted to centimeters:\n\n| Plot Name                | Rainfall (cm) |\n|--------------------------|----------------|\n| Srock Attamala           |  7.1           |\n| Srock Chooralmala Kairo  |  7.5           |\n| Srock Mundakkai Kairo    |  10.7          |\n| Srock Puthumala          |  8.9           |\n| **Average**              | **8.3**        |\n\nThe average rainfall across the plots is 8.3 cm.",
+        "en": "Here is the rainfall data from May 27, 2025, 7 AM to May 28, 2025, 7 AM for all divisions excluding Nero, converted to centimeters:\n\n| Plot Name                | Rainfall (cm) |\n|--------------------------|----------------|\n| Srock Attamala           |  7.1           |\n| Srock Chooralmala Kairo  |  7.5           |\n| Srock Mundakkai Kairo    |  10.7          |\n| Srock Puthumala          |  8.9           |\n| **Average**              | **8.3**        |\n\nThe average rainfall across the plots is 8.3 cm.",
+        "timestamp": {
+          "$date": "2025-05-28T07:01:47.386Z"
+        }
+      }
+    ],
+    "farmer_id": "allenenoshmani",
+    "farmer_plot_ids": [
+      "attamaladivision",
+      "chooralmaladivision",
+      "chooralmalanerodivision",
+      "mundakainerodivision",
+      "mundakkaidivision",
+      "puthumaladivision"
+    ],
+    "conversation_id": "6836b44f36edfcf327248ae6",
+    "_id": "6836b44f36edfcf327248ae6",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-05-28T07:06:41.949000Z"
+    },
+    "tag": "historical data",
+    "conv_date": "2025-05-28T06:59:28.368000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "tell me rainfall from 27 May 7 o'clock in the morning to 28 May 7 o'clock in the morning and average also exclude Nero make it all in table format",
+        "en": "tell me rainfall from 27 May 7 o'clock in the morning to 28 May 7 o'clock in the morning and average also exclude Nero make it all in table format",
+        "timestamp": {
+          "$date": "2025-05-28T06:49:04.197Z"
+        },
+        "standalone_question": "What was the rainfall from 7 o'clock in the morning on May 27 to 7 o'clock in the morning on May 28, and what is the average? Please present the information in table format, excluding Nero.",
+        "standalone_en": "What was the rainfall from 7 o'clock in the morning on May 27 to 7 o'clock in the morning on May 28, and what is the average? Please present the information in table format, excluding Nero.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the rainfall data from 27 May 7:00 AM to 28 May 7:00 AM for your plots, excluding the Nero devices:\n\n| Plot Name                | Date & Time          | Rainfall (mm) |\n|--------------------------|----------------------|----------------|\n| Srock Attamala           | 2025-05-27 07:00     | 4              |\n| Srock Attamala           | 2025-05-27 08:00     | 3              |\n| Srock Attamala           | 2025-05-27 09:00     | 2              |\n| Srock Attamala           | 2025-05-27 10:00     | 13             |\n| Srock Attamala           | 2025-05-27 11:00     | 1              |\n| Srock Attamala           | 2025-05-27 12:00     | 8              |\n| Srock Attamala           | 2025-05-27 01:00     | 2              |\n| Srock Attamala           | 2025-05-27 02:00     | 0              |\n| Srock Attamala           | 2025-05-27 03:00     | 1              |\n| Srock Attamala           | 2025-05-27 04:00     | 2              |\n| Srock Attamala           | 2025-05-27 05:00     | 5              |\n| Srock Attamala           | 2025-05-27 06:00     | 2              |\n| Srock Attamala           | 2025-05-27 07:00     | 4              |\n| Srock Chooralmala Kairo  | 2025-05-27 07:00     | 6              |\n| Srock Chooralmala Kairo  | 2025-05-27 08:00     | 3              |\n| Srock Chooralmala Kairo  | 2025-05-27 09:00     | 3              |\n| Srock Chooralmala Kairo  | 2025-05-27 10:00     | 14             |\n| Srock Chooralmala Kairo  | 2025-05-27 11:00     | 2              |\n| Srock Chooralmala Kairo  | 2025-05-27 12:00     | 10             |\n| Srock Puthumala          | 2025-05-27 07:00     | 6              |\n| Srock Puthumala          | 2025-05-27 08:00     | 3              |\n| Srock Puthumala          | 2025-05-27 09:00     | 3              |\n| Srock Puthumala          | 2025-05-27 10:00     | 14             |\n| Srock Puthumala          | 2025-05-27 11:00     | 2              |\n| Srock Puthumala          | 2025-05-27 12:00     | 10             |\n\n### Average Rainfall\nTo calculate the average rainfall for the specified period, we sum the rainfall amounts and divide by the number of entries.\n\n- Total Rainfall: 4 + 3 + 2 + 13 + 1 + 8 + 2 + 0 + 1 + 2 + 5 + 2 + 4 + 6 + 3 + 3 + 14 + 2 + 10 + 6 + 3 + 3 + 14 + 2 + 10 =  118 mm\n- Number of Entries: 25\n- Average Rainfall: 118 mm / 25 = 4.72 mm\n\n### Summary\n- **Total Rainfall:** 118 mm\n- **Average Rainfall:** 4.72 mm\n\nIf you need any further information, feel free to ask!",
+        "en": "Here is the rainfall data from 27 May 7:00 AM to 28 May 7:00 AM for your plots, excluding the Nero devices:\n\n| Plot Name                | Date & Time          | Rainfall (mm) |\n|--------------------------|----------------------|----------------|\n| Srock Attamala           | 2025-05-27 07:00     | 4              |\n| Srock Attamala           | 2025-05-27 08:00     | 3              |\n| Srock Attamala           | 2025-05-27 09:00     | 2              |\n| Srock Attamala           | 2025-05-27 10:00     | 13             |\n| Srock Attamala           | 2025-05-27 11:00     | 1              |\n| Srock Attamala           | 2025-05-27 12:00     | 8              |\n| Srock Attamala           | 2025-05-27 01:00     | 2              |\n| Srock Attamala           | 2025-05-27 02:00     | 0              |\n| Srock Attamala           | 2025-05-27 03:00     | 1              |\n| Srock Attamala           | 2025-05-27 04:00     | 2              |\n| Srock Attamala           | 2025-05-27 05:00     | 5              |\n| Srock Attamala           | 2025-05-27 06:00     | 2              |\n| Srock Attamala           | 2025-05-27 07:00     | 4              |\n| Srock Chooralmala Kairo  | 2025-05-27 07:00     | 6              |\n| Srock Chooralmala Kairo  | 2025-05-27 08:00     | 3              |\n| Srock Chooralmala Kairo  | 2025-05-27 09:00     | 3              |\n| Srock Chooralmala Kairo  | 2025-05-27 10:00     | 14             |\n| Srock Chooralmala Kairo  | 2025-05-27 11:00     | 2              |\n| Srock Chooralmala Kairo  | 2025-05-27 12:00     | 10             |\n| Srock Puthumala          | 2025-05-27 07:00     | 6              |\n| Srock Puthumala          | 2025-05-27 08:00     | 3              |\n| Srock Puthumala          | 2025-05-27 09:00     | 3              |\n| Srock Puthumala          | 2025-05-27 10:00     | 14             |\n| Srock Puthumala          | 2025-05-27 11:00     | 2              |\n| Srock Puthumala          | 2025-05-27 12:00     | 10             |\n\n### Average Rainfall\nTo calculate the average rainfall for the specified period, we sum the rainfall amounts and divide by the number of entries.\n\n- Total Rainfall: 4 + 3 + 2 + 13 + 1 + 8 + 2 + 0 + 1 + 2 + 5 + 2 + 4 + 6 + 3 + 3 + 14 + 2 + 10 + 6 + 3 + 3 + 14 + 2 + 10 =  118 mm\n- Number of Entries: 25\n- Average Rainfall: 118 mm / 25 = 4.72 mm\n\n### Summary\n- **Total Rainfall:** 118 mm\n- **Average Rainfall:** 4.72 mm\n\nIf you need any further information, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-28T06:49:22.048Z"
+        }
+      }
+    ],
+    "farmer_id": "allenenoshmani",
+    "farmer_plot_ids": [
+      "attamaladivision",
+      "chooralmaladivision",
+      "chooralmalanerodivision",
+      "mundakainerodivision",
+      "mundakkaidivision",
+      "puthumaladivision"
+    ],
+    "conversation_id": "6836b1e0fa7bb2d076a8af2c",
+    "_id": "6836b1e0fa7bb2d076a8af2c",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-05-28T06:54:04.199000Z"
+    },
+    "tag": "historical data",
+    "conv_date": "2025-05-28T06:49:04.197000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tell me rainfall from yesterday's 7 am to today's 7am for all the divisions excluding Nero ",
+        "en": "Tell me rainfall from yesterday's 7 am to today's 7am for all the divisions excluding Nero ",
+        "timestamp": {
+          "$date": "2025-05-28T06:40:38.349Z"
+        },
+        "standalone_question": "What was the rainfall from 7 am yesterday to 7 am today for all divisions except Nero?",
+        "standalone_en": "What was the rainfall from 7 am yesterday to 7 am today for all divisions except Nero?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the rainfall data from yesterday at 7 AM to today at 7 AM for the Kairo divisions:\n\n### Srock Attamala\n- **Total Rainfall:** 43 mm\n  - 7 AM (27th May): 4 mm\n  - 8 AM: 3 mm\n  - 9 AM: 2 mm\n  - 10 AM: 13 mm\n  - 11 AM: 1 mm\n  - 12 PM: 8 mm\n  - 1 PM: 8 mm\n  - 2 PM: 3 mm\n  - 3 PM: 4 mm\n  - 4 PM: 1 mm\n  - 5 PM: 1 mm\n  - 6 PM: 2 mm\n  - 7 PM: 0 mm\n  - 8 PM: 5 mm\n  - 9 PM: 0 mm\n  - 10 PM: 0 mm\n  - 11 PM: 4 mm\n\n### Srock Chooralmala Kairo\n- **Total Rainfall:** 38 mm\n  - 7 AM (27th May): 5 mm\n  - 8 AM: 2 mm\n  - 9 AM: 3 mm\n  - 10 AM: 14 mm\n  - 11 AM: 2 mm\n  - 12 PM: 10 mm\n  - 1 PM: 10 mm\n  - 2 PM: 3 mm\n  - 3 PM: 0 mm\n  - 4 PM: 0 mm\n  - 5 PM: 0 mm\n  - 6 PM: 0 mm\n  - 7 PM: 0 mm\n  - 8 PM: 0 mm\n  - 9 PM: 0 mm\n  - 10 PM: 0 mm\n  - 11 PM: 0 mm\n\n### Srock Mundakkai Kairo\n- **Total Rainfall:** 36 mm\n  - 7 AM (27th May): 4 mm\n  - 8 AM: 5 mm\n  - 9 AM: 4 mm\n  - 10 AM: 12 mm\n  - 11 AM: 0 mm\n  - 12 PM: 8 mm\n  - 1 PM: 1 mm\n  - 2 PM: 3 mm\n  - 3 PM: 5 mm\n  - 4 PM: 0 mm\n  - 5 PM: 0 mm\n  - 6 PM: 0 mm\n  - 7 PM: 0 mm\n  - 8 PM: 0 mm\n  - 9 PM: 0 mm\n  - 10 PM: 0 mm\n  - 11 PM: 0 mm\n\n### Srock Puthumala\n- **Total Rainfall:** 36 mm\n  - 7 AM (27th May): 6 mm\n  - 8 AM: 3 mm\n  - 9 AM: 3 mm\n  - 10 AM: 14 mm\n  - 11 AM: 2 mm\n  - 12 PM: 10 mm\n  - 1 PM: 3 mm\n  - 2 PM: 4 mm\n  - 3 PM: 0 mm\n  - 4 PM: 0 mm\n  - 5 PM: 0 mm\n  - 6 PM: 0 mm\n  - 7 PM: 0 mm\n  - 8 PM: 0 mm\n  - 9 PM: 0 mm\n  - 10 PM: 0 mm\n  - 11 PM: 0 mm\n\nIf you need further details or assistance, feel free to ask!",
+        "en": "Here is the rainfall data from yesterday at 7 AM to today at 7 AM for the Kairo divisions:\n\n### Srock Attamala\n- **Total Rainfall:** 43 mm\n  - 7 AM (27th May): 4 mm\n  - 8 AM: 3 mm\n  - 9 AM: 2 mm\n  - 10 AM: 13 mm\n  - 11 AM: 1 mm\n  - 12 PM: 8 mm\n  - 1 PM: 8 mm\n  - 2 PM: 3 mm\n  - 3 PM: 4 mm\n  - 4 PM: 1 mm\n  - 5 PM: 1 mm\n  - 6 PM: 2 mm\n  - 7 PM: 0 mm\n  - 8 PM: 5 mm\n  - 9 PM: 0 mm\n  - 10 PM: 0 mm\n  - 11 PM: 4 mm\n\n### Srock Chooralmala Kairo\n- **Total Rainfall:** 38 mm\n  - 7 AM (27th May): 5 mm\n  - 8 AM: 2 mm\n  - 9 AM: 3 mm\n  - 10 AM: 14 mm\n  - 11 AM: 2 mm\n  - 12 PM: 10 mm\n  - 1 PM: 10 mm\n  - 2 PM: 3 mm\n  - 3 PM: 0 mm\n  - 4 PM: 0 mm\n  - 5 PM: 0 mm\n  - 6 PM: 0 mm\n  - 7 PM: 0 mm\n  - 8 PM: 0 mm\n  - 9 PM: 0 mm\n  - 10 PM: 0 mm\n  - 11 PM: 0 mm\n\n### Srock Mundakkai Kairo\n- **Total Rainfall:** 36 mm\n  - 7 AM (27th May): 4 mm\n  - 8 AM: 5 mm\n  - 9 AM: 4 mm\n  - 10 AM: 12 mm\n  - 11 AM: 0 mm\n  - 12 PM: 8 mm\n  - 1 PM: 1 mm\n  - 2 PM: 3 mm\n  - 3 PM: 5 mm\n  - 4 PM: 0 mm\n  - 5 PM: 0 mm\n  - 6 PM: 0 mm\n  - 7 PM: 0 mm\n  - 8 PM: 0 mm\n  - 9 PM: 0 mm\n  - 10 PM: 0 mm\n  - 11 PM: 0 mm\n\n### Srock Puthumala\n- **Total Rainfall:** 36 mm\n  - 7 AM (27th May): 6 mm\n  - 8 AM: 3 mm\n  - 9 AM: 3 mm\n  - 10 AM: 14 mm\n  - 11 AM: 2 mm\n  - 12 PM: 10 mm\n  - 1 PM: 3 mm\n  - 2 PM: 4 mm\n  - 3 PM: 0 mm\n  - 4 PM: 0 mm\n  - 5 PM: 0 mm\n  - 6 PM: 0 mm\n  - 7 PM: 0 mm\n  - 8 PM: 0 mm\n  - 9 PM: 0 mm\n  - 10 PM: 0 mm\n  - 11 PM: 0 mm\n\nIf you need further details or assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-28T06:40:59.605Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "tell me rainfall from 7 o'clock morning to today 7 o'clock in the morning for all the divisions in total make it all and table format exclude Nero and average also",
+        "en": "tell me rainfall from 7 o'clock morning to today 7 o'clock in the morning for all the divisions in total make it all and table format exclude Nero and average also",
+        "timestamp": {
+          "$date": "2025-05-28T06:43:12.145Z"
+        },
+        "standalone_question": "What is the total and average rainfall from 7 AM yesterday to 7 AM today for all divisions, excluding Nero, presented in a table format?",
+        "standalone_en": "What is the total and average rainfall from 7 AM yesterday to 7 AM today for all divisions, excluding Nero, presented in a table format?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the total rainfall data from 7 AM yesterday to 7 AM today for all Kairo divisions, along with the average rainfall:\n\n| Plot Name               | Total Rainfall (mm) |\n|------------------------|---------------------|\n| Srock Attamala         | 43                  |\n| Srock Chooralmala Kairo| 38                  |\n| Srock Mundakkai Kairo  | 36                  |\n| Srock Puthumala        | 36                  |\n| **Total**              | **153**             |\n| **Average**            | **38.25**           |\n\nIf you need any further assistance, feel free to ask!",
+        "en": "Here is the total rainfall data from 7 AM yesterday to 7 AM today for all Kairo divisions, along with the average rainfall:\n\n| Plot Name               | Total Rainfall (mm) |\n|------------------------|---------------------|\n| Srock Attamala         | 43                  |\n| Srock Chooralmala Kairo| 38                  |\n| Srock Mundakkai Kairo  | 36                  |\n| Srock Puthumala        | 36                  |\n| **Total**              | **153**             |\n| **Average**            | **38.25**           |\n\nIf you need any further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-28T06:43:21.463Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "in centimetre",
+        "en": "in centimetre",
+        "timestamp": {
+          "$date": "2025-05-28T06:43:31.196Z"
+        },
+        "standalone_question": "What is the total rainfall in centimeters from 7 AM yesterday to 7 AM today for all divisions, excluding Nero?",
+        "standalone_en": "What is the total rainfall in centimeters from 7 AM yesterday to 7 AM today for all divisions, excluding Nero?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the total rainfall data from 7 AM yesterday to 7 AM today for all Kairo divisions, converted to centimeters:\n\n| Plot Name               | Total Rainfall (cm) |\n|------------------------|---------------------|\n| Srock Attamala         | 4.3                 |\n| Srock Chooralmala Kairo| 3.8                 |\n| Srock Mundakkai Kairo  | 3.6                 |\n| Srock Puthumala        | 3.6                 |\n| **Total**              | **15.3**            |\n| **Average**            | **3.825**           |\n\nIf you need any further assistance, feel free to ask!",
+        "en": "Here is the total rainfall data from 7 AM yesterday to 7 AM today for all Kairo divisions, converted to centimeters:\n\n| Plot Name               | Total Rainfall (cm) |\n|------------------------|---------------------|\n| Srock Attamala         | 4.3                 |\n| Srock Chooralmala Kairo| 3.8                 |\n| Srock Mundakkai Kairo  | 3.6                 |\n| Srock Puthumala        | 3.6                 |\n| **Total**              | **15.3**            |\n| **Average**            | **3.825**           |\n\nIf you need any further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-28T06:43:36.688Z"
+        }
+      }
+    ],
+    "farmer_id": "allenenoshmani",
+    "farmer_plot_ids": [
+      "attamaladivision",
+      "chooralmaladivision",
+      "chooralmalanerodivision",
+      "mundakainerodivision",
+      "mundakkaidivision",
+      "puthumaladivision"
+    ],
+    "conversation_id": "6836afe6fa7bb2d076a8af2b",
+    "_id": "6836afe6fa7bb2d076a8af2b",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-05-28T06:48:31.200000Z"
+    },
+    "tag": "historical data",
+    "conv_date": "2025-05-28T06:40:38.349000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "आज पाऊस येईल का ",
+        "en": "Will it rain today? ",
+        "timestamp": {
+          "$date": "2025-05-28T06:16:38.424Z"
+        },
+        "standalone_question": "Will it rain today?",
+        "standalone_en": "Will it rain today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "aj paus yeil ka "
+      },
+      {
+        "role": "assistant",
+        "content": "आज, 28 मे 2025 रोजी, पाऊस येण्याची शक्यता आहे. हवामान अंदाजानुसार, 1.3 मिमी पाऊस होण्याची अपेक्षा आहे, परंतु पाऊस येण्याची शक्यता फक्त 25% आहे. त्यामुळे, पाऊस येईल की नाही हे निश्चित नाही, पण थोडा पाऊस होऊ शकतो.",
+        "en": "Today, May 28, 2025, rain is expected. According to the weather forecast, 1.3 mm of rain is expected, but there is only a 25% chance of rain. So, it's not certain if it's going to rain, but there could be some rain.",
+        "timestamp": {
+          "$date": "2025-05-28T06:16:43.287Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Acephate वापर ",
+        "en": "Acephate वापर ",
+        "timestamp": {
+          "$date": "2025-05-28T06:17:09.920Z"
+        },
+        "standalone_question": "What is the use of Acephate?",
+        "standalone_en": "What is the use of Acephate?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Acephate एक प्रभावी कीटकनाशक आहे, जो विविध प्रकारच्या कीटकांवर नियंत्रण ठेवण्यासाठी वापरला जातो. हे विशेषतः पानांवर आणि फळांवर आढळणाऱ्या कीटकांवर प्रभावी आहे. Acephate चा वापर खालीलप्रमाणे केला जातो:\n\n1. **कीटक नियंत्रण**: Acephate मुख्यतः थ्रिप्स, मावा, आणि इतर शोषक कीटकांवर प्रभावी आहे.\n2. **अर्ज**: 1-2 ग्रॅम प्रति लिटर पाण्यात मिसळून फवारणी करावी.\n3. **फवारणीची वेळ**: सकाळी किंवा संध्याकाळी फवारणी करणे अधिक प्रभावी असते, जेव्हा तापमान कमी असते.\n\nकृपया लक्षात ठेवा की Acephate चा वापर करताना सुरक्षा साधने वापरणे आवश्यक आहे, जसे की हातमोजे आणि मास्क.",
+        "en": "Acephate is an effective pesticide, used to control a variety of insects. It is particularly effective on insects found on leaves and fruits. Acephate is used as follows:\n\n1. **Pest Control**: Acephate is mainly effective on thrips, mites, and other absorbent insects.\n2. **Application**: Mix 1-2 grams per liter of water and spray.\n3. **Spraying time**: Spraying is more effective in the morning or evening, when the temperature is lower.\n\nPlease note that safety tools must be used when using acephate, such as gloves and masks.",
+        "timestamp": {
+          "$date": "2025-05-28T06:17:15.775Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Hunter वापर ",
+        "en": "Hunter Usage ",
+        "timestamp": {
+          "$date": "2025-05-28T06:17:59.137Z"
+        },
+        "standalone_question": "What is the use of Hunter?",
+        "standalone_en": "What is the use of Hunter?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "Hunter vapar "
+      },
+      {
+        "role": "assistant",
+        "content": "Hunter एक प्रभावी कीटकनाशक आहे, जो मुख्यतः थ्रिप्स, मावा, आणि इतर शोषक कीटकांवर नियंत्रण ठेवण्यासाठी वापरला जातो. Hunter चा वापर खालीलप्रमाणे केला जातो:\n\n1. **कीटक नियंत्रण**: Hunter विविध प्रकारच्या कीटकांवर प्रभावी आहे, विशेषतः फळे आणि पानांवर आढळणाऱ्या कीटकांवर.\n2. **अर्ज**: 1-2 मिली प्रति लिटर पाण्यात मिसळून फवारणी करावी.\n3. **फवारणीची वेळ**: सकाळी किंवा संध्याकाळी फवारणी करणे अधिक प्रभावी असते, जेव्हा तापमान कमी असते.\n\nकृपया लक्षात ठेवा की Hunter चा वापर करताना सुरक्षा साधने वापरणे आवश्यक आहे, जसे की हातमोजे आणि मास्क.",
+        "en": "Hunter is an effective pesticide, mainly used to control thrips, mawa, and other absorbent insects. Hunter is used as follows:\n\n1. **Pest Control**: Hunter is effective on a wide variety of insects, especially insects found on fruits and leaves.\n2. **Application**: Mix 1-2 ml per liter of water and spray.\n3. **Spraying time**: Spraying is more effective in the morning or evening, when the temperature is lower.\n\nPlease note that safety equipment must be used when using a hunter, such as gloves and masks.",
+        "timestamp": {
+          "$date": "2025-05-28T06:18:07.293Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Kaajoo ani cal g फायदे ",
+        "en": "Cashews, let's move on ",
+        "timestamp": {
+          "$date": "2025-05-28T06:19:15.121Z"
+        },
+        "standalone_question": "What are the benefits of Kaajoo and Cal G?",
+        "standalone_en": "What are the benefits of Kaajoo and Cal G?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Kaajoo (काजू) आणि Cal G (कॅल्शियम ग्रीन) यांचे फायदे खालीलप्रमाणे आहेत:\n\n### काजू (Kaajoo):\n1. **पोषण मूल्य**: काजूमध्ये प्रथिने, तंतू, आणि विविध जीवनसत्त्वे (जसे की व्हिटॅमिन E, K) असतात.\n2. **हृदयाचे आरोग्य**: काजू हृदयाच्या आरोग्यासाठी चांगले आहेत, कारण त्यात मोनोअनसॅच्युरेटेड फॅट्स असतात.\n3. **वजन कमी करणे**: काजू खाल्ल्याने तृप्तता वाढते, ज्यामुळे वजन कमी करण्यात मदत होते.\n4. **अँटीऑक्सिडंट्स**: काजूमध्ये अँटीऑक्सिडंट्स असतात, जे शरीरातील मुक्त कणांपासून संरक्षण करतात.\n\n### कॅल्शियम ग्रीन (Cal G):\n1. **कॅल्शियमचा स्रोत**: Cal G कॅल्शियमचा चांगला स्रोत आहे, जो हाडांच्या आरोग्यासाठी आवश्यक आहे.\n2. **प्लांट ग्रोथ**: हे पिकांच्या वाढीसाठी आवश्यक पोषक तत्वे प्रदान करते, ज्यामुळे उत्पादन वाढते.\n3. **मातीची गुणवत्ता सुधारते**: Cal G मातीची गुणवत्ता सुधारते आणि मातीतील पोषक तत्वांचे संतुलन राखते.\n4. **रोग प्रतिकारक क्षमता**: हे पिकांच्या रोग प्रतिकारक क्षमतेत सुधारणा करते.\n\nया दोन्ही घटकांचा वापर आपल्या आहारात आणि शेतीत फायदेशीर ठरतो.",
+        "en": "The benefits of Kaju (cashew) and Cal G (calcium green) are as follows:\n\n### Kaju:\n1. Nutritional value: Cashews contain proteins, fibers, and various vitamins (such as vitamins E, K).\n2. Heart Health: Cashews are good for heart health, as they contain monounsaturated fats.\n3. **Lose weight**: Eating cashew nuts increases satiety, which helps in weight loss.\n4. Antioxidants: Cashews contain antioxidants, which protect against free radicals in the body.\n\n### Calcium Green (Cal G):\n1. **Source of Calcium**: Cal G is a good source of calcium, which is essential for bone health.\n2. Plant Growth: It provides essential nutrients for the growth of flowers, which increases production.\n3. **Improves Soil Quality**: Cal G improves soil quality and maintains the nutrient balance of the soil.\n4. Immunity: It improves the immunity of the flowers.\n\nThe use of both these components is beneficial in our diet and in farming.",
+        "timestamp": {
+          "$date": "2025-05-28T06:19:23.312Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Advanced pesticides kaaju spray फायदे ",
+        "en": "Advanced pesticides Community spray ",
+        "timestamp": {
+          "$date": "2025-05-28T06:20:53.828Z"
+        },
+        "standalone_question": "What are the benefits of using advanced pesticides for kaajoo (cashew) spray?",
+        "standalone_en": "What are the benefits of using advanced pesticides for kaajoo (cashew) spray?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Advanced pesticides चा काजूवर फवारणी करण्याचे काही फायदे खालीलप्रमाणे आहेत:\n\n1. **कीटक नियंत्रण**: हे विविध प्रकारच्या कीटकांवर प्रभावीपणे कार्य करते, जसे की थ्रिप्स, मावा, आणि इतर शोषक कीटक, जे काजूच्या उत्पादनावर परिणाम करू शकतात.\n\n2. **रोग प्रतिबंध**: Advanced pesticides काजूच्या पिकांना विविध रोगांपासून संरक्षण करण्यास मदत करतात, ज्यामुळे उत्पादनाची गुणवत्ता आणि प्रमाण वाढते.\n\n3. **उत्पादन वाढ**: या कीटकनाशकांच्या वापरामुळे काजूच्या उत्पादनात वाढ होते, कारण ते पिकांच्या आरोग्यासाठी अनुकूल वातावरण तयार करतात.\n\n4. **सुरक्षितता**: Advanced pesticides सामान्यतः पर्यावरणास अनुकूल असतात आणि मानवांसाठी कमी धोकादायक असतात, जेणेकरून काजूच्या उत्पादनात सुरक्षितता सुनिश्चित होते.\n\n5. **दीर्घकालीन प्रभाव**: हे कीटकनाशक दीर्घकालीन प्रभाव प्रदान करतात, ज्यामुळे पिकांना दीर्घकाळ सुरक्षित ठेवता येते.\n\nकृपया लक्षात ठेवा की Advanced pesticides चा वापर करताना योग्य प्रमाणात आणि वेळेत फवारणी करणे आवश्यक आहे.",
+        "en": "Some of the benefits of spraying advanced pesticides on nuts are as follows:\n\n1. **Pest Control**: It works effectively on a variety of insects, such as thrips, mawa, and other absorbent insects, which can affect the production of nuts.\n\n2. **Disease Prevention**: Advanced pesticides help protect cashew crops from various diseases, which increases the quality and quantity of the product.\n\n3. **Production increase**: The use of these pesticides increases the production of nuts, as they create a favorable environment for the health of the crops.\n\n4. **Safety**: Advanced pesticides are generally environmentally friendly and less dangerous to humans, ensuring safety in the production of nuts.\n\n5. **Long-term effects**: These pesticides provide long-term effects, which can keep crops safe for a long time.\n\nPlease note that it is important to spray in the right amount and time when using advanced pesticides.",
+        "timestamp": {
+          "$date": "2025-05-28T06:21:02.899Z"
+        }
+      }
+    ],
+    "farmer_id": "haribhaudhondage",
+    "farmer_plot_ids": [
+      "guava315"
+    ],
+    "conversation_id": "6836aa46c41be511e0b6ac02",
+    "_id": "6836aa46c41be511e0b6ac02",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-28T06:25:53.838000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-05-28T06:16:38.424000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "tell me yesterday's rainfall for all the division excluding neero make it all and table format and had average",
+        "en": "tell me yesterday's rainfall for all the division excluding neero make it all and table format and had average",
+        "timestamp": {
+          "$date": "2025-05-28T03:09:24.584Z"
+        },
+        "standalone_question": "What was yesterday's rainfall for all divisions, excluding Neero, presented in a table format along with the average?",
+        "standalone_en": "What was yesterday's rainfall for all divisions, excluding Neero, presented in a table format along with the average?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the rainfall data for yesterday (May 27, 2025) for all divisions excluding Nero, along with the average:\n\n| Plot Name               | Rainfall (mm) |\n|------------------------|----------------|\n| Srock Attamala         | 71             |\n| Srock Chooralmala Kairo| 75             |\n| Srock Mundakkai Kairo  | 107            |\n| Srock Puthumala        | 89             |\n| **Average**            | **85.5**       |\n\nIf you need any further information, feel free to ask!",
+        "en": "Here's the rainfall data for yesterday (May 27, 2025) for all divisions excluding Nero, along with the average:\n\n| Plot Name               | Rainfall (mm) |\n|------------------------|----------------|\n| Srock Attamala         | 71             |\n| Srock Chooralmala Kairo| 75             |\n| Srock Mundakkai Kairo  | 107            |\n| Srock Puthumala        | 89             |\n| **Average**            | **85.5**       |\n\nIf you need any further information, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-28T03:09:31.275Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "in centimetres",
+        "en": "in centimetres",
+        "timestamp": {
+          "$date": "2025-05-28T03:09:41.135Z"
+        },
+        "standalone_question": "What is the rainfall data for yesterday in centimeters?",
+        "standalone_en": "What is the rainfall data for yesterday in centimeters?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the rainfall data for yesterday (May 27, 2025) for all divisions excluding Nero, converted to centimeters, along with the average:\n\n| Plot Name               | Rainfall (cm) |\n|------------------------|----------------|\n| Srock Attamala         | 7.1            |\n| Srock Chooralmala Kairo| 7.5            |\n| Srock Mundakkai Kairo  | 10.7           |\n| Srock Puthumala        | 8.9            |\n| **Average**            | **8.55**       |\n\nIf you need any further information, feel free to ask!",
+        "en": "Here's the rainfall data for yesterday (May 27, 2025) for all divisions excluding Nero, converted to centimeters, along with the average:\n\n| Plot Name               | Rainfall (cm) |\n|------------------------|----------------|\n| Srock Attamala         | 7.1            |\n| Srock Chooralmala Kairo| 7.5            |\n| Srock Mundakkai Kairo  | 10.7           |\n| Srock Puthumala        | 8.9            |\n| **Average**            | **8.55**       |\n\nIf you need any further information, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-28T03:09:46.411Z"
+        }
+      }
+    ],
+    "farmer_id": "allenenoshmani",
+    "farmer_plot_ids": [
+      "attamaladivision",
+      "chooralmaladivision",
+      "chooralmalanerodivision",
+      "mundakainerodivision",
+      "mundakkaidivision",
+      "puthumaladivision"
+    ],
+    "conversation_id": "68367e64fa7bb2d076a8af29",
+    "_id": "68367e64fa7bb2d076a8af29",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-05-28T03:14:41.138000Z"
+    },
+    "tag": "historical data",
+    "conv_date": "2025-05-28T03:09:24.584000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "what is yesterday's rainfall of all division exclude Nero and add average also in centimetre",
+        "en": "what is yesterday's rainfall of all division exclude Nero and add average also in centimetre",
+        "timestamp": {
+          "$date": "2025-05-28T02:19:57.824Z"
+        },
+        "standalone_question": "What was the rainfall in centimeters for all divisions yesterday, excluding Nero, and what is the average rainfall?",
+        "standalone_en": "What was the rainfall in centimeters for all divisions yesterday, excluding Nero, and what is the average rainfall?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Yesterday's rainfall in centimeters for the Kairo divisions is as follows:\n\n- **Srock Attamala**: 7.1 cm\n- **Srock Chooralmala Kairo**: 7.5 cm\n- **Srock Mundakkai Kairo**: 10.7 cm\n- **Srock Puthumala**: 8.9 cm\n\n**Average Rainfall**: 8.55 cm",
+        "en": "Yesterday's rainfall in centimeters for the Kairo divisions is as follows:\n\n- **Srock Attamala**: 7.1 cm\n- **Srock Chooralmala Kairo**: 7.5 cm\n- **Srock Mundakkai Kairo**: 10.7 cm\n- **Srock Puthumala**: 8.9 cm\n\n**Average Rainfall**: 8.55 cm",
+        "timestamp": {
+          "$date": "2025-05-28T02:20:06.743Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "McDonal and table format",
+        "en": "McDonal and table format",
+        "timestamp": {
+          "$date": "2025-05-28T02:20:22.198Z"
+        },
+        "standalone_question": "Could you provide the rainfall data in a table format?",
+        "standalone_en": "Could you provide the rainfall data in a table format?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the information in a table format for the Kairo divisions:\n\n| Plot Name               | Rainfall (cm) |\n|------------------------|----------------|\n| Srock Attamala         | 7.1            |\n| Srock Chooralmala Kairo| 7.5            |\n| Srock Mundakkai Kairo  | 10.7           |\n| Srock Puthumala        | 8.9            |\n| **Average Rainfall**   | **8.55**       |\n\nThis table summarizes the rainfall data for each plot along with the average rainfall.",
+        "en": "Here's the information in a table format for the Kairo divisions:\n\n| Plot Name               | Rainfall (cm) |\n|------------------------|----------------|\n| Srock Attamala         | 7.1            |\n| Srock Chooralmala Kairo| 7.5            |\n| Srock Mundakkai Kairo  | 10.7           |\n| Srock Puthumala        | 8.9            |\n| **Average Rainfall**   | **8.55**       |\n\nThis table summarizes the rainfall data for each plot along with the average rainfall.",
+        "timestamp": {
+          "$date": "2025-05-28T02:20:30.099Z"
+        }
+      }
+    ],
+    "farmer_id": "allenenoshmani",
+    "farmer_plot_ids": [
+      "attamaladivision",
+      "chooralmaladivision",
+      "chooralmalanerodivision",
+      "mundakainerodivision",
+      "mundakkaidivision",
+      "puthumaladivision"
+    ],
+    "conversation_id": "683672cdfa7bb2d076a8af28",
+    "_id": "683672cdfa7bb2d076a8af28",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-05-28T02:25:22.206000Z"
+    },
+    "tag": "historical data",
+    "conv_date": "2025-05-28T02:19:57.824000+00:00"
+  }
+]

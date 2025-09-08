@@ -1,0 +1,442 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How many magneshium need april cutting ",
+        "en": "How many magneshium need april cutting ",
+        "timestamp": {
+          "$date": "2025-07-19T16:02:35.714Z"
+        },
+        "standalone_question": "How much magnesium does April need for cutting?",
+        "standalone_en": "How much magnesium does April need for cutting?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For the April cutting during the Foundation Pruning stage, you will need **9.5 kg of Magnesium Sulphate per acre** for your Jadhav Super plot.",
+        "en": "For the April cutting during the Foundation Pruning stage, you will need **9.5 kg of Magnesium Sulphate per acre** for your Jadhav Super plot.",
+        "timestamp": {
+          "$date": "2025-07-19T16:02:40.206Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "How many pottasium need april cutting ",
+        "en": "How many pottasium need april cutting ",
+        "timestamp": {
+          "$date": "2025-07-19T16:04:04.542Z"
+        },
+        "standalone_question": "How much potassium is needed for the April cutting?",
+        "standalone_en": "How much potassium is needed for the April cutting?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For the April cutting during the Foundation Pruning stage, you will need **12 kg of Potassium Nitrate per acre** for your Jadhav Super plot.",
+        "en": "For the April cutting during the Foundation Pruning stage, you will need **12 kg of Potassium Nitrate per acre** for your Jadhav Super plot.",
+        "timestamp": {
+          "$date": "2025-07-19T16:04:08.836Z"
+        }
+      }
+    ],
+    "farmer_id": "ravindraramchandrapawar",
+    "farmer_plot_ids": [
+      "jadhavsuper"
+    ],
+    "conversation_id": "687bc19b76acd076d0f7e8a5",
+    "_id": "687bc19b76acd076d0f7e8a5",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-19T16:09:04.556000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-07-19T16:02:35.714000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पावसाचा अंदाज ",
+        "en": "Rain forecast ",
+        "timestamp": {
+          "$date": "2025-07-19T14:42:32.897Z"
+        },
+        "standalone_question": "What is the weather forecast for rain?",
+        "standalone_en": "What is the weather forecast for rain?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pavasacha andaj "
+      },
+      {
+        "role": "assistant",
+        "content": "पावसाचा अंदाज पुढीलप्रमाणे आहे:\n\n- **20 जुलै (रविवार)**: तापमान 25.2°C ते 33.3°C, पाऊस 0.0 मिमी, पावसाची शक्यता 20%.\n- **21 जुलै (सोमवार)**: तापमान 24.7°C ते 33.7°C, पाऊस 0.3 मिमी, पावसाची शक्यता 40%.\n- **22 जुलै (मंगळवार)**: तापमान 24.3°C ते 34.2°C, पाऊस 11.2 मिमी, पावसाची शक्यता 55%.\n- **23 जुलै (बुधवार)**: तापमान 24.1°C ते 29.9°C, पाऊस 0.1 मिमी, पावसाची शक्यता 40%.\n- **24 जुलै (गुरुवार)**: तापमान 24.6°C ते 30.3°C, पाऊस 1.2 मिमी, पावसाची शक्यता 20%.\n- **25 जुलै (शुक्रवार)**: तापमान 25°C ते 30°C, पाऊस 1.4 मिमी, पावसाची शक्यता 0%.\n- **26 जुलै (शनिवार)**: तापमान 23.9°C ते 28.5°C, पाऊस 1.0 मिमी, पावसाची शक्यता 60%.\n- **27 जुलै (रविवार)**: तापमान 23°C ते 25.8°C, पाऊस 0.6 मिमी, पावसाची शक्यता 70%.\n\nतुमच्या शेतासाठी योग्य पाण्याची व्यवस्था करा!",
+        "en": "The rainfall forecast is as follows:\n\n- July 20th (Sunday)**: Temperature 25.2°C to 33.3°C, rain 0.0 mm, chance of rain 20%.\n- **July 21 (Monday)**: Temperature 24.7°C to 33.7°C, rain 0.3 mm, chance of rain 40%.\n- **July 22 (Tuesday)**: Temperature 24.3°C to 34.2°C, rain 11.2 mm, chance of rain 55%.\n- **July 23 (Wednesday)**: Temperature 24.1°C to 29.9°C, rain 0.1 mm, chance of rain 40%.\n- **July 24 (Thursday)**: Temperature 24.6°C to 30.3°C, rain 1.2 mm, chance of rain 20%.\n- **July 25 (Friday)**: Temperature 25°C to 30°C, rain 1.4 mm, chance of rain 0%.\n- **July 26 (Saturday)**: Temperature 23.9°C to 28.5°C, rain 1.0 mm, chance of rain 60%.\n- **July 27 (Sunday)**: Temperature 23°C to 25.8°C, rain 0.6 mm, chance of rain 70%.\n\nArrange the right water for your farm!",
+        "timestamp": {
+          "$date": "2025-07-19T14:42:47.502Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "सोयाबीन पहिली फवारणी",
+        "en": "Soyabean first spray",
+        "timestamp": {
+          "$date": "2025-07-19T14:44:28.242Z"
+        },
+        "standalone_question": "What is the timing for the first spray application for soybeans?",
+        "standalone_en": "What is the timing for the first spray application for soybeans?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "soyabean pahili favarani"
+      },
+      {
+        "role": "assistant",
+        "content": "सोयाबीनसाठी या आठवड्यात कोणतीही फवारणीची आवश्यकता नाही. तुम्ही आधीच फवारणी केली असल्यास, पुन्हा फवारणी करण्याची गरज नाही. जर तुम्हाला आणखी काही माहिती हवी असेल तर सांगा!",
+        "en": "Soybeans don't need any spraying this week. If you've already sprayed, there's no need to spray again. If you need any more information, let me know!",
+        "timestamp": {
+          "$date": "2025-07-19T14:44:36.453Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "तूर खत व्यवस्थापन ",
+        "en": "Tur fertilizer management ",
+        "timestamp": {
+          "$date": "2025-07-19T14:45:05.469Z"
+        },
+        "standalone_question": "What is the fertilizer management for pigeon pea (tur)?",
+        "standalone_en": "What is the fertilizer management for pigeon pea (tur)?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "tour khat vyavasthapan "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या सोयाबीनच्या खत व्यवस्थापनासाठी पुढील माहिती आहे:\n\n### सध्याची अवस्था:\n- **पिकाची अवस्था**: वाढीची (Vegetative)\n- **सध्याचा आठवडा**: 2\n- **तारीख**: 19 जुलै 2025\n\n### सध्याची फवारणी:\n- **फवारणीची आवश्यकता नाही.**\n\n### पुढील फवारणी:\n#### 3रा आठवडा (सुरूवात: 8 सप्टेंबर 2025)\n1. **फोलिअर पद्धतीने**:\n   - **खत**: 19-19-19\n   - **प्रमाण**: 2 किलोग्राम/एकर\n   - **सूचना**: फोलिअर स्प्रेमध्ये सूक्ष्म-खतांचा एकाग्रता 1% पेक्षा जास्त नसावा, म्हणजे 500 लिटर पाण्यात 5 किलोग्राम.\n\n2. **फर्टिगेशन पद्धतीने**:\n   - **संभाव्य वितरण संयोजन**:\n     - 12-61-0: 3 किलोग्राम/एकर\n     - युरिया: 4.5 किलोग्राम/एकर\n     - मॅग्नेशियम सल्फेट: 3.5 किलोग्राम/एकर\n   - **सूचना**: फॉस्फोरिक आम्ल इतर खतांच्या अनुप्रयोगापूर्वी 15-20 मिनिटे स्वतंत्रपणे लागू करावे.\n\nतुमच्या पिकाच्या वाढीसाठी योग्य खत व्यवस्थापन करा! अधिक माहिती हवी असल्यास सांगा.",
+        "en": "Here's the information for your soybean fertilizer management:\n\n### Current status:\n- **Crop stage**: Vegetative\n- **Current Week**: 2\n- **Date**: 19 July 2025\n\n### Current spray:\n- **No need for spraying.**\n\n### Further spraying:\n#### Week 3rd (Start: September 8, 2025)\n1. **Folière method**:\n   - **Khat**: 19-19-19\n   - **Proportion**: 2 kg/acre\n   * **Note**: The concentration of micro-fertilizers in foliar spray should not exceed 1%, i.e. 5 kg in 500 liters of water.\n\n2. **In a fertigation manner**:\n   - **Possible distribution combination**:\n     - 12-61-0: 3 kg/acre\n     - Urea: 4.5 kg/acre\n     - Magnesium sulfate: 3.5 kg/acre\n   * **Instructions**: Phosphoric acid should be applied separately for 15-20 minutes before application of other fertilizers.\n\nDo the right fertilizer management for the growth of your crop! Let me know if you need more information.",
+        "timestamp": {
+          "$date": "2025-07-19T14:45:17.091Z"
+        }
+      }
+    ],
+    "farmer_id": "dreamvisionfpchatgaon",
+    "farmer_plot_ids": [
+      "dreamvision"
+    ],
+    "conversation_id": "687baed67d4d1227d33b95af",
+    "_id": "687baed67d4d1227d33b95af",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-19T14:50:05.474000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-07-19T14:42:32.897000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पावसाचा अंदाज ",
+        "en": "Rain forecast ",
+        "timestamp": {
+          "$date": "2025-07-19T14:42:32.897Z"
+        },
+        "standalone_question": "What is the weather forecast for rain?",
+        "standalone_en": "What is the weather forecast for rain?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pavasacha andaj "
+      },
+      {
+        "role": "assistant",
+        "content": "पावसाचा अंदाज पुढीलप्रमाणे आहे:\n\n- **20 जुलै (रविवार)**: तापमान 25.2°C ते 33.3°C, पाऊस 0.0 मिमी, पावसाची शक्यता 20%.\n- **21 जुलै (सोमवार)**: तापमान 24.7°C ते 33.7°C, पाऊस 0.3 मिमी, पावसाची शक्यता 40%.\n- **22 जुलै (मंगळवार)**: तापमान 24.3°C ते 34.2°C, पाऊस 11.2 मिमी, पावसाची शक्यता 55%.\n- **23 जुलै (बुधवार)**: तापमान 24.1°C ते 29.9°C, पाऊस 0.1 मिमी, पावसाची शक्यता 40%.\n- **24 जुलै (गुरुवार)**: तापमान 24.6°C ते 30.3°C, पाऊस 1.2 मिमी, पावसाची शक्यता 20%.\n- **25 जुलै (शुक्रवार)**: तापमान 25°C ते 30°C, पाऊस 1.4 मिमी, पावसाची शक्यता 0%.\n- **26 जुलै (शनिवार)**: तापमान 23.9°C ते 28.5°C, पाऊस 1.0 मिमी, पावसाची शक्यता 60%.\n- **27 जुलै (रविवार)**: तापमान 23°C ते 25.8°C, पाऊस 0.6 मिमी, पावसाची शक्यता 70%.\n\nतुमच्या शेतासाठी योग्य पाण्याची व्यवस्था करा!",
+        "en": "The rainfall forecast is as follows:\n\n- July 20th (Sunday)**: Temperature 25.2°C to 33.3°C, rain 0.0 mm, chance of rain 20%.\n- **July 21 (Monday)**: Temperature 24.7°C to 33.7°C, rain 0.3 mm, chance of rain 40%.\n- **July 22 (Tuesday)**: Temperature 24.3°C to 34.2°C, rain 11.2 mm, chance of rain 55%.\n- **July 23 (Wednesday)**: Temperature 24.1°C to 29.9°C, rain 0.1 mm, chance of rain 40%.\n- **July 24 (Thursday)**: Temperature 24.6°C to 30.3°C, rain 1.2 mm, chance of rain 20%.\n- **July 25 (Friday)**: Temperature 25°C to 30°C, rain 1.4 mm, chance of rain 0%.\n- **July 26 (Saturday)**: Temperature 23.9°C to 28.5°C, rain 1.0 mm, chance of rain 60%.\n- **July 27 (Sunday)**: Temperature 23°C to 25.8°C, rain 0.6 mm, chance of rain 70%.\n\nArrange the right water for your farm!",
+        "timestamp": {
+          "$date": "2025-07-19T14:42:47.502Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "सोयाबीन पहिली फवारणी",
+        "en": "Soyabean first spray",
+        "timestamp": {
+          "$date": "2025-07-19T14:44:28.242Z"
+        },
+        "standalone_question": "What is the recommended timing for the first spray of soybean?",
+        "standalone_en": "What is the recommended timing for the first spray of soybean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "soyabean pahili favarani"
+      },
+      {
+        "role": "assistant",
+        "content": "सोयाबीनसाठी या आठवड्यात कोणतीही फवारणीची आवश्यकता नाही. तुम्ही आधीच फवारणी केली असल्यास, पुन्हा फवारणी करण्याची गरज नाही. जर तुम्हाला आणखी काही माहिती हवी असेल तर सांगा!",
+        "en": "Soybeans don't need any spraying this week. If you've already sprayed, there's no need to spray again. If you need any more information, let me know!",
+        "timestamp": {
+          "$date": "2025-07-19T14:44:36.453Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "तूर खत व्यवस्थापन ",
+        "en": "Tur fertilizer management ",
+        "timestamp": {
+          "$date": "2025-07-19T14:45:05.469Z"
+        },
+        "standalone_question": "What is the fertilizer management for pigeon pea (tur)?",
+        "standalone_en": "What is the fertilizer management for pigeon pea (tur)?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "tour khat vyavasthapan "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या सोयाबीनच्या खत व्यवस्थापनासाठी पुढील माहिती आहे:\n\n### सध्याची अवस्था:\n- **पिकाची अवस्था**: वाढीची (Vegetative)\n- **सध्याचा आठवडा**: 2\n- **तारीख**: 19 जुलै 2025\n\n### सध्याची फवारणी:\n- **फवारणीची आवश्यकता नाही.**\n\n### पुढील फवारणी:\n#### 3रा आठवडा (सुरूवात: 8 सप्टेंबर 2025)\n1. **फोलिअर पद्धतीने**:\n   - **खत**: 19-19-19\n   - **प्रमाण**: 2 किलोग्राम/एकर\n   - **सूचना**: फोलिअर स्प्रेमध्ये सूक्ष्म-खतांचा एकाग्रता 1% पेक्षा जास्त नसावा, म्हणजे 500 लिटर पाण्यात 5 किलोग्राम.\n\n2. **फर्टिगेशन पद्धतीने**:\n   - **संभाव्य वितरण संयोजन**:\n     - 12-61-0: 3 किलोग्राम/एकर\n     - युरिया: 4.5 किलोग्राम/एकर\n     - मॅग्नेशियम सल्फेट: 3.5 किलोग्राम/एकर\n   - **सूचना**: फॉस्फोरिक आम्ल इतर खतांच्या अनुप्रयोगापूर्वी 15-20 मिनिटे स्वतंत्रपणे लागू करावे.\n\nतुमच्या पिकाच्या वाढीसाठी योग्य खत व्यवस्थापन करा! अधिक माहिती हवी असल्यास सांगा.",
+        "en": "Here's the information for your soybean fertilizer management:\n\n### Current status:\n- **Crop stage**: Vegetative\n- **Current Week**: 2\n- **Date**: 19 July 2025\n\n### Current spray:\n- **No need for spraying.**\n\n### Further spraying:\n#### Week 3rd (Start: September 8, 2025)\n1. **Folière method**:\n   - **Khat**: 19-19-19\n   - **Proportion**: 2 kg/acre\n   * **Note**: The concentration of micro-fertilizers in foliar spray should not exceed 1%, i.e. 5 kg in 500 liters of water.\n\n2. **In a fertigation manner**:\n   - **Possible distribution combination**:\n     - 12-61-0: 3 kg/acre\n     - Urea: 4.5 kg/acre\n     - Magnesium sulfate: 3.5 kg/acre\n   * **Instructions**: Phosphoric acid should be applied separately for 15-20 minutes before application of other fertilizers.\n\nDo the right fertilizer management for the growth of your crop! Let me know if you need more information.",
+        "timestamp": {
+          "$date": "2025-07-19T14:45:17.091Z"
+        }
+      }
+    ],
+    "farmer_id": "dreamvisionfpchatgaon",
+    "farmer_plot_ids": [
+      "dreamvision"
+    ],
+    "conversation_id": "687baed67d4d1227d33b95af",
+    "_id": "687baed67d4d1227d33b95af",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-19T14:50:05.474000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-07-19T14:42:32.897000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "फलन करू नका मनजे काय ",
+        "en": "Don't do what you want ",
+        "timestamp": {
+          "$date": "2025-07-19T09:35:34.153Z"
+        },
+        "standalone_question": "What does \"फलन करू नका\" mean?",
+        "standalone_en": "What does \"Don't Function\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "fallen karu naka manaje kay "
+      },
+      {
+        "role": "assistant",
+        "content": "\"फलन\" म्हणजे फळांचे उत्पादन किंवा फळांची वाढ. \"फलन करू नका\" म्हणजे फळांचे उत्पादन किंवा फळांची वाढ करण्याची प्रक्रिया थांबवा. हे सामान्यतः फळांच्या झाडांच्या काळजीसाठी किंवा विशिष्ट परिस्थितीत केले जाते, जसे की झाडांची आरोग्य स्थिती किंवा हवामानाच्या परिस्थितीमुळे. \n\nतुमच्या पिकाच्या संदर्भात, तुम्हाला अधिक माहिती हवी असल्यास, कृपया सांगा.",
+        "en": "\"Fruit\" means the production of fruit or the growth of fruit. \"Don't fruit\" means stop the process of producing fruit or growing fruits. This is usually done for the care of fruit trees or under certain circumstances, such as the health conditions of the trees or weather conditions. \n\nRegarding your crop, if you would like more information, please let us know.",
+        "timestamp": {
+          "$date": "2025-07-19T09:35:40.919Z"
+        }
+      }
+    ],
+    "farmer_id": "sachinuttambhuirkar",
+    "farmer_plot_ids": [
+      "manikchamancloneplot"
+    ],
+    "conversation_id": "687b66e59c1a8d53c9ea3377",
+    "_id": "687b66e59c1a8d53c9ea3377",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-19T09:40:34.157000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-07-19T09:35:34.153000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "डिवाईस बंद आहे",
+        "en": "The device is closed",
+        "timestamp": {
+          "$date": "2025-07-19T04:17:57.030Z"
+        },
+        "standalone_question": "The device is off.",
+        "standalone_en": "The device is off.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "device band aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया आपला प्लॉट कोणता आहे हे सांगा, जेणेकरून मी तिथे एक समर्थन तिकीट तयार करू शकू.",
+        "en": "Please tell me what your plot is, so I can create a support ticket there.",
+        "timestamp": {
+          "$date": "2025-07-19T04:18:02.919Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "S s n",
+        "en": "S s n",
+        "timestamp": {
+          "$date": "2025-07-19T04:19:10.090Z"
+        },
+        "standalone_question": "What is your plot number?",
+        "standalone_en": "What is your plot number?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "सर्व प्लॉटसाठी समर्थन तिकीट यशस्वीरित्या तयार करण्यात आले आहे:\n\n1. **Kartik Grape Plot 2 SSN** - तिकीट क्रमांक: 685076\n2. **Sudhakar 2** - तिकीट क्रमांक: 685077\n3. **Sudhakar Plot 1** - तिकीट क्रमांक: 685078\n\nआपल्या डिव्हाइससाठी लवकरच मदत मिळेल. काही अन्य गोष्टीसाठी मदतीची आवश्यकता असल्यास, कृपया सांगा!",
+        "en": "Support tickets for all plots have been successfully generated:\n\n1. Kartik Grape Plot 2 SSN - Ticket Number: 685076\n2. **Sudhakar 2** - Ticket No.: 685077\n3. **Sudhakar Plot 1** - Ticket Number: 685078\n\nHelp will be available for your device soon. If you need help with anything else, please let me know!",
+        "timestamp": {
+          "$date": "2025-07-19T04:19:19.826Z"
+        }
+      }
+    ],
+    "farmer_id": "murlidharborade",
+    "farmer_plot_ids": [
+      "kartikgrapeplot2kartik",
+      "sudhakar2kartikigrapes",
+      "sudhakarplot1480"
+    ],
+    "conversation_id": "687b1c73757dd9f2e5252ff4",
+    "_id": "687b1c73757dd9f2e5252ff4",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-19T04:24:10.097000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-07-19T04:17:57.030000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "tell me yesterday's rainfall for all the division except Nero negative all and table format and add average also",
+        "en": "tell me yesterday's rainfall for all the division except Nero negative all and table format and add average also",
+        "timestamp": {
+          "$date": "2025-07-19T02:19:45.305Z"
+        },
+        "standalone_question": "What was yesterday's rainfall for all divisions except Nero, presented in a table format, including the average?",
+        "standalone_en": "What was yesterday's rainfall for all divisions except Nero, presented in a table format, including the average?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the rainfall data for yesterday (July 18, 2025) for all divisions except Nero:\n\n| Plot Name               | Rainfall (mm) |\n|------------------------|----------------|\n| Srock Attamala         | 16             |\n| Srock Chooralmala Kairo| 16             |\n| Srock Mundakkai Kairo  | 25             |\n| Srock Puthumala        | 15             |\n| **Average**            | **18.0**       |\n\nIf you need any further assistance, feel free to ask!",
+        "en": "Here is the rainfall data for yesterday (July 18, 2025) for all divisions except Nero:\n\n| Plot Name               | Rainfall (mm) |\n|------------------------|----------------|\n| Srock Attamala         | 16             |\n| Srock Chooralmala Kairo| 16             |\n| Srock Mundakkai Kairo  | 25             |\n| Srock Puthumala        | 15             |\n| **Average**            | **18.0**       |\n\nIf you need any further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-07-19T02:19:54.809Z"
+        }
+      }
+    ],
+    "farmer_id": "allenenoshmani",
+    "farmer_plot_ids": [
+      "attamaladivision",
+      "chooralmaladivision",
+      "chooralmalanerodivision",
+      "mundakainerodivision",
+      "mundakkaidivision",
+      "puthumaladivision"
+    ],
+    "conversation_id": "687b00c062466dbba2fe08e4",
+    "_id": "687b00c062466dbba2fe08e4",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-07-19T02:24:45.309000Z"
+    },
+    "tag": "historical data",
+    "conv_date": "2025-07-19T02:19:45.305000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पाने खराब होत आहे तर ते टिकवून ठेवण्यासाठी काय उपाययोजना करावी",
+        "en": "If the leaves are damaged, what measures should be taken to maintain them",
+        "timestamp": {
+          "$date": "2025-07-19T00:25:00.247Z"
+        },
+        "standalone_question": "What measures should be taken to preserve something that is deteriorating?",
+        "standalone_en": "What measures should be taken to preserve something that is deteriorating?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pane kharab hot aahe tar te tikavun thevanyasathi kay upayayojana karavi"
+      },
+      {
+        "role": "assistant",
+        "content": "पाण्याची गुणवत्ता टिकवून ठेवण्यासाठी खालील उपाययोजना करा:\n\n1. **पाण्याचे स्रोत स्वच्छ ठेवा**: पाण्याचे टाकी, नद्या किंवा जलाशय स्वच्छ ठेवा. कचरा आणि प्रदूषण टाळा.\n\n2. **पाण्याची चाचणी करा**: पाण्याची गुणवत्ता नियमितपणे तपासा. pH, कठोरता, आणि बॅक्टेरिया यांची चाचणी करा.\n\n3. **पाण्याचे पुनर्वापर**: पाण्याचा पुनर्वापर करण्याचे उपाय शोधा, जसे की पावसाचे पाणी संकलन.\n\n4. **पाण्याचे व्यवस्थापन**: पाण्याचे योग्य व्यवस्थापन करा, जसे की ड्रिप इरिगेशन वापरणे, जे पाण्याची वाया घालवणूक कमी करते.\n\n5. **जैविक उपाययोजना**: पाण्यातील जीवाणूंचा वापर करून पाण्याची गुणवत्ता सुधारण्याचे प्रयत्न करा.\n\n6. **पाण्याचे संरक्षण**: पाण्याचे संरक्षण करण्यासाठी झाडे लावा, जे पाण्याचे वाष्पीकरण कमी करतात.\n\nया उपाययोजनांनी पाण्याची गुणवत्ता टिकवून ठेवण्यास मदत होईल.",
+        "en": "Take the following measures to maintain water quality:\n\n1. **Keep water sources clean**: Keep water tanks, rivers or reservoirs clean. Avoid waste and pollution.\n\n2. **Test the water**: Check water quality regularly. Test for pH, hardness, and bacteria.\n\n3. **Water recycling**: Find ways to recycle water, such as rainwater harvesting.\n\n4. **Water management**: Manage water properly, such as using drip irrigation, which reduces water wastage.\n\n5. **Biological measures**: Try to improve water quality by using bacteria in the water.\n\n6. **Protect water**: Plant trees to protect water, which reduce the evaporation of water.\n\nThese measures will help in maintaining water quality.",
+        "timestamp": {
+          "$date": "2025-07-19T00:25:11.286Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "द्राक्ष बागेची पाने खराब होत आहे ते टिकवून ठेवण्यासाठी काही उपाययोजना करावी",
+        "en": "Some measures should be taken to maintain the leaves of the vineyard that are deteriorating.",
+        "timestamp": {
+          "$date": "2025-07-19T00:26:15.815Z"
+        },
+        "standalone_question": "What measures can be taken to preserve the leaves of a grapevine that are deteriorating?",
+        "standalone_en": "What measures can be taken to preserve the leaves of a grapevine that are deteriorating?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "draks bagechi pane kharab hot aahe te tikavun thevanyasathi kahi upayayojana karavi"
+      },
+      {
+        "role": "assistant",
+        "content": "द्राक्ष बागेतील पाने खराब होण्यापासून वाचवण्यासाठी खालील उपाययोजना करा:\n\n1. **पाण्याचे व्यवस्थापन**: योग्य पाण्याचे व्यवस्थापन करा. ओलावा कमी होऊ नये यासाठी ड्रिप इरिगेशन वापरा.\n\n2. **फंगसिसाइडचा वापर**: पानांवर फंगसिसाइड (उदा. कार्बेन्डाझिम) चा वापर करा. हे बुरशीजन्य रोगांपासून संरक्षण करेल.\n\n3. **पानांची तपासणी**: नियमितपणे पानांची तपासणी करा. कोणतेही रोग किंवा कीड आढळल्यास तात्काळ उपाययोजना करा.\n\n4. **जैविक नियंत्रण**: जैविक कीड नियंत्रण उपायांचा वापर करा, जसे की परजीवी कीड किंवा नैसर्गिक शत्रू.\n\n5. **सुरक्षित अंतर**: द्राक्षांच्या झाडांमध्ये योग्य अंतर ठेवा, जेणेकरून वायुवीजन चांगले होईल आणि ओलावा कमी होईल.\n\n6. **पोषण व्यवस्थापन**: योग्य पोषण सुनिश्चित करा. पानांच्या आरोग्यासाठी आवश्यक पोषक तत्वे पुरवणे महत्त्वाचे आहे.\n\n7. **साफसफाई**: बागेतील कचरा आणि मृत पानं काढा, जेणेकरून रोगांचा प्रसार होणार नाही.\n\nया उपाययोजनांनी द्राक्ष बागेतील पानांचे आरोग्य सुधारण्यास मदत होईल.",
+        "en": "Take the following measures to protect the leaves from spoilage in the vineyard:\n\n1. **Water management**: Manage proper water. Use drip irrigation to prevent moisture loss.\n\n2. **Use fungicide**: Use fungicide (e.g. carbendazim) on leaves. This will protect against fungal diseases.\n\n3. **Checking pages**: Check the leaves regularly. If any disease or pest is found, take immediate measures.\n\n4. **Biological control**: Use biological pest control measures, such as parasitic pests or natural enemies.\n\n5. **Safe distance**: Keep proper distance between grape trees, so that ventilation is good and moisture is reduced.\n\n6. **Nutrition Management**: Ensure proper nutrition. It is important to provide essential nutrients for leaf health.\n\n7. **Cleaning**: Remove garden waste and dead leaves, so that diseases do not spread.\n\nThese measures will help improve the health of the leaves in the vineyard.",
+        "timestamp": {
+          "$date": "2025-07-19T00:26:23.452Z"
+        }
+      }
+    ],
+    "farmer_id": "pankajsadashivkhandave",
+    "farmer_plot_ids": [
+      "plotnoonessn",
+      "plotnotwocrimson",
+      "sudhakar156",
+      "sudhakar2101"
+    ],
+    "conversation_id": "687ae5dbce76ae008c2c73d6",
+    "_id": "687ae5dbce76ae008c2c73d6",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-19T00:31:15.819000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-07-19T00:25:00.247000+00:00"
+  }
+]

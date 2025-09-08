@@ -1,0 +1,816 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "डिव्हाइस डेटा प्राप्त होत नाही ",
+        "en": "Device data is not received ",
+        "timestamp": {
+          "$date": "2025-01-06T18:19:39.632Z"
+        },
+        "standalone_question": "The device is not receiving data.",
+        "standalone_en": "The device is not receiving data.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "device data prapt hot nahi "
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया तपासा की डिव्हाइसची रिचार्ज केलेली आहे का आणि ती सक्रियपणे डेटा पाठवत आहे का. जर रिचार्ज सक्रिय असेल आणि तरीही डेटा प्राप्त होत नसेल, तर कृपया Fyllo अॅपवर सपोर्ट तिकीट उघडा.",
+        "en": "Please check if the device is recharged and whether it is actively sending data. If the recharge is active and data is still not received, please open the support ticket on the Fyllo app.",
+        "timestamp": {
+          "$date": "2025-01-06T18:19:42.700Z"
+        }
+      }
+    ],
+    "farmer_id": "prabhakarpadol",
+    "farmer_plot_ids": [
+      "plotno3sudhakar370",
+      "plotno4sudhakar612"
+    ],
+    "conversation_id": "677c1ebb1448d0056c0af725",
+    "_id": "677c1ebb1448d0056c0af725",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-01-06T18:24:39.641000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-01-06T18:19:39.632000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "सेन्सॉर बंद आहे ",
+        "en": "Censor is off ",
+        "timestamp": {
+          "$date": "2025-01-06T18:12:50.857Z"
+        },
+        "standalone_question": "The sensor is off.",
+        "standalone_en": "The sensor is off.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "sensor band aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "आपण आपल्या प्लॉट्सवरील सेन्सरची स्थिती तपासू इच्छित असल्यास, कृपया थोडा वेळ द्या. मी आपल्या प्लॉट्ससाठी ताज्या सेन्सर डेटाची माहिती मिळवतो. \n\nकृपया थोडा वेळ थांबा.:\n\nआपल्या प्लॉट्सवरील सेन्सर डेटा खालीलप्रमाणे आहे:\n\n### Plot No 3 Sudhakar\n- **तापमान:** 22.5°C\n- **मातीची आर्द्रता 1:** 31 kPa (आर्द्र)\n- **मातीची आर्द्रता 2:** 23 kPa (आर्द्र)\n- **बॅटरी:** 69%\n- **सेन्सर कार्यरत आहे.**\n\n### Plot No 4 Sudhakar\n- **तापमान:** 20.81°C\n- **मातीची आर्द्रता 1:** 8 kPa (खूप आर्द्र)\n- **मातीची आर्द्रता 2:** 13 kPa (आर्द्र)\n- **बॅटरी:** 100%\n- **सेन्सर कार्यरत आहे.**\n\nआपले सेन्सर कार्यरत आहेत आणि मातीची आर्द्रता चांगली आहे. जर आपल्याला आणखी काही माहिती हवी असेल तर कृपया सांगा!",
+        "en": "If you would like to check the status of the sensors on your plots, please take some time. I get information on the latest sensor data for your plots. \n\nPlease wait a while.:\n\nThe sensor data on your plots is as follows:\n\n### Plot No 3 Sudhakar\n- **Temperature:** 22.5°C\n- **Soil moisture 1:** 31 kPa (moist)\n- **Soil moisture 2:** 23 kPa (moist)\n- **Battery:** 69%\n- **The sensor is working.**\n\n### Plot No 4 Sudhakar\n- **Temperature:** 20.81°C\n- **Soil moisture 1:** 8 kPa (very humid)\n- **Soil moisture 2:** 13 kPa (moist)\n- *Battery:** 100%\n- **The sensor is working.**\n\nYour sensors are working and the soil moisture is good. If you need any more information, please let me know!",
+        "timestamp": {
+          "$date": "2025-01-06T18:13:03.153Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "दाखवत नाही ",
+        "en": "Not showing ",
+        "timestamp": {
+          "$date": "2025-01-06T18:14:25.758Z"
+        },
+        "standalone_question": "Why is it not displaying?",
+        "standalone_en": "Why is it not displaying?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "dakhavat nahi "
+      },
+      {
+        "role": "assistant",
+        "content": "जर आपला सेन्सर डेटा अद्ययावत होत नसेल, तर कृपया खालील गोष्टी तपासा:\n\n1. **डिव्हाइस कनेक्शन:** सुनिश्चित करा की डिव्हाइस अॅपशी जोडलेले आहे.\n2. **नेटवर्क कनेक्टिव्हिटी:** इंटरनेट कनेक्शन तपासा.\n3. **बॅटरी स्थिती:** बॅटरी चार्ज आहे का ते तपासा.\n4. **डिव्हाइस रीस्टार्ट करा:** डिव्हाइस रीस्टार्ट करून पहा.\n\nजर या सर्व गोष्टी तपासल्यानंतरही समस्या कायम राहिली, तर कृपया Fyllo अॅपवर सपोर्ट तिकीट उघडा.",
+        "en": "If your sensor data is not updated, please check the following:\n\n1. **Device connection:** Make sure the device is connected to the app.\n2. **Network connectivity:** Check internet connection.\n3. **Battery status:** Check if the battery is charged.\n4. **Restart the device:** Try restarting the device.\n\nIf the problem persists even after checking all of these things, please open the support ticket on the Fyllo app.",
+        "timestamp": {
+          "$date": "2025-01-06T18:14:30.022Z"
+        }
+      }
+    ],
+    "farmer_id": "prabhakarpadol",
+    "farmer_plot_ids": [
+      "plotno3sudhakar370",
+      "plotno4sudhakar612"
+    ],
+    "conversation_id": "677c1d221448d0056c0af724",
+    "_id": "677c1d221448d0056c0af724",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-01-06T18:19:25.766000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-01-06T18:12:50.857000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "मी टरबूज प्लॉट मधे फॉलो लावले आहे ",
+        "en": "I have followed in the watermelon plot ",
+        "timestamp": {
+          "$date": "2025-01-06T16:01:11.722Z"
+        },
+        "standalone_question": "I have planted watermelons in the plot. \n\nWhat have you planted in the plot?",
+        "standalone_en": "I have planted watermelons in the plot. \n\nWhat have you planted in the plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "me turboose plot madhe follow lavale aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "आपण टरबूज प्लॉटमध्ये फॉलो लावले असल्यास, कृपया मला प्लॉटचे नाव सांगा, जेणेकरून मी आपल्याला अधिक माहिती आणि मदत करू शकेन.",
+        "en": "If you've followed in a watermelon plot, please tell me the name of the plot, so I can give you more information and help.",
+        "timestamp": {
+          "$date": "2025-01-06T16:01:14.339Z"
+        }
+      }
+    ],
+    "farmer_id": "sandipgoaplpatil",
+    "farmer_plot_ids": [
+      "banana"
+    ],
+    "conversation_id": "677bfe47d2711658867b1648",
+    "_id": "677bfe47d2711658867b1648",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-01-06T16:06:11.729000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-01-06T16:01:11.722000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મારા પ્લોટમાં અત્યારે મેન્કોઝેબ આપુ છું પહેલા આપ્યુ હતુ બરાબર છે",
+        "en": "In my plot right now Mancozeb Apu I was given earlier is right",
+        "timestamp": {
+          "$date": "2025-01-06T14:59:40.243Z"
+        },
+        "standalone_question": "Is it correct that I am currently giving mancozeb on my plot, as I did before?",
+        "standalone_en": "Is it correct that I am currently giving mancozeb on my plot, as I did before?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara plotaman atyare mancozeb apu chu pela aapyu hatu barabar che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પ્લોટમાં આજે કોઈ સ્પ્રે શેડ્યૂલ નથી. જો તમે મેન્કોઝેબ આપ્યું છે, તો તે યોગ્ય છે. જો વધુ સ્પ્રે કરવાની જરૂર હોય, તો થોડા દિવસો રાહ જુઓ અને પછી ફરીથી તપાસો.",
+        "en": "There is no spray schedule in your plot today. If you've given a mancozeb, it's right. If you need to spray more, wait for a few days and then check again.",
+        "timestamp": {
+          "$date": "2025-01-06T14:59:45.303Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "તો ચેતવણી માં બતાવ્યુ છે",
+        "en": "So shown in the warning",
+        "timestamp": {
+          "$date": "2025-01-06T15:00:33.058Z"
+        },
+        "standalone_question": "What does the warning indicate?",
+        "standalone_en": "What does the warning indicate?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "to cetavani man batavyu che"
+      },
+      {
+        "role": "assistant",
+        "content": "જો ચેતવણીમાં કોઈ ખાસ સૂચનાઓ છે, તો કૃપા કરીને તેને ધ્યાનમાં રાખો. આ ચેતવણીઓ સામાન્ય રીતે ઉપકરણની સલામતી અને કાર્યક્ષમતા માટે મહત્વપૂર્ણ હોય છે. જો તમને કોઈ ચોક્કસ ચેતવણી વિશે માહિતી જોઈએ છે, તો કૃપા કરીને વધુ વિગતો આપો.",
+        "en": "If there are any specific instructions in the warning, please keep it in mind. These warnings are usually important for the safety and efficiency of the device. If you would like information about a specific warning, please provide more details.",
+        "timestamp": {
+          "$date": "2025-01-06T15:00:36.793Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "રોગ",
+        "en": "disease",
+        "timestamp": {
+          "$date": "2025-01-06T15:00:53.260Z"
+        },
+        "standalone_question": "What disease are you referring to?",
+        "standalone_en": "What disease are you referring to?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "रोग"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પ્લોટમાં રોગોની આગાહી માટે, કૃપા કરીને ચોક્કસ તારીખો અને રોગોના નામો આપો, જેથી હું વધુ માહિતી આપી શકું. Fyllo વિવિધ રોગોની આગાહી કરે છે, જેમ કે:\n\n- Alternaria\n- Anthracnose\n- Bacterial Blight\n- Downy Mildew\n- Fusarium Wilt\n- Powdery Mildew\n- Rust\n\nજો તમને કોઈ ખાસ રોગ વિશે માહિતી જોઈએ છે, તો કૃપા કરીને જણાવો.",
+        "en": "For the prediction of diseases in your plot, please give the exact dates and names of the diseases, so that I can give more information. Fyllo predicts a variety of diseases, such as:\n\n- Alternaria\n- Anthracnose\n- Bacterial Blight\n- Downy Mildew\n- Fusarium Wilt\n- Powdery Mildew\n- Rust\n\nIf you would like information about a particular disease, please let us know.",
+        "timestamp": {
+          "$date": "2025-01-06T15:00:58.013Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "અત્યારે લેટ બ્રાઈટ માટે ફરી સ્પ્રે કરવાનુ કહ્યુ છે ",
+        "en": "Now asked to spray again for late bright ",
+        "timestamp": {
+          "$date": "2025-01-06T15:01:43.905Z"
+        },
+        "standalone_question": "Is it necessary to spray again for late blight at this time?",
+        "standalone_en": "Is it necessary to spray again for late blight at this time?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        },
+        "content_transliterated": "atyare late brait mate furry spray karavanu kahyu che "
+      },
+      {
+        "role": "assistant",
+        "content": "આજે લેટ બ્રાઈટ માટે કોઈ સ્પ્રે શેડ્યૂલ નથી. જો Fyllo એપ્લિકેશનમાં સ્પ્રે કરવાની સૂચના છે, તો તે અનુસરો. જો તમે પહેલાથી જ સ્પ્રે કરી છે, તો થોડા દિવસો રાહ જુઓ અને પછી ફરીથી તપાસો.",
+        "en": "There is no spray schedule for Late Bright today. If there is a notification to spray in the Fyllo app, follow it. If you've already sprayed, wait a few days and then check again.",
+        "timestamp": {
+          "$date": "2025-01-06T15:01:49.694Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140"
+    ],
+    "conversation_id": "677befdb1448d0056c0af723",
+    "_id": "677befdb1448d0056c0af723",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-06T15:06:43.913000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-01-06T14:59:40.243000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "પાઠશાળા વાળો પ્લો છે",
+        "en": "There is a lesson-ridden plow",
+        "timestamp": {
+          "$date": "2025-01-06T11:30:56.524Z"
+        },
+        "standalone_question": "Is there a school play?",
+        "standalone_en": "Is there a school play?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pathshala varo plow che"
+      },
+      {
+        "role": "assistant",
+        "content": "પાઠશાળા વાળો પ્લોટ (Patsala) 3 એકર વિસ્તાર ધરાવે છે અને તેમાં \"પોટેટો (હાયફન)\" પાક ઉગાડવામાં આવી રહ્યો છે. હાલનો પાક તબક્કો \"ટ્યુબર વિકાસ\" (Tuber Development) છે, જે 2025-01-01 થી શરૂ થયો છે. \n\nશું તમને કોઈ ખાસ માહિતી જોઈએ છે?",
+        "en": "The patsala plot has an area of 3 acres and the \"potato(hyphen)\" crop is being grown in it. The present crop phase is \"Tuber Development\", which has started from 2025-01-01. \n\nDo you want any specific information?",
+        "timestamp": {
+          "$date": "2025-01-06T11:31:00.217Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા અપલોડ માં ઇયળો છે",
+        "en": "My upload has eels",
+        "timestamp": {
+          "$date": "2025-01-06T11:31:50.257Z"
+        },
+        "standalone_question": "Are there caterpillars in my upload?",
+        "standalone_en": "Are there caterpillars in my upload?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara upload man iyalo che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમે ઇયળો વિશે માહિતી મેળવવા માંગો છો. કૃપા કરીને ઇયળોની ઓળખ માટે તમારું ફોટો અપલોડ કરો, જેથી હું તેને વિશ્લેષણ કરી શકું.",
+        "en": "You want to get information about the eels. Please upload your photo to identify the eels, so that I can analyze it.",
+        "timestamp": {
+          "$date": "2025-01-06T11:31:53.044Z"
+        }
+      }
+    ],
+    "farmer_id": "VR4859",
+    "farmer_plot_ids": [
+      "delavalu",
+      "khejadavalu",
+      "patsala"
+    ],
+    "conversation_id": "677bbeefd2711658867b1647",
+    "_id": "677bbeefd2711658867b1647",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-06T11:36:50.265000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-01-06T11:30:56.524000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "વાયરસ કેટલા ટકા છે",
+        "en": "What percentage of the virus is",
+        "timestamp": {
+          "$date": "2025-01-06T09:54:42.751Z"
+        },
+        "standalone_question": "What percentage of the virus is present?",
+        "standalone_en": "What percentage of the virus is present?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "virus ketla taka che"
+      },
+      {
+        "role": "assistant",
+        "content": "વાયરસની ચોક્કસ ટકાવારી આપવી મુશ્કેલ છે, કારણ કે તે વિવિધ પરિસ્થિતિઓ અને પાકના પ્રકાર પર આધાર રાખે છે. જો તમે તમારા પાકમાં વાયરસની સંભાવના વિશે જાણકારી મેળવવા માંગતા હો, તો કૃપા કરીને પાકની છબી અપલોડ કરો, જેથી હું તેને વિશ્લેષણ કરી શકું.",
+        "en": "It is difficult to give an exact percentage of the virus, as it depends on different conditions and type of crop. If you want to know about the possibility of a virus in your crop, please upload an image of the crop, so that I can analyze it.",
+        "timestamp": {
+          "$date": "2025-01-06T09:54:49.568Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "એક ફોનની તુવેર ની સંખ્યા કેટલી બેસે છે",
+        "en": "What is the number of trumpets of a phone?",
+        "timestamp": {
+          "$date": "2025-01-06T09:55:20.733Z"
+        },
+        "standalone_question": "What is the typical number of tuvers for a phone?",
+        "standalone_en": "What is the typical number of tuvers for a phone?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ek phonani tuver knee sankhya ketli bese che"
+      },
+      {
+        "role": "assistant",
+        "content": "તુવેર (તુવેર દાળ) ની એક ફોનમાં સામાન્ય રીતે 15 થી 20 ફળો હોય છે. પરંતુ આ સંખ્યા પાકની જાત, પરિસ્થિતિ અને સંભાળ પર આધાર રાખે છે. વધુ ચોક્કસ માહિતી માટે, કૃપા કરીને તમારા પાકની સ્થિતિ અને ઉછેરની શરતો વિશે વધુ માહિતી આપો.",
+        "en": "A phone of tur (tur dal) usually contains 15 to 20 fruits. But this number depends on the variety, condition and care of the crop. For more precise information, please provide more information about your crop condition and rearing conditions.",
+        "timestamp": {
+          "$date": "2025-01-06T09:55:26.558Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "બટાકાના તુવર કેટલી સંખ્યામાં બેસે છે છે",
+        "en": "What number of potatoes do potatoes sit in",
+        "timestamp": {
+          "$date": "2025-01-06T09:56:10.091Z"
+        },
+        "standalone_question": "How many pods does a potato plant typically produce?",
+        "standalone_en": "How many pods does a potato plant typically produce?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "batakana tuvar ketli sankhyaman bese che che"
+      },
+      {
+        "role": "assistant",
+        "content": "બટાકાના (પોટેટો) તુવેરની સંખ્યા વિવિધ પરિસ્થિતિઓ અને પાકની જાત પર આધાર રાખે છે. સામાન્ય રીતે, એક બટાકાના છોડમાં 5 થી 10 તુવેરો ઉછેરાય છે. જો તમે વધુ ચોક્કસ માહિતી મેળવવા માંગતા હો, તો કૃપા કરીને તમારા પાકની સ્થિતિ અને ઉછેરની શરતો વિશે વધુ માહિતી આપો.",
+        "en": "The number of potato (potato) tur depends on different conditions and crop varieties. Generally, 5 to 10 pigeons are grown in a potato plant. If you would like to get more precise information, please provide more information about your crop condition and the conditions of rearing.",
+        "timestamp": {
+          "$date": "2025-01-06T09:56:16.833Z"
+        }
+      }
+    ],
+    "farmer_id": "bharatbhaichoudhary",
+    "farmer_plot_ids": [
+      "borvalopalot246"
+    ],
+    "conversation_id": "677ba8625e5cbc89d9fe0689",
+    "_id": "677ba8625e5cbc89d9fe0689",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-06T10:01:10.098000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-01-06T09:54:42.751000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "બટાકા ની અંદર હાલમાં કયો રોગ આવ્યો છે તે જણાવો",
+        "en": "Tell us what disease has recently occurred inside the potato",
+        "timestamp": {
+          "$date": "2025-01-06T09:08:46.396Z"
+        },
+        "standalone_question": "What disease is currently affecting potatoes?",
+        "standalone_en": "What disease is currently affecting potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "bataka knee andar halaman kayo rog avyo che te janavo"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા બટાકા ના પાકમાં હાલમાં \"લેટ બ્લાઇટ\" અને \"અર્લી બ્લાઇટ\" રોગો જોવા મળી રહ્યા છે. \n\n- **લેટ બ્લાઇટ**: 59.3% સંભાવના (મધ્યમ જોખમ)\n- **અર્લી બ્લાઇટ**: 56.7% સંભાવના (મધ્યમ જોખમ)\n\nઆ રોગો માટે યોગ્ય નિયંત્રણ પગલાં લેવા માટે તાત્કાલિક પગલાં લેવું મહત્વપૂર્ણ છે.",
+        "en": "Your potato crop is currently seeing \"late blight\" and \"early blight\" diseases. \n\n* **Late Blight**: 59.3% probability (moderate risk)\n**Early Blight**: 56.7% probability (moderate risk)\n\nIt is important to take immediate steps to take appropriate control measures for these diseases.",
+        "timestamp": {
+          "$date": "2025-01-06T09:08:52.468Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "આ રોગમાં કઈ દવા વાપરવી",
+        "en": "Which medicine to use in this disease",
+        "timestamp": {
+          "$date": "2025-01-06T09:10:03.977Z"
+        },
+        "standalone_question": "What medication should be used for these diseases?",
+        "standalone_en": "What medication should be used for these diseases?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "a rogaman kai dava vaparvi"
+      },
+      {
+        "role": "assistant",
+        "content": "બટાકા ના રોગો માટે, તમે નીચેની દવાઓનો ઉપયોગ કરી શકો છો:\n\n1. **લેટ બ્લાઇટ માટે**:\n   - **ફંગિસાઇડ**: મેટાલેક્સિલ + મેનકોઝેબ (2.5-3.0 ગ્રામ પ્રતિ લિટર પાણી)\n\n2. **અર્લી બ્લાઇટ માટે**:\n   - **ફંગિસાઇડ**: કાર્બેન્ડાઝિમ (2.5 ગ્રામ પ્રતિ લિટર પાણી)\n\nઆ દવાઓને છંટકાવ કરવા માટે, 10-15 દિવસના અંતરથી ફરીથી છંટકાવ કરવું મહત્વપૂર્ણ છે.",
+        "en": "For potato diseases, you can use the following medications:\n\n1. **For late blight**:\n   **Fungicide**: Metalexyl + Mancozeb (2.5-3.0 grams per litre of water)\n\n2. **For Early Blight**:\n   **Fungicide**: Carbondazim (2.5 g per litre water)\n\nIn order to spray these drugs, it is important to spray again from a distance of 10-15 days.",
+        "timestamp": {
+          "$date": "2025-01-06T09:10:16.228Z"
+        }
+      }
+    ],
+    "farmer_id": "bharatbhaichoudhary",
+    "farmer_plot_ids": [
+      "borvalopalot246"
+    ],
+    "conversation_id": "677b9cda1448d0056c0af71e",
+    "_id": "677b9cda1448d0056c0af71e",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-06T09:15:03.986000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-01-06T09:08:46.396000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "બટાકા ની અંદર હાલમાં કયો રોગ આવ્યો છે તે જણાવો",
+        "en": "Tell us what disease has recently occurred inside the potato",
+        "timestamp": {
+          "$date": "2025-01-06T09:08:46.396Z"
+        },
+        "standalone_question": "What disease is currently affecting potatoes?",
+        "standalone_en": "What disease is currently affecting potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "bataka knee andar halaman kayo rog avyo che te janavo"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા બટાકા ના પાકમાં હાલમાં \"લેટ બ્લાઇટ\" અને \"અર્લી બ્લાઇટ\" રોગો જોવા મળી રહ્યા છે. \n\n- **લેટ બ્લાઇટ**: 59.3% સંભાવના (મધ્યમ જોખમ)\n- **અર્લી બ્લાઇટ**: 56.7% સંભાવના (મધ્યમ જોખમ)\n\nઆ રોગો માટે યોગ્ય નિયંત્રણ પગલાં લેવા માટે તાત્કાલિક પગલાં લેવું મહત્વપૂર્ણ છે.",
+        "en": "Your potato crop is currently seeing \"late blight\" and \"early blight\" diseases. \n\n* **Late Blight**: 59.3% probability (moderate risk)\n**Early Blight**: 56.7% probability (moderate risk)\n\nIt is important to take immediate steps to take appropriate control measures for these diseases.",
+        "timestamp": {
+          "$date": "2025-01-06T09:08:52.468Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "આ રોગમાં કઈ દવા વાપરવી",
+        "en": "Which medicine to use in this disease",
+        "timestamp": {
+          "$date": "2025-01-06T09:10:03.977Z"
+        },
+        "standalone_question": "What medication should be used for these diseases?",
+        "standalone_en": "What medication should be used for these diseases?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "a rogaman kai dava vaparvi"
+      },
+      {
+        "role": "assistant",
+        "content": "બટાકા ના રોગો માટે, તમે નીચેની દવાઓનો ઉપયોગ કરી શકો છો:\n\n1. **લેટ બ્લાઇટ માટે**:\n   - **ફંગિસાઇડ**: મેટાલેક્સિલ + મેનકોઝેબ (2.5-3.0 ગ્રામ પ્રતિ લિટર પાણી)\n\n2. **અર્લી બ્લાઇટ માટે**:\n   - **ફંગિસાઇડ**: કાર્બેન્ડાઝિમ (2.5 ગ્રામ પ્રતિ લિટર પાણી)\n\nઆ દવાઓને છંટકાવ કરવા માટે, 10-15 દિવસના અંતરથી ફરીથી છંટકાવ કરવું મહત્વપૂર્ણ છે.",
+        "en": "For potato diseases, you can use the following medications:\n\n1. **For late blight**:\n   **Fungicide**: Metalexyl + Mancozeb (2.5-3.0 grams per litre of water)\n\n2. **For Early Blight**:\n   **Fungicide**: Carbondazim (2.5 g per litre water)\n\nIn order to spray these drugs, it is important to spray again from a distance of 10-15 days.",
+        "timestamp": {
+          "$date": "2025-01-06T09:10:16.228Z"
+        }
+      }
+    ],
+    "farmer_id": "bharatbhaichoudhary",
+    "farmer_plot_ids": [
+      "borvalopalot246"
+    ],
+    "conversation_id": "677b9cda1448d0056c0af71e",
+    "_id": "677b9cda1448d0056c0af71e",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-06T09:15:03.986000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-01-06T09:08:46.396000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hai ",
+        "en": "Two ",
+        "timestamp": {
+          "$date": "2025-01-06T08:13:56.954Z"
+        },
+        "standalone_question": "Hello.",
+        "standalone_en": "Hello.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "హాయ్! మీకు ఎలా సహాయం చేయగలను?",
+        "en": "Hi! How can I help you?",
+        "timestamp": {
+          "$date": "2025-01-06T08:13:59.214Z"
+        }
+      }
+    ],
+    "farmer_id": "msampath",
+    "farmer_plot_ids": [
+      "sampathchilli"
+    ],
+    "conversation_id": "677b90c41448d0056c0af71c",
+    "_id": "677b90c41448d0056c0af71c",
+    "language": "te",
+    "expiry": {
+      "$date": "2025-01-06T08:18:56.961000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-01-06T08:13:56.954000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "1 વીઘા માં પોટાશ કેટલું આપવું ",
+        "en": "How much potash to give in 1 bigha ",
+        "timestamp": {
+          "$date": "2025-01-06T07:36:52.497Z"
+        },
+        "standalone_question": "How much potash should be given per acre?",
+        "standalone_en": "How much potash should be given per acre?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "1 vigha man potash ketalun apvu "
+      },
+      {
+        "role": "assistant",
+        "content": "1 વીઘા (1 acre = 2.47 acres) માં પોટાશ (K2O) માટેની માત્રા વિવિધ પરિબળો પર આધાર રાખે છે, જેમ કે જમીનનું સ્વરૂપ, પાકની જરૂરિયાત અને પાકના વિકાસનો તબક્કો. સામાન્ય રીતે, પોટાશ માટેની ભલામણ 60-100 કિલોગ્રામ પ્રતિ વીઘા હોય છે.\n\nજો તમે ચોક્કસ પાક અને જમીનના પ્રકાર વિશે વધુ માહિતી આપી શકો, તો હું વધુ ચોક્કસ ભલામણ કરી શકું છું.",
+        "en": "The amount for potash (K2O) in 1 bigha (1 acre = 2.47 acres) depends on various factors, such as the form of the land, the need for the crop and the stage of crop development. Generally, the recommendation for potash is 60-100 kg per bigha.\n\nIf you can give more information about the specific crop and type of land, I can make a more precise recommendation.",
+        "timestamp": {
+          "$date": "2025-01-06T07:36:57.195Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "1 વીઘા બટાકા માં કેટલું પોટાશ આપવું ",
+        "en": "How much potash to give in 1 bigha of potato ",
+        "timestamp": {
+          "$date": "2025-01-06T07:37:54.032Z"
+        },
+        "standalone_question": "How much potash should be applied for 1 acre of potatoes?",
+        "standalone_en": "How much potash should be applied for 1 acre of potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "1 vigha bataka man ketalun potash apvu "
+      },
+      {
+        "role": "assistant",
+        "content": "1 વીઘા (1 acre) બટાકા માટે પોટાશ (K2O) માટેની ભલામણ સામાન્ય રીતે 60-100 કિલોગ્રામ છે. \n\nજો તમે વધુ ચોક્કસ ભલામણો માટે જમીનના પ્રકાર અને પાકના વિકાસના તબક્કા વિશે માહિતી આપી શકો, તો હું વધુ ચોક્કસ માહિતી આપી શકું છું.",
+        "en": "The recommendation for K2O for 1 acre of potato is usually 60-100 kg. \n\nIf you can give information about the type of land and the stage of development of the crop for more specific recommendations, I can give more precise information.",
+        "timestamp": {
+          "$date": "2025-01-06T07:37:59.212Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "1 વીઘા માં રેતાળ જમીન સે તેમાં બટાકા માં કેટલું પોટાશ આપવું ",
+        "en": "Sandy soil in 1 bigha how much potash to put in potatoes in it ",
+        "timestamp": {
+          "$date": "2025-01-06T07:39:02.479Z"
+        },
+        "standalone_question": "How much potash should be applied for potatoes in sandy soil per acre?",
+        "standalone_en": "How much potash should be applied for potatoes in sandy soil per acre?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "1 vigha man retal jamin say teman bataka man ketalun potash apvu "
+      },
+      {
+        "role": "assistant",
+        "content": "1 વીઘા (1 acre) રેતાળ જમીનમાં બટાકા માટે પોટાશ (K2O) માટેની ભલામણ 80-100 કિલોગ્રામ છે. \n\nઆ ભલામણ પાકના વિકાસના તબક્કા અને જમીનની સ્થિતિને આધારે બદલાઈ શકે છે. જો તમે વધુ ચોક્કસ માહિતી માટે જમીનના પરીક્ષણના પરિણામો અથવા અન્ય પરિબળો શેર કરી શકો, તો હું વધુ મદદ કરી શકું છું.",
+        "en": "The recommendation for K2O for potatoes in 1 acre of sandy soil is 80-100 kg. \n\nThis recommendation may change depending on the stage of development of the crop and the condition of the land. If you can share ground test results or other factors for more precise information, I can be of more help.",
+        "timestamp": {
+          "$date": "2025-01-06T07:39:07.255Z"
+        }
+      }
+    ],
+    "farmer_id": "VR10499",
+    "farmer_plot_ids": [
+      "kairomatiyal",
+      "neroretal"
+    ],
+    "conversation_id": "677b88141448d0056c0af71a",
+    "_id": "677b88141448d0056c0af71a",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-06T07:44:02.486000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-01-06T07:36:52.497000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "05234 અત્યારે નાખવુ જોઈએ",
+        "en": "05234 should be dropped now",
+        "timestamp": {
+          "$date": "2025-01-06T05:36:39.401Z"
+        },
+        "standalone_question": "Should I submit 05234 now?",
+        "standalone_en": "Should I submit 05234 now?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "05234 atyare nakhavu joie"
+      },
+      {
+        "role": "assistant",
+        "content": "\"કૈરો 1\" પર હાલ પાણી આપવાની જરૂર નથી, કારણ કે જમીનનું આલમણ 9 kPa અને 13 kPa છે, જેની તુલનામાં 18 kPa ની આદર્શ મર્યાદા છે.",
+        "en": "\"Cairo 1\" does not need to be watered at present, as the land mantle is 9 kPa and 13 kPa, compared to the ideal limit of 18 kPa.",
+        "timestamp": {
+          "$date": "2025-01-06T05:36:43.161Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "૦૦ પર ૩૪ ખાતર અત્યારે આપવુ",
+        "en": "Give 34 fertilizers at 00 now",
+        "timestamp": {
+          "$date": "2025-01-06T05:37:42.688Z"
+        },
+        "standalone_question": "Should I apply fertilizer at 34 on 00 right now?",
+        "standalone_en": "Should I apply fertilizer at 34 on 00 right now?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "a par a khatar atyare apavu"
+      },
+      {
+        "role": "assistant",
+        "content": "હાલમાં \"કૈરો 1\" પર તમે 6 કિલોગ્રામ \"Sulfate of Potash\" ખાતર ફર્ટિગેશન દ્વારા આપી શકો છો, કારણ કે તમે વર્તમાન તબક્કા \"Vegetative growth\" (સપ્તાહ 6) માં છો. \n\nઆ ખાતર આપવાની શ્રેષ્ઠ સમયસૂચી આજે છે, 6 જાન્યુઆરી 2025, સોમવાર. \n\nજો તમે વધુ માહિતી અથવા મદદની જરૂર હોય, તો મને જણાવો!",
+        "en": "Currently on \"Cairo 1\" you can give 6 kilograms by fertigation for \"Sulfate of Potash\" fertilizer, as you are in the current phase \"Vegetative growth\" (Week 6). \n\nThe best timeline to give this fertilizer is today, Monday, January 6, 2025. \n\nIf you need more information or help, let me know!",
+        "timestamp": {
+          "$date": "2025-01-06T05:37:48.433Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ભલામણ ૦૦ ૫૦ ની છે ફરક શુ",
+        "en": "What is the difference of recommendation 00 50",
+        "timestamp": {
+          "$date": "2025-01-06T05:38:29.345Z"
+        },
+        "standalone_question": "What is the difference between the recommendations for 00 and 50?",
+        "standalone_en": "What is the difference between the recommendations for 00 and 50?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "bhalaman a p knee che fark shoe"
+      },
+      {
+        "role": "assistant",
+        "content": "માફ કરશો, 00:50 ની ભલામણ 34 કિલોગ્રામ ખાતર માટે છે, જ્યારે હું 6 કિલોગ્રામની ભલામણ કરી હતી. \n\nતમે 34 કિલોગ્રામ \"Sulfate of Potash\" ખાતર ફર્ટિગેશન દ્વારા આપી શકો છો. \n\nજો તમને વધુ મદદની જરૂર હોય, તો મને જણાવો!",
+        "en": "Sorry, the recommendation of 00:50 is for 34 kilograms of fertilizer, while I recommended 6 kilograms. \n\nYou can give 34 kilograms by fertigation for \"Sulfate of Potash\" fertilizer. \n\nIf you need more help, let me know!",
+        "timestamp": {
+          "$date": "2025-01-06T05:38:33.526Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140"
+    ],
+    "conversation_id": "677b6be61448d0056c0af715",
+    "_id": "677b6be61448d0056c0af715",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-06T05:43:29.354000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-01-06T05:36:39.401000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Shu mara kairo ni solar panel saaf karva ni jarur che",
+        "en": "Do I need to clean my Cairo's solar panels?",
+        "timestamp": {
+          "$date": "2025-01-06T03:23:52.992Z"
+        },
+        "standalone_question": "Is it necessary to clean the solar panels on the roof?",
+        "standalone_en": "Is it necessary to clean the solar panels on the roof?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Haan, Kairo ni solar panel saaf karva ni jarur che. Aapne solar panel ne 3 mahina ma ek vaar damp cloth thi saaf karvu joie. Aavi rite, solar panel ni efficiency vadhe che.",
+        "en": "Yes, Cairo's solar panels need to be cleaned. You should clean the solar panel once in 3 months with a damp cloth. In this way, the efficiency of the solar panel increases.",
+        "timestamp": {
+          "$date": "2025-01-06T03:23:56.342Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140"
+    ],
+    "conversation_id": "677b4cc81448d0056c0af714",
+    "_id": "677b4cc81448d0056c0af714",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-06T03:28:52.999000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-01-06T03:23:52.992000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "આજે બટાકાને સુપોષક તત્વો આપો",
+        "en": "Give potatoes sunutrients today",
+        "timestamp": {
+          "$date": "2025-01-06T02:31:42.541Z"
+        },
+        "standalone_question": "What nutrients should be provided to potatoes today?",
+        "standalone_en": "What nutrients should be provided to potatoes today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "aje batakane suposhak tatvo apo"
+      },
+      {
+        "role": "assistant",
+        "content": "આજે, 6 જાન્યુઆરી 2025, તમે તમારા બટાકાના પાકને સુપોષક તત્વો આપવાની જરૂર છે. અહીં દરેક પ્લોટ માટેનું ફર્ટિગેશન શેડ્યૂલ છે:\n\n### 1. **Dela Valu (4 acres)**\n- **વર્તમાન તબક્કો:** ટ્યુબર વિકાસ (Tuber development)\n- **આજનું ફર્ટિગેશન:**\n  - **Calcium Nitrate:** 3.5 કિલોગ્રામ/એકર\n  - **Sulfate of Potash:** 6.5 કિલોગ્રામ/એકર\n  - **નોંધ:** Calcium nitrate ને અન્ય ખાતરોની લાગણી પછી 15-20 મિનિટ પછી અલગથી લાગુ કરવું.\n\n- **આગામી ફર્ટિગેશન:**\n  - **4 દિવસ પછી:** \n    - **Magnesium Sulphate:** 5 કિલોગ્રામ/એકર\n    - **Sulfate of Potash:** 6.5 કિલોગ્રામ/એકર\n\n### 2. **Khejada Valu (5 acres)**\n- **ફર્ટિગેશન ડેટા ઉપલબ્ધ નથી.**\n\n### 3. **Patsala (3 acres)**\n- **વર્તમાન તબક્કો:** ટ્યુબર વિકાસ (Tuber development)\n- **આજનું ફર્ટિગેશન:**\n  - **Calcium Nitrate:** 3.5 કિલોગ્રામ/એકર\n  - **Sulfate of Potash:** 6.5 કિલોગ્રામ/એકર\n  - **નોંધ:** Calcium nitrate ને અન્ય ખાતરોની લાગણી પછી 15-20 મિનિટ પછી અલગથી લાગુ કરવું.\n\n- **આગામી ફર્ટિગેશન:**\n  - **4 દિવસ પછી:** \n    - **Magnesium Sulphate:** 5 કિલોગ્રામ/એકર\n    - **Sulfate of Potash:** 6.5 કિલોગ્રામ/એકર\n\nતમારા પાકને યોગ્ય રીતે સુપોષિત કરવા માટે આ સૂચનો અનુસરો.",
+        "en": "Today, 6th January 2025, you need to give your potato crop sunutrients. Here is the fertigation schedule for each plot:\n\n### 1. **Dela Valu (4 acres)**\n* **Current phase:** Tuber development)\n- **Today's Fertigation:**\n  **Calcium Nitrate:** 3.5 kg/acre\n  * **Sulfate of Potash:** 6.5 kg/acre\n  * *Note:** Apply calcium nitrate separately 15-20 minutes after feeling other fertilizers.\n\n- **Upcoming Fertigation:**\n  * **After 4 days:** \n    * **Magnesium Sulphate:** 5 kg/acre\n    * **Sulfate of Potash:** 6.5 kg/acre\n\n### 2. **Khejada Valu (5 acres)**\n- **Fertigation data not available.**\n\n### 3. **Patsala (3 acres)**\n* **Current phase:** Tuber development)\n- **Today's Fertigation:**\n  **Calcium Nitrate:** 3.5 kg/acre\n  * **Sulfate of Potash:** 6.5 kg/acre\n  * *Note:** Apply calcium nitrate separately 15-20 minutes after feeling other fertilizers.\n\n- **Upcoming Fertigation:**\n  * **After 4 days:** \n    * **Magnesium Sulphate:** 5 kg/acre\n    * **Sulfate of Potash:** 6.5 kg/acre\n\nFollow these tips to properly nourish your crop.",
+        "timestamp": {
+          "$date": "2025-01-06T02:31:55.078Z"
+        }
+      }
+    ],
+    "farmer_id": "VR4859",
+    "farmer_plot_ids": [
+      "delavalu",
+      "khejadavalu",
+      "patsala"
+    ],
+    "conversation_id": "677b408e1448d0056c0af711",
+    "_id": "677b408e1448d0056c0af711",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-06T02:36:42.547000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-01-06T02:31:42.541000+00:00"
+  }
+]

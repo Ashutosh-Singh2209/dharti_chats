@@ -1,0 +1,963 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "All logo Ho Jaane Ke Liye kaun si Dava spry Karen",
+        "timestamp": {
+          "$date": "2024-12-09T14:38:44.261Z"
+        },
+        "standalone_question": "What medicine should be used for hair loss?",
+        "standalone_en": "What medicine should be used for hair loss?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Is hafte ke liye koi bhi dawa spray karne ki zarurat nahi hai, kyunki koi bhi spray schedule nahi hai. Aapko agle hafte tak intezaar karna chahiye.",
+        "timestamp": {
+          "$date": "2024-12-09T14:38:49.271Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Aalu aalu ko Kho jaane ke liye kaun si Dava ka spry Karen",
+        "timestamp": {
+          "$date": "2024-12-09T14:39:21.851Z"
+        },
+        "standalone_question": "What spray should be used to prevent potatoes from spoiling?",
+        "standalone_en": "What spray should be used to prevent potatoes from spoiling?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is the temperature at which cold/Frost/Paala(Hindi) will burn/damage the potato crop?\nA: Cold will burn the potato crop at 5 degrees Celsius and less. The minimum safe temperature for a potato crop to be left in so that it can survive is 6 degrees Celsius, so it is suggested to keep your crop above this value.\nStoring potatoes at a given temperature and letting the potato crop be in the field at a certain atmospheric temperature are two different things. If the question is not clear, or the user needs more info, prompt the user to contact the CRM team at (+91) 9380908040 or by emailing contact@fyllo.in as we don't have informaion about storage of potato."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Is hafte ke liye aalu ke liye koi bhi dawa spray karne ki zarurat nahi hai, kyunki koi bhi spray schedule nahi hai. Aapko agle hafte tak intezaar karna chahiye.",
+        "timestamp": {
+          "$date": "2024-12-09T14:39:27.382Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ok",
+        "timestamp": {
+          "$date": "2024-12-09T14:39:56.461Z"
+        },
+        "standalone_question": "What should I do to treat potatoes?",
+        "standalone_en": "What should I do to treat potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Agar aapko aur koi madad chahiye ho ya kisi aur sawaal ka jawab chahiye ho, toh zaroor puchiye!",
+        "timestamp": {
+          "$date": "2024-12-09T14:39:59.342Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Aalu ka adhiktam utpadan Kitna a Jana chahie",
+        "timestamp": {
+          "$date": "2024-12-09T14:40:32.185Z"
+        },
+        "standalone_question": "What should be the maximum yield of potatoes?",
+        "standalone_en": "What should be the maximum yield of potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aalu ka adhiktam utpadan pratyek acre par lagbhag 20 se 25 ton tak hona chahiye. Yeh utpadan aapke kheti ke prakriya, beej ki gunvatta, aur kheti ki dekhbhal par nirbhar karta hai. Agar aap sahi techniques aur practices ka istemal karte hain, toh aap is utpadan ko prapt kar sakte hain.",
+        "timestamp": {
+          "$date": "2024-12-09T14:40:35.999Z"
+        }
+      }
+    ],
+    "farmer_id": "VR253",
+    "farmer_plot_ids": [
+      "railwala"
+    ],
+    "conversation_id": "675700f49dae5f5e8c898021",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-12-09T14:38:44.261000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "आलु कितनी ठन्ड मे जल जाता है",
+        "timestamp": {
+          "$date": "2024-12-09T13:35:53.293Z"
+        },
+        "standalone_question": "How much does a potato burn in cold temperatures?",
+        "standalone_en": "How much does a potato burn in cold temperatures?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is the temperature at which cold/Frost/Paala(Hindi) will burn/damage the potato crop?\nA: Cold will burn the potato crop at 5 degrees Celsius and less. The minimum safe temperature for a potato crop to be left in so that it can survive is 6 degrees Celsius, so it is suggested to keep your crop above this value.\nStoring potatoes at a given temperature and letting the potato crop be in the field at a certain atmospheric temperature are two different things. If the question is not clear, or the user needs more info, prompt the user to contact the CRM team at (+91) 9380908040 or by emailing contact@fyllo.in as we don't have informaion about storage of potato."
+          ]
+        },
+        "content_transliterated": "aalu kitni thand me jal jaata hai"
+      },
+      {
+        "role": "assistant",
+        "content": "आलू की फसल ठंड के प्रति संवेदनशील होती है। जब तापमान 0 डिग्री सेल्सियस (32 डिग्री फारेनहाइट) से नीचे चला जाता है, तो आलू की फसल को नुकसान हो सकता है। ठंड के कारण आलू की पत्तियाँ मुरझा सकती हैं और फसल की वृद्धि रुक सकती है। \n\nइसलिए, आलू की फसल को ठंड से बचाने के लिए उचित उपाय करना आवश्यक है, जैसे कि मल्चिंग या फसल को कवर करना।",
+        "timestamp": {
+          "$date": "2024-12-09T13:35:57.683Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "मल्चिगं क्या है",
+        "timestamp": {
+          "$date": "2024-12-09T13:37:25.444Z"
+        },
+        "standalone_question": "What is mulching?",
+        "standalone_en": "What is mulching?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mulchigan kya hai"
+      },
+      {
+        "role": "assistant",
+        "content": "मल्चिंग एक कृषि तकनीक है जिसमें मिट्टी की सतह पर एक परत (मल्च) डाली जाती है। यह परत विभिन्न सामग्रियों से बनाई जा सकती है, जैसे कि सूखी घास, पत्ते, लकड़ी की छाल, या प्लास्टिक। मल्चिंग के कई लाभ हैं:\n\n1. **मिट्टी की नमी बनाए रखना**: मल्च मिट्टी में नमी को बनाए रखने में मदद करता है, जिससे पौधों को पानी की कमी नहीं होती।\n\n2. **杂草 नियंत्रण**: मल्च杂草 की वृद्धि को रोकता है, जिससे पौधों के लिए पोषक तत्वों और पानी की उपलब्धता बढ़ती है।\n\n3. **मिट्टी का तापमान नियंत्रित करना**: मल्च मिट्टी के तापमान को स्थिर रखने में मदद करता है, जिससे पौधों की वृद्धि में सुधार होता है।\n\n4. **पोषक तत्वों का संरक्षण**: मल्च मिट्टी में पोषक तत्वों के क्षय को कम करता है और जैविक सामग्री के विघटन से पोषक तत्वों की उपलब्धता बढ़ाता है।\n\n5. **पौधों की सुरक्षा**: यह पौधों को ठंड, गर्मी और अन्य पर्यावरणीय तनावों से बचाने में मदद करता है।\n\nइसलिए, मल्चिंग एक महत्वपूर्ण तकनीक है जो फसल की उत्पादकता और स्वास्थ्य को बढ़ाने में सहायक होती है।",
+        "timestamp": {
+          "$date": "2024-12-09T13:37:32.298Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "32 डिग्री फारेनहाइट   क्या है",
+        "timestamp": {
+          "$date": "2024-12-09T13:39:47.229Z"
+        },
+        "standalone_question": "What is 32 degrees Fahrenheit?",
+        "standalone_en": "What is 32 degrees Fahrenheit?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "32 degree foreignhight kya hai"
+      },
+      {
+        "role": "assistant",
+        "content": "32 डिग्री फारेनहाइट (32°F) का मतलब 0 डिग्री सेल्सियस (0°C) होता है। यह वह तापमान है जिस पर पानी जम जाता है और बर्फ बनती है। इसलिए, यह तापमान आलू की फसल के लिए बहुत महत्वपूर्ण है, क्योंकि इससे नीचे तापमान होने पर आलू की पत्तियाँ मुरझा सकती हैं और फसल को नुकसान हो सकता है।",
+        "timestamp": {
+          "$date": "2024-12-09T13:39:50.935Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "7 डिग्री से आलू को कोई नुकसान है",
+        "timestamp": {
+          "$date": "2024-12-09T13:41:08.342Z"
+        },
+        "standalone_question": "Is there any damage to potatoes at 7 degrees?",
+        "standalone_en": "Is there any damage to potatoes at 7 degrees?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is the temperature at which cold/Frost/Paala(Hindi) will burn/damage the potato crop?\nA: Cold will burn the potato crop at 5 degrees Celsius and less. The minimum safe temperature for a potato crop to be left in so that it can survive is 6 degrees Celsius, so it is suggested to keep your crop above this value.\nStoring potatoes at a given temperature and letting the potato crop be in the field at a certain atmospheric temperature are two different things. If the question is not clear, or the user needs more info, prompt the user to contact the CRM team at (+91) 9380908040 or by emailing contact@fyllo.in as we don't have informaion about storage of potato."
+          ]
+        },
+        "content_transliterated": "7 degree se aalu ko koi nuksan hai"
+      },
+      {
+        "role": "assistant",
+        "content": "7 डिग्री सेल्सियस (44.6 डिग्री फारेनहाइट) पर आलू को सामान्यतः कोई गंभीर नुकसान नहीं होता है। हालांकि, यह तापमान आलू की वृद्धि को धीमा कर सकता है और यदि यह लंबे समय तक बना रहता है, तो यह फसल के विकास पर नकारात्मक प्रभाव डाल सकता है। \n\nआलू की फसल के लिए आदर्श तापमान 15 से 20 डिग्री सेल्सियस (59 से 68 डिग्री फारेनहाइट) के बीच होता है। यदि तापमान 7 डिग्री सेल्सियस से नीचे चला जाता है, तो यह फसल के लिए चिंता का विषय हो सकता है। \n\nइसलिए, यदि आप आलू की फसल की सुरक्षा करना चाहते हैं, तो ठंड के मौसम में उचित उपाय करना महत्वपूर्ण है।",
+        "timestamp": {
+          "$date": "2024-12-09T13:41:12.560Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "सिचाई करने से",
+        "timestamp": {
+          "$date": "2024-12-09T13:42:20.319Z"
+        },
+        "standalone_question": "What are the effects of irrigation on potato crops?",
+        "standalone_en": "What are the effects of irrigation on potato crops?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "sichai karne se"
+      },
+      {
+        "role": "assistant",
+        "content": "सिचाई करने से कई लाभ होते हैं, जो फसल की वृद्धि और स्वास्थ्य के लिए महत्वपूर्ण हैं:\n\n1. **नमी का संतुलन**: सिचाई से मिट्टी में नमी का स्तर बनाए रखा जाता है, जिससे पौधों को आवश्यक पानी मिलता है।\n\n2. **फसल की वृद्धि**: पर्याप्त पानी मिलने से फसल की वृद्धि में सुधार होता है, जिससे उपज बढ़ती है।\n\n3. **पोषक तत्वों का अवशोषण**: पानी पौधों को पोषक तत्वों को अवशोषित करने में मदद करता है, जिससे फसल की गुणवत्ता में सुधार होता है।\n\n4. **स्ट्रेस से सुरक्षा**: सिचाई से पौधों को सूखे और अन्य पर्यावरणीय तनावों से बचाने में मदद मिलती है।\n\n5. **फसल की गुणवत्ता**: सही मात्रा में पानी देने से फसल की गुणवत्ता में सुधार होता है, जैसे कि आकार, रंग और स्वाद।\n\n6. **मिट्टी की संरचना**: नियमित सिचाई से मिट्टी की संरचना में सुधार होता है, जिससे जल निकासी और वायु संचार में मदद मिलती है।\n\nइसलिए, सिचाई एक महत्वपूर्ण प्रक्रिया है जो फसल की उत्पादकता और स्वास्थ्य को बनाए रखने में सहायक होती है।",
+        "timestamp": {
+          "$date": "2024-12-09T13:42:26.447Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "सिचाई  करने से ठन्ड से लाभ मिलता है",
+        "timestamp": {
+          "$date": "2024-12-09T13:44:41.082Z"
+        },
+        "standalone_question": "Does irrigation provide benefits against cold?",
+        "standalone_en": "Does irrigation provide benefits against cold?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "sichai karne se thand se labh milta hai"
+      },
+      {
+        "role": "assistant",
+        "content": "सिचाई करने से ठंड के मौसम में कुछ लाभ मिल सकते हैं:\n\n1. **मिट्टी की नमी बनाए रखना**: सिचाई से मिट्टी में नमी बनी रहती है, जो ठंड के कारण सूखने से बचाती है। यह पौधों को आवश्यक पानी प्रदान करता है।\n\n2. **जमाव से बचाव**: यदि मिट्टी में पर्याप्त नमी होती है, तो यह जमाव (फ्रीजिंग) से बचाने में मदद कर सकती है, जिससे पौधों की जड़ें सुरक्षित रहती हैं।\n\n3. **पौधों की वृद्धि**: ठंड के मौसम में पौधों की वृद्धि धीमी हो सकती है, लेकिन सिचाई से उन्हें आवश्यक पोषण और पानी मिल सकता है, जिससे उनकी वृद्धि में सुधार होता है।\n\n4. **पोषक तत्वों का अवशोषण**: सिचाई से मिट्टी में पोषक तत्वों का अवशोषण बेहतर होता है, जिससे पौधों की सेहत में सुधार होता है।\n\nहालांकि, यह ध्यान रखना महत्वपूर्ण है कि अत्यधिक सिचाई से मिट्टी में जलभराव हो सकता है, जो पौधों के लिए हानिकारक हो सकता है। इसलिए, सिचाई की मात्रा और समय का सही प्रबंधन करना आवश्यक है।",
+        "timestamp": {
+          "$date": "2024-12-09T13:44:46.095Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Thand Se bachne Ke Liye Koi dawai hai kya",
+        "timestamp": {
+          "$date": "2024-12-09T13:45:41.397Z"
+        },
+        "standalone_question": "Is there any medicine to protect against the cold?",
+        "standalone_en": "Is there any medicine to protect against the cold?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "ठंड से आलू की फसल को बचाने के लिए कुछ उपाय और दवाइयाँ उपयोगी हो सकती हैं:\n\n1. **फसल कवर**: ठंड के मौसम में पौधों को कवर करने के लिए जाल या प्लास्टिक का उपयोग करें। यह उन्हें ठंड से बचाने में मदद करेगा।\n\n2. **मल्चिंग**: मिट्टी की सतह पर मल्च डालने से मिट्टी का तापमान स्थिर रहता है और पौधों की जड़ें सुरक्षित रहती हैं।\n\n3. **फोलियर्स प्रे**: कुछ विशेष फोलियर्स स्प्रे होते हैं जो पौधों को ठंड से बचाने में मदद कर सकते हैं। ये पौधों की कोशिकाओं को मजबूत बनाते हैं।\n\n4. **पोषक तत्वों का संतुलन**: पौधों को सही मात्रा में पोषक तत्व देने से उनकी प्रतिरोधक क्षमता बढ़ती है, जिससे वे ठंड के प्रति अधिक सहनशील हो सकते हैं।\n\n5. **विशेष दवाइयाँ**: कुछ कृषि दवाइयाँ और जैविक उत्पाद होते हैं जो ठंड के प्रभाव को कम करने में मदद कर सकते हैं। इन्हें स्थानीय कृषि केंद्र से सलाह लेकर उपयोग करें।\n\nइन उपायों को अपनाने से आप अपनी आलू की फसल को ठंड से बचा सकते हैं।",
+        "timestamp": {
+          "$date": "2024-12-09T13:45:48.208Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "35 Din Ki Aalu ki fasal ho gai hai ab usmein kaun sa Khad dalen",
+        "timestamp": {
+          "$date": "2024-12-09T13:47:18.389Z"
+        },
+        "standalone_question": "What type of fertilizer should be applied to a 35-day-old potato crop?",
+        "standalone_en": "What type of fertilizer should be applied to a 35-day-old potato crop?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपकी आलू की फसल अब 35 दिन की हो गई है और वर्तमान में यह \"Vegetative growth\" चरण में है। इस चरण में, आपको निम्नलिखित खाद डालने की सलाह दी जाती है:\n\n### वर्तमान सप्ताह (सप्ताह 3):\n1. **फर्टिगेशन (पहला दिन)**:\n   - **Urea**: 8 किलोग्राम/एकड़\n\n2. **फर्टिगेशन (चौथे दिन)**:\n   - **12-61-0**: 6 किलोग्राम/एकड़\n   - **Urea**: 4.5 किलोग्राम/एकड़\n   - **Magnesium Sulphate**: 5 किलोग्राम/एकड़\n\n   या\n\n   - **24-24-0**: 11.5 किलोग्राम/एकड़\n   - **Phosphoric acid 80%**: 1.5 किलोग्राम/एकड़\n   - **Magnesium Sulphate**: 5 किलोग्राम/एकड़\n\n   या\n\n   - **Urea**: 6 किलोग्राम/एकड़\n   - **Phosphoric acid 80%**: 5 किलोग्राम/एकड़\n   - **Magnesium Sulphate**: 5 किलोग्राम/एकड़\n\n### अगले सप्ताह (सप्ताह 4) के लिए:\n- **फोलियर्स स्प्रे**: \n   - **Zinc Sulphate**: 1 किलोग्राम/एकड़\n   - **Ferrous Sulphate**: 800 ग्राम/एकड़\n   - **Manganese Sulphate**: 400 ग्राम/एकड़\n\nइन खादों का सही समय पर उपयोग करने से आपकी आलू की फसल की वृद्धि और गुणवत्ता में सुधार होगा।",
+        "timestamp": {
+          "$date": "2024-12-09T13:47:27.651Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Aalu mein kharpatwar ke liye kaun sa is Prakar",
+        "timestamp": {
+          "$date": "2024-12-09T13:49:00.466Z"
+        },
+        "standalone_question": "Which type of herbicide is suitable for use in potato crops?",
+        "standalone_en": "Which type of herbicide is suitable for use in potato crops?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आलू की फसल में खरपतवार नियंत्रण के लिए निम्नलिखित उपाय और दवाइयाँ उपयोगी हो सकती हैं:\n\n### खरपतवार नियंत्रण के लिए दवाइयाँ:\n1. **Atrazine**: यह एक सामान्य हर्बिसाइड है जो आलू की फसल में खरपतवारों को नियंत्रित करने में मदद करता है। इसे फसल के उगने से पहले या बाद में लगाया जा सकता है।\n\n2. **Metribuzin**: यह भी एक प्रभावी हर्बिसाइड है जो आलू की फसल में उपयोग किया जा सकता है। इसे फसल के उगने के बाद लगाया जाता है।\n\n3. **Pendimethalin**: यह एक प्री-इमरजेंस हर्बिसाइड है, जो आलू की फसल में खरपतवारों की वृद्धि को रोकने में मदद करता है।\n\n### अन्य उपाय:\n- **मल्चिंग**: मिट्टी की सतह पर मल्च डालने से खरपतवारों की वृद्धि को रोका जा सकता है।\n- **हाथ से खरपतवार निकालना**: छोटे खेतों में हाथ से खरपतवार निकालना भी एक प्रभावी तरीका है।\n- **फसल चक्र**: फसल चक्र अपनाने से भी खरपतवारों की समस्या को कम किया जा सकता है।\n\nइन उपायों का सही समय पर उपयोग करने से आप अपनी आलू की फसल में खरपतवारों को प्रभावी ढंग से नियंत्रित कर सकते हैं।",
+        "timestamp": {
+          "$date": "2024-12-09T13:49:06.819Z"
+        }
+      }
+    ],
+    "farmer_id": "VR253",
+    "farmer_plot_ids": [
+      "railwala"
+    ],
+    "conversation_id": "6756f23999570ac0170862f0",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-09T13:35:53.293000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "आलु कितनी ठन्ड मे जल जाता है",
+        "timestamp": {
+          "$date": "2024-12-09T13:35:53.293Z"
+        },
+        "standalone_question": "How much does a potato burn in cold temperatures?",
+        "standalone_en": "How much does a potato burn in cold temperatures?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is the temperature at which cold/Frost/Paala(Hindi) will burn/damage the potato crop?\nA: Cold will burn the potato crop at 5 degrees Celsius and less. The minimum safe temperature for a potato crop to be left in so that it can survive is 6 degrees Celsius, so it is suggested to keep your crop above this value.\nStoring potatoes at a given temperature and letting the potato crop be in the field at a certain atmospheric temperature are two different things. If the question is not clear, or the user needs more info, prompt the user to contact the CRM team at (+91) 9380908040 or by emailing contact@fyllo.in as we don't have informaion about storage of potato."
+          ]
+        },
+        "content_transliterated": "aalu kitni thand me jal jaata hai"
+      },
+      {
+        "role": "assistant",
+        "content": "आलू की फसल ठंड के प्रति संवेदनशील होती है। जब तापमान 0 डिग्री सेल्सियस (32 डिग्री फारेनहाइट) से नीचे चला जाता है, तो आलू की फसल को नुकसान हो सकता है। ठंड के कारण आलू की पत्तियाँ मुरझा सकती हैं और फसल की वृद्धि रुक सकती है। \n\nइसलिए, आलू की फसल को ठंड से बचाने के लिए उचित उपाय करना आवश्यक है, जैसे कि मल्चिंग या फसल को कवर करना।",
+        "timestamp": {
+          "$date": "2024-12-09T13:35:57.683Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "मल्चिगं क्या है",
+        "timestamp": {
+          "$date": "2024-12-09T13:37:25.444Z"
+        },
+        "standalone_question": "What is mulching?",
+        "standalone_en": "What is mulching?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mulchigan kya hai"
+      },
+      {
+        "role": "assistant",
+        "content": "मल्चिंग एक कृषि तकनीक है जिसमें मिट्टी की सतह पर एक परत (मल्च) डाली जाती है। यह परत विभिन्न सामग्रियों से बनाई जा सकती है, जैसे कि सूखी घास, पत्ते, लकड़ी की छाल, या प्लास्टिक। मल्चिंग के कई लाभ हैं:\n\n1. **मिट्टी की नमी बनाए रखना**: मल्च मिट्टी में नमी को बनाए रखने में मदद करता है, जिससे पौधों को पानी की कमी नहीं होती।\n\n2. **杂草 नियंत्रण**: मल्च杂草 की वृद्धि को रोकता है, जिससे पौधों के लिए पोषक तत्वों और पानी की उपलब्धता बढ़ती है।\n\n3. **मिट्टी का तापमान नियंत्रित करना**: मल्च मिट्टी के तापमान को स्थिर रखने में मदद करता है, जिससे पौधों की वृद्धि में सुधार होता है।\n\n4. **पोषक तत्वों का संरक्षण**: मल्च मिट्टी में पोषक तत्वों के क्षय को कम करता है और जैविक सामग्री के विघटन से पोषक तत्वों की उपलब्धता बढ़ाता है।\n\n5. **पौधों की सुरक्षा**: यह पौधों को ठंड, गर्मी और अन्य पर्यावरणीय तनावों से बचाने में मदद करता है।\n\nइसलिए, मल्चिंग एक महत्वपूर्ण तकनीक है जो फसल की उत्पादकता और स्वास्थ्य को बढ़ाने में सहायक होती है।",
+        "timestamp": {
+          "$date": "2024-12-09T13:37:32.298Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "32 डिग्री फारेनहाइट   क्या है",
+        "timestamp": {
+          "$date": "2024-12-09T13:39:47.229Z"
+        },
+        "standalone_question": "What is 32 degrees Fahrenheit?",
+        "standalone_en": "What is 32 degrees Fahrenheit?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "32 degree foreignhight kya hai"
+      },
+      {
+        "role": "assistant",
+        "content": "32 डिग्री फारेनहाइट (32°F) का मतलब 0 डिग्री सेल्सियस (0°C) होता है। यह वह तापमान है जिस पर पानी जम जाता है और बर्फ बनती है। इसलिए, यह तापमान आलू की फसल के लिए बहुत महत्वपूर्ण है, क्योंकि इससे नीचे तापमान होने पर आलू की पत्तियाँ मुरझा सकती हैं और फसल को नुकसान हो सकता है।",
+        "timestamp": {
+          "$date": "2024-12-09T13:39:50.935Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "7 डिग्री से आलू को कोई नुकसान है",
+        "timestamp": {
+          "$date": "2024-12-09T13:41:08.342Z"
+        },
+        "standalone_question": "Is there any damage to potatoes at 7 degrees?",
+        "standalone_en": "Is there any damage to potatoes at 7 degrees?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is the temperature at which cold/Frost/Paala(Hindi) will burn/damage the potato crop?\nA: Cold will burn the potato crop at 5 degrees Celsius and less. The minimum safe temperature for a potato crop to be left in so that it can survive is 6 degrees Celsius, so it is suggested to keep your crop above this value.\nStoring potatoes at a given temperature and letting the potato crop be in the field at a certain atmospheric temperature are two different things. If the question is not clear, or the user needs more info, prompt the user to contact the CRM team at (+91) 9380908040 or by emailing contact@fyllo.in as we don't have informaion about storage of potato."
+          ]
+        },
+        "content_transliterated": "7 degree se aalu ko koi nuksan hai"
+      },
+      {
+        "role": "assistant",
+        "content": "7 डिग्री सेल्सियस (44.6 डिग्री फारेनहाइट) पर आलू को सामान्यतः कोई गंभीर नुकसान नहीं होता है। हालांकि, यह तापमान आलू की वृद्धि को धीमा कर सकता है और यदि यह लंबे समय तक बना रहता है, तो यह फसल के विकास पर नकारात्मक प्रभाव डाल सकता है। \n\nआलू की फसल के लिए आदर्श तापमान 15 से 20 डिग्री सेल्सियस (59 से 68 डिग्री फारेनहाइट) के बीच होता है। यदि तापमान 7 डिग्री सेल्सियस से नीचे चला जाता है, तो यह फसल के लिए चिंता का विषय हो सकता है। \n\nइसलिए, यदि आप आलू की फसल की सुरक्षा करना चाहते हैं, तो ठंड के मौसम में उचित उपाय करना महत्वपूर्ण है।",
+        "timestamp": {
+          "$date": "2024-12-09T13:41:12.560Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "सिचाई करने से",
+        "timestamp": {
+          "$date": "2024-12-09T13:42:20.319Z"
+        },
+        "standalone_question": "What is the effect of irrigation on potato crops?",
+        "standalone_en": "What is the effect of irrigation on potato crops?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil."
+          ]
+        },
+        "content_transliterated": "sichai karne se"
+      },
+      {
+        "role": "assistant",
+        "content": "सिचाई करने से कई लाभ होते हैं, जो फसल की वृद्धि और स्वास्थ्य के लिए महत्वपूर्ण हैं:\n\n1. **नमी का संतुलन**: सिचाई से मिट्टी में नमी का स्तर बनाए रखा जाता है, जिससे पौधों को आवश्यक पानी मिलता है।\n\n2. **फसल की वृद्धि**: पर्याप्त पानी मिलने से फसल की वृद्धि में सुधार होता है, जिससे उपज बढ़ती है।\n\n3. **पोषक तत्वों का अवशोषण**: पानी पौधों को पोषक तत्वों को अवशोषित करने में मदद करता है, जिससे फसल की गुणवत्ता में सुधार होता है।\n\n4. **स्ट्रेस से सुरक्षा**: सिचाई से पौधों को सूखे और अन्य पर्यावरणीय तनावों से बचाने में मदद मिलती है।\n\n5. **फसल की गुणवत्ता**: सही मात्रा में पानी देने से फसल की गुणवत्ता में सुधार होता है, जैसे कि आकार, रंग और स्वाद।\n\n6. **मिट्टी की संरचना**: नियमित सिचाई से मिट्टी की संरचना में सुधार होता है, जिससे जल निकासी और वायु संचार में मदद मिलती है।\n\nइसलिए, सिचाई एक महत्वपूर्ण प्रक्रिया है जो फसल की उत्पादकता और स्वास्थ्य को बनाए रखने में सहायक होती है।",
+        "timestamp": {
+          "$date": "2024-12-09T13:42:26.447Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "सिचाई  करने से ठन्ड से लाभ मिलता है",
+        "timestamp": {
+          "$date": "2024-12-09T13:44:41.082Z"
+        },
+        "standalone_question": "Does irrigation provide benefits against cold?",
+        "standalone_en": "Does irrigation provide benefits against cold?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "sichai karne se thand se labh milta hai"
+      },
+      {
+        "role": "assistant",
+        "content": "सिचाई करने से ठंड के मौसम में कुछ लाभ मिल सकते हैं:\n\n1. **मिट्टी की नमी बनाए रखना**: सिचाई से मिट्टी में नमी बनी रहती है, जो ठंड के कारण सूखने से बचाती है। यह पौधों को आवश्यक पानी प्रदान करता है।\n\n2. **जमाव से बचाव**: यदि मिट्टी में पर्याप्त नमी होती है, तो यह जमाव (फ्रीजिंग) से बचाने में मदद कर सकती है, जिससे पौधों की जड़ें सुरक्षित रहती हैं।\n\n3. **पौधों की वृद्धि**: ठंड के मौसम में पौधों की वृद्धि धीमी हो सकती है, लेकिन सिचाई से उन्हें आवश्यक पोषण और पानी मिल सकता है, जिससे उनकी वृद्धि में सुधार होता है।\n\n4. **पोषक तत्वों का अवशोषण**: सिचाई से मिट्टी में पोषक तत्वों का अवशोषण बेहतर होता है, जिससे पौधों की सेहत में सुधार होता है।\n\nहालांकि, यह ध्यान रखना महत्वपूर्ण है कि अत्यधिक सिचाई से मिट्टी में जलभराव हो सकता है, जो पौधों के लिए हानिकारक हो सकता है। इसलिए, सिचाई की मात्रा और समय का सही प्रबंधन करना आवश्यक है।",
+        "timestamp": {
+          "$date": "2024-12-09T13:44:46.095Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Thand Se bachne Ke Liye Koi dawai hai kya",
+        "timestamp": {
+          "$date": "2024-12-09T13:45:41.397Z"
+        },
+        "standalone_question": "Is there any medicine to protect against the cold?",
+        "standalone_en": "Is there any medicine to protect against the cold?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "ठंड से आलू की फसल को बचाने के लिए कुछ उपाय और दवाइयाँ उपयोगी हो सकती हैं:\n\n1. **फसल कवर**: ठंड के मौसम में पौधों को कवर करने के लिए जाल या प्लास्टिक का उपयोग करें। यह उन्हें ठंड से बचाने में मदद करेगा।\n\n2. **मल्चिंग**: मिट्टी की सतह पर मल्च डालने से मिट्टी का तापमान स्थिर रहता है और पौधों की जड़ें सुरक्षित रहती हैं।\n\n3. **फोलियर्स प्रे**: कुछ विशेष फोलियर्स स्प्रे होते हैं जो पौधों को ठंड से बचाने में मदद कर सकते हैं। ये पौधों की कोशिकाओं को मजबूत बनाते हैं।\n\n4. **पोषक तत्वों का संतुलन**: पौधों को सही मात्रा में पोषक तत्व देने से उनकी प्रतिरोधक क्षमता बढ़ती है, जिससे वे ठंड के प्रति अधिक सहनशील हो सकते हैं।\n\n5. **विशेष दवाइयाँ**: कुछ कृषि दवाइयाँ और जैविक उत्पाद होते हैं जो ठंड के प्रभाव को कम करने में मदद कर सकते हैं। इन्हें स्थानीय कृषि केंद्र से सलाह लेकर उपयोग करें।\n\nइन उपायों को अपनाने से आप अपनी आलू की फसल को ठंड से बचा सकते हैं।",
+        "timestamp": {
+          "$date": "2024-12-09T13:45:48.208Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "35 Din Ki Aalu ki fasal ho gai hai ab usmein kaun sa Khad dalen",
+        "timestamp": {
+          "$date": "2024-12-09T13:47:18.389Z"
+        },
+        "standalone_question": "What type of fertilizer should be applied to a 35-day-old potato crop?",
+        "standalone_en": "What type of fertilizer should be applied to a 35-day-old potato crop?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपकी आलू की फसल अब 35 दिन की हो गई है और वर्तमान में यह \"Vegetative growth\" चरण में है। इस चरण में, आपको निम्नलिखित खाद डालने की सलाह दी जाती है:\n\n### वर्तमान सप्ताह (सप्ताह 3):\n1. **फर्टिगेशन (पहला दिन)**:\n   - **Urea**: 8 किलोग्राम/एकड़\n\n2. **फर्टिगेशन (चौथे दिन)**:\n   - **12-61-0**: 6 किलोग्राम/एकड़\n   - **Urea**: 4.5 किलोग्राम/एकड़\n   - **Magnesium Sulphate**: 5 किलोग्राम/एकड़\n\n   या\n\n   - **24-24-0**: 11.5 किलोग्राम/एकड़\n   - **Phosphoric acid 80%**: 1.5 किलोग्राम/एकड़\n   - **Magnesium Sulphate**: 5 किलोग्राम/एकड़\n\n   या\n\n   - **Urea**: 6 किलोग्राम/एकड़\n   - **Phosphoric acid 80%**: 5 किलोग्राम/एकड़\n   - **Magnesium Sulphate**: 5 किलोग्राम/एकड़\n\n### अगले सप्ताह (सप्ताह 4) के लिए:\n- **फोलियर्स स्प्रे**: \n   - **Zinc Sulphate**: 1 किलोग्राम/एकड़\n   - **Ferrous Sulphate**: 800 ग्राम/एकड़\n   - **Manganese Sulphate**: 400 ग्राम/एकड़\n\nइन खादों का सही समय पर उपयोग करने से आपकी आलू की फसल की वृद्धि और गुणवत्ता में सुधार होगा।",
+        "timestamp": {
+          "$date": "2024-12-09T13:47:27.651Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Aalu mein kharpatwar ke liye kaun sa is Prakar",
+        "timestamp": {
+          "$date": "2024-12-09T13:49:00.466Z"
+        },
+        "standalone_question": "What type of herbicide should be used for weeds in potatoes?",
+        "standalone_en": "What type of herbicide should be used for weeds in potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आलू की फसल में खरपतवार नियंत्रण के लिए निम्नलिखित उपाय और दवाइयाँ उपयोगी हो सकती हैं:\n\n### खरपतवार नियंत्रण के लिए दवाइयाँ:\n1. **Atrazine**: यह एक सामान्य हर्बिसाइड है जो आलू की फसल में खरपतवारों को नियंत्रित करने में मदद करता है। इसे फसल के उगने से पहले या बाद में लगाया जा सकता है।\n\n2. **Metribuzin**: यह भी एक प्रभावी हर्बिसाइड है जो आलू की फसल में उपयोग किया जा सकता है। इसे फसल के उगने के बाद लगाया जाता है।\n\n3. **Pendimethalin**: यह एक प्री-इमरजेंस हर्बिसाइड है, जो आलू की फसल में खरपतवारों की वृद्धि को रोकने में मदद करता है।\n\n### अन्य उपाय:\n- **मल्चिंग**: मिट्टी की सतह पर मल्च डालने से खरपतवारों की वृद्धि को रोका जा सकता है।\n- **हाथ से खरपतवार निकालना**: छोटे खेतों में हाथ से खरपतवार निकालना भी एक प्रभावी तरीका है।\n- **फसल चक्र**: फसल चक्र अपनाने से भी खरपतवारों की समस्या को कम किया जा सकता है।\n\nइन उपायों का सही समय पर उपयोग करने से आप अपनी आलू की फसल में खरपतवारों को प्रभावी ढंग से नियंत्रित कर सकते हैं।",
+        "timestamp": {
+          "$date": "2024-12-09T13:49:06.819Z"
+        }
+      }
+    ],
+    "farmer_id": "VR253",
+    "farmer_plot_ids": [
+      "railwala"
+    ],
+    "conversation_id": "6756f23999570ac0170862f0",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-12-09T13:35:53.293000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "कृष्णा तीन व चार या प्लॉटमधील युनिटची बॅटरी डिस्चार्ज आहे बदलायची कशी",
+        "timestamp": {
+          "$date": "2024-12-09T12:47:13.073Z"
+        },
+        "standalone_question": "How should the battery discharge of the units in plots three and four be changed?",
+        "standalone_en": "How should the battery discharge of the units in plots three and four be changed?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "krishna tin v char ya plautmadhil unitchy battery discharge aahe badalaayachi kashi"
+      },
+      {
+        "role": "assistant",
+        "content": "कृष्णा तीन व चार प्लॉटमधील युनिटची बॅटरी बदलण्यासाठी खालील चरणांचे पालन करा:\n\n1. **युनिट बंद करा**: युनिटच्या पॉवर बटणावर क्लिक करून युनिट बंद करा.\n2. **बॅटरी कॅप उघडा**: युनिटच्या मागील बाजूस असलेल्या बॅटरी कॅपला हळूच उघडा.\n3. **बॅटरी काढा**: जुनी बॅटरी हळूच काढा.\n4. **नवीन बॅटरी ठेवा**: नवीन बॅटरी योग्य दिशेने ठेवा.\n5. **बॅटरी कॅप बंद करा**: बॅटरी कॅप पुन्हा बंद करा.\n6. **युनिट चालू करा**: युनिट पुन्हा चालू करा.\n\nजर तुम्हाला अधिक मदतीची आवश्यकता असेल, तर कृपया Fyllo च्या तांत्रिक समर्थनाशी संपर्क साधा.",
+        "timestamp": {
+          "$date": "2024-12-09T12:47:17.552Z"
+        }
+      }
+    ],
+    "farmer_id": "sanjaypandurangjadhav",
+    "farmer_plot_ids": [
+      "sanjayjadhavkrushna3"
+    ],
+    "conversation_id": "6756e6cf270840bc18e07e5d",
+    "tag": "others",
+    "conv_date": "2024-12-09T12:47:13.073000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What should I do treatment?<user uploaded image for analysis at 'plot2pome/2024-12-09-1733747549739.jpg'>",
+        "timestamp": {
+          "$date": "2024-12-09T12:33:32.746Z"
+        },
+        "standalone_question": "What treatment options should I consider?",
+        "standalone_en": "What treatment options should I consider?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of your pomegranate image indicates a condition known as \"black heart\" or \"black rot.\" This can be caused by several factors:\n\n1. **Fungal Infection**: Fungi can cause rot, especially if the fruit is damaged or has been exposed to excessive moisture.\n2. **Sunburn**: Intense sunlight exposure without adequate foliage cover can lead to dark patches on the fruit.\n3. **Nutritional Deficiencies**: Lack of essential nutrients, particularly potassium, can make the fruit more susceptible to diseases.\n\n### Recommendations:\n- **Inspect Other Fruits**: Check other pomegranates on the tree for similar symptoms.\n- **Improve Air Circulation**: Ensure proper spacing between plants to reduce humidity and improve airflow.\n- **Fungicide Application**: If a fungal infection is suspected, consider applying an appropriate fungicide.\n- **Nutrient Management**: Test the soil for nutrient levels and amend as necessary to ensure balanced nutrition.\n\nFor a more accurate diagnosis, consider providing a clearer image focusing on the affected area, and include images of the entire plant and surrounding environment if possible.",
+        "timestamp": {
+          "$date": "2024-12-09T12:33:45.738Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Which fungicide use",
+        "timestamp": {
+          "$date": "2024-12-09T12:34:16.160Z"
+        },
+        "standalone_question": "What type of fungicide should I use?",
+        "standalone_en": "What type of fungicide should I use?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice.",
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For treating the fungal infection in your pomegranate crop, you can use the following fungicide:\n\n- **Fungicide**: Thiram – Apply at a rate of 2 to 3 grams per kilogram of seeds.\n\nMake sure to follow the manufacturer's instructions for application and safety precautions.",
+        "timestamp": {
+          "$date": "2024-12-09T12:34:19.391Z"
+        }
+      }
+    ],
+    "farmer_id": "ankithbhai8889",
+    "farmer_plot_ids": [
+      "plot2pome",
+      "pomegranate334",
+      "plot2rajshakti",
+      "rajshaktipomeplot3"
+    ],
+    "conversation_id": "6756e39c270840bc18e07e5c",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-12-09T12:33:32.746000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "શું પ્રોબ્લેમ છે ",
+        "timestamp": {
+          "$date": "2024-12-09T11:11:09.106Z"
+        },
+        "standalone_question": "What is the problem?",
+        "standalone_en": "What is the problem?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "shu problem che "
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા Kairo ડિવાઇસમાં ડેટા અપડેટ ન થવા માટેના કેટલાક કારણો હોઈ શકે છે:\n\n1. **ડિવાઇસ કનેક્શન**: ખાતરી કરો કે ડિવાઇસ એપ સાથે જોડાયેલ છે.\n2. **નેટવર્ક કનેક્ટિવિટી**: ઇન્ટરનેટ કનેક્શન ચકાસો.\n3. **બેટરી સ્થિતિ**: ડિવાઇસની બેટરી ચકાસો, તે ખાલી તો ન હોય.\n4. **ડિવાઇસ રિસ્ટાર્ટ**: જો જરૂરી હોય તો ડિવાઇસને ફરીથી શરૂ કરો.\n\nજો સમસ્યા યથાવત રહે, તો Fyllo એપ પર સપોર્ટ ટિકિટ ઉઠાવવાની સલાહ આપવામાં આવે છે.",
+        "timestamp": {
+          "$date": "2024-12-09T11:11:13.821Z"
+        }
+      }
+    ],
+    "farmer_id": "bkpismailbhai",
+    "farmer_plot_ids": [
+      "marcha1",
+      "potato412",
+      "tomato215"
+    ],
+    "conversation_id": "6756d04cc2433e350dd70b71",
+    "tag": "others",
+    "conv_date": "2024-12-09T11:11:09.106000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Delata ",
+        "timestamp": {
+          "$date": "2024-12-09T07:35:58.059Z"
+        },
+        "standalone_question": "What is Delata?",
+        "standalone_en": "What is Delata?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Could you please clarify what you mean by \"Delata\"? Are you looking for information on a specific topic related to agriculture, or do you have a particular question in mind?",
+        "timestamp": {
+          "$date": "2024-12-09T07:36:00.242Z"
+        }
+      }
+    ],
+    "farmer_id": "arvindniphade",
+    "farmer_plot_ids": [
+      "plotno1sonaka844",
+      "plotno2manikchaman628"
+    ],
+    "conversation_id": "67569ddd32a673825aa5ee2d",
+    "tag": "others",
+    "conv_date": "2024-12-09T07:35:58.059000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hii",
+        "timestamp": {
+          "$date": "2024-12-09T06:24:47.010Z"
+        },
+        "standalone_question": "Hello! How are you?",
+        "standalone_en": "Hello! How are you?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "નમસ્તે, યોગેશભાઈ! કેવી રીતે છો? હું તમારી ખેતીમાં મદદ કરવા માટે અહીં છું. શું તમને કોઈ ખાસ માહિતી જોઈએ છે?",
+        "timestamp": {
+          "$date": "2024-12-09T06:24:49.257Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા પાકને સેની જરુરછે",
+        "timestamp": {
+          "$date": "2024-12-09T06:25:53.953Z"
+        },
+        "standalone_question": "My crops need care.",
+        "standalone_en": "My crops need care.",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate."
+          ]
+        },
+        "content_transliterated": "mara pakane seni jarurachhe"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પાક માટે હાલમાં કોઈ રોગ અથવા કીટક સ્પ્રે શેડ્યૂલ નથી. જો તમને વધુ માહિતી જોઈએ તો કૃપા કરીને જણાવો.",
+        "timestamp": {
+          "$date": "2024-12-09T06:25:58.889Z"
+        }
+      }
+    ],
+    "farmer_id": "VR5119",
+    "farmer_plot_ids": [
+      "gharvalopalot",
+      "motajampurnero"
+    ],
+    "conversation_id": "67568d2e32a673825aa5ee2b",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-12-09T06:24:47.010000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the problem?<user uploaded image for analysis at 'talwarafarm/2024-12-09-1733722360681.jpg'>",
+        "timestamp": {
+          "$date": "2024-12-09T05:32:58.138Z"
+        },
+        "standalone_question": "What issue is depicted in the uploaded image?",
+        "standalone_en": "What issue is depicted in the uploaded image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the uploaded image from your **Talwara** plot shows signs of distress in the crop:\n\n1. **Wilting and Browning**: The stems exhibit browning and wilting, which may indicate issues like root rot or fungal infections.\n2. **Leaf Condition**: The leaves show damage, suggesting possible pest activity or disease.\n3. **Soil Condition**: The soil appears dry and compacted, which can negatively impact root health and nutrient uptake.\n\n### Recommendations:\n- **Improve Drainage**: If root rot is suspected, ensure proper drainage in the field.\n- **Inspect for Pests**: Check for any visible pests on the leaves and stems.\n- **Fungicide Application**: If a fungal infection is suspected, consider applying a suitable fungicide.\n- **Provide Better Photos**: For a more accurate diagnosis, please provide closer images of the affected areas, focusing on the leaves and stems, and ensure good lighting.\n\nTaking these steps can help in assessing and improving the health of your crop.",
+        "timestamp": {
+          "$date": "2024-12-09T05:33:07.314Z"
+        }
+      }
+    ],
+    "farmer_id": "PBCS-1",
+    "farmer_plot_ids": [
+      "abupurafarm",
+      "jandifarm",
+      "kishanpura",
+      "talwarafarm"
+    ],
+    "conversation_id": "6756810932a673825aa5ee2a",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-09T05:32:58.138000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "धनाका प्लॉट नंबर एक",
+        "timestamp": {
+          "$date": "2024-12-09T04:28:26.201Z"
+        },
+        "standalone_question": "What is the plot number one in Dhanaka?",
+        "standalone_en": "What is the plot number one in Dhanaka?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "dhanaka plot number ek"
+      },
+      {
+        "role": "assistant",
+        "content": "आपका प्लॉट नंबर एक \"धनाका\" है, जो बहादुरी, चांदवड, नासिक, महाराष्ट्र में स्थित है। इस प्लॉट में अंगूर की फसल उगाई जा रही है और वर्तमान में फसल का चरण \"फ्रूट सेट\" (Fruit Set) है। \n\nयदि आपको किसी विशेष जानकारी या सहायता की आवश्यकता है, तो कृपया बताएं!",
+        "timestamp": {
+          "$date": "2024-12-09T04:28:29.031Z"
+        }
+      }
+    ],
+    "farmer_id": "chandrabhansuryavanshi",
+    "farmer_plot_ids": [
+      "plotno1ssnsf",
+      "plotno2ssnsf1",
+      "plotno3danaka"
+    ],
+    "conversation_id": "675671d0b8424f219fcfff87",
+    "tag": "others",
+    "conv_date": "2024-12-09T04:28:26.201000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Best chemical for tmosquito bug ",
+        "timestamp": {
+          "$date": "2024-12-09T04:27:25.634Z"
+        },
+        "standalone_question": "What is the best chemical for mosquito control?",
+        "standalone_en": "What is the best chemical for mosquito control?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For controlling the Tea Mosquitto Bug, you can use the following chemicals:\n\n1. **Imidacloprid**: A systemic insecticide effective against various pests, including the Tea Mosquitto Bug.\n2. **Thiamethoxam**: Another systemic insecticide that can be effective in controlling this pest.\n3. **Chlorantraniliprole**: This insecticide targets the larvae and is effective against the Tea Mosquitto Bug.\n\nAlways follow the recommended dosage and safety guidelines when applying these chemicals.",
+        "timestamp": {
+          "$date": "2024-12-09T04:27:28.421Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Best chemical for tmosquito bug in guava ",
+        "timestamp": {
+          "$date": "2024-12-09T04:27:59.963Z"
+        },
+        "standalone_question": "What is the best chemical to control the Tea Mosquitto Bug in guava?",
+        "standalone_en": "What is the best chemical to control the Tea Mosquitto Bug in guava?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Currently, there are no scheduled spray recommendations for the Tea Mosquitto Bug in your Guava plot for the week. However, you can consider using the following chemicals for control:\n\n1. **Imidacloprid**: Effective against the Tea Mosquitto Bug.\n2. **Thiamethoxam**: Another option that works well for this pest.\n3. **Chlorantraniliprole**: Targets the larvae effectively.\n\nMake sure to follow the recommended dosage and safety guidelines when applying these chemicals.",
+        "timestamp": {
+          "$date": "2024-12-09T04:28:04.930Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Best chemical for dieback in guava ",
+        "timestamp": {
+          "$date": "2024-12-09T04:28:30.760Z"
+        },
+        "standalone_question": "What is the best chemical for treating dieback in guava?",
+        "standalone_en": "What is the best chemical for treating dieback in guava?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For controlling dieback in guava, you can use the following chemicals:\n\n1. **Carbendazim**: A systemic fungicide effective against various fungal infections, including dieback.\n2. **Mancozeb**: A broad-spectrum fungicide that can help control fungal diseases.\n3. **Copper Oxychloride**: Useful for preventing and controlling fungal infections.\n\nMake sure to follow the recommended dosage and safety guidelines when applying these chemicals. Additionally, proper cultural practices and sanitation can help manage dieback effectively.",
+        "timestamp": {
+          "$date": "2024-12-09T04:28:34.192Z"
+        }
+      }
+    ],
+    "farmer_id": "varunmgowda",
+    "farmer_plot_ids": [
+      "bottleguard1690370133678",
+      "guavaplotmunirajfarm",
+      "guavaplotmunirajfarm2"
+    ],
+    "conversation_id": "675671ad32a673825aa5ee29",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-12-09T04:27:25.634000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What to do if leaf eating caterpillar attack is at high risk of 80%",
+        "timestamp": {
+          "$date": "2024-12-09T03:45:34.992Z"
+        },
+        "standalone_question": "What should I do if there is an 80% risk of a leaf-eating caterpillar attack?",
+        "standalone_en": "What should I do if there is an 80% risk of a leaf-eating caterpillar attack?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Currently, there are no scheduled sprays for leaf-eating caterpillars in your pest control plan. Given the high risk of an attack, it is advisable to take preventive measures. You can consider spraying with a suitable pesticide such as:\n\n- **Chlorpyrifos** at 5 mL/Ltr\n- **Thiamethoxam** at 0.5 g/Ltr\n\nMake sure to follow the recommended dosage and safety precautions while applying the pesticide.",
+        "timestamp": {
+          "$date": "2024-12-09T03:45:39.261Z"
+        }
+      }
+    ],
+    "farmer_id": "dhruvpatel563",
+    "farmer_plot_ids": [
+      "unityfarm1"
+    ],
+    "conversation_id": "675667de32a673825aa5ee28",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-09T03:45:34.992000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Air temperature sensor problem ",
+        "timestamp": {
+          "$date": "2024-12-09T02:35:22.559Z"
+        },
+        "standalone_question": "What issues are you experiencing with the air temperature sensor?",
+        "standalone_en": "What issues are you experiencing with the air temperature sensor?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What should I do if the soil temperature sensor is not working?\nA: Check the sensor connection, tighten it if loose, and restart the device to check updated data."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "If the air temperature sensor is not working, follow these steps:\n\n1. **Check Connections**: Ensure that the sensor is properly connected. Tighten any loose connections.\n2. **Restart the Device**: Power off the device and turn it back on to see if it resolves the issue.\n3. **Inspect for Damage**: Look for any visible damage to the sensor or its wiring.\n4. **Calibration**: If possible, check if the sensor needs calibration.\n5. **Contact Support**: If the problem persists, reach out to your Fyllo representative for further assistance.",
+        "timestamp": {
+          "$date": "2024-12-09T02:35:25.318Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Not possible",
+        "timestamp": {
+          "$date": "2024-12-09T02:35:43.452Z"
+        },
+        "standalone_question": "What should I do if I cannot follow the suggested steps for the air temperature sensor problem?",
+        "standalone_en": "What should I do if I cannot follow the suggested steps for the air temperature sensor problem?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What should I do if the soil temperature sensor is not working?\nA: Check the sensor connection, tighten it if loose, and restart the device to check updated data.",
+            "Q: What should I do if the soil moisture sensor always shows dry values?\nA: Check if irrigation water is reaching the sensor, verify sensor connection, and ensure the sensor is not damaged.",
+            "Q: What should I do if the rain gauge is not working?\nA: Open the top cover of the rainfall sensor and clean it as suggested in the maintenance section.",
+            "Q: How do I replace the sensors for Nero?\nA: Disconnect the sensors by rotating them counterclockwise, unplug the connector, and replace them by following the steps in the manual.",
+            "Q: What should I do if the soil moisture sensor values fluctuate?\nA: Ensure the sensor is installed properly in the soil, check for air bubbles, and contact Fyllo representative if the issue persists."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "If you're unable to resolve the air temperature sensor issue with the steps provided, I recommend contacting Fyllo's customer support for professional assistance. They can guide you through troubleshooting or arrange for a replacement if necessary.",
+        "timestamp": {
+          "$date": "2024-12-09T02:35:46.158Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Yes",
+        "timestamp": {
+          "$date": "2024-12-09T02:35:59.975Z"
+        },
+        "standalone_question": "Is there a specific issue you're encountering with the air temperature sensor?",
+        "standalone_en": "Is there a specific issue you're encountering with the air temperature sensor?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "If you need assistance with the air temperature sensor issue or any other agricultural concerns, please let me know how I can help you further!",
+        "timestamp": {
+          "$date": "2024-12-09T02:36:03.307Z"
+        }
+      }
+    ],
+    "farmer_id": "Arushfarm",
+    "farmer_plot_ids": [
+      "Sudhakar1",
+      "plotno3sudhakar204",
+      "plotno4crimpson452",
+      "sudhakar2arushfarm"
+    ],
+    "conversation_id": "6756576a32a673825aa5ee27",
+    "tag": "others",
+    "conv_date": "2024-12-09T02:35:22.559000+00:00"
+  }
+]

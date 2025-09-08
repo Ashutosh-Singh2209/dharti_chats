@@ -1,0 +1,528 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Knnnnn''''''ck",
+        "en": "Knnnnn''''''ck",
+        "timestamp": {
+          "$date": "2025-07-26T11:34:22.177Z"
+        },
+        "standalone_question": "What does \"Knnnnnn''''''ck\" mean?",
+        "standalone_en": "What does \"Knnnnnn''''''ck\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like your message got a bit jumbled. How can I assist you with your farming needs today?",
+        "en": "It seems like your message got a bit jumbled. How can I assist you with your farming needs today?",
+        "timestamp": {
+          "$date": "2025-07-26T11:34:27.828Z"
+        }
+      }
+    ],
+    "farmer_id": "akshayshinde",
+    "farmer_plot_ids": [
+      "supersonakaplot1"
+    ],
+    "conversation_id": "6884bd3c91b285c244a0c8ed",
+    "_id": "6884bd3c91b285c244a0c8ed",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-26T11:39:22.180000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-07-26T11:34:22.177000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "डिव्हाईस मध्ये हवामान बद झाले आहे ",
+        "en": "The weather has changed in the device ",
+        "timestamp": {
+          "$date": "2025-07-26T10:00:37.252Z"
+        },
+        "standalone_question": "The weather has changed in the device. \n\nWhat has changed in the device's weather?",
+        "standalone_en": "The weather has changed in the device. \n\nWhat has changed in the device's weather?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "device madhye havaman bad jhale aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया तपासा की डिव्हाईस कनेक्शन व्यवस्थित आहे का. जर कनेक्शन चांगले असेल, तर डिव्हाईस रीस्टार्ट करून पाहा. जर समस्या कायम राहिली, तर तुम्हाला सपोर्ट टीमसाठी तिकीट तयार करायचे आहे का?",
+        "en": "Please check if the device connection is in order. If the connection is good, try restarting the device. If the problem persists, do you want to prepare a ticket for the support team?",
+        "timestamp": {
+          "$date": "2025-07-26T10:00:40.849Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पहिले चालु होते uninstall केल्या वर बंद झाले ",
+        "en": "First started uninstalled and closed ",
+        "timestamp": {
+          "$date": "2025-07-26T10:03:01.089Z"
+        },
+        "standalone_question": "The device was working fine before, but it stopped after I uninstalled it. What should I do?",
+        "standalone_en": "The device was working fine before, but it stopped after I uninstalled it. What should I do?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुम्ही डिव्हाईस अनइंस्टॉल केल्यानंतर ते चालू होत नाही का? कृपया खालील गोष्टी तपासा:\n\n1. **डिव्हाईस कनेक्शन**: डिव्हाईस योग्यरित्या कनेक्ट केले आहे का?\n2. **नेटवर्क कनेक्टिव्हिटी**: तुमच्या इंटरनेट कनेक्शनची स्थिती तपासा.\n3. **बॅटरी स्थिती**: डिव्हाईसची बॅटरी चांगली आहे का?\n4. **रीस्टार्ट**: डिव्हाईस रीस्टार्ट करून पाहा.\n\nजर तुम्हाला अजूनही समस्या येत असेल, तर तुम्हाला सपोर्ट टीमसाठी तिकीट तयार करायचे आहे का?",
+        "en": "Doesn't it turn on after you uninstall the device? Please check the following:\n\n1. **Device Connection**: Is the device connected correctly?\n2. **Network Connectivity**: Check the status of your internet connection.\n3. **Battery status**: Is the device's battery good?\n4. **Restart**: Try the device restart.\n\nIf you're still having a problem, do you want to prepare a ticket for the support team?",
+        "timestamp": {
+          "$date": "2025-07-26T10:03:07.569Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ढगाळ वातावरणामध्ये १७ते २०तास बंद राहते ",
+        "en": "It is closed for 17 to 20 hours in cloudy conditions. ",
+        "ans":"in case of kairo or nero infinity,older irrigation or weather unit (they all run on solar), night me ya cloudy condition me band ho jaye, to iska matlab sunlight ki kami se battery discharge ho sakti hai. so, either solar panel or battery needs to be changed, and for this farmer can raise ticket.",
+        "timestamp": {
+          "$date": "2025-07-26T10:04:11.418Z"
+        },
+        "standalone_question": "Does the device remain inactive for 17 to 20 hours in cloudy weather?",
+        "correct_standalone_question": "correct it",
+        "standalone_en": "Does the device remain inactive for 17 to 20 hours in cloudy weather?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "dhagal vatavaranamadhye ate etas band rahate "
+      },
+      {
+        "role": "assistant",
+        "content": "ढगाळ वातावरणामुळे डिव्हाईसच्या कार्यक्षमतेवर परिणाम होऊ शकतो. जर तुम्ही १७ ते २० तासांमध्ये डिव्हाईस चालू केले असेल आणि ते अद्याप कार्यरत नसेल, तर तुम्हाला खालील गोष्टी तपासण्याची आवश्यकता आहे:\n\n1. **डिव्हाईस रीस्टार्ट करा**: डिव्हाईस रीस्टार्ट करून पाहा.\n2. **कनेक्शन तपासा**: डिव्हाईस योग्यरित्या कनेक्ट केले आहे का ते तपासा.\n3. **बॅटरी स्थिती**: बॅटरी चांगली आहे का ते तपासा.\n\nजर तुम्हाला अजूनही समस्या येत असेल, तर तुम्हाला सपोर्ट टीमसाठी तिकीट तयार करायचे आहे का?",
+        "en": "Cloudy weather can affect the performance of the device. If you turn on the device in 17 to 20 hours and it's not yet working, you need to check the following:\n\n1. **Restart the device**: Try the device restart.\n2. **Check connection**: Check if the device is properly connected.\n3. **Battery status**: Check if the battery is good.\n\nIf you're still having a problem, do you want to prepare a ticket for the support team?",
+        "timestamp": {
+          "$date": "2025-07-26T10:04:16.589Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "हो",
+        "en": "be",
+        "timestamp": {
+          "$date": "2025-07-26T10:04:41.944Z"
+        },
+        "standalone_question": "Would you like to create a ticket for the support team?",
+        "standalone_en": "Would you like to create a ticket for the support team?",
+        "retrieval": {
+          "tools": [
+            "raise_support_ticket  \nRaises a support ticket for the given plot. Dharti decides the priority and message based on the conversation."
+          ],
+          "faq": [
+            "Q: Send the experts tomorrow. Yes send. Send to visit. Send the visitor to farm/plot visit.  \nA: To schedule a visit, please raise a maintenance ticket in the app or reach out to the our team for further assistance. Do you want me to raise a support ticket for you?"
+          ]
+        },
+        "content_transliterated": "ho"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमचा सपोर्ट तिकीट यशस्वीरित्या तयार करण्यात आला आहे. तिकीट क्रमांक: **685196**. तज्ञ लवकरच तुमच्याशी संपर्क साधतील. तुम्हाला आणखी काही मदतीची आवश्यकता आहे का?",
+        "en": "Your support ticket has been successfully created. Ticket number: **685196**. Experts will contact you soon. Do you need any more help?",
+        "timestamp": {
+          "$date": "2025-07-26T10:04:49.185Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "डिव्हाईस हवं तसं काम करत नाही 🙂‍↔️",
+        "en": "The device doesn't 🙂 ↔️ work the way it should",
+        "timestamp": {
+          "$date": "2025-07-26T10:05:48.456Z"
+        },
+        "standalone_question": "Why is the device not functioning as expected?",
+        "standalone_en": "Why is the device not functioning as expected?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "device havam tasam calm karat nahi 🙂↔️"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या डिव्हाईसच्या कार्यक्षमतेत समस्या असल्यास, तुम्हाला खालील गोष्टी तपासण्याची आवश्यकता आहे:\n\n1. **कनेक्शन तपासा**: डिव्हाईस योग्यरित्या कनेक्ट केले आहे का?\n2. **नेटवर्क कनेक्टिव्हिटी**: तुमच्या इंटरनेट कनेक्शनची स्थिती तपासा.\n3. **बॅटरी स्थिती**: डिव्हाईसची बॅटरी चांगली आहे का?\n4. **रीस्टार्ट**: डिव्हाईस रीस्टार्ट करून पाहा.\n\nजर तुम्हाला अजूनही समस्या येत असेल, तर तुम्हाला सपोर्ट टीमसाठी तिकीट तयार करायचे आहे का?",
+        "en": "If there are problems with the performance of your device, you need to check the following:\n\n1. **Check connection**: Is the device connected properly?\n2. **Network Connectivity**: Check the status of your internet connection.\n3. **Battery status**: Is the device's battery good?\n4. **Restart**: Try the device restart.\n\nIf you're still having a problem, do you want to prepare a ticket for the support team?",
+        "timestamp": {
+          "$date": "2025-07-26T10:05:53.888Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "हो",
+        "en": "be",
+        "timestamp": {
+          "$date": "2025-07-26T10:06:14.649Z"
+        },
+        "standalone_question": "Do you want to create a support ticket?",
+        "standalone_en": "Do you want to create a support ticket?",
+        "retrieval": {
+          "tools": [
+            "raise_support_ticket  \nRaises a support ticket for the given plot. Dharti decides the priority and message based on the conversation."
+          ],
+          "faq": [
+            "Q: Send the experts tomorrow. Yes send. Send to visit. Send the visitor to farm/plot visit.  \nA: To schedule a visit, please raise a maintenance ticket in the app or reach out to the our team for further assistance. Do you want me to raise a support ticket for you?",
+            "Q: My Kairo/Nero device is not working.\nA: If some issue is being faced, user can raise the support ticket in the Fyllo app. If the issue is not solved please contact Fyllo customer support for further assistance. Do you want me to raise the support ticket for you?"
+          ]
+        },
+        "content_transliterated": "ho"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमचा सपोर्ट तिकीट यशस्वीरित्या तयार करण्यात आला आहे. तिकीट क्रमांक: **685197**. तज्ञ लवकरच तुमच्याशी संपर्क साधतील. तुम्हाला आणखी काही मदतीची आवश्यकता आहे का?",
+        "en": "Your support ticket has been successfully created. Ticket number: **685197**. Experts will contact you soon. Do you need any more help?",
+        "timestamp": {
+          "$date": "2025-07-26T10:06:21.434Z"
+        }
+      }
+    ],
+    "farmer_id": "kamleshjagtap",
+    "farmer_plot_ids": [
+      "plotno1manikchaman890"
+    ],
+    "conversation_id": "6884a74291b285c244a0c8ec",
+    "_id": "6884a74291b285c244a0c8ec",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-26T10:11:14.654000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-07-26T10:00:37.252000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "आज माझ्या केळीला पाण्याची गरज आहे का",
+        "en": "Does my banana need water today?",
+        "timestamp": {
+          "$date": "2025-07-26T07:46:19.498Z"
+        },
+        "standalone_question": "Does my banana plant need water today?",
+        "standalone_en": "Does my banana plant need water today?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": []
+        },
+        "content_transliterated": "aj mazya kelila panyachi garaj aahe ka"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या केळीच्या प्लॉटमध्ये सध्या पाण्याची गरज नाही. सध्या मातीतील आर्द्रता 91% आणि 93% आहे, जे की 70% च्या आदर्श पातळीपेक्षा जास्त आहे. त्यामुळे पाणी देण्याची आवश्यकता नाही.",
+        "en": "Your banana plot doesn't need water right now. Soil moisture is currently between 91% and 93%, which is above the ideal level of 70%. Therefore, there is no need to water.",
+        "timestamp": {
+          "$date": "2025-07-26T07:46:25.552Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "आज मी केला औषध सोडलं तर केले आपटे करेल का",
+        "en": "If I give up the medicine today, will I do it?",
+        "ans":"user is saying, they had to sprey (fertigation/disease-pest), should he skip that. fertigation can't be skipped. fertigation ek-do din aage pichhe kar sakte hain, but disease pest ka wait nhi kar sakte. if moisture is high, and sprey is important according to farmer, do sprey (though it wont be optimal)",
+        "timestamp": {
+          "$date": "2025-07-26T07:46:53.867Z"
+        },
+        "standalone_question": "If I skip giving medicine to my banana plant today, will it be okay?",
+        "standalone_en": "If I skip giving medicine to my banana plant today, will it be okay?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "aj me kela ausadh sodaln tar kele apte karel ka"
+      },
+      {
+        "role": "assistant",
+        "content": "आज तुमच्या केळीच्या प्लॉटसाठी कोणतेही औषध सोडण्याची शिफारस नाही. त्यामुळे तुम्ही औषध सोडले तरी केळीला काही समस्या होणार नाही.",
+        "en": "It's not recommended to give up any medication for your banana plot today. So even if you give up the medicine, the banana will not have any problem.",
+        "timestamp": {
+          "$date": "2025-07-26T07:46:58.944Z"
+        }
+      }
+    ],
+    "farmer_id": "prafullmore",
+    "farmer_plot_ids": [
+      "banana850"
+    ],
+    "conversation_id": "688487ca91b285c244a0c8eb",
+    "_id": "688487ca91b285c244a0c8eb",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-26T07:51:53.871000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-07-26T07:46:19.498000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Citrus nematode k lakshan ",
+        "ans": "knowledge base",
+        "en": "Citrus nematode k lakshan ",
+        "timestamp": {
+          "$date": "2025-07-26T06:10:53.236Z"
+        },
+        "standalone_question": "What are the characteristics of Citrus nematode?",
+        "correct_standalone_question": "symptom, not characteristics",
+        "standalone_en": "What are the characteristics of Citrus nematode?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Citrus nematode (Tylenchulus semipenetrans) is a significant pest affecting citrus crops. Here are the symptoms (lakshan) associated with citrus nematode infestation:\n\n1. **Root Damage**: The nematodes invade the roots, causing galls or lesions, which can lead to root decay.\n2. **Stunted Growth**: Infected plants often exhibit stunted growth and reduced vigor.\n3. **Yellowing Leaves**: Leaves may turn yellow, especially older leaves, indicating nutrient deficiencies.\n4. **Poor Fruit Development**: The quality and quantity of fruit may decline, with smaller and fewer fruits produced.\n5. **Wilting**: Plants may show signs of wilting, particularly during dry conditions, due to impaired root function.\n6. **Reduced Yield**: Overall yield is significantly reduced in heavily infested plants.\n\nControl measures include soil fumigation, crop rotation, and planting resistant varieties if available. Regular monitoring and maintaining healthy soil conditions can also help manage nematode populations.",
+        "en": "Citrus nematode (Tylenchulus semipenetrans) is a significant pest affecting citrus crops. Here are the symptoms (lakshan) associated with citrus nematode infestation:\n\n1. **Root Damage**: The nematodes invade the roots, causing galls or lesions, which can lead to root decay.\n2. **Stunted Growth**: Infected plants often exhibit stunted growth and reduced vigor.\n3. **Yellowing Leaves**: Leaves may turn yellow, especially older leaves, indicating nutrient deficiencies.\n4. **Poor Fruit Development**: The quality and quantity of fruit may decline, with smaller and fewer fruits produced.\n5. **Wilting**: Plants may show signs of wilting, particularly during dry conditions, due to impaired root function.\n6. **Reduced Yield**: Overall yield is significantly reduced in heavily infested plants.\n\nControl measures include soil fumigation, crop rotation, and planting resistant varieties if available. Regular monitoring and maintaining healthy soil conditions can also help manage nematode populations.",
+        "timestamp": {
+          "$date": "2025-07-26T06:10:58.163Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Kya treatment kre?",
+        "ans": "knowledge base",
+        "en": "Kya treatment kre?",
+        "timestamp": {
+          "$date": "2025-07-26T06:11:24.454Z"
+        },
+        "standalone_question": "What treatment options are available for citrus nematode infestation?",
+        "standalone_en": "What treatment options are available for citrus nematode infestation?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For effective treatment during the seedling stage, you can follow these recommendations:\n\n### Pest Control:\n1. **Pests**: Ants, Termites, Root Aphids, Thrips, Internal Borers\n   - **Insecticide Treatment**: Drench or spray seedlings with:\n     - **Chlorpyriphos**: 5 mL/Liter of water\n     - **Thiamethoxam**: 0.5 g/Liter of water\n\n### Seed Treatment:\n1. **Insecticide**: \n   - **Imidacloprid 600 FS**: 5 to 8 mL/kg of seeds\n2. **Fungicide**: \n   - **Thiram**: 2 to 3 g/kg of seeds\n\n### Disease Control:\n1. **Diseases**: Collar Rot, Damping Off, Seedling Blight\n   - **Fungicide Treatment**: Drench or spray seedlings with:\n     - **Carbendazim**: 2.5 g/Liter of water\n\n### Benefits of Treatment:\n- Prevents the spread of diseases and pests.\n- Protects seeds from rot and blight.\n- Improves germination rates.\n- Provides protection from storage insects and soil insects.\n\nMake sure to follow the recommended dosages and application methods for the best results.",
+        "en": "For effective treatment during the seedling stage, you can follow these recommendations:\n\n### Pest Control:\n1. **Pests**: Ants, Termites, Root Aphids, Thrips, Internal Borers\n   - **Insecticide Treatment**: Drench or spray seedlings with:\n     - **Chlorpyriphos**: 5 mL/Liter of water\n     - **Thiamethoxam**: 0.5 g/Liter of water\n\n### Seed Treatment:\n1. **Insecticide**: \n   - **Imidacloprid 600 FS**: 5 to 8 mL/kg of seeds\n2. **Fungicide**: \n   - **Thiram**: 2 to 3 g/kg of seeds\n\n### Disease Control:\n1. **Diseases**: Collar Rot, Damping Off, Seedling Blight\n   - **Fungicide Treatment**: Drench or spray seedlings with:\n     - **Carbendazim**: 2.5 g/Liter of water\n\n### Benefits of Treatment:\n- Prevents the spread of diseases and pests.\n- Protects seeds from rot and blight.\n- Improves germination rates.\n- Provides protection from storage insects and soil insects.\n\nMake sure to follow the recommended dosages and application methods for the best results.",
+        "timestamp": {
+          "$date": "2025-07-26T06:11:31.551Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Nematode ka treatment ",
+        "en": "Nematode ka treatment ",
+        "timestamp": {
+          "$date": "2025-07-26T06:11:50.215Z"
+        },
+        "standalone_question": "What is the treatment for nematodes?",
+        "standalone_en": "What is the treatment for nematodes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Citrus nematode treatment involves several strategies to manage and control the infestation. Here are some effective methods:\n\n### 1. **Cultural Practices:**\n   - **Crop Rotation**: Rotate citrus with non-host crops to break the nematode life cycle.\n   - **Soil Management**: Improve soil health through organic matter addition and proper drainage.\n\n### 2. **Chemical Control:**\n   - **Soil Fumigation**: Use nematicides like **1,3-Dichloropropene** or **Methyl Bromide** before planting to reduce nematode populations.\n   - **Nematicides**: Apply nematicides such as **Oxamyl** or **Carbofuran** according to label instructions.\n\n### 3. **Biological Control:**\n   - **Beneficial Nematodes**: Introduce beneficial nematodes that prey on citrus nematodes.\n   - **Microbial Products**: Use products containing beneficial bacteria or fungi that can suppress nematode populations.\n\n### 4. **Resistant Varieties:**\n   - Plant citrus varieties that are resistant to nematodes if available.\n\n### 5. **Regular Monitoring:**\n   - Regularly check for nematode presence and root health to take timely action.\n\n### 6. **Soil Solarization:**\n   - Cover the soil with clear plastic for several weeks during hot weather to heat the soil and kill nematodes.\n\nImplementing a combination of these methods will help effectively manage citrus nematodes and protect your crops.",
+        "en": "Citrus nematode treatment involves several strategies to manage and control the infestation. Here are some effective methods:\n\n### 1. **Cultural Practices:**\n   - **Crop Rotation**: Rotate citrus with non-host crops to break the nematode life cycle.\n   - **Soil Management**: Improve soil health through organic matter addition and proper drainage.\n\n### 2. **Chemical Control:**\n   - **Soil Fumigation**: Use nematicides like **1,3-Dichloropropene** or **Methyl Bromide** before planting to reduce nematode populations.\n   - **Nematicides**: Apply nematicides such as **Oxamyl** or **Carbofuran** according to label instructions.\n\n### 3. **Biological Control:**\n   - **Beneficial Nematodes**: Introduce beneficial nematodes that prey on citrus nematodes.\n   - **Microbial Products**: Use products containing beneficial bacteria or fungi that can suppress nematode populations.\n\n### 4. **Resistant Varieties:**\n   - Plant citrus varieties that are resistant to nematodes if available.\n\n### 5. **Regular Monitoring:**\n   - Regularly check for nematode presence and root health to take timely action.\n\n### 6. **Soil Solarization:**\n   - Cover the soil with clear plastic for several weeks during hot weather to heat the soil and kill nematodes.\n\nImplementing a combination of these methods will help effectively manage citrus nematodes and protect your crops.",
+        "timestamp": {
+          "$date": "2025-07-26T06:11:58.051Z"
+        }
+      }
+    ],
+    "farmer_id": "mandeepbishnoi1661062088650",
+    "farmer_plot_ids": [
+      "kairokinnowfarm",
+      "kinnowplotnero1"
+    ],
+    "conversation_id": "6884716d91b285c244a0c8e9",
+    "_id": "6884716d91b285c244a0c8e9",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-07-26T06:16:50.219000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-07-26T06:10:53.236000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Citrus nematode k lakshan ",
+        "en": "Citrus nematode k lakshan ",
+        "timestamp": {
+          "$date": "2025-07-26T06:10:53.236Z"
+        },
+        "standalone_question": "What are the characteristics of Citrus nematode?",
+        "standalone_en": "What are the characteristics of Citrus nematode?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Citrus nematode (Tylenchulus semipenetrans) is a significant pest affecting citrus crops. Here are the symptoms (lakshan) associated with citrus nematode infestation:\n\n1. **Root Damage**: The nematodes invade the roots, causing galls or lesions, which can lead to root decay.\n2. **Stunted Growth**: Infected plants often exhibit stunted growth and reduced vigor.\n3. **Yellowing Leaves**: Leaves may turn yellow, especially older leaves, indicating nutrient deficiencies.\n4. **Poor Fruit Development**: The quality and quantity of fruit may decline, with smaller and fewer fruits produced.\n5. **Wilting**: Plants may show signs of wilting, particularly during dry conditions, due to impaired root function.\n6. **Reduced Yield**: Overall yield is significantly reduced in heavily infested plants.\n\nControl measures include soil fumigation, crop rotation, and planting resistant varieties if available. Regular monitoring and maintaining healthy soil conditions can also help manage nematode populations.",
+        "en": "Citrus nematode (Tylenchulus semipenetrans) is a significant pest affecting citrus crops. Here are the symptoms (lakshan) associated with citrus nematode infestation:\n\n1. **Root Damage**: The nematodes invade the roots, causing galls or lesions, which can lead to root decay.\n2. **Stunted Growth**: Infected plants often exhibit stunted growth and reduced vigor.\n3. **Yellowing Leaves**: Leaves may turn yellow, especially older leaves, indicating nutrient deficiencies.\n4. **Poor Fruit Development**: The quality and quantity of fruit may decline, with smaller and fewer fruits produced.\n5. **Wilting**: Plants may show signs of wilting, particularly during dry conditions, due to impaired root function.\n6. **Reduced Yield**: Overall yield is significantly reduced in heavily infested plants.\n\nControl measures include soil fumigation, crop rotation, and planting resistant varieties if available. Regular monitoring and maintaining healthy soil conditions can also help manage nematode populations.",
+        "timestamp": {
+          "$date": "2025-07-26T06:10:58.163Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Kya treatment kre?",
+        "en": "Kya treatment kre?",
+        "timestamp": {
+          "$date": "2025-07-26T06:11:24.454Z"
+        },
+        "standalone_question": "What treatment options are available for citrus nematode infestation?",
+        "standalone_en": "What treatment options are available for citrus nematode infestation?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For effective treatment during the seedling stage, you can follow these recommendations:\n\n### Pest Control:\n1. **Pests**: Ants, Termites, Root Aphids, Thrips, Internal Borers\n   - **Insecticide Treatment**: Drench or spray seedlings with:\n     - **Chlorpyriphos**: 5 mL/Liter of water\n     - **Thiamethoxam**: 0.5 g/Liter of water\n\n### Seed Treatment:\n1. **Insecticide**: \n   - **Imidacloprid 600 FS**: 5 to 8 mL/kg of seeds\n2. **Fungicide**: \n   - **Thiram**: 2 to 3 g/kg of seeds\n\n### Disease Control:\n1. **Diseases**: Collar Rot, Damping Off, Seedling Blight\n   - **Fungicide Treatment**: Drench or spray seedlings with:\n     - **Carbendazim**: 2.5 g/Liter of water\n\n### Benefits of Treatment:\n- Prevents the spread of diseases and pests.\n- Protects seeds from rot and blight.\n- Improves germination rates.\n- Provides protection from storage insects and soil insects.\n\nMake sure to follow the recommended dosages and application methods for the best results.",
+        "en": "For effective treatment during the seedling stage, you can follow these recommendations:\n\n### Pest Control:\n1. **Pests**: Ants, Termites, Root Aphids, Thrips, Internal Borers\n   - **Insecticide Treatment**: Drench or spray seedlings with:\n     - **Chlorpyriphos**: 5 mL/Liter of water\n     - **Thiamethoxam**: 0.5 g/Liter of water\n\n### Seed Treatment:\n1. **Insecticide**: \n   - **Imidacloprid 600 FS**: 5 to 8 mL/kg of seeds\n2. **Fungicide**: \n   - **Thiram**: 2 to 3 g/kg of seeds\n\n### Disease Control:\n1. **Diseases**: Collar Rot, Damping Off, Seedling Blight\n   - **Fungicide Treatment**: Drench or spray seedlings with:\n     - **Carbendazim**: 2.5 g/Liter of water\n\n### Benefits of Treatment:\n- Prevents the spread of diseases and pests.\n- Protects seeds from rot and blight.\n- Improves germination rates.\n- Provides protection from storage insects and soil insects.\n\nMake sure to follow the recommended dosages and application methods for the best results.",
+        "timestamp": {
+          "$date": "2025-07-26T06:11:31.551Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Nematode ka treatment ",
+        "en": "Nematode ka treatment ",
+        "timestamp": {
+          "$date": "2025-07-26T06:11:50.215Z"
+        },
+        "standalone_question": "What are the treatment options for nematodes?",
+        "standalone_en": "What are the treatment options for nematodes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Citrus nematode treatment involves several strategies to manage and control the infestation. Here are some effective methods:\n\n### 1. **Cultural Practices:**\n   - **Crop Rotation**: Rotate citrus with non-host crops to break the nematode life cycle.\n   - **Soil Management**: Improve soil health through organic matter addition and proper drainage.\n\n### 2. **Chemical Control:**\n   - **Soil Fumigation**: Use nematicides like **1,3-Dichloropropene** or **Methyl Bromide** before planting to reduce nematode populations.\n   - **Nematicides**: Apply nematicides such as **Oxamyl** or **Carbofuran** according to label instructions.\n\n### 3. **Biological Control:**\n   - **Beneficial Nematodes**: Introduce beneficial nematodes that prey on citrus nematodes.\n   - **Microbial Products**: Use products containing beneficial bacteria or fungi that can suppress nematode populations.\n\n### 4. **Resistant Varieties:**\n   - Plant citrus varieties that are resistant to nematodes if available.\n\n### 5. **Regular Monitoring:**\n   - Regularly check for nematode presence and root health to take timely action.\n\n### 6. **Soil Solarization:**\n   - Cover the soil with clear plastic for several weeks during hot weather to heat the soil and kill nematodes.\n\nImplementing a combination of these methods will help effectively manage citrus nematodes and protect your crops.",
+        "en": "Citrus nematode treatment involves several strategies to manage and control the infestation. Here are some effective methods:\n\n### 1. **Cultural Practices:**\n   - **Crop Rotation**: Rotate citrus with non-host crops to break the nematode life cycle.\n   - **Soil Management**: Improve soil health through organic matter addition and proper drainage.\n\n### 2. **Chemical Control:**\n   - **Soil Fumigation**: Use nematicides like **1,3-Dichloropropene** or **Methyl Bromide** before planting to reduce nematode populations.\n   - **Nematicides**: Apply nematicides such as **Oxamyl** or **Carbofuran** according to label instructions.\n\n### 3. **Biological Control:**\n   - **Beneficial Nematodes**: Introduce beneficial nematodes that prey on citrus nematodes.\n   - **Microbial Products**: Use products containing beneficial bacteria or fungi that can suppress nematode populations.\n\n### 4. **Resistant Varieties:**\n   - Plant citrus varieties that are resistant to nematodes if available.\n\n### 5. **Regular Monitoring:**\n   - Regularly check for nematode presence and root health to take timely action.\n\n### 6. **Soil Solarization:**\n   - Cover the soil with clear plastic for several weeks during hot weather to heat the soil and kill nematodes.\n\nImplementing a combination of these methods will help effectively manage citrus nematodes and protect your crops.",
+        "timestamp": {
+          "$date": "2025-07-26T06:11:58.051Z"
+        }
+      }
+    ],
+    "farmer_id": "mandeepbishnoi1661062088650",
+    "farmer_plot_ids": [
+      "kairokinnowfarm",
+      "kinnowplotnero1"
+    ],
+    "conversation_id": "6884716d91b285c244a0c8e9",
+    "_id": "6884716d91b285c244a0c8e9",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-07-26T06:16:50.219000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-07-26T06:10:53.236000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पाऊस कधी पडनार",
+        "ans":"weather forcast call both hourly and daily",
+        "en": "When will it rain",
+        "timestamp": {
+          "$date": "2025-07-26T03:53:31.054Z"
+        },
+        "standalone_question": "When will it rain?",
+        "standalone_en": "When will it rain?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "प्लॉट नंबर 1 (तिसगांव, दिंडोरी, नाशिक) साठी पावसाचा अंदाज पुढीलप्रमाणे आहे:\n\n- **26 जुलै 2025**: 8.8 मिमी पाऊस, 80% पावसाची शक्यता\n- **27 जुलै 2025**: 26.0 मिमी पाऊस, 70% पावसाची शक्यता\n- **28 जुलै 2025**: 10.0 मिमी पाऊस, 60% पावसाची शक्यता\n- **29 जुलै 2025**: 9.4 मिमी पाऊस, 40% पावसाची शक्यता\n- **30 जुलै 2025**: 11.5 मिमी पाऊस, 40% पावसाची शक्यता\n\nतुम्हाला पुढील काही दिवसांत चांगला पाऊस पडण्याची शक्यता आहे.",
+        "en": "The rainfall forecast for Plot No. 1 (Tisgaon, Dindori, Nashik) is as follows:\n\n- **26 July 2025**: 8.8 mm rainfall, 80% chance of rain\n- **27 July 2025**: 26.0 mm rainfall, 70% chance of rain\n- **28 July 2025**: 10.0 mm rainfall, 60% chance of rain\n- **29 July 2025**: 9.4 mm rainfall, 40% chance of rain\n- **30 July 2025**: 11.5 mm rainfall, 40% chance of rain\n\nYou are likely to get good rainfall in the next few days.",
+        "timestamp": {
+          "$date": "2025-07-26T03:53:39.813Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "फवारणी काय करावी",
+        "en": "What to spray",
+        "ans":"translation is correct!",
+        "ans1":"call 3 tools, disease pest (should include historical), farmer activity, spray condition",
+        "timestamp": {
+          "$date": "2025-07-26T03:55:09.298Z"
+        },
+        "standalone_question": "What kind of treatment should be applied?",
+        "standalone_en": "What kind of treatment should be applied?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "favarani kay karavi"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉट नंबर 1 साठी (तिसगांव, दिंडोरी, नाशिक) फवारणीसाठी कोणतीही शिफारस नाही. तुम्हाला सध्या फवारणीची आवश्यकता नाही.",
+        "en": "There is no recommendation for spraying for your plot number 1 (Tisgaon, Dindori, Nashik). You don't need spraying right now.",
+        "timestamp": {
+          "$date": "2025-07-26T03:55:14.272Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "? ",
+        "en": "? ",
+        "timestamp": {
+          "$date": "2025-07-26T03:55:47.308Z"
+        },
+        "standalone_question": "What type of spraying should be done?",
+        "standalone_en": "What type of spraying should be done?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉट नंबर 1 साठी (तिसगांव, दिंडोरी, नाशिक) फवारणीसाठी कोणतीही शिफारस नाही. सध्या तुम्हाला फवारणीची आवश्यकता नाही.",
+        "en": "There is no recommendation for spraying for your plot number 1 (Tisgaon, Dindori, Nashik). Right now, you don't need spraying.",
+        "timestamp": {
+          "$date": "2025-07-26T03:55:54.761Z"
+        }
+      }
+    ],
+    "farmer_id": "yogeshvishavnathshirsath",
+    "farmer_plot_ids": [
+      "plotno1530"
+    ],
+    "conversation_id": "6884513991b285c244a0c8e8",
+    "_id": "6884513991b285c244a0c8e8",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-26T04:00:47.312000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-07-26T03:53:31.054000+00:00"
+  }
+]

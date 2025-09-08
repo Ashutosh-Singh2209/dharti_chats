@@ -1,0 +1,131 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Sulfur need to graps ",
+        "en": "Sulfur need to graps ",
+        "timestamp": {
+          "$date": "2025-02-15T14:37:51.084Z"
+        },
+        "standalone_question": "What does sulfur need to grasp?",
+        "standalone_en": "What does sulfur need to grasp?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For your grape crop in the \"Jadhav Super\" plot during the Berry Development stage (week 6), the sulfur requirements are as follows:\n\n- **Sulfate of Potash**: 5.5 kg/acre\n- **Magnesium Sulphate**: 2.5 kg/acre\n\nYou can apply these fertilizers to meet the sulfur needs of your grapes.",
+        "en": "For your grape crop in the \"Jadhav Super\" plot during the Berry Development stage (week 6), the sulfur requirements are as follows:\n\n- **Sulfate of Potash**: 5.5 kg/acre\n- **Magnesium Sulphate**: 2.5 kg/acre\n\nYou can apply these fertilizers to meet the sulfur needs of your grapes.",
+        "timestamp": {
+          "$date": "2025-02-15T14:37:57.113Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "In how much quantity of sulphur grapes need ",
+        "en": "In how much quantity of sulphur grapes need ",
+        "timestamp": {
+          "$date": "2025-02-15T14:40:24.923Z"
+        },
+        "standalone_question": "What is the quantity of sulfur that grapes need?",
+        "standalone_en": "What is the quantity of sulfur that grapes need?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For your grape crop in the \"Jadhav Super\" plot, the recommended quantity of sulfur is:\n\n- **Sulfate of Potash**: 5.5 kg per acre\n- **Magnesium Sulphate**: 2.5 kg per acre\n\nYou can apply these quantities to meet the sulfur needs of your grapes during the Berry Development stage.",
+        "en": "For your grape crop in the \"Jadhav Super\" plot, the recommended quantity of sulfur is:\n\n- **Sulfate of Potash**: 5.5 kg per acre\n- **Magnesium Sulphate**: 2.5 kg per acre\n\nYou can apply these quantities to meet the sulfur needs of your grapes during the Berry Development stage.",
+        "timestamp": {
+          "$date": "2025-02-15T14:40:29.215Z"
+        }
+      }
+    ],
+    "farmer_id": "ravindraramchandrapawar",
+    "farmer_plot_ids": [
+      "jadhavsuper"
+    ],
+    "conversation_id": "67b0a6bee319f3e0b23da44c",
+    "_id": "67b0a6bee319f3e0b23da44c",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-02-15T14:45:24.930000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-02-15T14:37:51.084000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "fertigatiob for rose",
+        "en": "fertigatiob for rose",
+        "timestamp": {
+          "$date": "2025-02-15T02:33:56.804Z"
+        },
+        "standalone_question": "What is the fertilization process for roses?",
+        "standalone_en": "What is the fertilization process for roses?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems that you are looking for a fertigation schedule for roses. However, your current plots are dedicated to pomegranate crops. If you have a specific plot for roses or if you need assistance with the pomegranate fertigation schedule, please let me know!",
+        "en": "It seems that you are looking for a fertigation schedule for roses. However, your current plots are dedicated to pomegranate crops. If you have a specific plot for roses or if you need assistance with the pomegranate fertigation schedule, please let me know!",
+        "timestamp": {
+          "$date": "2025-02-15T02:34:01.083Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "yes",
+        "en": "yes",
+        "timestamp": {
+          "$date": "2025-02-15T02:34:18.869Z"
+        },
+        "standalone_question": "Are you looking for a fertigation schedule specifically for roses?",
+        "standalone_en": "Are you looking for a fertigation schedule specifically for roses?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: What should I do if I can't find the fertigation schedule after selecting the fertigation tab?\nA: If you don't see the fertigation schedule, you'll need to create a report first. Would you like assistance in creating a report? Do you have any soil, leaf, or petiole test data available? If not, we can generate a basic schedule for you using general crop and regional data.",
+            "Q: Can I generate a fertigation schedule without soil, leaf, or petiole data?\nA: Yes, you can generate a basic fertigation schedule without specific soil, leaf, or petiole data. Fyllo will create a general schedule based on typical crop needs and soil types for your region.",
+            "Q: How do I generate a fertigation schedule in the app?\nA: To generate a fertigation schedule, follow these steps:\n\n    1. Go to \"My Farm\"\n    2. Select \"Fertigation\"\n    3. Tap \"Create Report\"\n    4. Fill in all the required details\n    5. Save the report\n    If you have soil, leaf, or petiole test data, you can input this for a more customized schedule. Otherwise, we can generate a basic schedule using general crop and regional data.",
+            "Q: Where can I find the fertigation schedule in the Fyllo app?\nA: To access the fertigation schedule:\n    1. Open the Fyllo app\n    2. Select \"My Farm\" at the bottom\n    3. Tap on the \"Fertigation\" option\n   You'll find the fertigation schedule there, including details about the required fertilizer applications."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the fertigation schedule for your pomegranate crops in the plots \"Jeevan Pomo\" and \"Jeevan Pomo 1\":\n\n### Plot: Jeevan Pomo\n- **Current Date:** February 15, 2025\n- **Active Stage:** Growth Stage 3 (Started on December 23, 2024)\n- **Current Week:** 8\n- **Current Week Schedule:**\n  - **Fertigation Method:** Foliar\n    - **Fertilizer:** 19-19-19\n    - **Amount:** 2 kg/acre\n    - **Note:** The concentration of micro-nutrient fertilizers for foliar spray should not exceed 1% (e.g., 5 kg in 500 liters of water per acre).\n\n- **Next Schedule (Week 9):**\n  - **Fertigation Method:** \n    - **Combination 1:** \n      - 24-24-0: 2 kg/acre\n      - Magnesium Sulphate: 1 kg/acre\n    - **Combination 2:** \n      - Urea: 1 kg/acre\n      - Phosphoric acid 80%: 680 gm/acre\n      - Magnesium Sulphate: 1 kg/acre\n    - **Note:** Phosphoric acid should be applied separately, 15-20 minutes before applying other fertilizers.\n  - **Start Date:** June 24, 2025\n\n### Plot: Jeevan Pomo 1\n- **Current Date:** February 15, 2025\n- **Active Stage:** Defoliation (Started on February 7, 2025)\n- **Current Week:** 2\n- **Current Week Schedule:** No fertigation needed.\n\n- **Next Schedule (Week 1 of Bud Initiation):**\n  - **Soil Application Method:**\n    - **Combination 1:** \n      - 10-26-26: 53.5 kg/acre\n      - Urea: 32.5 kg/acre\n      - Muriate of Potash: 7.5 kg/acre\n    - **Combination 2:** \n      - 12-32-16: 43 kg/acre\n      - Urea: 33 kg/acre\n      - Muriate of Potash: 19.5 kg/acre\n    - **Combination 3:** \n      - Urea: 44 kg/acre\n      - 18-46-0 (Diammonium phosphate): 30.5 kg/acre\n      - Muriate of Potash: 31 kg/acre\n  - **Fertigation Method:**\n    - **Combination 1:** \n      - 12-61-0: 2 kg/acre\n    - **Combination 2:** \n      - 24-24-0: 1.5 kg/acre\n      - Phosphoric acid 80%: 1.5 kg/acre\n    - **Combination 3:** \n      - Urea: 890 gm/acre\n      - Phosphoric acid 80%: 2 kg/acre\n    - **Note:** Phosphoric acid should be applied separately, 15-20 minutes before applying other fertilizers.\n  - **Start Date:** February 24, 2025\n\nFeel free to ask if you need more information or assistance!",
+        "en": "Here is the fertigation schedule for your pomegranate crops in the plots \"Jeevan Pomo\" and \"Jeevan Pomo 1\":\n\n### Plot: Jeevan Pomo\n- **Current Date:** February 15, 2025\n- **Active Stage:** Growth Stage 3 (Started on December 23, 2024)\n- **Current Week:** 8\n- **Current Week Schedule:**\n  - **Fertigation Method:** Foliar\n    - **Fertilizer:** 19-19-19\n    - **Amount:** 2 kg/acre\n    - **Note:** The concentration of micro-nutrient fertilizers for foliar spray should not exceed 1% (e.g., 5 kg in 500 liters of water per acre).\n\n- **Next Schedule (Week 9):**\n  - **Fertigation Method:** \n    - **Combination 1:** \n      - 24-24-0: 2 kg/acre\n      - Magnesium Sulphate: 1 kg/acre\n    - **Combination 2:** \n      - Urea: 1 kg/acre\n      - Phosphoric acid 80%: 680 gm/acre\n      - Magnesium Sulphate: 1 kg/acre\n    - **Note:** Phosphoric acid should be applied separately, 15-20 minutes before applying other fertilizers.\n  - **Start Date:** June 24, 2025\n\n### Plot: Jeevan Pomo 1\n- **Current Date:** February 15, 2025\n- **Active Stage:** Defoliation (Started on February 7, 2025)\n- **Current Week:** 2\n- **Current Week Schedule:** No fertigation needed.\n\n- **Next Schedule (Week 1 of Bud Initiation):**\n  - **Soil Application Method:**\n    - **Combination 1:** \n      - 10-26-26: 53.5 kg/acre\n      - Urea: 32.5 kg/acre\n      - Muriate of Potash: 7.5 kg/acre\n    - **Combination 2:** \n      - 12-32-16: 43 kg/acre\n      - Urea: 33 kg/acre\n      - Muriate of Potash: 19.5 kg/acre\n    - **Combination 3:** \n      - Urea: 44 kg/acre\n      - 18-46-0 (Diammonium phosphate): 30.5 kg/acre\n      - Muriate of Potash: 31 kg/acre\n  - **Fertigation Method:**\n    - **Combination 1:** \n      - 12-61-0: 2 kg/acre\n    - **Combination 2:** \n      - 24-24-0: 1.5 kg/acre\n      - Phosphoric acid 80%: 1.5 kg/acre\n    - **Combination 3:** \n      - Urea: 890 gm/acre\n      - Phosphoric acid 80%: 2 kg/acre\n    - **Note:** Phosphoric acid should be applied separately, 15-20 minutes before applying other fertilizers.\n  - **Start Date:** February 24, 2025\n\nFeel free to ask if you need more information or assistance!",
+        "timestamp": {
+          "$date": "2025-02-15T02:34:35.235Z"
+        }
+      }
+    ],
+    "farmer_id": "devarajutv",
+    "farmer_plot_ids": [
+      "jeevanpomo",
+      "jeevanpomo1"
+    ],
+    "conversation_id": "67affd14f50260c32821d03a",
+    "_id": "67affd14f50260c32821d03a",
+    "language": "ka",
+    "expiry": {
+      "$date": "2025-02-15T02:39:18.877000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-02-15T02:33:56.804000+00:00"
+  }
+]

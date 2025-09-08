@@ -1,0 +1,792 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "काय कमी आहे<user uploaded image for analysis at 'peruplot377/2025-02-20-1740057999414.jpg'>",
+        "en": "What's missing<user uploaded image for analysis at 'peruplot377/2025-02-20-1740057999414.jpg'>",
+        "timestamp": {
+          "$date": "2025-02-20T13:27:04.504Z"
+        },
+        "standalone_question": "What is lacking?",
+        "standalone_en": "What is lacking?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kay kami aahe<user uploaded image for analysis at 'peruplot377/2025-02-20-1740057999414.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या ग्वावा झाडांमध्ये काही समस्या दिसत आहेत. पानांचा रंग हलका दिसत आहे, ज्यामुळे पोषणाची कमतरता किंवा ताण याची शक्यता आहे.\n\nसमस्या सोडवण्यासाठी, खालील स्प्रे वापरण्याची शिफारस केली जाते:\n\n1. **Methyl Eugenol फळ माशी ट्रॅप (15/हेक्टर)**\n2. **Flupyradifurone 17.09% SL** (1.5 मि.ली.)\n3. **Cymoxanil 8% + Mancozeb 64% WP** (0 ग्रॅम)\n4. **Ametoctradin + Dimethomorph** (1.5 मि.ली.)\n5. **Acetamiprid 20% SP** (0.5 ग्रॅम)\n\nया स्प्रेयांनी तुमच्या झाडांवर होणाऱ्या कीड आणि रोगांचे व्यवस्थापन करण्यात मदत होईल. सर्वोत्तम परिणामांसाठी शिफारसी केलेल्या अनुप्रयोग दर आणि वेळा पाळा.",
+        "en": "You see some problems with your guava trees. The leaf color looks light, which can lead to nutritional deficiencies or stress.\n\nTo solve the problem, it is recommended to use the following spray:\n\n1. **Methyl Eugenol Fruit Fly Trap (15/ha)**\n2. **Flupyradifurone 17.09% SL** (1.5 ml.)\n3. **Cymoxanil 8% + Mancozeb 64% WP** (0 g)\n4. **Ametoctradin + Dimethomorph** (1.5 ml.)\n5. **Acetamiprid 20% SP** (0.5 g)\n\nThese sprays will help manage pests and diseases on your trees. Follow the recommended application rates and times for best results.",
+        "timestamp": {
+          "$date": "2025-02-20T13:27:23.360Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Zn कमी आहे काय",
+        "en": "Is Zn less",
+        "timestamp": {
+          "$date": "2025-02-20T13:30:05.255Z"
+        },
+        "standalone_question": "Is there a deficiency of zinc?",
+        "standalone_en": "Is there a deficiency of zinc?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या ग्वावा झाडांमध्ये पानांचा रंग हलका दिसत आहे, ज्यामुळे पोषणाची कमतरता किंवा ताण याची शक्यता आहे. हे सामान्यतः नायट्रोजन किंवा लोहाच्या कमतरतेचे संकेत असू शकते.\n\nझिंकच्या कमतरतेसाठी, तुम्हाला झिंक समाविष्ट करणारे खत वापरण्याची शिफारस केली जाते. झिंकची कमतरता असल्यास, झिंक सल्फेट किंवा झिंक ऑक्साईड वापरून झाडांना पोषण देणे उपयुक्त ठरू शकते.\n\nतुमच्या झाडांवर कोणतेही कीड किंवा रोग असल्यास, कृपया त्यांचे निरीक्षण करा आणि त्यानुसार उपाययोजना करा.",
+        "en": "The leaves in your guava plants look lighter in color, which can lead to nutritional deficiencies or stress. This can usually be a sign of nitrogen or iron deficiency.\n\nFor a zinc deficiency, it's recommended that you use fertilizer that contains zinc. If zinc is deficient, it may be helpful to nourish the plants using zinc sulfate or zinc oxide.\n\nIf there are any pests or diseases on your trees, please monitor them and take measures accordingly.",
+        "timestamp": {
+          "$date": "2025-02-20T13:30:20.862Z"
+        }
+      }
+    ],
+    "farmer_id": "sagaramrutsalunkhe",
+    "farmer_plot_ids": [
+      "peruplot377"
+    ],
+    "conversation_id": "67b72da8c5acaed5b168e51a",
+    "_id": "67b72da8c5acaed5b168e51a",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-02-20T13:35:05.263000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-02-20T13:27:04.504000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "કયો રોગ છે ",
+        "en": "What is the disease ",
+        "timestamp": {
+          "$date": "2025-02-20T10:53:07.949Z"
+        },
+        "standalone_question": "What disease is it?",
+        "standalone_en": "What disease is it?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kayo rog che "
+      },
+      {
+        "role": "assistant",
+        "content": "ફાયલો વિવિધ રોગોની આગાહી કરે છે, જેમ કે:\n\n- અલ્ટરનેરિયા\n- બેક્ટેરિયલ બ્લાઇટ\n- એન્થ્રાક્નોઝ\n- ફ્યુસેરિયમ વિલ્ટ\n- પાઉડરી મિલ્ડ્યુ\n- લેટ બ્લાઇટ\n- રુસ્ટ\n- અને વધુ.\n\nજો તમને કોઈ ખાસ રોગ વિશે માહિતી જોઈએ છે, તો કૃપા કરીને જણાવો.",
+        "en": "Phylo predicts a variety of diseases, such as:\n\n- Alternaria\n- Bacterial blight\n- Anthracnose\n- Fusarium wilt\n- Powdery Mildew\n- Late Blight\n- Rust\n- And more.\n\nIf you would like information about a particular disease, please let us know.",
+        "timestamp": {
+          "$date": "2025-02-20T10:53:12.843Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "What",
+        "en": "What",
+        "timestamp": {
+          "$date": "2025-02-20T10:54:19.348Z"
+        },
+        "standalone_question": "What disease are you referring to?",
+        "standalone_en": "What disease are you referring to?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Could you please clarify your question or provide more details about what you would like to know? I'm here to help with any agricultural-related inquiries!",
+        "en": "Could you please clarify your question or provide more details about what you would like to know? I'm here to help with any agricultural-related inquiries!",
+        "timestamp": {
+          "$date": "2025-02-20T10:54:23.314Z"
+        }
+      }
+    ],
+    "farmer_id": "altafhusenishakbhaiagariya",
+    "farmer_plot_ids": [
+      "plot1pomo"
+    ],
+    "conversation_id": "67b70993ac045ae70a51f45b",
+    "_id": "67b70993ac045ae70a51f45b",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-02-20T10:59:19.356000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-02-20T10:53:07.949000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "3.88 ವಿಪಿಡಿ ಅಂದ್ರೆ ಏನು ",
+        "en": "3.88 What is a VPD ",
+        "timestamp": {
+          "$date": "2025-02-20T08:52:44.890Z"
+        },
+        "standalone_question": "What does 3.88 VIPID mean?",
+        "standalone_en": "What does 3.88 VIPID mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "3.88 vpd andre anu "
+      },
+      {
+        "role": "assistant",
+        "content": "3.88 VPD (Vapor Pressure Deficit) ಅಂದ್ರೆ, ಇದು ವಾತಾವರಣದಲ್ಲಿ ನೀರಿನ ಆವೇಶದ ಕೊರತೆಯನ್ನು ಸೂಚಿಸುತ್ತದೆ. VPD ಹೆಚ್ಚು ಇದ್ದಾಗ, ಗಿಡಗಳು ಹೆಚ್ಚು ನೀರನ್ನು ಹೀರುವ ಸಾಧ್ಯತೆ ಇರುತ್ತದೆ, ಏಕೆಂದರೆ ಗಿಡಗಳ ಹೂವಿನ ಕೊಳವೆಗಳು ತೆರೆದಿರುವಾಗ, ಗಿಡಗಳು ಹೆಚ್ಚು ನೀರನ್ನು ಶೋಷಿಸುತ್ತವೆ. \n\n3.88 VPD ಅಂದರೆ, ಇದು ಉತ್ತಮ ಶ್ರೇಣಿಯಲ್ಲಿದೆ ಮತ್ತು ನಿಮ್ಮ ಗಿಡಗಳಿಗೆ ಫರ್ಟಿಗೇಶನ್ ಅಥವಾ ನೀರಿನ ಅಗತ್ಯವಿದೆ ಎಂದು ಸೂಚಿಸುತ್ತದೆ. VPD 2-9 ನಡುವಿನ ಮೌಲ್ಯಗಳಲ್ಲಿ, ಗಿಡಗಳು ಉತ್ತಮವಾಗಿ ಬೆಳೆಯುತ್ತವೆ.",
+        "en": "3.88 VPD (Vapor Pressure Deficit) refers to the lack of charge of water in the atmosphere. When the VPD is high, plants are more likely to absorb more water, because when the flowering tubes of the plants are open, the plants exploit more water. \n\n3.88 VPD means that it is in good range and indicates that your plants need fertigation or water. At values between VPD 2-9, plants grow well.",
+        "timestamp": {
+          "$date": "2025-02-20T08:52:50.040Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "3.88vpd ಇದ್ರೆ ಗಿಡಗಳು ಹುಲುಸಾಗಿ ಬೆಳೆಯಲು ಸಾಧ್ಯವೇ...",
+        "en": "3.88VPD Is it possible for plants to flourish?",
+        "timestamp": {
+          "$date": "2025-02-20T08:54:49.653Z"
+        },
+        "standalone_question": "Is it possible for plants to grow vigorously with a VPD of 3.88?",
+        "standalone_en": "Is it possible for plants to grow vigorously with a VPD of 3.88?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is Delta T & VPD?\nA: Delta T is the difference between dry bulb and wet bulb temperature values. When this value is between 2-9, the stomatal cells on plant leaves are open, increasing the effectiveness of foliar applications.\n   VPD (Vapor Pressure Deficit) represents the right time for fertigation when active absorption by a plant is highest."
+          ]
+        },
+        "content_transliterated": "3.88vpd idre gidas hulusagi belealu sadhyave..."
+      },
+      {
+        "role": "assistant",
+        "content": "ಹೌದು, 3.88 VPD (Vapor Pressure Deficit) ಇದ್ದರೆ, ಗಿಡಗಳು ಹುಲುಸಾಗಿ ಬೆಳೆಯಲು ಉತ್ತಮ ಪರಿಸ್ಥಿತಿ ಇದೆ. VPD 2-9 ನಡುವಿನ ಮೌಲ್ಯಗಳಲ್ಲಿ, ಗಿಡಗಳ ಹೂವಿನ ಕೊಳವೆಗಳು ತೆರೆದಿರುವಾಗ, ಗಿಡಗಳು ಹೆಚ್ಚು ನೀರನ್ನು ಶೋಷಿಸುತ್ತವೆ ಮತ್ತು ಬೆಳೆಯಲು ಉತ್ತಮವಾಗಿ ಸಹಾಯ ಮಾಡುತ್ತದೆ. \n\nಈ ಪರಿಸ್ಥಿತಿಯಲ್ಲಿ, ನೀವು ಫರ್ಟಿಗೇಶನ್ ಅಥವಾ ನೀರಿನ ಅಗತ್ಯವನ್ನು ಪೂರೈಸಿದರೆ, ಗಿಡಗಳು ಉತ್ತಮ ಬೆಳವಣಿಗೆಗೆ ಸಾಧ್ಯವಾಗುತ್ತದೆ.",
+        "en": "Yes, if there is a VPD (Vapor Pressure Deficit) of 3.88, there is a good condition for the plants to flourish. At values between VPD 2-9, when the flowering tubes of the plants are open, the plants exploit more water and help them grow better. \n\nIn this situation, if you meet the need for fertigation or water, the plants will be able to grow better.",
+        "timestamp": {
+          "$date": "2025-02-20T08:54:54.176Z"
+        }
+      }
+    ],
+    "farmer_id": "yallavvamallappameti",
+    "farmer_plot_ids": [
+      "plotno2367"
+    ],
+    "conversation_id": "67b6ed5cc5acaed5b168e519",
+    "_id": "67b6ed5cc5acaed5b168e519",
+    "language": "ka",
+    "expiry": {
+      "$date": "2025-02-20T08:59:49.663000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-02-20T08:52:44.890000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the name of my device",
+        "en": "What is the name of my device",
+        "timestamp": {
+          "$date": "2025-02-20T05:10:12.175Z"
+        },
+        "standalone_question": "What is the name of my device?",
+        "standalone_en": "What is the name of my device?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Your device is called Kairo (formerly known as the Weather Unit).",
+        "en": "Your device is called Kairo (formerly known as the Weather Unit).",
+        "timestamp": {
+          "$date": "2025-02-20T05:10:15.689Z"
+        }
+      }
+    ],
+    "farmer_id": "cirbhisar",
+    "farmer_plot_ids": [
+      "animalplot"
+    ],
+    "conversation_id": "67b6b933c5acaed5b168e518",
+    "_id": "67b6b933c5acaed5b168e518",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-02-20T05:15:12.182000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-02-20T05:10:12.175000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Keli sathi butting stage la konti fawarni aani fertilizers dyave <user uploaded image for analysis at 'watermelonplot746/2025-02-20-1740023798733.jpg'>",
+        "en": "What sprays and fertilizers to give to the butting stage for Kelly <user uploaded image for analysis at 'watermelonplot746/2025-02-20-17400233798733.jpg'>",
+        "timestamp": {
+          "$date": "2025-02-20T03:57:00.912Z"
+        },
+        "standalone_question": "What types of fertilizers and treatments should be applied during the budding stage of watermelon?",
+        "standalone_en": "What types of fertilizers and treatments should be applied during the budding stage of watermelon?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"Watermelon Plot\" मध्ये सध्या \"फळ परिपक्वता\" (Fruit Maturity) स्टेज आहे, जी 6 फेब्रुवारी 2025 पासून सुरू झाली आहे. सध्या तुम्ही 2 व्या आठवड्यात आहात.\n\n### फर्टिगेशन शेड्यूल:\n1. **पहिला दिवस (20 फेब्रुवारी 2025)**:\n   - **फर्टिलायझर्स**:\n     - **Calcium Nitrate**: 3 किलोग्राम/एकर\n     - **Sulfate of Potash**: 3 किलोग्राम/एकर\n   - **टीप**: Calcium nitrate इतर फर्टिलायझर्सच्या 15-20 मिनिटांनंतर स्वतंत्रपणे लागू करावा.\n\n2. **चौथा दिवस (23 फेब्रुवारी 2025)**:\n   - **फर्टिलायझर्स**:\n     - **Sulfate of Potash**: 3 किलोग्राम/एकर\n   - **टीप**: Calcium nitrate इतर फर्टिलायझर्सच्या 15-20 मिनिटांनंतर स्वतंत्रपणे लागू करावा.\n\nतुमच्या पिकाच्या आरोग्यासाठी नियमितपणे निरीक्षण करणे आणि योग्य व्यवस्थापन पद्धतींचा अवलंब करणे महत्त्वाचे आहे.",
+        "en": "Your \"Watermelon Plot\" currently has the \"Fruit Maturity\" stage, which started on February 6, 2025. You're in week 2 right now.\n\n### Fertigation Schedule:\n1. **First Day (20 February 2025)**:\n   - **Fertilizers**:\n     - **Calcium Nitrate**: 3 kg/acre\n     - **Sulfate of Potash**: 3 kg/acre\n   * **Note**: Calcium nitrate should be applied separately after 15-20 minutes of other fertilizers.\n\n2. **Day 4 (23 February 2025)**:\n   - **Fertilizers**:\n     - **Sulfate of Potash**: 3 kg/acre\n   * **Note**: Calcium nitrate should be applied separately after 15-20 minutes of other fertilizers.\n\nIt is important to monitor regularly and adopt proper management practices for the health of your crop.",
+        "timestamp": {
+          "$date": "2025-02-20T03:57:23.269Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Keli pika madhe booting stage la konti khate dyavit",
+        "en": "What accounts to give to the booting stage in Kelly Pica",
+        "timestamp": {
+          "$date": "2025-02-20T03:59:21.936Z"
+        },
+        "standalone_question": "What fertilizers should be applied during the booting stage of the crop?",
+        "standalone_en": "What fertilizers should be applied during the booting stage of the crop?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed",
+            "Q: What are the important diseases occur during seedling stage and control measures?\nA: Collar rot, Damping off, Seedling blight diseases infect during seedling stage.\nDrench/spray seedling with: Carbendazim @ 2.5g/ltr"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"Watermelon Plot\" मध्ये \"फळ परिपक्वता\" (Fruit Maturity) स्टेजमध्ये, तुम्हाला पुढील खते द्यावी लागतील:\n\n### फर्टिगेशन शेड्यूल:\n1. **पहिला दिवस (20 फेब्रुवारी 2025)**:\n   - **खते**:\n     - **Calcium Nitrate**: 3 किलोग्राम/एकर\n     - **Sulfate of Potash**: 3 किलोग्राम/एकर\n   - **टीप**: Calcium nitrate इतर फर्टिलायझर्सच्या 15-20 मिनिटांनंतर स्वतंत्रपणे लागू करावा.\n\n2. **चौथा दिवस (23 फेब्रुवारी 2025)**:\n   - **खते**:\n     - **Sulfate of Potash**: 3 किलोग्राम/एकर\n\nया खते तुमच्या पिकाच्या आरोग्यासाठी महत्त्वाची आहेत. नियमितपणे पिकाचे निरीक्षण करणे आणि योग्य व्यवस्थापन पद्धतींचा अवलंब करणे आवश्यक आहे.",
+        "en": "In your \"Watermelon Plot\" \"Fruit Maturity\" stage, you will need to provide the following fertilizers:\n\n### Fertigation Schedule:\n1. **First Day (20 February 2025)**:\n   - **Fertilizers**:\n     - **Calcium Nitrate**: 3 kg/acre\n     - **Sulfate of Potash**: 3 kg/acre\n   * **Note**: Calcium nitrate should be applied separately after 15-20 minutes of other fertilizers.\n\n2. **Day 4 (23 February 2025)**:\n   - **Fertilizers**:\n     - **Sulfate of Potash**: 3 kg/acre\n\nThese fertilizers are important for the health of your crop. It is important to monitor the crop regularly and adopt proper management practices.",
+        "timestamp": {
+          "$date": "2025-02-20T03:59:29.894Z"
+        }
+      }
+    ],
+    "farmer_id": "shashikantanilmali",
+    "farmer_plot_ids": [
+      "watermelonplot746"
+    ],
+    "conversation_id": "67b6a80cf50260c32821d04f",
+    "_id": "67b6a80cf50260c32821d04f",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-02-20T04:04:21.945000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-02-20T03:57:00.912000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Keli sathi butting stage la konti fawarni aani fertilizers dyave <user uploaded image for analysis at 'watermelonplot746/2025-02-20-1740023798733.jpg'>",
+        "en": "What sprays and fertilizers to give to the butting stage for Kelly <user uploaded image for analysis at 'watermelonplot746/2025-02-20-17400233798733.jpg'>",
+        "timestamp": {
+          "$date": "2025-02-20T03:57:00.912Z"
+        },
+        "standalone_question": "What types of fertilizers and treatments should be applied during the budding stage of watermelon?",
+        "standalone_en": "What types of fertilizers and treatments should be applied during the budding stage of watermelon?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"Watermelon Plot\" मध्ये सध्या \"फळ परिपक्वता\" (Fruit Maturity) स्टेज आहे, जी 6 फेब्रुवारी 2025 पासून सुरू झाली आहे. सध्या तुम्ही 2 व्या आठवड्यात आहात.\n\n### फर्टिगेशन शेड्यूल:\n1. **पहिला दिवस (20 फेब्रुवारी 2025)**:\n   - **फर्टिलायझर्स**:\n     - **Calcium Nitrate**: 3 किलोग्राम/एकर\n     - **Sulfate of Potash**: 3 किलोग्राम/एकर\n   - **टीप**: Calcium nitrate इतर फर्टिलायझर्सच्या 15-20 मिनिटांनंतर स्वतंत्रपणे लागू करावा.\n\n2. **चौथा दिवस (23 फेब्रुवारी 2025)**:\n   - **फर्टिलायझर्स**:\n     - **Sulfate of Potash**: 3 किलोग्राम/एकर\n   - **टीप**: Calcium nitrate इतर फर्टिलायझर्सच्या 15-20 मिनिटांनंतर स्वतंत्रपणे लागू करावा.\n\nतुमच्या पिकाच्या आरोग्यासाठी नियमितपणे निरीक्षण करणे आणि योग्य व्यवस्थापन पद्धतींचा अवलंब करणे महत्त्वाचे आहे.",
+        "en": "Your \"Watermelon Plot\" currently has the \"Fruit Maturity\" stage, which started on February 6, 2025. You're in week 2 right now.\n\n### Fertigation Schedule:\n1. **First Day (20 February 2025)**:\n   - **Fertilizers**:\n     - **Calcium Nitrate**: 3 kg/acre\n     - **Sulfate of Potash**: 3 kg/acre\n   * **Note**: Calcium nitrate should be applied separately after 15-20 minutes of other fertilizers.\n\n2. **Day 4 (23 February 2025)**:\n   - **Fertilizers**:\n     - **Sulfate of Potash**: 3 kg/acre\n   * **Note**: Calcium nitrate should be applied separately after 15-20 minutes of other fertilizers.\n\nIt is important to monitor regularly and adopt proper management practices for the health of your crop.",
+        "timestamp": {
+          "$date": "2025-02-20T03:57:23.269Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Keli pika madhe booting stage la konti khate dyavit",
+        "en": "What accounts to give to the booting stage in Kelly Pica",
+        "timestamp": {
+          "$date": "2025-02-20T03:59:21.936Z"
+        },
+        "standalone_question": "What fertilizers should be applied during the booting stage of the crop?",
+        "standalone_en": "What fertilizers should be applied during the booting stage of the crop?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed",
+            "Q: What are the important diseases occur during seedling stage and control measures?\nA: Collar rot, Damping off, Seedling blight diseases infect during seedling stage.\nDrench/spray seedling with: Carbendazim @ 2.5g/ltr"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"Watermelon Plot\" मध्ये \"फळ परिपक्वता\" (Fruit Maturity) स्टेजमध्ये, तुम्हाला पुढील खते द्यावी लागतील:\n\n### फर्टिगेशन शेड्यूल:\n1. **पहिला दिवस (20 फेब्रुवारी 2025)**:\n   - **खते**:\n     - **Calcium Nitrate**: 3 किलोग्राम/एकर\n     - **Sulfate of Potash**: 3 किलोग्राम/एकर\n   - **टीप**: Calcium nitrate इतर फर्टिलायझर्सच्या 15-20 मिनिटांनंतर स्वतंत्रपणे लागू करावा.\n\n2. **चौथा दिवस (23 फेब्रुवारी 2025)**:\n   - **खते**:\n     - **Sulfate of Potash**: 3 किलोग्राम/एकर\n\nया खते तुमच्या पिकाच्या आरोग्यासाठी महत्त्वाची आहेत. नियमितपणे पिकाचे निरीक्षण करणे आणि योग्य व्यवस्थापन पद्धतींचा अवलंब करणे आवश्यक आहे.",
+        "en": "In your \"Watermelon Plot\" \"Fruit Maturity\" stage, you will need to provide the following fertilizers:\n\n### Fertigation Schedule:\n1. **First Day (20 February 2025)**:\n   - **Fertilizers**:\n     - **Calcium Nitrate**: 3 kg/acre\n     - **Sulfate of Potash**: 3 kg/acre\n   * **Note**: Calcium nitrate should be applied separately after 15-20 minutes of other fertilizers.\n\n2. **Day 4 (23 February 2025)**:\n   - **Fertilizers**:\n     - **Sulfate of Potash**: 3 kg/acre\n\nThese fertilizers are important for the health of your crop. It is important to monitor the crop regularly and adopt proper management practices.",
+        "timestamp": {
+          "$date": "2025-02-20T03:59:29.894Z"
+        }
+      }
+    ],
+    "farmer_id": "shashikantanilmali",
+    "farmer_plot_ids": [
+      "watermelonplot746"
+    ],
+    "conversation_id": "67b6a80cf50260c32821d04f",
+    "_id": "67b6a80cf50260c32821d04f",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-02-20T04:04:21.945000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-02-20T03:57:00.912000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पुढील 20 फेब्रुवारी ते 15 मार्च पावसाची शक्यता आहे काय",
+        "en": "Is there a chance of rain from February 20 to March 15?",
+        "timestamp": {
+          "$date": "2025-02-20T03:39:13.779Z"
+        },
+        "standalone_question": "Is there a possibility of rain from February 20 to March 15?",
+        "standalone_en": "Is there a possibility of rain from February 20 to March 15?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pudhil 20 februvari te 15 march pavasachi shakyata aahe kay"
+      },
+      {
+        "role": "assistant",
+        "content": "20 फेब्रुवारी ते 15 मार्च 2025 दरम्यान पावसाची शक्यता नाही. सर्व दिवसांमध्ये पावसाची नोंद नाही आणि पावसाची शक्यता 0% आहे. \n\nतुमच्या SSN Plot साठी हवामानाची माहिती खालीलप्रमाणे आहे:\n\n- **20 फेब्रुवारी**: 0mm पाऊस\n- **21 फेब्रुवारी**: 0mm पाऊस\n- **22 फेब्रुवारी**: 0mm पाऊस\n- **23 फेब्रुवारी**: 0mm पाऊस\n- **24 फेब्रुवारी**: 0mm पाऊस\n- **25 फेब्रुवारी**: 0mm पाऊस\n- **26 फेब्रुवारी**: 0mm पाऊस\n- **27 फेब्रुवारी**: 0mm पाऊस\n- **28 फेब्रुवारी**: 0mm पाऊस\n- **1 मार्च**: 0mm पाऊस\n- **2 मार्च**: 0mm पाऊस\n- **3 मार्च**: 0mm पाऊस\n- **4 मार्च**: 0mm पाऊस\n\nतुम्हाला आणखी काही माहिती हवी का?",
+        "en": "There is no chance of rain between February 20 and March 15, 2025. No rain is recorded on all days and there is a 0% chance of rain. \n\nThe weather information for your SSN plot is as follows:\n\n- **February 20**: 0mm rain\n- **February 21**: 0mm rain\n- **February 22**: 0mm rain\n- **February 23**: 0mm rain\n- **February 24**: 0mm rain\n- **February 25**: 0mm rain\n- **February 26**: 0mm rain\n- **February 27**: 0mm rain\n- **February 28**: 0mm rain\n- **1 March**: 0mm rain\n- **2 March**: 0mm rain\n- **March 3**: 0mm rain\n- **4 March**: 0mm rain\n\nIs there anything else you need to know?",
+        "timestamp": {
+          "$date": "2025-02-20T03:39:22.455Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "एसएससी प्लॉटला कोणते पोषक अन्नद्रव्य द्यावे प्लॉट कटिंग चे 102 दिवस झालेले आहेत",
+        "en": "What nutrients to give to SSC plot Plot Cutting has been 102 days",
+        "timestamp": {
+          "$date": "2025-02-20T03:40:23.802Z"
+        },
+        "standalone_question": "What nutrients should be provided to the SSC plot, considering it has been 102 days since the plot cutting?",
+        "standalone_en": "What nutrients should be provided to the SSC plot, considering it has been 102 days since the plot cutting?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ssc plotala conte poshak annadravy dyave plot cutting che 102 divas jhalele ahet"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या SSN प्लॉटमध्ये सध्या \"बेरी विकास\" (Berry Development) चरण आहे, जो 14 जानेवारी 2025 पासून सुरू झाला आहे. सध्या तुम्ही 102 दिवसांच्या प्लॉट कटिंगच्या स्थितीत आहात, आणि तुम्हाला पुढील पोषक अन्नद्रव्यांची शिफारस केली जाते:\n\n### सध्याचा फर्टिगेशन शेड्यूल (सप्ताह 6):\n1. **फर्टिलायझर**:\n   - **19-19-19**: 5 किग्रॅ/एकर\n   - **साल्फेट ऑफ पोटाश**: 5.5 किग्रॅ/एकर\n   - **मॅग्नेशियम सल्फेट**: 2.5 किग्रॅ/एकर\n\n   किंवा\n\n   - **6-34-17**: 4 किग्रॅ/एकर\n   - **कॅल्शियम नायट्रेट**: 4.5 किग्रॅ/एकर\n   - **साल्फेट ऑफ पोटाश**: 6 किग्रॅ/एकर\n   - **मॅग्नेशियम सल्फेट**: 2.5 किग्रॅ/एकर\n\n   किंवा\n\n   - **कॅल्शियम नायट्रेट**: 6 किग्रॅ/एकर\n   - **फॉस्फोरिक अॅसिड 80%**: 2 किग्रॅ/एकर\n   - **साल्फेट ऑफ पोटाश**: 7.5 किग्रॅ/एकर\n   - **मॅग्नेशियम सल्फेट**: 2.5 किग्रॅ/एकर\n\n### विशेष सूचना:\n- **फॉस्फोरिक अॅसिड**: इतर फर्टिलायझरच्या अनुप्रयोगापूर्वी 15-20 मिनिटे स्वतंत्रपणे लागू करावा.\n- **कॅल्शियम नायट्रेट**: इतर फर्टिलायझरच्या अनुप्रयोगानंतर 15-20 मिनिटे स्वतंत्रपणे लागू करावा.\n\n### पुढील शेड्यूल:\n- **चरण**: \"सुरुवात वेरायझन\" (Beginning Veraison)\n- **सप्ताह 1**: 4 मार्च 2025 पासून सुरू होईल.\n\nतुम्हाला आणखी काही माहिती हवी का?",
+        "en": "Your SSN plot currently has a \"Berry Development\" phase, which began on January 14, 2025. You are currently in a 102-day plot cutting position, and you are recommended the following nutrients:\n\n### Current Fertigation Schedule (Week 6):\n1. **Fertilizer**:\n   - **19-19-19**: 5 kg/acre\n   - **Sulfate of Potash**: 5.5 kg/acre\n   - **Magnesium sulfate**: 2.5 kg/acre\n\nor\n\n- **6-34-17**: 4 kg/acre\n   - **Calcium nitrate**: 4.5 kg/acre\n   - **Sulfate of Potash**: 6 kg/acre\n   - **Magnesium sulfate**: 2.5 kg/acre\n\nor\n\n- **Calcium nitrate**: 6 kg/acre\n   - **Phosphoric acid 80%**: 2 kg/acre\n   - **Sulfate of Potash**: 7.5 kg/acre\n   - **Magnesium sulfate**: 2.5 kg/acre\n\n### Special notice:\n**Phosphoric acid**: Apply separately for 15-20 minutes before application with other fertilizers.\n**Calcium nitrate**: Apply separately for 15-20 minutes after application with other fertilizers.\n\n### Next schedule:\n- **Stage**: \"Beginning Veraison\" (Beginning Veraison)\n- **Week 1**: Starting March 4, 2025.\n\nIs there anything else you need to know?",
+        "timestamp": {
+          "$date": "2025-02-20T03:40:39.583Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "एसएससी मिलिबकचा प्रादुर्भाव होण्याची शक्यता आहे काय असल्यास काय उपाय करावे",
+        "en": "What measures to take if there is a possibility of an outbreak of SSC milibak",
+        "timestamp": {
+          "$date": "2025-02-20T03:44:54.471Z"
+        },
+        "standalone_question": "Is there a possibility of SSC mildew infestation, and if so, what measures should be taken?",
+        "standalone_en": "Is there a possibility of SSC mildew infestation, and if so, what measures should be taken?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ssc milibakcha pradurbhav honyachi shakyata aahe kay asalyas kay upay karave"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या SSN प्लॉटसाठी मिलिबगचा प्रादुर्भाव होण्याची माहिती उपलब्ध नाही. तथापि, मिलिबगच्या प्रादुर्भावाची शक्यता असू शकते, त्यामुळे तुम्हाला काही उपाययोजना करणे आवश्यक आहे.\n\n### उपाययोजना:\n1. **पेस्ट कंट्रोल**:\n   - **च्लोर्पायरीफॉस**: 5 मि.ली./लिटर पाण्यात मिसळून फवारणी करा.\n   - **थायमिथोक्सम**: 0.5 ग्रॅम/लिटर पाण्यात मिसळून फवारणी करा.\n\n2. **प्लॉटची नियमित तपासणी**:\n   - नियमितपणे प्लॉटची तपासणी करा आणि कोणत्याही लक्षणीय बदलांची नोंद ठेवा.\n\n3. **सुरक्षितता उपाय**:\n   - फवारणी करताना योग्य सुरक्षा साधने वापरा.\n\nतुम्हाला आणखी काही माहिती हवी का?",
+        "en": "There is no information available for your SSN plot to have an outbreak of milibug. However, there may be a possibility of an outbreak of milibug, so you need to take some measures.\n\n### Solutions:\n1. **Pest Control**:\n   * Chlorpyrifos**: Mix with 5 ml/l of water and spray.\n   **Thymethoxum**: Mix with 0.5 g/l of water and spray.\n\n2. **Regular inspection of plot**:\n   - Check the plot regularly and keep a record of any noticeable changes.\n\n3. **Safety measures**:\n   - Use proper safety equipment when spraying.\n\nIs there anything else you need to know?",
+        "timestamp": {
+          "$date": "2025-02-20T03:45:06.065Z"
+        }
+      }
+    ],
+    "farmer_id": "ramchandrabapuravsurwase",
+    "farmer_plot_ids": [
+      "ssnplot425"
+    ],
+    "conversation_id": "67b6a3e1c5acaed5b168e517",
+    "_id": "67b6a3e1c5acaed5b168e517",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-02-20T03:49:54.482000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-02-20T03:39:13.779000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पुढील 20 फेब्रुवारी ते 15 मार्च पावसाची शक्यता आहे काय",
+        "en": "Is there a chance of rain from February 20 to March 15?",
+        "timestamp": {
+          "$date": "2025-02-20T03:39:13.779Z"
+        },
+        "standalone_question": "Is there a possibility of rain from February 20 to March 15?",
+        "standalone_en": "Is there a possibility of rain from February 20 to March 15?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pudhil 20 februvari te 15 march pavasachi shakyata aahe kay"
+      },
+      {
+        "role": "assistant",
+        "content": "20 फेब्रुवारी ते 15 मार्च 2025 दरम्यान पावसाची शक्यता नाही. सर्व दिवसांमध्ये पावसाची नोंद नाही आणि पावसाची शक्यता 0% आहे. \n\nतुमच्या SSN Plot साठी हवामानाची माहिती खालीलप्रमाणे आहे:\n\n- **20 फेब्रुवारी**: 0mm पाऊस\n- **21 फेब्रुवारी**: 0mm पाऊस\n- **22 फेब्रुवारी**: 0mm पाऊस\n- **23 फेब्रुवारी**: 0mm पाऊस\n- **24 फेब्रुवारी**: 0mm पाऊस\n- **25 फेब्रुवारी**: 0mm पाऊस\n- **26 फेब्रुवारी**: 0mm पाऊस\n- **27 फेब्रुवारी**: 0mm पाऊस\n- **28 फेब्रुवारी**: 0mm पाऊस\n- **1 मार्च**: 0mm पाऊस\n- **2 मार्च**: 0mm पाऊस\n- **3 मार्च**: 0mm पाऊस\n- **4 मार्च**: 0mm पाऊस\n\nतुम्हाला आणखी काही माहिती हवी का?",
+        "en": "There is no chance of rain between February 20 and March 15, 2025. No rain is recorded on all days and there is a 0% chance of rain. \n\nThe weather information for your SSN plot is as follows:\n\n- **February 20**: 0mm rain\n- **February 21**: 0mm rain\n- **February 22**: 0mm rain\n- **February 23**: 0mm rain\n- **February 24**: 0mm rain\n- **February 25**: 0mm rain\n- **February 26**: 0mm rain\n- **February 27**: 0mm rain\n- **February 28**: 0mm rain\n- **1 March**: 0mm rain\n- **2 March**: 0mm rain\n- **March 3**: 0mm rain\n- **4 March**: 0mm rain\n\nIs there anything else you need to know?",
+        "timestamp": {
+          "$date": "2025-02-20T03:39:22.455Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "एसएससी प्लॉटला कोणते पोषक अन्नद्रव्य द्यावे प्लॉट कटिंग चे 102 दिवस झालेले आहेत",
+        "en": "What nutrients to give to SSC plot Plot Cutting has been 102 days",
+        "timestamp": {
+          "$date": "2025-02-20T03:40:23.802Z"
+        },
+        "standalone_question": "What nutrients should be provided to the SSC plot, considering it has been 102 days since the plot cutting?",
+        "standalone_en": "What nutrients should be provided to the SSC plot, considering it has been 102 days since the plot cutting?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ssc plotala conte poshak annadravy dyave plot cutting che 102 divas jhalele ahet"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या SSN प्लॉटमध्ये सध्या \"बेरी विकास\" (Berry Development) चरण आहे, जो 14 जानेवारी 2025 पासून सुरू झाला आहे. सध्या तुम्ही 102 दिवसांच्या प्लॉट कटिंगच्या स्थितीत आहात, आणि तुम्हाला पुढील पोषक अन्नद्रव्यांची शिफारस केली जाते:\n\n### सध्याचा फर्टिगेशन शेड्यूल (सप्ताह 6):\n1. **फर्टिलायझर**:\n   - **19-19-19**: 5 किग्रॅ/एकर\n   - **साल्फेट ऑफ पोटाश**: 5.5 किग्रॅ/एकर\n   - **मॅग्नेशियम सल्फेट**: 2.5 किग्रॅ/एकर\n\n   किंवा\n\n   - **6-34-17**: 4 किग्रॅ/एकर\n   - **कॅल्शियम नायट्रेट**: 4.5 किग्रॅ/एकर\n   - **साल्फेट ऑफ पोटाश**: 6 किग्रॅ/एकर\n   - **मॅग्नेशियम सल्फेट**: 2.5 किग्रॅ/एकर\n\n   किंवा\n\n   - **कॅल्शियम नायट्रेट**: 6 किग्रॅ/एकर\n   - **फॉस्फोरिक अॅसिड 80%**: 2 किग्रॅ/एकर\n   - **साल्फेट ऑफ पोटाश**: 7.5 किग्रॅ/एकर\n   - **मॅग्नेशियम सल्फेट**: 2.5 किग्रॅ/एकर\n\n### विशेष सूचना:\n- **फॉस्फोरिक अॅसिड**: इतर फर्टिलायझरच्या अनुप्रयोगापूर्वी 15-20 मिनिटे स्वतंत्रपणे लागू करावा.\n- **कॅल्शियम नायट्रेट**: इतर फर्टिलायझरच्या अनुप्रयोगानंतर 15-20 मिनिटे स्वतंत्रपणे लागू करावा.\n\n### पुढील शेड्यूल:\n- **चरण**: \"सुरुवात वेरायझन\" (Beginning Veraison)\n- **सप्ताह 1**: 4 मार्च 2025 पासून सुरू होईल.\n\nतुम्हाला आणखी काही माहिती हवी का?",
+        "en": "Your SSN plot currently has a \"Berry Development\" phase, which began on January 14, 2025. You are currently in a 102-day plot cutting position, and you are recommended the following nutrients:\n\n### Current Fertigation Schedule (Week 6):\n1. **Fertilizer**:\n   - **19-19-19**: 5 kg/acre\n   - **Sulfate of Potash**: 5.5 kg/acre\n   - **Magnesium sulfate**: 2.5 kg/acre\n\nor\n\n- **6-34-17**: 4 kg/acre\n   - **Calcium nitrate**: 4.5 kg/acre\n   - **Sulfate of Potash**: 6 kg/acre\n   - **Magnesium sulfate**: 2.5 kg/acre\n\nor\n\n- **Calcium nitrate**: 6 kg/acre\n   - **Phosphoric acid 80%**: 2 kg/acre\n   - **Sulfate of Potash**: 7.5 kg/acre\n   - **Magnesium sulfate**: 2.5 kg/acre\n\n### Special notice:\n**Phosphoric acid**: Apply separately for 15-20 minutes before application with other fertilizers.\n**Calcium nitrate**: Apply separately for 15-20 minutes after application with other fertilizers.\n\n### Next schedule:\n- **Stage**: \"Beginning Veraison\" (Beginning Veraison)\n- **Week 1**: Starting March 4, 2025.\n\nIs there anything else you need to know?",
+        "timestamp": {
+          "$date": "2025-02-20T03:40:39.583Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "एसएससी मिलिबकचा प्रादुर्भाव होण्याची शक्यता आहे काय असल्यास काय उपाय करावे",
+        "en": "What measures to take if there is a possibility of an outbreak of SSC milibak",
+        "timestamp": {
+          "$date": "2025-02-20T03:44:54.471Z"
+        },
+        "standalone_question": "Is there a possibility of SSC mildew infestation, and if so, what measures should be taken?",
+        "standalone_en": "Is there a possibility of SSC mildew infestation, and if so, what measures should be taken?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ssc milibakcha pradurbhav honyachi shakyata aahe kay asalyas kay upay karave"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या SSN प्लॉटसाठी मिलिबगचा प्रादुर्भाव होण्याची माहिती उपलब्ध नाही. तथापि, मिलिबगच्या प्रादुर्भावाची शक्यता असू शकते, त्यामुळे तुम्हाला काही उपाययोजना करणे आवश्यक आहे.\n\n### उपाययोजना:\n1. **पेस्ट कंट्रोल**:\n   - **च्लोर्पायरीफॉस**: 5 मि.ली./लिटर पाण्यात मिसळून फवारणी करा.\n   - **थायमिथोक्सम**: 0.5 ग्रॅम/लिटर पाण्यात मिसळून फवारणी करा.\n\n2. **प्लॉटची नियमित तपासणी**:\n   - नियमितपणे प्लॉटची तपासणी करा आणि कोणत्याही लक्षणीय बदलांची नोंद ठेवा.\n\n3. **सुरक्षितता उपाय**:\n   - फवारणी करताना योग्य सुरक्षा साधने वापरा.\n\nतुम्हाला आणखी काही माहिती हवी का?",
+        "en": "There is no information available for your SSN plot to have an outbreak of milibug. However, there may be a possibility of an outbreak of milibug, so you need to take some measures.\n\n### Solutions:\n1. **Pest Control**:\n   * Chlorpyrifos**: Mix with 5 ml/l of water and spray.\n   **Thymethoxum**: Mix with 0.5 g/l of water and spray.\n\n2. **Regular inspection of plot**:\n   - Check the plot regularly and keep a record of any noticeable changes.\n\n3. **Safety measures**:\n   - Use proper safety equipment when spraying.\n\nIs there anything else you need to know?",
+        "timestamp": {
+          "$date": "2025-02-20T03:45:06.065Z"
+        }
+      }
+    ],
+    "farmer_id": "ramchandrabapuravsurwase",
+    "farmer_plot_ids": [
+      "ssnplot425"
+    ],
+    "conversation_id": "67b6a3e1c5acaed5b168e517",
+    "_id": "67b6a3e1c5acaed5b168e517",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-02-20T03:49:54.482000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-02-20T03:39:13.779000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "  ಎಲೆ ತೆವು ಅಂದ್ರೆ ಏನು",
+        "en": "  What is a leaf creep",
+        "timestamp": {
+          "$date": "2025-02-20T01:04:37.549Z"
+        },
+        "standalone_question": "What does \"ಎಲೆ ತೆವು\" mean?",
+        "standalone_en": "What does \"leaf creep\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "  ele devu andre anu"
+      },
+      {
+        "role": "assistant",
+        "content": "ಎಲೆ ತೆವು (Leaf Wetness) ಎಂದರೆ, ಗಿಡಗಳ ಎಲೆಗಳಲ್ಲಿ ನೀರಿನ ಹೂಡಿಕೆ ಅಥವಾ ತೇವದ ಪ್ರಮಾಣವನ್ನು ಸೂಚಿಸುತ್ತದೆ. ಇದು ಗಿಡಗಳ ಆರೋಗ್ಯವನ್ನು ನಿರ್ಧರಿಸಲು ಮತ್ತು ಹಾರ್ಬೋರ್ ಕಾಯಿಲೆಗಳ ಸಂಭವನೀಯತೆಯನ್ನು ಊಹಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ. ಎಲೆ ತೆವು ಹೆಚ್ಚು ಇದ್ದಾಗ, ಹಾರ್ಬೋರ್ ಕಾಯಿಲೆಗಳ ಸಂಭವನೀಯತೆ ಹೆಚ್ಚಾಗುತ್ತದೆ, ಏಕೆಂದರೆ ನೀರಿನ ಹೂಡಿಕೆ ಮತ್ತು ತೇವವು ಬ್ಯಾಕ್ಟೀರಿಯಾ ಮತ್ತು ಫಂಗಸ್‌ಗಳಿಗೆ ಅನುಕೂಲಕರ ಪರಿಸ್ಥಿತಿಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ.",
+        "en": "Leaf wetness refers to the investment of water or the amount of moisture in the leaves of plants. It helps in determining the health of plants and predicting the occurrence of harbor diseases. When leaf wetting is high, the incidence of harbor diseases increases, as water investment and moisture provide favorable conditions for bacteria and fungi.",
+        "timestamp": {
+          "$date": "2025-02-20T01:04:42.821Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ಹಾರ್ಬೋರ ಕಾಯಿಲೆ ಅಂದ್ರೆ ಏನು",
+        "en": "What is Harbor's disease?",
+        "timestamp": {
+          "$date": "2025-02-20T01:05:34.027Z"
+        },
+        "standalone_question": "What is a harbor disease?",
+        "standalone_en": "What is a harbor disease?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "harbor kayile andre anu"
+      },
+      {
+        "role": "assistant",
+        "content": "ಹಾರ್ಬೋರ್ ಕಾಯಿಲೆ (Fungal Diseases) ಎಂದರೆ, ಗಿಡಗಳಲ್ಲಿ ಉಂಟಾಗುವ ಫಂಗಲ್ ಸೋಂಕುಗಳು. ಈ ಕಾಯಿಲೆಗಳು ಸಾಮಾನ್ಯವಾಗಿ ತೇವ, ತಾಪಮಾನ ಮತ್ತು ಇತರ ಪರಿಸರ ಅಂಶಗಳ ಪರಿಣಾಮವಾಗಿ ಉಂಟಾಗುತ್ತವೆ. ಹಾರ್ಬೋರ್ ಕಾಯಿಲೆಗಳ ಕೆಲವು ಉದಾಹರಣೆಗಳು:\n\n1. **ಬೋಟ್‌ರಿಟಿಸ್ (Botrytis)**: ಹಣ್ಣುಗಳು ಮತ್ತು ಹೂವುಗಳಲ್ಲಿ ಕಪ್ಪು ಅಥವಾ ಬೂದು ಬಣ್ಣದ ಕಲೆಗಳು ಉಂಟುಮಾಡುತ್ತದೆ.\n2. **ಡೌನಿ ಮಿಲ್ಡ್ಯೂ (Downy Mildew)**: ಎಲೆಗಳಲ್ಲಿ ಹಳದಿ ಅಥವಾ ಬಿಳಿ ಕಲೆಗಳು ಕಾಣಿಸುತ್ತವೆ.\n3. **ಪೌಡರಿ ಮಿಲ್ಡ್ಯೂ (Powdery Mildew)**: ಎಲೆಗಳ ಮೇಲ್ಭಾಗದಲ್ಲಿ ಬಿಳಿ ಪುಡಿ ಹೋಲುವ ಕಲೆಗಳು ಉಂಟಾಗುತ್ತವೆ.\n\nಈ ಕಾಯಿಲೆಗಳು ಗಿಡಗಳ ಬೆಳವಣಿಗೆ, ಉತ್ಪಾದನೆ ಮತ್ತು ಗುಣಮಟ್ಟವನ್ನು ಹಾನಿ ಮಾಡಬಹುದು. ಹಾರ್ಬೋರ್ ಕಾಯಿಲೆಗಳನ್ನು ತಡೆಗಟ್ಟಲು, ಉತ್ತಮ ಕೃಷಿ ಅಭ್ಯಾಸಗಳು, ತೇವ ನಿಯಂತ್ರಣ ಮತ್ತು ಸೂಕ್ತ ಪೆಸ್ಟಿಸೈಡ್ ಬಳಕೆ ಅಗತ್ಯವಿದೆ.",
+        "en": "Fungal diseases are fungal infections that occur in plants. These diseases are usually caused as a result of humidity, temperature and other environmental factors. Some examples of Harbor diseases are:\n\n1. **Botrytis)**: Causes black or grey spots on fruits and flowers.\n2. **Downy Mildew)**: Yellow or white spots appear on the leaves.\n3. **Powdery Mildew**: White powder-like stains are formed on the top of the leaves.\n\nThese diseases can damage the growth, production and quality of plants. To prevent harbor diseases, good agricultural practices, moisture control and appropriate pesticide use are required.",
+        "timestamp": {
+          "$date": "2025-02-20T01:05:43.170Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ಯಾವ ಸ್ಪ್ರೇ ಮಾಡ್ಬೇಕು ",
+        "en": "What spray to spray ",
+        "timestamp": {
+          "$date": "2025-02-20T01:06:29.511Z"
+        },
+        "standalone_question": "What spray should be used?",
+        "standalone_en": "What spray should be used?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice."
+          ]
+        },
+        "content_transliterated": "yava spray madbeku "
+      },
+      {
+        "role": "assistant",
+        "content": "ಈ ವಾರಕ್ಕೆ ಯಾವುದೇ ಕಾಯಿಲೆ ಅಥವಾ ಕೀಟಗಳ ಸ್ಪ್ರೇ ಶೆಡ್ಯೂಲ್ ಇಲ್ಲ. ಆದ್ದರಿಂದ, ನೀವು ಈ ಸಮಯದಲ್ಲಿ ಯಾವುದೇ ಸ್ಪ್ರೇ ಮಾಡಲು ಅಗತ್ಯವಿಲ್ಲ. ಆದರೆ, ನೀವು ಮುಂದಿನ ವಾರಗಳಲ್ಲಿ ಯಾವುದೇ ಸೂಚನೆಗಳನ್ನು ಪಡೆಯಲು ಗಮನವಿಟ್ಟು ಇರಿ.",
+        "en": "There is no disease or pest spray schedule for this week. Therefore, you do not need to do any spray during this time. But, be careful if you get any instructions in the coming weeks.",
+        "timestamp": {
+          "$date": "2025-02-20T01:06:35.508Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ಎಲೆ ತೇವು ಎಷ್ಟು ಗಂಟೆಗಳ ಕಾಲ ಇದರೆ ರೋಗ ಬರುವ ಸಾಧ್ಯತೆ ಇರುತ್ತದೆ ತಿಳಿಸಿ.",
+        "en": "State how many hours the leaf moisture lasts and the chances of getting the disease are there.",
+        "timestamp": {
+          "$date": "2025-02-20T01:07:58.197Z"
+        },
+        "standalone_question": "How many hours of leaf wetness increases the likelihood of disease occurrence?",
+        "standalone_en": "How many hours of leaf wetness increases the likelihood of disease occurrence?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ele devu eshtu gantegala call idare rogue baruva sadhyate iruttade thilisi."
+      },
+      {
+        "role": "assistant",
+        "content": "ಎಲೆ ತೇವು (Leaf Wetness) 6 ಗಂಟೆಗಳ ಕಾಲ ಅಥವಾ ಹೆಚ್ಚು ಇದ್ದರೆ, ಗಿಡಗಳಲ್ಲಿ ಹಾರ್ಬೋರ್ ಕಾಯಿಲೆಗಳ ಸಂಭವನೀಯತೆ ಹೆಚ್ಚಾಗುತ್ತದೆ. ಈ ಸಮಯದಲ್ಲಿ, ತೇವವು ಫಂಗಸ್ ಮತ್ತು ಬ್ಯಾಕ್ಟೀರಿಯಾ ಬೆಳೆಯಲು ಅನುಕೂಲಕರ ಪರಿಸ್ಥಿತಿಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ. ಆದ್ದರಿಂದ, ಎಲೆಗಳಲ್ಲಿ ತೇವವು ಹೆಚ್ಚು ಕಾಲ ಉಳಿಯುವಾಗ, ಕಾಯಿಲೆಗಳ ಸಂಭವನೀಯತೆಯನ್ನು ಕಡಿಮೆ ಮಾಡಲು ಸೂಕ್ತ ಕ್ರಮಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳುವುದು ಮುಖ್ಯವಾಗಿದೆ.",
+        "en": "If leaf wetness lasts for 6 hours or more, the incidence of Harbor diseases increases in plants. During this time, moisture provides favorable conditions for fungi and bacteria to grow. Therefore, when the moisture in the leaves lasts longer, it is important to take appropriate measures to reduce the incidence of diseases.",
+        "timestamp": {
+          "$date": "2025-02-20T01:08:02.534Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ಎಲೆ ತೆವೂ ಇದಾಗ್ ಯಾವ ಸ್ಪ್ರೇ ಮಾಡ್ಬೇಕು",
+        "en": "What spray to spray on the leaf",
+        "timestamp": {
+          "$date": "2025-02-20T01:09:09.484Z"
+        },
+        "standalone_question": "What spray should be used when leaf wetness occurs?",
+        "standalone_en": "What spray should be used when leaf wetness occurs?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ele devu idag yava spray madbeku"
+      },
+      {
+        "role": "assistant",
+        "content": "ಈಗ ಎಲೆ ತೇವವು ಇರುವಾಗ, ಸ್ಪ್ರೇ ಮಾಡಲು ಉತ್ತಮ ಪರಿಸ್ಥಿತಿಗಳು ಇಲ್ಲ. ಇಂದು ಬೆಳಿಗ್ಗೆ 7:30 ರಿಂದ 5:30 ರವರೆಗೆ \"WORST\" ಪರಿಸ್ಥಿತಿಯಾಗಿದೆ, ಆದರೆ 6:30 PM ರಿಂದ 9:30 PM ರವರೆಗೆ \"MODERATE\" ಪರಿಸ್ಥಿತಿಯಾಗಿದೆ.\n\nಹೀಗಾಗಿ, ನೀವು 6:30 PM ನಂತರ ಅಥವಾ 7:30 PM ನಂತರ ಸ್ಪ್ರೇ ಮಾಡಲು ಯೋಚಿಸಬಹುದು. ನೀವು ಬಳಸಬಹುದಾದ ಪೆಸ್ಟಿಸೈಡ್‌ಗಳಲ್ಲಿ **ಚ್ಲೋರ್ಪಿರಿಫೋಸ್ @ 5mL/Ltr** ಅಥವಾ **ಥಿಯಾಮೆಥೋಕ್ಸಾಮ್ @ 0.5g/Ltr** ಅನ್ನು ಬಳಸಬಹುದು.",
+        "en": "Now that the leaf is wet, there are no better conditions to spray. The \"WORST\" situation is from 7:30 am to 5:30 am today, while the \"MODERATE\" situation is from 6:30 am to 9:30 pm.\n\nThus, you can think of spraying after 6:30 PM or after 7:30 PM. You can use **chlorpyrifos @ 5mL/Ltr** or **thiamethoxam @ 0.5g/Ltr** in pesticides you can use.",
+        "timestamp": {
+          "$date": "2025-02-20T01:09:16.323Z"
+        }
+      }
+    ],
+    "farmer_id": "yallavvamallappameti",
+    "farmer_plot_ids": [
+      "plotno2367"
+    ],
+    "conversation_id": "67b67fa5f50260c32821d04d",
+    "_id": "67b67fa5f50260c32821d04d",
+    "language": "ka",
+    "expiry": {
+      "$date": "2025-02-20T01:14:09.500000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-02-20T01:04:37.549000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "  ಎಲೆ ತೆವು ಅಂದ್ರೆ ಏನು",
+        "en": "  What is a leaf creep",
+        "timestamp": {
+          "$date": "2025-02-20T01:04:37.549Z"
+        },
+        "standalone_question": "What does \"ಎಲೆ ತೆವು\" mean?",
+        "standalone_en": "What does \"leaf creep\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "  ele devu andre anu"
+      },
+      {
+        "role": "assistant",
+        "content": "ಎಲೆ ತೆವು (Leaf Wetness) ಎಂದರೆ, ಗಿಡಗಳ ಎಲೆಗಳಲ್ಲಿ ನೀರಿನ ಹೂಡಿಕೆ ಅಥವಾ ತೇವದ ಪ್ರಮಾಣವನ್ನು ಸೂಚಿಸುತ್ತದೆ. ಇದು ಗಿಡಗಳ ಆರೋಗ್ಯವನ್ನು ನಿರ್ಧರಿಸಲು ಮತ್ತು ಹಾರ್ಬೋರ್ ಕಾಯಿಲೆಗಳ ಸಂಭವನೀಯತೆಯನ್ನು ಊಹಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ. ಎಲೆ ತೆವು ಹೆಚ್ಚು ಇದ್ದಾಗ, ಹಾರ್ಬೋರ್ ಕಾಯಿಲೆಗಳ ಸಂಭವನೀಯತೆ ಹೆಚ್ಚಾಗುತ್ತದೆ, ಏಕೆಂದರೆ ನೀರಿನ ಹೂಡಿಕೆ ಮತ್ತು ತೇವವು ಬ್ಯಾಕ್ಟೀರಿಯಾ ಮತ್ತು ಫಂಗಸ್‌ಗಳಿಗೆ ಅನುಕೂಲಕರ ಪರಿಸ್ಥಿತಿಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ.",
+        "en": "Leaf wetness refers to the investment of water or the amount of moisture in the leaves of plants. It helps in determining the health of plants and predicting the occurrence of harbor diseases. When leaf wetting is high, the incidence of harbor diseases increases, as water investment and moisture provide favorable conditions for bacteria and fungi.",
+        "timestamp": {
+          "$date": "2025-02-20T01:04:42.821Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ಹಾರ್ಬೋರ ಕಾಯಿಲೆ ಅಂದ್ರೆ ಏನು",
+        "en": "What is Harbor's disease?",
+        "timestamp": {
+          "$date": "2025-02-20T01:05:34.027Z"
+        },
+        "standalone_question": "What is a harbor disease?",
+        "standalone_en": "What is a harbor disease?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "harbor kayile andre anu"
+      },
+      {
+        "role": "assistant",
+        "content": "ಹಾರ್ಬೋರ್ ಕಾಯಿಲೆ (Fungal Diseases) ಎಂದರೆ, ಗಿಡಗಳಲ್ಲಿ ಉಂಟಾಗುವ ಫಂಗಲ್ ಸೋಂಕುಗಳು. ಈ ಕಾಯಿಲೆಗಳು ಸಾಮಾನ್ಯವಾಗಿ ತೇವ, ತಾಪಮಾನ ಮತ್ತು ಇತರ ಪರಿಸರ ಅಂಶಗಳ ಪರಿಣಾಮವಾಗಿ ಉಂಟಾಗುತ್ತವೆ. ಹಾರ್ಬೋರ್ ಕಾಯಿಲೆಗಳ ಕೆಲವು ಉದಾಹರಣೆಗಳು:\n\n1. **ಬೋಟ್‌ರಿಟಿಸ್ (Botrytis)**: ಹಣ್ಣುಗಳು ಮತ್ತು ಹೂವುಗಳಲ್ಲಿ ಕಪ್ಪು ಅಥವಾ ಬೂದು ಬಣ್ಣದ ಕಲೆಗಳು ಉಂಟುಮಾಡುತ್ತದೆ.\n2. **ಡೌನಿ ಮಿಲ್ಡ್ಯೂ (Downy Mildew)**: ಎಲೆಗಳಲ್ಲಿ ಹಳದಿ ಅಥವಾ ಬಿಳಿ ಕಲೆಗಳು ಕಾಣಿಸುತ್ತವೆ.\n3. **ಪೌಡರಿ ಮಿಲ್ಡ್ಯೂ (Powdery Mildew)**: ಎಲೆಗಳ ಮೇಲ್ಭಾಗದಲ್ಲಿ ಬಿಳಿ ಪುಡಿ ಹೋಲುವ ಕಲೆಗಳು ಉಂಟಾಗುತ್ತವೆ.\n\nಈ ಕಾಯಿಲೆಗಳು ಗಿಡಗಳ ಬೆಳವಣಿಗೆ, ಉತ್ಪಾದನೆ ಮತ್ತು ಗುಣಮಟ್ಟವನ್ನು ಹಾನಿ ಮಾಡಬಹುದು. ಹಾರ್ಬೋರ್ ಕಾಯಿಲೆಗಳನ್ನು ತಡೆಗಟ್ಟಲು, ಉತ್ತಮ ಕೃಷಿ ಅಭ್ಯಾಸಗಳು, ತೇವ ನಿಯಂತ್ರಣ ಮತ್ತು ಸೂಕ್ತ ಪೆಸ್ಟಿಸೈಡ್ ಬಳಕೆ ಅಗತ್ಯವಿದೆ.",
+        "en": "Fungal diseases are fungal infections that occur in plants. These diseases are usually caused as a result of humidity, temperature and other environmental factors. Some examples of Harbor diseases are:\n\n1. **Botrytis)**: Causes black or grey spots on fruits and flowers.\n2. **Downy Mildew)**: Yellow or white spots appear on the leaves.\n3. **Powdery Mildew**: White powder-like stains are formed on the top of the leaves.\n\nThese diseases can damage the growth, production and quality of plants. To prevent harbor diseases, good agricultural practices, moisture control and appropriate pesticide use are required.",
+        "timestamp": {
+          "$date": "2025-02-20T01:05:43.170Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ಯಾವ ಸ್ಪ್ರೇ ಮಾಡ್ಬೇಕು ",
+        "en": "What spray to spray ",
+        "timestamp": {
+          "$date": "2025-02-20T01:06:29.511Z"
+        },
+        "standalone_question": "What spray should be used?",
+        "standalone_en": "What spray should be used?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice."
+          ]
+        },
+        "content_transliterated": "yava spray madbeku "
+      },
+      {
+        "role": "assistant",
+        "content": "ಈ ವಾರಕ್ಕೆ ಯಾವುದೇ ಕಾಯಿಲೆ ಅಥವಾ ಕೀಟಗಳ ಸ್ಪ್ರೇ ಶೆಡ್ಯೂಲ್ ಇಲ್ಲ. ಆದ್ದರಿಂದ, ನೀವು ಈ ಸಮಯದಲ್ಲಿ ಯಾವುದೇ ಸ್ಪ್ರೇ ಮಾಡಲು ಅಗತ್ಯವಿಲ್ಲ. ಆದರೆ, ನೀವು ಮುಂದಿನ ವಾರಗಳಲ್ಲಿ ಯಾವುದೇ ಸೂಚನೆಗಳನ್ನು ಪಡೆಯಲು ಗಮನವಿಟ್ಟು ಇರಿ.",
+        "en": "There is no disease or pest spray schedule for this week. Therefore, you do not need to do any spray during this time. But, be careful if you get any instructions in the coming weeks.",
+        "timestamp": {
+          "$date": "2025-02-20T01:06:35.508Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ಎಲೆ ತೇವು ಎಷ್ಟು ಗಂಟೆಗಳ ಕಾಲ ಇದರೆ ರೋಗ ಬರುವ ಸಾಧ್ಯತೆ ಇರುತ್ತದೆ ತಿಳಿಸಿ.",
+        "en": "State how many hours the leaf moisture lasts and the chances of getting the disease are there.",
+        "timestamp": {
+          "$date": "2025-02-20T01:07:58.197Z"
+        },
+        "standalone_question": "How many hours of leaf wetness increases the likelihood of disease occurrence?",
+        "standalone_en": "How many hours of leaf wetness increases the likelihood of disease occurrence?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ele devu eshtu gantegala call idare rogue baruva sadhyate iruttade thilisi."
+      },
+      {
+        "role": "assistant",
+        "content": "ಎಲೆ ತೇವು (Leaf Wetness) 6 ಗಂಟೆಗಳ ಕಾಲ ಅಥವಾ ಹೆಚ್ಚು ಇದ್ದರೆ, ಗಿಡಗಳಲ್ಲಿ ಹಾರ್ಬೋರ್ ಕಾಯಿಲೆಗಳ ಸಂಭವನೀಯತೆ ಹೆಚ್ಚಾಗುತ್ತದೆ. ಈ ಸಮಯದಲ್ಲಿ, ತೇವವು ಫಂಗಸ್ ಮತ್ತು ಬ್ಯಾಕ್ಟೀರಿಯಾ ಬೆಳೆಯಲು ಅನುಕೂಲಕರ ಪರಿಸ್ಥಿತಿಗಳನ್ನು ಒದಗಿಸುತ್ತದೆ. ಆದ್ದರಿಂದ, ಎಲೆಗಳಲ್ಲಿ ತೇವವು ಹೆಚ್ಚು ಕಾಲ ಉಳಿಯುವಾಗ, ಕಾಯಿಲೆಗಳ ಸಂಭವನೀಯತೆಯನ್ನು ಕಡಿಮೆ ಮಾಡಲು ಸೂಕ್ತ ಕ್ರಮಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳುವುದು ಮುಖ್ಯವಾಗಿದೆ.",
+        "en": "If leaf wetness lasts for 6 hours or more, the incidence of Harbor diseases increases in plants. During this time, moisture provides favorable conditions for fungi and bacteria to grow. Therefore, when the moisture in the leaves lasts longer, it is important to take appropriate measures to reduce the incidence of diseases.",
+        "timestamp": {
+          "$date": "2025-02-20T01:08:02.534Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ಎಲೆ ತೆವೂ ಇದಾಗ್ ಯಾವ ಸ್ಪ್ರೇ ಮಾಡ್ಬೇಕು",
+        "en": "What spray to spray on the leaf",
+        "timestamp": {
+          "$date": "2025-02-20T01:09:09.484Z"
+        },
+        "standalone_question": "What spray should be used when there is leaf wetness?",
+        "standalone_en": "What spray should be used when there is leaf wetness?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ele devu idag yava spray madbeku"
+      },
+      {
+        "role": "assistant",
+        "content": "ಈಗ ಎಲೆ ತೇವವು ಇರುವಾಗ, ಸ್ಪ್ರೇ ಮಾಡಲು ಉತ್ತಮ ಪರಿಸ್ಥಿತಿಗಳು ಇಲ್ಲ. ಇಂದು ಬೆಳಿಗ್ಗೆ 7:30 ರಿಂದ 5:30 ರವರೆಗೆ \"WORST\" ಪರಿಸ್ಥಿತಿಯಾಗಿದೆ, ಆದರೆ 6:30 PM ರಿಂದ 9:30 PM ರವರೆಗೆ \"MODERATE\" ಪರಿಸ್ಥಿತಿಯಾಗಿದೆ.\n\nಹೀಗಾಗಿ, ನೀವು 6:30 PM ನಂತರ ಅಥವಾ 7:30 PM ನಂತರ ಸ್ಪ್ರೇ ಮಾಡಲು ಯೋಚಿಸಬಹುದು. ನೀವು ಬಳಸಬಹುದಾದ ಪೆಸ್ಟಿಸೈಡ್‌ಗಳಲ್ಲಿ **ಚ್ಲೋರ್ಪಿರಿಫೋಸ್ @ 5mL/Ltr** ಅಥವಾ **ಥಿಯಾಮೆಥೋಕ್ಸಾಮ್ @ 0.5g/Ltr** ಅನ್ನು ಬಳಸಬಹುದು.",
+        "en": "Now that the leaf is wet, there are no better conditions to spray. The \"WORST\" situation is from 7:30 am to 5:30 am today, while the \"MODERATE\" situation is from 6:30 am to 9:30 pm.\n\nThus, you can think of spraying after 6:30 PM or after 7:30 PM. You can use **chlorpyrifos @ 5mL/Ltr** or **thiamethoxam @ 0.5g/Ltr** in pesticides you can use.",
+        "timestamp": {
+          "$date": "2025-02-20T01:09:16.323Z"
+        }
+      }
+    ],
+    "farmer_id": "yallavvamallappameti",
+    "farmer_plot_ids": [
+      "plotno2367"
+    ],
+    "conversation_id": "67b67fa5f50260c32821d04d",
+    "_id": "67b67fa5f50260c32821d04d",
+    "language": "ka",
+    "expiry": {
+      "$date": "2025-02-20T01:14:09.500000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-02-20T01:04:37.549000+00:00"
+  }
+]

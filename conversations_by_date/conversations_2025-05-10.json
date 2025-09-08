@@ -1,0 +1,248 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "12:61:00- 4kg ,EDTA ferouse 500gm",
+        "en": "12:61:00- 4kg ,EDTA ferouse 500gm",
+        "timestamp": {
+          "$date": "2025-05-10T14:32:04.320Z"
+        },
+        "standalone_question": "What is the quantity of EDTA ferrous needed for 4 kg?",
+        "standalone_en": "What is the quantity of EDTA ferrous needed for 4 kg?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like you're referring to a specific fertilizer or nutrient application. However, I need more context to provide accurate guidance. Could you please clarify what you would like to know or do with this information?",
+        "en": "It seems like you're referring to a specific fertilizer or nutrient application. However, I need more context to provide accurate guidance. Could you please clarify what you would like to know or do with this information?",
+        "timestamp": {
+          "$date": "2025-05-10T14:32:07.122Z"
+        }
+      }
+    ],
+    "farmer_id": "prasadpangavhane",
+    "farmer_plot_ids": [
+      "plotno1sudhakar584",
+      "plotno3ssn674"
+    ],
+    "conversation_id": "681f636448ea17530fb5d83a",
+    "_id": "681f636448ea17530fb5d83a",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-10T14:37:04.339000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-05-10T14:32:04.320000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "झाड पिवळे पडते कारन",
+        "en": "The tree turns yellow",
+        "timestamp": {
+          "$date": "2025-05-10T12:07:34.043Z"
+        },
+        "standalone_question": "Why do trees turn yellow?",
+        "standalone_en": "Why do trees turn yellow?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "jhad pivale padate karan"
+      },
+      {
+        "role": "assistant",
+        "content": "झाड पिवळे पडण्याची अनेक कारणे असू शकतात. काही सामान्य कारणे खालीलप्रमाणे आहेत:\n\n1. **पाण्याची कमतरता**: जर मातीमध्ये पाण्याची कमी असेल, तर पाने पिवळी होऊ शकतात.\n2. **अत्यधिक पाणी**: जास्त पाण्यामुळे मुळांना हानी होऊ शकते, ज्यामुळे पाने पिवळी होतात.\n3. **खते**: कमी किंवा अधिक खते वापरणे देखील पानांच्या पिवळ्या होण्यास कारणीभूत ठरू शकते.\n4. **रोग आणि कीड**: काही रोग किंवा कीड देखील पानांना प्रभावित करू शकतात.\n5. **तापमान**: अत्यधिक तापमान किंवा थंड वातावरणामुळेही पानांची रंगत बदलू शकते.\n\nआपल्या झाडाच्या स्थितीवर अधिक माहिती मिळवण्यासाठी, कृपया झाडाची स्थिती तपासा आणि आवश्यक असल्यास योग्य उपाययोजना करा.",
+        "en": "There can be several reasons why a tree turns yellow. Some common causes are as follows:\n\n1. **Water scarcity**: If there is a shortage of water in the soil, the leaves can turn yellow.\n2. **Too much water**: Too much water can damage the roots, causing the leaves to turn yellow.\n3. **Fertilizers**: Using more or less fertilizers can also cause yellowing of the leaves.\n4. **Diseases and pests**: Some diseases or pests can also affect the leaves.\n5. **Temperature**: Extreme temperature or cold weather can also change the color of the leaves.\n\nTo get more information on the condition of your tree, please check the tree's condition and take appropriate measures if necessary.",
+        "timestamp": {
+          "$date": "2025-05-10T12:07:39.919Z"
+        }
+      }
+    ],
+    "farmer_id": "sagaramrutsalunkhe",
+    "farmer_plot_ids": [
+      "peruplot377"
+    ],
+    "conversation_id": "681f41853ed15105dfe2e16d",
+    "_id": "681f41853ed15105dfe2e16d",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-10T12:12:34.050000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-05-10T12:07:34.043000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "करपा डाऊनि साठी कोणती फवारणी करावी",
+        "en": "What sprays to spray for Karpa Downi",
+        "timestamp": {
+          "$date": "2025-05-10T10:56:54.351Z"
+        },
+        "standalone_question": "What type of spray should be used for crop downy mildew?",
+        "standalone_en": "What type of spray should be used for crop downy mildew?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        },
+        "content_transliterated": "karpa downey sathi konati favarani karavi"
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot No 1 SSN\" साठी, करपा डाऊनि साठी आज (10 मे 2025) फवारणी करावी. तुम्ही खालील फवारणी वापरू शकता:\n\n1. **Clothianidin**: 80 ml\n2. **Alphamethrin**: 140 ml\n\nफवारणीसाठी 400 लिटर पाण्यात हे मिश्रण तयार करा.",
+        "en": "For \"Plot No 1 SSN\", spray for Karpa Down today (10 May 2025). You can use the following sprays:\n\n1. Clothianidin: 80 ml\n2. Alphamethrin: 140 ml\n\nPrepare this mixture in 400 litres of water for spraying.",
+        "timestamp": {
+          "$date": "2025-05-10T10:57:01.524Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "करपा डाऊनि साठी फवारणी कोणति करावे मराठी भाषा भाषेत सांगा",
+        "en": "Tell us what to spray for Karpa Downi in Marathi language",
+        "timestamp": {
+          "$date": "2025-05-10T10:58:13.817Z"
+        },
+        "standalone_question": "What type of spray should be used for Karpa Dauni?",
+        "standalone_en": "What type of spray should be used for Karpa Dauni?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "karpa downey sathi favarani konati karave marathi bhasa bhaset sanga"
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot No 1 SSN\" साठी करपा डाऊनि साठी आज (10 मे 2025) फवारणी करावी. तुम्ही खालील फवारणी वापरू शकता:\n\n1. **Clothianidin**: 80 ml\n2. **Alphamethrin**: 140 ml\n\nफवारणीसाठी 400 लिटर पाण्यात हे मिश्रण तयार करा.",
+        "en": "Spray for \"Plot No 1 SSN\" today (10 May 2025) for down. You can use the following sprays:\n\n1. Clothianidin: 80 ml\n2. Alphamethrin: 140 ml\n\nPrepare this mixture in 400 litres of water for spraying.",
+        "timestamp": {
+          "$date": "2025-05-10T10:58:20.374Z"
+        }
+      }
+    ],
+    "farmer_id": "pankajsadashivkhandave",
+    "farmer_plot_ids": [
+      "plotnoonessn",
+      "plotnotwocrimson",
+      "sudhakar156",
+      "sudhakar2101"
+    ],
+    "conversation_id": "681f30f63ed15105dfe2e16b",
+    "_id": "681f30f63ed15105dfe2e16b",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-10T11:03:13.824000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-05-10T10:56:54.351000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "उद्या पाऊस अंदाज ",
+        "en": "Rain forecast tomorrow ",
+        "timestamp": {
+          "$date": "2025-05-10T09:31:39.120Z"
+        },
+        "standalone_question": "What is the weather forecast for rain tomorrow?",
+        "standalone_en": "What is the weather forecast for rain tomorrow?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "udya paus andaj "
+      },
+      {
+        "role": "assistant",
+        "content": "उद्या, 11 मे 2025 रोजी \"Plot No 1 Crimson\" साठी हवामान अंदाज असा आहे:\n\n- **तापमान**: किमान 19.4°C, कमाल 29.8°C, सरासरी 26.7°C\n- **आर्द्रता**: 69.7%\n- **हवा वेग**: 5.4 किमी/तास\n- **पाऊस**: 11.9 मिमी\n- **पाऊस पडण्याची शक्यता**: 20%\n- **आसमानातील ढग**: 4.3%\n\nतुमच्या शेतासाठी पावसाची शक्यता कमी आहे, तरीही थोडा पाऊस होण्याची शक्यता आहे.",
+        "en": "Tomorrow, the weather forecast for \"Plot No 1 Crimson\" on May 11, 2025 is as follows:\n\n- **Temperature**: Minimum 19.4°C, Maximum 29.8°C, Average 26.7°C\n- Humidity: 69.7%\n- **wind velocity**: 5.4 km/h\n- Rain: 11.9 mm\n- **Chance of Rain**: 20%\n- **Sky clouds**: 4.3%\n\nThe chances of rain for your farm are low, but there is still a possibility of a little rain.",
+        "timestamp": {
+          "$date": "2025-05-10T09:31:46.423Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "काल किती मिलीमीटर पाऊस पडला ",
+        "en": "How many millimetres of rain fell yesterday ",
+        "timestamp": {
+          "$date": "2025-05-10T09:33:03.697Z"
+        },
+        "standalone_question": "How much rain fell yesterday in millimeters?",
+        "standalone_en": "How much rain fell yesterday in millimeters?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kaal kiti millimeter paus padala "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot No 1 Crimson\" साठी काल (9 मे 2025) पाऊस पडल्याची माहिती उपलब्ध नाही, कारण हवामान सेन्सर या यंत्रात नाहीत. त्यामुळे पावसाची मोजमाप माहिती मिळवता येत नाही.",
+        "en": "The call (9 May 2025) rain information for \"Plot No 1 Crimson\" is not available, as the weather sensors are not in this system. Therefore, the measurement of rainfall cannot be obtained.",
+        "timestamp": {
+          "$date": "2025-05-10T09:33:09.120Z"
+        }
+      }
+    ],
+    "farmer_id": "sandipshirsath",
+    "farmer_plot_ids": [
+      "plotno1crimson713"
+    ],
+    "conversation_id": "681f1cfa3ed15105dfe2e169",
+    "_id": "681f1cfa3ed15105dfe2e169",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-10T09:38:03.705000Z"
+    },
+    "tag": "historical data",
+    "conv_date": "2025-05-10T09:31:39.120000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "सदर पानावर कशाचे डाग आहेत<user uploaded image for analysis at 'cloneplot723/2025-05-10-1746862413403.jpg'>",
+        "en": "What spots are there on this page<User uploaded image for analysis at cloneplot723/2025-05-10-1746862413403.jpg' >",
+        "timestamp": {
+          "$date": "2025-05-10T07:33:51.033Z"
+        },
+        "standalone_question": "What stains are present on the mentioned page?",
+        "standalone_en": "What stains are present on the mentioned page?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "sadar panavar kashache dag ahet<user uploaded image for analysis at 'cloneplot723/2025-05-10-1746862413403.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "सदर पानावर लाल स्पायडर माइट्सचे डाग आहेत. या समस्येवर उपाय म्हणून खालील स्प्रे वापरण्याची शिफारस केली जाते:\n\n1. **Cyenopyrafen 30% SC**: 0.6 मि.ली.\n2. **Spiromesifen 240 SC (22.9% w/w)**: 1 मि.ली.\n3. **Fenazaquin 10% EC**: 1.5 मि.ली.\n\nया स्प्रेयांचा वापर करून लाल स्पायडर माइट्सची संख्या कमी करता येईल आणि तुमच्या पिकाचे आरोग्य सुधारता येईल. प्रभावी परिणामांसाठी अनुप्रयोग मार्गदर्शकांचे पालन करणे सुनिश्चित करा.",
+        "en": "This page has spots of red spider mites. It is recommended to use the following sprays to address this problem:\n\n1. **Cyenopyrafen 30% SC**: 0.6 ml.\n2. **Spiromesifen 240 SC (22.9% w/w)**: 1 ml.\n3. **Fenazaquin 10% EC**: 1.5 ml.\n\nUsing these sprays can reduce the number of red spider mites and improve the health of your crop. Be sure to follow application guidelines for effective results.",
+        "timestamp": {
+          "$date": "2025-05-10T07:34:11.880Z"
+        }
+      }
+    ],
+    "farmer_id": "kiranbhimaraohasabe",
+    "farmer_plot_ids": [
+      "cloneplot723"
+    ],
+    "conversation_id": "681f015e3ed15105dfe2e168",
+    "_id": "681f015e3ed15105dfe2e168",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-05-10T07:38:51.041000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-05-10T07:33:51.033000+00:00"
+  }
+]

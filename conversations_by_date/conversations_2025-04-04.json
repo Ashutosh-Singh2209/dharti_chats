@@ -1,0 +1,1421 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં હાલ કયું ખાતર આપવું",
+        "en": "What fertilizer to give in my farm right now",
+        "timestamp": {
+          "$date": "2025-04-04T15:00:11.857Z"
+        },
+        "standalone_question": "What fertilizer should I apply to my field right now?",
+        "standalone_en": "What fertilizer should I apply to my field right now?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17"
+          ]
+        },
+        "content_transliterated": "mara khetaraman hal kayu khatar apvu"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં હાલ Muskmelon (મસકમેલોન) માટેની ફર્ટિગેશન શેડ્યૂલ નીચે મુજબ છે:\n\n### NADI PLOT (2nd Week of Vegetative Growth)\n- **1st Day (April 4, 2025)**:\n  - **Magnesium Sulphate**: 3 kg/acre\n  - **Ammonium Sulphate**: 6.5 kg/acre\n\n- **4th Day (April 7, 2025)**:\n  - **12-61-0**: 3 kg/acre\n  - OR\n  - **24-24-0**: 3 kg/acre + **Phosphoric acid 80%**: 2 kg/acre\n  - OR\n  - **Urea**: 1.5 kg/acre + **Phosphoric acid 80%**: 3 kg/acre\n\n### VADAVAL (2nd Week of Vegetative Growth)\n- **1st Day (April 4, 2025)**:\n  - **Magnesium Sulphate**: 3 kg/acre\n  - **Ammonium Sulphate**: 6.5 kg/acre\n\n- **4th Day (April 7, 2025)**:\n  - **12-61-0**: 3 kg/acre\n  - OR\n  - **24-24-0**: 3 kg/acre + **Phosphoric acid 80%**: 2 kg/acre\n  - OR\n  - **Urea**: 1.5 kg/acre + **Phosphoric acid 80%**: 3 kg/acre\n\nઆ માહિતી અનુસાર, તમે ઉપરોક્ત ખાતરો આપીને તમારા ખેતરમાં ફર્ટિગેશન કરી શકો છો.",
+        "en": "તમારા ખેતરમાં હાલ Muskmelon (મસકમેલોન) માટેની ફર્ટિગેશન શેડ્યૂલ નીચે મુજબ છે:\n\n### NADI PLOT (2nd Week of Vegetative Growth)\n- **1st Day (April 4, 2025)**:\n  - **Magnesium Sulphate**: 3 kg/acre\n  - **Ammonium Sulphate**: 6.5 kg/acre\n\n- **4th Day (April 7, 2025)**:\n  - **12-61-0**: 3 kg/acre\n  - OR\n  - **24-24-0**: 3 kg/acre + **Phosphoric acid 80%**: 2 kg/acre\n  - OR\n  - **Urea**: 1.5 kg/acre + **Phosphoric acid 80%**: 3 kg/acre\n\n### VADAVAL (2nd Week of Vegetative Growth)\n- **1st Day (April 4, 2025)**:\n  - **Magnesium Sulphate**: 3 kg/acre\n  - **Ammonium Sulphate**: 6.5 kg/acre\n\n- **4th Day (April 7, 2025)**:\n  - **12-61-0**: 3 kg/acre\n  - OR\n  - **24-24-0**: 3 kg/acre + **Phosphoric acid 80%**: 2 kg/acre\n  - OR\n  - **Urea**: 1.5 kg/acre + **Phosphoric acid 80%**: 3 kg/acre\n\nઆ માહિતી અનુસાર, તમે ઉપરોક્ત ખાતરો આપીને તમારા ખેતરમાં ફર્ટિગેશન કરી શકો છો.",
+        "timestamp": {
+          "$date": "2025-04-04T15:00:20.663Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "નાડીવાળા પ્લોટ ઉપર પાણી કેટલું આપવું",
+        "en": "How much water to give on a plot with a pulse",
+        "timestamp": {
+          "$date": "2025-04-04T15:00:58.254Z"
+        },
+        "standalone_question": "How much water should be given to the Nadi plot?",
+        "standalone_en": "How much water should be given to the Nadi plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "nadivala plot upar pani ketalun apvu"
+      },
+      {
+        "role": "assistant",
+        "content": "NADI PLOT માટે હાલ પાણી આપવાની જરૂર નથી. \n\n### હાલની સ્થિતિ:\n- **માટીના ભેજ**: \n  - Soil Moisture 1: 74%\n  - Soil Moisture 2: 77%\n- **ઓપ્ટિમલ ભેજ**: 60%\n\nમાટીના ભેજના પ્રમાણો ઓપ્ટિમલ મૂલ્ય કરતાં વધુ છે, તેથી હાલ પાણી આપવાની જરૂર નથી.",
+        "en": "There is currently no need to provide water for the NADI PLOT. \n\n### Current status:\n- **Soil moisture**: \n  - Soil Moisture 1: 74%\n  - Soil Moisture 2: 77%\n* **Optimal Humidity**: 60%\n\nSoil moisture content is higher than the optimal value, so there is no need to water at present.",
+        "timestamp": {
+          "$date": "2025-04-04T15:01:05.006Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "વડાવાળા પ્લોટ ઉપર પાણી ક્યારે આપવો",
+        "en": "When to give water on the head plot",
+        "timestamp": {
+          "$date": "2025-04-04T15:01:17.729Z"
+        },
+        "standalone_question": "When should water be given to the Vadaval plot?",
+        "standalone_en": "When should water be given to the Vadaval plot?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": []
+        },
+        "content_transliterated": "vadavala plot upar pani kyare apavo"
+      },
+      {
+        "role": "assistant",
+        "content": "VADAVAL પ્લોટ માટે હાલ પાણી આપવાની જરૂરિયાતની માહિતી ઉપલબ્ધ નથી. \n\nજો તમે વધુ માહિતી મેળવવા માંગતા હો, તો કૃપા કરીને મારો સંપર્ક કરો.",
+        "en": "Water requirement data for vadaval plot is not currently available. \n\nIf you would like to get more information, please contact me.",
+        "timestamp": {
+          "$date": "2025-04-04T15:01:23.010Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "રાવલ પ્લોટ ઉપર હાલ ને કયો વાતાવરણ રોગનું બનેલું છે",
+        "en": "What is the current environment on the Rawal plot that is made of disease?",
+        "timestamp": {
+          "$date": "2025-04-04T15:01:39.292Z"
+        },
+        "standalone_question": "What diseases are currently affecting the Raval plot?",
+        "standalone_en": "What diseases are currently affecting the Raval plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "raval plot upar hal ne kayo vatavaran roganun banelun che"
+      },
+      {
+        "role": "assistant",
+        "content": "VADAVAL પ્લોટ માટે હાલ કોઈ રોગની માહિતી ઉપલબ્ધ નથી. આ પ્લોટમાં રોગના મેટ્રિક્સ ઉપલબ્ધ નથી. \n\nજો તમને વધુ માહિતી જોઈએ, તો કૃપા કરીને મને જણાવો.",
+        "en": "No disease information is currently available for the VADAVAL plot. Disease metrics are not available in this plot. \n\nIf you need more information, please let me know.",
+        "timestamp": {
+          "$date": "2025-04-04T15:01:44.682Z"
+        }
+      }
+    ],
+    "farmer_id": "rahulbhailalajisundesha",
+    "farmer_plot_ids": [
+      "nadiplot",
+      "vadaval"
+    ],
+    "conversation_id": "67eff3fb01413eb3af318291",
+    "_id": "67eff3fb01413eb3af318291",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-04T15:06:39.300000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-04T15:00:11.857000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મને ના ગમ્યું ",
+        "en": "I didn't like it ",
+        "timestamp": {
+          "$date": "2025-04-04T14:35:19.160Z"
+        },
+        "standalone_question": "I didn't like it.",
+        "standalone_en": "I didn't like it.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mane na gamyun "
+      },
+      {
+        "role": "assistant",
+        "content": "મને માફ કરશો, શું હું તમારી મદદ કરી શકું? કૃપા કરીને જણાવો કે તમને કઈ બાબત ગમતી નથી, અને હું તેને સુધારવા માટે પ્રયત્ન કરીશ.",
+        "en": "Excuse me, may I help you? Please tell me what you don't like, and I'll try to improve it.",
+        "timestamp": {
+          "$date": "2025-04-04T14:35:22.268Z"
+        }
+      }
+    ],
+    "farmer_id": "rajubhaidamrajisundhesa",
+    "farmer_plot_ids": [
+      "rajumali"
+    ],
+    "conversation_id": "67efee26014b33e524534866",
+    "_id": "67efee26014b33e524534866",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-04T14:40:19.167000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-04-04T14:35:19.160000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is break bud",
+        "en": "What is break bud",
+        "timestamp": {
+          "$date": "2025-04-04T14:10:35.112Z"
+        },
+        "standalone_question": "What does \"break bud\" mean?",
+        "standalone_en": "What does \"break bud\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "\"Break Bud\" is a crucial stage in grapevine development, occurring after the \"Foundation Pruning\" stage. During this phase, the buds that were left during pruning begin to swell and eventually break open, leading to the emergence of new shoots. This stage is vital for the growth of the vine, as it sets the foundation for future growth, flowering, and fruiting. Proper management during this stage can significantly influence the overall health and yield of the grape crop.",
+        "en": "\"Break Bud\" is a crucial stage in grapevine development, occurring after the \"Foundation Pruning\" stage. During this phase, the buds that were left during pruning begin to swell and eventually break open, leading to the emergence of new shoots. This stage is vital for the growth of the vine, as it sets the foundation for future growth, flowering, and fruiting. Proper management during this stage can significantly influence the overall health and yield of the grape crop.",
+        "timestamp": {
+          "$date": "2025-04-04T14:10:39.216Z"
+        }
+      }
+    ],
+    "farmer_id": "vishalbagal",
+    "farmer_plot_ids": [
+      "plotno1476",
+      "plotno2199"
+    ],
+    "conversation_id": "67efe85a014b33e524534865",
+    "_id": "67efe85a014b33e524534865",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-04T14:15:35.118000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-04T14:10:35.112000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "43 દિવેસ ટેટી માં કયું ખાતર નાખવું",
+        "en": "43 What fertilizer to put in the divis teti",
+        "timestamp": {
+          "$date": "2025-04-04T13:03:06.887Z"
+        },
+        "standalone_question": "What fertilizer should I use for 43 days old plants?",
+        "standalone_en": "What fertilizer should I use for 43 days old plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "43 dives tatty man kayu khatar nakhavun"
+      },
+      {
+        "role": "assistant",
+        "content": "આજે 4 એપ્રિલ 2025 છે, અને તમારું પાક \"મસ્કમેલોન\" હાલ \"ફ્લાવરિંગ અને ફ્રુટિંગ\" તબક્કામાં છે. આ તબક્કામાં, 43 દિવસમાં (અર્થાત 27 એપ્રિલ 2025) નીચેના ખાતરોનો ઉપયોગ કરવો જોઈએ:\n\n### 1. **ફોલિયર પદ્ધતિ દ્વારા:**\n- **સોલુબોર**: 500 ગ્રામ/એકર\n\n### 2. **ફર્ટિગેશન પદ્ધતિ દ્વારા:**\n- **પ્રથમ દિવસ (27 એપ્રિલ)**:\n  - **પોટેશિયમ નાઇટ્રેટ**: 1 કિલોગ્રામ/એકર\n  - **યૂરિયા**: 2.5 કિલોગ્રામ/એકર\n  - અથવા\n  - **યૂરિયા**: 3 કિલોગ્રામ/એકર\n  - **સલ્ફેટ ઓફ પોટાશ**: 1.5 કિલોગ્રામ/એકર\n\n- **ચોથા દિવસ (30 એપ્રિલ)**:\n  - **12-61-0**: 2 કિલોગ્રામ/એકર\n  - **યૂરિયા**: 2.5 કિલોગ્રામ/એકર\n  - **કેલ્શિયમ નાઇટ્રેટ**: 3 કિલોગ્રામ/એકર\n  - અથવા\n  - **24-24-0**: 6 કિલોગ્રામ/એકર\n  - **કેલ્શિયમ નાઇટ્રેટ**: 3 કિલોગ્રામ/એકર\n\nઆ ખાતરોનો ઉપયોગ કરીને, તમે તમારા પાકની વૃદ્ધિ અને ઉત્પાદનને સુધારી શકો છો.",
+        "en": "Today is April 4, 2025, and your crop \"Muskmelon\" is currently in the \"flowering and fruiting\" stage. In this phase, the following fertilizers should be used in 43 days (i.e. 27 April 2025):\n\n### 1. **By foliar method:**\n**Solubor**: 500 g/acre\n\n### 2. **By fertigation method:**\n* **First day (April 27)**:\n  * **Potassium Nitrate**: 1 kg/acre\n  * **urea**: 2.5 kg/acre\n  -or\n  * **urea**: 3 kg/acre\n  **Sulphate of Potash**: 1.5 kg/acre\n\n- **Fourth day (April 30)**:\n  **12-61-0**: 2 kg/acre\n  * **urea**: 2.5 kg/acre\n  **Calcium nitrate**: 3 kg/acre\n  -or\n  **24-24-0**: 6 kg/acre\n  **Calcium nitrate**: 3 kg/acre\n\nBy using these fertilizers, you can improve the growth and production of your crop.",
+        "timestamp": {
+          "$date": "2025-04-04T13:03:17.168Z"
+        }
+      }
+    ],
+    "farmer_id": "anilkumarprabhujiparmar",
+    "farmer_plot_ids": [
+      "tetivaloplot"
+    ],
+    "conversation_id": "67efd88a1417c4d9cc1eb955",
+    "_id": "67efd88a1417c4d9cc1eb955",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-04T13:08:06.894000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-04T13:03:06.887000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kinnow spray for fruit drop ",
+        "en": "Kinnow spray for fruit drop ",
+        "timestamp": {
+          "$date": "2025-04-04T10:17:54.928Z"
+        },
+        "standalone_question": "What is the purpose of using Kinnow spray to prevent fruit drop?",
+        "standalone_en": "What is the purpose of using Kinnow spray to prevent fruit drop?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "There are no scheduled sprays for the Kinnow plot regarding fruit drop from April 1 to April 4. If you notice any issues, consider monitoring the plants closely and consult further if necessary.",
+        "en": "There are no scheduled sprays for the Kinnow plot regarding fruit drop from April 1 to April 4. If you notice any issues, consider monitoring the plants closely and consult further if necessary.",
+        "timestamp": {
+          "$date": "2025-04-04T10:17:58.691Z"
+        }
+      }
+    ],
+    "farmer_id": "mohaansinghmaan",
+    "farmer_plot_ids": [
+      "kinnowplot537"
+    ],
+    "conversation_id": "67efb1d22756392a055c0806",
+    "_id": "67efb1d22756392a055c0806",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-04T10:22:54.935000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-04-04T10:17:54.928000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "13 0 45 को ड्रिप इरीगेशन से दे सकते है क्या",
+        "en": "Can 13 0 45 be given through drip irrigation?",
+        "timestamp": {
+          "$date": "2025-04-04T10:14:57.360Z"
+        },
+        "standalone_question": "Can we provide 13 0 45 through drip irrigation?",
+        "standalone_en": "Can we provide 13 0 45 through drip irrigation?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "13 0 45 ko drip irrigation se de sakte hai kya"
+      },
+      {
+        "role": "assistant",
+        "content": "आप \"4 acres kinnow plot\" में ड्रिप इरीगेशन से पानी दे सकते हैं। वर्तमान में मिट्टी की नमी 24% और 25% है, जबकि आदर्श नमी 60% है। इसलिए, आप पानी दे सकते हैं।",
+        "en": "You can water with drip irrigation in the \"4 acres kinnow plot\". Currently the soil moisture is 24% and 25%, while the ideal moisture is 60%. Therefore, you can water.",
+        "timestamp": {
+          "$date": "2025-04-04T10:15:01.462Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Nhi fertilizer 13 04 45 ko drip se de sakte h ",
+        "en": "Nhi fertilizer 13 04 45 body drip is two pure h ",
+        "timestamp": {
+          "$date": "2025-04-04T10:15:44.509Z"
+        },
+        "standalone_question": "Can fertilizer be applied through drip irrigation on the 13 0 45 date?",
+        "standalone_en": "Can fertilizer be applied through drip irrigation on the 13 0 45 date?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available.",
+            "Q: Can I generate a fertigation schedule without soil, leaf, or petiole data?\nA: Yes, you can generate a basic fertigation schedule without specific soil, leaf, or petiole data. Fyllo will create a general schedule based on typical crop needs and soil types for your region.",
+            "Q: Where can I find the fertigation schedule in the Fyllo app?\nA: To access the fertigation schedule:\n    1. Open the Fyllo app\n    2. Select \"My Farm\" at the bottom\n    3. Tap on the \"Fertigation\" option\n   You'll find the fertigation schedule there, including details about the required fertilizer applications."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आप \"4 acres kinnow plot\" में 13 अप्रैल 2025 को ड्रिप इरीगेशन से निम्नलिखित फर्टिगेशन कर सकते हैं:\n\n### फर्टिगेशन विवरण:\n- **फसल चरण**: प्रारंभिक फल विकास (Early Fruit Growth)\n- **सप्ताह**: 4\n\n#### फर्टिलाइज़र वितरण विकल्प:\n1. **विकल्प 1**:\n   - **12-61-0**: 9 किलोग्राम\n   - **Urea**: 2.5 किलोग्राम\n   - **Magnesium Sulphate**: 6.5 किलोग्राम\n\n2. **विकल्प 2**:\n   - **24-24-0**: 9 किलोग्राम\n   - **Phosphoric acid 80%**: 5 किलोग्राम\n   - **Magnesium Sulphate**: 6.5 किलोग्राम\n\n3. **विकल्प 3**:\n   - **Urea**: 5 किलोग्राम\n   - **Phosphoric acid 80%**: 7.5 किलोग्राम\n   - **Magnesium Sulphate**: 6.5 किलोग्राम\n\n**नोट**: फास्फोरिक एसिड को अन्य उर्वरकों के आवेदन से 15-20 मिनट पहले अलग से लागू करना चाहिए।\n\nआप इस दिन ड्रिप इरीगेशन से फर्टिगेशन कर सकते हैं।",
+        "en": "You can do the following fertigation with drip irrigation on 13 April 2025 in the \"4 acres kinnow plot\":\n\n### Fertigation Description:\n- Crop Stage: Early Fruit Growth\n- **Weeks**: 4\n\n#### Fertilizer Distribution Options:\n1. **Option 1**:\n   - **12-61-0**: 9 Kilograms\n   - Urea: 2.5 kg\n   - Magnesium Sulphate: 6.5 kilograms\n\n2. **Option 2**:\n   - **24-24-0**: 9 Kilograms\n   - Phosphoric acid 80%: 5 kilograms\n   - Magnesium Sulphate: 6.5 kilograms\n\n3. **Option 3**:\n   - Urea: 5 kilograms\n   - Phosphoric acid 80%: 7.5 kg\n   - Magnesium Sulphate: 6.5 kilograms\n\n**Note**: Phosphoric acid should be applied separately 15-20 minutes before the application of other fertilizers.\n\nYou can fertilize with drip irrigation on this day.",
+        "timestamp": {
+          "$date": "2025-04-04T10:15:53.769Z"
+        }
+      }
+    ],
+    "farmer_id": "ankitmalelthia",
+    "farmer_plot_ids": [
+      "4acrskinnowplot"
+    ],
+    "conversation_id": "67efb1210e3a112f97acc57d",
+    "_id": "67efb1210e3a112f97acc57d",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-04T10:20:44.517000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-04T10:14:57.360000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Steps and fertilizer details for bavk pruning",
+        "en": "Steps and fertilizer details for bavk pruning",
+        "timestamp": {
+          "$date": "2025-04-04T09:58:41.993Z"
+        },
+        "standalone_question": "What are the steps and fertilizer details for back pruning?",
+        "standalone_en": "What are the steps and fertilizer details for back pruning?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For the Foundation Pruning stage of your grape crop in **plot no 7**, here are the steps and fertilizer details:\n\n### Fertilizer Requirements for Foundation Pruning (Week 1)\n\n1. **Farmyard Manure (FYM)**: 5000 kg/acre\n2. **Magnesium Sulphate**: 9.5 kg/acre\n3. **Elemental Sulphur**: 78 kg/acre\n4. **Fertilizer Options**:\n   - **Option 1**: \n     - 10-26-26: 61.5 kg/acre\n   - **Option 2**: \n     - 12-32-16: 50 kg/acre\n     - Muriate of Potash: 13.5 kg/acre\n   - **Option 3**: \n     - Ammonium Sulphate: 28.5 kg/acre\n     - Single Superphosphate: 100 kg/acre\n     - Sulfate of Potash: 32 kg/acre\n\n### Notes:\n- Ensure to apply the fertilizers evenly across the plot.\n- Monitor the crop's response to the fertilizers and adjust as necessary.\n\nIf you have any further questions or need assistance, feel free to ask!",
+        "en": "For the Foundation Pruning stage of your grape crop in **plot no 7**, here are the steps and fertilizer details:\n\n### Fertilizer Requirements for Foundation Pruning (Week 1)\n\n1. **Farmyard Manure (FYM)**: 5000 kg/acre\n2. **Magnesium Sulphate**: 9.5 kg/acre\n3. **Elemental Sulphur**: 78 kg/acre\n4. **Fertilizer Options**:\n   - **Option 1**: \n     - 10-26-26: 61.5 kg/acre\n   - **Option 2**: \n     - 12-32-16: 50 kg/acre\n     - Muriate of Potash: 13.5 kg/acre\n   - **Option 3**: \n     - Ammonium Sulphate: 28.5 kg/acre\n     - Single Superphosphate: 100 kg/acre\n     - Sulfate of Potash: 32 kg/acre\n\n### Notes:\n- Ensure to apply the fertilizers evenly across the plot.\n- Monitor the crop's response to the fertilizers and adjust as necessary.\n\nIf you have any further questions or need assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-04-04T09:58:48.859Z"
+        }
+      }
+    ],
+    "farmer_id": "shreeshailgoudapatil",
+    "farmer_plot_ids": [
+      "plotno6792",
+      "plotno7454"
+    ],
+    "conversation_id": "67efad510e3a112f97acc57c",
+    "_id": "67efad510e3a112f97acc57c",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-04T10:03:42Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-04T09:58:41.993000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "सर यह फर्टिलाइजर शेड्यूल में प्रति हेक्टेयर की मात्रा बताता है या चार केले की",
+        "en": "Sir, does this indicate the quantity per hectare in the fertilizer schedule or four bananas?",
+        "timestamp": {
+          "$date": "2025-04-04T09:41:56.716Z"
+        },
+        "standalone_question": "Does this fertilizer schedule indicate the amount per hectare or per four banana plants?",
+        "standalone_en": "Does this fertilizer schedule indicate the amount per hectare or per four banana plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "sar yah fertilizer schedule mein prati hectare ke matra batata hai ya char kele ki"
+      },
+      {
+        "role": "assistant",
+        "content": "फर्टिलाइजर शेड्यूल आमतौर पर प्रति हेक्टेयर की मात्रा बताता है। यदि आपको अपने 4 एकड़ के प्लॉट के लिए विशेष मात्रा की जानकारी चाहिए, तो मैं आपको सही जानकारी प्रदान कर सकता हूँ।",
+        "en": "The fertilizer schedule usually states the amount per hectare. If you need a particular amount of information for your 4 acre plot, I can provide you with the right information.",
+        "timestamp": {
+          "$date": "2025-04-04T09:42:00.965Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "अभी करंट शेड्यूल वीक थर्ड में टोटल 4 किले में कितने फर्टिलाइजर गिरेगा",
+        "en": "How much fertilizer will fall in a total of 4 forts in the current schedule week third?",
+        "timestamp": {
+          "$date": "2025-04-04T09:43:20.060Z"
+        },
+        "standalone_question": "How much fertilizer will be applied in total for 4 acres in the current schedule for week three?",
+        "standalone_en": "How much fertilizer will be applied in total for 4 acres in the current schedule for week three?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\".",
+            "get_specific_fertigation_requirements  \nFinds the fertigation requirements for the plots with a particular crop stage and week numbers."
+          ],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: If I don't add any test data, what is the basis for the generated fertigation schedule?\nA: When no specific test data is provided, Fyllo generates a basic fertigation schedule based on:\n\n    1. Typical nutrient needs for your crop type\n    2. General soil characteristics common in your region\n    3. Standard growing practices for your area\n    This schedule provides a starting point, but may not be as precise as one based on specific test data."
+          ]
+        },
+        "content_transliterated": "abhi current schedule week third mein total 4 kile mein kitne fertilizer girega"
+      },
+      {
+        "role": "assistant",
+        "content": "आपके 4 एकड़ के kinnow प्लॉट के लिए, वर्तमान फर्टिलाइजर शेड्यूल (तीसरे सप्ताह) में निम्नलिखित फर्टिलाइज़र की मात्रा है:\n\n1. **Potassium Nitrate**: 5 किलोग्राम\n2. **Urea**: 8.5 किलोग्राम\n\nया\n\n1. **Urea**: 9.5 किलोग्राम\n2. **Sulfate of Potash**: 4.5 किलोग्राम\n\nआप इन दोनों संयोजनों में से किसी एक का चयन कर सकते हैं। \n\nकुल मिलाकर, यदि आप पहले संयोजन का उपयोग करते हैं, तो आपको 5 किलोग्राम + 8.5 किलोग्राम = 13.5 किलोग्राम फर्टिलाइज़र की आवश्यकता होगी। \n\nयदि आप दूसरे संयोजन का उपयोग करते हैं, तो आपको 9.5 किलोग्राम + 4.5 किलोग्राम = 14 किलोग्राम फर्टिलाइज़र की आवश्यकता होगी। \n\nआपकी फसल के लिए यह फर्टिलाइज़र की मात्रा प्रति हेक्टेयर है, इसलिए इसे 4 एकड़ के लिए समायोजित करें।",
+        "en": "For your 4-acre kinnow plot, the current fertilizer schedule (3rd week) contains the following fertilizer quantities:\n\n1. Potassium Nitrate: 5 kilograms\n2. **Urea**: 8.5 Kg\n\nor\n\n1. Urea: 9.5 Kilograms\n2. Sulfate of Potash: 4.5 kg\n\nYou can choose either of these two combinations. \n\nIn total, if you use the first combination, you will need 5 kg + 8.5 kg = 13.5 kg of fertilizer. \n\nIf you use the second combination, you will need 9.5 kg + 4.5 kg = 14 kg of fertilizer. \n\nThis is the amount of fertilizer per hectare for your crop, so adjust it for 4 acres.",
+        "timestamp": {
+          "$date": "2025-04-04T09:43:27.099Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "इस कीड़े के लिए क्या डालें जो फोटो में दिखाई दे रहा है<user uploaded image for analysis at '4acrskinnowplot/2025-04-04-1743759932007.jpg'>",
+        "en": "What to put for this worm that is visible in the photo<user uploaded image for analysis at '4acrskinnowplot/2025-04-04-1743759932007.jpg'>",
+        "timestamp": {
+          "$date": "2025-04-04T09:45:52.396Z"
+        },
+        "standalone_question": "What should I use for the pest shown in the uploaded photo?",
+        "standalone_en": "What should I use for the pest shown in the uploaded photo?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is the pest prediction?\nA: Check the all pest predictions relevant. We support Aphids, Banana aphids, Bihar hairy caterpillar, Broad mites, Brown plant hopper, Capsule borer, Caterpillar,\n   Citrus Psylla, Cut worm, Early shoot borer, European red mites, Flat mites, Flea Beetle, Flea beetle, Fruit Borer,\n   Fruit Fly, Fruit borer, Fruit fly, Green aphids, Hispa beetle, Jassids, Leaf eating caterpillar, Leaf folder, Leaf miner,\n   Leaf roller, Mango hopper, Mealy Bug, Mealy bug, Mealybug, Mites, Perianth mites, Pin worm, Pink bollworm,\n   Pseudostem weevil, Red Spider Mites, Red palm weevil, Red spider mites, Rhinoceros beetle, Rhizome weevil, Root Grubs,\n   Root knot nematode, Rugose spiraling whitefly, Rust mites, Rust thrips, Scale Insects, Scale insects, Scarring beetle,\n   Shoot borer, Skipper, Spiraling whitefly, Spodoptera, Stem Borer, Stem borer, Striped beetle, Striped cucumber beetle,\n   Tea Mosquitto Bug, Tea mosquitto bug, Termite, Thrips, White Fly, White fly, Whitefly, and Wooly aphids."
+          ]
+        },
+        "content_transliterated": "is keede ke liye kya dalen jo photo mein dikhai de raha hai<user uploaded image for analysis at '4acrskinnowplot/2025-04-04-1743759932007.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "फोटो में दिखाई दे रहे कीड़े के लिए, आपकी फसल की सुरक्षा के लिए निम्नलिखित सुझाव दिए गए हैं:\n\n1. **पीले चिपचिपे जाल लगाएं**: प्रति एकड़ 25 से 30 जाल लगाएं ताकि कीट जनसंख्या की निगरानी और नियंत्रण किया जा सके।\n\nयह उपाय कीट समस्या को प्रभावी ढंग से प्रबंधित करने में मदद करेगा। सुनिश्चित करें कि आप नियमित रूप से जाल की जांच करें और यदि आवश्यक हो तो आगे की कार्रवाई करें। यदि आपके पास और प्रश्न हैं या अधिक सहायता की आवश्यकता है, तो बेझिझक पूछें!",
+        "en": "As for the insects seen in the photo, the following tips are given to protect your crop:\n\n1. **Install yellow sticky nets**: Plant 25 to 30 nets per acre so that pest populations can be monitored and controlled.\n\nThis measure will help manage the pest problem effectively. Make sure you check the traps regularly and take further action if necessary. If you have further questions or need more help, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-04-04T09:46:24.436Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "इस कीड़े के लिए स्प्रे करें या नहीं करें",
+        "en": "Spray or not to spray for this insect",
+        "timestamp": {
+          "$date": "2025-04-04T09:47:26.107Z"
+        },
+        "standalone_question": "Should I spray for this insect or not?",
+        "standalone_en": "Should I spray for this insect or not?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice."
+          ]
+        },
+        "content_transliterated": "is keede ke liye spray karen ya nahi karen"
+      },
+      {
+        "role": "assistant",
+        "content": "आज के लिए कीटों के स्प्रे की कोई अनुसूची नहीं है। यदि आपने पहले ही स्प्रे किया है और कीटों की समस्या बनी हुई है, तो कुछ दिनों का इंतजार करें। यदि फिर भी स्प्रे की सिफारिश की जाती है, तो फिर से स्प्रे करें।",
+        "en": "There is no schedule for insect sprays for today. If you have already sprayed and pests persist, wait a few days. If still the spray is recommended, spray again.",
+        "timestamp": {
+          "$date": "2025-04-04T09:47:32.104Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पेट के ऊपर जो बैठे कीड़े हैं उसका क्या इलाज करें<user uploaded image for analysis at '4acrskinnowplot/2025-04-04-1743760104816.jpg'>",
+        "en": "How to treat worms sitting on top of the stomach<user uploaded image for analysis at '4acrskinnowplot/2025-04-04-1743760104816.jpg'>",
+        "timestamp": {
+          "$date": "2025-04-04T09:48:47.427Z"
+        },
+        "standalone_question": "What treatment should be applied for the insects sitting on the top of the stomach?",
+        "standalone_en": "What treatment should be applied for the insects sitting on the top of the stomach?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed"
+          ]
+        },
+        "content_transliterated": "pet ke ooper jo baithe kide hain uska kya ilaaj karen<user uploaded image for analysis at '4acrskinnowplot/2025-04-04-1743760104816.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "फोटो में दिखाई दे रहे कीड़ों के लिए, निम्नलिखित उपाय किए जा सकते हैं:\n\n1. **इंसेक्टिसाइडल साबुन**: यह नरम शरीर वाले कीड़ों को नियंत्रित करने में मदद कर सकता है।\n2. **नीम का तेल**: यह एक प्राकृतिक कीटनाशक है जो विभिन्न कीटों को दूर कर सकता है।\n3. **नियमित निगरानी**: पौधों पर किसी भी आगे की कीट गतिविधि के संकेतों के लिए ध्यान रखें।\n\nसर्वश्रेष्ठ परिणामों के लिए, स्थानीय कृषि विशेषज्ञ या एक्सटेंशन सेवा से परामर्श करना भी अच्छा रहेगा। यदि आपके पास और प्रश्न हैं, तो बेझिझक पूछें!",
+        "en": "For insects visible in the photo, the following measures can be taken:\n\n1. Insecticidal soap: It can help control soft-bodied insects.\n2. Neem Oil: It is a natural insecticide that can repel various pests.\n3. Regular monitoring: Watch out for signs of any further pest activity on plants.\n\nFor best results, it is also a good idea to consult a local agronomist or extension service. If you have further questions, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-04-04T09:49:07.848Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "किन्नू की फ्लोरिंग काम है इसके लिए क्या करें",
+        "en": "What to do for kinnow flooring work?",
+        "timestamp": {
+          "$date": "2025-04-04T09:50:45.888Z"
+        },
+        "standalone_question": "What should be done for the flooring work of kinnow?",
+        "standalone_en": "What should be done for the flooring work of kinnow?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kinnu ki flooring kaam hai iske liye kya karen"
+      },
+      {
+        "role": "assistant",
+        "content": "किन्नू की फ्लोरिंग के लिए निम्नलिखित कदम उठाए जा सकते हैं:\n\n1. **सही समय का चयन**: किन्नू की फ्लोरिंग का सबसे अच्छा समय आमतौर पर फूल आने के बाद होता है। यह सुनिश्चित करें कि फल का आकार सही हो।\n\n2. **फ्लोरिंग तकनीक**: \n   - **हाथ से फ्लोरिंग**: फल को धीरे से तोड़ें ताकि शाखाएँ न टूटें।\n   - **मशीन से फ्लोरिंग**: यदि आपके पास मशीन है, तो इसे सही तरीके से संचालित करें।\n\n3. **सफाई**: फ्लोरिंग के बाद, फलों को साफ करें और किसी भी खराब फल को हटा दें।\n\n4. **संग्रहण**: फल को ठंडी और सूखी जगह पर संग्रहित करें ताकि वे लंबे समय तक ताजे रहें।\n\n5. **निगरानी**: फ्लोरिंग के बाद फसल की नियमित निगरानी करें ताकि किसी भी कीट या रोग का समय पर उपचार किया जा सके।\n\nयदि आपको और जानकारी या सहायता की आवश्यकता है, तो बेझिझक पूछें!",
+        "en": "The following steps can be taken for the flooring of kinnow:\n\n1. Choosing the right time: The best time for flooring kinnow is usually after flowering. Make sure that the size of the fruit is correct.\n\n2. **Flooring Technique**: \n   - **Flooring by hand**: Gently break the fruit so that the branches do not break.\n   - **Flooring by machine**: If you have a machine, operate it correctly.\n\n3. **Cleaning**: After flooring, clean the fruit and remove any spoiled fruit.\n\n4. Storage: Store the fruits in a cool and dry place so that they stay fresh for a long time.\n\n5. Monitoring: Monitor the crop regularly after flowering so that any pest or disease can be treated on time.\n\nIf you need further information or assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-04-04T09:50:52.768Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पौधों की फ्लोरिंग नहीं आई है",
+        "en": "The plants have not been floored",
+        "timestamp": {
+          "$date": "2025-04-04T09:52:14.295Z"
+        },
+        "standalone_question": "What should be done if the plants have not flowered?",
+        "standalone_en": "What should be done if the plants have not flowered?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "paudhon ki flooring nahi aayee hai"
+      },
+      {
+        "role": "assistant",
+        "content": "यदि किन्नू के पौधों की फ्लोरिंग नहीं आई है, तो निम्नलिखित कारणों की जांच करें और उपाय करें:\n\n1. **जलवायु और मौसम**: सुनिश्चित करें कि तापमान और आर्द्रता किन्नू के लिए अनुकूल हैं। अत्यधिक गर्मी या ठंड फ्लोरिंग को प्रभावित कर सकती है।\n\n2. **पोषण**: पौधों को उचित पोषण मिल रहा है या नहीं, इसकी जांच करें। नाइट्रोजन, फास्फोरस और पोटेशियम की सही मात्रा सुनिश्चित करें।\n\n3. **पानी**: पौधों को पर्याप्त पानी मिल रहा है या नहीं, इसकी निगरानी करें। सूखे या अत्यधिक पानी से पौधों की वृद्धि प्रभावित हो सकती है।\n\n4. **कीट और रोग**: पौधों पर किसी भी कीट या रोग के संकेतों की जांच करें। यदि कोई समस्या है, तो उचित कीटनाशक या फफूंदनाशक का उपयोग करें।\n\n5. **फसल प्रबंधन**: पौधों की सही छंटाई और प्रबंधन सुनिश्चित करें ताकि वे स्वस्थ रहें और फ्लोरिंग के लिए तैयार हों।\n\nयदि समस्या बनी रहती है, तो स्थानीय कृषि विशेषज्ञ से परामर्श करना अच्छा रहेगा।",
+        "en": "If the flooring of kinnow plants has not come, check for the following causes and take measures:\n\n1. Climate and Weather: Make sure the temperature and humidity are conducive to kinnow. Excessive heat or cold can affect the flooring.\n\n2. Nutrition: Check if the plants are getting proper nutrition. Ensure the right amount of nitrogen, phosphorus and potassium.\n\n3. Watering: Monitor whether the plants are getting enough water. Drought or excessive watering can affect the growth of plants.\n\n4. Pests and Diseases: Check for signs of any pests or diseases on plants. If there is a problem, use the appropriate insecticide or fungicide.\n\n5. Crop Management: Ensure proper pruning and management of plants so that they remain healthy and ready for flooring.\n\nIf the problem persists, it is a good idea to consult a local agronomist.",
+        "timestamp": {
+          "$date": "2025-04-04T09:52:20.439Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पौधों पर कालापन आ गया है इसका क्या इलाजकरें<user uploaded image for analysis at '4acrskinnowplot/2025-04-04-1743760436354.jpg'>",
+        "en": "What to do to treat blackened plants<user uploaded image for analysis at '4acrskinnowplot/2025-04-04-1743760436354.jpg'>",
+        "timestamp": {
+          "$date": "2025-04-04T09:53:58.283Z"
+        },
+        "standalone_question": "What treatment should be applied for the blackening on the plants?",
+        "standalone_en": "What treatment should be applied for the blackening on the plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are the important diseases occur during seedling stage and control measures?\nA: Collar rot, Damping off, Seedling blight diseases infect during seedling stage.\nDrench/spray seedling with: Carbendazim @ 2.5g/ltr",
+            "Q: How to improve the germination percent\nA: Use of good quality seeds and seeds to be treated with insecticide, Fungicide and biological agents"
+          ]
+        },
+        "content_transliterated": "paudhon par kalapan aa gaya hai iska kya ilajakaren<user uploaded image for analysis at '4acrskinnowplot/2025-04-04-1743760436354.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "फोटो में दिखाई दे रहे पौधों पर कालापन आमतौर पर फफूंद या अन्य रोगों के कारण हो सकता है। इसके लिए निम्नलिखित उपाय करें:\n\n1. **फफूंदनाशक का उपयोग**: \n   - **कार्बेंडाज़िम**: 2.5 ग्राम प्रति लीटर पानी में मिलाकर पौधों पर छिड़काव करें। यह फफूंद जनित रोगों को नियंत्रित करने में मदद करेगा।\n\n2. **सफाई**: प्रभावित पत्तियों को हटा दें ताकि रोग फैलने से रोका जा सके।\n\n3. **सही जल निकासी**: सुनिश्चित करें कि पौधों की जड़ें पानी में न डूबें, क्योंकि अधिक नमी फफूंद के विकास को बढ़ावा देती है।\n\n4. **नियमित निगरानी**: पौधों की नियमित निगरानी करें और किसी भी अन्य रोग या कीट के संकेतों के लिए ध्यान दें।\n\nयदि समस्या बनी रहती है, तो स्थानीय कृषि विशेषज्ञ से परामर्श करना अच्छा रहेगा।",
+        "en": "The blackening of the plants seen in the photo can usually be caused by fungus or other diseases. For this, take the following measures:\n\n1. Use of fungicides: \n   - Carbendazim : Mix 2.5 grams per liter of water and spray on the plants. This will help in controlling fungal diseases.\n\n2. Cleaning: Remove the affected leaves to prevent the disease from spreading.\n\n3. Correct drainage: Make sure that the roots of the plants do not sink into the water, as excess moisture promotes the growth of the fungus.\n\n4. Regular monitoring: Monitor the plants regularly and watch out for any other disease or pest signs.\n\nIf the problem persists, it is a good idea to consult a local agronomist.",
+        "timestamp": {
+          "$date": "2025-04-04T09:54:07.341Z"
+        }
+      }
+    ],
+    "farmer_id": "ankitmalelthia",
+    "farmer_plot_ids": [
+      "4acrskinnowplot"
+    ],
+    "conversation_id": "67efa96401413eb3af318290",
+    "_id": "67efa96401413eb3af318290",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-04T09:58:58.292000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-04T09:41:56.716000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "सर यह फर्टिलाइजर शेड्यूल में प्रति हेक्टेयर की मात्रा बताता है या चार केले की",
+        "en": "Sir, does this indicate the quantity per hectare in the fertilizer schedule or four bananas?",
+        "timestamp": {
+          "$date": "2025-04-04T09:41:56.716Z"
+        },
+        "standalone_question": "Does this fertilizer schedule indicate the amount per hectare or per four banana plants?",
+        "standalone_en": "Does this fertilizer schedule indicate the amount per hectare or per four banana plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "sar yah fertilizer schedule mein prati hectare ke matra batata hai ya char kele ki"
+      },
+      {
+        "role": "assistant",
+        "content": "फर्टिलाइजर शेड्यूल आमतौर पर प्रति हेक्टेयर की मात्रा बताता है। यदि आपको अपने 4 एकड़ के प्लॉट के लिए विशेष मात्रा की जानकारी चाहिए, तो मैं आपको सही जानकारी प्रदान कर सकता हूँ।",
+        "en": "The fertilizer schedule usually states the amount per hectare. If you need a particular amount of information for your 4 acre plot, I can provide you with the right information.",
+        "timestamp": {
+          "$date": "2025-04-04T09:42:00.965Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "अभी करंट शेड्यूल वीक थर्ड में टोटल 4 किले में कितने फर्टिलाइजर गिरेगा",
+        "en": "How much fertilizer will fall in a total of 4 forts in the current schedule week third?",
+        "timestamp": {
+          "$date": "2025-04-04T09:43:20.060Z"
+        },
+        "standalone_question": "How much fertilizer will be applied in total for 4 acres in the current schedule for week three?",
+        "standalone_en": "How much fertilizer will be applied in total for 4 acres in the current schedule for week three?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\".",
+            "get_specific_fertigation_requirements  \nFinds the fertigation requirements for the plots with a particular crop stage and week numbers."
+          ],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: If I don't add any test data, what is the basis for the generated fertigation schedule?\nA: When no specific test data is provided, Fyllo generates a basic fertigation schedule based on:\n\n    1. Typical nutrient needs for your crop type\n    2. General soil characteristics common in your region\n    3. Standard growing practices for your area\n    This schedule provides a starting point, but may not be as precise as one based on specific test data."
+          ]
+        },
+        "content_transliterated": "abhi current schedule week third mein total 4 kile mein kitne fertilizer girega"
+      },
+      {
+        "role": "assistant",
+        "content": "आपके 4 एकड़ के kinnow प्लॉट के लिए, वर्तमान फर्टिलाइजर शेड्यूल (तीसरे सप्ताह) में निम्नलिखित फर्टिलाइज़र की मात्रा है:\n\n1. **Potassium Nitrate**: 5 किलोग्राम\n2. **Urea**: 8.5 किलोग्राम\n\nया\n\n1. **Urea**: 9.5 किलोग्राम\n2. **Sulfate of Potash**: 4.5 किलोग्राम\n\nआप इन दोनों संयोजनों में से किसी एक का चयन कर सकते हैं। \n\nकुल मिलाकर, यदि आप पहले संयोजन का उपयोग करते हैं, तो आपको 5 किलोग्राम + 8.5 किलोग्राम = 13.5 किलोग्राम फर्टिलाइज़र की आवश्यकता होगी। \n\nयदि आप दूसरे संयोजन का उपयोग करते हैं, तो आपको 9.5 किलोग्राम + 4.5 किलोग्राम = 14 किलोग्राम फर्टिलाइज़र की आवश्यकता होगी। \n\nआपकी फसल के लिए यह फर्टिलाइज़र की मात्रा प्रति हेक्टेयर है, इसलिए इसे 4 एकड़ के लिए समायोजित करें।",
+        "en": "For your 4-acre kinnow plot, the current fertilizer schedule (3rd week) contains the following fertilizer quantities:\n\n1. Potassium Nitrate: 5 kilograms\n2. **Urea**: 8.5 Kg\n\nor\n\n1. Urea: 9.5 Kilograms\n2. Sulfate of Potash: 4.5 kg\n\nYou can choose either of these two combinations. \n\nIn total, if you use the first combination, you will need 5 kg + 8.5 kg = 13.5 kg of fertilizer. \n\nIf you use the second combination, you will need 9.5 kg + 4.5 kg = 14 kg of fertilizer. \n\nThis is the amount of fertilizer per hectare for your crop, so adjust it for 4 acres.",
+        "timestamp": {
+          "$date": "2025-04-04T09:43:27.099Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "इस कीड़े के लिए क्या डालें जो फोटो में दिखाई दे रहा है<user uploaded image for analysis at '4acrskinnowplot/2025-04-04-1743759932007.jpg'>",
+        "en": "What to put for this worm that is visible in the photo<user uploaded image for analysis at '4acrskinnowplot/2025-04-04-1743759932007.jpg'>",
+        "timestamp": {
+          "$date": "2025-04-04T09:45:52.396Z"
+        },
+        "standalone_question": "What should I use for the pest shown in the uploaded photo?",
+        "standalone_en": "What should I use for the pest shown in the uploaded photo?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is the pest prediction?\nA: Check the all pest predictions relevant. We support Aphids, Banana aphids, Bihar hairy caterpillar, Broad mites, Brown plant hopper, Capsule borer, Caterpillar,\n   Citrus Psylla, Cut worm, Early shoot borer, European red mites, Flat mites, Flea Beetle, Flea beetle, Fruit Borer,\n   Fruit Fly, Fruit borer, Fruit fly, Green aphids, Hispa beetle, Jassids, Leaf eating caterpillar, Leaf folder, Leaf miner,\n   Leaf roller, Mango hopper, Mealy Bug, Mealy bug, Mealybug, Mites, Perianth mites, Pin worm, Pink bollworm,\n   Pseudostem weevil, Red Spider Mites, Red palm weevil, Red spider mites, Rhinoceros beetle, Rhizome weevil, Root Grubs,\n   Root knot nematode, Rugose spiraling whitefly, Rust mites, Rust thrips, Scale Insects, Scale insects, Scarring beetle,\n   Shoot borer, Skipper, Spiraling whitefly, Spodoptera, Stem Borer, Stem borer, Striped beetle, Striped cucumber beetle,\n   Tea Mosquitto Bug, Tea mosquitto bug, Termite, Thrips, White Fly, White fly, Whitefly, and Wooly aphids."
+          ]
+        },
+        "content_transliterated": "is keede ke liye kya dalen jo photo mein dikhai de raha hai<user uploaded image for analysis at '4acrskinnowplot/2025-04-04-1743759932007.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "फोटो में दिखाई दे रहे कीड़े के लिए, आपकी फसल की सुरक्षा के लिए निम्नलिखित सुझाव दिए गए हैं:\n\n1. **पीले चिपचिपे जाल लगाएं**: प्रति एकड़ 25 से 30 जाल लगाएं ताकि कीट जनसंख्या की निगरानी और नियंत्रण किया जा सके।\n\nयह उपाय कीट समस्या को प्रभावी ढंग से प्रबंधित करने में मदद करेगा। सुनिश्चित करें कि आप नियमित रूप से जाल की जांच करें और यदि आवश्यक हो तो आगे की कार्रवाई करें। यदि आपके पास और प्रश्न हैं या अधिक सहायता की आवश्यकता है, तो बेझिझक पूछें!",
+        "en": "As for the insects seen in the photo, the following tips are given to protect your crop:\n\n1. **Install yellow sticky nets**: Plant 25 to 30 nets per acre so that pest populations can be monitored and controlled.\n\nThis measure will help manage the pest problem effectively. Make sure you check the traps regularly and take further action if necessary. If you have further questions or need more help, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-04-04T09:46:24.436Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "इस कीड़े के लिए स्प्रे करें या नहीं करें",
+        "en": "Spray or not to spray for this insect",
+        "timestamp": {
+          "$date": "2025-04-04T09:47:26.107Z"
+        },
+        "standalone_question": "Should I spray for this insect or not?",
+        "standalone_en": "Should I spray for this insect or not?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice."
+          ]
+        },
+        "content_transliterated": "is keede ke liye spray karen ya nahi karen"
+      },
+      {
+        "role": "assistant",
+        "content": "आज के लिए कीटों के स्प्रे की कोई अनुसूची नहीं है। यदि आपने पहले ही स्प्रे किया है और कीटों की समस्या बनी हुई है, तो कुछ दिनों का इंतजार करें। यदि फिर भी स्प्रे की सिफारिश की जाती है, तो फिर से स्प्रे करें।",
+        "en": "There is no schedule for insect sprays for today. If you have already sprayed and pests persist, wait a few days. If still the spray is recommended, spray again.",
+        "timestamp": {
+          "$date": "2025-04-04T09:47:32.104Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पेट के ऊपर जो बैठे कीड़े हैं उसका क्या इलाज करें<user uploaded image for analysis at '4acrskinnowplot/2025-04-04-1743760104816.jpg'>",
+        "en": "How to treat worms sitting on top of the stomach<user uploaded image for analysis at '4acrskinnowplot/2025-04-04-1743760104816.jpg'>",
+        "timestamp": {
+          "$date": "2025-04-04T09:48:47.427Z"
+        },
+        "standalone_question": "What treatment should be applied for the insects sitting on the top of the stomach?",
+        "standalone_en": "What treatment should be applied for the insects sitting on the top of the stomach?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed"
+          ]
+        },
+        "content_transliterated": "pet ke ooper jo baithe kide hain uska kya ilaaj karen<user uploaded image for analysis at '4acrskinnowplot/2025-04-04-1743760104816.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "फोटो में दिखाई दे रहे कीड़ों के लिए, निम्नलिखित उपाय किए जा सकते हैं:\n\n1. **इंसेक्टिसाइडल साबुन**: यह नरम शरीर वाले कीड़ों को नियंत्रित करने में मदद कर सकता है।\n2. **नीम का तेल**: यह एक प्राकृतिक कीटनाशक है जो विभिन्न कीटों को दूर कर सकता है।\n3. **नियमित निगरानी**: पौधों पर किसी भी आगे की कीट गतिविधि के संकेतों के लिए ध्यान रखें।\n\nसर्वश्रेष्ठ परिणामों के लिए, स्थानीय कृषि विशेषज्ञ या एक्सटेंशन सेवा से परामर्श करना भी अच्छा रहेगा। यदि आपके पास और प्रश्न हैं, तो बेझिझक पूछें!",
+        "en": "For insects visible in the photo, the following measures can be taken:\n\n1. Insecticidal soap: It can help control soft-bodied insects.\n2. Neem Oil: It is a natural insecticide that can repel various pests.\n3. Regular monitoring: Watch out for signs of any further pest activity on plants.\n\nFor best results, it is also a good idea to consult a local agronomist or extension service. If you have further questions, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-04-04T09:49:07.848Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "किन्नू की फ्लोरिंग काम है इसके लिए क्या करें",
+        "en": "What to do for kinnow flooring work?",
+        "timestamp": {
+          "$date": "2025-04-04T09:50:45.888Z"
+        },
+        "standalone_question": "What should be done for the flooring work of kinnow?",
+        "standalone_en": "What should be done for the flooring work of kinnow?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kinnu ki flooring kaam hai iske liye kya karen"
+      },
+      {
+        "role": "assistant",
+        "content": "किन्नू की फ्लोरिंग के लिए निम्नलिखित कदम उठाए जा सकते हैं:\n\n1. **सही समय का चयन**: किन्नू की फ्लोरिंग का सबसे अच्छा समय आमतौर पर फूल आने के बाद होता है। यह सुनिश्चित करें कि फल का आकार सही हो।\n\n2. **फ्लोरिंग तकनीक**: \n   - **हाथ से फ्लोरिंग**: फल को धीरे से तोड़ें ताकि शाखाएँ न टूटें।\n   - **मशीन से फ्लोरिंग**: यदि आपके पास मशीन है, तो इसे सही तरीके से संचालित करें।\n\n3. **सफाई**: फ्लोरिंग के बाद, फलों को साफ करें और किसी भी खराब फल को हटा दें।\n\n4. **संग्रहण**: फल को ठंडी और सूखी जगह पर संग्रहित करें ताकि वे लंबे समय तक ताजे रहें।\n\n5. **निगरानी**: फ्लोरिंग के बाद फसल की नियमित निगरानी करें ताकि किसी भी कीट या रोग का समय पर उपचार किया जा सके।\n\nयदि आपको और जानकारी या सहायता की आवश्यकता है, तो बेझिझक पूछें!",
+        "en": "The following steps can be taken for the flooring of kinnow:\n\n1. Choosing the right time: The best time for flooring kinnow is usually after flowering. Make sure that the size of the fruit is correct.\n\n2. **Flooring Technique**: \n   - **Flooring by hand**: Gently break the fruit so that the branches do not break.\n   - **Flooring by machine**: If you have a machine, operate it correctly.\n\n3. **Cleaning**: After flooring, clean the fruit and remove any spoiled fruit.\n\n4. Storage: Store the fruits in a cool and dry place so that they stay fresh for a long time.\n\n5. Monitoring: Monitor the crop regularly after flowering so that any pest or disease can be treated on time.\n\nIf you need further information or assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-04-04T09:50:52.768Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पौधों की फ्लोरिंग नहीं आई है",
+        "en": "The plants have not been floored",
+        "timestamp": {
+          "$date": "2025-04-04T09:52:14.295Z"
+        },
+        "standalone_question": "What should be done if the plants have not flowered?",
+        "standalone_en": "What should be done if the plants have not flowered?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "paudhon ki flooring nahi aayee hai"
+      },
+      {
+        "role": "assistant",
+        "content": "यदि किन्नू के पौधों की फ्लोरिंग नहीं आई है, तो निम्नलिखित कारणों की जांच करें और उपाय करें:\n\n1. **जलवायु और मौसम**: सुनिश्चित करें कि तापमान और आर्द्रता किन्नू के लिए अनुकूल हैं। अत्यधिक गर्मी या ठंड फ्लोरिंग को प्रभावित कर सकती है।\n\n2. **पोषण**: पौधों को उचित पोषण मिल रहा है या नहीं, इसकी जांच करें। नाइट्रोजन, फास्फोरस और पोटेशियम की सही मात्रा सुनिश्चित करें।\n\n3. **पानी**: पौधों को पर्याप्त पानी मिल रहा है या नहीं, इसकी निगरानी करें। सूखे या अत्यधिक पानी से पौधों की वृद्धि प्रभावित हो सकती है।\n\n4. **कीट और रोग**: पौधों पर किसी भी कीट या रोग के संकेतों की जांच करें। यदि कोई समस्या है, तो उचित कीटनाशक या फफूंदनाशक का उपयोग करें।\n\n5. **फसल प्रबंधन**: पौधों की सही छंटाई और प्रबंधन सुनिश्चित करें ताकि वे स्वस्थ रहें और फ्लोरिंग के लिए तैयार हों।\n\nयदि समस्या बनी रहती है, तो स्थानीय कृषि विशेषज्ञ से परामर्श करना अच्छा रहेगा।",
+        "en": "If the flooring of kinnow plants has not come, check for the following causes and take measures:\n\n1. Climate and Weather: Make sure the temperature and humidity are conducive to kinnow. Excessive heat or cold can affect the flooring.\n\n2. Nutrition: Check if the plants are getting proper nutrition. Ensure the right amount of nitrogen, phosphorus and potassium.\n\n3. Watering: Monitor whether the plants are getting enough water. Drought or excessive watering can affect the growth of plants.\n\n4. Pests and Diseases: Check for signs of any pests or diseases on plants. If there is a problem, use the appropriate insecticide or fungicide.\n\n5. Crop Management: Ensure proper pruning and management of plants so that they remain healthy and ready for flooring.\n\nIf the problem persists, it is a good idea to consult a local agronomist.",
+        "timestamp": {
+          "$date": "2025-04-04T09:52:20.439Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पौधों पर कालापन आ गया है इसका क्या इलाजकरें<user uploaded image for analysis at '4acrskinnowplot/2025-04-04-1743760436354.jpg'>",
+        "en": "What to do to treat blackened plants<user uploaded image for analysis at '4acrskinnowplot/2025-04-04-1743760436354.jpg'>",
+        "timestamp": {
+          "$date": "2025-04-04T09:53:58.283Z"
+        },
+        "standalone_question": "What treatment should be applied for the blackening on the plants?",
+        "standalone_en": "What treatment should be applied for the blackening on the plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are the important diseases occur during seedling stage and control measures?\nA: Collar rot, Damping off, Seedling blight diseases infect during seedling stage.\nDrench/spray seedling with: Carbendazim @ 2.5g/ltr",
+            "Q: How to improve the germination percent\nA: Use of good quality seeds and seeds to be treated with insecticide, Fungicide and biological agents"
+          ]
+        },
+        "content_transliterated": "paudhon par kalapan aa gaya hai iska kya ilajakaren<user uploaded image for analysis at '4acrskinnowplot/2025-04-04-1743760436354.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "फोटो में दिखाई दे रहे पौधों पर कालापन आमतौर पर फफूंद या अन्य रोगों के कारण हो सकता है। इसके लिए निम्नलिखित उपाय करें:\n\n1. **फफूंदनाशक का उपयोग**: \n   - **कार्बेंडाज़िम**: 2.5 ग्राम प्रति लीटर पानी में मिलाकर पौधों पर छिड़काव करें। यह फफूंद जनित रोगों को नियंत्रित करने में मदद करेगा।\n\n2. **सफाई**: प्रभावित पत्तियों को हटा दें ताकि रोग फैलने से रोका जा सके।\n\n3. **सही जल निकासी**: सुनिश्चित करें कि पौधों की जड़ें पानी में न डूबें, क्योंकि अधिक नमी फफूंद के विकास को बढ़ावा देती है।\n\n4. **नियमित निगरानी**: पौधों की नियमित निगरानी करें और किसी भी अन्य रोग या कीट के संकेतों के लिए ध्यान दें।\n\nयदि समस्या बनी रहती है, तो स्थानीय कृषि विशेषज्ञ से परामर्श करना अच्छा रहेगा।",
+        "en": "The blackening of the plants seen in the photo can usually be caused by fungus or other diseases. For this, take the following measures:\n\n1. Use of fungicides: \n   - Carbendazim : Mix 2.5 grams per liter of water and spray on the plants. This will help in controlling fungal diseases.\n\n2. Cleaning: Remove the affected leaves to prevent the disease from spreading.\n\n3. Correct drainage: Make sure that the roots of the plants do not sink into the water, as excess moisture promotes the growth of the fungus.\n\n4. Regular monitoring: Monitor the plants regularly and watch out for any other disease or pest signs.\n\nIf the problem persists, it is a good idea to consult a local agronomist.",
+        "timestamp": {
+          "$date": "2025-04-04T09:54:07.341Z"
+        }
+      }
+    ],
+    "farmer_id": "ankitmalelthia",
+    "farmer_plot_ids": [
+      "4acrskinnowplot"
+    ],
+    "conversation_id": "67efa96401413eb3af318290",
+    "_id": "67efa96401413eb3af318290",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-04T09:58:58.292000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-04-04T09:41:56.716000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "सर यह फर्टिलाइजर शेड्यूल में प्रति हेक्टेयर की मात्रा बताता है या चार केले की",
+        "en": "Sir, does this indicate the quantity per hectare in the fertilizer schedule or four bananas?",
+        "timestamp": {
+          "$date": "2025-04-04T09:41:56.716Z"
+        },
+        "standalone_question": "Does this fertilizer schedule indicate the amount per hectare or per four banana plants?",
+        "standalone_en": "Does this fertilizer schedule indicate the amount per hectare or per four banana plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "sar yah fertilizer schedule mein prati hectare ke matra batata hai ya char kele ki"
+      },
+      {
+        "role": "assistant",
+        "content": "फर्टिलाइजर शेड्यूल आमतौर पर प्रति हेक्टेयर की मात्रा बताता है। यदि आपको अपने 4 एकड़ के प्लॉट के लिए विशेष मात्रा की जानकारी चाहिए, तो मैं आपको सही जानकारी प्रदान कर सकता हूँ।",
+        "en": "The fertilizer schedule usually states the amount per hectare. If you need a particular amount of information for your 4 acre plot, I can provide you with the right information.",
+        "timestamp": {
+          "$date": "2025-04-04T09:42:00.965Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "अभी करंट शेड्यूल वीक थर्ड में टोटल 4 किले में कितने फर्टिलाइजर गिरेगा",
+        "en": "How much fertilizer will fall in a total of 4 forts in the current schedule week third?",
+        "timestamp": {
+          "$date": "2025-04-04T09:43:20.060Z"
+        },
+        "standalone_question": "How much fertilizer will be applied in total for 4 acres in the current schedule for week three?",
+        "standalone_en": "How much fertilizer will be applied in total for 4 acres in the current schedule for week three?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\".",
+            "get_specific_fertigation_requirements  \nFinds the fertigation requirements for the plots with a particular crop stage and week numbers."
+          ],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: If I don't add any test data, what is the basis for the generated fertigation schedule?\nA: When no specific test data is provided, Fyllo generates a basic fertigation schedule based on:\n\n    1. Typical nutrient needs for your crop type\n    2. General soil characteristics common in your region\n    3. Standard growing practices for your area\n    This schedule provides a starting point, but may not be as precise as one based on specific test data."
+          ]
+        },
+        "content_transliterated": "abhi current schedule week third mein total 4 kile mein kitne fertilizer girega"
+      },
+      {
+        "role": "assistant",
+        "content": "आपके 4 एकड़ के kinnow प्लॉट के लिए, वर्तमान फर्टिलाइजर शेड्यूल (तीसरे सप्ताह) में निम्नलिखित फर्टिलाइज़र की मात्रा है:\n\n1. **Potassium Nitrate**: 5 किलोग्राम\n2. **Urea**: 8.5 किलोग्राम\n\nया\n\n1. **Urea**: 9.5 किलोग्राम\n2. **Sulfate of Potash**: 4.5 किलोग्राम\n\nआप इन दोनों संयोजनों में से किसी एक का चयन कर सकते हैं। \n\nकुल मिलाकर, यदि आप पहले संयोजन का उपयोग करते हैं, तो आपको 5 किलोग्राम + 8.5 किलोग्राम = 13.5 किलोग्राम फर्टिलाइज़र की आवश्यकता होगी। \n\nयदि आप दूसरे संयोजन का उपयोग करते हैं, तो आपको 9.5 किलोग्राम + 4.5 किलोग्राम = 14 किलोग्राम फर्टिलाइज़र की आवश्यकता होगी। \n\nआपकी फसल के लिए यह फर्टिलाइज़र की मात्रा प्रति हेक्टेयर है, इसलिए इसे 4 एकड़ के लिए समायोजित करें।",
+        "en": "For your 4-acre kinnow plot, the current fertilizer schedule (3rd week) contains the following fertilizer quantities:\n\n1. Potassium Nitrate: 5 kilograms\n2. **Urea**: 8.5 Kg\n\nor\n\n1. Urea: 9.5 Kilograms\n2. Sulfate of Potash: 4.5 kg\n\nYou can choose either of these two combinations. \n\nIn total, if you use the first combination, you will need 5 kg + 8.5 kg = 13.5 kg of fertilizer. \n\nIf you use the second combination, you will need 9.5 kg + 4.5 kg = 14 kg of fertilizer. \n\nThis is the amount of fertilizer per hectare for your crop, so adjust it for 4 acres.",
+        "timestamp": {
+          "$date": "2025-04-04T09:43:27.099Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "इस कीड़े के लिए क्या डालें जो फोटो में दिखाई दे रहा है<user uploaded image for analysis at '4acrskinnowplot/2025-04-04-1743759932007.jpg'>",
+        "en": "What to put for this worm that is visible in the photo<user uploaded image for analysis at '4acrskinnowplot/2025-04-04-1743759932007.jpg'>",
+        "timestamp": {
+          "$date": "2025-04-04T09:45:52.396Z"
+        },
+        "standalone_question": "What should I use for the pest shown in the uploaded photo?",
+        "standalone_en": "What should I use for the pest shown in the uploaded photo?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is the pest prediction?\nA: Check the all pest predictions relevant. We support Aphids, Banana aphids, Bihar hairy caterpillar, Broad mites, Brown plant hopper, Capsule borer, Caterpillar,\n   Citrus Psylla, Cut worm, Early shoot borer, European red mites, Flat mites, Flea Beetle, Flea beetle, Fruit Borer,\n   Fruit Fly, Fruit borer, Fruit fly, Green aphids, Hispa beetle, Jassids, Leaf eating caterpillar, Leaf folder, Leaf miner,\n   Leaf roller, Mango hopper, Mealy Bug, Mealy bug, Mealybug, Mites, Perianth mites, Pin worm, Pink bollworm,\n   Pseudostem weevil, Red Spider Mites, Red palm weevil, Red spider mites, Rhinoceros beetle, Rhizome weevil, Root Grubs,\n   Root knot nematode, Rugose spiraling whitefly, Rust mites, Rust thrips, Scale Insects, Scale insects, Scarring beetle,\n   Shoot borer, Skipper, Spiraling whitefly, Spodoptera, Stem Borer, Stem borer, Striped beetle, Striped cucumber beetle,\n   Tea Mosquitto Bug, Tea mosquitto bug, Termite, Thrips, White Fly, White fly, Whitefly, and Wooly aphids."
+          ]
+        },
+        "content_transliterated": "is keede ke liye kya dalen jo photo mein dikhai de raha hai<user uploaded image for analysis at '4acrskinnowplot/2025-04-04-1743759932007.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "फोटो में दिखाई दे रहे कीड़े के लिए, आपकी फसल की सुरक्षा के लिए निम्नलिखित सुझाव दिए गए हैं:\n\n1. **पीले चिपचिपे जाल लगाएं**: प्रति एकड़ 25 से 30 जाल लगाएं ताकि कीट जनसंख्या की निगरानी और नियंत्रण किया जा सके।\n\nयह उपाय कीट समस्या को प्रभावी ढंग से प्रबंधित करने में मदद करेगा। सुनिश्चित करें कि आप नियमित रूप से जाल की जांच करें और यदि आवश्यक हो तो आगे की कार्रवाई करें। यदि आपके पास और प्रश्न हैं या अधिक सहायता की आवश्यकता है, तो बेझिझक पूछें!",
+        "en": "As for the insects seen in the photo, the following tips are given to protect your crop:\n\n1. **Install yellow sticky nets**: Plant 25 to 30 nets per acre so that pest populations can be monitored and controlled.\n\nThis measure will help manage the pest problem effectively. Make sure you check the traps regularly and take further action if necessary. If you have further questions or need more help, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-04-04T09:46:24.436Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "इस कीड़े के लिए स्प्रे करें या नहीं करें",
+        "en": "Spray or not to spray for this insect",
+        "timestamp": {
+          "$date": "2025-04-04T09:47:26.107Z"
+        },
+        "standalone_question": "Should I spray for this insect or not?",
+        "standalone_en": "Should I spray for this insect or not?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice."
+          ]
+        },
+        "content_transliterated": "is keede ke liye spray karen ya nahi karen"
+      },
+      {
+        "role": "assistant",
+        "content": "आज के लिए कीटों के स्प्रे की कोई अनुसूची नहीं है। यदि आपने पहले ही स्प्रे किया है और कीटों की समस्या बनी हुई है, तो कुछ दिनों का इंतजार करें। यदि फिर भी स्प्रे की सिफारिश की जाती है, तो फिर से स्प्रे करें।",
+        "en": "There is no schedule for insect sprays for today. If you have already sprayed and pests persist, wait a few days. If still the spray is recommended, spray again.",
+        "timestamp": {
+          "$date": "2025-04-04T09:47:32.104Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पेट के ऊपर जो बैठे कीड़े हैं उसका क्या इलाज करें<user uploaded image for analysis at '4acrskinnowplot/2025-04-04-1743760104816.jpg'>",
+        "en": "How to treat worms sitting on top of the stomach<user uploaded image for analysis at '4acrskinnowplot/2025-04-04-1743760104816.jpg'>",
+        "timestamp": {
+          "$date": "2025-04-04T09:48:47.427Z"
+        },
+        "standalone_question": "What treatment should be applied for the insects sitting on the top of the stomach?",
+        "standalone_en": "What treatment should be applied for the insects sitting on the top of the stomach?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed"
+          ]
+        },
+        "content_transliterated": "pet ke ooper jo baithe kide hain uska kya ilaaj karen<user uploaded image for analysis at '4acrskinnowplot/2025-04-04-1743760104816.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "फोटो में दिखाई दे रहे कीड़ों के लिए, निम्नलिखित उपाय किए जा सकते हैं:\n\n1. **इंसेक्टिसाइडल साबुन**: यह नरम शरीर वाले कीड़ों को नियंत्रित करने में मदद कर सकता है।\n2. **नीम का तेल**: यह एक प्राकृतिक कीटनाशक है जो विभिन्न कीटों को दूर कर सकता है।\n3. **नियमित निगरानी**: पौधों पर किसी भी आगे की कीट गतिविधि के संकेतों के लिए ध्यान रखें।\n\nसर्वश्रेष्ठ परिणामों के लिए, स्थानीय कृषि विशेषज्ञ या एक्सटेंशन सेवा से परामर्श करना भी अच्छा रहेगा। यदि आपके पास और प्रश्न हैं, तो बेझिझक पूछें!",
+        "en": "For insects visible in the photo, the following measures can be taken:\n\n1. Insecticidal soap: It can help control soft-bodied insects.\n2. Neem Oil: It is a natural insecticide that can repel various pests.\n3. Regular monitoring: Watch out for signs of any further pest activity on plants.\n\nFor best results, it is also a good idea to consult a local agronomist or extension service. If you have further questions, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-04-04T09:49:07.848Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "किन्नू की फ्लोरिंग काम है इसके लिए क्या करें",
+        "en": "What to do for kinnow flooring work?",
+        "timestamp": {
+          "$date": "2025-04-04T09:50:45.888Z"
+        },
+        "standalone_question": "What should be done for the flooring work of kinnow?",
+        "standalone_en": "What should be done for the flooring work of kinnow?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kinnu ki flooring kaam hai iske liye kya karen"
+      },
+      {
+        "role": "assistant",
+        "content": "किन्नू की फ्लोरिंग के लिए निम्नलिखित कदम उठाए जा सकते हैं:\n\n1. **सही समय का चयन**: किन्नू की फ्लोरिंग का सबसे अच्छा समय आमतौर पर फूल आने के बाद होता है। यह सुनिश्चित करें कि फल का आकार सही हो।\n\n2. **फ्लोरिंग तकनीक**: \n   - **हाथ से फ्लोरिंग**: फल को धीरे से तोड़ें ताकि शाखाएँ न टूटें।\n   - **मशीन से फ्लोरिंग**: यदि आपके पास मशीन है, तो इसे सही तरीके से संचालित करें।\n\n3. **सफाई**: फ्लोरिंग के बाद, फलों को साफ करें और किसी भी खराब फल को हटा दें।\n\n4. **संग्रहण**: फल को ठंडी और सूखी जगह पर संग्रहित करें ताकि वे लंबे समय तक ताजे रहें।\n\n5. **निगरानी**: फ्लोरिंग के बाद फसल की नियमित निगरानी करें ताकि किसी भी कीट या रोग का समय पर उपचार किया जा सके।\n\nयदि आपको और जानकारी या सहायता की आवश्यकता है, तो बेझिझक पूछें!",
+        "en": "The following steps can be taken for the flooring of kinnow:\n\n1. Choosing the right time: The best time for flooring kinnow is usually after flowering. Make sure that the size of the fruit is correct.\n\n2. **Flooring Technique**: \n   - **Flooring by hand**: Gently break the fruit so that the branches do not break.\n   - **Flooring by machine**: If you have a machine, operate it correctly.\n\n3. **Cleaning**: After flooring, clean the fruit and remove any spoiled fruit.\n\n4. Storage: Store the fruits in a cool and dry place so that they stay fresh for a long time.\n\n5. Monitoring: Monitor the crop regularly after flowering so that any pest or disease can be treated on time.\n\nIf you need further information or assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-04-04T09:50:52.768Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पौधों की फ्लोरिंग नहीं आई है",
+        "en": "The plants have not been floored",
+        "timestamp": {
+          "$date": "2025-04-04T09:52:14.295Z"
+        },
+        "standalone_question": "What should be done if the plants have not flowered?",
+        "standalone_en": "What should be done if the plants have not flowered?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "paudhon ki flooring nahi aayee hai"
+      },
+      {
+        "role": "assistant",
+        "content": "यदि किन्नू के पौधों की फ्लोरिंग नहीं आई है, तो निम्नलिखित कारणों की जांच करें और उपाय करें:\n\n1. **जलवायु और मौसम**: सुनिश्चित करें कि तापमान और आर्द्रता किन्नू के लिए अनुकूल हैं। अत्यधिक गर्मी या ठंड फ्लोरिंग को प्रभावित कर सकती है।\n\n2. **पोषण**: पौधों को उचित पोषण मिल रहा है या नहीं, इसकी जांच करें। नाइट्रोजन, फास्फोरस और पोटेशियम की सही मात्रा सुनिश्चित करें।\n\n3. **पानी**: पौधों को पर्याप्त पानी मिल रहा है या नहीं, इसकी निगरानी करें। सूखे या अत्यधिक पानी से पौधों की वृद्धि प्रभावित हो सकती है।\n\n4. **कीट और रोग**: पौधों पर किसी भी कीट या रोग के संकेतों की जांच करें। यदि कोई समस्या है, तो उचित कीटनाशक या फफूंदनाशक का उपयोग करें।\n\n5. **फसल प्रबंधन**: पौधों की सही छंटाई और प्रबंधन सुनिश्चित करें ताकि वे स्वस्थ रहें और फ्लोरिंग के लिए तैयार हों।\n\nयदि समस्या बनी रहती है, तो स्थानीय कृषि विशेषज्ञ से परामर्श करना अच्छा रहेगा।",
+        "en": "If the flooring of kinnow plants has not come, check for the following causes and take measures:\n\n1. Climate and Weather: Make sure the temperature and humidity are conducive to kinnow. Excessive heat or cold can affect the flooring.\n\n2. Nutrition: Check if the plants are getting proper nutrition. Ensure the right amount of nitrogen, phosphorus and potassium.\n\n3. Watering: Monitor whether the plants are getting enough water. Drought or excessive watering can affect the growth of plants.\n\n4. Pests and Diseases: Check for signs of any pests or diseases on plants. If there is a problem, use the appropriate insecticide or fungicide.\n\n5. Crop Management: Ensure proper pruning and management of plants so that they remain healthy and ready for flooring.\n\nIf the problem persists, it is a good idea to consult a local agronomist.",
+        "timestamp": {
+          "$date": "2025-04-04T09:52:20.439Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पौधों पर कालापन आ गया है इसका क्या इलाजकरें<user uploaded image for analysis at '4acrskinnowplot/2025-04-04-1743760436354.jpg'>",
+        "en": "What to do to treat blackened plants<user uploaded image for analysis at '4acrskinnowplot/2025-04-04-1743760436354.jpg'>",
+        "timestamp": {
+          "$date": "2025-04-04T09:53:58.283Z"
+        },
+        "standalone_question": "What treatment should be applied for the blackening on the plants?",
+        "standalone_en": "What treatment should be applied for the blackening on the plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are the important diseases occur during seedling stage and control measures?\nA: Collar rot, Damping off, Seedling blight diseases infect during seedling stage.\nDrench/spray seedling with: Carbendazim @ 2.5g/ltr",
+            "Q: How to improve the germination percent\nA: Use of good quality seeds and seeds to be treated with insecticide, Fungicide and biological agents"
+          ]
+        },
+        "content_transliterated": "paudhon par kalapan aa gaya hai iska kya ilajakaren<user uploaded image for analysis at '4acrskinnowplot/2025-04-04-1743760436354.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "फोटो में दिखाई दे रहे पौधों पर कालापन आमतौर पर फफूंद या अन्य रोगों के कारण हो सकता है। इसके लिए निम्नलिखित उपाय करें:\n\n1. **फफूंदनाशक का उपयोग**: \n   - **कार्बेंडाज़िम**: 2.5 ग्राम प्रति लीटर पानी में मिलाकर पौधों पर छिड़काव करें। यह फफूंद जनित रोगों को नियंत्रित करने में मदद करेगा।\n\n2. **सफाई**: प्रभावित पत्तियों को हटा दें ताकि रोग फैलने से रोका जा सके।\n\n3. **सही जल निकासी**: सुनिश्चित करें कि पौधों की जड़ें पानी में न डूबें, क्योंकि अधिक नमी फफूंद के विकास को बढ़ावा देती है।\n\n4. **नियमित निगरानी**: पौधों की नियमित निगरानी करें और किसी भी अन्य रोग या कीट के संकेतों के लिए ध्यान दें।\n\nयदि समस्या बनी रहती है, तो स्थानीय कृषि विशेषज्ञ से परामर्श करना अच्छा रहेगा।",
+        "en": "The blackening of the plants seen in the photo can usually be caused by fungus or other diseases. For this, take the following measures:\n\n1. Use of fungicides: \n   - Carbendazim : Mix 2.5 grams per liter of water and spray on the plants. This will help in controlling fungal diseases.\n\n2. Cleaning: Remove the affected leaves to prevent the disease from spreading.\n\n3. Correct drainage: Make sure that the roots of the plants do not sink into the water, as excess moisture promotes the growth of the fungus.\n\n4. Regular monitoring: Monitor the plants regularly and watch out for any other disease or pest signs.\n\nIf the problem persists, it is a good idea to consult a local agronomist.",
+        "timestamp": {
+          "$date": "2025-04-04T09:54:07.341Z"
+        }
+      }
+    ],
+    "farmer_id": "ankitmalelthia",
+    "farmer_plot_ids": [
+      "4acrskinnowplot"
+    ],
+    "conversation_id": "67efa96401413eb3af318290",
+    "_id": "67efa96401413eb3af318290",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-04T09:58:58.292000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-04T09:41:56.716000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "द्राक्ष बागेला शेणखत कोणत्या चांगलं ओलंपटोल",
+        "en": "What good wetness is the dung fertilizer in the vineyard?",
+        "timestamp": {
+          "$date": "2025-04-04T09:14:40.514Z"
+        },
+        "standalone_question": "Which fertilizer is best for grape vineyards?",
+        "standalone_en": "Which fertilizer is best for grape vineyards?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "draks bagela shenakhat konatya changalam olympatol"
+      },
+      {
+        "role": "assistant",
+        "content": "द्राक्ष बागेला शेणखत म्हणून खालील प्रकार चांगले आहेत:\n\n1. **गोबर खत**: हे नैसर्गिक खत आहे आणि मातीच्या आरोग्यासाठी उपयुक्त आहे. यामुळे मातीची संरचना सुधारते आणि पोषण तत्वांची उपलब्धता वाढवते.\n\n2. **वर्मी कंपोस्ट**: हे कीटकनाशकांपासून मुक्त असते आणि मातीच्या जीवाणूंच्या वाढीसाठी उत्तम आहे. यामुळे द्राक्षांच्या वाढीला मदत होते.\n\n3. **सेंद्रिय खत**: सेंद्रिय खतांचा वापर केल्याने द्राक्षांच्या उत्पादनात सुधारणा होते आणि मातीची गुणवत्ता वाढते.\n\n4. **NPK खत**: नायट्रोजन, फॉस्फरस, आणि पोटॅशियम यांचे संतुलित प्रमाण असलेले खत द्राक्षांच्या वाढीसाठी आवश्यक आहे.\n\nआपल्या मातीच्या चाचणीच्या आधारावर योग्य खताची निवड करणे महत्त्वाचे आहे.",
+        "en": "The following types are good as dung manure for vineyards:\n\n1. **Dung manure**: It is a natural fertilizer and is useful for soil health. This improves soil structure and increases the availability of nutrients.\n\n2. **Vermi compost**: It is free of pesticides and is great for the growth of soil bacteria. This helps in the growth of grapes.\n\n3. **Organic Fertilizer**: The use of organic fertilizers improves the production of grapes and increases the quality of the soil.\n\n4. **NPK fertilizer**: Fertilizer with a balanced amount of nitrogen, phosphorus, and potassium is essential for the growth of grapes.\n\nIt is important to choose the right fertilizer based on your soil test.",
+        "timestamp": {
+          "$date": "2025-04-04T09:14:50.670Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "थ्रिप्स साठी कोणता स्प्रे घेऊ",
+        "en": "Which spray to take for thrips",
+        "timestamp": {
+          "$date": "2025-04-04T09:15:44.759Z"
+        },
+        "standalone_question": "Which spray should I use for thrips?",
+        "standalone_en": "Which spray should I use for thrips?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed",
+            "Q: What are the important Pest occur during seedling stage and control measures?\nA: Ants, Termites, root aphids, thrips and internal borer’s pest infect during seedling stage\nDrench/spray seedling with: Chlorpyriphos @ 5mL/Ltr or Thiamethoxam @ 0.5g/ltr"
+          ]
+        },
+        "content_transliterated": "thrips sathi konta spray gheu"
+      },
+      {
+        "role": "assistant",
+        "content": "थ्रिप्ससाठी खालील स्प्रे वापरू शकता:\n\n1. **Chlorpyriphos**: 5 मि.ली. प्रति लिटर पाण्यात मिसळा.\n2. **Thiamethoxam**: 0.5 ग्रॅम प्रति लिटर पाण्यात मिसळा.\n\nया स्प्रेयांचा वापर केल्याने थ्रिप्सवर नियंत्रण मिळवता येईल. स्प्रे करताना योग्य काळजी घ्या आणि हवामानाच्या स्थितीचा विचार करा.",
+        "en": "The following sprays can be used for thrips:\n\n1. **Chlorpyriphos**: 5 min.l. Mix in water per liter.\n2. **Thiamethoxam**: Mix in 0.5 grams per liter of water.\n\nUsing these sprays can help control thrips. Take proper care when spraying and consider weather conditions.",
+        "timestamp": {
+          "$date": "2025-04-04T09:15:50.216Z"
+        }
+      }
+    ],
+    "farmer_id": "atultajanpure",
+    "farmer_plot_ids": [
+      "plotno1crimsun669"
+    ],
+    "conversation_id": "67efa2fefe8bfee7026bf9d2",
+    "_id": "67efa2fefe8bfee7026bf9d2",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-04T09:20:44.766000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-04-04T09:14:40.514000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "द्राक्ष बागेला शेणखत कोणत्या चांगलं ओलंपटोल",
+        "en": "What good wetness is the dung fertilizer in the vineyard?",
+        "timestamp": {
+          "$date": "2025-04-04T09:14:40.514Z"
+        },
+        "standalone_question": "Which fertilizer is best for grape vineyards?",
+        "standalone_en": "Which fertilizer is best for grape vineyards?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "draks bagela shenakhat konatya changalam olympatol"
+      },
+      {
+        "role": "assistant",
+        "content": "द्राक्ष बागेला शेणखत म्हणून खालील प्रकार चांगले आहेत:\n\n1. **गोबर खत**: हे नैसर्गिक खत आहे आणि मातीच्या आरोग्यासाठी उपयुक्त आहे. यामुळे मातीची संरचना सुधारते आणि पोषण तत्वांची उपलब्धता वाढवते.\n\n2. **वर्मी कंपोस्ट**: हे कीटकनाशकांपासून मुक्त असते आणि मातीच्या जीवाणूंच्या वाढीसाठी उत्तम आहे. यामुळे द्राक्षांच्या वाढीला मदत होते.\n\n3. **सेंद्रिय खत**: सेंद्रिय खतांचा वापर केल्याने द्राक्षांच्या उत्पादनात सुधारणा होते आणि मातीची गुणवत्ता वाढते.\n\n4. **NPK खत**: नायट्रोजन, फॉस्फरस, आणि पोटॅशियम यांचे संतुलित प्रमाण असलेले खत द्राक्षांच्या वाढीसाठी आवश्यक आहे.\n\nआपल्या मातीच्या चाचणीच्या आधारावर योग्य खताची निवड करणे महत्त्वाचे आहे.",
+        "en": "The following types are good as dung manure for vineyards:\n\n1. **Dung manure**: It is a natural fertilizer and is useful for soil health. This improves soil structure and increases the availability of nutrients.\n\n2. **Vermi compost**: It is free of pesticides and is great for the growth of soil bacteria. This helps in the growth of grapes.\n\n3. **Organic Fertilizer**: The use of organic fertilizers improves the production of grapes and increases the quality of the soil.\n\n4. **NPK fertilizer**: Fertilizer with a balanced amount of nitrogen, phosphorus, and potassium is essential for the growth of grapes.\n\nIt is important to choose the right fertilizer based on your soil test.",
+        "timestamp": {
+          "$date": "2025-04-04T09:14:50.670Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "थ्रिप्स साठी कोणता स्प्रे घेऊ",
+        "en": "Which spray to take for thrips",
+        "timestamp": {
+          "$date": "2025-04-04T09:15:44.759Z"
+        },
+        "standalone_question": "Which spray should I use for thrips?",
+        "standalone_en": "Which spray should I use for thrips?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed",
+            "Q: What are the important Pest occur during seedling stage and control measures?\nA: Ants, Termites, root aphids, thrips and internal borer’s pest infect during seedling stage\nDrench/spray seedling with: Chlorpyriphos @ 5mL/Ltr or Thiamethoxam @ 0.5g/ltr"
+          ]
+        },
+        "content_transliterated": "thrips sathi konta spray gheu"
+      },
+      {
+        "role": "assistant",
+        "content": "थ्रिप्ससाठी खालील स्प्रे वापरू शकता:\n\n1. **Chlorpyriphos**: 5 मि.ली. प्रति लिटर पाण्यात मिसळा.\n2. **Thiamethoxam**: 0.5 ग्रॅम प्रति लिटर पाण्यात मिसळा.\n\nया स्प्रेयांचा वापर केल्याने थ्रिप्सवर नियंत्रण मिळवता येईल. स्प्रे करताना योग्य काळजी घ्या आणि हवामानाच्या स्थितीचा विचार करा.",
+        "en": "The following sprays can be used for thrips:\n\n1. **Chlorpyriphos**: 5 min.l. Mix in water per liter.\n2. **Thiamethoxam**: Mix in 0.5 grams per liter of water.\n\nUsing these sprays can help control thrips. Take proper care when spraying and consider weather conditions.",
+        "timestamp": {
+          "$date": "2025-04-04T09:15:50.216Z"
+        }
+      }
+    ],
+    "farmer_id": "atultajanpure",
+    "farmer_plot_ids": [
+      "plotno1crimsun669"
+    ],
+    "conversation_id": "67efa2fefe8bfee7026bf9d2",
+    "_id": "67efa2fefe8bfee7026bf9d2",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-04T09:20:44.766000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-04T09:14:40.514000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "0-0-50 અત્યારે અપાય ખરૃં.",
+        "en": "0-0-50 is given now.",
+        "timestamp": {
+          "$date": "2025-04-04T01:20:42.481Z"
+        },
+        "standalone_question": "Is it currently being given at 0-0-50?",
+        "standalone_en": "Is it currently being given at 0-0-50?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "0-0-50 atyare apay kharrin."
+      },
+      {
+        "role": "assistant",
+        "content": "હા, 0-0-50 (પોટેશિયમ) fertilizer આપવું યોગ્ય છે, ખાસ કરીને જ્યારે તમારું પાક \"ફ્લાવરિંગ અને ફ્રુટિંગ\" તબક્કામાં છે. આ તબક્કે પોટેશિયમનું મહત્વ છે, કારણ કે તે ફળોના વિકાસને પ્રોત્સાહન આપે છે. \n\nજો તમે વધુ માહિતી અથવા ફર્ટિગેશન શેડ્યૂલ વિશે જાણવું ઇચ્છતા હો, તો મને જણાવો.",
+        "en": "Yes, it's worth giving 0-0-50 (potassium) fertilizer, especially when your crop is in the \"flowering and fruiting\" phase. Potassium is important at this stage as it promotes the growth of fruits. \n\nIf you'd like to know more information or about the fertigation schedule, let me know.",
+        "timestamp": {
+          "$date": "2025-04-04T01:20:46.421Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "0-0-50 પોટેશિયમ અને પોટેશિયમ શોનાઈટ વચ્ચે શું તફાવત છે ",
+        "en": "What is the difference between 0-0-50 potassium and potassium shonite ",
+        "timestamp": {
+          "$date": "2025-04-04T01:22:40.306Z"
+        },
+        "standalone_question": "What is the difference between 0-0-50 potassium and potassium nitrate?",
+        "standalone_en": "What is the difference between 0-0-50 potassium and potassium nitrate?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17"
+          ]
+        },
+        "content_transliterated": "0-0-50 poteshiyam ane poteshiyam shonait vache shu tafavat che "
+      },
+      {
+        "role": "assistant",
+        "content": "0-0-50 પોટેશિયમ અને પોટેશિયમ શોનાઈટ (13-0-45) વચ્ચેના મુખ્ય તફાવતો આ છે:\n\n1. **પોષક તત્વો**:\n   - **0-0-50**: આ ફર્ટિલાઇઝર માત્ર 50% પોટેશિયમ (K) ધરાવે છે, જે ફળોના વિકાસ અને ગુણવત્તા માટે મહત્વપૂર્ણ છે.\n   - **પોટેશિયમ શોનાઈટ (13-0-45)**: આમાં 13% નાઇટ્રોજન (N) અને 45% પોટેશિયમ (K) છે. નાઇટ્રોજન છોડની વૃદ્ધિ અને પાંદડાના વિકાસ માટે જરૂરી છે.\n\n2. **ઉપયોગ**:\n   - **0-0-50**: ખાસ કરીને ફળોના વિકાસના તબક્કામાં ઉપયોગી છે, જ્યાં વધુ પોટેશિયમની જરૂર હોય છે.\n   - **પોટેશિયમ શોનાઈટ**: આનો ઉપયોગ નાઇટ્રોજન અને પોટેશિયમ બંનેની જરૂરિયાતને પૂરી કરવા માટે થાય છે, ખાસ કરીને જ્યારે છોડની વૃદ્ધિ અને ફળોના વિકાસ બંનેને પ્રોત્સાહન આપવું હોય.\n\n3. **અન્ય તત્વો**:\n   - **0-0-50**: અન્ય કોઈ પોષક તત્વો નથી.\n   - **પોટેશિયમ શોનાઈટ**: નાઇટ્રોજન ઉપરાંત, આમાં પોટેશિયમ પણ છે, જે છોડની આરોગ્ય અને ઉત્પાદન માટે મહત્વપૂર્ણ છે.\n\nઆથી, તમે તમારા પાકની જરૂરિયાત મુજબ યોગ્ય ફર્ટિલાઇઝર પસંદ કરી શકો છો.",
+        "en": "The main differences between 0-0-50 potassium and potassium schonite (13-0-45) are:\n\n1. **Nutrients**:\n   **0-0-50**: This fertilizer contains only 50% potassium (K), which is important for the growth and quality of fruits.\n   **Potassium shonite (13-0-45)**: It contains 13% nitrogen (N) and 45% potassium (K). Nitrogen is essential for plant growth and leaf growth.\n\n2. **Use**:\n   **0-0-50**: Especially useful in the fruit development stage, where more potassium is needed.\n   **Potassium shonite**: This is used to meet the need for both nitrogen and potassium, especially when it comes to promoting both plant growth and fruit growth.\n\n3. **Other elements**:\n   **0-0-50**: No other nutrients.\n   **Potassium Schnite**: In addition to nitrogen, it also contains potassium, which is important for plant health and production.\n\nTherefore, you can choose the right fertilizer according to the requirement of your crop.",
+        "timestamp": {
+          "$date": "2025-04-04T01:22:50.115Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "0-52-34 વિશે માહિતી ",
+        "en": "Information about 0-52-34 ",
+        "timestamp": {
+          "$date": "2025-04-04T01:24:29.648Z"
+        },
+        "standalone_question": "What information can you provide about the fertilizer 0-52-34?",
+        "standalone_en": "What information can you provide about the fertilizer 0-52-34?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available.",
+            "Q: What should I do if I can't find the fertigation schedule after selecting the fertigation tab?\nA: If you don't see the fertigation schedule, you'll need to create a report first. Would you like assistance in creating a report? Do you have any soil, leaf, or petiole test data available? If not, we can generate a basic schedule for you using general crop and regional data."
+          ]
+        },
+        "content_transliterated": "0-52-34 vishe mahiti "
+      },
+      {
+        "role": "assistant",
+        "content": "0-52-34 ફર્ટિલાઇઝર એક મિશ્રિત ફર્ટિલાઇઝર છે, જેમાં પોષક તત્વોનું વિતરણ આ પ્રમાણે છે:\n\n- **0% નાઇટ્રોજન (N)**: આ ફર્ટિલાઇઝરમાં નાઇટ્રોજન નથી, જે છોડની વૃદ્ધિ માટે મહત્વપૂર્ણ છે.\n- **52% ફોસ્ફરસ (P)**: આમાં ફોસ્ફરસનું પ્રમાણ ખૂબ જ ઊંચું છે, જે મૂળોના વિકાસ, ફૂલો અને ફળોના વિકાસ માટે મહત્વપૂર્ણ છે.\n- **34% પોટેશિયમ (K)**: પોટેશિયમનું પ્રમાણ પણ ઊંચું છે, જે છોડની આરોગ્ય, ફળોના ગુણવત્તા અને ઉત્પાદન માટે જરૂરી છે.\n\n### ઉપયોગ:\n- **મૂળોના વિકાસને પ્રોત્સાહન**: 0-52-34 ફર્ટિલાઇઝરનો ઉપયોગ ખાસ કરીને મૂળોના વિકાસને પ્રોત્સાહન આપવા માટે થાય છે, ખાસ કરીને જ્યારે છોડ ફૂલો અને ફળો ઉત્પન્ન કરે છે.\n- **ફળોના ગુણવત્તા માટે**: પોટેશિયમના ઉચ્ચ પ્રમાણને કારણે, આ ફર્ટિલાઇઝર ફળોના ગુણવત્તા અને સ્વાદને સુધારવા માટે ઉપયોગી છે.\n\n### ક્યારે ઉપયોગ કરવો:\n- આ ફર્ટિલાઇઝરનો ઉપયોગ ફૂલો અને ફળોના વિકાસના તબક્કામાં કરવો જોઈએ, જ્યારે છોડને વધુ ફોસ્ફરસ અને પોટેશિયમની જરૂર હોય.\n\nજો તમને વધુ માહિતી અથવા ઉપયોગની સૂચનાઓ જોઈએ, તો મને જણાવો!",
+        "en": "0-52-34 Fertilizer is a mixed fertilizer, in which the distribution of nutrients is as follows:\n\n* **0% Nitrogen (N)**: This fertilizer does not contain nitrogen, which is important for plant growth.\n* **52% Phosphorus (P)**: The amount of phosphorus in these is very high, which is important for the growth of roots, the development of flowers and fruits.\n**34% potassium (K)**: Potassium content is also high, which is essential for plant health, fruit quality and production.\n\n### Usage:\n* **Promotion of the growth of roots**: 0-52-34 Fertilizers are used to promote the growth of roots in particular, especially when plants produce flowers and fruits.\n***For fruit quality**: Due to the high amount of potassium, this fertilizer is useful for improving the quality and taste of fruits.\n\n### When to use:\nThis fertilizer should be used in the development stage of flowers and fruits, when the plant needs more phosphorus and potassium.\n\nIf you'd like more information or use notifications, let me know!",
+        "timestamp": {
+          "$date": "2025-04-04T01:24:41.580Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ધન્યવાદ ",
+        "en": "Thank you ",
+        "timestamp": {
+          "$date": "2025-04-04T01:25:48.952Z"
+        },
+        "standalone_question": "What is the information about 0-52-34 fertilizer?",
+        "standalone_en": "What is the information about 0-52-34 fertilizer?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17"
+          ]
+        },
+        "content_transliterated": "dhanyavad "
+      },
+      {
+        "role": "assistant",
+        "content": "તમારો સ્વાગત છે! જો તમને વધુ કોઈ પ્રશ્ન હોય અથવા કૃષિ સંબંધિત મદદની જરૂર હોય, તો મને જણાવશો. શુભકામનાઓ!",
+        "en": "You are welcome! If you have any more questions or need help related to agriculture, let me know. Best wishes!",
+        "timestamp": {
+          "$date": "2025-04-04T01:25:52.404Z"
+        }
+      }
+    ],
+    "farmer_id": "vasantbhaigovajidevda",
+    "farmer_plot_ids": [
+      "panchalvalopalot"
+    ],
+    "conversation_id": "67ef33eafe8bfee7026bf9d1",
+    "_id": "67ef33eafe8bfee7026bf9d1",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-04T01:30:48.959000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-04T01:20:42.481000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "કેટપીલર ના ફોટા",
+        "en": "Photos of the catpillar",
+        "timestamp": {
+          "$date": "2025-04-04T01:14:35.636Z"
+        },
+        "standalone_question": "What are some photos of caterpillars?",
+        "standalone_en": "What are some photos of caterpillars?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ketpilar na phota"
+      },
+      {
+        "role": "assistant",
+        "content": "આ રહી એક કેટપીલરનું ફોટો:\n\n![કેટપીલર](https://oaidalleapiprodscus.blob.core.windows.net/private/org-bW8YczlYesHEFNYNTXPKMeuf/user-iDZ1EvXPK3IQDRUEE8mQdm5A/img-FE8lS254rEzrPzkEeXlcEqsF.png?st=2025-04-04T00%3A14%3A46Z&se=2025-04-04T02%3A14%3A46Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-03T23%3A17%3A11Z&ske=2025-04-04T23%3A17%3A11Z&sks=b&skv=2024-08-04&sig=GpbYROrqmE71kUt2rv24rxgNAVIpeHDjsusgyrLdSPY%3D)",
+        "en": "Here's a photo of a caterpillar:\n\n! [Catpillar](https://oaidalleapiprodscus.blob.core.windows.net/private/org-bW8YczlYesHEFNYNTXPKMeuf/user-iDZ1EvXPK3IQDRUEE8mQdm5A/img-FE8lS254rEzrPzkEeXlcEqsF.png?st=2025-04-04T00%3A14%3A46Z&se=2025-04-04T02%3A14%3A46Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-03T23%3A17%3A11Z&ske=2025-04-04T23%3A17%3A11Z&sks=b&skv=2024-08-04&sig=GpbYROrqmE71kUt2rv24rxgNAVIpeHDjsusgyrLdSPY%3D)",
+        "timestamp": {
+          "$date": "2025-04-04T01:14:52.513Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ખાતર આપવાનુ ક્યારથી",
+        "en": "When to give fertilizer",
+        "timestamp": {
+          "$date": "2025-04-04T01:16:00.791Z"
+        },
+        "standalone_question": "When will you provide the fertilizer?",
+        "standalone_en": "When will you provide the fertilizer?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available.",
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise.",
+            "Q: Where can I find the fertigation schedule in the Fyllo app?\nA: To access the fertigation schedule:\n    1. Open the Fyllo app\n    2. Select \"My Farm\" at the bottom\n    3. Tap on the \"Fertigation\" option\n   You'll find the fertigation schedule there, including details about the required fertilizer applications."
+          ]
+        },
+        "content_transliterated": "khatar apavanu kyarathi"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં ખાતર આપવાની જરૂરિયાતની માહિતી નીચે મુજબ છે:\n\n### TARAK (Plot)\n- **વર્તમાન તબક્કો:** વેજિટેટિવ (Vegetative)\n- **વર્તમાન સપ્તાહ:** 2\n- **આજની તારીખ:** 2025-04-04\n- **ખાતર આપવાની જરૂર નથી.**\n- **આગામી ખાતર આપવાની તારીખ:** 2025-05-01\n  - **તબક્કો:** ફલોરિંગ (Flowering)\n  - **માટે ખાતર:**\n    - **માટીમાં:** \n      - અમોનિયમ સલ્ફેટ: 43 કિલોગ્રામ/એકર\n      - સલ્ફેટ ઓફ પોટાશ: 32 કિલોગ્રામ/એકર\n    - **ફોલિયર:** \n      - સોલુબોર: 800 ગ્રામ/એકર (1% થી વધુ નહીં)\n\n### SHESH PLOT (Plot)\n- **વર્તમાન તબક્કો:** વેજિટેટિવ (Vegetative)\n- **વર્તમાન સપ્તાહ:** 2\n- **આજની તારીખ:** 2025-04-04\n- **ખાતર આપવાની જરૂર નથી.**\n- **આગામી ખાતર આપવાની તારીખ:** 2025-05-01\n  - **તબક્કો:** ફલોરિંગ (Flowering)\n  - **માટે ખાતર:**\n    - **ફોલિયર:** \n      - સોલુબોર: 800 ગ્રામ/એકર (1% થી વધુ નહીં)\n\nજો તમને વધુ માહિતીની જરૂર હોય, તો જણાવશો!",
+        "en": "The information on the need to fertilize your farm is as follows:\n\n### TARAK (Plot)\n- **Current stage:** Vegetative\n- **Current Week:** 2\n- **Today date:** 2025-04-04\n- **There is no need to give fertilizer.**\n- **Next fertilizer giving date:** 2025-05-01\n  - **Phase:** Flowering\n  - Fertilizer for **:**\n    - **In the soil:** \n      Ammonium sulphate: 43 kg/acre\n      - Sulphate of potash: 32 kg/acre\n    - **Folier:** \n      Solubor: 800 g/acre (not more than 1%)\n\n### SHESH PLOT (Plot)\n- **Current stage:** Vegetative\n- **Current Week:** 2\n- **Today date:** 2025-04-04\n- **There is no need to give fertilizer.**\n- **Next fertilizer giving date:** 2025-05-01\n  - **Phase:** Flowering\n  - Fertilizer for **:**\n    - **Folier:** \n      Solubor: 800 g/acre (not more than 1%)\n\nIf you need more information, let me know!",
+        "timestamp": {
+          "$date": "2025-04-04T01:16:19.234Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140",
+      "sheshpalot"
+    ],
+    "conversation_id": "67ef327b01413eb3af31828c",
+    "_id": "67ef327b01413eb3af31828c",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-04T01:21:00.886000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-04T01:14:35.636000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "કેટપીલર ના ફોટા",
+        "en": "Photos of the catpillar",
+        "timestamp": {
+          "$date": "2025-04-04T01:14:35.636Z"
+        },
+        "standalone_question": "What are the photos of caterpillars?",
+        "standalone_en": "What are the photos of caterpillars?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ketpilar na phota"
+      },
+      {
+        "role": "assistant",
+        "content": "આ રહી એક કેટપીલરનું ફોટો:\n\n![કેટપીલર](https://oaidalleapiprodscus.blob.core.windows.net/private/org-bW8YczlYesHEFNYNTXPKMeuf/user-iDZ1EvXPK3IQDRUEE8mQdm5A/img-FE8lS254rEzrPzkEeXlcEqsF.png?st=2025-04-04T00%3A14%3A46Z&se=2025-04-04T02%3A14%3A46Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-03T23%3A17%3A11Z&ske=2025-04-04T23%3A17%3A11Z&sks=b&skv=2024-08-04&sig=GpbYROrqmE71kUt2rv24rxgNAVIpeHDjsusgyrLdSPY%3D)",
+        "en": "Here's a photo of a caterpillar:\n\n! [Catpillar](https://oaidalleapiprodscus.blob.core.windows.net/private/org-bW8YczlYesHEFNYNTXPKMeuf/user-iDZ1EvXPK3IQDRUEE8mQdm5A/img-FE8lS254rEzrPzkEeXlcEqsF.png?st=2025-04-04T00%3A14%3A46Z&se=2025-04-04T02%3A14%3A46Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-03T23%3A17%3A11Z&ske=2025-04-04T23%3A17%3A11Z&sks=b&skv=2024-08-04&sig=GpbYROrqmE71kUt2rv24rxgNAVIpeHDjsusgyrLdSPY%3D)",
+        "timestamp": {
+          "$date": "2025-04-04T01:14:52.513Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ખાતર આપવાનુ ક્યારથી",
+        "en": "When to give fertilizer",
+        "timestamp": {
+          "$date": "2025-04-04T01:16:00.791Z"
+        },
+        "standalone_question": "When will you provide the fertilizer?",
+        "standalone_en": "When will you provide the fertilizer?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available.",
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise.",
+            "Q: Where can I find the fertigation schedule in the Fyllo app?\nA: To access the fertigation schedule:\n    1. Open the Fyllo app\n    2. Select \"My Farm\" at the bottom\n    3. Tap on the \"Fertigation\" option\n   You'll find the fertigation schedule there, including details about the required fertilizer applications."
+          ]
+        },
+        "content_transliterated": "khatar apavanu kyarathi"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં ખાતર આપવાની જરૂરિયાતની માહિતી નીચે મુજબ છે:\n\n### TARAK (Plot)\n- **વર્તમાન તબક્કો:** વેજિટેટિવ (Vegetative)\n- **વર્તમાન સપ્તાહ:** 2\n- **આજની તારીખ:** 2025-04-04\n- **ખાતર આપવાની જરૂર નથી.**\n- **આગામી ખાતર આપવાની તારીખ:** 2025-05-01\n  - **તબક્કો:** ફલોરિંગ (Flowering)\n  - **માટે ખાતર:**\n    - **માટીમાં:** \n      - અમોનિયમ સલ્ફેટ: 43 કિલોગ્રામ/એકર\n      - સલ્ફેટ ઓફ પોટાશ: 32 કિલોગ્રામ/એકર\n    - **ફોલિયર:** \n      - સોલુબોર: 800 ગ્રામ/એકર (1% થી વધુ નહીં)\n\n### SHESH PLOT (Plot)\n- **વર્તમાન તબક્કો:** વેજિટેટિવ (Vegetative)\n- **વર્તમાન સપ્તાહ:** 2\n- **આજની તારીખ:** 2025-04-04\n- **ખાતર આપવાની જરૂર નથી.**\n- **આગામી ખાતર આપવાની તારીખ:** 2025-05-01\n  - **તબક્કો:** ફલોરિંગ (Flowering)\n  - **માટે ખાતર:**\n    - **ફોલિયર:** \n      - સોલુબોર: 800 ગ્રામ/એકર (1% થી વધુ નહીં)\n\nજો તમને વધુ માહિતીની જરૂર હોય, તો જણાવશો!",
+        "en": "The information on the need to fertilize your farm is as follows:\n\n### TARAK (Plot)\n- **Current stage:** Vegetative\n- **Current Week:** 2\n- **Today date:** 2025-04-04\n- **There is no need to give fertilizer.**\n- **Next fertilizer giving date:** 2025-05-01\n  - **Phase:** Flowering\n  - Fertilizer for **:**\n    - **In the soil:** \n      Ammonium sulphate: 43 kg/acre\n      - Sulphate of potash: 32 kg/acre\n    - **Folier:** \n      Solubor: 800 g/acre (not more than 1%)\n\n### SHESH PLOT (Plot)\n- **Current stage:** Vegetative\n- **Current Week:** 2\n- **Today date:** 2025-04-04\n- **There is no need to give fertilizer.**\n- **Next fertilizer giving date:** 2025-05-01\n  - **Phase:** Flowering\n  - Fertilizer for **:**\n    - **Folier:** \n      Solubor: 800 g/acre (not more than 1%)\n\nIf you need more information, let me know!",
+        "timestamp": {
+          "$date": "2025-04-04T01:16:19.234Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140",
+      "sheshpalot"
+    ],
+    "conversation_id": "67ef327b01413eb3af31828c",
+    "_id": "67ef327b01413eb3af31828c",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-04T01:21:00.886000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-04T01:14:35.636000+00:00"
+  }
+]

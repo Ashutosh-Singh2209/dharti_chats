@@ -1,0 +1,372 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "डेटा प्राप्त होत नाही ",
+        "en": "Data not received ",
+        "timestamp": {
+          "$date": "2025-04-03T17:31:03.849Z"
+        },
+        "standalone_question": "Why is the data not being received?",
+        "standalone_en": "Why is the data not being received?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "data prapt hot nahi "
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया खात्री करा की डिव्हाइस अॅपसह जोडलेले आहे, नेटवर्क कनेक्टिव्हिटी तपासा, बॅटरी स्थिती सत्यापित करा, आणि आवश्यक असल्यास डिव्हाइस रीस्टार्ट करा. जर समस्या कायम राहिली, तर कृपया आमच्या समर्थन टीमशी संपर्क साधा.",
+        "en": "Please make sure the device is connected to the app, check network connectivity, verify battery status, and restart the device if necessary. If the problem persists, please contact our support team.",
+        "timestamp": {
+          "$date": "2025-04-03T17:31:08.708Z"
+        }
+      }
+    ],
+    "farmer_id": "ramdasgaidhani",
+    "farmer_plot_ids": [
+      "arrd36"
+    ],
+    "conversation_id": "67eec5d79c0b85ecdf246f01",
+    "_id": "67eec5d79c0b85ecdf246f01",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-03T17:36:03.857000Z"
+    },
+    "tag": "historical data",
+    "conv_date": "2025-04-03T17:31:03.849000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Paise kute bharayache ",
+        "en": "To pay for ",
+        "timestamp": {
+          "$date": "2025-04-03T16:28:04.030Z"
+        },
+        "standalone_question": "How much money do you need to fill?",
+        "standalone_en": "How much money do you need to fill?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"SSN plot\" मध्ये पाण्याची गरज आहे का हे तपासण्यासाठी मी तुमच्या मातीच्या आर्द्रतेची माहिती घेईन. थोड्या वेळात तुम्हाला माहिती देईन.",
+        "en": "I'll take a look at the moisture content of your soil to check if your \"SSN plot\" needs water. I'll let you know in a while.",
+        "timestamp": {
+          "$date": "2025-04-03T16:28:07.756Z"
+        }
+      }
+    ],
+    "farmer_id": "sachinbalasabebpatil",
+    "farmer_plot_ids": [
+      "sachinrk"
+    ],
+    "conversation_id": "67eeb7139c0b85ecdf246f00",
+    "_id": "67eeb7139c0b85ecdf246f00",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-03T16:33:04.039000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-03T16:28:04.030000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "પાણીની વ્યવસ્થા",
+        "en": "Water system",
+        "timestamp": {
+          "$date": "2025-04-03T14:44:38.891Z"
+        },
+        "standalone_question": "Water management.",
+        "standalone_en": "Water management.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "panini vyavastha"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પાક માટે પાણીની વ્યવસ્થા મહત્વપૂર્ણ છે. તમે \"Ghar Valo Palot\" પ્લોટમાં મસ્કમેલોન ઉગાડતા હો, જે હાલની હાર્વેસ્ટ સ્ટેજમાં છે. \n\nહવે, હું તમારા પ્લોટ માટે પાણીની જરૂરિયાત forecast કરી શકું છું. શું તમે મને જણાવશો કે તમે ક્યારે irrigation કર્યું હતું?",
+        "en": "Water management is important for your crop. You grow muskmelon in the \"Ghar Valo Palot\" plot, which is in the current harvest stage. \n\nNow, I can forecast the need for water for your plot. Will you tell me when you did irrigation?",
+        "timestamp": {
+          "$date": "2025-04-03T14:44:43.474Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": " દેતા કેમ બતાવતું નથી",
+        "en": " Don't show why you give",
+        "timestamp": {
+          "$date": "2025-04-03T14:45:16.531Z"
+        },
+        "standalone_question": "Why is it not showing?",
+        "standalone_en": "Why is it not showing?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": " deta came batavatun nathi"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ઉપકરણનું ડેટા પ્રસારણ ચાલુ છે. તમારું રિચાર્જ પ્લાન સક્રિય છે અને 2025-06-02 સુધી માન્ય છે. \n\nજો તમને ડેટા અપડેટ નથી દેખાતું, તો કૃપા કરીને નીચેની બાબતો ચકાસો:\n1. ઉપકરણ એપ્લિકેશન સાથે જોડાયેલું છે કે નહીં.\n2. નેટવર્ક કનેક્શન ચકાસો.\n3. બેટરીની સ્થિતિ તપાસો.\n4. જો જરૂરી હોય તો ઉપકરણને પુનઃપ્રારંભ કરો.\n\nજો સમસ્યા ચાલુ રહે, તો કૃપા કરીને સપોર્ટ ટીમનો સંપર્ક કરો. શું હું વધુ મદદ કરી શકું?",
+        "en": "Your device's data transmission is in progress. Your recharge plan is active and valid till 2025-06-02. \n\nIf you don't see the data update, please check the following:\n1. Whether the device is connected to the application or not.\n2. Check the network connection.\n3. Check the state of the battery.\n4. Restart the device if necessary.\n\nIf the problem persists, please contact the support team. Can I be of more help?",
+        "timestamp": {
+          "$date": "2025-04-03T14:45:23.670Z"
+        }
+      }
+    ],
+    "farmer_id": "ashokbhainaranjimali",
+    "farmer_plot_ids": [
+      "gharvalopalot823"
+    ],
+    "conversation_id": "67ee9ed6e1c69e292da13503",
+    "_id": "67ee9ed6e1c69e292da13503",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-03T14:50:16.543000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-04-03T14:44:38.891000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi",
+        "en": "Hi",
+        "timestamp": {
+          "$date": "2025-04-03T14:17:49.395Z"
+        },
+        "standalone_question": "What would you like to talk about?",
+        "standalone_en": "What would you like to talk about?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "नमस्कार, रोहित! तुम्हाला कशाबद्दल मदतीची आवश्यकता आहे?",
+        "en": "Hello, Rohit! What do you need help with?",
+        "timestamp": {
+          "$date": "2025-04-03T14:17:52.497Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "शेतु",
+        "en": "Bridge",
+        "timestamp": {
+          "$date": "2025-04-03T14:18:03.696Z"
+        },
+        "standalone_question": "What is \"शेतु\"?",
+        "standalone_en": "What is \"शेतु\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "shetu"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या शेताबद्दल काही विशिष्ट माहिती हवी आहे का? तुम्हाला पिकांच्या व्यवस्थापन, मातीच्या आरोग्य, कीड नियंत्रण किंवा पाण्याच्या व्यवस्थापनाबद्दल काही विचारायचं आहे का?",
+        "en": "Want any specific information about your farm? Do you have anything to ask about crop management, soil health, pest control or water management?",
+        "timestamp": {
+          "$date": "2025-04-03T14:18:06.907Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "हो",
+        "en": "be",
+        "timestamp": {
+          "$date": "2025-04-03T14:18:16.223Z"
+        },
+        "standalone_question": "Do you need specific information about your farm?",
+        "standalone_en": "Do you need specific information about your farm?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ho"
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया सांगा, तुम्हाला कोणत्या प्रकारची माहिती हवी आहे? तुमच्या पिकांच्या व्यवस्थापनाबद्दल, पाण्याच्या गरजांबद्दल, कीड नियंत्रणाबद्दल किंवा इतर कोणत्याही गोष्टींबद्दल मदतीची आवश्यकता आहे का?",
+        "en": "Please tell me, what kind of information do you want? Do you need help with crop management, water needs, pest control, or anything else?",
+        "timestamp": {
+          "$date": "2025-04-03T14:18:20.707Z"
+        }
+      }
+    ],
+    "farmer_id": "rohitpalkhede",
+    "farmer_plot_ids": [
+      "plotno01capsicum"
+    ],
+    "conversation_id": "67ee988de1c69e292da13502",
+    "_id": "67ee988de1c69e292da13502",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-03T14:23:16.231000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-03T14:17:49.395000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "khatar no option kya ave ch ",
+        "en": "What is the danger no option? ",
+        "timestamp": {
+          "$date": "2025-04-03T08:52:02.398Z"
+        },
+        "standalone_question": "What options are available for khatar?",
+        "standalone_en": "What options are available for khatar?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Viraj, khatar (fertilizer) na options maate, tamne khatar ni jaruriyat ne crop stage par adharit chhe. Aapne \"Seedling establishment\" stage ma chhiye, je maate khatar ni jaruriyat alag hoy chhe.\n\nMane khatar ni schedule ne requirements check karva maate tamara plot \"viraj plots Nero\" ni mahiti joiye chhe. Hu aa mahiti check kari ne tamne jald jald janavish. \n\nThodi vaar ruko. ",
+        "en": "Viraj, for fertilizer options, your fertilizer requirement depends on the crop stage. You are in the \"seedling establishment\" stage, for which the fertilizer requirement is different.\n\nI want information about your plot \"Viraj Plots Narrow\" to check the fertilizer schedule and the recwariments. I'll check this information and let you know soon. \n\nWait for a while. ",
+        "timestamp": {
+          "$date": "2025-04-03T08:52:05.996Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ok",
+        "en": "ok",
+        "timestamp": {
+          "$date": "2025-04-03T08:52:48.299Z"
+        },
+        "standalone_question": "What information do you need to check the fertilizer schedule and requirements for my plot?",
+        "standalone_en": "What information do you need to check the fertilizer schedule and requirements for my plot?",
+        "retrieval": {
+          "tools": [
+            "get_specific_fertigation_requirements  \nFinds the fertigation requirements for the plots with a particular crop stage and week numbers.",
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\".",
+            "get_disease_pest_schedule  \nRetrieves the farmer's current and past pesticide-related spray recommendations with spray details, based on dates. Dates are mandatory."
+          ],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: Where can I find the fertigation schedule in the Fyllo app?\nA: To access the fertigation schedule:\n    1. Open the Fyllo app\n    2. Select \"My Farm\" at the bottom\n    3. Tap on the \"Fertigation\" option\n   You'll find the fertigation schedule there, including details about the required fertilizer applications.",
+            "Q: What should I do if I can't find the fertigation schedule after selecting the fertigation tab?\nA: If you don't see the fertigation schedule, you'll need to create a report first. Would you like assistance in creating a report? Do you have any soil, leaf, or petiole test data available? If not, we can generate a basic schedule for you using general crop and regional data.",
+            "Q: How to measure/ calculate irrigation hours /water tank of my plot in fyllo app? How do I calculate irrigation hours for my plot? How to use the irrigation hours calculator?\nA: To calculate irrigation hours in the Fyllo app, follow these steps:\n\n1. Open the Fyllo App\n2. Go to the home screen\n3. Click on the soil moisture-1 sensor\n4. Scroll down to find the \"Irrigation hours\" section\n5. Fill in the required details such as:\n   - Root width (inches)\n   - Root depth (inches)\n   - Soil retention (mm)\n   - Dripper distance (feet)\n   - Dripper discharge (liters)\n6. Click the calculate button\n\nWould you like me to calculate the irrigation hours for you right now? I can retrieve your plot's irrigation settings and perform the calculation if you say yes.\n\nTool Selection: When user says yes, I should:\n1. Use get_irrigation_installation_settings tool to retrieve plot settings\n2. Check if all values are present and valid\n3. If values are valid, use calculate_irrigation_hours tool with these values\n4. If values are missing or invalid, ask the user to provide the missing values\n5. After calculating irrigation hours, display the irrigation installation settings that were used for the calculation\n6. Ask the user if they want to calculate irrigation hours with a different set of values, and if yes, prompt them to provide those values\n\nExample response if values are missing:\n\"I checked your plot settings, but I need some additional information to calculate irrigation hours accurately. Could you please provide the [missing value(s)]? Once you provide these details, I can complete the calculation for you.\"\n\nExample response after calculation:\n\"Based on your plot's irrigation settings, the calculated irrigation hours are [X] hours. \n\nI used the following settings for this calculation:\n- Root width: [value] inches\n- Root depth: [value] inches\n- Soil retention: [value] mm\n- Dripper distance: [value] feet\n- Dripper discharge: [value] liters\n\nWould you like to calculate irrigation hours with a different set of values? If yes, please provide the new values you'd like to use.\"",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Viraj, \"viraj plots Nero\" plot maate fertigation schedule ni mahiti upalabdh nathi. Aapne khatar ni jaruriyat ne samajva maate biji koi mahiti chhe to mane janavjo.",
+        "en": "Viraj, information on the fertigation schedule for the \"Viraj Plots Narrow\" plot is not available. Let me know if you have any other information to understand your need for fertilizer.",
+        "timestamp": {
+          "$date": "2025-04-03T08:52:54.253Z"
+        }
+      }
+    ],
+    "farmer_id": "virajpatel",
+    "farmer_plot_ids": [
+      "virajplotsnero"
+    ],
+    "conversation_id": "67ee4c320e3a112f97acc57b",
+    "_id": "67ee4c320e3a112f97acc57b",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-03T08:57:48.305000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-03T08:52:02.398000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "hi",
+        "en": "hi",
+        "timestamp": {
+          "$date": "2025-04-03T08:51:40.384Z"
+        },
+        "standalone_question": "What would you like to talk about?",
+        "standalone_en": "What would you like to talk about?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "નમસ્તે, વિરજ પટેલ! કેવી રીતે મદદ કરી શકું?",
+        "en": "Namaste, Virj Patel! How can I help?",
+        "timestamp": {
+          "$date": "2025-04-03T08:51:42.093Z"
+        }
+      }
+    ],
+    "farmer_id": "virajpatel",
+    "farmer_plot_ids": [
+      "virajplotsnero"
+    ],
+    "conversation_id": "67ee4c1cb6efc88f802b237f",
+    "_id": "67ee4c1cb6efc88f802b237f",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-03T08:56:40.392000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-03T08:51:40.384000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Resun ..... ?<user uploaded image for analysis at 'pomegranateplot874/2025-04-03-1743664725371.jpg'>",
+        "en": "Resun.....? <user uploaded image for analysis at 'pomegranateplot874/2025-04-03-1743664725371.jpg'>",
+        "timestamp": {
+          "$date": "2025-04-03T07:19:18.155Z"
+        },
+        "standalone_question": "What can you tell me about the image I uploaded?",
+        "standalone_en": "What can you tell me about the image I uploaded?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of your crop image indicates that there are no specific spray suggestions available for pomegranate at the vegetative stage. However, here are some general recommendations:\n\n1. **Inspect for Pests**: Check for any visible pests such as aphids or mealybugs, which can cause sticky residues on leaves.\n2. **Fungal Treatments**: If fungal infection is suspected, consider using a broad-spectrum fungicide.\n3. **Maintain Hygiene**: Remove any affected leaves or branches to prevent the spread of disease.\n4. **Regular Monitoring**: Keep an eye on the plant for any further symptoms or changes.\n\nFor more targeted treatment, I recommend consulting with a local agricultural expert or extension service who can provide specific products available in your area.",
+        "en": "The analysis of your crop image indicates that there are no specific spray suggestions available for pomegranate at the vegetative stage. However, here are some general recommendations:\n\n1. **Inspect for Pests**: Check for any visible pests such as aphids or mealybugs, which can cause sticky residues on leaves.\n2. **Fungal Treatments**: If fungal infection is suspected, consider using a broad-spectrum fungicide.\n3. **Maintain Hygiene**: Remove any affected leaves or branches to prevent the spread of disease.\n4. **Regular Monitoring**: Keep an eye on the plant for any further symptoms or changes.\n\nFor more targeted treatment, I recommend consulting with a local agricultural expert or extension service who can provide specific products available in your area.",
+        "timestamp": {
+          "$date": "2025-04-03T07:19:40.162Z"
+        }
+      }
+    ],
+    "farmer_id": "veerdbhadrappahalshetti",
+    "farmer_plot_ids": [
+      "pomegranateplot874",
+      "pomosanjay"
+    ],
+    "conversation_id": "67ee3675d8dd4a878ece4892",
+    "_id": "67ee3675d8dd4a878ece4892",
+    "language": "ka",
+    "expiry": {
+      "$date": "2025-04-03T07:24:18.162000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-03T07:19:18.155000+00:00"
+  }
+]

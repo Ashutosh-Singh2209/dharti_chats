@@ -1,0 +1,331 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Plat ki sthiti kaisi h ",
+        "en": "What is the status of the plot? ",
+        "timestamp": {
+          "$date": "2025-07-24T14:00:07.244Z"
+        },
+        "standalone_question": "What is the condition of the plant?",
+        "standalone_en": "What is the condition of the plant?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपके प्लॉट की स्थिति इस प्रकार है:\n\n- **मिट्टी का तापमान:** 26.56°C\n- **सॉइल मॉइस्चर 1:** 100% (यह सूखी मिट्टी को दर्शाता है)\n- **सॉइल मॉइस्चर 2:** 100% (यह भी सूखी मिट्टी को दर्शाता है)\n- **बैटरी स्तर:** 90% (अच्छा है)\n\nआपके प्लॉट में मिट्टी की नमी बहुत अधिक है, जिसका मतलब है कि आपको अभी पानी देने की आवश्यकता नहीं है। क्या आपको और कुछ जानकारी चाहिए?",
+        "en": "The status of your plot is as follows:\n\n- **Soil temperature:** 26.56°C\n- **Soil Moisture 1:** 100% (This indicates dry soil)\n- **Soil Moisture 2:** 100% (also denotes dry soil)\n- **Battery Level:** 90% (Good)\n\nThe soil moisture in your plot is very high, which means you don't need to water right now. Do you need any more information?",
+        "timestamp": {
+          "$date": "2025-07-24T14:00:16.930Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Rog to nhi h koi",
+        "en": "There is no disease.",
+        "timestamp": {
+          "$date": "2025-07-24T14:00:42.542Z"
+        },
+        "standalone_question": "Is there any disease present?",
+        "standalone_en": "Is there any disease present?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपके प्लॉट में कोई रोग या कीट समस्या नहीं है। आपकी फसल की स्थिति अच्छी है। यदि आपको किसी विशेष समस्या के बारे में चिंता है या और जानकारी चाहिए, तो कृपया बताएं!",
+        "en": "There are no disease or pest problems in your plot. Your crop is in good condition. If you have concerns about a particular problem or need further information, please let us know!",
+        "timestamp": {
+          "$date": "2025-07-24T14:00:47.931Z"
+        }
+      }
+    ],
+    "farmer_id": "iswarajlayse",
+    "farmer_plot_ids": [
+      "plot1122"
+    ],
+    "conversation_id": "68823c67d1c48c5713554c4e",
+    "_id": "68823c67d1c48c5713554c4e",
+    "language": "hi",
+    "expiry": {
+      "$date": "2025-07-24T14:05:42.547000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-07-24T14:00:07.244000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Plat ki sthiti kaisi h ",
+        "en": "What is the status of the plot? ",
+        "timestamp": {
+          "$date": "2025-07-24T14:00:07.244Z"
+        },
+        "standalone_question": "What is the condition of the plant?",
+        "standalone_en": "What is the condition of the plant?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपके प्लॉट की स्थिति इस प्रकार है:\n\n- **मिट्टी का तापमान:** 26.56°C\n- **सॉइल मॉइस्चर 1:** 100% (यह सूखी मिट्टी को दर्शाता है)\n- **सॉइल मॉइस्चर 2:** 100% (यह भी सूखी मिट्टी को दर्शाता है)\n- **बैटरी स्तर:** 90% (अच्छा है)\n\nआपके प्लॉट में मिट्टी की नमी बहुत अधिक है, जिसका मतलब है कि आपको अभी पानी देने की आवश्यकता नहीं है। क्या आपको और कुछ जानकारी चाहिए?",
+        "en": "The status of your plot is as follows:\n\n- **Soil temperature:** 26.56°C\n- **Soil Moisture 1:** 100% (This indicates dry soil)\n- **Soil Moisture 2:** 100% (also denotes dry soil)\n- **Battery Level:** 90% (Good)\n\nThe soil moisture in your plot is very high, which means you don't need to water right now. Do you need any more information?",
+        "timestamp": {
+          "$date": "2025-07-24T14:00:16.930Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Rog to nhi h koi",
+        "en": "There is no disease.",
+        "timestamp": {
+          "$date": "2025-07-24T14:00:42.542Z"
+        },
+        "standalone_question": "Is there any disease present?",
+        "standalone_en": "Is there any disease present?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपके प्लॉट में कोई रोग या कीट समस्या नहीं है। आपकी फसल की स्थिति अच्छी है। यदि आपको किसी विशेष समस्या के बारे में चिंता है या और जानकारी चाहिए, तो कृपया बताएं!",
+        "en": "There are no disease or pest problems in your plot. Your crop is in good condition. If you have concerns about a particular problem or need further information, please let us know!",
+        "timestamp": {
+          "$date": "2025-07-24T14:00:47.931Z"
+        }
+      }
+    ],
+    "farmer_id": "iswarajlayse",
+    "farmer_plot_ids": [
+      "plot1122"
+    ],
+    "conversation_id": "68823c67d1c48c5713554c4e",
+    "_id": "68823c67d1c48c5713554c4e",
+    "language": "hi",
+    "expiry": {
+      "$date": "2025-07-24T14:05:42.547000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-07-24T14:00:07.244000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Koi bimari hee<user uploaded image for analysis at 'dmFzYW50J3NwbG901753329564188/2025-07-24-1753352190407.jpg'>",
+        "en": "Any disease<user uploaded image for analysis at 'dmFzYW50J3NwbG901753329564188/2025-07-24-1753352190407.jpg'>",
+        "timestamp": {
+          "$date": "2025-07-24T10:17:05.184Z"
+        },
+        "standalone_question": "What illness is being referred to in the image?",
+        "standalone_en": "What illness is being referred to in the image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the uploaded image shows that the plant appears healthy with green, lush foliage. However, there are no clear signs of any specific disease or pest damage.\n\nTo maintain optimal health, consider the following:\n\n1. **Check for Pests**: Inspect the undersides of leaves and stems for any signs of pests.\n2. **Monitor Watering**: Ensure the plant is receiving adequate water without being overwatered.\n3. **Soil Quality**: Make sure the soil is well-drained and rich in nutrients.\n\nIf you notice any specific symptoms like discoloration, wilting, or spots on the leaves, please provide a clearer image focusing on those areas for a more accurate assessment.",
+        "en": "The analysis of the uploaded image shows that the plant appears healthy with green, lush foliage. However, there are no clear signs of any specific disease or pest damage.\n\nTo maintain optimal health, consider the following:\n\n1. **Check for Pests**: Inspect the undersides of leaves and stems for any signs of pests.\n2. **Monitor Watering**: Ensure the plant is receiving adequate water without being overwatered.\n3. **Soil Quality**: Make sure the soil is well-drained and rich in nutrients.\n\nIf you notice any specific symptoms like discoloration, wilting, or spots on the leaves, please provide a clearer image focusing on those areas for a more accurate assessment.",
+        "timestamp": {
+          "$date": "2025-07-24T10:17:19.935Z"
+        }
+      }
+    ],
+    "farmer_id": "dmFzYW50cmFtZXNoYmhhaWRhbHZhZGk1753329543560",
+    "farmer_plot_ids": [
+      "dmFzYW50J3NwbG901753329564188"
+    ],
+    "conversation_id": "6882081f8b931ce604e9b013",
+    "_id": "6882081f8b931ce604e9b013",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-07-24T10:22:05.188000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-07-24T10:17:05.184000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which defencey?<user uploaded image for analysis at 'plot2pome/2025-07-24-1753330959120.jpg'>",
+        "en": "Which defencey? <user uploaded image for analysis at 'plot2pome/2025-07-24-1753330959120.jpg'>",
+        "timestamp": {
+          "$date": "2025-07-24T04:22:48.843Z"
+        },
+        "standalone_question": "What type of defense is being referred to in the image?",
+        "standalone_en": "What type of defense is being referred to in the image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the uploaded image indicates that the leaves show signs of discoloration and possible fungal infection, which may be related to leaf spot diseases or other fungal issues.\n\nHere are some general recommendations for managing this situation:\n\n1. **Remove Affected Leaves**: Prune any severely affected leaves to prevent the spread of disease.\n2. **Improve Air Circulation**: Ensure that plants are spaced adequately to allow for good airflow.\n3. **Fungicide Application**: Consider using a broad-spectrum fungicide suitable for leaf spot diseases, following the manufacturer's instructions.\n\nFor a more accurate diagnosis and treatment, a clearer image focusing on the affected areas would be helpful.",
+        "en": "The analysis of the uploaded image indicates that the leaves show signs of discoloration and possible fungal infection, which may be related to leaf spot diseases or other fungal issues.\n\nHere are some general recommendations for managing this situation:\n\n1. **Remove Affected Leaves**: Prune any severely affected leaves to prevent the spread of disease.\n2. **Improve Air Circulation**: Ensure that plants are spaced adequately to allow for good airflow.\n3. **Fungicide Application**: Consider using a broad-spectrum fungicide suitable for leaf spot diseases, following the manufacturer's instructions.\n\nFor a more accurate diagnosis and treatment, a clearer image focusing on the affected areas would be helpful.",
+        "timestamp": {
+          "$date": "2025-07-24T04:23:06.484Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Which fungicide use ",
+        "en": "Which fungicide use ",
+        "timestamp": {
+          "$date": "2025-07-24T04:23:24.986Z"
+        },
+        "standalone_question": "What fungicide should be used?",
+        "standalone_en": "What fungicide should be used?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice.",
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Currently, there are no scheduled recommendations for fungicide spraying for your plot \"plot pome 2\" this week. However, based on the earlier analysis, you may consider using a broad-spectrum fungicide suitable for leaf spot diseases.\n\nA commonly recommended fungicide for such issues is **Copper Oxychloride** or **Mancozeb**. Always follow the manufacturer's instructions for dosage and application.\n\nIf you have any specific fungicide in mind or need further assistance, feel free to ask!",
+        "en": "Currently, there are no scheduled recommendations for fungicide spraying for your plot \"plot pome 2\" this week. However, based on the earlier analysis, you may consider using a broad-spectrum fungicide suitable for leaf spot diseases.\n\nA commonly recommended fungicide for such issues is **Copper Oxychloride** or **Mancozeb**. Always follow the manufacturer's instructions for dosage and application.\n\nIf you have any specific fungicide in mind or need further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-07-24T04:23:30.404Z"
+        }
+      }
+    ],
+    "farmer_id": "ankithbhai8889",
+    "farmer_plot_ids": [
+      "plot2pome",
+      "pomegranate334",
+      "plot2rajshakti",
+      "rajshaktipomeplot3"
+    ],
+    "conversation_id": "6881b518f76f45f76a960525",
+    "_id": "6881b518f76f45f76a960525",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-07-24T04:28:24.990000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-07-24T04:22:48.843000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which defencey?<user uploaded image for analysis at 'plot2pome/2025-07-24-1753330959120.jpg'>",
+        "en": "Which defencey? <user uploaded image for analysis at 'plot2pome/2025-07-24-1753330959120.jpg'>",
+        "timestamp": {
+          "$date": "2025-07-24T04:22:48.843Z"
+        },
+        "standalone_question": "What type of defense is being referred to?",
+        "standalone_en": "What type of defense is being referred to?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the uploaded image indicates that the leaves show signs of discoloration and possible fungal infection, which may be related to leaf spot diseases or other fungal issues.\n\nHere are some general recommendations for managing this situation:\n\n1. **Remove Affected Leaves**: Prune any severely affected leaves to prevent the spread of disease.\n2. **Improve Air Circulation**: Ensure that plants are spaced adequately to allow for good airflow.\n3. **Fungicide Application**: Consider using a broad-spectrum fungicide suitable for leaf spot diseases, following the manufacturer's instructions.\n\nFor a more accurate diagnosis and treatment, a clearer image focusing on the affected areas would be helpful.",
+        "en": "The analysis of the uploaded image indicates that the leaves show signs of discoloration and possible fungal infection, which may be related to leaf spot diseases or other fungal issues.\n\nHere are some general recommendations for managing this situation:\n\n1. **Remove Affected Leaves**: Prune any severely affected leaves to prevent the spread of disease.\n2. **Improve Air Circulation**: Ensure that plants are spaced adequately to allow for good airflow.\n3. **Fungicide Application**: Consider using a broad-spectrum fungicide suitable for leaf spot diseases, following the manufacturer's instructions.\n\nFor a more accurate diagnosis and treatment, a clearer image focusing on the affected areas would be helpful.",
+        "timestamp": {
+          "$date": "2025-07-24T04:23:06.484Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Which fungicide use ",
+        "en": "Which fungicide use ",
+        "timestamp": {
+          "$date": "2025-07-24T04:23:24.986Z"
+        },
+        "standalone_question": "What fungicide should be used?",
+        "standalone_en": "What fungicide should be used?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice.",
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Currently, there are no scheduled recommendations for fungicide spraying for your plot \"plot pome 2\" this week. However, based on the earlier analysis, you may consider using a broad-spectrum fungicide suitable for leaf spot diseases.\n\nA commonly recommended fungicide for such issues is **Copper Oxychloride** or **Mancozeb**. Always follow the manufacturer's instructions for dosage and application.\n\nIf you have any specific fungicide in mind or need further assistance, feel free to ask!",
+        "en": "Currently, there are no scheduled recommendations for fungicide spraying for your plot \"plot pome 2\" this week. However, based on the earlier analysis, you may consider using a broad-spectrum fungicide suitable for leaf spot diseases.\n\nA commonly recommended fungicide for such issues is **Copper Oxychloride** or **Mancozeb**. Always follow the manufacturer's instructions for dosage and application.\n\nIf you have any specific fungicide in mind or need further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-07-24T04:23:30.404Z"
+        }
+      }
+    ],
+    "farmer_id": "ankithbhai8889",
+    "farmer_plot_ids": [
+      "plot2pome",
+      "pomegranate334",
+      "plot2rajshakti",
+      "rajshaktipomeplot3"
+    ],
+    "conversation_id": "6881b518f76f45f76a960525",
+    "_id": "6881b518f76f45f76a960525",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-07-24T04:28:24.990000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-07-24T04:22:48.843000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "या केळीच्या पानाला काही झाले असेल<user uploaded image for analysis at 'bananaplot1332/2025-07-24-1753330279082.jpg'>",
+        "en": "Something must have happened to this banana leaf<user uploaded image for analysis at 'bananaplot1332/2025-07-24-1753330279082.jpg'>",
+        "timestamp": {
+          "$date": "2025-07-24T04:11:31.953Z"
+        },
+        "standalone_question": "Has something happened to this banana leaf?",
+        "standalone_en": "Has something happened to this banana leaf?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ya kelichya panala kahi jhale asel<user uploaded image for analysis at 'bananaplot1332/2025-07-24-1753330279082.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "केळीच्या पानावर कोणतीही विशिष्ट कीटक नियंत्रणाची शिफारस नाही. तथापि, तुम्हाला पानांचे लक्ष ठेवणे आणि सामान्य कीटक नियंत्रण उपाययोजना विचारात घेणे आवश्यक आहे.\n\nतुमच्या पिकांना चांगली पोषण मिळवून देणे आणि चांगल्या सांस्कृतिक पद्धतींचा अवलंब करणे महत्त्वाचे आहे. जर नुकसान वाढले, तर स्थानिक कृषी तज्ञांशी सल्ला घेण्याचा विचार करा.",
+        "en": "There is no specific pest control recommendation on banana leaves. However, you need to keep an eye on the leaves and consider general pest control measures.\n\nIt is important to provide good nutrition to your crops and adopt good cultural practices. If damage increases, consider consulting a local agricultural expert.",
+        "timestamp": {
+          "$date": "2025-07-24T04:11:53.893Z"
+        }
+      }
+    ],
+    "farmer_id": "vijaybagalgulsadi",
+    "farmer_plot_ids": [
+      "bananaplot1332"
+    ],
+    "conversation_id": "6881b27384a908cff57a5928",
+    "_id": "6881b27384a908cff57a5928",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-24T04:16:31.957000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-07-24T04:11:31.953000+00:00"
+  }
+]

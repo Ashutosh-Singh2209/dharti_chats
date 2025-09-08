@@ -1,0 +1,1359 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "પ્લોટ 4 માં પાણી ની જરૂરિયાત છે કે નથી",
+        "timestamp": {
+          "$date": "2024-10-10T20:34:27.649Z"
+        },
+        "standalone_question": "Is there a need for water in plot 4?",
+        "standalone_en": "Is there a need for water in plot 4?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": []
+        },
+        "content_transliterated": "plot 4 man pani knee jaruriyat che ke nathi"
+      },
+      {
+        "role": "assistant",
+        "content": "પ્લોટ 4 માં પાણીની જરૂર છે. હાલની જમીનની ભેજ 15 kPa અને 24 kPa છે, જેની તુલનામાં આદર્શ ભેજ 20 kPa છે. તેથી, પાણી આપવું યોગ્ય રહેશે.",
+        "timestamp": {
+          "$date": "2024-10-10T20:36:01.705Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "પ્લોટ 2 માં પાણી ની શું સ્થિતિ છે ",
+        "timestamp": {
+          "$date": "2024-10-10T20:37:02.954Z"
+        },
+        "standalone_question": "What is the water situation in Plot 2?",
+        "standalone_en": "What is the water situation in Plot 2?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "plot 2 man pani knee shu sthiti che "
+      },
+      {
+        "role": "assistant",
+        "content": "પ્લોટ 2 (plot 2) માં જમીનની ભેજ 9 kPa અને 12 kPa છે, જે ખૂબ જ ભેજવાળી સ્થિતિ દર્શાવે છે. આથી, હાલ પાણી આપવાની જરૂર નથી.",
+        "timestamp": {
+          "$date": "2024-10-10T20:37:07.877Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "જવાબ આપો",
+        "timestamp": {
+          "$date": "2024-10-10T20:39:22.750Z"
+        },
+        "standalone_question": "What is the situation regarding water in Plot 2?",
+        "standalone_en": "What is the situation regarding water in Plot 2?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "javab apo"
+      },
+      {
+        "role": "assistant",
+        "content": "હાલની સ્થિતિ મુજબ:\n\n- **પ્લોટ 4 (plot4)**: \n  - જમીનની ભેજ: 15 kPa અને 24 kPa\n  - આદર્શ ભેજ: 20 kPa\n  - **પાણીની જરૂર છે.**\n\n- **પ્લોટ 2 (plot 2)**: \n  - જમીનની ભેજ: 9 kPa અને 12 kPa\n  - **હાલમાં પાણી આપવાની જરૂર નથી.** \n\nજો વધુ માહિતી જોઈએ તો જણાવશો!",
+        "timestamp": {
+          "$date": "2024-10-10T20:39:30.410Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "અત્યારે દવા છાંટવાન સમય યોગ્ય છે ",
+        "timestamp": {
+          "$date": "2024-10-10T20:40:43.557Z"
+        },
+        "standalone_question": "Is it the right time to spray medicine now?",
+        "standalone_en": "Is it the right time to spray medicine now?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        },
+        "content_transliterated": "atyare dava chhantavan samay yogy che "
+      },
+      {
+        "role": "assistant",
+        "content": "હાલમાં, બંને પ્લોટ માટે દવા છાંટવાની સ્થિતિ આ રીતે છે:\n\n### પ્લોટ 4 (plot4):\n- **અત્યારે**: 2:30 AM - **IDEAL** (સુવર્ણ સમય)\n- **3:30 AM**: IDEAL\n- **4:30 AM**: IDEAL\n- **5:30 AM**: IDEAL\n- **6:30 AM**: IDEAL\n- **7:30 AM**: IDEAL\n- **8:30 AM**: IDEAL\n\n### પ્લોટ 2 (plot 2):\n- **અત્યારે**: 2:30 AM - **IDEAL** (સુવર્ણ સમય)\n- **3:30 AM**: IDEAL\n- **4:30 AM**: IDEAL\n- **5:30 AM**: IDEAL\n- **6:30 AM**: IDEAL\n- **7:30 AM**: IDEAL\n- **8:30 AM**: IDEAL\n\n**સારાંશ**: હાલ, બંને પ્લોટમાં દવા છાંટવા માટે આદર્શ સ્થિતિ છે.",
+        "timestamp": {
+          "$date": "2024-10-10T20:40:50.379Z"
+        }
+      }
+    ],
+    "farmer_id": "mayurbhai370",
+    "farmer_plot_ids": [
+      "pomegranate1",
+      "pomegranate3"
+    ],
+    "conversation_id": "67083a53ad1d497b9a2e9294",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-10-10T20:34:27.649000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi",
+        "timestamp": {
+          "$date": "2024-10-10T15:53:00.877Z"
+        },
+        "standalone_question": "What would you like to talk about?",
+        "standalone_en": "What would you like to talk about?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "नमस्कार, प्रकाश जी! आपसे मिलकर खुशी हुई। आपकी फसलों के लिए मैं कैसे मदद कर सकता हूँ?",
+        "timestamp": {
+          "$date": "2024-10-10T15:53:03.084Z"
+        }
+      }
+    ],
+    "farmer_id": "prakashgawali",
+    "farmer_plot_ids": [
+      "plotno1sudhakarmf",
+      "plotno2sudhakarmf",
+      "plotno3sudhakarmf"
+    ],
+    "conversation_id": "6707f85cad1d497b9a2e9293",
+    "tag": "others",
+    "conv_date": "2024-10-10T15:53:00.877000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Bandh aahe dist nay ",
+        "timestamp": {
+          "$date": "2024-10-10T14:57:38.004Z"
+        },
+        "standalone_question": "Is there a strike in the district?",
+        "standalone_en": "Is there a strike in the district?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Tumhala \"Bandh aahe dist nay\" mhanje kay samajhata? Krupaya thoda vistarane sangava, jya mule mi tumhala yogya madat karu shakto.",
+        "timestamp": {
+          "$date": "2024-10-10T14:57:44.535Z"
+        }
+      }
+    ],
+    "farmer_id": "pruthvirajganapatipawar",
+    "farmer_plot_ids": [
+      "pruthvirajrk"
+    ],
+    "conversation_id": "6707eb61ad1d497b9a2e9292",
+    "tag": "complaints",
+    "conv_date": "2024-10-10T14:57:38.004000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पाऊस असल्याने स्पे",
+        "timestamp": {
+          "$date": "2024-10-10T14:06:50.918Z"
+        },
+        "standalone_question": "What is the impact of the rain?",
+        "standalone_en": "What is the impact of the rain?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "paus asalyane spay"
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया आपल्याला कोणत्या प्रकारच्या स्प्रेची आवश्यकता आहे? पिकांच्या रोग किंवा कीड नियंत्रणासाठी स्प्रे करायचा आहे का?",
+        "timestamp": {
+          "$date": "2024-10-10T14:06:54.181Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "डावुनि",
+        "timestamp": {
+          "$date": "2024-10-10T14:07:19.406Z"
+        },
+        "standalone_question": "What type of spray do you need?",
+        "standalone_en": "What type of spray do you need?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        },
+        "content_transliterated": "davuni"
+      },
+      {
+        "role": "assistant",
+        "content": "सध्या आणि पुढील काही तासांमध्ये स्प्रे करण्याची स्थिती खालीलप्रमाणे आहे:\n\n- **आज रात्री 8:30 ते 9:30**: स्प्रे करण्याची स्थिती **WORST** आहे.\n- **आज रात्री 10:30**: स्प्रे करण्याची स्थिती **MODERATE** आहे.\n- **उद्या पहाटे 12:30 ते 4:30**: स्प्रे करण्याची स्थिती **MODERATE** आहे.\n- **उद्या पहाटे 5:30 ते 10:30**: स्प्रे करण्याची स्थिती **WORST** आहे.\n\nसध्या पावसामुळे स्प्रे करणे योग्य नाही. उद्या पहाटेच्या तासांमध्ये स्थिती थोडी सुधारू शकते, परंतु तरीही परिस्थिती चांगली नाही. कृपया योग्य वेळेची वाट पहा.",
+        "timestamp": {
+          "$date": "2024-10-10T14:07:27.823Z"
+        }
+      }
+    ],
+    "farmer_id": "ravindranadhudokhale",
+    "farmer_plot_ids": [
+      "plotno1mamajambosgf"
+    ],
+    "conversation_id": "6707df7afd97b94d7fa9ab01",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-10-10T14:06:50.918000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "AK Pomegranate kpbfarm NKfarm pomegranate YM Grapes shreyaspomofarm CGPomegranate 1 Cgpomegranate 2 GM pome-1, please find the creation date for all these plots",
+        "timestamp": {
+          "$date": "2024-10-10T12:43:31.902Z"
+        },
+        "standalone_question": "What is the creation date for the following plots: AK Pomegranate, kpbfarm, NKfarm pomegranate, YM Grapes, shreyaspomofarm, CGPomegranate 1, CGPomegranate 2, and GM pome-1?",
+        "standalone_en": "What is the creation date for the following plots: AK Pomegranate, kpbfarm, NKfarm pomegranate, YM Grapes, shreyaspomofarm, CGPomegranate 1, CGPomegranate 2, and GM pome-1?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the creation dates for the specified plots:\n\n1. **AK Pomegranate**: 2024-03-14 12:47:36.497000\n2. **kpbfarm Pomegranate**: Not found in the records.\n3. **YM Grapes**: Not found in the records.\n4. **shreyaspomofarm**: Not found in the records.\n5. **CG Pomegranate 1**: Not found in the records.\n6. **CG Pomegranate 2**: Not found in the records.\n7. **GM Pome-1**: Not found in the records.\n\nPlease check the plot names for accuracy, as some may not be listed in the records.",
+        "timestamp": {
+          "$date": "2024-10-10T12:43:37.656Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "please find the creation date for all these plots<user uploaded image for analysis at 'fyllo-dashboard/2024-10-10-1728564380347.png'>",
+        "timestamp": {
+          "$date": "2024-10-10T12:46:39.994Z"
+        },
+        "standalone_question": "Could you provide the creation dates for all the plots mentioned in the uploaded image?",
+        "standalone_en": "Could you provide the creation dates for all the plots mentioned in the uploaded image?",
+        "retrieval": {
+          "tools": [
+            "get_historical_irrigation_events  \nRetrieves all the past detected farmer watering/irrigation event dates for all plots for the entire user history. Provides humanized output instead of numbers."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems that the uploaded image is not in a supported format for analysis. Please ensure the image is in JPEG, JPG, PNG, or HEIC format and try uploading it again.",
+        "timestamp": {
+          "$date": "2024-10-10T12:46:44.502Z"
+        }
+      }
+    ],
+    "farmer_id": "asmitakodwatecoromandel",
+    "farmer_plot_ids": [
+      "Plotg1AnjeerFarm",
+      "balethotaplot",
+      "benchmattiplot",
+      "bhaviplotisalampurpomo",
+      "hosaperalkaripatti",
+      "hosaplot",
+      "keripattiplot",
+      "mudenursasiplot",
+      "peralbaarigidaplot8acer",
+      "shaddplot",
+      "somanagoudahola",
+      "adinarayanakairo4acre",
+      "adinarayananeroplot1",
+      "adinarayananeroplot2",
+      "amareshcapsicum",
+      "amgondthomsan2acar",
+      "anandamurthy",
+      "anandpomo1",
+      "anandfarm2",
+      "anandgrapefarms",
+      "anandpomegranate",
+      "ananthanaturalsbananag9",
+      "ananthanaturalssweetorange",
+      "ananthanaturalsyelakki",
+      "parthasarathygrapes",
+      "anilsk",
+      "neroplot1tomato",
+      "neroplot2chilli",
+      "neroplot3mango",
+      "neroplot5ridgegourd"
+    ],
+    "conversation_id": "6707cbf3e7db7e9ba71c69b3",
+    "tag": "historical data",
+    "conv_date": "2024-10-10T12:43:31.902000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "🙏🏻",
+        "timestamp": {
+          "$date": "2024-10-10T11:37:44.321Z"
+        },
+        "standalone_question": "What does the prayer emoji mean to you?",
+        "standalone_en": "What does the prayer emoji mean to you?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "नमस्कार, आम्बादास जी! आपसे मिलकर खुशी हुई। आपकी फसल और खेतों के बारे में कोई जानकारी चाहिए?",
+        "timestamp": {
+          "$date": "2024-10-10T11:37:53.981Z"
+        }
+      }
+    ],
+    "farmer_id": "ambadasjachak",
+    "farmer_plot_ids": [
+      "sharadplot1sanu"
+    ],
+    "conversation_id": "6707bc87e49f2aff6b494f51",
+    "tag": "others",
+    "conv_date": "2024-10-10T11:37:44.321000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Maticha olava 35 aahe ",
+        "timestamp": {
+          "$date": "2024-10-10T09:15:41.613Z"
+        },
+        "standalone_question": "What is the age of Maticha?",
+        "standalone_en": "What is the age of Maticha?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या मातीचा ओलावा 35 कPa आहे, जो चांगला आहे. तुम्हाला पाण्याची गरज नाही. जर तुम्हाला आणखी काही माहिती हवी असेल तर सांगा!",
+        "timestamp": {
+          "$date": "2024-10-10T09:15:43.514Z"
+        }
+      }
+    ],
+    "farmer_id": "prashantchaudhari",
+    "farmer_plot_ids": [
+      "watermelonsavkar"
+    ],
+    "conversation_id": "67079b3d31c4981e49601f21",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-10-10T09:15:41.613000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "घड जिरू नाही म्हणून कोणता स्प्रे घ्यावा ",
+        "timestamp": {
+          "$date": "2024-10-10T09:00:18.797Z"
+        },
+        "standalone_question": "Which spray should I use since the clock is not working?",
+        "standalone_en": "Which spray should I use since the clock is not working?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ghad jiru nahi mhanun konta spray ghyava "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या प्लॉटमध्ये जिरू (ग्लायफोसेट) च्या नियंत्रणासाठी, आपण खालील स्प्रे वापरू शकता:\n\n1. **पायरी 1: पाण्यात विरघळणारे जिरू स्प्रे** - हे जिरूच्या वाढीला थांबवण्यासाठी प्रभावी आहे.\n2. **पायरी 2: बायोलॉजिकल कंट्रोल** - जिरूच्या नैसर्गिक शत्रूंना वापरून नियंत्रण ठेवणे.\n\nआपल्या प्लॉटच्या सध्याच्या परिस्थितीवर आधारित, योग्य स्प्रे निवडणे महत्त्वाचे आहे. कृपया आपल्या स्थानिक कृषी तज्ञांशी संपर्क साधा किंवा अधिक माहिती मिळवण्यासाठी स्थानिक कृषी केंद्रात जा.",
+        "timestamp": {
+          "$date": "2024-10-10T09:00:23.547Z"
+        }
+      }
+    ],
+    "farmer_id": "vishalbankar",
+    "farmer_plot_ids": [
+      "plotno1clone103"
+    ],
+    "conversation_id": "670797a2b157069a1f1499f9",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-10-10T09:00:18.797000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "कशाची कमतरता  आहे ..?<user uploaded image for analysis at 'tomatoplot702/2024-10-10-1728550760644.jpeg'>",
+        "timestamp": {
+          "$date": "2024-10-10T08:59:55.043Z"
+        },
+        "standalone_question": "What is the deficiency?",
+        "standalone_en": "What is the deficiency?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kashachi kamatarata aahe ..? <user uploaded image for analysis at 'tomatoplot702/2024-10-10-1728550760644.jpeg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the uploaded image could not provide specific insights due to the image being too far away. The focus was good, but the distance was not suitable for accurate assessment. \n\nPlease try uploading a closer image of the crops for a more detailed analysis. If you have any specific symptoms or issues you are observing, feel free to describe them, and I can assist you further!",
+        "timestamp": {
+          "$date": "2024-10-10T08:59:58.809Z"
+        }
+      }
+    ],
+    "farmer_id": "pranavshinde",
+    "farmer_plot_ids": [
+      "plotno1roadside",
+      "tomatoplot702"
+    ],
+    "conversation_id": "6707978a6db81ae317be7f75",
+    "tag": "disease_pest",
+    "conv_date": "2024-10-10T08:59:55.043000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Size lhan ahe ..Kai karave<user uploaded image for analysis at 'supersonakano2551/2024-10-10-1728547941198.jpg'>",
+        "timestamp": {
+          "$date": "2024-10-10T08:12:37.829Z"
+        },
+        "standalone_question": "What should I do if the size is smaller than expected?",
+        "standalone_en": "What should I do if the size is smaller than expected?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या द्राक्षांच्या पिकाची आरोग्य स्थिती चांगली आहे. पिकात काही लक्षणीय समस्या नाहीत, परंतु काही संभाव्य कीडांचा विचार केला जाऊ शकतो:\n\n1. **सामान्य आरोग्य**: \n   - पानांचा रंग गडद हिरवा आहे.\n   - पानं मजबूत आहेत.\n   - फुलं चमकदार रंगाची आहेत.\n   - मुळांचा विकास चांगला आहे.\n\n2. **मीलीबग** (खूप कमी शक्यता):\n   - पानांवर, कोंबांवर किंवा फुलांवर पांढरे कापडासारखे कीटक दिसू शकतात.\n   - पानांचा रंग पिवळा होणे आणि वाकणे.\n   - वाढ थांबणे.\n\n   **उपचार**: इमिडाक्लोप्रिड, अॅसेटामिप्रिड, किंवा क्लोर्पायरीफॉस यांसारख्या रासायनिक फोलिअर स्प्रेचा वापर करणे.\n\n3. **आफिड्स** (खूप कमी शक्यता):\n   - पानांचा वाकणे आणि विकृती.\n   - पानांच्या खाली लहान कीटक दिसू शकतात.\n   - वाढ थांबणे.\n\n   **उपचार**: फ्लोनिकामिड, फिप्रोनिल, किंवा थायमिथोक्सम यांसारख्या रासायनिक उपचारांचा वापर करणे.\n\nतुमच्या पिकाची स्थिती चांगली आहे, परंतु कीड नियंत्रणासाठी योग्य उपाययोजना करणे आवश्यक आहे.",
+        "timestamp": {
+          "$date": "2024-10-10T08:12:46.129Z"
+        }
+      }
+    ],
+    "farmer_id": "malharishahajipatil",
+    "farmer_plot_ids": [
+      "supersonakano2551"
+    ],
+    "conversation_id": "67078c7504f6937baf12c09f",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-10-10T08:12:37.829000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "प्लॉट वरती डावणी आलेला आहे एक नंबर प्लॉट",
+        "timestamp": {
+          "$date": "2024-10-10T07:47:44.786Z"
+        },
+        "standalone_question": "Is there a number plot that has a slope on it?",
+        "standalone_en": "Is there a number plot that has a slope on it?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "plot varati davani alela aahe ek number plot"
+      },
+      {
+        "role": "assistant",
+        "content": "प्लॉट नंबर 1 वरती डावणी आलेली आहे. सध्या मातीतील आर्द्रता खालीलप्रमाणे आहे:\n\n- **मातीतील आर्द्रता 1**: 3 kPa (ज्यामुळे माती थोडी ओलसर आहे)\n- **मातीतील आर्द्रता 2**: 0 kPa (ज्यामुळे माती खूप ओलसर आहे)\n\nतुमच्या प्लॉटमध्ये पाण्याची गरज नाही, कारण माती ओलसर आहे.",
+        "timestamp": {
+          "$date": "2024-10-10T07:47:53.238Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "डाऊनीसाठी फवारणी कोणती घ्यावी",
+        "timestamp": {
+          "$date": "2024-10-10T07:48:18.635Z"
+        },
+        "standalone_question": "What type of spray should be used for the downy mildew?",
+        "standalone_en": "What type of spray should be used for the downy mildew?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "daunisathi favarani konati ghyavi"
+      },
+      {
+        "role": "assistant",
+        "content": "डावणीसाठी फवारणीची कोणतीही शिफारस सध्या उपलब्ध नाही. तुम्ही तुमच्या प्लॉटमध्ये डावणीच्या लक्षणांची तपासणी करा आणि आवश्यक असल्यास स्थानिक कृषी तज्ञांशी संपर्क साधा.",
+        "timestamp": {
+          "$date": "2024-10-10T07:48:22.768Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "प्लॉट नंबर तीन वरती पानगळीसाठी काय फवारावे",
+        "timestamp": {
+          "$date": "2024-10-10T07:49:05.502Z"
+        },
+        "standalone_question": "What should be sprayed for leaf drop on plot number three?",
+        "standalone_en": "What should be sprayed for leaf drop on plot number three?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        },
+        "content_transliterated": "plot number tin varati panagalisathi kay favarave"
+      },
+      {
+        "role": "assistant",
+        "content": "प्लॉट नंबर 3 वर पानगळीसाठी सध्या कोणतीही फवारणीची शिफारस उपलब्ध नाही. तुम्ही स्थानिक कृषी तज्ञांशी संपर्क साधून अधिक माहिती मिळवू शकता.",
+        "timestamp": {
+          "$date": "2024-10-10T07:49:09.396Z"
+        }
+      }
+    ],
+    "farmer_id": "rajanhaumotemalumbra",
+    "farmer_plot_ids": [
+      "clonenplotthreerajabhaumote",
+      "cloneplottworajabhaumote",
+      "manikchamanplotmote"
+    ],
+    "conversation_id": "670786a06db81ae317be7f72",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-10-10T07:47:44.786000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tarbuj mai besal dose konsa dena ",
+        "timestamp": {
+          "$date": "2024-10-10T06:20:06.105Z"
+        },
+        "standalone_question": "What dose should be given for watermelon?",
+        "standalone_en": "What dose should be given for watermelon?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या तरबूजाच्या पिकासाठी सध्या (10 ऑक्टोबर 2024) कोणतीही फर्टिगेशनची आवश्यकता नाही. तुम्ही \"पिक स्थापन\" या सध्याच्या टप्प्यात आहात, जो 23 सप्टेंबर 2024 पासून सुरू झाला आहे.\n\nतुमच्या पुढील फर्टिगेशनची वेळ 15 ऑक्टोबर 2024 पासून \"वनस्पती वाढ\" या टप्प्यात असेल. त्या वेळी तुम्हाला खालील फर्टिलायझर्सची आवश्यकता असेल:\n\n1. **फर्टिलायझर**: 12-61-0 - 4 किलोग्राम/एकर\n2. **फर्टिलायझर**: युरिया - 2.5 किलोग्राम/एकर\n3. **फर्टिलायझर**: मॅग्नेशियम सल्फेट - 4 किलोग्राम/एकर\n\nकृपया लक्षात ठेवा की फॉस्फोरिक आम्ल वेगळे लागू करणे आवश्यक आहे, इतर फर्टिलायझर्सच्या अनुप्रयोगापूर्वी 15-20 मिनिटे.",
+        "timestamp": {
+          "$date": "2024-10-10T06:20:11.235Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Yat phosapric acid nahi aane",
+        "timestamp": {
+          "$date": "2024-10-10T06:21:04.765Z"
+        },
+        "standalone_question": "Why is phosphoric acid not being applied?",
+        "standalone_en": "Why is phosphoric acid not being applied?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या तरबूजाच्या पिकासाठी \"पिक स्थापन\" या टप्प्यात फॉस्फोरिक आम्लाची कोणतीही फर्टिगेशन आवश्यकता नाही. त्यामुळे तुम्हाला सध्या फॉस्फोरिक आम्ल लागू करण्याची गरज नाही. \n\nतुमच्या पुढील फर्टिगेशनच्या टप्प्यात, \"वनस्पती वाढ\" मध्ये, तुम्हाला फॉस्फोरिक आम्लाची आवश्यकता असू शकते. कृपया त्या वेळी तपासून घ्या.",
+        "timestamp": {
+          "$date": "2024-10-10T06:21:08.526Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Wel craking sathi drip ne kay dave",
+        "timestamp": {
+          "$date": "2024-10-10T06:22:11.610Z"
+        },
+        "standalone_question": "What should be given through drip irrigation for cracking?",
+        "standalone_en": "What should be given through drip irrigation for cracking?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तरबूजाच्या \"वेल क्रॅकिंग\" समस्येसाठी, तुम्हाला खालील फर्टिलायझर्सचा वापर करावा लागेल:\n\n1. **पोटॅशियम नायट्रेट (KNO3)**: 5 किलोग्राम/एकर\n2. **युरिया**: 2 किलोग्राम/एकर\n3. **मॅग्नेशियम सल्फेट**: 4 किलोग्राम/एकर\n\nहे फर्टिलायझर्स ड्रिप इरिगेशनद्वारे लागू करणे आवश्यक आहे. यामुळे वेल क्रॅकिंग कमी होईल आणि पिकाची गुणवत्ता सुधारेल. \n\nकृपया फर्टिलायझर्स लागू करण्यापूर्वी योग्य प्रमाणात पाण्याची उपलब्धता सुनिश्चित करा.",
+        "timestamp": {
+          "$date": "2024-10-10T06:22:15.449Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Potasim ki calcium",
+        "timestamp": {
+          "$date": "2024-10-10T06:23:04.151Z"
+        },
+        "standalone_question": "What is the relationship between potassium and calcium?",
+        "standalone_en": "What is the relationship between potassium and calcium?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तरबूजाच्या पिकासाठी पोटॅशियम आणि कॅल्शियम यांचे संतुलन महत्त्वाचे आहे. कॅल्शियमच्या कमीमुळे वेल क्रॅकिंग आणि फळांच्या गुणवत्तेत कमी येऊ शकते. \n\nतुम्हाला खालील फर्टिलायझर्सचा वापर करावा लागेल:\n\n1. **पोटॅशियम नायट्रेट (KNO3)**: 5 किलोग्राम/एकर\n2. **कॅल्शियम नायट्रेट (Ca(NO3)2)**: 5 किलोग्राम/एकर\n\nहे फर्टिलायझर्स ड्रिप इरिगेशनद्वारे लागू करणे आवश्यक आहे. यामुळे पिकाची वाढ सुधारेल आणि वेल क्रॅकिंग कमी होईल. \n\nकृपया फर्टिलायझर्स लागू करण्यापूर्वी योग्य प्रमाणात पाण्याची उपलब्धता सुनिश्चित करा.",
+        "timestamp": {
+          "$date": "2024-10-10T06:23:09.036Z"
+        }
+      }
+    ],
+    "farmer_id": "prashantchaudhari",
+    "farmer_plot_ids": [
+      "watermelonsavkar"
+    ],
+    "conversation_id": "67077215b157069a1f1499f8",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-10-10T06:20:06.105000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How to calculate the recruitment of water for plant ",
+        "timestamp": {
+          "$date": "2024-10-10T06:07:45.251Z"
+        },
+        "standalone_question": "What is the method for calculating the water requirements for plants?",
+        "standalone_en": "What is the method for calculating the water requirements for plants?",
+        "retrieval": {
+          "tools": [
+            "calculate_irrigation_hours\nCalculate the irrigation hours needed for irrigation by the farmer based on the mandatory provided values.\n    The formula used is\n    (root_width * root_depth * soil_retention * dripper_distance * calc_constant) / dripper_discharge\n    where calc_constant = 0.00006784244"
+          ],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To calculate the water requirement for plants, you can follow these steps:\n\n1. **Determine the Soil Moisture Deficit**: \n   - Measure the current soil moisture level (in kPa).\n   - Identify the optimal soil moisture level for your crop (usually provided by agricultural guidelines).\n\n2. **Calculate the Moisture Deficit**:\n   - Moisture Deficit = Optimal Soil Moisture - Current Soil Moisture\n\n3. **Consider the Root Zone Depth**:\n   - Determine the depth of the root zone (in inches or centimeters) for your crop.\n\n4. **Calculate the Volume of Soil**:\n   - Volume of Soil = Area of the plot (in acres or square meters) × Root Zone Depth\n\n5. **Convert to Water Requirement**:\n   - Convert the moisture deficit into a volume of water needed. This can be done using the formula:\n   - Water Requirement (liters) = Moisture Deficit (mm) × Volume of Soil (m³) × 1000 (to convert m³ to liters)\n\n6. **Adjust for Leaching and Evaporation**:\n   - Consider any additional water needed for leaching (if applicable) and evaporation losses.\n\n7. **Account for Rainfall**:\n   - Subtract any expected rainfall from the total water requirement.\n\nThis calculation will give you an estimate of how much water you need to apply to meet the plants' requirements.",
+        "timestamp": {
+          "$date": "2024-10-10T06:07:56.322Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "How much water required in flowering stages",
+        "timestamp": {
+          "$date": "2024-10-10T06:09:00.845Z"
+        },
+        "standalone_question": "What is the water requirement for plants during the flowering stage?",
+        "standalone_en": "What is the water requirement for plants during the flowering stage?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "During the flowering stage, pomegranate plants typically require about 50-70 mm of water per week, depending on the climate and soil conditions. It's essential to maintain consistent moisture in the soil to support flower and fruit development.\n\nTo determine the exact water requirement for your specific plot, consider the following:\n\n1. **Soil Moisture Level**: Check the current soil moisture level.\n2. **Weather Conditions**: Consider temperature, humidity, and any rainfall received.\n3. **Irrigation System Efficiency**: Assess how effectively your irrigation system delivers water.\n\nIf you need a precise calculation based on your plot's conditions, please provide the current soil moisture level and any recent rainfall data.",
+        "timestamp": {
+          "$date": "2024-10-10T06:09:04.411Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "What is the best pesticides for melybug ",
+        "timestamp": {
+          "$date": "2024-10-10T06:10:13.790Z"
+        },
+        "standalone_question": "What are the best pesticides for controlling mealybugs?",
+        "standalone_en": "What are the best pesticides for controlling mealybugs?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For controlling mealybugs, the following pesticides are effective:\n\n1. **Imidacloprid**: A systemic insecticide that can be used to control mealybugs. Apply according to the manufacturer's instructions.\n\n2. **Thiamethoxam**: Another systemic option that is effective against mealybugs.\n\n3. **Chlorpyrifos**: A broad-spectrum insecticide that can also help in controlling mealybug populations.\n\n4. **Neem Oil**: A natural pesticide that disrupts the life cycle of mealybugs and is safe for beneficial insects.\n\n5. **Insecticidal Soap**: Effective for direct contact with mealybugs, it suffocates them.\n\nAlways follow the recommended application rates and safety precautions when using pesticides. Additionally, consider integrating cultural practices and biological control methods for a more sustainable approach.",
+        "timestamp": {
+          "$date": "2024-10-10T06:10:17.045Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Should we give 14:48:00 in flowering stages ",
+        "timestamp": {
+          "$date": "2024-10-10T06:11:06.669Z"
+        },
+        "standalone_question": "Is it advisable to provide a 14:48:00 nutrient ratio during the flowering stages?",
+        "standalone_en": "Is it advisable to provide a 14:48:00 nutrient ratio during the flowering stages?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "In the flowering stage, it's crucial to maintain adequate soil moisture to support flower and fruit development. If you are considering irrigation at 14:48 (2:48 PM), it can be a suitable time, but here are a few considerations:\n\n1. **Temperature**: Irrigating during the hottest part of the day may lead to higher evaporation losses. Early morning or late afternoon is often preferred.\n\n2. **Soil Moisture**: Check the current soil moisture level. If it's below the optimal range, irrigation is necessary.\n\n3. **Weather Conditions**: Consider any recent rainfall or expected weather changes.\n\nIf you need a specific recommendation for irrigation today, please provide the current soil moisture level or any recent rainfall data.",
+        "timestamp": {
+          "$date": "2024-10-10T06:11:10.057Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "What is GA3 and GA4",
+        "timestamp": {
+          "$date": "2024-10-10T06:12:18.164Z"
+        },
+        "standalone_question": "What are GA3 and GA4?",
+        "standalone_en": "What are GA3 and GA4?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "GA3 (Gibberellic Acid 3) and GA4 (Gibberellic Acid 4) are plant hormones belonging to the gibberellin family. They play crucial roles in various plant growth and developmental processes:\n\n1. **GA3 (Gibberellic Acid 3)**:\n   - **Function**: Promotes stem elongation, seed germination, and flowering. It helps in breaking dormancy in seeds and enhances fruit development.\n   - **Application**: Commonly used in agriculture to improve crop yields, increase fruit size, and promote uniformity in flowering.\n\n2. **GA4 (Gibberellic Acid 4)**:\n   - **Function**: Similar to GA3, it also promotes growth and development, particularly in certain plant species. It is often involved in the regulation of flowering and fruit set.\n   - **Application**: Used in specific crops to enhance growth and improve fruit quality.\n\nBoth GA3 and GA4 are used in various agricultural practices to optimize plant growth and improve yields. They are typically applied as foliar sprays or soil drenches, depending on the crop and desired effect.",
+        "timestamp": {
+          "$date": "2024-10-10T06:12:23.195Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Are they harmful ",
+        "timestamp": {
+          "$date": "2024-10-10T06:13:14.588Z"
+        },
+        "standalone_question": "Are GA3 and GA4 harmful to plants or the environment?",
+        "standalone_en": "Are GA3 and GA4 harmful to plants or the environment?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, mealybugs and other pests can be harmful to crops, including pomegranates. Here's how they can affect plants:\n\n1. **Mealybugs**: \n   - They feed on plant sap, weakening the plant and leading to stunted growth.\n   - They can cause leaf yellowing, wilting, and even drop.\n   - They excrete honeydew, which can lead to sooty mold growth, further affecting photosynthesis.\n\n2. **Other Pests**: \n   - Many pests, such as aphids, caterpillars, and fruit borers, can damage leaves, stems, and fruits, reducing yield and quality.\n   - Some pests can also transmit diseases, compounding the damage to the plants.\n\nEffective pest management is essential to protect crops from these harmful effects. Regular monitoring and timely intervention with appropriate control measures can help mitigate the risks associated with these pests.",
+        "timestamp": {
+          "$date": "2024-10-10T06:13:18.398Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "GA3 and GA4 are harming the plants ",
+        "timestamp": {
+          "$date": "2024-10-10T06:14:03.096Z"
+        },
+        "standalone_question": "Are GA3 and GA4 harmful to plants?",
+        "standalone_en": "Are GA3 and GA4 harmful to plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Gibberellic acids (GA3 and GA4) are generally used to promote plant growth and development, but if applied in excessive amounts or at inappropriate times, they can potentially harm plants. Here are some ways they can be harmful:\n\n1. **Overgrowth**: Excessive application can lead to overly elongated stems, making plants weak and susceptible to breakage.\n\n2. **Flowering Issues**: Too much gibberellin can disrupt normal flowering patterns, leading to poor fruit set or abnormal flower development.\n\n3. **Nutrient Imbalance**: High levels of gibberellins can affect the uptake of nutrients, leading to deficiencies.\n\n4. **Sensitivity to Environmental Stress**: Over-application may make plants more sensitive to environmental stresses, such as drought or disease.\n\nTo mitigate these risks, it's essential to follow recommended application rates and timings based on the specific crop and growth stage. If you suspect that GA3 or GA4 is harming your plants, consider reducing the dosage or consulting with an agricultural expert for tailored advice.",
+        "timestamp": {
+          "$date": "2024-10-10T06:14:06.680Z"
+        }
+      }
+    ],
+    "farmer_id": "ankithbhai8889",
+    "farmer_plot_ids": [
+      "plot2pome",
+      "pomegranate334",
+      "plot2rajshakti",
+      "rajshaktipomeplot3"
+    ],
+    "conversation_id": "67076f316db81ae317be7f6e",
+    "tag": "disease_pest",
+    "conv_date": "2024-10-10T06:07:45.251000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How to calculate the recruitment of water for plant ",
+        "timestamp": {
+          "$date": "2024-10-10T06:07:45.251Z"
+        },
+        "standalone_question": "What is the method for calculating the water requirements for plants?",
+        "standalone_en": "What is the method for calculating the water requirements for plants?",
+        "retrieval": {
+          "tools": [
+            "calculate_irrigation_hours\nCalculate the irrigation hours needed for irrigation by the farmer based on the mandatory provided values.\n    The formula used is\n    (root_width * root_depth * soil_retention * dripper_distance * calc_constant) / dripper_discharge\n    where calc_constant = 0.00006784244"
+          ],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To calculate the water requirement for plants, you can follow these steps:\n\n1. **Determine the Soil Moisture Deficit**: \n   - Measure the current soil moisture level (in kPa).\n   - Identify the optimal soil moisture level for your crop (usually provided by agricultural guidelines).\n\n2. **Calculate the Moisture Deficit**:\n   - Moisture Deficit = Optimal Soil Moisture - Current Soil Moisture\n\n3. **Consider the Root Zone Depth**:\n   - Determine the depth of the root zone (in inches or centimeters) for your crop.\n\n4. **Calculate the Volume of Soil**:\n   - Volume of Soil = Area of the plot (in acres or square meters) × Root Zone Depth\n\n5. **Convert to Water Requirement**:\n   - Convert the moisture deficit into a volume of water needed. This can be done using the formula:\n   - Water Requirement (liters) = Moisture Deficit (mm) × Volume of Soil (m³) × 1000 (to convert m³ to liters)\n\n6. **Adjust for Leaching and Evaporation**:\n   - Consider any additional water needed for leaching (if applicable) and evaporation losses.\n\n7. **Account for Rainfall**:\n   - Subtract any expected rainfall from the total water requirement.\n\nThis calculation will give you an estimate of how much water you need to apply to meet the plants' requirements.",
+        "timestamp": {
+          "$date": "2024-10-10T06:07:56.322Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "How much water required in flowering stages",
+        "timestamp": {
+          "$date": "2024-10-10T06:09:00.845Z"
+        },
+        "standalone_question": "What is the water requirement for plants during the flowering stage?",
+        "standalone_en": "What is the water requirement for plants during the flowering stage?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "During the flowering stage, pomegranate plants typically require about 50-70 mm of water per week, depending on the climate and soil conditions. It's essential to maintain consistent moisture in the soil to support flower and fruit development.\n\nTo determine the exact water requirement for your specific plot, consider the following:\n\n1. **Soil Moisture Level**: Check the current soil moisture level.\n2. **Weather Conditions**: Consider temperature, humidity, and any rainfall received.\n3. **Irrigation System Efficiency**: Assess how effectively your irrigation system delivers water.\n\nIf you need a precise calculation based on your plot's conditions, please provide the current soil moisture level and any recent rainfall data.",
+        "timestamp": {
+          "$date": "2024-10-10T06:09:04.411Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "What is the best pesticides for melybug ",
+        "timestamp": {
+          "$date": "2024-10-10T06:10:13.790Z"
+        },
+        "standalone_question": "What are the best pesticides for controlling mealybugs?",
+        "standalone_en": "What are the best pesticides for controlling mealybugs?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For controlling mealybugs, the following pesticides are effective:\n\n1. **Imidacloprid**: A systemic insecticide that can be used to control mealybugs. Apply according to the manufacturer's instructions.\n\n2. **Thiamethoxam**: Another systemic option that is effective against mealybugs.\n\n3. **Chlorpyrifos**: A broad-spectrum insecticide that can also help in controlling mealybug populations.\n\n4. **Neem Oil**: A natural pesticide that disrupts the life cycle of mealybugs and is safe for beneficial insects.\n\n5. **Insecticidal Soap**: Effective for direct contact with mealybugs, it suffocates them.\n\nAlways follow the recommended application rates and safety precautions when using pesticides. Additionally, consider integrating cultural practices and biological control methods for a more sustainable approach.",
+        "timestamp": {
+          "$date": "2024-10-10T06:10:17.045Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Should we give 14:48:00 in flowering stages ",
+        "timestamp": {
+          "$date": "2024-10-10T06:11:06.669Z"
+        },
+        "standalone_question": "Is it advisable to provide a 14:48:00 nutrient ratio during the flowering stages?",
+        "standalone_en": "Is it advisable to provide a 14:48:00 nutrient ratio during the flowering stages?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "In the flowering stage, it's crucial to maintain adequate soil moisture to support flower and fruit development. If you are considering irrigation at 14:48 (2:48 PM), it can be a suitable time, but here are a few considerations:\n\n1. **Temperature**: Irrigating during the hottest part of the day may lead to higher evaporation losses. Early morning or late afternoon is often preferred.\n\n2. **Soil Moisture**: Check the current soil moisture level. If it's below the optimal range, irrigation is necessary.\n\n3. **Weather Conditions**: Consider any recent rainfall or expected weather changes.\n\nIf you need a specific recommendation for irrigation today, please provide the current soil moisture level or any recent rainfall data.",
+        "timestamp": {
+          "$date": "2024-10-10T06:11:10.057Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "What is GA3 and GA4",
+        "timestamp": {
+          "$date": "2024-10-10T06:12:18.164Z"
+        },
+        "standalone_question": "What are GA3 and GA4?",
+        "standalone_en": "What are GA3 and GA4?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "GA3 (Gibberellic Acid 3) and GA4 (Gibberellic Acid 4) are plant hormones belonging to the gibberellin family. They play crucial roles in various plant growth and developmental processes:\n\n1. **GA3 (Gibberellic Acid 3)**:\n   - **Function**: Promotes stem elongation, seed germination, and flowering. It helps in breaking dormancy in seeds and enhances fruit development.\n   - **Application**: Commonly used in agriculture to improve crop yields, increase fruit size, and promote uniformity in flowering.\n\n2. **GA4 (Gibberellic Acid 4)**:\n   - **Function**: Similar to GA3, it also promotes growth and development, particularly in certain plant species. It is often involved in the regulation of flowering and fruit set.\n   - **Application**: Used in specific crops to enhance growth and improve fruit quality.\n\nBoth GA3 and GA4 are used in various agricultural practices to optimize plant growth and improve yields. They are typically applied as foliar sprays or soil drenches, depending on the crop and desired effect.",
+        "timestamp": {
+          "$date": "2024-10-10T06:12:23.195Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Are they harmful ",
+        "timestamp": {
+          "$date": "2024-10-10T06:13:14.588Z"
+        },
+        "standalone_question": "Are GA3 and GA4 harmful to plants or the environment?",
+        "standalone_en": "Are GA3 and GA4 harmful to plants or the environment?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, mealybugs and other pests can be harmful to crops, including pomegranates. Here's how they can affect plants:\n\n1. **Mealybugs**: \n   - They feed on plant sap, weakening the plant and leading to stunted growth.\n   - They can cause leaf yellowing, wilting, and even drop.\n   - They excrete honeydew, which can lead to sooty mold growth, further affecting photosynthesis.\n\n2. **Other Pests**: \n   - Many pests, such as aphids, caterpillars, and fruit borers, can damage leaves, stems, and fruits, reducing yield and quality.\n   - Some pests can also transmit diseases, compounding the damage to the plants.\n\nEffective pest management is essential to protect crops from these harmful effects. Regular monitoring and timely intervention with appropriate control measures can help mitigate the risks associated with these pests.",
+        "timestamp": {
+          "$date": "2024-10-10T06:13:18.398Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "GA3 and GA4 are harming the plants ",
+        "timestamp": {
+          "$date": "2024-10-10T06:14:03.096Z"
+        },
+        "standalone_question": "Are GA3 and GA4 harmful to plants?",
+        "standalone_en": "Are GA3 and GA4 harmful to plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Gibberellic acids (GA3 and GA4) are generally used to promote plant growth and development, but if applied in excessive amounts or at inappropriate times, they can potentially harm plants. Here are some ways they can be harmful:\n\n1. **Overgrowth**: Excessive application can lead to overly elongated stems, making plants weak and susceptible to breakage.\n\n2. **Flowering Issues**: Too much gibberellin can disrupt normal flowering patterns, leading to poor fruit set or abnormal flower development.\n\n3. **Nutrient Imbalance**: High levels of gibberellins can affect the uptake of nutrients, leading to deficiencies.\n\n4. **Sensitivity to Environmental Stress**: Over-application may make plants more sensitive to environmental stresses, such as drought or disease.\n\nTo mitigate these risks, it's essential to follow recommended application rates and timings based on the specific crop and growth stage. If you suspect that GA3 or GA4 is harming your plants, consider reducing the dosage or consulting with an agricultural expert for tailored advice.",
+        "timestamp": {
+          "$date": "2024-10-10T06:14:06.680Z"
+        }
+      }
+    ],
+    "farmer_id": "ankithbhai8889",
+    "farmer_plot_ids": [
+      "plot2pome",
+      "pomegranate334",
+      "plot2rajshakti",
+      "rajshaktipomeplot3"
+    ],
+    "conversation_id": "67076f316db81ae317be7f6e",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-10-10T06:07:45.251000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Sudhakar plot no1 padikadhi deu",
+        "timestamp": {
+          "$date": "2024-10-10T05:52:53.426Z"
+        },
+        "standalone_question": "What is the plot number for Sudhakar?",
+        "standalone_en": "What is the plot number for Sudhakar?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "### Plot No.1 Sudhakar Update:\n\n#### Irrigation Forecast:\n- **Irrigation Requirement**: No irrigation is required today.\n\n#### Fertigation Schedule:\n- **Current Crop Stage**: Fruit Pruning (Started on 10th October 2024)\n- **Current Week Schedule**: No fertigation needed.\n- **Next Fertigation Schedule**:\n  - **Stage**: Fruit Pruning\n  - **Week**: 1 (Starting from 24th October 2024)\n  - **Notes**: \n    - The concentration of micro-nutrient fertilizers for foliar spray should not exceed 1% (e.g., 5 kg in 500 liters of water per acre).\n  - **Fertilizer Distribution**: \n    - Hydrogen Cyanamide: 35 ml/l\n\n#### Disease and Pest Schedule:\n- No specific disease or pest recommendations for today.\n\nIf you need further assistance or details, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-10-10T05:53:00.001Z"
+        }
+      }
+    ],
+    "farmer_id": "sandipramchandranimse",
+    "farmer_plot_ids": [
+      "plotno1sudhakar369",
+      "plotno2sudhakar798",
+      "thompson607"
+    ],
+    "conversation_id": "67076bb56db81ae317be7f6d",
+    "tag": "others",
+    "conv_date": "2024-10-10T05:52:53.426000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which Spray should I use for an healthy & good female flowers",
+        "timestamp": {
+          "$date": "2024-10-10T04:27:23.108Z"
+        },
+        "standalone_question": "What spray should I use for healthy and good female flowers?",
+        "standalone_en": "What spray should I use for healthy and good female flowers?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To promote healthy and good female flowers in pomegranate, you can use the following sprays:\n\n1. **NAA (Naphthalene Acetic Acid)**: This plant growth regulator can help in enhancing flower quality and fruit set.\n2. **Boric Acid**: It can improve pollination and fruit set, leading to better flower health.\n3. **Potassium Nitrate**: This can enhance flower development and overall plant health.\n\nMake sure to follow the recommended dosages and application timings for the best results.",
+        "timestamp": {
+          "$date": "2024-10-10T04:27:25.965Z"
+        }
+      }
+    ],
+    "farmer_id": "saurabh9998260403",
+    "farmer_plot_ids": [
+      "plot1478",
+      "plot2mevai"
+    ],
+    "conversation_id": "670757aa1de8a90316c6f518",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-10-10T04:27:23.108000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Abhi plot mai pani kab dena hai",
+        "timestamp": {
+          "$date": "2024-10-10T04:07:55.375Z"
+        },
+        "standalone_question": "When should water be given to the plot?",
+        "standalone_en": "When should water be given to the plot?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today.",
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range."
+          ],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer.",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate.",
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapke dono plots (Plot 1 aur Plot 2) mein soil moisture reading 0 kPa hai, jo ki wet soil ko darshata hai. Iska matlab hai ki abhi paani dene ki zarurat nahi hai. \n\nAgar aapko aur koi madad chahiye, toh bataiye!",
+        "timestamp": {
+          "$date": "2024-10-10T04:08:01.708Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Isabion chalaya hai use koi dikat to nahi",
+        "timestamp": {
+          "$date": "2024-10-10T04:08:38.729Z"
+        },
+        "standalone_question": "Is there any issue with using Isabion?",
+        "standalone_en": "Is there any issue with using Isabion?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapke dono plots (Plot 1 aur Plot 2) ke liye irrigation forecast ke anusar, aaj paani dene ki zarurat nahi hai. \n\nIsliye, Isabion ka istemal karne mein koi dikat nahi hai. Agar aapko aur koi madad chahiye, toh bataiye!",
+        "timestamp": {
+          "$date": "2024-10-10T04:08:43.777Z"
+        }
+      }
+    ],
+    "farmer_id": "mohanpatel",
+    "farmer_plot_ids": [
+      "plot1533",
+      "plot2882"
+    ],
+    "conversation_id": "6707531b31c4981e49601f20",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-10-10T04:07:55.375000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "घड़ बारीक का राहिले<user uploaded image for analysis at 'plotno1thompson519295/2024-10-10-1728531674697.jpg'>",
+        "timestamp": {
+          "$date": "2024-10-10T03:41:36.719Z"
+        },
+        "standalone_question": "What is the significance of the fine details in the image?",
+        "standalone_en": "What is the significance of the fine details in the image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ghad barik ka rahile<user uploaded image for analysis at 'plotno1thompson519295/2024-10-10-1728531674697.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "आपके अंगूर के पौधों में कुछ समस्याएँ पाई गई हैं। यहाँ कुछ संभावित निदान हैं:\n\n1. **आफिड्स (Aphids)**:\n   - **संकेत**: पत्तियों का मुड़ना और विकृत होना, पत्तियों और टहनियों के नीचे छोटे कीड़े, और विकास में रुकावट।\n   - **उपचार**: एकीकृत दृष्टिकोण अपनाएँ। रासायनिक कीटनाशकों का उपयोग करते समय ध्यान रखें कि ये आफिड्स को प्रतिरोधी बना सकते हैं। आप फ्लोनिकामिड का 1:20 अनुपात में पानी के साथ 30, 45, और 60 दिन बाद लागू कर सकते हैं। अन्य विकल्पों में फिप्रोनिल, थियामेथोक्सम, या एसीटामिप्रिड शामिल हैं।\n\n2. **स्वस्थ पौधे (Healthy)**:\n   - **संकेत**: गहरे हरे रंग के पौधे, मजबूत पत्तियाँ, और अच्छी तरह से विकसित जड़ प्रणाली।\n   - **उपचार**: कोई विशेष उपचार की आवश्यकता नहीं है।\n\n3. **अंगूर का ब्लिस्टर माइट (Grape Blister Mite)**:\n   - **संकेत**: पत्तियों की ऊपरी सतह पर फफोले जैसे सूजन, और छोटे कीड़े जो बिना लेंस के देखना मुश्किल हैं।\n   - **उपचार**: स्पिरोटेट्रामेट का उपयोग किया जा सकता है। सुनिश्चित करें कि पौधों पर पर्याप्त पत्तियाँ हों ताकि रसायन का अवशोषण हो सके।\n\nकृपया इन समस्याओं का समाधान करने के लिए उचित कदम उठाएँ।",
+        "timestamp": {
+          "$date": "2024-10-10T03:41:44.318Z"
+        }
+      }
+    ],
+    "farmer_id": "rushikeshshinde280",
+    "farmer_plot_ids": [
+      "plotno1thompson519295"
+    ],
+    "conversation_id": "67074cf06db81ae317be7f6b",
+    "tag": "disease_pest",
+    "conv_date": "2024-10-10T03:41:36.719000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Khet m kya haalat h",
+        "timestamp": {
+          "$date": "2024-10-10T03:19:41.706Z"
+        },
+        "standalone_question": "What is your condition?",
+        "standalone_en": "What is your condition?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपके खेतों की स्थिति इस प्रकार है:\n\n### 1. **कairo kinnow farm**\n- **हवा का तापमान:** 25.5°C\n- **हवा की आर्द्रता:** 66%\n- **मिट्टी का तापमान:** 25.81°C\n- **मिट्टी की नमी:** 12 kPa (सुखी मिट्टी के लिए 200 kPa)\n- **पत्तों की नमी:** 0\n- **वायु दबाव:** 98.6 kPa\n- **प्रकाश की तीव्रता:** 25642 lux\n- **वायु गति:** 7.3 km/h\n- **बारिश:** 0 mm\n- **बैटरी:** 100%\n\n### 2. **kinnow plot nero 1**\n- **मिट्टी का तापमान:** 26.75°C\n- **मिट्टी की नमी:** 27 kPa\n- **बैटरी:** 57%\n\n**निष्कर्ष:** \n- पहले खेत में मिट्टी की नमी अच्छी है (12 kPa), जबकि दूसरे खेत में (27 kPa) थोड़ी अधिक सूखी है। \n- पानी देने की आवश्यकता हो सकती है, खासकर दूसरे खेत में। \n\nक्या आप पानी देने के लिए आगे बढ़ना चाहेंगे?",
+        "timestamp": {
+          "$date": "2024-10-10T03:19:49.212Z"
+        }
+      }
+    ],
+    "farmer_id": "mandeepbishnoi1661062088650",
+    "farmer_plot_ids": [
+      "kairokinnowfarm",
+      "kinnowplotnero1"
+    ],
+    "conversation_id": "670747cd31c4981e49601f1f",
+    "tag": "others",
+    "conv_date": "2024-10-10T03:19:41.706000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "रात्री पाऊस झाल्यानंतर कोणता स्प्रे घ्यावा",
+        "timestamp": {
+          "$date": "2024-10-10T03:09:04.343Z"
+        },
+        "standalone_question": "What spray should be used after it rains at night?",
+        "standalone_en": "What spray should be used after it rains at night?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ratri paus jhalyanantar konta spray ghyava"
+      },
+      {
+        "role": "assistant",
+        "content": "रात्री पाऊस झाल्यानंतर, पिकांच्या आरोग्यासाठी योग्य स्प्रे निवडणे महत्त्वाचे आहे. सामान्यतः, पाऊस झाल्यानंतर फोलिअर स्प्रे वापरणे चांगले असते, कारण ते पानांवर थेट लागू होते आणि पाण्यामुळे पिकांच्या पोषणाची शोषण क्षमता वाढते.\n\nतुमच्या पिकांच्या विशिष्ट गरजेनुसार, तुम्ही खालील स्प्रे विचारात घेऊ शकता:\n\n1. **फंगिसाइड्स**: बुरशीजन्य रोगांपासून संरक्षण करण्यासाठी.\n2. **नायट्रोजन आधारित फर्टिलायझर्स**: पिकांच्या वाढीसाठी आवश्यक पोषण प्रदान करण्यासाठी.\n3. **पेस्ट कंट्रोल स्प्रे**: कीटकांपासून संरक्षण करण्यासाठी.\n\nतुमच्या पिकांच्या विशिष्ट रोग किंवा कीटकांच्या समस्यांवर आधारित योग्य स्प्रे निवडणे महत्त्वाचे आहे. तुम्हाला अधिक माहिती हवी असल्यास, कृपया तुमच्या पिकांची स्थिती सांगा.",
+        "timestamp": {
+          "$date": "2024-10-10T03:09:09.882Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "प्लॉट पोंगा अवस्थेमध्ये पाऊस आल्यानंतर कोणता स्प्रे घ्यावा",
+        "timestamp": {
+          "$date": "2024-10-10T03:09:44.301Z"
+        },
+        "standalone_question": "What spray should be used after it rains when the plot is in a poor condition?",
+        "standalone_en": "What spray should be used after it rains when the plot is in a poor condition?",
+        "retrieval": {
+          "tools": [
+            "check_spray_conditions  \nGets the spray condition forecast for the next few hours for the farmer's plots and returns the condition for each hour as GOOD, MODERATE, or WORST, based on deltaT, VPD, and rainfall conditions."
+          ],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        },
+        "content_transliterated": "plot ponga avasthemadhye paus alyanantar konta spray ghyava"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"Plot No 1 Clone\" मध्ये पिक पोंगा अवस्थेमध्ये आहे आणि सध्या कोणतेही रोग किंवा कीटकांच्या समस्यांचे संकेत नाहीत. त्यामुळे, पाऊस झाल्यानंतर तुम्हाला विशेष स्प्रेची आवश्यकता नाही.\n\nतथापि, पिकांच्या आरोग्यासाठी सामान्यतः फंगिसाइड्स किंवा पोषणात्मक फर्टिलायझर्स वापरणे चांगले असते. जर तुम्हाला कोणत्याही विशिष्ट समस्यांबद्दल चिंता असेल, तर कृपया अधिक माहिती द्या.",
+        "timestamp": {
+          "$date": "2024-10-10T03:09:48.996Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "कृष्ण ऑगस्ट झाल्यानंतर",
+        "timestamp": {
+          "$date": "2024-10-10T03:10:02.828Z"
+        },
+        "standalone_question": "What should be done after August for Krishna?",
+        "standalone_en": "What should be done after August for Krishna?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "krishna august jhalyanantar"
+      },
+      {
+        "role": "assistant",
+        "content": "कृष्ण ऑगस्ट म्हणजे श्रावण महिन्यातील कृष्ण पक्ष, जो साधारणतः जुलै-ऑगस्टच्या दरम्यान येतो. या काळात पिकांच्या वाढीसाठी योग्य काळ असतो, विशेषतः जर पाऊस झाला असेल तर.\n\nपिकांच्या काळजीसाठी काही महत्त्वाचे मुद्दे:\n\n1. **पाण्याचे व्यवस्थापन**: पाऊस झाल्यानंतर मातीतील ओलावा टिकवून ठेवणे महत्त्वाचे आहे. त्यामुळे पाण्याची गरज कमी होईल.\n2. **फर्टिलायझर**: पिकांच्या वाढीसाठी आवश्यक पोषण देण्यासाठी योग्य फर्टिलायझर वापरणे.\n3. **रोग आणि कीटक नियंत्रण**: पाऊसामुळे काही रोग आणि कीटकांची समस्या उद्भवू शकते. त्यामुळे फंगिसाइड्स किंवा कीटकनाशकांचा वापर करणे आवश्यक असू शकते.\n\nतुमच्या पिकांच्या विशिष्ट गरजेनुसार योग्य उपाययोजना करणे महत्त्वाचे आहे. तुम्हाला अधिक माहिती हवी असल्यास, कृपया तुमच्या पिकांची स्थिती सांगा.",
+        "timestamp": {
+          "$date": "2024-10-10T03:10:07.262Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "डावणी साठी कोणता स्प्रे घ्या",
+        "timestamp": {
+          "$date": "2024-10-10T03:10:28.211Z"
+        },
+        "standalone_question": "Which spray should be used for the crop during the flowering stage?",
+        "standalone_en": "Which spray should be used for the crop during the flowering stage?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed",
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"Plot No 1 Clone\" मध्ये डावणीसाठी कोणतेही स्प्रे सध्या शिफारस केलेले नाही. याचा अर्थ असा की सध्या कोणतीही रोग किंवा कीटकांची समस्या नाही.\n\nतथापि, डावणीच्या काळात पिकांच्या आरोग्यासाठी सामान्यतः फंगिसाइड्स वापरणे चांगले असते, विशेषतः जर वातावरणात आर्द्रता वाढली असेल. तुम्हाला कोणत्याही विशिष्ट समस्यांबद्दल चिंता असल्यास, कृपया अधिक माहिती द्या.",
+        "timestamp": {
+          "$date": "2024-10-10T03:10:33.131Z"
+        }
+      }
+    ],
+    "farmer_id": "vishalbankar",
+    "farmer_plot_ids": [
+      "plotno1clone103"
+    ],
+    "conversation_id": "670745506db81ae317be7f69",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-10-10T03:09:04.343000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi",
+        "timestamp": {
+          "$date": "2024-10-10T01:27:23.763Z"
+        },
+        "standalone_question": "What would you like to talk about today?",
+        "standalone_en": "What would you like to talk about today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Hello, Nanasaheb! How can I assist you with your farming needs today?",
+        "timestamp": {
+          "$date": "2024-10-10T01:27:25.410Z"
+        }
+      }
+    ],
+    "farmer_id": "nanasahebpopatgholap",
+    "farmer_plot_ids": [
+      "plotno1rksawmisamarth"
+    ],
+    "conversation_id": "67072d7b04f6937baf12c09d",
+    "tag": "others",
+    "conv_date": "2024-10-10T01:27:23.763000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "निरियात क्षम बागेत काय स्परे घ्यावा",
+        "timestamp": {
+          "$date": "2024-10-10T01:08:24.124Z"
+        },
+        "standalone_question": "What should be taken as a spare in the export capacity garden?",
+        "standalone_en": "What should be taken as a spare in the export capacity garden?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "niriyat ksam baget kay spare ghyava"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या बागेत (Kali Mandap, Pabha H, Y Plot 1 acra) सध्या कोणतेही रोग किंवा कीड नियंत्रणासाठी स्प्रे घेण्याची शिफारस नाही. तथापि, स्प्रे घेण्याच्या परिस्थितीची तपासणी करता येत नाही. \n\nतुम्हाला अधिक माहिती हवी असल्यास, कृपया सांगा!",
+        "timestamp": {
+          "$date": "2024-10-10T01:08:30.363Z"
+        }
+      }
+    ],
+    "farmer_id": "prakashhrirampatil",
+    "farmer_plot_ids": [
+      "kalibabalu",
+      "pabhah",
+      "yplotacra"
+    ],
+    "conversation_id": "670729075c2cd5549f5d1268",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-10-10T01:08:24.124000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Dharti aap",
+        "timestamp": {
+          "$date": "2024-10-10T00:44:01.098Z"
+        },
+        "standalone_question": "What is the Earth?",
+        "standalone_en": "What is the Earth?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "नमस्कार, रुषिकेश! मैं आपकी कृषि संबंधी सहायता के लिए यहाँ हूँ। आपको किस प्रकार की जानकारी या सहायता चाहिए?",
+        "timestamp": {
+          "$date": "2024-10-10T00:44:05.876Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Asa ka hot<user uploaded image for analysis at 'plotno1thompson519295/2024-10-10-1728521088102.jpg'>",
+        "timestamp": {
+          "$date": "2024-10-10T00:44:59.361Z"
+        },
+        "standalone_question": "What is the condition of the crop in the uploaded image?",
+        "standalone_en": "What is the condition of the crop in the uploaded image?",
+        "retrieval": {
+          "tools": [
+            "analyse_crop_image  \nGets the analysis of the uploaded crop image for any diseases or pests."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या अपलोड केलेल्या चित्राचे विश्लेषण केले असता, त्यात कोणत्याही विशिष्ट रोगाची किंवा समस्येची ओळख पटली नाही. हे असे होऊ शकते की समस्या अद्याप समर्थनात नाही. \n\nतुमच्या पिकांची आरोग्य स्थिती समजून घेण्यासाठी, कृपया पिकांच्या लक्षणांबद्दल अधिक माहिती द्या किंवा दुसरे चित्र अपलोड करा. तुम्हाला आणखी काही मदतीची आवश्यकता आहे का?",
+        "timestamp": {
+          "$date": "2024-10-10T00:45:04.906Z"
+        }
+      }
+    ],
+    "farmer_id": "rushikeshshinde280",
+    "farmer_plot_ids": [
+      "plotno1thompson519295"
+    ],
+    "conversation_id": "670723506db81ae317be7f68",
+    "tag": "disease_pest",
+    "conv_date": "2024-10-10T00:44:01.098000+00:00"
+  }
+]

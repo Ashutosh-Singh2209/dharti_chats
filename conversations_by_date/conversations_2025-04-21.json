@@ -1,0 +1,641 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "थ्रीप्स साठी स्प्रे गार्जेचा आहे का ",
+        "en": "Is there a spray gargoyle for thrips? ",
+        "timestamp": {
+          "$date": "2025-04-21T14:06:42.977Z"
+        },
+        "standalone_question": "Is there a spray for thrips?",
+        "standalone_en": "Is there a spray for thrips?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "thrips sathi spray garjecha aahe ka "
+      },
+      {
+        "role": "assistant",
+        "content": "थ्रीप्ससाठी या आठवड्यात स्प्रेची कोणतीही शिफारस नाही. तुम्हाला स्प्रे करण्याची गरज नाही.",
+        "en": "There is no recommendation for sprays this week for thrips. You don't need to spray.",
+        "timestamp": {
+          "$date": "2025-04-21T14:06:48.414Z"
+        }
+      }
+    ],
+    "farmer_id": "sandipkale",
+    "farmer_plot_ids": [
+      "plotno1224"
+    ],
+    "conversation_id": "680650f27168514aadd677c0",
+    "_id": "680650f27168514aadd677c0",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-21T14:11:42.985000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-04-21T14:06:42.977000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "जमिनीतील गारव्याची काय स्थिती आहे ",
+        "en": "What is the state of the cold in the ground? ",
+        "timestamp": {
+          "$date": "2025-04-21T12:17:46.960Z"
+        },
+        "standalone_question": "What is the condition of the coldness in the ground?",
+        "standalone_en": "What is the condition of the coldness in the ground?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "jaminitil garavyachi kay sthiti aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "\"साखरकांदाच्या प्लॉट 1\" मध्ये जमिनीतील तापमान 32 डिग्री सेल्सियस आहे. सेंद्रिय आर्द्रता 87% आहे, ज्याचा अर्थ जमिनीतील आर्द्रता चांगली आहे. त्यामुळे गारव्याची स्थिती चांगली आहे.",
+        "en": "Plot 1 of the \"sugar cane\" has a ground temperature of 32 °C. The organic moisture is 87%, which means the soil moisture is good. So the cold conditions are good.",
+        "timestamp": {
+          "$date": "2025-04-21T12:17:51.755Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "जमिनीतील तापमान कितपत चालते",
+        "en": "How much does the temperature in the ground work?",
+        "timestamp": {
+          "$date": "2025-04-21T12:18:43.003Z"
+        },
+        "standalone_question": "What is the acceptable temperature range for the soil?",
+        "standalone_en": "What is the acceptable temperature range for the soil?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "jaminitil tapaman kitapat chalte"
+      },
+      {
+        "role": "assistant",
+        "content": "साखरकांदाच्या प्लॉट 1 मध्ये जमिनीतील तापमान 32 डिग्री सेल्सियस आहे. साखरकांदासाठी हे तापमान सामान्यतः चांगले आहे, कारण साखरकांदाला 25 ते 30 डिग्री सेल्सियस तापमान आवडते. त्यामुळे, सध्या तापमान योग्य आहे.",
+        "en": "The ground temperature in plot 1 of sugar cane is 32 °C. This temperature is generally good for sugar onions, as sugar onions prefer a temperature of 25 to 30 degrees Celsius. So, the temperature is right now.",
+        "timestamp": {
+          "$date": "2025-04-21T12:18:47.308Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "जमिनीतील तापमान किती असावे ",
+        "en": "What should be the temperature of the ground? ",
+        "timestamp": {
+          "$date": "2025-04-21T12:19:32.847Z"
+        },
+        "standalone_question": "What should the soil temperature be?",
+        "standalone_en": "What should the soil temperature be?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What should I do if the soil temperature sensor is not working?\nA: Check the sensor connection, tighten it if loose, and restart the device to check updated data."
+          ]
+        },
+        "content_transliterated": "jaminitil tapaman kiti asave "
+      },
+      {
+        "role": "assistant",
+        "content": "साखरकांदासाठी जमिनीतील तापमान 25 ते 30 डिग्री सेल्सियस दरम्यान असावे. या तापमानात साखरकांदा चांगला वाढतो आणि त्याला आवश्यक पोषण मिळवतो. 32 डिग्री सेल्सियस तापमान सध्या आहे, जे थोडं जास्त आहे, पण तरीही सहनशील आहे. तापमान कमी करण्यासाठी योग्य जल व्यवस्थापन करणे आवश्यक आहे.",
+        "en": "The ground temperature for sugar cane should be between 25 and 30 °C. At this temperature, sugar canoe grows well and provides it with the nutrients it needs. The temperature is currently at 32 °C, which is a bit higher, but still tolerable. Proper water management is essential to reduce temperature.",
+        "timestamp": {
+          "$date": "2025-04-21T12:19:37.345Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "शेतामध्ये सेंद्रिय कर्ब किती टक्के आहे ",
+        "en": "What is the percentage of organic carbon in the field? ",
+        "timestamp": {
+          "$date": "2025-04-21T12:21:21.833Z"
+        },
+        "standalone_question": "What is the percentage of organic carbon in the field?",
+        "standalone_en": "What is the percentage of organic carbon in the field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "shetamadhye sendriy curb kiti takke aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "सेंद्रिय कर्बाची टक्केवारी मोजण्यासाठी, तुम्हाला जमिनीच्या नमुन्यांची चाचणी करावी लागेल. सामान्यतः, सेंद्रिय कर्बाची टक्केवारी 1% ते 5% दरम्यान असते, परंतु हे जमिनीच्या प्रकारावर आणि व्यवस्थापन पद्धतींवर अवलंबून असते. तुमच्या प्लॉटसाठी सटीक माहिती मिळवण्यासाठी, तुम्हाला सेंद्रिय कर्बाची चाचणी करणे आवश्यक आहे.",
+        "en": "To measure the percentage of organic carbon, you'll need to test soil samples. Typically, the percentage of organic carbon is between 1% and 5%, but this depends on the type of soil and management practices. To get the exact information for your plot, you need to test for organic carbon.",
+        "timestamp": {
+          "$date": "2025-04-21T12:21:27.334Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पावसाळ्यामध्ये जमिनीचे तापमान किती असावे ",
+        "en": "What should be the temperature of the soil during monsoon? ",
+        "timestamp": {
+          "$date": "2025-04-21T12:23:08.144Z"
+        },
+        "standalone_question": "What should the soil temperature be during the rainy season?",
+        "standalone_en": "What should the soil temperature be during the rainy season?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What should be the optimum rainfall for sowing?\nA: 50 to 100 mm is optimum rain fall required for sowing"
+          ]
+        },
+        "content_transliterated": "pavasalyamadhye jaminiche tapaman kiti asave "
+      },
+      {
+        "role": "assistant",
+        "content": "पावसाळ्यात जमिनीचे तापमान साधारणतः 20 ते 25 डिग्री सेल्सियस असावे. या तापमानात जमिनीतील आर्द्रता वाढते आणि पिकांच्या वाढीसाठी अनुकूल वातावरण तयार होते. पावसाळ्यात तापमान कमी असले तरी, पिकांच्या वाढीसाठी आवश्यक आर्द्रता आणि पोषण मिळवण्यासाठी योग्य जल व्यवस्थापन करणे महत्त्वाचे आहे.",
+        "en": "During the rainy season, the temperature of the soil should generally be 20 to 25 degrees Celsius. This temperature increases the moisture in the soil and creates a favorable environment for the growth of crops. Although the temperature is low during the rainy season, proper water management is important to get the moisture and nutrition needed for the growth of crops.",
+        "timestamp": {
+          "$date": "2025-04-21T12:23:15.402Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "उन्हाळ्यात जमिनीचे तापमान कमी करण्यासाठी काय करावे ",
+        "en": "What to do to lower soil temperature in summer ",
+        "timestamp": {
+          "$date": "2025-04-21T12:23:56.071Z"
+        },
+        "standalone_question": "What can be done to reduce soil temperature during summer?",
+        "standalone_en": "What can be done to reduce soil temperature during summer?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "unhalyat jaminiche tapaman kami karanyasathi kay karave "
+      },
+      {
+        "role": "assistant",
+        "content": "उन्हाळ्यात जमिनीचे तापमान कमी करण्यासाठी खालील उपाययोजना करू शकता:\n\n1. **मुल्चिंग**: जमिनीवर चांगला मुल्च (जसे की चारा, पानं, किंवा प्लास्टिक) ठेवल्याने तापमान कमी होऊ शकते.\n\n2. **पाण्याचा वापर**: नियमितपणे पाण्याचा वापर करून जमिनीला आर्द्रता द्या, ज्यामुळे तापमान कमी होईल.\n\n3. **पिकांची निवड**: उन्हाळ्यात कमी तापमानाची आवश्यकता असलेल्या पिकांची निवड करा.\n\n4. **सेंद्रिय पदार्थांचा वापर**: सेंद्रिय पदार्थांचा वापर करून जमिनीची गुणवत्ता सुधारित करा, ज्यामुळे तापमान कमी होईल.\n\n5. **पिकांची व्यवस्था**: पिकांची व्यवस्था अशा प्रकारे करा की ती एकमेकांना सावली देऊ शकतील.\n\nया उपाययोजनांनी तुम्ही जमिनीचे तापमान कमी करू शकता.",
+        "en": "The following measures can be taken to reduce soil temperature in the summer:\n\n1. **Mulching**: Keeping a good mulch (such as fodder, leaves, or plastic) on the ground can lower the temperature.\n\n2. **Water use**: Give moisture to the soil by using water regularly, which will reduce the temperature.\n\n3. **Crop selection**: Choose crops that require lower temperatures in summer.\n\n4. **Use organic materials**: Improve the quality of the soil by using organic materials, which will reduce the temperature.\n\n5. **Arranging crops**: Arrange crops in such a way that they can shade each other.\n\nWith these measures, you can reduce the temperature of the soil.",
+        "timestamp": {
+          "$date": "2025-04-21T12:24:02.778Z"
+        }
+      }
+    ],
+    "farmer_id": "harshalsajane",
+    "farmer_plot_ids": [
+      "sugarcaneplot1118"
+    ],
+    "conversation_id": "6806376a7309317e279e735f",
+    "_id": "6806376a7309317e279e735f",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-21T12:28:56.079000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-21T12:17:46.960000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kiti vala na pani lagal",
+        "en": "How much water is needed?",
+        "timestamp": {
+          "$date": "2025-04-21T09:57:15.638Z"
+        },
+        "standalone_question": "Did you water the plants?",
+        "standalone_en": "Did you water the plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "\"Anushka plot\" साठी सध्या पाण्याची गरज नाही. सध्या मातीतील आर्द्रता 81% आणि 92% आहे, जे की 70% च्या आदर्श पातळीपेक्षा जास्त आहे.",
+        "en": "\"Anushka plot\" does not require water at present. Currently, the soil humidity is 81% and 92%, which is higher than the ideal level of 70%.",
+        "timestamp": {
+          "$date": "2025-04-21T09:57:21.234Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Mg kadhi soday ch",
+        "en": "MG is removed from soda",
+        "timestamp": {
+          "$date": "2025-04-21T09:57:49.387Z"
+        },
+        "standalone_question": "When will it be necessary to water the plants?",
+        "standalone_en": "When will it be necessary to water the plants?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer.",
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "\"Anushka plot\" साठी आज पाण्याची गरज नाही. त्यामुळे आज पाणी देण्याची आवश्यकता नाही.",
+        "en": "No need for water for \"Anushka plot\" today. So there is no need to water today.",
+        "timestamp": {
+          "$date": "2025-04-21T09:57:53.695Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Mg kadhi",
+        "en": "Mg kadhi",
+        "timestamp": {
+          "$date": "2025-04-21T09:58:04.656Z"
+        },
+        "standalone_question": "When will it be needed?",
+        "standalone_en": "When will it be needed?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "\"Anushka plot\" साठी पाणी देण्याची योग्य वेळ 23 एप्रिल 2025 रोजी संध्याकाळी आहे. त्या दिवशी पावसाची अपेक्षा कमी आहे, त्यामुळे पाणी देणे आवश्यक आहे.",
+        "en": "The ideal time to water for \"Anushka plot\" is 23rd April 2025 in the evening. The rainfall expectation is low on that day, so watering is necessary.",
+        "timestamp": {
+          "$date": "2025-04-21T09:58:11.096Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ok",
+        "en": "Ok",
+        "timestamp": {
+          "$date": "2025-04-21T09:58:46.953Z"
+        },
+        "standalone_question": "When is the best time to water the \"Anushka plot\"?",
+        "standalone_en": "When is the best time to water the \"Anushka plot\"?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "जर तुम्हाला आणखी काही विचारायचं असेल तर कृपया सांगा!",
+        "en": "If you have anything else to ask, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-21T09:58:49.887Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Khata kona ta soda va",
+        "en": "Khata kona ta soda and",
+        "timestamp": {
+          "$date": "2025-04-21T09:59:16.658Z"
+        },
+        "standalone_question": "Who is responsible for watering the plot?",
+        "standalone_en": "Who is responsible for watering the plot?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: How to measure/ calculate irrigation hours /water tank of my plot in fyllo app? How do I calculate irrigation hours for my plot? How to use the irrigation hours calculator?\nA: To calculate irrigation hours in the Fyllo app, follow these steps:\n\n1. Open the Fyllo App\n2. Go to the home screen\n3. Click on the soil moisture-1 sensor\n4. Scroll down to find the \"Irrigation hours\" section\n5. Fill in the required details such as:\n   - Root width (inches)\n   - Root depth (inches)\n   - Soil retention (mm)\n   - Dripper distance (feet)\n   - Dripper discharge (liters)\n6. Click the calculate button\n\nWould you like me to calculate the irrigation hours for you right now? I can retrieve your plot's irrigation settings and perform the calculation if you say yes.\n\nTool Selection: When user says yes, I should:\n1. Use get_irrigation_installation_settings tool to retrieve plot settings\n2. Check if all values are present and valid\n3. If values are valid, use calculate_irrigation_hours tool with these values\n4. If values are missing or invalid, ask the user to provide the missing values\n5. After calculating irrigation hours, display the irrigation installation settings that were used for the calculation\n6. Ask the user if they want to calculate irrigation hours with a different set of values, and if yes, prompt them to provide those values\n\nExample response if values are missing:\n\"I checked your plot settings, but I need some additional information to calculate irrigation hours accurately. Could you please provide the [missing value(s)]? Once you provide these details, I can complete the calculation for you.\"\n\nExample response after calculation:\n\"Based on your plot's irrigation settings, the calculated irrigation hours are [X] hours. \n\nI used the following settings for this calculation:\n- Root width: [value] inches\n- Root depth: [value] inches\n- Soil retention: [value] mm\n- Dripper distance: [value] feet\n- Dripper discharge: [value] liters\n\nWould you like to calculate irrigation hours with a different set of values? If yes, please provide the new values you'd like to use.\""
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "\"Anushka plot\" साठी सध्या \"Foundation Pruning\" या अवस्थेत आहात, जी 10 एप्रिल 2025 पासून सुरू झाली आहे. पुढील अवस्थांमध्ये \"Break Bud\" आणि \"Cane thinning\" यांचा समावेश आहे. \n\nजर तुम्हाला अधिक माहिती हवी असेल तर कृपया सांगा!",
+        "en": "The \"Foundation Pruning\" for the \"Anushka plot\" is currently in the state, which has started from 10th April 2025. The following conditions include \"Break Bud\" and \"Cane Thinning\". \n\nIf you need more information, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-21T09:59:21.026Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Aside sodal tar chal la ka",
+        "en": "Aside sodal tar chal la ka",
+        "timestamp": {
+          "$date": "2025-04-21T10:00:07.054Z"
+        },
+        "standalone_question": "Is it okay to proceed with the pruning?",
+        "standalone_en": "Is it okay to proceed with the pruning?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "\"Anushka plot\" साठी \"Foundation Pruning\" या अवस्थेत आहात, त्यामुळे सध्या पाण्याची गरज नाही. तुम्ही पाण्याची गरज असलेल्या अवस्थेत असाल तर पाणी देणे आवश्यक आहे. \n\nजर तुम्हाला आणखी काही विचारायचं असेल तर कृपया सांगा!",
+        "en": "The \"Foundation Pruning\" for the \"Anushka plot\" is in the state, so there is no need to water at present. Watering is a must if you are in a state where you need water. \n\nIf you have any more questions, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-21T10:00:11.714Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "By",
+        "en": "By",
+        "timestamp": {
+          "$date": "2025-04-21T10:00:43.373Z"
+        },
+        "standalone_question": "Are you finished?",
+        "standalone_en": "Are you finished?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमचा दिवस शुभ जावो! काहीही मदतीसाठी पुन्हा संपर्क साधा. धन्यवाद!",
+        "en": "Have a good day! Contact again for any help. Thank you!",
+        "timestamp": {
+          "$date": "2025-04-21T10:00:46.119Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Number",
+        "en": "Number",
+        "timestamp": {
+          "$date": "2025-04-21T10:00:56.128Z"
+        },
+        "standalone_question": "What is the number?",
+        "standalone_en": "What is the number?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "You have the following devices:\n\n1. **Nero / Irrigation Unit**: \n   - **Anushka plot** (plotId: anushkaplot640)\n\nTotal: **1 Nero / Irrigation Unit**\n\n2. **Kairo / Weather Unit**: \n   - No Kairo / Weather Units are listed.\n\nTotal: **0 Kairo / Weather Units**\n\nIn summary:\n- **Nero / Irrigation Units**: 1\n- **Kairo / Weather Units**: 0",
+        "en": "You have the following devices:\n\n1. **Nero / Irrigation Unit**: \n   - **Anushka plot** (plotId: anushkaplot640)\n\nTotal: **1 Nero / Irrigation Unit**\n\n2. **Kairo / Weather Unit**: \n   - No Kairo / Weather Units are listed.\n\nTotal: **0 Kairo / Weather Units**\n\nIn summary:\n- **Nero / Irrigation Units**: 1\n- **Kairo / Weather Units**: 0",
+        "timestamp": {
+          "$date": "2025-04-21T10:00:59.730Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ok",
+        "en": "Ok",
+        "timestamp": {
+          "$date": "2025-04-21T10:01:20.020Z"
+        },
+        "standalone_question": "What is the current status of the irrigation units for the Anushka plot?",
+        "standalone_en": "What is the current status of the irrigation units for the Anushka plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "जर तुम्हाला आणखी काही विचारायचं असेल तर कृपया सांगा!",
+        "en": "If you have anything else to ask, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-21T10:01:22.890Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Uday pani sodal tar chala ka",
+        "en": "Uday Pani Sodal Tar Chala Ka",
+        "timestamp": {
+          "$date": "2025-04-21T10:01:40.837Z"
+        },
+        "standalone_question": "Is it okay to stop watering now?",
+        "standalone_en": "Is it okay to stop watering now?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "\"Anushka plot\" साठी सध्या पाणी देण्याची आवश्यकता नाही. मातीतील आर्द्रता 81% आणि 92% आहे, जे आदर्श पातळी 70% पेक्षा जास्त आहे. त्यामुळे पाणी देणे आवश्यक नाही.",
+        "en": "\"Anushka plot\" does not need to be watered at this time. Soil moisture is 81% and 92%, which is more than the ideal level of 70%. Therefore, it is not necessary to provide water.",
+        "timestamp": {
+          "$date": "2025-04-21T10:01:46.170Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "23la ",
+        "en": "23 ",
+        "timestamp": {
+          "$date": "2025-04-21T10:02:03.223Z"
+        },
+        "standalone_question": "Is it okay to water the plants on the 23rd?",
+        "standalone_en": "Is it okay to water the plants on the 23rd?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "23 एप्रिल 2025 रोजी संध्याकाळी 6 वाजता \"Anushka plot\" साठी पाणी देणे आवश्यक आहे, कारण त्या दिवशी पावसाची अपेक्षा कमी आहे. त्यामुळे तुम्ही त्या वेळेस पाणी देऊ शकता.",
+        "en": "It is necessary to water for the \"Anushka plot\" on 23 April 2025 at 6 pm, as the rainfall expectation is low on that day. So you can water at that time.",
+        "timestamp": {
+          "$date": "2025-04-21T10:02:09.153Z"
+        }
+      }
+    ],
+    "farmer_id": "vilasambadasghodake",
+    "farmer_plot_ids": [
+      "anushkaplot640"
+    ],
+    "conversation_id": "6806167b7309317e279e735e",
+    "_id": "6806167b7309317e279e735e",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-21T10:07:03.232000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-21T09:57:15.638000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Soil moisture 1 depth ",
+        "en": "Soil moisture 1 depth ",
+        "timestamp": {
+          "$date": "2025-04-21T07:57:54.425Z"
+        },
+        "standalone_question": "What is the soil moisture at a depth of 1?",
+        "standalone_en": "What is the soil moisture at a depth of 1?",
+        "retrieval": {
+          "tools": [
+            "get_soil_moisture_sensor_depth  \nReturns the depths in inches of the soil moisture sensors 1 and 2 installed on the plots.",
+            "get_daily_soil_moisture_data  \nRetrieves historical daily soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for larger duration.",
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range.",
+            "get_hourly_soil_moisture_data  \nRetrieves historical hourly soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for less than 5 days duration.",
+            "get_soil_moisture_percentage_from_kpa_reading  \nGets the estimated soil moisture percentage for a given plot and kPa reading."
+          ],
+          "faq": [
+            "Q: What is my soil moisture depletion?\nA: Soil moisture depletion %age = (100 - soil moisture %age)",
+            "Q: How do I know if my soil  moisture sensor is working fine ?\nA: The only way to know is if after irrigation the sensor is dropping below 5 kpa and increasing continuously unless next irrigation is done. You can try putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. Also, a soil moisture reading of 0 kPa is perfectly fine, meaning wet soil, but a reading of 200 kPa could mean fault. If the soil moisture sensor reading is consistently at 0 from few 48 hours, then it could be anamolous (use live and historical hourly soil moisture data (use tool) to validate).",
+            "Q: Sensor is showing wet, i.e. less kpa but soil looks dry.\nA: The sensor measures the moisture around the rootzone which is not visible from the top. Ask use to check the moisture in rootzone around the sensor. If it matches, ask the user to irrigate.",
+            "Q: How much kPa should be set for a 4-inch depth soil moisture sensor?\nA: The kPa value for a 4-inch depth soil moisture sensor should be set based on the **soil type** and **crop requirements**. Here are general guidelines for different soil types:\n\n### **Sandy Soil:**\n- **Optimal range:** 10–20 kPa\n- **Irrigation threshold:** Above 30 kPa\n\n### **Loamy Soil (Silty or Mixed):**\n- **Optimal range:** 20–40 kPa\n- **Irrigation threshold:** Above 50 kPa\n\n### **Clay Soil:**\n- **Optimal range:** 40–70 kPa\n- **Irrigation threshold:** Above 80 kPa\n\n### **Additional Considerations:**\n- For **sensitive crops** like vegetables, maintain lower kPa thresholds to avoid water stress.\n- For **deep-rooted crops**, kPa values may vary at different depths; calibrate accordingly.\n- **Calibration** of the sensor to your specific soil and crop is essential for accuracy.\n\nConsulting with an agronomist or referring to crop-specific irrigation guides will help you fine-tune the kPa range.",
+            "Q: In the latest irrigation , sensor didn't drop to 0.\nA: 0 to 5 Kpa means soil is fully wet. It need not drop to 0 every time. Moisture less than 5 also means wet conditions. So, need not worry. Also ask to wait for 12 hours after irrigation."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The depth of Soil Moisture Sensor 1 in your **nero kinnow plot** is **5 inches**.",
+        "en": "The depth of Soil Moisture Sensor 1 in your **nero kinnow plot** is **5 inches**.",
+        "timestamp": {
+          "$date": "2025-04-21T07:57:58.344Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Why is it not updating ",
+        "en": "Why is it not updating ",
+        "timestamp": {
+          "$date": "2025-04-21T07:58:14.648Z"
+        },
+        "standalone_question": "Why isn't the soil moisture sensor updating?",
+        "standalone_en": "Why isn't the soil moisture sensor updating?",
+        "retrieval": {
+          "tools": [
+            "get_daily_soil_moisture_data  \nRetrieves historical daily soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for larger duration.",
+            "get_hourly_soil_moisture_data  \nRetrieves historical hourly soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for less than 5 days duration.",
+            "get_soil_moisture_sensor_depth  \nReturns the depths in inches of the soil moisture sensors 1 and 2 installed on the plots.",
+            "get_soil_moisture_percentage_from_kpa_reading  \nGets the estimated soil moisture percentage for a given plot and kPa reading."
+          ],
+          "faq": [
+            "Q: How do I know if my soil  moisture sensor is working fine ?\nA: The only way to know is if after irrigation the sensor is dropping below 5 kpa and increasing continuously unless next irrigation is done. You can try putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. Also, a soil moisture reading of 0 kPa is perfectly fine, meaning wet soil, but a reading of 200 kPa could mean fault. If the soil moisture sensor reading is consistently at 0 from few 48 hours, then it could be anamolous (use live and historical hourly soil moisture data (use tool) to validate).",
+            "Q: What should I do if the soil moisture sensor always shows dry values?\nA: Check if irrigation water is reaching the sensor, verify sensor connection, and ensure the sensor is not damaged.",
+            "Q: Sensor is showing dry, but it rained recently.\nA: Rainwater doesn't percolate well in the soil. Most of it runs off. After a day of rain stops , if the sensor is still dry, you will have to irrigate. You can check the moisture by digging near the sensor . Irrigate accordingly.",
+            "Q: What should I do if the soil moisture sensor values fluctuate?\nA: Ensure the sensor is installed properly in the soil, check for air bubbles, and contact Fyllo representative if the issue persists.",
+            "Q: Sensor is showing wet, i.e. less kpa but soil looks dry.\nA: The sensor measures the moisture around the rootzone which is not visible from the top. Ask use to check the moisture in rootzone around the sensor. If it matches, ask the user to irrigate."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "If the data in the Nero app is not updating, please check the following:\n\n1. **Device Connection**: Ensure that the device is properly connected to the app.\n2. **Network Connectivity**: Verify that you have a stable internet connection.\n3. **Battery Status**: Check the battery level of the device to ensure it is charged.\n4. **Device Restart**: Try restarting the device to refresh the connection.\n\nIf the issue persists, you may want to dig around the sensor to check the moisture levels manually. Would you like to create an issue ticket for further assistance?",
+        "en": "If the data in the Nero app is not updating, please check the following:\n\n1. **Device Connection**: Ensure that the device is properly connected to the app.\n2. **Network Connectivity**: Verify that you have a stable internet connection.\n3. **Battery Status**: Check the battery level of the device to ensure it is charged.\n4. **Device Restart**: Try restarting the device to refresh the connection.\n\nIf the issue persists, you may want to dig around the sensor to check the moisture levels manually. Would you like to create an issue ticket for further assistance?",
+        "timestamp": {
+          "$date": "2025-04-21T07:58:19.443Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "How to restart the device ",
+        "en": "How to restart the device ",
+        "timestamp": {
+          "$date": "2025-04-21T07:58:36.907Z"
+        },
+        "standalone_question": "How can I restart the device?",
+        "standalone_en": "How can I restart the device?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To restart the Nero device, follow these steps:\n\n1. **Locate the Power Button**: Find the switch located below the top cap of the device.\n2. **Press the Switch**: Press the switch to turn off the device.\n3. **Wait a Moment**: Allow a few seconds for the device to fully power down.\n4. **Turn It Back On**: Press the switch again to turn the device back on.\n\nOnce restarted, wait for a few moments for the device to reconnect and update the data in the app. If you continue to experience issues, please let me know!",
+        "en": "To restart the Nero device, follow these steps:\n\n1. **Locate the Power Button**: Find the switch located below the top cap of the device.\n2. **Press the Switch**: Press the switch to turn off the device.\n3. **Wait a Moment**: Allow a few seconds for the device to fully power down.\n4. **Turn It Back On**: Press the switch again to turn the device back on.\n\nOnce restarted, wait for a few moments for the device to reconnect and update the data in the app. If you continue to experience issues, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-21T07:58:40.980Z"
+        }
+      }
+    ],
+    "farmer_id": "bhimsaharan",
+    "farmer_plot_ids": [
+      "nerokinnowplot852"
+    ],
+    "conversation_id": "6805fa827309317e279e735d",
+    "_id": "6805fa827309317e279e735d",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-21T08:03:36.915000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-04-21T07:57:54.425000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How do I fix the pressure sensor",
+        "en": "How do I fix the pressure sensor",
+        "timestamp": {
+          "$date": "2025-04-21T07:12:18.402Z"
+        },
+        "standalone_question": "How can I repair the pressure sensor?",
+        "standalone_en": "How can I repair the pressure sensor?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How do I replace the sensors for Nero?\nA: Disconnect the sensors by rotating them counterclockwise, unplug the connector, and replace them by following the steps in the manual."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To fix the pressure sensor, follow these steps:\n\n1. **Check Connections**: Ensure that all connections are secure and properly plugged in. Loose connections can cause inaccurate readings.\n\n2. **Inspect for Damage**: Look for any visible damage to the sensor or its wiring. If damaged, the sensor may need to be replaced.\n\n3. **Clean the Sensor**: Sometimes dirt or debris can affect the sensor's performance. Gently clean the sensor with a soft cloth.\n\n4. **Recalibrate**: If the sensor is still not functioning correctly, it may need to be recalibrated. Refer to the manufacturer's manual for specific calibration instructions.\n\n5. **Consult the Manual**: If the issue persists, consult the user manual for troubleshooting tips specific to your sensor model.\n\n6. **Contact Support**: If you are unable to resolve the issue, contact Fyllo support for further assistance.\n\nIf you need help with a specific step or have more details about the issue, feel free to ask!",
+        "en": "To fix the pressure sensor, follow these steps:\n\n1. **Check Connections**: Ensure that all connections are secure and properly plugged in. Loose connections can cause inaccurate readings.\n\n2. **Inspect for Damage**: Look for any visible damage to the sensor or its wiring. If damaged, the sensor may need to be replaced.\n\n3. **Clean the Sensor**: Sometimes dirt or debris can affect the sensor's performance. Gently clean the sensor with a soft cloth.\n\n4. **Recalibrate**: If the sensor is still not functioning correctly, it may need to be recalibrated. Refer to the manufacturer's manual for specific calibration instructions.\n\n5. **Consult the Manual**: If the issue persists, consult the user manual for troubleshooting tips specific to your sensor model.\n\n6. **Contact Support**: If you are unable to resolve the issue, contact Fyllo support for further assistance.\n\nIf you need help with a specific step or have more details about the issue, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-04-21T07:12:24.158Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Where do I get the manual from",
+        "en": "Where do I get the manual from",
+        "timestamp": {
+          "$date": "2025-04-21T07:12:46.729Z"
+        },
+        "standalone_question": "Where can I obtain the manual?",
+        "standalone_en": "Where can I obtain the manual?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "You can typically obtain the manual for your Fyllo device (like Kairo or Nero) from the following sources:\n\n1. **Fyllo Website**: Visit the official Fyllo website and navigate to the support or downloads section. You may find manuals available for download.\n\n2. **Product Packaging**: Check the packaging that your device came in. Manuals are often included in the box.\n\n3. **Customer Support**: If you cannot find the manual online, you can contact Fyllo customer support. They can provide you with a digital copy or guide you on where to find it.\n\n4. **Retailer**: If you purchased the device from a retailer, they may also have access to the manual or can assist you in obtaining it.\n\nIf you need further assistance, feel free to ask!",
+        "en": "You can typically obtain the manual for your Fyllo device (like Kairo or Nero) from the following sources:\n\n1. **Fyllo Website**: Visit the official Fyllo website and navigate to the support or downloads section. You may find manuals available for download.\n\n2. **Product Packaging**: Check the packaging that your device came in. Manuals are often included in the box.\n\n3. **Customer Support**: If you cannot find the manual online, you can contact Fyllo customer support. They can provide you with a digital copy or guide you on where to find it.\n\n4. **Retailer**: If you purchased the device from a retailer, they may also have access to the manual or can assist you in obtaining it.\n\nIf you need further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-04-21T07:12:52.022Z"
+        }
+      }
+    ],
+    "farmer_id": "polepalliestatesgrape",
+    "farmer_plot_ids": [
+      "bWFuZ281728475165626",
+      "Z3JlbmFjaGU1728119762135"
+    ],
+    "conversation_id": "6805efd27309317e279e735b",
+    "_id": "6805efd27309317e279e735b",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-21T07:17:46.736000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-21T07:12:18.402000+00:00"
+  }
+]

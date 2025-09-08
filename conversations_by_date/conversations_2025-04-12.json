@@ -1,0 +1,797 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "स्प्रे गरजेचे आहे का ",
+        "en": "Is a spray necessary? ",
+        "timestamp": {
+          "$date": "2025-04-12T15:39:33.112Z"
+        },
+        "standalone_question": "Is a spray necessary?",
+        "standalone_en": "Is a spray necessary?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        },
+        "content_transliterated": "spray garajeche aahe ka "
+      },
+      {
+        "role": "assistant",
+        "content": "सध्या स्प्रे गरजेचे नाही. तुम्हाला कोणतीही स्प्रे शेड्यूल नाही.",
+        "en": "Spray is not required at this time. You don't have a spray schedule.",
+        "timestamp": {
+          "$date": "2025-04-12T15:39:36.948Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पानी ओलवा किती आहे ",
+        "en": "How much water is wet ",
+        "timestamp": {
+          "$date": "2025-04-12T15:40:15.895Z"
+        },
+        "standalone_question": "How much water is there?",
+        "standalone_en": "How much water is there?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pani olava kiti aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटमध्ये मातीतील ओलावा 92% आहे, ज्याचा अर्थ माती खूप ओलसर आहे. त्यामुळे सध्या पाण्याची गरज नाही.",
+        "en": "The soil moisture in your plot is 92%, which means the soil is very moist. So there is no need for water at the moment.",
+        "timestamp": {
+          "$date": "2025-04-12T15:40:20.673Z"
+        }
+      }
+    ],
+    "farmer_id": "sandipkale",
+    "farmer_plot_ids": [
+      "plotno1224"
+    ],
+    "conversation_id": "67fa893454bcb262bfa8a87b",
+    "_id": "67fa893454bcb262bfa8a87b",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-12T15:45:15.903000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-04-12T15:39:33.112000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "l",
+        "en": "l",
+        "timestamp": {
+          "$date": "2025-04-12T13:24:07.173Z"
+        },
+        "standalone_question": "What does the letter \"l\" represent?",
+        "standalone_en": "What does the letter \"l\" represent?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like your message was incomplete. How can I assist you today?",
+        "en": "It seems like your message was incomplete. How can I assist you today?",
+        "timestamp": {
+          "$date": "2025-04-12T13:24:09.595Z"
+        }
+      }
+    ],
+    "farmer_id": "manojdhage",
+    "farmer_plot_ids": [
+      "plotno1342",
+      "plotno2761",
+      "plotno3650"
+    ],
+    "conversation_id": "67fa69772ab587c873357ce3",
+    "_id": "67fa69772ab587c873357ce3",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-12T13:29:07.181000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-12T13:24:07.173000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "झाडांची डंपिंग का होते ",
+        "en": "Why was the dumping of the bushes? ",
+        "timestamp": {
+          "$date": "2025-04-12T12:59:12.480Z"
+        },
+        "standalone_question": "Why does dumping of trees occur?",
+        "standalone_en": "Why does dumping of trees occur?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "jhadanchi dumping ka hote "
+      },
+      {
+        "role": "assistant",
+        "content": "झाडांची डंपिंग म्हणजे झाडांच्या पानांचा किंवा फळांचा गळणे. याचे काही मुख्य कारणे खालीलप्रमाणे आहेत:\n\n1. **पाण्याची कमतरता**: जर झाडांना पुरेसे पाणी मिळत नसेल, तर ते पानं गळवू शकतात.\n2. **अतिपाणी**: पाण्याची जास्ती झाल्यास मुळांना हानी होऊ शकते, ज्यामुळे झाडे गळतात.\n3. **अन्नद्रव्यांची कमतरता**: झाडांना आवश्यक पोषण मिळत नसेल, तर ते पानं गळवू शकतात.\n4. **रोग आणि कीड**: काही रोग किंवा कीडांमुळे झाडांची आरोग्य स्थिती खराब होऊ शकते, ज्यामुळे पानं गळतात.\n5. **तापमानातील बदल**: अचानक तापमानातील बदलामुळेही झाडे गळू शकतात.\n\nजर तुम्हाला तुमच्या झाडांच्या डंपिंगबद्दल अधिक माहिती हवी असेल, तर कृपया अधिक तपशील द्या.",
+        "en": "Dumping of trees is the loss of leaves or fruits of trees. Some of the main reasons for this are as follows:\n\n1. **Water scarcity**: If trees are not getting enough water, they can lose leaves.\n2. **Too much water**: Excess water can damage the roots, causing trees to fall out.\n3. **Nutrient deficiency**: If plants are not getting the necessary nutrition, they can lose leaves.\n4. **Diseases and pests**: Some diseases or pests can worsen the health condition of plants, causing leaf loss.\n5. **Temperature changes**: Sudden changes in temperature can also cause trees to fall.\n\nIf you would like to know more about your tree dumping, please provide more details.",
+        "timestamp": {
+          "$date": "2025-04-12T12:59:20.171Z"
+        }
+      }
+    ],
+    "farmer_id": "shivajinamdevshirsath",
+    "farmer_plot_ids": [
+      "testplotcapsicum"
+    ],
+    "conversation_id": "67fa63a0929108ff7a7d542b",
+    "_id": "67fa63a0929108ff7a7d542b",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-12T13:04:12.486000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-12T12:59:12.480000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Abc",
+        "en": "Abc",
+        "timestamp": {
+          "$date": "2025-04-12T09:36:51.861Z"
+        },
+        "standalone_question": "What does \"Abc\" refer to?",
+        "standalone_en": "What does \"Abc\" refer to?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "I'm here to assist you with any agricultural queries or tasks related to your farming practices. How can I help you today?",
+        "en": "I'm here to assist you with any agricultural queries or tasks related to your farming practices. How can I help you today?",
+        "timestamp": {
+          "$date": "2025-04-12T09:36:53.979Z"
+        }
+      }
+    ],
+    "farmer_id": "pravinspujari",
+    "farmer_plot_ids": [
+      "manikchmanplotno1"
+    ],
+    "conversation_id": "67fa3432929108ff7a7d542a",
+    "_id": "67fa3432929108ff7a7d542a",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-12T09:41:51.868000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-12T09:36:51.861000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Mera ker me pani ke matra ketna aar khad kematra ketna hai",
+        "en": "How much water and fertilizer do I have in my care?",
+        "timestamp": {
+          "$date": "2025-04-12T06:59:15.235Z"
+        },
+        "standalone_question": "What is the quantity of water and the quantity of salt in my ker?",
+        "standalone_en": "What is the quantity of water and the quantity of salt in my ker?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपके \"Brinjal Plot\" के लिए पानी और खाद की मात्रा निम्नलिखित है:\n\n### पानी की मात्रा (Irrigation)\nआपके प्लॉट के लिए निम्नलिखित सेटिंग्स हैं:\n- **Root Width:** 15 इंच\n- **Root Depth:** 12 इंच\n- **Soil Retention:** 140 मिमी\n- **Dripper Distance:** 1 मिमी\n- **Dripper Discharge:** 2 लीटर\n\nइन सेटिंग्स के आधार पर, मैं पानी की मात्रा की गणना कर सकता हूँ। क्या आप इसे अभी गणना करना चाहेंगे?\n\n### खाद की मात्रा (Fertigation)\nआपका वर्तमान फर्टिगेशन शेड्यूल इस प्रकार है:\n- **क्रॉप स्टेज:** Flowering and Fruiting (सप्ताह 2)\n- **खाद की मात्रा:**\n  - **वितरण संयोजन 1:**\n    - Potassium Nitrate: 2 किलोग्राम/एकड़\n    - Urea: 2.5 किलोग्राम/एकड़\n    - Magnesium Sulphate: 2.5 किलोग्राम/एकड़\n  - **वितरण संयोजन 2:**\n    - Urea: 3 किलोग्राम/एकड़\n    - Sulfate of Potash: 2 किलोग्राम/एकड़\n    - Magnesium Sulphate: 2.5 किलोग्राम/एकड़\n\nअगले सप्ताह (सप्ताह 3) के लिए फर्टिगेशन की योजना:\n- **खाद की मात्रा:**\n  - 12-61-0: 3 किलोग्राम/एकड़\n  - Urea: 2.5 किलोग्राम/एकड़\n\nक्या आप पानी की मात्रा की गणना करना चाहेंगे?",
+        "en": "The following is the amount of water and fertilizer for your \"Brinjal Plot\":\n\n### Irrigation\nThe following are the settings for your plot:\n- **Root Width:** 15 inches\n- **Root Depth:** 12 inches\n- Soil Retention: 140 mm\n- Dripper Distance: 1 mm\n- **Dripper Discharge:** 2 Liters\n\nBased on these settings, I can calculate the amount of water. Would you like to calculate it now?\n\n### Fertigation\nYour current fertigation schedule is as follows:\n- **Crop Stage:** Flowering and Fruiting (Week 2)\n- **Quantity of Compost:**\n  - **Distribution Combination 1:**\n    - Potassium Nitrate: 2 kg/acre\n    - Urea: 2.5 kg/acre\n    - Magnesium Sulphate: 2.5 kg/acre\n  - **Distribution Combination 2:**\n    - Urea: 3 kg/acre\n    - Sulfate of Potash: 2 kg/acre\n    - Magnesium Sulphate: 2.5 kg/acre\n\nFertigation's plan for next week (Week 3):\n- **Quantity of Compost:**\n  - 12-61-0: 3 kg/acre\n  - Urea: 2.5 kg/acre\n\nWould you like to calculate the amount of water?",
+        "timestamp": {
+          "$date": "2025-04-12T06:59:24.617Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Mera khet me kon sa bimari hai",
+        "en": "What disease is there in my field?",
+        "timestamp": {
+          "$date": "2025-04-12T07:01:13.296Z"
+        },
+        "standalone_question": "What diseases are present in my field?",
+        "standalone_en": "What diseases are present in my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपके \"Brinjal Plot\" में निम्नलिखित बीमारी की पहचान हुई है:\n\n### बीमारी: Leaf Spot\n- **जोखिम स्तर:** कम (LOW)\n- **संभावना:** \n  - 12 अप्रैल 2025: 31.7%\n  - 11 अप्रैल 2025: 49.1%\n  - 10 अप्रैल 2025: 34.8%\n  - 9 अप्रैल 2025: 30.5%\n  - 8 अप्रैल 2025: 7.2%\n  - 7 अप्रैल 2025: 0%\n  - 6 अप्रैल 2025: 10.2%\n  - 4 अप्रैल 2025: 21.6%\n  - 3 अप्रैल 2025: 0%\n  - 2 अप्रैल 2025: 0%\n  - 1 अप्रैल 2025: 0%\n\n### नियंत्रण उपाय:\nआपको इस बीमारी के नियंत्रण के लिए निम्नलिखित उपाय करने चाहिए:\n- **फफूंदनाशक का छिड़काव करें:** Carbendazim @ 2.5g/ltr का उपयोग करें।\n\nक्या आपको और जानकारी चाहिए?",
+        "en": "The following disease has been identified in your \"Brinjal Plot\":\n\n### Illness: Leaf Spot\n- **Risk Level:** Low\n-**Possibility:** \n  - 12 April 2025: 31.7%\n  - 11 April 2025: 49.1%\n  - 10 April 2025: 34.8%\n  - 9 April 2025: 30.5%\n  - 8 April 2025: 7.2%\n  - 7 April 2025: 0%\n  - 6 April 2025: 10.2%\n  - 4 April 2025: 21.6%\n  - 3 April 2025: 0%\n  - 2 April 2025: 0%\n  - 1 April 2025: 0%\n\n### Control Measures:\nYou should take the following measures for the control of this disease:\n- **Spray fungicide:** Use Carbendazim @ 2.5g/ltr.\n\nDo you need more information?",
+        "timestamp": {
+          "$date": "2025-04-12T07:01:20.512Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Pani khad ki matra ketna hai",
+        "en": "What is the amount of water and fertilizer?",
+        "timestamp": {
+          "$date": "2025-04-12T07:03:21.093Z"
+        },
+        "standalone_question": "What is the quantity of water and fertilizer needed?",
+        "standalone_en": "What is the quantity of water and fertilizer needed?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "### पानी की मात्रा (Irrigation)\nआपके \"Brinjal Plot\" के लिए निम्नलिखित सेटिंग्स हैं:\n- **Root Width:** 15 इंच\n- **Root Depth:** 12 इंच\n- **Soil Retention:** 140 मिमी\n- **Dripper Distance:** 1 मिमी\n- **Dripper Discharge:** 2 लीटर\n\n### खाद की मात्रा (Fertigation)\nआपके प्लॉट के लिए वर्तमान फर्टिगेशन शेड्यूल इस प्रकार है:\n\n#### वर्तमान सप्ताह (सप्ताह 2)\n- **क्रॉप स्टेज:** Flowering and Fruiting\n- **खाद की मात्रा:**\n  - **वितरण संयोजन 1:**\n    - Potassium Nitrate: 2 किलोग्राम/एकड़\n    - Urea: 2.5 किलोग्राम/एकड़\n    - Magnesium Sulphate: 2.5 किलोग्राम/एकड़\n  - **वितरण संयोजन 2:**\n    - Urea: 3 किलोग्राम/एकड़\n    - Sulfate of Potash: 2 किलोग्राम/एकड़\n    - Magnesium Sulphate: 2.5 किलोग्राम/एकड़\n\n#### अगला सप्ताह (सप्ताह 3)\n- **खाद की मात्रा:**\n  - 12-61-0: 3 किलोग्राम/एकड़\n  - Urea: 2.5 किलोग्राम/एकड़\n  - **नोट:** Phosphoric acid को अन्य खादों के आवेदन से 15-20 मिनट पहले अलग से लगाना चाहिए।\n\nक्या आपको पानी की मात्रा की गणना करने में मदद चाहिए?",
+        "en": "### Irrigation\nThe following are the settings for your \"Brinjal Plot\":\n- **Root Width:** 15 inches\n- **Root Depth:** 12 inches\n- Soil Retention: 140 mm\n- Dripper Distance: 1 mm\n- **Dripper Discharge:** 2 Liters\n\n### Fertigation\nThe current fertigation schedule for your plot is as follows:\n\n#### Current Week (Week 2)\n- **Crop Stage:** Flowering and Fruiting\n- **Quantity of Compost:**\n  - **Distribution Combination 1:**\n    - Potassium Nitrate: 2 kg/acre\n    - Urea: 2.5 kg/acre\n    - Magnesium Sulphate: 2.5 kg/acre\n  - **Distribution Combination 2:**\n    - Urea: 3 kg/acre\n    - Sulfate of Potash: 2 kg/acre\n    - Magnesium Sulphate: 2.5 kg/acre\n\n#### Next Week (Week 3)\n- **Quantity of Compost:**\n  - 12-61-0: 3 kg/acre\n  - Urea: 2.5 kg/acre\n  - **Note:** Phosphoric acid should be applied separately 15-20 minutes before application of other fertilizers.\n\nDo you need help calculating the amount of water?",
+        "timestamp": {
+          "$date": "2025-04-12T07:03:32.678Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Mera bagan me koy khatra to nahi",
+        "en": "Is there any danger in my garden?",
+        "timestamp": {
+          "$date": "2025-04-12T07:05:05.630Z"
+        },
+        "standalone_question": "Is there any danger in my garden?",
+        "standalone_en": "Is there any danger in my garden?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपके \"Brinjal Plot\" में इस सप्ताह (12 अप्रैल 2025 से 19 अप्रैल 2025) के लिए कोई बीमारी या कीट का खतरा नहीं है। \n\nआपका बागान सुरक्षित है। यदि आपको और जानकारी चाहिए या किसी अन्य सहायता की आवश्यकता है, तो बताएं!",
+        "en": "There is no disease or pest threat in your \"Brinjal Plot\" for this week (12th April 2025 to 19th April 2025). \n\nYour garden is safe. If you need further information or need any other assistance, let us know!",
+        "timestamp": {
+          "$date": "2025-04-12T07:05:10.568Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Phal chhedk kera laga hai key",
+        "en": "Fruit borer is applied that",
+        "timestamp": {
+          "$date": "2025-04-12T07:06:18.683Z"
+        },
+        "standalone_question": "Is there a risk of fruit borer infestation in my garden?",
+        "standalone_en": "Is there a risk of fruit borer infestation in my garden?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपके \"Brinjal Plot\" में इस सप्ताह (12 अप्रैल 2025 से 19 अप्रैल 2025) के लिए फल छेदक कीट (Fruit Borer) का कोई खतरा नहीं है। \n\nआपका बागान सुरक्षित है। यदि आपको और जानकारी चाहिए या किसी अन्य सहायता की आवश्यकता है, तो बताएं!",
+        "en": "There is no threat of fruit borer in your \"Brinjal Plot\" for this week (12th April 2025 to 19th April 2025). \n\nYour garden is safe. If you need further information or need any other assistance, let us know!",
+        "timestamp": {
+          "$date": "2025-04-12T07:06:23.643Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Mere khet ke muli ki jarurat me kera laga hai kon sa dava dale",
+        "en": "I need radish in my field, which claim should I give?",
+        "timestamp": {
+          "$date": "2025-04-12T07:07:52.386Z"
+        },
+        "standalone_question": "What pesticide should I use for the pest affecting my radish crop?",
+        "standalone_en": "What pesticide should I use for the pest affecting my radish crop?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed",
+            "Q: What are the important Pest occur during seedling stage and control measures?\nA: Ants, Termites, root aphids, thrips and internal borer’s pest infect during seedling stage\nDrench/spray seedling with: Chlorpyriphos @ 5mL/Ltr or Thiamethoxam @ 0.5g/ltr"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपके \"Brinjal Plot\" में इस सप्ताह (12 अप्रैल 2025 से 19 अप्रैल 2025) के लिए कोई बीमारी या कीट का खतरा नहीं है। \n\nइसलिए, आपको किसी दवा की आवश्यकता नहीं है। यदि आपको और जानकारी चाहिए या किसी अन्य सहायता की आवश्यकता है, तो बताएं!",
+        "en": "There is no disease or pest threat in your \"Brinjal Plot\" for this week (12th April 2025 to 19th April 2025). \n\nTherefore, you do not need any medication. If you need further information or need any other assistance, let us know!",
+        "timestamp": {
+          "$date": "2025-04-12T07:07:57.509Z"
+        }
+      }
+    ],
+    "farmer_id": "laxmansahu",
+    "farmer_plot_ids": [
+      "brinjalplot496"
+    ],
+    "conversation_id": "67fa0f43929108ff7a7d5429",
+    "_id": "67fa0f43929108ff7a7d5429",
+    "language": "hi",
+    "expiry": {
+      "$date": "2025-04-12T07:12:52.396000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-12T06:59:15.235000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Mera ker me pani ke matra ketna aar khad kematra ketna hai",
+        "en": "How much water and fertilizer do I have in my care?",
+        "timestamp": {
+          "$date": "2025-04-12T06:59:15.235Z"
+        },
+        "standalone_question": "What is the quantity of water and the quantity of salt in my dish?",
+        "standalone_en": "What is the quantity of water and the quantity of salt in my dish?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपके \"Brinjal Plot\" के लिए पानी और खाद की मात्रा निम्नलिखित है:\n\n### पानी की मात्रा (Irrigation)\nआपके प्लॉट के लिए निम्नलिखित सेटिंग्स हैं:\n- **Root Width:** 15 इंच\n- **Root Depth:** 12 इंच\n- **Soil Retention:** 140 मिमी\n- **Dripper Distance:** 1 मिमी\n- **Dripper Discharge:** 2 लीटर\n\nइन सेटिंग्स के आधार पर, मैं पानी की मात्रा की गणना कर सकता हूँ। क्या आप इसे अभी गणना करना चाहेंगे?\n\n### खाद की मात्रा (Fertigation)\nआपका वर्तमान फर्टिगेशन शेड्यूल इस प्रकार है:\n- **क्रॉप स्टेज:** Flowering and Fruiting (सप्ताह 2)\n- **खाद की मात्रा:**\n  - **वितरण संयोजन 1:**\n    - Potassium Nitrate: 2 किलोग्राम/एकड़\n    - Urea: 2.5 किलोग्राम/एकड़\n    - Magnesium Sulphate: 2.5 किलोग्राम/एकड़\n  - **वितरण संयोजन 2:**\n    - Urea: 3 किलोग्राम/एकड़\n    - Sulfate of Potash: 2 किलोग्राम/एकड़\n    - Magnesium Sulphate: 2.5 किलोग्राम/एकड़\n\nअगले सप्ताह (सप्ताह 3) के लिए फर्टिगेशन की योजना:\n- **खाद की मात्रा:**\n  - 12-61-0: 3 किलोग्राम/एकड़\n  - Urea: 2.5 किलोग्राम/एकड़\n\nक्या आप पानी की मात्रा की गणना करना चाहेंगे?",
+        "en": "The following is the amount of water and fertilizer for your \"Brinjal Plot\":\n\n### Irrigation\nThe following are the settings for your plot:\n- **Root Width:** 15 inches\n- **Root Depth:** 12 inches\n- Soil Retention: 140 mm\n- Dripper Distance: 1 mm\n- **Dripper Discharge:** 2 Liters\n\nBased on these settings, I can calculate the amount of water. Would you like to calculate it now?\n\n### Fertigation\nYour current fertigation schedule is as follows:\n- **Crop Stage:** Flowering and Fruiting (Week 2)\n- **Quantity of Compost:**\n  - **Distribution Combination 1:**\n    - Potassium Nitrate: 2 kg/acre\n    - Urea: 2.5 kg/acre\n    - Magnesium Sulphate: 2.5 kg/acre\n  - **Distribution Combination 2:**\n    - Urea: 3 kg/acre\n    - Sulfate of Potash: 2 kg/acre\n    - Magnesium Sulphate: 2.5 kg/acre\n\nFertigation's plan for next week (Week 3):\n- **Quantity of Compost:**\n  - 12-61-0: 3 kg/acre\n  - Urea: 2.5 kg/acre\n\nWould you like to calculate the amount of water?",
+        "timestamp": {
+          "$date": "2025-04-12T06:59:24.617Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Mera khet me kon sa bimari hai",
+        "en": "What disease is there in my field?",
+        "timestamp": {
+          "$date": "2025-04-12T07:01:13.296Z"
+        },
+        "standalone_question": "What diseases are present in my field?",
+        "standalone_en": "What diseases are present in my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपके \"Brinjal Plot\" में निम्नलिखित बीमारी की पहचान हुई है:\n\n### बीमारी: Leaf Spot\n- **जोखिम स्तर:** कम (LOW)\n- **संभावना:** \n  - 12 अप्रैल 2025: 31.7%\n  - 11 अप्रैल 2025: 49.1%\n  - 10 अप्रैल 2025: 34.8%\n  - 9 अप्रैल 2025: 30.5%\n  - 8 अप्रैल 2025: 7.2%\n  - 7 अप्रैल 2025: 0%\n  - 6 अप्रैल 2025: 10.2%\n  - 4 अप्रैल 2025: 21.6%\n  - 3 अप्रैल 2025: 0%\n  - 2 अप्रैल 2025: 0%\n  - 1 अप्रैल 2025: 0%\n\n### नियंत्रण उपाय:\nआपको इस बीमारी के नियंत्रण के लिए निम्नलिखित उपाय करने चाहिए:\n- **फफूंदनाशक का छिड़काव करें:** Carbendazim @ 2.5g/ltr का उपयोग करें।\n\nक्या आपको और जानकारी चाहिए?",
+        "en": "The following disease has been identified in your \"Brinjal Plot\":\n\n### Illness: Leaf Spot\n- **Risk Level:** Low\n-**Possibility:** \n  - 12 April 2025: 31.7%\n  - 11 April 2025: 49.1%\n  - 10 April 2025: 34.8%\n  - 9 April 2025: 30.5%\n  - 8 April 2025: 7.2%\n  - 7 April 2025: 0%\n  - 6 April 2025: 10.2%\n  - 4 April 2025: 21.6%\n  - 3 April 2025: 0%\n  - 2 April 2025: 0%\n  - 1 April 2025: 0%\n\n### Control Measures:\nYou should take the following measures for the control of this disease:\n- **Spray fungicide:** Use Carbendazim @ 2.5g/ltr.\n\nDo you need more information?",
+        "timestamp": {
+          "$date": "2025-04-12T07:01:20.512Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Pani khad ki matra ketna hai",
+        "en": "What is the amount of water and fertilizer?",
+        "timestamp": {
+          "$date": "2025-04-12T07:03:21.093Z"
+        },
+        "standalone_question": "What is the quantity of water and fertilizer needed?",
+        "standalone_en": "What is the quantity of water and fertilizer needed?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "### पानी की मात्रा (Irrigation)\nआपके \"Brinjal Plot\" के लिए निम्नलिखित सेटिंग्स हैं:\n- **Root Width:** 15 इंच\n- **Root Depth:** 12 इंच\n- **Soil Retention:** 140 मिमी\n- **Dripper Distance:** 1 मिमी\n- **Dripper Discharge:** 2 लीटर\n\n### खाद की मात्रा (Fertigation)\nआपके प्लॉट के लिए वर्तमान फर्टिगेशन शेड्यूल इस प्रकार है:\n\n#### वर्तमान सप्ताह (सप्ताह 2)\n- **क्रॉप स्टेज:** Flowering and Fruiting\n- **खाद की मात्रा:**\n  - **वितरण संयोजन 1:**\n    - Potassium Nitrate: 2 किलोग्राम/एकड़\n    - Urea: 2.5 किलोग्राम/एकड़\n    - Magnesium Sulphate: 2.5 किलोग्राम/एकड़\n  - **वितरण संयोजन 2:**\n    - Urea: 3 किलोग्राम/एकड़\n    - Sulfate of Potash: 2 किलोग्राम/एकड़\n    - Magnesium Sulphate: 2.5 किलोग्राम/एकड़\n\n#### अगला सप्ताह (सप्ताह 3)\n- **खाद की मात्रा:**\n  - 12-61-0: 3 किलोग्राम/एकड़\n  - Urea: 2.5 किलोग्राम/एकड़\n  - **नोट:** Phosphoric acid को अन्य खादों के आवेदन से 15-20 मिनट पहले अलग से लगाना चाहिए।\n\nक्या आपको पानी की मात्रा की गणना करने में मदद चाहिए?",
+        "en": "### Irrigation\nThe following are the settings for your \"Brinjal Plot\":\n- **Root Width:** 15 inches\n- **Root Depth:** 12 inches\n- Soil Retention: 140 mm\n- Dripper Distance: 1 mm\n- **Dripper Discharge:** 2 Liters\n\n### Fertigation\nThe current fertigation schedule for your plot is as follows:\n\n#### Current Week (Week 2)\n- **Crop Stage:** Flowering and Fruiting\n- **Quantity of Compost:**\n  - **Distribution Combination 1:**\n    - Potassium Nitrate: 2 kg/acre\n    - Urea: 2.5 kg/acre\n    - Magnesium Sulphate: 2.5 kg/acre\n  - **Distribution Combination 2:**\n    - Urea: 3 kg/acre\n    - Sulfate of Potash: 2 kg/acre\n    - Magnesium Sulphate: 2.5 kg/acre\n\n#### Next Week (Week 3)\n- **Quantity of Compost:**\n  - 12-61-0: 3 kg/acre\n  - Urea: 2.5 kg/acre\n  - **Note:** Phosphoric acid should be applied separately 15-20 minutes before application of other fertilizers.\n\nDo you need help calculating the amount of water?",
+        "timestamp": {
+          "$date": "2025-04-12T07:03:32.678Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Mera bagan me koy khatra to nahi",
+        "en": "Is there any danger in my garden?",
+        "timestamp": {
+          "$date": "2025-04-12T07:05:05.630Z"
+        },
+        "standalone_question": "Is there any danger in my garden?",
+        "standalone_en": "Is there any danger in my garden?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपके \"Brinjal Plot\" में इस सप्ताह (12 अप्रैल 2025 से 19 अप्रैल 2025) के लिए कोई बीमारी या कीट का खतरा नहीं है। \n\nआपका बागान सुरक्षित है। यदि आपको और जानकारी चाहिए या किसी अन्य सहायता की आवश्यकता है, तो बताएं!",
+        "en": "There is no disease or pest threat in your \"Brinjal Plot\" for this week (12th April 2025 to 19th April 2025). \n\nYour garden is safe. If you need further information or need any other assistance, let us know!",
+        "timestamp": {
+          "$date": "2025-04-12T07:05:10.568Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Phal chhedk kera laga hai key",
+        "en": "Fruit borer is applied that",
+        "timestamp": {
+          "$date": "2025-04-12T07:06:18.683Z"
+        },
+        "standalone_question": "Is there a risk of fruit borer infestation in my garden?",
+        "standalone_en": "Is there a risk of fruit borer infestation in my garden?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपके \"Brinjal Plot\" में इस सप्ताह (12 अप्रैल 2025 से 19 अप्रैल 2025) के लिए फल छेदक कीट (Fruit Borer) का कोई खतरा नहीं है। \n\nआपका बागान सुरक्षित है। यदि आपको और जानकारी चाहिए या किसी अन्य सहायता की आवश्यकता है, तो बताएं!",
+        "en": "There is no threat of fruit borer in your \"Brinjal Plot\" for this week (12th April 2025 to 19th April 2025). \n\nYour garden is safe. If you need further information or need any other assistance, let us know!",
+        "timestamp": {
+          "$date": "2025-04-12T07:06:23.643Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Mere khet ke muli ki jarurat me kera laga hai kon sa dava dale",
+        "en": "I need radish in my field, which claim should I give?",
+        "timestamp": {
+          "$date": "2025-04-12T07:07:52.386Z"
+        },
+        "standalone_question": "What pesticide should I use for the pest affecting my radish crop?",
+        "standalone_en": "What pesticide should I use for the pest affecting my radish crop?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed",
+            "Q: What are the important Pest occur during seedling stage and control measures?\nA: Ants, Termites, root aphids, thrips and internal borer’s pest infect during seedling stage\nDrench/spray seedling with: Chlorpyriphos @ 5mL/Ltr or Thiamethoxam @ 0.5g/ltr"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपके \"Brinjal Plot\" में इस सप्ताह (12 अप्रैल 2025 से 19 अप्रैल 2025) के लिए कोई बीमारी या कीट का खतरा नहीं है। \n\nइसलिए, आपको किसी दवा की आवश्यकता नहीं है। यदि आपको और जानकारी चाहिए या किसी अन्य सहायता की आवश्यकता है, तो बताएं!",
+        "en": "There is no disease or pest threat in your \"Brinjal Plot\" for this week (12th April 2025 to 19th April 2025). \n\nTherefore, you do not need any medication. If you need further information or need any other assistance, let us know!",
+        "timestamp": {
+          "$date": "2025-04-12T07:07:57.509Z"
+        }
+      }
+    ],
+    "farmer_id": "laxmansahu",
+    "farmer_plot_ids": [
+      "brinjalplot496"
+    ],
+    "conversation_id": "67fa0f43929108ff7a7d5429",
+    "_id": "67fa0f43929108ff7a7d5429",
+    "language": "hi",
+    "expiry": {
+      "$date": "2025-04-12T07:12:52.396000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-12T06:59:15.235000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "उडदया साठी कोणता स्प्रे करावा ",
+        "en": "What spray to spray for flying ",
+        "timestamp": {
+          "$date": "2025-04-12T05:57:07.521Z"
+        },
+        "standalone_question": "Which spray should be used for udad (black gram)?",
+        "standalone_en": "Which spray should be used for udad (black gram)?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "udadaya sathi konta spray karava "
+      },
+      {
+        "role": "assistant",
+        "content": "उडदया साठी या आठवड्यात कोणताही स्प्रे शेड्यूल नाही. जर तुम्हाला अधिक माहिती हवी असेल तर कृपया फायलोच्या CRM नंबरवर संपर्क साधा.",
+        "en": "There is no spray schedule this week. If you would like more information, please contact Filo's CRM number.",
+        "timestamp": {
+          "$date": "2025-04-12T05:57:11.909Z"
+        }
+      }
+    ],
+    "farmer_id": "sandipkale",
+    "farmer_plot_ids": [
+      "plotno1224"
+    ],
+    "conversation_id": "67fa00b32ab587c873357ce2",
+    "_id": "67fa00b32ab587c873357ce2",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-12T06:02:07.529000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-04-12T05:57:07.521000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Paus Yetoy ky",
+        "en": "Paus Yetoy ky",
+        "timestamp": {
+          "$date": "2025-04-12T03:24:50.626Z"
+        },
+        "standalone_question": "What is \"Paus Yetoy ky\"?",
+        "standalone_en": "What is \"Paus Yetoy ky\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया आपला प्रश्न स्पष्ट करा, म्हणजे मी आपल्याला अधिक चांगल्या प्रकारे मदत करू शकेन.",
+        "en": "Please clarify your question, so I can help you better.",
+        "timestamp": {
+          "$date": "2025-04-12T03:24:53.341Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पाऊस येतो का",
+        "en": "Does it rain?",
+        "timestamp": {
+          "$date": "2025-04-12T03:25:13.340Z"
+        },
+        "standalone_question": "Does it rain?",
+        "standalone_en": "Does it rain?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "paus yeto ka"
+      },
+      {
+        "role": "assistant",
+        "content": "आज, 12 एप्रिल 2025 रोजी, पावसाची शक्यता नाही. हवामान अंदाजानुसार, आज कोणताही पाऊस होणार नाही.",
+        "en": "Today, April 12, 2025, there is no chance of rain. According to the weather forecast, there will be no rain today.",
+        "timestamp": {
+          "$date": "2025-04-12T03:25:18.002Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "वातावरण ढगाळ झाला आहे की",
+        "en": "The atmosphere has clouded that",
+        "timestamp": {
+          "$date": "2025-04-12T03:25:45.083Z"
+        },
+        "standalone_question": "Is the atmosphere cloudy?",
+        "standalone_en": "Is the atmosphere cloudy?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "vatavaran dhagaal jhala aahe ki"
+      },
+      {
+        "role": "assistant",
+        "content": "आज, 12 एप्रिल 2025 रोजी, वातावरण ढगाळ असल्याची माहिती नाही. गेल्या काही तासांत पाऊस झाला नाही. त्यामुळे वातावरण ढगाळ असले तरी पाऊस नाही.",
+        "en": "Today, April 12, 2025, the weather is not known to be cloudy. It hasn't rained in the last few hours. So while the weather is cloudy, there is no rain.",
+        "timestamp": {
+          "$date": "2025-04-12T03:25:50.408Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "बर बर ओके",
+        "en": "Well ok ok",
+        "timestamp": {
+          "$date": "2025-04-12T03:26:13.070Z"
+        },
+        "standalone_question": "Is the weather cloudy?",
+        "standalone_en": "Is the weather cloudy?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "bar bar ok"
+      },
+      {
+        "role": "assistant",
+        "content": "आपला रिचार्ज प्लान सक्रिय आहे आणि तो 30 नोव्हेंबर 2025 पर्यंत वैध आहे. आपले उपकरण सध्या सक्रिय आहे आणि डेटा पाठवत आहे. \n\nआपल्याला आणखी काही मदतीची आवश्यकता आहे का?",
+        "en": "Your recharge plan is active and is valid till November 30, 2025. Your device is currently active and sending data. \n\nDo you need any more help?",
+        "timestamp": {
+          "$date": "2025-04-12T03:26:16.474Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "हो आहे",
+        "en": "Yes it is",
+        "timestamp": {
+          "$date": "2025-04-12T03:26:51.434Z"
+        },
+        "standalone_question": "Is there anything else you need help with?",
+        "standalone_en": "Is there anything else you need help with?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "how aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "आपला रिचार्ज प्लान सक्रिय आहे आणि तो 30 नोव्हेंबर 2025 पर्यंत वैध आहे. आपले उपकरण सध्या सक्रिय आहे आणि डेटा पाठवत आहे. \n\nआपल्याला आणखी काही मदतीची आवश्यकता आहे का?",
+        "en": "Your recharge plan is active and is valid till November 30, 2025. Your device is currently active and sending data. \n\nDo you need any more help?",
+        "timestamp": {
+          "$date": "2025-04-12T03:26:55.897Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पेरू साठी आत्ता कोणती फवारणी घ्यावी",
+        "en": "What sprays should be taken for Peru now?",
+        "timestamp": {
+          "$date": "2025-04-12T03:27:23.738Z"
+        },
+        "standalone_question": "What type of spray should be used for Peru right now?",
+        "standalone_en": "What type of spray should be used for Peru right now?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "peru sathi atta konati favarani ghyavi"
+      },
+      {
+        "role": "assistant",
+        "content": "सध्या पेरूच्या पिकासाठी कोणतीही फवारणीची शिफारस नाही. जर आपल्याला आणखी काही माहिती हवी असेल तर कृपया सांगा.",
+        "en": "There is currently no spraying recommendation for the guava crop. If you need any more information, please let me know.",
+        "timestamp": {
+          "$date": "2025-04-12T03:27:28.290Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "आळणी कोणती घेऊ शकतो का? पेरूसाठी",
+        "en": "Who can take the alley? For Peru",
+        "timestamp": {
+          "$date": "2025-04-12T03:27:48.933Z"
+        },
+        "standalone_question": "What type of spray can I use for Peru?",
+        "standalone_en": "What type of spray can I use for Peru?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "alani konti gheu shakto ka? perusathi"
+      },
+      {
+        "role": "assistant",
+        "content": "सध्या पेरूच्या पिकासाठी कोणतीही आळणी घेण्याची शिफारस नाही. जर आपल्याला आणखी काही माहिती हवी असेल तर कृपया सांगा.",
+        "en": "Currently, there is no recommended rotation for the guava crop. If you need any more information, please let me know.",
+        "timestamp": {
+          "$date": "2025-04-12T03:27:53.446Z"
+        }
+      }
+    ],
+    "farmer_id": "shivkumarkagale",
+    "farmer_plot_ids": [
+      "peruplot"
+    ],
+    "conversation_id": "67f9dd0299a0a1c3e775fad9",
+    "_id": "67f9dd0299a0a1c3e775fad9",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-12T03:32:48.941000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-04-12T03:24:50.626000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં ખાતર ની જરૂર ક્યારે પડશે ",
+        "en": "When will my farm need fertilizer? ",
+        "timestamp": {
+          "$date": "2025-04-12T02:48:12.740Z"
+        },
+        "standalone_question": "When will my field need fertilizer?",
+        "standalone_en": "When will my field need fertilizer?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate.",
+            "Q: If I don't add any test data, what is the basis for the generated fertigation schedule?\nA: When no specific test data is provided, Fyllo generates a basic fertigation schedule based on:\n\n    1. Typical nutrient needs for your crop type\n    2. General soil characteristics common in your region\n    3. Standard growing practices for your area\n    This schedule provides a starting point, but may not be as precise as one based on specific test data."
+          ]
+        },
+        "content_transliterated": "mara khetaraman khatar knee jarur kyare padse "
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં (Ghar valo plot) હાલની પાકની સ્થિતિ \"ફૂલ અને ફળ\" (Flowering and Fruiting) છે, જે 1 સપ્તાહમાં છે. અહીં ખાતર માટેની આવશ્યકતાઓ છે:\n\n### હાલની સપ્તાહ (1 સપ્તાહ):\n1. **ફોલિયર પદ્ધતિ**:\n   - **Solubor**: 500 gm/acre\n\n2. **ફર્ટિગેશન પદ્ધતિ**:\n   - **Potassium Nitrate**: 1 kg/acre\n   - **Urea**: 2.5 kg/acre\n   - અથવા\n   - **Urea**: 3 kg/acre\n   - **Sulfate of Potash**: 1.5 kg/acre\n\n### આગામી સપ્તાહ (2 સપ્તાહ):\n1. **ફોલિયર પદ્ધતિ**:\n   - **Manganese Sulphate**: 400 gm/acre\n   - **Zinc Sulphate**: 600 gm/acre\n   - **Ferrous Sulphate**: 500 gm/acre\n\n2. **ફર્ટિગેશન પદ્ધતિ**:\n   - **Potassium Nitrate**: 3 kg/acre\n   - **Magnesium Sulphate**: 3 kg/acre\n   - અથવા\n   - **Urea**: 1.5 kg/acre\n   - **Sulfate of Potash**: 3 kg/acre\n   - **Magnesium Sulphate**: 3 kg/acre\n\nઆ માહિતી મુજબ, ખાતર આપવાની જરૂરિયાત 1 સપ્તાહમાં છે અને 2 સપ્તાહમાં પણ છે.",
+        "en": "The current crop condition in your field (Ghar valo plot) is \"Flowering and Fruiting\", which is in 1 week. Here are the requirements for fertilizer:\n\n### Current week (1 week):\n1. **Foliar method**:\n   - **Solubor**: 500 gm/acre\n\n2. **Fertigation Method**:\n   - **Potassium Nitrate**: 1 kg/acre\n   - **Urea**: 2.5 kg/acre\n   -or\n   - **Urea**: 3 kg/acre\n   - **Sulfate of Potash**: 1.5 kg/acre\n\n### Next week (2 weeks):\n1. **Foliar method**:\n   - **Manganese Sulphate**: 400 gm/acre\n   - **Zinc Sulphate**: 600 gm/acre\n   - **Ferrous Sulphate**: 500 gm/acre\n\n2. **Fertigation Method**:\n   - **Potassium Nitrate**: 3 kg/acre\n   - **Magnesium Sulphate**: 3 kg/acre\n   -or\n   - **Urea**: 1.5 kg/acre\n   - **Sulfate of Potash**: 3 kg/acre\n   - **Magnesium Sulphate**: 3 kg/acre\n\nAccording to this information, the requirement of fertilizer is in 1 week and also in 2 weeks.",
+        "timestamp": {
+          "$date": "2025-04-12T02:48:22.159Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "દવા ની જરૂર ક્યારે પડશે ",
+        "en": "When will the medicine be needed? ",
+        "timestamp": {
+          "$date": "2025-04-12T02:49:01.465Z"
+        },
+        "standalone_question": "When will the medicine be needed?",
+        "standalone_en": "When will the medicine be needed?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "deva knee jarur kyare padse "
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં (Ghar valo plot) હાલ કોઈ દવા અથવા સ્પ્રે કરવાની જરૂર નથી. આગામી 1 સપ્તાહમાં કોઈ રોગ અથવા પેસ્ટ માટેની સૂચના નથી. જો જરૂર પડે તો હું તમને જાણ કરીશ.",
+        "en": "There is currently no need to spray or spray on your farm (Ghar valo plot). There is no notification for any disease or paste in the next 1 week. I'll let you know if need be.",
+        "timestamp": {
+          "$date": "2025-04-12T02:49:05.899Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "બોરોન ની જરૂર ક્યારે પડશે ",
+        "en": "When will boron be needed ",
+        "timestamp": {
+          "$date": "2025-04-12T02:49:41.576Z"
+        },
+        "standalone_question": "When will there be a need for boron?",
+        "standalone_en": "When will there be a need for boron?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "boron knee jarur kyare padse "
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં (Ghar valo plot) બોરોન (Solubor) ની જરૂરિયાત છે. અહીંની વિગતો:\n\n### હાલની સપ્તાહ (1 સપ્તાહ):\n- **ફોલિયર પદ્ધતિ**:\n  - **Solubor**: 500 gm/acre\n  - આનો ઉપયોગ 12 એપ્રિલ 2025 (શનિવાર) ના રોજ કરી શકાય છે.\n\n### આગામી સપ્તાહ (2 સપ્તાહ):\n- **ફોલિયર પદ્ધતિ**:\n  - બોરોનની જરૂરિયાત નથી, પરંતુ અન્ય માઇક્રો-ન્યુટ્રિયન્ટ્સ જેવી કે મૅંગનિઝ અને ઝિંકની જરૂર પડશે.\n\nઆ રીતે, બોરોનની જરૂરિયાત 12 એપ્રિલ 2025 ના રોજ છે.",
+        "en": "Your ghar valo plot requires boron (Solubor). Details here:\n\n### Current week (1 week):\n- **Foliar method**:\n  - **Solubor**: 500 gm/acre\n  It can be used on April 12, 2025 (Saturday).\n\n### Next week (2 weeks):\n- **Foliar method**:\n  Boron is not needed, but other micro-nutrients such as manganese and zinc will be needed.\n\nThus, the boron requirement is on April 12, 2025.",
+        "timestamp": {
+          "$date": "2025-04-12T02:49:48.346Z"
+        }
+      }
+    ],
+    "farmer_id": "bhaveshbhaisomajisolanki",
+    "farmer_plot_ids": [
+      "gharvaloplot405"
+    ],
+    "conversation_id": "67f9d46c99a0a1c3e775fad8",
+    "_id": "67f9d46c99a0a1c3e775fad8",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-12T02:54:41.583000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-12T02:48:12.740000+00:00"
+  }
+]

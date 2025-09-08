@@ -1,0 +1,431 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "ફળની સાઈઝ બનાવવા કયુ ખાતર આપવું જોઈએ",
+        "en": "Which fertilizer should be given to make the size of the fruit",
+        "timestamp": {
+          "$date": "2025-04-01T13:33:02.234Z"
+        },
+        "standalone_question": "What fertilizer should be used to enhance the size of fruits?",
+        "standalone_en": "What fertilizer should be used to enhance the size of fruits?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "phalani saijh banavava kayu khatar apvu joie"
+      },
+      {
+        "role": "assistant",
+        "content": "ફળની સાઈઝ વધારવા માટે, તમે નીચેના ખાતરોનો ઉપયોગ કરી શકો છો:\n\n1. **ફોલિયર પદ્ધતિ**:\n   - **પોટેશિયમ નાઇટ્રેટ**: 2 કિલોગ્રામ/એકર\n\n2. **ફર્ટિગેશન પદ્ધતિ**:\n   - **કેલ્શિયમ નાઇટ્રેટ**: 3 કિલોગ્રામ/એકર (અન્ય ખાતરોની એપ્લિકેશન પછી 15-20 મિનિટ પછી લાગુ કરવું)\n   - **સલ્ફેટ ઓફ પોટાશ**: 3 કિલોગ્રામ/એકર\n\nઆ ખાતરોનો ઉપયોગ 2025-04-01 ના રોજ શરૂ કરવો અને આગળ વધતા રહેવું. ",
+        "en": "To increase the size of the fruit, you can use the following fertilizers:\n\n1. **Foliar method**:\n   * **Potassium Nitrate**: 2 kg/acre\n\n2. **Fertigation Method**:\n   **Calcium nitrate**: 3 kg/acre (to be applied 15-20 minutes after application of other fertilizers)\n   **Sulphate of Potash**: 3 kg/acre\n\nStart using these fertilizers on 2025-04-01 and continue to move forward. ",
+        "timestamp": {
+          "$date": "2025-04-01T13:33:08.792Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "પોટેશિયમ સનાઇટ આપી શકાય",
+        "en": "Potassium sanomite can be given",
+        "timestamp": {
+          "$date": "2025-04-01T13:34:07.684Z"
+        },
+        "standalone_question": "Can potassium nitrate be applied?",
+        "standalone_en": "Can potassium nitrate be applied?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "potassium sunite aapi sakay"
+      },
+      {
+        "role": "assistant",
+        "content": "હા, પોટેશિયમ સનાઇટ (Potassium Nitrate) આપી શકાય છે. હાલમાં કોઈ રોગ અથવા પેસ્ટ સ્પ્રે કરવાની જરૂર નથી, તેથી તમે આ ખાતરનો ઉપયોગ કરી શકો છો. ",
+        "en": "Yes, potassium nitrate can be given. Currently there is no need to spray any disease or paste, so you can use this fertilizer. ",
+        "timestamp": {
+          "$date": "2025-04-01T13:34:12.414Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "હાલમાં પાણી કેટલું આપવું જોઈએ",
+        "en": "How much water should be given at present",
+        "timestamp": {
+          "$date": "2025-04-01T13:34:50.692Z"
+        },
+        "standalone_question": "How much water should be given at the moment?",
+        "standalone_en": "How much water should be given at the moment?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": []
+        },
+        "content_transliterated": "halaman pani ketalun apvu joie"
+      },
+      {
+        "role": "assistant",
+        "content": "તમે \"Teba Valo Palot\" પ્લોટમાં પાણી આપી શકો છો, કારણ કે જમીનનું આલમણ (soil moisture) 66% અને 54% છે, જેની તુલનામાં આદર્શ (optimal) 60% ની નીચે છે. \n\nતમે 1-2 ઇંચ પાણી આપવું યોગ્ય રહેશે.",
+        "en": "You can water in the \"Teba Valo Palot\" plot, as the soil moisture of the soil is 66% and 54%, compared to the ideal (optimal) below 60%. \n\nIt would be advisable to give you 1-2 inches of water.",
+        "timestamp": {
+          "$date": "2025-04-01T13:34:56.705Z"
+        }
+      }
+    ],
+    "farmer_id": "mukeshbhaidamrajidevda",
+    "farmer_plot_ids": [
+      "tebavalopalot"
+    ],
+    "conversation_id": "67ebeb0e34cb93dd12a30eb1",
+    "_id": "67ebeb0e34cb93dd12a30eb1",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-01T13:39:50.701000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-01T13:33:02.234000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મેંગેનીઝ અને મેગ્નેશિયમ બન્ને એક જ છે કે જુદા જુદા ",
+        "en": "Manganese and magnesium are both the same or different ",
+        "timestamp": {
+          "$date": "2025-04-01T13:26:22.403Z"
+        },
+        "standalone_question": "Are manganese and magnesium the same or different?",
+        "standalone_en": "Are manganese and magnesium the same or different?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "manganies ane megneshiyam banne ek j che ke juda juda "
+      },
+      {
+        "role": "assistant",
+        "content": "મેંગેનીઝ (Mn) અને મેગ્નેશિયમ (Mg) જુદા જુદા તત્વો છે. \n\n- **મેંગેનીઝ**: આ એક મેટલ છે જેનો ઉપયોગ છોડમાં વિવિધ બાયોકેમિકલ પ્રક્રિયાઓમાં થાય છે, જેમ કે ક્લોરોફિલનું ઉત્પાદન અને એન્ટીઓક્સિડન્ટ તરીકે કાર્ય કરે છે.\n\n- **મેગ્નેશિયમ**: આ પણ એક મેટલ છે, જે મુખ્યત્વે ક્લોરોફિલના રચનામાં મહત્વપૂર્ણ છે અને છોડની ઊર્જા ઉત્પાદન પ્રક્રિયામાં સહાય કરે છે.\n\nઆ બંને તત્વો છોડ માટે જરૂરી છે, પરંતુ તેમના કાર્ય અને રાસાયણિક ગુણધર્મો અલગ છે.",
+        "en": "Manganese (Mn) and magnesium (Mg) are different elements. \n\n**Manganese**: This is a metal that is used in plants in various biochemical processes, such as the production of chlorophyll and acting as an antioxidant.\n\n**Magnesium**: This is also a metal, which is mainly important in the formation of chlorophyll and assists in the energy production process of plants.\n\nBoth of these elements are necessary for plants, but their function and chemical properties are different.",
+        "timestamp": {
+          "$date": "2025-04-01T13:26:28.280Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ધન્યવાદ ",
+        "en": "Thank you ",
+        "timestamp": {
+          "$date": "2025-04-01T13:27:27.946Z"
+        },
+        "standalone_question": "What is the difference between manganese and magnesium?",
+        "standalone_en": "What is the difference between manganese and magnesium?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "dhanyavad "
+      },
+      {
+        "role": "assistant",
+        "content": "તમારો સ્વાગત છે! જો તમને વધુ કોઈ પ્રશ્ન હોય, તો પૂછવા માટે સંકોચશો નહીં. ખેડૂત તરીકે તમારી સફળતા માટે શુભેચ્છા!",
+        "en": "You are welcome! If you have any more questions, don't hesitate to ask. Best wishes for your success as a farmer!",
+        "timestamp": {
+          "$date": "2025-04-01T13:27:30.677Z"
+        }
+      }
+    ],
+    "farmer_id": "vasantbhaigovajidevda",
+    "farmer_plot_ids": [
+      "panchalvalopalot"
+    ],
+    "conversation_id": "67ebe97d4680735b032877c7",
+    "_id": "67ebe97d4680735b032877c7",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-01T13:32:27.954000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-01T13:26:22.403000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Pesticide for mealybug",
+        "en": "Pesticide for mealybug",
+        "timestamp": {
+          "$date": "2025-04-01T12:22:13.134Z"
+        },
+        "standalone_question": "What pesticide is effective for treating mealybugs?",
+        "standalone_en": "What pesticide is effective for treating mealybugs?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For controlling mealybugs, you can use the following pesticides:\n\n1. **Imidacloprid**: 0.5 ml per liter of water.\n2. **Thiamethoxam**: 0.5 g per liter of water.\n3. **Chlorpyrifos**: 2-3 ml per liter of water.\n\nMake sure to follow the recommended dosage and safety precautions while applying these pesticides.",
+        "en": "For controlling mealybugs, you can use the following pesticides:\n\n1. **Imidacloprid**: 0.5 ml per liter of water.\n2. **Thiamethoxam**: 0.5 g per liter of water.\n3. **Chlorpyrifos**: 2-3 ml per liter of water.\n\nMake sure to follow the recommended dosage and safety precautions while applying these pesticides.",
+        "timestamp": {
+          "$date": "2025-04-01T12:22:17.063Z"
+        }
+      }
+    ],
+    "farmer_id": "murthyn",
+    "farmer_plot_ids": [
+      "murthynpomo",
+      "murthyp1"
+    ],
+    "conversation_id": "67ebda755fdb55ffaa00c466",
+    "_id": "67ebda755fdb55ffaa00c466",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-01T12:27:13.143000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-04-01T12:22:13.134000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi",
+        "en": "Hi",
+        "timestamp": {
+          "$date": "2025-04-01T10:58:22.872Z"
+        },
+        "standalone_question": "What would you like to talk about today?",
+        "standalone_en": "What would you like to talk about today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "नमस्कार, वैभव! तुम्हाला कशाबद्दल मदतीची आवश्यकता आहे?",
+        "en": "Hello, Glory! What do you need help with?",
+        "timestamp": {
+          "$date": "2025-04-01T10:58:25.510Z"
+        }
+      }
+    ],
+    "farmer_id": "vaibhavpatil825",
+    "farmer_plot_ids": [
+      "rgplot"
+    ],
+    "conversation_id": "67ebc6ce3188f5d2239734b7",
+    "_id": "67ebc6ce3188f5d2239734b7",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-01T11:03:22.881000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-01T10:58:22.872000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Will it rain today",
+        "en": "Will it rain today",
+        "timestamp": {
+          "$date": "2025-04-01T10:38:47.291Z"
+        },
+        "standalone_question": "Will it rain today?",
+        "standalone_en": "Will it rain today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "There is no rain forecasted for today at both of your plots, Mayfield Avondale and Mayfield division. The expected rainfall is 0mm throughout the day.",
+        "en": "There is no rain forecasted for today at both of your plots, Mayfield Avondale and Mayfield division. The expected rainfall is 0mm throughout the day.",
+        "timestamp": {
+          "$date": "2025-04-01T10:38:52.169Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Is there is incidence of red spider mites ",
+        "en": "Is there is incidence of red spider mites ",
+        "timestamp": {
+          "$date": "2025-04-01T10:39:15.159Z"
+        },
+        "standalone_question": "Is there an incidence of red spider mites?",
+        "standalone_en": "Is there an incidence of red spider mites?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "There is a medium risk of red spider mites in both of your plots:\n\n1. **Mayfield Avondale**:\n   - April 1, 2025: Probability 41.4%\n   - March 31, 2025: Probability 43.0%\n   - March 30, 2025: Probability 44.0%\n\n2. **Mayfield division**:\n   - April 1, 2025: Probability 40.9%\n   - March 31, 2025: Probability 41.1%\n   - March 30, 2025: Probability 42.9%\n\nGiven the medium risk level, it may be advisable to consider a pest control strategy. Would you like to know the recommended spray schedule for red spider mites?",
+        "en": "There is a medium risk of red spider mites in both of your plots:\n\n1. **Mayfield Avondale**:\n   - April 1, 2025: Probability 41.4%\n   - March 31, 2025: Probability 43.0%\n   - March 30, 2025: Probability 44.0%\n\n2. **Mayfield division**:\n   - April 1, 2025: Probability 40.9%\n   - March 31, 2025: Probability 41.1%\n   - March 30, 2025: Probability 42.9%\n\nGiven the medium risk level, it may be advisable to consider a pest control strategy. Would you like to know the recommended spray schedule for red spider mites?",
+        "timestamp": {
+          "$date": "2025-04-01T10:39:23.382Z"
+        }
+      }
+    ],
+    "farmer_id": "cyriac",
+    "farmer_plot_ids": [
+      "avondaledivision",
+      "mayfielddivision"
+    ],
+    "conversation_id": "67ebc2373188f5d2239734b6",
+    "_id": "67ebc2373188f5d2239734b6",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-01T10:44:15.167000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-01T10:38:47.291000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "चांगल्या प्रकारचे शेणखत कोणते? ओले का आंबट ओले",
+        "en": "What is the best type of dung? Sour wet of wet",
+        "timestamp": {
+          "$date": "2025-04-01T09:55:46.373Z"
+        },
+        "standalone_question": "What type of good manure is best: wet or fermented?",
+        "standalone_en": "What type of good manure is best: wet or fermented?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "changalya prakarache shenakhat conte? ole ka ambat ole"
+      },
+      {
+        "role": "assistant",
+        "content": "चांगल्या प्रकारचे शेणखत म्हणजे \"ओले शेणखत\" (Fresh manure) जे अधिक पोषणदायी असते. ओले शेणखत अधिक जलद विघटन होते आणि त्यात अधिक नायट्रोजन, फॉस्फरस आणि पोटॅशियम असतात, जे पिकांच्या वाढीसाठी आवश्यक आहे. \n\nआंबट शेणखत (Composted manure) देखील चांगले आहे, परंतु ते कमी ताजे असते आणि त्यात पोषण घटक कमी प्रमाणात असू शकतात. त्यामुळे, ओले शेणखत वापरणे अधिक फायदेशीर ठरते, विशेषतः पिकांच्या प्रारंभिक वाढीच्या टप्प्यात. \n\nतुमच्या पिकांच्या आवश्यकतांनुसार योग्य प्रकारचे शेणखत निवडणे महत्त्वाचे आहे.",
+        "en": "A good type of dung manure is \"fresh manure\" which is more nutritious. Wet manure decomposes more quickly and contains more nitrogen, phosphorus, and potassium, which is essential for crop growth. \n\nComposted manure is also good, but it's less fresh and may contain fewer nutrients. Therefore, it is more beneficial to use wet dung, especially in the early growth phase of crops. \n\nIt is important to choose the right type of dung according to the needs of your crops.",
+        "timestamp": {
+          "$date": "2025-04-01T09:55:50.990Z"
+        }
+      }
+    ],
+    "farmer_id": "atultajanpure",
+    "farmer_plot_ids": [
+      "plotno1crimsun669"
+    ],
+    "conversation_id": "67ebb822ace366c0aa04849f",
+    "_id": "67ebb822ace366c0aa04849f",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-01T10:00:46.383000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-01T09:55:46.373000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મારા ખેતરમા હાલ મગફળીમા છોડ ઉતાર માટે શુ જરૂરી છે",
+        "en": "What's needed to plant peanuts in my farm right now?",
+        "timestamp": {
+          "$date": "2025-04-01T04:46:31.201Z"
+        },
+        "standalone_question": "What is necessary for harvesting pomegranates in my field right now?",
+        "standalone_en": "What is necessary for harvesting pomegranates in my field right now?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara khetarama hal magaphalima chhod utar mate shoe jaruri che"
+      },
+      {
+        "role": "assistant",
+        "content": "હાલમાં, તમારા મગફળીના છોડ \"ફ્લાવરિંગ\" તબક્કામાં છે, જે 21 માર્ચ 2025થી શરૂ થયો છે અને આ તબક્કામાં તમે 2મા અઠવાડિયાંમાં છો. \n\n### હાલની ફર્ટિગેશન જરૂરિયાત:\n- **ફર્ટિગેશન પદ્ધતિ**:\n  - **પોટેશિયમ નાઇટ્રેટ**: 6 કિલોગ્રામ/એકર\n  - અથવા\n  - **યુરિયા**: 1.5 કિલોગ્રામ/એકર\n  - **સલ્ફેટ ઓફ પોટાશ**: 5.5 કિલોગ્રામ/એકર\n\n### આગામી તબક્કો:\n- **પોડ ફોર્મેશન અને વિકાસ** (આગામી 12 એપ્રિલ 2025થી શરૂ):\n  - **ફોલિયર પદ્ધતિ**:\n    - **ઝિંક સલ્ફેટ**: 1 કિલોગ્રામ/એકર\n    - **ફેરસ સલ્ફેટ**: 800 ગ્રામ/એકર\n\n- **ફર્ટિગેશન પદ્ધતિ**:\n  - **પોટેશિયમ નાઇટ્રેટ**: 6 કિલોગ્રામ/એકર\n  - **કેલ્શિયમ નાઇટ્રેટ**: 3 કિલોગ્રામ/એકર\n\nઆ માહિતીના આધારે, તમે હાલની ફર્ટિગેશન જરૂરિયાતોને અનુસરી શકો છો અને આગામી તબક્કા માટે તૈયારી કરી શકો છો.",
+        "en": "Currently, your peanut plants are in the \"flowering\" phase, which started on March 21, 2025, and you are in the 2nd week of this phase. \n\n### Current fertigation requirement:\n- **Fertigation method**:\n  * **Potassium Nitrate**: 6 kg/acre\n  -or\n  **Urea**: 1.5 kg/acre\n  **Sulphate of Potash**: 5.5 kg/acre\n\n### Next stage:\n* **Pod Formation and Development** (starting april 12, 2025):\n  - **Foliar method**:\n    * **Zinc sulfate**: 1 kg/acre\n    **Ferrous sulfate**: 800 g/acre\n\n- **Fertigation method**:\n  * **Potassium Nitrate**: 6 kg/acre\n  **Calcium nitrate**: 3 kg/acre\n\nBased on this information, you can follow the existing fertigation requirements and prepare for the next phase.",
+        "timestamp": {
+          "$date": "2025-04-01T04:46:43.425Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "હાલ મગફળીમા પાણી જરૂર છે",
+        "en": "Water is needed in the peanuts right now",
+        "timestamp": {
+          "$date": "2025-04-01T04:48:41.760Z"
+        },
+        "standalone_question": "Does the peanut crop currently need water?",
+        "standalone_en": "Does the peanut crop currently need water?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil."
+          ]
+        },
+        "content_transliterated": "hal magaphalima pani jarur che"
+      },
+      {
+        "role": "assistant",
+        "content": "હાલમાં, \"આબા વલો પ્લોટ\"માં પાણી આપવાની જરૂર નથી. \n\n### મોજુદા માળખા:\n- **માટીના ભેજ**:\n  - **સોયલ મોઇશ્ચર 1**: 78%\n  - **સોયલ મોઇશ્ચર 2**: 96%\n- **ઓપ્ટિમલ ભેજ**: 60%\n\nમાટીના ભેજના પ્રમાણો ઓપ્ટિમલથી વધુ છે, તેથી હાલ પાણી આપવાની જરૂર નથી.",
+        "en": "At present, there is no need to provide water in the \"Aba Valo plot\". \n\n### Different structures:\n- **Soil moisture**:\n  * **Soyle Moisture 1**: 78%\n  * **Soyle Moisture 2**: 96%\n* **Optimal Humidity**: 60%\n\nSoil moisture content is higher than optimal, so there is no need to water at present.",
+        "timestamp": {
+          "$date": "2025-04-01T04:48:47.164Z"
+        }
+      }
+    ],
+    "farmer_id": "tejabhaihemabhaipatel",
+    "farmer_plot_ids": [
+      "abavaloplot"
+    ],
+    "conversation_id": "67eb6fa703fef4b49beb9cd4",
+    "_id": "67eb6fa703fef4b49beb9cd4",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-01T04:53:41.768000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-01T04:46:31.201000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "माझ्या क्रिमसन चा प्लॉट चा शेंडा चालत नाही तर काय करू",
+        "en": "What if my Crimson plot doesn't work?",
+        "timestamp": {
+          "$date": "2025-04-01T02:28:23.592Z"
+        },
+        "standalone_question": "What should I do if the tip of my crimson plant is not growing?",
+        "standalone_en": "What should I do if the tip of my crimson plant is not growing?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mazya crimson cha plot cha shenda chalat nahi tar kay karu"
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या क्रिमसन प्लॉटच्या शेंड्यांमध्ये समस्या असल्यास, खालील उपाययोजना करा:\n\n1. **पाण्याचे व्यवस्थापन**: शेंड्यांना योग्य प्रमाणात पाणी मिळत आहे का ते तपासा. पाण्याची कमी किंवा जास्ती शेंड्यांच्या विकासावर परिणाम करू शकते.\n\n2. **खते**: योग्य खते वापरणे महत्त्वाचे आहे. आपल्या प्लॉटच्या मातीच्या गरजेनुसार खते द्या.\n\n3. **रोग आणि कीड नियंत्रण**: शेंड्यांवर कोणतेही रोग किंवा कीड असल्यास, त्यांचे नियंत्रण करा. योग्य कीटकनाशक किंवा रोगनाशक वापरा.\n\n4. **मातीची तपासणी**: मातीची गुणवत्ता आणि pH स्तर तपासा. आवश्यक असल्यास, माती सुधारण्यासाठी उपाययोजना करा.\n\n5. **तज्ञांचा सल्ला**: स्थानिक कृषी तज्ञ किंवा कृषी अधिकारी यांच्याशी संपर्क साधा. ते आपल्याला अधिक योग्य मार्गदर्शन करू शकतात.\n\nआपल्याला अधिक माहिती किंवा विशिष्ट उपाययोजना हवी असल्यास, कृपया सांगा.",
+        "en": "If you have problems with the stems of your Crimson plot, take the following measures:\n\n1. **Water management**: Check that the pods are getting the right amount of water. Less or too much water can affect the development of legumes.\n\n2. **Fertilizers**: It is important to use the right fertilizers. Fertilize according to the soil needs of your plot.\n\n3. **Disease and Pest Control**: If there are any diseases or pests on the stems, control them. Use the right pesticide or disinfectant.\n\n4. **Soil inspection**: Check soil quality and pH levels. If necessary, take measures to improve the soil.\n\n5. **Expert advice**: Contact a local agricultural expert or agriculture official. They can guide you more appropriately.\n\nIf you need more information or specific solutions, please let us know.",
+        "timestamp": {
+          "$date": "2025-04-01T02:28:29.211Z"
+        }
+      }
+    ],
+    "farmer_id": "atultajanpure",
+    "farmer_plot_ids": [
+      "plotno1crimsun669"
+    ],
+    "conversation_id": "67eb4f475fdb55ffaa00c465",
+    "_id": "67eb4f475fdb55ffaa00c465",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-01T02:33:23.600000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-01T02:28:23.592000+00:00"
+  }
+]

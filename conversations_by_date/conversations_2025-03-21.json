@@ -1,0 +1,574 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મશીન માં ખામી લાગે છે",
+        "en": "The machine seems to be malfunctioning",
+        "timestamp": {
+          "$date": "2025-03-21T18:14:27.329Z"
+        },
+        "standalone_question": "The machine seems to have a problem.",
+        "standalone_en": "The machine seems to have a problem.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "machine man khami lage che"
+      },
+      {
+        "role": "assistant",
+        "content": "જો તમને મશીનમાં કોઈ સમસ્યા આવી રહી છે, તો કૃપા કરીને ફાઈલો એપ્લિકેશનમાં સપોર્ટ ટિકિટ ઉઠાવો. જો સમસ્યા ઉકેલાઈ ન હોય, તો વધુ સહાય માટે ફાઈલો ગ્રાહક સપોર્ટનો સંપર્ક કરો.",
+        "en": "If you are experiencing any problem with the machine, please pick up the support ticket in the Files app. If the issue is not resolved, contact files customer support for further assistance.",
+        "timestamp": {
+          "$date": "2025-03-21T18:14:30.335Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ભેજ બતાવતું નથી",
+        "en": "Does not show humidity",
+        "timestamp": {
+          "$date": "2025-03-21T18:15:04.596Z"
+        },
+        "standalone_question": "The machine is not showing humidity.",
+        "standalone_en": "The machine is not showing humidity.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "bhej batavatun nathi"
+      },
+      {
+        "role": "assistant",
+        "content": "જો મશીનમાં ભેજનું માપ દર્શાવતું નથી, તો કૃપા કરીને નીચેના પગલાં અનુસરો:\n\n1. **સેન્સર ચકાસો**: ખાતરી કરો કે સેન્સર યોગ્ય રીતે સ્થાપિત છે અને જમીનમાં સારી રીતે પ્રવેશી ગયો છે.\n2. **જમીનનું નિરીક્ષણ**: જમીનની સપાટી પર ભેજ છે કે નહીં તે તપાસો. જો જમીન સૂકી લાગે, તો તે સંકેત હોઈ શકે છે કે સેન્સર યોગ્ય રીતે કાર્ય કરી રહ્યો નથી.\n3. **ફાઈલોના ટેકનિકલ સપોર્ટનો સંપર્ક કરો**: જો સમસ્યા યથાવત રહે, તો કૃપા કરીને ફાઈલોના ટેકનિકલ સપોર્ટને સંપર્ક કરો.\n\nજો તમને વધુ મદદની જરૂર હોય, તો મને જણાવો!",
+        "en": "If the machine does not show the size of moisture, please follow the steps below:\n\n1. **Check sensor**: Make sure the sensor is properly installed and penetrates well into the ground.\n2. **Soil observation**: Check whether there is moisture on the surface of the ground. If the ground seems dry, it could be a sign that the sensor is not working properly.\n3. **Contact technical support of files**: If the problem persists, please contact the technical support of the files.\n\nIf you need more help, let me know!",
+        "timestamp": {
+          "$date": "2025-03-21T18:15:09.775Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140",
+      "sheshpalot"
+    ],
+    "conversation_id": "67ddac833a65cb3f3c952fd1",
+    "_id": "67ddac833a65cb3f3c952fd1",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-21T18:20:04.608000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-03-21T18:14:27.329000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Temparature today at my plot ?",
+        "en": "Temparature today at my plot ?",
+        "timestamp": {
+          "$date": "2025-03-21T17:05:43.166Z"
+        },
+        "standalone_question": "What is the temperature today at my plot?",
+        "standalone_en": "What is the temperature today at my plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The current soil temperature at your plot (plot 1) is approximately 24.9°C. This reading was taken at around 9:53 PM today. If you need any further information, feel free to ask!",
+        "en": "The current soil temperature at your plot (plot 1) is approximately 24.9°C.  This reading was taken at around 9:53 PM today. If you need any further information, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-03-21T17:05:50.982Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Coconut nutrition management ",
+        "en": "Coconut nutrition management ",
+        "timestamp": {
+          "$date": "2025-03-21T17:06:12.155Z"
+        },
+        "standalone_question": "What are the best practices for managing the nutrition of coconut plants?",
+        "standalone_en": "What are the best practices for managing the nutrition of coconut plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Coconut trees require a balanced supply of nutrients for optimal growth and yield. Here are the key nutrients and their management for coconut cultivation:\n\n1. **Nitrogen (N)**: Essential for vegetative growth. Apply 0.5 to 1 kg of urea per tree annually, split into two applications (before and after the monsoon).\n\n2. **Phosphorus (P)**: Important for root development and flowering. Use 0.5 to 1 kg of superphosphate per tree annually.\n\n3. **Potassium (K)**: Crucial for fruit development and quality. Apply 1 to 2 kg of muriate of potash per tree annually.\n\n4. **Calcium (Ca)**: Important for cell wall structure. Gypsum can be applied at 0.5 to 1 kg per tree.\n\n5. **Magnesium (Mg)**: Necessary for chlorophyll production. Use dolomite or magnesium sulfate at 0.5 kg per tree.\n\n6. **Micronutrients**: Boron, zinc, and manganese are also important. Foliar sprays can be used to supply these nutrients as needed.\n\n7. **Organic Matter**: Incorporate organic matter like compost or green manure to improve soil health and nutrient availability.\n\n8. **Soil Testing**: Regular soil testing is recommended to determine nutrient levels and adjust fertilization accordingly.\n\n9. **Irrigation**: Ensure adequate water supply, especially during dry periods, as it affects nutrient uptake.\n\n10. **Fertigation**: Consider using fertigation (applying fertilizers through irrigation) for more efficient nutrient management.\n\nRegular monitoring and adjustments based on crop needs and soil conditions will help in achieving optimal coconut production.",
+        "en": "Coconut trees require a balanced supply of nutrients for optimal growth and yield. Here are the key nutrients and their management for coconut cultivation:\n\n1. **Nitrogen (N)**: Essential for vegetative growth. Apply 0.5 to 1 kg of urea per tree annually, split into two applications (before and after the monsoon).\n\n2. **Phosphorus (P)**: Important for root development and flowering. Use 0.5 to 1 kg of superphosphate per tree annually.\n\n3. **Potassium (K)**: Crucial for fruit development and quality. Apply 1 to 2 kg of muriate of potash per tree annually.\n\n4. **Calcium (Ca)**: Important for cell wall structure. Gypsum can be applied at 0.5 to 1 kg per tree.\n\n5. **Magnesium (Mg)**: Necessary for chlorophyll production. Use dolomite or magnesium sulfate at 0.5 kg per tree.\n\n6. **Micronutrients**: Boron, zinc, and manganese are also important. Foliar sprays can be used to supply these nutrients as needed.\n\n7. **Organic Matter**: Incorporate organic matter like compost or green manure to improve soil health and nutrient availability.\n\n8. **Soil Testing**: Regular soil testing is recommended to determine nutrient levels and adjust fertilization accordingly.\n\n9. **Irrigation**: Ensure adequate water supply, especially during dry periods, as it affects nutrient uptake.\n\n10. **Fertigation**: Consider using fertigation (applying fertilizers through irrigation) for more efficient nutrient management.\n\nRegular monitoring and adjustments based on crop needs and soil conditions will help in achieving optimal coconut production.",
+        "timestamp": {
+          "$date": "2025-03-21T17:06:19.827Z"
+        }
+      }
+    ],
+    "farmer_id": "gaturbhai",
+    "farmer_plot_ids": [
+      "plot1820876"
+    ],
+    "conversation_id": "67dd9c66d37e3eba5b37998d",
+    "_id": "67dd9c66d37e3eba5b37998d",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-03-21T17:11:12.165000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-03-21T17:05:43.166000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "About it ",
+        "en": "About it ",
+        "timestamp": {
+          "$date": "2025-03-21T15:51:11.708Z"
+        },
+        "standalone_question": "What is it about?",
+        "standalone_en": "What is it about?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Could you please clarify what specific information you would like to know about? Are you looking for details about your plots, crops, irrigation, or something else?",
+        "en": "Could you please clarify what specific information you would like to know about? Are you looking for details about your plots, crops, irrigation, or something else?",
+        "timestamp": {
+          "$date": "2025-03-21T15:51:19.220Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "અપડેટ ",
+        "en": "Update ",
+        "timestamp": {
+          "$date": "2025-03-21T15:51:31.358Z"
+        },
+        "standalone_question": "What updates do you need?",
+        "standalone_en": "What updates do you need?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "update "
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પ્લોટ્સ વિશેની તાજી માહિતી મેળવવા માટે હું તાત્કાલિક સેન્સર ડેટા તપાસીશ. થોડીવાર રાહ જુઓ.:\n\nઅહીં તમારા પ્લોટ્સની તાજી માહિતી છે:\n\n### TARAK Plot\n- **તારીખ અને સમય:** 2025-02-21 15:06:45\n- **હવા તાપમાન:** 31.7°C\n- **હવા આર્દ્રતા:** 33%\n- **માટીના તાપમાન:** 25.5°C\n- **માટીની ભેજ (Sensor 1):** 54 kPa\n- **માટીની ભેજ (Sensor 2):** 76 kPa\n- **પાનની ભેજ:** 0\n- **હવા દબાણ:** 99.6 kPa\n- **પ્રકાશની તીવ્રતા:** 57978 lux\n- **UV ઇન્ડેક્સ:** 63\n- **હવા ઝડપ:** 12.8 km/h (NW દિશામાં)\n- **વર્ષા:** 0 mm\n- **બેટરી:** 19%\n- **અનામલીઓ:** માટીના તાપમાનમાં 9.63°C નો સ્પાઈક નોંધાયો છે.\n\n### SHESH PLOT\n- **તારીખ અને સમય:** 2025-03-21 20:44:39\n- **માટીના તાપમાન:** 24.44°C\n- **બેટરી:** 91%\n- **માટીની ભેજ (Sensor 1):** 48%\n- **માટીની ભેજ (Sensor 2):** 42%\n- **સોલર વોલ્ટેજ:** 48V\n\nજો તમને વધુ માહિતી અથવા મદદની જરૂર હોય, તો કૃપા કરીને જણાવો!",
+        "en": "I will immediately check the sensor data to get the latest information about your plots. Wait a while.:\n\nHere's the latest information on your plots:\n\n### TARAK Plot\n* **Date and time:** 2025-02-21 15:06:45\n- **Air temperature:** 31.7°C\n* ** Air humidity:** 33%\n* **Soil temperature:** 25.5°C\n- **Soil moisture (Sensor 1):** 54 kPa\n- **Soil moisture (Sensor 2):** 76 kPa\n- **Leaf moisture:** 0\n- **Air pressure:** 99.6 kPa\n* * Light intensity:** 57978 lux\n- **UV Index:** 63\n- **Air speed:** 12.8 km/h (in NW direction)\n- **Rain:** 0 mm\n* **Battery:** 19%\n* **Anomalies:** A spike of 9.63 °C has been recorded in the soil temperature.\n\n### SHESH PLOT\n* **Date and Time:** 2025-03-21 20:44:39\n* **Soil temperature:** 24.44°C\n* **Battery:** 91%\n- **Soil moisture (Sensor 1):** 48%\n* **Soil moisture (Sensor 2):** 42%\n- **Solar voltage:** 48V\n\nIf you need more information or help, please let us know!",
+        "timestamp": {
+          "$date": "2025-03-21T15:51:41.546Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140",
+      "sheshpalot"
+    ],
+    "conversation_id": "67dd8aefc63ec35585985ba0",
+    "_id": "67dd8aefc63ec35585985ba0",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-21T15:56:31.367000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-03-21T15:51:11.708000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મારા ખેતરમા હાલમા કોઈ રોગ દેખાય છે",
+        "en": "There is currently a disease in my farm",
+        "timestamp": {
+          "$date": "2025-03-21T13:08:46.361Z"
+        },
+        "standalone_question": "Is there currently any disease visible in my field?",
+        "standalone_en": "Is there currently any disease visible in my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara khetarama halma koi rog dekhay che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં હાલ કોઈ રોગની સ્પ્રે કરવાની જરૂર નથી.",
+        "en": "There is no need to spray any disease on your farm right now.",
+        "timestamp": {
+          "$date": "2025-03-21T13:08:50.056Z"
+        }
+      }
+    ],
+    "farmer_id": "tejabhaihemabhaipatel",
+    "farmer_plot_ids": [
+      "abavaloplot"
+    ],
+    "conversation_id": "67dd64dc6ff0a9d6b1d8f607",
+    "_id": "67dd64dc6ff0a9d6b1d8f607",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-21T13:13:46.373000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-03-21T13:08:46.361000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kayu khatar nakhavi",
+        "en": "For the sake of kayu, not to eat",
+        "timestamp": {
+          "$date": "2025-03-21T13:03:45.252Z"
+        },
+        "standalone_question": "What is the meaning of \"Kayu khatar nakhavi\"?",
+        "standalone_en": "What is the meaning of \"Kayu khatar nakhavi\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For your Muskmelon crop in the Teti Valo plot, here is the fertigation schedule for the current week (Week 3 of the Vegetative Growth stage):\n\n### Current Week Fertigation Schedule:\n1. **Foliar Application:**\n   - **Micro-nutrient Fertilizers:** \n     - Concentration should not exceed 1% (e.g., 5 kg in 500 liters of water per acre).\n   - **Possible Combinations:**\n     - **Manganese Sulphate:** 400 gm/acre\n     - **Zinc Sulphate:** 600 gm/acre\n     - **Ferrous Sulphate:** 500 gm/acre\n     - (Other combinations are available as well.)\n\n2. **Fertigation Method:**\n   - **Day 1:**\n     - **Magnesium Sulphate:** 3 kg/acre\n     - **Ammonium Sulphate:** 6.5 kg/acre\n     - *Note:* Apply Phosphoric acid separately, 15-20 minutes before other fertilizers.\n   - **Day 4:**\n     - **12-61-0:** 2 kg/acre\n     - **Urea:** 2.5 kg/acre\n     - *Note:* Apply Phosphoric acid separately, 15-20 minutes before other fertilizers.\n\n### Next Week's Schedule (Week 1 of Flowering and Fruiting stage):\n- Starts on **April 3, 2025**.\n- **Foliar Application:**\n  - **Solubor:** 500 gm/acre\n- **Fertigation Method:**\n  - **Day 1:**\n    - **Potassium Nitrate:** 1 kg/acre\n    - **Urea:** 2.5 kg/acre\n  - **Day 4:**\n    - **12-61-0:** 2 kg/acre\n    - **Urea:** 2.5 kg/acre\n    - **Calcium Nitrate:** 3 kg/acre\n\nMake sure to follow the guidelines for each application to ensure optimal growth of your Muskmelon crop!",
+        "en": "For your Muskmelon crop in the Teti Valo plot, here is the fertigation schedule for the current week (Week 3 of the Vegetative Growth stage):\n\n### Current Week Fertigation Schedule:\n1. **Foliar Application:**\n   - **Micro-nutrient Fertilizers:** \n     - Concentration should not exceed 1% (e.g., 5 kg in 500 liters of water per acre).\n   - **Possible Combinations:**\n     - **Manganese Sulphate:** 400 gm/acre\n     - **Zinc Sulphate:** 600 gm/acre\n     - **Ferrous Sulphate:** 500 gm/acre\n     - (Other combinations are available as well.)\n\n2. **Fertigation Method:**\n   - **Day 1:**\n     - **Magnesium Sulphate:** 3 kg/acre\n     - **Ammonium Sulphate:** 6.5 kg/acre\n     - *Note:* Apply Phosphoric acid separately, 15-20 minutes before other fertilizers.\n   - **Day 4:**\n     - **12-61-0:** 2 kg/acre\n     - **Urea:** 2.5 kg/acre\n     - *Note:* Apply Phosphoric acid separately, 15-20 minutes before other fertilizers.\n\n### Next Week's Schedule (Week 1 of Flowering and Fruiting stage):\n- Starts on **April 3, 2025**.\n- **Foliar Application:**\n  - **Solubor:** 500 gm/acre\n- **Fertigation Method:**\n  - **Day 1:**\n    - **Potassium Nitrate:** 1 kg/acre\n    - **Urea:** 2.5 kg/acre\n  - **Day 4:**\n    - **12-61-0:** 2 kg/acre\n    - **Urea:** 2.5 kg/acre\n    - **Calcium Nitrate:** 3 kg/acre\n\nMake sure to follow the guidelines for each application to ensure optimal growth of your Muskmelon crop!",
+        "timestamp": {
+          "$date": "2025-03-21T13:03:57.075Z"
+        }
+      }
+    ],
+    "farmer_id": "anilkumarprabhujiparmar",
+    "farmer_plot_ids": [
+      "tetivaloplot"
+    ],
+    "conversation_id": "67dd63b16ff0a9d6b1d8f606",
+    "_id": "67dd63b16ff0a9d6b1d8f606",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-21T13:08:45.260000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-03-21T13:03:45.252000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Khatar kayu nakhavu",
+        "en": "For sure, kayu nakhu",
+        "timestamp": {
+          "$date": "2025-03-21T13:00:27.451Z"
+        },
+        "standalone_question": "What is the meaning of \"Khatar kayu nakhavu\"?",
+        "standalone_en": "What is the meaning of \"Khatar kayu nakhavu\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "**Ghar valo Palot** (Muskmelon) is currently in the **Vegetative Growth** stage (Week 2). Here’s the fertigation schedule for this week:\n\n### Current Week Schedule:\n1. **Day 1 (March 21, 2025)**:\n   - **Fertilizers**: \n     - Magnesium Sulphate: 3 kg/acre\n     - Ammonium Sulphate: 6.5 kg/acre\n\n2. **Day 4 (March 24, 2025)**:\n   - **Fertilizers**: \n     - 12-61-0: 3 kg/acre\n     - OR\n     - 24-24-0: 3 kg/acre + Phosphoric acid 80%: 2 kg/acre\n     - OR\n     - Urea: 1.5 kg/acre + Phosphoric acid 80%: 3 kg/acre\n\n### Next Week Schedule (Week 3):\n- **Fertigation**:\n  - **Day 1**: \n    - Magnesium Sulphate: 3 kg/acre\n    - Ammonium Sulphate: 6.5 kg/acre\n  - **Day 4**: \n    - 12-61-0: 2 kg/acre + Urea: 2.5 kg/acre\n    - OR\n    - 24-24-0: 6 kg/acre\n\n- **Foliar Spray**:\n  - Use micro-nutrient fertilizers (e.g., Manganese Sulphate, Zinc Sulphate) with a concentration not exceeding 1%.\n\nMake sure to follow this schedule for optimal growth!",
+        "en": "**Ghar valo Palot** (Muskmelon) is currently in the **Vegetative Growth** stage (Week 2). Here’s the fertigation schedule for this week:\n\n### Current Week Schedule:\n1. **Day 1 (March 21, 2025)**:\n   - **Fertilizers**: \n     - Magnesium Sulphate: 3 kg/acre\n     - Ammonium Sulphate: 6.5 kg/acre\n\n2. **Day 4 (March 24, 2025)**:\n   - **Fertilizers**: \n     - 12-61-0: 3 kg/acre\n     - OR\n     - 24-24-0: 3 kg/acre + Phosphoric acid 80%: 2 kg/acre\n     - OR\n     - Urea: 1.5 kg/acre + Phosphoric acid 80%: 3 kg/acre\n\n### Next Week Schedule (Week 3):\n- **Fertigation**:\n  - **Day 1**: \n    - Magnesium Sulphate: 3 kg/acre\n    - Ammonium Sulphate: 6.5 kg/acre\n  - **Day 4**: \n    - 12-61-0: 2 kg/acre + Urea: 2.5 kg/acre\n    - OR\n    - 24-24-0: 6 kg/acre\n\n- **Foliar Spray**:\n  - Use micro-nutrient fertilizers (e.g., Manganese Sulphate, Zinc Sulphate) with a concentration not exceeding 1%.\n\nMake sure to follow this schedule for optimal growth!",
+        "timestamp": {
+          "$date": "2025-03-21T13:00:35.646Z"
+        }
+      }
+    ],
+    "farmer_id": "vikasbhaidayarabhaiparmar",
+    "farmer_plot_ids": [
+      "gharvalopalot590"
+    ],
+    "conversation_id": "67dd62eb14340c757208bf06",
+    "_id": "67dd62eb14340c757208bf06",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-21T13:05:27.459000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-03-21T13:00:27.451000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મારા ખેતર મા પાણી ની જરૂર છે",
+        "en": "My farm needs water",
+        "timestamp": {
+          "$date": "2025-03-21T09:41:44.173Z"
+        },
+        "standalone_question": "My field needs water.",
+        "standalone_en": "My field needs water.",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": []
+        },
+        "content_transliterated": "mara khetar ma pani knee jarur che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરોમાં પાણીની જરૂર નથી:\n\n1. **Main Palot 971**: \n   - મીઠા માટીનું પાણું: 6 kPa\n   - ઓપ્ટિમલ પાણું: 15 kPa\n   - **પાણી આપવાની જરૂર નથી**.\n\n2. **Palot 812**: \n   - મીઠા માટીનું પાણું: 60%\n   - ઓપ્ટિમલ પાણું: 50%\n   - **પાણી આપવાની જરૂર નથી**.\n\nજો તમને વધુ માહિતી જોઈએ તો જણાવો!",
+        "en": "Your farms don't need water:\n\n1. **Main Palot 971**: \n   - Sweet earthen pan: 6 kPa\n   - Optimal leaf: 15 kPa\n   - **There is no need to give water**.\n\n2. **Palot 812**: \n   - Salted clay leaves: 60%\n   - Optimal leaves: 50%\n   - **There is no need to give water**.\n\nLet me know if you need more information!",
+        "timestamp": {
+          "$date": "2025-03-21T09:41:51.063Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખેતર મા દવાની જરૂર છે",
+        "en": "My farm needs medicine",
+        "timestamp": {
+          "$date": "2025-03-21T09:43:13.800Z"
+        },
+        "standalone_question": "Do my fields need medicine?",
+        "standalone_en": "Do my fields need medicine?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara khetar ma davani jarur che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરોમાં (Main Palot 971 અને Palot 812) માટે આ અઠવાડિયે કોઈ દવા છંટકાવની જરૂર નથી. \n\nજો તમને વધુ માહિતી જોઈએ તો જણાવો!",
+        "en": "No drug spraying is needed this week for your fields (Main Palot 971 and Palot 812). \n\nLet me know if you need more information!",
+        "timestamp": {
+          "$date": "2025-03-21T09:43:19.410Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખેતર મા ખાતર ની જરૂર છે",
+        "en": "My farm needs manure",
+        "timestamp": {
+          "$date": "2025-03-21T09:44:07.456Z"
+        },
+        "standalone_question": "Do my fields need fertilizer?",
+        "standalone_en": "Do my fields need fertilizer?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate."
+          ]
+        },
+        "content_transliterated": "mara khetar ma khatar knee jarur che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરોમાં ખાતર આપવાની જરૂર છે:\n\n### 1. **Main Palot 971** (Vegetative Growth - Week 3)\n- **Foliar Method**: \n  - **Manganese Sulphate**: 400 gm/acre\n  - **Zinc Sulphate**: 600 gm/acre\n  - **Ferrous Sulphate**: 500 gm/acre\n- **Fertigation Method**:\n  - **Day 1**: \n    - **Magnesium Sulphate**: 3 kg/acre\n    - **Ammonium Sulphate**: 6.5 kg/acre\n  - **Day 4**: \n    - **12-61-0**: 2 kg/acre\n    - **Urea**: 2.5 kg/acre\n\n### 2. **Palot 812** (Flowering and Fruiting - Week 1)\n- **Foliar Method**: \n  - **Solubor**: 500 gm/acre\n- **Fertigation Method**:\n  - **Day 1**: \n    - **Potassium Nitrate**: 1 kg/acre\n    - **Urea**: 2.5 kg/acre\n  - **Day 4**: \n    - **12-61-0**: 2 kg/acre\n    - **Urea**: 2.5 kg/acre\n    - **Calcium Nitrate**: 3 kg/acre\n\nઆ ખાતર આપવાની સૂચનાઓને અનુસરો અને તમારા પાકની વૃદ્ધિ માટે યોગ્ય રીતે ખાતર આપો. જો તમને વધુ માહિતી જોઈએ તો જણાવો!",
+        "en": "તમારા ખેતરોમાં ખાતર આપવાની જરૂર છે:\n\n### 1. **Main Palot 971** (Vegetative Growth - Week 3)\n- **Foliar Method**: \n  - **Manganese Sulphate**: 400 gm/acre\n  - **Zinc Sulphate**: 600 gm/acre\n  - **Ferrous Sulphate**: 500 gm/acre\n- **Fertigation Method**:\n  - **Day 1**: \n    - **Magnesium Sulphate**: 3 kg/acre\n    - **Ammonium Sulphate**: 6.5 kg/acre\n  - **Day 4**: \n    - **12-61-0**: 2 kg/acre\n    - **Urea**: 2.5 kg/acre\n\n### 2. **Palot 812** (Flowering and Fruiting - Week 1)\n- **Foliar Method**: \n  - **Solubor**: 500 gm/acre\n- **Fertigation Method**:\n  - **Day 1**: \n    - **Potassium Nitrate**: 1 kg/acre\n    - **Urea**: 2.5 kg/acre\n  - **Day 4**: \n    - **12-61-0**: 2 kg/acre\n    - **Urea**: 2.5 kg/acre\n    - **Calcium Nitrate**: 3 kg/acre\n\nઆ ખાતર આપવાની સૂચનાઓને અનુસરો અને તમારા પાકની વૃદ્ધિ માટે યોગ્ય રીતે ખાતર આપો. જો તમને વધુ માહિતી જોઈએ તો જણાવો!",
+        "timestamp": {
+          "$date": "2025-03-21T09:44:20.140Z"
+        }
+      }
+    ],
+    "farmer_id": "shantilalshankarjisolanki",
+    "farmer_plot_ids": [
+      "mainpalot971",
+      "palot812"
+    ],
+    "conversation_id": "67dd34576ff0a9d6b1d8f603",
+    "_id": "67dd34576ff0a9d6b1d8f603",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-21T09:49:07.464000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-03-21T09:41:44.173000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Please suggest ",
+        "en": "Please suggest ",
+        "timestamp": {
+          "$date": "2025-03-21T08:41:26.834Z"
+        },
+        "standalone_question": "What would you suggest?",
+        "standalone_en": "What would you suggest?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For your region, considering you are growing grapes, here are some popular and profitable grape varieties that are known for their yield and pest resistance:\n\n1. **Thompson Seedless**: Known for high yield and good market demand.\n2. **Black Corinth**: Offers good resistance to pests and diseases.\n3. **Flame Seedless**: Popular for its sweet flavor and good market price.\n4. **Sultanina**: Known for its high yield and adaptability to various climates.\n\nIt's essential to consider local conditions, market demand, and pest resistance when selecting a variety. For the best results, consult with local agricultural experts or agronomists who can provide tailored advice based on your specific plot conditions.",
+        "en": "For your region, considering you are growing grapes, here are some popular and profitable grape varieties that are known for their yield and pest resistance:\n\n1. **Thompson Seedless**: Known for high yield and good market demand.\n2. **Black Corinth**: Offers good resistance to pests and diseases.\n3. **Flame Seedless**: Popular for its sweet flavor and good market price.\n4. **Sultanina**: Known for its high yield and adaptability to various climates.\n\nIt's essential to consider local conditions, market demand, and pest resistance when selecting a variety. For the best results, consult with local agricultural experts or agronomists who can provide tailored advice based on your specific plot conditions.",
+        "timestamp": {
+          "$date": "2025-03-21T08:41:31.459Z"
+        }
+      }
+    ],
+    "farmer_id": "rahulbhuirkarpandharewadi",
+    "farmer_plot_ids": [
+      "rahulcloneplot1"
+    ],
+    "conversation_id": "67dd25f9bc0e605756db0f40",
+    "_id": "67dd25f9bc0e605756db0f40",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-03-21T08:46:26.880000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-03-21T08:41:26.834000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Divas chalu",
+        "en": "Divas chalu",
+        "timestamp": {
+          "$date": "2025-03-21T05:51:03.379Z"
+        },
+        "standalone_question": "Are the divas ready?",
+        "standalone_en": "Are the divas ready?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "नमस्कार राहुल! तुम्हाला कशाबद्दल मदतीची आवश्यकता आहे का?",
+        "en": "Hello Rahul! Do you need help with anything?",
+        "timestamp": {
+          "$date": "2025-03-21T05:51:05.356Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Divase calu kara",
+        "en": "Divasse Salu Kara",
+        "timestamp": {
+          "$date": "2025-03-21T05:51:54.650Z"
+        },
+        "standalone_question": "Could you please tell me how to make the day productive?",
+        "standalone_en": "Could you please tell me how to make the day productive?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया तुमच्या शेतात किंवा प्लॉटवर भेटीची वेळ ठरवण्यासाठी अॅपमध्ये देखभाल तिकीट उघडा किंवा आमच्या टीमशी संपर्क साधा. तुम्हाला आणखी काही मदतीची आवश्यकता आहे का?",
+        "en": "Please open a maintenance ticket in the app or contact our team to schedule an appointment at your farm or plot. Do you need any more help?",
+        "timestamp": {
+          "$date": "2025-03-21T05:51:58.007Z"
+        }
+      }
+    ],
+    "farmer_id": "rahulzari",
+    "farmer_plot_ids": [
+      "bandupawarplot",
+      "zarimamaplot",
+      "manikchaman104",
+      "rkplot374",
+      "ssnplot550",
+      "thompson122"
+    ],
+    "conversation_id": "67dcfe46283d6f9613c8dedc",
+    "_id": "67dcfe46283d6f9613c8dedc",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-03-21T05:56:54.661000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-03-21T05:51:03.379000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "रोग ओळखा ना माहिती सांगा<user uploaded image for analysis at 'samadhanfarm1/2025-03-21-1742535866591.jpg'>",
+        "en": "Identify disease or tell information<user uploaded image for analysis at 'samadhanfarm1/2025-03-21-1742535866591.jpg'>",
+        "timestamp": {
+          "$date": "2025-03-21T05:44:29.401Z"
+        },
+        "standalone_question": "Please identify the disease and provide information about it.",
+        "standalone_en": "Please identify the disease and provide information about it.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "rog olakha na mahiti sanga<user uploaded image for analysis at 'samadhanfarm1/2025-03-21-1742535866591.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या दिलेल्या चित्रात केळीच्या पानांचा समावेश आहे, परंतु रोग किंवा कीडांच्या नुकसानीचे स्पष्ट संकेत दिसत नाहीत. पानं हिरवी आणि निरोगी दिसत आहेत, परंतु अधिक तपशीलाशिवाय त्यांची स्थिती अचूकपणे मूल्यांकन करणे कठीण आहे.\n\nसुधारित विश्लेषणासाठी, कृपया खालील गोष्टींचा विचार करा:\n\n1. **निकटवर्ती**: प्रभावित क्षेत्रांचे जवळचे चित्र काढल्यास संभाव्य समस्यांचे ओळखण्यात मदत होईल.\n2. **फोकस**: चित्र स्पष्ट असावे, विशेषतः पानांच्या काठांवर जिथे नुकसान असू शकते.\n3. **प्रकाश**: चांगला प्रकाश कोणत्याही रंगाच्या बदल किंवा ठिपक्यांना प्रकट करण्यात मदत करतो, जे रोग किंवा कीडांच्या उपस्थितीचे संकेत देऊ शकतात.\n\nजर तुम्ही अधिक स्पष्ट चित्र प्रदान करू शकत असाल, तर मी अधिक अचूक मूल्यांकन देऊ शकेन.",
+        "en": "Your given picture includes banana leaves, but there are no clear signs of disease or insect damage. The leaves look green and healthy, but their position is difficult to accurately assess without more details.\n\nFor an improved analysis, please consider the following:\n\n1. **Proximity**: Drawing a closer picture of the affected areas will help identify potential problems.\n2. **Focus**: The picture should be clear, especially on the edges of the leaves where there may be damage.\n3. **Light**: Good light helps to reveal any color changes or patches, which can indicate the presence of disease or insects.\n\nIf you can provide a more clear picture, I can give a more accurate assessment.",
+        "timestamp": {
+          "$date": "2025-03-21T05:44:45.225Z"
+        }
+      }
+    ],
+    "farmer_id": "samadhanchaudhari",
+    "farmer_plot_ids": [
+      "samadhanfarm1"
+    ],
+    "conversation_id": "67dcfcbd283d6f9613c8dedb",
+    "_id": "67dcfcbd283d6f9613c8dedb",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-03-21T05:49:29.409000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-03-21T05:44:29.401000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મારા ખેતરમા હાલમા કોઈ રોગના લક્ષણો છે",
+        "en": "There are current symptoms of some disease in my farm",
+        "timestamp": {
+          "$date": "2025-03-21T04:37:23.526Z"
+        },
+        "standalone_question": "Are there currently any signs of disease in my field?",
+        "standalone_en": "Are there currently any signs of disease in my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara khetarama halma koi rogana lakshano che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં હાલ કોઈ રોગના લક્ષણો માટે કોઈ સ્પ્રે શેડ્યૂલ નથી. એટલે કે, હાલમાં કોઈ રોગના લક્ષણો નથી.",
+        "en": "There is currently no spray schedule for any disease symptoms on your farm. That is, there are currently no symptoms of any disease.",
+        "timestamp": {
+          "$date": "2025-03-21T04:37:28.360Z"
+        }
+      }
+    ],
+    "farmer_id": "tejabhaihemabhaipatel",
+    "farmer_plot_ids": [
+      "abavaloplot"
+    ],
+    "conversation_id": "67dced0377b4273b5d6205df",
+    "_id": "67dced0377b4273b5d6205df",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-21T04:42:23.534000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-03-21T04:37:23.526000+00:00"
+  }
+]

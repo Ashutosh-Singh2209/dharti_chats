@@ -1,0 +1,244 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "116दिवस झाले ",
+        "en": "It's been 116 days. ",
+        "timestamp": {
+          "$date": "2025-02-01T16:00:53.096Z"
+        },
+        "standalone_question": "How many days have passed?",
+        "standalone_en": "How many days have passed?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "116divas jhale "
+      },
+      {
+        "role": "assistant",
+        "content": "आपण 116 दिवसांपूर्वी आपल्या \"Plot No 1 Thompson\" मध्ये \"Grapes\" पिकाची लागवड केली होती. हे पिक सध्या \"Beginning Veraison\" अवस्थेत आहे, जी 2025-01-11 पासून सुरू झाली आहे. \n\nआपल्याला या अवस्थेत किंवा पिकाच्या व्यवस्थापनाबद्दल काही विशिष्ट माहिती हवी आहे का?",
+        "en": "You planted \"Grapes\" in your \"Plot No. 1 Thompson\" 116 days ago. The crop is currently in the \"Beginning Veraison\" stage, which started on 2025-01-11. \n\nDo you want any specific information about this condition or crop management?",
+        "timestamp": {
+          "$date": "2025-02-01T16:00:58.013Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "होय ",
+        "en": "Yes ",
+        "timestamp": {
+          "$date": "2025-02-01T16:01:24.314Z"
+        },
+        "standalone_question": "Do you need specific information about the current stage of the crop or its management?",
+        "standalone_en": "Do you need specific information about the current stage of the crop or its management?",
+        "retrieval": {
+          "tools": [
+            "get_specific_fertigation_requirements  \nFinds the fertigation requirements for the plots with a particular crop stage and week numbers.",
+            "get_crop_stages  \nRetrieves all the crop stage IDs (past, active, and upcoming) of the crop and their starting dates for the plots, for the current crop season.",
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: Which crop or variety is best suited for farming? Which variety is more profitable, gives the highest yield, or offers better resistance to pests and diseases? Best crops/varieties in my village/locality area. Best crop/crop variety in state.\nA: The best crop variety depends on multiple factors like soil type, climate, pest resistance, and market demand. However, selecting the **right variety for your specific farm requires expert consultation.** Farming success depends on local conditions, so it’s best to get personalized advice. For precise recommendations, please contact the expert agronomy team. Please consult our CRM team for more Agronomy related information.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate.",
+            "Q: The moisture (kpa) is increasing slowly recently.\nA: Need to check for current stage and evapotranspiration rate. If the crop is recently sown or pruning (छंटाई)  is done recently, the transpiration will be slow and moisture kpa will increase slowly. If evaporation is slow or temperature have dropped on rainfall has happened, it will increase slowly. The chatbot needs to check the temperature , rainfall and crop stage data. And advise if there is any reason for the slow increase.\nIf still there is some confusion, the chatbot needs to ask user to check moisture around the sensor by digging and then ask  the user if he wants to create an issue ticket for the same.",
+            "Q: Why should I consider soil, leaf, or petiole testing?\nA: Soil, leaf, and petiole testing are crucial for effective plant health management. These tests provide specific data about your crop's nutrient needs, allowing for more precise fertilizer application. This can lead to higher productivity with optimized input use, potentially reducing costs and environmental impact."
+          ]
+        },
+        "content_transliterated": "hoy "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्याला \"Plot No 1 Thompson\" साठी फर्टिगेशन शेड्यूल तयार करण्यात मदतीची आवश्यकता आहे का? कृपया सांगा की आपल्याकडे कोणतेही माती, पान किंवा पिटोल चाचणी डेटा उपलब्ध आहे का? जर नाही, तर आम्ही सामान्य पिक आणि प्रादेशिक डेटाचा वापर करून एक मूलभूत शेड्यूल तयार करू शकतो.",
+        "en": "Do you need help creating a fertigation schedule for \"Plot No. 1 Thompson\"? Please tell me if you have any soil, leaf, or pitol test data available? If not, we can create a basic schedule using general crop and regional data.",
+        "timestamp": {
+          "$date": "2025-02-01T16:01:32.608Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पिटोल चाचणी केली आहे ",
+        "en": "Pitol test has been performed ",
+        "timestamp": {
+          "$date": "2025-02-01T16:02:39.653Z"
+        },
+        "standalone_question": "Have you conducted a pitol test?",
+        "standalone_en": "Have you conducted a pitol test?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pitol chachani kelley aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot No 1 Thompson\" साठी फर्टिगेशन शेड्यूल उपलब्ध नाही. तथापि, पिकाच्या अवस्थेनुसार सामान्य फर्टिगेशन सल्ला देऊ शकतो.\n\nआपण पिटोल चाचणी केले असल्यास, त्यानुसार आपल्याला कोणत्या विशिष्ट पोषण तत्वांची आवश्यकता आहे हे समजून घेणे महत्त्वाचे आहे. कृपया पिटोल चाचणीचा अहवाल सामायिक करा, जेणेकरून मी अधिक अचूक सल्ला देऊ शकेन.",
+        "en": "The fertigation schedule for \"Plot No. 1 Thompson\" is not available. However, general fertigation may advise depending on the condition of the crop.\n\nIf you've done a pitol test, it's important to understand what specific nutrients you need accordingly. Please share the pitol test report, so I can give more accurate advice.",
+        "timestamp": {
+          "$date": "2025-02-01T16:02:49.628Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "फेरस व सल्फर ",
+        "en": "Ferrous and sulfur ",
+        "timestamp": {
+          "$date": "2025-02-01T16:06:09.597Z"
+        },
+        "standalone_question": "What are the specific nutrient requirements for iron and sulfur based on the pitol test results?",
+        "standalone_en": "What are the specific nutrient requirements for iron and sulfur based on the pitol test results?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "feras v sulphur "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot No 1 Thompson\" साठी \"Beginning Veraison\" अवस्थेत फर्टिगेशन शेड्यूल खालीलप्रमाणे आहे:\n\n### फर्टिगेशन आवश्यकताएँ:\n1. **फोलिअर स्प्रे:**\n   - **Solubor:** 300 gm/acre\n   - **Borax (B):** 0.06 kg/acre\n\n2. **फर्टिगेशन:**\n   - **Magnesium Sulphate:** 1.5 kg/acre\n   - **Sulfate of Potash:** 5 kg/acre\n   - **Potassium (K):** 2.44 kg/acre\n   - **Magnesium (Mg):** 0.13 kg/acre\n\n### नोट्स:\n- फोलिअर स्प्रे आणि फर्टिगेशन दोन्ही आवश्यक आहेत, त्यामुळे योग्य प्रमाणात वापर सुनिश्चित करा.\n\nआपल्याला आणखी काही माहिती हवी आहे का?",
+        "en": "The fertigation schedule for \"Plot No. 1 Thompson\" in the \"Beginning Veraison\" condition is as follows:\n\n### Fertigation Requirements:\n1. **Foliar Spray:**\n   - **Solubor:** 300 gm/acre\n   - **Borax (B):** 0.06 kg/acre\n\n2. **Fertigation:**\n   - **Magnesium Sulphate:** 1.5 kg/acre\n   - **Sulfate of Potash:** 5 kg/acre\n   - **Potassium (K):** 2.44 kg/acre\n   - **Magnesium (Mg):** 0.13 kg/acre\n\n### Notes:\nBoth foliar spray and fertigation are required, so ensure proper use.\n\nIs there anything more you need to know?",
+        "timestamp": {
+          "$date": "2025-02-01T16:06:26.751Z"
+        }
+      }
+    ],
+    "farmer_id": "dnyaneshwarlaxmangare",
+    "farmer_plot_ids": [
+      "plotno1thomspson"
+    ],
+    "conversation_id": "679e4534acc07132b6a593bc",
+    "_id": "679e4534acc07132b6a593bc",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-02-01T16:11:09.606000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-02-01T16:00:53.096000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Gypsum  m kya kya hota h?",
+        "en": "What is gypsum m?",
+        "timestamp": {
+          "$date": "2025-02-01T11:03:55.731Z"
+        },
+        "standalone_question": "What are the components of gypsum?",
+        "standalone_en": "What are the components of gypsum?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Gypsum, yaani \"जिप्सम,\" ek prakritik khanij hai jo calcium sulfate dihydrate (CaSO4·2H2O) se bana hota hai. Iska istemal kheti mein kai tarikon se hota hai:\n\n1. **Soil Improvement**: Gypsum zameen ki bhumi shakti ko sudharne mein madad karta hai, khaas taur par clayey mitti mein. Yeh mitti ki drainage aur aeration ko behtar banata hai.\n\n2. **Nutrient Supply**: Yeh calcium aur sulfur ka achha srot hai, jo paudhon ke liye avashyak hai.\n\n3. **pH Regulation**: Gypsum mitti ke pH ko sudharne mein madad karta hai, jo ki paudhon ki vriddhi ke liye mahatvapurn hai.\n\n4. **Salinity Control**: Yeh mitti se sodium ko nikaalne mein madad karta hai, jo ki salinity ko kam karta hai.\n\n5. **Fertility Enhancement**: Gypsum ka istemal mitti ki upjaau shakti ko badhane ke liye bhi kiya jata hai.\n\nIska istemal kheti ke alawa, construction aur industrial applications mein bhi hota hai.",
+        "en": "Gypsum, or \"gypsum,\" is a natural mineral composed of calcium sulfate dihydrate (CaSO4·2H2O). It is used in farming in several ways:\n\n1. Soil Improvement: Gypsum helps in improving the soil strength of the soil, especially in clay soils. It improves soil drainage and aeration.\n\n2. Nutrient Supply: It is a good source of calcium and sulphur, which is essential for plants.\n\n3. Regulation of Gypsum: Gypsum helps in improving soil health, which is important for plant growth.\n\nSalinity Control: It helps in the removal of sodium from the soil, which reduces salinity.\n\n5. Fertility Enhancement: Gypsum is also used to increase the fertility of the soil.\n\nApart from farming, it is also used in construction and industrial applications.",
+        "timestamp": {
+          "$date": "2025-02-01T11:04:08.190Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Sandy soil ka ph kaise kam kre?",
+        "en": "How does Sandy Soil's F work?",
+        "timestamp": {
+          "$date": "2025-02-01T11:04:44.819Z"
+        },
+        "standalone_question": "How can the pH of sandy soil be reduced?",
+        "standalone_en": "",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Sandy soil ka pH kam karne ke liye aap kuch tarike apna sakte hain:\n\n1. **Organic Matter Add Karna**: Compost, well-rotted manure, ya green manure jaisa organic matter milaane se soil ka pH kam ho sakta hai. Yeh mitti ki fertility ko bhi badhata hai.\n\n2. **Sulfur Ka Istemal**: Elemental sulfur ya sulfur-containing fertilizers (jaise ammonium sulfate) ka istemal karke aap sandy soil ka pH kam kar sakte hain. Yeh process dheere-dheere hota hai, isliye isse samay dena zaroori hai.\n\n3. **Acidic Fertilizers**: Urea, ammonium nitrate, ya ammonium sulfate jaise acidic fertilizers ka istemal bhi pH ko kam karne mein madadgar ho sakta hai.\n\n4. **Mulching**: Organic mulches (jaise straw ya wood chips) ka istemal karne se soil ki acidity badh sakti hai aur pH ko kam karne mein madad milti hai.\n\n5. **Soil Testing**: Soil ka pH jaanchne ke liye regular soil testing karna zaroori hai, taaki aapko pata chale ki aapko kitna amendment karna hai.\n\nIn sabhi tarikon ka istemal karne se aap sandy soil ka pH kam kar sakte hain, lekin dhyan rahe ki kisi bhi amendment ko apply karne se pehle soil ki current condition ko samajhna zaroori hai.",
+        "en": "There are a few ways you can work with sandy soil:\n\n1. Adding organic matter: Adding organic matter, such as compost, well-rotted manure, or green manure, can work the soil well. It also increases the fertility of the soil.\n\n2. Use of sulfur: You can use sandy soil by using elemental sulfur or sulfur-containing fertilizers (such as ammonium sulphate). This process happens gradually, so it's important to give it time.\n\n3. Acidic fertilizers: The use of acidic fertilizers such as urea, ammonium nitrate, or ammonium sulfate can also be helpful in reducing the condition.\n\n4. Mulching: Using organic mulches (such as straws or wood chips) can increase the acidity of the soil and help reduce the acidity.\n\n5. Soil Testing: Regular soil testing is necessary to check the soil so that you know how much you need to amend.\n\nUsing all these methods, you can work with sandy soil, but keep in mind that it is important to understand the current condition of the soil before applying any amendment.",
+        "timestamp": {
+          "$date": "2025-02-01T11:04:55.726Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Phosphoric acid se ph kan hota h?",
+        "en": "Does phosphoric acid cause fungus?",
+        "timestamp": {
+          "$date": "2025-02-01T11:05:42.980Z"
+        },
+        "standalone_question": "Does phosphoric acid lower pH?",
+        "standalone_en": "Does phosphoric acid lower pH?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Phosphoric acid (H₃PO₄) ek acidic compound hai jo soil ka pH kam karne mein madadgar hota hai. Jab aap phosphoric acid ko soil mein milate hain, to yeh hydrogen ions (H⁺) release karta hai, jo soil ki acidity ko badhata hai aur pH ko kam karta hai.\n\nIska istemal karne se pehle kuch baatein dhyan mein rakhni chahiye:\n\n1. **Soil Testing**: Soil ka pH jaanchna zaroori hai taaki aapko pata chale ki kitna phosphoric acid istemal karna hai.\n\n2. **Dosage**: Phosphoric acid ka istemal sahi matra mein karna chahiye, kyunki adhik matra se soil ki acidity bahut zyada badh sakti hai, jo paudhon ke liye nuksan daayak ho sakta hai.\n\n3. **Dilution**: Phosphoric acid ko paani mein dilute karke istemal karna chahiye, taaki yeh soil mein achhe se mil sake.\n\n4. **Application Timing**: Iska istemal behtar hota hai jab aap khad ya organic matter ke saath mila kar istemal karte hain.\n\nYeh dhyan rakhte hue, aap phosphoric acid ka istemal karke soil ka pH kam kar sakte hain.",
+        "en": "Phosphoric acid (H₃PO₄) is an acidic compound that helps reduce soil production. When you add phosphoric acid to the soil, it releases hydrogen ions (H⁺), which increases the acidity of the soil and lowers the F.\n\nThere are a few things to keep in mind before using it:\n\n1. Soil Testing: It is important to check the soil so that you know how much phosphoric acid to use.\n\n2. Phosphoric acid should be used in the right amount, because excessive amounts can increase the acidity of the soil, which can be harmful to plants.\n\n3. Dilution : Phosphoric acid should be diluted in water so that it mixes well in the soil.\n\n4. Application Timing: It is best used when you mix it with compost or organic matter.\n\nWith this in mind, you can use phosphoric acid to make soil work.",
+        "timestamp": {
+          "$date": "2025-02-01T11:05:53.321Z"
+        }
+      }
+    ],
+    "farmer_id": "mandeepbishnoi1661062088650",
+    "farmer_plot_ids": [
+      "kairokinnowfarm",
+      "kinnowplotnero1"
+    ],
+    "conversation_id": "679dff9bfe92c2cda20296ac",
+    "_id": "679dff9bfe92c2cda20296ac",
+    "language": "hi",
+    "expiry": {
+      "$date": "2025-02-01T11:10:42.989000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-02-01T11:03:55.731000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": " મારે  બટાટા  ક્યારે  કાઢવા ",
+        "en": " When do I get the potatoes out? ",
+        "timestamp": {
+          "$date": "2025-02-01T06:31:30.649Z"
+        },
+        "standalone_question": "When should I harvest the potatoes?",
+        "standalone_en": "When should I harvest the potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": " mare batata kyare kadhava "
+      },
+      {
+        "role": "assistant",
+        "content": "બટાટા (હાયફન) માટે, તમે \"પકવણ અને કાપણી\" તબક્કામાં છો, જે 2025-01-14 થી શરૂ થયો છે. બટાટા કાપવા માટે યોગ્ય સમય સામાન્ય રીતે 90-120 દિવસ પછી હોય છે, એટલે કે, તમે ફેબ્રુઆરીના મધ્યથી અંત સુધીમાં બટાટા કાપી શકો છો. \n\nતમે કાપણી માટે તૈયાર છો કે નહીં તે જોવા માટે પાનાં અને કંદો ચકાસી શકો છો. જો પાનાં પીળા થઈ રહ્યા હોય અને સૂકાઈ રહ્યા હોય, તો તે કાપવા માટેનો સમય છે.",
+        "en": "For potatoes (hyphen), you are in the \"ripening and harvesting\" phase, which started from 2025-01-14. The right time to cut potatoes is usually after 90-120 days, that is, you can cut potatoes by mid to late February. \n\nYou can check the pages and the buds to see if you are ready for harvesting. If the pages are turning yellow and drying, it's time to cut.",
+        "timestamp": {
+          "$date": "2025-02-01T06:31:36.470Z"
+        }
+      }
+    ],
+    "farmer_id": "am9zaGlmYXJt1732884683785",
+    "farmer_plot_ids": [
+      "bWFpbnBsb3Q1732885570597",
+      "kairokhejdavalo",
+      "niromotokataro"
+    ],
+    "conversation_id": "679dbfc26590fbc07363f32b",
+    "_id": "679dbfc26590fbc07363f32b",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-02-01T06:36:30.656000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-02-01T06:31:30.649000+00:00"
+  }
+]

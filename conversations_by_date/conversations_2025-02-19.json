@@ -1,0 +1,487 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What are reason...?<user uploaded image for analysis at 'pomegranateplot874/2025-02-19-1739963302802.jpg'>",
+        "en": "What are reason...? <user uploaded image for analysis at 'pomegranateplot874/2025-02-19-1739963302802.jpg'>",
+        "timestamp": {
+          "$date": "2025-02-19T11:09:34.743Z"
+        },
+        "standalone_question": "What are the reasons for the phenomenon depicted in the uploaded image?",
+        "standalone_en": "What are the reasons for the phenomenon depicted in the uploaded image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The image analysis indicates that your pomegranate plant shows signs of potential health issues, particularly yellowing leaves. This could be due to:\n\n1. **Nutrient Deficiencies**: Lack of essential nutrients can cause leaves to yellow.\n2. **Water Stress**: Inadequate or excessive watering can lead to stress in the plant.\n3. **Pest Infestations**: Pests may be affecting the plant's health.\n\nThe fruit appears relatively healthy, but the overall condition of the plant suggests it may need attention. \n\nFor a more accurate diagnosis, a clearer image focusing on the affected areas would be beneficial. If you suspect a specific issue, I can provide spray suggestions based on the crop's stage. Would you like to proceed with that?",
+        "en": "The image analysis indicates that your pomegranate plant shows signs of potential health issues, particularly yellowing leaves. This could be due to:\n\n1. **Nutrient Deficiencies**: Lack of essential nutrients can cause leaves to yellow.\n2. **Water Stress**: Inadequate or excessive watering can lead to stress in the plant.\n3. **Pest Infestations**: Pests may be affecting the plant's health.\n\nThe fruit appears relatively healthy, but the overall condition of the plant suggests it may need attention. \n\nFor a more accurate diagnosis, a clearer image focusing on the affected areas would be beneficial. If you suspect a specific issue, I can provide spray suggestions based on the crop's stage. Would you like to proceed with that?",
+        "timestamp": {
+          "$date": "2025-02-19T11:09:50.050Z"
+        }
+      }
+    ],
+    "farmer_id": "veerdbhadrappahalshetti",
+    "farmer_plot_ids": [
+      "pomegranateplot874",
+      "pomosanjay"
+    ],
+    "conversation_id": "67b5bbeef50260c32821d04c",
+    "_id": "67b5bbeef50260c32821d04c",
+    "language": "ka",
+    "expiry": {
+      "$date": "2025-02-19T11:14:34.750000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-02-19T11:09:34.743000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hello sir ",
+        "en": "Hello sir ",
+        "timestamp": {
+          "$date": "2025-02-19T09:33:13.669Z"
+        },
+        "standalone_question": "Hello, sir.",
+        "standalone_en": "Hello, sir.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "नमस्ते राजकुमार जी! कैसे मदद कर सकता हूँ?",
+        "en": "Namaste Rajkumar ji! How can I help?",
+        "timestamp": {
+          "$date": "2025-02-19T09:33:16.141Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ap ke service bilkul bad h",
+        "en": "It is right after your service.",
+        "timestamp": {
+          "$date": "2025-02-19T09:33:52.545Z"
+        },
+        "standalone_question": "Your service is absolutely excellent.",
+        "standalone_en": "Your service is absolutely excellent.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "मुझे खेद है कि आपको कोई समस्या हो रही है। क्या आप मुझे बताना चाहेंगे कि आपको किस प्रकार की समस्या का सामना करना पड़ रहा है? मैं आपकी मदद करने के लिए यहाँ हूँ।",
+        "en": "I'm sorry you're having a problem. Would you like to tell me what kind of problem you are facing? I'm here to help you.",
+        "timestamp": {
+          "$date": "2025-02-19T09:33:55.473Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Fertigation ka",
+        "en": "Fertigation ka",
+        "timestamp": {
+          "$date": "2025-02-19T09:34:16.326Z"
+        },
+        "standalone_question": "What is fertigation?",
+        "standalone_en": "What is fertigation?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available.",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: Where can I find the fertigation schedule in the Fyllo app?\nA: To access the fertigation schedule:\n    1. Open the Fyllo app\n    2. Select \"My Farm\" at the bottom\n    3. Tap on the \"Fertigation\" option\n   You'll find the fertigation schedule there, including details about the required fertilizer applications.",
+            "Q: How do I generate a fertigation schedule in the app?\nA: To generate a fertigation schedule, follow these steps:\n\n    1. Go to \"My Farm\"\n    2. Select \"Fertigation\"\n    3. Tap \"Create Report\"\n    4. Fill in all the required details\n    5. Save the report\n    If you have soil, leaf, or petiole test data, you can input this for a more customized schedule. Otherwise, we can generate a basic schedule using general crop and regional data."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपके \"राजकुमार किन्नो प्लॉट\" के लिए फर्टिगेशन शेड्यूल इस प्रकार है:\n\n### वर्तमान स्थिति:\n- **फसल का नाम:** किन्नो\n- **सक्रिय चरण:** बड स्वेल (Bud swell)\n- **चरण की शुरुआत की तारीख:** 18 फरवरी 2025\n- **वर्तमान सप्ताह:** 1\n- **आज की तारीख:** 19 फरवरी 2025\n\n### वर्तमान सप्ताह का शेड्यूल:\n- **फर्टिगेशन की आवश्यकता नहीं है।**\n\n### अगला शेड्यूल:\n- **अगला चरण:** फ्लॉवरिंग फ्रूट सेट (Flowering Fruit Set)\n- **सप्ताह:** 2\n- **शेड्यूल की शुरुआत की तारीख:** 11 मार्च 2025\n- **फोलियर विधि द्वारा फर्टिगेशन:**\n  - **फर्टिलाइज़र:** सोल्यूबोर (Solubor)\n  - **मात्रा:** 0.5 किलोग्राम\n  - **नोट:** फोलियर स्प्रे में सूक्ष्म पोषक तत्वों की सांद्रता 1% से अधिक नहीं होनी चाहिए, जैसे कि 500 लीटर पानी में 5 किलोग्राम।\n\nयदि आपको और जानकारी चाहिए, तो कृपया बताएं!",
+        "en": "The fertigation schedule for your \"Prince Kinnow Plot\" is as follows:\n\n### Current Status:\n- **Crop Name:** Kino\n- **Active Phase:** Bud swell\n- **Phase Start Date:** 18th February 2025\n- **Current Week:** 1\n- **Today's Date:** 19 February 2025\n\n### Current Week's Schedule:\n- **Fertigation is not required. **\n\n### Next schedule:\n- **Next Step:** Flowering Fruit Set\n- **Weeks:** 2\n- **Schedule Start Date:** 11th March 2025\n- **Fertigation by Foliar Method:**\n  - **Fertilizer:** Solubor\n  - **Quantity:** 0.5 Kg\n  - **Note:** The concentration of micronutrients in foliar spray should not exceed 1%, such as 5 kg in 500 liters of water.\n\nIf you need more information, please let me know!",
+        "timestamp": {
+          "$date": "2025-02-19T09:34:24.057Z"
+        }
+      }
+    ],
+    "farmer_id": "rajkumarbishnoi",
+    "farmer_plot_ids": [
+      "rajkumarkinnowplot"
+    ],
+    "conversation_id": "67b5a559f50260c32821d04b",
+    "_id": "67b5a559f50260c32821d04b",
+    "language": "hi",
+    "expiry": {
+      "$date": "2025-02-19T09:39:16.335000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-02-19T09:33:13.669000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hello sir ",
+        "en": "Hello sir ",
+        "timestamp": {
+          "$date": "2025-02-19T09:33:13.669Z"
+        },
+        "standalone_question": "Hello, sir.",
+        "standalone_en": "Hello, sir.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "नमस्ते राजकुमार जी! कैसे मदद कर सकता हूँ?",
+        "en": "Namaste Rajkumar ji! How can I help?",
+        "timestamp": {
+          "$date": "2025-02-19T09:33:16.141Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ap ke service bilkul bad h",
+        "en": "It is right after your service.",
+        "timestamp": {
+          "$date": "2025-02-19T09:33:52.545Z"
+        },
+        "standalone_question": "Your service is absolutely excellent.",
+        "standalone_en": "Your service is absolutely excellent.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "मुझे खेद है कि आपको कोई समस्या हो रही है। क्या आप मुझे बताना चाहेंगे कि आपको किस प्रकार की समस्या का सामना करना पड़ रहा है? मैं आपकी मदद करने के लिए यहाँ हूँ।",
+        "en": "I'm sorry you're having a problem. Would you like to tell me what kind of problem you are facing? I'm here to help you.",
+        "timestamp": {
+          "$date": "2025-02-19T09:33:55.473Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Fertigation ka",
+        "en": "Fertigation ka",
+        "timestamp": {
+          "$date": "2025-02-19T09:34:16.326Z"
+        },
+        "standalone_question": "What is fertigation?",
+        "standalone_en": "What is fertigation?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available.",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: Where can I find the fertigation schedule in the Fyllo app?\nA: To access the fertigation schedule:\n    1. Open the Fyllo app\n    2. Select \"My Farm\" at the bottom\n    3. Tap on the \"Fertigation\" option\n   You'll find the fertigation schedule there, including details about the required fertilizer applications.",
+            "Q: How do I generate a fertigation schedule in the app?\nA: To generate a fertigation schedule, follow these steps:\n\n    1. Go to \"My Farm\"\n    2. Select \"Fertigation\"\n    3. Tap \"Create Report\"\n    4. Fill in all the required details\n    5. Save the report\n    If you have soil, leaf, or petiole test data, you can input this for a more customized schedule. Otherwise, we can generate a basic schedule using general crop and regional data."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपके \"राजकुमार किन्नो प्लॉट\" के लिए फर्टिगेशन शेड्यूल इस प्रकार है:\n\n### वर्तमान स्थिति:\n- **फसल का नाम:** किन्नो\n- **सक्रिय चरण:** बड स्वेल (Bud swell)\n- **चरण की शुरुआत की तारीख:** 18 फरवरी 2025\n- **वर्तमान सप्ताह:** 1\n- **आज की तारीख:** 19 फरवरी 2025\n\n### वर्तमान सप्ताह का शेड्यूल:\n- **फर्टिगेशन की आवश्यकता नहीं है।**\n\n### अगला शेड्यूल:\n- **अगला चरण:** फ्लॉवरिंग फ्रूट सेट (Flowering Fruit Set)\n- **सप्ताह:** 2\n- **शेड्यूल की शुरुआत की तारीख:** 11 मार्च 2025\n- **फोलियर विधि द्वारा फर्टिगेशन:**\n  - **फर्टिलाइज़र:** सोल्यूबोर (Solubor)\n  - **मात्रा:** 0.5 किलोग्राम\n  - **नोट:** फोलियर स्प्रे में सूक्ष्म पोषक तत्वों की सांद्रता 1% से अधिक नहीं होनी चाहिए, जैसे कि 500 लीटर पानी में 5 किलोग्राम।\n\nयदि आपको और जानकारी चाहिए, तो कृपया बताएं!",
+        "en": "The fertigation schedule for your \"Prince Kinnow Plot\" is as follows:\n\n### Current Status:\n- **Crop Name:** Kino\n- **Active Phase:** Bud swell\n- **Phase Start Date:** 18th February 2025\n- **Current Week:** 1\n- **Today's Date:** 19 February 2025\n\n### Current Week's Schedule:\n- **Fertigation is not required. **\n\n### Next schedule:\n- **Next Step:** Flowering Fruit Set\n- **Weeks:** 2\n- **Schedule Start Date:** 11th March 2025\n- **Fertigation by Foliar Method:**\n  - **Fertilizer:** Solubor\n  - **Quantity:** 0.5 Kg\n  - **Note:** The concentration of micronutrients in foliar spray should not exceed 1%, such as 5 kg in 500 liters of water.\n\nIf you need more information, please let me know!",
+        "timestamp": {
+          "$date": "2025-02-19T09:34:24.057Z"
+        }
+      }
+    ],
+    "farmer_id": "rajkumarbishnoi",
+    "farmer_plot_ids": [
+      "rajkumarkinnowplot"
+    ],
+    "conversation_id": "67b5a559f50260c32821d04b",
+    "_id": "67b5a559f50260c32821d04b",
+    "language": "hi",
+    "expiry": {
+      "$date": "2025-02-19T09:39:16.335000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-02-19T09:33:13.669000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "ಶುಗರ್ ಜಾಸ್ತಿ ಬರಲು ಏನೂ ಮಾಡಬೇಕು ತಿಳಿಸಿ 117ದಿವಸ ಕೇ ",
+        "en": "Tell me what to do to increase your sugar 117 days ",
+        "timestamp": {
+          "$date": "2025-02-19T07:47:44.018Z"
+        },
+        "standalone_question": "What should I do to manage high blood sugar levels?",
+        "standalone_en": "What should I do to manage high blood sugar levels?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "shugar jasti baralu enu madabeku thilisi 117divas k "
+      },
+      {
+        "role": "assistant",
+        "content": "ಶುಗರ್ (ಗೋದು) ಹೆಚ್ಚಾಗದಂತೆ ನೋಡಿಕೊಳ್ಳಲು ನೀವು ಕೆಲವು ಕ್ರಮಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳಬಹುದು:\n\n1. **ಮಣ್ಣು ಆರೋಗ್ಯ**: ಮಣ್ಣಿನ ಆರೋಗ್ಯವನ್ನು ಸುಧಾರಿಸಲು, ಉತ್ತಮ ಗುಣಮಟ್ಟದ ಜೈವಿಕ ಖಾತರಿಗಳನ್ನು ಬಳಸಿರಿ. ಇದು ಬೆಳೆಯ ಬೆಳವಣಿಗೆಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.\n\n2. **ನೀರು**: ಸರಿಯಾದ ನೀರಿನ ಪ್ರಮಾಣವನ್ನು ನೀಡುವುದು ಮುಖ್ಯ. ಮಣ್ಣಿನ ತೇವಾಂಶವನ್ನು ನಿಯಮಿತವಾಗಿ ಪರಿಶೀಲಿಸಿ, ಅಗತ್ಯವಿದ್ದಾಗ ನೀರು ನೀಡಿ.\n\n3. **ಹಣ್ಣುಗಳು ಮತ್ತು ತರಕಾರಿಗಳು**: ಹಣ್ಣುಗಳು ಮತ್ತು ತರಕಾರಿಗಳನ್ನು ಹೆಚ್ಚು ಬೆಳೆಸಿ, ಇದು ಶುಗರ್ ಮಟ್ಟವನ್ನು ನಿಯಂತ್ರಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.\n\n4. **ಹಾರ್ಮೋನ್ ನಿಯಂತ್ರಣ**: ಬೆಳೆಯ ಹಾರ್ಮೋನ್ ನಿಯಂತ್ರಣಕ್ಕೆ ಗಮನ ನೀಡಿ, ಇದು ಬೆಳೆಯ ಬೆಳವಣಿಗೆಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.\n\n5. **ಪೋಷಕಾಂಶಗಳು**: ಸೂಕ್ತ ಪೋಷಕಾಂಶಗಳನ್ನು ನೀಡುವುದು ಮುಖ್ಯ. ನೈಸರ್ಗಿಕ ಖಾತರಿಗಳನ್ನು ಬಳಸುವುದು ಉತ್ತಮ.\n\n6. **ಹವಾಮಾನ**: ಹವಾಮಾನವನ್ನು ಗಮನಿಸಿ, ಹೆಚ್ಚು ತಾಪಮಾನ ಅಥವಾ ತೇವಾಂಶವು ಶುಗರ್ ಮಟ್ಟವನ್ನು ಹೆಚ್ಚಿಸಬಹುದು.\n\nಈ ಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸುವ ಮೂಲಕ, ನೀವು ಶುಗರ್ ಮಟ್ಟವನ್ನು ನಿಯಂತ್ರಿಸಲು ಸಹಾಯ ಮಾಡಬಹುದು.",
+        "en": "You can take a few steps to ensure that sugar (wheat) does not increase:\n\n1. **Soil Health**: To improve soil health, use high quality biological guarantees. It helps in the growth of the crop.\n\n2. **Water**: It is important to give the right amount of water. Check the moisture content of the soil regularly and give water when required.\n\n3. **Fruits and vegetables**: Grow more fruits and vegetables, which will help in controlling sugar levels.\n\n4. **Hormone control**: Pay attention to the hormonal control of the crop, which helps in the growth of the crop.\n\n5. **Nutrients**: It is important to provide the right nutrients. It is better to use natural guarantees.\n\n6. **Weather**: Observe the weather, too much temperature or humidity can increase sugar levels.\n\nBy following these steps, you can help control sugar levels.",
+        "timestamp": {
+          "$date": "2025-02-19T07:47:51.413Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ಮಣ್ಣಿನ ತೇವ 12 ಇದರೆ ಏನೂ ಅರ್ಥ ತಿಳಿಸಿ plot no 2 ಗೆ ",
+        "en": "Soil moisture 12 Tell what it means to plot no 2 ",
+        "timestamp": {
+          "$date": "2025-02-19T07:50:05.132Z"
+        },
+        "standalone_question": "What does it mean if the soil moisture level is at 12 for plot number 2?",
+        "standalone_en": "What does it mean if the soil moisture level is at 12 for plot number 2?",
+        "retrieval": {
+          "tools": [
+            "get_soil_moisture_sensor_depth  \nReturns the depths in inches of the soil moisture sensors 1 and 2 installed on the plots.",
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range.",
+            "get_soil_moisture_percentage_from_kpa_reading  \nGets the estimated soil moisture percentage for a given plot and kPa reading.",
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: What is my soil moisture depletion?\nA: Soil moisture depletion %age = (100 - soil moisture %age)",
+            "Q: In the latest irrigation , sensor didn't drop to 0.\nA: 0 to 5 Kpa means soil is fully wet. It need not drop to 0 every time. Moisture less than 5 also means wet conditions. So, need not worry. Also ask to wait for 12 hours after irrigation.",
+            "Q: Sensor is showing wet, i.e. less kpa but soil looks dry.\nA: The sensor measures the moisture around the rootzone which is not visible from the top. Ask use to check the moisture in rootzone around the sensor. If it matches, ask the user to irrigate.",
+            "Q: How do I know if my soil  moisture sensor is working fine ?\nA: The only way to know is if after irrigation the sensor is dropping below 5 kpa and increasing continuously unless next irrigation is done. You can try putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. Also, a soil moisture reading of 0 kPa is perfectly fine, meaning wet soil, but a reading of 200 kPa could mean fault. If the soil moisture sensor reading is consistently at 0 from few 48 hours, then it could be anamolous (use live and historical hourly soil moisture data (use tool) to validate).",
+            "Q: What should I do if the soil moisture sensor always shows wet values?\nA: Verify the irrigation frequency, check the installation point, and contact Fyllo representative if the issue persists."
+          ]
+        },
+        "content_transliterated": "mannina deva 12 idare enu artha thilisi plot no 2 ge "
+      },
+      {
+        "role": "assistant",
+        "content": "Plot no 2 ಗೆ, ಮಣ್ಣಿನ ತೇವ 12 kPa ಅಂದರೆ, ಮಣ್ಣಿನ ತೇವ ಶೇ. 95% ಇದೆ. ಇದು ಬಹಳ ಹೆಚ್ಚು ತೇವವಾಗಿದೆ, ಅಂದರೆ ಮಣ್ಣು ಸಂಪೂರ್ಣವಾಗಿ ತೇವದಾಗಿದೆ. \n\nಈ ಸ್ಥಿತಿಯಲ್ಲಿ, ನೀರು ನೀಡುವ ಅಗತ್ಯವಿಲ್ಲ. ನೀರಿನ ಪ್ರಮಾಣವನ್ನು ಕಡಿಮೆ ಮಾಡಲು 12 ಗಂಟೆಗಳ ಕಾಲ ಕಾಯಿರಿ.",
+        "en": "For plot no 2, the moisture content of the soil is 12 kPa i.e., the moisture content of the soil is 10%. It is 95%. It is very much wet, which means the soil is completely wet. \n\nIn this condition, there is no need to give water. Wait for 12 hours to reduce the amount of water.",
+        "timestamp": {
+          "$date": "2025-02-19T07:50:10.088Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "0 ಯಿಂದ 40 kpa ಅಂದ್ರೆ ಏನು ",
+        "en": "What is 0 to 40 kpa ",
+        "timestamp": {
+          "$date": "2025-02-19T07:51:11.189Z"
+        },
+        "standalone_question": "What does a soil moisture level of 0 to 40 kPa mean?",
+        "standalone_en": "What does a soil moisture level of 0 to 40 kPa mean?",
+        "retrieval": {
+          "tools": [
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range.",
+            "get_soil_moisture_percentage_from_kpa_reading  \nGets the estimated soil moisture percentage for a given plot and kPa reading.",
+            "get_daily_soil_moisture_data  \nRetrieves historical daily soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for larger duration.",
+            "get_hourly_soil_moisture_data  \nRetrieves historical hourly soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for less than 5 days duration."
+          ],
+          "faq": [
+            "Q: How do I know if my soil  moisture sensor is working fine ?\nA: The only way to know is if after irrigation the sensor is dropping below 5 kpa and increasing continuously unless next irrigation is done. You can try putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. Also, a soil moisture reading of 0 kPa is perfectly fine, meaning wet soil, but a reading of 200 kPa could mean fault. If the soil moisture sensor reading is consistently at 0 from few 48 hours, then it could be anamolous (use live and historical hourly soil moisture data (use tool) to validate).",
+            "Q: My  sensor is showing 0 Kpa for long.\nA: 0-5 kPa means wet soil. It can be due to following :\nIf the device is recently installed, there can be moisture  around the sensor because the sensor is dipped in the water before installing. If this is the case, ask them to do atleast 3 irrigations as per their previous schedule without sensors and sensors would b set by then.\nIf the crop stage is very early or pruing is done recently, the water takeup by plants is negligible in this period because of very less transpiration. If this is the case, ask them to wait till irrigation Kpa in the present stage.\nSometimes, the water can remain accumulated around the sensor due to local landscaping or slope in the land around sensor. In this case, please check the around the sensor. It will have to be reinstalled properly. Chatbot should ask the user if he wants to create an issue ticket for the same",
+            "Q: How much kPa should be set for a 4-inch depth soil moisture sensor?\nA: The kPa value for a 4-inch depth soil moisture sensor should be set based on the **soil type** and **crop requirements**. Here are general guidelines for different soil types:\n\n### **Sandy Soil:**\n- **Optimal range:** 10–20 kPa\n- **Irrigation threshold:** Above 30 kPa\n\n### **Loamy Soil (Silty or Mixed):**\n- **Optimal range:** 20–40 kPa\n- **Irrigation threshold:** Above 50 kPa\n\n### **Clay Soil:**\n- **Optimal range:** 40–70 kPa\n- **Irrigation threshold:** Above 80 kPa\n\n### **Additional Considerations:**\n- For **sensitive crops** like vegetables, maintain lower kPa thresholds to avoid water stress.\n- For **deep-rooted crops**, kPa values may vary at different depths; calibrate accordingly.\n- **Calibration** of the sensor to your specific soil and crop is essential for accuracy.\n\nConsulting with an agronomist or referring to crop-specific irrigation guides will help you fine-tune the kPa range.",
+            "Q: In the latest irrigation , sensor didn't drop to 0.\nA: 0 to 5 Kpa means soil is fully wet. It need not drop to 0 every time. Moisture less than 5 also means wet conditions. So, need not worry. Also ask to wait for 12 hours after irrigation.",
+            "Q: Sensor is showing wet, i.e. less kpa but soil looks dry.\nA: The sensor measures the moisture around the rootzone which is not visible from the top. Ask use to check the moisture in rootzone around the sensor. If it matches, ask the user to irrigate."
+          ]
+        },
+        "content_transliterated": "0 yinda 40 kpa andre anu "
+      },
+      {
+        "role": "assistant",
+        "content": "0 ರಿಂದ 40 kPa ಮಣ್ಣಿನ ತೇವ ಅಂದರೆ:\n\n- **0 kPa**: ಮಣ್ಣು ಸಂಪೂರ್ಣವಾಗಿ ತೇವದಾಗಿದೆ (wet soil).\n- **40 kPa**: ಮಣ್ಣು ಇನ್ನೂ ತೇವದಾಗಿದೆ, ಆದರೆ ಸ್ವಲ್ಪ ಒಣಗುತ್ತಿದೆ.\n\nಈ ಶ್ರೇಣಿಯಲ್ಲಿ, ಮಣ್ಣು ಉತ್ತಮ ತೇವ ಮಟ್ಟದಲ್ಲಿದೆ, ಮತ್ತು ನೀರು ನೀಡುವ ಅಗತ್ಯವಿಲ್ಲ. ಆದರೆ, 40 kPa ತಲುಪಿದಾಗ, ನೀವು ಮುಂದಿನ ನೀರಿನ ಅಗತ್ಯವನ್ನು ಪರಿಗಣಿಸಬಹುದು, ಏಕೆಂದರೆ ಮಣ್ಣು ಒಣಗಲು ಆರಂಭಿಸುತ್ತಿದೆ.",
+        "en": "0 to 40 kPa soil moisture means:\n\n- **0 kPa**: The soil is completely wet soil.\n- **40 kPa**: The soil is still wet, but slightly drying up.\n\nIn this range, the soil is at a good moisture level, and there is no need to give water. But, when 40 kPa is reached, you can consider the next water requirement, as the soil is starting to dry up.",
+        "timestamp": {
+          "$date": "2025-02-19T07:51:16.237Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ಎಷ್ಟು kpa ಇದ್ರೆ ಒಳ್ಳೇದು ತಿಳಿಸಿ",
+        "en": "Tell me how much kpa is good",
+        "timestamp": {
+          "$date": "2025-02-19T07:52:16.735Z"
+        },
+        "standalone_question": "What is the ideal kPa level for soil moisture?",
+        "standalone_en": "What is the ideal kPa level for soil moisture?",
+        "retrieval": {
+          "tools": [
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range.",
+            "get_soil_moisture_percentage_from_kpa_reading  \nGets the estimated soil moisture percentage for a given plot and kPa reading.",
+            "get_daily_soil_moisture_data  \nRetrieves historical daily soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for larger duration.",
+            "get_hourly_soil_moisture_data  \nRetrieves historical hourly soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for less than 5 days duration."
+          ],
+          "faq": [
+            "Q: How much kPa should be set for a 4-inch depth soil moisture sensor?\nA: The kPa value for a 4-inch depth soil moisture sensor should be set based on the **soil type** and **crop requirements**. Here are general guidelines for different soil types:\n\n### **Sandy Soil:**\n- **Optimal range:** 10–20 kPa\n- **Irrigation threshold:** Above 30 kPa\n\n### **Loamy Soil (Silty or Mixed):**\n- **Optimal range:** 20–40 kPa\n- **Irrigation threshold:** Above 50 kPa\n\n### **Clay Soil:**\n- **Optimal range:** 40–70 kPa\n- **Irrigation threshold:** Above 80 kPa\n\n### **Additional Considerations:**\n- For **sensitive crops** like vegetables, maintain lower kPa thresholds to avoid water stress.\n- For **deep-rooted crops**, kPa values may vary at different depths; calibrate accordingly.\n- **Calibration** of the sensor to your specific soil and crop is essential for accuracy.\n\nConsulting with an agronomist or referring to crop-specific irrigation guides will help you fine-tune the kPa range.",
+            "Q: How do I know if my soil  moisture sensor is working fine ?\nA: The only way to know is if after irrigation the sensor is dropping below 5 kpa and increasing continuously unless next irrigation is done. You can try putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. Also, a soil moisture reading of 0 kPa is perfectly fine, meaning wet soil, but a reading of 200 kPa could mean fault. If the soil moisture sensor reading is consistently at 0 from few 48 hours, then it could be anamolous (use live and historical hourly soil moisture data (use tool) to validate).",
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer.",
+            "Q: My  sensor is showing 0 Kpa for long.\nA: 0-5 kPa means wet soil. It can be due to following :\nIf the device is recently installed, there can be moisture  around the sensor because the sensor is dipped in the water before installing. If this is the case, ask them to do atleast 3 irrigations as per their previous schedule without sensors and sensors would b set by then.\nIf the crop stage is very early or pruing is done recently, the water takeup by plants is negligible in this period because of very less transpiration. If this is the case, ask them to wait till irrigation Kpa in the present stage.\nSometimes, the water can remain accumulated around the sensor due to local landscaping or slope in the land around sensor. In this case, please check the around the sensor. It will have to be reinstalled properly. Chatbot should ask the user if he wants to create an issue ticket for the same",
+            "Q: How to calibrate soil moisture sensors ?\nA:  The way to calibrate sensors is by putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. A drop after watering or irrigation and continuous dry upto 200 kpa means that the sensor is calibrated."
+          ]
+        },
+        "content_transliterated": "eshtu kpa idre olledu thilisi"
+      },
+      {
+        "role": "assistant",
+        "content": "Plot no 2 (Loamy soil) ಗೆ, ಉತ್ತಮ ಮಣ್ಣಿನ ತೇವ ಮಟ್ಟವು 20 kPa ರಿಂದ 40 kPa ನಡುವಿನ ಶ್ರೇಣಿಯಲ್ಲಿ ಇರಬೇಕು. \n\n- **20 kPa**: ಉತ್ತಮ ತೇವ ಮಟ್ಟ.\n- **40 kPa**: ಮಣ್ಣು ಸ್ವಲ್ಪ ಒಣಗುತ್ತಿದೆ, ಆದರೆ ಇನ್ನೂ ಒಳ್ಳೆಯ ಮಟ್ಟದಲ್ಲಿದೆ.\n\n50 kPa ಕ್ಕಿಂತ ಹೆಚ್ಚು ತಲುಪಿದಾಗ, ನೀರು ನೀಡುವ ಅಗತ್ಯವಿದೆ.",
+        "en": "For Plot No 2 (Loamy soil), the moisture level of good soil should be in the range between 20 kPa and 40 kPa. \n\n- **20 kPa**: Good humidity level.\n- **40 kPa**: The soil is drying up a bit, but still at a good level.\n\nWhen more than 50 kPa is reached, water needs to be given.",
+        "timestamp": {
+          "$date": "2025-02-19T07:52:21.278Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Loamy soil ನಲಿ ಯಾವ ಯಾವ ಪೋಷಕಾoಶ ಇರುತೆ ತಿಳಿಸಿ",
+        "en": "What nutrients are present in Loamy soil?",
+        "timestamp": {
+          "$date": "2025-02-19T07:54:31.301Z"
+        },
+        "standalone_question": "What nutrients are present in loamy soil?",
+        "standalone_en": "What nutrients are present in loamy soil?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "Loamy soil nali yava yava poshakaosha irute thilisi"
+      },
+      {
+        "role": "assistant",
+        "content": "Loamy soil ನಲ್ಲಿ ಸಾಮಾನ್ಯವಾಗಿ ಈ ಕೆಳಗಿನ ಪೋಷಕಾಂಶಗಳು ಇರುತ್ತವೆ:\n\n1. **ನೈಟ್ರೋಜನ್ (N)**: ಬೆಳೆಯ ಬೆಳವಣಿಗೆಗೆ ಮತ್ತು ಹಸಿರು ಭಾಗಗಳ ಬೆಳವಣಿಗೆಗೆ ಅಗತ್ಯವಿದೆ.\n2. **ಫಾಸ್ಫೋರ್ (P)**: ಹೂವು ಮತ್ತು ಹಣ್ಣುಗಳ ಬೆಳವಣಿಗೆಗೆ, ಮತ್ತು ಶ್ರೇಷ್ಟವಾದ ಶ್ರೇಣಿಯ ಬೆಳೆಯ ಬೆಳವಣಿಗೆಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.\n3. **ಪೊಟ್ಯಾಸಿಯಮ್ (K)**: ಬೆಳೆಯ ಸಾಮರ್ಥ್ಯವನ್ನು ಸುಧಾರಿಸಲು ಮತ್ತು ಹಾರ್ಮೋನ್ ಉತ್ಪಾದನೆಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.\n4. **ಕಲ್ಸಿಯಮ್ (Ca)**: ಮಣ್ಣಿನ pH ಮಟ್ಟವನ್ನು ಸಮತೋಲಿತ ಮಾಡಲು ಮತ್ತು ಬೆಳೆಯ ಬೆಳವಣಿಗೆಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.\n5. **ಮ್ಯಾಗ್ನೀಶಿಯಮ್ (Mg)**: ಕ್ಲೋಫಿಲ್ ಉತ್ಪಾದನೆಗೆ ಮತ್ತು ಬೆಳೆಯ ಆರೋಗ್ಯಕ್ಕೆ ಅಗತ್ಯವಿದೆ.\n6. **ಸಲ್ಫರ್ (S)**: ಪ್ರೋಟೀನ್ ಉತ್ಪಾದನೆಗೆ ಮತ್ತು ಬೆಳೆಯ ಬೆಳವಣಿಗೆಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.\n7. **ಜಿಂಕ್ (Zn)**, **ಬೋರ್ (B)**, **ಕಾಪರ್ (Cu)**, **ಮೋಲಿಬ್ಡೆನಮ್ (Mo)**: ಇವುಗಳು ಸೂಕ್ಷ್ಮ ಪೋಷಕಾಂಶಗಳು, ಬೆಳೆಯ ಬೆಳವಣಿಗೆಗೆ ಅಗತ್ಯವಿದೆ.\n\nLoamy soil ನಲ್ಲಿನ ಈ ಪೋಷಕಾಂಶಗಳು ಬೆಳೆಯ ಬೆಳವಣಿಗೆಗೆ ಉತ್ತಮವಾದ ಪರಿಸರವನ್ನು ಒದಗಿಸುತ್ತವೆ.",
+        "en": "Loamy soil usually contains the following nutrients:\n\n1. **Nitrogen (N)**: Required for crop growth and growth of green parts.\n2. **Phosphore (P)**: Helps in the growth of flowers and fruits, and helps in the growth of a superior range of crops.\n3. **Potassium (K)**: Helps in improving crop efficiency and hormone production.\n4. **Calcium (Ca)**: Helps to balance the pH level of the soil and help in crop growth.\n5. **Magnesium (Mg)**: Required for clophyll production and crop health.\n6. **Sulphur (S)**: Helps in protein production and crop growth.\n7. **Zinc (Zn)**, **bore (B)**, **Copper (Cu)**, **Molybdenum (Mo)**: These are micronutrients, required for crop growth.\n\nThese nutrients in Loamy soil provide a good environment for crop growth.",
+        "timestamp": {
+          "$date": "2025-02-19T07:54:38.543Z"
+        }
+      }
+    ],
+    "farmer_id": "yallavvamallappameti",
+    "farmer_plot_ids": [
+      "plotno2367"
+    ],
+    "conversation_id": "67b58c9ff50260c32821d04a",
+    "_id": "67b58c9ff50260c32821d04a",
+    "language": "ka",
+    "expiry": {
+      "$date": "2025-02-19T07:59:31.309000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-02-19T07:47:44.018000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "ಹಿಟ್ಟು ತಿಗಣೆ ಅಂದ್ರೆ ಏನು ",
+        "en": "What is flour bug? ",
+        "timestamp": {
+          "$date": "2025-02-19T07:19:28.653Z"
+        },
+        "standalone_question": "What does \"ಹಿಟ್ಟು ತಿಗಣೆ\" mean?",
+        "standalone_en": "What does \"flour bug\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "hittu tigane andre anu "
+      },
+      {
+        "role": "assistant",
+        "content": "ಹಿಟ್ಟು ತಿಗಣೆ ಎಂದರೆ, ಬೆಳೆಗಳನ್ನು ಬೆಳೆಯುವಾಗ ಅಥವಾ ಬೆಳೆಗಳನ್ನು ನಿರ್ವಹಿಸುವಾಗ, ಹಿಟ್ಟಿನಂತಹ ಪದಾರ್ಥಗಳನ್ನು ಬಳಸುವುದು. ಇದು ಸಾಮಾನ್ಯವಾಗಿ ಬೆಳೆಗಳ ಬೆಳವಣಿಗೆಗೆ ಸಹಾಯ ಮಾಡಲು, ನೆಲದ ಆರೋಗ್ಯವನ್ನು ಸುಧಾರಿಸಲು ಮತ್ತು ಕೀಟಗಳು ಅಥವಾ ರೋಗಗಳನ್ನು ನಿಯಂತ್ರಿಸಲು ಬಳಸಲಾಗುತ್ತದೆ. ಹಿಟ್ಟು ತಿಗಣೆ, ಬೆಳೆಗಳಿಗೆ ಅಗತ್ಯವಿರುವ ಪೋಷಕಾಂಶಗಳನ್ನು ಒದಗಿಸಲು ಮತ್ತು ಬೆಳೆಯುವ ಪರಿಸರವನ್ನು ಉತ್ತಮಗೊಳಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+        "en": "Flour blight is the use of substances such as flour when growing crops or managing crops. It is commonly used to help in the growth of crops, improve soil health and control pests or diseases. Flour mite helps to provide the required nutrients to the crops and improve the growing environment.",
+        "timestamp": {
+          "$date": "2025-02-19T07:19:34.010Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ಸ್ಟೆಮ್ ಬೋರರ ಬಗ್ಗೇ ಮಾಹಿತಿ ತಿಳಿಸಿ.",
+        "en": "Give information to the stem borers.",
+        "timestamp": {
+          "$date": "2025-02-19T07:20:58.968Z"
+        },
+        "standalone_question": "What information can you provide about stem borers?",
+        "standalone_en": "What information can you provide about stem borers?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "stem borer bagge mahiti thilisi."
+      },
+      {
+        "role": "assistant",
+        "content": "ಸ್ಟೆಮ್ ಬೋರರ್ (Stem Borer) ಒಂದು ಪ್ರಮುಖ ಕೀಟವಾಗಿದೆ, ಇದು ಬೆಳೆಗಳಲ್ಲಿ, ವಿಶೇಷವಾಗಿ ಧಾನ್ಯ ಮತ್ತು ತರಕಾರಿ ಬೆಳೆಗಳಲ್ಲಿ ಹಾನಿ ಉಂಟುಮಾಡುತ್ತದೆ. ಈ ಕೀಟವು ಬೆಳೆಗಳ ತೊಟ್ಟಿಯಲ್ಲಿ (stem) ನುಸುಳುತ್ತದೆ ಮತ್ತು ಇದರಿಂದ ಬೆಳೆಗಳ ಬೆಳವಣಿಗೆಗೆ ತೀವ್ರ ಹಾನಿ ಸಂಭವಿಸುತ್ತದೆ.\n\n### ಲಕ್ಷಣಗಳು:\n- ಸ್ಟೆಮ್ ಬೋರರ್‌ಗಳು ಸಾಮಾನ್ಯವಾಗಿ ಕಪ್ಪು ಅಥವಾ ಬROWN ಬಣ್ಣದ ಕೀಟಗಳಾಗಿರುತ್ತವೆ.\n- ಇವು ಬೆಳೆಗಳ ತೊಟ್ಟಿಯಲ್ಲಿ ನುಸುಳುವಾಗ, ತೊಟ್ಟಿಯ ಒಳಭಾಗದಲ್ಲಿ ಹಾನಿ ಉಂಟುಮಾಡುತ್ತವೆ, ಇದರಿಂದ ಬೆಳೆಗಳು ಬಡ ಮತ್ತು ಬಡವಾಗುತ್ತವೆ.\n\n### ನಿಯಂತ್ರಣ ಕ್ರಮಗಳು:\n1. **ಕೀಟನಾಶಕ ಬಳಕೆ**: \n   - Chlorpyrifos ಅಥವಾ Thiamethoxam ಅನ್ನು ಬಳಸಬಹುದು.\n   - ಕೀಟನಾಶಕವನ್ನು 5mL/Ltr ಅಥವಾ 0.5g/Ltr ಪ್ರಮಾಣದಲ್ಲಿ ಬಳಸುವುದು ಉತ್ತಮ.\n\n2. **ಹೆಚ್ಚಿನ ಗಮನ**: \n   - ಬೆಳೆಗಳನ್ನು ನಿಯಮಿತವಾಗಿ ಪರಿಶೀಲಿಸಿ, ಕೀಟಗಳ ಹಾನಿಯ ಲಕ್ಷಣಗಳನ್ನು ಗಮನಿಸಿ.\n\n3. **ಹೆಚ್ಚಿನ ಹಾನಿಯುಂಟಾದಾಗ**: \n   - ತಕ್ಷಣವೇ ಕೀಟನಾಶಕವನ್ನು ಬಳಸುವುದು ಉತ್ತಮ.\n\n4. **ಹೆಚ್ಚಿನ ಹಾನಿಯುಂಟಾದಾಗ**: \n   - ತಕ್ಷಣವೇ ಕೀಟನಾಶಕವನ್ನು ಬಳಸುವುದು ಉತ್ತಮ.\n\nಸ್ಟೆಮ್ ಬೋರರ್‌ಗಳ ನಿಯಂತ್ರಣಕ್ಕೆ ಈ ಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸುವ ಮೂಲಕ, ಬೆಳೆಗಳ ಆರೋಗ್ಯವನ್ನು ಕಾಪಾಡಬಹುದು.",
+        "en": "Stem borer is an important pest that causes damage in crops, especially grain and vegetable crops. This pest intrudes into the stem of crops and thus causes severe damage to the growth of crops.\n\n### Features:\n- Stem borers are usually black or brown coloured insects.\n- When these intrude into the tank of crops, they cause damage inside the tank, making the crops poor and poor.\n\n### Control measures:\n1. **Pesticide use**: \n   - Chlorpyrifos or Thiamethoxam can be used.\n   - It is better to use the pesticide in the quantity of 5mL/Ltr or 0.5g/Ltr.\n\n2. **More attention**: \n   - Check the crops regularly and observe the signs of pest damage.\n\n3. **When there is more damage**: \n   - It is better to use the pesticide immediately.\n\n4. **When there is more damage**: \n   - It is better to use the pesticide immediately.\n\nBy following these measures for the control of stem borers, the health of crops can be maintained.",
+        "timestamp": {
+          "$date": "2025-02-19T07:21:07.273Z"
+        }
+      }
+    ],
+    "farmer_id": "yallavvamallappameti",
+    "farmer_plot_ids": [
+      "plotno2367"
+    ],
+    "conversation_id": "67b58600c5acaed5b168e514",
+    "_id": "67b58600c5acaed5b168e514",
+    "language": "ka",
+    "expiry": {
+      "$date": "2025-02-19T07:25:58.977000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-02-19T07:19:28.653000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "या बागेला फटीॅकेशन चि गरज आहे का",
+        "en": "Does this garden need a fixation?",
+        "timestamp": {
+          "$date": "2025-02-19T03:31:18.420Z"
+        },
+        "standalone_question": "Is there a need for this bagel fabrication?",
+        "standalone_en": "Is there a need for this bagel fabrication?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ya bagela fatiacation chi garaj aahe ka"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या बागेत फर्टिगेशनची गरज आहे. \n\n**21 पार्टन फार्म**:\n- सध्या तुम्ही \"ग्रँड ग्रोथ\" टप्प्यात आहात (आठवडा 8).\n- या आठवड्यात फर्टिगेशनसाठी खालील खते वापरा:\n  - **कॅल्शियम नायट्रेट**: 3 किलोग्राम\n  - **चेलेटेड आयरन**: 0.5 किलोग्राम\n  - **जिंक सल्फेट**: 1 किलोग्राम\n  - **सोल्यूबोर**: 0.5 किलोग्राम\n  - **व्हाइट म्युरिएट ऑफ पोटाश**: 6 किलोग्राम\n\n**21 पार्टन फार्म 888**:\n- सध्या तुम्हाला फर्टिगेशनची आवश्यकता नाही. पुढील आठवड्यात \"बूटिंग\" टप्प्यात फर्टिगेशनची गरज असेल.\n\nकृपया यानुसार फर्टिगेशन करा.",
+        "en": "Your garden needs fertigation. \n\n**21 Parton Farm**:\n- You're currently in the \"Grand Growth\" phase (week 8).\nUse the following fertilizers for fertilization this week:\n  - **Calcium nitrate**: 3 kg\n  - **Chelated iron**: 0.5 kg\n  - **Zinc sulfate**: 1 kg\n  - **Solubor**: 0.5 kg\n  - **White Murriette of Potash**: 6 kg\n\n**21 Parton Farm 888**:\n- You don't need fertigation at the moment. Fertigation will be required in the \"booting\" phase next week.\n\nPlease fertign accordingly.",
+        "timestamp": {
+          "$date": "2025-02-19T03:31:25.593Z"
+        }
+      }
+    ],
+    "farmer_id": "manishpramodpatil",
+    "farmer_plot_ids": [
+      "21partanfarm",
+      "21partanfarm888"
+    ],
+    "conversation_id": "67b5508622342be0f16552fc",
+    "_id": "67b5508622342be0f16552fc",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-02-19T03:36:18.430000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-02-19T03:31:18.420000+00:00"
+  }
+]

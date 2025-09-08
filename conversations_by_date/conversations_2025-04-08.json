@@ -1,0 +1,877 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "प्लॉट सध्या फ्लोअरिंग आणि चालू स्टेज la आहे कोणते खते दिली पाहिजेत आणि कोणते स्प्रे दिले पाहिजे ",
+        "en": "Plot currently flooring and running stage la Which fertilizers should be given and which sprays should be given ",
+        "timestamp": {
+          "$date": "2025-04-08T16:31:36.898Z"
+        },
+        "standalone_question": "What fertilizers and sprays should be given to the plot that is currently in the flooring and ongoing stage?",
+        "standalone_en": "What fertilizers and sprays should be given to the plot that is currently in the flooring and ongoing stage?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users."
+          ]
+        },
+        "content_transliterated": "plot sadhya flowering ani chalu stage la aahe conte khate dili pahijet ani conte spray dile pahije "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटसाठी सध्या खते देण्याची माहिती उपलब्ध नाही. \n\nतुमच्या प्लॉटसाठी कोणतेही स्प्रे दिले जाण्याची माहिती सध्या उपलब्ध नाही.",
+        "en": "There is currently no fertilizer information available for your plot. \n\nThere is currently no information available to provide any spray for your plot.",
+        "timestamp": {
+          "$date": "2025-04-08T16:31:43.454Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "कधी मिळेल मग माहिती ",
+        "en": "When will you get the information? ",
+        "timestamp": {
+          "$date": "2025-04-08T16:32:03.513Z"
+        },
+        "standalone_question": "When will the information be available?",
+        "standalone_en": "When will the information be available?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kadhi milel mag mahiti "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटसाठी खते देण्याची माहिती उपलब्ध नाही. \n\nतुमच्या प्लॉटसाठी कोणतेही रोग किंवा कीड नियंत्रणासाठी स्प्रेची माहिती सध्या उपलब्ध नाही. \n\nजर तुम्हाला आणखी काही माहिती हवी असेल तर कृपया सांगा.",
+        "en": "There is no fertilizer information available for your plot. \n\nThere is currently no disease or spray information for pest control available for your plot. \n\nIf you need any more information, please let me know.",
+        "timestamp": {
+          "$date": "2025-04-08T16:32:09.622Z"
+        }
+      }
+    ],
+    "farmer_id": "haribhaudhondage",
+    "farmer_plot_ids": [
+      "guava315"
+    ],
+    "conversation_id": "67f54f682fe385948d254181",
+    "_id": "67f54f682fe385948d254181",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-08T16:37:03.522000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-04-08T16:31:36.898000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "प्लॉट सध्या फ्लोअरिंग आणि चालू स्टेज la आहे कोणते खते दिली पाहिजेत आणि कोणते स्प्रे दिले पाहिजे ",
+        "en": "Plot currently flooring and running stage la Which fertilizers should be given and which sprays should be given ",
+        "timestamp": {
+          "$date": "2025-04-08T16:31:36.898Z"
+        },
+        "standalone_question": "What fertilizers and sprays should be given to the plot that is currently in the flooring and ongoing stage?",
+        "standalone_en": "What fertilizers and sprays should be given to the plot that is currently in the flooring and ongoing stage?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users."
+          ]
+        },
+        "content_transliterated": "plot sadhya flowering ani chalu stage la aahe conte khate dili pahijet ani conte spray dile pahije "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटसाठी सध्या खते देण्याची माहिती उपलब्ध नाही. \n\nतुमच्या प्लॉटसाठी कोणतेही स्प्रे दिले जाण्याची माहिती सध्या उपलब्ध नाही.",
+        "en": "There is currently no fertilizer information available for your plot. \n\nThere is currently no information available to provide any spray for your plot.",
+        "timestamp": {
+          "$date": "2025-04-08T16:31:43.454Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "कधी मिळेल मग माहिती ",
+        "en": "When will you get the information? ",
+        "timestamp": {
+          "$date": "2025-04-08T16:32:03.513Z"
+        },
+        "standalone_question": "When will the information be available?",
+        "standalone_en": "When will the information be available?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kadhi milel mag mahiti "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटसाठी खते देण्याची माहिती उपलब्ध नाही. \n\nतुमच्या प्लॉटसाठी कोणतेही रोग किंवा कीड नियंत्रणासाठी स्प्रेची माहिती सध्या उपलब्ध नाही. \n\nजर तुम्हाला आणखी काही माहिती हवी असेल तर कृपया सांगा.",
+        "en": "There is no fertilizer information available for your plot. \n\nThere is currently no disease or spray information for pest control available for your plot. \n\nIf you need any more information, please let me know.",
+        "timestamp": {
+          "$date": "2025-04-08T16:32:09.622Z"
+        }
+      }
+    ],
+    "farmer_id": "haribhaudhondage",
+    "farmer_plot_ids": [
+      "guava315"
+    ],
+    "conversation_id": "67f54f682fe385948d254181",
+    "_id": "67f54f682fe385948d254181",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-08T16:37:03.522000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-08T16:31:36.898000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Define both sensor ",
+        "en": "Define both sensor ",
+        "timestamp": {
+          "$date": "2025-04-08T14:53:02.666Z"
+        },
+        "standalone_question": "What are the definitions of both sensors?",
+        "standalone_en": "What are the definitions of both sensors?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "In your \"4 acrs. kinnow plot,\" the soil moisture sensors are defined as follows:\n\n- **Sensor 1**: Installed at a depth of **6 inches**.\n- **Sensor 2**: Installed at a depth of **12 inches**. \n\nThese depths help in measuring the soil moisture at different levels in the root zone.",
+        "en": "In your \"4 acrs. kinnow plot,\" the soil moisture sensors are defined as follows:\n\n- **Sensor 1**: Installed at a depth of **6 inches**.\n- **Sensor 2**: Installed at a depth of **12 inches**. \n\nThese depths help in measuring the soil moisture at different levels in the root zone.",
+        "timestamp": {
+          "$date": "2025-04-08T14:53:10.533Z"
+        }
+      }
+    ],
+    "farmer_id": "ankitmalelthia",
+    "farmer_plot_ids": [
+      "4acrskinnowplot"
+    ],
+    "conversation_id": "67f5384e4c8996e2cceb3b35",
+    "_id": "67f5384e4c8996e2cceb3b35",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-08T14:58:02.673000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-08T14:53:02.666000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Stem boarer",
+        "en": "Stem boarer",
+        "timestamp": {
+          "$date": "2025-04-08T13:20:54.508Z"
+        },
+        "standalone_question": "What is a stem borer?",
+        "standalone_en": "What is a stem borer?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Could you please clarify if you need information about stem borer pests, such as their identification, control measures, or any specific recommendations for your grape crops?",
+        "en": "Could you please clarify if you need information about stem borer pests, such as their identification, control measures, or any specific recommendations for your grape crops?",
+        "timestamp": {
+          "$date": "2025-04-08T13:20:57.099Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "How to control stem boarer",
+        "en": "How to control stem boarer",
+        "timestamp": {
+          "$date": "2025-04-08T13:21:48.205Z"
+        },
+        "standalone_question": "What are the methods for controlling stem borer pests?",
+        "standalone_en": "What are the methods for controlling stem borer pests?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are the important Pest occur during seedling stage and control measures?\nA: Ants, Termites, root aphids, thrips and internal borer’s pest infect during seedling stage\nDrench/spray seedling with: Chlorpyriphos @ 5mL/Ltr or Thiamethoxam @ 0.5g/ltr"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To control stem borers in your grape crops, you can follow these measures:\n\n1. **Cultural Practices**:\n   - Remove and destroy infested plant parts.\n   - Practice crop rotation to disrupt the life cycle of the pest.\n\n2. **Chemical Control**:\n   - Use insecticides such as **Chlorpyrifos** or **Thiamethoxam**. \n   - Apply **Chlorpyrifos** at a rate of **5 mL/L** or **Thiamethoxam** at **0.5 g/L** as a drench or spray.\n\n3. **Monitoring**:\n   - Regularly inspect your plants for signs of infestation, such as holes in the stems or wilting.\n\n4. **Biological Control**:\n   - Introduce natural predators or parasitoids that target stem borers.\n\nMake sure to follow the recommended dosages and safety precautions while applying any chemicals.",
+        "en": "To control stem borers in your grape crops, you can follow these measures:\n\n1. **Cultural Practices**:\n   - Remove and destroy infested plant parts.\n   - Practice crop rotation to disrupt the life cycle of the pest.\n\n2. **Chemical Control**:\n   - Use insecticides such as **Chlorpyrifos** or **Thiamethoxam**. \n   - Apply **Chlorpyrifos** at a rate of **5 mL/L** or **Thiamethoxam** at **0.5 g/L** as a drench or spray.\n\n3. **Monitoring**:\n   - Regularly inspect your plants for signs of infestation, such as holes in the stems or wilting.\n\n4. **Biological Control**:\n   - Introduce natural predators or parasitoids that target stem borers.\n\nMake sure to follow the recommended dosages and safety precautions while applying any chemicals.",
+        "timestamp": {
+          "$date": "2025-04-08T13:21:54.197Z"
+        }
+      }
+    ],
+    "farmer_id": "dipakpagar",
+    "farmer_plot_ids": [
+      "plotno1sudhakar199",
+      "plotno3sharad187"
+    ],
+    "conversation_id": "67f522b6ab53baefa4e26b8a",
+    "_id": "67f522b6ab53baefa4e26b8a",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-08T13:26:48.214000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-08T13:20:54.508000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पाणी ",
+        "en": "Water ",
+        "timestamp": {
+          "$date": "2025-04-08T09:32:32.665Z"
+        },
+        "standalone_question": "What about water?",
+        "standalone_en": "What about water?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "paani "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या \"Plot No 1 Arra 36\" मध्ये सध्या पाण्याची गरज नाही. \n\n- **मातीची आर्द्रता**: \n  - Sensor 1: 1 kPa (जास्त ओलसर)\n  - Sensor 2: 0 kPa (पूर्ण ओलसर)\n  \n- **आवश्यक आर्द्रता**: 22 kPa\n\nआपण पाणी देण्याची आवश्यकता नाही, कारण मातीची आर्द्रता आवश्यकतेच्या खाली आहे.",
+        "en": "Your \"Plot No. 1 Arra 36\" doesn't need water right now. \n\n- **Soil moisture**: \n  - Sensor 1: 1 kPa (more moist)\n  - Sensor 2: 0 kPa (complete damp)\n  \n- **Required humidity**: 22 kPa\n\nYou don't need to water, because soil moisture is below the requirement.",
+        "timestamp": {
+          "$date": "2025-04-08T09:32:37.497Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "खते ",
+        "en": "Fertilizers ",
+        "timestamp": {
+          "$date": "2025-04-08T09:32:57.379Z"
+        },
+        "standalone_question": "Do you need fertilizer?",
+        "standalone_en": "Do you need fertilizer?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "khate "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot No 1 Arra 36\" साठी खते (फर्टिगेशन) डेटा शेड्यूल उपलब्ध नाही. कृपया दुसरे प्रश्न विचारा.",
+        "en": "The fertilizer data schedule for \"Plot No. 1 Arra 36\" is not available. Please ask other questions.",
+        "timestamp": {
+          "$date": "2025-04-08T09:33:01.448Z"
+        }
+      }
+    ],
+    "farmer_id": "dattukhandave",
+    "farmer_plot_ids": [
+      "plotno1arra36284"
+    ],
+    "conversation_id": "67f4ed304c8996e2cceb3b34",
+    "_id": "67f4ed304c8996e2cceb3b34",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-08T09:37:57.390000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-08T09:32:32.665000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "41 Divas per Shikari khaatar Apu bajari BA ",
+        "en": "41 Divyas Par Shikari Khatar Aapo Bajari or ",
+        "timestamp": {
+          "$date": "2025-04-08T09:30:25.809Z"
+        },
+        "standalone_question": "What is the significance of 41 Divas in relation to Shikari and Apu Bajari?",
+        "standalone_en": "What is the significance of 41 Divas in relation to Shikari and Apu Bajari?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "માફ કરશો, પરંતુ હું કૃષિ સંબંધિત પ્રશ્નો અથવા કાર્યમાં મદદ કરી શકું છું. કૃપા કરીને કૃષિ સંબંધિત કોઈ પ્રશ્ન પૂછો.",
+        "en": "I'm sorry, but I can help with agriculture-related issues or work. Please ask any questions related to agriculture.",
+        "timestamp": {
+          "$date": "2025-04-08T09:30:28.620Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "HAL bajari Mein Koi Khatra ko ",
+        "en": "No danger in recent gravel ",
+        "timestamp": {
+          "$date": "2025-04-08T09:30:49.612Z"
+        },
+        "standalone_question": "Is there any danger in the HAL market?",
+        "standalone_en": "Is there any danger in the HAL market?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "હાલમાં, \"GHAR VALU PLOT\" અને \"VACHALO PLOT\" માટે કોઈ રોગ અથવા કીટક સંબંધી માહિતી ઉપલબ્ધ નથી. જો તમને વધુ માહિતી અથવા અન્ય પ્રશ્નો હોય, તો કૃપા કરીને પૂછો.",
+        "en": "Currently, no disease or insect information is available for \"GHAR VALU PLOT\" and \"VACHALO PLOT\". If you have more information or other questions, please ask.",
+        "timestamp": {
+          "$date": "2025-04-08T09:30:55.924Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "જમીન ભેજ બેમાં જમીન ભેજ બે માં કેટલો ભેજ હોવો જરૂરી",
+        "en": "Soil moisture How much moisture must be in soil moisture two",
+        "timestamp": {
+          "$date": "2025-04-08T09:32:46.990Z"
+        },
+        "standalone_question": "What is the required moisture level in the soil for land moisture?",
+        "standalone_en": "What is the required moisture level in the soil for land moisture?",
+        "retrieval": {
+          "tools": [
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range."
+          ],
+          "faq": [
+            "Q: How much kPa should be set for a 4-inch depth soil moisture sensor?\nA: The kPa value for a 4-inch depth soil moisture sensor should be set based on the **soil type** and **crop requirements**. Here are general guidelines for different soil types:\n\n### **Sandy Soil:**\n- **Optimal range:** 10–20 kPa\n- **Irrigation threshold:** Above 30 kPa\n\n### **Loamy Soil (Silty or Mixed):**\n- **Optimal range:** 20–40 kPa\n- **Irrigation threshold:** Above 50 kPa\n\n### **Clay Soil:**\n- **Optimal range:** 40–70 kPa\n- **Irrigation threshold:** Above 80 kPa\n\n### **Additional Considerations:**\n- For **sensitive crops** like vegetables, maintain lower kPa thresholds to avoid water stress.\n- For **deep-rooted crops**, kPa values may vary at different depths; calibrate accordingly.\n- **Calibration** of the sensor to your specific soil and crop is essential for accuracy.\n\nConsulting with an agronomist or referring to crop-specific irrigation guides will help you fine-tune the kPa range."
+          ]
+        },
+        "content_transliterated": "jamin bhej beman jamin bhej bay man ketlo bhej hovo jaruri"
+      },
+      {
+        "role": "assistant",
+        "content": "જમીન ભેજ માટે જરૂરી ભેજની માત્રા જમીનના પ્રકાર અને પાકની જરૂરિયાતો પર આધાર રાખે છે. સામાન્ય રીતે, નીચેના સૂચનો અનુસરો:\n\n### **સેન્ડી માટી:**\n- **ઓપ્ટિમલ શ્રેણી:** 10–20 kPa\n- **સિંચાઈની સીમા:** 30 kPa ઉપર\n\n### **લોયમી માટી (સિલ્ટી અથવા મિશ્રિત):**\n- **ઓપ્ટિમલ શ્રેણી:** 20–40 kPa\n- **સિંચાઈની સીમા:** 50 kPa ઉપર\n\n### **ક્લે માટી:**\n- **ઓપ્ટિમલ શ્રેણી:** 40–70 kPa\n- **સિંચાઈની સીમા:** 80 kPa ઉપર\n\n### **અન્ય વિચારણા:**\n- **સંવેદનશીલ પાકો** માટે, પાણીના તણાવથી બચવા માટે નીચા kPa થ્રેશોલ્ડ જાળવો.\n- **ગહન-મૂળવાળા પાકો** માટે, kPa મૂલ્યો વિવિધ ઊંડાઈઓ પર બદલાઈ શકે છે; તે મુજબ કૅલિબ્રેટ કરો.\n\nતમારા વિશિષ્ટ જમીન અને પાક માટે યોગ્ય kPa શ્રેણી માટે કૃષિ નિષ્ણાત સાથે સલાહ લેવી અથવા પાક-વિશિષ્ટ સિંચાઈ માર્ગદર્શિકાઓનો સંદર્ભ લેવું મદદરૂપ થશે.",
+        "en": "The amount of moisture required for soil moisture depends on the type of soil and crop requirements. Generally, follow the following instructions:\n\n### **Sandy clay:**\n* **Optimal Series:** 10–20 kPa\n- **Irrigation boundary:** above 30 kPa\n\n### **Loimi clay (silty or mixed) :**\n* *Optimal Series:** 20–40 kPa\n- **Irrigation boundary:** above 50 kPa\n\n### **Clay clay:**\n* **Optimal Series:** 40–70 kPa\n- **Irrigation limit:** above 80 kPa\n\n### **Other considerations:**\n- For **sensitive crops**, maintain a low kPa threshold to avoid water stress.\nFor **deep-rooted crops**, kPa values can vary at different depths; Calibrate accordingly.\n\nIt will be helpful to consult with an agricultural expert or refer to crop-specific irrigation guidelines for a kPa series suitable for your specific land and crop.",
+        "timestamp": {
+          "$date": "2025-04-08T09:32:55.568Z"
+        }
+      }
+    ],
+    "farmer_id": "babrabhairanapatel",
+    "farmer_plot_ids": [
+      "gharvaluplot",
+      "vachaloplot"
+    ],
+    "conversation_id": "67f4ecb198f6654732c53d3d",
+    "_id": "67f4ecb198f6654732c53d3d",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-08T09:37:47Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-08T09:30:25.809000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "फायलो स्टेज अपडेट कशी करावी",
+        "en": "How to update the filo stage",
+        "timestamp": {
+          "$date": "2025-04-08T09:26:23.481Z"
+        },
+        "standalone_question": "How should I update the file stage?",
+        "standalone_en": "How should I update the file stage?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "phayalo stage update kashi karavi"
+      },
+      {
+        "role": "assistant",
+        "content": "फसल की स्टेज अपडेट करने के लिए, कृपया निम्नलिखित वीडियो देखें:\n\n- हिंदी में निर्देश: [फसल की स्टेज कैसे अपडेट करे ?](https://youtu.be/Gx2XUOGqNoA) (Thumbnail: ![फसल की स्टेज कैसे अपडेट करे ?](https://img.youtube.com/vi/Gx2XUOGqNoA/mqdefault.jpg))\n- अंग्रेजी में निर्देश: [How to update crop stages in App?](https://youtu.be/knCXf0vdN7k) (Thumbnail: ![How to update crop stages in App?](https://img.youtube.com/vi/knCXf0vdN7k/mqdefault.jpg))\n\nअधिक जानकारी के लिए, आप CRM टीम से संपर्क कर सकते हैं: ग्राहक सहायता के लिए हेल्पलाइन नंबर (+91) 9380908040 पर कॉल करें या contact@fyllo.in पर ईमेल करें।",
+        "en": "To update the stage of the crop, please watch the following video:\n\n- Instructions in Hindi: [How to update the crop stage?](https://youtu.be/Gx2XUOGqNoA) (Thumbnail: ! [How to update the harvest stage?](https://img.youtube.com/vi/Gx2XUOGqNoA/mqdefault.jpg))\n- Instructions in English: [How to update crop stages in App?](https://youtu.be/knCXf0vdN7k) (Thumbnail: ! [How to update crop stages in App?](https://img.youtube.com/vi/knCXf0vdN7k/mqdefault.jpg))\n\nFor more information, you can contact the CRM team: call the helpline number (+91) 9380908040 for customer support or email contact@fyllo.in.",
+        "timestamp": {
+          "$date": "2025-04-08T09:26:28.870Z"
+        }
+      }
+    ],
+    "farmer_id": "sanjaypandurangjadhav",
+    "farmer_plot_ids": [
+      "blackqueenberry782",
+      "jyotiplotno1335",
+      "sanjayjadhavkrushna3"
+    ],
+    "conversation_id": "67f4ebbfc756483847d3d112",
+    "_id": "67f4ebbfc756483847d3d112",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-08T09:31:23.491000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-08T09:26:23.481000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "ગળો એફીડ મગફળી માં અસર થાય",
+        "en": "The throat is affected in aphid peanuts",
+        "timestamp": {
+          "$date": "2025-04-08T07:45:04.319Z"
+        },
+        "standalone_question": "Does the throat affect peanuts?",
+        "standalone_en": "Does the throat affect peanuts?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "galo efid magaphali man asar thay"
+      },
+      {
+        "role": "assistant",
+        "content": "ગળો એફીડ (Green Aphids) મગફળીના છોડમાં અસર કરે છે, ખાસ કરીને જ્યારે છોડ નાનાં હોય છે. આ પેસ્ટ છોડના પાન અને કાંટા પર વસે છે, જે છોડની પોષણ ક્ષમતા ઘટાડે છે અને છોડને નબળું બનાવે છે. \n\n**નિયંત્રણના ઉપાયો:**\n1. **જૈવિક નિયંત્રણ:** પ્રાકૃતિક શિકાર જેમ કે લેડીબગ્સ અને લેડીબગ્સને પ્રોત્સાહન આપવું.\n2. **કેમિકલ નિયંત્રણ:** Chlorpyriphos @ 5mL/Ltr અથવા Thiamethoxam @ 0.5g/Ltr નો ઉપયોગ કરી શકો છો.\n\nઆ ઉપાયો અપનાવવાથી ગળો એફીડના પ્રભાવને નિયંત્રિત કરવામાં મદદ મળશે.",
+        "en": "Green aphids affects peanut plants, especially when the plants are small. This paste dwells on the leaves and forks of the plant, which reduces the nutritional capacity of the plant and weakens the plant. \n\n**Control measures:**\n1. **Biological control:** Promoting natural prey such as ladybugs and ladybugs.\n2. **Chemical Control:** Can use Chlorpyriphos @ 5mL/Ltr or Thiamethoxam @ 0.5g/Ltr.\n\nAdopting these measures will help in controlling the effect of throat aphids.",
+        "timestamp": {
+          "$date": "2025-04-08T07:45:09.889Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "હાલ છે",
+        "en": "Is currently",
+        "timestamp": {
+          "$date": "2025-04-08T07:45:38.327Z"
+        },
+        "standalone_question": "Is it currently affecting the peanuts?",
+        "standalone_en": "Is it currently affecting the peanuts?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "hal che"
+      },
+      {
+        "role": "assistant",
+        "content": "હાલમાં, \"TARAK\" અને \"SHESH PLOT\" માટે કોઈ પેસ્ટ અથવા રોગ સ્પ્રે શેડ્યૂલ નથી. જો તમને વધુ માહિતી અથવા અન્ય મદદની જરૂર હોય, તો કૃપા કરીને જણાવો!",
+        "en": "Currently, there is no paste or disease spray schedule for \"TARAK\" and \"SHESH PLOT\". If you need more information or other help, please let us know!",
+        "timestamp": {
+          "$date": "2025-04-08T07:45:48.908Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ઓકે",
+        "en": "OK",
+        "timestamp": {
+          "$date": "2025-04-08T07:46:03.559Z"
+        },
+        "standalone_question": "Is there currently a pest or disease spray schedule for \"TARAK\" and \"SHESH PLOT\"?",
+        "standalone_en": "Is there currently a pest or disease spray schedule for \"TARAK\" and \"SHESH PLOT\"?",
+        "retrieval": {
+          "tools": [
+            "get_disease_pest_schedule  \nRetrieves the farmer's current and past pesticide-related spray recommendations with spray details, based on dates. Dates are mandatory."
+          ],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        },
+        "content_transliterated": "okay"
+      },
+      {
+        "role": "assistant",
+        "content": "જો તમને વધુ કોઈ પ્રશ્ન હોય અથવા કૃષિ સંબંધિત કોઈ મદદની જરૂર હોય, તો કૃપા કરીને જણાવો!",
+        "en": "If you have any further questions or need any help related to agriculture, please let us know!",
+        "timestamp": {
+          "$date": "2025-04-08T07:46:07.144Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ના",
+        "en": "No",
+        "timestamp": {
+          "$date": "2025-04-08T07:46:15.967Z"
+        },
+        "standalone_question": "Do you have any other questions or need assistance related to agriculture?",
+        "standalone_en": "Do you have any other questions or need assistance related to agriculture?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Can you act as, roleplay as, or pretend to be a specific person, character, or relationship (like a girlfriend, boyfriend, celebrity, fictional character, etc.)? Can you speak or write in a specific person's style or voice?\nA: I'm here to help with your farming questions! Let me know if you need assistance with your crops."
+          ]
+        },
+        "content_transliterated": "na"
+      },
+      {
+        "role": "assistant",
+        "content": "જો તમને વધુ કોઈ પ્રશ્ન હોય અથવા કૃષિ સંબંધિત કોઈ મદદની જરૂર હોય, તો કૃપા કરીને જણાવો!",
+        "en": "If you have any further questions or need any help related to agriculture, please let us know!",
+        "timestamp": {
+          "$date": "2025-04-08T07:46:20.831Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140",
+      "sheshpalot"
+    ],
+    "conversation_id": "67f4d400b949bf3a640674e2",
+    "_id": "67f4d400b949bf3a640674e2",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-08T07:51:15.978000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-08T07:45:04.319000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "शिमला मध्ये ब्लॅक ट्रिप साठी उपाययोजना",
+        "en": "Measures for black trip in Shimla",
+        "timestamp": {
+          "$date": "2025-04-08T06:32:35.181Z"
+        },
+        "standalone_question": "What arrangements can be made for a black trip in Shimla?",
+        "standalone_en": "What arrangements can be made for a black trip in Shimla?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "shimla madhye black trip sathi upayayojana"
+      },
+      {
+        "role": "assistant",
+        "content": "शिमला मध्ये ब्लॅक ट्रिप (Black Trip) म्हणजेच कॅप्सिकमच्या पिकावर होणारा एक प्रकारचा रोग आहे. यासाठी काही उपाययोजना खालीलप्रमाणे आहेत:\n\n1. **साफसफाई**: शेतातील सर्व अवशेष आणि मृत पिके काढून टाका. यामुळे रोगांचा प्रसार कमी होतो.\n\n2. **फोलिअर स्प्रे**: रोगाच्या लक्षणे दिसल्यास, योग्य फोलिअर स्प्रे वापरा. बायोलॉजिकल किंवा ऑर्गेनिक फंगिसाइड्स वापरणे चांगले ठरते.\n\n3. **पाण्याचे व्यवस्थापन**: पाण्याची योग्य व्यवस्था करा. ओलसर वातावरणामुळे रोगांचा प्रसार होतो, त्यामुळे पाण्याचे प्रमाण नियंत्रित ठेवा.\n\n4. **पिकांची निवड**: रोग प्रतिकारक पिकांची निवड करा. \n\n5. **नियंत्रण उपाययोजना**: जर रोगाची तीव्रता वाढली, तर तज्ञांचा सल्ला घ्या आणि योग्य कीटकनाशकांचा वापर करा.\n\nआपल्या पिकांची नियमितपणे तपासणी करा आणि रोग लवकर ओळखा.",
+        "en": "Black trip in Shimla is a type of disease affecting the crop of capsicum. Some of the measures are as follows:\n\n1. **Clean up**: Remove all residue and dead crops from the field. This reduces the spread of diseases.\n\n2. **Foliar Spray**: If you have symptoms of the disease, use the right foliar spray. It is best to use biological or organic fungicides.\n\n3. **Water management**: Make proper arrangements for water. Wet environments lead to the spread of diseases, so keep the amount of water under control.\n\n4. **Choice of Crops**: Choose disease resistant crops. \n\n5. **Control measures**: If the severity of the disease increases, consult experts and use appropriate pesticides.\n\nCheck your crops regularly and identify disease early.",
+        "timestamp": {
+          "$date": "2025-04-08T06:32:41.445Z"
+        }
+      }
+    ],
+    "farmer_id": "chandukhoskar",
+    "farmer_plot_ids": [
+      "plotno1shimla"
+    ],
+    "conversation_id": "67f4c30173241029a19774b5",
+    "_id": "67f4c30173241029a19774b5",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-08T06:37:35.192000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-08T06:32:35.181000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "स्लेर प्रो मारले आहे ",
+        "en": "Slayer Pro is killed ",
+        "timestamp": {
+          "$date": "2025-04-08T05:43:24.979Z"
+        },
+        "standalone_question": "The standalone question in English would be: \"Have you played Slay the Spire?\"",
+        "standalone_en": "The standalone question in English would be: \"Have you played Slay the Spire?\"",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "slayer pro marley aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "आपण \"स्लेर प्रो\" वापरत असल्यास, कृपया अधिक माहिती द्या की तुम्हाला कोणत्या प्रकारची मदत हवी आहे. तुम्हाला पिकांच्या व्यवस्थापन, मातीच्या आरोग्य, कीड नियंत्रण किंवा पाण्याच्या व्यवस्थापनाबद्दल काही विचारायचे आहे का?",
+        "en": "If you're using \"Slayer Pro,\" please provide more information on what type of help you need. Do you have anything to ask about crop management, soil health, pest control or water management?",
+        "timestamp": {
+          "$date": "2025-04-08T05:43:28.260Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "बागेवरती उडदयाचे प्रमाण सांगावे ",
+        "en": "Tell us the amount of flying in the garden ",
+        "timestamp": {
+          "$date": "2025-04-08T05:44:19.097Z"
+        },
+        "standalone_question": "What is the recommended dosage of fertilizer for the garden?",
+        "standalone_en": "What is the recommended dosage of fertilizer for the garden?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "bagevarti udadayache praman sangave "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या बागेतील (Plot No.1) विद्यमान पिकाची अवस्था \"Foundation Pruning\" आहे, जी 2025-03-24 पासून सुरू झाली आहे. सध्या, या आठवड्यात (आठवडा 3) कोणतीही फर्टिगेशनची आवश्यकता नाही.\n\nतथापि, पुढील फर्टिगेशनची वेळ 2025-04-21 पासून सुरू होईल, जेव्हा \"Break Bud\" अवस्था येईल. त्यावेळी, खालील फर्टिगेशन पद्धतींचा वापर केला जाईल:\n\n### फर्टिगेशन पद्धती:\n1. **फर्टिगेशन पद्धती:**\n   - **12-61-0**: 4 किलोग्राम/एकर\n   - **Calcium nitrate**: 9 किलोग्राम/एकर\n\n2. **फोलिअर पद्धती:**\n   - **Ferrous Sulphate**: 800 ग्रॅम/एकर\n   - **Manganese Sulphate**: 800 ग्रॅम/एकर\n\nकृपया लक्षात ठेवा की फोलिअर स्प्रेमध्ये सूक्ष्म पोषण घटकांची एकाग्रता 1% पेक्षा जास्त नसावी, म्हणजेच 500 लिटर पाण्यात 5 किलोग्राम. \n\nआपल्याला आणखी काही माहिती हवी असल्यास, कृपया सांगा!",
+        "en": "The condition of the existing crop in your garden (Plot No.1) is \"Foundation Pruning\", which started from 2025-03-24. Currently, no fertigation is required this week (Week 3).\n\nHowever, the next fertigation period will start from 2025-04-21, when the \"break bud\" phase will come. At that time, the following fertigation methods will be used:\n\n### Fertigation Method:\n1. **Fertigation method:**\n   - **12-61-0**: 4 kg/acre\n   - **Calcium nitrate**: 9 kg/acre\n\n2. **Folier method:**\n   - **Ferrous Sulphate**: 800 g/acre\n   - **Manganese Sulphate**: 800 g/acre\n\nPlease note that the concentration of micronutrients in foliar spray should not exceed 1%, i.e. 5 kg in 500 liters of water. \n\nIf you need any more information, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-08T05:44:27.560Z"
+        }
+      }
+    ],
+    "farmer_id": "sandipkale",
+    "farmer_plot_ids": [
+      "plotno1224"
+    ],
+    "conversation_id": "67f4b77c2bf7b0e1acb618ff",
+    "_id": "67f4b77c2bf7b0e1acb618ff",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-08T05:49:19.107000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-04-08T05:43:24.979000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "सेन्सर चालू आहे का ",
+        "en": "Is the sensor running? ",
+        "timestamp": {
+          "$date": "2025-04-08T04:16:04.683Z"
+        },
+        "standalone_question": "Is the sensor turned on?",
+        "standalone_en": "Is the sensor turned on?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "censor chalu aahe ka "
+      },
+      {
+        "role": "assistant",
+        "content": "सेन्सर चालू आहे. सध्या त्याची बॅटरी 93% आहे आणि मातीची आर्द्रता खालीलप्रमाणे आहे:\n\n- माती आर्द्रता 1: 100% (ज्याचा अर्थ माती भिजलेली आहे)\n- माती आर्द्रता 2: 62%\n\nजर तुम्हाला आणखी काही माहिती हवी असेल तर सांगा.",
+        "en": "The sensor is on. Its battery is currently 93% and the soil moisture is as follows:\n\nSoil moisture 1:100% (which means the soil is wet)\n- Soil moisture 2:62%\n\nIf you need any more information, let me know.",
+        "timestamp": {
+          "$date": "2025-04-08T04:16:09.276Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "दोन्ही सेन्सर चालू आहे का ",
+        "en": "Is both sensors running? ",
+        "timestamp": {
+          "$date": "2025-04-08T04:17:01.406Z"
+        },
+        "standalone_question": "Are both sensors operational?",
+        "standalone_en": "Are both sensors operational?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "donhi sensor chalu aahe ka "
+      },
+      {
+        "role": "assistant",
+        "content": "होय, दोन्ही सेन्सर चालू आहेत. सध्या मातीची आर्द्रता खालीलप्रमाणे आहे:\n\n- माती आर्द्रता 1: 100% (भिजलेली)\n- माती आर्द्रता 2: 62%\n\nतुमच्या प्लॉटसाठी इतर काही माहिती हवी असल्यास सांगा.",
+        "en": "Yes, both sensors are running. The soil moisture at present is as follows:\n\nSoil moisture 1: 100% (soaked)\n- Soil moisture 2:62%\n\nLet me know if you need any other information for your plot.",
+        "timestamp": {
+          "$date": "2025-04-08T04:17:06.665Z"
+        }
+      }
+    ],
+    "farmer_id": "dipakbaburavminde",
+    "farmer_plot_ids": [
+      "plotno1purple457"
+    ],
+    "conversation_id": "67f4a3049c0b85ecdf246f04",
+    "_id": "67f4a3049c0b85ecdf246f04",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-08T04:22:01.416000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-08T04:16:04.683000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "खते देण्याची आवश्यकता आहे का ",
+        "en": "Is there a need to provide fertilizers? ",
+        "timestamp": {
+          "$date": "2025-04-08T02:25:14.736Z"
+        },
+        "standalone_question": "Is there a need to provide letters?",
+        "standalone_en": "Is there a need to provide letters?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "khate denyachi avashyakata aahe ka "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या \"plot no.1 Thompson\" मध्ये सध्या खते देण्याची आवश्यकता नाही. सध्या आपण \"Break Bud\" या सक्रिय पिकाच्या टप्प्यात आहात, जो 2025-04-07 पासून सुरू झाला आहे.\n\nपुढील खते देण्याची वेळ 2025-05-12 पासून सुरू होईल, ज्यामध्ये खालील गोष्टींचा समावेश असेल:\n\n1. **Foliar पद्धतीने**:\n   - **Ferrous Sulphate**: 600 ग्रॅम/एकर\n   - **Manganese Sulphate**: 600 ग्रॅम/एकर\n   - (फोलिअर स्प्रेमध्ये सूक्ष्म-खते 1% पेक्षा जास्त नसावे.)\n\n2. **Fertigation पद्धतीने**:\n   - **12-61-0**: 4 किलोग्राम/एकर\n   - **Calcium nitrate**: 19.5 किलोग्राम/एकर\n   - (फॉस्फोरिक आम्ल आणि कॅल्शियम नायट्रेट यांना योग्य वेळेत लागू करणे आवश्यक आहे.)\n\nआपण या पुढील खते देण्याच्या वेळेस लक्षात ठेवावे.",
+        "en": "Your \"plot No.1 Thompson\" does not currently require fertilizer. You are currently in the active crop phase of \"Break Bud\", which starts on 2025-04-07.\n\nThe following fertilizer issuance period will start from 2025-05-12, which will include the following:\n\n1. **Foliar manner**:\n   - **Ferrous Sulphate**: 600 g/acre\n   - **Manganese Sulphate**: 600 g/acre\n   - (Micro-fertilizers in foliar spray should not exceed 1%.)\n\n2. **In a Fertigation manner**:\n   - **12-61-0**: 4 kg/acre\n   - **Calcium nitrate**: 19.5 kg/acre\n   - (Phosphoric acid and calcium nitrate need to be applied in due course.)\n\nYou should keep this in mind at the time of giving the next fertilizer.",
+        "timestamp": {
+          "$date": "2025-04-08T02:25:22.849Z"
+        }
+      }
+    ],
+    "farmer_id": "vishalbhalerao514",
+    "farmer_plot_ids": [
+      "plotno1thompson682"
+    ],
+    "conversation_id": "67f4890acd3c2e2e1c84116f",
+    "_id": "67f4890acd3c2e2e1c84116f",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-08T02:30:14.744000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-08T02:25:14.736000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "પાવડર માઇલ્ડ્યુ માટે શું કરવું ",
+        "en": "What to do for powder mildew ",
+        "timestamp": {
+          "$date": "2025-04-08T01:25:34.105Z"
+        },
+        "standalone_question": "What should I do for powdery mildew?",
+        "standalone_en": "What should I do for powdery mildew?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pavadar mildue mate shu karvu "
+      },
+      {
+        "role": "assistant",
+        "content": "પાવડર માઇલ્ડ્યુ માટે, તમે નીચેના પગલાં લઈ શકો છો:\n\n1. **ફૂગનાશક દવાઓનો ઉપયોગ**: મેટાલેક્સિલ અથવા બેનલફુએલ મેટાલેક્સિલ જેવા ફૂગનાશક દવાઓનો છંટકાવ કરો.\n2. **સફાઈ**: પાંદડાઓ અને અન્ય અવશેષોને સાફ રાખો, જેથી ફૂગના ફેલાવાને રોકી શકાય.\n3. **હવા પ્રવાહ**: છોડ વચ્ચે યોગ્ય અંતર રાખો જેથી હવા પ્રવાહ સારી રીતે થઈ શકે.\n4. **જળવાયુ નિયંત્રણ**: વધુ ભેજથી બચો, કારણ કે પાવડર માઇલ્ડ્યુ ભેજમાં વધુ ફેલાય છે.\n\nજો તમને વધુ મદદની જરૂર હોય, તો કૃપા કરીને જણાવો!",
+        "en": "For powder mildew, you can take the following steps:\n\n1. **Use of fungicides**: Spray fungicides like metalexil or banalfuel metalexil.\n2. **Clean**: Keep the leaves and other residues clean, so as to prevent the spread of the fungus.\n3. **Air flow**: Keep proper distance between the plants so that the air flow can be done well.\n4. **Climate Control**: Avoid excess moisture, as the powder spreads more in mildew moisture.\n\nIf you need more help, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-08T01:25:40.385Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "પાવડર માઇલ્ડ્યુ માટે ફેગિસાઈડ દવા કાઈ  નાખવી ",
+        "en": "Adding phagicide medicine for powder mildew ",
+        "timestamp": {
+          "$date": "2025-04-08T01:27:53.383Z"
+        },
+        "standalone_question": "What fungicide should be used for powdery mildew?",
+        "standalone_en": "What fungicide should be used for powdery mildew?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed"
+          ]
+        },
+        "content_transliterated": "pavadar mildue mate fegisaid dava kai nakhavi "
+      },
+      {
+        "role": "assistant",
+        "content": "પાવડર માઇલ્ડ્યુ માટે, \"Main Palot\" પ્લોટમાં તમે નીચેની ફૂગનાશક દવાઓનો ઉપયોગ કરી શકો છો:\n\n1. **Diafenthiuron + Bifenthrin** - 1.25 મીલીલિટર\n2. **Broflanilide 20% SC** - 0.6 મીલીલિટર\n3. **Pyrifluquinazon 20% WG** - 1.25 મીલીલિટર\n4. **Cyantraniliprole 10.26% OD** - 1.8 મીલીલિટર\n   - **Fipronil 80 WG** - 0.5 ગ્રામ (સાથે ઉપયોગ કરી શકાય છે)\n\nઆ દવાઓને 1 લિટર પાણીમાં ભેળવીને છંટકાવ કરો. \n\nજો તમને વધુ મદદની જરૂર હોય, તો કૃપા કરીને જણાવો!",
+        "en": "For powder mildew, in the \"Main Palot\" plot you can use the following fungicides:\n\n1. **Diafenthiuron + Bifenthrin** - 1.25 milliliters\n2. **Broflanilide 20% SC** - 0.6 milliliters\n3. **Pyrifluquinazon 20% WG** - 1.25 milliliters\n4. **Cyantraniliprole 10.26% OD** - 1.8 millilitre\n   - **Fipronil 80 WG** - 0.5 g (can be used with)\n\nMix these medicines in 1 liter of water and spray them. \n\nIf you need more help, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-08T01:28:01.480Z"
+        }
+      }
+    ],
+    "farmer_id": "dineshbhaipatel747",
+    "farmer_plot_ids": [
+      "mainpalot",
+      "saghavaloplot"
+    ],
+    "conversation_id": "67f47b0d2bf7b0e1acb618fe",
+    "_id": "67f47b0d2bf7b0e1acb618fe",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-08T01:32:53.391000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-08T01:25:34.105000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "પાવડર માઇલ્ડ્યુ માટે શું કરવું ",
+        "en": "What to do for powder mildew ",
+        "timestamp": {
+          "$date": "2025-04-08T01:25:34.105Z"
+        },
+        "standalone_question": "What should I do for powdery mildew?",
+        "standalone_en": "What should I do for powdery mildew?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pavadar mildue mate shu karvu "
+      },
+      {
+        "role": "assistant",
+        "content": "પાવડર માઇલ્ડ્યુ માટે, તમે નીચેના પગલાં લઈ શકો છો:\n\n1. **ફૂગનાશક દવાઓનો ઉપયોગ**: મેટાલેક્સિલ અથવા બેનલફુએલ મેટાલેક્સિલ જેવા ફૂગનાશક દવાઓનો છંટકાવ કરો.\n2. **સફાઈ**: પાંદડાઓ અને અન્ય અવશેષોને સાફ રાખો, જેથી ફૂગના ફેલાવાને રોકી શકાય.\n3. **હવા પ્રવાહ**: છોડ વચ્ચે યોગ્ય અંતર રાખો જેથી હવા પ્રવાહ સારી રીતે થઈ શકે.\n4. **જળવાયુ નિયંત્રણ**: વધુ ભેજથી બચો, કારણ કે પાવડર માઇલ્ડ્યુ ભેજમાં વધુ ફેલાય છે.\n\nજો તમને વધુ મદદની જરૂર હોય, તો કૃપા કરીને જણાવો!",
+        "en": "For powder mildew, you can take the following steps:\n\n1. **Use of fungicides**: Spray fungicides like metalexil or banalfuel metalexil.\n2. **Clean**: Keep the leaves and other residues clean, so as to prevent the spread of the fungus.\n3. **Air flow**: Keep proper distance between the plants so that the air flow can be done well.\n4. **Climate Control**: Avoid excess moisture, as the powder spreads more in mildew moisture.\n\nIf you need more help, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-08T01:25:40.385Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "પાવડર માઇલ્ડ્યુ માટે ફેગિસાઈડ દવા કાઈ  નાખવી ",
+        "en": "Adding phagicide medicine for powder mildew ",
+        "timestamp": {
+          "$date": "2025-04-08T01:27:53.383Z"
+        },
+        "standalone_question": "What fungicide should be used for powdery mildew?",
+        "standalone_en": "What fungicide should be used for powdery mildew?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed"
+          ]
+        },
+        "content_transliterated": "pavadar mildue mate fegisaid dava kai nakhavi "
+      },
+      {
+        "role": "assistant",
+        "content": "પાવડર માઇલ્ડ્યુ માટે, \"Main Palot\" પ્લોટમાં તમે નીચેની ફૂગનાશક દવાઓનો ઉપયોગ કરી શકો છો:\n\n1. **Diafenthiuron + Bifenthrin** - 1.25 મીલીલિટર\n2. **Broflanilide 20% SC** - 0.6 મીલીલિટર\n3. **Pyrifluquinazon 20% WG** - 1.25 મીલીલિટર\n4. **Cyantraniliprole 10.26% OD** - 1.8 મીલીલિટર\n   - **Fipronil 80 WG** - 0.5 ગ્રામ (સાથે ઉપયોગ કરી શકાય છે)\n\nઆ દવાઓને 1 લિટર પાણીમાં ભેળવીને છંટકાવ કરો. \n\nજો તમને વધુ મદદની જરૂર હોય, તો કૃપા કરીને જણાવો!",
+        "en": "For powder mildew, in the \"Main Palot\" plot you can use the following fungicides:\n\n1. **Diafenthiuron + Bifenthrin** - 1.25 milliliters\n2. **Broflanilide 20% SC** - 0.6 milliliters\n3. **Pyrifluquinazon 20% WG** - 1.25 milliliters\n4. **Cyantraniliprole 10.26% OD** - 1.8 millilitre\n   - **Fipronil 80 WG** - 0.5 g (can be used with)\n\nMix these medicines in 1 liter of water and spray them. \n\nIf you need more help, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-08T01:28:01.480Z"
+        }
+      }
+    ],
+    "farmer_id": "dineshbhaipatel747",
+    "farmer_plot_ids": [
+      "mainpalot",
+      "saghavaloplot"
+    ],
+    "conversation_id": "67f47b0d2bf7b0e1acb618fe",
+    "_id": "67f47b0d2bf7b0e1acb618fe",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-08T01:32:53.391000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-04-08T01:25:34.105000+00:00"
+  }
+]

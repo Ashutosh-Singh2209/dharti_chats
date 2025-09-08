@@ -1,0 +1,402 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "આ અવસ્થામાં છે",
+        "en": "Is in this state",
+        "timestamp": {
+          "$date": "2025-04-30T15:10:22.188Z"
+        },
+        "standalone_question": "What is the current situation?",
+        "standalone_en": "What is the current situation?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "a avasthaman che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પાકો હાલની સ્થિતિમાં છે:\n\n1. **Plot1(Pomo)**: \n   - પાકનું નામ: દાડમ\n   - હાલની અવસ્થા: ફળના વિકાસની શરૂઆત (Early stage fruit growth)\n   - પાકની શરૂઆતની તારીખ: 19 એપ્રિલ 2025\n\n2. **plot 1**: \n   - પાકનું નામ: દાડમ\n   - હાલની અવસ્થા: આરામ (Rest)\n   - પાકની શરૂઆતની તારીખ: 15 એપ્રિલ 2025\n\n3. **plot 2**: \n   - પાકનું નામ: દાડમ\n   - હાલની અવસ્થા: વિકાસની ચોથી અવસ્થા (Growth stage 4)\n   - પાકની શરૂઆતની તારીખ: 31 મે 2024\n\nજો તમને વધુ માહિતી જોઈએ તો જણાવશો!",
+        "en": "Your crops are in the current state of:\n\n1. **Plot1(Pomo)**: \n   - Name of the crop: pomegranate\n   - Current state: early stage fruit growth\n   - Start date of crop: 19 April 2025\n\n2. **plot 1**: \n   - Name of the crop: pomegranate\n   - Current state: Rest\n   - Crop start date: April 15, 2025\n\n3. **plot 2**: \n   - Name of the crop: pomegranate\n   - Current state: Fourth state of development (growth stage 4)\n   - Crop start date: 31 May 2024\n\nLet me know if you need more information!",
+        "timestamp": {
+          "$date": "2025-04-30T15:10:28.450Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ok",
+        "en": "Ok",
+        "timestamp": {
+          "$date": "2025-04-30T15:11:10.862Z"
+        },
+        "standalone_question": "Could you provide more information about the current status of the crops?",
+        "standalone_en": "Could you provide more information about the current status of the crops?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "જો તમને કોઈ ખાસ માહિતી અથવા સહાયની જરૂર હોય, તો કૃપા કરીને જણાવો! હું અહીં મદદ કરવા માટે છું.",
+        "en": "If you need any specific information or assistance, please let us know! I'm here to help.",
+        "timestamp": {
+          "$date": "2025-04-30T15:11:14.087Z"
+        }
+      }
+    ],
+    "farmer_id": "anilbahiparmar",
+    "farmer_plot_ids": [
+      "plot1pomo321",
+      "plot1874",
+      "plot2262"
+    ],
+    "conversation_id": "68123d5e2e9cfe37e851d063",
+    "_id": "68123d5e2e9cfe37e851d063",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-30T15:16:10.872000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-30T15:10:22.188000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Check my device ",
+        "en": "Check my device ",
+        "timestamp": {
+          "$date": "2025-04-30T12:54:47.117Z"
+        },
+        "standalone_question": "Could you please check my device?",
+        "standalone_en": "Could you please check my device?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Has my payment been made? Check the payment status of my device. Recharge status of my device. Is my recharge active? Is my payment successful? Is my device active? Is my device sending data? Are my all devices working properly? Is my device online? Is my device connected? What is the status of my device? Is my Fyllo device transmitting data?\nA: If device is sending data proactively, then it is working fine. If user has not recharged the device, then it will not work, and user should do recharge. If recharge is also active, then there is some issue, user should raise a support ticket in the Fyllo App.\n\nI'll check the payment status of your device for you.\n\nTool Selection: I should use the JSON data from farmer_plots_details to check:\n1. If isDataPlanActive is true\n2. If planRechargeExpiryDate is in the future\n3. If deviceLatestDataAvailable is true\n4. What the deviceMessage says\n\nResponse Logic:\n- If isDataPlanActive is true AND planRechargeExpiryDate is future date:\n  \"Your recharge plan is active until [expiry date].\"\n- If isDataPlanActive is false OR planRechargeExpiryDate is past date:\n  \"It appears your recharge plan is not currently active. If you've recently made a payment, please allow some time for it to be processed. If the issue persists, please contact our support team. Would you like the contact details of our support team?\"\n- Additionally, if deviceLatestDataAvailable is true:\n  \"Your device is currently active and sending data properly.\"\n- If deviceLatestDataAvailable is false:\n  \"Your device is not currently sending data. This might be due to connectivity issues.\"\n\nExample final response:\n\"Your payment has been successfully processed. Your recharge plan is active until June 5, 2025. Your device is currently active and sending data properly. Is there anything else you'd like me to do?\""
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Your recharge plan is active until July 7, 2025. Your device is currently active and sending data properly. Is there anything else you'd like me to do?",
+        "en": "Your recharge plan is active until July 7, 2025. Your device is currently active and sending data properly. Is there anything else you'd like me to do?",
+        "timestamp": {
+          "$date": "2025-04-30T12:54:50.909Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "What are the recharge plans",
+        "en": "What are the recharge plans",
+        "timestamp": {
+          "$date": "2025-04-30T12:55:11.661Z"
+        },
+        "standalone_question": "What are the available recharge plans?",
+        "standalone_en": "What are the available recharge plans?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Currently, I don't have specific details about the recharge plans available for your Fyllo device. Typically, these plans may vary based on the duration and data usage. \n\nFor the most accurate and up-to-date information regarding recharge plans, I recommend checking the Fyllo app or contacting customer support directly. Would you like assistance with anything else?",
+        "en": "Currently, I don't have specific details about the recharge plans available for your Fyllo device. Typically, these plans may vary based on the duration and data usage. \n\nFor the most accurate and up-to-date information regarding recharge plans, I recommend checking the Fyllo app or contacting customer support directly. Would you like assistance with anything else?",
+        "timestamp": {
+          "$date": "2025-04-30T12:55:16.144Z"
+        }
+      }
+    ],
+    "farmer_id": "bhimsaharan",
+    "farmer_plot_ids": [
+      "nerokinnowplot852"
+    ],
+    "conversation_id": "68121d96f7ac3c5270f53d33",
+    "_id": "68121d96f7ac3c5270f53d33",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-30T13:00:11.671000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-30T12:54:47.117000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Puew",
+        "en": "Puew",
+        "timestamp": {
+          "$date": "2025-04-30T11:43:12.149Z"
+        },
+        "standalone_question": "What does \"Puew\" mean?",
+        "standalone_en": "What does \"Puew\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like your message might have been a typo. Could you please clarify what you need assistance with regarding your agricultural practices?",
+        "en": "It seems like your message might have been a typo. Could you please clarify what you need assistance with regarding your agricultural practices?",
+        "timestamp": {
+          "$date": "2025-04-30T11:43:15.668Z"
+        }
+      }
+    ],
+    "farmer_id": "prashantaher",
+    "farmer_plot_ids": [
+      "plotno1mamajumbo870"
+    ],
+    "conversation_id": "68120cd02e9cfe37e851d060",
+    "_id": "68120cd02e9cfe37e851d060",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-30T11:48:12.157000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-30T11:43:12.149000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How to know soil retation ability ",
+        "en": "How to know soil retation ability ",
+        "timestamp": {
+          "$date": "2025-04-30T11:01:03.092Z"
+        },
+        "standalone_question": "How can I determine the soil's retention ability?",
+        "standalone_en": "How can I determine the soil's retention ability?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Sensor is showing wet, i.e. less kpa but soil looks dry.\nA: The sensor measures the moisture around the rootzone which is not visible from the top. Ask use to check the moisture in rootzone around the sensor. If it matches, ask the user to irrigate."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Soil retention ability, or soil water retention capacity, can be determined through various methods:\n\n1. **Soil Texture Analysis**: Different soil types (sand, silt, clay) have varying capacities to retain water. A soil texture test can help identify the composition.\n\n2. **Field Capacity Test**: This involves saturating the soil and then measuring how much water it retains after drainage. The amount of water held in the soil after excess water has drained away is known as field capacity.\n\n3. **Laboratory Tests**: Soil samples can be sent to a lab for detailed analysis, including tests for water retention capacity.\n\n4. **Moisture Sensors**: Using soil moisture sensors can provide real-time data on how much moisture is retained in the soil.\n\n5. **Visual Inspection**: Observing the soil's physical characteristics, such as its structure and color, can give clues about its water retention ability.\n\nFor precise measurements, consider conducting a soil test or using moisture sensors in your plots.",
+        "en": "Soil retention ability, or soil water retention capacity, can be determined through various methods:\n\n1. **Soil Texture Analysis**: Different soil types (sand, silt, clay) have varying capacities to retain water. A soil texture test can help identify the composition.\n\n2. **Field Capacity Test**: This involves saturating the soil and then measuring how much water it retains after drainage. The amount of water held in the soil after excess water has drained away is known as field capacity.\n\n3. **Laboratory Tests**: Soil samples can be sent to a lab for detailed analysis, including tests for water retention capacity.\n\n4. **Moisture Sensors**: Using soil moisture sensors can provide real-time data on how much moisture is retained in the soil.\n\n5. **Visual Inspection**: Observing the soil's physical characteristics, such as its structure and color, can give clues about its water retention ability.\n\nFor precise measurements, consider conducting a soil test or using moisture sensors in your plots.",
+        "timestamp": {
+          "$date": "2025-04-30T11:01:10.492Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "110 soil retation ability ",
+        "en": "110 soil retation ability ",
+        "timestamp": {
+          "$date": "2025-04-30T11:01:49.020Z"
+        },
+        "standalone_question": "What is the soil retention ability of 110?",
+        "standalone_en": "What is the soil retention ability of 110?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "A soil retention ability of 110 indicates that the soil can hold a significant amount of water. However, it's important to clarify that soil retention is typically expressed in terms of percentage or in relation to the soil's texture and structure.\n\nIf you meant that the soil can retain 110 mm of water, this would be a good capacity, especially for crops like cucumbers, which require consistent moisture. \n\nTo manage irrigation effectively, you should monitor soil moisture levels regularly and adjust your watering schedule based on the retention capacity and the crop's water needs. If you have specific measurements or conditions, please share them for more tailored advice!",
+        "en": "A soil retention ability of 110 indicates that the soil can hold a significant amount of water. However, it's important to clarify that soil retention is typically expressed in terms of percentage or in relation to the soil's texture and structure.\n\nIf you meant that the soil can retain 110 mm of water, this would be a good capacity, especially for crops like cucumbers, which require consistent moisture. \n\nTo manage irrigation effectively, you should monitor soil moisture levels regularly and adjust your watering schedule based on the retention capacity and the crop's water needs. If you have specific measurements or conditions, please share them for more tailored advice!",
+        "timestamp": {
+          "$date": "2025-04-30T11:01:55.279Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Optimal soil temp for nutrition uptake ",
+        "en": "Optimal soil temp for nutrition uptake ",
+        "timestamp": {
+          "$date": "2025-04-30T11:03:58.022Z"
+        },
+        "standalone_question": "What is the optimal soil temperature for nutrient uptake?",
+        "standalone_en": "What is the optimal soil temperature for nutrient uptake?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The optimal soil temperature for nutrient uptake varies by crop, but generally, the following ranges are considered ideal:\n\n- **Cool-Season Crops (e.g., Cabbage, Lettuce)**: 10°C to 20°C (50°F to 68°F)\n- **Warm-Season Crops (e.g., Cucumber, Tomato)**: 20°C to 30°C (68°F to 86°F)\n\nFor cucumbers, which you are growing, the optimal soil temperature for nutrient uptake is typically around **20°C to 25°C (68°F to 77°F)**. Maintaining soil temperatures within this range can enhance nutrient availability and uptake, promoting healthy growth.",
+        "en": "The optimal soil temperature for nutrient uptake varies by crop, but generally, the following ranges are considered ideal:\n\n- **Cool-Season Crops (e.g., Cabbage, Lettuce)**: 10°C to 20°C (50°F to 68°F)\n- **Warm-Season Crops (e.g., Cucumber, Tomato)**: 20°C to 30°C (68°F to 86°F)\n\nFor cucumbers, which you are growing, the optimal soil temperature for nutrient uptake is typically around **20°C to 25°C (68°F to 77°F)**. Maintaining soil temperatures within this range can enhance nutrient availability and uptake, promoting healthy growth.",
+        "timestamp": {
+          "$date": "2025-04-30T11:04:05.945Z"
+        }
+      }
+    ],
+    "farmer_id": "kuntalsinghranjitsinhjhala",
+    "farmer_plot_ids": [
+      "cucumberplots"
+    ],
+    "conversation_id": "681202ec2e9cfe37e851d05f",
+    "_id": "681202ec2e9cfe37e851d05f",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-30T11:08:58.062000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-30T11:01:03.092000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Afid insecticide ",
+        "en": "Afid insecticide ",
+        "timestamp": {
+          "$date": "2025-04-30T06:27:31.284Z"
+        },
+        "standalone_question": "What is Afid insecticide?",
+        "standalone_en": "What is Afid insecticide?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For controlling aphids, you can use the following insecticides:\n\n1. **Imidacloprid** - Effective against aphids, typically used at a rate of 5-10 ml per liter of water.\n2. **Thiamethoxam** - Another effective option, usually applied at a rate of 0.5-1 g per liter of water.\n\nAlways follow the manufacturer's instructions for application rates and safety precautions.",
+        "en": "For controlling aphids, you can use the following insecticides:\n\n1. **Imidacloprid** - Effective against aphids, typically used at a rate of 5-10 ml per liter of water.\n2. **Thiamethoxam** - Another effective option, usually applied at a rate of 0.5-1 g per liter of water.\n\nAlways follow the manufacturer's instructions for application rates and safety precautions.",
+        "timestamp": {
+          "$date": "2025-04-30T06:27:35.493Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "White fly insecticide ",
+        "en": "White fly insecticide ",
+        "timestamp": {
+          "$date": "2025-04-30T06:29:16.827Z"
+        },
+        "standalone_question": "What insecticides are effective for controlling whiteflies?",
+        "standalone_en": "What insecticides are effective for controlling whiteflies?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For controlling whiteflies, you can use the following insecticides:\n\n1. **Imidacloprid** - Effective against whiteflies, typically applied at a rate of 5-10 ml per liter of water.\n2. **Bifenthrin** - Another option, usually used at a rate of 1-2 ml per liter of water.\n3. **Neem Oil** - A natural option that can be used at a rate of 5-10 ml per liter of water.\n\nAlways follow the manufacturer's instructions for application rates and safety precautions.",
+        "en": "For controlling whiteflies, you can use the following insecticides:\n\n1. **Imidacloprid** - Effective against whiteflies, typically applied at a rate of 5-10 ml per liter of water.\n2. **Bifenthrin** - Another option, usually used at a rate of 1-2 ml per liter of water.\n3. **Neem Oil** - A natural option that can be used at a rate of 5-10 ml per liter of water.\n\nAlways follow the manufacturer's instructions for application rates and safety precautions.",
+        "timestamp": {
+          "$date": "2025-04-30T06:29:23.630Z"
+        }
+      }
+    ],
+    "farmer_id": "kuntalsinghranjitsinhjhala",
+    "farmer_plot_ids": [
+      "cucumberplots"
+    ],
+    "conversation_id": "6811c2d3118ab96f10a31f89",
+    "_id": "6811c2d3118ab96f10a31f89",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-30T06:34:16.836000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-04-30T06:27:31.284000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Stag ",
+        "en": "Stag ",
+        "timestamp": {
+          "$date": "2025-04-30T01:25:31.060Z"
+        },
+        "standalone_question": "What does \"stag\" mean?",
+        "standalone_en": "What does \"stag\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like you might be referring to the crop stage. Currently, your cucumber crop is in the \"Vegetative Growth\" stage, which started on April 29, 2025. If you need specific information or assistance regarding this stage, please let me know!",
+        "en": "It seems like you might be referring to the crop stage. Currently, your cucumber crop is in the \"Vegetative Growth\" stage, which started on April 29, 2025. If you need specific information or assistance regarding this stage, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-30T01:25:34.168Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Stage data not updated ",
+        "en": "Stage data not updated ",
+        "timestamp": {
+          "$date": "2025-04-30T01:26:06.326Z"
+        },
+        "standalone_question": "Is the stage data not updated?",
+        "standalone_en": "Is the stage data not updated?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The current crop stage for your cucumber plots is \"Vegetative Growth,\" which started on April 29, 2025. If you believe the stage data is not updated, it could be due to a few reasons:\n\n1. **Sensor Issues**: Ensure that the sensors are functioning properly and are connected to the system.\n2. **Data Sync**: Check if there is a delay in data synchronization with the app.\n3. **Crop Growth**: If the crop is still in the same growth phase, it may not have progressed to the next stage yet.\n\nWould you like me to check the current sensor data or any other specific information to assist you further?",
+        "en": "The current crop stage for your cucumber plots is \"Vegetative Growth,\" which started on April 29, 2025. If you believe the stage data is not updated, it could be due to a few reasons:\n\n1. **Sensor Issues**: Ensure that the sensors are functioning properly and are connected to the system.\n2. **Data Sync**: Check if there is a delay in data synchronization with the app.\n3. **Crop Growth**: If the crop is still in the same growth phase, it may not have progressed to the next stage yet.\n\nWould you like me to check the current sensor data or any other specific information to assist you further?",
+        "timestamp": {
+          "$date": "2025-04-30T01:26:10.968Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Yes",
+        "en": "Yes",
+        "timestamp": {
+          "$date": "2025-04-30T01:26:45.208Z"
+        },
+        "standalone_question": "Could you please check the current sensor data for my cucumber crop?",
+        "standalone_en": "Could you please check the current sensor data for my cucumber crop?",
+        "retrieval": {
+          "tools": [
+            "analyse_crop_image  \nGets the analysis of the uploaded crop image for any diseases or pests.",
+            "get_historical_pest_prediction_metrics  \nReturns the historical daily crop pest prediction metrics for the given pests, checking all dependent parameters inherently.",
+            "live_sensor_data  \nProvides the live / most recent sensor data for the plots, last received from the sensors. The data fields could be of these types: airTemperature, airHumidity, soilTemperature, soilMoisture1, soilMoisture2, leafWetness, airPressure, baroPressure, lightIntensity (lux), uvIndex, windSpeed, windDirection, instantaneous rainfall, battery percentage, vaporPressure. Depending on device type, some data may not be available.",
+            "get_historical_disease_prediction_metrics  \nReturns the historical daily crop disease prediction metrics for the given diseases, checking all dependent parameters inherently.",
+            "get_soil_moisture_sensor_depth  \nReturns the depths in inches of the soil moisture sensors 1 and 2 installed on the plots."
+          ],
+          "faq": [
+            "Q: Sensor is showing wet, i.e. less kpa but soil looks dry.\nA: The sensor measures the moisture around the rootzone which is not visible from the top. Ask use to check the moisture in rootzone around the sensor. If it matches, ask the user to irrigate.",
+            "Q: The moisture (kpa) is increasing very fast  recently and it is asking to irrigate frequently.\nA:  Kpa is increasing fast it means that sensors are drying rapidly.  The chatbot needs to :\nCheck the actual kpa increase rate if it's higher now  in comparison to the previous weeks. If there no , tell the user that kPa increase is normal.\nIf there is rapid increase recently, check if the crop stag is near full fruit growth or harvesting. In the later stages , crop transpiration is very high , thus there is a rapid increase in soil moisture Kpa meaning decrease in moisture in the soil. Also, the moisture drop can be due to high evaporation recently. Check if there is temperature increase meaning high evaporation recently.\nIf the above two are not the cases, ask user to check the moisture physically near the sensor. If the actual moisture is wet near the sensor and the sensor is showing dry, the sensor might be worn out. In this case , ask if the user wants to raise a ticket with the support team.",
+            "Q: My  sensor is showing 0 Kpa for long.\nA: 0-5 kPa means wet soil. It can be due to following :\nIf the device is recently installed, there can be moisture  around the sensor because the sensor is dipped in the water before installing. If this is the case, ask them to do atleast 3 irrigations as per their previous schedule without sensors and sensors would b set by then.\nIf the crop stage is very early or pruing is done recently, the water takeup by plants is negligible in this period because of very less transpiration. If this is the case, ask them to wait till irrigation Kpa in the present stage.\nSometimes, the water can remain accumulated around the sensor due to local landscaping or slope in the land around sensor. In this case, please check the around the sensor. It will have to be reinstalled properly. Chatbot should ask the user if he wants to create an issue ticket for the same",
+            "Q: The moisture (kpa) is increasing slowly recently.\nA: Need to check for current stage and evapotranspiration rate. If the crop is recently sown or pruning (छंटाई)  is done recently, the transpiration will be slow and moisture kpa will increase slowly. If evaporation is slow or temperature have dropped on rainfall has happened, it will increase slowly. The chatbot needs to check the temperature , rainfall and crop stage data. And advise if there is any reason for the slow increase.\nIf still there is some confusion, the chatbot needs to ask user to check moisture around the sensor by digging and then ask  the user if he wants to create an issue ticket for the same."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the current information regarding your cucumber plots:\n\n1. **Soil Moisture**: The soil moisture reading is at 99%, indicating that the soil is very wet. This could be a reason for the slow increase in moisture kPa.\n\n2. **Battery Level**: Your device's battery is at 89%, which is good.\n\n3. **Evapotranspiration**: There have been no recorded daily evapotranspiration values for this period, which may indicate low evaporation rates.\n\n4. **Crop Stage**: Your crop is currently in the \"Vegetative Growth\" stage, which started on April 29, 2025.\n\n### Analysis:\n- The high soil moisture reading suggests that the soil is saturated, which could be causing the sensors to report a slow increase in moisture kPa.\n- The lack of evapotranspiration data may indicate that the weather conditions have not been conducive to evaporation, possibly due to cooler temperatures or high humidity.\n\n### Recommendations:\n- **Physical Check**: It might be beneficial to check the moisture physically around the sensor by digging a little. If the soil feels wet but the sensor is showing dry, the sensor may need attention.\n- **Irrigation**: Given the high moisture level, you may not need to irrigate at this time.\n\nWould you like to raise a support ticket regarding the sensor, or is there anything else you need assistance with?",
+        "en": "Here's the current information regarding your cucumber plots:\n\n1. **Soil Moisture**: The soil moisture reading is at 99%, indicating that the soil is very wet. This could be a reason for the slow increase in moisture kPa.\n\n2. **Battery Level**: Your device's battery is at 89%, which is good.\n\n3. **Evapotranspiration**: There have been no recorded daily evapotranspiration values for this period, which may indicate low evaporation rates.\n\n4. **Crop Stage**: Your crop is currently in the \"Vegetative Growth\" stage, which started on April 29, 2025.\n\n### Analysis:\n- The high soil moisture reading suggests that the soil is saturated, which could be causing the sensors to report a slow increase in moisture kPa.\n- The lack of evapotranspiration data may indicate that the weather conditions have not been conducive to evaporation, possibly due to cooler temperatures or high humidity.\n\n### Recommendations:\n- **Physical Check**: It might be beneficial to check the moisture physically around the sensor by digging a little. If the soil feels wet but the sensor is showing dry, the sensor may need attention.\n- **Irrigation**: Given the high moisture level, you may not need to irrigate at this time.\n\nWould you like to raise a support ticket regarding the sensor, or is there anything else you need assistance with?",
+        "timestamp": {
+          "$date": "2025-04-30T01:26:53.070Z"
+        }
+      }
+    ],
+    "farmer_id": "kuntalsinghranjitsinhjhala",
+    "farmer_plot_ids": [
+      "cucumberplots"
+    ],
+    "conversation_id": "68117c0a2e9cfe37e851d05d",
+    "_id": "68117c0a2e9cfe37e851d05d",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-30T01:31:45.229000Z"
+    },
+    "tag": "historical data",
+    "conv_date": "2025-04-30T01:25:31.060000+00:00"
+  }
+]

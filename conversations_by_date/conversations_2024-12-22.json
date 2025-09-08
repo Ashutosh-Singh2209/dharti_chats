@@ -1,0 +1,1683 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "bataka lokar mank ketlu fertilizer apvu 35 diwse",
+        "timestamp": {
+          "$date": "2024-12-22T16:56:06.655Z"
+        },
+        "standalone_question": "How much fertilizer should I give to the bataka lokar mank after 35 days?",
+        "standalone_en": "How much fertilizer should I give to the bataka lokar mank after 35 days?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For your potato crop in the vegetative growth stage (currently in week 4), here is the fertigation schedule for the next 35 days:\n\n### Current Week (Week 4)\n1. **Day 1**:\n   - **Fertigation**: \n     - Calcium Nitrate: 3.5 kg/acre\n     - Urea: 8 kg/acre\n   - Note: Apply Calcium Nitrate separately, 15-20 minutes after other fertilizers.\n\n2. **Day 4**:\n   - **Fertigation**: \n     - Potassium Nitrate: 3 kg/acre\n     - Ammonium Sulphate: 7 kg/acre\n   - Alternative: \n     - Ammonium Sulphate: 8.5 kg/acre\n     - Sulfate of Potash: 3 kg/acre\n\n### Next Week (Week 5)\n- **Start Date**: February 13, 2025\n1. **Day 1**:\n   - **Fertigation**: \n     - Calcium Nitrate: 3.5 kg/acre\n     - Magnesium Sulphate: 5 kg/acre\n     - Urea: 8 kg/acre\n   - Note: Apply Calcium Nitrate separately, 15-20 minutes after other fertilizers.\n\n2. **Day 4**:\n   - **Fertigation**: \n     - Potassium Nitrate: 6 kg/acre\n     - Urea: 2.5 kg/acre\n   - Alternative: \n     - Urea: 4 kg/acre\n     - Sulfate of Potash: 6 kg/acre\n\n### Foliar Application\n- **Micro-nutrient Fertilizers**: Use a concentration of no more than 1% (e.g., 5 kg in 500 liters of water per acre).\n\nMake sure to follow the schedule closely for optimal growth and yield!",
+        "timestamp": {
+          "$date": "2024-12-22T16:56:16.376Z"
+        }
+      }
+    ],
+    "farmer_id": "patelpralav",
+    "farmer_plot_ids": [
+      "kairohomedevice"
+    ],
+    "conversation_id": "676844a691eacf074079270f",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-12-22T16:56:06.655000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Main disease ",
+        "timestamp": {
+          "$date": "2024-12-22T13:25:05.607Z"
+        },
+        "standalone_question": "What is the main disease?",
+        "standalone_en": "What is the main disease?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The main diseases that can affect onion crops include:\n\n1. **Alternaria** - Causes leaf blight and can lead to significant yield loss.\n2. **Downy Mildew** - Affects leaves and can cause yellowing and wilting.\n3. **Fusarium Wilt** - A soil-borne disease that causes wilting and yellowing of leaves.\n4. **Bacterial Blight** - Leads to water-soaked lesions on leaves.\n\nFor effective control, it's essential to monitor the crop regularly and apply appropriate fungicides or bactericides as needed. If you need specific recommendations or a spray schedule, please let me know!",
+        "timestamp": {
+          "$date": "2024-12-22T13:25:09.470Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "“How many diseases can we add to the model?”",
+        "timestamp": {
+          "$date": "2024-12-22T13:30:05.626Z"
+        },
+        "standalone_question": "How many diseases can be included in the model?",
+        "standalone_en": "How many diseases can be included in the model?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Fyllo supports the prediction of various diseases, including:\n\n1. Alternaria\n2. Alternaria Fruit Blotch\n3. Alternaria Blotch\n4. Alternaria Leaf Blight\n5. Anthracnose\n6. Bacterial Blight\n7. Bacterial Canker\n8. Bacterial Spot\n9. Blister Blight\n10. Botrytis Mold\n11. Brown Rust\n12. Brown Spot\n13. Cercospora\n14. Cercospora Leaf Spot\n15. Cigar End Rot\n16. Citrus Scab\n17. Colletotrichum\n18. Damping Off\n19. Diplodia\n20. Downy Mildew\n21. Early Blight\n22. Fruit Canker\n23. Fusarium Wilt\n24. Graphiola Leaf Spot\n25. Grey Mold\n26. Late Blight\n27. Leaf Blight\n28. Leaf Spot\n29. Marssonina Blotch\n30. Powdery Mildew\n31. Purple Blotch\n32. Red Rot\n33. Rice Blast\n34. Root Knot Nematode\n35. Rust\n36. Scab\n37. Sheath Blight\n38. Sigatoka Leaf Spot\n39. Stylar End Rot\n40. Whip Smut\n41. Xanthomonas\n42. Yellow Rust\n\nIn total, you can add predictions for **42 different diseases** to the model. If you need specific information or assistance regarding any of these diseases, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-12-22T13:30:12.581Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Divide this into fungal disease and other category",
+        "timestamp": {
+          "$date": "2024-12-22T13:32:09.546Z"
+        },
+        "standalone_question": "Can you categorize the diseases into fungal diseases and other types?",
+        "standalone_en": "Can you categorize the diseases into fungal diseases and other types?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What diseases prediction does fyllo support?\nA: Fyllo supports the following diseases:\n    Alternaria, Alternaria Fruit Blotch, Alternaria blotch, Alternaria leaf blight,\n    Anthracnose, Bacterial Blight, Bacterial Canker, Bacterial Spot, Blister blight, Botrytis mold, Brown Rust,\n    Brown spot, Cercospora, Cercospora Leaf Spot, Cercospora leaf spot, Cigar end rot, Citrus scab, Colletotrichum, Damping off,\n    Diplodia, Downy mildew, Early Blight, Fruit Canker, Fruit canker, Fusarium Wilt, Fusarium wilt, Graphiola leaf spot,\n    Grey mold, Late Blight, Leaf Blight, Leaf Spot, Leaf spot, Marssonina blotch, Powdery Mildew, Powdery mildew,\n    Purple blotch, Red rot, Rice blast, Root knot nematode, Rust, Scab, Sheath blight, Sigatoka leaf spot, Stylar End Rot,\n    Whip smut, Xanthomonas, and Yellow Rust."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here’s the division of diseases into fungal and other categories:\n\n### Fungal Diseases:\n1. Alternaria\n2. Alternaria Fruit Blotch\n3. Alternaria Blotch\n4. Alternaria Leaf Blight\n5. Anthracnose\n6. Botrytis Mold\n7. Brown Rust\n8. Cercospora\n9. Cercospora Leaf Spot\n10. Downy Mildew\n11. Early Blight\n12. Fusarium Wilt\n13. Grey Mold\n14. Late Blight\n15. Leaf Blight\n16. Powdery Mildew\n17. Purple Blotch\n18. Red Rot\n19. Rice Blast\n20. Sheath Blight\n21. Sigatoka Leaf Spot\n22. Whip Smut\n23. Yellow Rust\n\n### Other Diseases:\n1. Bacterial Blight\n2. Bacterial Canker\n3. Bacterial Spot\n4. Blister Blight\n5. Brown Spot\n6. Cigar End Rot\n7. Citrus Scab\n8. Colletotrichum\n9. Damping Off\n10. Diplodia\n11. Fruit Canker\n12. Graphiola Leaf Spot\n13. Marssonina Blotch\n14. Root Knot Nematode\n15. Rust\n16. Scab\n\nIf you need further assistance or specific information about any of these diseases, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-12-22T13:32:18.557Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Write main main 100 words of each in Gujarati ",
+        "timestamp": {
+          "$date": "2024-12-22T13:34:31.474Z"
+        },
+        "standalone_question": "What are the main characteristics of fungal diseases and other diseases in Gujarati?",
+        "standalone_en": "What are the main characteristics of fungal diseases and other diseases in Gujarati?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "### ફંગલ રોગો:\n1. અલ્ટરનેરિયા\n2. અલ્ટરનેરિયા ફ્રૂટ બ્લોટચ\n3. અલ્ટરનેરિયા બ્લોટચ\n4. અલ્ટરનેરિયા પાંદડાની બળતરા\n5. એન્થ્રાક્નોઝ\n6. બોટ્રિટિસ મોલ્ડ\n7. બ્રાઉન રસ્ટ\n8. સર્કોસ્પોરા\n9. સર્કોસ્પોરા પાંદડાની બળતરા\n10. ડાઉની મિલ્ડ્યુ\n11. અર્લી બ્લાઇટ\n12. ફ્યુઝેરિયમ વિલ્ટ\n13. ગ્રે મોલ્ડ\n14. લેટ બ્લાઇટ\n15. પાંદડાની બળતરા\n16. પાઉડરી મિલ્ડ્યુ\n17. પર્પલ બ્લોટચ\n18. રેડ રોટ\n19. રાઈસ બ્લાસ્ટ\n20. શીથ બ્લાઇટ\n21. સિગાટોકા પાંદડાની બળતરા\n22. વિપ સ્મટ\n23. યેલો રસ્ટ\n\n### અન્ય રોગો:\n1. બેક્ટેરિયલ બ્લાઇટ\n2. બેક્ટેરિયલ કેન્કર\n3. બેક્ટેરિયલ સ્પોટ\n4. બ્લિસ્ટર બ્લાઇટ\n5. બ્રાઉન સ્પોટ\n6. સિગાર એન્ડ રોટ\n7. સિટ્રસ સ્કેબ\n8. કોલેટ્રિચમ\n9. ડેમ્પિંગ ઓફ\n10. ડિપ્લોડિયા\n11. ફ્રૂટ કેન્કર\n12. ગ્રાફિયોલા પાંદડાની બળતરા\n13. માર્સોનિના બ્લોટચ\n14. રૂટ નોટ નેમેટોડ\n15. રસ્ટ\n16. સ્કેબ\n\nજો તમને વધુ માહિતીની જરૂર હોય, તો કૃપા કરીને પૂછો!",
+        "timestamp": {
+          "$date": "2024-12-22T13:34:41.949Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Badha na vishe 100 shabd lakho ",
+        "timestamp": {
+          "$date": "2024-12-22T13:35:38.468Z"
+        },
+        "standalone_question": "Can you provide 100 words about each of the diseases listed?",
+        "standalone_en": "Can you provide 100 words about each of the diseases listed?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "### ફંગલ રોગો:\n\n1. **અલ્ટરનેરિયા**: આ રોગ પાંદડાની બળતરા અને ફળોના કાળા ધબ્બા બનાવે છે, જે પાકને નુકસાન પહોંચાડી શકે છે.\n2. **અલ્ટરનેરિયા ફ્રૂટ બ્લોટચ**: ફળો પર કાળા ધબ્બા અને સડવા જેવી સ્થિતિ સર્જે છે.\n3. **અલ્ટરનેરિયા બ્લોટચ**: પાંદડાની સપાટી પર કાળા ધબ્બા, જે પાકની વૃદ્ધિને અસર કરે છે.\n4. **અલ્ટરનેરિયા પાંદડાની બળતરા**: પાંદડાની કિનારે પીળા અને કાળા ધબ્બા દેખાય છે.\n5. **એન્થ્રાક્નોઝ**: ફળો અને પાંદડાઓ પર કાળા ધબ્બા, જે પાકને નુકસાન પહોંચાડે છે.\n6. **બોટ્રિટિસ મોલ્ડ**: ભેજવાળા વાતાવરણમાં ફળો અને પાંદડાઓને અસર કરે છે.\n7. **બ્રાઉન રસ્ટ**: પાંદડાની સપાટી પર બ્રાઉન ધબ્બા, જે પાકની ગુણવત્તાને ઘટાડે છે.\n8. **સર્કોસ્પોરા**: પાંદડાની બળતરા, જે પાકની વૃદ્ધિને અસર કરે છે.\n9. **ડાઉની મિલ્ડ્યુ**: પાંદડાઓ પર સફેદ ફૂગ, જે પાકને નાશ કરે છે.\n10. **અર્લી બ્લાઇટ**: પાંદડાની પાંદડાઓને પીળા અને મરવા માટે પ્રેરણા આપે છે.\n\n### અન્ય રોગો:\n\n1. **બેક્ટેરિયલ બ્લાઇટ**: પાંદડાઓ પર પાણીવાળા ધબ્બા, જે પાકને નુકસાન પહોંચાડે છે.\n2. **બેક્ટેરિયલ કેન્કર**: ફળો અને પાંદડાઓ પર કાળા ધબ્બા, જે પાકને નાશ કરે છે.\n3. **બેક્ટેરિયલ સ્પોટ**: પાંદડાઓ પર પાણીવાળા ધબ્બા, જે પાકની ગુણવત્તાને અસર કરે છે.\n4. **બ્લિસ્ટર બ્લાઇટ**: પાંદડાની સપાટી પર ફૂગ, જે પાકને નુકસાન પહોંચાડે છે.\n5. **બ્રાઉન સ્પોટ**: પાંદડાની સપાટી પર બ્રાઉન ધબ્બા, જે પાકની વૃદ્ધિને અસર કરે છે.\n6. **સિગાર એન્ડ રોટ**: ફળોના કિનારે કાળા ધબ્બા, જે પાકને નાશ કરે છે.\n7. **સિટ્રસ સ્કેબ**: ફળો પર કાળા ધબ્બા, જે પાકની ગુણવત્તાને ઘટાડે છે.\n8. **કોલેટ્રિચમ**: પાંદડાની બળતરા, જે પાકને નુકસાન પહોંચાડે છે.\n9. **ડેમ્પિંગ ઓફ**: નમ જમીનમાં છોડના મૂળને નાશ કરે છે.\n10. **ડિપ્લોડિયા**: પાંદડાની બળતરા, જે પાકની વૃદ્ધિને અસર કરે છે.\n\nજો તમને વધુ માહિતીની જરૂર હોય, તો કૃપા કરીને પૂછો!",
+        "timestamp": {
+          "$date": "2024-12-22T13:35:54.411Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Badha na image moklo ",
+        "timestamp": {
+          "$date": "2024-12-22T13:37:39.608Z"
+        },
+        "standalone_question": "Could you please send images of all the diseases mentioned?",
+        "standalone_en": "Could you please send images of all the diseases mentioned?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the images related to the diseases affecting onion crops:\n\n### Fungal Diseases\n![Fungal Diseases](https://oaidalleapiprodscus.blob.core.windows.net/private/org-bW8YczlYesHEFNYNTXPKMeuf/user-iDZ1EvXPK3IQDRUEE8mQdm5A/img-GgoCF46VfXv4k5J6AHw2rhFU.png?st=2024-12-22T12%3A37%3A53Z&se=2024-12-22T14%3A37%3A53Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-12-21T19%3A41%3A09Z&ske=2024-12-22T19%3A41%3A09Z&sks=b&skv=2024-08-04&sig=eE34y2Ao2ntwkZtGynWDwviF2R0AsgNRPGurJiv06D0%3D)\n\n### Other Diseases\n![Other Diseases](https://oaidalleapiprodscus.blob.core.windows.net/private/org-bW8YczlYesHEFNYNTXPKMeuf/user-iDZ1EvXPK3IQDRUEE8mQdm5A/img-YY0Hza9Rm2DKoxEuDnDNY2QB.png?st=2024-12-22T12%3A37%3A54Z&se=2024-12-22T14%3A37%3A54Z&sp=r&sv=2024-08-04&sr=b&rscd=inline&rsct=image/png&skoid=d505667d-d6c1-4a0a-bac7-5c84a87759f8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2024-12-21T19%3A48%3A48Z&ske=2024-12-22T19%3A48%3A48Z&sks=b&skv=2024-08-04&sig=IOkTMyvKduewX2dAI4kMTeJFqO3S4rJkAeBgO8NANwg%3D)\n\nIf you need more information or assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-12-22T13:38:03.339Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Different types of fungal disease ",
+        "timestamp": {
+          "$date": "2024-12-22T13:39:35.263Z"
+        },
+        "standalone_question": "What are the different types of fungal diseases?",
+        "standalone_en": "What are the different types of fungal diseases?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here are some different types of fungal diseases that can affect crops, including onions:\n\n1. **Alternaria**: Causes leaf blight and can lead to significant yield loss.\n2. **Botrytis Mold**: Affects fruits and leaves, especially in humid conditions, leading to rot.\n3. **Downy Mildew**: Characterized by white, fluffy growth on the underside of leaves, causing yellowing and wilting.\n4. **Fusarium Wilt**: A soil-borne disease that causes wilting and yellowing of leaves, often leading to plant death.\n5. **Powdery Mildew**: Appears as white powdery spots on leaves, affecting photosynthesis and growth.\n6. **Gray Mold**: Affects various plant parts, causing soft rot and is prevalent in wet conditions.\n7. **Late Blight**: Causes dark lesions on leaves and stems, leading to rapid decay, especially in potatoes and tomatoes.\n8. **Early Blight**: Characterized by dark, concentric rings on leaves, leading to premature leaf drop.\n9. **Leaf Spot**: Various fungi cause spots on leaves, affecting overall plant health.\n10. **Rust**: Causes orange, yellow, or brown pustules on leaves, affecting photosynthesis.\n\nIf you need more information about any specific disease or its management, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-12-22T13:39:43.294Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Only onion fungal disease ",
+        "timestamp": {
+          "$date": "2024-12-22T13:40:20.071Z"
+        },
+        "standalone_question": "What are the different types of fungal diseases that specifically affect onion crops?",
+        "standalone_en": "What are the different types of fungal diseases that specifically affect onion crops?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the fungal diseases specifically affecting onion crops:\n\n1. **Alternaria**: Causes leaf blight, leading to dark, circular spots on leaves and can significantly reduce yield.\n\n2. **Downy Mildew**: Characterized by yellowing leaves and white, fluffy growth on the underside, it thrives in humid conditions.\n\n3. **Fusarium Wilt**: A soil-borne disease that causes wilting and yellowing of leaves, often leading to plant death.\n\n4. **Botrytis Mold**: Affects onion bulbs and leaves, causing soft rot, especially in wet conditions.\n\n5. **Powdery Mildew**: Appears as white powdery spots on leaves, affecting photosynthesis and overall plant health.\n\n6. **Gray Mold**: Causes decay in bulbs and leaves, particularly in high humidity.\n\n7. **Purple Blotch**: Characterized by purple lesions on leaves, which can lead to premature leaf death.\n\n8. **Leaf Spot**: Various fungal pathogens cause spots on leaves, affecting the plant's health and yield.\n\n9. **White Rot**: A serious disease that causes decay of the bulb and is difficult to control once established.\n\n10. **Stemphylium Leaf Blight**: Causes dark lesions on leaves, leading to reduced photosynthesis and yield.\n\nIf you need more information on any specific disease or its management, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-12-22T13:40:26.829Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Gujarati ",
+        "timestamp": {
+          "$date": "2024-12-22T13:41:12.455Z"
+        },
+        "standalone_question": "Here are the fungal diseases specifically affecting onion crops, translated into Gujarati:\n\n1. **અલ્ટરનેરિયા**: પાંદડાની બળતરા સર્જે છે, જે પાંદડાઓ પર કાળા, ગોળ ધબ્બા બનાવે છે અને પાકને નોંધપાત્ર નુકસાન પહોંચાડી શકે છે.\n\n2. **ડાઉની મિલ્ડ્યુ**: પીળા પાંદડાઓ અને પાંદડાના નીચેની બાજુ પર સફેદ, ફૂગ જેવી વૃદ્ધિ દર્શાવે છે, જે ભેજવાળા પરિસ્થિતિમાં ફેલાય છે.\n\n3. **ફ્યુઝેરિયમ વિલ્ટ**: જમીનમાં રહેલા ફૂગથી થાય છે, જે પાંદડાઓને પીળા અને મરવા માટે પ્રેરણા આપે છે.\n\n4. **બોટ્રિટિસ મોલ્ડ**: પાંદડાઓ અને બલ્બોને અસર કરે છે, ખાસ કરીને ભેજવાળા પરિસ્થિતિમાં નરમ સડવા સર્જે છે.\n\n5. **પાઉડરી મિલ્ડ્યુ**: પાંદડાઓ પર સફેદ પાઉડર જેવી ધબ્બા દેખાય છે, જે ફોટોસિન્થેસિસ અને કુલ છોડના આરોગ્યને અસર કરે છે.\n\n6. **ગ્રે મોલ્ડ**: પાંદડાઓ અને બલ્બોમાં સડવા સર્જે છે, ખાસ કરીને ઊંચા ભેજમાં.\n\n7. **પર્પલ બ્લોટચ**: પાંદડાઓ પર જાંબલી ધબ્બા દર્શાવે છે, જે પાંદડાની મરણને પ્રેરણા આપે છે.\n\n8. **લીફ સ્પોટ**: વિવિધ ફૂગો પાંદડાઓ પર ધબ્બા બનાવે છે, જે છોડના આરોગ્ય અને ઉત્પાદનને અસર કરે છે.\n\n9. **વ્હાઇટ રોટ**: એક ગંભીર રોગ છે જે બલ્બને સડવા માટે પ્રેરણા આપે છે અને એકવાર સ્થાપિત થયા પછી નિયંત્રણમાં લેવું મુશ્કેલ છે.\n\n10. **સ્ટેમ્ફિલિયમ લીફ બ્લાઇટ**: પાંદડાઓ પર કાળા ધબ્બા સર્જે છે, જે ફોટોસિન્થેસિસ અને ઉત્પાદનને ઘટાડે છે.\n\nજો તમને કોઈ વિશિષ્ટ રોગ અથવા તેની વ્યવસ્થાપન વિશે વધુ માહિતી જોઈએ, તો કૃપા કરીને પૂછો!",
+        "standalone_en": "Here are the fungal diseases specifically affecting onion crops, translated into Gujarati:\n\n1. **Alternaria**: Causes leaf inflammation, which creates black, round spots on the leaves and can cause significant damage to the crop.\n\n2. **Downey Mildew**: Yellow leaves and the underside of the leaves show white, fug-like growth, which spreads in humid conditions.\n\n3. **Fusarium wilt**: Caused by the fungus in the ground, which induces the leaves to turn yellow and die.\n\n4. **Bottritis mold**: Affects the leaves and bulbs, causing soft rot, especially in humid conditions.\n\n5. **Powdery Mildew**: White powder-like spots appear on the leaves, which affect photosynthesis and total plant health.\n\n6. **Grey mold**: Causes rot in leaves and bulbs, especially in high humidity.\n\n7. **Purple blotch**: Displays purple spots on the leaves, which induce the death of the leaves.\n\n8. **Leaf Spot**: Various fungi form spots on the leaves, which affect the health and production of the plant.\n\n9. **White Rot**: There is a serious disease that induces bulbs to rot and is difficult to control once established.\n\n10. **Stemphilium leaf blight**: Creates black spots on the leaves, which reduces photosynthesis and production.\n\nIf you would like more information about a particular disease or its management, please ask!",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What diseases prediction does fyllo support?\nA: Fyllo supports the following diseases:\n    Alternaria, Alternaria Fruit Blotch, Alternaria blotch, Alternaria leaf blight,\n    Anthracnose, Bacterial Blight, Bacterial Canker, Bacterial Spot, Blister blight, Botrytis mold, Brown Rust,\n    Brown spot, Cercospora, Cercospora Leaf Spot, Cercospora leaf spot, Cigar end rot, Citrus scab, Colletotrichum, Damping off,\n    Diplodia, Downy mildew, Early Blight, Fruit Canker, Fruit canker, Fusarium Wilt, Fusarium wilt, Graphiola leaf spot,\n    Grey mold, Late Blight, Leaf Blight, Leaf Spot, Leaf spot, Marssonina blotch, Powdery Mildew, Powdery mildew,\n    Purple blotch, Red rot, Rice blast, Root knot nematode, Rust, Scab, Sheath blight, Sigatoka leaf spot, Stylar End Rot,\n    Whip smut, Xanthomonas, and Yellow Rust."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "### ફંગલ રોગો (પ્યાઝ માટે):\n\n1. **અલ્ટરનેરિયા**: પાંદડાની બળતરા સર્જે છે, જે પાંદડાઓ પર કાળા, ગોળ ધબ્બા બનાવે છે અને પાકને નુકસાન પહોંચાડી શકે છે.\n\n2. **ડાઉની મિલ્ડ્યુ**: પાંદડાઓની નીચે સફેદ, ફૂગ જેવી વૃદ્ધિ દેખાય છે, જે પીળા અને મરવા માટે પ્રેરણા આપે છે.\n\n3. **ફ્યુઝેરિયમ વિલ્ટ**: જમીનમાં રહેલા ફૂગથી થાય છે, જે પાંદડાઓને પીળા અને મરવા માટે પ્રેરણા આપે છે.\n\n4. **બોટ્રિટિસ મોલ્ડ**: ભેજવાળા વાતાવરણમાં ફળો અને પાંદડાઓને નાશ કરે છે, જે સડવા તરફ દોરી જાય છે.\n\n5. **પાઉડરી મિલ્ડ્યુ**: પાંદડાઓ પર સફેદ પાઉડર જેવી સપાટી દેખાય છે, જે પાકની વૃદ્ધિને અસર કરે છે.\n\n6. **ગ્રે મોલ્ડ**: પાંદડાઓ અને ફળોમાં સડવા સર્જે છે, ખાસ કરીને ભેજવાળા વાતાવરણમાં.\n\n7. **પર્પલ બ્લોટચ**: પાંદડાઓ પર જાંબલી ધબ્બા સર્જે છે, જે પાંદડાની મૃત્યુ તરફ દોરી જાય છે.\n\n8. **લીફ સ્પોટ**: વિવિધ ફૂગો પાંદડાઓ પર ધબ્બા બનાવે છે, જે પાકની આરોગ્યને અસર કરે છે.\n\n9. **વ્હાઇટ રોટ**: આ રોગ બલ્બને નાશ કરે છે અને એકવાર સ્થાપિત થઈ જાય ત્યારે નિયંત્રણ કરવું મુશ્કેલ છે.\n\n10. **સ્ટેમફિલિયમ લીફ બ્લાઇટ**: પાંદડાઓ પર કાળા ધબ્બા સર્જે છે, જે પાકની વૃદ્ધિને અસર કરે છે.\n\nજો તમને વધુ માહિતીની જરૂર હોય, તો કૃપા કરીને પૂછો!",
+        "timestamp": {
+          "$date": "2024-12-22T13:41:21.033Z"
+        }
+      }
+    ],
+    "farmer_id": "riteshpayel",
+    "farmer_plot_ids": [
+      "kenalvadukairo",
+      "munnadadakakhetar"
+    ],
+    "conversation_id": "67681331cdbedbc11064f651",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-22T13:25:05.607000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Botrytis disease in onion ",
+        "timestamp": {
+          "$date": "2024-12-22T13:10:42.730Z"
+        },
+        "standalone_question": "What is Botrytis disease in onions?",
+        "standalone_en": "What is Botrytis disease in onions?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Botrytis disease, also known as Botrytis neck rot, is a fungal disease that affects onions, particularly during the storage phase. Here are some key points about the disease and its management:\n\n### Symptoms:\n- **Neck Rot**: The neck of the onion becomes soft and water-soaked, leading to decay.\n- **Fungal Growth**: Greyish mold may appear on the surface of the onion.\n- **Wilting**: Affected plants may show signs of wilting and yellowing.\n\n### Control Measures:\n1. **Cultural Practices**:\n   - Ensure proper spacing between plants to improve air circulation.\n   - Avoid overhead irrigation to reduce humidity around the plants.\n   - Rotate crops to prevent the buildup of pathogens in the soil.\n\n2. **Sanitation**:\n   - Remove and destroy infected plants and debris from the field.\n   - Clean tools and equipment to prevent the spread of the fungus.\n\n3. **Chemical Control**:\n   - Use fungicides such as **Chlorothalonil** or **Boscalid** as a preventive measure, especially during wet conditions.\n   - Follow the recommended application rates and timings.\n\n4. **Harvesting**:\n   - Harvest onions when they are fully mature and dry to minimize the risk of infection.\n   - Store harvested onions in a cool, dry place to prevent fungal growth.\n\nRegular monitoring and early intervention are crucial for managing Botrytis disease in onions. If you suspect an outbreak, consider consulting with a local agricultural extension service for specific recommendations.",
+        "timestamp": {
+          "$date": "2024-12-22T13:10:49.200Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Gujarati ",
+        "timestamp": {
+          "$date": "2024-12-22T13:10:58.300Z"
+        },
+        "standalone_question": "What is the impact of Botrytis disease on onions?",
+        "standalone_en": "What is the impact of Botrytis disease on onions?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Botrytis રોગ, જેને Botrytis neck rot તરીકે પણ ઓળખવામાં આવે છે, તે ડુંગળીમાં ફૂગના રોગ છે, ખાસ કરીને સંગ્રહના તબક્કામાં અસર કરે છે. અહીં રોગ અને તેના નિયંત્રણ વિશેની કેટલીક મુખ્ય માહિતી છે:\n\n### લક્ષણો:\n- **નેક રોટ**: ડુંગળીનો નેક નરમ અને પાણીવાળું થઈ જાય છે, જેનાથી વિસર્જન થાય છે.\n- **ફૂગનો વિકાસ**: ડુંગળીની સપાટી પર ધૂળવાળા મોલ્ડ દેખાઈ શકે છે.\n- **વિલ્ટિંગ**: અસરગ્રસ્ત છોડમાં વિલ્ટિંગ અને પીળા થવાની લક્ષણો દેખાઈ શકે છે.\n\n### નિયંત્રણના પગલાં:\n1. **સાંસ્કૃતિક પદ્ધતિઓ**:\n   - છોડ વચ્ચે યોગ્ય અંતર રાખો જેથી હવા પ્રવાહમાં સુધારો થાય.\n   - ભેજ ઘટાડવા માટે ઉપરથી પાણી આપવાનું ટાળો.\n   - જમીનમાં પાથોજનોના બાંધકામને અટકાવવા માટે પાકોનું ફેરફાર કરો.\n\n2. **સ્વચ્છતા**:\n   - અસરગ્રસ્ત છોડ અને ખેતરમાંથી કચરો દૂર કરો અને નાશ કરો.\n   - ફૂગના ફેલાવાને અટકાવવા માટે સાધનો અને ઉપકરણો સાફ કરો.\n\n3. **રાસાયણિક નિયંત્રણ**:\n   - **Chlorothalonil** અથવા **Boscalid** જેવા ફંગિસાઇડનો ઉપયોગ કરો, ખાસ કરીને ભેજવાળા પરિસ્થિતિઓમાં.\n   - ભલામણ કરેલ એપ્લિકેશન દર અને સમયગાળા અનુસાર અનુસરો.\n\n4. **કાપણી**:\n   - ડુંગળી સંપૂર્ણ રીતે પક્વ અને સૂકી હોતી વખતે કાપો જેથી સંક્રમણનો જોખમ ઓછો થાય.\n   - કાપેલી ડુંગળી ઠંડા, સૂકા સ્થળે સંગ્રહિત કરો જેથી ફૂગનો વિકાસ અટકે.\n\nનિયમિત નિરીક્ષણ અને વહેલી હસ્તક્ષેપ Botrytis રોગના નિયંત્રણ માટે મહત્વપૂર્ણ છે. જો તમને આઉટબ્રેકનો શંકા હોય, તો સ્થાનિક કૃષિ વિસ્તરણ સેવા સાથે સંપર્ક કરવા પર વિચાર કરો.",
+        "timestamp": {
+          "$date": "2024-12-22T13:11:07.270Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Onion disease ",
+        "timestamp": {
+          "$date": "2024-12-22T13:11:52.298Z"
+        },
+        "standalone_question": "What are the common diseases that affect onions?",
+        "standalone_en": "What are the common diseases that affect onions?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Onion crops can be affected by various diseases. Here are some common diseases that affect onions along with their control measures:\n\n### 1. **Botrytis Neck Rot**\n- **Symptoms**: Soft, water-soaked necks, grey mold on the surface.\n- **Control**: Improve air circulation, avoid overhead irrigation, and use fungicides like Chlorothalonil.\n\n### 2. **Downy Mildew**\n- **Symptoms**: Yellowish-green spots on leaves, white mold on the underside.\n- **Control**: Use resistant varieties, apply fungicides, and ensure proper spacing for air circulation.\n\n### 3. **Fusarium Basal Rot**\n- **Symptoms**: Yellowing and wilting of leaves, rotting at the base.\n- **Control**: Rotate crops, avoid planting in infected soil, and use fungicides.\n\n### 4. **Alternaria Leaf Blight**\n- **Symptoms**: Dark spots on leaves, leading to yellowing and dieback.\n- **Control**: Use resistant varieties, apply fungicides, and practice crop rotation.\n\n### 5. **Bacterial Soft Rot**\n- **Symptoms**: Soft, mushy tissue, foul odor.\n- **Control**: Avoid injury during handling, store in cool, dry conditions, and remove infected plants.\n\n### 6. **Onion Maggot**\n- **Symptoms**: Larvae feeding on roots, leading to stunted growth.\n- **Control**: Use insecticides, practice crop rotation, and maintain soil health.\n\n### General Control Measures:\n- **Cultural Practices**: Rotate crops, maintain proper spacing, and ensure good drainage.\n- **Sanitation**: Remove debris and infected plants from the field.\n- **Chemical Control**: Use appropriate fungicides and insecticides as needed.\n\nRegular monitoring and early intervention are crucial for managing onion diseases effectively. If you notice any symptoms, consider consulting with a local agricultural extension service for specific recommendations.",
+        "timestamp": {
+          "$date": "2024-12-22T13:12:01.072Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Gujarati ",
+        "timestamp": {
+          "$date": "2024-12-22T13:12:43.350Z"
+        },
+        "standalone_question": "What are the common diseases that affect onions?",
+        "standalone_en": "What are the common diseases that affect onions?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "ડુંગળીના પાકને વિવિધ રોગો અસર કરી શકે છે. અહીં કેટલાક સામાન્ય રોગો અને તેમના નિયંત્રણના પગલાંઓ છે:\n\n### 1. **Botrytis Neck Rot**\n- **લક્ષણો**: નેક નરમ અને પાણીવાળું, સપાટી પર ધૂળવાળા મોલ્ડ.\n- **નિયંત્રણ**: હવા પ્રવાહમાં સુધારો કરો, ઉપરથી પાણી આપવાનું ટાળો, અને Chlorothalonil જેવા ફંગિસાઇડનો ઉપયોગ કરો.\n\n### 2. **Downy Mildew**\n- **લક્ષણો**: પાંદડાઓ પર પીળા-હરિત ધબ્બા, નીચેની બાજુ પર સફેદ મોલ્ડ.\n- **નિયંત્રણ**: પ્રતિરોધક જાતોનો ઉપયોગ કરો, ફંગિસાઇડનો છંટકાવ કરો, અને હવા પ્રવાહ માટે યોગ્ય અંતર રાખો.\n\n### 3. **Fusarium Basal Rot**\n- **લક્ષણો**: પાંદડાઓનું પીળું અને વિલ્ટિંગ, આધાર પર સડવું.\n- **નિયંત્રણ**: પાકોનું ફેરફાર કરો, સંક્રમિત જમીનમાં વાવેતર ટાળો, અને ફંગિસાઇડનો ઉપયોગ કરો.\n\n### 4. **Alternaria Leaf Blight**\n- **લક્ષણો**: પાંદડાઓ પર કાળો ધબ્બો, જે પીળા થવા અને મરવા તરફ દોરી જાય છે.\n- **નિયંત્રણ**: પ્રતિરોધક જાતોનો ઉપયોગ કરો, ફંગિસાઇડનો છંટકાવ કરો, અને પાકોનું ફેરફાર કરો.\n\n### 5. **Bacterial Soft Rot**\n- **લક્ષણો**: નરમ, મશી તંતુ, દુષિત ગંધ.\n- **નિયંત્રણ**: હેન્ડલિંગ દરમિયાન ઇજા ટાળો, ઠંડા, સૂકા સ્થળે સંગ્રહિત કરો, અને અસરગ્રસ્ત છોડ દૂર કરો.\n\n### 6. **Onion Maggot**\n- **લક્ષણો**: મૂળ પર લાર્વા ખાવા, જે વૃદ્ધિમાં અવરોધ કરે છે.\n- **નિયંત્રણ**: કીટનાશકનો ઉપયોગ કરો, પાકોનું ફેરફાર કરો, અને જમીનની આરોગ્ય જાળવો.\n\n### સામાન્ય નિયંત્રણના પગલાં:\n- **સાંસ્કૃતિક પદ્ધતિઓ**: પાકોનું ફેરફાર કરો, યોગ્ય અંતર જાળવો, અને સારી નિકાશ સુનિશ્ચિત કરો.\n- **સ્વચ્છતા**: ખેતરમાંથી કચરો અને感染植物 દૂર કરો.\n- **રાસાયણિક નિયંત્રણ**: જરૂર મુજબ યોગ્ય ફંગિસાઇડ અને કીટનાશકનો ઉપયોગ કરો.\n\nનિયમિત નિરીક્ષણ અને વહેલી હસ્તક્ષેપ ડુંગળીના રોગોને અસરકારક રીતે નિયંત્રિત કરવા માટે મહત્વપૂર્ણ છે. જો તમને કોઈ લક્ષણો દેખાય, તો સ્થાનિક કૃષિ વિસ્તરણ સેવા સાથે સંપર્ક કરવા પર વિચાર કરો.",
+        "timestamp": {
+          "$date": "2024-12-22T13:12:57.002Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Only name",
+        "timestamp": {
+          "$date": "2024-12-22T13:15:20.511Z"
+        },
+        "standalone_question": "What are the names of diseases that affect onions?",
+        "standalone_en": "What are the names of diseases that affect onions?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Fyllo supports the following diseases:\n\n1. Alternaria\n2. Alternaria Fruit Blotch\n3. Alternaria Blotch\n4. Alternaria Leaf Blight\n5. Anthracnose\n6. Bacterial Blight\n7. Bacterial Canker\n8. Bacterial Spot\n9. Blister Blight\n10. Botrytis Mold\n11. Brown Rust\n12. Brown Spot\n13. Cercospora\n14. Cercospora Leaf Spot\n15. Cigar End Rot\n16. Citrus Scab\n17. Colletotrichum\n18. Damping Off\n19. Diplodia\n20. Downy Mildew\n21. Early Blight\n22. Fruit Canker\n23. Fusarium Wilt\n24. Graphiola Leaf Spot\n25. Grey Mold\n26. Late Blight\n27. Leaf Blight\n28. Leaf Spot\n29. Marssonina Blotch\n30. Powdery Mildew\n31. Purple Blotch\n32. Red Rot\n33. Rice Blast\n34. Root Knot Nematode\n35. Rust\n36. Scab\n37. Sheath Blight\n38. Sigatoka Leaf Spot\n39. Stylar End Rot\n40. Whip Smut\n41. Xanthomonas\n42. Yellow Rust",
+        "timestamp": {
+          "$date": "2024-12-22T13:15:26.580Z"
+        }
+      }
+    ],
+    "farmer_id": "riteshpayel",
+    "farmer_plot_ids": [
+      "kenalvadukairo",
+      "munnadadakakhetar"
+    ],
+    "conversation_id": "67680fcfcdbedbc11064f650",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-22T13:10:42.730000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "“What disease is this?” ",
+        "timestamp": {
+          "$date": "2024-12-22T12:50:38.973Z"
+        },
+        "standalone_question": "What disease is being referred to?",
+        "standalone_en": "What disease is being referred to?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Please upload an image of the crop so I can analyze it for any diseases or pests.",
+        "timestamp": {
+          "$date": "2024-12-22T12:50:40.792Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Can you get image ??",
+        "timestamp": {
+          "$date": "2024-12-22T12:52:36.419Z"
+        },
+        "standalone_question": "Can you provide an image?",
+        "standalone_en": "Can you provide an image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Please upload the image of the crop that you would like me to analyze for diseases or pests.",
+        "timestamp": {
+          "$date": "2024-12-22T12:52:39.102Z"
+        }
+      }
+    ],
+    "farmer_id": "riteshpayel",
+    "farmer_plot_ids": [
+      "kenalvadukairo",
+      "munnadadakakhetar"
+    ],
+    "conversation_id": "67680b1ecdbedbc11064f64f",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-22T12:50:38.973000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi",
+        "timestamp": {
+          "$date": "2024-12-22T12:45:19.274Z"
+        },
+        "standalone_question": "What would you like to talk about today?",
+        "standalone_en": "What would you like to talk about today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "नमस्कार, आशिष! तुम्हाला कशाबद्दल मदतीची आवश्यकता आहे?",
+        "timestamp": {
+          "$date": "2024-12-22T12:45:23.680Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "हा कोणता रोग आहे ",
+        "timestamp": {
+          "$date": "2024-12-22T12:46:19.192Z"
+        },
+        "standalone_question": "What disease is this?",
+        "standalone_en": "What disease is this?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ha konta rog aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "तुम्ही कोणत्या रोगाबद्दल माहिती हवी आहे? फायलो खालील रोगांचे समर्थन करते:\n\n- अल्टरनारिया\n- अल्टरनारिया फळ ब्लॉच\n- बॅक्टेरियल ब्लाइट\n- बॅक्टेरियल कँकर\n- बॉट्रिटिस मोल्ड\n- ब्राउन रस्ट\n- सर्कोस्पोरा\n- फ्युसेरियम विल्म\n- पावडरी मील्ड्यू\n- राईस ब्लास्ट\n- आणि इतर अनेक.\n\nकृपया तुम्हाला कोणत्या विशिष्ट रोगाबद्दल माहिती हवी आहे ते सांगा.",
+        "timestamp": {
+          "$date": "2024-12-22T12:46:23.599Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पावडरी मिल्ड्यू",
+        "timestamp": {
+          "$date": "2024-12-22T12:46:56.802Z"
+        },
+        "standalone_question": "What can you tell me about powdery mildew?",
+        "standalone_en": "What can you tell me about powdery mildew?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pavadari mildue"
+      },
+      {
+        "role": "assistant",
+        "content": "पावडरी मील्ड्यू एक फंगसजन्य रोग आहे जो मुख्यतः पिकांच्या पानांवर पांढरे किंवा हलके ग्रंथी तयार करतो. हा रोग सामान्यतः उष्णकटिबंधीय आणि उपउष्णकटिबंधीय वातावरणात आढळतो. \n\n### लक्षणे:\n- पानांवर पांढरे किंवा हलके ग्रंथी.\n- पानांचा रंग बदलणे आणि वाळणे.\n- फळांवर किंवा कोंबांवर देखील प्रभाव.\n\n### नियंत्रण:\n1. **पाण्याचे व्यवस्थापन:** पाण्याची योग्य मात्रा देणे, कारण ओलावा वाढल्यास रोगाची तीव्रता वाढू शकते.\n2. **फंगिसाइड्सचा वापर:** योग्य फंगिसाइड्सचा वापर करणे.\n3. **पिकांची योग्य निवड:** रोग प्रतिकारक पिकांची निवड करणे.\n4. **साफसफाई:** पिकांच्या आजुबाजुच्या क्षेत्राची स्वच्छता राखणे.\n\nतुमच्या प्लॉटमध्ये पावडरी मील्ड्यूच्या लक्षणांचा आढावा घेण्यासाठी तुम्हाला अधिक माहिती हवी असल्यास, कृपया सांगा.",
+        "timestamp": {
+          "$date": "2024-12-22T12:47:11.777Z"
+        }
+      }
+    ],
+    "farmer_id": "ashishbabar",
+    "farmer_plot_ids": [
+      "superplot362"
+    ],
+    "conversation_id": "676809df91eacf074079270d",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-22T12:45:19.274000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "બોરોન નો સ્પ્રે કેટલો કરવો ",
+        "timestamp": {
+          "$date": "2024-12-22T12:24:42.431Z"
+        },
+        "standalone_question": "How much boron spray should be applied?",
+        "standalone_en": "How much boron spray should be applied?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "boron no spray ketlo karavo "
+      },
+      {
+        "role": "assistant",
+        "content": "બોરોનનો સ્પ્રે સામાન્ય રીતે 0.5% થી 1% ની માત્રામાં કરવામાં આવે છે. આનો અર્થ એ છે કે 1 લિટર પાણીમાં 5 થી 10 ગ્રામ બોરોન ઉમેરીને સ્પ્રે કરવો. આ સ્પ્રે ફૂલ અને ફળના વિકાસને પ્રોત્સાહન આપવા માટે ઉપયોગી છે. \n\nજો તમે ચોક્કસ રીતે સ્પ્રે કરવાની જરૂરિયાત વિશે વધુ માહિતી માંગતા હો, તો કૃપા કરીને તમારા પાકના તબક્કા અને અન્ય પરિસ્થિતિઓ જણાવો.",
+        "timestamp": {
+          "$date": "2024-12-22T12:24:46.187Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "13.0.45 નો ફાયદો શું થાય ",
+        "timestamp": {
+          "$date": "2024-12-22T12:25:30.462Z"
+        },
+        "standalone_question": "What are the benefits of using 13.0.45 fertilizer?",
+        "standalone_en": "What are the benefits of using 13.0.45 fertilizer?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are the advantages of adding soil, leaf, or petiole test reports?\nA: By adding test reports, Fyllo can generate a more precise fertigation schedule tailored to your specific conditions. Benefits include:\n\n    1. More accurate nutrient recommendations\n    2. Better alignment with your crop's actual needs\n    3. Potential for improved crop health and yield\n    4. More efficient use of fertilizers\n    5. Possible reduction in fertilizer costs and environmental impact"
+          ]
+        },
+        "content_transliterated": "13.0.45 no phayado shu thay "
+      },
+      {
+        "role": "assistant",
+        "content": "13-0-45 ખાતરનો ઉપયોગ મુખ્યત્વે પોટેશિયમની જરૂરિયાતને પૂરી કરવા માટે થાય છે. આ ખાતરમાં 13% નાઇટ્રોજન અને 45% પોટેશિયમ હોય છે, જે પાકના વિકાસ માટે મહત્વપૂર્ણ છે. \n\nઆ ખાતરના ફાયદા:\n\n1. **ફળ અને ફૂલોનું વિકાસ**: પોટેશિયમ ફળ અને ફૂલોના વિકાસને પ્રોત્સાહન આપે છે, જે પાકની ગુણવત્તા અને ઉત્પાદન વધારવામાં મદદ કરે છે.\n\n2. **જળની સંરક્ષણ**: પોટેશિયમ છોડને જળની સંરક્ષણમાં મદદ કરે છે, જે સૂકાઈને ટાળવામાં મદદરૂપ છે.\n\n3. **રોગ પ્રતિરોધકતા**: પોટેશિયમ છોડની રોગ પ્રતિરોધકતા વધારવામાં મદદ કરે છે, જે પાકને રોગો અને જીવાતોથી સુરક્ષિત રાખે છે.\n\n4. **મૂળોના વિકાસ**: નાઇટ્રોજન મૂળોના વિકાસને પ્રોત્સાહન આપે છે, જે છોડની મજબૂતી માટે મહત્વપૂર્ણ છે.\n\nઆ ખાતરનો ઉપયોગ ખાસ કરીને તે પાકો માટે કરવો જોઈએ, જેમને વધુ પોટેશિયમની જરૂર હોય, જેમ કે કેળા, આંબા, અને અન્ય ફળો.",
+        "timestamp": {
+          "$date": "2024-12-22T12:25:37.015Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "0.52.34 નો ફાયદો શું થાય ",
+        "timestamp": {
+          "$date": "2024-12-22T12:27:27.549Z"
+        },
+        "standalone_question": "What are the benefits of using 0-52-34 fertilizer?",
+        "standalone_en": "What are the benefits of using 0-52-34 fertilizer?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are the advantages of adding soil, leaf, or petiole test reports?\nA: By adding test reports, Fyllo can generate a more precise fertigation schedule tailored to your specific conditions. Benefits include:\n\n    1. More accurate nutrient recommendations\n    2. Better alignment with your crop's actual needs\n    3. Potential for improved crop health and yield\n    4. More efficient use of fertilizers\n    5. Possible reduction in fertilizer costs and environmental impact",
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17"
+          ]
+        },
+        "content_transliterated": "0.52.34 no phayado shu thay "
+      },
+      {
+        "role": "assistant",
+        "content": "0-52-34 ખાતરનો ઉપયોગ મુખ્યત્વે ફોસ્ફરસ અને પોટેશિયમની જરૂરિયાતને પૂરી કરવા માટે થાય છે. આ ખાતરમાં 52% ફોસ્ફરસ અને 34% પોટેશિયમ હોય છે, જે પાકના વિકાસ માટે મહત્વપૂર્ણ છે.\n\nઆ ખાતરના ફાયદા:\n\n1. **ફળ અને ફૂલોનું વિકાસ**: ફોસ્ફરસ ફળ અને ફૂલોના વિકાસને પ્રોત્સાહન આપે છે, જે પાકની ગુણવત્તા અને ઉત્પાદન વધારવામાં મદદ કરે છે.\n\n2. **મૂળોના વિકાસ**: ફોસ્ફરસ મૂળોના વિકાસને પ્રોત્સાહન આપે છે, જે છોડને મજબૂત બનાવવામાં મદદ કરે છે.\n\n3. **પોટેશિયમની ઉપલબ્ધતા**: પોટેશિયમ છોડની જળ સંરક્ષણ ક્ષમતા વધારવામાં મદદ કરે છે, જે સૂકાઈને ટાળવામાં મદદરૂપ છે.\n\n4. **રોગ પ્રતિરોધકતા**: પોટેશિયમ છોડની રોગ પ્રતિરોધકતા વધારવામાં મદદ કરે છે, જે પાકને રોગો અને જીવાતોથી સુરક્ષિત રાખે છે.\n\n5. **સ્વાસ્થ્યવર્ધક**: આ ખાતરનો ઉપયોગ પાકના સ્વાસ્થ્યને સુધારવા અને ઉત્પાદનને વધારવા માટે કરવામાં આવે છે.\n\nઆ ખાતરનો ઉપયોગ ખાસ કરીને તે પાકો માટે કરવો જોઈએ, જેમને વધુ ફોસ્ફરસ અને પોટેશિયમની જરૂર હોય, જેમ કે કેળા, આંબા, અને અન્ય ફળો.",
+        "timestamp": {
+          "$date": "2024-12-22T12:27:35.358Z"
+        }
+      }
+    ],
+    "farmer_id": "VR10499",
+    "farmer_plot_ids": [
+      "kairomatiyal",
+      "neroretal"
+    ],
+    "conversation_id": "6768050a91eacf074079270c",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-12-22T12:24:42.431000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "આજે રેડ બ્લાઇડ ની દવા છાંટવાની જરૂર છે",
+        "timestamp": {
+          "$date": "2024-12-22T10:16:11.249Z"
+        },
+        "standalone_question": "Is it necessary to apply the red eye medication today?",
+        "standalone_en": "Is it necessary to apply the red eye medication today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "aje red blide knee dava chantavani jarur che"
+      },
+      {
+        "role": "assistant",
+        "content": "આજે રેડ બ્લાઇડ માટે કોઈ દવા છાંટવાની જરૂર નથી, કારણ કે આજના દિવસ માટે કોઈ સ્પ્રે શેડ્યૂલ નથી.",
+        "timestamp": {
+          "$date": "2024-12-22T10:16:16.856Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "તો સ્પે ક્યારે કરવો",
+        "timestamp": {
+          "$date": "2024-12-22T10:16:48.614Z"
+        },
+        "standalone_question": "When should the spray be applied?",
+        "standalone_en": "When should the spray be applied?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        },
+        "content_transliterated": "to spe kyare karavo"
+      },
+      {
+        "role": "assistant",
+        "content": "આજે રેડ બ્લાઇડ માટે છાંટવાની શ્રેષ્ઠ સમયસૂચી નીચે મુજબ છે:\n\n**આજે (22 ડિસેમ્બર 2024):**\n- 3:30 PM - આદર્શ સ્થિતિ\n- 5:30 PM - આદર્શ સ્થિતિ\n- 6:30 PM - આદર્શ સ્થિતિ\n- 7:30 PM - આદર્શ સ્થિતિ\n- 8:30 PM - આદર્શ સ્થિતિ\n- 9:30 PM - આદર્શ સ્થિતિ\n- 10:30 PM - આદર્શ સ્થિતિ\n\n**કાલે (23 ડિસેમ્બર 2024):**\n- 12:30 AM - આદર્શ સ્થિતિ\n- 1:30 AM - આદર્શ સ્થિતિ\n- 2:30 AM - આદર્શ સ્થિતિ\n- 3:30 AM - આદર્શ સ્થિતિ\n- 4:30 AM - આદર્શ સ્થિતિ\n- 5:30 AM - આદર્શ સ્થિતિ\n- 6:30 AM - આદર્શ સ્થિતિ\n\nઆ સમય દરમિયાન છાંટવું શ્રેષ્ઠ રહેશે.",
+        "timestamp": {
+          "$date": "2024-12-22T10:16:56.134Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા પ્લોટ માં આજે શું બીમારી દેખાય છે",
+        "timestamp": {
+          "$date": "2024-12-22T10:17:28.389Z"
+        },
+        "standalone_question": "What diseases are currently visible in my plot today?",
+        "standalone_en": "What diseases are currently visible in my plot today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara plot man aje shu bimari dekhay che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પ્લોટમાં આજે (22 ડિસેમ્બર 2024) નીચેની બીમારીઓ જોવા મળી રહી છે:\n\n### 1. **ઘરવાળો પ્લોટ (ગણવટ: 98રબ્રા 1)**\n- **લેટ બ્લાઇટ**: 54.9% સંભાવના, **મધ્યમ જોખમ સ્તર**\n- **અર્લી બ્લાઇટ**: 54.4% સંભાવના, **મધ્યમ જોખમ સ્તર**\n\n### 2. **વડિયાવાળો પ્લોટ (ગણવટ: 98રબ્રા 2)**\n- **લેટ બ્લાઇટ**: 54.9% સંભાવના, **મધ્યમ જોખમ સ્તર**\n- **અર્લી બ્લાઇટ**: 54.4% સંભાવના, **મધ્યમ જોખમ સ્તર**\n\nઆ બીમારીઓ માટે યોગ્ય ઉપાયો અને દવાઓનો ઉપયોગ કરવો જરૂરી છે.",
+        "timestamp": {
+          "$date": "2024-12-22T10:17:36.878Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "બટાકામાં સૌથી વધારે ઉત્પાદન લેવા શું કરવું પડે",
+        "timestamp": {
+          "$date": "2024-12-22T10:18:00.188Z"
+        },
+        "standalone_question": "What should be done to achieve the highest yield in potatoes?",
+        "standalone_en": "What should be done to achieve the highest yield in potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "batakaman sauthi vadhare utpadan leva shu karvu pade"
+      },
+      {
+        "role": "assistant",
+        "content": "બટાકામાં સૌથી વધારે ઉત્પાદન મેળવવા માટે નીચેના પગલાં અનુસરો:\n\n1. **ગુણવત્તાવાળા બીજ**: સારા ગુણવત્તાવાળા બીજનો ઉપયોગ કરો, જે રોગમુક્ત અને સ્વસ્થ હોય.\n\n2. **માટીના સ્વાસ્થ્ય**: જમીનનું યોગ્ય પરીક્ષણ કરો અને જરૂરી ખાતરો અને પોષક તત્વો ઉમેરો. લોયમી સૅન્ડ માટી બટાકા માટે શ્રેષ્ઠ છે.\n\n3. **જળવાયુ વ્યવસ્થાપન**: યોગ્ય જળવાયુ વ્યવસ્થાપન કરો. જમીનની ભેજ જાળવવા માટે નિયમિત રીતે પાણી આપો, ખાસ કરીને વાવણી પછી.\n\n4. **ફર્ટિગેશન**: ખાતરોનો યોગ્ય ઉપયોગ કરો. ફર્ટિગેશન પદ્ધતિનો ઉપયોગ કરીને પોષક તત્વો આપો.\n\n5. **રોગ અને કીટક નિયંત્રણ**: રોગ અને કીટકોથી બચવા માટે યોગ્ય દવાઓનો ઉપયોગ કરો. નિયમિત રીતે પાકની તપાસ કરો.\n\n6. **મોસમનું ધ્યાન**: પાકની વૃદ્ધિ માટે યોગ્ય મોસમ પસંદ કરો. બટાકા માટે ઠંડા અને ભેજવાળા હવામાનમાં શ્રેષ્ઠ ઉત્પાદન મળે છે.\n\n7. **સંસ્કૃતિનું સંચાલન**: પાકની સંસ્કૃતિનું યોગ્ય સંચાલન કરો, જેમ કે યોગ્ય અંતર અને વાવણીની ઊંડાઈ.\n\nઆ પગલાંઓને અનુસરીને, તમે બટાકામાં વધુ ઉત્પાદન મેળવી શકો છો.",
+        "timestamp": {
+          "$date": "2024-12-22T10:18:08.785Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "શું નાખવાથી ઉત્પાદન વધે",
+        "timestamp": {
+          "$date": "2024-12-22T10:18:25.698Z"
+        },
+        "standalone_question": "What should be added to increase the yield of potatoes?",
+        "standalone_en": "What should be added to increase the yield of potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "shu nakhavathi utpadan vadhe"
+      },
+      {
+        "role": "assistant",
+        "content": "ઉત્પાદન વધારવા માટે નીચેના પગલાં અનુસરો:\n\n1. **ખાતરો**: યોગ્ય ખાતરોનો ઉપયોગ કરો, જેમ કે નાઈટ્રોજન, ફોસ્ફોરસ અને પોટેશિયમ. ખાતરોનો યોગ્ય પ્રમાણમાં ઉપયોગ કરો.\n\n2. **જમીનનું પરીક્ષણ**: જમીનનું પરીક્ષણ કરીને પોષક તત્વોની જરૂરિયાતો જાણો અને તે મુજબ ખાતરો ઉમેરો.\n\n3. **જળવાયુ વ્યવસ્થાપન**: યોગ્ય જળવાયુ વ્યવસ્થાપન કરો. જમીન ભેજ જાળવવા માટે નિયમિત રીતે પાણી આપો.\n\n4. **રોગ અને કીટક નિયંત્રણ**: રોગ અને કીટકોથી બચવા માટે યોગ્ય દવાઓનો ઉપયોગ કરો. નિયમિત રીતે પાકની તપાસ કરો.\n\n5. **સંસ્કૃતિનું સંચાલન**: પાકની સંસ્કૃતિનું યોગ્ય સંચાલન કરો, જેમ કે યોગ્ય અંતર અને વાવણીની ઊંડાઈ.\n\n6. **મોસમનું ધ્યાન**: પાકની વૃદ્ધિ માટે યોગ્ય મોસમ પસંદ કરો.\n\n7. **જમીનનું સુધારણ**: જમીનમાં ઓર્ગેનિક મટેરિયલ ઉમેરો, જેમ કે કમ્પોસ્ટ, જે જમીનની ગુણવત્તા સુધારશે.\n\nઆ પગલાંઓને અનુસરીને, તમે તમારા પાકનું ઉત્પાદન વધારી શકો છો.",
+        "timestamp": {
+          "$date": "2024-12-22T10:18:33.203Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "અંદર મળી ગયું ઉત્પાદન લેવા શું કરવું પડે",
+        "timestamp": {
+          "$date": "2024-12-22T10:19:03.145Z"
+        },
+        "standalone_question": "What should be done to increase the yield?",
+        "standalone_en": "What should be done to increase the yield?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How to improve the germination percent\nA: Use of good quality seeds and seeds to be treated with insecticide, Fungicide and biological agents"
+          ]
+        },
+        "content_transliterated": "andar mali gayu utpadan leva shu karvu pade"
+      },
+      {
+        "role": "assistant",
+        "content": "અંદર મળી ગયેલા ઉત્પાદનને વધારવા માટે નીચેના પગલાં અનુસરો:\n\n1. **જમીનનું પરીક્ષણ**: જમીનનું યોગ્ય પરીક્ષણ કરો અને પોષક તત્વોની જરૂરિયાતો જાણો. આથી, તમે યોગ્ય ખાતરો અને સુધારણાઓનો ઉપયોગ કરી શકો છો.\n\n2. **ખાતરો**: યોગ્ય ખાતરોનો ઉપયોગ કરો, જેમ કે નાઈટ્રોજન, ફોસ્ફોરસ અને પોટેશિયમ. ખાતરોનો યોગ્ય પ્રમાણમાં ઉપયોગ કરો.\n\n3. **જળવાયુ વ્યવસ્થાપન**: જમીન ભેજ જાળવવા માટે નિયમિત રીતે પાણી આપો. યોગ્ય જળવાયુ વ્યવસ્થાપન પાકની વૃદ્ધિ માટે મહત્વપૂર્ણ છે.\n\n4. **રોગ અને કીટક નિયંત્રણ**: રોગ અને કીટકોથી બચવા માટે યોગ્ય દવાઓનો ઉપયોગ કરો. નિયમિત રીતે પાકની તપાસ કરો.\n\n5. **સંસ્કૃતિનું સંચાલન**: પાકની સંસ્કૃતિનું યોગ્ય સંચાલન કરો, જેમ કે યોગ્ય અંતર અને વાવણીની ઊંડાઈ.\n\n6. **મોસમનું ધ્યાન**: પાકની વૃદ્ધિ માટે યોગ્ય મોસમ પસંદ કરો.\n\n7. **ઓર્ગેનિક મટેરિયલ**: જમીનમાં ઓર્ગેનિક મટેરિયલ ઉમેરો, જેમ કે કમ્પોસ્ટ, જે જમીનની ગુણવત્તા સુધારશે.\n\nઆ પગલાંઓને અનુસરીને, તમે અંદર મળી ગયેલા ઉત્પાદનને વધારી શકો છો.",
+        "timestamp": {
+          "$date": "2024-12-22T10:19:11.601Z"
+        }
+      }
+    ],
+    "farmer_id": "VR10196",
+    "farmer_plot_ids": [
+      "gharvaloplot344",
+      "vadiyavalo"
+    ],
+    "conversation_id": "6767e6ebcdbedbc11064f64d",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-22T10:16:11.249000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "આજે રેડ બ્લાઇડ ની દવા છાંટવાની જરૂર છે",
+        "timestamp": {
+          "$date": "2024-12-22T10:16:11.249Z"
+        },
+        "standalone_question": "Is it necessary to apply the red eye drop today?",
+        "standalone_en": "Is it necessary to apply the red eye drop today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "aje red blide knee dava chantavani jarur che"
+      },
+      {
+        "role": "assistant",
+        "content": "આજે રેડ બ્લાઇડ માટે કોઈ દવા છાંટવાની જરૂર નથી, કારણ કે આજના દિવસ માટે કોઈ સ્પ્રે શેડ્યૂલ નથી.",
+        "timestamp": {
+          "$date": "2024-12-22T10:16:16.856Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "તો સ્પે ક્યારે કરવો",
+        "timestamp": {
+          "$date": "2024-12-22T10:16:48.614Z"
+        },
+        "standalone_question": "When should the spray be applied?",
+        "standalone_en": "When should the spray be applied?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        },
+        "content_transliterated": "to spe kyare karavo"
+      },
+      {
+        "role": "assistant",
+        "content": "આજે રેડ બ્લાઇડ માટે છાંટવાની શ્રેષ્ઠ સમયસૂચી નીચે મુજબ છે:\n\n**આજે (22 ડિસેમ્બર 2024):**\n- 3:30 PM - આદર્શ સ્થિતિ\n- 5:30 PM - આદર્શ સ્થિતિ\n- 6:30 PM - આદર્શ સ્થિતિ\n- 7:30 PM - આદર્શ સ્થિતિ\n- 8:30 PM - આદર્શ સ્થિતિ\n- 9:30 PM - આદર્શ સ્થિતિ\n- 10:30 PM - આદર્શ સ્થિતિ\n\n**કાલે (23 ડિસેમ્બર 2024):**\n- 12:30 AM - આદર્શ સ્થિતિ\n- 1:30 AM - આદર્શ સ્થિતિ\n- 2:30 AM - આદર્શ સ્થિતિ\n- 3:30 AM - આદર્શ સ્થિતિ\n- 4:30 AM - આદર્શ સ્થિતિ\n- 5:30 AM - આદર્શ સ્થિતિ\n- 6:30 AM - આદર્શ સ્થિતિ\n\nઆ સમય દરમિયાન છાંટવું શ્રેષ્ઠ રહેશે.",
+        "timestamp": {
+          "$date": "2024-12-22T10:16:56.134Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા પ્લોટ માં આજે શું બીમારી દેખાય છે",
+        "timestamp": {
+          "$date": "2024-12-22T10:17:28.389Z"
+        },
+        "standalone_question": "What diseases are currently visible in my plot today?",
+        "standalone_en": "What diseases are currently visible in my plot today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara plot man aje shu bimari dekhay che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પ્લોટમાં આજે (22 ડિસેમ્બર 2024) નીચેની બીમારીઓ જોવા મળી રહી છે:\n\n### 1. **ઘરવાળો પ્લોટ (ગણવટ: 98રબ્રા 1)**\n- **લેટ બ્લાઇટ**: 54.9% સંભાવના, **મધ્યમ જોખમ સ્તર**\n- **અર્લી બ્લાઇટ**: 54.4% સંભાવના, **મધ્યમ જોખમ સ્તર**\n\n### 2. **વડિયાવાળો પ્લોટ (ગણવટ: 98રબ્રા 2)**\n- **લેટ બ્લાઇટ**: 54.9% સંભાવના, **મધ્યમ જોખમ સ્તર**\n- **અર્લી બ્લાઇટ**: 54.4% સંભાવના, **મધ્યમ જોખમ સ્તર**\n\nઆ બીમારીઓ માટે યોગ્ય ઉપાયો અને દવાઓનો ઉપયોગ કરવો જરૂરી છે.",
+        "timestamp": {
+          "$date": "2024-12-22T10:17:36.878Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "બટાકામાં સૌથી વધારે ઉત્પાદન લેવા શું કરવું પડે",
+        "timestamp": {
+          "$date": "2024-12-22T10:18:00.188Z"
+        },
+        "standalone_question": "What should be done to achieve the highest yield in potatoes?",
+        "standalone_en": "What should be done to achieve the highest yield in potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "batakaman sauthi vadhare utpadan leva shu karvu pade"
+      },
+      {
+        "role": "assistant",
+        "content": "બટાકામાં સૌથી વધારે ઉત્પાદન મેળવવા માટે નીચેના પગલાં અનુસરો:\n\n1. **ગુણવત્તાવાળા બીજ**: સારા ગુણવત્તાવાળા બીજનો ઉપયોગ કરો, જે રોગમુક્ત અને સ્વસ્થ હોય.\n\n2. **માટીના સ્વાસ્થ્ય**: જમીનનું યોગ્ય પરીક્ષણ કરો અને જરૂરી ખાતરો અને પોષક તત્વો ઉમેરો. લોયમી સૅન્ડ માટી બટાકા માટે શ્રેષ્ઠ છે.\n\n3. **જળવાયુ વ્યવસ્થાપન**: યોગ્ય જળવાયુ વ્યવસ્થાપન કરો. જમીનની ભેજ જાળવવા માટે નિયમિત રીતે પાણી આપો, ખાસ કરીને વાવણી પછી.\n\n4. **ફર્ટિગેશન**: ખાતરોનો યોગ્ય ઉપયોગ કરો. ફર્ટિગેશન પદ્ધતિનો ઉપયોગ કરીને પોષક તત્વો આપો.\n\n5. **રોગ અને કીટક નિયંત્રણ**: રોગ અને કીટકોથી બચવા માટે યોગ્ય દવાઓનો ઉપયોગ કરો. નિયમિત રીતે પાકની તપાસ કરો.\n\n6. **મોસમનું ધ્યાન**: પાકની વૃદ્ધિ માટે યોગ્ય મોસમ પસંદ કરો. બટાકા માટે ઠંડા અને ભેજવાળા હવામાનમાં શ્રેષ્ઠ ઉત્પાદન મળે છે.\n\n7. **સંસ્કૃતિનું સંચાલન**: પાકની સંસ્કૃતિનું યોગ્ય સંચાલન કરો, જેમ કે યોગ્ય અંતર અને વાવણીની ઊંડાઈ.\n\nઆ પગલાંઓને અનુસરીને, તમે બટાકામાં વધુ ઉત્પાદન મેળવી શકો છો.",
+        "timestamp": {
+          "$date": "2024-12-22T10:18:08.785Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "શું નાખવાથી ઉત્પાદન વધે",
+        "timestamp": {
+          "$date": "2024-12-22T10:18:25.698Z"
+        },
+        "standalone_question": "What should be added to increase the yield of potatoes?",
+        "standalone_en": "What should be added to increase the yield of potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "shu nakhavathi utpadan vadhe"
+      },
+      {
+        "role": "assistant",
+        "content": "ઉત્પાદન વધારવા માટે નીચેના પગલાં અનુસરો:\n\n1. **ખાતરો**: યોગ્ય ખાતરોનો ઉપયોગ કરો, જેમ કે નાઈટ્રોજન, ફોસ્ફોરસ અને પોટેશિયમ. ખાતરોનો યોગ્ય પ્રમાણમાં ઉપયોગ કરો.\n\n2. **જમીનનું પરીક્ષણ**: જમીનનું પરીક્ષણ કરીને પોષક તત્વોની જરૂરિયાતો જાણો અને તે મુજબ ખાતરો ઉમેરો.\n\n3. **જળવાયુ વ્યવસ્થાપન**: યોગ્ય જળવાયુ વ્યવસ્થાપન કરો. જમીન ભેજ જાળવવા માટે નિયમિત રીતે પાણી આપો.\n\n4. **રોગ અને કીટક નિયંત્રણ**: રોગ અને કીટકોથી બચવા માટે યોગ્ય દવાઓનો ઉપયોગ કરો. નિયમિત રીતે પાકની તપાસ કરો.\n\n5. **સંસ્કૃતિનું સંચાલન**: પાકની સંસ્કૃતિનું યોગ્ય સંચાલન કરો, જેમ કે યોગ્ય અંતર અને વાવણીની ઊંડાઈ.\n\n6. **મોસમનું ધ્યાન**: પાકની વૃદ્ધિ માટે યોગ્ય મોસમ પસંદ કરો.\n\n7. **જમીનનું સુધારણ**: જમીનમાં ઓર્ગેનિક મટેરિયલ ઉમેરો, જેમ કે કમ્પોસ્ટ, જે જમીનની ગુણવત્તા સુધારશે.\n\nઆ પગલાંઓને અનુસરીને, તમે તમારા પાકનું ઉત્પાદન વધારી શકો છો.",
+        "timestamp": {
+          "$date": "2024-12-22T10:18:33.203Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "અંદર મળી ગયું ઉત્પાદન લેવા શું કરવું પડે",
+        "timestamp": {
+          "$date": "2024-12-22T10:19:03.145Z"
+        },
+        "standalone_question": "What should be done to increase the yield?",
+        "standalone_en": "What should be done to increase the yield?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How to improve the germination percent\nA: Use of good quality seeds and seeds to be treated with insecticide, Fungicide and biological agents"
+          ]
+        },
+        "content_transliterated": "andar mali gayu utpadan leva shu karvu pade"
+      },
+      {
+        "role": "assistant",
+        "content": "અંદર મળી ગયેલા ઉત્પાદનને વધારવા માટે નીચેના પગલાં અનુસરો:\n\n1. **જમીનનું પરીક્ષણ**: જમીનનું યોગ્ય પરીક્ષણ કરો અને પોષક તત્વોની જરૂરિયાતો જાણો. આથી, તમે યોગ્ય ખાતરો અને સુધારણાઓનો ઉપયોગ કરી શકો છો.\n\n2. **ખાતરો**: યોગ્ય ખાતરોનો ઉપયોગ કરો, જેમ કે નાઈટ્રોજન, ફોસ્ફોરસ અને પોટેશિયમ. ખાતરોનો યોગ્ય પ્રમાણમાં ઉપયોગ કરો.\n\n3. **જળવાયુ વ્યવસ્થાપન**: જમીન ભેજ જાળવવા માટે નિયમિત રીતે પાણી આપો. યોગ્ય જળવાયુ વ્યવસ્થાપન પાકની વૃદ્ધિ માટે મહત્વપૂર્ણ છે.\n\n4. **રોગ અને કીટક નિયંત્રણ**: રોગ અને કીટકોથી બચવા માટે યોગ્ય દવાઓનો ઉપયોગ કરો. નિયમિત રીતે પાકની તપાસ કરો.\n\n5. **સંસ્કૃતિનું સંચાલન**: પાકની સંસ્કૃતિનું યોગ્ય સંચાલન કરો, જેમ કે યોગ્ય અંતર અને વાવણીની ઊંડાઈ.\n\n6. **મોસમનું ધ્યાન**: પાકની વૃદ્ધિ માટે યોગ્ય મોસમ પસંદ કરો.\n\n7. **ઓર્ગેનિક મટેરિયલ**: જમીનમાં ઓર્ગેનિક મટેરિયલ ઉમેરો, જેમ કે કમ્પોસ્ટ, જે જમીનની ગુણવત્તા સુધારશે.\n\nઆ પગલાંઓને અનુસરીને, તમે અંદર મળી ગયેલા ઉત્પાદનને વધારી શકો છો.",
+        "timestamp": {
+          "$date": "2024-12-22T10:19:11.601Z"
+        }
+      }
+    ],
+    "farmer_id": "VR10196",
+    "farmer_plot_ids": [
+      "gharvaloplot344",
+      "vadiyavalo"
+    ],
+    "conversation_id": "6767e6ebcdbedbc11064f64d",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-12-22T10:16:11.249000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "આજે રેડ બ્લાઇડ ની દવા છાંટવાની જરૂર છે",
+        "timestamp": {
+          "$date": "2024-12-22T10:16:11.249Z"
+        },
+        "standalone_question": "Is it necessary to apply the red eye medication today?",
+        "standalone_en": "Is it necessary to apply the red eye medication today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "aje red blide knee dava chantavani jarur che"
+      },
+      {
+        "role": "assistant",
+        "content": "આજે રેડ બ્લાઇડ માટે કોઈ દવા છાંટવાની જરૂર નથી, કારણ કે આજના દિવસ માટે કોઈ સ્પ્રે શેડ્યૂલ નથી.",
+        "timestamp": {
+          "$date": "2024-12-22T10:16:16.856Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "તો સ્પે ક્યારે કરવો",
+        "timestamp": {
+          "$date": "2024-12-22T10:16:48.614Z"
+        },
+        "standalone_question": "When should the spray be applied?",
+        "standalone_en": "When should the spray be applied?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        },
+        "content_transliterated": "to spe kyare karavo"
+      },
+      {
+        "role": "assistant",
+        "content": "આજે રેડ બ્લાઇડ માટે છાંટવાની શ્રેષ્ઠ સમયસૂચી નીચે મુજબ છે:\n\n**આજે (22 ડિસેમ્બર 2024):**\n- 3:30 PM - આદર્શ સ્થિતિ\n- 5:30 PM - આદર્શ સ્થિતિ\n- 6:30 PM - આદર્શ સ્થિતિ\n- 7:30 PM - આદર્શ સ્થિતિ\n- 8:30 PM - આદર્શ સ્થિતિ\n- 9:30 PM - આદર્શ સ્થિતિ\n- 10:30 PM - આદર્શ સ્થિતિ\n\n**કાલે (23 ડિસેમ્બર 2024):**\n- 12:30 AM - આદર્શ સ્થિતિ\n- 1:30 AM - આદર્શ સ્થિતિ\n- 2:30 AM - આદર્શ સ્થિતિ\n- 3:30 AM - આદર્શ સ્થિતિ\n- 4:30 AM - આદર્શ સ્થિતિ\n- 5:30 AM - આદર્શ સ્થિતિ\n- 6:30 AM - આદર્શ સ્થિતિ\n\nઆ સમય દરમિયાન છાંટવું શ્રેષ્ઠ રહેશે.",
+        "timestamp": {
+          "$date": "2024-12-22T10:16:56.134Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા પ્લોટ માં આજે શું બીમારી દેખાય છે",
+        "timestamp": {
+          "$date": "2024-12-22T10:17:28.389Z"
+        },
+        "standalone_question": "What diseases are currently visible in my plot today?",
+        "standalone_en": "What diseases are currently visible in my plot today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara plot man aje shu bimari dekhay che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પ્લોટમાં આજે (22 ડિસેમ્બર 2024) નીચેની બીમારીઓ જોવા મળી રહી છે:\n\n### 1. **ઘરવાળો પ્લોટ (ગણવટ: 98રબ્રા 1)**\n- **લેટ બ્લાઇટ**: 54.9% સંભાવના, **મધ્યમ જોખમ સ્તર**\n- **અર્લી બ્લાઇટ**: 54.4% સંભાવના, **મધ્યમ જોખમ સ્તર**\n\n### 2. **વડિયાવાળો પ્લોટ (ગણવટ: 98રબ્રા 2)**\n- **લેટ બ્લાઇટ**: 54.9% સંભાવના, **મધ્યમ જોખમ સ્તર**\n- **અર્લી બ્લાઇટ**: 54.4% સંભાવના, **મધ્યમ જોખમ સ્તર**\n\nઆ બીમારીઓ માટે યોગ્ય ઉપાયો અને દવાઓનો ઉપયોગ કરવો જરૂરી છે.",
+        "timestamp": {
+          "$date": "2024-12-22T10:17:36.878Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "બટાકામાં સૌથી વધારે ઉત્પાદન લેવા શું કરવું પડે",
+        "timestamp": {
+          "$date": "2024-12-22T10:18:00.188Z"
+        },
+        "standalone_question": "What should be done to achieve the highest yield in potatoes?",
+        "standalone_en": "What should be done to achieve the highest yield in potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "batakaman sauthi vadhare utpadan leva shu karvu pade"
+      },
+      {
+        "role": "assistant",
+        "content": "બટાકામાં સૌથી વધારે ઉત્પાદન મેળવવા માટે નીચેના પગલાં અનુસરો:\n\n1. **ગુણવત્તાવાળા બીજ**: સારા ગુણવત્તાવાળા બીજનો ઉપયોગ કરો, જે રોગમુક્ત અને સ્વસ્થ હોય.\n\n2. **માટીના સ્વાસ્થ્ય**: જમીનનું યોગ્ય પરીક્ષણ કરો અને જરૂરી ખાતરો અને પોષક તત્વો ઉમેરો. લોયમી સૅન્ડ માટી બટાકા માટે શ્રેષ્ઠ છે.\n\n3. **જળવાયુ વ્યવસ્થાપન**: યોગ્ય જળવાયુ વ્યવસ્થાપન કરો. જમીનની ભેજ જાળવવા માટે નિયમિત રીતે પાણી આપો, ખાસ કરીને વાવણી પછી.\n\n4. **ફર્ટિગેશન**: ખાતરોનો યોગ્ય ઉપયોગ કરો. ફર્ટિગેશન પદ્ધતિનો ઉપયોગ કરીને પોષક તત્વો આપો.\n\n5. **રોગ અને કીટક નિયંત્રણ**: રોગ અને કીટકોથી બચવા માટે યોગ્ય દવાઓનો ઉપયોગ કરો. નિયમિત રીતે પાકની તપાસ કરો.\n\n6. **મોસમનું ધ્યાન**: પાકની વૃદ્ધિ માટે યોગ્ય મોસમ પસંદ કરો. બટાકા માટે ઠંડા અને ભેજવાળા હવામાનમાં શ્રેષ્ઠ ઉત્પાદન મળે છે.\n\n7. **સંસ્કૃતિનું સંચાલન**: પાકની સંસ્કૃતિનું યોગ્ય સંચાલન કરો, જેમ કે યોગ્ય અંતર અને વાવણીની ઊંડાઈ.\n\nઆ પગલાંઓને અનુસરીને, તમે બટાકામાં વધુ ઉત્પાદન મેળવી શકો છો.",
+        "timestamp": {
+          "$date": "2024-12-22T10:18:08.785Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "શું નાખવાથી ઉત્પાદન વધે",
+        "timestamp": {
+          "$date": "2024-12-22T10:18:25.698Z"
+        },
+        "standalone_question": "What should be added to increase the yield of potatoes?",
+        "standalone_en": "What should be added to increase the yield of potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "shu nakhavathi utpadan vadhe"
+      },
+      {
+        "role": "assistant",
+        "content": "ઉત્પાદન વધારવા માટે નીચેના પગલાં અનુસરો:\n\n1. **ખાતરો**: યોગ્ય ખાતરોનો ઉપયોગ કરો, જેમ કે નાઈટ્રોજન, ફોસ્ફોરસ અને પોટેશિયમ. ખાતરોનો યોગ્ય પ્રમાણમાં ઉપયોગ કરો.\n\n2. **જમીનનું પરીક્ષણ**: જમીનનું પરીક્ષણ કરીને પોષક તત્વોની જરૂરિયાતો જાણો અને તે મુજબ ખાતરો ઉમેરો.\n\n3. **જળવાયુ વ્યવસ્થાપન**: યોગ્ય જળવાયુ વ્યવસ્થાપન કરો. જમીન ભેજ જાળવવા માટે નિયમિત રીતે પાણી આપો.\n\n4. **રોગ અને કીટક નિયંત્રણ**: રોગ અને કીટકોથી બચવા માટે યોગ્ય દવાઓનો ઉપયોગ કરો. નિયમિત રીતે પાકની તપાસ કરો.\n\n5. **સંસ્કૃતિનું સંચાલન**: પાકની સંસ્કૃતિનું યોગ્ય સંચાલન કરો, જેમ કે યોગ્ય અંતર અને વાવણીની ઊંડાઈ.\n\n6. **મોસમનું ધ્યાન**: પાકની વૃદ્ધિ માટે યોગ્ય મોસમ પસંદ કરો.\n\n7. **જમીનનું સુધારણ**: જમીનમાં ઓર્ગેનિક મટેરિયલ ઉમેરો, જેમ કે કમ્પોસ્ટ, જે જમીનની ગુણવત્તા સુધારશે.\n\nઆ પગલાંઓને અનુસરીને, તમે તમારા પાકનું ઉત્પાદન વધારી શકો છો.",
+        "timestamp": {
+          "$date": "2024-12-22T10:18:33.203Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "અંદર મળી ગયું ઉત્પાદન લેવા શું કરવું પડે",
+        "timestamp": {
+          "$date": "2024-12-22T10:19:03.145Z"
+        },
+        "standalone_question": "What should be done to increase the yield?",
+        "standalone_en": "What should be done to increase the yield?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How to improve the germination percent\nA: Use of good quality seeds and seeds to be treated with insecticide, Fungicide and biological agents"
+          ]
+        },
+        "content_transliterated": "andar mali gayu utpadan leva shu karvu pade"
+      },
+      {
+        "role": "assistant",
+        "content": "અંદર મળી ગયેલા ઉત્પાદનને વધારવા માટે નીચેના પગલાં અનુસરો:\n\n1. **જમીનનું પરીક્ષણ**: જમીનનું યોગ્ય પરીક્ષણ કરો અને પોષક તત્વોની જરૂરિયાતો જાણો. આથી, તમે યોગ્ય ખાતરો અને સુધારણાઓનો ઉપયોગ કરી શકો છો.\n\n2. **ખાતરો**: યોગ્ય ખાતરોનો ઉપયોગ કરો, જેમ કે નાઈટ્રોજન, ફોસ્ફોરસ અને પોટેશિયમ. ખાતરોનો યોગ્ય પ્રમાણમાં ઉપયોગ કરો.\n\n3. **જળવાયુ વ્યવસ્થાપન**: જમીન ભેજ જાળવવા માટે નિયમિત રીતે પાણી આપો. યોગ્ય જળવાયુ વ્યવસ્થાપન પાકની વૃદ્ધિ માટે મહત્વપૂર્ણ છે.\n\n4. **રોગ અને કીટક નિયંત્રણ**: રોગ અને કીટકોથી બચવા માટે યોગ્ય દવાઓનો ઉપયોગ કરો. નિયમિત રીતે પાકની તપાસ કરો.\n\n5. **સંસ્કૃતિનું સંચાલન**: પાકની સંસ્કૃતિનું યોગ્ય સંચાલન કરો, જેમ કે યોગ્ય અંતર અને વાવણીની ઊંડાઈ.\n\n6. **મોસમનું ધ્યાન**: પાકની વૃદ્ધિ માટે યોગ્ય મોસમ પસંદ કરો.\n\n7. **ઓર્ગેનિક મટેરિયલ**: જમીનમાં ઓર્ગેનિક મટેરિયલ ઉમેરો, જેમ કે કમ્પોસ્ટ, જે જમીનની ગુણવત્તા સુધારશે.\n\nઆ પગલાંઓને અનુસરીને, તમે અંદર મળી ગયેલા ઉત્પાદનને વધારી શકો છો.",
+        "timestamp": {
+          "$date": "2024-12-22T10:19:11.601Z"
+        }
+      }
+    ],
+    "farmer_id": "VR10196",
+    "farmer_plot_ids": [
+      "gharvaloplot344",
+      "vadiyavalo"
+    ],
+    "conversation_id": "6767e6ebcdbedbc11064f64d",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-12-22T10:16:11.249000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Plot no 2 size sathi kay karave",
+        "timestamp": {
+          "$date": "2024-12-22T10:08:37.473Z"
+        },
+        "standalone_question": "What should be done regarding the size of plot number 2?",
+        "standalone_en": "What should be done regarding the size of plot number 2?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Plot No 2 Sudhakar साठी तुम्हाला खालील गोष्टी कराव्या लागतील:\n\n1. **पाण्याची गरज**: मातीच्या आर्द्रतेच्या स्तरावर लक्ष ठेवा. जर मातीची आर्द्रता 200 kPa (कोरडी) असेल, तर तुम्हाला पाणी द्यावे लागेल. \n\n2. **फर्टिगेशन**: तुमच्या पिकाच्या अवस्थेनुसार योग्य फर्टिगेशन शेड्यूल ठरवा. \n\n3. **कीड नियंत्रण**: पिकांमध्ये कीड किंवा रोगांचा प्रादुर्भाव असल्यास, योग्य कीटकनाशकांचा वापर करा.\n\n4. **सिंचन योजना**: योग्य सिंचन पद्धती वापरा, जसे की ड्रिप सिंचन, जे पाण्याची बचत करते.\n\n5. **मातीची आरोग्य तपासणी**: मातीच्या आरोग्याची नियमित तपासणी करा, जसे की pH स्तर, पोषण तत्वे इत्यादी.\n\nतुमच्या पिकाच्या विशेष गरजांनुसार अधिक माहिती हवी असल्यास, कृपया सांगा.",
+        "timestamp": {
+          "$date": "2024-12-22T10:08:43.778Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Plot pivla vatat ahe",
+        "timestamp": {
+          "$date": "2024-12-22T10:09:19.644Z"
+        },
+        "standalone_question": "Is the plot facing any issues?",
+        "standalone_en": "Is the plot facing any issues?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Plot No 2 Sudhakar च्या पिकांमध्ये पाण्याची गरज आहे का हे तपासण्यासाठी, मी तुमच्या मातीच्या आर्द्रतेच्या स्तराची माहिती घेईन. कृपया थोड्या वेळात मी तुम्हाला पाण्याची आवश्यकता कधी आहे हे सांगू शकतो. \n\nतुमच्या पिकाच्या स्थितीवर आधारित, तुम्हाला पाण्याची आवश्यकता असू शकते. तुम्हाला अधिक माहिती हवी असल्यास, कृपया सांगा.",
+        "timestamp": {
+          "$date": "2024-12-22T10:09:23.479Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Fertigation sanga ",
+        "timestamp": {
+          "$date": "2024-12-22T10:09:46.464Z"
+        },
+        "standalone_question": "What is fertigation?",
+        "standalone_en": "What is fertigation?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available.",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: Where can I find the fertigation schedule in the Fyllo app?\nA: To access the fertigation schedule:\n    1. Open the Fyllo app\n    2. Select \"My Farm\" at the bottom\n    3. Tap on the \"Fertigation\" option\n   You'll find the fertigation schedule there, including details about the required fertilizer applications.",
+            "Q: How do I generate a fertigation schedule in the app?\nA: To generate a fertigation schedule, follow these steps:\n\n    1. Go to \"My Farm\"\n    2. Select \"Fertigation\"\n    3. Tap \"Create Report\"\n    4. Fill in all the required details\n    5. Save the report\n    If you have soil, leaf, or petiole test data, you can input this for a more customized schedule. Otherwise, we can generate a basic schedule using general crop and regional data."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Plot No 2 Sudhakar साठी फर्टिगेशन शेड्यूल खालीलप्रमाणे आहे:\n\n### सध्याची अवस्था: **Beginning Veraison**\n- **सुरुवात तारीख**: 22 डिसेंबर 2024\n- **सप्ताह**: 1\n\n#### फर्टिगेशन शेड्यूल:\n1. **फर्टिगेशन पद्धतीने**:\n   - **मैग्नेशियम सल्फेट**: 1 किलोग्राम/एकर\n   - **सल्फेट ऑफ पोटाश**: 3.5 किलोग्राम/एकर\n\n2. **फोलिअर पद्धतीने**:\n   - **सोल्यूबोर**: 400 ग्रॅम/एकर\n   - (फोलिअर स्प्रे साठी 1% पेक्षा जास्त एकाग्रता वापरू नका, म्हणजे 500 लिटर पाण्यात 5 किलोग्राम)\n\n### पुढील शेड्यूल:\n- **अवस्था**: Beginning Veraison\n- **सप्ताह**: 2\n- **फर्टिगेशन पद्धतीने**:\n   - **मैग्नेशियम सल्फेट**: 1 किलोग्राम/एकर\n   - **सल्फेट ऑफ पोटाश**: 3.5 किलोग्राम/एकर\n- **सुरुवात तारीख**: 2 फेब्रुवारी 2025\n\nतुमच्या पिकाच्या गरजेनुसार फर्टिगेशन करा. अधिक माहिती हवी असल्यास, कृपया सांगा.",
+        "timestamp": {
+          "$date": "2024-12-22T10:09:58.583Z"
+        }
+      }
+    ],
+    "farmer_id": "somnathpagar",
+    "farmer_plot_ids": [
+      "plotno2sudhakar314",
+      "plotno3sudhakar603"
+    ],
+    "conversation_id": "6767e52591eacf074079270b",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-12-22T10:08:37.473000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "આ દવા કયા રોગ માં કામ આવે ",
+        "timestamp": {
+          "$date": "2024-12-22T09:43:20.616Z"
+        },
+        "standalone_question": "What disease does this medicine treat?",
+        "standalone_en": "What disease does this medicine treat?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "a dava kaya rog man calm ave "
+      },
+      {
+        "role": "assistant",
+        "content": "કૃપા કરીને દવા અથવા રોગનું નામ જણાવો, જેથી હું વધુ માહિતી આપી શકું.",
+        "timestamp": {
+          "$date": "2024-12-22T09:43:23.309Z"
+        }
+      }
+    ],
+    "farmer_id": "VR8571",
+    "farmer_plot_ids": [
+      "jjpatelfarm",
+      "padarvaluplot",
+      "vadi"
+    ],
+    "conversation_id": "6767df3891eacf074079270a",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-22T09:43:20.616000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "40 દિવસના બટાકામાં કયું ખાતર વાપરવું 40 દિવસ બટાકામાં કેટલો ખાતર વાપરવાનું 40 દિવસમાં બટાકાનું ખાતર વાપરવું? હવે બોલો 40 દિવસમાં બટાકામાં કયું ખાતર નાખવું",
+        "timestamp": {
+          "$date": "2024-12-22T07:32:45.880Z"
+        },
+        "standalone_question": "What type of fertilizer should be used for potatoes after 40 days?",
+        "standalone_en": "What type of fertilizer should be used for potatoes after 40 days?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "40 divasana batakaman kayu khatar vaparvu 40 divas batakaman ketlo khatar vaaparvaanun 40 divasaman batakanun khatar vaparvu? have bolo 40 divasaman batakaman kayu khatar nakhavun"
+      },
+      {
+        "role": "assistant",
+        "content": "40 દિવસના બટાકા માટે, નીચેના ખાતરોનો ઉપયોગ કરવો જોઈએ:\n\n### Main Palot Bor valo (4 acres)\n- **Potassium Nitrate (13-0-45)**: 7 kg/acre\n- **Urea**: 5 kg/acre\n- **Urea**: 6.5 kg/acre (બીજી વખત)\n- **Sulfate of Potash**: 6.5 kg/acre (બીજી વખત)\n\n### Vada valo Palot (3 acres)\n- **Potassium Nitrate (13-0-45)**: 7 kg/acre\n- **Urea**: 5 kg/acre\n- **Urea**: 6.5 kg/acre (બીજી વખત)\n- **Sulfate of Potash**: 6.5 kg/acre (બીજી વખત)\n\n### Vada valo Palot (3 acres)\n- **Potassium Nitrate (13-0-45)**: 7 kg/acre\n- **Urea**: 5 kg/acre\n- **Urea**: 6.5 kg/acre (બીજી વખત)\n- **Sulfate of Potash**: 6.5 kg/acre (બીજી વખત)\n\nઆ ખાતરોનો ઉપયોગ કરીને, તમે તમારા બટાકાના પાકને યોગ્ય પોષણ આપી શકો છો.",
+        "timestamp": {
+          "$date": "2024-12-22T07:32:53.485Z"
+        }
+      }
+    ],
+    "farmer_id": "VR4872",
+    "farmer_plot_ids": [
+      "mainpalotborvalo",
+      "vadavalopalot",
+      "vadavalopalot405"
+    ],
+    "conversation_id": "6767c09d91eacf0740792708",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-12-22T07:32:45.880000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "અત્યારે કઈ દવા ચોટવાની ",
+        "timestamp": {
+          "$date": "2024-12-22T06:59:42.586Z"
+        },
+        "standalone_question": "What medicine should I take right now?",
+        "standalone_en": "What medicine should I take right now?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "atyare kai dava chotvani "
+      },
+      {
+        "role": "assistant",
+        "content": "આજે, 22 ડિસેમ્બર 2024, નીચેની દવાઓ ચોટવાની ભલામણ કરવામાં આવી છે:\n\n### 1. **Plot: Khejada Valu**\n- **Crop Stage:** Tuber Development\n- **Diseases/Pests:** Late blight, Early blight, Aphids, Whitefly, Leaf eating Caterpillar, Mites\n- **Application Mode:** Foliar\n- **Possible Spray Combinations:**\n  - **Option 1:** \n    - 2 g of Ametoctradin + Dimethomorph\n    - 0.4 mL of Broflanilide 300G/L SC\n  - **Option 2:** \n    - 2.5 g of Metiram 44% + Dimethomorph 9%\n    - 0.4 mL of Flubendiamide 19.92 + Thiacloprid 19.92 ww SC, 480 SC\n  - **Option 3:** \n    - 1.2 g of Dimethomorph\n    - 0.4 mL of Isocycloseram 9.2% w/w DC + Isocycloseram 10% w/v DC\n\n### 2. **Plot: Patsala**\n- **Crop Stage:** Vegetative Growth\n- **Diseases/Pests:** Aphids, Thrips, Whitefly\n- **Application Mode:** Foliar\n- **Possible Spray Combinations:**\n  - **Option 1:** \n    - 1.25 mL of Tolfenpyrad 15% EC\n  - **Option 2:** \n    - 0.8 mL of Spirotetramat + Imidacloprid\n  - **Option 3:** \n    - 1 g of Pyrifluquinazon 20% WG\n  - **Option 4:** \n    - 0.4 mL of Broflanilide 300G/L SC\n\n- **Additional Recommendation for Mites:**\n  - **Option 1:** \n    - 1 mL of Chlorfenapyr 10 SC\n  - **Option 2:** \n    - 2.5 mL of Propargite 42% + Hexythiazox 2% EC\n  - **Option 3:** \n    - 0.6 mL of Cyenopyrafen 30 SC\n\nઆ દવાઓને યોગ્ય રીતે ચોટવા માટે 1 લિટર પાણીમાં મિશ્રિત કરો.",
+        "timestamp": {
+          "$date": "2024-12-22T06:59:52.426Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ચારે પાણી પાવાનું ",
+        "timestamp": {
+          "$date": "2024-12-22T07:00:58.123Z"
+        },
+        "standalone_question": "What is the recommended amount of water to mix with the pesticides?",
+        "standalone_en": "What is the recommended amount of water to mix with the pesticides?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice.",
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed"
+          ]
+        },
+        "content_transliterated": "care pani pavanun "
+      },
+      {
+        "role": "assistant",
+        "content": "### Irrigation Recommendations for Your Plots\n\n#### 1. **Dela Valu**\n- **Current Soil Moisture:**\n  - Sensor 1: 0 kPa (Wet)\n  - Sensor 2: 4 kPa (Wet)\n- **Optimal Soil Moisture:** 2 (wet) - 15 (dry)\n- **Recommendation:** No irrigation needed as the soil is wet.\n\n#### 2. **Khejada Valu**\n- **Current Soil Moisture:**\n  - Sensor 1: 8 kPa (Wet)\n  - Sensor 2: 14 kPa (Wet)\n- **Optimal Soil Moisture:** 2 (wet) - 20 (dry)\n- **Recommendation:** No irrigation needed as the soil is still within the optimal range.\n\n#### 3. **Patsala**\n- **Current Soil Moisture:**\n  - Sensor 1: 1 kPa (Wet)\n  - Sensor 2: 1 kPa (Wet)\n- **Optimal Soil Moisture:** 2 (wet) - 18 (dry)\n- **Recommendation:** No irrigation needed as the soil is wet.\n\n### Summary\nCurrently, all your plots have sufficient moisture, and no irrigation is required at this time.",
+        "timestamp": {
+          "$date": "2024-12-22T07:01:04.681Z"
+        }
+      }
+    ],
+    "farmer_id": "VR4859",
+    "farmer_plot_ids": [
+      "delavalu",
+      "khejadavalu",
+      "patsala"
+    ],
+    "conversation_id": "6767b8de2f3dfb2220cc02a7",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-12-22T06:59:42.586000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "આજનું વાતાવરણ",
+        "timestamp": {
+          "$date": "2024-12-22T06:52:05.687Z"
+        },
+        "standalone_question": "What is the weather like today?",
+        "standalone_en": "What is the weather like today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ajanun vatavaran"
+      },
+      {
+        "role": "assistant",
+        "content": "આજનું વાતાવરણ નીચે મુજબ છે:\n\n### Dela Valu\n- **તાપમાન:** 23°C (12:00 PM)\n- **આર હ્યુમિડિટી:** 52%\n- **વર્ષા:** 0 mm\n\n### Khejada Valu\n- **તાપમાન:** 23°C (12:00 PM)\n- **આર હ્યુમિડિટી:** 52%\n- **વર્ષા:** 0 mm\n\n### Patsala\n- **તાપમાન:** 23°C (12:00 PM)\n- **આર હ્યુમિડિટી:** 52%\n- **વર્ષા:** 0 mm\n\n**નોટ:** આજના દિવસમાં કોઈ વર્ષા નોંધાઈ નથી અને તાપમાન 23°C છે. ETO (Evapotranspiration) માટે કોઈ માહિતી ઉપલબ્ધ નથી. \n\nજો તમને વધુ માહિતી જોઈએ તો જણાવો!",
+        "timestamp": {
+          "$date": "2024-12-22T06:52:12.850Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "આજે દવા છાંટવાની ",
+        "timestamp": {
+          "$date": "2024-12-22T06:54:02.074Z"
+        },
+        "standalone_question": "Is today a good day for spraying medicine?",
+        "standalone_en": "Is today a good day for spraying medicine?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        },
+        "content_transliterated": "aje dava chantavani "
+      },
+      {
+        "role": "assistant",
+        "content": "આજે દવા છાંટવાની સૂચના નીચે મુજબ છે:\n\n### Khejada Valu\n- **તારીખ:** 22 ડિસેમ્બર 2024\n- **રોગો/પેસ્ટ:** \n  - લેટ બ્લાઇટ\n  - ઈર્લી બ્લાઇટ\n  - આફિડ્સ\n  - વ્હાઇટફ્લાય\n  - પાન ખાવા વાળા કીટક\n  - માઇટ્સ\n- **સૂચિત દવા:** \n  1. **Ametoctradin + Dimethomorph** - 2g\n  2. **Broflanilide 300G/L SC** - 0.4mL\n  3. **Metiram 44% + Dimethomorph 9%** - 2.5g\n  4. **Flubendiamide 19.92 + Thiacloprid 19.92 ww SC, 480 SC** - 0.4mL\n  5. **Dimethomorph** - 1.2g\n  6. **Isocycloseram 9.2% w/w DC + Isocycloseram 10% w/v DC** - 0.4mL\n\n### Patsala\n- **તારીખ:** 22 ડિસેમ્બર 2024\n- **રોગો/પેસ્ટ:** \n  - આફિડ્સ\n  - થ્રિપ્સ\n  - વ્હાઇટફ્લાય\n  - માઇટ્સ\n  - રેડ સ્પાઇડર માઇટ્સ\n- **સૂચિત દવા:** \n  1. **Tolfenpyrad 15% EC** - 1.25mL\n  2. **Spirotetramat + Imidacloprid** - 0.8mL\n  3. **Pyrifluquinazon 20% WG** - 1g\n  4. **Broflanilide 300G/L SC** - 0.4mL\n  5. **Chlorfenapyr 10 SC** - 1mL\n  6. **Propargite 42% + Hexythiazox 2% EC** - 2.5mL\n  7. **Cyenopyrafen 30 SC** - 0.6mL\n\n**નોંધ:** આ દવાઓ છાંટવા માટે પાણીમાં ભેળવીને છાંટવું. \n\nજો તમને વધુ માહિતી જોઈએ તો જણાવો!",
+        "timestamp": {
+          "$date": "2024-12-22T06:54:17.228Z"
+        }
+      }
+    ],
+    "farmer_id": "VR4859",
+    "farmer_plot_ids": [
+      "delavalu",
+      "khejadavalu",
+      "patsala"
+    ],
+    "conversation_id": "6767b715cdbedbc11064f64c",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-12-22T06:52:05.687000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Pati me kya problam ?",
+        "timestamp": {
+          "$date": "2024-12-22T06:28:05.382Z"
+        },
+        "standalone_question": "What is the problem with the patient?",
+        "standalone_en": "What is the problem with the patient?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapke plots mein kuch samasyaayein ho sakti hain, jaise ki paani ki kami, khad ki zaroorat, ya keet-patango ka prabhav. Kya aap mujhe batayenge ki aap kis specific samasya ke baare mein jaanana chahte hain? Aapke plots ke naam bhi bata sakte hain, jisse main aapko behtar madad kar sakun.",
+        "timestamp": {
+          "$date": "2024-12-22T06:28:09.340Z"
+        }
+      }
+    ],
+    "farmer_id": "hasmukhbhai916",
+    "farmer_plot_ids": [
+      "plot1pomeharisangh",
+      "plot3dragonhasmukh",
+      "pome2harisangh"
+    ],
+    "conversation_id": "6767b1757cb9fa6308312879",
+    "tag": "others",
+    "conv_date": "2024-12-22T06:28:05.382000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "આ દવા કયા રોગ માટે નખાય ",
+        "timestamp": {
+          "$date": "2024-12-22T06:11:06.802Z"
+        },
+        "standalone_question": "What disease is this medicine prescribed for?",
+        "standalone_en": "What disease is this medicine prescribed for?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "a dava kaya rog mate nakhay "
+      },
+      {
+        "role": "assistant",
+        "content": "કૃપા કરીને દવા અથવા રોગનું નામ જણાવો, જેથી હું વધુ માહિતી આપી શકું.",
+        "timestamp": {
+          "$date": "2024-12-22T06:11:09.269Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "આ દવા કયા રોગ માં નખાય ",
+        "timestamp": {
+          "$date": "2024-12-22T06:12:09.664Z"
+        },
+        "standalone_question": "What disease is this medicine used for?",
+        "standalone_en": "What disease is this medicine used for?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "a dava kaya rog man nakhay "
+      },
+      {
+        "role": "assistant",
+        "content": "કૃપા કરીને દવા અથવા રોગનું નામ જણાવો, જેથી હું વધુ માહિતી આપી શકું.",
+        "timestamp": {
+          "$date": "2024-12-22T06:12:12.469Z"
+        }
+      }
+    ],
+    "farmer_id": "VR8571",
+    "farmer_plot_ids": [
+      "jjpatelfarm",
+      "padarvaluplot",
+      "vadi"
+    ],
+    "conversation_id": "6767ad7a91eacf0740792707",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-22T06:11:06.802000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Plot  ka nam kaise badle",
+        "timestamp": {
+          "$date": "2024-12-22T06:00:41.827Z"
+        },
+        "standalone_question": "How can I change the name of the plot?",
+        "standalone_en": "How can I change the name of the plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Fyllo app mein plot ka naam badalne ke liye, aapko kuch steps follow karne honge:\n\n1. Fyllo app kholen.\n2. Home screen par jayein.\n3. Apne plot par click karein jiska naam aap badalna chahte hain.\n4. Plot details page par, \"Edit\" ya \"Rename\" option dhoondhein.\n5. Naya naam daalein aur changes save karein.\n\nAgar aapko koi dikkat hoti hai, toh Fyllo agronomy team se sampark karein.",
+        "timestamp": {
+          "$date": "2024-12-22T06:00:45.105Z"
+        }
+      }
+    ],
+    "farmer_id": "rahuljhambarepatil",
+    "farmer_plot_ids": [
+      "antroli25a",
+      "antroliplittwentyfive",
+      "plotnofivevadapurkairo",
+      "vadapurunitplotgrapessuperplot"
+    ],
+    "conversation_id": "6767ab0991eacf0740792706",
+    "tag": "others",
+    "conv_date": "2024-12-22T06:00:41.827000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Let blit mate kai dava no chantkav karvo ",
+        "timestamp": {
+          "$date": "2024-12-22T05:53:56.511Z"
+        },
+        "standalone_question": "What should I do to help my friend?",
+        "standalone_en": "What should I do to help my friend?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "આપના કાયરો 1 પ્લોટ માટે આ સપ્તાહમાં કોઈ રોગ અથવા કીટકની છંટકાવની શેડ્યૂલ નથી. તેથી, હાલમાં છંટકાવ કરવાની જરૂર નથી.",
+        "timestamp": {
+          "$date": "2024-12-22T05:54:00.544Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Fuvara athva pump thi dava apva mate shu fark ",
+        "timestamp": {
+          "$date": "2024-12-22T05:54:55.035Z"
+        },
+        "standalone_question": "What is the difference between using a sprayer or a pump for applying medicine?",
+        "standalone_en": "What is the difference between using a sprayer or a pump for applying medicine?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "ફુવારા અને પંપથી દવા આપવાની પદ્ધતિઓમાં કેટલાક મુખ્ય તફાવત છે:\n\n1. **ફુવારા (Foliar Spray)**:\n   - પાન પર સીધા છંટકાવ કરવામાં આવે છે.\n   - ઝડપી અસર દર્શાવે છે, કારણ કે પાન દ્વારા તાત્કાલિક શોષણ થાય છે.\n   - ખાસ કરીને જ્યારે કીટક અથવા રોગ પાન પર હોય ત્યારે વધુ અસરકારક છે.\n\n2. **પંપ (Fertigation)**:\n   - દવા અથવા ખાતર પાણી સાથે સિંચાઈના માધ્યમથી જમીનમાં આપવામાં આવે છે.\n   - જમીન દ્વારા શોષણ થાય છે, જે મૂળને સીધા અસર કરે છે.\n   - લાંબા ગાળાના પરિણામો માટે વધુ અસરકારક છે, ખાસ કરીને જમીનના પોષણ માટે.\n\nઆ રીતે, ફુવારા પદ્ધતિ તાત્કાલિક અસર માટે છે, જ્યારે પંપ પદ્ધતિ લાંબા ગાળાના લાભો માટે છે.",
+        "timestamp": {
+          "$date": "2024-12-22T05:55:00.234Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140"
+    ],
+    "conversation_id": "6767a974101ba68c094795a6",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-12-22T05:53:56.511000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Khat ky soodu",
+        "timestamp": {
+          "$date": "2024-12-22T05:32:59.625Z"
+        },
+        "standalone_question": "What is the meaning of \"Khat ky soodu\"?",
+        "standalone_en": "What is the meaning of \"Khat ky soodu\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "### Fertigation Schedule for Your Plots\n\n#### 1. **Manikchaman Plot No.1**\n- **Current Stage:** Berry Development (Week 3)\n- **Current Date:** 22nd December 2024\n\n**Current Week Fertigation:**\n- **Fertilizers to Apply:**\n  - **13-40-13:** 3 kg/acre\n  - **Calcium Nitrate:** 6.5 kg/acre\n  - **Sulfate of Potash:** 6.5 kg/acre\n  - **Magnesium Sulphate:** 2.5 kg/acre\n- **Notes:**\n  - Phosphoric acid should be applied separately, 15-20 minutes before application of other fertilizers.\n  - Calcium nitrate should be applied separately, 15-20 minutes after application of other fertilizers.\n\n**Next Week Fertigation (Week 4):**\n- **Fertilizers to Apply:**\n  - Same as above.\n- **Start Date of Next Week:** 10th February 2025\n\n---\n\n#### 2. **Super Plot New**\n- **Current Stage:** Shoot Development (Week 3)\n- **Current Date:** 22nd December 2024\n\n**Current Week Fertigation:**\n- **Fertilizers to Apply:**\n  - **Solubor:** 300 gm/acre\n  - **Gibberellic Acid (GA3):** 15 ppm\n- **Notes:**\n  - The concentration of micro-nutrient fertilizers for foliar spray should not exceed 1% (e.g., 5 kg in 500 liters of water per acre).\n  - Foliar application of PGR and micronutrients should be applied separately.\n\n**Next Week Fertigation (Beginning of Bloom, Week 1):**\n- **Fertilizers to Apply:**\n  - **Mono Potassium Phosphate:** 3.5 kg/acre\n  - **Phosphoric Acid 80%:** 1.5 kg/acre\n- **Start Date of Next Week:** 1st January 2025\n\n---\n\nMake sure to follow the notes for proper application timing and methods!",
+        "timestamp": {
+          "$date": "2024-12-22T05:33:07.947Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "This week ",
+        "timestamp": {
+          "$date": "2024-12-22T05:34:36.461Z"
+        },
+        "standalone_question": "What fertilizers should be applied this week?",
+        "standalone_en": "What fertilizers should be applied this week?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\".",
+            "get_specific_fertigation_requirements  \nFinds the fertigation requirements for the plots with a particular crop stage and week numbers."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "### Fertigation Schedule for This Week (22nd December 2024)\n\n#### 1. **Manikchaman Plot No.1**\n- **Current Stage:** Berry Development (Week 3)\n- **Fertigation Schedule:**\n  - **Fertilizers to Apply:**\n    - **13-40-13:** 3 kg/acre\n    - **Calcium Nitrate:** 6.5 kg/acre\n    - **Sulfate of Potash:** 6.5 kg/acre\n    - **Magnesium Sulphate:** 2.5 kg/acre\n  - **Notes:**\n    - Phosphoric acid should be applied separately, 15-20 minutes before application of other fertilizers.\n    - Calcium nitrate should be applied separately, 15-20 minutes after application of other fertilizers.\n\n---\n\n#### 2. **Super Plot New**\n- **Current Stage:** Shoot Development (Week 3)\n- **Fertigation Schedule:**\n  - **Fertilizers to Apply:**\n    - **Solubor:** 300 gm/acre\n    - **Gibberellic Acid (GA3):** 15 ppm\n  - **Notes:**\n    - The concentration of micro-nutrient fertilizers for foliar spray should not exceed 1% (e.g., 5 kg in 500 liters of water per acre).\n    - Foliar application of PGR and micronutrients should be applied separately.\n\n---\n\nMake sure to follow the notes for proper application timing and methods!",
+        "timestamp": {
+          "$date": "2024-12-22T05:34:43.980Z"
+        }
+      }
+    ],
+    "farmer_id": "ruturajyashwantbhosale",
+    "farmer_plot_ids": [
+      "mainkchamanplotruturaj",
+      "plotsuperruturaj"
+    ],
+    "conversation_id": "6767a48b91eacf0740792703",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-12-22T05:32:59.625000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મારા પ્લોટ માં કયો રોગ છે",
+        "timestamp": {
+          "$date": "2024-12-22T05:14:05.625Z"
+        },
+        "standalone_question": "What disease is present in my plot?",
+        "standalone_en": "What disease is present in my plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara plot man kayo rog che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પ્લોટમાં રોગની ઓળખ કરવા માટે, કૃપા કરીને રોગનું ચિત્ર અપલોડ કરો, જેથી હું તેને વિશ્લેષણ કરી શકું.",
+        "timestamp": {
+          "$date": "2024-12-22T05:14:08.611Z"
+        }
+      }
+    ],
+    "farmer_id": "VR4872",
+    "farmer_plot_ids": [
+      "mainpalotborvalo",
+      "vadavalopalot",
+      "vadavalopalot405"
+    ],
+    "conversation_id": "6767a01d91eacf0740792702",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-22T05:14:05.625000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "અમારા બટાકામાં અત્યારે કોઈ રોગ છે કે નહીં",
+        "timestamp": {
+          "$date": "2024-12-22T04:51:36.505Z"
+        },
+        "standalone_question": "Is there currently any disease in our potatoes?",
+        "standalone_en": "Is there currently any disease in our potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "amara batakaman atyare koi rog che ke nahin"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા બટાકામાં કેટલાક રોગોનું જોખમ છે:\n\n1. **Dela Valu**:\n   - **લેટ બ્લાઇટ**: 22 ડિસેમ્બર 2024 - 57.9% (મધ્યમ જોખમ)\n   - **અર્લી બ્લાઇટ**: 22 ડિસેમ્બર 2024 - 54.6% (મધ્યમ જોખમ)\n\n2. **Patsala**:\n   - **લેટ બ્લાઇટ**: 22 ડિસેમ્બર 2024 - 55.0% (મધ્યમ જોખમ)\n   - **અર્લી બ્લાઇટ**: 22 ડિસેમ્બર 2024 - 54.3% (મધ્યમ જોખમ)\n\n3. **Khejada Valu**:\n   - **લેટ બ્લાઇટ**: 22 ડિસેમ્બર 2024 - 55.0% (મધ્યમ જોખમ)\n   - **અર્લી બ્લાઇટ**: 22 ડિસેમ્બર 2024 - 54.3% (મધ્યમ જોખમ)\n\nઆ રોગોનું જોખમ મધ્યમ છે, તેથી યોગ્ય પગલાં લેવા માટે તાત્કાલિક પગલાં લેવું મહત્વપૂર્ણ છે.",
+        "timestamp": {
+          "$date": "2024-12-22T04:51:44.754Z"
+        }
+      }
+    ],
+    "farmer_id": "VR4859",
+    "farmer_plot_ids": [
+      "delavalu",
+      "khejadavalu",
+      "patsala"
+    ],
+    "conversation_id": "67679ad8cdbedbc11064f64b",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-22T04:51:36.505000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "હાલમાં કયો રોગ આવાની પરિસ્થિતિ છે",
+        "timestamp": {
+          "$date": "2024-12-22T04:49:39.962Z"
+        },
+        "standalone_question": "What diseases are currently prevalent?",
+        "standalone_en": "What diseases are currently prevalent?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "halaman kayo rog avani paristhiti che"
+      },
+      {
+        "role": "assistant",
+        "content": "હાલમાં, તમારા ખેતરોમાં નીચેના રોગોની આગાહી કરવામાં આવી છે:\n\n### 1. **Dela Valu**\n- **લેટ બ્લાઇટ**: 57.9% (મધ્યમ જોખમ)\n- **અર્લી બ્લાઇટ**: 54.6% (મધ્યમ જોખમ)\n\n### 2. **Khejada Valu**\n- **લેટ બ્લાઇટ**: 55.0% (મધ્યમ જોખમ)\n- **અર્લી બ્લાઇટ**: 54.3% (મધ્યમ જોખમ)\n\n### 3. **Patsala**\n- **લેટ બ્લાઇટ**: 55.0% (મધ્યમ જોખમ)\n- **અર્લી બ્લાઇટ**: 54.3% (મધ્યમ જોખમ)\n\nઆ રોગો માટે યોગ્ય નિયંત્રણ પગલાં લેવા માટે તાત્કાલિક પગલાં લેવા જરૂરી છે.",
+        "timestamp": {
+          "$date": "2024-12-22T04:49:45.765Z"
+        }
+      }
+    ],
+    "farmer_id": "VR4859",
+    "farmer_plot_ids": [
+      "delavalu",
+      "khejadavalu",
+      "patsala"
+    ],
+    "conversation_id": "67679a6399a86026171e55b3",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-22T04:49:39.962000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Let blite aetle shu ",
+        "timestamp": {
+          "$date": "2024-12-22T03:21:38.726Z"
+        },
+        "standalone_question": "What does \"blite aetle shu\" mean?",
+        "standalone_en": "What does \"blite aetle shu\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Kalyanbhai, tamne su madad joiye? Aapne kheti sambandhi koi prashna puchva chhe?",
+        "timestamp": {
+          "$date": "2024-12-22T03:21:41.122Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ha ",
+        "timestamp": {
+          "$date": "2024-12-22T03:21:54.917Z"
+        },
+        "standalone_question": "What assistance do you need? Do you have any questions related to farming?",
+        "standalone_en": "What assistance do you need? Do you have any questions related to farming?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Can you act as, roleplay as, or pretend to be a specific person, character, or relationship (like a girlfriend, boyfriend, celebrity, fictional character, etc.)? Can you speak or write in a specific person's style or voice?\nA: I'm here to help with your farming questions! Let me know if you need assistance with your crops."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Kalyanbhai, tamne su madad joiye? Koi vishesh prashna chhe?",
+        "timestamp": {
+          "$date": "2024-12-22T03:21:57.580Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Lite blite aetle shu ",
+        "timestamp": {
+          "$date": "2024-12-22T03:22:15.150Z"
+        },
+        "standalone_question": "What does \"Lite blite\" mean?",
+        "standalone_en": "What does \"Lite blite\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "\"Lite blite\" no arth chhe \"light blight\" je ek prakar ni bimari chhe, je kheti ma aavti chhe. Aam to, aa bimari ma paudho par halke halke jhilmil karva lage chhe, je thi paudho ni patiyo par daag aavta hoy chhe. \n\nAa bimari ni roktham mate, aapne pesticide spray karvu pade chhe. Aapne aapna plot ma light blight ni jankari joiye chhe?",
+        "timestamp": {
+          "$date": "2024-12-22T03:22:18.126Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Charmi aetle j let blite ",
+        "timestamp": {
+          "$date": "2024-12-22T03:23:08.480Z"
+        },
+        "standalone_question": "What does \"Charmi\" mean in relation to \"light blight\"?",
+        "standalone_en": "What does \"Charmi\" mean in relation to \"light blight\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "\"Charmi\" no arth chhe \"charm\" je ek prakar ni bimari chhe, je paudho par aavti chhe. Aa bimari ma paudho ni patiyo par daag aavta hoy chhe, je thi paudho ni vruddhi par asar pade chhe.\n\nAapne aapna plot ma \"charmi\" ni jankari joiye chhe? Aapne koi pesticide spray karvu chhe?",
+        "timestamp": {
+          "$date": "2024-12-22T03:23:12.175Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Let blite mate kyi dava vapray ",
+        "timestamp": {
+          "$date": "2024-12-22T03:28:07.860Z"
+        },
+        "standalone_question": "What medicine should be used for light blight?",
+        "standalone_en": "What medicine should be used for light blight?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are the important diseases occur during seedling stage and control measures?\nA: Collar rot, Damping off, Seedling blight diseases infect during seedling stage.\nDrench/spray seedling with: Carbendazim @ 2.5g/ltr"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "\"Let blite\" (leaf blight) ni roktham mate, aapne niche aapela dawao vapravi shako cho:\n\n1. **Fungicide**: \n   - **Carbendazim** @ 2.5g/ltr - aa dawa paudho par spray karva mate upyogi chhe.\n\nAapne aa dawa ne 7-10 divaso ma ek vaar spray karvu chhe, je thi paudho ne surakshit rakhi shakai. \n\nAapne koi biji madad joiye chhe?",
+        "timestamp": {
+          "$date": "2024-12-22T03:28:12.110Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140"
+    ],
+    "conversation_id": "676785c291eacf0740792701",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-12-22T03:21:38.726000+00:00"
+  }
+]

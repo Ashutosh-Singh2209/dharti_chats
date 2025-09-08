@@ -1,0 +1,683 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "आज कोणते औषध मारले ",
+        "en": "Which drug killed today? ",
+        "timestamp": {
+          "$date": "2025-04-24T18:48:13.697Z"
+        },
+        "standalone_question": "What medicine was taken today?",
+        "standalone_en": "What medicine was taken today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "aj conte ausadh marley "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या \"sugarcane plot 1\" मध्ये २४ एप्रिल २०२५ रोजी कोणतेही औषध मारले गेले नाही.",
+        "en": "In our \"Sugarcane Plot 1\", no drugs were killed on April 24, 2025.",
+        "timestamp": {
+          "$date": "2025-04-24T18:48:18.826Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "शेतामध्ये कोणते घटक कमी पडतात ",
+        "en": "What ingredients are lacking in the field? ",
+        "timestamp": {
+          "$date": "2025-04-24T18:49:05.933Z"
+        },
+        "standalone_question": "What elements are lacking in the field?",
+        "standalone_en": "What elements are lacking in the field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "shetamadhye conte ghatak kami padatat "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या \"sugarcane plot 1\" मध्ये कोणते घटक कमी पडत आहेत हे तपासण्यासाठी, मला आपल्या शेताच्या मातीच्या आरोग्याबद्दल अधिक माहिती आवश्यक आहे. कृपया मातीच्या विश्लेषणाची माहिती द्या किंवा मी फर्टिगेशन शेड्यूल तपासू शकतो, ज्यामुळे आपल्याला आवश्यक घटकांची माहिती मिळेल.",
+        "en": "To check which ingredients are missing in your \"sugarcane plot 1,\" I need to know more about the soil health of your farm. Please provide information on the soil analysis or I can check the fertigation schedule, which will give you information on the elements you need.",
+        "timestamp": {
+          "$date": "2025-04-24T18:49:09.748Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "मातीच्या आरोग्याबद्दल माहिती द्या ",
+        "en": "Provide information about soil health ",
+        "timestamp": {
+          "$date": "2025-04-24T18:50:07.496Z"
+        },
+        "standalone_question": "What information can you provide about the health of the soil?",
+        "standalone_en": "What information can you provide about the health of the soil?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Why should I consider soil, leaf, or petiole testing?\nA: Soil, leaf, and petiole testing are crucial for effective plant health management. These tests provide specific data about your crop's nutrient needs, allowing for more precise fertilizer application. This can lead to higher productivity with optimized input use, potentially reducing costs and environmental impact.",
+            "Q: Sensor is showing wet, i.e. less kpa but soil looks dry.\nA: The sensor measures the moisture around the rootzone which is not visible from the top. Ask use to check the moisture in rootzone around the sensor. If it matches, ask the user to irrigate.",
+            "Q: What is my soil moisture depletion?\nA: Soil moisture depletion %age = (100 - soil moisture %age)",
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise.",
+            "Q: What are the advantages of adding soil, leaf, or petiole test reports?\nA: By adding test reports, Fyllo can generate a more precise fertigation schedule tailored to your specific conditions. Benefits include:\n\n    1. More accurate nutrient recommendations\n    2. Better alignment with your crop's actual needs\n    3. Potential for improved crop health and yield\n    4. More efficient use of fertilizers\n    5. Possible reduction in fertilizer costs and environmental impact"
+          ]
+        },
+        "content_transliterated": "matichya arogyabaddal mahiti dya "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या \"sugarcane plot 1\" मध्ये सध्या \"Tillering\" टप्प्यात आहात, जो ९ एप्रिल २०२५ पासून सुरू झाला आहे. सध्या कोणतीही फर्टिगेशनची आवश्यकता नाही.\n\nपुढील फर्टिगेशन शेड्यूल:\n- **टप्पा:** Grand growth\n- **सप्ताह:** २\n- **तारीख:** २ जुलै २०२५\n- **फर्टिलायझर:** \n  - Ammonium Sulphate: १२५.५ किलोग्राम/एकर\n  - Muriate of Potash: २४ किलोग्राम/एकर\n\nआपल्या मातीच्या आरोग्यासाठी योग्य फर्टिलायझर वापरणे महत्त्वाचे आहे, जेणेकरून पिकांना आवश्यक पोषण मिळेल.",
+        "en": "In your \"Sugarcane Plot 1\", you are currently in the \"Tillering\" phase, which has started from 9th April 2025. No fertigation is currently required.\n\nNext fertigation schedule:\n- **Phase:** Grand growth\n- **Weeks:** 2\n- **Date:** July 2, 2025\n- **Fertilizer:** \n  - Ammonium Sulphate: 125.5 kg/acre\n  - Muriate of Potash: 24 kg/acre\n\nIt is important to use the right fertilizer for the health of your soil, so that the flowers will get the necessary nutrition.",
+        "timestamp": {
+          "$date": "2025-04-24T18:50:14.369Z"
+        }
+      }
+    ],
+    "farmer_id": "harshalsajane",
+    "farmer_plot_ids": [
+      "sugarcaneplot1118"
+    ],
+    "conversation_id": "680a876d6726dde62ad1aa33",
+    "_id": "680a876d6726dde62ad1aa33",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-24T18:55:07.504000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-24T18:48:13.697000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "आज कोणते औषध मारले ",
+        "en": "Which drug killed today? ",
+        "timestamp": {
+          "$date": "2025-04-24T18:48:13.697Z"
+        },
+        "standalone_question": "What medicine was taken today?",
+        "standalone_en": "What medicine was taken today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "aj conte ausadh marley "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या \"sugarcane plot 1\" मध्ये २४ एप्रिल २०२५ रोजी कोणतेही औषध मारले गेले नाही.",
+        "en": "In our \"Sugarcane Plot 1\", no drugs were killed on April 24, 2025.",
+        "timestamp": {
+          "$date": "2025-04-24T18:48:18.826Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "शेतामध्ये कोणते घटक कमी पडतात ",
+        "en": "What ingredients are lacking in the field? ",
+        "timestamp": {
+          "$date": "2025-04-24T18:49:05.933Z"
+        },
+        "standalone_question": "What elements are lacking in the field?",
+        "standalone_en": "What elements are lacking in the field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "shetamadhye conte ghatak kami padatat "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या \"sugarcane plot 1\" मध्ये कोणते घटक कमी पडत आहेत हे तपासण्यासाठी, मला आपल्या शेताच्या मातीच्या आरोग्याबद्दल अधिक माहिती आवश्यक आहे. कृपया मातीच्या विश्लेषणाची माहिती द्या किंवा मी फर्टिगेशन शेड्यूल तपासू शकतो, ज्यामुळे आपल्याला आवश्यक घटकांची माहिती मिळेल.",
+        "en": "To check which ingredients are missing in your \"sugarcane plot 1,\" I need to know more about the soil health of your farm. Please provide information on the soil analysis or I can check the fertigation schedule, which will give you information on the elements you need.",
+        "timestamp": {
+          "$date": "2025-04-24T18:49:09.748Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "मातीच्या आरोग्याबद्दल माहिती द्या ",
+        "en": "Provide information about soil health ",
+        "timestamp": {
+          "$date": "2025-04-24T18:50:07.496Z"
+        },
+        "standalone_question": "What information can you provide about the health of the soil?",
+        "standalone_en": "What information can you provide about the health of the soil?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Why should I consider soil, leaf, or petiole testing?\nA: Soil, leaf, and petiole testing are crucial for effective plant health management. These tests provide specific data about your crop's nutrient needs, allowing for more precise fertilizer application. This can lead to higher productivity with optimized input use, potentially reducing costs and environmental impact.",
+            "Q: Sensor is showing wet, i.e. less kpa but soil looks dry.\nA: The sensor measures the moisture around the rootzone which is not visible from the top. Ask use to check the moisture in rootzone around the sensor. If it matches, ask the user to irrigate.",
+            "Q: What is my soil moisture depletion?\nA: Soil moisture depletion %age = (100 - soil moisture %age)",
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise.",
+            "Q: What are the advantages of adding soil, leaf, or petiole test reports?\nA: By adding test reports, Fyllo can generate a more precise fertigation schedule tailored to your specific conditions. Benefits include:\n\n    1. More accurate nutrient recommendations\n    2. Better alignment with your crop's actual needs\n    3. Potential for improved crop health and yield\n    4. More efficient use of fertilizers\n    5. Possible reduction in fertilizer costs and environmental impact"
+          ]
+        },
+        "content_transliterated": "matichya arogyabaddal mahiti dya "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या \"sugarcane plot 1\" मध्ये सध्या \"Tillering\" टप्प्यात आहात, जो ९ एप्रिल २०२५ पासून सुरू झाला आहे. सध्या कोणतीही फर्टिगेशनची आवश्यकता नाही.\n\nपुढील फर्टिगेशन शेड्यूल:\n- **टप्पा:** Grand growth\n- **सप्ताह:** २\n- **तारीख:** २ जुलै २०२५\n- **फर्टिलायझर:** \n  - Ammonium Sulphate: १२५.५ किलोग्राम/एकर\n  - Muriate of Potash: २४ किलोग्राम/एकर\n\nआपल्या मातीच्या आरोग्यासाठी योग्य फर्टिलायझर वापरणे महत्त्वाचे आहे, जेणेकरून पिकांना आवश्यक पोषण मिळेल.",
+        "en": "In your \"Sugarcane Plot 1\", you are currently in the \"Tillering\" phase, which has started from 9th April 2025. No fertigation is currently required.\n\nNext fertigation schedule:\n- **Phase:** Grand growth\n- **Weeks:** 2\n- **Date:** July 2, 2025\n- **Fertilizer:** \n  - Ammonium Sulphate: 125.5 kg/acre\n  - Muriate of Potash: 24 kg/acre\n\nIt is important to use the right fertilizer for the health of your soil, so that the flowers will get the necessary nutrition.",
+        "timestamp": {
+          "$date": "2025-04-24T18:50:14.369Z"
+        }
+      }
+    ],
+    "farmer_id": "harshalsajane",
+    "farmer_plot_ids": [
+      "sugarcaneplot1118"
+    ],
+    "conversation_id": "680a876d6726dde62ad1aa33",
+    "_id": "680a876d6726dde62ad1aa33",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-24T18:55:07.504000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-24T18:48:13.697000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "मुलांना अन्नद्रव्य उपलब्ध होतात का",
+        "en": "Do children have access to nutrients?",
+        "timestamp": {
+          "$date": "2025-04-24T14:26:47.879Z"
+        },
+        "standalone_question": "Do children have access to food resources?",
+        "standalone_en": "Do children have access to food resources?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mulanna annadravy upalabdh hotat ka"
+      },
+      {
+        "role": "assistant",
+        "content": "होय, मुलांना अन्नद्रव्य उपलब्ध होतात. अन्नद्रव्य म्हणजेच वनस्पतींना आवश्यक असलेले पोषण तत्वे, जसे की नायट्रोजन, फॉस्फरस, आणि पोटॅशियम (NPK). हे अन्नद्रव्य मातीतील किंवा खतांद्वारे वनस्पतींना मिळतात, ज्यामुळे त्यांची वाढ आणि विकास होतो. योग्य प्रमाणात अन्नद्रव्य मिळाल्यास, मुलांना चांगली वाढ आणि उत्पादन मिळते.",
+        "en": "Yes, children have access to nutrients. Nutrients are the nutrients plants need, such as nitrogen, phosphorus, and potassium (NPK). These nutrients are obtained by plants in the soil or through fertilizers, which allow them to grow and develop. With the right amount of nutrients, children get good growth and production.",
+        "timestamp": {
+          "$date": "2025-04-24T14:26:51.997Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "मु ळाना अन्नद्रव्य व्यवस्थित मिळतात का ",
+        "en": "Do they get nutrients properly? ",
+        "timestamp": {
+          "$date": "2025-04-24T14:28:15.599Z"
+        },
+        "standalone_question": "Do plants receive nutrients properly?",
+        "standalone_en": "Do plants receive nutrients properly?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mu lana annadravy vyavasthit milatat ka "
+      },
+      {
+        "role": "assistant",
+        "content": "मुलांना अन्नद्रव्य व्यवस्थित मिळवण्यासाठी योग्य व्यवस्थापन आवश्यक आहे. यामध्ये खालील गोष्टींचा समावेश आहे:\n\n1. **मातीची चाचणी**: मातीतील अन्नद्रव्यांची पातळी समजून घेण्यासाठी चाचणी करणे आवश्यक आहे.\n2. **खतांचा वापर**: योग्य प्रकारचे आणि प्रमाणात खतांचा वापर करणे, जसे की NPK खत.\n3. **पाण्याचे व्यवस्थापन**: पाण्याची योग्य मात्रा आणि वेळेवर सिंचन करणे.\n4. **पोषणाची गरज**: प्रत्येक पिकाच्या आवश्यकतांनुसार अन्नद्रव्यांची उपलब्धता सुनिश्चित करणे.\n\nजर या सर्व गोष्टी व्यवस्थित केल्या तर मुलांना अन्नद्रव्य व्यवस्थित मिळतील.",
+        "en": "Proper management is essential for children to get nutrients right. These include the following:\n\n1. **Soil testing**: Testing is necessary to understand the level of nutrients in the soil.\n2. **Use of fertilizers**: Use of the right type and quantity of fertilizers, such as NPK fertilizer.\n3. **Water management**: Proper amount of water and timely irrigation.\n4. **Nutritional needs**: Ensuring availability of nutrients according to the needs of each crop.\n\nIf all these things are done properly, the children will get the nutrients properly.",
+        "timestamp": {
+          "$date": "2025-04-24T14:28:23.337Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Npk मशीन काय सांगते ",
+        "en": "What the Npk machine says ",
+        "timestamp": {
+          "$date": "2025-04-24T14:29:33.426Z"
+        },
+        "standalone_question": "What does the NPK machine indicate?",
+        "standalone_en": "What does the NPK machine indicate?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "NPK मशीन म्हणजेच अन्नद्रव्यांचे प्रमाण मोजणारी यंत्रणा, जी नायट्रोजन (N), फॉस्फरस (P), आणि पोटॅशियम (K) यांचे प्रमाण मोजते. हे अन्नद्रव्य पिकांच्या वाढीसाठी अत्यंत महत्त्वाचे आहेत. \n\nNPK मशीनद्वारे मिळालेल्या मोजमापांद्वारे तुम्हाला तुमच्या मातीतील अन्नद्रव्यांची स्थिती समजून घेता येते, ज्यामुळे तुम्ही योग्य खतांचा वापर करून पिकांची वाढ सुधारू शकता. \n\nजर तुम्हाला तुमच्या प्लॉटसाठी NPK मशीनच्या मोजमापांची माहिती हवी असेल, तर कृपया मला सांगा.",
+        "en": "The NPK machine is a system that measures the amount of nitrogen (N), phosphorus (P), and potassium (K). These nutrients are very important for the growth of crops. \n\nMeasurements obtained by the NPK machine allow you to understand the status of nutrients in your soil, which allows you to improve crop growth by using the right fertilizers. \n\nIf you would like to know about the measurements of the NPK machine for your plot, please let me know.",
+        "timestamp": {
+          "$date": "2025-04-24T14:29:44.339Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "एनपीके मशीन मोजमापाची माहिती हवी आहे ",
+        "en": "Need information on NPK machine measurement ",
+        "timestamp": {
+          "$date": "2025-04-24T14:31:16.694Z"
+        },
+        "standalone_question": "What information do you need about the measurements from the NPK machine?",
+        "standalone_en": "What information do you need about the measurements from the NPK machine?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17",
+            "Q: Why should I consider soil, leaf, or petiole testing?\nA: Soil, leaf, and petiole testing are crucial for effective plant health management. These tests provide specific data about your crop's nutrient needs, allowing for more precise fertilizer application. This can lead to higher productivity with optimized input use, potentially reducing costs and environmental impact."
+          ]
+        },
+        "content_transliterated": "npk machine mojamapachi mahiti havi aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "\"सुगंधित प्लॉट 1\" साठी एनपीके मशीनच्या मोजमापांची माहिती खालीलप्रमाणे आहे:\n\n- **सध्याचे मोजमाप**:\n  - **मातीतील आर्द्रता**: 75% (सध्या आर्द्र)\n  - **माती तापमान**: 28.44°C\n\n- **आवश्यक अन्नद्रव्ये**:\n  - **नायट्रोजन (N)**, **फॉस्फरस (P)**, आणि **पोटॅशियम (K)** यांचे प्रमाण मोजण्यासाठी एनपीके मशीन वापरले जाते. \n  - **आवश्यक अन्नद्रव्ये**: 100% (आर्द्र) - 60% (कोरडे), कोरड्या टक्क्यांखाली सिंचन करणे आवश्यक आहे.\n\nजर तुम्हाला अधिक माहिती हवी असेल तर कृपया सांगा!",
+        "en": "The measurements of the NPK machine for the \"aromatic plot 1\" are as follows:\n\n- **Current measurements**:\n  - **Soil moisture**: 75% (currently moist)\n  - **Soil temperature**: 28.44°C\n\n- **Essential Nutrients**:\n  - NPK machines are used to measure the amount of **nitrogen (N)**, **phosphorus (P)**, and **potassium (K)**. \n  * Essential nutrients**: 100% (moist) - 60% (dry), needs to be irrigated under dry percentage.\n\nIf you need more information, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-24T14:31:30.972Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Npk मशीन कुठे मिळेल ",
+        "en": "Where to find NPK machine ",
+        "timestamp": {
+          "$date": "2025-04-24T14:33:16.933Z"
+        },
+        "standalone_question": "Where can I find an NPK machine?",
+        "standalone_en": "Where can I find an NPK machine?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17"
+          ]
+        },
+        "content_transliterated": "Npk machine kuthe milel "
+      },
+      {
+        "role": "assistant",
+        "content": "NPK मशीन किंवा अन्नद्रव्य मोजणारी यंत्रणा तुम्हाला खालील ठिकाणी मिळू शकते:\n\n1. **कृषी उपकरणांची दुकाने**: स्थानिक कृषी उपकरणांच्या दुकानांमध्ये NPK मशीन उपलब्ध असू शकतात.\n2. **ऑनलाइन प्लॅटफॉर्म**: Amazon, Flipkart, किंवा अन्य कृषी संबंधित वेबसाइट्सवर तुम्ही NPK मशीन खरेदी करू शकता.\n3. **कृषी सहकारी संस्था**: तुमच्या स्थानिक कृषी सहकारी संस्थांमध्ये देखील या यंत्रणांची उपलब्धता असू शकते.\n4. **कृषी प्रदर्शन**: कृषी प्रदर्शनांमध्ये विविध उपकरणे आणि यंत्रणांची प्रदर्शने केली जातात, जिथे तुम्ही NPK मशीन खरेदी करू शकता.\n\nतुमच्या स्थानिक बाजारात किंवा ऑनलाइन शोधून तुम्हाला योग्य मशीन मिळवता येईल.",
+        "en": "You can find an NPK machine or nutrient measurement system at the following locations:\n\n1. **Agricultural Equipment Shops**: NPK machines may be available in local agricultural equipment stores.\n2. **Online platform**: You can buy NPK machines on Amazon, Flipkart, or other agricultural related websites.\n3. **Agricultural Co-operative Societies**: Your local agricultural cooperative may also have access to these systems.\n4. **Agricultural Exhibition**: Agricultural exhibitions showcase various equipment and systems, where you can buy NPK machines.\n\nYou can find the right machine by searching in your local market or online.",
+        "timestamp": {
+          "$date": "2025-04-24T14:33:22.955Z"
+        }
+      }
+    ],
+    "farmer_id": "harshalsajane",
+    "farmer_plot_ids": [
+      "sugarcaneplot1118"
+    ],
+    "conversation_id": "680a4a2743440b7a27aad56e",
+    "_id": "680a4a2743440b7a27aad56e",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-24T14:38:16.944000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-24T14:26:47.879000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi ",
+        "en": "Hi ",
+        "timestamp": {
+          "$date": "2025-04-24T14:21:52.202Z"
+        },
+        "standalone_question": "What would you like to talk about?",
+        "standalone_en": "What would you like to talk about?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Hello Kalyanbhai! How can I assist you with your farming needs today?",
+        "en": "Hello Kalyanbhai! How can I assist you with your farming needs today?",
+        "timestamp": {
+          "$date": "2025-04-24T14:21:54.567Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Gujrati ma javab aapso",
+        "en": "Reply in Gujarati",
+        "timestamp": {
+          "$date": "2025-04-24T14:22:20.175Z"
+        },
+        "standalone_question": "Can you respond in Gujarati?",
+        "standalone_en": "Can you respond in Gujarati?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "હા, કાલ્યાણભાઈ! તમે શું મદદ કરી શકું છું?",
+        "en": "Yes, Kalayanbhai! What can you help?",
+        "timestamp": {
+          "$date": "2025-04-24T14:22:23.378Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Mare app ma update karyu che bija mobile ma update thyu mare nathi thyu shu karu",
+        "en": "I've updated in APP To another mobile I don't know what to do",
+        "timestamp": {
+          "$date": "2025-04-24T14:23:07.084Z"
+        },
+        "standalone_question": "What should I do if I updated the app on another mobile but not on mine?",
+        "standalone_en": "What should I do if I updated the app on another mobile but not on mine?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What should I do if the Nero app is not showing updated data?\nA: Ensure the device is attached to the app, check network connectivity, verify battery status, and restart the device if needed.",
+            "Q: What should I do if the Kairo app is not showing updated data?\nA: Ensure the device is attached to the app, check network connectivity, verify battery status, and restart the device if needed."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "જો તમારું Fyllo એપ્લિકેશન બીજાં મોબાઈલમાં અપડેટ થયું છે અને તમારા મોબાઈલમાં નથી, તો તમે નીચેના પગલાંઓ અનુસરી શકો છો:\n\n1. **એપ્લિકેશન ચકાસો**: Fyllo એપ્લિકેશનને ખોલો અને હમણાંના અપડેટ્સ માટે તપાસો.\n2. **નેટવર્ક કનેક્શન**: ખાતરી કરો કે તમારા મોબાઈલમાં ઇન્ટરનેટ કનેક્શન સારો છે.\n3. **એપ્લિકેશનને રિસ્ટાર્ટ કરો**: એપ્લિકેશનને બંધ કરો અને ફરીથી ખોલો.\n4. **મોબાઈલને રિસ્ટાર્ટ કરો**: તમારા મોબાઈલને પુનઃપ્રારંભ કરો.\n5. **એપ્લિકેશનને અપડેટ કરો**: Google Play Store અથવા Apple App Store માં જાઓ અને Fyllo એપ્લિકેશનને શોધો. જો અપડેટ ઉપલબ્ધ હોય, તો તેને અપડેટ કરો.\n\nજો આ પગલાંઓ પછી પણ સમસ્યા યથાવત રહે, તો કૃપા કરીને ગ્રાહક સપોર્ટને સંપર્ક કરો:\n- ફોન દ્વારા: (+91) 9380908040\n- ઇમેઇલ દ્વારા: contact@fyllo.in\n\nઆ રીતે, તમે વધુ મદદ મેળવી શકો છો.",
+        "en": "If your Fyllo app has been updated to another mobile and not in your mobile, you can follow the following steps:\n\n1. **Check app**: Open the Fyllo app and check for updates now.\n2. **Network connection**: Make sure your mobile has a good internet connection.\n3. **Restart the app**: Close the app and reopen.\n4. **Restart Mobile**: Restart your mobile.\n5. **Update the app**: Go to the Google Play Store or Apple App Store and find the Fyllo app. If an update is available, update it.\n\nIf the problem persists even after these steps, please contact customer support:\nBy phone: (+91) 9380908040\n- By email: contact@fyllo.in\n\nThis way, you can get more help.",
+        "timestamp": {
+          "$date": "2025-04-24T14:23:17.835Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Tamaro abhar ",
+        "en": "Tamaro abhar ",
+        "timestamp": {
+          "$date": "2025-04-24T14:23:41.554Z"
+        },
+        "standalone_question": "What is your gratitude?",
+        "standalone_en": "What is your gratitude?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "તમારો પણ આભાર, કાલ્યાણભાઈ! જો તમને વધુ કોઈ મદદની જરૂર હોય, તો મને જણાવશો. શુભ ખેતી!",
+        "en": "Thank you too, Kalyanbhai! If you need any more help, let me know. Good farming!",
+        "timestamp": {
+          "$date": "2025-04-24T14:23:45.002Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Hamna magafali ne koi khatar ke dava ni jarur che ",
+        "en": "I must not take any dangerous medicine. ",
+        "timestamp": {
+          "$date": "2025-04-24T14:24:17.496Z"
+        },
+        "standalone_question": "Do peanuts require any specific fertilizers or pesticides?",
+        "standalone_en": "Do peanuts require any specific fertilizers or pesticides?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા \"TARAK\" અને \"SHESH PLOT\" માટે 24 એપ્રિલ 2025 થી 30 એપ્રિલ 2025 સુધી કોઈ રોગ અથવા પેસ્ટ સ્પ્રેની જરૂરિયાત નથી. \n\nજો તમને વધુ કોઈ માહિતી જોઈએ, તો મને જણાવશો!",
+        "en": "No disease or paste spray is required for your \"TARAK\" and \"SHESH PLOT\" from 24 April 2025 to 30 April 2025. \n\nIf you need any more information, let me know!",
+        "timestamp": {
+          "$date": "2025-04-24T14:24:28.149Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140",
+      "sheshpalot"
+    ],
+    "conversation_id": "680a490056d410a6f75f482f",
+    "_id": "680a490056d410a6f75f482f",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-24T14:29:17.505000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-04-24T14:21:52.202000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi ",
+        "en": "Hi ",
+        "timestamp": {
+          "$date": "2025-04-24T14:21:52.202Z"
+        },
+        "standalone_question": "What would you like to talk about?",
+        "standalone_en": "What would you like to talk about?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Hello Kalyanbhai! How can I assist you with your farming needs today?",
+        "en": "Hello Kalyanbhai! How can I assist you with your farming needs today?",
+        "timestamp": {
+          "$date": "2025-04-24T14:21:54.567Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Gujrati ma javab aapso",
+        "en": "Reply in Gujarati",
+        "timestamp": {
+          "$date": "2025-04-24T14:22:20.175Z"
+        },
+        "standalone_question": "Can you provide your response in Gujarati?",
+        "standalone_en": "Can you provide your response in Gujarati?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "હા, કાલ્યાણભાઈ! તમે શું મદદ કરી શકું છું?",
+        "en": "Yes, Kalayanbhai! What can you help?",
+        "timestamp": {
+          "$date": "2025-04-24T14:22:23.378Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Mare app ma update karyu che bija mobile ma update thyu mare nathi thyu shu karu",
+        "en": "I've updated in APP To another mobile I don't know what to do",
+        "timestamp": {
+          "$date": "2025-04-24T14:23:07.084Z"
+        },
+        "standalone_question": "What should I do if I updated the app on another mobile but not on mine?",
+        "standalone_en": "What should I do if I updated the app on another mobile but not on mine?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What should I do if the Nero app is not showing updated data?\nA: Ensure the device is attached to the app, check network connectivity, verify battery status, and restart the device if needed.",
+            "Q: What should I do if the Kairo app is not showing updated data?\nA: Ensure the device is attached to the app, check network connectivity, verify battery status, and restart the device if needed."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "જો તમારું Fyllo એપ્લિકેશન બીજાં મોબાઈલમાં અપડેટ થયું છે અને તમારા મોબાઈલમાં નથી, તો તમે નીચેના પગલાંઓ અનુસરી શકો છો:\n\n1. **એપ્લિકેશન ચકાસો**: Fyllo એપ્લિકેશનને ખોલો અને હમણાંના અપડેટ્સ માટે તપાસો.\n2. **નેટવર્ક કનેક્શન**: ખાતરી કરો કે તમારા મોબાઈલમાં ઇન્ટરનેટ કનેક્શન સારો છે.\n3. **એપ્લિકેશનને રિસ્ટાર્ટ કરો**: એપ્લિકેશનને બંધ કરો અને ફરીથી ખોલો.\n4. **મોબાઈલને રિસ્ટાર્ટ કરો**: તમારા મોબાઈલને પુનઃપ્રારંભ કરો.\n5. **એપ્લિકેશનને અપડેટ કરો**: Google Play Store અથવા Apple App Store માં જાઓ અને Fyllo એપ્લિકેશનને શોધો. જો અપડેટ ઉપલબ્ધ હોય, તો તેને અપડેટ કરો.\n\nજો આ પગલાંઓ પછી પણ સમસ્યા યથાવત રહે, તો કૃપા કરીને ગ્રાહક સપોર્ટને સંપર્ક કરો:\n- ફોન દ્વારા: (+91) 9380908040\n- ઇમેઇલ દ્વારા: contact@fyllo.in\n\nઆ રીતે, તમે વધુ મદદ મેળવી શકો છો.",
+        "en": "If your Fyllo app has been updated to another mobile and not in your mobile, you can follow the following steps:\n\n1. **Check app**: Open the Fyllo app and check for updates now.\n2. **Network connection**: Make sure your mobile has a good internet connection.\n3. **Restart the app**: Close the app and reopen.\n4. **Restart Mobile**: Restart your mobile.\n5. **Update the app**: Go to the Google Play Store or Apple App Store and find the Fyllo app. If an update is available, update it.\n\nIf the problem persists even after these steps, please contact customer support:\nBy phone: (+91) 9380908040\n- By email: contact@fyllo.in\n\nThis way, you can get more help.",
+        "timestamp": {
+          "$date": "2025-04-24T14:23:17.835Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Tamaro abhar ",
+        "en": "Tamaro abhar ",
+        "timestamp": {
+          "$date": "2025-04-24T14:23:41.554Z"
+        },
+        "standalone_question": "What is your gratitude?",
+        "standalone_en": "What is your gratitude?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "તમારો પણ આભાર, કાલ્યાણભાઈ! જો તમને વધુ કોઈ મદદની જરૂર હોય, તો મને જણાવશો. શુભ ખેતી!",
+        "en": "Thank you too, Kalyanbhai! If you need any more help, let me know. Good farming!",
+        "timestamp": {
+          "$date": "2025-04-24T14:23:45.002Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Hamna magafali ne koi khatar ke dava ni jarur che ",
+        "en": "I must not take any dangerous medicine. ",
+        "timestamp": {
+          "$date": "2025-04-24T14:24:17.496Z"
+        },
+        "standalone_question": "Do you need any pesticides or treatments for the groundnuts?",
+        "standalone_en": "Do you need any pesticides or treatments for the groundnuts?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા \"TARAK\" અને \"SHESH PLOT\" માટે 24 એપ્રિલ 2025 થી 30 એપ્રિલ 2025 સુધી કોઈ રોગ અથવા પેસ્ટ સ્પ્રેની જરૂરિયાત નથી. \n\nજો તમને વધુ કોઈ માહિતી જોઈએ, તો મને જણાવશો!",
+        "en": "No disease or paste spray is required for your \"TARAK\" and \"SHESH PLOT\" from 24 April 2025 to 30 April 2025. \n\nIf you need any more information, let me know!",
+        "timestamp": {
+          "$date": "2025-04-24T14:24:28.149Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140",
+      "sheshpalot"
+    ],
+    "conversation_id": "680a490056d410a6f75f482f",
+    "_id": "680a490056d410a6f75f482f",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-24T14:29:17.505000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-24T14:21:52.202000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Battery percentage ",
+        "en": "Battery percentage ",
+        "timestamp": {
+          "$date": "2025-04-24T11:23:56.527Z"
+        },
+        "standalone_question": "What is the battery percentage?",
+        "standalone_en": "What is the battery percentage?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Your Fyllo device currently has a battery level of 1%. This indicates that the battery is very low and may need to be charged soon.",
+        "en": "Your Fyllo device currently has a battery level of 1%. This indicates that the battery is very low and may need to be charged soon.",
+        "timestamp": {
+          "$date": "2025-04-24T11:24:00.714Z"
+        }
+      }
+    ],
+    "farmer_id": "teja",
+    "farmer_plot_ids": [
+      "teja"
+    ],
+    "conversation_id": "680a1f4c43440b7a27aad56d",
+    "_id": "680a1f4c43440b7a27aad56d",
+    "language": "te",
+    "expiry": {
+      "$date": "2025-04-24T11:28:56.535000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-24T11:23:56.527000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "किर्मसन ला कीति वाजता पाणी द्यावे टं",
+        "en": "What time should Kirmson be watered?",
+        "timestamp": {
+          "$date": "2025-04-24T00:37:13.019Z"
+        },
+        "standalone_question": "What should be given to the person who is playing the harmonium?",
+        "standalone_en": "What should be given to the person who is playing the harmonium?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kirmson la kiti vajata pani dyave tan"
+      },
+      {
+        "role": "assistant",
+        "content": "किर्मसन (Plot No 2 Crimson) साठी, तुम्हाला आज (24 एप्रिल 2025) पाणी द्यावे लागेल. पावसाची अपेक्षा कमी आहे, त्यामुळे तुम्ही आज सकाळी पाणी देऊ शकता.",
+        "en": "For Karmson (Plot No 2 Crimson), you will need to water today (24 April 2025). The rain expectation is low, so you can water this morning.",
+        "timestamp": {
+          "$date": "2025-04-24T00:37:17.989Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "लाईट नाही आहे आज",
+        "en": "there is no light today",
+        "timestamp": {
+          "$date": "2025-04-24T00:37:53.121Z"
+        },
+        "standalone_question": "Is there no electricity today?",
+        "standalone_en": "Is there no electricity today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आज लाईट नसल्यामुळे स्प्रे करण्याच्या परिस्थितीची तपासणी करता आलेली नाही. तुम्ही पाण्याची आवश्यकता पूर्ण करू शकता, पण स्प्रे करण्यासाठी योग्य वेळ नाही.",
+        "en": "The spraying conditions could not be checked today due to lack of lights. You can meet your water requirement, but there's no right time to spray.",
+        "timestamp": {
+          "$date": "2025-04-24T00:37:58.159Z"
+        }
+      }
+    ],
+    "farmer_id": "pankajsadashivkhandave",
+    "farmer_plot_ids": [
+      "plotnoonessn",
+      "plotnotwocrimson",
+      "sudhakar156",
+      "sudhakar2101"
+    ],
+    "conversation_id": "680987b86726dde62ad1aa2d",
+    "_id": "680987b86726dde62ad1aa2d",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-24T00:42:53.131000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-24T00:37:13.019000+00:00"
+  }
+]

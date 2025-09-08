@@ -1,0 +1,838 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "आज पाऊस येईल का ",
+        "en": "Will it rain today? ",
+        "timestamp": {
+          "$date": "2025-06-21T18:43:05.991Z"
+        },
+        "standalone_question": "Will it rain today?",
+        "standalone_en": "Will it rain today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "aj paus yeil ka "
+      },
+      {
+        "role": "assistant",
+        "content": "आज, 22 जून 2025 रोजी, पाऊस येण्याची शक्यता आहे. हवामान अंदाजानुसार, 6.1 मिमी पाऊस होण्याची अपेक्षा आहे, आणि पाऊस येण्याची शक्यता 40% आहे. त्यामुळे, पाऊस येऊ शकतो, पण खात्रीने सांगता येत नाही.",
+        "en": "Today, June 22, 2025, rain is expected. According to the weather forecast, 6.1 mm of rain is expected, and there is a 40% chance of rain. So, it may rain, but we can't say for sure.",
+        "timestamp": {
+          "$date": "2025-06-21T18:43:12.016Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "उद्या पाऊस येईल का ",
+        "en": "Will it rain tomorrow? ",
+        "timestamp": {
+          "$date": "2025-06-21T18:43:31.630Z"
+        },
+        "standalone_question": "Will it rain tomorrow?",
+        "standalone_en": "Will it rain tomorrow?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "udya paus yeil ka "
+      },
+      {
+        "role": "assistant",
+        "content": "उद्या, 23 जून 2025 रोजी, पाऊस येण्याची शक्यता आहे. हवामान अंदाजानुसार, 8.9 मिमी पाऊस होण्याची अपेक्षा आहे, आणि पाऊस येण्याची शक्यता 45% आहे. त्यामुळे, पाऊस येऊ शकतो, पण खात्रीने सांगता येत नाही.",
+        "en": "Tomorrow, June 23, 2025, rain is expected. According to the weather forecast, 8.9 mm of rain is expected, and there is a 45% chance of rain. So, it may rain, but we can't say for sure.",
+        "timestamp": {
+          "$date": "2025-06-21T18:43:38.710Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "अशा परिस्थितीत पेरू पिकाला कोणता स्प्रे दिला पाहिजे ",
+        "en": "In such a situation, what spray should be given to the guava crop ",
+        "timestamp": {
+          "$date": "2025-06-21T18:44:03.861Z"
+        },
+        "standalone_question": "What spray should be applied to the Peru crop in such circumstances?",
+        "standalone_en": "What spray should be applied to the Peru crop in such circumstances?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed"
+          ]
+        },
+        "content_transliterated": "asha paristhitit peru pikala konta spray dila pahije "
+      },
+      {
+        "role": "assistant",
+        "content": "सध्या, पेरू पिकासाठी कोणताही स्प्रे शेड्यूल नाही. त्यामुळे, सध्या स्प्रे करण्याची आवश्यकता नाही. जर तुम्हाला आणखी काही माहिती हवी असेल तर कृपया सांगा.",
+        "en": "Currently, there is no spray schedule for the guava crop. Therefore, there is no need to spray at the moment. If you need any more information, please let me know.",
+        "timestamp": {
+          "$date": "2025-06-21T18:44:08.916Z"
+        }
+      }
+    ],
+    "farmer_id": "haribhaudhondage",
+    "farmer_plot_ids": [
+      "guava315"
+    ],
+    "conversation_id": "6856fd391e1a12f9b9b4dd3d",
+    "_id": "6856fd391e1a12f9b9b4dd3d",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-06-21T18:49:03.863000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-06-21T18:43:05.991000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "याला काय कमी आहे",
+        "en": "What's missing?",
+        "timestamp": {
+          "$date": "2025-06-21T15:16:25.552Z"
+        },
+        "standalone_question": "What is lacking in this?",
+        "standalone_en": "What is lacking in this?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "yala kay kami aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या प्लॉट \"plot no. 1(Thomson )\" मध्ये कोणतीही विशिष्ट समस्या असल्यास, कृपया अधिक माहिती द्या. तुम्हाला पाण्याची गरज आहे का, कीट नियंत्रण, किंवा इतर कोणत्याही कृषी संबंधित समस्यांबद्दल माहिती हवी आहे का?",
+        "en": "If there are any specific issues with your plot \"Plot No. 1(Thomson)\", please provide more information. Do you need water, pest control, or any other agricultural issues?",
+        "timestamp": {
+          "$date": "2025-06-21T15:16:28.931Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "हो",
+        "en": "be",
+        "timestamp": {
+          "$date": "2025-06-21T15:16:51.701Z"
+        },
+        "standalone_question": "Is there a specific issue with your plot \"plot no. 1(Thomson)\" that you would like to discuss?",
+        "standalone_en": "Is there a specific issue with your plot \"plot no. 1(Thomson)\" that you would like to discuss?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ho"
+      },
+      {
+        "role": "assistant",
+        "content": "Based on your plot's irrigation settings, the calculated irrigation hours are **7.2 hours**.\n\nI used the following settings for this calculation:\n- Root width: 65 inches\n- Root depth: 18 inches\n- Soil retention: 170 mm\n- Dripper distance: 1.6 mm\n- Dripper discharge: 3 liters\n\nWould you like to calculate irrigation hours with a different set of values? If yes, please provide the new values you'd like to use.",
+        "en": "Based on your plot's irrigation settings, the calculated irrigation hours are **7.2 hours**.\n\nI used the following settings for this calculation:\n- Root width: 65 inches\n- Root depth: 18 inches\n- Soil retention: 170 mm\n- Dripper distance: 1.6 mm\n- Dripper discharge: 3 liters\n\nWould you like to calculate irrigation hours with a different set of values? If yes, please provide the new values you'd like to use.",
+        "timestamp": {
+          "$date": "2025-06-21T15:17:07.296Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "याला काय रोग झाला ते सां गा",
+        "en": "What disease did he have?",
+        "timestamp": {
+          "$date": "2025-06-21T15:18:32.663Z"
+        },
+        "standalone_question": "What disease has affected this?",
+        "standalone_en": "What disease has affected this?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "yala kay rog jhala te saan ga"
+      },
+      {
+        "role": "assistant",
+        "content": "\"plot no. 1(Thomson )\" साठी कोणतीही रोग मेट्रिक्स उपलब्ध नाहीत. याचा अर्थ असा की, सध्या कोणत्याही रोगाची माहिती नाही. \n\nतुमच्या पिकांची काळजी घेण्यासाठी, नियमितपणे निरीक्षण करणे आणि योग्य काळजी घेणे महत्त्वाचे आहे. तुम्हाला आणखी काही माहिती हवी का?",
+        "en": "There are no disease metrics available for \"plot no. 1(Thomson)\". This means that no disease is currently known. \n\nTo take care of your crops, it is important to monitor regularly and take proper care. Is there anything else you need to know?",
+        "timestamp": {
+          "$date": "2025-06-21T15:18:37.213Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "झाडाचे शेंडे खूप वाडत आहे त्याला थांबवन्यासाठी कोणते औषध माराचे",
+        "en": "What medicine to use to stop the tree trunk from growing too much?",
+        "timestamp": {
+          "$date": "2025-06-21T15:21:15.095Z"
+        },
+        "standalone_question": "What medicine should be used to stop the excessive growth of the plant's shoots?",
+        "standalone_en": "What medicine should be used to stop the excessive growth of the plant's shoots?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"plot no. 1(Thomson )\" मधील झाडाचे शेंडे खूप वाढत असल्यास, तुम्ही खालील औषधांचा वापर करू शकता:\n\n1. **पेस्टीसाइड**: **Imidacloprid** - हे कीटकांवर नियंत्रण ठेवण्यासाठी उपयुक्त आहे. \n2. **फंगसाइड**: **Carbendazim** - हे झाडांच्या आरोग्यासाठी उपयुक्त आहे.\n\nतुम्हाला या औषधांचा वापर कसा करायचा याबद्दल अधिक माहिती हवी का?",
+        "en": "If the tree shade in your \"plot no. 1(Thomson)\" is growing too much, you can use the following medications:\n\n1. Imidacloprid: This is useful for controlling pests. \n2. **Fungicide**: **Carbendazim** - It is useful for the health of trees.\n\nDo you need more information about how to use these medications?",
+        "timestamp": {
+          "$date": "2025-06-21T15:21:20.632Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "व्याला पाणी किती वेळा द्यायचे",
+        "en": "How often to water the vine",
+        "timestamp": {
+          "$date": "2025-06-21T15:22:15.048Z"
+        },
+        "standalone_question": "How often should I water it?",
+        "standalone_en": "How often should I water it?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer.",
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: What should I do if the soil moisture sensor always shows wet values?\nA: Verify the irrigation frequency, check the installation point, and contact Fyllo representative if the issue persists.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate."
+          ]
+        },
+        "content_transliterated": "vyala pani kiti vela dyayache"
+      },
+      {
+        "role": "assistant",
+        "content": "\"plot no. 1(Thomson )\" साठी दिलेल्या तारखांमध्ये पाण्याची आवश्यकता नाही. त्यामुळे तुम्हाला या काळात पाणी देण्याची गरज नाही. \n\nतुमच्या झाडांच्या आरोग्यासाठी नियमितपणे निरीक्षण करणे महत्त्वाचे आहे. तुम्हाला आणखी काही माहिती हवी का?",
+        "en": "The dates given for \"plot no. 1 (Thomson)\" do not require water. So you don't need to water during this time. \n\nIt is important to monitor your plants regularly for their health. Is there anything else you need to know?",
+        "timestamp": {
+          "$date": "2025-06-21T15:22:22.127Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "झाडाचे पान करायला लागले काय करू कोणते ओषध मारायचे",
+        "en": "What to do and what to do when you start leafing the tree",
+        "timestamp": {
+          "$date": "2025-06-21T15:24:01.010Z"
+        },
+        "standalone_question": "What should I do and which medicine should I apply if the leaves of the plant are turning yellow?",
+        "standalone_en": "What should I do and which medicine should I apply if the leaves of the plant are turning yellow?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "jhadache pan karayala lagale kay karu conte osadh marayache"
+      },
+      {
+        "role": "assistant",
+        "content": "\"plot no. 1(Thomson )\" साठी सध्या कोणतीही रोग किंवा कीटक नियंत्रणाची शेड्यूल उपलब्ध नाही. \n\nतुमच्या झाडांच्या पानांवर समस्या असल्यास, तुम्ही खालील औषधांचा वापर करू शकता:\n\n1. **फंगसाइड**: **Copper Oxychloride** - हे पानांवरील रोगांवर नियंत्रण ठेवण्यासाठी उपयुक्त आहे.\n2. **पेस्टीसाइड**: **Neem Oil** - हे नैसर्गिक कीटकांवर नियंत्रण ठेवण्यासाठी उपयुक्त आहे.\n\nतुम्हाला या औषधांचा वापर कसा करायचा याबद्दल अधिक माहिती हवी का?",
+        "en": "No disease or pest control schedule is currently available for \"plot no. 1(Thomson)\". \n\nIf there is a problem with the leaves of your plants, you can use the following medications:\n\n1. Fungicide: Copper Oxychloride – It is useful for controlling leaf diseases.\n2. **Pesticide**: **Neem Oil** - It is useful for controlling natural pests.\n\nDo you need more information about how to use these medications?",
+        "timestamp": {
+          "$date": "2025-06-21T15:24:08.461Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ho",
+        "en": "Ho",
+        "timestamp": {
+          "$date": "2025-06-21T15:24:31.935Z"
+        },
+        "standalone_question": "What should I do if the leaves of the plant are turning yellow? Which medicine should I apply?",
+        "standalone_en": "What should I do if the leaves of the plant are turning yellow? Which medicine should I apply?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या झाडांच्या पानांवर समस्या असल्यास, तुम्ही खालील उपाययोजना करू शकता:\n\n1. **फंगसाइड**: **Carbendazim** - हे पानांवरील रोगांवर नियंत्रण ठेवण्यासाठी उपयुक्त आहे. तुम्ही 2.5 ग्रॅम प्रति लिटर पाण्यात मिसळून झाडांना स्प्रे करू शकता.\n\n2. **पेस्टीसाइड**: **Chlorpyriphos** - हे कीटकांवर नियंत्रण ठेवण्यासाठी उपयुक्त आहे. तुम्ही 5 मिली प्रति लिटर पाण्यात मिसळून झाडांना स्प्रे करू शकता.\n\nतुम्हाला या औषधांचा वापर कसा करायचा याबद्दल अधिक माहिती हवी का?",
+        "en": "If you have problems with the leaves of your trees, you can take the following measures:\n\n1. **Fungside**: **Carbendazim** - It is useful for controlling diseases on leaves. You can mix 2.5 grams per liter of water and spray the plants.\n\n2. **Pesticide**: **Chlorpyriphos** - It is useful for controlling insects. You can mix 5 ml per liter of water and spray the plants.\n\nDo you want to know more about how to use these drugs?",
+        "timestamp": {
+          "$date": "2025-06-21T15:24:37.341Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Hr",
+        "en": "Hr",
+        "timestamp": {
+          "$date": "2025-06-21T15:25:08.924Z"
+        },
+        "standalone_question": "What should I do if the leaves of my plant are turning yellow? Which medicine should I apply?",
+        "standalone_en": "What should I do if the leaves of my plant are turning yellow? Which medicine should I apply?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या झाडांच्या पानांवर समस्या असल्यास, तुम्ही खालील उपाययोजना करू शकता:\n\n1. **फंगसाइड**: **Carbendazim** - हे पानांवरील रोगांवर नियंत्रण ठेवण्यासाठी उपयुक्त आहे. तुम्ही 2.5 ग्रॅम प्रति लिटर पाण्यात मिसळून झाडांना स्प्रे करू शकता.\n\n2. **पेस्टीसाइड**: **Chlorpyriphos** - हे कीटकांवर नियंत्रण ठेवण्यासाठी उपयुक्त आहे. तुम्ही 5 मिली प्रति लिटर पाण्यात मिसळून झाडांना स्प्रे करू शकता.\n\nतुम्हाला या औषधांचा वापर कसा करायचा याबद्दल अधिक माहिती हवी का?",
+        "en": "If you have problems with the leaves of your trees, you can take the following measures:\n\n1. **Fungside**: **Carbendazim** - It is useful for controlling diseases on leaves. You can mix 2.5 grams per liter of water and spray the plants.\n\n2. **Pesticide**: **Chlorpyriphos** - It is useful for controlling insects. You can mix 5 ml per liter of water and spray the plants.\n\nDo you want to know more about how to use these drugs?",
+        "timestamp": {
+          "$date": "2025-06-21T15:25:13.878Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ho",
+        "en": "Ho",
+        "timestamp": {
+          "$date": "2025-06-21T15:25:27.363Z"
+        },
+        "standalone_question": "Do you need more information on how to use these medications?",
+        "standalone_en": "Do you need more information on how to use these medications?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुम्हाला औषधांचा वापर कसा करायचा याबद्दल अधिक माहिती हवी असल्यास, कृपया खालील सूचना लक्षात ठेवा:\n\n1. **फंगसाइड (Carbendazim)**:\n   - 2.5 ग्रॅम Carbendazim प्रति लिटर पाण्यात मिसळा.\n   - या मिश्रणाला झाडांच्या पानांवर चांगल्या प्रकारे स्प्रे करा.\n   - सकाळी किंवा संध्याकाळी स्प्रे करणे उत्तम, जेणेकरून सूर्यप्रकाशामुळे औषधाची प्रभावीता कमी होणार नाही.\n\n2. **पेस्टीसाइड (Chlorpyriphos)**:\n   - 5 मिली Chlorpyriphos प्रति लिटर पाण्यात मिसळा.\n   - झाडांच्या पानांवर आणि तळाशी चांगल्या प्रकारे स्प्रे करा.\n   - यामुळे कीटकांचा प्रभाव कमी होईल.\n\nतुम्हाला आणखी काही माहिती हवी का?",
+        "en": "If you need more information on how to use medications, please remember the following instructions:\n\n1. Carbendazim:\n   - Mix 2.5 g Carbendazim per liter of water.\n   - Spray this mixture well on the leaves of the tree.\n   - It is best to spray in the morning or evening, so that sunlight will not reduce the effectiveness of the medication.\n\n2. Chlorpyriphos:\n   - Mix 5 ml of Chlorpyriphos per liter of water.\n   - Spray well on the leaves and bottom of the tree.\n   - This will reduce the effect of pests.\n\nDo you need any more information?",
+        "timestamp": {
+          "$date": "2025-06-21T15:25:33.614Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "घे",
+        "en": "Take",
+        "timestamp": {
+          "$date": "2025-06-21T15:26:05.412Z"
+        },
+        "standalone_question": "What should I do to treat the issue with the leaves of my plant?",
+        "standalone_en": "What should I do to treat the issue with the leaves of my plant?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ghe"
+      },
+      {
+        "role": "assistant",
+        "content": "\"plot no. 1(Thomson )\" साठी सध्या कोणतीही रोग किंवा कीटक नियंत्रणाची शेड्यूल उपलब्ध नाही. \n\nतुमच्या झाडांच्या आरोग्यासाठी, तुम्ही खालील उपाययोजना करू शकता:\n\n1. **फंगसाइड (Carbendazim)**: 2.5 ग्रॅम प्रति लिटर पाण्यात मिसळा आणि झाडांना स्प्रे करा.\n2. **पेस्टीसाइड (Chlorpyriphos)**: 5 मिली प्रति लिटर पाण्यात मिसळा आणि झाडांना स्प्रे करा.\n\nतुम्हाला आणखी काही माहिती हवी का?",
+        "en": "No disease or pest control schedule is currently available for \"plot no. 1(Thomson)\". \n\nFor the health of your trees, you can take the following measures:\n\n1. Carbendazim: Mix in 2.5 grams per litre of water and spray the trees.\n2. Chlorpyriphos: Mix 5 ml per litre of water and spray the trees.\n\nDo you need any more information?",
+        "timestamp": {
+          "$date": "2025-06-21T15:26:13.021Z"
+        }
+      }
+    ],
+    "farmer_id": "balasahebrakibe",
+    "farmer_plot_ids": [
+      "plotno1thomson392"
+    ],
+    "conversation_id": "6856ccbf833ae84496ee704b",
+    "_id": "6856ccbf833ae84496ee704b",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-06-21T15:31:05.415000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-06-21T15:16:25.552000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can i add another crop",
+        "en": "Can i add another crop",
+        "timestamp": {
+          "$date": "2025-06-21T12:37:09.342Z"
+        },
+        "standalone_question": "Can I add another crop?",
+        "standalone_en": "Can I add another crop?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "You can add another crop to your plot, but it's essential to consider the crop rotation practices and the current crop stage. If you want to proceed, please provide details about the new crop you wish to add, and I can assist you further!",
+        "en": "You can add another crop to your plot, but it's essential to consider the crop rotation practices and the current crop stage. If you want to proceed, please provide details about the new crop you wish to add, and I can assist you further!",
+        "timestamp": {
+          "$date": "2025-06-21T12:37:12.088Z"
+        }
+      }
+    ],
+    "farmer_id": "dhruvpatel563",
+    "farmer_plot_ids": [
+      "hmbhakharfarm",
+      "mainplotkairo702",
+      "ridhamfarm",
+      "unityfarm1"
+    ],
+    "conversation_id": "6856a7741e1a12f9b9b4dd3c",
+    "_id": "6856a7741e1a12f9b9b4dd3c",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-06-21T12:42:09.347000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-06-21T12:37:09.342000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What diseases are chances in this stage tell me",
+        "en": "What diseases are chances in this stage tell me",
+        "timestamp": {
+          "$date": "2025-06-21T09:04:55.719Z"
+        },
+        "standalone_question": "What diseases are likely to occur at this stage?",
+        "standalone_en": "What diseases are likely to occur at this stage?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Currently, there are no available disease prediction metrics for your maize plot at this stage. It's advisable to monitor the crop closely for any signs of disease and take preventive measures as needed.",
+        "en": "Currently, there are no available disease prediction metrics for your maize plot at this stage. It's advisable to monitor the crop closely for any signs of disease and take preventive measures as needed.",
+        "timestamp": {
+          "$date": "2025-06-21T09:05:00.503Z"
+        }
+      }
+    ],
+    "farmer_id": "amolarunpatil",
+    "farmer_plot_ids": [
+      "maze"
+    ],
+    "conversation_id": "685675b738e1b45dddc537ab",
+    "_id": "685675b738e1b45dddc537ab",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-06-21T09:05:43.453000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-06-21T09:04:55.719000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Maize",
+        "en": "Maize",
+        "timestamp": {
+          "$date": "2025-06-21T07:41:39.845Z"
+        },
+        "standalone_question": "What is maize?",
+        "standalone_en": "What is maize?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "You are currently growing Maize on your plot named \"maze\" located in Ankalkhop, Palus, Sangli, Maharashtra. The crop is in the Vegetative stage, which started on June 21, 2025. How can I assist you with your maize crop today?",
+        "en": "You are currently growing Maize on your plot named \"maze\" located in Ankalkhop, Palus, Sangli, Maharashtra. The crop is in the Vegetative stage, which started on June 21, 2025. How can I assist you with your maize crop today?",
+        "timestamp": {
+          "$date": "2025-06-21T07:41:44.959Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "What date I sowed?",
+        "en": "What date I sowed?",
+        "timestamp": {
+          "$date": "2025-06-21T07:42:13.782Z"
+        },
+        "standalone_question": "What date did I sow the maize?",
+        "standalone_en": "What date did I sow the maize?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "You sowed the maize seeds on June 4, 2025.",
+        "en": "You sowed the maize seeds on June 4, 2025.",
+        "timestamp": {
+          "$date": "2025-06-21T07:42:16.573Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "What is my soil moisture readings ",
+        "en": "What is my soil moisture readings ",
+        "timestamp": {
+          "$date": "2025-06-21T07:43:34.490Z"
+        },
+        "standalone_question": "What are my soil moisture readings?",
+        "standalone_en": "What are my soil moisture readings?",
+        "retrieval": {
+          "tools": [
+            "get_soil_moisture_sensor_depth  \nReturns the depths in inches of the soil moisture sensors 1 and 2 installed on the plots.",
+            "get_daily_soil_moisture_data  \nRetrieves historical daily soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for larger duration.",
+            "get_soil_moisture_percentage_from_kpa_reading  \nGets the estimated soil moisture percentage for a given plot and kPa reading.",
+            "get_hourly_soil_moisture_data  \nRetrieves historical hourly soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for less than 5 days duration.",
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range."
+          ],
+          "faq": [
+            "Q: How do I know if my soil  moisture sensor is working fine ?\nA: The only way to know is if after irrigation the sensor is dropping below 5 kpa and increasing continuously unless next irrigation is done. You can try putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. Also, a soil moisture reading of 0 kPa is perfectly fine, meaning wet soil, but a reading of 200 kPa could mean fault. If the soil moisture sensor reading is consistently at 0 from few 48 hours, then it could be anamolous (use live and historical hourly soil moisture data (use tool) to validate).",
+            "Q: What is my soil moisture depletion?\nA: Soil moisture depletion %age = (100 - soil moisture %age)",
+            "Q: Sensor is showing wet, i.e. less kpa but soil looks dry.\nA: The sensor measures the moisture around the rootzone which is not visible from the top. Ask use to check the moisture in rootzone around the sensor. If it matches, ask the user to irrigate.",
+            "Q: What should I do if the soil moisture sensor always shows dry values?\nA: Check if irrigation water is reaching the sensor, verify sensor connection, and ensure the sensor is not damaged.",
+            "Q: What should I do if the soil moisture sensor values fluctuate?\nA: Ensure the sensor is installed properly in the soil, check for air bubbles, and contact Fyllo representative if the issue persists."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The current soil moisture readings for your plot \"maze\" are as follows:\n\n- Soil Moisture Sensor 1: 28%\n- Soil Moisture Sensor 2: 88%\n\nIf you have any further questions or need assistance, feel free to ask!",
+        "en": "The current soil moisture readings for your plot \"maze\" are as follows:\n\n- Soil Moisture Sensor 1: 28%\n- Soil Moisture Sensor 2: 88%\n\nIf you have any further questions or need assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-06-21T07:43:38.252Z"
+        }
+      }
+    ],
+    "farmer_id": "amolarunpatil",
+    "farmer_plot_ids": [
+      "maze"
+    ],
+    "conversation_id": "6856623338e1b45dddc537aa",
+    "_id": "6856623338e1b45dddc537aa",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-06-21T07:48:34.492000Z"
+    },
+    "tag": "historical data",
+    "conv_date": "2025-06-21T07:41:39.845000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "પાણી નું સેન્સર ખરા છે",
+        "en": "The water sensor is true",
+        "timestamp": {
+          "$date": "2025-06-21T06:37:08.100Z"
+        },
+        "standalone_question": "Is the water sensor working properly?",
+        "standalone_en": "Is the water sensor working properly?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How do I know if my soil  moisture sensor is working fine ?\nA: The only way to know is if after irrigation the sensor is dropping below 5 kpa and increasing continuously unless next irrigation is done. You can try putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. Also, a soil moisture reading of 0 kPa is perfectly fine, meaning wet soil, but a reading of 200 kPa could mean fault. If the soil moisture sensor reading is consistently at 0 from few 48 hours, then it could be anamolous (use live and historical hourly soil moisture data (use tool) to validate).",
+            "Q: I irrigated still the sensor is dropping slowly.\nA: Sometimes, the water reaches slowly till root zone and the moisture sensor kPa value drops slowly. Always wait for 12 hours after irrigation for the moisture to saturate. If still some confusion, ask user to check moisture near the sensor and check if he wants to raise a ticket for the issue.",
+            "Q: I irrigated still the sensor is showing dry.\nA: Ask user when he irrigated. It usually takes 12 hours to reach the water till sensor. If the sensor is not dropping even after 12 hours, it can be due to one of the following reasons :\nWater is not reaching properly till the sensor , this can be due to drip blocked , or slope in the land or dripper outlets far away from the sensor. Ask user to check if drip is fine and  dripper is within the range of sensor. \nThe sensor can be very old , more than two years , in this case , the sensor might be malfunction, ask user if he wants to raise a ticket",
+            "Q: Sensor is showing dry, but it rained recently.\nA: Rainwater doesn't percolate well in the soil. Most of it runs off. After a day of rain stops , if the sensor is still dry, you will have to irrigate. You can check the moisture by digging near the sensor . Irrigate accordingly.",
+            "Q: What should I do if the soil moisture sensor always shows dry values?\nA: Check if irrigation water is reaching the sensor, verify sensor connection, and ensure the sensor is not damaged."
+          ]
+        },
+        "content_transliterated": "pani nu sensor khara che"
+      },
+      {
+        "role": "assistant",
+        "content": "જો તમે પાણીના સેન્સર વિશે પૂછતા હો, તો તે યોગ્ય રીતે કાર્ય કરી રહ્યું છે કે કેમ તે તપાસવા માટે, તમે નીચેના મુદ્દાઓને ધ્યાનમાં રાખી શકો છો:\n\n1. **સેન્સર રીડિંગ**: જો સેન્સર 0 થી 5 kPa વચ્ચે છે, તો તે ભેજ દર્શાવે છે. 0 kPa એટલે જમીન ભેજ છે, જે સામાન્ય છે. જો તે 200 kPa છે, તો તે સૂકી જમીન દર્શાવે છે.\n\n2. **જમીનની સ્થિતિ**: સેન્સર દ્વારા માપવામાં આવેલી ભેજ જમીનના મૂળ વિસ્તારમાં છે, જે ઉપરથી દેખાતી જમીનથી અલગ હોઈ શકે છે. \n\n3. **જમીન ખોદવું**: સેન્સરની આસપાસ જમીન ખોદીને ભેજ તપાસો. જો તે ભેજ છે, તો સેન્સર યોગ્ય રીતે કાર્ય કરી રહ્યું છે.\n\n4. **ઇરિગેશન પછી**: જો તમે ઇરિગેશન કર્યા પછી 0 થી 5 kPa સુધીની રીડિંગ જોઈ રહ્યા છો, તો તે યોગ્ય છે.\n\nજો તમને વધુ માહિતી જોઈએ, તો કૃપા કરીને જણાવો!",
+        "en": "If you ask about a water sensor, to check if it's working properly, you can keep the following points in mind:\n\n1. **Sensor Reading**: If the sensor is between 0 and 5 kPa, it shows moisture. 0 kPa means soil moisture, which is normal. If it is 200 kPa, it shows dry land.\n\n2. **Ground condition**: The moisture measured by the sensor is in the original area of the soil, which may be different from the soil seen from above. \n\n3. **Digging the ground**: Check the moisture by digging the ground around the sensor. If it's moisture, the sensor is working properly.\n\n4. **After irrigation**: If you are looking at a reading from 0 to 5 kPa after doing the irrigation, it is correct.\n\nIf you would like more information, please let me know!",
+        "timestamp": {
+          "$date": "2025-06-21T06:37:13.869Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ખરાબ થય ગએલ છે",
+        "en": "It's gone bad",
+        "timestamp": {
+          "$date": "2025-06-21T06:38:02.860Z"
+        },
+        "standalone_question": "Is the sensor malfunctioning?",
+        "standalone_en": "Is the sensor malfunctioning?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kharab thay gael che"
+      },
+      {
+        "role": "assistant",
+        "content": "જો તમારા સેન્સર 200 kPa બતાવી રહ્યો છે, તો તે સૂચવે છે કે જમીન સંપૂર્ણ રીતે સૂકી છે અથવા સેન્સર જમીનથી બહાર છે અથવા સેન્સર સુધી વીજળી પહોંચતી નથી. \n\nકૃપા કરીને નીચેના મુદ્દાઓ તપાસો:\n\n1. **સેન્સરનું સ્થાન**: ખાતરી કરો કે સેન્સર જમીનમાં યોગ્ય રીતે સ્થાપિત છે અને જમીનથી બહાર નથી.\n\n2. **વાયર અને કનેક્ટર્સ**: ચકાસો કે સેન્સર માટેના વાયર કાપેલા નથી અને કનેક્ટર્સ યોગ્ય રીતે જોડાયેલા છે.\n\n3. **જમીનનું ભેજ**: જો તમે લાંબા સમયથી પાણી આપ્યું નથી, તો 200 kPa વાંચન સામાન્ય છે. \n\nજો તમે પાણી આપ્યા પછી પણ સેન્સર 200 kPa બતાવે છે, તો કૃપા કરીને મને જણાવો, હું વધુ મદદ કરી શકું છું.",
+        "en": "If your sensor is showing 200 kPa, it indicates that the ground is completely dry or the sensor is off the ground or the electricity does not reach the sensor. \n\nPlease check out the following points:\n\n1. **Location of sensor**: Make sure the sensor is properly installed in the ground and not off the ground.\n\n2. **Wires and Connectors**: Check that the wires for the sensor are not cut and that the connectors are connected properly.\n\n3. **Soil moisture**: If you haven't watered for a long time, a 200 kPa reading is normal. \n\nIf the sensor shows 200 kPa even after you've watered, please let me know, I can help with more.",
+        "timestamp": {
+          "$date": "2025-06-21T06:38:08.504Z"
+        }
+      }
+    ],
+    "farmer_id": "anilbahiparmar",
+    "farmer_plot_ids": [
+      "plot1pomo321",
+      "plot1494",
+      "plot1558",
+      "plot1874",
+      "plot2262",
+      "plot3275",
+      "plot1237"
+    ],
+    "conversation_id": "6856531238e1b45dddc537a8",
+    "_id": "6856531238e1b45dddc537a8",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-06-21T06:43:02.862000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-06-21T06:37:08.100000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "પાક ની લણણી કરવી છે વર્ષાદ ની તો સુ કરું ",
+        "en": "If you want to harvest the crop, then i will do it. ",
+        "timestamp": {
+          "$date": "2025-06-21T02:29:53.728Z"
+        },
+        "standalone_question": "How should I harvest the crops during the rainy season?",
+        "standalone_en": "How should I harvest the crops during the rainy season?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is the right time to sow the seeds?\nA: Check the weather forecast for the next few days (tool call), and then decide the right time for the crop, based on own's knowledge.",
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise."
+          ]
+        },
+        "content_transliterated": "pak knee lanani karavi che varshad knee to su karun "
+      },
+      {
+        "role": "assistant",
+        "content": "તમે લણણી માટે તૈયાર છો, અને હાલમાં કોઈ રોગ અથવા પેસ્ટ સ્પ્રે કરવાની જરૂર નથી. જો તમે વધુ માહિતી અથવા સહાયતા જોઈએ, તો મને જણાવો!",
+        "en": "You are ready for harvesting, and currently there is no need to spray any disease or paste. If you need more information or assistance, let me know!",
+        "timestamp": {
+          "$date": "2025-06-21T02:29:58.467Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "વર્ષાદ ",
+        "en": "Rainfall ",
+        "timestamp": {
+          "$date": "2025-06-21T02:30:20.086Z"
+        },
+        "standalone_question": "What should I do about the rain?",
+        "standalone_en": "What should I do about the rain?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What should I do if the rain gauge is not working?\nA: Open the top cover of the rainfall sensor and clean it as suggested in the maintenance section."
+          ]
+        },
+        "content_transliterated": "varshad "
+      },
+      {
+        "role": "assistant",
+        "content": "આપના વિસ્તારમાં છેલ્લા કેટલાક દિવસોમાં વરસાદ થયો છે. અહીં તાજેતરના હવામાનના આંકડા છે:\n\n### TARAK (TARAK)\n- **15 જૂન**: 8 મીમી વરસાદ\n- **16 જૂન**: 4 મીમી વરસાદ\n- **17 જૂન**: 4 મીમી વરસાદ\n- **18 જૂન**: 2 મીમી વરસાદ\n- **19 જૂન**: 0 મીમી વરસાદ\n- **20 જૂન**: 0 મીમી વરસાદ\n\n### SHESH PLOT\n- **15 જૂન**: 8 મીમી વરસાદ\n- **16 જૂન**: 4 મીમી વરસાદ\n- **17 જૂન**: 4 મીમી વરસાદ\n- **18 જૂન**: 2 મીમી વરસાદ\n- **19 જૂન**: 0 મીમી વરસાદ\n- **20 જૂન**: 0 મીમી વરસાદ\n\nઆમ, લણણી માટે આ સમય યોગ્ય છે, પરંતુ ખાતરી કરો કે જમીન સારી રીતે સૂકી છે. જો વધુ માહિતી જોઈએ, તો મને જણાવો!",
+        "en": "It has rained in your area in the last few days. Here are the latest weather statistics:\n\n### TARAK (TARAK)\n* **15 June**: 8 mm rainfall\n* **16 June**: 4 mm rainfall\n* **June 17**: 4 mm rainfall\n* **18 June**: 2 mm rainfall\n* **19 June**: 0 mm rainfall\n* **20 June**: 0 mm rainfall\n\n### SHESH PLOT\n* **15 June**: 8 mm rainfall\n* **16 June**: 4 mm rainfall\n* **June 17**: 4 mm rainfall\n* **18 June**: 2 mm rainfall\n* **19 June**: 0 mm rainfall\n* **20 June**: 0 mm rainfall\n\nThus, this time is right for harvesting, but make sure that the land is well dry. If you need more information, let me know!",
+        "timestamp": {
+          "$date": "2025-06-21T02:30:29.435Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "હાલ સંભાવના ",
+        "en": "Current possibility ",
+        "timestamp": {
+          "$date": "2025-06-21T02:31:01.057Z"
+        },
+        "standalone_question": "What is the current forecast?",
+        "standalone_en": "What is the current forecast?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "hal sanbhavana "
+      },
+      {
+        "role": "assistant",
+        "content": "હાલના હવામાનની સંભાવના મુજબ:\n\n### TARAK (TARAK)\n- **તાપમાન**: 27°C\n- **આર હ્યુમિડિટી**: 90%\n- **વર્ષા**: 0 મીમી\n\n### SHESH PLOT\n- **તાપમાન**: 27°C\n- **આર હ્યુમિડિટી**: 90%\n- **વર્ષા**: 0 મીમી\n\nઆ સમયે વરસાદની સંભાવના નથી, પરંતુ આહલાદક હવામાન છે. જો તમે વધુ માહિતી અથવા સહાયતા જોઈએ, તો મને જણાવો!",
+        "en": "As per the current weather forecast:\n\n### TARAK (TARAK)\n- **Temperature**: 27°C\n* **R Humidity**: 90%\n- **Rain**: 0 mm\n\n### SHESH PLOT\n- **Temperature**: 27°C\n* **R Humidity**: 90%\n- **Rain**: 0 mm\n\nThere is no possibility of rain at this time but there is a pleasant weather. If you need more information or assistance, let me know!",
+        "timestamp": {
+          "$date": "2025-06-21T02:31:10.125Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140",
+      "sheshpalot"
+    ],
+    "conversation_id": "6856192138e1b45dddc537a7",
+    "_id": "6856192138e1b45dddc537a7",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-06-21T02:36:01.061000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-06-21T02:29:53.728000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Call me",
+        "en": "Call me",
+        "timestamp": {
+          "$date": "2025-06-21T02:26:45.037Z"
+        },
+        "standalone_question": "Could you please call me?",
+        "standalone_en": "Could you please call me?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "I'm here to assist you with any agricultural questions or tasks you have! How can I help you today?",
+        "en": "I'm here to assist you with any agricultural questions or tasks you have! How can I help you today?",
+        "timestamp": {
+          "$date": "2025-06-21T02:26:47.367Z"
+        }
+      }
+    ],
+    "farmer_id": "bipinparmar",
+    "farmer_plot_ids": [
+      "plot1208",
+      "rudrafarm"
+    ],
+    "conversation_id": "6856186338e1b45dddc537a6",
+    "_id": "6856186338e1b45dddc537a6",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-06-21T02:31:45.042000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-06-21T02:26:45.037000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can i mix zinc iron boron manganese ",
+        "en": "Can i mix zinc iron boron manganese ",
+        "timestamp": {
+          "$date": "2025-06-21T01:43:14.210Z"
+        },
+        "standalone_question": "Can I combine zinc, iron, boron, and manganese?",
+        "standalone_en": "Can I combine zinc, iron, boron, and manganese?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, you can mix zinc, iron, boron, and manganese as they are micronutrients essential for plant growth. However, it's important to ensure that the mixture is compatible and that the application rates are appropriate for your specific crop needs. Always follow the recommended guidelines for mixing and application to avoid any potential toxicity or nutrient imbalance.",
+        "en": "Yes, you can mix zinc, iron, boron, and manganese as they are micronutrients essential for plant growth. However, it's important to ensure that the mixture is compatible and that the application rates are appropriate for your specific crop needs. Always follow the recommended guidelines for mixing and application to avoid any potential toxicity or nutrient imbalance.",
+        "timestamp": {
+          "$date": "2025-06-21T01:43:17.592Z"
+        }
+      }
+    ],
+    "farmer_id": "swathappa",
+    "farmer_plot_ids": [
+      "swathappa"
+    ],
+    "conversation_id": "68560e3138e1b45dddc537a5",
+    "_id": "68560e3138e1b45dddc537a5",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-06-21T01:48:14.213000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-06-21T01:43:14.210000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hello ",
+        "en": "Hello ",
+        "timestamp": {
+          "$date": "2025-06-21T00:56:53.443Z"
+        },
+        "standalone_question": "What would you like to talk about?",
+        "standalone_en": "What would you like to talk about?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Hello Rajeshbhaivithon1! How can I assist you with your farming needs today?",
+        "en": "Hello Rajeshbhaivithon1! How can I assist you with your farming needs today?",
+        "timestamp": {
+          "$date": "2025-06-21T00:56:55.890Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Fayllo is off",
+        "en": "Fayllo is off",
+        "timestamp": {
+          "$date": "2025-06-21T00:57:10.730Z"
+        },
+        "standalone_question": "Is Fayllo currently unavailable?",
+        "standalone_en": "Is Fayllo currently unavailable?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems that your Fyllo device is not currently sending data. This could be due to connectivity issues or the device being inactive. \n\nWould you like me to check the status of your recharge plan or assist you with anything else?",
+        "en": "It seems that your Fyllo device is not currently sending data. This could be due to connectivity issues or the device being inactive. \n\nWould you like me to check the status of your recharge plan or assist you with anything else?",
+        "timestamp": {
+          "$date": "2025-06-21T00:57:14.111Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Can't talk in gujarati ",
+        "en": "Can't talk in gujarati ",
+        "timestamp": {
+          "$date": "2025-06-21T00:57:51.541Z"
+        },
+        "standalone_question": "Can you communicate in Gujarati?",
+        "standalone_en": "Can you communicate in Gujarati?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Which languages do you support?\nA: I can support most of the major languages of India and abroad, you can ask me is your language and I can try to answer.\n   You can also change your language in the Fyllo App, and I will also update my chat language accordingly."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "No problem! I can continue in English. How can I assist you with your farming needs today?",
+        "en": "No problem! I can continue in English. How can I assist you with your farming needs today?",
+        "timestamp": {
+          "$date": "2025-06-21T00:57:54.365Z"
+        }
+      }
+    ],
+    "farmer_id": "rajeshbhaivithon1",
+    "farmer_plot_ids": [
+      "plot1524"
+    ],
+    "conversation_id": "6856035438e1b45dddc537a4",
+    "_id": "6856035438e1b45dddc537a4",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-06-21T01:02:51.543000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-06-21T00:56:53.443000+00:00"
+  }
+]

@@ -1,0 +1,475 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Soil temp sensor not working ",
+        "en": "Soil temp sensor not working ",
+        "timestamp": {
+          "$date": "2025-04-26T14:20:04.802Z"
+        },
+        "standalone_question": "What should I do if my soil temperature sensor is not working?",
+        "standalone_en": "What should I do if my soil temperature sensor is not working?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What should I do if the soil temperature sensor is not working?\nA: Check the sensor connection, tighten it if loose, and restart the device to check updated data.",
+            "Q: What should I do if the soil moisture sensor always shows dry values?\nA: Check if irrigation water is reaching the sensor, verify sensor connection, and ensure the sensor is not damaged.",
+            "Q: What should I do if the soil moisture sensor values fluctuate?\nA: Ensure the sensor is installed properly in the soil, check for air bubbles, and contact Fyllo representative if the issue persists.",
+            "Q: How do I know if my soil  moisture sensor is working fine ?\nA: The only way to know is if after irrigation the sensor is dropping below 5 kpa and increasing continuously unless next irrigation is done. You can try putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. Also, a soil moisture reading of 0 kPa is perfectly fine, meaning wet soil, but a reading of 200 kPa could mean fault. If the soil moisture sensor reading is consistently at 0 from few 48 hours, then it could be anamolous (use live and historical hourly soil moisture data (use tool) to validate).",
+            "Q: What should I do if the soil moisture sensor always shows wet values?\nA: Verify the irrigation frequency, check the installation point, and contact Fyllo representative if the issue persists."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Check the sensor connection to ensure it's secure. If it's loose, tighten it. After that, restart the device to see if the soil temperature data updates. If the issue persists, consider contacting a Fyllo representative for further assistance.",
+        "en": "Check the sensor connection to ensure it's secure. If it's loose, tighten it. After that, restart the device to see if the soil temperature data updates. If the issue persists, consider contacting a Fyllo representative for further assistance.",
+        "timestamp": {
+          "$date": "2025-04-26T14:20:07.705Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "How check senser connection ",
+        "en": "How check senser connection ",
+        "timestamp": {
+          "$date": "2025-04-26T14:20:53.851Z"
+        },
+        "standalone_question": "How do I check the sensor connection?",
+        "standalone_en": "How do I check the sensor connection?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How do I connect the sensors to the Kairo device?\nA: Connect the sensors to their respective connectors as indicated in the manual.",
+            "Q: How do I replace the sensors for Kairo?\nA: Disconnect the sensors by rotating them counterclockwise, unplug the connector, and replace them by following the steps in the manual.",
+            "Q: What should I do if the soil temperature sensor is not working?\nA: Check the sensor connection, tighten it if loose, and restart the device to check updated data.",
+            "Q: How do I replace the sensors for Nero?\nA: Disconnect the sensors by rotating them counterclockwise, unplug the connector, and replace them by following the steps in the manual."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To check the sensor connection:\n\n1. **Locate the Sensor**: Find the soil temperature sensor on your device.\n2. **Inspect the Connection**: Ensure that the sensor is securely connected to its port. Look for any visible signs of damage or looseness.\n3. **Tighten if Loose**: If the connection seems loose, gently tighten it by rotating it clockwise.\n4. **Restart the Device**: After checking the connection, restart your device to see if the sensor data updates.\n\nIf the sensor still doesn't work after these steps, consider replacing it or contacting Fyllo support for assistance.",
+        "en": "To check the sensor connection:\n\n1. **Locate the Sensor**: Find the soil temperature sensor on your device.\n2. **Inspect the Connection**: Ensure that the sensor is securely connected to its port. Look for any visible signs of damage or looseness.\n3. **Tighten if Loose**: If the connection seems loose, gently tighten it by rotating it clockwise.\n4. **Restart the Device**: After checking the connection, restart your device to see if the sensor data updates.\n\nIf the sensor still doesn't work after these steps, consider replacing it or contacting Fyllo support for assistance.",
+        "timestamp": {
+          "$date": "2025-04-26T14:21:01.038Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Cucumber care",
+        "en": "Cucumber care",
+        "timestamp": {
+          "$date": "2025-04-26T14:21:39.090Z"
+        },
+        "standalone_question": "What are the best practices for caring for cucumbers?",
+        "standalone_en": "What are the best practices for caring for cucumbers?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here are some essential care tips for growing cucumbers:\n\n1. **Watering**: Ensure consistent moisture, especially during flowering and fruiting. Water deeply but infrequently to encourage deep root growth.\n\n2. **Fertilization**: Use a balanced fertilizer during the growing season. Fertigation can be effective for cucumbers.\n\n3. **Mulching**: Apply mulch to retain soil moisture, suppress weeds, and maintain soil temperature.\n\n4. **Pest Control**: Monitor for pests like aphids and cucumber beetles. Use insecticidal soap or neem oil if necessary.\n\n5. **Disease Management**: Watch for diseases like powdery mildew and downy mildew. Ensure good air circulation and avoid overhead watering.\n\n6. **Support**: Use trellises to support climbing varieties, which can improve air circulation and reduce disease risk.\n\n7. **Harvesting**: Pick cucumbers when they are firm and green, typically 6-8 inches long, to encourage continuous production.\n\nRegular monitoring and timely interventions will help ensure a healthy cucumber crop.",
+        "en": "Here are some essential care tips for growing cucumbers:\n\n1. **Watering**: Ensure consistent moisture, especially during flowering and fruiting. Water deeply but infrequently to encourage deep root growth.\n\n2. **Fertilization**: Use a balanced fertilizer during the growing season. Fertigation can be effective for cucumbers.\n\n3. **Mulching**: Apply mulch to retain soil moisture, suppress weeds, and maintain soil temperature.\n\n4. **Pest Control**: Monitor for pests like aphids and cucumber beetles. Use insecticidal soap or neem oil if necessary.\n\n5. **Disease Management**: Watch for diseases like powdery mildew and downy mildew. Ensure good air circulation and avoid overhead watering.\n\n6. **Support**: Use trellises to support climbing varieties, which can improve air circulation and reduce disease risk.\n\n7. **Harvesting**: Pick cucumbers when they are firm and green, typically 6-8 inches long, to encourage continuous production.\n\nRegular monitoring and timely interventions will help ensure a healthy cucumber crop.",
+        "timestamp": {
+          "$date": "2025-04-26T14:21:45.695Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Fertilizer for half Acer land area",
+        "en": "Fertilizer for half Acer land area",
+        "timestamp": {
+          "$date": "2025-04-26T14:22:54.304Z"
+        },
+        "standalone_question": "What type of fertilizer should I use for half an acre of land?",
+        "standalone_en": "What type of fertilizer should I use for half an acre of land?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Currently, no fertigation is needed for your cucumber plots. However, the next fertigation schedule will begin in the **Vegetative Growth** stage starting from **May 5, 2025**. Here are the details for the first week of this stage:\n\n### Fertigation Schedule for Vegetative Growth (Week 1)\n\n1. **Day 1**:\n   - **Fertilizers**:\n     - 12-61-0: 3 kg/acre\n     - Calcium Nitrate: 3 kg/acre\n   - **Notes**: \n     - Apply Calcium Nitrate separately, 15-20 minutes after other fertilizers.\n     - Apply Phosphoric Acid separately, 15-20 minutes before other fertilizers.\n\n2. **Day 3**:\n   - **Fertilizers**:\n     - 12-61-0: 3.5 kg/acre\n   - **Notes**: \n     - Apply Calcium Nitrate and Phosphoric Acid as mentioned above.\n\n3. **Day 5**:\n   - **Fertilizers**:\n     - 12-61-0: 3.5 kg/acre\n     - Magnesium Sulphate: 3 kg/acre\n   - **Notes**: \n     - Follow the same application notes for Calcium Nitrate and Phosphoric Acid.\n\n### For Half Acre\nSince your land area is 1 acre, you can halve the amounts for half an acre:\n\n- **Day 1**: \n  - 12-61-0: 1.5 kg\n  - Calcium Nitrate: 1.5 kg\n\n- **Day 3**: \n  - 12-61-0: 1.75 kg\n\n- **Day 5**: \n  - 12-61-0: 1.75 kg\n  - Magnesium Sulphate: 1.5 kg\n\nMake sure to follow the application notes for optimal results!",
+        "en": "Currently, no fertigation is needed for your cucumber plots. However, the next fertigation schedule will begin in the **Vegetative Growth** stage starting from **May 5, 2025**. Here are the details for the first week of this stage:\n\n### Fertigation Schedule for Vegetative Growth (Week 1)\n\n1. **Day 1**:\n   - **Fertilizers**:\n     - 12-61-0: 3 kg/acre\n     - Calcium Nitrate: 3 kg/acre\n   - **Notes**: \n     - Apply Calcium Nitrate separately, 15-20 minutes after other fertilizers.\n     - Apply Phosphoric Acid separately, 15-20 minutes before other fertilizers.\n\n2. **Day 3**:\n   - **Fertilizers**:\n     - 12-61-0: 3.5 kg/acre\n   - **Notes**: \n     - Apply Calcium Nitrate and Phosphoric Acid as mentioned above.\n\n3. **Day 5**:\n   - **Fertilizers**:\n     - 12-61-0: 3.5 kg/acre\n     - Magnesium Sulphate: 3 kg/acre\n   - **Notes**: \n     - Follow the same application notes for Calcium Nitrate and Phosphoric Acid.\n\n### For Half Acre\nSince your land area is 1 acre, you can halve the amounts for half an acre:\n\n- **Day 1**: \n  - 12-61-0: 1.5 kg\n  - Calcium Nitrate: 1.5 kg\n\n- **Day 3**: \n  - 12-61-0: 1.75 kg\n\n- **Day 5**: \n  - 12-61-0: 1.75 kg\n  - Magnesium Sulphate: 1.5 kg\n\nMake sure to follow the application notes for optimal results!",
+        "timestamp": {
+          "$date": "2025-04-26T14:23:04.236Z"
+        }
+      }
+    ],
+    "farmer_id": "kuntalsinghranjitsinhjhala",
+    "farmer_plot_ids": [
+      "cucumberplots"
+    ],
+    "conversation_id": "680ceb946726dde62ad1aa46",
+    "_id": "680ceb946726dde62ad1aa46",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-26T14:27:54.313000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-26T14:20:04.802000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Solubor",
+        "en": "Solubor",
+        "timestamp": {
+          "$date": "2025-04-26T13:33:26.809Z"
+        },
+        "standalone_question": "What is Solubor?",
+        "standalone_en": "What is Solubor?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Solubor is a boron-based fertilizer that is commonly used to enhance the growth and development of crops, particularly in the flowering and fruiting stages. It helps in improving fruit quality, preventing blossom drop, and enhancing overall plant health.\n\nIf you need specific recommendations on how to use Solubor for your cucumber plots, including application rates or timing, please let me know!",
+        "en": "Solubor is a boron-based fertilizer that is commonly used to enhance the growth and development of crops, particularly in the flowering and fruiting stages. It helps in improving fruit quality, preventing blossom drop, and enhancing overall plant health.\n\nIf you need specific recommendations on how to use Solubor for your cucumber plots, including application rates or timing, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-26T13:33:31.329Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Please let me know ",
+        "en": "Please let me know ",
+        "timestamp": {
+          "$date": "2025-04-26T13:34:12.485Z"
+        },
+        "standalone_question": "Could you provide specific recommendations on how to use Solubor for cucumber plots, including application rates and timing?",
+        "standalone_en": "Could you provide specific recommendations on how to use Solubor for cucumber plots, including application rates and timing?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like you are looking for information related to your cucumber plots. Could you please specify what you would like to know? For example, are you interested in pest control measures, fertigation schedules, irrigation needs, or something else?",
+        "en": "It seems like you are looking for information related to your cucumber plots. Could you please specify what you would like to know? For example, are you interested in pest control measures, fertigation schedules, irrigation needs, or something else?",
+        "timestamp": {
+          "$date": "2025-04-26T13:34:16.430Z"
+        }
+      }
+    ],
+    "farmer_id": "kuntalsinghranjitsinhjhala",
+    "farmer_plot_ids": [
+      "cucumberplots"
+    ],
+    "conversation_id": "680ce0a643440b7a27aad574",
+    "_id": "680ce0a643440b7a27aad574",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-26T13:39:12.493000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-26T13:33:26.809000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "शेतामध्ये पाण्याची गरज आहे का ",
+        "en": "Is there a need for water in the field? ",
+        "timestamp": {
+          "$date": "2025-04-26T11:34:29.917Z"
+        },
+        "standalone_question": "Is there a need for water in the field?",
+        "standalone_en": "Is there a need for water in the field?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate.",
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer.",
+            "Q: What is soil water storage (water tank of crop)?\nA: Soil water storage is defined as the total amount of water that is stored in the soil within the plant’s root zone. The soil texture and the crop rooting depth determine this. A deeper rooting depth means there is a larger volume of water stored in the soil and therefore a larger reservoir of water for the crop to draw upon between irrigations. Knowing the soil water storage capacity allows the irrigator to determine how much water to apply at one time and how long to wait between each irrigation. For example, the amount of water applied at one time on a sandy soil, which has a low soil water storage capacity, would be less than for a loam soil, which has a higher soil water storage capacity."
+          ]
+        },
+        "content_transliterated": "shetamadhye panyachi garaj aahe ka "
+      },
+      {
+        "role": "assistant",
+        "content": "\"साखरेच्या प्लॉट 1\" मध्ये सध्या पाण्याची गरज नाही. सध्या मातीतील आर्द्रता 68% आहे, जी 60% च्या आदर्श आर्द्रतेपेक्षा जास्त आहे. त्यामुळे पाण्याची आवश्यकता नाही.",
+        "en": "\"Sugar Plot 1\" does not require water at present. Soil moisture is currently 68%, which is higher than the ideal humidity of 60%. So there is no need for water.",
+        "timestamp": {
+          "$date": "2025-04-26T11:34:34.509Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "मुलांना अन्नद्रव्य उपलब्ध होतात का ",
+        "en": "Do children have access to nutrients? ",
+        "timestamp": {
+          "$date": "2025-04-26T11:35:21.360Z"
+        },
+        "standalone_question": "Are nutrients available for the children?",
+        "standalone_en": "Are nutrients available for the children?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mulanna annadravy upalabdh hotat ka "
+      },
+      {
+        "role": "assistant",
+        "content": "होय, मुलांना अन्नद्रव्य उपलब्ध होतात. साखरेच्या पिकासाठी आवश्यक अन्नद्रव्ये म्हणजे नायट्रोजन (N), फॉस्फरस (P), आणि पोटॅशियम (K). या अन्नद्रव्यांचा योग्य प्रमाणात वापर केल्यास पिकाची वाढ आणि उत्पादन वाढवता येते. \n\nआपल्या साखरेच्या प्लॉटमध्ये योग्य अन्नद्रव्यांची उपलब्धता सुनिश्चित करण्यासाठी, योग्य फर्टिगेशन शेड्यूल तयार करणे महत्त्वाचे आहे. जर तुम्हाला फर्टिगेशन शेड्यूलची माहिती हवी असेल, तर कृपया सांगा.",
+        "en": "Yes, children have access to nutrients. The nutrients required for sugar harvest are nitrogen (N), phosphorus (P), and potassium (K). Proper use of these nutrients can increase the growth and yield of the crop. \n\nTo ensure the availability of the right nutrients in your sugar plot, it's important to create the right fertigation schedule. If you would like information on the fertigation schedule, please let me know.",
+        "timestamp": {
+          "$date": "2025-04-26T11:35:26.653Z"
+        }
+      }
+    ],
+    "farmer_id": "harshalsajane",
+    "farmer_plot_ids": [
+      "sugarcaneplot1118"
+    ],
+    "conversation_id": "680cc4c556d410a6f75f4834",
+    "_id": "680cc4c556d410a6f75f4834",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-26T11:40:21.368000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-26T11:34:29.917000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "बाग सुकत आहे ",
+        "en": "The garden is drying up ",
+        "timestamp": {
+          "$date": "2025-04-26T09:10:37.350Z"
+        },
+        "standalone_question": "The garden is dry. \n\nStandalone Question: Is the garden dry?",
+        "standalone_en": "The garden is dry. \n\nStandalone Question: Is the garden dry?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "bag sukat aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या बागेतील पाण्याची स्थिती तपासण्यासाठी, कृपया खालील गोष्टी लक्षात घ्या:\n\n1. **मातीची आर्द्रता**: जर आपला सेन्सर पाण्याची कमी दर्शवत असेल, तर मातीला पाणी देणे आवश्यक आहे. \n2. **पाण्याची पातळी**: पाण्याची पातळी तपासण्यासाठी, सेन्सरच्या आजुबाजुच्या मातीमध्ये खोदून पाहा. \n3. **पाण्याचा प्रवाह**: पाणी देताना, पाण्याचा प्रवाह योग्य आहे का ते तपासा. \n\nआपल्याला अधिक मदतीची आवश्यकता असल्यास, कृपया सेन्सरच्या वाचनाबद्दल अधिक माहिती द्या.",
+        "en": "To check the water condition in your garden, please note the following:\n\n1. **Soil moisture**: If your sensor is showing a lack of water, it is necessary to water the soil. \n2. **Water level**: To check the water level, dig into the soil around the sensor. \n3. **Water flow**: When watering, check that the flow of water is correct. \n\nIf you need more help, please provide more information about the sensor's reading.",
+        "timestamp": {
+          "$date": "2025-04-26T09:10:43.441Z"
+        }
+      }
+    ],
+    "farmer_id": "vikaskisaningale",
+    "farmer_plot_ids": [
+      "ssnplot510"
+    ],
+    "conversation_id": "680ca30d43440b7a27aad573",
+    "_id": "680ca30d43440b7a27aad573",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-26T09:15:37.357000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-26T09:10:37.350000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पाऊस कदि पडेल",
+        "en": "When will it rain?",
+        "timestamp": {
+          "$date": "2025-04-26T04:16:47.111Z"
+        },
+        "standalone_question": "When will it rain?",
+        "standalone_en": "When will it rain?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "paus kadi padel"
+      },
+      {
+        "role": "assistant",
+        "content": "प्लॉट नंबर 1 क्रिमसन (Bahaduri, Chandvad, Nashik, Maharashtra) साठी पुढील काही दिवसांमध्ये पाऊस पडण्याची शक्यता नाही. \n\nयेणाऱ्या काही दिवसांचे हवामान:\n- **26 एप्रिल**: 0.1 मिमी पाऊस, पण 0% संभाव्यता.\n- **27 एप्रिल**: पाऊस नाही.\n- **28 एप्रिल**: पाऊस नाही.\n- **29 एप्रिल**: पाऊस नाही.\n- **30 एप्रिल**: पाऊस नाही.\n- **1 मे**: पाऊस नाही.\n- **2 मे**: पाऊस नाही.\n- **3 मे**: पाऊस नाही.\n- **4 मे**: पाऊस नाही.\n- **5 मे**: पाऊस नाही.\n- **6 मे**: पाऊस नाही.\n- **7 मे**: पाऊस नाही.\n- **8 मे**: पाऊस नाही.\n\nतुम्हाला पाण्याची गरज भासल्यास, योग्य वेळी पाणी द्यावे लागेल.",
+        "en": "For Plot No. 1 Crimson (Bahaduri, Chandvad, Nashik, Maharashtra), there is no chance of rain in the next few days. \n\nWeather for the coming few days:\n- **April 26th**: 0.1 mm of rain, but 0% probability.\n- **April 27th**: No rain.\n- **April 28th**: No rain.\n- **April 29th**: No rain.\n- **April 30th**: No rain.\n- **1 May**: No rain.\n- **2 May**: No rain.\n- **3 May**: No rain.\n- **4 May**: No rain.\n- **5 May**: No rain.\n- **6 May**: No rain.\n- **7 May**: No rain.\n- **8 May**: No rain.\n\nIf you feel the need for water, water will need to be given at the right time.",
+        "timestamp": {
+          "$date": "2025-04-26T04:16:55.025Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ok",
+        "en": "Ok",
+        "timestamp": {
+          "$date": "2025-04-26T04:17:39.143Z"
+        },
+        "standalone_question": "What is the weather forecast for the next few days?",
+        "standalone_en": "What is the weather forecast for the next few days?",
+        "retrieval": {
+          "tools": [
+            "get_daily_weather_forecast  \nProvides the next 14 days from today, daily weather forecast for the farmer's plots. Use only for forecast, not current values.",
+            "get_hourly_weather_forecast  \nProvides hourly weather forecast for today and the next 4 days for the farmer's plots. Use only for forecast, not actual measured values."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "जर तुम्हाला आणखी काही माहिती हवी असेल किंवा शेतकऱ्यांच्या कामाबद्दल काही प्रश्न असतील, तर कृपया सांगा!",
+        "en": "If you need any more information or have any questions about the work of farmers, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-26T04:17:42.361Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पाणी कदि दिलेले होते",
+        "en": "The water was given",
+        "timestamp": {
+          "$date": "2025-04-26T04:19:28.125Z"
+        },
+        "standalone_question": "When was the water given?",
+        "standalone_en": "When was the water given?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pani kadi dilele hote"
+      },
+      {
+        "role": "assistant",
+        "content": "प्लॉट नंबर 1 क्रिमसन साठी पाणी दिलेले दिवस खालीलप्रमाणे आहेत:\n\n- **14 एप्रिल 2025**\n- **31 मार्च 2025**\n- **26 फेब्रुवारी 2025**\n\nजर तुम्हाला आणखी काही माहिती हवी असेल, तर कृपया सांगा!",
+        "en": "The days watered for Plot No. 1 Crimson are as follows:\n\n- **14 April 2025**\n- **31 March 2025**\n- **26 February 2025**\n\nIf you need any more information, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-26T04:19:33.422Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "खत",
+        "en": "letter",
+        "timestamp": {
+          "$date": "2025-04-26T04:20:23.534Z"
+        },
+        "standalone_question": "What fertilizers have been used?",
+        "standalone_en": "What fertilizers have been used?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17"
+          ]
+        },
+        "content_transliterated": "khat"
+      },
+      {
+        "role": "assistant",
+        "content": "प्लॉट नंबर 1 क्रिमसन साठी खत (फर्टिगेशन) डेटा शेड्यूल उपलब्ध नाही. जर तुम्हाला आणखी काही माहिती हवी असेल, तर कृपया सांगा!",
+        "en": "Plot No. 1 Crimson fertilization data schedule is not available. If you need any more information, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-26T04:20:28.777Z"
+        }
+      }
+    ],
+    "farmer_id": "sandipshirsath",
+    "farmer_plot_ids": [
+      "plotno1crimson713"
+    ],
+    "conversation_id": "680c5e2e43440b7a27aad572",
+    "_id": "680c5e2e43440b7a27aad572",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-26T04:25:23.543000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-26T04:16:47.111000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "फुलगळ खुप प्रमानात होते ",
+        "en": "The flower was very much ",
+        "timestamp": {
+          "$date": "2025-04-26T02:06:25.906Z"
+        },
+        "standalone_question": "Is there a lot of fullness?",
+        "standalone_en": "Is there a lot of fullness?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "फुलगळ (Flower drop) हा एक सामान्य समस्या आहे, विशेषतः कॅप्सिकमच्या पिकात. याचे कारण अनेक असू शकतात, जसे की:\n\n1. **तापमान**: अत्यधिक तापमान किंवा कमी तापमानामुळे फुलांचा गळा होऊ शकतो.\n2. **पाण्याची कमतरता**: योग्य पाण्याची उपलब्धता नसल्यास फुलांचा गळा होतो.\n3. **खते**: पोषणाची कमतरता किंवा अति खते वापरणे.\n4. **कीड आणि रोग**: कीड किंवा रोगांचा प्रादुर्भाव.\n\nआपण आपल्या पिकाची स्थिती तपासून पाहू शकता. जर तुम्हाला अधिक माहिती हवी असेल तर कृपया मला सांगा, मी तुम्हाला अधिक मदत करू शकतो.",
+        "en": "Flower drop is a common problem, especially in the crop of capsicum. The reason for this can be several, such as:\n\n1. ***Temperature**: Excessive temperatures or low temperatures can cause flowering.\n2. **Water scarcity**: Without proper water availability, flowering occurs.\n3. **Fertilizers**: Nutritional deficiency or excessive fertilizer use.\n4. **Pests and diseases**: Outbreaks of pests or diseases.\n\nYou can check the condition of your crop. If you want more information, please let me know, I can help you more.",
+        "timestamp": {
+          "$date": "2025-04-26T02:06:32.800Z"
+        }
+      }
+    ],
+    "farmer_id": "shivajinamdevshirsath",
+    "farmer_plot_ids": [
+      "testplotcapsicum"
+    ],
+    "conversation_id": "680c3fa16726dde62ad1aa3e",
+    "_id": "680c3fa16726dde62ad1aa3e",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-26T02:11:25.914000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-26T02:06:25.906000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Up date done' ",
+        "en": "Up date done' ",
+        "timestamp": {
+          "$date": "2025-04-26T00:19:43.967Z"
+        },
+        "standalone_question": "Has the update been completed?",
+        "standalone_en": "Has the update been completed?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Great! If you have any questions or need assistance with your farming practices, feel free to ask!",
+        "en": "Great! If you have any questions or need assistance with your farming practices, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-04-26T00:19:47.385Z"
+        }
+      }
+    ],
+    "farmer_id": "dnyandevjagtapfarms",
+    "farmer_plot_ids": [
+      "bananaplotjagtap",
+      "dnyandevjagtapmanikchamanplot",
+      "pomoplot260"
+    ],
+    "conversation_id": "680c269f6726dde62ad1aa3c",
+    "_id": "680c269f6726dde62ad1aa3c",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-26T00:24:43.979000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-26T00:19:43.967000+00:00"
+  }
+]

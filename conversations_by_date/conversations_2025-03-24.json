@@ -1,0 +1,1284 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi",
+        "en": "Hi",
+        "timestamp": {
+          "$date": "2025-03-24T18:35:40.638Z"
+        },
+        "standalone_question": "What would you like to talk about today?",
+        "standalone_en": "What would you like to talk about today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "નમસ્તે, નિલેશભાઈ! કેવી રીતે છો? હું તમારી ખેતીમાં મદદ કરવા માટે અહીં છું. શું તમને કોઈ ખાસ માહિતી જોઈએ?",
+        "en": "Namaste, Nileshbhai! How are you? I'm here to help you with your farming. Do you want any specific information?",
+        "timestamp": {
+          "$date": "2025-03-24T18:35:43.725Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "સેન્સર નંબર 2 બઁધ છે ",
+        "en": "Sensor number 2 is tied ",
+        "timestamp": {
+          "$date": "2025-03-24T18:36:11.350Z"
+        },
+        "standalone_question": "Is sensor number 2 connected?",
+        "standalone_en": "Is sensor number 2 connected?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How do I connect the sensors to the Kairo device?\nA: Connect the sensors to their respective connectors as indicated in the manual."
+          ]
+        },
+        "content_transliterated": "sensor number 2 bandh che "
+      },
+      {
+        "role": "assistant",
+        "content": "સેન્સર નંબર 2 જો 200 kPa બતાવી રહ્યો છે, તો આનો અર્થ છે કે જમીન સંપૂર્ણપણે સૂકી છે અથવા સેન્સર જમીનથી બહાર છે. \n\nકૃપા કરીને ચકાસો કે સેન્સર જમીનમાં યોગ્ય રીતે બાંધવામાં આવ્યો છે કે નહીં. જો તે યોગ્ય રીતે બાંધેલું છે, તો તમે છેલ્લે ક્યારે પાણી આપ્યું હતું તે પણ તપાસો. જો તમે લાંબા સમયથી પાણી આપ્યું નથી, તો જમીન સૂકી થઈ શકે છે અને 200 kPa વાંચન યોગ્ય છે.\n\nજો તમને વધુ મદદની જરૂર હોય, તો કૃપા કરીને મને જણાવો!",
+        "en": "If sensor number 2 is showing 200 kPa, this means that the ground is completely dry or the sensor is out of the ground. \n\nPlease check if the sensor is properly built in the ground. If it is properly fastened, check when was the last time you gave water. If you haven't watered for a long time, the ground can become dry and a 200 kPa reading is appropriate.\n\nIf you need more help, please let me know!",
+        "timestamp": {
+          "$date": "2025-03-24T18:36:15.699Z"
+        }
+      }
+    ],
+    "farmer_id": "nileshblimbani",
+    "farmer_plot_ids": [
+      "plot1papaya231"
+    ],
+    "conversation_id": "67e1a5fcc981373657d8314b",
+    "_id": "67e1a5fcc981373657d8314b",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-24T18:38:47.926000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-03-24T18:35:40.638000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "ઉપરોક્ત ફોટા માં કયા પ્રકારની જીવાત છે <user uploaded image for analysis at 'panchalvalopalot/2025-03-24-1742837769704.jpg'>",
+        "en": "What type of insect is there in the above photo <user uploaded image for analysis at 'panchalvalopalot/2025-03-24-1742837769704.jpg'>",
+        "timestamp": {
+          "$date": "2025-03-24T17:37:19.304Z"
+        },
+        "standalone_question": "What type of insect is present in the uploaded photo?",
+        "standalone_en": "What type of insect is present in the uploaded photo?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "uparokt phota man kaya prakarani jivat che <user uploaded image for analysis at 'panchalvalopalot/2025-03-24-1742837769704.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "ફોટામાં બોટલ ગોરડના પાન પર જીવાતની પ્રવૃત્તિના કેટલાક નિશાન દેખાઈ રહ્યા છે, શક્યતઃ લીફ માઇનર્સ અથવા સમાન જીવાતો. \n\nતમારા પાકના આરોગ્યને સુધારવા માટે, નીચેના સામાન્ય પગલાંઓ પર વિચાર કરો:\n\n1. **નિયમિત નિરીક્ષણ**: પાન અને ડાળીઓ પર જીવાતો અથવા રોગોના કોઈ નિશાન માટે તપાસો.\n2. **સ્વચ્છતા જાળવો**: અસરગ્રસ્ત પાન દૂર કરો જેથી જીવાતોનો ફેલાવો અટકાવી શકાય.\n3. **જૈવિક કીટનાશકનો ઉપયોગ કરો**: જો તમે ચોક્કસ જીવાતો ઓળખો છો, તો જૈવિક વિકલ્પો અથવા નીમ તેલનો ઉપયોગ કરવા પર વિચાર કરો.\n\nવધુ ચોક્કસ નિદાન અને ઉપચાર માટે, કૃપા કરીને અસરગ્રસ્ત વિસ્તારો પર ધ્યાન કેન્દ્રિત કરીને વધુ સ્પષ્ટ છબી પ્રદાન કરો.",
+        "en": "The photos show some signs of insect activity on bottle gourd leaves, possibly leaf miners or similar insects. \n\nTo improve the health of your crop, consider the following common steps:\n\n1. **Regular monitoring**: Check for any signs of insects or diseases on the leaves and branches.\n2. **Maintain hygiene**: Remove affected leaves so as to prevent the spread of pests.\n3. **Use organic pesticides**: If you identify specific insects, consider using organic alternatives or neem oil.\n\nFor a more precise diagnosis and treatment, please provide a more clear image focusing on the affected areas.",
+        "timestamp": {
+          "$date": "2025-03-24T17:37:42.096Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "લીફ માઇનર માં ક‌ઇ દવા છંટકાવ કરવો જોઈએ ",
+        "en": "Which medicine should be sprayed in the leaf miner ",
+        "timestamp": {
+          "$date": "2025-03-24T17:39:55.130Z"
+        },
+        "standalone_question": "What pesticide should be used to treat leaf miners?",
+        "standalone_en": "What pesticide should be used to treat leaf miners?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "leaf miner ma kai dava chantakav karavo joie "
+      },
+      {
+        "role": "assistant",
+        "content": "આજે અથવા આગામી દિવસોમાં લીફ માઇનર માટે કોઈ છંટકાવની શેડ્યૂલ નથી. \n\nપરંતુ, લીફ માઇનર માટે સામાન્ય રીતે ઉપયોગમાં લેવાતા કીટનાશકમાં **ચ્લોરપિરિફોસ** અથવા **થિયામેથોક્સામ**નો સમાવેશ થાય છે. \n\n**છંટકાવ માટેની ભલામણ:**\n- **ચ્લોરપિરિફોસ** @ 5 મીલીલિટર/લિટર પાણી\n- **થિયામેથોક્સામ** @ 0.5 ગ્રામ/લિટર પાણી\n\nઆ દવાઓનો ઉપયોગ કરીને, તમે લીફ માઇનર પર નિયંત્રણ મેળવી શકો છો.",
+        "en": "There is no spraying schedule for leaf miners today or in the coming days. \n\nBut, the most commonly used pesticides for leaf miners include **chlorpirifos** or **thiamathoxam**. \n\n**Recommendation for spraying:**\n- **Chlorpirifos** @ 5 ml/litre water\n- **Thiamethoxam** @ 0.5 g/litre of water\n\nBy using these drugs, you can gain control over the leaf miner.",
+        "timestamp": {
+          "$date": "2025-03-24T17:40:02.832Z"
+        }
+      }
+    ],
+    "farmer_id": "vasantbhaigovajidevda",
+    "farmer_plot_ids": [
+      "panchalvalopalot"
+    ],
+    "conversation_id": "67e1984f0a99e4d514b49869",
+    "_id": "67e1984f0a99e4d514b49869",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-24T17:44:55.139000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-03-24T17:37:19.304000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "ઉપરોક્ત ફોટા માં કયા પ્રકારની જીવાત છે <user uploaded image for analysis at 'panchalvalopalot/2025-03-24-1742837769704.jpg'>",
+        "en": "What type of insect is there in the above photo <user uploaded image for analysis at 'panchalvalopalot/2025-03-24-1742837769704.jpg'>",
+        "timestamp": {
+          "$date": "2025-03-24T17:37:19.304Z"
+        },
+        "standalone_question": "What type of insect is present in the uploaded photo?",
+        "standalone_en": "What type of insect is present in the uploaded photo?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "uparokt phota man kaya prakarani jivat che <user uploaded image for analysis at 'panchalvalopalot/2025-03-24-1742837769704.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "ફોટામાં બોટલ ગોરડના પાન પર જીવાતની પ્રવૃત્તિના કેટલાક નિશાન દેખાઈ રહ્યા છે, શક્યતઃ લીફ માઇનર્સ અથવા સમાન જીવાતો. \n\nતમારા પાકના આરોગ્યને સુધારવા માટે, નીચેના સામાન્ય પગલાંઓ પર વિચાર કરો:\n\n1. **નિયમિત નિરીક્ષણ**: પાન અને ડાળીઓ પર જીવાતો અથવા રોગોના કોઈ નિશાન માટે તપાસો.\n2. **સ્વચ્છતા જાળવો**: અસરગ્રસ્ત પાન દૂર કરો જેથી જીવાતોનો ફેલાવો અટકાવી શકાય.\n3. **જૈવિક કીટનાશકનો ઉપયોગ કરો**: જો તમે ચોક્કસ જીવાતો ઓળખો છો, તો જૈવિક વિકલ્પો અથવા નીમ તેલનો ઉપયોગ કરવા પર વિચાર કરો.\n\nવધુ ચોક્કસ નિદાન અને ઉપચાર માટે, કૃપા કરીને અસરગ્રસ્ત વિસ્તારો પર ધ્યાન કેન્દ્રિત કરીને વધુ સ્પષ્ટ છબી પ્રદાન કરો.",
+        "en": "The photos show some signs of insect activity on bottle gourd leaves, possibly leaf miners or similar insects. \n\nTo improve the health of your crop, consider the following common steps:\n\n1. **Regular monitoring**: Check for any signs of insects or diseases on the leaves and branches.\n2. **Maintain hygiene**: Remove affected leaves so as to prevent the spread of pests.\n3. **Use organic pesticides**: If you identify specific insects, consider using organic alternatives or neem oil.\n\nFor a more precise diagnosis and treatment, please provide a more clear image focusing on the affected areas.",
+        "timestamp": {
+          "$date": "2025-03-24T17:37:42.096Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "લીફ માઇનર માં ક‌ઇ દવા છંટકાવ કરવો જોઈએ ",
+        "en": "Which medicine should be sprayed in the leaf miner ",
+        "timestamp": {
+          "$date": "2025-03-24T17:39:55.130Z"
+        },
+        "standalone_question": "What pesticide should be used to treat leaf miners?",
+        "standalone_en": "What pesticide should be used to treat leaf miners?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "leaf miner ma kai dava chantakav karavo joie "
+      },
+      {
+        "role": "assistant",
+        "content": "આજે અથવા આગામી દિવસોમાં લીફ માઇનર માટે કોઈ છંટકાવની શેડ્યૂલ નથી. \n\nપરંતુ, લીફ માઇનર માટે સામાન્ય રીતે ઉપયોગમાં લેવાતા કીટનાશકમાં **ચ્લોરપિરિફોસ** અથવા **થિયામેથોક્સામ**નો સમાવેશ થાય છે. \n\n**છંટકાવ માટેની ભલામણ:**\n- **ચ્લોરપિરિફોસ** @ 5 મીલીલિટર/લિટર પાણી\n- **થિયામેથોક્સામ** @ 0.5 ગ્રામ/લિટર પાણી\n\nઆ દવાઓનો ઉપયોગ કરીને, તમે લીફ માઇનર પર નિયંત્રણ મેળવી શકો છો.",
+        "en": "There is no spraying schedule for leaf miners today or in the coming days. \n\nBut, the most commonly used pesticides for leaf miners include **chlorpirifos** or **thiamathoxam**. \n\n**Recommendation for spraying:**\n- **Chlorpirifos** @ 5 ml/litre water\n- **Thiamethoxam** @ 0.5 g/litre of water\n\nBy using these drugs, you can gain control over the leaf miner.",
+        "timestamp": {
+          "$date": "2025-03-24T17:40:02.832Z"
+        }
+      }
+    ],
+    "farmer_id": "vasantbhaigovajidevda",
+    "farmer_plot_ids": [
+      "panchalvalopalot"
+    ],
+    "conversation_id": "67e1984f0a99e4d514b49869",
+    "_id": "67e1984f0a99e4d514b49869",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-24T17:44:55.139000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-03-24T17:37:19.304000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Teti ma boron kyare nankhay?",
+        "en": "Teti Ma Baran Kaare Nankhay?",
+        "timestamp": {
+          "$date": "2025-03-24T17:18:15.724Z"
+        },
+        "standalone_question": "When will Teti eat the boron?",
+        "standalone_en": "When will Teti eat the boron?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Tame \"Panchal Valo Palot\" ma Muskmelon na \"Flowering and Fruiting\" stage ma cho, ane aa samay ma tamara fertigation schedule pramane:\n\n1. **Aaje (March 24, 2025)**:\n   - **Foliar Method**: Solubor - 500 gm/acre.\n   - **Fertigation Method**: \n     - Potassium Nitrate - 1 kg/acre, Urea - 2.5 kg/acre.\n     - Athva Urea - 3 kg/acre, Sulfate of Potash - 1.5 kg/acre.\n\n2. **Aavti vaar (April 19, 2025)**:\n   - **Foliar Method**: Manganese Sulphate - 400 gm/acre, Zinc Sulphate - 600 gm/acre, Ferrous Sulphate - 500 gm/acre.\n   - **Fertigation Method**: \n     - Potassium Nitrate - 3 kg/acre, Magnesium Sulphate - 3 kg/acre.\n     - Athva Urea - 1.5 kg/acre, Sulfate of Potash - 3 kg/acre, Magnesium Sulphate - 3 kg/acre.\n\nAapne aa samay ma aapna crops ne sahi nutrients aapva maate aa schedule par amal karvo chhe.",
+        "en": "Tame \"Panchal Valo Palot\" ma Muskmelon na \"Flowering and Fruiting\" stage ma cho, ane aa samay ma tamara fertigation schedule pramane:\n\n1. **Aaje (March 24, 2025)**:\n   - **Foliar Method**: Solubor - 500 gm/acre.\n   - **Fertigation Method**: \n     - Potassium Nitrate - 1 kg/acre, Urea - 2.5 kg/acre.\n     - Athva Urea - 3 kg/acre, Sulfate of Potash - 1.5 kg/acre.\n\n2. **Aavti vaar (April 19, 2025)**:\n   - **Foliar Method**: Manganese Sulphate - 400 gm/acre, Zinc Sulphate - 600 gm/acre, Ferrous Sulphate - 500 gm/acre.\n   - **Fertigation Method**: \n     - Potassium Nitrate - 3 kg/acre, Magnesium Sulphate - 3 kg/acre.\n     - Athva Urea - 1.5 kg/acre, Sulfate of Potash - 3 kg/acre, Magnesium Sulphate - 3 kg/acre.\n\nAapne aa samay ma aapna crops ne sahi nutrients aapva maate aa schedule par amal karvo chhe.",
+        "timestamp": {
+          "$date": "2025-03-24T17:18:25.458Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Potassium nitrate etle 0-0-50 ",
+        "en": "Potassium nitrate etle 0-0-50 ",
+        "timestamp": {
+          "$date": "2025-03-24T17:21:43.255Z"
+        },
+        "standalone_question": "What is the composition of potassium nitrate?",
+        "standalone_en": "What is the composition of potassium nitrate?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Potassium Nitrate na sachu ratio 13-0-45 chhe, je ma 13% Nitrogen (N) ane 45% Potassium (K) chhe. Tame je 0-0-50 kahi rahya cho, te sachhu nathi. \n\nPotassium Nitrate na upyog thi tamara crops ne Potassium ni jaruriyat purti thase, je tamara Muskmelon ma fruit development ma madad kare chhe.",
+        "en": "The true ratio of potassium nitrate is 13-0-45, which contains 13% nitrogen (N) and 45% potassium (K). What you are saying 0-0-50 is not true. \n\nThe use of potassium nitrate will meet your crops' requirement of potassium, which helps in fruit development in your mussmelon.",
+        "timestamp": {
+          "$date": "2025-03-24T17:21:48.475Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Sulphate of potash no ratio su cche",
+        "en": "Sulphate of potash no ratio su cche",
+        "timestamp": {
+          "$date": "2025-03-24T17:24:15.395Z"
+        },
+        "standalone_question": "What is the ratio of Sulfate of Potash?",
+        "standalone_en": "What is the ratio of Sulfate of Potash?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Sulphate of Potash (SOP) no ratio 0-0-50 chhe, je ma 50% Potassium (K) ane 18% Sulfur (S) chhe. SOP ek organic fertilizer chhe, je tamara crops ne Potassium aapva maate upyogi chhe, ane aa fertilizer na upyog thi fruit quality ne sudharva ma madad male chhe.",
+        "en": "The ratio of sulfate of potash (soup) is 0-0-50, with 50% potassium (K) and 18% sulfur (C). Soap is an organic fertilizer, which is useful for giving potassium to your crops, and the use of this fertilizer helps improve fruit quality.",
+        "timestamp": {
+          "$date": "2025-03-24T17:24:21.878Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Teti ma vadhu fal lagva mate kayu khatar aapvu joie ",
+        "en": "Which fertilizer should be given to get more fruit in it? ",
+        "timestamp": {
+          "$date": "2025-03-24T17:25:37.827Z"
+        },
+        "standalone_question": "What fertilizer should be applied to enhance fruit growth in muskmelons?",
+        "standalone_en": "What fertilizer should be applied to enhance fruit growth in muskmelons?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Muskmelon ma vadhu fal lagva mate, tamare potash ane phosphorus ni jaruriyat chhe. Aapne Sulphate of Potash (0-0-50) ane Diammonium Phosphate (DAP) (18-46-0) ni salah aapva ma aave chhe.\n\n1. **Sulphate of Potash (SOP)**: \n   - Potassium ni jaruriyat purti kare chhe, je fruit development ma madad kare chhe.\n   - Upyog: 100-200 kg/acre.\n\n2. **Diammonium Phosphate (DAP)**: \n   - Phosphorus ni jaruriyat purti kare chhe, je flowering ne stimulate kare chhe.\n   - Upyog: 50-100 kg/acre.\n\nAapne aa khataro ne aapna fertigation schedule ma samavish karva maate dhyan rakhvu chhe, je tamara crops ne vadhu fal aapva ma madad kare chhe.",
+        "en": "In order to feel more fruit in muskmelon, you need potash and phosphorus. You are advised sulfate of potash (0-0-50) and diammonium phosphate (DAP) (18-46-0).\n\n1. **Sulphate of Potash (SOAP)**: \n   - Meets the requirement of potassium, which helps in fruit development.\n   Usage: 100-200 kg/ACRE.\n\n2. **Diammonium Phosphate (DAP)**: \n   - Fulfills the need for phosphorus, which stimulates flowering.\n   - Usage: 50-100 kg/ACRE.\n\nYou have to take care to incorporate these risks into our fertigation schedule, which helps in giving more fruit to your crops.",
+        "timestamp": {
+          "$date": "2025-03-24T17:25:45.734Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Thank you ",
+        "en": "Thank you ",
+        "timestamp": {
+          "$date": "2025-03-24T17:27:15.994Z"
+        },
+        "standalone_question": "What fertilizers should be used to increase fruit yield in muskmelon?",
+        "standalone_en": "What fertilizers should be used to increase fruit yield in muskmelon?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapno swagat chhe! Koi biji madad joiye to jarur pucho. Kheti ma shubhkamnao!",
+        "en": "We are welcome! Ask if you need any other help. Best wishes in farming!",
+        "timestamp": {
+          "$date": "2025-03-24T17:27:19.720Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Aa su taklif cche ..<user uploaded image for analysis at 'panchalvalopalot/2025-03-24-1742837275368.jpg'>",
+        "en": "This is a problem.. <user uploaded image for analysis at 'panchalvalopalot/2025-03-24-1742837275368.jpg'>",
+        "timestamp": {
+          "$date": "2025-03-24T17:28:06.220Z"
+        },
+        "standalone_question": "What issue is being shown in the uploaded image?",
+        "standalone_en": "What issue is being shown in the uploaded image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapna crop ma koi specific spray sujhav nathi, parantu aapne bottle gourd ne flowering stage ma nazar rakhvi joie. Agar koi samasya vadhe, to general insecticides ya fungicides no upyog kari sakay chhe, parantu manufacturer ni nirdeshon ne dhyan ma rakhvu.\n\nSaras kheti ni practices, jema sahi spacing, watering, ane sanitation shamil chhe, te pest ane disease na samasyao ne kam karva ma madad kare chhe. Aavti vaar agar koi prabhavit kshetra ni spasht image aapso to vishesh sujhav aapva ma madad thase.",
+        "en": "There is no specific spray suggestion in your crop, but you should keep an eye on the bottle gord in the flowering stage. If a problem arises, general insecticides or fungicides can be used, but keeping in mind the directions of the manufacturer.\n\nThe practice of stork farming, which includes signature spacing, watering, and sanitation, helps to work out the problems of pest and disease. If you give a clear image of an affected area next time, it will help to give special suggestions.",
+        "timestamp": {
+          "$date": "2025-03-24T17:28:26.633Z"
+        }
+      }
+    ],
+    "farmer_id": "vasantbhaigovajidevda",
+    "farmer_plot_ids": [
+      "panchalvalopalot"
+    ],
+    "conversation_id": "67e193d7f594cba829591cdd",
+    "_id": "67e193d7f594cba829591cdd",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-24T17:32:52.617000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-03-24T17:18:15.724000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Teti ma boron kyare nankhay?",
+        "en": "Teti Ma Baran Kaare Nankhay?",
+        "timestamp": {
+          "$date": "2025-03-24T17:18:15.724Z"
+        },
+        "standalone_question": "When will Teti eat the boron?",
+        "standalone_en": "When will Teti eat the boron?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Tame \"Panchal Valo Palot\" ma Muskmelon na \"Flowering and Fruiting\" stage ma cho, ane aa samay ma tamara fertigation schedule pramane:\n\n1. **Aaje (March 24, 2025)**:\n   - **Foliar Method**: Solubor - 500 gm/acre.\n   - **Fertigation Method**: \n     - Potassium Nitrate - 1 kg/acre, Urea - 2.5 kg/acre.\n     - Athva Urea - 3 kg/acre, Sulfate of Potash - 1.5 kg/acre.\n\n2. **Aavti vaar (April 19, 2025)**:\n   - **Foliar Method**: Manganese Sulphate - 400 gm/acre, Zinc Sulphate - 600 gm/acre, Ferrous Sulphate - 500 gm/acre.\n   - **Fertigation Method**: \n     - Potassium Nitrate - 3 kg/acre, Magnesium Sulphate - 3 kg/acre.\n     - Athva Urea - 1.5 kg/acre, Sulfate of Potash - 3 kg/acre, Magnesium Sulphate - 3 kg/acre.\n\nAapne aa samay ma aapna crops ne sahi nutrients aapva maate aa schedule par amal karvo chhe.",
+        "en": "Tame \"Panchal Valo Palot\" ma Muskmelon na \"Flowering and Fruiting\" stage ma cho, ane aa samay ma tamara fertigation schedule pramane:\n\n1. **Aaje (March 24, 2025)**:\n   - **Foliar Method**: Solubor - 500 gm/acre.\n   - **Fertigation Method**: \n     - Potassium Nitrate - 1 kg/acre, Urea - 2.5 kg/acre.\n     - Athva Urea - 3 kg/acre, Sulfate of Potash - 1.5 kg/acre.\n\n2. **Aavti vaar (April 19, 2025)**:\n   - **Foliar Method**: Manganese Sulphate - 400 gm/acre, Zinc Sulphate - 600 gm/acre, Ferrous Sulphate - 500 gm/acre.\n   - **Fertigation Method**: \n     - Potassium Nitrate - 3 kg/acre, Magnesium Sulphate - 3 kg/acre.\n     - Athva Urea - 1.5 kg/acre, Sulfate of Potash - 3 kg/acre, Magnesium Sulphate - 3 kg/acre.\n\nAapne aa samay ma aapna crops ne sahi nutrients aapva maate aa schedule par amal karvo chhe.",
+        "timestamp": {
+          "$date": "2025-03-24T17:18:25.458Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Potassium nitrate etle 0-0-50 ",
+        "en": "Potassium nitrate etle 0-0-50 ",
+        "timestamp": {
+          "$date": "2025-03-24T17:21:43.255Z"
+        },
+        "standalone_question": "What is the composition of potassium nitrate?",
+        "standalone_en": "What is the composition of potassium nitrate?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Potassium Nitrate na sachu ratio 13-0-45 chhe, je ma 13% Nitrogen (N) ane 45% Potassium (K) chhe. Tame je 0-0-50 kahi rahya cho, te sachhu nathi. \n\nPotassium Nitrate na upyog thi tamara crops ne Potassium ni jaruriyat purti thase, je tamara Muskmelon ma fruit development ma madad kare chhe.",
+        "en": "The true ratio of potassium nitrate is 13-0-45, which contains 13% nitrogen (N) and 45% potassium (K). What you are saying 0-0-50 is not true. \n\nThe use of potassium nitrate will meet your crops' requirement of potassium, which helps in fruit development in your mussmelon.",
+        "timestamp": {
+          "$date": "2025-03-24T17:21:48.475Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Sulphate of potash no ratio su cche",
+        "en": "Sulphate of potash no ratio su cche",
+        "timestamp": {
+          "$date": "2025-03-24T17:24:15.395Z"
+        },
+        "standalone_question": "What is the ratio of Sulfate of Potash?",
+        "standalone_en": "What is the ratio of Sulfate of Potash?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Sulphate of Potash (SOP) no ratio 0-0-50 chhe, je ma 50% Potassium (K) ane 18% Sulfur (S) chhe. SOP ek organic fertilizer chhe, je tamara crops ne Potassium aapva maate upyogi chhe, ane aa fertilizer na upyog thi fruit quality ne sudharva ma madad male chhe.",
+        "en": "The ratio of sulfate of potash (soup) is 0-0-50, with 50% potassium (K) and 18% sulfur (C). Soap is an organic fertilizer, which is useful for giving potassium to your crops, and the use of this fertilizer helps improve fruit quality.",
+        "timestamp": {
+          "$date": "2025-03-24T17:24:21.878Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Teti ma vadhu fal lagva mate kayu khatar aapvu joie ",
+        "en": "Which fertilizer should be given to get more fruit in it? ",
+        "timestamp": {
+          "$date": "2025-03-24T17:25:37.827Z"
+        },
+        "standalone_question": "What fertilizer should be applied to enhance fruit growth in muskmelons?",
+        "standalone_en": "What fertilizer should be applied to enhance fruit growth in muskmelons?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Muskmelon ma vadhu fal lagva mate, tamare potash ane phosphorus ni jaruriyat chhe. Aapne Sulphate of Potash (0-0-50) ane Diammonium Phosphate (DAP) (18-46-0) ni salah aapva ma aave chhe.\n\n1. **Sulphate of Potash (SOP)**: \n   - Potassium ni jaruriyat purti kare chhe, je fruit development ma madad kare chhe.\n   - Upyog: 100-200 kg/acre.\n\n2. **Diammonium Phosphate (DAP)**: \n   - Phosphorus ni jaruriyat purti kare chhe, je flowering ne stimulate kare chhe.\n   - Upyog: 50-100 kg/acre.\n\nAapne aa khataro ne aapna fertigation schedule ma samavish karva maate dhyan rakhvu chhe, je tamara crops ne vadhu fal aapva ma madad kare chhe.",
+        "en": "In order to feel more fruit in muskmelon, you need potash and phosphorus. You are advised sulfate of potash (0-0-50) and diammonium phosphate (DAP) (18-46-0).\n\n1. **Sulphate of Potash (SOAP)**: \n   - Meets the requirement of potassium, which helps in fruit development.\n   Usage: 100-200 kg/ACRE.\n\n2. **Diammonium Phosphate (DAP)**: \n   - Fulfills the need for phosphorus, which stimulates flowering.\n   - Usage: 50-100 kg/ACRE.\n\nYou have to take care to incorporate these risks into our fertigation schedule, which helps in giving more fruit to your crops.",
+        "timestamp": {
+          "$date": "2025-03-24T17:25:45.734Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Thank you ",
+        "en": "Thank you ",
+        "timestamp": {
+          "$date": "2025-03-24T17:27:15.994Z"
+        },
+        "standalone_question": "What fertilizers should be used to increase fruit yield in muskmelons?",
+        "standalone_en": "What fertilizers should be used to increase fruit yield in muskmelons?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapno swagat chhe! Koi biji madad joiye to jarur pucho. Kheti ma shubhkamnao!",
+        "en": "We are welcome! Ask if you need any other help. Best wishes in farming!",
+        "timestamp": {
+          "$date": "2025-03-24T17:27:19.720Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Aa su taklif cche ..<user uploaded image for analysis at 'panchalvalopalot/2025-03-24-1742837275368.jpg'>",
+        "en": "This is a problem.. <user uploaded image for analysis at 'panchalvalopalot/2025-03-24-1742837275368.jpg'>",
+        "timestamp": {
+          "$date": "2025-03-24T17:28:06.220Z"
+        },
+        "standalone_question": "What issue is being depicted in the uploaded image?",
+        "standalone_en": "What issue is being depicted in the uploaded image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapna crop ma koi specific spray sujhav nathi, parantu aapne bottle gourd ne flowering stage ma nazar rakhvi joie. Agar koi samasya vadhe, to general insecticides ya fungicides no upyog kari sakay chhe, parantu manufacturer ni nirdeshon ne dhyan ma rakhvu.\n\nSaras kheti ni practices, jema sahi spacing, watering, ane sanitation shamil chhe, te pest ane disease na samasyao ne kam karva ma madad kare chhe. Aavti vaar agar koi prabhavit kshetra ni spasht image aapso to vishesh sujhav aapva ma madad thase.",
+        "en": "There is no specific spray suggestion in your crop, but you should keep an eye on the bottle gord in the flowering stage. If a problem arises, general insecticides or fungicides can be used, but keeping in mind the directions of the manufacturer.\n\nThe practice of stork farming, which includes signature spacing, watering, and sanitation, helps to work out the problems of pest and disease. If you give a clear image of an affected area next time, it will help to give special suggestions.",
+        "timestamp": {
+          "$date": "2025-03-24T17:28:26.633Z"
+        }
+      }
+    ],
+    "farmer_id": "vasantbhaigovajidevda",
+    "farmer_plot_ids": [
+      "panchalvalopalot"
+    ],
+    "conversation_id": "67e193d7f594cba829591cdd",
+    "_id": "67e193d7f594cba829591cdd",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-24T17:32:52.617000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-03-24T17:18:15.724000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What. Are. nutrints. Riquird",
+        "en": "What. Are. nutrints. Riquird",
+        "timestamp": {
+          "$date": "2025-03-24T14:56:56.844Z"
+        },
+        "standalone_question": "What nutrients are required?",
+        "standalone_en": "What nutrients are required?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Nutrients required for crops, especially grapes, include:\n\n1. **Nitrogen (N)**: Essential for leaf and stem growth.\n2. **Phosphorus (P)**: Important for root development and flowering.\n3. **Potassium (K)**: Aids in fruit quality and disease resistance.\n4. **Calcium (Ca)**: Supports cell wall structure and root growth.\n5. **Magnesium (Mg)**: Vital for photosynthesis and enzyme function.\n6. **Sulfur (S)**: Important for protein synthesis and enzyme function.\n7. **Micronutrients**: Such as iron, manganese, zinc, copper, molybdenum, and boron, which are needed in smaller amounts but are crucial for various physiological functions.\n\nProper balance and availability of these nutrients are essential for healthy crop growth and yield.",
+        "en": "Nutrients required for crops, especially grapes, include:\n\n1. **Nitrogen (N)**: Essential for leaf and stem growth.\n2. **Phosphorus (P)**: Important for root development and flowering.\n3. **Potassium (K)**: Aids in fruit quality and disease resistance.\n4. **Calcium (Ca)**: Supports cell wall structure and root growth.\n5. **Magnesium (Mg)**: Vital for photosynthesis and enzyme function.\n6. **Sulfur (S)**: Important for protein synthesis and enzyme function.\n7. **Micronutrients**: Such as iron, manganese, zinc, copper, molybdenum, and boron, which are needed in smaller amounts but are crucial for various physiological functions.\n\nProper balance and availability of these nutrients are essential for healthy crop growth and yield.",
+        "timestamp": {
+          "$date": "2025-03-24T14:57:00.596Z"
+        }
+      }
+    ],
+    "farmer_id": "ravindrashiddappakudache",
+    "farmer_plot_ids": [
+      "anushkaplot1518",
+      "govindplot"
+    ],
+    "conversation_id": "67e172b87a7022c280c8bb65",
+    "_id": "67e172b87a7022c280c8bb65",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-03-24T15:01:56.853000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-03-24T14:56:56.844000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "ज्योती एक नंबर प्लॉटला पावसाची शक्यता किती तारखेपर्यंत आहे",
+        "en": "Jyoti number one plot is likely to receive rain till date",
+        "timestamp": {
+          "$date": "2025-03-24T14:20:29.493Z"
+        },
+        "standalone_question": "What is the probability of rain for Jyoti's plot until what date?",
+        "standalone_en": "What is the probability of rain for Jyoti's plot until what date?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "jyoti ek number plotala pavasachi shakyata kiti tarakheparyant aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "ज्योती प्लॉट नंबर 1 साठी पुढील 14 दिवसांमध्ये पावसाची शक्यता नाही. सर्व दिवसांमध्ये पावसाची मोजमाप 0mm आहे आणि पावसाची शक्यता 0% आहे. त्यामुळे, सध्या पाण्याची गरज भासू शकते.",
+        "en": "There is no possibility of rain for Jyoti Plot No. 1 in the next 14 days. The rainfall measurement on all days is 0mm and the chance of rain is 0%. Therefore, water may be needed at the moment.",
+        "timestamp": {
+          "$date": "2025-03-24T14:20:34.717Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ज्योती एक नंबर प्लॉट पाणी दिलं आहे तरीपण डिवाइस कमी होत नाही",
+        "en": "Jyoti number one plot water is given yet the device does not decrease",
+        "timestamp": {
+          "$date": "2025-03-24T14:21:16.048Z"
+        },
+        "standalone_question": "Why is the device not decreasing even though water has been given to plot number 1?",
+        "standalone_en": "Why is the device not decreasing even though water has been given to plot number 1?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: I irrigated still the sensor is dropping slowly.\nA: Sometimes, the water reaches slowly till root zone and the moisture sensor kPa value drops slowly. Always wait for 12 hours after irrigation for the moisture to saturate. If still some confusion, ask user to check moisture near the sensor and check if he wants to raise a ticket for the issue.",
+            "Q: I irrigated still the sensor is showing dry.\nA: Ask user when he irrigated. It usually takes 12 hours to reach the water till sensor. If the sensor is not dropping even after 12 hours, it can be due to one of the following reasons :\nWater is not reaching properly till the sensor , this can be due to drip blocked , or slope in the land or dripper outlets far away from the sensor. Ask user to check if drip is fine and  dripper is within the range of sensor. \nThe sensor can be very old , more than two years , in this case , the sensor might be malfunction, ask user if he wants to raise a ticket",
+            "Q: My  sensor is showing 0 Kpa for long.\nA: 0-5 kPa means wet soil. It can be due to following :\nIf the device is recently installed, there can be moisture  around the sensor because the sensor is dipped in the water before installing. If this is the case, ask them to do atleast 3 irrigations as per their previous schedule without sensors and sensors would b set by then.\nIf the crop stage is very early or pruing is done recently, the water takeup by plants is negligible in this period because of very less transpiration. If this is the case, ask them to wait till irrigation Kpa in the present stage.\nSometimes, the water can remain accumulated around the sensor due to local landscaping or slope in the land around sensor. In this case, please check the around the sensor. It will have to be reinstalled properly. Chatbot should ask the user if he wants to create an issue ticket for the same"
+          ]
+        },
+        "content_transliterated": "jyoti ek number plot pani dilam aahe taripan device kami hot nahi"
+      },
+      {
+        "role": "assistant",
+        "content": "तुम्ही ज्योती प्लॉट नंबर 1 ला पाणी दिलं आहे, तरीही डिवाइसवरील मोजमाप कमी होत नाही, तर काही कारणे असू शकतात:\n\n1. **पाण्याचा पोहचण्याचा वेळ**: पाणी दिल्यानंतर, मातीच्या रूट झोनपर्यंत पाणी पोहोचायला 12 तास लागतात. तुम्ही पाणी दिल्यानंतर 12 तासांनी मोजमाप तपासा.\n\n2. **ड्रिप सिस्टीम तपासा**: ड्रिप सिस्टीममध्ये अडथळा असल्यास किंवा ड्रिपर आउटलेट्स सेंसरच्या जवळ नसल्यास, पाणी योग्यरित्या पोहोचत नाही. कृपया तपासा की ड्रिपर व्यवस्थित कार्यरत आहे का.\n\n3. **सेंसरची जुनी अवस्था**: जर सेंसर दोन वर्षांपेक्षा जुना असेल, तर तो खराब होऊ शकतो. तुम्हाला तिकीट उघडायचं आहे का?\n\nकृपया वरील गोष्टी तपासा आणि जर तुम्हाला अजून काही शंका असेल तर मला सांगा.",
+        "en": "If you water the flame plot No. 1, the measurement on the device doesn't decrease, there may be a few reasons:\n\n1. **Water reach time**: After watering, it takes 12 hours for water to reach the root zone of the soil. Check the measurement 12 hours after you water.\n\n2. **Check the drip system**: If there is a hindrance in the drip system or the dripper outlets are not close to the sensor, the water does not reach properly. Please check if the draper is working properly.\n\n3. **Old state of the sensor**: If the sensor is more than two years old, it can deteriorate. Do you want to open a ticket?\n\nPlease check the above and let me know if you have any more doubts.",
+        "timestamp": {
+          "$date": "2025-03-24T14:21:22.908Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पहिले जुने सेंसर के पी ए मध्ये आहेत आताचे सेन्सर टक्केवारीत आहेत कसा मेळ लावायचा",
+        "en": "The first old sensors are in KPA, the current sensors are in percentage how to match",
+        "timestamp": {
+          "$date": "2025-03-24T14:22:27.170Z"
+        },
+        "standalone_question": "How can I reconcile the old sensors that are in KPA with the current sensors that are in percentage?",
+        "standalone_en": "How can I reconcile the old sensors that are in KPA with the current sensors that are in percentage?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: My  sensor is showing 0 Kpa for long.\nA: 0-5 kPa means wet soil. It can be due to following :\nIf the device is recently installed, there can be moisture  around the sensor because the sensor is dipped in the water before installing. If this is the case, ask them to do atleast 3 irrigations as per their previous schedule without sensors and sensors would b set by then.\nIf the crop stage is very early or pruing is done recently, the water takeup by plants is negligible in this period because of very less transpiration. If this is the case, ask them to wait till irrigation Kpa in the present stage.\nSometimes, the water can remain accumulated around the sensor due to local landscaping or slope in the land around sensor. In this case, please check the around the sensor. It will have to be reinstalled properly. Chatbot should ask the user if he wants to create an issue ticket for the same",
+            "Q: How do I replace the sensors for Kairo?\nA: Disconnect the sensors by rotating them counterclockwise, unplug the connector, and replace them by following the steps in the manual."
+          ]
+        },
+        "content_transliterated": "pahile june sensor k p a madhye ahet atache sensor takkevarit ahet kasa mel lavayacha"
+      },
+      {
+        "role": "assistant",
+        "content": "ज्योती प्लॉट नंबर 1 साठी, तुमच्या जुन्या सेंसरच्या केपीए वाचनांशी टक्केवारीत वाचनांचा मेळ लावण्यासाठी, तुम्हाला खालील माहिती उपयोगी पडेल:\n\n1. **जुन्या सेंसर वाचन**:\n   - 22 मार्च 2025: 25% (SM1), 39% (SM2)\n   - 23 मार्च 2025: 38% (SM1), 76% (SM2)\n\n2. **आताचे सेंसर वाचन**:\n   - 24 मार्च 2025: 38% (SM1), 79% (SM2)\n\n### मेळ लावण्याची पद्धत:\n- **0 KPa वाचन**: 0 KPa म्हणजे माती ओलसर आहे. त्यामुळे, 0 KPa वाचन असताना, तुम्हाला 100% ओलसर मातीचा अनुभव येतो.\n- **टक्केवारीत वाचन**: 0% म्हणजे माती कोरडी आहे, तर 100% म्हणजे माती ओलसर आहे.\n\n### उदाहरण:\n- जर तुमच्या जुन्या सेंसरने 0 KPa वाचन दिलं असेल, तर ते 100% ओलसर माती दर्शवते.\n- जर तुम्हाला 25% वाचन मिळालं असेल, तर ते 75% कोरडी माती दर्शवते, म्हणजेच 200 KPa च्या जवळ आहे.\n\nतुमच्या सेंसरच्या वाचनांमध्ये असलेल्या फरकामुळे तुम्हाला पाण्याची गरज आणि मातीची स्थिती समजून घेता येईल. जर तुम्हाला अजून काही शंका असतील, तर कृपया सांगा.",
+        "en": "For Jyoti Plot No. 1, to match readings in percentages with the KPA readings of your old sensor, you will find the following information useful:\n\n1. **Old sensor reading**:\n   - 22 March 2025: 25% (SM1), 39% (SM2)\n   - 23 March 2025: 38% (SM1), 76% (SM2)\n\n2. **Current sensor reading**:\n   - 24 March 2025: 38% (SM1), 79% (SM2)\n\n### Method of matching:\n- **0 KPa reading**: 0 KPa means the soil is moist. So, while reading 0 KPa, you experience 100% moist soil.\n- **Percentage reading**: 0% means the soil is dry, while 100% means the soil is moist.\n\n### Example:\nIf your old sensor has given a 0 KPa reading, it represents 100% damp soil.\nIf you get 25% of the reading, it indicates 75% dry soil, i.e. close to 200 KPa.\n\nThe difference in your sensor's readings will allow you to understand water needs and soil conditions. If you have any more doubts, please let me know.",
+        "timestamp": {
+          "$date": "2025-03-24T14:22:38.733Z"
+        }
+      }
+    ],
+    "farmer_id": "sanjaypandurangjadhav",
+    "farmer_plot_ids": [
+      "blackqueenberry782",
+      "jyotiplotno1335",
+      "sanjayjadhavkrushna3"
+    ],
+    "conversation_id": "67e16a2ddb0e479f79d15913",
+    "_id": "67e16a2ddb0e479f79d15913",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-03-24T14:27:27.178000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-03-24T14:20:29.493000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Plot no 1 sudhakar plot ch update kra ",
+        "en": "Plot no 1 sudhakar plot ch update kra ",
+        "timestamp": {
+          "$date": "2025-03-24T12:43:56.488Z"
+        },
+        "standalone_question": "Could you please update the information for Plot No. 1, Sudhakar Plot?",
+        "standalone_en": "Could you please update the information for Plot No. 1, Sudhakar Plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Plot No 1 Sudhakar is currently in the \"Beginning Veraison\" stage, which started on February 8, 2025. You are currently 16 days past the estimated end of this stage. \n\nPlease update the crop stage on the app to reflect the current status. If you need assistance with the next stage or any other information, feel free to ask!",
+        "en": "Plot No 1 Sudhakar is currently in the \"Beginning Veraison\" stage, which started on February 8, 2025. You are currently 16 days past the estimated end of this stage. \n\nPlease update the crop stage on the app to reflect the current status. If you need assistance with the next stage or any other information, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-03-24T12:44:01.311Z"
+        }
+      }
+    ],
+    "farmer_id": "ratnakarskadam",
+    "farmer_plot_ids": [
+      "plot2sudhakarkf",
+      "plotno1sudhakarkadamfarm",
+      "plotno3mamajumbo415"
+    ],
+    "conversation_id": "67e1538c7a7022c280c8bb64",
+    "_id": "67e1538c7a7022c280c8bb64",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-03-24T12:48:56.498000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-03-24T12:43:56.488000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Bhej 2 vadhare che shu karvu?",
+        "en": "Humidity is 2 more What to do?",
+        "timestamp": {
+          "$date": "2025-03-24T12:34:55.968Z"
+        },
+        "standalone_question": "What should I do if there are more than two?",
+        "standalone_en": "What should I do if there are more than two?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા \"pepaliyo\" પ્લોટમાં હાલની મોઇશ્ચર વેલ્યુઝ 50% અને 100% છે. આનો અર્થ છે કે જમીનનું એક ભાગ ભેજ ધરાવે છે, જ્યારે બીજું ભાગ સંપૂર્ણ રીતે ભેજથી ભરેલું છે. \n\nહવે, ઇવાપોટ્રાન્સપિરેશન (ET) માટે કોઈ તાજેતરના ડેટા ઉપલબ્ધ નથી, જે દર્શાવે છે કે આ સમયગાળા દરમિયાન જમીનમાંથી પાણીના વપરાશમાં કોઈ નોંધપાત્ર વધારો થયો નથી.\n\nજો મોઇશ્ચર કીપા ઝડપથી વધતી જાય છે, તો કૃપા કરીને જમીનને નજીકથી તપાસો. જો જમીન ભેજી લાગે છે અને સેન્સર સૂકી વેલ્યુ બતાવે છે, તો સેન્સર ખરાબ થઈ શકે છે. \n\nશું તમે ટેકનિકલ સપોર્ટ ટીમ સાથે ટિકિટ ઉઠાવવા માંગો છો?",
+        "en": "The current moisture values in your \"pepaliyo\" plot are 50% and 100%. This means that one part of the soil contains moisture, while the other part is completely filled with moisture. \n\nNow, there is no recent data available for evapotranspiration (ET), which shows that there has been no significant increase in water consumption from the ground during this period.\n\nIf the moisture kipa continues to grow rapidly, please take a closer look at the ground. If the ground looks wet and the sensor shows a dry value, the sensor can get damaged. \n\nWould you like to pick up the ticket with the technical support team?",
+        "timestamp": {
+          "$date": "2025-03-24T12:35:04.789Z"
+        }
+      }
+    ],
+    "farmer_id": "rajivkumarsankarbhaipatel",
+    "farmer_plot_ids": [
+      "pepaliyo"
+    ],
+    "conversation_id": "67e1516fc981373657d8314a",
+    "_id": "67e1516fc981373657d8314a",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-24T12:39:55.975000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-03-24T12:34:55.968000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Banana me full nikalne ke samay kya dena chahiye ",
+        "en": "What should be given at the time of Banana Me Full Release? ",
+        "timestamp": {
+          "$date": "2025-03-24T09:34:45.209Z"
+        },
+        "standalone_question": "What should be given when removing the full banana?",
+        "standalone_en": "What should be given when removing the full banana?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Kela (Banana) ke full nikalne ke samay, aapko kuch khaas khad dene chahiye jo iske vikas ko badhava de. Is samay aapko in cheezon ka dhyan rakhna chahiye:\n\n1. **Nitrogen (N)**: Yeh patton ki vikas aur overall plant health ke liye zaroori hai.\n2. **Phosphorus (P)**: Yeh phool aur phal nikalne ke liye mahatvapurn hai.\n3. **Potassium (K)**: Yeh phalon ki quality aur unki maturity ko badhata hai.\n\nAap fertigation ke madhyam se in khadon ko dene ka vichar kar sakte hain, ya phir foliar spray bhi kar sakte hain. Iske alawa, organic khad jaise compost ya vermicompost bhi istemal karna labhdayak hoga.\n\nAgar aapko specific khad ki matra ya schedule chahiye, to mujhe bataiye, main aapko aur vistar se madad kar sakta hoon.",
+        "en": "At the time of flowering of banana, you should give some special fertilizer that will promote its growth. Here are some things you should keep in mind at this time:\n\n1. Nitrogen (N): It is essential for leaf growth and overall plant health.\n2. Phosphorus (P): It is important for flowering and fruit emergence.\n3. Potassium (K): It enhances the quality of fruits and their maturity.\n\nYou may want to consider fertigating these fertilizers, or you can spray foliar. Apart from this, it will also be beneficial to use organic fertilizers such as compost or vermicopos.\n\nIf you need a specific fertilizer quantity or schedule, let me know, I can help you in more detail.",
+        "timestamp": {
+          "$date": "2025-03-24T09:34:50.472Z"
+        }
+      }
+    ],
+    "farmer_id": "ompatil",
+    "farmer_plot_ids": [
+      "watermelon390",
+      "pipalwala804"
+    ],
+    "conversation_id": "67e12734bfe3ecdea06678eb",
+    "_id": "67e12734bfe3ecdea06678eb",
+    "language": "hi",
+    "expiry": {
+      "$date": "2025-03-24T09:39:45.216000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-03-24T09:34:45.209000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "ફટીકેશન ખોટુછે",
+        "en": "The fiction is wrong",
+        "timestamp": {
+          "$date": "2025-03-24T07:35:02.935Z"
+        },
+        "standalone_question": "Is the information incorrect?",
+        "standalone_en": "Is the information incorrect?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "fatication khotuchhe"
+      },
+      {
+        "role": "assistant",
+        "content": "Currently, your papaya crop is in the **Seedling Establishment** stage, which started on **March 16, 2025**. \n\n### Fertigation Schedule for Week 2 (Current Week):\n- **Fertilizers to Apply:**\n  1. **12-61-0**: 8 kg/acre\n  2. **Urea**: 1.5 kg/acre\n  3. **Phosphoric Acid 80%**: Apply separately, 15-20 minutes before other fertilizers.\n\n### Next Fertigation Schedule for Week 3:\n- **Start Date**: May 6, 2025\n- **Fertilizers to Apply:**\n  1. **12-61-0**: 8 kg/acre\n  2. **Urea**: 1.5 kg/acre\n  3. **Phosphoric Acid 80%**: Apply separately, 15-20 minutes before other fertilizers.\n\nMake sure to follow these guidelines for effective fertigation! If you have any specific concerns or need further assistance, feel free to ask.",
+        "en": "Currently, your papaya crop is in the **Seedling Establishment** stage, which started on **March 16, 2025**. \n\n### Fertigation Schedule for Week 2 (Current Week):\n- **Fertilizers to Apply:**\n  1. **12-61-0**: 8 kg/acre\n  2. **Urea**: 1.5 kg/acre\n  3. **Phosphoric Acid 80%**: Apply separately, 15-20 minutes before other fertilizers.\n\n### Next Fertigation Schedule for Week 3:\n- **Start Date**: May 6, 2025\n- **Fertilizers to Apply:**\n  1. **12-61-0**: 8 kg/acre\n  2. **Urea**: 1.5 kg/acre\n  3. **Phosphoric Acid 80%**: Apply separately, 15-20 minutes before other fertilizers.\n\nMake sure to follow these guidelines for effective fertigation! If you have any specific concerns or need further assistance, feel free to ask.",
+        "timestamp": {
+          "$date": "2025-03-24T07:35:13.478Z"
+        }
+      }
+    ],
+    "farmer_id": "vijaypatel",
+    "farmer_plot_ids": [
+      "roomkepichhebala"
+    ],
+    "conversation_id": "67e10b26329a92c8ced315ea",
+    "_id": "67e10b26329a92c8ced315ea",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-24T07:40:02.943000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-03-24T07:35:02.935000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Tricodurma khad m use krna ho kya dose rakhe",
+        "en": "What dose should I keep in Trichoderma compost?",
+        "timestamp": {
+          "$date": "2025-03-24T04:11:14.240Z"
+        },
+        "standalone_question": "What dosage should be used for Tricodurma?",
+        "standalone_en": "What dosage should be used for Tricodurma?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Trichoderma khad ka istemal karne ke liye aapko 1-2 kg per acre ki dose rakhni chahiye. Isse beej ke saath ya khad ke saath milakar istemal kiya ja sakta hai.",
+        "en": "To use Trichoderma manure, you should keep a dose of acre at 1-2 kg. This can be used with seeds or mixed with compost.",
+        "timestamp": {
+          "$date": "2025-03-24T04:11:17.457Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Multiple krna go khad m to per ton kitna dale",
+        "en": "Multiple krna go khad m to per ton kitna dale",
+        "timestamp": {
+          "$date": "2025-03-24T04:11:43.288Z"
+        },
+        "standalone_question": "How much Trichoderma should be added per ton when mixing it with fertilizer?",
+        "standalone_en": "How much Trichoderma should be added per ton when mixing it with fertilizer?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Agar aap Trichoderma khad ko per ton (1000 kg) mein istemal karna chahte hain, to aapko 1-2 kg ka dose rakhna hoga. Iska matlab hai ki aapko per ton mein 1-2 kg Trichoderma khad dalna chahiye.",
+        "en": "If you want to use Trichoderma manure in tons (1000 kg), you need to keep a dose of 1-2 kg. This means that you should add 1-2 kg of trichoderma fertilizer in the per ton.",
+        "timestamp": {
+          "$date": "2025-03-24T04:11:47.501Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Vam ko khad m multiple krna ho to kitna dale",
+        "en": "If you want to multiply the left, then how much should I do?",
+        "timestamp": {
+          "$date": "2025-03-24T04:12:20.193Z"
+        },
+        "standalone_question": "How much VAM should be added to the fertilizer if I want to multiply it?",
+        "standalone_en": "How much VAM should be added to the fertilizer if I want to multiply it?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "VAM (Vesicular Arbuscular Mycorrhiza) ko khad mein milane ke liye aapko 1-2 kg per ton khad ka istemal karna chahiye. Isse khad ke saath achhe se milakar istemal karein.",
+        "en": "To get the left (vesicular arbuscular mycorrhizae) into the compost, you should use 1-2 kg of manure per ton. Use it well with compost.",
+        "timestamp": {
+          "$date": "2025-03-24T04:12:23.766Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Abm ",
+        "en": "Abm ",
+        "timestamp": {
+          "$date": "2025-03-24T04:13:07.362Z"
+        },
+        "standalone_question": "What is the recommended dosage of ABM (Arbuscular Mycorrhizal Fungi) to mix with fertilizer?",
+        "standalone_en": "What is the recommended dosage of ABM (Arbuscular Mycorrhizal Fungi) to mix with fertilizer?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "ABM (Arbuscular Mycorrhizal Biofertilizer) ka istemal karne ke liye aapko 1-2 kg per ton khad ya beej mein milana chahiye. Isse beej ke saath ya khad ke saath achhe se milakar istemal karein, taaki beej ki growth aur nutrient absorption mein sudhar ho sake.",
+        "en": "To use ABM (Arbuscular Mycorrhizal Biofertilizer) you need to mix 1-2 kg per ton of manure or seed. Use it well with seeds or in combination with manure, to improve seed growth and nutrient absorption.",
+        "timestamp": {
+          "$date": "2025-03-24T04:13:11.247Z"
+        }
+      }
+    ],
+    "farmer_id": "mandeepbishnoi1661062088650",
+    "farmer_plot_ids": [
+      "kairokinnowfarm",
+      "kinnowplotnero1"
+    ],
+    "conversation_id": "67e0db61bb5ace92d872ed7b",
+    "_id": "67e0db61bb5ace92d872ed7b",
+    "language": "hi",
+    "expiry": {
+      "$date": "2025-03-24T04:18:07.373000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-03-24T04:11:14.240000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "પોષક તત્ત્વો માં B એટલે શું?",
+        "en": "What is B in nutrients?",
+        "timestamp": {
+          "$date": "2025-03-24T02:57:03.135Z"
+        },
+        "standalone_question": "What does the letter B represent in nutrients?",
+        "standalone_en": "What does the letter B represent in nutrients?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "poshak tattvo man B atale shu?"
+      },
+      {
+        "role": "assistant",
+        "content": "પોષક તત્ત્વો માં \"B\" એટલે બોરોન (Boron). બોરોન એક માઇક્રો ન્યુટ્રિએન્ટ છે જે છોડની વૃદ્ધિ અને વિકાસ માટે મહત્વપૂર્ણ છે. તે ફૂલો અને ફળોના વિકાસમાં સહાય કરે છે, અને છોડની કોષિકાઓની રચનામાં મહત્વપૂર્ણ ભૂમિકા ભજવે છે. બોરોનની યોગ્ય માત્રા છોડની આરોગ્ય અને ઉત્પાદન માટે જરૂરી છે.",
+        "en": "In nutrients, \"B\" means boron. Boron is a micronutrient that is important for plant growth and development. It aids in the growth of flowers and fruits, and plays an important role in the formation of plant cells. The right amount of boron is essential for the health and production of the plant.",
+        "timestamp": {
+          "$date": "2025-03-24T02:57:07.142Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "શું એને ફોલીઅર સ્પ્રે દ્વારા આપી શકાય?",
+        "en": "Can it be given by foliar spray?",
+        "timestamp": {
+          "$date": "2025-03-24T02:58:43.937Z"
+        },
+        "standalone_question": "Can it be provided through foliar spray?",
+        "standalone_en": "Can it be provided through foliar spray?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users."
+          ]
+        },
+        "content_transliterated": "shu ene follier spray dvara aapi sakay?"
+      },
+      {
+        "role": "assistant",
+        "content": "ફોલીયર સ્પ્રે દ્વારા બોરોન આપવું શક્ય છે, પરંતુ તે માટે યોગ્ય પદાર્થ અને માત્રા પસંદ કરવી મહત્વપૂર્ણ છે. ફોલીયર સ્પ્રે દ્વારા બોરોન આપવાથી છોડની પાંદડીઓ દ્વારા ઝડપથી શોષણ થાય છે, જે ફૂલો અને ફળોના વિકાસને પ્રોત્સાહન આપે છે. \n\nજો તમે ફોલીયર સ્પ્રે કરવા માંગતા હો, તો ખાતરી કરો કે બોરોનના પદાર્થ સાથે અન્ય પદાર્થોનું સંયોજન યોગ્ય છે અને તે છોડ માટે સલામત છે. વધુ માહિતી માટે, કૃપા કરીને તમારા સ્થાનિક કૃષિ નિષ્ણાત અથવા ફાઇલોના CRM નંબર પર સંપર્ક કરો.",
+        "en": "It is possible to give boron by foliar spray, but for that it is important to choose the right substance and quantity. Giving boron by foliar spray is rapidly absorbed by the leaves of the plant, which promotes the growth of flowers and fruits. \n\nIf you want to spray foliar, make sure that the combination of other substances with the boron substance is appropriate and that it is safe for plants. For more information, please contact your local agriculture expert or crm number of the files.",
+        "timestamp": {
+          "$date": "2025-03-24T02:58:49.127Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "બોરોન ને ઙ્રીપ માં આપી શકાય?",
+        "en": "Can boron be given in a drip?",
+        "timestamp": {
+          "$date": "2025-03-24T03:00:08.821Z"
+        },
+        "standalone_question": "Can boron be applied through foliar spray?",
+        "standalone_en": "Can boron be applied through foliar spray?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "boron ne grip man aapi sakay?"
+      },
+      {
+        "role": "assistant",
+        "content": "હા, બોરોનને ઙ્રીપ (fertigation) દ્વારા પણ આપી શકાય છે. આ પદ્ધતિમાં, બોરોનને પાણી સાથે મિશ્રિત કરીને સિંચાઈના પાણીમાં ઉમેરવામાં આવે છે, જે છોડના મૂળ દ્વારા સરળતાથી શોષણ થાય છે. \n\nઆ રીતે બોરોનની યોગ્ય માત્રા છોડ સુધી પહોંચે છે અને તે વધુ અસરકારક રીતે કાર્ય કરે છે. જો તમે આ પદ્ધતિનો ઉપયોગ કરવા માંગતા હો, તો ખાતરી કરો કે બોરોનના પદાર્થની માત્રા અને મિશ્રણ યોગ્ય છે.",
+        "en": "Yes, boron can also be given by fertigation. In this method, boron is added to irrigation water by mixing it with water, which is easily absorbed by the root of the plant. \n\nThis way the right amount of boron reaches the plant and it works more effectively. If you want to use this method, make sure that the amount and mixture of the boron substance is correct.",
+        "timestamp": {
+          "$date": "2025-03-24T03:00:14.783Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "કેટલું અપાય?",
+        "en": "How much is given?",
+        "timestamp": {
+          "$date": "2025-03-24T03:00:56.495Z"
+        },
+        "standalone_question": "What is the recommended amount of boron to be applied?",
+        "standalone_en": "What is the recommended amount of boron to be applied?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ketalun apay?"
+      },
+      {
+        "role": "assistant",
+        "content": "\"Panchal Valo Palot\" માટે હાલ પાણી આપવાની જરૂર નથી, કારણ કે જમીનનું આલમણ (soil moisture) 60% અને 97% છે, જેની તુલનામાં આદર્શ (optimal) 50% છે. \n\nજ્યારે જમીનનું આલમણ આદર્શ મર્યાદા કરતાં વધુ હોય, ત્યારે પાણી આપવાની જરૂર નથી.",
+        "en": "There is currently no need to water for the \"Panchal Valo Palot\", as the soil moisture of the soil is 60% and 97%, compared to the ideal 50%. \n\nThere is no need to water when the soil cover exceeds the ideal limit.",
+        "timestamp": {
+          "$date": "2025-03-24T03:01:03.181Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "બોરોન સાથે બીજુ શું આપી શકાય?",
+        "en": "What else can be given with boron?",
+        "timestamp": {
+          "$date": "2025-03-24T03:02:32.903Z"
+        },
+        "standalone_question": "What other nutrients can be given along with boron?",
+        "standalone_en": "What other nutrients can be given along with boron?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "boron sathe biju shu aapi sakay?"
+      },
+      {
+        "role": "assistant",
+        "content": "બોરોન સાથે ફોલીયર સ્પ્રે અથવા ઙ્રીપ (fertigation) દ્વારા અન્ય માઇક્રો ન્યુટ્રિએન્ટ્સ જેમ કે:\n\n1. **ઝિંક (Zinc)** - છોડની વૃદ્ધિ અને વિકાસ માટે મહત્વપૂર્ણ.\n2. **મૅંગેનીઝ (Manganese)** - પાંદડીઓની રંગત અને આરોગ્ય માટે જરૂરી.\n3. **કોપર (Copper)** - છોડની કોષિકાઓની રચનામાં સહાય કરે છે.\n\nઆ ઉપરાંત, બોરોનને નાઇટ્રોજન, ફોસ્ફરસ અને પોટેશિયમ સાથે પણ મિશ્રિત કરી શકાય છે, પરંતુ ખાતરી કરો કે આ પદાર્થો એકબીજાના સાથે સુસંગત છે. \n\nસચોટ મિશ્રણ અને માત્રા માટે, કૃપા કરીને તમારા સ્થાનિક કૃષિ નિષ્ણાત અથવા ફાઇલોના CRM નંબર પર સંપર્ક કરો.",
+        "en": "Other micronutrients by foliar spray or fertigation with boron such as:\n\n1. **Zinc** - important for plant growth and development.\n2. **Manganese(Manganese)** - Essential for the color and health of the leaves.\n3. **Copper(Copper)** - Helps in the formation of plant cells.\n\nIn addition, boron can also be mixed with nitrogen, phosphorus and potassium, but make sure that these substances are compatible with each other. \n\nFor accurate mixing and quantification, please contact your local agriculture expert or crm number of the files.",
+        "timestamp": {
+          "$date": "2025-03-24T03:02:39.566Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "CRM નો નંબર આપો",
+        "en": "Enter CRM number",
+        "timestamp": {
+          "$date": "2025-03-24T03:03:40.593Z"
+        },
+        "standalone_question": "What is the CRM number?",
+        "standalone_en": "What is the CRM number?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "CRM no number apo"
+      },
+      {
+        "role": "assistant",
+        "content": "ફાઇલોના CRM સંપર્ક કરવા માટેનો નંબર છે: (+91) 9380908040.",
+        "en": "The number to contact the CRM of files is: (+91) 9380908040.",
+        "timestamp": {
+          "$date": "2025-03-24T03:03:43.374Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ધન્યવાદ ",
+        "en": "Thank you ",
+        "timestamp": {
+          "$date": "2025-03-24T03:03:52.349Z"
+        },
+        "standalone_question": "What is the CRM contact number?",
+        "standalone_en": "What is the CRM contact number?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "dhanyavad "
+      },
+      {
+        "role": "assistant",
+        "content": "તમારો સ્વાગત છે! જો તમને વધુ કોઈ મદદની જરૂર હોય, તો કૃપા કરીને પૂછો. ખેડૂત જીવનમાં સફળતા માટે શુભેચ્છા!",
+        "en": "You are welcome! If you need any further help, please ask. Best wishes for success in farmer life!",
+        "timestamp": {
+          "$date": "2025-03-24T03:03:54.871Z"
+        }
+      }
+    ],
+    "farmer_id": "vasantbhaigovajidevda",
+    "farmer_plot_ids": [
+      "panchalvalopalot"
+    ],
+    "conversation_id": "67e0c9fe9811334059dfc2fc",
+    "_id": "67e0c9fe9811334059dfc2fc",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-24T03:08:52.359000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-03-24T02:57:03.135000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "પોષક તત્ત્વો માં B એટલે શું?",
+        "en": "What is B in nutrients?",
+        "timestamp": {
+          "$date": "2025-03-24T02:57:03.135Z"
+        },
+        "standalone_question": "What does the letter B represent in nutrients?",
+        "standalone_en": "What does the letter B represent in nutrients?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "poshak tattvo man B atale shu?"
+      },
+      {
+        "role": "assistant",
+        "content": "પોષક તત્ત્વો માં \"B\" એટલે બોરોન (Boron). બોરોન એક માઇક્રો ન્યુટ્રિએન્ટ છે જે છોડની વૃદ્ધિ અને વિકાસ માટે મહત્વપૂર્ણ છે. તે ફૂલો અને ફળોના વિકાસમાં સહાય કરે છે, અને છોડની કોષિકાઓની રચનામાં મહત્વપૂર્ણ ભૂમિકા ભજવે છે. બોરોનની યોગ્ય માત્રા છોડની આરોગ્ય અને ઉત્પાદન માટે જરૂરી છે.",
+        "en": "In nutrients, \"B\" means boron. Boron is a micronutrient that is important for plant growth and development. It aids in the growth of flowers and fruits, and plays an important role in the formation of plant cells. The right amount of boron is essential for the health and production of the plant.",
+        "timestamp": {
+          "$date": "2025-03-24T02:57:07.142Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "શું એને ફોલીઅર સ્પ્રે દ્વારા આપી શકાય?",
+        "en": "Can it be given by foliar spray?",
+        "timestamp": {
+          "$date": "2025-03-24T02:58:43.937Z"
+        },
+        "standalone_question": "Can it be provided through foliar spray?",
+        "standalone_en": "Can it be provided through foliar spray?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users."
+          ]
+        },
+        "content_transliterated": "shu ene follier spray dvara aapi sakay?"
+      },
+      {
+        "role": "assistant",
+        "content": "ફોલીયર સ્પ્રે દ્વારા બોરોન આપવું શક્ય છે, પરંતુ તે માટે યોગ્ય પદાર્થ અને માત્રા પસંદ કરવી મહત્વપૂર્ણ છે. ફોલીયર સ્પ્રે દ્વારા બોરોન આપવાથી છોડની પાંદડીઓ દ્વારા ઝડપથી શોષણ થાય છે, જે ફૂલો અને ફળોના વિકાસને પ્રોત્સાહન આપે છે. \n\nજો તમે ફોલીયર સ્પ્રે કરવા માંગતા હો, તો ખાતરી કરો કે બોરોનના પદાર્થ સાથે અન્ય પદાર્થોનું સંયોજન યોગ્ય છે અને તે છોડ માટે સલામત છે. વધુ માહિતી માટે, કૃપા કરીને તમારા સ્થાનિક કૃષિ નિષ્ણાત અથવા ફાઇલોના CRM નંબર પર સંપર્ક કરો.",
+        "en": "It is possible to give boron by foliar spray, but for that it is important to choose the right substance and quantity. Giving boron by foliar spray is rapidly absorbed by the leaves of the plant, which promotes the growth of flowers and fruits. \n\nIf you want to spray foliar, make sure that the combination of other substances with the boron substance is appropriate and that it is safe for plants. For more information, please contact your local agriculture expert or crm number of the files.",
+        "timestamp": {
+          "$date": "2025-03-24T02:58:49.127Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "બોરોન ને ઙ્રીપ માં આપી શકાય?",
+        "en": "Can boron be given in a drip?",
+        "timestamp": {
+          "$date": "2025-03-24T03:00:08.821Z"
+        },
+        "standalone_question": "Can boron be applied through a foliar spray?",
+        "standalone_en": "Can boron be applied through a foliar spray?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "boron ne grip man aapi sakay?"
+      },
+      {
+        "role": "assistant",
+        "content": "હા, બોરોનને ઙ્રીપ (fertigation) દ્વારા પણ આપી શકાય છે. આ પદ્ધતિમાં, બોરોનને પાણી સાથે મિશ્રિત કરીને સિંચાઈના પાણીમાં ઉમેરવામાં આવે છે, જે છોડના મૂળ દ્વારા સરળતાથી શોષણ થાય છે. \n\nઆ રીતે બોરોનની યોગ્ય માત્રા છોડ સુધી પહોંચે છે અને તે વધુ અસરકારક રીતે કાર્ય કરે છે. જો તમે આ પદ્ધતિનો ઉપયોગ કરવા માંગતા હો, તો ખાતરી કરો કે બોરોનના પદાર્થની માત્રા અને મિશ્રણ યોગ્ય છે.",
+        "en": "Yes, boron can also be given by fertigation. In this method, boron is added to irrigation water by mixing it with water, which is easily absorbed by the root of the plant. \n\nThis way the right amount of boron reaches the plant and it works more effectively. If you want to use this method, make sure that the amount and mixture of the boron substance is correct.",
+        "timestamp": {
+          "$date": "2025-03-24T03:00:14.783Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "કેટલું અપાય?",
+        "en": "How much is given?",
+        "timestamp": {
+          "$date": "2025-03-24T03:00:56.495Z"
+        },
+        "standalone_question": "What is the appropriate amount of boron to be applied?",
+        "standalone_en": "What is the appropriate amount of boron to be applied?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ketalun apay?"
+      },
+      {
+        "role": "assistant",
+        "content": "\"Panchal Valo Palot\" માટે હાલ પાણી આપવાની જરૂર નથી, કારણ કે જમીનનું આલમણ (soil moisture) 60% અને 97% છે, જેની તુલનામાં આદર્શ (optimal) 50% છે. \n\nજ્યારે જમીનનું આલમણ આદર્શ મર્યાદા કરતાં વધુ હોય, ત્યારે પાણી આપવાની જરૂર નથી.",
+        "en": "There is currently no need to water for the \"Panchal Valo Palot\", as the soil moisture of the soil is 60% and 97%, compared to the ideal 50%. \n\nThere is no need to water when the soil cover exceeds the ideal limit.",
+        "timestamp": {
+          "$date": "2025-03-24T03:01:03.181Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "બોરોન સાથે બીજુ શું આપી શકાય?",
+        "en": "What else can be given with boron?",
+        "timestamp": {
+          "$date": "2025-03-24T03:02:32.903Z"
+        },
+        "standalone_question": "What other nutrients can be given along with boron?",
+        "standalone_en": "What other nutrients can be given along with boron?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "boron sathe biju shu aapi sakay?"
+      },
+      {
+        "role": "assistant",
+        "content": "બોરોન સાથે ફોલીયર સ્પ્રે અથવા ઙ્રીપ (fertigation) દ્વારા અન્ય માઇક્રો ન્યુટ્રિએન્ટ્સ જેમ કે:\n\n1. **ઝિંક (Zinc)** - છોડની વૃદ્ધિ અને વિકાસ માટે મહત્વપૂર્ણ.\n2. **મૅંગેનીઝ (Manganese)** - પાંદડીઓની રંગત અને આરોગ્ય માટે જરૂરી.\n3. **કોપર (Copper)** - છોડની કોષિકાઓની રચનામાં સહાય કરે છે.\n\nઆ ઉપરાંત, બોરોનને નાઇટ્રોજન, ફોસ્ફરસ અને પોટેશિયમ સાથે પણ મિશ્રિત કરી શકાય છે, પરંતુ ખાતરી કરો કે આ પદાર્થો એકબીજાના સાથે સુસંગત છે. \n\nસચોટ મિશ્રણ અને માત્રા માટે, કૃપા કરીને તમારા સ્થાનિક કૃષિ નિષ્ણાત અથવા ફાઇલોના CRM નંબર પર સંપર્ક કરો.",
+        "en": "Other micronutrients by foliar spray or fertigation with boron such as:\n\n1. **Zinc** - important for plant growth and development.\n2. **Manganese(Manganese)** - Essential for the color and health of the leaves.\n3. **Copper(Copper)** - Helps in the formation of plant cells.\n\nIn addition, boron can also be mixed with nitrogen, phosphorus and potassium, but make sure that these substances are compatible with each other. \n\nFor accurate mixing and quantification, please contact your local agriculture expert or crm number of the files.",
+        "timestamp": {
+          "$date": "2025-03-24T03:02:39.566Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "CRM નો નંબર આપો",
+        "en": "Enter CRM number",
+        "timestamp": {
+          "$date": "2025-03-24T03:03:40.593Z"
+        },
+        "standalone_question": "What is the CRM number?",
+        "standalone_en": "What is the CRM number?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "CRM no number apo"
+      },
+      {
+        "role": "assistant",
+        "content": "ફાઇલોના CRM સંપર્ક કરવા માટેનો નંબર છે: (+91) 9380908040.",
+        "en": "The number to contact the CRM of files is: (+91) 9380908040.",
+        "timestamp": {
+          "$date": "2025-03-24T03:03:43.374Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ધન્યવાદ ",
+        "en": "Thank you ",
+        "timestamp": {
+          "$date": "2025-03-24T03:03:52.349Z"
+        },
+        "standalone_question": "What is the CRM contact number?",
+        "standalone_en": "What is the CRM contact number?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "dhanyavad "
+      },
+      {
+        "role": "assistant",
+        "content": "તમારો સ્વાગત છે! જો તમને વધુ કોઈ મદદની જરૂર હોય, તો કૃપા કરીને પૂછો. ખેડૂત જીવનમાં સફળતા માટે શુભેચ્છા!",
+        "en": "You are welcome! If you need any further help, please ask. Best wishes for success in farmer life!",
+        "timestamp": {
+          "$date": "2025-03-24T03:03:54.871Z"
+        }
+      }
+    ],
+    "farmer_id": "vasantbhaigovajidevda",
+    "farmer_plot_ids": [
+      "panchalvalopalot"
+    ],
+    "conversation_id": "67e0c9fe9811334059dfc2fc",
+    "_id": "67e0c9fe9811334059dfc2fc",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-24T03:08:52.359000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-03-24T02:57:03.135000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "what is the yesterday's rainfall for all division in centimetre",
+        "en": "what is the yesterday's rainfall for all division in centimetre",
+        "timestamp": {
+          "$date": "2025-03-24T02:36:06.068Z"
+        },
+        "standalone_question": "What was the rainfall in centimeters for all divisions yesterday?",
+        "standalone_en": "What was the rainfall in centimeters for all divisions yesterday?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the rainfall data for yesterday (March 23, 2025) in centimeters for all divisions:\n\n- **Attamala division**: 1.3 cm\n- **Chooralmala division**: 0.2 cm\n- **Chooralmala Nero division**: No data available\n- **Mundakai Nero division**: No data available\n- **Mundakkai division**: 0.0 cm\n- **Puthumala division**: 0.1 cm\n\nIf you need further assistance, feel free to ask!",
+        "en": "Here is the rainfall data for yesterday (March 23, 2025) in centimeters for all divisions:\n\n- **Attamala division**: 1.3 cm\n- **Chooralmala division**: 0.2 cm\n- **Chooralmala Nero division**: No data available\n- **Mundakai Nero division**: No data available\n- **Mundakkai division**: 0.0 cm\n- **Puthumala division**: 0.1 cm\n\nIf you need further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-03-24T02:36:17.981Z"
+        }
+      }
+    ],
+    "farmer_id": "allenenoshmani",
+    "farmer_plot_ids": [
+      "attamaladivision",
+      "chooralmaladivision",
+      "chooralmalanerodivision",
+      "mundakainerodivision",
+      "mundakkaidivision",
+      "puthumaladivision"
+    ],
+    "conversation_id": "67e0c5155e51851c2fb578a0",
+    "_id": "67e0c5155e51851c2fb578a0",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-03-24T02:41:06.076000Z"
+    },
+    "tag": "historical data",
+    "conv_date": "2025-03-24T02:36:06.068000+00:00"
+  }
+]

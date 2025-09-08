@@ -1,0 +1,1349 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મારા પ્લોટ માં અત્યારે કોઈ રોગ છે",
+        "timestamp": {
+          "$date": "2024-11-27T12:31:45.464Z"
+        },
+        "standalone_question": "Is there currently any disease in my plot?",
+        "standalone_en": "Is there currently any disease in my plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara plot man atyare koi rog che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પ્લોટમાં હાલમાં કોઈ રોગના સ્પ્રેની ભલામણ નથી. જો તમને વધુ માહિતી જોઈએ તો મને જણાવો.",
+        "timestamp": {
+          "$date": "2024-11-27T12:31:51.036Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "સફેદ મચ્છી દેખાય છે",
+        "timestamp": {
+          "$date": "2024-11-27T12:32:08.920Z"
+        },
+        "standalone_question": "Is there a white fish visible?",
+        "standalone_en": "Is there a white fish visible?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "safed macchi dekhay che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા બંને પ્લોટમાં, \"Main Palot\" અને \"Goga valo Plot\", સફેદ મચ્છી (White Fly) માટે મધ્યમ જોખમ સ્તર નોંધાયું છે. \n\n- **Main Palot**: \n  - 27 નવેમ્બર 2024: 51.4% જોખમ (મધ્યમ)\n  - 26 નવેમ્બર 2024: 48.9% જોખમ (ઓછું)\n  - 25 નવેમ્બર 2024: 50.1% જોખમ (મધ્યમ)\n\n- **Goga valo Plot**: \n  - 27 નવેમ્બર 2024: 51.4% જોખમ (મધ્યમ)\n  - 26 નવેમ્બર 2024: 48.9% જોખમ (ઓછું)\n  - 25 નવેમ્બર 2024: 50.1% જોખમ (મધ્યમ)\n\nસફેદ મચ્છી સામે રક્ષણ માટે સ્પ્રે કરવાની ભલામણ છે.",
+        "timestamp": {
+          "$date": "2024-11-27T12:32:16.768Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "કઈ દવાનો સ્પ્રે કરો",
+        "timestamp": {
+          "$date": "2024-11-27T12:33:05.113Z"
+        },
+        "standalone_question": "What pesticide should I spray?",
+        "standalone_en": "What pesticide should I spray?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice.",
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed"
+          ]
+        },
+        "content_transliterated": "kai davano spray karo"
+      },
+      {
+        "role": "assistant",
+        "content": "આજે કોઈ સ્પ્રેની ભલામણ નથી. જો તમે પહેલાથી જ સ્પ્રે કરી છે, તો થોડા દિવસો રાહ જુઓ. જો ફાઈલો એપ્લિકેશન ફરીથી સ્પ્રે કરવાની ભલામણ કરે છે, ત્યારે જ ફરીથી સ્પ્રે કરો.",
+        "timestamp": {
+          "$date": "2024-11-27T12:33:09.710Z"
+        }
+      }
+    ],
+    "farmer_id": "D953",
+    "farmer_plot_ids": [
+      "mainpalot668",
+      "vadiya"
+    ],
+    "conversation_id": "67471131e0fb82e7bed84732",
+    "tag": "disease_pest",
+    "conv_date": "2024-11-27T12:31:45.464000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મારા પ્લોટ માં અત્યારે કોઈ રોગ છે",
+        "timestamp": {
+          "$date": "2024-11-27T12:31:45.464Z"
+        },
+        "standalone_question": "Is there currently any disease in my plot?",
+        "standalone_en": "Is there currently any disease in my plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara plot man atyare koi rog che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પ્લોટમાં હાલમાં કોઈ રોગના સ્પ્રેની ભલામણ નથી. જો તમને વધુ માહિતી જોઈએ તો મને જણાવો.",
+        "timestamp": {
+          "$date": "2024-11-27T12:31:51.036Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "સફેદ મચ્છી દેખાય છે",
+        "timestamp": {
+          "$date": "2024-11-27T12:32:08.920Z"
+        },
+        "standalone_question": "Is there a white fish visible?",
+        "standalone_en": "Is there a white fish visible?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "safed macchi dekhay che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા બંને પ્લોટમાં, \"Main Palot\" અને \"Goga valo Plot\", સફેદ મચ્છી (White Fly) માટે મધ્યમ જોખમ સ્તર નોંધાયું છે. \n\n- **Main Palot**: \n  - 27 નવેમ્બર 2024: 51.4% જોખમ (મધ્યમ)\n  - 26 નવેમ્બર 2024: 48.9% જોખમ (ઓછું)\n  - 25 નવેમ્બર 2024: 50.1% જોખમ (મધ્યમ)\n\n- **Goga valo Plot**: \n  - 27 નવેમ્બર 2024: 51.4% જોખમ (મધ્યમ)\n  - 26 નવેમ્બર 2024: 48.9% જોખમ (ઓછું)\n  - 25 નવેમ્બર 2024: 50.1% જોખમ (મધ્યમ)\n\nસફેદ મચ્છી સામે રક્ષણ માટે સ્પ્રે કરવાની ભલામણ છે.",
+        "timestamp": {
+          "$date": "2024-11-27T12:32:16.768Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "કઈ દવાનો સ્પ્રે કરો",
+        "timestamp": {
+          "$date": "2024-11-27T12:33:05.113Z"
+        },
+        "standalone_question": "What pesticide should I spray?",
+        "standalone_en": "What pesticide should I spray?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice.",
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed"
+          ]
+        },
+        "content_transliterated": "kai davano spray karo"
+      },
+      {
+        "role": "assistant",
+        "content": "આજે કોઈ સ્પ્રેની ભલામણ નથી. જો તમે પહેલાથી જ સ્પ્રે કરી છે, તો થોડા દિવસો રાહ જુઓ. જો ફાઈલો એપ્લિકેશન ફરીથી સ્પ્રે કરવાની ભલામણ કરે છે, ત્યારે જ ફરીથી સ્પ્રે કરો.",
+        "timestamp": {
+          "$date": "2024-11-27T12:33:09.710Z"
+        }
+      }
+    ],
+    "farmer_id": "D953",
+    "farmer_plot_ids": [
+      "mainpalot668",
+      "vadiya"
+    ],
+    "conversation_id": "67471131e0fb82e7bed84732",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-11-27T12:31:45.464000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Buprofezin25% sc dose",
+        "timestamp": {
+          "$date": "2024-11-27T12:17:49.147Z"
+        },
+        "standalone_question": "What is the dosage of Buprofezin 25% SC?",
+        "standalone_en": "What is the dosage of Buprofezin 25% SC?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The recommended dose of Buprofezin 25% SC (Suspension Concentrate) for pest control is typically 1.5 to 2.0 ml per liter of water. Ensure to follow the manufacturer's instructions and local agricultural guidelines for application.",
+        "timestamp": {
+          "$date": "2024-11-27T12:17:51.967Z"
+        }
+      }
+    ],
+    "farmer_id": "rameshkonnur",
+    "farmer_plot_ids": [
+      "konnurhosaplot",
+      "rameshthomsan2acar"
+    ],
+    "conversation_id": "67470dec6ca5843d7a03ffb1",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-11-27T12:17:49.147000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "कॅल्शियम नायट्रेट चे काय उपयोग आहेत कॅल्शियम नायट्रेट चे काय उपयोग आहेत.",
+        "timestamp": {
+          "$date": "2024-11-27T12:13:22.799Z"
+        },
+        "standalone_question": "What are the uses of calcium nitrate?",
+        "standalone_en": "What are the uses of calcium nitrate?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "calcium nitrate che kay upayog ahet calcium nitrate che kay upayog ahet."
+      },
+      {
+        "role": "assistant",
+        "content": "कॅल्शियम नायट्रेट (Ca(NO3)2) हे एक महत्त्वाचे खते आहे, ज्याचे खालील उपयोग आहेत:\n\n1. **पोषण**: कॅल्शियम नायट्रेट पिकांना कॅल्शियम आणि नायट्रोजन प्रदान करते, जे त्यांच्या वाढीसाठी आवश्यक आहे.\n\n2. **मातीची आरोग्य**: कॅल्शियम मातीच्या संरचनेत सुधारणा करतो, ज्यामुळे जलधारण क्षमता वाढते आणि मातीची गुणवत्ता सुधारते.\n\n3. **फळांची गुणवत्ता**: कॅल्शियम नायट्रेट फळांच्या विकासात मदत करते, ज्यामुळे फळांची गुणवत्ता आणि चव सुधारते.\n\n4. **रोग प्रतिकारकता**: कॅल्शियम पिकांच्या रोग प्रतिकारकतेत वाढवतो, ज्यामुळे पिकांना विविध रोगांपासून संरक्षण मिळते.\n\n5. **जल संतुलन**: कॅल्शियम नायट्रेट पिकांच्या जल संतुलनात मदत करते, ज्यामुळे पिकांची वाढ आणि उत्पादन क्षमता वाढते.\n\n6. **फोलिअर स्प्रे**: कॅल्शियम नायट्रेटचा उपयोग फोलिअर स्प्रे म्हणून केला जातो, ज्यामुळे पिकांना त्वरित पोषण मिळते.\n\nहे खते विशेषतः भाज्या, फळे आणि इतर पिकांसाठी उपयुक्त आहे.",
+        "timestamp": {
+          "$date": "2024-11-27T12:13:29.896Z"
+        }
+      }
+    ],
+    "farmer_id": "sachinthoratkoudgaon",
+    "farmer_plot_ids": [
+      "ssnplot537"
+    ],
+    "conversation_id": "67470ce26ca5843d7a03ffb0",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-11-27T12:13:22.799000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "सेंसर 2 में जो 8 इंची सेंसर है उसे कितनी इंची नमी दे",
+        "timestamp": {
+          "$date": "2024-11-27T11:42:57.685Z"
+        },
+        "standalone_question": "What moisture level should be given to the 8-inch sensor in Sensor 2?",
+        "standalone_en": "What moisture level should be given to the 8-inch sensor in Sensor 2?",
+        "retrieval": {
+          "tools": [
+            "get_soil_moisture_sensor_depth  \nReturns the depths in inches of the soil moisture sensors 1 and 2 installed on the plots."
+          ],
+          "faq": [
+            "Q: I irrigated still the sensor is dropping slowly.\nA: Sometimes, the water reaches slowly till root zone and the moisture sensor kPa value drops slowly. Always wait for 12 hours after irrigation for the moisture to saturate. If still some confusion, ask user to check moisture near the sensor and check if he wants to raise a ticket for the issue.",
+            "Q: What should I do if the soil moisture sensor values fluctuate?\nA: Ensure the sensor is installed properly in the soil, check for air bubbles, and contact Fyllo representative if the issue persists.",
+            "Q: How to calibrate soil moisture sensors ?\nA:  The way to calibrate sensors is by putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. A drop after watering or irrigation and continuous dry upto 200 kpa means that the sensor is calibrated.",
+            "Q: Sensor is showing wet, i.e. less kpa but soil looks dry.\nA: The sensor measures the moisture around the rootzone which is not visible from the top. Ask use to check the moisture in rootzone around the sensor. If it matches, ask the user to irrigate.",
+            "Q: What is the range of kpa moisture provided by the sensor ?\nA: It's 0-200 Kpa. 0 kPa is wet, 200 kPa is dry"
+          ]
+        },
+        "content_transliterated": "sensor 2 mein jo 8 inchi sensor hai usey kitni inchi nami de"
+      },
+      {
+        "role": "assistant",
+        "content": "सेंसर 2 की गहराई 8 इंच है। इसे नमी देने के लिए, आपको यह सुनिश्चित करना होगा कि मिट्टी की नमी सही स्तर पर हो। यदि मिट्टी सूखी है (200 kPa), तो आपको इसे पानी देना चाहिए। यदि आप और जानकारी चाहते हैं, तो कृपया बताएं।",
+        "timestamp": {
+          "$date": "2024-11-27T11:43:02.025Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "मिट्टी सुखी है 29 इंची बता रहा हे",
+        "timestamp": {
+          "$date": "2024-11-27T11:43:40.755Z"
+        },
+        "standalone_question": "How much moisture should be given if the soil is showing a dryness level of 29 inches?",
+        "standalone_en": "How much moisture should be given if the soil is showing a dryness level of 29 inches?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer.",
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: What should I do if the soil moisture sensor always shows dry values?\nA: Check if irrigation water is reaching the sensor, verify sensor connection, and ensure the sensor is not damaged.",
+            "Q: What should I do if the soil moisture sensor always shows wet values?\nA: Verify the irrigation frequency, check the installation point, and contact Fyllo representative if the issue persists.",
+            "Q: Sensor is showing dry, but it rained recently.\nA: Rainwater doesn't percolate well in the soil. Most of it runs off. After a day of rain stops , if the sensor is still dry, you will have to irrigate. You can check the moisture by digging near the sensor . Irrigate accordingly."
+          ]
+        },
+        "content_transliterated": "mitti sukhi hai 29 inchi bata raha he"
+      },
+      {
+        "role": "assistant",
+        "content": "सेंसर 2 में 29 kPa की नमी का मतलब है कि मिट्टी सूखी है। चूंकि यह 8 इंच की गहराई पर है, आपको इसे पानी देना चाहिए। \n\nआपकी मिट्टी की नमी की स्थिति को देखते हुए, यह उचित है कि आप आज ही सिंचाई करें। यदि आपको और जानकारी चाहिए या सिंचाई की प्रक्रिया में मदद चाहिए, तो कृपया बताएं।",
+        "timestamp": {
+          "$date": "2024-11-27T11:43:47.233Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "कितने कप की नमी पर रखे",
+        "timestamp": {
+          "$date": "2024-11-27T11:44:25.834Z"
+        },
+        "standalone_question": "What moisture level should be maintained?",
+        "standalone_en": "What moisture level should be maintained?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: I irrigated still the sensor is dropping slowly.\nA: Sometimes, the water reaches slowly till root zone and the moisture sensor kPa value drops slowly. Always wait for 12 hours after irrigation for the moisture to saturate. If still some confusion, ask user to check moisture near the sensor and check if he wants to raise a ticket for the issue.",
+            "Q: What should I do if the soil moisture sensor always shows wet values?\nA: Verify the irrigation frequency, check the installation point, and contact Fyllo representative if the issue persists."
+          ]
+        },
+        "content_transliterated": "kitne cup ki nami par rakhe"
+      },
+      {
+        "role": "assistant",
+        "content": "आपकी मिट्टी की नमी के लिए आदर्श स्तर 2 kPa (गीली) से 18 kPa (सूखी) के बीच है। \n\nयदि मिट्टी की नमी 18 kPa से ऊपर है, तो आपको सिंचाई करनी चाहिए। इसलिए, सुनिश्चित करें कि नमी 2 से 18 kPa के बीच रहे। यदि नमी 18 kPa से अधिक हो रही है, तो सिंचाई करें।",
+        "timestamp": {
+          "$date": "2024-11-27T11:44:30.762Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Or 4 इंची सेंसर में कितनी केपी रखें ",
+        "timestamp": {
+          "$date": "2024-11-27T11:45:30.573Z"
+        },
+        "standalone_question": "What should be the moisture level in a 4-inch sensor?",
+        "standalone_en": "What should be the moisture level in a 4-inch sensor?",
+        "retrieval": {
+          "tools": [
+            "get_soil_moisture_sensor_depth  \nReturns the depths in inches of the soil moisture sensors 1 and 2 installed on the plots."
+          ],
+          "faq": [
+            "Q: How much kPa should be set for a 4-inch depth soil moisture sensor?\nA: The kPa value for a 4-inch depth soil moisture sensor should be set based on the **soil type** and **crop requirements**. Here are general guidelines for different soil types:\n\n### **Sandy Soil:**\n- **Optimal range:** 10–20 kPa\n- **Irrigation threshold:** Above 30 kPa\n\n### **Loamy Soil (Silty or Mixed):**\n- **Optimal range:** 20–40 kPa\n- **Irrigation threshold:** Above 50 kPa\n\n### **Clay Soil:**\n- **Optimal range:** 40–70 kPa\n- **Irrigation threshold:** Above 80 kPa\n\n### **Additional Considerations:**\n- For **sensitive crops** like vegetables, maintain lower kPa thresholds to avoid water stress.\n- For **deep-rooted crops**, kPa values may vary at different depths; calibrate accordingly.\n- **Calibration** of the sensor to your specific soil and crop is essential for accuracy.\n\nConsulting with an agronomist or referring to crop-specific irrigation guides will help you fine-tune the kPa range.",
+            "Q: I irrigated still the sensor is dropping slowly.\nA: Sometimes, the water reaches slowly till root zone and the moisture sensor kPa value drops slowly. Always wait for 12 hours after irrigation for the moisture to saturate. If still some confusion, ask user to check moisture near the sensor and check if he wants to raise a ticket for the issue.",
+            "Q: How to calibrate soil moisture sensors ?\nA:  The way to calibrate sensors is by putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. A drop after watering or irrigation and continuous dry upto 200 kpa means that the sensor is calibrated.",
+            "Q: What should I do if the soil moisture sensor values fluctuate?\nA: Ensure the sensor is installed properly in the soil, check for air bubbles, and contact Fyllo representative if the issue persists.",
+            "Q: How do I know if my soil  moisture sensor is working fine ?\nA: The only way to know is if after irrigation the sensor is dropping below 5 kpa and increasing continuously unless next irrigation is done. You can try putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. Also, a soil moisture reading of 0 kPa is perfectly fine, meaning wet soil, but a reading of 200 kPa could mean fault. If the soil moisture sensor reading is consistently at 0 from few 48 hours, then it could be anamolous (use live and historical hourly soil moisture data (use tool) to validate)."
+          ]
+        },
+        "content_transliterated": "Or 4 inchi sensor mein kitni kp rakhen "
+      },
+      {
+        "role": "assistant",
+        "content": "4 इंची सेंसर के लिए आदर्श मिट्टी की नमी 2 kPa (गीली) से 18 kPa (सूखी) के बीच होनी चाहिए। \n\nयदि मिट्टी की नमी 18 kPa से अधिक है, तो आपको सिंचाई करनी चाहिए। यदि आप और जानकारी चाहते हैं या सिंचाई की प्रक्रिया में मदद चाहिए, तो कृपया बताएं।",
+        "timestamp": {
+          "$date": "2024-11-27T11:45:35.803Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "8 इंची सेंसर में कितनी केपी रखें",
+        "timestamp": {
+          "$date": "2024-11-27T11:46:32.452Z"
+        },
+        "standalone_question": "What should be the kPa level for the 8-inch sensor?",
+        "standalone_en": "What should be the kPa level for the 8-inch sensor?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How much kPa should be set for a 4-inch depth soil moisture sensor?\nA: The kPa value for a 4-inch depth soil moisture sensor should be set based on the **soil type** and **crop requirements**. Here are general guidelines for different soil types:\n\n### **Sandy Soil:**\n- **Optimal range:** 10–20 kPa\n- **Irrigation threshold:** Above 30 kPa\n\n### **Loamy Soil (Silty or Mixed):**\n- **Optimal range:** 20–40 kPa\n- **Irrigation threshold:** Above 50 kPa\n\n### **Clay Soil:**\n- **Optimal range:** 40–70 kPa\n- **Irrigation threshold:** Above 80 kPa\n\n### **Additional Considerations:**\n- For **sensitive crops** like vegetables, maintain lower kPa thresholds to avoid water stress.\n- For **deep-rooted crops**, kPa values may vary at different depths; calibrate accordingly.\n- **Calibration** of the sensor to your specific soil and crop is essential for accuracy.\n\nConsulting with an agronomist or referring to crop-specific irrigation guides will help you fine-tune the kPa range.",
+            "Q: What is the range of kpa moisture provided by the sensor ?\nA: It's 0-200 Kpa. 0 kPa is wet, 200 kPa is dry",
+            "Q: My  sensor is showing 0 Kpa for long.\nA: 0-5 kPa means wet soil. It can be due to following :\nIf the device is recently installed, there can be moisture  around the sensor because the sensor is dipped in the water before installing. If this is the case, ask them to do atleast 3 irrigations as per their previous schedule without sensors and sensors would b set by then.\nIf the crop stage is very early or pruing is done recently, the water takeup by plants is negligible in this period because of very less transpiration. If this is the case, ask them to wait till irrigation Kpa in the present stage.\nSometimes, the water can remain accumulated around the sensor due to local landscaping or slope in the land around sensor. In this case, please check the around the sensor. It will have to be reinstalled properly. Chatbot should ask the user if he wants to create an issue ticket for the same",
+            "Q: My sensor is 200. What can be the reason ?\nA: The 200 kPa means:\neither the soil is fully dry or the sensor is put outside the soil or there is no current reaching the sensor rods meaning the wire is cut or connectors are removed. \nIn this case, check if the moisture went to 200 kpa suddenly or it went gradually. If it went suddenly , it means the wire is broken or the connector is broken. A physical verification of the device is required in this case. Ask user to check or create a support ticket.\nIf it increased gradually, ask user when he irrigated last. If he has not irrigated for long time, the soil would be dry and 200 kpa is fine.",
+            "Q: How do I know if my soil  moisture sensor is working fine ?\nA: The only way to know is if after irrigation the sensor is dropping below 5 kpa and increasing continuously unless next irrigation is done. You can try putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. Also, a soil moisture reading of 0 kPa is perfectly fine, meaning wet soil, but a reading of 200 kPa could mean fault. If the soil moisture sensor reading is consistently at 0 from few 48 hours, then it could be anamolous (use live and historical hourly soil moisture data (use tool) to validate)."
+          ]
+        },
+        "content_transliterated": "8 inchi sensor mein kitni kp rakhen"
+      },
+      {
+        "role": "assistant",
+        "content": "8 इंची सेंसर के लिए आदर्श मिट्टी की नमी 2 kPa (गीली) से 18 kPa (सूखी) के बीच होनी चाहिए। \n\nइसलिए, सुनिश्चित करें कि 8 इंची सेंसर की नमी 2 से 18 kPa के बीच रहे। यदि नमी 18 kPa से अधिक है, तो आपको सिंचाई करनी चाहिए।",
+        "timestamp": {
+          "$date": "2024-11-27T11:46:38.054Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "दवाई डाले या नहीं ",
+        "timestamp": {
+          "$date": "2024-11-27T11:47:17.944Z"
+        },
+        "standalone_question": "Should I apply the medication or not?",
+        "standalone_en": "Should I apply the medication or not?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "davai daale ya nahi "
+      },
+      {
+        "role": "assistant",
+        "content": "आज के लिए कोई दवाई डालने की सिफारिश नहीं की गई है। यदि आपको किसी विशेष बीमारी या कीट के बारे में चिंता है, तो कृपया बताएं।",
+        "timestamp": {
+          "$date": "2024-11-27T11:47:32.019Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Khad",
+        "timestamp": {
+          "$date": "2024-11-27T11:47:51.904Z"
+        },
+        "standalone_question": "Should I apply fertilizer?",
+        "standalone_en": "Should I apply fertilizer?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "\"margad\" प्लॉट के लिए खाद (फर्टिगेशन) का कोई डेटा शेड्यूल उपलब्ध नहीं है। यदि आपको किसी विशेष प्रकार की खाद या अन्य जानकारी चाहिए, तो कृपया बताएं।",
+        "timestamp": {
+          "$date": "2024-11-27T11:47:56.783Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "अमोनियम सल्फेट खड़ी फसल में डाले या नहीं ",
+        "timestamp": {
+          "$date": "2024-11-27T11:48:31.129Z"
+        },
+        "standalone_question": "Should ammonium sulfate be applied to standing crops or not?",
+        "standalone_en": "Should ammonium sulfate be applied to standing crops or not?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ammonium sulphate khadi fasal mein dale ya nahi "
+      },
+      {
+        "role": "assistant",
+        "content": "\"margad\" प्लॉट के लिए अमोनियम सल्फेट डालने का कोई फर्टिगेशन डेटा शेड्यूल उपलब्ध नहीं है। इसलिए, इस समय इसे डालने की सिफारिश नहीं की जा सकती।",
+        "timestamp": {
+          "$date": "2024-11-27T11:48:36.329Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "मैग्नीशियम सल्फेट ",
+        "timestamp": {
+          "$date": "2024-11-27T11:49:04.122Z"
+        },
+        "standalone_question": "Should magnesium sulfate be applied?",
+        "standalone_en": "Should magnesium sulfate be applied?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "magnesium sulphate "
+      },
+      {
+        "role": "assistant",
+        "content": "\"margad\" प्लॉट के लिए मैग्नीशियम सल्फेट डालने का कोई फर्टिगेशन डेटा शेड्यूल उपलब्ध नहीं है। इसलिए, इस समय इसे डालने की सिफारिश नहीं की जा सकती।",
+        "timestamp": {
+          "$date": "2024-11-27T11:49:08.405Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "यूरिया",
+        "timestamp": {
+          "$date": "2024-11-27T11:49:23.390Z"
+        },
+        "standalone_question": "Should urea be applied?",
+        "standalone_en": "Should urea be applied?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "yuria"
+      },
+      {
+        "role": "assistant",
+        "content": "\"margad\" प्लॉट के लिए यूरिया डालने का कोई फर्टिगेशन डेटा शेड्यूल उपलब्ध नहीं है। इसलिए, इस समय इसे डालने की सिफारिश नहीं की जा सकती।",
+        "timestamp": {
+          "$date": "2024-11-27T11:49:29.355Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पोटाश",
+        "timestamp": {
+          "$date": "2024-11-27T11:49:41.506Z"
+        },
+        "standalone_question": "Should potash be applied?",
+        "standalone_en": "Should potash be applied?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise."
+          ]
+        },
+        "content_transliterated": "potash"
+      },
+      {
+        "role": "assistant",
+        "content": "\"margad\" प्लॉट के लिए पोटाश डालने का कोई फर्टिगेशन डेटा शेड्यूल उपलब्ध नहीं है। इसलिए, इस समय इसे डालने की सिफारिश नहीं की जा सकती।",
+        "timestamp": {
+          "$date": "2024-11-27T11:49:45.600Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "तो आप बताए आलू में खाद की आवश्यकता होती हैं या नहीं ",
+        "timestamp": {
+          "$date": "2024-11-27T11:50:31.713Z"
+        },
+        "standalone_question": "Do potatoes require fertilizer or not?",
+        "standalone_en": "Do potatoes require fertilizer or not?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "to aap bataye aalu mein khaad ki aavashyakta hoti hain ya nahi "
+      },
+      {
+        "role": "assistant",
+        "content": "\"margad\" प्लॉट के लिए खाद (फर्टिगेशन) की आवश्यकता का कोई डेटा शेड्यूल उपलब्ध नहीं है। इसलिए, इस समय खाद डालने की सिफारिश नहीं की जा सकती।",
+        "timestamp": {
+          "$date": "2024-11-27T11:50:37.382Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ऐसे खाद का नहीं बताएगा तो मेरी फसल में उत्पादन नहीं मिलेगा सिर",
+        "timestamp": {
+          "$date": "2024-11-27T11:51:22.960Z"
+        },
+        "standalone_question": "Will you not provide information about the type of fertilizer needed for my crop to ensure good production?",
+        "standalone_en": "Will you not provide information about the type of fertilizer needed for my crop to ensure good production?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate.",
+            "Q: If I don't add any test data, what is the basis for the generated fertigation schedule?\nA: When no specific test data is provided, Fyllo generates a basic fertigation schedule based on:\n\n    1. Typical nutrient needs for your crop type\n    2. General soil characteristics common in your region\n    3. Standard growing practices for your area\n    This schedule provides a starting point, but may not be as precise as one based on specific test data.",
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17",
+            "Q: Which crop or variety is best suited for farming? Which variety is more profitable, gives the highest yield, or offers better resistance to pests and diseases? Best crops/varieties in my village/locality area. Best crop/crop variety in state.\nA: The best crop variety depends on multiple factors like soil type, climate, pest resistance, and market demand. However, selecting the **right variety for your specific farm requires expert consultation.** Farming success depends on local conditions, so it’s best to get personalized advice. For precise recommendations, please contact the expert agronomy team. Please consult our CRM team for more Agronomy related information."
+          ]
+        },
+        "content_transliterated": "aise khad ka nahi bataega toh meri fasal mein utpadan nahi milega sir"
+      },
+      {
+        "role": "assistant",
+        "content": "\"margad\" प्लॉट के लिए खाद (फर्टिगेशन) का कोई डेटा शेड्यूल उपलब्ध नहीं है। इसलिए, इस समय खाद डालने की सिफारिश नहीं की जा सकती। \n\nयदि आप आलू की फसल के लिए खाद की आवश्यकता के बारे में अधिक जानकारी चाहते हैं, तो मैं सुझाव दूंगा कि आप स्थानीय कृषि विशेषज्ञ से संपर्क करें या मिट्टी और फसल की स्थिति के अनुसार खाद का चयन करें।",
+        "timestamp": {
+          "$date": "2024-11-27T11:51:28.745Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Faylo खाद के बारे मे बताता है या नहीं ",
+        "timestamp": {
+          "$date": "2024-11-27T11:52:26.403Z"
+        },
+        "standalone_question": "Does it provide information about fertilizers?",
+        "standalone_en": "Does it provide information about fertilizers?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\".",
+            "get_specific_fertigation_requirements  \nFinds the fertigation requirements for the plots with a particular crop stage and week numbers."
+          ],
+          "faq": [
+            "Q: What are the advantages of adding soil, leaf, or petiole test reports?\nA: By adding test reports, Fyllo can generate a more precise fertigation schedule tailored to your specific conditions. Benefits include:\n\n    1. More accurate nutrient recommendations\n    2. Better alignment with your crop's actual needs\n    3. Potential for improved crop health and yield\n    4. More efficient use of fertilizers\n    5. Possible reduction in fertilizer costs and environmental impact",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17",
+            "Q: Why should I consider soil, leaf, or petiole testing?\nA: Soil, leaf, and petiole testing are crucial for effective plant health management. These tests provide specific data about your crop's nutrient needs, allowing for more precise fertilizer application. This can lead to higher productivity with optimized input use, potentially reducing costs and environmental impact.",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "Faylo khad ke baare me batata hai ya nahi "
+      },
+      {
+        "role": "assistant",
+        "content": "\"margad\" प्लॉट के लिए खाद (फर्टिगेशन) का कोई डेटा शेड्यूल उपलब्ध नहीं है। इसलिए, इस समय खाद डालने की सिफारिश नहीं की जा सकती। यदि आपको और जानकारी चाहिए, तो कृपया बताएं।",
+        "timestamp": {
+          "$date": "2024-11-27T11:52:31.586Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "तो डाटा शेड्यूल बनाए",
+        "timestamp": {
+          "$date": "2024-11-27T11:53:01.661Z"
+        },
+        "standalone_question": "Can you create a data schedule for fertilizer application?",
+        "standalone_en": "Can you create a data schedule for fertilizer application?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\".",
+            "get_disease_pest_schedule  \nRetrieves the farmer's current and past pesticide-related spray recommendations with spray details, based on dates. Dates are mandatory."
+          ],
+          "faq": [
+            "Q: Can I generate a fertigation schedule without soil, leaf, or petiole data?\nA: Yes, you can generate a basic fertigation schedule without specific soil, leaf, or petiole data. Fyllo will create a general schedule based on typical crop needs and soil types for your region.",
+            "Q: How do I generate a fertigation schedule in the app?\nA: To generate a fertigation schedule, follow these steps:\n\n    1. Go to \"My Farm\"\n    2. Select \"Fertigation\"\n    3. Tap \"Create Report\"\n    4. Fill in all the required details\n    5. Save the report\n    If you have soil, leaf, or petiole test data, you can input this for a more customized schedule. Otherwise, we can generate a basic schedule using general crop and regional data.",
+            "Q: What should I do if I can't find the fertigation schedule after selecting the fertigation tab?\nA: If you don't see the fertigation schedule, you'll need to create a report first. Would you like assistance in creating a report? Do you have any soil, leaf, or petiole test data available? If not, we can generate a basic schedule for you using general crop and regional data.",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "to data schedule banaye"
+      },
+      {
+        "role": "assistant",
+        "content": "\"margad\" प्लॉट के लिए फर्टिगेशन शेड्यूल डेटा उपलब्ध नहीं है। इसलिए, इस समय खाद डालने की सिफारिश नहीं की जा सकती। \n\nयदि आपको और जानकारी चाहिए या किसी अन्य सहायता की आवश्यकता है, तो कृपया बताएं।",
+        "timestamp": {
+          "$date": "2024-11-27T11:53:07.381Z"
+        }
+      }
+    ],
+    "farmer_id": "anilsharma",
+    "farmer_plot_ids": [
+      "margad"
+    ],
+    "conversation_id": "674705c1070f5c7cc9d04ae8",
+    "tag": "complaints",
+    "conv_date": "2024-11-27T11:42:57.685000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "सेंसर 2 में जो 8 इंची सेंसर है उसे कितनी इंची नमी दे",
+        "timestamp": {
+          "$date": "2024-11-27T11:42:57.685Z"
+        },
+        "standalone_question": "How much moisture should be given to the 8-inch sensor in Sensor 2?",
+        "standalone_en": "How much moisture should be given to the 8-inch sensor in Sensor 2?",
+        "retrieval": {
+          "tools": [
+            "get_soil_moisture_sensor_depth  \nReturns the depths in inches of the soil moisture sensors 1 and 2 installed on the plots."
+          ],
+          "faq": [
+            "Q: I irrigated still the sensor is dropping slowly.\nA: Sometimes, the water reaches slowly till root zone and the moisture sensor kPa value drops slowly. Always wait for 12 hours after irrigation for the moisture to saturate. If still some confusion, ask user to check moisture near the sensor and check if he wants to raise a ticket for the issue.",
+            "Q: What should I do if the soil moisture sensor values fluctuate?\nA: Ensure the sensor is installed properly in the soil, check for air bubbles, and contact Fyllo representative if the issue persists.",
+            "Q: Sensor is showing wet, i.e. less kpa but soil looks dry.\nA: The sensor measures the moisture around the rootzone which is not visible from the top. Ask use to check the moisture in rootzone around the sensor. If it matches, ask the user to irrigate.",
+            "Q: What is the range of kpa moisture provided by the sensor ?\nA: It's 0-200 Kpa. 0 kPa is wet, 200 kPa is dry",
+            "Q: How to calibrate soil moisture sensors ?\nA:  The way to calibrate sensors is by putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. A drop after watering or irrigation and continuous dry upto 200 kpa means that the sensor is calibrated."
+          ]
+        },
+        "content_transliterated": "sensor 2 mein jo 8 inchi sensor hai usey kitni inchi nami de"
+      },
+      {
+        "role": "assistant",
+        "content": "सेंसर 2 की गहराई 8 इंच है। इसे नमी देने के लिए, आपको यह सुनिश्चित करना होगा कि मिट्टी की नमी सही स्तर पर हो। यदि मिट्टी सूखी है (200 kPa), तो आपको इसे पानी देना चाहिए। यदि आप और जानकारी चाहते हैं, तो कृपया बताएं।",
+        "timestamp": {
+          "$date": "2024-11-27T11:43:02.025Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "मिट्टी सुखी है 29 इंची बता रहा हे",
+        "timestamp": {
+          "$date": "2024-11-27T11:43:40.755Z"
+        },
+        "standalone_question": "How much moisture should be given if the soil is showing a dryness level of 29 inches?",
+        "standalone_en": "How much moisture should be given if the soil is showing a dryness level of 29 inches?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer.",
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: What should I do if the soil moisture sensor always shows dry values?\nA: Check if irrigation water is reaching the sensor, verify sensor connection, and ensure the sensor is not damaged.",
+            "Q: What should I do if the soil moisture sensor always shows wet values?\nA: Verify the irrigation frequency, check the installation point, and contact Fyllo representative if the issue persists.",
+            "Q: Sensor is showing dry, but it rained recently.\nA: Rainwater doesn't percolate well in the soil. Most of it runs off. After a day of rain stops , if the sensor is still dry, you will have to irrigate. You can check the moisture by digging near the sensor . Irrigate accordingly."
+          ]
+        },
+        "content_transliterated": "mitti sukhi hai 29 inchi bata raha he"
+      },
+      {
+        "role": "assistant",
+        "content": "सेंसर 2 में 29 kPa की नमी का मतलब है कि मिट्टी सूखी है। चूंकि यह 8 इंच की गहराई पर है, आपको इसे पानी देना चाहिए। \n\nआपकी मिट्टी की नमी की स्थिति को देखते हुए, यह उचित है कि आप आज ही सिंचाई करें। यदि आपको और जानकारी चाहिए या सिंचाई की प्रक्रिया में मदद चाहिए, तो कृपया बताएं।",
+        "timestamp": {
+          "$date": "2024-11-27T11:43:47.233Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "कितने कप की नमी पर रखे",
+        "timestamp": {
+          "$date": "2024-11-27T11:44:25.834Z"
+        },
+        "standalone_question": "What moisture level should be maintained?",
+        "standalone_en": "What moisture level should be maintained?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: I irrigated still the sensor is dropping slowly.\nA: Sometimes, the water reaches slowly till root zone and the moisture sensor kPa value drops slowly. Always wait for 12 hours after irrigation for the moisture to saturate. If still some confusion, ask user to check moisture near the sensor and check if he wants to raise a ticket for the issue.",
+            "Q: What should I do if the soil moisture sensor always shows wet values?\nA: Verify the irrigation frequency, check the installation point, and contact Fyllo representative if the issue persists."
+          ]
+        },
+        "content_transliterated": "kitne cup ki nami par rakhe"
+      },
+      {
+        "role": "assistant",
+        "content": "आपकी मिट्टी की नमी के लिए आदर्श स्तर 2 kPa (गीली) से 18 kPa (सूखी) के बीच है। \n\nयदि मिट्टी की नमी 18 kPa से ऊपर है, तो आपको सिंचाई करनी चाहिए। इसलिए, सुनिश्चित करें कि नमी 2 से 18 kPa के बीच रहे। यदि नमी 18 kPa से अधिक हो रही है, तो सिंचाई करें।",
+        "timestamp": {
+          "$date": "2024-11-27T11:44:30.762Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Or 4 इंची सेंसर में कितनी केपी रखें ",
+        "timestamp": {
+          "$date": "2024-11-27T11:45:30.573Z"
+        },
+        "standalone_question": "What should be the kPa level for a 4-inch sensor?",
+        "standalone_en": "What should be the kPa level for a 4-inch sensor?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How much kPa should be set for a 4-inch depth soil moisture sensor?\nA: The kPa value for a 4-inch depth soil moisture sensor should be set based on the **soil type** and **crop requirements**. Here are general guidelines for different soil types:\n\n### **Sandy Soil:**\n- **Optimal range:** 10–20 kPa\n- **Irrigation threshold:** Above 30 kPa\n\n### **Loamy Soil (Silty or Mixed):**\n- **Optimal range:** 20–40 kPa\n- **Irrigation threshold:** Above 50 kPa\n\n### **Clay Soil:**\n- **Optimal range:** 40–70 kPa\n- **Irrigation threshold:** Above 80 kPa\n\n### **Additional Considerations:**\n- For **sensitive crops** like vegetables, maintain lower kPa thresholds to avoid water stress.\n- For **deep-rooted crops**, kPa values may vary at different depths; calibrate accordingly.\n- **Calibration** of the sensor to your specific soil and crop is essential for accuracy.\n\nConsulting with an agronomist or referring to crop-specific irrigation guides will help you fine-tune the kPa range.",
+            "Q: What is the range of kpa moisture provided by the sensor ?\nA: It's 0-200 Kpa. 0 kPa is wet, 200 kPa is dry",
+            "Q: My  sensor is showing 0 Kpa for long.\nA: 0-5 kPa means wet soil. It can be due to following :\nIf the device is recently installed, there can be moisture  around the sensor because the sensor is dipped in the water before installing. If this is the case, ask them to do atleast 3 irrigations as per their previous schedule without sensors and sensors would b set by then.\nIf the crop stage is very early or pruing is done recently, the water takeup by plants is negligible in this period because of very less transpiration. If this is the case, ask them to wait till irrigation Kpa in the present stage.\nSometimes, the water can remain accumulated around the sensor due to local landscaping or slope in the land around sensor. In this case, please check the around the sensor. It will have to be reinstalled properly. Chatbot should ask the user if he wants to create an issue ticket for the same",
+            "Q: My sensor is 200. What can be the reason ?\nA: The 200 kPa means:\neither the soil is fully dry or the sensor is put outside the soil or there is no current reaching the sensor rods meaning the wire is cut or connectors are removed. \nIn this case, check if the moisture went to 200 kpa suddenly or it went gradually. If it went suddenly , it means the wire is broken or the connector is broken. A physical verification of the device is required in this case. Ask user to check or create a support ticket.\nIf it increased gradually, ask user when he irrigated last. If he has not irrigated for long time, the soil would be dry and 200 kpa is fine."
+          ]
+        },
+        "content_transliterated": "Or 4 inchi sensor mein kitni kp rakhen "
+      },
+      {
+        "role": "assistant",
+        "content": "4 इंची सेंसर के लिए आदर्श मिट्टी की नमी 2 kPa (गीली) से 18 kPa (सूखी) के बीच होनी चाहिए। \n\nयदि मिट्टी की नमी 18 kPa से अधिक है, तो आपको सिंचाई करनी चाहिए। यदि आप और जानकारी चाहते हैं या सिंचाई की प्रक्रिया में मदद चाहिए, तो कृपया बताएं।",
+        "timestamp": {
+          "$date": "2024-11-27T11:45:35.803Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "8 इंची सेंसर में कितनी केपी रखें",
+        "timestamp": {
+          "$date": "2024-11-27T11:46:32.452Z"
+        },
+        "standalone_question": "What should be the ideal kPa level for an 8-inch sensor?",
+        "standalone_en": "What should be the ideal kPa level for an 8-inch sensor?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How much kPa should be set for a 4-inch depth soil moisture sensor?\nA: The kPa value for a 4-inch depth soil moisture sensor should be set based on the **soil type** and **crop requirements**. Here are general guidelines for different soil types:\n\n### **Sandy Soil:**\n- **Optimal range:** 10–20 kPa\n- **Irrigation threshold:** Above 30 kPa\n\n### **Loamy Soil (Silty or Mixed):**\n- **Optimal range:** 20–40 kPa\n- **Irrigation threshold:** Above 50 kPa\n\n### **Clay Soil:**\n- **Optimal range:** 40–70 kPa\n- **Irrigation threshold:** Above 80 kPa\n\n### **Additional Considerations:**\n- For **sensitive crops** like vegetables, maintain lower kPa thresholds to avoid water stress.\n- For **deep-rooted crops**, kPa values may vary at different depths; calibrate accordingly.\n- **Calibration** of the sensor to your specific soil and crop is essential for accuracy.\n\nConsulting with an agronomist or referring to crop-specific irrigation guides will help you fine-tune the kPa range.",
+            "Q: What is the range of kpa moisture provided by the sensor ?\nA: It's 0-200 Kpa. 0 kPa is wet, 200 kPa is dry",
+            "Q: My  sensor is showing 0 Kpa for long.\nA: 0-5 kPa means wet soil. It can be due to following :\nIf the device is recently installed, there can be moisture  around the sensor because the sensor is dipped in the water before installing. If this is the case, ask them to do atleast 3 irrigations as per their previous schedule without sensors and sensors would b set by then.\nIf the crop stage is very early or pruing is done recently, the water takeup by plants is negligible in this period because of very less transpiration. If this is the case, ask them to wait till irrigation Kpa in the present stage.\nSometimes, the water can remain accumulated around the sensor due to local landscaping or slope in the land around sensor. In this case, please check the around the sensor. It will have to be reinstalled properly. Chatbot should ask the user if he wants to create an issue ticket for the same",
+            "Q: My sensor is 200. What can be the reason ?\nA: The 200 kPa means:\neither the soil is fully dry or the sensor is put outside the soil or there is no current reaching the sensor rods meaning the wire is cut or connectors are removed. \nIn this case, check if the moisture went to 200 kpa suddenly or it went gradually. If it went suddenly , it means the wire is broken or the connector is broken. A physical verification of the device is required in this case. Ask user to check or create a support ticket.\nIf it increased gradually, ask user when he irrigated last. If he has not irrigated for long time, the soil would be dry and 200 kpa is fine."
+          ]
+        },
+        "content_transliterated": "8 inchi sensor mein kitni kp rakhen"
+      },
+      {
+        "role": "assistant",
+        "content": "8 इंची सेंसर के लिए आदर्श मिट्टी की नमी 2 kPa (गीली) से 18 kPa (सूखी) के बीच होनी चाहिए। \n\nइसलिए, सुनिश्चित करें कि 8 इंची सेंसर की नमी 2 से 18 kPa के बीच रहे। यदि नमी 18 kPa से अधिक है, तो आपको सिंचाई करनी चाहिए।",
+        "timestamp": {
+          "$date": "2024-11-27T11:46:38.054Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "दवाई डाले या नहीं ",
+        "timestamp": {
+          "$date": "2024-11-27T11:47:17.944Z"
+        },
+        "standalone_question": "Should I apply the medication or not?",
+        "standalone_en": "Should I apply the medication or not?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "davai daale ya nahi "
+      },
+      {
+        "role": "assistant",
+        "content": "आज के लिए कोई दवाई डालने की सिफारिश नहीं की गई है। यदि आपको किसी विशेष बीमारी या कीट के बारे में चिंता है, तो कृपया बताएं।",
+        "timestamp": {
+          "$date": "2024-11-27T11:47:32.019Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Khad",
+        "timestamp": {
+          "$date": "2024-11-27T11:47:51.904Z"
+        },
+        "standalone_question": "Should fertilizer be applied?",
+        "standalone_en": "Should fertilizer be applied?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available.",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: What are the advantages of adding soil, leaf, or petiole test reports?\nA: By adding test reports, Fyllo can generate a more precise fertigation schedule tailored to your specific conditions. Benefits include:\n\n    1. More accurate nutrient recommendations\n    2. Better alignment with your crop's actual needs\n    3. Potential for improved crop health and yield\n    4. More efficient use of fertilizers\n    5. Possible reduction in fertilizer costs and environmental impact",
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "\"margad\" प्लॉट के लिए खाद (फर्टिगेशन) का कोई डेटा शेड्यूल उपलब्ध नहीं है। यदि आपको किसी विशेष प्रकार की खाद या अन्य जानकारी चाहिए, तो कृपया बताएं।",
+        "timestamp": {
+          "$date": "2024-11-27T11:47:56.783Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "अमोनियम सल्फेट खड़ी फसल में डाले या नहीं ",
+        "timestamp": {
+          "$date": "2024-11-27T11:48:31.129Z"
+        },
+        "standalone_question": "Should ammonium sulfate be applied to standing crops or not?",
+        "standalone_en": "Should ammonium sulfate be applied to standing crops or not?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ammonium sulphate khadi fasal mein dale ya nahi "
+      },
+      {
+        "role": "assistant",
+        "content": "\"margad\" प्लॉट के लिए अमोनियम सल्फेट डालने का कोई फर्टिगेशन डेटा शेड्यूल उपलब्ध नहीं है। इसलिए, इस समय इसे डालने की सिफारिश नहीं की जा सकती।",
+        "timestamp": {
+          "$date": "2024-11-27T11:48:36.329Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "मैग्नीशियम सल्फेट ",
+        "timestamp": {
+          "$date": "2024-11-27T11:49:04.122Z"
+        },
+        "standalone_question": "Should magnesium sulfate be applied?",
+        "standalone_en": "Should magnesium sulfate be applied?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "magnesium sulphate "
+      },
+      {
+        "role": "assistant",
+        "content": "\"margad\" प्लॉट के लिए मैग्नीशियम सल्फेट डालने का कोई फर्टिगेशन डेटा शेड्यूल उपलब्ध नहीं है। इसलिए, इस समय इसे डालने की सिफारिश नहीं की जा सकती।",
+        "timestamp": {
+          "$date": "2024-11-27T11:49:08.405Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "यूरिया",
+        "timestamp": {
+          "$date": "2024-11-27T11:49:23.390Z"
+        },
+        "standalone_question": "Should urea be applied?",
+        "standalone_en": "Should urea be applied?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "yuria"
+      },
+      {
+        "role": "assistant",
+        "content": "\"margad\" प्लॉट के लिए यूरिया डालने का कोई फर्टिगेशन डेटा शेड्यूल उपलब्ध नहीं है। इसलिए, इस समय इसे डालने की सिफारिश नहीं की जा सकती।",
+        "timestamp": {
+          "$date": "2024-11-27T11:49:29.355Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पोटाश",
+        "timestamp": {
+          "$date": "2024-11-27T11:49:41.506Z"
+        },
+        "standalone_question": "Should potash be applied?",
+        "standalone_en": "Should potash be applied?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise."
+          ]
+        },
+        "content_transliterated": "potash"
+      },
+      {
+        "role": "assistant",
+        "content": "\"margad\" प्लॉट के लिए पोटाश डालने का कोई फर्टिगेशन डेटा शेड्यूल उपलब्ध नहीं है। इसलिए, इस समय इसे डालने की सिफारिश नहीं की जा सकती।",
+        "timestamp": {
+          "$date": "2024-11-27T11:49:45.600Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "तो आप बताए आलू में खाद की आवश्यकता होती हैं या नहीं ",
+        "timestamp": {
+          "$date": "2024-11-27T11:50:31.713Z"
+        },
+        "standalone_question": "Do potatoes require fertilizer or not?",
+        "standalone_en": "Do potatoes require fertilizer or not?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "to aap bataye aalu mein khaad ki aavashyakta hoti hain ya nahi "
+      },
+      {
+        "role": "assistant",
+        "content": "\"margad\" प्लॉट के लिए खाद (फर्टिगेशन) की आवश्यकता का कोई डेटा शेड्यूल उपलब्ध नहीं है। इसलिए, इस समय खाद डालने की सिफारिश नहीं की जा सकती।",
+        "timestamp": {
+          "$date": "2024-11-27T11:50:37.382Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ऐसे खाद का नहीं बताएगा तो मेरी फसल में उत्पादन नहीं मिलेगा सिर",
+        "timestamp": {
+          "$date": "2024-11-27T11:51:22.960Z"
+        },
+        "standalone_question": "If you don't provide information about the type of fertilizer, how will I ensure good production for my crop?",
+        "standalone_en": "If you don't provide information about the type of fertilizer, how will I ensure good production for my crop?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: If I don't add any test data, what is the basis for the generated fertigation schedule?\nA: When no specific test data is provided, Fyllo generates a basic fertigation schedule based on:\n\n    1. Typical nutrient needs for your crop type\n    2. General soil characteristics common in your region\n    3. Standard growing practices for your area\n    This schedule provides a starting point, but may not be as precise as one based on specific test data.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate.",
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available."
+          ]
+        },
+        "content_transliterated": "aise khad ka nahi bataega toh meri fasal mein utpadan nahi milega sir"
+      },
+      {
+        "role": "assistant",
+        "content": "\"margad\" प्लॉट के लिए खाद (फर्टिगेशन) का कोई डेटा शेड्यूल उपलब्ध नहीं है। इसलिए, इस समय खाद डालने की सिफारिश नहीं की जा सकती। \n\nयदि आप आलू की फसल के लिए खाद की आवश्यकता के बारे में अधिक जानकारी चाहते हैं, तो मैं सुझाव दूंगा कि आप स्थानीय कृषि विशेषज्ञ से संपर्क करें या मिट्टी और फसल की स्थिति के अनुसार खाद का चयन करें।",
+        "timestamp": {
+          "$date": "2024-11-27T11:51:28.745Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Faylo खाद के बारे मे बताता है या नहीं ",
+        "timestamp": {
+          "$date": "2024-11-27T11:52:26.403Z"
+        },
+        "standalone_question": "Does it provide information about fertilizers?",
+        "standalone_en": "Does it provide information about fertilizers?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\".",
+            "get_specific_fertigation_requirements  \nFinds the fertigation requirements for the plots with a particular crop stage and week numbers."
+          ],
+          "faq": [
+            "Q: What are the advantages of adding soil, leaf, or petiole test reports?\nA: By adding test reports, Fyllo can generate a more precise fertigation schedule tailored to your specific conditions. Benefits include:\n\n    1. More accurate nutrient recommendations\n    2. Better alignment with your crop's actual needs\n    3. Potential for improved crop health and yield\n    4. More efficient use of fertilizers\n    5. Possible reduction in fertilizer costs and environmental impact",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17",
+            "Q: Why should I consider soil, leaf, or petiole testing?\nA: Soil, leaf, and petiole testing are crucial for effective plant health management. These tests provide specific data about your crop's nutrient needs, allowing for more precise fertilizer application. This can lead to higher productivity with optimized input use, potentially reducing costs and environmental impact.",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "Faylo khad ke baare me batata hai ya nahi "
+      },
+      {
+        "role": "assistant",
+        "content": "\"margad\" प्लॉट के लिए खाद (फर्टिगेशन) का कोई डेटा शेड्यूल उपलब्ध नहीं है। इसलिए, इस समय खाद डालने की सिफारिश नहीं की जा सकती। यदि आपको और जानकारी चाहिए, तो कृपया बताएं।",
+        "timestamp": {
+          "$date": "2024-11-27T11:52:31.586Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "तो डाटा शेड्यूल बनाए",
+        "timestamp": {
+          "$date": "2024-11-27T11:53:01.661Z"
+        },
+        "standalone_question": "Can you create a data schedule for fertilizer application?",
+        "standalone_en": "Can you create a data schedule for fertilizer application?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\".",
+            "get_disease_pest_schedule  \nRetrieves the farmer's current and past pesticide-related spray recommendations with spray details, based on dates. Dates are mandatory."
+          ],
+          "faq": [
+            "Q: Can I generate a fertigation schedule without soil, leaf, or petiole data?\nA: Yes, you can generate a basic fertigation schedule without specific soil, leaf, or petiole data. Fyllo will create a general schedule based on typical crop needs and soil types for your region.",
+            "Q: How do I generate a fertigation schedule in the app?\nA: To generate a fertigation schedule, follow these steps:\n\n    1. Go to \"My Farm\"\n    2. Select \"Fertigation\"\n    3. Tap \"Create Report\"\n    4. Fill in all the required details\n    5. Save the report\n    If you have soil, leaf, or petiole test data, you can input this for a more customized schedule. Otherwise, we can generate a basic schedule using general crop and regional data.",
+            "Q: What should I do if I can't find the fertigation schedule after selecting the fertigation tab?\nA: If you don't see the fertigation schedule, you'll need to create a report first. Would you like assistance in creating a report? Do you have any soil, leaf, or petiole test data available? If not, we can generate a basic schedule for you using general crop and regional data.",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "to data schedule banaye"
+      },
+      {
+        "role": "assistant",
+        "content": "\"margad\" प्लॉट के लिए फर्टिगेशन शेड्यूल डेटा उपलब्ध नहीं है। इसलिए, इस समय खाद डालने की सिफारिश नहीं की जा सकती। \n\nयदि आपको और जानकारी चाहिए या किसी अन्य सहायता की आवश्यकता है, तो कृपया बताएं।",
+        "timestamp": {
+          "$date": "2024-11-27T11:53:07.381Z"
+        }
+      }
+    ],
+    "farmer_id": "anilsharma",
+    "farmer_plot_ids": [
+      "margad"
+    ],
+    "conversation_id": "674705c1070f5c7cc9d04ae8",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-11-27T11:42:57.685000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Rog vodakha in marathi<user uploaded image for analysis at 'varlashet/2024-11-27-1732693664495.jpg'>",
+        "timestamp": {
+          "$date": "2024-11-27T07:47:49.120Z"
+        },
+        "standalone_question": "What does the image uploaded by the user depict?",
+        "standalone_en": "What does the image uploaded by the user depict?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या बाणानाच्या पिकात काही रोग किंवा कीडांच्या नुकसानाचे संकेत दिसत आहेत. येथे काही निरीक्षणे आहेत:\n\n1. **पानांचे पिवळे होणे**: पानांचे पिवळे होणे म्हणजे पिकाला पोषणाची कमतरता किंवा ताण येत आहे.\n   \n2. **गडद ठिपके**: गडद ठिपक्यांची उपस्थिती, विशेषतः पिवळ्या वर्तुळासह, फंगसच्या संसर्गाचे संकेत देते, कदाचित **ब्लॅक सिगाटोका** किंवा **पनामा रोग**, जे बाणानाच्या पिकात सामान्य आहेत.\n\n3. **एकूण पानांची स्थिती**: पिवळे होणे आणि ठिपक्यांचा एकत्रित परिणाम फोटोसिंथेसिस कमी करतो, ज्यामुळे पिकाच्या एकूण आरोग्यावर परिणाम होतो.\n\n### शिफारसी:\n- **फंगिसाइडचा वापर**: फंगसच्या संसर्गाचे व्यवस्थापन करण्यासाठी योग्य फंगिसाइड लागू करण्याचा विचार करा.\n- **पोषण व्यवस्थापन**: मातीतील पोषणाचे स्तर तपासा आणि कोणतीही कमतरता दूर करण्यासाठी खतांचा वापर करा.\n- **संस्कृतीची पद्धती**: पिकांच्या आजूबाजूला योग्य अंतर आणि हवेची वर्तुळता सुनिश्चित करा, ज्यामुळे आर्द्रता कमी होईल, जी फंगसच्या वाढीस प्रोत्साहन देते.\n\nअधिक अचूक निदानासाठी, कृपया प्रभावित क्षेत्रांचे जवळचे चित्र प्रदान करा, ठिपक्यांवर आणि एकूण पानांच्या स्थितीवर लक्ष केंद्रित करून.",
+        "timestamp": {
+          "$date": "2024-11-27T07:48:07.467Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Which fungicide used for sigatoka",
+        "timestamp": {
+          "$date": "2024-11-27T07:49:13.061Z"
+        },
+        "standalone_question": "What fungicide is recommended for treating Sigatoka?",
+        "standalone_en": "What fungicide is recommended for treating Sigatoka?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For managing Sigatoka disease in banana crops, you can use the following fungicides:\n\n1. **Chlorothalonil**: Effective against various fungal diseases, including Sigatoka.\n2. **Propiconazole**: A systemic fungicide that helps in controlling Sigatoka.\n3. **Mancozeb**: A broad-spectrum fungicide that can be used for preventive measures.\n\nMake sure to follow the recommended dosage and application guidelines for effective control.",
+        "timestamp": {
+          "$date": "2024-11-27T07:49:17.005Z"
+        }
+      }
+    ],
+    "farmer_id": "santoshnarayanpatin",
+    "farmer_plot_ids": [
+      "varlashet"
+    ],
+    "conversation_id": "6746cea4e0fb82e7bed84730",
+    "tag": "disease_pest",
+    "conv_date": "2024-11-27T07:47:49.120000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Rog vodakha in marathi<user uploaded image for analysis at 'varlashet/2024-11-27-1732693664495.jpg'>",
+        "timestamp": {
+          "$date": "2024-11-27T07:47:49.120Z"
+        },
+        "standalone_question": "What does the phrase \"Rog vodakha\" mean in Marathi?",
+        "standalone_en": "What does the phrase \"Rog vodakha\" mean in Marathi?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या बाणानाच्या पिकात काही रोग किंवा कीडांच्या नुकसानाचे संकेत दिसत आहेत. येथे काही निरीक्षणे आहेत:\n\n1. **पानांचे पिवळे होणे**: पानांचे पिवळे होणे म्हणजे पिकाला पोषणाची कमतरता किंवा ताण येत आहे.\n   \n2. **गडद ठिपके**: गडद ठिपक्यांची उपस्थिती, विशेषतः पिवळ्या वर्तुळासह, फंगसच्या संसर्गाचे संकेत देते, कदाचित **ब्लॅक सिगाटोका** किंवा **पनामा रोग**, जे बाणानाच्या पिकात सामान्य आहेत.\n\n3. **एकूण पानांची स्थिती**: पिवळे होणे आणि ठिपक्यांचा एकत्रित परिणाम फोटोसिंथेसिस कमी करतो, ज्यामुळे पिकाच्या एकूण आरोग्यावर परिणाम होतो.\n\n### शिफारसी:\n- **फंगिसाइडचा वापर**: फंगसच्या संसर्गाचे व्यवस्थापन करण्यासाठी योग्य फंगिसाइड लागू करण्याचा विचार करा.\n- **पोषण व्यवस्थापन**: मातीतील पोषणाचे स्तर तपासा आणि कोणतीही कमतरता दूर करण्यासाठी खतांचा वापर करा.\n- **संस्कृतीची पद्धती**: पिकांच्या आजूबाजूला योग्य अंतर आणि हवेची वर्तुळता सुनिश्चित करा, ज्यामुळे आर्द्रता कमी होईल, जी फंगसच्या वाढीस प्रोत्साहन देते.\n\nअधिक अचूक निदानासाठी, कृपया प्रभावित क्षेत्रांचे जवळचे चित्र प्रदान करा, ठिपक्यांवर आणि एकूण पानांच्या स्थितीवर लक्ष केंद्रित करून.",
+        "timestamp": {
+          "$date": "2024-11-27T07:48:07.467Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Which fungicide used for sigatoka",
+        "timestamp": {
+          "$date": "2024-11-27T07:49:13.061Z"
+        },
+        "standalone_question": "What fungicide is recommended for treating Sigatoka?",
+        "standalone_en": "What fungicide is recommended for treating Sigatoka?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For managing Sigatoka disease in banana crops, you can use the following fungicides:\n\n1. **Chlorothalonil**: Effective against various fungal diseases, including Sigatoka.\n2. **Propiconazole**: A systemic fungicide that helps in controlling Sigatoka.\n3. **Mancozeb**: A broad-spectrum fungicide that can be used for preventive measures.\n\nMake sure to follow the recommended dosage and application guidelines for effective control.",
+        "timestamp": {
+          "$date": "2024-11-27T07:49:17.005Z"
+        }
+      }
+    ],
+    "farmer_id": "santoshnarayanpatin",
+    "farmer_plot_ids": [
+      "varlashet"
+    ],
+    "conversation_id": "6746cea4e0fb82e7bed84730",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-11-27T07:47:49.120000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Coman scab allu me kya hota hai ",
+        "timestamp": {
+          "$date": "2024-11-27T05:03:07.319Z"
+        },
+        "standalone_question": "What is a coman scab?",
+        "standalone_en": "What is a coman scab?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Coman scab, yaani \"common scab,\" aloo (potato) ke liye ek mahatvapurn rog hai. Yeh rog tuber par khurdure ya daag banata hai, jo ki unhe bechne ke liye anuchit bana deta hai. Iska mukhya karan \"Streptomyces scabies\" naamak bacteria hota hai.\n\n**Control Measures:**\n1. **Soil Health:** Achhi soil health banaye rakhna, jaise ki pH ko 5.2 se 6.0 ke beech rakhna.\n2. **Crop Rotation:** Aloo ke alawa anya faslon ka chakkar lagana.\n3. **Seed Treatment:** Beej ko lagane se pehle fungicides se treat karna.\n4. **Irrigation:** Samay par paani dena, kyunki sukhay maidan mein yeh rog zyada hota hai.\n\nYadi aapko aur jaankari chahiye, to aap mujhe bata sakte hain!",
+        "timestamp": {
+          "$date": "2024-11-27T05:03:13.066Z"
+        }
+      }
+    ],
+    "farmer_id": "anilsharma",
+    "farmer_plot_ids": [
+      "margad"
+    ],
+    "conversation_id": "6746a80b54066597b6637211",
+    "tag": "disease_pest",
+    "conv_date": "2024-11-27T05:03:07.319000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Allu me antrik or bahay dosh kya hota hai",
+        "timestamp": {
+          "$date": "2024-11-27T04:22:54.436Z"
+        },
+        "standalone_question": "What is the meaning of \"allu me antrik\" or \"bahay dosh\"?",
+        "standalone_en": "What is the meaning of \"Allu Me Internal\" or \"Bahay Dosha\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "\"Antrik\" aur \"Bahya\" dosh, vastu shastra ke concepts hain. \n\n1. **Antrik Dosh**: Ye ghar ke andar ke vastu dosh ko darshata hai, jaise ki ghar ki layout, room ka sahi sthal, aur ghar ke andar ki vastu. Iska prabhav ghar ke logon ki manasik aur sharirik swasthya par padta hai.\n\n2. **Bahya Dosh**: Ye ghar ke bahar ke vastu dosh ko darshata hai, jaise ki ghar ke aas-paas ka paryavaran, sadak, aur anya bhawan. Bahya dosh ka prabhav bhi ghar ke logon ki zindagi par padta hai.\n\nIn dono doshon ko samajhna aur sudharna, ghar ki shanti aur samriddhi ke liye mahatvapurn hota hai.",
+        "timestamp": {
+          "$date": "2024-11-27T04:23:00.759Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "आलू में आंतरिक ओर बाह्य दोष कौनसी बीमारी है ",
+        "timestamp": {
+          "$date": "2024-11-27T04:24:31.659Z"
+        },
+        "standalone_question": "What diseases are associated with internal and external defects in potatoes?",
+        "standalone_en": "What diseases are associated with internal and external defects in potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "aloo mein aantarik or bahya dosh kaunsi bimari hai "
+      },
+      {
+        "role": "assistant",
+        "content": "आलू में आंतरिक और बाह्य दोष निम्नलिखित बीमारियाँ हो सकती हैं:\n\n### आंतरिक दोष (Internal Diseases):\n1. **फ्यूजेरियम विल्ट (Fusarium Wilt)**: यह बीमारी पौधों की जड़ों में संक्रमण करती है और पौधों के पत्ते पीले पड़ जाते हैं।\n2. **रूट नॉट नेमाटोड (Root Knot Nematode)**: यह जड़ों में गांठें बनाता है, जिससे पौधे की वृद्धि रुक जाती है।\n\n### बाह्य दोष (External Diseases):\n1. **Alternaria Blight**: यह पत्तियों पर भूरे धब्बे बनाता है और आलू की उपज को प्रभावित करता है।\n2. **पाउडरी मिल्ड्यू (Powdery Mildew)**: यह पत्तियों पर सफेद पाउडर जैसा दिखता है और पौधों की वृद्धि को रोकता है।\n\nइन बीमारियों से बचाव के लिए उचित कीटनाशकों का उपयोग और फसल चक्र का पालन करना आवश्यक है।",
+        "timestamp": {
+          "$date": "2024-11-27T04:24:37.089Z"
+        }
+      }
+    ],
+    "farmer_id": "anilsharma",
+    "farmer_plot_ids": [
+      "margad"
+    ],
+    "conversation_id": "67469e9ece2201ef6c24ae4c",
+    "tag": "disease_pest",
+    "conv_date": "2024-11-27T04:22:54.436000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Melybug spray ",
+        "timestamp": {
+          "$date": "2024-11-27T03:40:45.213Z"
+        },
+        "standalone_question": "What is Melybug spray?",
+        "standalone_en": "What is Melybug spray?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Currently, there are no scheduled sprays for mealybug on your plots today. \n\nFor the **Ramesh thomsan 2 acar** plot, the mealybug risk level is **LOW** today (36.6% probability), indicating that immediate spraying may not be necessary. However, the risk was **MEDIUM** in the past few days, so keep monitoring the situation.\n\nIf you have already sprayed recently, it’s advisable to wait a few days before considering another application.",
+        "timestamp": {
+          "$date": "2024-11-27T03:40:52.207Z"
+        }
+      }
+    ],
+    "farmer_id": "rameshkonnur",
+    "farmer_plot_ids": [
+      "konnurhosaplot",
+      "rameshthomsan2acar"
+    ],
+    "conversation_id": "674694bc32678cb2f46a5c0e",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-11-27T03:40:45.213000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": " Humic ni Karur puri Thai gai",
+        "timestamp": {
+          "$date": "2024-11-27T02:09:26.149Z"
+        },
+        "standalone_question": "Is humic available in Karur?",
+        "standalone_en": "Is humic available in Karur?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Humic acid is beneficial for soil health and can enhance nutrient availability for your potato crops. It helps improve soil structure, water retention, and microbial activity.\n\nIf you have already applied humic acid, ensure that you monitor the soil moisture and nutrient levels to assess its effectiveness. If you need specific recommendations on further applications or monitoring, please let me know!",
+        "timestamp": {
+          "$date": "2024-11-27T02:09:31.251Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Gujarati ma javab apo",
+        "timestamp": {
+          "$date": "2024-11-27T02:10:10.728Z"
+        },
+        "standalone_question": "Can you provide the answer in Gujarati?",
+        "standalone_en": "Can you provide the answer in Gujarati?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Humic acid જમીનના આરોગ્ય માટે લાભદાયક છે અને તમારા બટાકાના પાક માટે પોષક તત્વોની ઉપલબ્ધતા વધારવામાં મદદ કરે છે. તે જમીનની રચના, પાણીની ધારણ ક્ષમતા અને જીવાણુ પ્રવૃત્તિમાં સુધારો કરે છે.\n\nજો તમે પહેલાથી જ હ્યુમિક એસિડ લાગુ કરી દીધું છે, તો તેની અસરકારકતા આંકવા માટે જમીનની ભેજ અને પોષક સ્તરોની દેખરેખ રાખવી મહત્વપૂર્ણ છે. જો તમને વધુ લાગુ કરવાની અથવા મોનિટરિંગની વિશિષ્ટ ભલામણો જોઈએ, તો કૃપા કરીને મને જણાવો!",
+        "timestamp": {
+          "$date": "2024-11-27T02:10:15.032Z"
+        }
+      }
+    ],
+    "farmer_id": "VR4853",
+    "farmer_plot_ids": [
+      "mainkenalvalopalot",
+      "motosagvalopalot",
+      "nichevalopalot"
+    ],
+    "conversation_id": "67467f55070f5c7cc9d04ae3",
+    "tag": "others",
+    "conv_date": "2024-11-27T02:09:26.149000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "11.40.11",
+        "timestamp": {
+          "$date": "2024-11-27T01:43:38.094Z"
+        },
+        "standalone_question": "What does the number 11.40.11 refer to?",
+        "standalone_en": "What does the number 11.40.11 refer to?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like you've entered a code or reference that I don't recognize. Could you please provide more context or clarify your request related to agriculture?",
+        "timestamp": {
+          "$date": "2024-11-27T01:43:41.093Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "11.40.11 हे घटक कोणते आहे ",
+        "timestamp": {
+          "$date": "2024-11-27T01:44:15.224Z"
+        },
+        "standalone_question": "What is the component referred to as 11.40.11?",
+        "standalone_en": "What is the component referred to as 11.40.11?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "11.40.11 he ghatak conte aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "\"11.40.11\" हा एक संदर्भ किंवा कोड आहे, ज्याचा मला अर्थ समजत नाही. कृपया अधिक माहिती द्या किंवा कृषी संबंधित तुमचा प्रश्न स्पष्ट करा.",
+        "timestamp": {
+          "$date": "2024-11-27T01:44:18.634Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "11.44.11 हे घटक कोणते आहे ",
+        "timestamp": {
+          "$date": "2024-11-27T01:44:56.386Z"
+        },
+        "standalone_question": "What are the components of 11.44.11?",
+        "standalone_en": "What are the components of 11.44.11?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "11.44.11 he ghatak conte aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "\"11.44.11\" हा एक संदर्भ किंवा कोड आहे, ज्याचा मला अर्थ समजत नाही. कृपया अधिक माहिती द्या किंवा कृषी संबंधित तुमचा प्रश्न स्पष्ट करा.",
+        "timestamp": {
+          "$date": "2024-11-27T01:44:59.708Z"
+        }
+      }
+    ],
+    "farmer_id": "yogirajgangadharbirajdar",
+    "farmer_plot_ids": [
+      "manikchaman452"
+    ],
+    "conversation_id": "67467949070f5c7cc9d04ae2",
+    "tag": "others",
+    "conv_date": "2024-11-27T01:43:38.094000+00:00"
+  }
+]

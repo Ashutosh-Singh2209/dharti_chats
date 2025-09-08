@@ -1,0 +1,511 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "સ્ટેજ સારાંશ એટલે શું?",
+        "en": "What is stage summary?",
+        "timestamp": {
+          "$date": "2025-03-20T17:10:31.515Z"
+        },
+        "standalone_question": "What does \"stage summary\" mean?",
+        "standalone_en": "What does \"stage summary\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "stage saransh atale shu?"
+      },
+      {
+        "role": "assistant",
+        "content": "સ્ટેજ સારાંશ એ પાકના વિકાસના વિવિધ તબક્કાઓનું વર્ણન છે, જેમાં દરેક તબક્કો પાકની વૃદ્ધિ અને વિકાસની વિશિષ્ટ સ્થિતિને દર્શાવે છે. ઉદાહરણ તરીકે, પomegranates માટે, સ્ટેજ 1, 2, 3 અને 4 જેવા તબક્કાઓ હોઈ શકે છે, જ્યાં દરેક તબક્કામાં પાકની જરૂરિયાતો અને સંભવિત સંભાળની રીતો અલગ હોય છે. આ માહિતી ખેડૂતોને તેમના પાકની યોગ્ય સંભાળ અને વ્યવસ્થાપન માટે માર્ગદર્શન આપે છે.",
+        "en": "Stage summary is a description of the different stages of crop development, with each stage depicting the specific state of crop growth and development. For example, for pomegranates, there may be phases such as stages 1, 2, 3, and 4, where crop needs and potential care patterns differ in each phase. This information guides farmers for proper care and management of their crops.",
+        "timestamp": {
+          "$date": "2025-03-20T17:10:37.251Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ફર્ટિગેશન માં સાપ્તાહિક ",
+        "en": "Weekly in Fertigation ",
+        "timestamp": {
+          "$date": "2025-03-20T17:12:27.238Z"
+        },
+        "standalone_question": "What is the weekly schedule for fertilization?",
+        "standalone_en": "What is the weekly schedule for fertilization?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\".",
+            "get_specific_fertigation_requirements  \nFinds the fertigation requirements for the plots with a particular crop stage and week numbers."
+          ],
+          "faq": []
+        },
+        "content_transliterated": "fertigation man saptahik "
+      },
+      {
+        "role": "assistant",
+        "content": "આપના \"Plot1(Pomo)\" પર હાલની ફર્ટિગેશન સ્થિતિ મુજબ:\n\n- **હાલની તારીખ:** 20 માર્ચ 2025\n- **હાલનો તબક્કો:** વૃદ્ધિ તબક્કો 3 (Growth stage 3)\n- **હાલનો સપ્તાહ:** 12\n\n**હાલમાં ફર્ટિગેશનની જરૂર નથી.**\n\n**આગામી ફર્ટિગેશન શેડ્યૂલ:**\n- **તારીખ:** 30 જુલાઈ 2025 (સપ્તાહ 13)\n- **ફર્ટિલાઇઝર:**\n  - **પોટેશિયમ નાઇટ્રેટ:** 1 કિલોગ્રામ/એકર\n  - અથવા\n  - **યુરિયા:** 1 કિલોગ્રામ/એકર\n  - **સલ્ફેટ ઓફ પોટાશ:** 1.5 કિલોગ્રામ/એકર\n\nઆ માહિતીનો ઉપયોગ કરીને, તમે તમારા પાકની જરૂરિયાતો અનુસાર યોગ્ય ફર્ટિગેશન કરી શકો છો.",
+        "en": "According to the current fertigation status on your \"Plot1(Pomo)\":\n\n- **Current date:** 20 March 2025\n- **Current Phase:** Growth Phase 3 (Growth Stage 3)\n- **Current week:** 12\n\n**There is no need for fertigation at present.**\n\n**Upcoming Fertigation Schedule:**\n* **Date:** 30 July 2025 (Week 13)\n- **Fertilizer:**\n  * *Potassium Nitrate:** 1 kg/acre\n  -or\n  * **Urea:** 1 kg/acre\n  **Sulphate of Potash:** 1.5 kg/acre\n\nUsing this information, you can perform proper fertigation according to the needs of your crop.",
+        "timestamp": {
+          "$date": "2025-03-20T17:12:43.466Z"
+        }
+      }
+    ],
+    "farmer_id": "aniruddhbhai",
+    "farmer_plot_ids": [
+      "plot1pomo755"
+    ],
+    "conversation_id": "67dc4c072115703e9dba22b5",
+    "_id": "67dc4c072115703e9dba22b5",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-20T17:17:27.248000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-03-20T17:10:31.515000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "फायलो चालू करायचे आहे",
+        "en": "Want to turn on the file",
+        "timestamp": {
+          "$date": "2025-03-20T09:18:54.866Z"
+        },
+        "standalone_question": "I want to start the file.",
+        "standalone_en": "I want to start the file.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "फायलो चालू करण्यासाठी, कृपया खालील चरणांचे पालन करा:\n\n1. **डिव्हाइस सुरू करा**: टॉप कॅपच्या खाली असलेल्या स्विचवर दाबा.\n2. **पॅरामीटर्स तपासा**: डिव्हाइस सुरू झाल्यावर, होम स्क्रीनवर पॅरामीटर्स दिसेपर्यंत थांबा.\n3. **फायलो अॅपमध्ये कनेक्ट करा**: फायलो अॅप उघडा आणि डिव्हाइस कनेक्ट करण्यासाठी निर्देशांचे पालन करा.\n\nजर तुम्हाला आणखी मदतीची आवश्यकता असेल, तर कृपया सांगा!",
+        "en": "To turn on the file, please follow the steps below:\n\n1. **Start the device**: Press the switch below the top cap.\n2. **Check parameters**: When the device starts, wait until the parameters appear on the home screen.\n3. **Connect to the Filo app**: Open the Filo app and follow the instructions to connect the device.\n\nIf you need more help, please let me know!",
+        "timestamp": {
+          "$date": "2025-03-20T09:18:59.934Z"
+        }
+      }
+    ],
+    "farmer_id": "sanjaylaxmankhapare",
+    "farmer_plot_ids": [
+      "thompson1146"
+    ],
+    "conversation_id": "67dbdd7e2115703e9dba22b4",
+    "_id": "67dbdd7e2115703e9dba22b4",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-03-20T09:23:54.874000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-03-20T09:18:54.866000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "current status of devices",
+        "en": "current status of devices",
+        "timestamp": {
+          "$date": "2025-03-20T07:06:59.737Z"
+        },
+        "standalone_question": "What is the current status of the devices?",
+        "standalone_en": "What is the current status of the devices?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the current status of your devices:\n\n### Shivaji Bodkhe farm - Guava (Kairo)\n- **Battery Level:** 78%\n- **Soil Moisture:** 3 kPa (wet)\n- **Air Temperature:** 31.6°C\n- **Air Humidity:** 23%\n- **Last Updated:** 10:53 AM\n\n### Shivaji Bodkhe farm - Guava (Nero)\n- **Battery Level:** 40%\n- **Soil Moisture:** 0 kPa (wet)\n- **Soil Temperature:** 25.25°C\n- **Last Updated:** 12:09 PM\n\n### SSB Farm - Grapes - Nero\n- **Battery Level:** 52%\n- **Soil Moisture:** 16 kPa\n- **Soil Temperature:** 26.06°C\n- **Last Updated:** 11:37 AM\n\n### SSB Farm - G1, G2, G3 - Guava\n- **Battery Level:** 75%\n- **Soil Moisture:** 5 kPa\n- **Air Temperature:** 23.3°C\n- **Last Updated:** 10:17 PM (previous data)\n\n### SSB Farm - G4 and G5 - Guava\n- **Battery Level:** 59%\n- **Soil Moisture:** 6 kPa\n- **Soil Temperature:** 25.44°C\n- **Last Updated:** 11:37 AM\n\n### SSB Farm - G6 and G7 - Guava\n- **Battery Level:** 48%\n- **Soil Moisture:** 2 kPa\n- **Soil Temperature:** 27.75°C\n- **Last Updated:** 12:11 PM\n\n### Summary\n- All devices are currently active and sending data.\n- The battery levels are generally good, but the Nero device at Shivaji Bodkhe farm has a lower battery level (40%). It may need charging soon.\n\nIf you need any further assistance or specific actions, feel free to ask!",
+        "en": "Here is the current status of your devices:\n\n### Shivaji Bodkhe farm - Guava (Kairo)\n- **Battery Level:** 78%\n- **Soil Moisture:** 3 kPa (wet)\n- **Air Temperature:** 31.6°C\n- **Air Humidity:** 23%\n- **Last Updated:** 10:53 AM\n\n### Shivaji Bodkhe farm - Guava (Nero)\n- **Battery Level:** 40%\n- **Soil Moisture:** 0 kPa (wet)\n- **Soil Temperature:** 25.25°C\n- **Last Updated:** 12:09 PM\n\n### SSB Farm - Grapes - Nero\n- **Battery Level:** 52%\n- **Soil Moisture:** 16 kPa\n- **Soil Temperature:** 26.06°C\n- **Last Updated:** 11:37 AM\n\n### SSB Farm - G1, G2, G3 - Guava\n- **Battery Level:** 75%\n- **Soil Moisture:** 5 kPa\n- **Air Temperature:** 23.3°C\n- **Last Updated:** 10:17 PM (previous data)\n\n### SSB Farm - G4 and G5 - Guava\n- **Battery Level:** 59%\n- **Soil Moisture:** 6 kPa\n- **Soil Temperature:** 25.44°C\n- **Last Updated:** 11:37 AM\n\n### SSB Farm - G6 and G7 - Guava\n- **Battery Level:** 48%\n- **Soil Moisture:** 2 kPa\n- **Soil Temperature:** 27.75°C\n- **Last Updated:** 12:11 PM\n\n### Summary\n- All devices are currently active and sending data.\n- The battery levels are generally good, but the Nero device at Shivaji Bodkhe farm has a lower battery level (40%). It may need charging soon.\n\nIf you need any further assistance or specific actions, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-03-20T07:07:13.617Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Disease pest chances on SSB farm?",
+        "en": "Disease pest chances on SSB farm?",
+        "timestamp": {
+          "$date": "2025-03-20T07:07:48.258Z"
+        },
+        "standalone_question": "What are the chances of disease and pest issues on the SSB farm?",
+        "standalone_en": "What are the chances of disease and pest issues on the SSB farm?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "### Pest Predictions for SSB Farm\n\n#### 1. **SSB Farm - Grapes (Nero)**\n- **Flea Beetle:** 90% (HIGH)\n- **Thrips:** 100% (HIGH)\n- **Caterpillar:** 77% (HIGH)\n- **Jassids:** 59.7% (MEDIUM)\n- **Red Spider Mites:** 47.4% (MEDIUM)\n- **Mealybug:** 28.2% (LOW)\n\n#### 2. **SSB Farm - G1, G2, G3 (Guava)**\n- **Thrips:** 84.2% (HIGH)\n- **Mealybug:** 95.6% (HIGH)\n- **Tea Mosquitto Bug:** 40.9% (LOW)\n- **Fruit Fly:** 29.6% (LOW)\n\n#### 3. **SSB Farm - G4 and G5 (Guava)**\n- **Thrips:** 87.4% (HIGH)\n- **Mealybug:** 88.7% (HIGH)\n- **Tea Mosquitto Bug:** 77.7% (HIGH)\n- **Fruit Fly:** 30.1% (LOW)\n\n#### 4. **SSB Farm - G6 and G7 (Guava)**\n- **Thrips:** 77.4% (HIGH)\n- **Mealybug:** 94.6% (HIGH)\n- **Tea Mosquitto Bug:** 63.2% (MEDIUM)\n- **Fruit Fly:** 31.3% (LOW)\n\n### Disease Predictions for SSB Farm\n\n#### 1. **SSB Farm - Grapes (Nero)**\n- **Downy Mildew:** 34.2% (LOW)\n- **Powdery Mildew:** 34.2% (LOW)\n- **Anthracnose:** 22.8% (NIL)\n\n#### 2. **SSB Farm - G1, G2, G3 (Guava)**\n- **Stylar End Rot:** 79.6% (HIGH)\n- **Fruit Canker:** 56.8% (MEDIUM)\n- **Anthracnose:** 47.8% (LOW)\n\n#### 3. **SSB Farm - G4 and G5 (Guava)**\n- **Stylar End Rot:** 80.3% (HIGH)\n- **Fruit Canker:** 56.0% (MEDIUM)\n- **Anthracnose:** 47.0% (LOW)\n\n#### 4. **SSB Farm - G6 and G7 (Guava)**\n- **Stylar End Rot:** 73.1% (MEDIUM)\n- **Fruit Canker:** 52.7% (MEDIUM)\n- **Anthracnose:** 52.9% (MEDIUM)\n\n### Summary\n- **Pests:** High chances of Thrips and Mealybug across all plots, especially in Guava.\n- **Diseases:** Stylar End Rot is a significant concern in Guava plots.\n\nGiven the high pest and disease risks, it is advisable to consider spraying appropriate pesticides and fungicides. If you need specific recommendations for treatments, please let me know!",
+        "en": "### Pest Predictions for SSB Farm\n\n#### 1. **SSB Farm - Grapes (Nero)**\n- **Flea Beetle:** 90% (HIGH)\n- **Thrips:** 100% (HIGH)\n- **Caterpillar:** 77% (HIGH)\n- **Jassids:** 59.7% (MEDIUM)\n- **Red Spider Mites:** 47.4% (MEDIUM)\n- **Mealybug:** 28.2% (LOW)\n\n#### 2. **SSB Farm - G1, G2, G3 (Guava)**\n- **Thrips:** 84.2% (HIGH)\n- **Mealybug:** 95.6% (HIGH)\n- **Tea Mosquitto Bug:** 40.9% (LOW)\n- **Fruit Fly:** 29.6% (LOW)\n\n#### 3. **SSB Farm - G4 and G5 (Guava)**\n- **Thrips:** 87.4% (HIGH)\n- **Mealybug:** 88.7% (HIGH)\n- **Tea Mosquitto Bug:** 77.7% (HIGH)\n- **Fruit Fly:** 30.1% (LOW)\n\n#### 4. **SSB Farm - G6 and G7 (Guava)**\n- **Thrips:** 77.4% (HIGH)\n- **Mealybug:** 94.6% (HIGH)\n- **Tea Mosquitto Bug:** 63.2% (MEDIUM)\n- **Fruit Fly:** 31.3% (LOW)\n\n### Disease Predictions for SSB Farm\n\n#### 1. **SSB Farm - Grapes (Nero)**\n- **Downy Mildew:** 34.2% (LOW)\n- **Powdery Mildew:** 34.2% (LOW)\n- **Anthracnose:** 22.8% (NIL)\n\n#### 2. **SSB Farm - G1, G2, G3 (Guava)**\n- **Stylar End Rot:** 79.6% (HIGH)\n- **Fruit Canker:** 56.8% (MEDIUM)\n- **Anthracnose:** 47.8% (LOW)\n\n#### 3. **SSB Farm - G4 and G5 (Guava)**\n- **Stylar End Rot:** 80.3% (HIGH)\n- **Fruit Canker:** 56.0% (MEDIUM)\n- **Anthracnose:** 47.0% (LOW)\n\n#### 4. **SSB Farm - G6 and G7 (Guava)**\n- **Stylar End Rot:** 73.1% (MEDIUM)\n- **Fruit Canker:** 52.7% (MEDIUM)\n- **Anthracnose:** 52.9% (MEDIUM)\n\n### Summary\n- **Pests:** High chances of Thrips and Mealybug across all plots, especially in Guava.\n- **Diseases:** Stylar End Rot is a significant concern in Guava plots.\n\nGiven the high pest and disease risks, it is advisable to consider spraying appropriate pesticides and fungicides. If you need specific recommendations for treatments, please let me know!",
+        "timestamp": {
+          "$date": "2025-03-20T07:08:13.986Z"
+        }
+      }
+    ],
+    "farmer_id": "sumeetbodkhe",
+    "farmer_plot_ids": [
+      "shivajibodhkefarmguavakairo",
+      "shivajibodkefarmguavanero",
+      "ssbfarmgrapesnero",
+      "ssbfarmguavakairo",
+      "ssbfarmguavanero1",
+      "ssbfarmguavanero2"
+    ],
+    "conversation_id": "67dbbe93bf60193cf149055c",
+    "_id": "67dbbe93bf60193cf149055c",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-03-20T07:12:48.272000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-03-20T07:06:59.737000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "current status of devices",
+        "en": "current status of devices",
+        "timestamp": {
+          "$date": "2025-03-20T07:06:59.737Z"
+        },
+        "standalone_question": "What is the current status of the devices?",
+        "standalone_en": "What is the current status of the devices?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the current status of your devices:\n\n### Shivaji Bodkhe farm - Guava (Kairo)\n- **Battery Level:** 78%\n- **Soil Moisture:** 3 kPa (wet)\n- **Air Temperature:** 31.6°C\n- **Air Humidity:** 23%\n- **Last Updated:** 10:53 AM\n\n### Shivaji Bodkhe farm - Guava (Nero)\n- **Battery Level:** 40%\n- **Soil Moisture:** 0 kPa (wet)\n- **Soil Temperature:** 25.25°C\n- **Last Updated:** 12:09 PM\n\n### SSB Farm - Grapes - Nero\n- **Battery Level:** 52%\n- **Soil Moisture:** 16 kPa\n- **Soil Temperature:** 26.06°C\n- **Last Updated:** 11:37 AM\n\n### SSB Farm - G1, G2, G3 - Guava\n- **Battery Level:** 75%\n- **Soil Moisture:** 5 kPa\n- **Air Temperature:** 23.3°C\n- **Last Updated:** 10:17 PM (previous data)\n\n### SSB Farm - G4 and G5 - Guava\n- **Battery Level:** 59%\n- **Soil Moisture:** 6 kPa\n- **Soil Temperature:** 25.44°C\n- **Last Updated:** 11:37 AM\n\n### SSB Farm - G6 and G7 - Guava\n- **Battery Level:** 48%\n- **Soil Moisture:** 2 kPa\n- **Soil Temperature:** 27.75°C\n- **Last Updated:** 12:11 PM\n\n### Summary\n- All devices are currently active and sending data.\n- The battery levels are generally good, but the Nero device at Shivaji Bodkhe farm has a lower battery level (40%). It may need charging soon.\n\nIf you need any further assistance or specific actions, feel free to ask!",
+        "en": "Here is the current status of your devices:\n\n### Shivaji Bodkhe farm - Guava (Kairo)\n- **Battery Level:** 78%\n- **Soil Moisture:** 3 kPa (wet)\n- **Air Temperature:** 31.6°C\n- **Air Humidity:** 23%\n- **Last Updated:** 10:53 AM\n\n### Shivaji Bodkhe farm - Guava (Nero)\n- **Battery Level:** 40%\n- **Soil Moisture:** 0 kPa (wet)\n- **Soil Temperature:** 25.25°C\n- **Last Updated:** 12:09 PM\n\n### SSB Farm - Grapes - Nero\n- **Battery Level:** 52%\n- **Soil Moisture:** 16 kPa\n- **Soil Temperature:** 26.06°C\n- **Last Updated:** 11:37 AM\n\n### SSB Farm - G1, G2, G3 - Guava\n- **Battery Level:** 75%\n- **Soil Moisture:** 5 kPa\n- **Air Temperature:** 23.3°C\n- **Last Updated:** 10:17 PM (previous data)\n\n### SSB Farm - G4 and G5 - Guava\n- **Battery Level:** 59%\n- **Soil Moisture:** 6 kPa\n- **Soil Temperature:** 25.44°C\n- **Last Updated:** 11:37 AM\n\n### SSB Farm - G6 and G7 - Guava\n- **Battery Level:** 48%\n- **Soil Moisture:** 2 kPa\n- **Soil Temperature:** 27.75°C\n- **Last Updated:** 12:11 PM\n\n### Summary\n- All devices are currently active and sending data.\n- The battery levels are generally good, but the Nero device at Shivaji Bodkhe farm has a lower battery level (40%). It may need charging soon.\n\nIf you need any further assistance or specific actions, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-03-20T07:07:13.617Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Disease pest chances on SSB farm?",
+        "en": "Disease pest chances on SSB farm?",
+        "timestamp": {
+          "$date": "2025-03-20T07:07:48.258Z"
+        },
+        "standalone_question": "What are the chances of disease and pest issues on the SSB farm?",
+        "standalone_en": "What are the chances of disease and pest issues on the SSB farm?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "### Pest Predictions for SSB Farm\n\n#### 1. **SSB Farm - Grapes (Nero)**\n- **Flea Beetle:** 90% (HIGH)\n- **Thrips:** 100% (HIGH)\n- **Caterpillar:** 77% (HIGH)\n- **Jassids:** 59.7% (MEDIUM)\n- **Red Spider Mites:** 47.4% (MEDIUM)\n- **Mealybug:** 28.2% (LOW)\n\n#### 2. **SSB Farm - G1, G2, G3 (Guava)**\n- **Thrips:** 84.2% (HIGH)\n- **Mealybug:** 95.6% (HIGH)\n- **Tea Mosquitto Bug:** 40.9% (LOW)\n- **Fruit Fly:** 29.6% (LOW)\n\n#### 3. **SSB Farm - G4 and G5 (Guava)**\n- **Thrips:** 87.4% (HIGH)\n- **Mealybug:** 88.7% (HIGH)\n- **Tea Mosquitto Bug:** 77.7% (HIGH)\n- **Fruit Fly:** 30.1% (LOW)\n\n#### 4. **SSB Farm - G6 and G7 (Guava)**\n- **Thrips:** 77.4% (HIGH)\n- **Mealybug:** 94.6% (HIGH)\n- **Tea Mosquitto Bug:** 63.2% (MEDIUM)\n- **Fruit Fly:** 31.3% (LOW)\n\n### Disease Predictions for SSB Farm\n\n#### 1. **SSB Farm - Grapes (Nero)**\n- **Downy Mildew:** 34.2% (LOW)\n- **Powdery Mildew:** 34.2% (LOW)\n- **Anthracnose:** 22.8% (NIL)\n\n#### 2. **SSB Farm - G1, G2, G3 (Guava)**\n- **Stylar End Rot:** 79.6% (HIGH)\n- **Fruit Canker:** 56.8% (MEDIUM)\n- **Anthracnose:** 47.8% (LOW)\n\n#### 3. **SSB Farm - G4 and G5 (Guava)**\n- **Stylar End Rot:** 80.3% (HIGH)\n- **Fruit Canker:** 56.0% (MEDIUM)\n- **Anthracnose:** 47.0% (LOW)\n\n#### 4. **SSB Farm - G6 and G7 (Guava)**\n- **Stylar End Rot:** 73.1% (MEDIUM)\n- **Fruit Canker:** 52.7% (MEDIUM)\n- **Anthracnose:** 52.9% (MEDIUM)\n\n### Summary\n- **Pests:** High chances of Thrips and Mealybug across all plots, especially in Guava.\n- **Diseases:** Stylar End Rot is a significant concern in Guava plots.\n\nGiven the high pest and disease risks, it is advisable to consider spraying appropriate pesticides and fungicides. If you need specific recommendations for treatments, please let me know!",
+        "en": "### Pest Predictions for SSB Farm\n\n#### 1. **SSB Farm - Grapes (Nero)**\n- **Flea Beetle:** 90% (HIGH)\n- **Thrips:** 100% (HIGH)\n- **Caterpillar:** 77% (HIGH)\n- **Jassids:** 59.7% (MEDIUM)\n- **Red Spider Mites:** 47.4% (MEDIUM)\n- **Mealybug:** 28.2% (LOW)\n\n#### 2. **SSB Farm - G1, G2, G3 (Guava)**\n- **Thrips:** 84.2% (HIGH)\n- **Mealybug:** 95.6% (HIGH)\n- **Tea Mosquitto Bug:** 40.9% (LOW)\n- **Fruit Fly:** 29.6% (LOW)\n\n#### 3. **SSB Farm - G4 and G5 (Guava)**\n- **Thrips:** 87.4% (HIGH)\n- **Mealybug:** 88.7% (HIGH)\n- **Tea Mosquitto Bug:** 77.7% (HIGH)\n- **Fruit Fly:** 30.1% (LOW)\n\n#### 4. **SSB Farm - G6 and G7 (Guava)**\n- **Thrips:** 77.4% (HIGH)\n- **Mealybug:** 94.6% (HIGH)\n- **Tea Mosquitto Bug:** 63.2% (MEDIUM)\n- **Fruit Fly:** 31.3% (LOW)\n\n### Disease Predictions for SSB Farm\n\n#### 1. **SSB Farm - Grapes (Nero)**\n- **Downy Mildew:** 34.2% (LOW)\n- **Powdery Mildew:** 34.2% (LOW)\n- **Anthracnose:** 22.8% (NIL)\n\n#### 2. **SSB Farm - G1, G2, G3 (Guava)**\n- **Stylar End Rot:** 79.6% (HIGH)\n- **Fruit Canker:** 56.8% (MEDIUM)\n- **Anthracnose:** 47.8% (LOW)\n\n#### 3. **SSB Farm - G4 and G5 (Guava)**\n- **Stylar End Rot:** 80.3% (HIGH)\n- **Fruit Canker:** 56.0% (MEDIUM)\n- **Anthracnose:** 47.0% (LOW)\n\n#### 4. **SSB Farm - G6 and G7 (Guava)**\n- **Stylar End Rot:** 73.1% (MEDIUM)\n- **Fruit Canker:** 52.7% (MEDIUM)\n- **Anthracnose:** 52.9% (MEDIUM)\n\n### Summary\n- **Pests:** High chances of Thrips and Mealybug across all plots, especially in Guava.\n- **Diseases:** Stylar End Rot is a significant concern in Guava plots.\n\nGiven the high pest and disease risks, it is advisable to consider spraying appropriate pesticides and fungicides. If you need specific recommendations for treatments, please let me know!",
+        "timestamp": {
+          "$date": "2025-03-20T07:08:13.986Z"
+        }
+      }
+    ],
+    "farmer_id": "sumeetbodkhe",
+    "farmer_plot_ids": [
+      "shivajibodhkefarmguavakairo",
+      "shivajibodkefarmguavanero",
+      "ssbfarmgrapesnero",
+      "ssbfarmguavakairo",
+      "ssbfarmguavanero1",
+      "ssbfarmguavanero2"
+    ],
+    "conversation_id": "67dbbe93bf60193cf149055c",
+    "_id": "67dbbe93bf60193cf149055c",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-03-20T07:12:48.272000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-03-20T07:06:59.737000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "डिव्हाईस डेटा दाखवत नाही कृपया कंपनी चा माणूस पाठवा ",
+        "en": "Device does not show data Please send company person ",
+        "timestamp": {
+          "$date": "2025-03-20T04:44:28.098Z"
+        },
+        "standalone_question": "The device is not displaying data; please send a company representative.",
+        "standalone_en": "The device is not displaying data; please send a company representative.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "device data dakhavat nahi kripaya company cha manus pathava "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या डिव्हाईसचा डेटा सध्या दाखवत नाही. कृपया Fyllo अॅपमध्ये सपोर्ट तिकीट उघडा. जर समस्या कायम राहिली, तर कृपया आमच्या ग्राहक समर्थन टीमशी संपर्क साधा. तुम्हाला आमच्या समर्थन टीमच्या संपर्क तपशीलांची आवश्यकता आहे का?",
+        "en": "Your device's data is not currently showing. Please open the support ticket in the Fyllo app. If the problem persists, please contact our customer support team. Do you need the contact details of our support team?",
+        "timestamp": {
+          "$date": "2025-03-20T04:44:35.817Z"
+        }
+      }
+    ],
+    "farmer_id": "sanjayarjunbodke",
+    "farmer_plot_ids": [
+      "thompsonplot1jaybhavani",
+      "thompsonplotno2jaybhavani"
+    ],
+    "conversation_id": "67db9d2bacb259c92d437570",
+    "_id": "67db9d2bacb259c92d437570",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-03-20T04:49:28.105000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-03-20T04:44:28.098000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Mara khetar ma magafali ma nidaman mate atyar su nakhi shaky",
+        "en": "In my farm, it is possible to put sue in the peanuts now for the need.",
+        "timestamp": {
+          "$date": "2025-03-20T04:17:03.460Z"
+        },
+        "standalone_question": "Can you tell me if I can plant peanuts in my field?",
+        "standalone_en": "Can you tell me if I can plant peanuts in my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Tarak plot ma magafali mate koi spray schedule nathi. Aapne koi spray karva ni jarur nathi. \n\nJya sudhi aapne biji koi madad joiye, te kahjo!",
+        "en": "There is no spray schedule for peanuts in the Tarak plot. You don't need to spray anything. \n\nAs long as we need any other help, say it!",
+        "timestamp": {
+          "$date": "2025-03-20T04:17:11.344Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Nindaman vadhi gyu che",
+        "en": "Slander has increased",
+        "timestamp": {
+          "$date": "2025-03-20T04:17:37.574Z"
+        },
+        "standalone_question": "Has the amount of sleep increased?",
+        "standalone_en": "Has the amount of sleep increased?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Tarak plot ma aapne nindaman ni halat ni jankari aavi chhe:\n\n1. **Aphids**: 72.9% (Medium Risk)\n2. **Thrips**: 66.6% (Medium Risk)\n3. **Bihar Hairy Caterpillar**: 26.3% (Low Risk)\n4. **Leaf Eating Caterpillar**: 86.6% (High Risk)\n\nShesh plot ma:\n\n1. **Aphids**: 62.6% (Medium Risk)\n2. **Thrips**: 66.1% (Medium Risk)\n3. **Bihar Hairy Caterpillar**: 47.5% (Low Risk)\n4. **Leaf Eating Caterpillar**: 70.8% (Medium Risk)\n\nAapne **Leaf Eating Caterpillar** ni halat ne dhyan ma rakhine spray karva ni jarur chhe, kyake te high risk ma chhe. \n\nAapne koi madad joiye to kahjo!",
+        "en": "Tarak plot ma aapne nindaman ni halat ni jankari aavi chhe:\n\n1. **Aphids**: 72.9% (Medium Risk)\n2. **Thrips**: 66.6% (Medium Risk)\n3. **Bihar Hairy Caterpillar**: 26.3% (Low Risk)\n4. **Leaf Eating Caterpillar**: 86.6% (High Risk)\n\nShesh plot ma:\n\n1. **Aphids**: 62.6% (Medium Risk)\n2. **Thrips**: 66.1% (Medium Risk)\n3. **Bihar Hairy Caterpillar**: 47.5% (Low Risk)\n4. **Leaf Eating Caterpillar**: 70.8% (Medium Risk)\n\nAapne **Leaf Eating Caterpillar** ni halat ne dhyan ma rakhine spray karva ni jarur chhe, kyake te high risk ma chhe. \n\nAapne koi madad joiye to kahjo!",
+        "timestamp": {
+          "$date": "2025-03-20T04:17:46.753Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140",
+      "sheshpalot"
+    ],
+    "conversation_id": "67db96bffe94ef2d64fb71cf",
+    "_id": "67db96bffe94ef2d64fb71cf",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-20T04:22:37.582000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-03-20T04:17:03.460000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "કેટર પિલર માટે સારી દવા કઈ વાપરવી",
+        "en": "What is the best medicine to use for cater pilar",
+        "timestamp": {
+          "$date": "2025-03-20T03:36:08.813Z"
+        },
+        "standalone_question": "What is a good medicine to use for caterpillars?",
+        "standalone_en": "What is a good medicine to use for caterpillars?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "cater pillar mate saree dava kai vaparvi"
+      },
+      {
+        "role": "assistant",
+        "content": "કેટર પિલર માટે સારી દવા તરીકે, તમે \"બિટરેન\" અથવા \"લેમડાસીહલોથ્રિન\" જેવા પેસ્ટિસાઇડ્સનો ઉપયોગ કરી શકો છો. આ દવાઓ અસરકારક રીતે કેટર પિલર અને અન્ય કીટકોથી બચાવમાં મદદ કરે છે. \n\nજો તમે વધુ ચોક્કસ માહિતી અથવા દવા માટેની સૂચનાઓ જોઈએ, તો કૃપા કરીને તમારા પાકના તબક્કા અને અન્ય પરિસ્થિતિઓ વિશે જણાવો.",
+        "en": "As a good medicine for a caterpillar, you can use pesticides such as \"bitrene\" or \"lamdasihlothrin.\" These medicines effectively help in protecting against caterpillars and other pests. \n\nIf you need more specific information or instructions for medication, please tell us about your crop phase and other conditions.",
+        "timestamp": {
+          "$date": "2025-03-20T03:36:13.958Z"
+        }
+      }
+    ],
+    "farmer_id": "tejabhaihemabhaipatel",
+    "farmer_plot_ids": [
+      "abavaloplot"
+    ],
+    "conversation_id": "67db8d285b12db34e621374d",
+    "_id": "67db8d285b12db34e621374d",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-20T03:41:08.822000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-03-20T03:36:08.813000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મારા ખેતરમા હાલમા કોઈ રોગના લક્ષણો છે",
+        "en": "There are current symptoms of some disease in my farm",
+        "timestamp": {
+          "$date": "2025-03-20T03:11:15.455Z"
+        },
+        "standalone_question": "Are there currently any signs of disease in my field?",
+        "standalone_en": "Are there currently any signs of disease in my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara khetarama halma koi rogana lakshano che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં હાલ કોઈ રોગના લક્ષણો નથી.",
+        "en": "There are currently no symptoms of any disease in your farm.",
+        "timestamp": {
+          "$date": "2025-03-20T03:11:19.561Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "કોઈ રોગ જીવાત આવવાના સંકેત દેખાય છે",
+        "en": "There appears to be signs of a disease pest coming",
+        "timestamp": {
+          "$date": "2025-03-20T03:12:06.479Z"
+        },
+        "standalone_question": "Are there any signs of pests or diseases coming to the field?",
+        "standalone_en": "Are there any signs of pests or diseases coming to the field?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: What is the pest prediction?\nA: Check the all pest predictions relevant. We support Aphids, Banana aphids, Bihar hairy caterpillar, Broad mites, Brown plant hopper, Capsule borer, Caterpillar,\n   Citrus Psylla, Cut worm, Early shoot borer, European red mites, Flat mites, Flea Beetle, Flea beetle, Fruit Borer,\n   Fruit Fly, Fruit borer, Fruit fly, Green aphids, Hispa beetle, Jassids, Leaf eating caterpillar, Leaf folder, Leaf miner,\n   Leaf roller, Mango hopper, Mealy Bug, Mealy bug, Mealybug, Mites, Perianth mites, Pin worm, Pink bollworm,\n   Pseudostem weevil, Red Spider Mites, Red palm weevil, Red spider mites, Rhinoceros beetle, Rhizome weevil, Root Grubs,\n   Root knot nematode, Rugose spiraling whitefly, Rust mites, Rust thrips, Scale Insects, Scale insects, Scarring beetle,\n   Shoot borer, Skipper, Spiraling whitefly, Spodoptera, Stem Borer, Stem borer, Striped beetle, Striped cucumber beetle,\n   Tea Mosquitto Bug, Tea mosquitto bug, Termite, Thrips, White Fly, White fly, Whitefly, and Wooly aphids."
+          ]
+        },
+        "content_transliterated": "koi rog jivat avavana sanket dekhay che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં pest prediction મુજબ, નીચેના જીવાતો આવવાના સંકેત છે:\n\n1. **એફિડ્સ (Aphids)**: 83% સંભાવના, **HIGH** જોખમ\n2. **થ્રિપ્સ (Thrips)**: 67.8% સંભાવના, **MEDIUM** જોખમ\n3. **બિહાર હેરિ કેટરપિલર (Bihar Hairy Caterpillar)**: 33.4% સંભાવના, **LOW** જોખમ\n4. **પાન ખાવા વાળા કેટરપિલર (Leaf Eating Caterpillar)**: 84.6% સંભાવના, **HIGH** જોખમ\n\nઆ સંકેતોને ધ્યાનમાં રાખીને, તમારે તાત્કાલિક પગલાં લેવા જોઈએ.",
+        "en": "According to the pest prediction in your farm, the following insects are indicative of arrival:\n\n1. **Aphids (Aphids)**: 83% probability, **HIGH** risk\n2. **Thrips (Thrips)**: 67.8% probability, **MEDIUM** risk\n3. **Bihar Harry Caterpillar (Bihar Hairy Caterpillar)**: 33.4% probability, **LOW** Risk\n4. **Leaf Eating Caterpillar)**: 84.6% chance, **HIGH** risk\n\nIn view of these signs, you should take immediate action.",
+        "timestamp": {
+          "$date": "2025-03-20T03:12:16.773Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખેતરમા ભેજનુ પ્રમાણ કેટલુ છે",
+        "en": "What is the moisture content in my farm",
+        "timestamp": {
+          "$date": "2025-03-20T03:14:15.157Z"
+        },
+        "standalone_question": "What is the moisture level in my field?",
+        "standalone_en": "What is the moisture level in my field?",
+        "retrieval": {
+          "tools": [
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range.",
+            "get_soil_moisture_sensor_depth  \nReturns the depths in inches of the soil moisture sensors 1 and 2 installed on the plots.",
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: What should I do if the soil moisture sensor always shows wet values?\nA: Verify the irrigation frequency, check the installation point, and contact Fyllo representative if the issue persists.",
+            "Q: What is my soil moisture depletion?\nA: Soil moisture depletion %age = (100 - soil moisture %age)",
+            "Q: How do I know if my soil  moisture sensor is working fine ?\nA: The only way to know is if after irrigation the sensor is dropping below 5 kpa and increasing continuously unless next irrigation is done. You can try putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. Also, a soil moisture reading of 0 kPa is perfectly fine, meaning wet soil, but a reading of 200 kPa could mean fault. If the soil moisture sensor reading is consistently at 0 from few 48 hours, then it could be anamolous (use live and historical hourly soil moisture data (use tool) to validate).",
+            "Q: What should I do if the soil moisture sensor values fluctuate?\nA: Ensure the sensor is installed properly in the soil, check for air bubbles, and contact Fyllo representative if the issue persists.",
+            "Q: The moisture (kpa) is increasing slowly recently.\nA: Need to check for current stage and evapotranspiration rate. If the crop is recently sown or pruning (छंटाई)  is done recently, the transpiration will be slow and moisture kpa will increase slowly. If evaporation is slow or temperature have dropped on rainfall has happened, it will increase slowly. The chatbot needs to check the temperature , rainfall and crop stage data. And advise if there is any reason for the slow increase.\nIf still there is some confusion, the chatbot needs to ask user to check moisture around the sensor by digging and then ask  the user if he wants to create an issue ticket for the same."
+          ]
+        },
+        "content_transliterated": "mara khetarama bhejanu praman ketlu che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં ભેજનું પ્રમાણ નીચે મુજબ છે:\n\n- **મોઇસ્ટર 1**: 45%\n- **મોઇસ્ટર 2**: 61%\n\nઆ ભેજના પ્રમાણ મુજબ, જમીનનું ભેજ યોગ્ય છે.",
+        "en": "The moisture content in your farm is as follows:\n\n* **Moisture 1**: 45%\n* **Moisture 2**: 61%\n\nAccording to this moisture content, soil moisture is appropriate.",
+        "timestamp": {
+          "$date": "2025-03-20T03:14:20.715Z"
+        }
+      }
+    ],
+    "farmer_id": "tejabhaihemabhaipatel",
+    "farmer_plot_ids": [
+      "abavaloplot"
+    ],
+    "conversation_id": "67db8753e149d9c8e72f5b4c",
+    "_id": "67db8753e149d9c8e72f5b4c",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-20T03:19:15.167000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-03-20T03:11:15.455000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hello ",
+        "en": "Hello ",
+        "timestamp": {
+          "$date": "2025-03-20T02:23:46.696Z"
+        },
+        "standalone_question": "What would you like to talk about today?",
+        "standalone_en": "What would you like to talk about today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "નમસ્તે, મકિંભાઈ! કેવી રીતે છો? હું તમારી ખેતીમાં મદદ કરવા માટે અહીં છું. શું તમને કોઈ ખાસ માહિતી જોઈએ છે?",
+        "en": "Namaste, Makinbhai! How are you? I'm here to help you with your farming. Do you want any specific information?",
+        "timestamp": {
+          "$date": "2025-03-20T02:23:49.241Z"
+        }
+      }
+    ],
+    "farmer_id": "makimbhai",
+    "farmer_plot_ids": [
+      "plot1373"
+    ],
+    "conversation_id": "67db7c32758a9ec4a524eafb",
+    "_id": "67db7c32758a9ec4a524eafb",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-20T02:28:46.705000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-03-20T02:23:46.696000+00:00"
+  }
+]

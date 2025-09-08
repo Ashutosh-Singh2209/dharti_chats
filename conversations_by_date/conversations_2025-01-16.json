@@ -1,0 +1,345 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "दोन सेन्सर मध्ये डबल अंतर पडत आहे ",
+        "en": "There is a double gap between the two sensors ",
+        "timestamp": {
+          "$date": "2025-01-16T12:53:05.919Z"
+        },
+        "standalone_question": "There is a double gap between the two sensors.",
+        "standalone_en": "There is a double gap between the two sensors.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "don sensor madhye double antar padat aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "सेन्सरमधील डबल अंतर म्हणजे एक सेन्सर कमी किव्हा जास्त किव्हा वेगवेगळ्या ठिकाणी असू शकतो. कृपया सेन्सरच्या स्थानाची तपासणी करा आणि त्यांना योग्य ठिकाणी स्थापित केले आहे का ते पाहा. \n\nतुमच्या प्लॉटमध्ये मातीच्या आर्द्रतेची स्थिती तपासण्यासाठी, तुम्ही मातीच्या आर्द्रतेच्या वाचनांची तुलना करू शकता. जर वाचनांमध्ये मोठा फरक असेल, तर तुम्हाला सेन्सरची स्थिती किंवा कार्यक्षमता तपासण्याची आवश्यकता असू शकते. \n\nतुम्हाला अधिक मदतीची आवश्यकता असल्यास, कृपया मला सांगा.",
+        "en": "A double distance between sensors means that one sensor can be less or more or different. Please check the location of the sensors and see if they are installed in the right place. \n\nTo check the soil moisture status in your plot, you can compare soil moisture readings. If there is a large difference in readings, you may need to check the position or performance of the sensor. \n\nIf you need more help, please let me know.",
+        "timestamp": {
+          "$date": "2025-01-16T12:53:09.930Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "हो<user uploaded image for analysis at 'thompson1jagdambfarm/2025-01-16-1737031985555.jpg'>",
+        "en": "Ho<user uploaded image for analysis at 'thompson1jagdambfarm/2025-01-16-1737031985555.jpg'>",
+        "timestamp": {
+          "$date": "2025-01-16T12:53:51.401Z"
+        },
+        "standalone_question": "Could you please analyze the uploaded image?",
+        "standalone_en": "Could you please analyze the uploaded image?",
+        "retrieval": {
+          "tools": [
+            "analyse_crop_image  \nGets the analysis of the uploaded crop image for any diseases or pests."
+          ],
+          "faq": []
+        },
+        "content_transliterated": "ho<user uploaded image for analysis at 'thompson1jagdambfarm/2025-01-16-1737031985555.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या दिलेल्या चित्रात मातीच्या अहवालाचे तपशील आहेत:\n\n- **आर्द्रता स्तर (माती 1)**: 34 (KPa)\n- **आर्द्रता स्तर (माती 2)**: 17 (KPa)\n- **तापमान**: 27.03 °C\n- **आर्द्रता**: 56.25 %\n\nजर तुम्हाला याबद्दल काही विशिष्ट प्रश्न असतील किंवा अधिक विश्लेषणाची आवश्यकता असेल, तर कृपया सांगा!",
+        "en": "Your given picture contains details of the soil report:\n\n- **Moisture level (soil 1)**:*: 34 (KPa)\n- **Moisture level (soil 2)**: 17 (KPa)\n- **Temperature**: 27.03 °C\n- **Humidity**: 56.25%\n\nIf you have any specific questions about this or need more analysis, please let me know!",
+        "timestamp": {
+          "$date": "2025-01-16T12:54:02.420Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "हो",
+        "en": "be",
+        "timestamp": {
+          "$date": "2025-01-16T12:54:23.717Z"
+        },
+        "standalone_question": "Is there anything specific you would like to know or discuss regarding the soil moisture report?",
+        "standalone_en": "Is there anything specific you would like to know or discuss regarding the soil moisture report?",
+        "retrieval": {
+          "tools": [
+            "get_daily_soil_moisture_data  \nRetrieves historical daily soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for larger duration.",
+            "get_hourly_soil_moisture_data  \nRetrieves historical hourly soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for less than 5 days duration.",
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today.",
+            "get_soil_moisture_sensor_depth  \nReturns the depths in inches of the soil moisture sensors 1 and 2 installed on the plots.",
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range."
+          ],
+          "faq": [
+            "Q: How do I know if my soil  moisture sensor is working fine ?\nA: The only way to know is if after irrigation the sensor is dropping below 5 kpa and increasing continuously unless next irrigation is done. You can try putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. Also, a soil moisture reading of 0 kPa is perfectly fine, meaning wet soil, but a reading of 200 kPa could mean fault. If the soil moisture sensor reading is consistently at 0 from few 48 hours, then it could be anamolous (use live and historical hourly soil moisture data (use tool) to validate).",
+            "Q: What should I do if I can't find the fertigation schedule after selecting the fertigation tab?\nA: If you don't see the fertigation schedule, you'll need to create a report first. Would you like assistance in creating a report? Do you have any soil, leaf, or petiole test data available? If not, we can generate a basic schedule for you using general crop and regional data.",
+            "Q: What should I do if the soil moisture sensor always shows wet values?\nA: Verify the irrigation frequency, check the installation point, and contact Fyllo representative if the issue persists.",
+            "Q: What should I do if the soil moisture sensor values fluctuate?\nA: Ensure the sensor is installed properly in the soil, check for air bubbles, and contact Fyllo representative if the issue persists.",
+            "Q: The moisture (kpa) is increasing slowly recently.\nA: Need to check for current stage and evapotranspiration rate. If the crop is recently sown or pruning (छंटाई)  is done recently, the transpiration will be slow and moisture kpa will increase slowly. If evaporation is slow or temperature have dropped on rainfall has happened, it will increase slowly. The chatbot needs to check the temperature , rainfall and crop stage data. And advise if there is any reason for the slow increase.\nIf still there is some confusion, the chatbot needs to ask user to check moisture around the sensor by digging and then ask  the user if he wants to create an issue ticket for the same."
+          ]
+        },
+        "content_transliterated": "ho"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या सेन्सरच्या वाचनांमध्ये डबल अंतर असल्यास, तुम्हाला खालील गोष्टी तपासण्याची आवश्यकता आहे:\n\n1. **सेन्सरची स्थिती**: सेन्सर योग्य प्रकारे स्थापित आहे का ते तपासा. ते मातीच्या योग्य खोलीत असावे लागते.\n2. **वाचनांची तुलना**: मातीच्या आर्द्रतेच्या वाचनांची तुलना करा. जर एक सेन्सर कमी वाचन देत असेल तर ते कार्यरत नसू शकते.\n3. **आर्द्रता तपासणी**: सेन्सरच्या वाचनानुसार आर्द्रता स्तर तपासा. जर वाचन 0 KPa असेल, तर ते सामान्य आहे, परंतु 200 KPa वाचन असणे म्हणजे ते दोषपूर्ण असू शकते.\n4. **पाण्याचा प्रयोग**: सेन्सरवर थोडे पाणी टाका आणि वाचन कसे बदलते ते पहा. \n\nजर तुम्हाला अजून काही मदतीची आवश्यकता असेल, तर कृपया सांगा!",
+        "en": "If there is a double gap in your sensor's readings, you need to check the following:\n\n1. **Position of the sensor**: Check that the sensor is properly installed. It has to be in the right depth of soil.\n2. **Compare readings**: Compare soil moisture readings. If a sensor gives low reading, it may not work.\n3. **Humidity check**: Check humidity level according to the reading of the sensor. If the reading is 0 KPa, it's normal, but having a 200 KPa reading means it can be defective.\n4. **Water experiment**: Put some water on the sensor and see how the reading changes. \n\nIf you need any more help, please let me know!",
+        "timestamp": {
+          "$date": "2025-01-16T12:54:29.330Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "आधी अशि अडचण येत नव्हती ",
+        "en": "It wasn't a problem at first. ",
+        "timestamp": {
+          "$date": "2025-01-16T12:55:22.685Z"
+        },
+        "standalone_question": "Why was there no such issue before?",
+        "standalone_en": "Why was there no such issue before?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "aadhi ashi adachan yet navhati "
+      },
+      {
+        "role": "assistant",
+        "content": "जर तुम्हाला पूर्वी अशा अडचणी येत नव्हत्या, तर काही कारणे असू शकतात:\n\n1. **सेन्सरची कार्यक्षमता**: सेन्सरमध्ये काही तांत्रिक समस्या असू शकतात. ते तपासण्याची आवश्यकता आहे.\n2. **मौसमी बदल**: हवामानातील बदल किंवा पाण्याची उपलब्धता यामुळे मातीच्या आर्द्रतेवर परिणाम होऊ शकतो.\n3. **स्थापना किंवा कनेक्शन**: सेन्सरच्या कनेक्शनमध्ये काही समस्या असू शकतात. ते तपासणे आवश्यक आहे.\n4. **सॉफ्टवेअर अपडेट**: कधी कधी सॉफ्टवेअर अपडेटमुळेही समस्या येऊ शकतात. \n\nतुम्हाला या समस्येवर उपाय शोधण्यासाठी अधिक मदतीची आवश्यकता असल्यास, कृपया मला सांगा.",
+        "en": "If you haven't had these problems in the past, there may be a few reasons:\n\n1. **Efficiency of the sensor**: The sensor may have some technical problems. It needs to be checked.\n2. **Seasonal change**: Climate change or availability of water can affect soil moisture.\n3. **Installation or connection**: There may be some problems with the connection of the sensor. It needs to be checked.\n4. **Software update**: Sometimes even software updates can cause problems. \n\nIf you need more help finding a solution to this problem, please let me know.",
+        "timestamp": {
+          "$date": "2025-01-16T12:55:28.842Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "मदत हवी आहे ",
+        "en": "Need help ",
+        "timestamp": {
+          "$date": "2025-01-16T12:56:22.701Z"
+        },
+        "standalone_question": "I need help.",
+        "standalone_en": "I need help.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "madat havi aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "तुम्हाला कोणत्या विशिष्ट गोष्टीसाठी मदतीची आवश्यकता आहे? कृपया तुमच्या समस्येचे तपशील सांगा, जेणेकरून मी तुम्हाला योग्य मार्गदर्शन करू शकेन.",
+        "en": "What specific thing do you need help with? Please tell me the details of your problem, so that I can guide you properly.",
+        "timestamp": {
+          "$date": "2025-01-16T12:56:26.783Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "सेन्सर सेट करृन द्या ",
+        "en": "Set up sensors ",
+        "timestamp": {
+          "$date": "2025-01-16T12:57:56.235Z"
+        },
+        "standalone_question": "Can you help me set up the sensor?",
+        "standalone_en": "Can you help me set up the sensor?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How do I set up the sensors for Nero?\nA: Install the sensors according to the guidelines in the manual, ensuring they are placed correctly in the soil.",
+            "Q: How do I set up sensors for Kairo?\nA: Place soil moisture sensors in water for about 30 minutes before starting the device.",
+            "Q: How do I connect the sensors to the Kairo device?\nA: Connect the sensors to their respective connectors as indicated in the manual."
+          ]
+        },
+        "content_transliterated": "censor set karrin dya "
+      },
+      {
+        "role": "assistant",
+        "content": "सेन्सर सेट करण्यासाठी खालील चरणांचे पालन करा:\n\n1. **सेन्सरची स्थापना**:\n   - सेन्सर मातीच्या योग्य खोलीत ठेवा. सामान्यतः, ते 6-12 इंच खोलीत असावे.\n   - सेन्सर एकसारख्या अंतरावर ठेवा, म्हणजे मातीच्या आर्द्रतेचे अचूक वाचन मिळेल.\n\n2. **कनेक्शन**:\n   - सेन्सरच्या कनेक्टरला योग्य प्रकारे कनेक्ट करा. कनेक्टर योग्य ठिकाणी बसवले आहे का ते तपासा.\n\n3. **पाण्यात भिजवणे** (जर आवश्यक असेल):\n   - काही सेन्सर्स, जसे की Kairo, पाण्यात 30 मिनिटे भिजवून ठेवावे लागतात. \n\n4. **सॉफ्टवेअर सेटिंग**:\n   - तुमच्या डिव्हाइसवर सॉफ्टवेअर सेटिंग्ज तपासा आणि सेन्सर जोडले आहेत का ते पाहा.\n\n5. **चाचणी**:\n   - सर्व काही सेट केल्यानंतर, सेन्सरचे वाचन तपासा. वाचन सामान्य असल्यास, तुम्ही पुढे जाऊ शकता.\n\nजर तुम्हाला कोणत्याही विशिष्ट समस्येसाठी मदतीची आवश्यकता असेल, तर कृपया सांगा!",
+        "en": "Follow the steps below to set up the sensor:\n\n1. **Installation of sensors**:\n   - Place the sensor in the correct soil depth. Typically, it should be in a depth of 6–12 inches.\n   - Keep the sensors at the same distance, so that you get an accurate reading of the soil moisture.\n\n2. **Connection**:\n   - Properly connect the sensor's connector. Check that the connector is installed in the right place.\n\n3. **Soaking in water** (if necessary):\n   Some sensors, such as kairo, have to be soaked in water for 30 minutes. \n\n4. **Software Setting**:\n   Check software settings on your device and see if sensors are connected.\n\n5. **Test**:\n   After setting everything up, check the sensor's reading. If reading is normal, you can proceed.\n\nIf you need help with any specific issues, please let me know!",
+        "timestamp": {
+          "$date": "2025-01-16T12:58:03.548Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "व्हिजीटला पाठवा",
+        "en": "Send to the Visitor",
+        "timestamp": {
+          "$date": "2025-01-16T12:59:36.247Z"
+        },
+        "standalone_question": "Can you send someone for a visit?",
+        "standalone_en": "Can you send someone for a visit?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Send the experts tomorrow. Yes send. Send to visit. Send the visitor to farm/plot visit.  \nA: To schedule a visit, please raise a maintenance ticket in the app or reach out to the our team for further assistance. Do you want me to raise a support ticket for you?"
+          ]
+        },
+        "content_transliterated": "vhijitala pathava"
+      },
+      {
+        "role": "assistant",
+        "content": "मी तुमच्या प्लॉटसाठी (Thompson 1) सेन्सर सेटिंग्ज तपासल्या आहेत. खालील माहिती आहे:\n\n- **मूळ रुंदी**: 65 इंच\n- **मूळ खोली**: 15 इंच\n- **मातीची धारणा**: 170 मिमी\n- **ड्रिपर अंतर**: 1 मिमी\n- **ड्रिपर डिस्चार्ज**: 2 लिटर\n\nतुमच्या प्लॉटवर तज्ञाला पाठवण्यासाठी, कृपया तुमच्या स्थानाची माहिती आणि कोणत्या विशिष्ट समस्येसाठी तज्ञाला पाठवायचे आहे ते सांगा.",
+        "en": "I've checked the sensor settings for your plot (Thompson 1). The following information is:\n\n- **Original width**: 65 inches\n- **Original room**: 15 inches\n- **Soil perception**: 170 mm\n- **Dripper distance**: 1 mm\n- **Draper discharge**: 2 liters\n\nTo send an expert to your plot, please tell us your location information and what specific problem you want to send to the expert for.",
+        "timestamp": {
+          "$date": "2025-01-16T12:59:42.248Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "दोन सेन्सर मध्ये डबल अंतर पडत आहे.                                  तिसगाव ",
+        "en": "There is a double gap between the two sensors.                                  Tisgaon ",
+        "timestamp": {
+          "$date": "2025-01-16T13:01:02.964Z"
+        },
+        "standalone_question": "Could you please send an expert to Tisgaon to check the issue of the double distance between the two sensors?",
+        "standalone_en": "Could you please send an expert to Tisgaon to check the issue of the double distance between the two sensors?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "don sensor madhye double antar padat aahe.                                  tisgaon "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटमध्ये (Thompson 1) दोन सेन्सरची खोली खालीलप्रमाणे आहे:\n\n- **सेन्सर 1**: 9 इंच\n- **सेन्सर 2**: 13 इंच\n\nया दोन्ही सेन्सरच्या खोलीत फरक असल्यामुळे, मातीच्या आर्द्रतेच्या वाचनांमध्ये डबल अंतर येऊ शकते. \n\nतुम्हाला सेन्सरच्या स्थितीची तपासणी करणे आवश्यक आहे. सेन्सर 1 कमी खोलीत असल्यामुळे, त्याला जलस्रोताच्या जवळ असण्याची शक्यता आहे, तर सेन्सर 2 अधिक खोलीत असल्यामुळे त्याला अधिक आर्द्रता मिळत नाही.\n\nतुम्हाला तज्ञाला पाठवायचे असल्यास, कृपया सांगा.",
+        "en": "The depth of the two sensors in your plot (Thompson 1) is as follows:\n\n- **Sensor 1**: 9 inches\n- **Sensor 2**: 13 inches\n\nBecause of the difference in depth of these two sensors, there may be a double difference in soil moisture readings. \n\nYou need to check the position of the sensor. Since sensor 1 is at a lower depth, it is likely to be close to the water source, while because sensor 2 is at a higher depth, it does not get much moisture.\n\nIf you would like to send a specialist, please let me know.",
+        "timestamp": {
+          "$date": "2025-01-16T13:01:11.500Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "हो पाठवा ",
+        "en": "Yes send ",
+        "timestamp": {
+          "$date": "2025-01-16T13:01:54.675Z"
+        },
+        "standalone_question": "Could you please send an expert to the location in Tisgaon to check the sensors?",
+        "standalone_en": "Could you please send an expert to the location in Tisgaon to check the sensors?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Send the experts tomorrow. Yes send. Send to visit. Send the visitor to farm/plot visit.  \nA: To schedule a visit, please raise a maintenance ticket in the app or reach out to the our team for further assistance. Do you want me to raise a support ticket for you?"
+          ]
+        },
+        "content_transliterated": "how pathava "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटवर (Thompson 1) तज्ञाला पाठवण्यासाठी खालील माहिती आहे:\n\n- **प्लॉटचे नाव**: Thompson 1\n- **स्थान**: तिसगाव, चांदवड, नाशिक, महाराष्ट्र\n- **मूळ रुंदी**: 65 इंच\n- **मूळ खोली**: 15 इंच\n- **मातीची धारणा**: 170 मिमी\n- **ड्रिपर अंतर**: 1 मिमी\n- **ड्रिपर डिस्चार्ज**: 2 लिटर\n\nतज्ञाला तुमच्या प्लॉटवर पाठवले जाईल. ते तुमच्या सेन्सरच्या समस्येची तपासणी करतील. \n\nतुम्हाला आणखी काही मदतीची आवश्यकता असल्यास, कृपया सांगा!",
+        "en": "To send to an expert on your plot (Thompson 1), there is the following information:\n\n- **Plot name**: Thompson 1\n- **Location**: Tisgaon, Chandwad, Nashik, Maharashtra\n- **Original width**: 65 inches\n- **Original room**: 15 inches\n- **Soil perception**: 170 mm\n- **Dripper distance**: 1 mm\n- **Draper discharge**: 2 liters\n\nThe expert will be sent to your plot. They'll check for your sensor problem. \n\nIf you need any more help, please let me know!",
+        "timestamp": {
+          "$date": "2025-01-16T13:02:02.006Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "उद्या पाणी द्यायचे आहे उद्या पाठवले तर बरं होईल ",
+        "en": "I want to give water tomorrow and it will be better if it is sent tomorrow. ",
+        "timestamp": {
+          "$date": "2025-01-16T13:04:12.725Z"
+        },
+        "standalone_question": "Can you send the expert tomorrow since I need to water the plants?",
+        "standalone_en": "Can you send the expert tomorrow since I need to water the plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Send the experts tomorrow. Yes send. Send to visit. Send the visitor to farm/plot visit.  \nA: To schedule a visit, please raise a maintenance ticket in the app or reach out to the our team for further assistance. Do you want me to raise a support ticket for you?"
+          ]
+        },
+        "content_transliterated": "udya pani dyayache aahe udya pathavale tar barn hoil "
+      },
+      {
+        "role": "assistant",
+        "content": "उद्या (17 जानेवारी 2025) तुमच्या प्लॉटवर (Thompson 1) पाणी देण्याची आवश्यकता नाही. सेन्सरच्या वाचनानुसार, आर्द्रता स्तर योग्य आहे.\n\nजर तुम्हाला आणखी काही मदतीची आवश्यकता असेल, तर कृपया सांगा!",
+        "en": "There is no need to water your plot (Thompson 1) tomorrow (January 17, 2025). According to the reading of the sensor, the humidity level is correct.\n\nIf you need any more help, please let me know!",
+        "timestamp": {
+          "$date": "2025-01-16T13:04:25.394Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "आदि ८ दिवशी पाणी जायचं    उद्या १३वा दिवस आहे ",
+        "en": "Water will go on 8 days tomorrow is the 13th day ",
+        "timestamp": {
+          "$date": "2025-01-16T13:06:29.284Z"
+        },
+        "standalone_question": "Is it correct that water needs to be given every 8 days, and tomorrow will be the 13th day?",
+        "standalone_en": "Is it correct that water needs to be given every 8 days, and tomorrow will be the 13th day?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": []
+        },
+        "content_transliterated": "aadi 8 divashi pani jaayachn udya va divas aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "उद्या (17 जानेवारी 2025) तुमच्या प्लॉटवर (Thompson 1) पाणी देण्याची आवश्यकता नाही. सेन्सरच्या वाचनानुसार, आर्द्रता स्तर योग्य आहे.\n\nतुम्हाला 8 दिवसांनी पाणी द्यायचे असल्यास, कृपया त्या दिवशी पुन्हा तपासा. जर तुम्हाला आणखी काही मदतीची आवश्यकता असेल, तर कृपया सांगा!",
+        "en": "There is no need to water your plot (Thompson 1) tomorrow (January 17, 2025). According to the reading of the sensor, the humidity level is correct.\n\nIf you want to water after 8 days, please check again that day. If you need any more help, please let me know!",
+        "timestamp": {
+          "$date": "2025-01-16T13:06:44.224Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "उद्या तज्ञांना पाठवा ",
+        "en": "Send to the experts tomorrow ",
+        "timestamp": {
+          "$date": "2025-01-16T13:08:06.877Z"
+        },
+        "standalone_question": "Could you please send the experts tomorrow?",
+        "standalone_en": "Could you please send the experts tomorrow?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Send the experts tomorrow. Yes send. Send to visit. Send the visitor to farm/plot visit.  \nA: To schedule a visit, please raise a maintenance ticket in the app or reach out to the our team for further assistance. Do you want me to raise a support ticket for you?"
+          ]
+        },
+        "content_transliterated": "udya tajnanna pathava "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटवर (Thompson 1) तज्ञांना उद्या (17 जानेवारी 2025) पाठवले जाईल. ते तुमच्या सेन्सरच्या समस्येची तपासणी करतील आणि आवश्यकतेनुसार मदत करतील.\n\nतुम्हाला आणखी काही मदतीची आवश्यकता असल्यास, कृपया सांगा!",
+        "en": "Experts will be sent to your plot (Thompson 1) tomorrow (January 17, 2025). They will check your sensor issues and help as needed.\n\nIf you need any more help, please let me know!",
+        "timestamp": {
+          "$date": "2025-01-16T13:08:14.603Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "धन्यवाद ",
+        "en": "thank you ",
+        "timestamp": {
+          "$date": "2025-01-16T13:08:32.281Z"
+        },
+        "standalone_question": "Thank you!",
+        "standalone_en": "Thank you!",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "dhanyavad "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमचे स्वागत आहे! तुम्हाला आणखी काही मदतीची आवश्यकता असल्यास, कृपया सांगा. तुमच्या शेतीसाठी शुभेच्छा!",
+        "en": "Welcome! If you need any more help, please let me know. Good luck with your farm!",
+        "timestamp": {
+          "$date": "2025-01-16T13:08:35.479Z"
+        }
+      }
+    ],
+    "farmer_id": "mangeshduphade",
+    "farmer_plot_ids": [
+      "thompson1jagdambfarm"
+    ],
+    "conversation_id": "678901314be8c07d00d366db",
+    "_id": "678901314be8c07d00d366db",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-01-16T13:13:32.291000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-01-16T12:53:05.919000+00:00"
+  }
+]

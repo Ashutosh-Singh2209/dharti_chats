@@ -1,0 +1,238 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Whitefly",
+        "en": "Whitefly",
+        "timestamp": {
+          "$date": "2025-02-08T03:52:36.558Z"
+        },
+        "standalone_question": "What is a whitefly?",
+        "standalone_en": "What is a whitefly?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Whiteflies are small, sap-sucking insects that can cause significant damage to crops, including pomegranates. They can lead to yellowing of leaves, stunted growth, and can also transmit diseases.\n\n**Control Measures:**\n1. **Insecticidal Soap:** Use insecticidal soap or neem oil to control whitefly populations.\n2. **Yellow Sticky Traps:** Place yellow sticky traps around the field to catch adult whiteflies.\n3. **Natural Predators:** Introduce natural predators like ladybugs or lacewings that feed on whiteflies.\n4. **Regular Monitoring:** Keep an eye on the crop for early signs of infestation and act promptly.\n\nIf you need specific pest prediction metrics for whiteflies in your plots, please let me know!",
+        "en": "Whiteflies are small, sap-sucking insects that can cause significant damage to crops, including pomegranates. They can lead to yellowing of leaves, stunted growth, and can also transmit diseases.\n\n**Control Measures:**\n1. **Insecticidal Soap:** Use insecticidal soap or neem oil to control whitefly populations.\n2. **Yellow Sticky Traps:** Place yellow sticky traps around the field to catch adult whiteflies.\n3. **Natural Predators:** Introduce natural predators like ladybugs or lacewings that feed on whiteflies.\n4. **Regular Monitoring:** Keep an eye on the crop for early signs of infestation and act promptly.\n\nIf you need specific pest prediction metrics for whiteflies in your plots, please let me know!",
+        "timestamp": {
+          "$date": "2025-02-08T03:52:41.586Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Pest prediction metrics for whiteflies ",
+        "en": "Pest prediction metrics for whiteflies ",
+        "timestamp": {
+          "$date": "2025-02-08T03:54:49.564Z"
+        },
+        "standalone_question": "What are the pest prediction metrics for whiteflies?",
+        "standalone_en": "What are the pest prediction metrics for whiteflies?",
+        "retrieval": {
+          "tools": [
+            "get_historical_pest_prediction_metrics  \nReturns the historical daily crop pest prediction metrics for the given pests, checking all dependent parameters inherently.",
+            "get_historical_disease_prediction_metrics  \nReturns the historical daily crop disease prediction metrics for the given diseases, checking all dependent parameters inherently."
+          ],
+          "faq": [
+            "Q: What is the pest prediction?\nA: Check the all pest predictions relevant. We support Aphids, Banana aphids, Bihar hairy caterpillar, Broad mites, Brown plant hopper, Capsule borer, Caterpillar,\n   Citrus Psylla, Cut worm, Early shoot borer, European red mites, Flat mites, Flea Beetle, Flea beetle, Fruit Borer,\n   Fruit Fly, Fruit borer, Fruit fly, Green aphids, Hispa beetle, Jassids, Leaf eating caterpillar, Leaf folder, Leaf miner,\n   Leaf roller, Mango hopper, Mealy Bug, Mealy bug, Mealybug, Mites, Perianth mites, Pin worm, Pink bollworm,\n   Pseudostem weevil, Red Spider Mites, Red palm weevil, Red spider mites, Rhinoceros beetle, Rhizome weevil, Root Grubs,\n   Root knot nematode, Rugose spiraling whitefly, Rust mites, Rust thrips, Scale Insects, Scale insects, Scarring beetle,\n   Shoot borer, Skipper, Spiraling whitefly, Spodoptera, Stem Borer, Stem borer, Striped beetle, Striped cucumber beetle,\n   Tea Mosquitto Bug, Tea mosquitto bug, Termite, Thrips, White Fly, White fly, Whitefly, and Wooly aphids.",
+            "Q: What pests predictions does fyllo support?\nA: Fyllo supports the following pests:\n   Aphids, Banana aphids, Bihar hairy caterpillar, Broad mites, Brown plant hopper, Capsule borer, Caterpillar,\n   Citrus Psylla, Cut worm, Early shoot borer, European red mites, Flat mites, Flea Beetle, Flea beetle, Fruit Borer,\n   Fruit Fly, Fruit borer, Fruit fly, Green aphids, Hispa beetle, Jassids, Leaf eating caterpillar, Leaf folder, Leaf miner,\n   Leaf roller, Mango hopper, Mealy Bug, Mealy bug, Mealybug, Mites, Perianth mites, Pin worm, Pink bollworm,\n   Pseudostem weevil, Red Spider Mites, Red palm weevil, Red spider mites, Rhinoceros beetle, Rhizome weevil, Root Grubs,\n   Root knot nematode, Rugose spiraling whitefly, Rust mites, Rust thrips, Scale Insects, Scale insects, Scarring beetle,\n   Shoot borer, Skipper, Spiraling whitefly, Spodoptera, Stem Borer, Stem borer, Striped beetle, Striped cucumber beetle,\n   Tea Mosquitto Bug, Tea mosquitto bug, Termite, Thrips, White Fly, White fly, Whitefly, and Wooly aphids.",
+            "Q: How much is the Fyllo accuracy of disease, and pest prediction & irrigation?\nA: Our agronomical algorithms and insights have an accuracy of 95%."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Unfortunately, pest prediction metrics for whiteflies are not available for both of your plots, Bharathi farm and Bharathi farm 2. \n\nIt's important to regularly monitor your crops for any signs of whitefly infestation and take preventive measures as needed. If you have any other questions or need assistance with pest control strategies, feel free to ask!",
+        "en": "Unfortunately, pest prediction metrics for whiteflies are not available for both of your plots, Bharathi farm and Bharathi farm 2. \n\nIt's important to regularly monitor your crops for any signs of whitefly infestation and take preventive measures as needed. If you have any other questions or need assistance with pest control strategies, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-02-08T03:54:55.958Z"
+        }
+      }
+    ],
+    "farmer_id": "nbharathi",
+    "farmer_plot_ids": [
+      "bharathifarm",
+      "bharathifarm2"
+    ],
+    "conversation_id": "67a6d5048cbbe215bae642cf",
+    "_id": "67a6d5048cbbe215bae642cf",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-02-08T03:59:49.572000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-02-08T03:52:36.558000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पाने व शेडा करमतात <user uploaded image for analysis at 'arra35779/2025-02-08-1738984810510.jpeg'>",
+        "en": "Leaves and leaves <user uploaded image for analysis at 'arra35779/2025-02-08-1738984810510.jpeg'>",
+        "timestamp": {
+          "$date": "2025-02-08T03:21:50.452Z"
+        },
+        "standalone_question": "What do the images depict?",
+        "standalone_en": "What do the images depict?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pane v sheda karamatat <user uploaded image for analysis at 'arra35779/2025-02-08-1738984810510.jpeg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या चित्रात दाखवलेले वेलदोडे (ग्रेपवाइन) तरुण आहेत. पानांची स्थिती चांगली आहे, आणि कोणत्याही रोग किंवा कीडांचे लक्षण दिसत नाही. तथापि, वाढीच्या प्रारंभिक टप्प्यात असल्याने, सामान्य कीड आणि रोगांवर लक्ष ठेवणे महत्त्वाचे आहे.\n\nसध्या कोणतीही तात्काळ कारवाई आवश्यक नाही, परंतु नियमितपणे निरीक्षण करणे शिफारसीय आहे. जर तुम्हाला पानांच्या रंगात, वाळण्यामध्ये, किंवा असामान्य ठिपक्यांमध्ये कोणतेही बदल दिसले, तर कृपया त्या भागांवर लक्ष केंद्रित करून स्पष्ट चित्र प्रदान करा.",
+        "en": "The grapevines shown in your picture are young. The leaves are in good condition, and show no signs of any disease or pests. However, since it is in the early stages of growth, it is important to monitor common pests and diseases.\n\nNo immediate action is currently necessary, but regular monitoring is recommended. If you notice any changes in leaf color, drying, or abnormal patches, please provide a clear picture by focusing on those areas.",
+        "timestamp": {
+          "$date": "2025-02-08T03:22:16.595Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "आशीपन झाडे आहेत<user uploaded image for analysis at 'arra35779/2025-02-08-1738984995904.jpeg'>",
+        "en": "There are ashpan trees<user uploaded image for analysis at 'arra35779/2025-02-08-1738984995904.jpeg'>",
+        "timestamp": {
+          "$date": "2025-02-08T03:24:21.343Z"
+        },
+        "standalone_question": "Are these plants healthy?",
+        "standalone_en": "Are these plants healthy?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "asheepan jhade ahet<user uploaded image for analysis at 'arra35779/2025-02-08-1738984995904.jpeg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या चित्रात दाखवलेले आशीपन झाडे (ग्रेपवाइन) चांगल्या स्थितीत आहेत, परंतु सध्या कोणत्याही विशिष्ट स्प्रेची शिफारस नाही. \n\nतुम्हाला झाडांच्या पानांमध्ये वळण, रंग बदल, किंवा कीडांची उपस्थिती यासारख्या कोणत्याही लक्षणांवर लक्ष ठेवणे महत्त्वाचे आहे. जर लक्षणे वाढली, तर स्थानिक कृषी तज्ञांशी संपर्क साधा.\n\nसध्या, झाडांची योग्य काळजी घेणे, जसे की पुरेशी पाणी आणि पोषण व्यवस्थापन, हे महत्त्वाचे आहे. जर तुम्ही पुढील वेळी स्पष्ट चित्र प्रदान करू शकत असाल, तर मी अधिक मदत करू शकतो.",
+        "en": "The grapevine shown in your picture is in good condition, but no specific spray is currently recommended. \n\nIt's important that you monitor for any symptoms, such as turning, color changes, or the presence of insects in the leaves of the plant. If symptoms worsen, contact a local agricultural expert.\n\nCurrently, proper care of the plants, such as adequate water and nutrition management, is important. If you can provide a clearer picture next time, I can help more.",
+        "timestamp": {
+          "$date": "2025-02-08T03:24:49.650Z"
+        }
+      }
+    ],
+    "farmer_id": "pradippatil",
+    "farmer_plot_ids": [
+      "arra35779",
+      "ghorpadepatti",
+      "potcanal",
+      "supergra"
+    ],
+    "conversation_id": "67a6cdcef920e27e1247c424",
+    "_id": "67a6cdcef920e27e1247c424",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-02-08T03:29:21.354000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-02-08T03:21:50.452000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पाने व शेडा करपतात<user uploaded image for analysis at 'arra35779/2025-02-08-1738984097027.jpg'>",
+        "en": "Leaves and leaves<user uploaded image for analysis at 'arra35779/2025-02-08-1738984097027.jpg'>",
+        "timestamp": {
+          "$date": "2025-02-08T03:09:17.596Z"
+        },
+        "standalone_question": "What can be done to manage or control the situation?",
+        "standalone_en": "What can be done to manage or control the situation?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pane v sheda karapatat<user uploaded image for analysis at 'arra35779/2025-02-08-1738984097027.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या दिलेल्या चित्रात द्राक्षांच्या वेलींना चांगली स्थिती दिसत आहे, परंतु विशिष्ट समस्या ओळखण्यासाठी स्पष्टता कमी आहे. अधिक अचूक विश्लेषणासाठी, कृपया खालील गोष्टींचा विचार करा:\n\n1. **जवळचा फोकस**: पानांचा किंवा प्रभावित भागांचा जवळचा शॉट घेणे मदत करेल.\n2. **प्रकाश**: चित्र चांगल्या प्रकाशात घेतल्यास पानांवरील सूक्ष्म चिन्हे ओळखण्यात मदत होईल.\n\nजर तुम्ही एक स्पष्ट चित्र प्रदान करू शकत असाल, तर मी तुमच्या पिकाच्या आरोग्याचे अधिक चांगले विश्लेषण करण्यात मदत करू शकेन.",
+        "en": "The grape vines appear to be in good condition in your given picture, but there is little clarity to identify specific problems. For a more accurate analysis, please consider the following:\n\n1. **Close focus**: Taking a close shot of the leaves or affected areas will help.\n2. **Light**: Taking the picture in good light will help in identifying subtle marks on the leaves.\n\nIf you can provide a clear picture, I can help you better analyze the health of your crop.",
+        "timestamp": {
+          "$date": "2025-02-08T03:09:33.610Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "हे पहा<user uploaded image for analysis at 'arra35779/2025-02-08-1738984186737.jpg'>",
+        "en": "Hey See<user uploaded image for analysis at 'arra35779/2025-02-08-1738984186737.jpg'>",
+        "timestamp": {
+          "$date": "2025-02-08T03:11:02.148Z"
+        },
+        "standalone_question": "Can you analyze this new image?",
+        "standalone_en": "Can you analyze this new image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "he paha<user uploaded image for analysis at 'arra35779/2025-02-08-1738984186737.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या दिलेल्या चित्रात द्राक्षांच्या वेलींना चांगली स्थिती दिसत आहे. पानांवर कोणतेही रंग बदल, वाळणे किंवा कीडांचे नुकसान दिसत नाही. तथापि, अधिक अचूक विश्लेषणासाठी, कृपया खालील गोष्टींचा विचार करा:\n\n1. **जवळचा फोकस**: पानांचा किंवा ताणांचा जवळचा शॉट घेणे मदत करेल.\n2. **प्रकाश**: चित्र चांगल्या प्रकाशात घेतल्यास पानांवरील सूक्ष्म चिन्हे ओळखण्यात मदत होईल.\n\nजर तुम्ही एक स्पष्ट चित्र प्रदान करू शकत असाल, तर मी तुमच्या पिकाच्या आरोग्याचे अधिक चांगले विश्लेषण करण्यात मदत करू शकेन.",
+        "en": "In your given picture, the vines of the grapes are in good condition. The leaves show no color changes, drying, or insect damage. However, for a more accurate analysis, please consider the following:\n\n1. **Close focus**: Taking a close shot of leaves or strains will help.\n2. **Light**: Taking the picture in good light will help in identifying subtle marks on the leaves.\n\nIf you can provide a clear picture, I can help you better analyze the health of your crop.",
+        "timestamp": {
+          "$date": "2025-02-08T03:11:14.418Z"
+        }
+      }
+    ],
+    "farmer_id": "pradippatil",
+    "farmer_plot_ids": [
+      "arra35779",
+      "ghorpadepatti",
+      "potcanal",
+      "supergra"
+    ],
+    "conversation_id": "67a6cadd8cbbe215bae642ce",
+    "_id": "67a6cadd8cbbe215bae642ce",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-02-08T03:16:02.157000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-02-08T03:09:17.596000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Narflower q jal rahe hai",
+        "en": "Why are the flowers burning?",
+        "timestamp": {
+          "$date": "2025-02-08T03:01:42.586Z"
+        },
+        "standalone_question": "Is Narflower blooming?",
+        "standalone_en": "Is Narflower blooming?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Agar aapke Watermelon Savkar plot mein narflower jal rahe hain, toh yeh kuch karanon ki wajah se ho sakta hai:\n\n1. **Pani ki kami**: Agar mitti mein paani ki kami hai, toh paudhe stress mein aate hain aur narflower jalne lagte hain. Soil moisture check karna zaroori hai.\n\n2. **Zyada dhoop**: Bahut zyada dhoop ya UV radiation bhi narflower ko jalane ka kaaran ban sakta hai.\n\n3. **Nutrient deficiency**: Khaas taur par potassium ki kami se bhi aisa ho sakta hai.\n\nAapko soil moisture aur nutrient levels check karne ki salah di jati hai. Agar aap chahein, toh main aapke plot ke liye soil moisture aur irrigation ki jaankari de sakta hoon.",
+        "en": "If the watermelon is burning in the Savkar plot, it could be due to a few reasons:\n\n1. **Water Scarcity**: If there is a lack of water in the soil, the plants come under stress and the narflowers start burning. It is important to check soil moisture.\n\n2. Too much sunlight: Too much sunlight or UV radiation can also cause the narflower to burn.\n\n3. Nutrient deficiency: This can also happen due to potassium deficiency.\n\nYou are advised to check soil moisture and nutrient levels. If you want, I can give you information about soil moisture and irrigation for your plot.",
+        "timestamp": {
+          "$date": "2025-02-08T03:01:47.500Z"
+        }
+      }
+    ],
+    "farmer_id": "prashantchaudhari",
+    "farmer_plot_ids": [
+      "watermelonsavkar"
+    ],
+    "conversation_id": "67a6c916f920e27e1247c423",
+    "_id": "67a6c916f920e27e1247c423",
+    "language": "hi",
+    "expiry": {
+      "$date": "2025-02-08T03:06:42.593000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-02-08T03:01:42.586000+00:00"
+  }
+]

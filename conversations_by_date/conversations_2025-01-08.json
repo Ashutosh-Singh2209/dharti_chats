@@ -1,0 +1,745 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "ચોળી નુ પાક આમાં નહિ બતાવતું",
+        "en": "The cauliflower crop does not show up in this",
+        "timestamp": {
+          "$date": "2025-01-08T15:14:23.874Z"
+        },
+        "standalone_question": "Is the pak of choli not shown in this?",
+        "standalone_en": "Is the pak of choli not shown in this?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "choli nu pak aman nahi batavatun"
+      },
+      {
+        "role": "assistant",
+        "content": "ચોળી (Garlic) પાક ફાઈલોમાં સમર્થિત છે. જો તમને વધુ માહિતી અથવા સહાયની જરૂર હોય, તો કૃપા કરીને જણાવો.",
+        "en": "Garlic is supported in crop files. If you need more information or assistance, please let us know.",
+        "timestamp": {
+          "$date": "2025-01-08T15:14:27.591Z"
+        }
+      }
+    ],
+    "farmer_id": "naranbhaimotibhaichoudhariy",
+    "farmer_plot_ids": [
+      "choleevalopalot",
+      "lashunvalopalot"
+    ],
+    "conversation_id": "677e964f3c25d80375b2e5b5",
+    "_id": "677e964f3c25d80375b2e5b5",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-08T15:19:23.882000Z"
+    },
+    "tag": "historical data",
+    "conv_date": "2025-01-08T15:14:23.874000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "બટાકા ની અંદર કયું ખાતર અત્યારે આપો",
+        "en": "Which fertilizer to give in the potato now",
+        "timestamp": {
+          "$date": "2025-01-08T13:50:07.305Z"
+        },
+        "standalone_question": "What fertilizer should I currently give to the potatoes?",
+        "standalone_en": "What fertilizer should I currently give to the potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "bataka knee andar kayu khatar atyare apo"
+      },
+      {
+        "role": "assistant",
+        "content": "અત્યારે, બટાકા માટેની ફર્ટિગેશન શેડ્યૂલ મુજબ, તમે નીચેના ખાતરોનો ઉપયોગ કરી શકો છો:\n\n### હાલની સપ્તાહ (સપ્તાહ 1):\n1. **તારીખ:** 2025-01-08 (આજે)\n   - **ખાતરો:**\n     - **Potassium Nitrate:** 7 કિગ્રા/એકર\n     - **Ammonium Sulphate:** 5 કિગ્રા/એકર\n     - **Calcium Nitrate:** 3.5 કિગ્રા/એકર (અલગથી, અન્ય ખાતરોની લાગુ કરવાની 15-20 મિનિટ પછી)\n\n### આગામી સપ્તાહ (સપ્તાહ 2):\n- **તારીખ:** 2025-01-11 (સપ્તાહ 1, દિવસ 4)\n   - **ખાતરો:**\n     - **Potassium Nitrate:** 3 કિગ્રા/એકર\n     - **Urea:** 3.5 કિગ્રા/એકર\n     - **Magnesium Sulphate:** 5 કિગ્રા/એકર\n\nઆ ખાતરોનો ઉપયોગ કરીને, તમે તમારા બટાકાના પાકને યોગ્ય પોષણ આપી શકો છો.",
+        "en": "Right now, as per the fertigation schedule for potatoes, you can use the following fertilizers:\n\n### Current Week (Week 1):\n1. **Date:** 2025-01-08 (today)\n   - **Fertilizers:**\n     * *Potassium Nitrate:** 7 kg/acre\n     * *Ammonium Sulphate:** 5 kg/acre\n     **Calcium Nitrate:** 3.5 kg/acre (separately, 15-20 minutes after applying other fertilizers)\n\n### Next week (Week 2):\n* **Date:** 2025-01-11 (Week 1, Day 4)\n   - **Fertilizers:**\n     * *Potassium Nitrate:** 3 kg/acre\n     * *Urea:** 3.5 kg/acre\n     - **Magnesium Sulphate:** 5 kg/acre\n\nBy using these fertilizers, you can give proper nutrition to your potato crop.",
+        "timestamp": {
+          "$date": "2025-01-08T13:50:18.826Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ખાતર આપ્યા પછી કેટલા સમય માથે પાણી આપવું",
+        "en": "How long to water your head after giving fertilizer",
+        "timestamp": {
+          "$date": "2025-01-08T13:51:05.786Z"
+        },
+        "standalone_question": "How long after applying fertilizer should I water the plants?",
+        "standalone_en": "How long after applying fertilizer should I water the plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil."
+          ]
+        },
+        "content_transliterated": "khatar aapya pachi ketla samay mathe pani apvu"
+      },
+      {
+        "role": "assistant",
+        "content": "ખાતર આપ્યા પછી, તમને પાણી આપવાની જરૂર નથી, કારણ કે આ સમયે માટીનું ભેજ પૂરતું છે. જો કે, જો ભેજની જરૂરિયાત બદલાય, તો તમે ફરીથી તપાસો.",
+        "en": "After giving fertilizer, you do not need to be watered, because the soil moisture is enough at this time. However, if the moisture requirement changes, you check again.",
+        "timestamp": {
+          "$date": "2025-01-08T13:51:12.439Z"
+        }
+      }
+    ],
+    "farmer_id": "bharatbhaichoudhary",
+    "farmer_plot_ids": [
+      "borvalopalot246"
+    ],
+    "conversation_id": "677e828f3c25d80375b2e5b4",
+    "_id": "677e828f3c25d80375b2e5b4",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-08T13:56:05.793000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-01-08T13:50:07.305000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "bhej",
+        "en": "bhej",
+        "timestamp": {
+          "$date": "2025-01-08T12:09:14.490Z"
+        },
+        "standalone_question": "What does \"bhej\" mean?",
+        "standalone_en": "What does \"bhej\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "કૃપા કરીને વધુ સ્પષ્ટતા કરો કે તમે શું માંગો છો.",
+        "en": "Please clarify more about what you want.",
+        "timestamp": {
+          "$date": "2025-01-08T12:09:17.407Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "nimatod mate su asarkarak chhe",
+        "en": "Su is effective for nimtod",
+        "timestamp": {
+          "$date": "2025-01-08T12:10:07.527Z"
+        },
+        "standalone_question": "What is the significance of Nimatod for me?",
+        "standalone_en": "What is the significance of Nimatod for me?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "નિમાતોડ (Nematodes) માટે અસરકારક નિયંત્રણ માટે કેટલીક રીતો છે:\n\n1. **જમીનનું સ્વચ્છતા**: જમીનને સ્વચ્છ રાખવું, જેમ કે બિનજરૂરી છોડ અને કચરો દૂર કરવો.\n\n2. **જમીનનું પલટન**: જમીનનું પલટન કરવાથી નમાતોડના અંડા અને લાર્વા નાશ પામે છે.\n\n3. **જૈવિક નિયંત્રણ**: નમાતોડના શિકારીઓ જેમ કે બેક્ટેરિયા અને ફૂગનો ઉપયોગ કરવો.\n\n4. **રાસાયણિક નિયંત્રણ**: જો જરૂરી હોય, તો યોગ્ય રાસાયણિક પદાર્થોનો ઉપયોગ કરવો, પરંતુ આનો ઉપયોગ સાવધાનીથી કરવો.\n\n5. **સ્વસ્થ પાકો**: સ્વસ્થ અને મજબૂત પાકો ઉગાડવાથી નમાતોડના હુમલાને ટાળવામાં મદદ મળે છે.\n\n6. **મલ્ચિંગ**: જમીન પર મલ્ચ લગાવવાથી જમીનનું તાપમાન નિયંત્રિત થાય છે અને નમાતોડના વિકાસને રોકવામાં મદદ મળે છે.\n\nઆ રીતોનો ઉપયોગ કરીને તમે નમાતોડના નુકસાનને ઘટાડવા માટે પ્રયત્ન કરી શકો છો.",
+        "en": "There are some ways for effective control for nematodes:\n\n1. **Soil hygiene**: Keeping the soil clean, such as removing unnecessary plants and waste.\n\n2. **Soil rotation**: By turning the soil, the eggs and larvae of the namatod are destroyed.\n\n3. **Biological control**: Using namatod predators such as bacteria and fungi.\n\n4. **Chemical control**: If necessary, use the right chemicals, but use these with caution.\n\n5. **Healthy crops**: Growing healthy and strong crops helps in avoiding the attack of namatode.\n\n6. **Mulching**: Applying mulch on the ground regulates the temperature of the soil and helps in preventing the growth of namatodes.\n\nBy using these methods you can try to reduce the loss of namatode.",
+        "timestamp": {
+          "$date": "2025-01-08T12:10:17.438Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "nimatod ma kai rasainik dava asarkark chhe",
+        "en": "Which chemical drug is effective in Nimtod",
+        "timestamp": {
+          "$date": "2025-01-08T12:12:01.265Z"
+        },
+        "standalone_question": "What chemical treatments are effective against nematodes?",
+        "standalone_en": "What chemical treatments are effective against nematodes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "નિમાતોડના નિયંત્રણ માટે કેટલાક અસરકારક રાસાયણિક દવાઓ છે:\n\n1. **ફોસ્ફેમિડોન**: આ દવા નમાતોડને નાશ કરવા માટે ઉપયોગી છે.\n\n2. **મેટામ સોડિયમ**: આ દવા જમીનમાં નમાતોડના અંડા અને લાર્વાને નાશ કરવા માટે ઉપયોગ થાય છે.\n\n3. **બ્રોમોક્લોરોપ્રોપેન**: આ દવા જમીનના નિમાતોડને નિયંત્રિત કરવા માટે અસરકારક છે.\n\n4. **એલ્ફા-હેક્સોક્લોરિન**: આ દવા પણ નમાતોડના નિયંત્રણ માટે ઉપયોગી છે.\n\nઆ દવાઓનો ઉપયોગ કરતી વખતે, યોગ્ય માત્રા અને ઉપયોગની રીતનું ધ્યાન રાખવું મહત્વપૂર્ણ છે. કૃષિ નિષ્ણાતની સલાહ લેવી પણ શ્રેષ્ઠ રહેશે.",
+        "en": "Some effective chemical drugs for the control of nematode are:\n\n1. **Phosphamidone**: This drug is useful for destroying namatode.\n\n2. **Metame sodium**: This drug is used to destroy the eggs and larvae of namatodes in the ground.\n\n3. **Bromochloropropropene**: This drug is effective in controlling soil dehydration.\n\n4. **Alpha-hexochlorine**: This drug is also useful for the control of namatode.\n\nWhile using these medicines, it is important to take care of the right dosage and method of use. It would also be best to consult an agricultural expert.",
+        "timestamp": {
+          "$date": "2025-01-08T12:12:08.356Z"
+        }
+      }
+    ],
+    "farmer_id": "montuvhora",
+    "farmer_plot_ids": [
+      "kalmovalanero",
+      "savvirkakavalakairo"
+    ],
+    "conversation_id": "677e6aea3c3334bd7ff9a73f",
+    "_id": "677e6aea3c3334bd7ff9a73f",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-08T12:17:01.273000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-01-08T12:09:14.490000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "bhej",
+        "en": "bhej",
+        "timestamp": {
+          "$date": "2025-01-08T12:09:14.490Z"
+        },
+        "standalone_question": "What does \"bhej\" mean?",
+        "standalone_en": "What does \"bhej\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "કૃપા કરીને વધુ સ્પષ્ટતા કરો કે તમે શું માંગો છો.",
+        "en": "Please clarify more about what you want.",
+        "timestamp": {
+          "$date": "2025-01-08T12:09:17.407Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "nimatod mate su asarkarak chhe",
+        "en": "Su is effective for nimtod",
+        "timestamp": {
+          "$date": "2025-01-08T12:10:07.527Z"
+        },
+        "standalone_question": "What is the significance of Nimatod for me?",
+        "standalone_en": "What is the significance of Nimatod for me?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "નિમાતોડ (Nematodes) માટે અસરકારક નિયંત્રણ માટે કેટલીક રીતો છે:\n\n1. **જમીનનું સ્વચ્છતા**: જમીનને સ્વચ્છ રાખવું, જેમ કે બિનજરૂરી છોડ અને કચરો દૂર કરવો.\n\n2. **જમીનનું પલટન**: જમીનનું પલટન કરવાથી નમાતોડના અંડા અને લાર્વા નાશ પામે છે.\n\n3. **જૈવિક નિયંત્રણ**: નમાતોડના શિકારીઓ જેમ કે બેક્ટેરિયા અને ફૂગનો ઉપયોગ કરવો.\n\n4. **રાસાયણિક નિયંત્રણ**: જો જરૂરી હોય, તો યોગ્ય રાસાયણિક પદાર્થોનો ઉપયોગ કરવો, પરંતુ આનો ઉપયોગ સાવધાનીથી કરવો.\n\n5. **સ્વસ્થ પાકો**: સ્વસ્થ અને મજબૂત પાકો ઉગાડવાથી નમાતોડના હુમલાને ટાળવામાં મદદ મળે છે.\n\n6. **મલ્ચિંગ**: જમીન પર મલ્ચ લગાવવાથી જમીનનું તાપમાન નિયંત્રિત થાય છે અને નમાતોડના વિકાસને રોકવામાં મદદ મળે છે.\n\nઆ રીતોનો ઉપયોગ કરીને તમે નમાતોડના નુકસાનને ઘટાડવા માટે પ્રયત્ન કરી શકો છો.",
+        "en": "There are some ways for effective control for nematodes:\n\n1. **Soil hygiene**: Keeping the soil clean, such as removing unnecessary plants and waste.\n\n2. **Soil rotation**: By turning the soil, the eggs and larvae of the namatod are destroyed.\n\n3. **Biological control**: Using namatod predators such as bacteria and fungi.\n\n4. **Chemical control**: If necessary, use the right chemicals, but use these with caution.\n\n5. **Healthy crops**: Growing healthy and strong crops helps in avoiding the attack of namatode.\n\n6. **Mulching**: Applying mulch on the ground regulates the temperature of the soil and helps in preventing the growth of namatodes.\n\nBy using these methods you can try to reduce the loss of namatode.",
+        "timestamp": {
+          "$date": "2025-01-08T12:10:17.438Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "nimatod ma kai rasainik dava asarkark chhe",
+        "en": "Which chemical drug is effective in Nimtod",
+        "timestamp": {
+          "$date": "2025-01-08T12:12:01.265Z"
+        },
+        "standalone_question": "What chemical treatments are effective against nematodes?",
+        "standalone_en": "What chemical treatments are effective against nematodes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "નિમાતોડના નિયંત્રણ માટે કેટલાક અસરકારક રાસાયણિક દવાઓ છે:\n\n1. **ફોસ્ફેમિડોન**: આ દવા નમાતોડને નાશ કરવા માટે ઉપયોગી છે.\n\n2. **મેટામ સોડિયમ**: આ દવા જમીનમાં નમાતોડના અંડા અને લાર્વાને નાશ કરવા માટે ઉપયોગ થાય છે.\n\n3. **બ્રોમોક્લોરોપ્રોપેન**: આ દવા જમીનના નિમાતોડને નિયંત્રિત કરવા માટે અસરકારક છે.\n\n4. **એલ્ફા-હેક્સોક્લોરિન**: આ દવા પણ નમાતોડના નિયંત્રણ માટે ઉપયોગી છે.\n\nઆ દવાઓનો ઉપયોગ કરતી વખતે, યોગ્ય માત્રા અને ઉપયોગની રીતનું ધ્યાન રાખવું મહત્વપૂર્ણ છે. કૃષિ નિષ્ણાતની સલાહ લેવી પણ શ્રેષ્ઠ રહેશે.",
+        "en": "Some effective chemical drugs for the control of nematode are:\n\n1. **Phosphamidone**: This drug is useful for destroying namatode.\n\n2. **Metame sodium**: This drug is used to destroy the eggs and larvae of namatodes in the ground.\n\n3. **Bromochloropropropene**: This drug is effective in controlling soil dehydration.\n\n4. **Alpha-hexochlorine**: This drug is also useful for the control of namatode.\n\nWhile using these medicines, it is important to take care of the right dosage and method of use. It would also be best to consult an agricultural expert.",
+        "timestamp": {
+          "$date": "2025-01-08T12:12:08.356Z"
+        }
+      }
+    ],
+    "farmer_id": "montuvhora",
+    "farmer_plot_ids": [
+      "kalmovalanero",
+      "savvirkakavalakairo"
+    ],
+    "conversation_id": "677e6aea3c3334bd7ff9a73f",
+    "_id": "677e6aea3c3334bd7ff9a73f",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-08T12:17:01.273000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-01-08T12:09:14.490000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "42 सत्तेचे 47 चा रोल काय मराठीतून सांगा",
+        "en": "42 What is the role of power 47?",
+        "timestamp": {
+          "$date": "2025-01-08T09:19:39.508Z"
+        },
+        "standalone_question": "What is the role of 47 in the context of 42? Please explain in Marathi.",
+        "standalone_en": "What is the role of 47 in the context of 42? Please explain in Marathi.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "42 satteche 47 cha role kay marathitun sanga"
+      },
+      {
+        "role": "assistant",
+        "content": "माझ्या क्षमतेनुसार, मी कृषी संबंधित प्रश्नांची उत्तरे देऊ शकतो. कृपया कृषी संबंधित काही विचारल्यास, मी मदत करू शकेन.",
+        "en": "To the best of my ability, I can answer questions related to agriculture. If you ask anything related to agriculture, I can help.",
+        "timestamp": {
+          "$date": "2025-01-08T09:19:45.040Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "42 47 रोल सांगा",
+        "en": "42 47 Roll Sanga",
+        "timestamp": {
+          "$date": "2025-01-08T09:20:16.480Z"
+        },
+        "standalone_question": "What is the role of 42 and 47?",
+        "standalone_en": "What is the role of 42 and 47?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "माझ्या क्षमतेनुसार, मी कृषी संबंधित प्रश्नांची उत्तरे देऊ शकतो. कृपया कृषी संबंधित काही विचारल्यास, मी मदत करू शकेन.",
+        "en": "To the best of my ability, I can answer questions related to agriculture. If you ask anything related to agriculture, I can help.",
+        "timestamp": {
+          "$date": "2025-01-08T09:20:19.648Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "झिरो 42 47 खाताचा रोल काय आहे",
+        "en": "What is the role of Zero 42 47 Account",
+        "timestamp": {
+          "$date": "2025-01-08T09:20:47.218Z"
+        },
+        "standalone_question": "What is the role of Zero, 42, and 47 in the account?",
+        "standalone_en": "What is the role of Zero, 42, and 47 in the account?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ziro 42 47 khatacha role kay aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "माझ्या क्षमतेनुसार, मी कृषी संबंधित प्रश्नांची उत्तरे देऊ शकतो. कृपया कृषी संबंधित काही विचारल्यास, मी मदत करू शकेन.",
+        "en": "To the best of my ability, I can answer questions related to agriculture. If you ask anything related to agriculture, I can help.",
+        "timestamp": {
+          "$date": "2025-01-08T09:20:51.074Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "डबल झिरो 42 47 इजराइल खताचा रोल काय",
+        "en": "Double Zero 42 47 What is the Role of Israel Fertilizer",
+        "timestamp": {
+          "$date": "2025-01-08T09:21:19.317Z"
+        },
+        "standalone_question": "What is the role of Double Zero 42 47 Israel fertilizer?",
+        "standalone_en": "What is the role of Double Zero 42 47 Israel fertilizer?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "double jhiro 42 47 israel khatacha role kay"
+      },
+      {
+        "role": "assistant",
+        "content": "\"डबल झिरो 42 47\" हे एक मिश्र खत आहे, ज्यामध्ये मुख्यतः नायट्रोजन (N), फॉस्फरस (P), आणि पोटॅशियम (K) यांचे प्रमाण असते. या खताचा रोल म्हणजे:\n\n- **नायट्रोजन (N)**: पानांच्या वाढीसाठी आणि सामान्य वाढीसाठी आवश्यक आहे.\n- **फॉस्फरस (P)**: मुळांच्या विकासासाठी आणि फुलांच्या उत्पादनासाठी महत्त्वाचा आहे.\n- **पोटॅशियम (K)**: पाण्याच्या व्यवस्थापनात मदत करतो आणि रोग प्रतिकारक क्षमता वाढवतो.\n\nहे खत पिकांच्या सर्वांगीण विकासासाठी उपयुक्त आहे, विशेषतः फळांच्या पिकांसाठी. याचा वापर योग्य प्रमाणात केल्यास उत्पादनात वाढ होऊ शकते.",
+        "en": "\"Double Zero 42 47\" is a mixed fertilizer, mainly composed of nitrogen (N), phosphorus (P), and potassium (K). The role of this fertilizer is:\n\n- **Nitrogen (N)**: Essential for leaf growth and normal growth.\n- **Phosphorus (P)**: Important for the development of roots and the production of flowers.\n- **Potassium (K)**: Helps in water management and boosts immunity.\n\nThis fertilizer is useful for the overall development of crops, especially for fruit crops. If used in the right amount, the production can increase.",
+        "timestamp": {
+          "$date": "2025-01-08T09:21:24.711Z"
+        }
+      }
+    ],
+    "farmer_id": "bapuraogholap",
+    "farmer_plot_ids": [
+      "pomogranateplot1",
+      "pomogranateplot2867",
+      "ssnplot253"
+    ],
+    "conversation_id": "677e432b384287bacff7bf14",
+    "_id": "677e432b384287bacff7bf14",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-01-08T09:26:19.325000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-01-08T09:19:39.508000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Nonionic surfactant 80% role kay",
+        "en": "Nonionic surfactant 80% role kay",
+        "timestamp": {
+          "$date": "2025-01-08T09:04:22.869Z"
+        },
+        "standalone_question": "What is the role of a nonionic surfactant at 80% concentration?",
+        "standalone_en": "What is the role of a nonionic surfactant at 80% concentration?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Nonionic surfactants, especially those with 80% concentration, play a crucial role in agriculture, particularly in pesticide formulations and foliar applications. Here are some key roles:\n\n1. **Improved Spreading**: They help in spreading the pesticide evenly over the leaf surface, ensuring better coverage.\n\n2. **Enhanced Penetration**: Nonionic surfactants facilitate the penetration of active ingredients into the plant tissue, increasing the effectiveness of the pesticide.\n\n3. **Reduced Surface Tension**: By lowering the surface tension of the spray solution, they allow the liquid to spread more easily on the leaf surface.\n\n4. **Compatibility**: Nonionic surfactants are generally compatible with a wide range of pesticides and fertilizers, making them versatile for various applications.\n\n5. **Stability**: They help stabilize emulsions and suspensions, ensuring that the pesticide remains effective over time.\n\nUsing a nonionic surfactant can significantly enhance the performance of agricultural chemicals, leading to better pest control and crop health.",
+        "en": "Nonionic surfactants, especially those with 80% concentration, play a crucial role in agriculture, particularly in pesticide formulations and foliar applications. Here are some key roles:\n\n1. **Improved Spreading**: They help in spreading the pesticide evenly over the leaf surface, ensuring better coverage.\n\n2. **Enhanced Penetration**: Nonionic surfactants facilitate the penetration of active ingredients into the plant tissue, increasing the effectiveness of the pesticide.\n\n3. **Reduced Surface Tension**: By lowering the surface tension of the spray solution, they allow the liquid to spread more easily on the leaf surface.\n\n4. **Compatibility**: Nonionic surfactants are generally compatible with a wide range of pesticides and fertilizers, making them versatile for various applications.\n\n5. **Stability**: They help stabilize emulsions and suspensions, ensuring that the pesticide remains effective over time.\n\nUsing a nonionic surfactant can significantly enhance the performance of agricultural chemicals, leading to better pest control and crop health.",
+        "timestamp": {
+          "$date": "2025-01-08T09:04:29.445Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "नो 19 सप्रांकट 80% चा मराठीतून रोल काय",
+        "en": "What is the role of 80% in Marathi?",
+        "timestamp": {
+          "$date": "2025-01-08T09:05:49.909Z"
+        },
+        "standalone_question": "What is the role of nonionic surfactant 80% in Marathi?",
+        "standalone_en": "What is the role of nonionic surfactant 80% in Marathi?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "नो 19 सप्रांकट 80% चा कृषी क्षेत्रात महत्त्वाचा रोल आहे. याचे काही मुख्य कार्ये खालीलप्रमाणे आहेत:\n\n1. **सपाटीवर पसरवणे**: हे सप्रांकट कीटकनाशक किंवा अन्य रासायनिक पदार्थांना पानांच्या पृष्ठभागावर समानपणे पसरवण्यास मदत करते, ज्यामुळे चांगली कव्हरेज मिळते.\n\n2. **शोषण वाढवणे**: हे सक्रिय घटकांना वनस्पतीच्या ऊतींमध्ये शोषण्यास मदत करते, ज्यामुळे कीटकनाशकाची कार्यक्षमता वाढते.\n\n3. **सतह ताण कमी करणे**: हे स्प्रे सोल्यूशनच्या सतह ताणाला कमी करते, ज्यामुळे द्रव पानांच्या पृष्ठभागावर अधिक सहजपणे पसरते.\n\n4. **सुसंगतता**: नोनीओनिक सप्रांकट विविध कीटकनाशकांशी आणि खतांशी सामान्यतः सुसंगत असतात, ज्यामुळे त्यांचा वापर विविध अनुप्रयोगांसाठी केला जाऊ शकतो.\n\n5. **स्थिरता**: हे इमल्शन आणि निलंबनांना स्थिर ठेवण्यास मदत करते, ज्यामुळे कीटकनाशकाची कार्यक्षमता वेळेनुसार टिकून राहते.\n\nनो 19 सप्रांकट 80% चा वापर कृषी रसायनांच्या कार्यक्षमतेत लक्षणीय वाढ करू शकतो, ज्यामुळे पिकांचे आरोग्य आणि कीटक नियंत्रण सुधारते.",
+        "en": "No 19 supplement 80% has an important role to play in the agriculture sector. Some of its main functions are as follows:\n\n1. **Spreading on the surface**: This spray helps to spread pesticides or other chemical substances evenly on the leaf surface, providing good coverage.\n\n2. Increasing absorption**: It helps the active ingredients to be absorbed into plant tissues, which increases the efficiency of the pesticide.\n\n3. **Reduce surface stress**: This reduces the surface tension of the spray solution, allowing the liquid to spread more easily on the surface of the leaves.\n\n4. **Consistency**: Nonionic sutures are generally compatible with various pesticides and fertilizers, allowing them to be used for a variety of applications.\n\n5. **Stability**: It helps to stabilize emulsions and suspensions, thereby maintaining the efficiency of the pesticide over time.\n\nThe use of no19 suprancat 80% can significantly increase the efficiency of agrochemicals, thereby improving crop health and pest control.",
+        "timestamp": {
+          "$date": "2025-01-08T09:06:05.065Z"
+        }
+      }
+    ],
+    "farmer_id": "bapuraogholap",
+    "farmer_plot_ids": [
+      "pomogranateplot1",
+      "pomogranateplot2867",
+      "ssnplot253"
+    ],
+    "conversation_id": "677e3f965bcd5f3bdddc1db1",
+    "_id": "677e3f965bcd5f3bdddc1db1",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-01-08T09:10:49.917000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-01-08T09:04:22.869000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "હાલમાં કયો રોગ આવવાનો છે બટાકામાં",
+        "en": "What disease is going to come in potato at present?",
+        "timestamp": {
+          "$date": "2025-01-08T08:47:33.140Z"
+        },
+        "standalone_question": "What disease is currently affecting potatoes?",
+        "standalone_en": "What disease is currently affecting potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "halaman kayo rog avavano che batakaman"
+      },
+      {
+        "role": "assistant",
+        "content": "હાલમાં બટાકાના પાકમાં નીચેના રોગો આવવાની શક્યતા છે:\n\n1. **લેટ બ્લાઇટ (Late Blight)**:\n   - 8 જાન્યુઆરી 2025: 44.6% (LOW)\n   - 7 જાન્યુઆરી 2025: 46.0% (LOW)\n   - 6 જાન્યુઆરી 2025: 51.5% (MEDIUM)\n   - 5 જાન્યુઆરી 2025: 56.5% (MEDIUM)\n   - 4 જાન્યુઆરી 2025: 52.0% (MEDIUM)\n   - 3 જાન્યુઆરી 2025: 53.3% (MEDIUM)\n   - 2 જાન્યુઆરી 2025: 49.2% (LOW)\n   - 1 જાન્યુઆરી 2025: 49.2% (LOW)\n\n2. **અર્લી બ્લાઇટ (Early Blight)**:\n   - 8 જાન્યુઆરી 2025: 50.6% (MEDIUM)\n   - 7 જાન્યુઆરી 2025: 51.9% (MEDIUM)\n   - 6 જાન્યુઆરી 2025: 54.6% (MEDIUM)\n   - 5 જાન્યુઆરી 2025: 54.8% (MEDIUM)\n   - 4 જાન્યુઆરી 2025: 51.5% (MEDIUM)\n   - 3 જાન્યુઆરી 2025: 51.1% (MEDIUM)\n   - 2 જાન્યુઆરી 2025: 51.5% (MEDIUM)\n   - 1 જાન્યુઆરી 2025: 51.9% (MEDIUM)\n\nઆ રોગોનું જોખમ સ્તર વિવિધ તારીખોમાં બદલાતું રહે છે, પરંતુ હાલમાં \"લેટ બ્લાઇટ\" માટે જોખમ ઓછું છે, જ્યારે \"અર્લી બ્લાઇટ\" માટે મધ્યમ જોખમ છે.",
+        "en": "At present, the potato crop is likely to have the following diseases:\n\n1. **Late Blight(Late Blight)**:\n   January 8, 2025: 44.6% (LOW)\n   January 7, 2025: 46.0% (LOW)\n   January 6, 2025: 51.5% (MEDIUM)\n   January 5, 2025: 56.5% (MEDIUM)\n   January 4, 2025: 52.0% (MEDIUM)\n   January 3, 2025: 53.3% (MEDIUM)\n   January 2, 2025: 49.2% (LOW)\n   January 1, 2025: 49.2% (LOW)\n\n2. **Early Blight(Early Blight)**:\n   January 8, 2025: 50.6% (MEDIUM)\n   January 7, 2025: 51.9% (MEDIUM)\n   January 6, 2025: 54.6% (MEDIUM)\n   January 5, 2025: 54.8% (MEDIUM)\n   January 4, 2025: 51.5% (MEDIUM)\n   January 3, 2025: 51.1% (MEDIUM)\n   January 2, 2025: 51.5% (MEDIUM)\n   January 1, 2025: 51.9% (MEDIUM)\n\nThe risk level of these diseases varies at different dates, but currently the risk for \"late blight\" is low, while there is a moderate risk for \"early blight\".",
+        "timestamp": {
+          "$date": "2025-01-08T08:47:46.953Z"
+        }
+      }
+    ],
+    "farmer_id": "VR4859",
+    "farmer_plot_ids": [
+      "delavalu",
+      "khejadavalu",
+      "patsala"
+    ],
+    "conversation_id": "677e3ba43c3334bd7ff9a73d",
+    "_id": "677e3ba43c3334bd7ff9a73d",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-08T08:52:33.147000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-01-08T08:47:33.140000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "हा कोणता रोग आहे<user uploaded image for analysis at 'chilli5531/2025-01-08-1736314998826.jpg'>",
+        "en": "What disease is this<user uploaded image for analysis at 'chilli5531/2025-01-08-1736314998826.jpg' >",
+        "timestamp": {
+          "$date": "2025-01-08T05:43:57.961Z"
+        },
+        "standalone_question": "What disease is depicted in the uploaded image?",
+        "standalone_en": "What disease is depicted in the uploaded image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ha konta rog aahe<user uploaded image for analysis at 'chilli5531/2025-01-08-1736314998826.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या चिरळ्याच्या पिकात काही रोग किंवा कीडांचा प्रभाव दिसत आहे, जसे की पानांचा वाकणे आणि रंग बदलणे. हे लक्षणे विविध कीड जसे की **आफिड्स**, **थ्रिप्स**, किंवा रोग जसे की **सर्कोस्पोरा पान धब्बा** दर्शवू शकतात.\n\n**सुझवलेले स्प्रे:**\n1. **Isocycloseram 9.2% w/w DC + Isocycloseram 10% w/v DC**: 0.25 मि.ली.\n2. **Hexaconazole**: 1 मि.ली.\n3. **Cyenopyrafen 30% SC**: 0.6 मि.ली.\n4. **Azoxystrobin 18.2% + Difenoconazole 11.4% SC**: 1 मि.ली.\n5. **Broflanilide 20% SC**: 0.6 मि.ली.\n6. **Cyantraniliprole 7.3% w/w + Diafenthiuron 36.4% w/w SC**: 1 मि.ली.\n7. **Difenoconazole**: 0.8 मि.ली.\n8. **Spirotetramat + Imidacloprid**: 0.8 मि.ली.\n9. **Propiconazole**: 0.8 मि.ली.\n10. **Fipronil 80 WG**: 0.5 ग्रॅम.\n\nकृपया या स्प्रेचा वापर करताना उत्पादकाच्या सूचनांचे पालन करा आणि पिकांचे नियमितपणे निरीक्षण करा.",
+        "en": "Your chickpea crop may be affected by some diseases or pests, such as leaf bending and color changes. These symptoms can indicate various insects such as **aphids**, **thrips**, or diseases such as **sarcospora leaf spots**.\n\n**Swollen spray:**\n1. **Isocycloseram 9.2% w/w DC + Isocycloseram 10% w/v DC**: 0.25 ml.\n2. **Hexaconazole**: 1 min.\n3. **Cyenopyrafen 30% SC**: 0.6 ml.\n4. **Azoxystrobin 18.2% + Difenoconazole 11.4% SC**: 1 ml.\n5. **Broflanilide 20% SC**: 0.6 ml.\n6. **Cyantraniliprole 7.3% w/w + Diafenthiuron 36.4% w/w SC**: 1 ml.\n7. **Difenoconazole**: 0.8 ml.\n8. **Spirotetramat + Imidacloprid**: 0.8 ml.\n9. **Propiconazole**: 0.8 ml.\n10. **Fipronil 80 WG**: 0.5 g.\n\nPlease follow the grower's instructions when using this spray and monitor the crops regularly.",
+        "timestamp": {
+          "$date": "2025-01-08T05:44:25.851Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": " मिरची पिकामध्ये थ्रिप्स साठी कोणते औषध फवारावे",
+        "en": " What medicine to spray for thrips in chili crop",
+        "timestamp": {
+          "$date": "2025-01-08T05:46:06.938Z"
+        },
+        "standalone_question": "What pesticide should be used to treat thrips in chili crops?",
+        "standalone_en": "What pesticide should be used to treat thrips in chili crops?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed"
+          ]
+        },
+        "content_transliterated": " mirchi pikamadhye thrips sathi conte ausadh favarave"
+      },
+      {
+        "role": "assistant",
+        "content": "मिरची पिकामध्ये थ्रिप्स नियंत्रणासाठी खालील औषधे फवारण्याची शिफारस केली जाते:\n\n1. **Imidacloprid**: 0.5 मि.ली. प्रति लिटर पाण्यात.\n2. **Thiamethoxam**: 0.5 ग्रॅम प्रति लिटर पाण्यात.\n3. **Chlorpyrifos**: 5 मि.ली. प्रति लिटर पाण्यात.\n\nया औषधांचा वापर करताना, कृपया उत्पादकाच्या सूचनांचे पालन करा आणि फवारणीच्या वेळी हवामानाची स्थिती लक्षात ठेवा.",
+        "en": "It is recommended to spray the following medications for thrips control in the chili crop:\n\n1. **Imidacloprid**: 0.5 ml. Per liter of water.\n2. **Thiamethoxam**: 0.5 grams per liter of water.\n3. **Chlorpyrifos**: 5 min. Per liter of water.\n\nWhen using these medications, please follow the manufacturer's instructions and keep weather conditions in mind at the time of spraying.",
+        "timestamp": {
+          "$date": "2025-01-08T05:46:12.040Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "मिरची पिकामध्ये फुलकळीच्या अवस्थेत कोणती खते द्यावीत",
+        "en": "What fertilizers should be given in the flowering stage in the chilli crop",
+        "timestamp": {
+          "$date": "2025-01-08T05:47:10.084Z"
+        },
+        "standalone_question": "What fertilizers should be applied during the flowering stage of chili plants?",
+        "standalone_en": "What fertilizers should be applied during the flowering stage of chili plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mirchi pikamadhye phulakalichya avasthet konati khate dyavit"
+      },
+      {
+        "role": "assistant",
+        "content": "फुलकळीच्या अवस्थेत मिरची पिकासाठी खालील खते द्यावीत:\n\n1. **12-61-0**: 1 किलोग्राम प्रति एकर\n2. **Urea**: 2.5 किलोग्राम प्रति एकर\n3. **Magnesium Sulphate**: 2 किलोग्राम प्रति एकर\n\nअथवा\n\n1. **24-24-0**: 4 किलोग्राम प्रति एकर\n2. **Urea**: 1 किलोग्राम प्रति एकर\n3. **Magnesium Sulphate**: 2 किलोग्राम प्रति एकर\n\nअथवा\n\n1. **Urea**: 3 किलोग्राम प्रति एकर\n2. **Phosphoric acid 80%**: 1 किलोग्राम प्रति एकर\n3. **Magnesium Sulphate**: 2 किलोग्राम प्रति एकर\n\nया खते फवारताना, योग्य प्रमाणात आणि पाण्यात मिसळून फवारणी करणे आवश्यक आहे.",
+        "en": "The following fertilizers should be given for the chilli crop in the flowering stage:\n\n1. **12-61-0**: 1 kg per acre\n2. **Urea**: 2.5 kg per acre\n3. **Magnesium Sulphate**: 2 kg per acre\n\nor\n\n1. **24-24-0**: 4 kg per acre\n2. **Urea**: 1 kg per acre\n3. **Magnesium Sulphate**: 2 kg per acre\n\nor\n\n1. **Urea**: 3 kg per acre\n2. **Phosphoric acid 80%**: 1 kg per acre\n3. **Magnesium Sulphate**: 2 kg per acre\n\nWhen spraying these fertilizers, it is necessary to spray in the right amount and mixed with water.",
+        "timestamp": {
+          "$date": "2025-01-08T05:47:18.995Z"
+        }
+      }
+    ],
+    "farmer_id": "amarpatil",
+    "farmer_plot_ids": [
+      "chilli5531"
+    ],
+    "conversation_id": "677e109dc92b58f82911556d",
+    "_id": "677e109dc92b58f82911556d",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-01-08T05:52:10.092000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-01-08T05:43:57.961000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "हा कोणता रोग आहे<user uploaded image for analysis at 'chilli5531/2025-01-08-1736314998826.jpg'>",
+        "en": "What disease is this<user uploaded image for analysis at 'chilli5531/2025-01-08-1736314998826.jpg' >",
+        "timestamp": {
+          "$date": "2025-01-08T05:43:57.961Z"
+        },
+        "standalone_question": "What disease is depicted in the uploaded image?",
+        "standalone_en": "What disease is depicted in the uploaded image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ha konta rog aahe<user uploaded image for analysis at 'chilli5531/2025-01-08-1736314998826.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या चिरळ्याच्या पिकात काही रोग किंवा कीडांचा प्रभाव दिसत आहे, जसे की पानांचा वाकणे आणि रंग बदलणे. हे लक्षणे विविध कीड जसे की **आफिड्स**, **थ्रिप्स**, किंवा रोग जसे की **सर्कोस्पोरा पान धब्बा** दर्शवू शकतात.\n\n**सुझवलेले स्प्रे:**\n1. **Isocycloseram 9.2% w/w DC + Isocycloseram 10% w/v DC**: 0.25 मि.ली.\n2. **Hexaconazole**: 1 मि.ली.\n3. **Cyenopyrafen 30% SC**: 0.6 मि.ली.\n4. **Azoxystrobin 18.2% + Difenoconazole 11.4% SC**: 1 मि.ली.\n5. **Broflanilide 20% SC**: 0.6 मि.ली.\n6. **Cyantraniliprole 7.3% w/w + Diafenthiuron 36.4% w/w SC**: 1 मि.ली.\n7. **Difenoconazole**: 0.8 मि.ली.\n8. **Spirotetramat + Imidacloprid**: 0.8 मि.ली.\n9. **Propiconazole**: 0.8 मि.ली.\n10. **Fipronil 80 WG**: 0.5 ग्रॅम.\n\nकृपया या स्प्रेचा वापर करताना उत्पादकाच्या सूचनांचे पालन करा आणि पिकांचे नियमितपणे निरीक्षण करा.",
+        "en": "Your chickpea crop may be affected by some diseases or pests, such as leaf bending and color changes. These symptoms can indicate various insects such as **aphids**, **thrips**, or diseases such as **sarcospora leaf spots**.\n\n**Swollen spray:**\n1. **Isocycloseram 9.2% w/w DC + Isocycloseram 10% w/v DC**: 0.25 ml.\n2. **Hexaconazole**: 1 min.\n3. **Cyenopyrafen 30% SC**: 0.6 ml.\n4. **Azoxystrobin 18.2% + Difenoconazole 11.4% SC**: 1 ml.\n5. **Broflanilide 20% SC**: 0.6 ml.\n6. **Cyantraniliprole 7.3% w/w + Diafenthiuron 36.4% w/w SC**: 1 ml.\n7. **Difenoconazole**: 0.8 ml.\n8. **Spirotetramat + Imidacloprid**: 0.8 ml.\n9. **Propiconazole**: 0.8 ml.\n10. **Fipronil 80 WG**: 0.5 g.\n\nPlease follow the grower's instructions when using this spray and monitor the crops regularly.",
+        "timestamp": {
+          "$date": "2025-01-08T05:44:25.851Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": " मिरची पिकामध्ये थ्रिप्स साठी कोणते औषध फवारावे",
+        "en": " What medicine to spray for thrips in chili crop",
+        "timestamp": {
+          "$date": "2025-01-08T05:46:06.938Z"
+        },
+        "standalone_question": "What pesticide should be used to treat thrips in chili crops?",
+        "standalone_en": "What pesticide should be used to treat thrips in chili crops?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed"
+          ]
+        },
+        "content_transliterated": " mirchi pikamadhye thrips sathi conte ausadh favarave"
+      },
+      {
+        "role": "assistant",
+        "content": "मिरची पिकामध्ये थ्रिप्स नियंत्रणासाठी खालील औषधे फवारण्याची शिफारस केली जाते:\n\n1. **Imidacloprid**: 0.5 मि.ली. प्रति लिटर पाण्यात.\n2. **Thiamethoxam**: 0.5 ग्रॅम प्रति लिटर पाण्यात.\n3. **Chlorpyrifos**: 5 मि.ली. प्रति लिटर पाण्यात.\n\nया औषधांचा वापर करताना, कृपया उत्पादकाच्या सूचनांचे पालन करा आणि फवारणीच्या वेळी हवामानाची स्थिती लक्षात ठेवा.",
+        "en": "It is recommended to spray the following medications for thrips control in the chili crop:\n\n1. **Imidacloprid**: 0.5 ml. Per liter of water.\n2. **Thiamethoxam**: 0.5 grams per liter of water.\n3. **Chlorpyrifos**: 5 min. Per liter of water.\n\nWhen using these medications, please follow the manufacturer's instructions and keep weather conditions in mind at the time of spraying.",
+        "timestamp": {
+          "$date": "2025-01-08T05:46:12.040Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "मिरची पिकामध्ये फुलकळीच्या अवस्थेत कोणती खते द्यावीत",
+        "en": "What fertilizers should be given in the flowering stage in the chilli crop",
+        "timestamp": {
+          "$date": "2025-01-08T05:47:10.084Z"
+        },
+        "standalone_question": "What fertilizers should be applied to chili plants during the flowering stage?",
+        "standalone_en": "What fertilizers should be applied to chili plants during the flowering stage?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mirchi pikamadhye phulakalichya avasthet konati khate dyavit"
+      },
+      {
+        "role": "assistant",
+        "content": "फुलकळीच्या अवस्थेत मिरची पिकासाठी खालील खते द्यावीत:\n\n1. **12-61-0**: 1 किलोग्राम प्रति एकर\n2. **Urea**: 2.5 किलोग्राम प्रति एकर\n3. **Magnesium Sulphate**: 2 किलोग्राम प्रति एकर\n\nअथवा\n\n1. **24-24-0**: 4 किलोग्राम प्रति एकर\n2. **Urea**: 1 किलोग्राम प्रति एकर\n3. **Magnesium Sulphate**: 2 किलोग्राम प्रति एकर\n\nअथवा\n\n1. **Urea**: 3 किलोग्राम प्रति एकर\n2. **Phosphoric acid 80%**: 1 किलोग्राम प्रति एकर\n3. **Magnesium Sulphate**: 2 किलोग्राम प्रति एकर\n\nया खते फवारताना, योग्य प्रमाणात आणि पाण्यात मिसळून फवारणी करणे आवश्यक आहे.",
+        "en": "The following fertilizers should be given for the chilli crop in the flowering stage:\n\n1. **12-61-0**: 1 kg per acre\n2. **Urea**: 2.5 kg per acre\n3. **Magnesium Sulphate**: 2 kg per acre\n\nor\n\n1. **24-24-0**: 4 kg per acre\n2. **Urea**: 1 kg per acre\n3. **Magnesium Sulphate**: 2 kg per acre\n\nor\n\n1. **Urea**: 3 kg per acre\n2. **Phosphoric acid 80%**: 1 kg per acre\n3. **Magnesium Sulphate**: 2 kg per acre\n\nWhen spraying these fertilizers, it is necessary to spray in the right amount and mixed with water.",
+        "timestamp": {
+          "$date": "2025-01-08T05:47:18.995Z"
+        }
+      }
+    ],
+    "farmer_id": "amarpatil",
+    "farmer_plot_ids": [
+      "chilli5531"
+    ],
+    "conversation_id": "677e109dc92b58f82911556d",
+    "_id": "677e109dc92b58f82911556d",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-01-08T05:52:10.092000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-01-08T05:43:57.961000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "हा कोणता रोग आहे<user uploaded image for analysis at 'chilli5531/2025-01-08-1736314998826.jpg'>",
+        "en": "What disease is this<user uploaded image for analysis at 'chilli5531/2025-01-08-1736314998826.jpg' >",
+        "timestamp": {
+          "$date": "2025-01-08T05:43:57.961Z"
+        },
+        "standalone_question": "What disease is depicted in the uploaded image?",
+        "standalone_en": "What disease is depicted in the uploaded image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ha konta rog aahe<user uploaded image for analysis at 'chilli5531/2025-01-08-1736314998826.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या चिरळ्याच्या पिकात काही रोग किंवा कीडांचा प्रभाव दिसत आहे, जसे की पानांचा वाकणे आणि रंग बदलणे. हे लक्षणे विविध कीड जसे की **आफिड्स**, **थ्रिप्स**, किंवा रोग जसे की **सर्कोस्पोरा पान धब्बा** दर्शवू शकतात.\n\n**सुझवलेले स्प्रे:**\n1. **Isocycloseram 9.2% w/w DC + Isocycloseram 10% w/v DC**: 0.25 मि.ली.\n2. **Hexaconazole**: 1 मि.ली.\n3. **Cyenopyrafen 30% SC**: 0.6 मि.ली.\n4. **Azoxystrobin 18.2% + Difenoconazole 11.4% SC**: 1 मि.ली.\n5. **Broflanilide 20% SC**: 0.6 मि.ली.\n6. **Cyantraniliprole 7.3% w/w + Diafenthiuron 36.4% w/w SC**: 1 मि.ली.\n7. **Difenoconazole**: 0.8 मि.ली.\n8. **Spirotetramat + Imidacloprid**: 0.8 मि.ली.\n9. **Propiconazole**: 0.8 मि.ली.\n10. **Fipronil 80 WG**: 0.5 ग्रॅम.\n\nकृपया या स्प्रेचा वापर करताना उत्पादकाच्या सूचनांचे पालन करा आणि पिकांचे नियमितपणे निरीक्षण करा.",
+        "en": "Your chickpea crop may be affected by some diseases or pests, such as leaf bending and color changes. These symptoms can indicate various insects such as **aphids**, **thrips**, or diseases such as **sarcospora leaf spots**.\n\n**Swollen spray:**\n1. **Isocycloseram 9.2% w/w DC + Isocycloseram 10% w/v DC**: 0.25 ml.\n2. **Hexaconazole**: 1 min.\n3. **Cyenopyrafen 30% SC**: 0.6 ml.\n4. **Azoxystrobin 18.2% + Difenoconazole 11.4% SC**: 1 ml.\n5. **Broflanilide 20% SC**: 0.6 ml.\n6. **Cyantraniliprole 7.3% w/w + Diafenthiuron 36.4% w/w SC**: 1 ml.\n7. **Difenoconazole**: 0.8 ml.\n8. **Spirotetramat + Imidacloprid**: 0.8 ml.\n9. **Propiconazole**: 0.8 ml.\n10. **Fipronil 80 WG**: 0.5 g.\n\nPlease follow the grower's instructions when using this spray and monitor the crops regularly.",
+        "timestamp": {
+          "$date": "2025-01-08T05:44:25.851Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": " मिरची पिकामध्ये थ्रिप्स साठी कोणते औषध फवारावे",
+        "en": " What medicine to spray for thrips in chili crop",
+        "timestamp": {
+          "$date": "2025-01-08T05:46:06.938Z"
+        },
+        "standalone_question": "What pesticide should be used to treat thrips in chili crops?",
+        "standalone_en": "What pesticide should be used to treat thrips in chili crops?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed"
+          ]
+        },
+        "content_transliterated": " mirchi pikamadhye thrips sathi conte ausadh favarave"
+      },
+      {
+        "role": "assistant",
+        "content": "मिरची पिकामध्ये थ्रिप्स नियंत्रणासाठी खालील औषधे फवारण्याची शिफारस केली जाते:\n\n1. **Imidacloprid**: 0.5 मि.ली. प्रति लिटर पाण्यात.\n2. **Thiamethoxam**: 0.5 ग्रॅम प्रति लिटर पाण्यात.\n3. **Chlorpyrifos**: 5 मि.ली. प्रति लिटर पाण्यात.\n\nया औषधांचा वापर करताना, कृपया उत्पादकाच्या सूचनांचे पालन करा आणि फवारणीच्या वेळी हवामानाची स्थिती लक्षात ठेवा.",
+        "en": "It is recommended to spray the following medications for thrips control in the chili crop:\n\n1. **Imidacloprid**: 0.5 ml. Per liter of water.\n2. **Thiamethoxam**: 0.5 grams per liter of water.\n3. **Chlorpyrifos**: 5 min. Per liter of water.\n\nWhen using these medications, please follow the manufacturer's instructions and keep weather conditions in mind at the time of spraying.",
+        "timestamp": {
+          "$date": "2025-01-08T05:46:12.040Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "मिरची पिकामध्ये फुलकळीच्या अवस्थेत कोणती खते द्यावीत",
+        "en": "What fertilizers should be given in the flowering stage in the chilli crop",
+        "timestamp": {
+          "$date": "2025-01-08T05:47:10.084Z"
+        },
+        "standalone_question": "What fertilizers should be applied to chili plants during the flowering stage?",
+        "standalone_en": "What fertilizers should be applied to chili plants during the flowering stage?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mirchi pikamadhye phulakalichya avasthet konati khate dyavit"
+      },
+      {
+        "role": "assistant",
+        "content": "फुलकळीच्या अवस्थेत मिरची पिकासाठी खालील खते द्यावीत:\n\n1. **12-61-0**: 1 किलोग्राम प्रति एकर\n2. **Urea**: 2.5 किलोग्राम प्रति एकर\n3. **Magnesium Sulphate**: 2 किलोग्राम प्रति एकर\n\nअथवा\n\n1. **24-24-0**: 4 किलोग्राम प्रति एकर\n2. **Urea**: 1 किलोग्राम प्रति एकर\n3. **Magnesium Sulphate**: 2 किलोग्राम प्रति एकर\n\nअथवा\n\n1. **Urea**: 3 किलोग्राम प्रति एकर\n2. **Phosphoric acid 80%**: 1 किलोग्राम प्रति एकर\n3. **Magnesium Sulphate**: 2 किलोग्राम प्रति एकर\n\nया खते फवारताना, योग्य प्रमाणात आणि पाण्यात मिसळून फवारणी करणे आवश्यक आहे.",
+        "en": "The following fertilizers should be given for the chilli crop in the flowering stage:\n\n1. **12-61-0**: 1 kg per acre\n2. **Urea**: 2.5 kg per acre\n3. **Magnesium Sulphate**: 2 kg per acre\n\nor\n\n1. **24-24-0**: 4 kg per acre\n2. **Urea**: 1 kg per acre\n3. **Magnesium Sulphate**: 2 kg per acre\n\nor\n\n1. **Urea**: 3 kg per acre\n2. **Phosphoric acid 80%**: 1 kg per acre\n3. **Magnesium Sulphate**: 2 kg per acre\n\nWhen spraying these fertilizers, it is necessary to spray in the right amount and mixed with water.",
+        "timestamp": {
+          "$date": "2025-01-08T05:47:18.995Z"
+        }
+      }
+    ],
+    "farmer_id": "amarpatil",
+    "farmer_plot_ids": [
+      "chilli5531"
+    ],
+    "conversation_id": "677e109dc92b58f82911556d",
+    "_id": "677e109dc92b58f82911556d",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-01-08T05:52:10.092000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-01-08T05:43:57.961000+00:00"
+  }
+]

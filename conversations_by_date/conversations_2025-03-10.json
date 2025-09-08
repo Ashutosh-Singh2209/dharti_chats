@@ -1,0 +1,728 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Sadya plot madhil mashin kadun thevale ahe",
+        "en": "Currently kept by the machine in the plot",
+        "timestamp": {
+          "$date": "2025-03-10T16:11:13.934Z"
+        },
+        "standalone_question": "The machine has been removed from the plot.",
+        "standalone_en": "The machine has been removed from the plot.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Tumhi \"Supersonak Plot no 1\" madhil mashin kadun thevale ahe. Yaa plot madhil Nero (Irrigation Unit) device ahe.",
+        "en": "You've got the machine in \"Supersunk Plot No. 1.\" This plot is a NERO (irrigation unit) device.",
+        "timestamp": {
+          "$date": "2025-03-10T16:11:17.278Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Bag Purna kadun ghetali ahe ",
+        "en": "The bag is taken from full ",
+        "timestamp": {
+          "$date": "2025-03-10T16:14:07.947Z"
+        },
+        "standalone_question": "Has the bag been taken from the Purna?",
+        "standalone_en": "Has the bag been taken from the Purna?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "\"Supersonak Plot no 1\" madhil bag purna kadun ghetali ahe. Tumhi yaa plot madhil \"CANE_MATURITY\" (Topping) stage madhe aahat. Yaa stage cha samay 2024-06-13 pasun suru zala hota. \n\nKripaya, tumhi yaa stage cha update app var kara.",
+        "en": "The bag in \"Supersunk Plot No. 1\" is taken from full. You're in the \"Can_Maturity\" (topping) stage of this plot. The stage started on 2024-06-13. \n\nPlease, please update this stage on APP.",
+        "timestamp": {
+          "$date": "2025-03-10T16:14:13.056Z"
+        }
+      }
+    ],
+    "farmer_id": "shamraoganpatighule",
+    "farmer_plot_ids": [
+      "supersonakplotno1"
+    ],
+    "conversation_id": "67cf0f211df78e7f785fb0e1",
+    "_id": "67cf0f211df78e7f785fb0e1",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-03-10T16:19:07.954000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-03-10T16:11:13.934000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Supasonak plot no 1 kadun takala aahe bagela mal ala nahi",
+        "en": "Supsonak plot dropped from No 1 The garden did not receive the goods",
+        "timestamp": {
+          "$date": "2025-03-10T16:06:05.975Z"
+        },
+        "standalone_question": "Is the Supasonak plot number 1 available for viewing?",
+        "standalone_en": "Is the Supasonak plot number 1 available for viewing?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Supersonak Plot no 1 मध्ये सध्या 0 kPa मातीची आर्द्रता आहे, म्हणजे माती पूर्णपणे ओलसर आहे. तुम्ही पाण्याची सिंचन केले तरीही, मातीची आर्द्रता कमी होत नाही. \n\nकाही कारणे असू शकतात:\n1. जर तुमचा उपकरण नवीन असेल, तर ते पाण्यात बुडवलेले असू शकते.\n2. जर तुमच्या पिकाची अवस्था लवकरची असेल किंवा नुकतीच छाटणी केली असेल, तर पाण्याची शोषण कमी असू शकते.\n3. कधी कधी, स्थानिक भूप्रदेशामुळे पाण्याचा संचय होऊ शकतो.\n\nतुम्हाला याबाबत अधिक माहिती हवी का? तुम्ही तिकीट तयार करू इच्छिता का?",
+        "en": "Supersonak Plot No 1 currently has 0 kPa of soil moisture, meaning the soil is completely moist. Even if you irrigate the water, the soil moisture does not decrease. \n\nSome reasons may be:\n1. If your device is new, it may be submerged in water.\n2. If your crop is in a state of early or has just been pruned, water absorption may be low.\n3. Sometimes, local terrain can cause water storage.\n\nDo you want to know more about this? Do you want to make a ticket?",
+        "timestamp": {
+          "$date": "2025-03-10T16:06:10.472Z"
+        }
+      }
+    ],
+    "farmer_id": "shamraoganpatighule",
+    "farmer_plot_ids": [
+      "supersonakplotno1"
+    ],
+    "conversation_id": "67cf0ded46516a24dc810611",
+    "_id": "67cf0ded46516a24dc810611",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-03-10T16:11:05.982000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-03-10T16:06:05.975000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Have  created a plot not able to add crop",
+        "en": "Have  created a plot not able to add crop",
+        "timestamp": {
+          "$date": "2025-03-10T16:00:45.918Z"
+        },
+        "standalone_question": "How can I add a crop to the plot I created?",
+        "standalone_en": "How can I add a crop to the plot I created?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "If you're having trouble adding a crop to your plot, please follow these steps:\n\n1. Open the Fyllo app.\n2. Go to \"My Farm.\"\n3. Select the plot where you want to add the crop.\n4. Look for an option to \"Add Crop\" or \"Manage Crops.\"\n5. Follow the prompts to select the crop variety and enter any required details.\n\nIf you're still facing issues, please ensure that your app is updated to the latest version. You can also contact customer support for further assistance.",
+        "en": "If you're having trouble adding a crop to your plot, please follow these steps:\n\n1. Open the Fyllo app.\n2. Go to \"My Farm.\"\n3. Select the plot where you want to add the crop.\n4. Look for an option to \"Add Crop\" or \"Manage Crops.\"\n5. Follow the prompts to select the crop variety and enter any required details.\n\nIf you're still facing issues, please ensure that your app is updated to the latest version. You can also contact customer support for further assistance.",
+        "timestamp": {
+          "$date": "2025-03-10T16:00:50.286Z"
+        }
+      }
+    ],
+    "farmer_id": "amoldeshpande",
+    "farmer_plot_ids": [
+      "mangoplot481",
+      "sugarcanefarm"
+    ],
+    "conversation_id": "67cf0cad55f8d4a7a9483e81",
+    "_id": "67cf0cad55f8d4a7a9483e81",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-03-10T16:05:45.926000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-03-10T16:00:45.918000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Fertigation is not showing for sugarcane crop",
+        "en": "Fertigation is not showing for sugarcane crop",
+        "timestamp": {
+          "$date": "2025-03-10T14:58:38.869Z"
+        },
+        "standalone_question": "Why is fertigation not being applied to the sugarcane crop?",
+        "standalone_en": "Why is fertigation not being applied to the sugarcane crop?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The fertigation schedule is not showing for your sugarcane farm because there is currently no crop sown in that plot. Please ensure that the crop is planted, and then the fertigation schedule will be available. If you need assistance with anything else, feel free to ask!",
+        "en": "The fertigation schedule is not showing for your sugarcane farm because there is currently no crop sown in that plot. Please ensure that the crop is planted, and then the fertigation schedule will be available. If you need assistance with anything else, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-03-10T14:58:44.028Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "How will I add crop",
+        "en": "How will I add crop",
+        "timestamp": {
+          "$date": "2025-03-10T14:59:21.253Z"
+        },
+        "standalone_question": "How can I add a crop to my plot?",
+        "standalone_en": "How can I add a crop to my plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To add a crop in the Fyllo app, follow these steps:\n\n1. **Open the Fyllo App**: Launch the app on your device.\n2. **Go to Your Plots**: Navigate to the section where your plots are listed.\n3. **Select the Plot**: Choose the plot where you want to add the crop.\n4. **Add Crop Option**: Look for an option to add or manage crops. This may be labeled as \"Add Crop\" or \"Manage Crops.\"\n5. **Enter Crop Details**: Fill in the required details such as crop name, variety, sowing date, and any other relevant information.\n6. **Save Changes**: After entering the details, make sure to save the changes.\n\nIf you need further assistance or specific instructions, you can contact the Fyllo support team for help.",
+        "en": "To add a crop in the Fyllo app, follow these steps:\n\n1. **Open the Fyllo App**: Launch the app on your device.\n2. **Go to Your Plots**: Navigate to the section where your plots are listed.\n3. **Select the Plot**: Choose the plot where you want to add the crop.\n4. **Add Crop Option**: Look for an option to add or manage crops. This may be labeled as \"Add Crop\" or \"Manage Crops.\"\n5. **Enter Crop Details**: Fill in the required details such as crop name, variety, sowing date, and any other relevant information.\n6. **Save Changes**: After entering the details, make sure to save the changes.\n\nIf you need further assistance or specific instructions, you can contact the Fyllo support team for help.",
+        "timestamp": {
+          "$date": "2025-03-10T14:59:28.168Z"
+        }
+      }
+    ],
+    "farmer_id": "amoldeshpande",
+    "farmer_plot_ids": [
+      "mangoplot481",
+      "sugarcanefarm"
+    ],
+    "conversation_id": "67cefe1e55f8d4a7a9483e80",
+    "_id": "67cefe1e55f8d4a7a9483e80",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-03-10T15:04:21.287000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-03-10T14:58:38.869000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Internet speed is good still you get no internet message ",
+        "en": "Internet speed is good still you get no internet message ",
+        "timestamp": {
+          "$date": "2025-03-10T14:33:40.364Z"
+        },
+        "standalone_question": "Why do I receive a \"no internet\" message even though my internet speed is good?",
+        "standalone_en": "Why do I receive a \"no internet\" message even though my internet speed is good?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "If you're receiving a \"no internet\" message despite having good internet speed, try the following steps:\n\n1. **Restart the App**: Close and reopen the Nero app.\n2. **Check Device Connection**: Ensure that your device is properly connected to the internet.\n3. **Network Settings**: Check your device's network settings to ensure it's connected to the correct Wi-Fi or mobile data.\n4. **Reboot Device**: Restart your device to refresh the connection.\n5. **Update App**: Ensure that the Nero app is updated to the latest version.\n\nIf the issue persists, consider reaching out to Fyllo support for further assistance.",
+        "en": "If you're receiving a \"no internet\" message despite having good internet speed, try the following steps:\n\n1. **Restart the App**: Close and reopen the Nero app.\n2. **Check Device Connection**: Ensure that your device is properly connected to the internet.\n3. **Network Settings**: Check your device's network settings to ensure it's connected to the correct Wi-Fi or mobile data.\n4. **Reboot Device**: Restart your device to refresh the connection.\n5. **Update App**: Ensure that the Nero app is updated to the latest version.\n\nIf the issue persists, consider reaching out to Fyllo support for further assistance.",
+        "timestamp": {
+          "$date": "2025-03-10T14:33:45.262Z"
+        }
+      }
+    ],
+    "farmer_id": "amoldeshpande",
+    "farmer_plot_ids": [
+      "mangoplot481",
+      "sugarcanefarm"
+    ],
+    "conversation_id": "67cef84446516a24dc810610",
+    "_id": "67cef84446516a24dc810610",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-03-10T14:38:40.371000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-03-10T14:33:40.364000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How to change plot name",
+        "en": "How to change plot name",
+        "timestamp": {
+          "$date": "2025-03-10T10:39:18.633Z"
+        },
+        "standalone_question": "How can I change the name of a plot?",
+        "standalone_en": "How can I change the name of a plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To change the plot name in the Fyllo app, follow these steps:\n\n1. Open the Fyllo app on your device.\n2. Navigate to the \"My Plots\" section.\n3. Select the plot you want to rename.\n4. Look for an option to edit or change the plot name.\n5. Enter the new name and save the changes.\n\nIf you encounter any issues, you can contact the Fyllo support team for assistance.",
+        "en": "To change the plot name in the Fyllo app, follow these steps:\n\n1. Open the Fyllo app on your device.\n2. Navigate to the \"My Plots\" section.\n3. Select the plot you want to rename.\n4. Look for an option to edit or change the plot name.\n5. Enter the new name and save the changes.\n\nIf you encounter any issues, you can contact the Fyllo support team for assistance.",
+        "timestamp": {
+          "$date": "2025-03-10T10:39:21.981Z"
+        }
+      }
+    ],
+    "farmer_id": "aadityavilasmore",
+    "farmer_plot_ids": [
+      "kingberrry",
+      "plotno3crimpson874"
+    ],
+    "conversation_id": "67cec15646516a24dc81060f",
+    "_id": "67cec15646516a24dc81060f",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-03-10T10:44:18.640000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-03-10T10:39:18.633000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is my nero sensor working ",
+        "en": "Is my nero sensor working ",
+        "timestamp": {
+          "$date": "2025-03-10T10:28:54.916Z"
+        },
+        "standalone_question": "Is my Nero sensor functioning properly?",
+        "standalone_en": "Is my Nero sensor functioning properly?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How do I set up the sensors for Nero?\nA: Install the sensors according to the guidelines in the manual, ensuring they are placed correctly in the soil.",
+            "Q: How do I replace the sensors for Nero?\nA: Disconnect the sensors by rotating them counterclockwise, unplug the connector, and replace them by following the steps in the manual.",
+            "Q: What should I do if the Nero app is not showing updated data?\nA: Ensure the device is attached to the app, check network connectivity, verify battery status, and restart the device if needed."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Your Nero sensors are working properly. Here are the latest readings:\n\n**Mango Plot:**\n- Soil Temperature: 22.62°C\n- Soil Moisture 1: 1 kPa (wet)\n- Soil Moisture 2: 2 kPa (wet)\n- Battery: 55%\n\n**Sugarcane Farm:**\n- Soil Temperature: 29°C\n- Soil Moisture 1: 9 kPa (wet)\n- Soil Moisture 2: 3 kPa (wet)\n- Battery: 56%\n\nBoth sensors are providing data and functioning well.",
+        "en": "Your Nero sensors are working properly. Here are the latest readings:\n\n**Mango Plot:**\n- Soil Temperature: 22.62°C\n- Soil Moisture 1: 1 kPa (wet)\n- Soil Moisture 2: 2 kPa (wet)\n- Battery: 55%\n\n**Sugarcane Farm:**\n- Soil Temperature: 29°C\n- Soil Moisture 1: 9 kPa (wet)\n- Soil Moisture 2: 3 kPa (wet)\n- Battery: 56%\n\nBoth sensors are providing data and functioning well.",
+        "timestamp": {
+          "$date": "2025-03-10T10:29:00.580Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "What is payment I need to make for Sugarcane farm",
+        "en": "What is payment I need to make for Sugarcane farm",
+        "timestamp": {
+          "$date": "2025-03-10T10:29:38.693Z"
+        },
+        "standalone_question": "What payment do I need to make for the Sugarcane farm?",
+        "standalone_en": "What payment do I need to make for the Sugarcane farm?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "I currently do not have access to payment details or billing information for your Sugarcane farm. Please check your account or contact Fyllo's customer support for assistance regarding payments.",
+        "en": "I currently do not have access to payment details or billing information for your Sugarcane farm. Please check your account or contact Fyllo's customer support for assistance regarding payments.",
+        "timestamp": {
+          "$date": "2025-03-10T10:29:45.039Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "My sugarcane plot location is not reflecting properly ",
+        "en": "My sugarcane plot location is not reflecting properly ",
+        "timestamp": {
+          "$date": "2025-03-10T10:30:36.519Z"
+        },
+        "standalone_question": "Why is my sugarcane plot location not displaying correctly?",
+        "standalone_en": "Why is my sugarcane plot location not displaying correctly?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "If your Sugarcane farm's location is not reflecting properly, please check the following:\n\n1. **Device Settings:** Ensure that the device settings are correctly configured to your plot's location.\n2. **GPS Signal:** Make sure the device has a good GPS signal. Sometimes, poor signal can lead to inaccurate location data.\n3. **App Update:** Ensure that your Fyllo app is updated to the latest version, as updates may fix location-related issues.\n4. **Contact Support:** If the issue persists, please contact Fyllo's customer support for assistance in correcting the location.\n\nLet me know if you need help with anything else!",
+        "en": "If your Sugarcane farm's location is not reflecting properly, please check the following:\n\n1. **Device Settings:** Ensure that the device settings are correctly configured to your plot's location.\n2. **GPS Signal:** Make sure the device has a good GPS signal. Sometimes, poor signal can lead to inaccurate location data.\n3. **App Update:** Ensure that your Fyllo app is updated to the latest version, as updates may fix location-related issues.\n4. **Contact Support:** If the issue persists, please contact Fyllo's customer support for assistance in correcting the location.\n\nLet me know if you need help with anything else!",
+        "timestamp": {
+          "$date": "2025-03-10T10:30:43.116Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Location mention is yeoti where as it is Sangvi ",
+        "en": "Location mention is yeoti where as it is Sangvi ",
+        "timestamp": {
+          "$date": "2025-03-10T10:31:22.507Z"
+        },
+        "standalone_question": "Why is the location mentioned as Yeoti instead of Sangvi?",
+        "standalone_en": "Why is the location mentioned as Yeoti instead of Sangvi?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To correct the location of your Sugarcane farm from Yeoti to Sangvi, please follow these steps:\n\n1. **Check Device Settings:** Access the settings of your Nero device and ensure that the location is set correctly to Sangvi.\n\n2. **Update Location in App:** If you have the option in the Fyllo app, manually update the location of your Sugarcane farm to Sangvi.\n\n3. **Contact Support:** If you are unable to change the location yourself, please contact Fyllo's customer support for assistance in updating the location in their system.\n\nLet me know if you need further assistance!",
+        "en": "To correct the location of your Sugarcane farm from Yeoti to Sangvi, please follow these steps:\n\n1. **Check Device Settings:** Access the settings of your Nero device and ensure that the location is set correctly to Sangvi.\n\n2. **Update Location in App:** If you have the option in the Fyllo app, manually update the location of your Sugarcane farm to Sangvi.\n\n3. **Contact Support:** If you are unable to change the location yourself, please contact Fyllo's customer support for assistance in updating the location in their system.\n\nLet me know if you need further assistance!",
+        "timestamp": {
+          "$date": "2025-03-10T10:31:27.526Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "How will I contact support team",
+        "en": "How will I contact support team",
+        "timestamp": {
+          "$date": "2025-03-10T10:34:17.789Z"
+        },
+        "standalone_question": "How can I contact the support team?",
+        "standalone_en": "How can I contact the support team?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How do I contact customer support for Fyllo?\nA: You can contact customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in. Do you want me to raise a support ticket for you?"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "You can contact the Fyllo support team in the following ways:\n\n1. **Phone:** Call the helpline number at **(+91) 9380908040**.\n\n2. **Email:** Send an email to **contact@fyllo.in**.\n\nFeel free to reach out to them for any assistance you need!",
+        "en": "You can contact the Fyllo support team in the following ways:\n\n1. **Phone:** Call the helpline number at **(+91) 9380908040**.\n\n2. **Email:** Send an email to **contact@fyllo.in**.\n\nFeel free to reach out to them for any assistance you need!",
+        "timestamp": {
+          "$date": "2025-03-10T10:34:21.225Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Who will I go to nero setting ",
+        "en": "Who will I go to nero setting ",
+        "timestamp": {
+          "$date": "2025-03-10T10:35:17.815Z"
+        },
+        "standalone_question": "Where can I find the Nero settings?",
+        "standalone_en": "Where can I find the Nero settings?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How do I get started with Nero?\nA: Follow the steps in the manual to set up the device, connect it to the Fyllo app, and install the necessary components.",
+            "Q: How do I set up the sensors for Nero?\nA: Install the sensors according to the guidelines in the manual, ensuring they are placed correctly in the soil."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To access the Nero settings, follow these steps:\n\n1. **Open the Fyllo App:** Launch the Fyllo app on your smartphone or tablet.\n\n2. **Navigate to Device Settings:** Look for the section that lists your devices. Select your Nero device from the list.\n\n3. **Access Settings:** Within the device details, you should find an option for settings or configuration. Tap on it to access the Nero settings.\n\n4. **Make Adjustments:** Here, you can adjust settings such as location, sensor calibration, and other configurations.\n\nIf you encounter any issues or need further assistance, feel free to contact Fyllo's customer support.",
+        "en": "To access the Nero settings, follow these steps:\n\n1. **Open the Fyllo App:** Launch the Fyllo app on your smartphone or tablet.\n\n2. **Navigate to Device Settings:** Look for the section that lists your devices. Select your Nero device from the list.\n\n3. **Access Settings:** Within the device details, you should find an option for settings or configuration. Tap on it to access the Nero settings.\n\n4. **Make Adjustments:** Here, you can adjust settings such as location, sensor calibration, and other configurations.\n\nIf you encounter any issues or need further assistance, feel free to contact Fyllo's customer support.",
+        "timestamp": {
+          "$date": "2025-03-10T10:35:22.362Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "I ",
+        "en": "I ",
+        "timestamp": {
+          "$date": "2025-03-10T10:36:03.200Z"
+        },
+        "standalone_question": "How do I access the Nero settings?",
+        "standalone_en": "How do I access the Nero settings?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How do I get started with Nero?\nA: Follow the steps in the manual to set up the device, connect it to the Fyllo app, and install the necessary components.",
+            "Q: How do I set up the sensors for Nero?\nA: Install the sensors according to the guidelines in the manual, ensuring they are placed correctly in the soil."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like your message got cut off. How can I assist you further?",
+        "en": "It seems like your message got cut off. How can I assist you further?",
+        "timestamp": {
+          "$date": "2025-03-10T10:36:06.664Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Whenever I open your app i am getting the message check your internet connection what does this means",
+        "en": "Whenever I open your app i am getting the message check your internet connection what does this means",
+        "timestamp": {
+          "$date": "2025-03-10T10:37:10.566Z"
+        },
+        "standalone_question": "What does it mean when I receive a message saying \"check your internet connection\" every time I open the app?",
+        "standalone_en": "What does it mean when I receive a message saying \"check your internet connection\" every time I open the app?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The message \"check your internet connection\" typically means that the Fyllo app is unable to connect to the internet. Here are some steps you can take to resolve this issue:\n\n1. **Check Wi-Fi or Mobile Data:** Ensure that your device is connected to a stable Wi-Fi network or has mobile data enabled.\n\n2. **Restart Your Device:** Sometimes, simply restarting your smartphone or tablet can resolve connectivity issues.\n\n3. **Check Airplane Mode:** Make sure that Airplane Mode is turned off, as this will disable all network connections.\n\n4. **Update the App:** Ensure that you are using the latest version of the Fyllo app. Check for updates in your app store.\n\n5. **Reinstall the App:** If the problem persists, try uninstalling and then reinstalling the Fyllo app.\n\nIf you continue to experience issues, consider reaching out to Fyllo's customer support for further assistance.",
+        "en": "The message \"check your internet connection\" typically means that the Fyllo app is unable to connect to the internet. Here are some steps you can take to resolve this issue:\n\n1. **Check Wi-Fi or Mobile Data:** Ensure that your device is connected to a stable Wi-Fi network or has mobile data enabled.\n\n2. **Restart Your Device:** Sometimes, simply restarting your smartphone or tablet can resolve connectivity issues.\n\n3. **Check Airplane Mode:** Make sure that Airplane Mode is turned off, as this will disable all network connections.\n\n4. **Update the App:** Ensure that you are using the latest version of the Fyllo app. Check for updates in your app store.\n\n5. **Reinstall the App:** If the problem persists, try uninstalling and then reinstalling the Fyllo app.\n\nIf you continue to experience issues, consider reaching out to Fyllo's customer support for further assistance.",
+        "timestamp": {
+          "$date": "2025-03-10T10:37:17.700Z"
+        }
+      }
+    ],
+    "farmer_id": "amoldeshpande",
+    "farmer_plot_ids": [
+      "mangoplot481",
+      "sugarcanefarm"
+    ],
+    "conversation_id": "67cebee655f8d4a7a9483e7c",
+    "_id": "67cebee655f8d4a7a9483e7c",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-03-10T10:42:10.574000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-03-10T10:28:54.916000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is my nero sensor working ",
+        "en": "Is my nero sensor working ",
+        "timestamp": {
+          "$date": "2025-03-10T10:28:54.916Z"
+        },
+        "standalone_question": "Is my Nero sensor functioning properly?",
+        "standalone_en": "Is my Nero sensor functioning properly?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How do I set up the sensors for Nero?\nA: Install the sensors according to the guidelines in the manual, ensuring they are placed correctly in the soil.",
+            "Q: How do I replace the sensors for Nero?\nA: Disconnect the sensors by rotating them counterclockwise, unplug the connector, and replace them by following the steps in the manual.",
+            "Q: What should I do if the Nero app is not showing updated data?\nA: Ensure the device is attached to the app, check network connectivity, verify battery status, and restart the device if needed."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Your Nero sensors are working properly. Here are the latest readings:\n\n**Mango Plot:**\n- Soil Temperature: 22.62°C\n- Soil Moisture 1: 1 kPa (wet)\n- Soil Moisture 2: 2 kPa (wet)\n- Battery: 55%\n\n**Sugarcane Farm:**\n- Soil Temperature: 29°C\n- Soil Moisture 1: 9 kPa (wet)\n- Soil Moisture 2: 3 kPa (wet)\n- Battery: 56%\n\nBoth sensors are providing data and functioning well.",
+        "en": "Your Nero sensors are working properly. Here are the latest readings:\n\n**Mango Plot:**\n- Soil Temperature: 22.62°C\n- Soil Moisture 1: 1 kPa (wet)\n- Soil Moisture 2: 2 kPa (wet)\n- Battery: 55%\n\n**Sugarcane Farm:**\n- Soil Temperature: 29°C\n- Soil Moisture 1: 9 kPa (wet)\n- Soil Moisture 2: 3 kPa (wet)\n- Battery: 56%\n\nBoth sensors are providing data and functioning well.",
+        "timestamp": {
+          "$date": "2025-03-10T10:29:00.580Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "What is payment I need to make for Sugarcane farm",
+        "en": "What is payment I need to make for Sugarcane farm",
+        "timestamp": {
+          "$date": "2025-03-10T10:29:38.693Z"
+        },
+        "standalone_question": "What payment do I need to make for the Sugarcane farm?",
+        "standalone_en": "What payment do I need to make for the Sugarcane farm?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "I currently do not have access to payment details or billing information for your Sugarcane farm. Please check your account or contact Fyllo's customer support for assistance regarding payments.",
+        "en": "I currently do not have access to payment details or billing information for your Sugarcane farm. Please check your account or contact Fyllo's customer support for assistance regarding payments.",
+        "timestamp": {
+          "$date": "2025-03-10T10:29:45.039Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "My sugarcane plot location is not reflecting properly ",
+        "en": "My sugarcane plot location is not reflecting properly ",
+        "timestamp": {
+          "$date": "2025-03-10T10:30:36.519Z"
+        },
+        "standalone_question": "Why is my sugarcane plot location not displaying correctly?",
+        "standalone_en": "Why is my sugarcane plot location not displaying correctly?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "If your Sugarcane farm's location is not reflecting properly, please check the following:\n\n1. **Device Settings:** Ensure that the device settings are correctly configured to your plot's location.\n2. **GPS Signal:** Make sure the device has a good GPS signal. Sometimes, poor signal can lead to inaccurate location data.\n3. **App Update:** Ensure that your Fyllo app is updated to the latest version, as updates may fix location-related issues.\n4. **Contact Support:** If the issue persists, please contact Fyllo's customer support for assistance in correcting the location.\n\nLet me know if you need help with anything else!",
+        "en": "If your Sugarcane farm's location is not reflecting properly, please check the following:\n\n1. **Device Settings:** Ensure that the device settings are correctly configured to your plot's location.\n2. **GPS Signal:** Make sure the device has a good GPS signal. Sometimes, poor signal can lead to inaccurate location data.\n3. **App Update:** Ensure that your Fyllo app is updated to the latest version, as updates may fix location-related issues.\n4. **Contact Support:** If the issue persists, please contact Fyllo's customer support for assistance in correcting the location.\n\nLet me know if you need help with anything else!",
+        "timestamp": {
+          "$date": "2025-03-10T10:30:43.116Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Location mention is yeoti where as it is Sangvi ",
+        "en": "Location mention is yeoti where as it is Sangvi ",
+        "timestamp": {
+          "$date": "2025-03-10T10:31:22.507Z"
+        },
+        "standalone_question": "Why is the location mentioned as Yeoti instead of Sangvi?",
+        "standalone_en": "Why is the location mentioned as Yeoti instead of Sangvi?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To correct the location of your Sugarcane farm from Yeoti to Sangvi, please follow these steps:\n\n1. **Check Device Settings:** Access the settings of your Nero device and ensure that the location is set correctly to Sangvi.\n\n2. **Update Location in App:** If you have the option in the Fyllo app, manually update the location of your Sugarcane farm to Sangvi.\n\n3. **Contact Support:** If you are unable to change the location yourself, please contact Fyllo's customer support for assistance in updating the location in their system.\n\nLet me know if you need further assistance!",
+        "en": "To correct the location of your Sugarcane farm from Yeoti to Sangvi, please follow these steps:\n\n1. **Check Device Settings:** Access the settings of your Nero device and ensure that the location is set correctly to Sangvi.\n\n2. **Update Location in App:** If you have the option in the Fyllo app, manually update the location of your Sugarcane farm to Sangvi.\n\n3. **Contact Support:** If you are unable to change the location yourself, please contact Fyllo's customer support for assistance in updating the location in their system.\n\nLet me know if you need further assistance!",
+        "timestamp": {
+          "$date": "2025-03-10T10:31:27.526Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "How will I contact support team",
+        "en": "How will I contact support team",
+        "timestamp": {
+          "$date": "2025-03-10T10:34:17.789Z"
+        },
+        "standalone_question": "How can I contact the support team?",
+        "standalone_en": "How can I contact the support team?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How do I contact customer support for Fyllo?\nA: You can contact customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in. Do you want me to raise a support ticket for you?"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "You can contact the Fyllo support team in the following ways:\n\n1. **Phone:** Call the helpline number at **(+91) 9380908040**.\n\n2. **Email:** Send an email to **contact@fyllo.in**.\n\nFeel free to reach out to them for any assistance you need!",
+        "en": "You can contact the Fyllo support team in the following ways:\n\n1. **Phone:** Call the helpline number at **(+91) 9380908040**.\n\n2. **Email:** Send an email to **contact@fyllo.in**.\n\nFeel free to reach out to them for any assistance you need!",
+        "timestamp": {
+          "$date": "2025-03-10T10:34:21.225Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Who will I go to nero setting ",
+        "en": "Who will I go to nero setting ",
+        "timestamp": {
+          "$date": "2025-03-10T10:35:17.815Z"
+        },
+        "standalone_question": "How can I access the Nero settings?",
+        "standalone_en": "How can I access the Nero settings?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How do I get started with Nero?\nA: Follow the steps in the manual to set up the device, connect it to the Fyllo app, and install the necessary components."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To access the Nero settings, follow these steps:\n\n1. **Open the Fyllo App:** Launch the Fyllo app on your smartphone or tablet.\n\n2. **Navigate to Device Settings:** Look for the section that lists your devices. Select your Nero device from the list.\n\n3. **Access Settings:** Within the device details, you should find an option for settings or configuration. Tap on it to access the Nero settings.\n\n4. **Make Adjustments:** Here, you can adjust settings such as location, sensor calibration, and other configurations.\n\nIf you encounter any issues or need further assistance, feel free to contact Fyllo's customer support.",
+        "en": "To access the Nero settings, follow these steps:\n\n1. **Open the Fyllo App:** Launch the Fyllo app on your smartphone or tablet.\n\n2. **Navigate to Device Settings:** Look for the section that lists your devices. Select your Nero device from the list.\n\n3. **Access Settings:** Within the device details, you should find an option for settings or configuration. Tap on it to access the Nero settings.\n\n4. **Make Adjustments:** Here, you can adjust settings such as location, sensor calibration, and other configurations.\n\nIf you encounter any issues or need further assistance, feel free to contact Fyllo's customer support.",
+        "timestamp": {
+          "$date": "2025-03-10T10:35:22.362Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "I ",
+        "en": "I ",
+        "timestamp": {
+          "$date": "2025-03-10T10:36:03.200Z"
+        },
+        "standalone_question": "How do I access the Nero settings?",
+        "standalone_en": "How do I access the Nero settings?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How do I get started with Nero?\nA: Follow the steps in the manual to set up the device, connect it to the Fyllo app, and install the necessary components.",
+            "Q: How do I set up the sensors for Nero?\nA: Install the sensors according to the guidelines in the manual, ensuring they are placed correctly in the soil."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like your message got cut off. How can I assist you further?",
+        "en": "It seems like your message got cut off. How can I assist you further?",
+        "timestamp": {
+          "$date": "2025-03-10T10:36:06.664Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Whenever I open your app i am getting the message check your internet connection what does this means",
+        "en": "Whenever I open your app i am getting the message check your internet connection what does this means",
+        "timestamp": {
+          "$date": "2025-03-10T10:37:10.566Z"
+        },
+        "standalone_question": "What does it mean when I receive a message saying \"check your internet connection\" every time I open the app?",
+        "standalone_en": "What does it mean when I receive a message saying \"check your internet connection\" every time I open the app?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The message \"check your internet connection\" typically means that the Fyllo app is unable to connect to the internet. Here are some steps you can take to resolve this issue:\n\n1. **Check Wi-Fi or Mobile Data:** Ensure that your device is connected to a stable Wi-Fi network or has mobile data enabled.\n\n2. **Restart Your Device:** Sometimes, simply restarting your smartphone or tablet can resolve connectivity issues.\n\n3. **Check Airplane Mode:** Make sure that Airplane Mode is turned off, as this will disable all network connections.\n\n4. **Update the App:** Ensure that you are using the latest version of the Fyllo app. Check for updates in your app store.\n\n5. **Reinstall the App:** If the problem persists, try uninstalling and then reinstalling the Fyllo app.\n\nIf you continue to experience issues, consider reaching out to Fyllo's customer support for further assistance.",
+        "en": "The message \"check your internet connection\" typically means that the Fyllo app is unable to connect to the internet. Here are some steps you can take to resolve this issue:\n\n1. **Check Wi-Fi or Mobile Data:** Ensure that your device is connected to a stable Wi-Fi network or has mobile data enabled.\n\n2. **Restart Your Device:** Sometimes, simply restarting your smartphone or tablet can resolve connectivity issues.\n\n3. **Check Airplane Mode:** Make sure that Airplane Mode is turned off, as this will disable all network connections.\n\n4. **Update the App:** Ensure that you are using the latest version of the Fyllo app. Check for updates in your app store.\n\n5. **Reinstall the App:** If the problem persists, try uninstalling and then reinstalling the Fyllo app.\n\nIf you continue to experience issues, consider reaching out to Fyllo's customer support for further assistance.",
+        "timestamp": {
+          "$date": "2025-03-10T10:37:17.700Z"
+        }
+      }
+    ],
+    "farmer_id": "amoldeshpande",
+    "farmer_plot_ids": [
+      "mangoplot481",
+      "sugarcanefarm"
+    ],
+    "conversation_id": "67cebee655f8d4a7a9483e7c",
+    "_id": "67cebee655f8d4a7a9483e7c",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-03-10T10:42:10.574000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-03-10T10:28:54.916000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "उरी रोगासाठी काय केले उपाययोजना",
+        "en": "What measures have been taken for Uri disease",
+        "timestamp": {
+          "$date": "2025-03-10T08:45:48.061Z"
+        },
+        "standalone_question": "What measures have been taken for the treatment of URI (Upper Respiratory Infection)?",
+        "standalone_en": "What measures have been taken for the treatment of URI (Upper Respiratory Infection)?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "uri rogasathi kay kele upayayojana"
+      },
+      {
+        "role": "assistant",
+        "content": "उरी रोगासाठी खालील उपाययोजना करा:\n\n1. **सुरुवातीच्या टप्प्यात नियंत्रण**: उरी रोगाच्या लक्षणे दिसल्यास, प्रभावित भाग कापून टाका.\n2. **फफूंदनाशकांचा वापर**: फफूंदनाशक जसे की \"कार्बेन्डाझिम\" (2.5 ग्रॅम प्रति लिटर) चा वापर करा.\n3. **साफसफाई**: शेतातील अवशेष आणि कचरा साफ करा, कारण यामुळे रोगाचा प्रसार होतो.\n4. **सिंचन व्यवस्थापन**: योग्य पाण्याचे व्यवस्थापन करा, कारण ओलसर वातावरण उरी रोगाला प्रोत्साहन देते.\n5. **पोषण व्यवस्थापन**: योग्य प्रमाणात खते वापरा, जेणेकरून पिकाची आरोग्य स्थिती चांगली राहील.\n\nया उपाययोजना नियमितपणे केल्यास उरी रोगाचा प्रभाव कमी होईल.",
+        "en": "Take the following measures for Uri disease:\n\n1. **Early stage control**: If there are symptoms of Uri disease, cut off the affected area.\n2. **Use fungicides**: Use fungicides such as \"carbendazim\" (2.5 grams per liter).\n3. **Cleaning**: Clean up farm debris and trash, as it spreads disease.\n4. **Irrigation Management**: Manage proper water, as moist environment promotes Uri disease.\n5. **Nutrition Management**: Use the right amount of fertilizers, so that the health condition of the crop is good.\n\nTaking these measures regularly will reduce the impact of Uri disease.",
+        "timestamp": {
+          "$date": "2025-03-10T08:45:57.450Z"
+        }
+      }
+    ],
+    "farmer_id": "ashokbhalerao",
+    "farmer_plot_ids": [
+      "plotno1rk695"
+    ],
+    "conversation_id": "67cea6bb67c1e5bbc2ddc3be",
+    "_id": "67cea6bb67c1e5bbc2ddc3be",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-03-10T08:50:48.070000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-03-10T08:45:48.061000+00:00"
+  }
+]

@@ -1,0 +1,678 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મારાં ખેતર માં ખાતર ની જરૂર ક્યારે પડશે ",
+        "en": "When will i need fertilizer in my farm? ",
+        "timestamp": {
+          "$date": "2025-04-29T16:51:05.723Z"
+        },
+        "standalone_question": "When will my field need fertilizer?",
+        "standalone_en": "When will my field need fertilizer?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate.",
+            "Q: If I don't add any test data, what is the basis for the generated fertigation schedule?\nA: When no specific test data is provided, Fyllo generates a basic fertigation schedule based on:\n\n    1. Typical nutrient needs for your crop type\n    2. General soil characteristics common in your region\n    3. Standard growing practices for your area\n    This schedule provides a starting point, but may not be as precise as one based on specific test data."
+          ]
+        },
+        "content_transliterated": "maran khetar man khatar knee jarur kyare padse "
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં, મસ્કમેલોનના \"ફ્રૂટ મેચ્યુરિટી\" તબક્કામાં, ખાતર માટેની જરૂરિયાત આ રીતે છે:\n\n### હાલની સપ્તાહની ફર્ટિગેશન શેડ્યૂલ:\n1. **મંગળવાર (2025-04-29)**:\n   - **ખાતર**: \n     - **કેલ્શિયમ નાઇટ્રેટ**: 3 કિલોગ્રામ/એકર (અન્ય ખાતરોની લાગણી પછી 15-20 મિનિટ પછી લાગુ કરવું)\n     - **સલ્ફેટ ઓફ પોટાશ**: 3 કિલોગ્રામ/એકર\n\n2. **શુક્રવાર (2025-05-02)**:\n   - **ખાતર**: \n     - **સલ્ફેટ ઓફ પોટાશ**: 3 કિલોગ્રામ/એકર (કેલ્શિયમ નાઇટ્રેટની જરૂર નથી)\n\nઆ તબક્કામાં, ખાતરનો ઉપયોગ તમારા પાકના વિકાસને પ્રોત્સાહિત કરવા માટે મહત્વપૂર્ણ છે.",
+        "en": "On your farm, in the \"Fruit Maturity\" phase of Muskmelon, the need for fertilizer is as follows:\n\n### Current week's fertigation schedule:\n1. **Tuesday (2025-04-29)**:\n   - **Fertilizer**: \n     **Calcium nitrate**: 3 kg/acre (applied 15-20 minutes after the realization of other fertilizers)\n     **Sulphate of Potash**: 3 kg/acre\n\n2. **Friday (2025-05-02)**:\n   - **Fertilizer**: \n     **Sulfate of Potash**: 3 kg/acre (calcium nitrate not required)\n\nIn this phase, the use of fertilizer is important to promote the growth of your crop.",
+        "timestamp": {
+          "$date": "2025-04-29T16:51:13.169Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારાં ખેતર માં દવા ની જરૂર ક્યારે પડશે ",
+        "en": "When will i need medicine in my farm? ",
+        "timestamp": {
+          "$date": "2025-04-29T16:52:06.084Z"
+        },
+        "standalone_question": "When will my field need medication?",
+        "standalone_en": "When will my field need medication?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "maran khetar man dava knee jarur kyare padse "
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં, હાલ કોઈ દવા અથવા પેસ્ટ નિયંત્રણની જરૂર નથી. જો કે, જો તમે કોઈ ખાસ સમસ્યા અનુભવો છો, તો કૃપા કરીને મને જણાવો.",
+        "en": "In your farm, there is currently no medication or pest control required. However, if you experience any particular problem, please let me know.",
+        "timestamp": {
+          "$date": "2025-04-29T16:52:13.126Z"
+        }
+      }
+    ],
+    "farmer_id": "bhaveshbhaisomajisolanki",
+    "farmer_plot_ids": [
+      "gharvaloplot405"
+    ],
+    "conversation_id": "68110379f7ac3c5270f53d30",
+    "_id": "68110379f7ac3c5270f53d30",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-29T16:57:06.092000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-29T16:51:05.723000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મારાં ખેતર માં ખાતર ની જરૂર ક્યારે પડશે ",
+        "en": "When will i need fertilizer in my farm? ",
+        "timestamp": {
+          "$date": "2025-04-29T16:51:05.723Z"
+        },
+        "standalone_question": "When will my field need fertilizer?",
+        "standalone_en": "When will my field need fertilizer?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate.",
+            "Q: If I don't add any test data, what is the basis for the generated fertigation schedule?\nA: When no specific test data is provided, Fyllo generates a basic fertigation schedule based on:\n\n    1. Typical nutrient needs for your crop type\n    2. General soil characteristics common in your region\n    3. Standard growing practices for your area\n    This schedule provides a starting point, but may not be as precise as one based on specific test data."
+          ]
+        },
+        "content_transliterated": "maran khetar man khatar knee jarur kyare padse "
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં, મસ્કમેલોનના \"ફ્રૂટ મેચ્યુરિટી\" તબક્કામાં, ખાતર માટેની જરૂરિયાત આ રીતે છે:\n\n### હાલની સપ્તાહની ફર્ટિગેશન શેડ્યૂલ:\n1. **મંગળવાર (2025-04-29)**:\n   - **ખાતર**: \n     - **કેલ્શિયમ નાઇટ્રેટ**: 3 કિલોગ્રામ/એકર (અન્ય ખાતરોની લાગણી પછી 15-20 મિનિટ પછી લાગુ કરવું)\n     - **સલ્ફેટ ઓફ પોટાશ**: 3 કિલોગ્રામ/એકર\n\n2. **શુક્રવાર (2025-05-02)**:\n   - **ખાતર**: \n     - **સલ્ફેટ ઓફ પોટાશ**: 3 કિલોગ્રામ/એકર (કેલ્શિયમ નાઇટ્રેટની જરૂર નથી)\n\nઆ તબક્કામાં, ખાતરનો ઉપયોગ તમારા પાકના વિકાસને પ્રોત્સાહિત કરવા માટે મહત્વપૂર્ણ છે.",
+        "en": "On your farm, in the \"Fruit Maturity\" phase of Muskmelon, the need for fertilizer is as follows:\n\n### Current week's fertigation schedule:\n1. **Tuesday (2025-04-29)**:\n   - **Fertilizer**: \n     **Calcium nitrate**: 3 kg/acre (applied 15-20 minutes after the realization of other fertilizers)\n     **Sulphate of Potash**: 3 kg/acre\n\n2. **Friday (2025-05-02)**:\n   - **Fertilizer**: \n     **Sulfate of Potash**: 3 kg/acre (calcium nitrate not required)\n\nIn this phase, the use of fertilizer is important to promote the growth of your crop.",
+        "timestamp": {
+          "$date": "2025-04-29T16:51:13.169Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારાં ખેતર માં દવા ની જરૂર ક્યારે પડશે ",
+        "en": "When will i need medicine in my farm? ",
+        "timestamp": {
+          "$date": "2025-04-29T16:52:06.084Z"
+        },
+        "standalone_question": "When will my field need medication?",
+        "standalone_en": "When will my field need medication?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "maran khetar man dava knee jarur kyare padse "
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં, હાલ કોઈ દવા અથવા પેસ્ટ નિયંત્રણની જરૂર નથી. જો કે, જો તમે કોઈ ખાસ સમસ્યા અનુભવો છો, તો કૃપા કરીને મને જણાવો.",
+        "en": "In your farm, there is currently no medication or pest control required. However, if you experience any particular problem, please let me know.",
+        "timestamp": {
+          "$date": "2025-04-29T16:52:13.126Z"
+        }
+      }
+    ],
+    "farmer_id": "bhaveshbhaisomajisolanki",
+    "farmer_plot_ids": [
+      "gharvaloplot405"
+    ],
+    "conversation_id": "68110379f7ac3c5270f53d30",
+    "_id": "68110379f7ac3c5270f53d30",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-29T16:57:06.092000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-29T16:51:05.723000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Temrechar",
+        "en": "Temrechar",
+        "timestamp": {
+          "$date": "2025-04-29T13:19:28.229Z"
+        },
+        "standalone_question": "What does \"Temrechar\" mean?",
+        "standalone_en": "What does \"Temrechar\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પ્લોટ માટે પાણીની જરૂરિયાત forecast કરવા માટે, કૃપા કરીને મને શરૂ અને અંત તારીખ આપો.",
+        "en": "To forecast the need for water for your plot, please give me a start and end date.",
+        "timestamp": {
+          "$date": "2025-04-29T13:19:32.157Z"
+        }
+      }
+    ],
+    "farmer_id": "bhaveshbhaichaudhary",
+    "farmer_plot_ids": [
+      "kuvavaloplot"
+    ],
+    "conversation_id": "6810d1e02e9cfe37e851d05b",
+    "_id": "6810d1e02e9cfe37e851d05b",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-29T13:24:28.237000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-29T13:19:28.229000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can we mix 13 40 13 with coragen and emamectin benzoate",
+        "en": "Can we mix 13 40 13 with coragen and emamectin benzoate",
+        "timestamp": {
+          "$date": "2025-04-29T11:13:16.115Z"
+        },
+        "standalone_question": "Can 13 40 13 be mixed with Coragen and emamectin benzoate?",
+        "standalone_en": "Can 13 40 13 be mixed with Coragen and emamectin benzoate?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Mixing fertilizers like 13-40-13 with pesticides such as Coragen and Emamectin Benzoate can be done, but it's crucial to check for compatibility. Always refer to the product labels for specific mixing instructions and consult with a local agricultural expert or Fyllo’s CRM for tailored advice to ensure safety and effectiveness.",
+        "en": "Mixing fertilizers like 13-40-13 with pesticides such as Coragen and Emamectin Benzoate can be done, but it's crucial to check for compatibility. Always refer to the product labels for specific mixing instructions and consult with a local agricultural expert or Fyllo’s CRM for tailored advice to ensure safety and effectiveness.",
+        "timestamp": {
+          "$date": "2025-04-29T11:13:19.673Z"
+        }
+      }
+    ],
+    "farmer_id": "swathappa",
+    "farmer_plot_ids": [
+      "swathappa"
+    ],
+    "conversation_id": "6810b44b2e9cfe37e851d05a",
+    "_id": "6810b44b2e9cfe37e851d05a",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-29T11:18:16.123000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-04-29T11:13:16.115000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can we mix 13 40 13 with coragen and emamectin benzoate",
+        "en": "Can we mix 13 40 13 with coragen and emamectin benzoate",
+        "timestamp": {
+          "$date": "2025-04-29T11:13:16.115Z"
+        },
+        "standalone_question": "Can 13-40-13 be mixed with Coragen and emamectin benzoate?",
+        "standalone_en": "Can 13-40-13 be mixed with Coragen and emamectin benzoate?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Mixing fertilizers like 13-40-13 with pesticides such as Coragen and Emamectin Benzoate can be done, but it's crucial to check for compatibility. Always refer to the product labels for specific mixing instructions and consult with a local agricultural expert or Fyllo’s CRM for tailored advice to ensure safety and effectiveness.",
+        "en": "Mixing fertilizers like 13-40-13 with pesticides such as Coragen and Emamectin Benzoate can be done, but it's crucial to check for compatibility. Always refer to the product labels for specific mixing instructions and consult with a local agricultural expert or Fyllo’s CRM for tailored advice to ensure safety and effectiveness.",
+        "timestamp": {
+          "$date": "2025-04-29T11:13:19.673Z"
+        }
+      }
+    ],
+    "farmer_id": "swathappa",
+    "farmer_plot_ids": [
+      "swathappa"
+    ],
+    "conversation_id": "6810b44b2e9cfe37e851d05a",
+    "_id": "6810b44b2e9cfe37e851d05a",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-29T11:18:16.123000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-29T11:13:16.115000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "5,30",
+        "en": "5,30",
+        "timestamp": {
+          "$date": "2025-04-29T10:30:39.359Z"
+        },
+        "standalone_question": "What is the significance of the numbers 5 and 30?",
+        "standalone_en": "What is the significance of the numbers 5 and 30?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like you entered some numbers. Could you please clarify what you need assistance with regarding your agricultural practices?",
+        "en": "It seems like you entered some numbers. Could you please clarify what you need assistance with regarding your agricultural practices?",
+        "timestamp": {
+          "$date": "2025-04-29T10:30:42.376Z"
+        }
+      }
+    ],
+    "farmer_id": "nitinrandive",
+    "farmer_plot_ids": [
+      "plotno1sudhakar311"
+    ],
+    "conversation_id": "6810aa4ef7ac3c5270f53d2c",
+    "_id": "6810aa4ef7ac3c5270f53d2c",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-29T10:35:39.367000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-29T10:30:39.359000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "My fayllo machine location",
+        "en": "My fayllo machine location",
+        "timestamp": {
+          "$date": "2025-04-29T10:09:58.488Z"
+        },
+        "standalone_question": "What is the location of my fayllo machine?",
+        "standalone_en": "What is the location of my fayllo machine?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Your Fyllo device is located at \"Ghar valo Palot\" in Dhedhal, Deesa, Banas Kantha, Gujarat.",
+        "en": "Your Fyllo device is located at \"Ghar valo Palot\" in Dhedhal, Deesa, Banas Kantha, Gujarat.",
+        "timestamp": {
+          "$date": "2025-04-29T10:10:01.036Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Live location my fyallo machine",
+        "en": "Live location my fyallo machine",
+        "timestamp": {
+          "$date": "2025-04-29T10:11:16.352Z"
+        },
+        "standalone_question": "What is the live location of my Fyllo machine?",
+        "standalone_en": "What is the live location of my Fyllo machine?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is the current battery health and battery level of my Fyllo device?\nA: I'll check the battery information for your device. Let me gather that information for you.\n\nTo answer this question, I need to use the live sensor data tool to retrieve the most current battery readings.\n\nTool Selection: I should use the live_sensor_data tool\nTool Input: {\"plot_ids\": [\"your_plot_id\"]}\nTool Output: \n```\n{\n  \"airTemperature\": 28,\n  \"airHumidity\": 65,\n  \"soilTemperature\": 26,\n  \"soilMoisture1\": \"45 kPa\",\n  \"soilMoisture2\": \"62 kPa\",\n  \"leafWetness\": 0,\n  \"airPressure\": 1013.2,\n  \"lightIntensity\": 12540,\n  \"uvIndex\": 6,\n  \"windSpeed\": \"3.5kmph\",\n  \"windDirection\": \"NE\",\n  \"rainfall\": 0,\n  \"battery\": \"82%\",\n  \"timestamp\": \"2023-10-15 14:30:00\"\n}\n```\n\nYour Fyllo device currently has a battery level of 82%, which is good. This information was recorded at 2:30 PM today. The battery is in good health and has sufficient charge for continued operation.",
+            "Q: How does the Fyllo device work?\nA: The Fyllo device captures data from 11 sensors at regular intervals. This data is then analyzed using Fyllo's Weather & Agronomical Algorithms to provide alerts to farmers for disease & pest management, irrigation management, fertigation management, and weather prediction.",
+            "Q: What makes Fyllo different from its competitors?\nA: Fyllo differentiates itself through:\n - Precision & accuracy due to unique installation and sensor positioning.\n - Agronomical Algorithms created by a team of scientists led by Dr. Shikhamany, who is considered by many as the father of Indian grape industry.\n - 100% customer retention: Fyllo is known for its service on the ground, 24-hour issue resolution.\n - User-friendly interface that's easy to understand for all language and age group users.",
+            "Q: What kind of devices Fyllo have?\nA: Fyllo provide 3 kinds of devices:\n - Kairo / Weather Unit (Weather unit is old name of Kairo)\n - Nero / Irrigation Unit (Irrigation unit is old name of Nero)",
+            "Q: How do I contact customer support for Fyllo?\nA: You can contact customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in. Do you want me to raise a support ticket for you?"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Your Fyllo device is currently located at \"Ghar valo Palot.\" The latest readings show that the battery level is at 92%. The soil temperature is approximately 30.3°C, and the moisture levels are 7% for the first sensor and 31% for the second sensor.",
+        "en": "Your Fyllo device is currently located at \"Ghar valo Palot.\" The latest readings show that the battery level is at 92%. The soil temperature is approximately 30.3°C, and the moisture levels are 7% for the first sensor and 31% for the second sensor.",
+        "timestamp": {
+          "$date": "2025-04-29T10:11:21.573Z"
+        }
+      }
+    ],
+    "farmer_id": "vikasbhaidayarabhaiparmar",
+    "farmer_plot_ids": [
+      "gharvalopalot590"
+    ],
+    "conversation_id": "6810a57656d410a6f75f483e",
+    "_id": "6810a57656d410a6f75f483e",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-29T10:16:16.360000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-29T10:09:58.488000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Update ",
+        "en": "Update ",
+        "timestamp": {
+          "$date": "2025-04-29T09:45:34.259Z"
+        },
+        "standalone_question": "What is the latest update?",
+        "standalone_en": "What is the latest update?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "You are currently in the \"Foundation Pruning\" stage for your grape crop, which started on April 14, 2025. You are above 1 day from the estimated end of this stage. Please update your crop stage on the app when you're ready to proceed to the next stage.\n\nIf you need assistance with irrigation, fertilization, or pest control, feel free to ask!",
+        "en": "You are currently in the \"Foundation Pruning\" stage for your grape crop, which started on April 14, 2025. You are above 1 day from the estimated end of this stage. Please update your crop stage on the app when you're ready to proceed to the next stage.\n\nIf you need assistance with irrigation, fertilization, or pest control, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-04-29T09:45:37.234Z"
+        }
+      }
+    ],
+    "farmer_id": "shashidharnaruni",
+    "farmer_plot_ids": [
+      "shashidharthomson3acar"
+    ],
+    "conversation_id": "68109fbe2e9cfe37e851d059",
+    "_id": "68109fbe2e9cfe37e851d059",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-29T09:50:34.268000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-29T09:45:34.259000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "भूरी  ला काय करु ",
+        "en": "What to do with brown ",
+        "timestamp": {
+          "$date": "2025-04-29T08:31:27.102Z"
+        },
+        "standalone_question": "What should I do with Bhuri?",
+        "standalone_en": "What should I do with Bhuri?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "भूरी म्हणजेच \"ब्रेक बड\" (Break Bud) या अवस्थेत आहे. या अवस्थेत, तुम्हाला खालील गोष्टी कराव्यात:\n\n1. **पाण्याचे व्यवस्थापन**: योग्य पाण्याची मात्रा देणे आवश्यक आहे. मातीची आर्द्रता तपासा आणि आवश्यकतेनुसार पाणी द्या.\n\n2. **खते**: या अवस्थेत, तुम्हाला योग्य खते द्यावी लागतील. तुम्ही फर्टिगेशन किंवा फोलिअर स्प्रे वापरू शकता.\n\n3. **पिकांचे निरीक्षण**: पिकांमध्ये कोणतीही रोग किंवा कीड असल्यास, त्यांचे निरीक्षण करा आणि आवश्यकतेनुसार उपाययोजना करा.\n\n4. **कापणीची तयारी**: पुढील अवस्थेसाठी तयारी करा, जसे की कॅन थिनिंग.\n\nतुमच्या पिकांच्या स्थितीवर लक्ष ठेवा आणि योग्य काळजी घ्या.",
+        "en": "Brown means \"break bud\" in this state. In this stage, you should do the following:\n\n1. **Water management**: Proper water intake is required. Check soil moisture and water as needed.\n\n2. **Fertilizers**: At this stage, you have to give the right fertilizers. You can use fertigation or foliar spray.\n\n3. **Crop monitor**: If there are any diseases or pests in the crops, monitor them and take measures as per requirement.\n\n4. **Harvest preparation**: Prepare for the next phase, such as can thinning.\n\nMonitor the condition of your crops and take proper care.",
+        "timestamp": {
+          "$date": "2025-04-29T08:31:33.344Z"
+        }
+      }
+    ],
+    "farmer_id": "surajmhaskar",
+    "farmer_plot_ids": [
+      "rkno1"
+    ],
+    "conversation_id": "68108e5eec13e8e098bb651b",
+    "_id": "68108e5eec13e8e098bb651b",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-29T08:36:27.111000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-29T08:31:27.102000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "12:61:00 mix with cano3 ",
+        "en": "12:61:00 mix with cano3 ",
+        "timestamp": {
+          "$date": "2025-04-29T08:07:12.392Z"
+        },
+        "standalone_question": "What happens when you mix 12:61:00 with CaNO3?",
+        "standalone_en": "What happens when you mix 12:61:00 with CaNO3?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like you're referring to a specific mixing ratio or timing for a fertigation process. However, I need more context to provide accurate guidance. Could you please clarify what you mean by \"12:61:00 mix with cano3\"? Are you referring to a specific fertilizer mix or application schedule?",
+        "en": "It seems like you're referring to a specific mixing ratio or timing for a fertigation process. However, I need more context to provide accurate guidance. Could you please clarify what you mean by \"12:61:00 mix with cano3\"? Are you referring to a specific fertilizer mix or application schedule?",
+        "timestamp": {
+          "$date": "2025-04-29T08:07:14.974Z"
+        }
+      }
+    ],
+    "farmer_id": "kuntalsinghranjitsinhjhala",
+    "farmer_plot_ids": [
+      "cucumberplots"
+    ],
+    "conversation_id": "681088b0f7ac3c5270f53d2b",
+    "_id": "681088b0f7ac3c5270f53d2b",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-29T08:12:12.400000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-29T08:07:12.392000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Can l gate more updates in hour",
+        "en": "Can l gate more updates in hour",
+        "timestamp": {
+          "$date": "2025-04-29T07:03:51.586Z"
+        },
+        "standalone_question": "Can I receive more updates in an hour?",
+        "standalone_en": "Can I receive more updates in an hour?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Could you please clarify what specific updates you are looking for? Are you interested in soil moisture, weather conditions, crop growth, or something else?",
+        "en": "Could you please clarify what specific updates you are looking for? Are you interested in soil moisture, weather conditions, crop growth, or something else?",
+        "timestamp": {
+          "$date": "2025-04-29T07:03:54.822Z"
+        }
+      }
+    ],
+    "farmer_id": "kuntalsinghranjitsinhjhala",
+    "farmer_plot_ids": [
+      "cucumberplots"
+    ],
+    "conversation_id": "681079d756d410a6f75f483d",
+    "_id": "681079d756d410a6f75f483d",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-29T07:08:51.593000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-29T07:03:51.586000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "भूरी आहे ",
+        "en": "Is brown ",
+        "timestamp": {
+          "$date": "2025-04-29T04:32:41.294Z"
+        },
+        "standalone_question": "Is it brown?",
+        "standalone_en": "Is it brown?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "bhoori aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया अधिक माहिती द्या, तुम्हाला कोणत्या विषयावर मदतीची आवश्यकता आहे?",
+        "en": "Please provide more information, what topics do you need help on?",
+        "timestamp": {
+          "$date": "2025-04-29T04:32:43.738Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "साइज साठी काय करावे",
+        "en": "What to do for size",
+        "timestamp": {
+          "$date": "2025-04-29T04:33:07.886Z"
+        },
+        "standalone_question": "What should I do for size?",
+        "standalone_en": "What should I do for size?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "size sathi kay karave"
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया स्पष्ट करा की तुम्हाला कोणत्या साईजसाठी माहिती हवी आहे. तुम्ही बियाण्यांच्या साईजसाठी विचारत आहात का, किंवा इतर कोणत्या गोष्टीसाठी?",
+        "en": "Please clarify what size you want information for. Are you asking for seed size, or something else?",
+        "timestamp": {
+          "$date": "2025-04-29T04:33:11.243Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "द्राक्ष मनी साइजसाठी काय करावे",
+        "en": "What to do for grape money size",
+        "timestamp": {
+          "$date": "2025-04-29T04:34:03.372Z"
+        },
+        "standalone_question": "What should I do for the size of grapes?",
+        "standalone_en": "What should I do for the size of grapes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "draks money saijasathi kay karave"
+      },
+      {
+        "role": "assistant",
+        "content": "द्राक्षांच्या बियाण्यांच्या साईजसाठी, तुम्हाला खालील गोष्टींचा विचार करावा लागेल:\n\n1. **बियाण्यांची साईज**: द्राक्षांच्या बियाण्यांना साधारणतः 1-2 सेंटीमीटरच्या गहराईत पेरावे. \n   - बियाण्यांच्या साईजच्या दुप्पट गहराईत पेरणे योग्य असते.\n\n2. **बीज उपचार**: \n   - **कीटकनाशक**: इमिडाक्लोप्रिड 600 FS – 5 ते 8 मिली/किलो बियाणे.\n   - **फंगीसाइड**: थिराम – 2 ते 3 ग्रॅम/किलो बियाणे.\n\n3. **गर्मेशन तपासणी**: \n   - 100 (लहान बियाणे) किंवा 50 (मोठे बियाणे) बियाणे निवडा आणि गीले कागदावर ठेवा.\n   - 3-5 दिवसांनी किती बियाणे उगवले ते मोजा आणि उगवण्याचा टक्का काढा.\n\n4. **गर्मेशन सुधारण्यासाठी**: \n   - चांगल्या गुणवत्तेची बियाणे वापरा आणि बियाणे कीटकनाशक, फंगीसाइड आणि जैविक एजंटसह उपचारित करा.\n\nतुमच्या द्राक्षांच्या पिकासाठी हे सर्व महत्त्वाचे आहे.",
+        "en": "For the size of grape seeds, you may need to consider the following:\n\n1. **Seed size**: The grape seeds should be sown in a depth of about 1-2 centimeters. \n   - It is advisable to sow at twice the size of the seeds.\n\n2. **Seed Treatment**: \n   * Pesticide**: Imidacloprid 600 FS – 5 to 8 ml/kg seeds.\n   * Fungiside**: Thiram – 2 to 3 g/kg of seeds.\n\n3. **Heatation check**: \n   Choose 100 (small seeds) or 50 (large seeds) seeds and place on wet paper.\n   Measure how many seeds germinated after 3-5 days and remove the germination percentage.\n\n4. **To improve germination**: \n   Use good quality seeds and treat the seeds with pesticides, fungicides, and biological agents.\n\nAll of this is important for your grape crop.",
+        "timestamp": {
+          "$date": "2025-04-29T04:34:10.442Z"
+        }
+      }
+    ],
+    "farmer_id": "dashrathvadaje",
+    "farmer_plot_ids": [
+      "plotno1sharad492",
+      "plotno2thomson558"
+    ],
+    "conversation_id": "68105668a405f46e9099ae23",
+    "_id": "68105668a405f46e9099ae23",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-29T04:39:03.435000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-29T04:32:41.294000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "भूरी आहे ",
+        "en": "Is brown ",
+        "timestamp": {
+          "$date": "2025-04-29T04:32:41.294Z"
+        },
+        "standalone_question": "Is it brown?",
+        "standalone_en": "Is it brown?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "bhoori aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया अधिक माहिती द्या, तुम्हाला कोणत्या विषयावर मदतीची आवश्यकता आहे?",
+        "en": "Please provide more information, what topics do you need help on?",
+        "timestamp": {
+          "$date": "2025-04-29T04:32:43.738Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "साइज साठी काय करावे",
+        "en": "What to do for size",
+        "timestamp": {
+          "$date": "2025-04-29T04:33:07.886Z"
+        },
+        "standalone_question": "What should I do for size?",
+        "standalone_en": "What should I do for size?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "size sathi kay karave"
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया स्पष्ट करा की तुम्हाला कोणत्या साईजसाठी माहिती हवी आहे. तुम्ही बियाण्यांच्या साईजसाठी विचारत आहात का, किंवा इतर कोणत्या गोष्टीसाठी?",
+        "en": "Please clarify what size you want information for. Are you asking for seed size, or something else?",
+        "timestamp": {
+          "$date": "2025-04-29T04:33:11.243Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "द्राक्ष मनी साइजसाठी काय करावे",
+        "en": "What to do for grape money size",
+        "timestamp": {
+          "$date": "2025-04-29T04:34:03.372Z"
+        },
+        "standalone_question": "What should I do to determine the size for grapes?",
+        "standalone_en": "What should I do to determine the size for grapes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "draks money saijasathi kay karave"
+      },
+      {
+        "role": "assistant",
+        "content": "द्राक्षांच्या बियाण्यांच्या साईजसाठी, तुम्हाला खालील गोष्टींचा विचार करावा लागेल:\n\n1. **बियाण्यांची साईज**: द्राक्षांच्या बियाण्यांना साधारणतः 1-2 सेंटीमीटरच्या गहराईत पेरावे. \n   - बियाण्यांच्या साईजच्या दुप्पट गहराईत पेरणे योग्य असते.\n\n2. **बीज उपचार**: \n   - **कीटकनाशक**: इमिडाक्लोप्रिड 600 FS – 5 ते 8 मिली/किलो बियाणे.\n   - **फंगीसाइड**: थिराम – 2 ते 3 ग्रॅम/किलो बियाणे.\n\n3. **गर्मेशन तपासणी**: \n   - 100 (लहान बियाणे) किंवा 50 (मोठे बियाणे) बियाणे निवडा आणि गीले कागदावर ठेवा.\n   - 3-5 दिवसांनी किती बियाणे उगवले ते मोजा आणि उगवण्याचा टक्का काढा.\n\n4. **गर्मेशन सुधारण्यासाठी**: \n   - चांगल्या गुणवत्तेची बियाणे वापरा आणि बियाणे कीटकनाशक, फंगीसाइड आणि जैविक एजंटसह उपचारित करा.\n\nतुमच्या द्राक्षांच्या पिकासाठी हे सर्व महत्त्वाचे आहे.",
+        "en": "For the size of grape seeds, you may need to consider the following:\n\n1. **Seed size**: The grape seeds should be sown in a depth of about 1-2 centimeters. \n   - It is advisable to sow at twice the size of the seeds.\n\n2. **Seed Treatment**: \n   * Pesticide**: Imidacloprid 600 FS – 5 to 8 ml/kg seeds.\n   * Fungiside**: Thiram – 2 to 3 g/kg of seeds.\n\n3. **Heatation check**: \n   Choose 100 (small seeds) or 50 (large seeds) seeds and place on wet paper.\n   Measure how many seeds germinated after 3-5 days and remove the germination percentage.\n\n4. **To improve germination**: \n   Use good quality seeds and treat the seeds with pesticides, fungicides, and biological agents.\n\nAll of this is important for your grape crop.",
+        "timestamp": {
+          "$date": "2025-04-29T04:34:10.442Z"
+        }
+      }
+    ],
+    "farmer_id": "dashrathvadaje",
+    "farmer_plot_ids": [
+      "plotno1sharad492",
+      "plotno2thomson558"
+    ],
+    "conversation_id": "68105668a405f46e9099ae23",
+    "_id": "68105668a405f46e9099ae23",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-29T04:39:03.435000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-04-29T04:32:41.294000+00:00"
+  }
+]

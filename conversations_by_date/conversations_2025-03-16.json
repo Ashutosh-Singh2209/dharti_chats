@@ -1,0 +1,336 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi",
+        "en": "Hi",
+        "timestamp": {
+          "$date": "2025-03-16T12:41:05.021Z"
+        },
+        "standalone_question": "What would you like to talk about today?",
+        "standalone_en": "What would you like to talk about today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "नमस्कार, चंद्रकांत! तुम्हाला कशाबद्दल मदतीची आवश्यकता आहे?",
+        "en": "Hello, Chandrakant! What do you need help with?",
+        "timestamp": {
+          "$date": "2025-03-16T12:41:07.271Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Senser problem ",
+        "en": "Senser problem ",
+        "timestamp": {
+          "$date": "2025-03-16T12:41:24.233Z"
+        },
+        "standalone_question": "What is the problem with the sensor?",
+        "standalone_en": "What is the problem with the sensor?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Sensor is showing wet, i.e. less kpa but soil looks dry.\nA: The sensor measures the moisture around the rootzone which is not visible from the top. Ask use to check the moisture in rootzone around the sensor. If it matches, ask the user to irrigate."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या सेन्सरमध्ये काही समस्या असल्यास, कृपया खालील गोष्टी तपासा:\n\n1. **सेंसर कनेक्शन**: कनेक्शन तपासा, जर ते ढिले असतील तर त्यांना घट्ट करा.\n2. **डिव्हाइस रीस्टार्ट करा**: डिव्हाइस रीस्टार्ट करून अद्ययावत डेटा तपासा.\n3. **सेंसरची स्थिती**: तपासा की सेंसर मातीमध्ये योग्यरित्या स्थापित आहे का. \n\nजर तुम्हाला अजूनही समस्या येत असेल, तर तुम्ही तांत्रिक सहाय्य तिकिट तयार करू इच्छिता का?",
+        "en": "If there are any problems with your sensor, please check the following:\n\n1. **Sensor connections**: Check the connections, if they are loose, tighten them.\n2. **Restart the device**: Check the latest data by restarting the device.\n3. **Position of the sensor**: Check that the sensor is properly installed in the soil. \n\nIf you're still having a problem, would you like to create a technical assistance ticket?",
+        "timestamp": {
+          "$date": "2025-03-16T12:41:29.145Z"
+        }
+      }
+    ],
+    "farmer_id": "chandrakantjaganath",
+    "farmer_plot_ids": [
+      "supersonakaplot293"
+    ],
+    "conversation_id": "67d6c6e026d09ec3bb17d11d",
+    "_id": "67d6c6e026d09ec3bb17d11d",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-03-16T12:46:24.241000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-03-16T12:41:05.021000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં લિફ્ટ માઇનર માટે ક્યારે સ્પ્રે કરવો",
+        "en": "When to spray for a lift miner on my farm",
+        "timestamp": {
+          "$date": "2025-03-16T11:38:26.065Z"
+        },
+        "standalone_question": "When should I spray for lift miners in my field?",
+        "standalone_en": "When should I spray for lift miners in my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        },
+        "content_transliterated": "mara khetaraman lift minor mate kyare spray karavo"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં લિફ્ટ માઇનર માટે આ અઠવાડિયે કોઈ સ્પ્રે શેડ્યૂલ નથી. જો તમને વધુ માહિતી જોઈએ, તો કૃપા કરીને પૂછો.",
+        "en": "There is no spray schedule this week for lift miners on your farm. If you would like more information, please ask.",
+        "timestamp": {
+          "$date": "2025-03-16T11:38:31.469Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં હાલ ને ટાઈમ માં કયો ખાતર આપવો",
+        "en": "What fertilizer to give in time to my farm right now",
+        "timestamp": {
+          "$date": "2025-03-16T11:38:47.756Z"
+        },
+        "standalone_question": "What fertilizer should I apply to my field at this time?",
+        "standalone_en": "What fertilizer should I apply to my field at this time?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17"
+          ]
+        },
+        "content_transliterated": "mara khetaraman hal ne time man kayo khatar apavo"
+      },
+      {
+        "role": "assistant",
+        "content": "હાલમાં, તમારા ખેતરમાં (Ghar Valo Palot) મસ્કમેલોનના વાવેતર માટે, તમે નીચેના ખાતરોનો ઉપયોગ કરી શકો છો:\n\n### વર્તમાન અઠવાડિયું (અઠવાડિયું 1):\n1. **પ્રથમ દિવસ (16 માર્ચ 2025)**:\n   - **12-61-0**: 3 કિલોગ્રામ/એકર\n   - અથવા\n   - **24-24-0**: 3 કિલોગ્રામ/એકર + **ફોસ્ફોરિક એસિડ 80%**: 2 કિલોગ્રામ/એકર\n   - અથવા\n   - **યુરિયા**: 1.5 કિલોગ્રામ/એકર + **ફોસ્ફોરિક એસિડ 80%**: 3 કિલોગ્રામ/એકર\n\n2. **ચોથા દિવસ (19 માર્ચ 2025)**:\n   - **12-61-0**: 3 કિલોગ્રામ/એકર\n   - અથવા\n   - **24-24-0**: 3 કિલોગ્રામ/એકર + **ફોસ્ફોરિક એસિડ 80%**: 2 કિલોગ્રામ/એકર\n   - અથવા\n   - **યુરિયા**: 1.5 કિલોગ્રામ/એકર + **ફોસ્ફોરિક એસિડ 80%**: 3 કિલોગ્રામ/એકર\n\n### નોંધ:\n- ફોસ્ફોરિક એસિડને અન્ય ખાતરોના ઉપયોગ કરતા 15-20 મિનિટ પહેલા અલગથી લાગુ કરવું જોઈએ.\n\nજો તમને વધુ માહિતી જોઈએ, તો કૃપા કરીને પૂછો!",
+        "en": "Currently, for the planting of muskmelon on your farm (Ghar Valo Palot), you can use the following fertilizers:\n\n### Current Week (Week 1):\n1. **First Day (16 March 2025)**:\n   * **12-61-0**: 3 kg/acre\n   -or\n   **24-24-0**: 3 kg/acre + **Phosphoric acid 80%**: 2 kg/acre\n   -or\n   **Urea**: 1.5 kg/acre + **Phosphoric acid 80%**: 3 kg/acre\n\n2. **Fourth Day (19 March 2025)**:\n   * **12-61-0**: 3 kg/acre\n   -or\n   **24-24-0**: 3 kg/acre + **Phosphoric acid 80%**: 2 kg/acre\n   -or\n   **Urea**: 1.5 kg/acre + **Phosphoric acid 80%**: 3 kg/acre\n\n### Note:\nPhosphoric acid should be applied separately 15-20 minutes before the use of other fertilizers.\n\nIf you need more information, please ask!",
+        "timestamp": {
+          "$date": "2025-03-16T11:38:55.516Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "આપણું ખાતર અપડેટ ઝાડ ક્યારે કરે",
+        "en": "When to update our fertilizer trees",
+        "timestamp": {
+          "$date": "2025-03-16T11:39:16.072Z"
+        },
+        "standalone_question": "When should we update our fertilizer for the trees?",
+        "standalone_en": "When should we update our fertilizer for the trees?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "apanun khatar update zad kyare kare"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં (Ghar Valo Palot) મસ્કમેલોન માટે ખાતર અપડેટ શેડ્યૂલ નીચે મુજબ છે:\n\n### વર્તમાન અઠવાડિયું (અઠવાડિયું 1):\n1. **પ્રથમ દિવસ (16 માર્ચ 2025)**:\n   - **12-61-0**: 3 કિલોગ્રામ/એકર\n   - અથવા\n   - **24-24-0**: 3 કિલોગ્રામ/એકર + **ફોસ્ફોરિક એસિડ 80%**: 2 કિલોગ્રામ/એકર\n   - અથવા\n   - **યુરિયા**: 1.5 કિલોગ્રામ/એકર + **ફોસ્ફોરિક એસિડ 80%**: 3 કિલોગ્રામ/એકર\n\n2. **ચોથા દિવસ (19 માર્ચ 2025)**:\n   - **12-61-0**: 3 કિલોગ્રામ/એકર\n   - અથવા\n   - **24-24-0**: 3 કિલોગ્રામ/એકર + **ફોસ્ફોરિક એસિડ 80%**: 2 કિલોગ્રામ/એકર\n   - અથવા\n   - **યુરિયા**: 1.5 કિલોગ્રામ/એકર + **ફોસ્ફોરિક એસિડ 80%**: 3 કિલોગ્રામ/એકર\n\n### આગામી અઠવાડિયું (અઠવાડિયું 2):\n1. **પ્રથમ દિવસ (18 એપ્રિલ 2025)**:\n   - **મેગ્નેશિયમ સલ્ફેટ**: 3 કિલોગ્રામ/એકર\n   - **અમોનિયમ સલ્ફેટ**: 6.5 કિલોગ્રામ/એકર\n\n2. **ચોથા દિવસ (21 એપ્રિલ 2025)**:\n   - **12-61-0**: 3 કિલોગ્રામ/એકર\n   - અથવા\n   - **24-24-0**: 3 કિલોગ્રામ/એકર + **ફોસ્ફોરિક એસિડ 80%**: 2 કિલોગ્રામ/એકર\n   - અથવા\n   - **યુરિયા**: 1.5 કિલોગ્રામ/એકર + **ફોસ્ફોરિક એસિડ 80%**: 3 કિલોગ્રામ/એકર\n\n### નોંધ:\n- ફોસ્ફોરિક એસિડને અન્ય ખાતરોના ઉપયોગ કરતા 15-20 મિનિટ પહેલા અલગથી લાગુ કરવું જોઈએ.\n\nજો તમને વધુ માહિતી જોઈએ, તો કૃપા કરીને પૂછો!",
+        "en": "The fertilizer update schedule for Muskmelon on your farm (Ghar Valo Palot) is as follows:\n\n### Current Week (Week 1):\n1. **First Day (16 March 2025)**:\n   * **12-61-0**: 3 kg/acre\n   -or\n   **24-24-0**: 3 kg/acre + **Phosphoric acid 80%**: 2 kg/acre\n   -or\n   **Urea**: 1.5 kg/acre + **Phosphoric acid 80%**: 3 kg/acre\n\n2. **Fourth Day (19 March 2025)**:\n   * **12-61-0**: 3 kg/acre\n   -or\n   **24-24-0**: 3 kg/acre + **Phosphoric acid 80%**: 2 kg/acre\n   -or\n   **Urea**: 1.5 kg/acre + **Phosphoric acid 80%**: 3 kg/acre\n\n### Next week (Week 2):\n1. **First Day (18 April 2025)**:\n   **Magnesium sulfate**: 3 kg/acre\n   **Ammonium sulfate**: 6.5 kg/acre\n\n2. **Fourth Day (21 April 2025)**:\n   * **12-61-0**: 3 kg/acre\n   -or\n   **24-24-0**: 3 kg/acre + **Phosphoric acid 80%**: 2 kg/acre\n   -or\n   **Urea**: 1.5 kg/acre + **Phosphoric acid 80%**: 3 kg/acre\n\n### Note:\nPhosphoric acid should be applied separately 15-20 minutes before the use of other fertilizers.\n\nIf you need more information, please ask!",
+        "timestamp": {
+          "$date": "2025-03-16T11:39:29.584Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં હાલ કયા વાતાવરણ બનેલું છે રોગનું",
+        "en": "What is the environment in my farm right now?",
+        "timestamp": {
+          "$date": "2025-03-16T11:40:00.757Z"
+        },
+        "standalone_question": "What diseases are currently affecting the environment in my field?",
+        "standalone_en": "What diseases are currently affecting the environment in my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara khetaraman hal kaya vatavaran banelun che roganun"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં (Ghar Valo Palot) હાલના વાતાવરણમાં રોગોની આગાહી નીચે મુજબ છે:\n\n### 16 માર્ચ 2025:\n- **પાઉડરી મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 80.1%\n  - **રિસ્ક લેવલ**: HIGH\n- **ડાઉની મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 18.6%\n  - **રિસ્ક લેવલ**: NIL\n\n### 15 માર્ચ 2025:\n- **પાઉડરી મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 23.3%\n  - **રિસ્ક લેવલ**: NIL\n- **ડાઉની મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 38.0%\n  - **રિસ્ક લેવલ**: LOW\n\n### 13 માર્ચ 2025:\n- **પાઉડરી મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 96.4%\n  - **રિસ્ક લેવલ**: HIGH\n- **ડાઉની મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 12.2%\n  - **રિસ્ક લેવલ**: NIL\n\n### 12 માર્ચ 2025:\n- **પાઉડરી મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 99.6%\n  - **રિસ્ક લેવલ**: HIGH\n- **ડાઉની મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 16.3%\n  - **રિસ્ક લેવલ**: NIL\n\n### 11 માર્ચ 2025:\n- **પાઉડરી મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 99.0%\n  - **રિસ્ક લેવલ**: HIGH\n- **ડાઉની મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 18.6%\n  - **રિસ્ક લેવલ**: NIL\n\n### 10 માર્ચ 2025:\n- **પાઉડરી મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 98.8%\n  - **રિસ્ક લેવલ**: HIGH\n- **ડાઉની મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 14.2%\n  - **રિસ્ક લેવલ**: NIL\n\n### સૂચન:\n- **પાઉડરી મિલ્ડ્યુ** માટે સ્પ્રે કરવું જરૂરી છે, કારણ કે તેનો રિસ્ક લેવલ HIGH છે.\n- **ડાઉની મિલ્ડ્યુ** માટે હાલ કોઈ ખાસ જોખમ નથી.\n\nજો તમને વધુ માહિતી જોઈએ, તો કૃપા કરીને પૂછો!",
+        "en": "The prediction of diseases in the current environment in your farm (Ghar Valo Palot) is as follows:\n\n### 16 March 2025:\n- **Powdery Mildew**: \n  * **Probability**: 80.1%\n  - **Risk Level**: HIGH\n* **Downey Mildew**: \n  * **Probability**: 18.6%\n  - **Risk Level**: NIL\n\n### 15 March 2025:\n- **Powdery Mildew**: \n  * **Probability**: 23.3%\n  - **Risk Level**: NIL\n* **Downey Mildew**: \n  * **Probability**: 38.0%\n  - **Risk Level**: LOW\n\n### 13 March 2025:\n- **Powdery Mildew**: \n  * **Probability**: 96.4%\n  - **Risk Level**: HIGH\n* **Downey Mildew**: \n  * **Probability**: 12.2%\n  - **Risk Level**: NIL\n\n### 12 March 2025:\n- **Powdery Mildew**: \n  **Probability**: 99.6%\n  - **Risk Level**: HIGH\n* **Downey Mildew**: \n  * **Probability**: 16.3%\n  - **Risk Level**: NIL\n\n### 11 March 2025:\n- **Powdery Mildew**: \n  **Probability**: 99.0%\n  - **Risk Level**: HIGH\n* **Downey Mildew**: \n  * **Probability**: 18.6%\n  - **Risk Level**: NIL\n\n### 10 March 2025:\n- **Powdery Mildew**: \n  * **Probability**: 98.8%\n  - **Risk Level**: HIGH\n* **Downey Mildew**: \n  * **Probability**: 14.2%\n  - **Risk Level**: NIL\n\n### Suggestion:\n- It is necessary to spray for ***powdery mildew**, as its risk level is high.\nThere is currently no special risk for **downy mildew**.\n\nIf you need more information, please ask!",
+        "timestamp": {
+          "$date": "2025-03-16T11:40:12.100Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "હાલમાં મારા ખેતરમાં કયા રોગનું વાતાવરણ મળેલું છે",
+        "en": "What kind of disease environment has been found in my farm right now?",
+        "timestamp": {
+          "$date": "2025-03-16T11:40:24.858Z"
+        },
+        "standalone_question": "What diseases are currently present in the atmosphere of my field?",
+        "standalone_en": "What diseases are currently present in the atmosphere of my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "halaman mara khetaraman kaya roganun vatavaran malelun che"
+      },
+      {
+        "role": "assistant",
+        "content": "હાલમાં તમારા ખેતરમાં (Ghar Valo Palot) નીચેના રોગોના વાતાવરણ મળ્યા છે:\n\n### 16 માર્ચ 2025:\n- **પાઉડરી મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 80.1%\n  - **રિસ્ક લેવલ**: HIGH\n- **ડાઉની મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 18.6%\n  - **રિસ્ક લેવલ**: NIL\n\n### 15 માર્ચ 2025:\n- **પાઉડરી મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 23.3%\n  - **રિસ્ક લેવલ**: NIL\n- **ડાઉની મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 38.0%\n  - **રિસ્ક લેવલ**: LOW\n\n### 13 માર્ચ 2025:\n- **પાઉડરી મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 96.4%\n  - **રિસ્ક લેવલ**: HIGH\n- **ડાઉની મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 12.2%\n  - **રિસ્ક લેવલ**: NIL\n\n### 12 માર્ચ 2025:\n- **પાઉડરી મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 99.6%\n  - **રિસ્ક લેવલ**: HIGH\n- **ડાઉની મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 16.3%\n  - **રિસ્ક લેવલ**: NIL\n\n### 11 માર્ચ 2025:\n- **પાઉડરી મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 99.0%\n  - **રિસ્ક લેવલ**: HIGH\n- **ડાઉની મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 18.6%\n  - **રિસ્ક લેવલ**: NIL\n\n### 10 માર્ચ 2025:\n- **પાઉડરી મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 98.8%\n  - **રિસ્ક લેવલ**: HIGH\n- **ડાઉની મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 14.2%\n  - **રિસ્ક લેવલ**: NIL\n\n### સૂચન:\n- **પાઉડરી મિલ્ડ્યુ** માટે સ્પ્રે કરવું જરૂરી છે, કારણ કે તેનો રિસ્ક લેવલ HIGH છે.\n- **ડાઉની મિલ્ડ્યુ** માટે હાલ કોઈ ખાસ જોખમ નથી.\n\nજો તમને વધુ માહિતી જોઈએ, તો કૃપા કરીને પૂછો!",
+        "en": "Currently, an environment of the following diseases has been found in your farm (Ghar Valo Palot):\n\n### 16 March 2025:\n- **Powdery Mildew**: \n  * **Probability**: 80.1%\n  - **Risk Level**: HIGH\n* **Downey Mildew**: \n  * **Probability**: 18.6%\n  - **Risk Level**: NIL\n\n### 15 March 2025:\n- **Powdery Mildew**: \n  * **Probability**: 23.3%\n  - **Risk Level**: NIL\n* **Downey Mildew**: \n  * **Probability**: 38.0%\n  - **Risk Level**: LOW\n\n### 13 March 2025:\n- **Powdery Mildew**: \n  * **Probability**: 96.4%\n  - **Risk Level**: HIGH\n* **Downey Mildew**: \n  * **Probability**: 12.2%\n  - **Risk Level**: NIL\n\n### 12 March 2025:\n- **Powdery Mildew**: \n  **Probability**: 99.6%\n  - **Risk Level**: HIGH\n* **Downey Mildew**: \n  * **Probability**: 16.3%\n  - **Risk Level**: NIL\n\n### 11 March 2025:\n- **Powdery Mildew**: \n  **Probability**: 99.0%\n  - **Risk Level**: HIGH\n* **Downey Mildew**: \n  * **Probability**: 18.6%\n  - **Risk Level**: NIL\n\n### 10 March 2025:\n- **Powdery Mildew**: \n  * **Probability**: 98.8%\n  - **Risk Level**: HIGH\n* **Downey Mildew**: \n  * **Probability**: 14.2%\n  - **Risk Level**: NIL\n\n### Suggestion:\n- It is necessary to spray for ***powdery mildew**, as its risk level is high.\nThere is currently no special risk for **downy mildew**.\n\nIf you need more information, please ask!",
+        "timestamp": {
+          "$date": "2025-03-16T11:40:35.922Z"
+        }
+      }
+    ],
+    "farmer_id": "narshibhaiamrajiparmar",
+    "farmer_plot_ids": [
+      "gharvalopalot577"
+    ],
+    "conversation_id": "67d6b83126d09ec3bb17d11b",
+    "_id": "67d6b83126d09ec3bb17d11b",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-16T11:46:16.650000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-03-16T11:38:26.065000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં લિફ્ટ માઇનર માટે ક્યારે સ્પ્રે કરવો",
+        "en": "When to spray for a lift miner on my farm",
+        "timestamp": {
+          "$date": "2025-03-16T11:38:26.065Z"
+        },
+        "standalone_question": "When should I spray for lift miners in my field?",
+        "standalone_en": "When should I spray for lift miners in my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        },
+        "content_transliterated": "mara khetaraman lift minor mate kyare spray karavo"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં લિફ્ટ માઇનર માટે આ અઠવાડિયે કોઈ સ્પ્રે શેડ્યૂલ નથી. જો તમને વધુ માહિતી જોઈએ, તો કૃપા કરીને પૂછો.",
+        "en": "There is no spray schedule this week for lift miners on your farm. If you would like more information, please ask.",
+        "timestamp": {
+          "$date": "2025-03-16T11:38:31.469Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં હાલ ને ટાઈમ માં કયો ખાતર આપવો",
+        "en": "What fertilizer to give in time to my farm right now",
+        "timestamp": {
+          "$date": "2025-03-16T11:38:47.756Z"
+        },
+        "standalone_question": "What fertilizer should I apply to my field at this time?",
+        "standalone_en": "What fertilizer should I apply to my field at this time?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17"
+          ]
+        },
+        "content_transliterated": "mara khetaraman hal ne time man kayo khatar apavo"
+      },
+      {
+        "role": "assistant",
+        "content": "હાલમાં, તમારા ખેતરમાં (Ghar Valo Palot) મસ્કમેલોનના વાવેતર માટે, તમે નીચેના ખાતરોનો ઉપયોગ કરી શકો છો:\n\n### વર્તમાન અઠવાડિયું (અઠવાડિયું 1):\n1. **પ્રથમ દિવસ (16 માર્ચ 2025)**:\n   - **12-61-0**: 3 કિલોગ્રામ/એકર\n   - અથવા\n   - **24-24-0**: 3 કિલોગ્રામ/એકર + **ફોસ્ફોરિક એસિડ 80%**: 2 કિલોગ્રામ/એકર\n   - અથવા\n   - **યુરિયા**: 1.5 કિલોગ્રામ/એકર + **ફોસ્ફોરિક એસિડ 80%**: 3 કિલોગ્રામ/એકર\n\n2. **ચોથા દિવસ (19 માર્ચ 2025)**:\n   - **12-61-0**: 3 કિલોગ્રામ/એકર\n   - અથવા\n   - **24-24-0**: 3 કિલોગ્રામ/એકર + **ફોસ્ફોરિક એસિડ 80%**: 2 કિલોગ્રામ/એકર\n   - અથવા\n   - **યુરિયા**: 1.5 કિલોગ્રામ/એકર + **ફોસ્ફોરિક એસિડ 80%**: 3 કિલોગ્રામ/એકર\n\n### નોંધ:\n- ફોસ્ફોરિક એસિડને અન્ય ખાતરોના ઉપયોગ કરતા 15-20 મિનિટ પહેલા અલગથી લાગુ કરવું જોઈએ.\n\nજો તમને વધુ માહિતી જોઈએ, તો કૃપા કરીને પૂછો!",
+        "en": "Currently, for the planting of muskmelon on your farm (Ghar Valo Palot), you can use the following fertilizers:\n\n### Current Week (Week 1):\n1. **First Day (16 March 2025)**:\n   * **12-61-0**: 3 kg/acre\n   -or\n   **24-24-0**: 3 kg/acre + **Phosphoric acid 80%**: 2 kg/acre\n   -or\n   **Urea**: 1.5 kg/acre + **Phosphoric acid 80%**: 3 kg/acre\n\n2. **Fourth Day (19 March 2025)**:\n   * **12-61-0**: 3 kg/acre\n   -or\n   **24-24-0**: 3 kg/acre + **Phosphoric acid 80%**: 2 kg/acre\n   -or\n   **Urea**: 1.5 kg/acre + **Phosphoric acid 80%**: 3 kg/acre\n\n### Note:\nPhosphoric acid should be applied separately 15-20 minutes before the use of other fertilizers.\n\nIf you need more information, please ask!",
+        "timestamp": {
+          "$date": "2025-03-16T11:38:55.516Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "આપણું ખાતર અપડેટ ઝાડ ક્યારે કરે",
+        "en": "When to update our fertilizer trees",
+        "timestamp": {
+          "$date": "2025-03-16T11:39:16.072Z"
+        },
+        "standalone_question": "When should we update our fertilizer for the trees?",
+        "standalone_en": "When should we update our fertilizer for the trees?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "apanun khatar update zad kyare kare"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં (Ghar Valo Palot) મસ્કમેલોન માટે ખાતર અપડેટ શેડ્યૂલ નીચે મુજબ છે:\n\n### વર્તમાન અઠવાડિયું (અઠવાડિયું 1):\n1. **પ્રથમ દિવસ (16 માર્ચ 2025)**:\n   - **12-61-0**: 3 કિલોગ્રામ/એકર\n   - અથવા\n   - **24-24-0**: 3 કિલોગ્રામ/એકર + **ફોસ્ફોરિક એસિડ 80%**: 2 કિલોગ્રામ/એકર\n   - અથવા\n   - **યુરિયા**: 1.5 કિલોગ્રામ/એકર + **ફોસ્ફોરિક એસિડ 80%**: 3 કિલોગ્રામ/એકર\n\n2. **ચોથા દિવસ (19 માર્ચ 2025)**:\n   - **12-61-0**: 3 કિલોગ્રામ/એકર\n   - અથવા\n   - **24-24-0**: 3 કિલોગ્રામ/એકર + **ફોસ્ફોરિક એસિડ 80%**: 2 કિલોગ્રામ/એકર\n   - અથવા\n   - **યુરિયા**: 1.5 કિલોગ્રામ/એકર + **ફોસ્ફોરિક એસિડ 80%**: 3 કિલોગ્રામ/એકર\n\n### આગામી અઠવાડિયું (અઠવાડિયું 2):\n1. **પ્રથમ દિવસ (18 એપ્રિલ 2025)**:\n   - **મેગ્નેશિયમ સલ્ફેટ**: 3 કિલોગ્રામ/એકર\n   - **અમોનિયમ સલ્ફેટ**: 6.5 કિલોગ્રામ/એકર\n\n2. **ચોથા દિવસ (21 એપ્રિલ 2025)**:\n   - **12-61-0**: 3 કિલોગ્રામ/એકર\n   - અથવા\n   - **24-24-0**: 3 કિલોગ્રામ/એકર + **ફોસ્ફોરિક એસિડ 80%**: 2 કિલોગ્રામ/એકર\n   - અથવા\n   - **યુરિયા**: 1.5 કિલોગ્રામ/એકર + **ફોસ્ફોરિક એસિડ 80%**: 3 કિલોગ્રામ/એકર\n\n### નોંધ:\n- ફોસ્ફોરિક એસિડને અન્ય ખાતરોના ઉપયોગ કરતા 15-20 મિનિટ પહેલા અલગથી લાગુ કરવું જોઈએ.\n\nજો તમને વધુ માહિતી જોઈએ, તો કૃપા કરીને પૂછો!",
+        "en": "The fertilizer update schedule for Muskmelon on your farm (Ghar Valo Palot) is as follows:\n\n### Current Week (Week 1):\n1. **First Day (16 March 2025)**:\n   * **12-61-0**: 3 kg/acre\n   -or\n   **24-24-0**: 3 kg/acre + **Phosphoric acid 80%**: 2 kg/acre\n   -or\n   **Urea**: 1.5 kg/acre + **Phosphoric acid 80%**: 3 kg/acre\n\n2. **Fourth Day (19 March 2025)**:\n   * **12-61-0**: 3 kg/acre\n   -or\n   **24-24-0**: 3 kg/acre + **Phosphoric acid 80%**: 2 kg/acre\n   -or\n   **Urea**: 1.5 kg/acre + **Phosphoric acid 80%**: 3 kg/acre\n\n### Next week (Week 2):\n1. **First Day (18 April 2025)**:\n   **Magnesium sulfate**: 3 kg/acre\n   **Ammonium sulfate**: 6.5 kg/acre\n\n2. **Fourth Day (21 April 2025)**:\n   * **12-61-0**: 3 kg/acre\n   -or\n   **24-24-0**: 3 kg/acre + **Phosphoric acid 80%**: 2 kg/acre\n   -or\n   **Urea**: 1.5 kg/acre + **Phosphoric acid 80%**: 3 kg/acre\n\n### Note:\nPhosphoric acid should be applied separately 15-20 minutes before the use of other fertilizers.\n\nIf you need more information, please ask!",
+        "timestamp": {
+          "$date": "2025-03-16T11:39:29.584Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં હાલ કયા વાતાવરણ બનેલું છે રોગનું",
+        "en": "What is the environment in my farm right now?",
+        "timestamp": {
+          "$date": "2025-03-16T11:40:00.757Z"
+        },
+        "standalone_question": "What diseases are currently affecting the environment in my field?",
+        "standalone_en": "What diseases are currently affecting the environment in my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara khetaraman hal kaya vatavaran banelun che roganun"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં (Ghar Valo Palot) હાલના વાતાવરણમાં રોગોની આગાહી નીચે મુજબ છે:\n\n### 16 માર્ચ 2025:\n- **પાઉડરી મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 80.1%\n  - **રિસ્ક લેવલ**: HIGH\n- **ડાઉની મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 18.6%\n  - **રિસ્ક લેવલ**: NIL\n\n### 15 માર્ચ 2025:\n- **પાઉડરી મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 23.3%\n  - **રિસ્ક લેવલ**: NIL\n- **ડાઉની મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 38.0%\n  - **રિસ્ક લેવલ**: LOW\n\n### 13 માર્ચ 2025:\n- **પાઉડરી મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 96.4%\n  - **રિસ્ક લેવલ**: HIGH\n- **ડાઉની મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 12.2%\n  - **રિસ્ક લેવલ**: NIL\n\n### 12 માર્ચ 2025:\n- **પાઉડરી મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 99.6%\n  - **રિસ્ક લેવલ**: HIGH\n- **ડાઉની મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 16.3%\n  - **રિસ્ક લેવલ**: NIL\n\n### 11 માર્ચ 2025:\n- **પાઉડરી મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 99.0%\n  - **રિસ્ક લેવલ**: HIGH\n- **ડાઉની મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 18.6%\n  - **રિસ્ક લેવલ**: NIL\n\n### 10 માર્ચ 2025:\n- **પાઉડરી મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 98.8%\n  - **રિસ્ક લેવલ**: HIGH\n- **ડાઉની મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 14.2%\n  - **રિસ્ક લેવલ**: NIL\n\n### સૂચન:\n- **પાઉડરી મિલ્ડ્યુ** માટે સ્પ્રે કરવું જરૂરી છે, કારણ કે તેનો રિસ્ક લેવલ HIGH છે.\n- **ડાઉની મિલ્ડ્યુ** માટે હાલ કોઈ ખાસ જોખમ નથી.\n\nજો તમને વધુ માહિતી જોઈએ, તો કૃપા કરીને પૂછો!",
+        "en": "The prediction of diseases in the current environment in your farm (Ghar Valo Palot) is as follows:\n\n### 16 March 2025:\n- **Powdery Mildew**: \n  * **Probability**: 80.1%\n  - **Risk Level**: HIGH\n* **Downey Mildew**: \n  * **Probability**: 18.6%\n  - **Risk Level**: NIL\n\n### 15 March 2025:\n- **Powdery Mildew**: \n  * **Probability**: 23.3%\n  - **Risk Level**: NIL\n* **Downey Mildew**: \n  * **Probability**: 38.0%\n  - **Risk Level**: LOW\n\n### 13 March 2025:\n- **Powdery Mildew**: \n  * **Probability**: 96.4%\n  - **Risk Level**: HIGH\n* **Downey Mildew**: \n  * **Probability**: 12.2%\n  - **Risk Level**: NIL\n\n### 12 March 2025:\n- **Powdery Mildew**: \n  **Probability**: 99.6%\n  - **Risk Level**: HIGH\n* **Downey Mildew**: \n  * **Probability**: 16.3%\n  - **Risk Level**: NIL\n\n### 11 March 2025:\n- **Powdery Mildew**: \n  **Probability**: 99.0%\n  - **Risk Level**: HIGH\n* **Downey Mildew**: \n  * **Probability**: 18.6%\n  - **Risk Level**: NIL\n\n### 10 March 2025:\n- **Powdery Mildew**: \n  * **Probability**: 98.8%\n  - **Risk Level**: HIGH\n* **Downey Mildew**: \n  * **Probability**: 14.2%\n  - **Risk Level**: NIL\n\n### Suggestion:\n- It is necessary to spray for ***powdery mildew**, as its risk level is high.\nThere is currently no special risk for **downy mildew**.\n\nIf you need more information, please ask!",
+        "timestamp": {
+          "$date": "2025-03-16T11:40:12.100Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "હાલમાં મારા ખેતરમાં કયા રોગનું વાતાવરણ મળેલું છે",
+        "en": "What kind of disease environment has been found in my farm right now?",
+        "timestamp": {
+          "$date": "2025-03-16T11:40:24.858Z"
+        },
+        "standalone_question": "What diseases are currently present in the environment of my field?",
+        "standalone_en": "What diseases are currently present in the environment of my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "halaman mara khetaraman kaya roganun vatavaran malelun che"
+      },
+      {
+        "role": "assistant",
+        "content": "હાલમાં તમારા ખેતરમાં (Ghar Valo Palot) નીચેના રોગોના વાતાવરણ મળ્યા છે:\n\n### 16 માર્ચ 2025:\n- **પાઉડરી મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 80.1%\n  - **રિસ્ક લેવલ**: HIGH\n- **ડાઉની મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 18.6%\n  - **રિસ્ક લેવલ**: NIL\n\n### 15 માર્ચ 2025:\n- **પાઉડરી મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 23.3%\n  - **રિસ્ક લેવલ**: NIL\n- **ડાઉની મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 38.0%\n  - **રિસ્ક લેવલ**: LOW\n\n### 13 માર્ચ 2025:\n- **પાઉડરી મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 96.4%\n  - **રિસ્ક લેવલ**: HIGH\n- **ડાઉની મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 12.2%\n  - **રિસ્ક લેવલ**: NIL\n\n### 12 માર્ચ 2025:\n- **પાઉડરી મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 99.6%\n  - **રિસ્ક લેવલ**: HIGH\n- **ડાઉની મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 16.3%\n  - **રિસ્ક લેવલ**: NIL\n\n### 11 માર્ચ 2025:\n- **પાઉડરી મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 99.0%\n  - **રિસ્ક લેવલ**: HIGH\n- **ડાઉની મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 18.6%\n  - **રિસ્ક લેવલ**: NIL\n\n### 10 માર્ચ 2025:\n- **પાઉડરી મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 98.8%\n  - **રિસ્ક લેવલ**: HIGH\n- **ડાઉની મિલ્ડ્યુ**: \n  - **પ્રોબેબિલિટી**: 14.2%\n  - **રિસ્ક લેવલ**: NIL\n\n### સૂચન:\n- **પાઉડરી મિલ્ડ્યુ** માટે સ્પ્રે કરવું જરૂરી છે, કારણ કે તેનો રિસ્ક લેવલ HIGH છે.\n- **ડાઉની મિલ્ડ્યુ** માટે હાલ કોઈ ખાસ જોખમ નથી.\n\nજો તમને વધુ માહિતી જોઈએ, તો કૃપા કરીને પૂછો!",
+        "en": "Currently, an environment of the following diseases has been found in your farm (Ghar Valo Palot):\n\n### 16 March 2025:\n- **Powdery Mildew**: \n  * **Probability**: 80.1%\n  - **Risk Level**: HIGH\n* **Downey Mildew**: \n  * **Probability**: 18.6%\n  - **Risk Level**: NIL\n\n### 15 March 2025:\n- **Powdery Mildew**: \n  * **Probability**: 23.3%\n  - **Risk Level**: NIL\n* **Downey Mildew**: \n  * **Probability**: 38.0%\n  - **Risk Level**: LOW\n\n### 13 March 2025:\n- **Powdery Mildew**: \n  * **Probability**: 96.4%\n  - **Risk Level**: HIGH\n* **Downey Mildew**: \n  * **Probability**: 12.2%\n  - **Risk Level**: NIL\n\n### 12 March 2025:\n- **Powdery Mildew**: \n  **Probability**: 99.6%\n  - **Risk Level**: HIGH\n* **Downey Mildew**: \n  * **Probability**: 16.3%\n  - **Risk Level**: NIL\n\n### 11 March 2025:\n- **Powdery Mildew**: \n  **Probability**: 99.0%\n  - **Risk Level**: HIGH\n* **Downey Mildew**: \n  * **Probability**: 18.6%\n  - **Risk Level**: NIL\n\n### 10 March 2025:\n- **Powdery Mildew**: \n  * **Probability**: 98.8%\n  - **Risk Level**: HIGH\n* **Downey Mildew**: \n  * **Probability**: 14.2%\n  - **Risk Level**: NIL\n\n### Suggestion:\n- It is necessary to spray for ***powdery mildew**, as its risk level is high.\nThere is currently no special risk for **downy mildew**.\n\nIf you need more information, please ask!",
+        "timestamp": {
+          "$date": "2025-03-16T11:40:35.922Z"
+        }
+      }
+    ],
+    "farmer_id": "narshibhaiamrajiparmar",
+    "farmer_plot_ids": [
+      "gharvalopalot577"
+    ],
+    "conversation_id": "67d6b83126d09ec3bb17d11b",
+    "_id": "67d6b83126d09ec3bb17d11b",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-16T11:46:16.650000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-03-16T11:38:26.065000+00:00"
+  }
+]

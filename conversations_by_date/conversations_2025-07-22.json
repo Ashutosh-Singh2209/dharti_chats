@@ -1,0 +1,1100 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Worst product ",
+        "en": "Worst product ",
+        "timestamp": {
+          "$date": "2025-07-22T14:55:56.774Z"
+        },
+        "standalone_question": "What is the worst product you have ever used?",
+        "standalone_en": "What is the worst product you have ever used?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "I'm here to assist you with any agricultural-related queries or issues you may have. If you have specific concerns or questions about your crops or plots, please let me know, and I'll do my best to help!",
+        "en": "I'm here to assist you with any agricultural-related queries or issues you may have. If you have specific concerns or questions about your crops or plots, please let me know, and I'll do my best to help!",
+        "timestamp": {
+          "$date": "2025-07-22T14:56:04.484Z"
+        }
+      }
+    ],
+    "farmer_id": "hemanthr",
+    "farmer_plot_ids": [
+      "hemanthtomato",
+      "ramuenglishcucumber",
+      "sasyakashicapsicum"
+    ],
+    "conversation_id": "687fa67a2f68aa6a87b81b6a",
+    "_id": "687fa67a2f68aa6a87b81b6a",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-07-22T15:00:56.778000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-07-22T14:55:56.774000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Aaj plat ki sthiti",
+        "en": "Plot Status Today",
+        "timestamp": {
+          "$date": "2025-07-22T14:18:46.587Z"
+        },
+        "standalone_question": "What is the current situation of the plate today?",
+        "standalone_en": "What is the current situation of the plate today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपके प्लॉट \"plot1\" की स्थिति इस प्रकार है:\n\n- **मिट्टी का तापमान:** 29.1°C\n- **बैटरी स्तर:** 91%\n- **मिट्टी की नमी (सेंसर 1):** 100% (यह बहुत गीला है)\n- **मिट्टी की नमी (सेंसर 2):** 93% (यह भी गीला है)\n- **सौर वोल्टेज:** 51V\n\nआपका प्लॉट अच्छी स्थिति में है और मिट्टी की नमी बहुत अधिक है, इसलिए अभी पानी देने की आवश्यकता नहीं है। क्या आपको और कुछ जानकारी चाहिए?",
+        "en": "The status of your plot \"plot1\" is as follows:\n\n- Soil temperature: 29.1°C\n- **Battery level:** 91%\n- **Soil moisture (sensor 1):** 100% (it's too wet)\n- Soil moisture (sensor 2):* 93% (it's also wet)\n- **Solar Voltage:** 51V\n\nYour plot is in good condition and the soil moisture is very high, so there is no need to water right now. Do you need any more information?",
+        "timestamp": {
+          "$date": "2025-07-22T14:18:56.817Z"
+        }
+      }
+    ],
+    "farmer_id": "iswarajlayse",
+    "farmer_plot_ids": [
+      "plot1122"
+    ],
+    "conversation_id": "687f9dc59389b6523d06bc58",
+    "_id": "687f9dc59389b6523d06bc58",
+    "language": "hi",
+    "expiry": {
+      "$date": "2025-07-22T14:23:46.590000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-07-22T14:18:46.587000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "बागेचे चालू स्टेज दाखवत नाही व खाताचे शेड्युल येत नाही ",
+        "en": "Doesn't show the current stage of the garden and doesn't have an eating schedule. ",
+        "timestamp": {
+          "$date": "2025-07-22T13:15:49.692Z"
+        },
+        "standalone_question": "The garden is not showing the current stage, and the account schedule is not coming. What could be the issue?",
+        "standalone_en": "The garden is not showing the current stage, and the account schedule is not coming. What could be the issue?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "bageche chalu stage dakhavat nahi v khatache schedule yet nahi "
+      },
+      {
+        "role": "assistant",
+        "content": "आपण बागेच्या चालू स्टेजसाठी आणि खाताच्या शेड्युलसाठी रिपोर्ट तयार करणे आवश्यक आहे. आपल्याकडे कोणतेही माती, पान, किंवा पिटोल डेटा उपलब्ध आहे का? जर नाही, तर आम्ही सामान्य पिक आणि क्षेत्रीय डेटावर आधारित एक मूलभूत शेड्युल तयार करू शकतो. कृपया मला सांगा!",
+        "en": "You need to prepare a report for the current stage of the garden and the eating schedule. Do you have any soil, leaf, or pitol data available? If not, we can create a basic schedule based on general crop and regional data. Please let me know!",
+        "timestamp": {
+          "$date": "2025-07-22T13:15:54.778Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "आहे ",
+        "en": "It is ",
+        "timestamp": {
+          "$date": "2025-07-22T13:16:25.707Z"
+        },
+        "standalone_question": "Is there any data available regarding soil, leaves, or pitot?",
+        "standalone_en": "Is there any data available regarding soil, leaves, or pitot?",
+        "retrieval": {
+          "tools": [
+            "live_sensor_data  \nProvides the live / most recent sensor data for the plots, last received from the sensors. The data fields could be of these types: airTemperature, airHumidity, soilTemperature, soilMoisture1, soilMoisture2, leafWetness, airPressure, baroPressure, lightIntensity (lux), uvIndex, windSpeed, windDirection, instantaneous rainfall, battery percentage, vaporPressure. Depending on device type, some data may not be available.",
+            "get_daily_soil_moisture_data  \nRetrieves historical daily soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for larger duration."
+          ],
+          "faq": []
+        },
+        "content_transliterated": "aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या बागेची चालू स्टेज \"Cane thinning\" आहे, जी 9 मे 2025 पासून सुरू झाली आहे. आपण सध्या 11 व्या आठवड्यात आहात. \n\n### खाताचे शेड्युल:\n- **सध्याची शेड्युल:** सध्या कोणतीही फर्टिगेशन आवश्यक नाही.\n- **पुढील शेड्युल:** \n  - **स्टेज:** Subcane\n  - **आठवडा:** 1\n  - **फर्टिलायझर:** \n    - **Mono potassium phosphate:** 3.5 kg/acre\n    - **Phosphoric acid 80%:** 5 kg/acre (हे इतर फर्टिलायझरच्या 15-20 मिनिटे आधी लागू करावे)\n\nकृपया आपल्याला आणखी काही माहिती हवी असल्यास सांगा!",
+        "en": "The current stage of our garden is \"Cane Thinning\", which has started since 9 May 2025. We are currently in the 11th week. \n\n### Account Schedule:\n- **Current Schedule:** No fertigation is required at present.\n- **Next Schedule:** \n  - **Stage:** Subcane\n  - **Week:** 1\n  - **Fertilizer:** \n    - Mono Potassium Phosphate: 3.5 kg/acre\n    - **Phosphoric acid 80%:** 5 kg/acre (should be applied 15-20 minutes before other fertilizers)\n\nPlease let us know if you need any more information!",
+        "timestamp": {
+          "$date": "2025-07-22T13:16:35.236Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "सध्या बागेला कुठलेही फर्टिगेश लागत नाही काय ",
+        "en": "Currently, the garden doesn't need any fertility. ",
+        "timestamp": {
+          "$date": "2025-07-22T13:18:04.784Z"
+        },
+        "standalone_question": "Is there currently no fertigation required for the garden?",
+        "standalone_en": "Is there currently no fertigation required for the garden?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: Can I generate a fertigation schedule without soil, leaf, or petiole data?\nA: Yes, you can generate a basic fertigation schedule without specific soil, leaf, or petiole data. Fyllo will create a general schedule based on typical crop needs and soil types for your region.",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: If I don't add any test data, what is the basis for the generated fertigation schedule?\nA: When no specific test data is provided, Fyllo generates a basic fertigation schedule based on:\n\n    1. Typical nutrient needs for your crop type\n    2. General soil characteristics common in your region\n    3. Standard growing practices for your area\n    This schedule provides a starting point, but may not be as precise as one based on specific test data.",
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil."
+          ]
+        },
+        "content_transliterated": "sadhya bagela kuthalehi fertigesh lagat nahi kay "
+      },
+      {
+        "role": "assistant",
+        "content": "सध्या आपल्या बागेला कोणतीही फर्टिगेशन आवश्यक नाही. चालू स्टेज \"Cane thinning\" आहे, जी 9 मे 2025 पासून सुरू झाली आहे आणि आपण 11 व्या आठवड्यात आहात.\n\n### पुढील फर्टिगेशन शेड्युल:\n- **स्टेज:** Subcane\n- **आठवडा:** 1\n- **फर्टिलायझर:**\n  - **Mono potassium phosphate:** 3.5 kg/acre\n  - **Phosphoric acid 80%:** 5 kg/acre (हे इतर फर्टिलायझरच्या 15-20 मिनिटे आधी लागू करावे)\n\nकृपया आपल्याला आणखी काही माहिती हवी असल्यास सांगा!",
+        "en": "Currently your garden does not require any fertigation. The current stage is \"Cane Thinning\", which has started since 9th May 2025 and you are in the 11th week.\n\n### Next Fertigation Schedule:\n- **Stage:** Subcane\n- **Week:** 1\n- **Fertilizer:**\n  - Mono Potassium Phosphate: 3.5 kg/acre\n  - **Phosphoric acid 80%:** 5 kg/acre (should be applied 15-20 minutes before other fertilizers)\n\nPlease let us know if you need any more information!",
+        "timestamp": {
+          "$date": "2025-07-22T13:18:14.194Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "अक्टोबर शेड्युल कधी भेटेल ",
+        "en": "When will the October schedule meet? ",
+        "timestamp": {
+          "$date": "2025-07-22T13:19:15.726Z"
+        },
+        "standalone_question": "When will the October schedule be available?",
+        "standalone_en": "When will the October schedule be available?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "october schedule kadhi bhetel "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या बागेतील \"Cane thinning\" स्टेज 9 मे 2025 पासून सुरू आहे. ऑक्टोबरमध्ये आपल्याला \"Fruit Pruning\" स्टेजमध्ये प्रवेश मिळेल, जो पुढील स्टेज आहे. \n\n### स्टेज शेड्युल:\n- **Fruit Pruning:** ऑक्टोबर 2025 मध्ये अपेक्षित आहे.\n\nआपल्याला या स्टेजसाठी फर्टिगेशन शेड्युल आणि इतर माहिती हवी असल्यास, कृपया मला सांगा!",
+        "en": "The \"Cane Thinning\" stage in your garden begins on May 9, 2025. In October, you will get access to the \"Fruit Pruning\" stage, which is the next stage. \n\n### Stage Schedule:\n- **Fruit Pruning:** Expected in October 2025.\n\nIf you need a fertigation schedule and other information for this stage, please let me know!",
+        "timestamp": {
+          "$date": "2025-07-22T13:19:21.109Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "साध्यच्या काळात बागेला आणखी कश्याची गरज असल्यास सांगा ",
+        "en": "Let me know if the garden needs more during the fall. ",
+        "timestamp": {
+          "$date": "2025-07-22T13:20:23.398Z"
+        },
+        "standalone_question": "What additional needs might the garden have during the current period?",
+        "standalone_en": "What additional needs might the garden have during the current period?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "sadhyachya kalat bagela anakhi kashyachi garaj asalyas sanga "
+      },
+      {
+        "role": "assistant",
+        "content": "सध्या आपल्या बागेला \"Cane thinning\" स्टेजमध्ये (11 व्या आठवड्यात) कोणतीही फर्टिगेशन आवश्यक नाही. \n\n### पुढील फर्टिगेशन शेड्युल:\n- **स्टेज:** Subcane\n- **आठवडा:** 1\n- **फर्टिलायझर:**\n  - **Mono potassium phosphate:** 3.5 kg/acre\n  - **Phosphoric acid 80%:** 5 kg/acre (हे इतर फर्टिलायझरच्या 15-20 मिनिटे आधी लागू करावे)\n\n### रोग आणि कीड नियंत्रण:\nसध्या कोणतीही रोग किंवा कीड नियंत्रणाची शेड्युल उपलब्ध नाही. \n\nआपल्याला आणखी काही माहिती हवी असल्यास, कृपया सांगा!",
+        "en": "Currently your garden requires no fertigation in the \"cane thinning\" stage (week 11). \n\n### Next Fertigation Schedule:\n- **Stage:** Subcane\n- **Week:** 1\n- **Fertilizer:**\n  - Mono Potassium Phosphate: 3.5 kg/acre\n  - **Phosphoric acid 80%:** 5 kg/acre (should be applied 15-20 minutes before other fertilizers)\n\n### Disease and Pest Control:\nThere is currently no disease or pest control schedule available. \n\nIf you need more information, please let me know!",
+        "timestamp": {
+          "$date": "2025-07-22T13:20:34.052Z"
+        }
+      }
+    ],
+    "farmer_id": "parameshwarawatade",
+    "farmer_plot_ids": [
+      "manikchaman189"
+    ],
+    "conversation_id": "687f8f05048ee61472f8aa0a",
+    "_id": "687f8f05048ee61472f8aa0a",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-22T13:25:23.403000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-07-22T13:15:49.692000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "बागेचे चालू स्टेज दाखवत नाही व खाताचे शेड्युल येत नाही ",
+        "en": "Doesn't show the current stage of the garden and doesn't have an eating schedule. ",
+        "timestamp": {
+          "$date": "2025-07-22T13:15:49.692Z"
+        },
+        "standalone_question": "The garden is not showing the current stage, and the account schedule is not coming. What could be the issue?",
+        "standalone_en": "The garden is not showing the current stage, and the account schedule is not coming. What could be the issue?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "bageche chalu stage dakhavat nahi v khatache schedule yet nahi "
+      },
+      {
+        "role": "assistant",
+        "content": "आपण बागेच्या चालू स्टेजसाठी आणि खाताच्या शेड्युलसाठी रिपोर्ट तयार करणे आवश्यक आहे. आपल्याकडे कोणतेही माती, पान, किंवा पिटोल डेटा उपलब्ध आहे का? जर नाही, तर आम्ही सामान्य पिक आणि क्षेत्रीय डेटावर आधारित एक मूलभूत शेड्युल तयार करू शकतो. कृपया मला सांगा!",
+        "en": "You need to prepare a report for the current stage of the garden and the eating schedule. Do you have any soil, leaf, or pitol data available? If not, we can create a basic schedule based on general crop and regional data. Please let me know!",
+        "timestamp": {
+          "$date": "2025-07-22T13:15:54.778Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "आहे ",
+        "en": "It is ",
+        "timestamp": {
+          "$date": "2025-07-22T13:16:25.707Z"
+        },
+        "standalone_question": "Is there any data available?",
+        "standalone_en": "Is there any data available?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या बागेची चालू स्टेज \"Cane thinning\" आहे, जी 9 मे 2025 पासून सुरू झाली आहे. आपण सध्या 11 व्या आठवड्यात आहात. \n\n### खाताचे शेड्युल:\n- **सध्याची शेड्युल:** सध्या कोणतीही फर्टिगेशन आवश्यक नाही.\n- **पुढील शेड्युल:** \n  - **स्टेज:** Subcane\n  - **आठवडा:** 1\n  - **फर्टिलायझर:** \n    - **Mono potassium phosphate:** 3.5 kg/acre\n    - **Phosphoric acid 80%:** 5 kg/acre (हे इतर फर्टिलायझरच्या 15-20 मिनिटे आधी लागू करावे)\n\nकृपया आपल्याला आणखी काही माहिती हवी असल्यास सांगा!",
+        "en": "The current stage of our garden is \"Cane Thinning\", which has started since 9 May 2025. We are currently in the 11th week. \n\n### Account Schedule:\n- **Current Schedule:** No fertigation is required at present.\n- **Next Schedule:** \n  - **Stage:** Subcane\n  - **Week:** 1\n  - **Fertilizer:** \n    - Mono Potassium Phosphate: 3.5 kg/acre\n    - **Phosphoric acid 80%:** 5 kg/acre (should be applied 15-20 minutes before other fertilizers)\n\nPlease let us know if you need any more information!",
+        "timestamp": {
+          "$date": "2025-07-22T13:16:35.236Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "सध्या बागेला कुठलेही फर्टिगेश लागत नाही काय ",
+        "en": "Currently, the garden doesn't need any fertility. ",
+        "timestamp": {
+          "$date": "2025-07-22T13:18:04.784Z"
+        },
+        "standalone_question": "Is there currently no need for any fertigation for the garden?",
+        "standalone_en": "Is there currently no need for any fertigation for the garden?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: Can I generate a fertigation schedule without soil, leaf, or petiole data?\nA: Yes, you can generate a basic fertigation schedule without specific soil, leaf, or petiole data. Fyllo will create a general schedule based on typical crop needs and soil types for your region.",
+            "Q: If I don't add any test data, what is the basis for the generated fertigation schedule?\nA: When no specific test data is provided, Fyllo generates a basic fertigation schedule based on:\n\n    1. Typical nutrient needs for your crop type\n    2. General soil characteristics common in your region\n    3. Standard growing practices for your area\n    This schedule provides a starting point, but may not be as precise as one based on specific test data."
+          ]
+        },
+        "content_transliterated": "sadhya bagela kuthalehi fertigesh lagat nahi kay "
+      },
+      {
+        "role": "assistant",
+        "content": "सध्या आपल्या बागेला कोणतीही फर्टिगेशन आवश्यक नाही. चालू स्टेज \"Cane thinning\" आहे, जी 9 मे 2025 पासून सुरू झाली आहे आणि आपण 11 व्या आठवड्यात आहात.\n\n### पुढील फर्टिगेशन शेड्युल:\n- **स्टेज:** Subcane\n- **आठवडा:** 1\n- **फर्टिलायझर:**\n  - **Mono potassium phosphate:** 3.5 kg/acre\n  - **Phosphoric acid 80%:** 5 kg/acre (हे इतर फर्टिलायझरच्या 15-20 मिनिटे आधी लागू करावे)\n\nकृपया आपल्याला आणखी काही माहिती हवी असल्यास सांगा!",
+        "en": "Currently your garden does not require any fertigation. The current stage is \"Cane Thinning\", which has started since 9th May 2025 and you are in the 11th week.\n\n### Next Fertigation Schedule:\n- **Stage:** Subcane\n- **Week:** 1\n- **Fertilizer:**\n  - Mono Potassium Phosphate: 3.5 kg/acre\n  - **Phosphoric acid 80%:** 5 kg/acre (should be applied 15-20 minutes before other fertilizers)\n\nPlease let us know if you need any more information!",
+        "timestamp": {
+          "$date": "2025-07-22T13:18:14.194Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "अक्टोबर शेड्युल कधी भेटेल ",
+        "en": "When will the October schedule meet? ",
+        "timestamp": {
+          "$date": "2025-07-22T13:19:15.726Z"
+        },
+        "standalone_question": "When will the October schedule be available?",
+        "standalone_en": "When will the October schedule be available?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "october schedule kadhi bhetel "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या बागेतील \"Cane thinning\" स्टेज 9 मे 2025 पासून सुरू आहे. ऑक्टोबरमध्ये आपल्याला \"Fruit Pruning\" स्टेजमध्ये प्रवेश मिळेल, जो पुढील स्टेज आहे. \n\n### स्टेज शेड्युल:\n- **Fruit Pruning:** ऑक्टोबर 2025 मध्ये अपेक्षित आहे.\n\nआपल्याला या स्टेजसाठी फर्टिगेशन शेड्युल आणि इतर माहिती हवी असल्यास, कृपया मला सांगा!",
+        "en": "The \"Cane Thinning\" stage in your garden begins on May 9, 2025. In October, you will get access to the \"Fruit Pruning\" stage, which is the next stage. \n\n### Stage Schedule:\n- **Fruit Pruning:** Expected in October 2025.\n\nIf you need a fertigation schedule and other information for this stage, please let me know!",
+        "timestamp": {
+          "$date": "2025-07-22T13:19:21.109Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "साध्यच्या काळात बागेला आणखी कश्याची गरज असल्यास सांगा ",
+        "en": "Let me know if the garden needs more during the fall. ",
+        "timestamp": {
+          "$date": "2025-07-22T13:20:23.398Z"
+        },
+        "standalone_question": "What additional needs does the garden have during the current period?",
+        "standalone_en": "What additional needs does the garden have during the current period?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "sadhyachya kalat bagela anakhi kashyachi garaj asalyas sanga "
+      },
+      {
+        "role": "assistant",
+        "content": "सध्या आपल्या बागेला \"Cane thinning\" स्टेजमध्ये (11 व्या आठवड्यात) कोणतीही फर्टिगेशन आवश्यक नाही. \n\n### पुढील फर्टिगेशन शेड्युल:\n- **स्टेज:** Subcane\n- **आठवडा:** 1\n- **फर्टिलायझर:**\n  - **Mono potassium phosphate:** 3.5 kg/acre\n  - **Phosphoric acid 80%:** 5 kg/acre (हे इतर फर्टिलायझरच्या 15-20 मिनिटे आधी लागू करावे)\n\n### रोग आणि कीड नियंत्रण:\nसध्या कोणतीही रोग किंवा कीड नियंत्रणाची शेड्युल उपलब्ध नाही. \n\nआपल्याला आणखी काही माहिती हवी असल्यास, कृपया सांगा!",
+        "en": "Currently your garden requires no fertigation in the \"cane thinning\" stage (week 11). \n\n### Next Fertigation Schedule:\n- **Stage:** Subcane\n- **Week:** 1\n- **Fertilizer:**\n  - Mono Potassium Phosphate: 3.5 kg/acre\n  - **Phosphoric acid 80%:** 5 kg/acre (should be applied 15-20 minutes before other fertilizers)\n\n### Disease and Pest Control:\nThere is currently no disease or pest control schedule available. \n\nIf you need more information, please let me know!",
+        "timestamp": {
+          "$date": "2025-07-22T13:20:34.052Z"
+        }
+      }
+    ],
+    "farmer_id": "parameshwarawatade",
+    "farmer_plot_ids": [
+      "manikchaman189"
+    ],
+    "conversation_id": "687f8f05048ee61472f8aa0a",
+    "_id": "687f8f05048ee61472f8aa0a",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-22T13:25:23.403000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-07-22T13:15:49.692000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Go<user uploaded image for analysis at 'ajor/2025-07-22-1753166719391.jpg'>",
+        "en": "Go<user uploaded image for analysis at 'ajor/2025-07-22-1753166719391.jpg'>",
+        "timestamp": {
+          "$date": "2025-07-22T06:45:25.058Z"
+        },
+        "standalone_question": "What does the uploaded image depict?",
+        "standalone_en": "What does the uploaded image depict?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The image you provided shows a close-up of a leaf, but it lacks clarity for a specific analysis of diseases or pests. Here are some suggestions for a better analysis:\n\n1. **Focus**: Ensure the affected area is in sharp focus.\n2. **Distance**: Capture the image from a closer distance to highlight any potential issues.\n3. **Lighting**: Good lighting can help in identifying any discoloration or damage.\n\nPlease provide a clearer image of the affected area for a more detailed analysis.",
+        "en": "The image you provided shows a close-up of a leaf, but it lacks clarity for a specific analysis of diseases or pests. Here are some suggestions for a better analysis:\n\n1. **Focus**: Ensure the affected area is in sharp focus.\n2. **Distance**: Capture the image from a closer distance to highlight any potential issues.\n3. **Lighting**: Good lighting can help in identifying any discoloration or damage.\n\nPlease provide a clearer image of the affected area for a more detailed analysis.",
+        "timestamp": {
+          "$date": "2025-07-22T06:45:33.615Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Gi<user uploaded image for analysis at 'ajor/2025-07-22-1753166733622.jpg'>",
+        "en": "Gi<user uploaded image for analysis at 'ajor/2025-07-22-1753166733622.jpg'>",
+        "timestamp": {
+          "$date": "2025-07-22T06:45:56.240Z"
+        },
+        "standalone_question": "Could you analyze the new image I uploaded?",
+        "standalone_en": "Could you analyze the new image I uploaded?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the image indicates that the leaf appears healthy at first glance, but the clarity is insufficient to definitively identify any specific disease or pest. \n\nFor a more accurate analysis, please consider the following suggestions for your next photo:\n- Ensure the affected area is in focus.\n- Capture the image from a closer distance to highlight any symptoms.\n- Include multiple angles of the leaf if possible.\n\nOnce you provide a clearer image, I can assist you further in analyzing the crop's health.",
+        "en": "The analysis of the image indicates that the leaf appears healthy at first glance, but the clarity is insufficient to definitively identify any specific disease or pest. \n\nFor a more accurate analysis, please consider the following suggestions for your next photo:\n- Ensure the affected area is in focus.\n- Capture the image from a closer distance to highlight any symptoms.\n- Include multiple angles of the leaf if possible.\n\nOnce you provide a clearer image, I can assist you further in analyzing the crop's health.",
+        "timestamp": {
+          "$date": "2025-07-22T06:46:06.925Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Go<user uploaded image for analysis at 'ajor/2025-07-22-1753166764544.jpg'>",
+        "en": "Go<user uploaded image for analysis at 'ajor/2025-07-22-1753166764544.jpg'>",
+        "timestamp": {
+          "$date": "2025-07-22T06:46:10.678Z"
+        },
+        "standalone_question": "Could you analyze the new image I just uploaded?",
+        "standalone_en": "Could you analyze the new image I just uploaded?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the latest image indicates that the leaves appear generally healthy, but there may be some signs of potential issues. The leaf texture looks normal, but if there are any discolorations or spots that are not clearly visible, they could suggest pest or disease problems.\n\nFor a more accurate analysis, consider the following:\n- Take a clearer photo focusing on specific areas of concern, such as spots, discoloration, or unusual growth patterns.\n- A closer shot of the affected regions would be very helpful.\n\nIf you notice any specific symptoms or have concerns about pests or diseases, please describe them for further assistance.",
+        "en": "The analysis of the latest image indicates that the leaves appear generally healthy, but there may be some signs of potential issues. The leaf texture looks normal, but if there are any discolorations or spots that are not clearly visible, they could suggest pest or disease problems.\n\nFor a more accurate analysis, consider the following:\n- Take a clearer photo focusing on specific areas of concern, such as spots, discoloration, or unusual growth patterns.\n- A closer shot of the affected regions would be very helpful.\n\nIf you notice any specific symptoms or have concerns about pests or diseases, please describe them for further assistance.",
+        "timestamp": {
+          "$date": "2025-07-22T06:46:20.758Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Go<user uploaded image for analysis at 'ajor/2025-07-22-1753166804753.jpg'>",
+        "en": "Go<user uploaded image for analysis at 'ajor/2025-07-22-1753166804753.jpg'>",
+        "timestamp": {
+          "$date": "2025-07-22T06:46:48.462Z"
+        },
+        "standalone_question": "Could you please analyze the latest image I uploaded for any signs of disease or pests?",
+        "standalone_en": "Could you please analyze the latest image I uploaded for any signs of disease or pests?",
+        "retrieval": {
+          "tools": [
+            "analyse_crop_image  \nGets the analysis of the uploaded crop image for any diseases or pests."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the latest image indicates that it is still not clear enough to identify specific diseases or pests affecting the crop. Here are some suggestions for capturing a better photo:\n\n1. **Focus**: Ensure the affected area of the leaf is in sharp focus.\n2. **Distance**: Capture the image from a closer distance to highlight any symptoms.\n3. **Lighting**: Good natural lighting can help in identifying issues more clearly.\n\nPlease provide a clearer image, and I will assist you further with the analysis.",
+        "en": "The analysis of the latest image indicates that it is still not clear enough to identify specific diseases or pests affecting the crop. Here are some suggestions for capturing a better photo:\n\n1. **Focus**: Ensure the affected area of the leaf is in sharp focus.\n2. **Distance**: Capture the image from a closer distance to highlight any symptoms.\n3. **Lighting**: Good natural lighting can help in identifying issues more clearly.\n\nPlease provide a clearer image, and I will assist you further with the analysis.",
+        "timestamp": {
+          "$date": "2025-07-22T06:46:57.732Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Go<user uploaded image for analysis at 'ajor/2025-07-22-1753166871518.jpg'>",
+        "en": "Go<user uploaded image for analysis at 'ajor/2025-07-22-1753166871518.jpg'>",
+        "timestamp": {
+          "$date": "2025-07-22T06:47:55.845Z"
+        },
+        "standalone_question": "Can you analyze the latest image I uploaded for any signs of disease or pests?",
+        "standalone_en": "Can you analyze the latest image I uploaded for any signs of disease or pests?",
+        "retrieval": {
+          "tools": [
+            "analyse_crop_image  \nGets the analysis of the uploaded crop image for any diseases or pests."
+          ],
+          "faq": [
+            "Q: How does the device predict diseases and pests?\nA: It captures data from different parameters using sensors and analyzes it using various agronomical algorithms, including different models for all diseases and pests.\n   Each disease and pest has a specific etymology, which is the suitable environment for its incidence."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the latest image indicates that the leaf shows some discoloration and potential signs of stress. A reddish spot at the center may suggest a possible pest or disease issue.\n\n### Recommendations:\n1. **Monitor the Plant**: Keep an eye on the plant for any further symptoms or changes.\n2. **Pest/Disease Management**: Consider implementing appropriate pest or disease management strategies based on the observed symptoms.\n\nFor a more accurate diagnosis, please provide a clearer image focusing closely on the affected areas. If you have any specific concerns or symptoms, feel free to describe them for further assistance.",
+        "en": "The analysis of the latest image indicates that the leaf shows some discoloration and potential signs of stress. A reddish spot at the center may suggest a possible pest or disease issue.\n\n### Recommendations:\n1. **Monitor the Plant**: Keep an eye on the plant for any further symptoms or changes.\n2. **Pest/Disease Management**: Consider implementing appropriate pest or disease management strategies based on the observed symptoms.\n\nFor a more accurate diagnosis, please provide a clearer image focusing closely on the affected areas. If you have any specific concerns or symptoms, feel free to describe them for further assistance.",
+        "timestamp": {
+          "$date": "2025-07-22T06:48:06.246Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Go<user uploaded image for analysis at 'ajor/2025-07-22-1753166934616.jpg'>",
+        "en": "Go<user uploaded image for analysis at 'ajor/2025-07-22-1753166934616.jpg'>",
+        "timestamp": {
+          "$date": "2025-07-22T06:48:58.964Z"
+        },
+        "standalone_question": "Can you analyze the latest image I uploaded for any signs of disease or pests?",
+        "standalone_en": "Can you analyze the latest image I uploaded for any signs of disease or pests?",
+        "retrieval": {
+          "tools": [
+            "analyse_crop_image  \nGets the analysis of the uploaded crop image for any diseases or pests."
+          ],
+          "faq": [
+            "Q: How does the device predict diseases and pests?\nA: It captures data from different parameters using sensors and analyzes it using various agronomical algorithms, including different models for all diseases and pests.\n   Each disease and pest has a specific etymology, which is the suitable environment for its incidence."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the latest image shows that the leaves appear healthy, with no visible signs of discoloration, spots, or pest damage. \n\n### Recommendations:\n- **Monitor the Crop**: Continue to observe the plants for any changes or symptoms.\n- **Clear Images**: If you notice any specific issues in the future, please provide clearer images focusing on the affected areas for a more detailed analysis.\n\nIf you have any specific concerns or symptoms you'd like to discuss, feel free to share!",
+        "en": "The analysis of the latest image shows that the leaves appear healthy, with no visible signs of discoloration, spots, or pest damage. \n\n### Recommendations:\n- **Monitor the Crop**: Continue to observe the plants for any changes or symptoms.\n- **Clear Images**: If you notice any specific issues in the future, please provide clearer images focusing on the affected areas for a more detailed analysis.\n\nIf you have any specific concerns or symptoms you'd like to discuss, feel free to share!",
+        "timestamp": {
+          "$date": "2025-07-22T06:49:11.503Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "What is reddish spot",
+        "en": "What is reddish spot",
+        "timestamp": {
+          "$date": "2025-07-22T06:49:33.996Z"
+        },
+        "standalone_question": "What does the reddish spot indicate?",
+        "standalone_en": "What does the reddish spot indicate?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "A reddish spot on a plant leaf can indicate several potential issues, including:\n\n1. **Pest Damage**: Certain pests, like spider mites or aphids, can cause discoloration and spots on leaves.\n2. **Fungal Infections**: Some fungal diseases may present as reddish or brown spots, indicating infection.\n3. **Nutrient Deficiency**: A lack of essential nutrients, particularly potassium or magnesium, can lead to discoloration.\n4. **Environmental Stress**: Factors such as excessive sunlight, heat, or water stress can also cause leaf discoloration.\n\nIt's important to monitor the plant closely and consider further investigation or treatment based on the specific symptoms observed. If you notice additional symptoms or patterns, please share for more tailored advice.",
+        "en": "A reddish spot on a plant leaf can indicate several potential issues, including:\n\n1. **Pest Damage**: Certain pests, like spider mites or aphids, can cause discoloration and spots on leaves.\n2. **Fungal Infections**: Some fungal diseases may present as reddish or brown spots, indicating infection.\n3. **Nutrient Deficiency**: A lack of essential nutrients, particularly potassium or magnesium, can lead to discoloration.\n4. **Environmental Stress**: Factors such as excessive sunlight, heat, or water stress can also cause leaf discoloration.\n\nIt's important to monitor the plant closely and consider further investigation or treatment based on the specific symptoms observed. If you notice additional symptoms or patterns, please share for more tailored advice.",
+        "timestamp": {
+          "$date": "2025-07-22T06:49:38.308Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Can you suggest the treatment ",
+        "en": "Can you suggest the treatment ",
+        "timestamp": {
+          "$date": "2025-07-22T06:50:21.499Z"
+        },
+        "standalone_question": "What treatment options are available for addressing reddish spots on plant leaves?",
+        "standalone_en": "What treatment options are available for addressing reddish spots on plant leaves?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For seed treatment in cotton, you can use the following:\n\n### Insecticide:\n- **Imidacloprid 600 FS**: Apply 5 to 8 ml per kg of seeds.\n\n### Fungicide:\n- **Thiram**: Apply 2 to 3 gm per kg of seeds.\n\n### Benefits of Seed Treatment:\n- Prevents the spread of plant diseases and pests.\n- Protects seeds from rot and seedling blights.\n- Improves seed germination rates.\n- Provides protection from storage insects.\n- Controls soil insects.\n\n### Important Diseases to Watch For:\n- **Collar Rot**\n- **Damping Off**\n- **Seedling Blight**\n\n### Control Measures for Seedling Diseases:\n- Drench or spray seedlings with **Carbendazim** at a rate of 2.5 g per liter of water.\n\nMake sure to follow the recommended dosages and safety precautions while applying these treatments. If you have any specific concerns or conditions in your field, feel free to ask!",
+        "en": "For seed treatment in cotton, you can use the following:\n\n### Insecticide:\n- **Imidacloprid 600 FS**: Apply 5 to 8 ml per kg of seeds.\n\n### Fungicide:\n- **Thiram**: Apply 2 to 3 gm per kg of seeds.\n\n### Benefits of Seed Treatment:\n- Prevents the spread of plant diseases and pests.\n- Protects seeds from rot and seedling blights.\n- Improves seed germination rates.\n- Provides protection from storage insects.\n- Controls soil insects.\n\n### Important Diseases to Watch For:\n- **Collar Rot**\n- **Damping Off**\n- **Seedling Blight**\n\n### Control Measures for Seedling Diseases:\n- Drench or spray seedlings with **Carbendazim** at a rate of 2.5 g per liter of water.\n\nMake sure to follow the recommended dosages and safety precautions while applying these treatments. If you have any specific concerns or conditions in your field, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-07-22T06:50:26.656Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Can we apply carbendazim with irrigation ",
+        "en": "Can we apply carbendazim with irrigation ",
+        "timestamp": {
+          "$date": "2025-07-22T06:51:28.935Z"
+        },
+        "standalone_question": "Can Carbendazim be applied through irrigation?",
+        "standalone_en": "Can Carbendazim be applied through irrigation?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, Carbendazim can be applied through irrigation as a drench or soil application. This method allows for effective distribution of the fungicide to the root zone, helping to control soil-borne diseases.\n\n### Application Tips:\n- **Dilution**: Mix Carbendazim with water according to the recommended dosage.\n- **Timing**: Apply it during irrigation when the soil is moist to enhance absorption.\n- **Follow-Up**: Ensure that the irrigation system is functioning properly to deliver the fungicide evenly.\n\nAlways follow the manufacturer's instructions for dosage and application methods to ensure effectiveness and safety. If you have any specific conditions or concerns, feel free to ask!",
+        "en": "Yes, Carbendazim can be applied through irrigation as a drench or soil application. This method allows for effective distribution of the fungicide to the root zone, helping to control soil-borne diseases.\n\n### Application Tips:\n- **Dilution**: Mix Carbendazim with water according to the recommended dosage.\n- **Timing**: Apply it during irrigation when the soil is moist to enhance absorption.\n- **Follow-Up**: Ensure that the irrigation system is functioning properly to deliver the fungicide evenly.\n\nAlways follow the manufacturer's instructions for dosage and application methods to ensure effectiveness and safety. If you have any specific conditions or concerns, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-07-22T06:51:34.452Z"
+        }
+      }
+    ],
+    "farmer_id": "vishalbhai9316730543",
+    "farmer_plot_ids": [
+      "ajor",
+      "vadi774"
+    ],
+    "conversation_id": "687f33844f5953a9ac3cd006",
+    "_id": "687f33844f5953a9ac3cd006",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-07-22T06:56:28.940000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-07-22T06:45:25.058000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Go<user uploaded image for analysis at 'ajor/2025-07-22-1753166719391.jpg'>",
+        "en": "Go<user uploaded image for analysis at 'ajor/2025-07-22-1753166719391.jpg'>",
+        "timestamp": {
+          "$date": "2025-07-22T06:45:25.058Z"
+        },
+        "standalone_question": "What can you tell me about the image I uploaded?",
+        "standalone_en": "What can you tell me about the image I uploaded?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The image you provided shows a close-up of a leaf, but it lacks clarity for a specific analysis of diseases or pests. Here are some suggestions for a better analysis:\n\n1. **Focus**: Ensure the affected area is in sharp focus.\n2. **Distance**: Capture the image from a closer distance to highlight any potential issues.\n3. **Lighting**: Good lighting can help in identifying any discoloration or damage.\n\nPlease provide a clearer image of the affected area for a more detailed analysis.",
+        "en": "The image you provided shows a close-up of a leaf, but it lacks clarity for a specific analysis of diseases or pests. Here are some suggestions for a better analysis:\n\n1. **Focus**: Ensure the affected area is in sharp focus.\n2. **Distance**: Capture the image from a closer distance to highlight any potential issues.\n3. **Lighting**: Good lighting can help in identifying any discoloration or damage.\n\nPlease provide a clearer image of the affected area for a more detailed analysis.",
+        "timestamp": {
+          "$date": "2025-07-22T06:45:33.615Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Gi<user uploaded image for analysis at 'ajor/2025-07-22-1753166733622.jpg'>",
+        "en": "Gi<user uploaded image for analysis at 'ajor/2025-07-22-1753166733622.jpg'>",
+        "timestamp": {
+          "$date": "2025-07-22T06:45:56.240Z"
+        },
+        "standalone_question": "Could you analyze the new image I uploaded?",
+        "standalone_en": "Could you analyze the new image I uploaded?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the image indicates that the leaf appears healthy at first glance, but the clarity is insufficient to definitively identify any specific disease or pest. \n\nFor a more accurate analysis, please consider the following suggestions for your next photo:\n- Ensure the affected area is in focus.\n- Capture the image from a closer distance to highlight any symptoms.\n- Include multiple angles of the leaf if possible.\n\nOnce you provide a clearer image, I can assist you further in analyzing the crop's health.",
+        "en": "The analysis of the image indicates that the leaf appears healthy at first glance, but the clarity is insufficient to definitively identify any specific disease or pest. \n\nFor a more accurate analysis, please consider the following suggestions for your next photo:\n- Ensure the affected area is in focus.\n- Capture the image from a closer distance to highlight any symptoms.\n- Include multiple angles of the leaf if possible.\n\nOnce you provide a clearer image, I can assist you further in analyzing the crop's health.",
+        "timestamp": {
+          "$date": "2025-07-22T06:46:06.925Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Go<user uploaded image for analysis at 'ajor/2025-07-22-1753166764544.jpg'>",
+        "en": "Go<user uploaded image for analysis at 'ajor/2025-07-22-1753166764544.jpg'>",
+        "timestamp": {
+          "$date": "2025-07-22T06:46:10.678Z"
+        },
+        "standalone_question": "Could you analyze the new image I just uploaded?",
+        "standalone_en": "Could you analyze the new image I just uploaded?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the latest image indicates that the leaves appear generally healthy, but there may be some signs of potential issues. The leaf texture looks normal, but if there are any discolorations or spots that are not clearly visible, they could suggest pest or disease problems.\n\nFor a more accurate analysis, consider the following:\n- Take a clearer photo focusing on specific areas of concern, such as spots, discoloration, or unusual growth patterns.\n- A closer shot of the affected regions would be very helpful.\n\nIf you notice any specific symptoms or have concerns about pests or diseases, please describe them for further assistance.",
+        "en": "The analysis of the latest image indicates that the leaves appear generally healthy, but there may be some signs of potential issues. The leaf texture looks normal, but if there are any discolorations or spots that are not clearly visible, they could suggest pest or disease problems.\n\nFor a more accurate analysis, consider the following:\n- Take a clearer photo focusing on specific areas of concern, such as spots, discoloration, or unusual growth patterns.\n- A closer shot of the affected regions would be very helpful.\n\nIf you notice any specific symptoms or have concerns about pests or diseases, please describe them for further assistance.",
+        "timestamp": {
+          "$date": "2025-07-22T06:46:20.758Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Go<user uploaded image for analysis at 'ajor/2025-07-22-1753166804753.jpg'>",
+        "en": "Go<user uploaded image for analysis at 'ajor/2025-07-22-1753166804753.jpg'>",
+        "timestamp": {
+          "$date": "2025-07-22T06:46:48.462Z"
+        },
+        "standalone_question": "Can you analyze the latest image I uploaded for any signs of disease or pests?",
+        "standalone_en": "Can you analyze the latest image I uploaded for any signs of disease or pests?",
+        "retrieval": {
+          "tools": [
+            "analyse_crop_image  \nGets the analysis of the uploaded crop image for any diseases or pests."
+          ],
+          "faq": [
+            "Q: How does the device predict diseases and pests?\nA: It captures data from different parameters using sensors and analyzes it using various agronomical algorithms, including different models for all diseases and pests.\n   Each disease and pest has a specific etymology, which is the suitable environment for its incidence."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the latest image indicates that it is still not clear enough to identify specific diseases or pests affecting the crop. Here are some suggestions for capturing a better photo:\n\n1. **Focus**: Ensure the affected area of the leaf is in sharp focus.\n2. **Distance**: Capture the image from a closer distance to highlight any symptoms.\n3. **Lighting**: Good natural lighting can help in identifying issues more clearly.\n\nPlease provide a clearer image, and I will assist you further with the analysis.",
+        "en": "The analysis of the latest image indicates that it is still not clear enough to identify specific diseases or pests affecting the crop. Here are some suggestions for capturing a better photo:\n\n1. **Focus**: Ensure the affected area of the leaf is in sharp focus.\n2. **Distance**: Capture the image from a closer distance to highlight any symptoms.\n3. **Lighting**: Good natural lighting can help in identifying issues more clearly.\n\nPlease provide a clearer image, and I will assist you further with the analysis.",
+        "timestamp": {
+          "$date": "2025-07-22T06:46:57.732Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Go<user uploaded image for analysis at 'ajor/2025-07-22-1753166871518.jpg'>",
+        "en": "Go<user uploaded image for analysis at 'ajor/2025-07-22-1753166871518.jpg'>",
+        "timestamp": {
+          "$date": "2025-07-22T06:47:55.845Z"
+        },
+        "standalone_question": "Could you analyze the latest image I uploaded for any signs of disease or pests?",
+        "standalone_en": "Could you analyze the latest image I uploaded for any signs of disease or pests?",
+        "retrieval": {
+          "tools": [
+            "analyse_crop_image  \nGets the analysis of the uploaded crop image for any diseases or pests."
+          ],
+          "faq": [
+            "Q: How does the device predict diseases and pests?\nA: It captures data from different parameters using sensors and analyzes it using various agronomical algorithms, including different models for all diseases and pests.\n   Each disease and pest has a specific etymology, which is the suitable environment for its incidence."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the latest image indicates that the leaf shows some discoloration and potential signs of stress. A reddish spot at the center may suggest a possible pest or disease issue.\n\n### Recommendations:\n1. **Monitor the Plant**: Keep an eye on the plant for any further symptoms or changes.\n2. **Pest/Disease Management**: Consider implementing appropriate pest or disease management strategies based on the observed symptoms.\n\nFor a more accurate diagnosis, please provide a clearer image focusing closely on the affected areas. If you have any specific concerns or symptoms, feel free to describe them for further assistance.",
+        "en": "The analysis of the latest image indicates that the leaf shows some discoloration and potential signs of stress. A reddish spot at the center may suggest a possible pest or disease issue.\n\n### Recommendations:\n1. **Monitor the Plant**: Keep an eye on the plant for any further symptoms or changes.\n2. **Pest/Disease Management**: Consider implementing appropriate pest or disease management strategies based on the observed symptoms.\n\nFor a more accurate diagnosis, please provide a clearer image focusing closely on the affected areas. If you have any specific concerns or symptoms, feel free to describe them for further assistance.",
+        "timestamp": {
+          "$date": "2025-07-22T06:48:06.246Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Go<user uploaded image for analysis at 'ajor/2025-07-22-1753166934616.jpg'>",
+        "en": "Go<user uploaded image for analysis at 'ajor/2025-07-22-1753166934616.jpg'>",
+        "timestamp": {
+          "$date": "2025-07-22T06:48:58.964Z"
+        },
+        "standalone_question": "Can you analyze the latest image I uploaded for any signs of disease or pests?",
+        "standalone_en": "Can you analyze the latest image I uploaded for any signs of disease or pests?",
+        "retrieval": {
+          "tools": [
+            "analyse_crop_image  \nGets the analysis of the uploaded crop image for any diseases or pests."
+          ],
+          "faq": [
+            "Q: How does the device predict diseases and pests?\nA: It captures data from different parameters using sensors and analyzes it using various agronomical algorithms, including different models for all diseases and pests.\n   Each disease and pest has a specific etymology, which is the suitable environment for its incidence."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the latest image shows that the leaves appear healthy, with no visible signs of discoloration, spots, or pest damage. \n\n### Recommendations:\n- **Monitor the Crop**: Continue to observe the plants for any changes or symptoms.\n- **Clear Images**: If you notice any specific issues in the future, please provide clearer images focusing on the affected areas for a more detailed analysis.\n\nIf you have any specific concerns or symptoms you'd like to discuss, feel free to share!",
+        "en": "The analysis of the latest image shows that the leaves appear healthy, with no visible signs of discoloration, spots, or pest damage. \n\n### Recommendations:\n- **Monitor the Crop**: Continue to observe the plants for any changes or symptoms.\n- **Clear Images**: If you notice any specific issues in the future, please provide clearer images focusing on the affected areas for a more detailed analysis.\n\nIf you have any specific concerns or symptoms you'd like to discuss, feel free to share!",
+        "timestamp": {
+          "$date": "2025-07-22T06:49:11.503Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "What is reddish spot",
+        "en": "What is reddish spot",
+        "timestamp": {
+          "$date": "2025-07-22T06:49:33.996Z"
+        },
+        "standalone_question": "What does a reddish spot on a leaf indicate?",
+        "standalone_en": "What does a reddish spot on a leaf indicate?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "A reddish spot on a plant leaf can indicate several potential issues, including:\n\n1. **Pest Damage**: Certain pests, like spider mites or aphids, can cause discoloration and spots on leaves.\n2. **Fungal Infections**: Some fungal diseases may present as reddish or brown spots, indicating infection.\n3. **Nutrient Deficiency**: A lack of essential nutrients, particularly potassium or magnesium, can lead to discoloration.\n4. **Environmental Stress**: Factors such as excessive sunlight, heat, or water stress can also cause leaf discoloration.\n\nIt's important to monitor the plant closely and consider further investigation or treatment based on the specific symptoms observed. If you notice additional symptoms or patterns, please share for more tailored advice.",
+        "en": "A reddish spot on a plant leaf can indicate several potential issues, including:\n\n1. **Pest Damage**: Certain pests, like spider mites or aphids, can cause discoloration and spots on leaves.\n2. **Fungal Infections**: Some fungal diseases may present as reddish or brown spots, indicating infection.\n3. **Nutrient Deficiency**: A lack of essential nutrients, particularly potassium or magnesium, can lead to discoloration.\n4. **Environmental Stress**: Factors such as excessive sunlight, heat, or water stress can also cause leaf discoloration.\n\nIt's important to monitor the plant closely and consider further investigation or treatment based on the specific symptoms observed. If you notice additional symptoms or patterns, please share for more tailored advice.",
+        "timestamp": {
+          "$date": "2025-07-22T06:49:38.308Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Can you suggest the treatment ",
+        "en": "Can you suggest the treatment ",
+        "timestamp": {
+          "$date": "2025-07-22T06:50:21.499Z"
+        },
+        "standalone_question": "What treatment options are available for addressing reddish spots on plant leaves?",
+        "standalone_en": "What treatment options are available for addressing reddish spots on plant leaves?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For seed treatment in cotton, you can use the following:\n\n### Insecticide:\n- **Imidacloprid 600 FS**: Apply 5 to 8 ml per kg of seeds.\n\n### Fungicide:\n- **Thiram**: Apply 2 to 3 gm per kg of seeds.\n\n### Benefits of Seed Treatment:\n- Prevents the spread of plant diseases and pests.\n- Protects seeds from rot and seedling blights.\n- Improves seed germination rates.\n- Provides protection from storage insects.\n- Controls soil insects.\n\n### Important Diseases to Watch For:\n- **Collar Rot**\n- **Damping Off**\n- **Seedling Blight**\n\n### Control Measures for Seedling Diseases:\n- Drench or spray seedlings with **Carbendazim** at a rate of 2.5 g per liter of water.\n\nMake sure to follow the recommended dosages and safety precautions while applying these treatments. If you have any specific concerns or conditions in your field, feel free to ask!",
+        "en": "For seed treatment in cotton, you can use the following:\n\n### Insecticide:\n- **Imidacloprid 600 FS**: Apply 5 to 8 ml per kg of seeds.\n\n### Fungicide:\n- **Thiram**: Apply 2 to 3 gm per kg of seeds.\n\n### Benefits of Seed Treatment:\n- Prevents the spread of plant diseases and pests.\n- Protects seeds from rot and seedling blights.\n- Improves seed germination rates.\n- Provides protection from storage insects.\n- Controls soil insects.\n\n### Important Diseases to Watch For:\n- **Collar Rot**\n- **Damping Off**\n- **Seedling Blight**\n\n### Control Measures for Seedling Diseases:\n- Drench or spray seedlings with **Carbendazim** at a rate of 2.5 g per liter of water.\n\nMake sure to follow the recommended dosages and safety precautions while applying these treatments. If you have any specific concerns or conditions in your field, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-07-22T06:50:26.656Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Can we apply carbendazim with irrigation ",
+        "en": "Can we apply carbendazim with irrigation ",
+        "timestamp": {
+          "$date": "2025-07-22T06:51:28.935Z"
+        },
+        "standalone_question": "Can Carbendazim be applied through irrigation?",
+        "standalone_en": "Can Carbendazim be applied through irrigation?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, Carbendazim can be applied through irrigation as a drench or soil application. This method allows for effective distribution of the fungicide to the root zone, helping to control soil-borne diseases.\n\n### Application Tips:\n- **Dilution**: Mix Carbendazim with water according to the recommended dosage.\n- **Timing**: Apply it during irrigation when the soil is moist to enhance absorption.\n- **Follow-Up**: Ensure that the irrigation system is functioning properly to deliver the fungicide evenly.\n\nAlways follow the manufacturer's instructions for dosage and application methods to ensure effectiveness and safety. If you have any specific conditions or concerns, feel free to ask!",
+        "en": "Yes, Carbendazim can be applied through irrigation as a drench or soil application. This method allows for effective distribution of the fungicide to the root zone, helping to control soil-borne diseases.\n\n### Application Tips:\n- **Dilution**: Mix Carbendazim with water according to the recommended dosage.\n- **Timing**: Apply it during irrigation when the soil is moist to enhance absorption.\n- **Follow-Up**: Ensure that the irrigation system is functioning properly to deliver the fungicide evenly.\n\nAlways follow the manufacturer's instructions for dosage and application methods to ensure effectiveness and safety. If you have any specific conditions or concerns, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-07-22T06:51:34.452Z"
+        }
+      }
+    ],
+    "farmer_id": "vishalbhai9316730543",
+    "farmer_plot_ids": [
+      "ajor",
+      "vadi774"
+    ],
+    "conversation_id": "687f33844f5953a9ac3cd006",
+    "_id": "687f33844f5953a9ac3cd006",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-07-22T06:56:28.940000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-07-22T06:45:25.058000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "काडीला रिंग पडत आहे कुठे कुठे",
+        "en": "Where is the ring falling on the stick?",
+        "timestamp": {
+          "$date": "2025-07-22T06:22:49.065Z"
+        },
+        "standalone_question": "Where is the ring falling?",
+        "standalone_en": "Where is the ring falling?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "cadila ring padat aahe kuthe kuthe"
+      },
+      {
+        "role": "assistant",
+        "content": "\"थॉम्पसन\" प्लॉटसाठी काडीला रिंग पडण्याच्या संदर्भात कोणतीही माहिती उपलब्ध नाही. तुम्हाला आणखी काही मदतीची आवश्यकता आहे का?",
+        "en": "There is no information available regarding the ring falling on the stick for the \"Thompson\" plot. Do you need any more help?",
+        "timestamp": {
+          "$date": "2025-07-22T06:22:53.868Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "हो",
+        "en": "be",
+        "timestamp": {
+          "$date": "2025-07-22T06:23:03.283Z"
+        },
+        "standalone_question": "Do you need any further assistance?",
+        "standalone_en": "Do you need any further assistance?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ho"
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया मला तुमच्या प्लॉटसाठी समर्थन तिकीट उघडण्यासाठी काही माहिती द्या:\n\n1. तुम्हाला कोणत्या प्रकारचा समस्या आहे? (उदाहरणार्थ, \"यंत्र कार्यरत नाही\")\n2. तिकीटाची प्राथमिकता काय असावी? (1 - उच्च, 2 - मध्यम, 3 - कमी)\n\nतुमच्या उत्तराची प्रतीक्षा आहे!",
+        "en": "Please give me some information to open a support ticket for your plot:\n\n1. What kind of problem do you have? (For example, \"the machine doesn't work\")\n2. What should be the priority of the ticket? (1 - High, 2 - Medium, 3 - Low)\n\nWaiting for your answer!",
+        "timestamp": {
+          "$date": "2025-07-22T06:23:07.794Z"
+        }
+      }
+    ],
+    "farmer_id": "sainathdilipghatule",
+    "farmer_plot_ids": [
+      "thompson716"
+    ],
+    "conversation_id": "687f2e382314b89c605f144f",
+    "_id": "687f2e382314b89c605f144f",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-22T06:28:03.287000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-07-22T06:22:49.065000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "भूरी साठी कोनती  फवारनी  करावी",
+        "en": "Spray the angle for brown",
+        "timestamp": {
+          "$date": "2025-07-22T06:15:09.555Z"
+        },
+        "standalone_question": "What kind of spray should be used for brown spots?",
+        "standalone_en": "What kind of spray should be used for brown spots?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "bhoori sathi conti favarni karavi"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटसाठी या आठवड्यात कोणतीही फवारणीची शिफारस नाही. तुम्हाला भूरीसाठी फवारणीची गरज नाही.",
+        "en": "There is no spraying recommendation for your plot this week. You don't need spraying for brown.",
+        "timestamp": {
+          "$date": "2025-07-22T06:15:14.725Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "बोर्डो फवारणी केली तर चालेल का ,प्रमाण कसे टाकायचे",
+        "en": "Would it be okay to spray Bordeaux (how to add quantity)",
+        "timestamp": {
+          "$date": "2025-07-22T06:16:44.612Z"
+        },
+        "standalone_question": "Can I use Bordeaux spray, and what should the dosage be?",
+        "standalone_en": "Can I use Bordeaux spray, and what should the dosage be?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "bordo favarani kelley tar chalel ka ,praman kase takayache"
+      },
+      {
+        "role": "assistant",
+        "content": "बोर्डो मिश्रण फवारणीसाठी प्रमाण हे तुमच्या पिकाच्या अवस्थेनुसार आणि रोगाच्या तीव्रतेनुसार बदलू शकते. सामान्यतः, 1% बोर्डो मिश्रण म्हणजे 1 किलो कापड आणि 1 किलो तांब्याचे सल्फेट 100 लिटर पाण्यात मिसळून तयार केले जाते.\n\nतुमच्या पिकाच्या विशेष गरजेनुसार आणि स्थानिक कृषी तज्ञांच्या सल्ल्यानुसार प्रमाण निश्चित करणे चांगले. फवारणी करताना, हवामान आणि पिकाची स्थिती यांचा विचार करा.",
+        "en": "The amount for Bordeaux mixture spraying can vary depending on the condition of your crop and the severity of the disease. Typically, a 1% Bordeaux mixture is made by mixing 1 kg of cloth and 1 kg of copper sulfate with 100 liters of water.\n\nIt is best to determine the quantity according to the special needs of your crop and the advice of local agricultural experts. When spraying, consider the weather and crop conditions.",
+        "timestamp": {
+          "$date": "2025-07-22T06:16:51.410Z"
+        }
+      }
+    ],
+    "farmer_id": "sainathdilipghatule",
+    "farmer_plot_ids": [
+      "thompson716"
+    ],
+    "conversation_id": "687f2c6d332c26241959ad22",
+    "_id": "687f2c6d332c26241959ad22",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-22T06:21:44.616000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-07-22T06:15:09.555000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Let me know <user uploaded image for analysis at 'ajor/2025-07-22-1753164884998.jpg'>",
+        "en": "Let me know <user uploaded image for analysis at 'ajor/2025-07-22-1753164884998.jpg'>",
+        "timestamp": {
+          "$date": "2025-07-22T06:14:55.562Z"
+        },
+        "standalone_question": "What can you tell me about the image I uploaded?",
+        "standalone_en": "What can you tell me about the image I uploaded?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the uploaded image shows that the leaf appears healthy overall, but there are subtle signs that may indicate potential issues. Small spots or discoloration could suggest the early stages of a disease or pest infestation.\n\n**Recommendations:**\n- Monitor the crop closely for any further symptoms.\n- If you notice any worsening conditions, please provide another image for further analysis.\n\nFor future images, ensure to capture the affected area more closely and keep the image in focus for better analysis.",
+        "en": "The analysis of the uploaded image shows that the leaf appears healthy overall, but there are subtle signs that may indicate potential issues. Small spots or discoloration could suggest the early stages of a disease or pest infestation.\n\n**Recommendations:**\n- Monitor the crop closely for any further symptoms.\n- If you notice any worsening conditions, please provide another image for further analysis.\n\nFor future images, ensure to capture the affected area more closely and keep the image in focus for better analysis.",
+        "timestamp": {
+          "$date": "2025-07-22T06:15:04.221Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "How about this <user uploaded image for analysis at 'ajor/2025-07-22-1753164935420.jpg'>",
+        "en": "How about this <user uploaded image for analysis at 'ajor/2025-07-22-1753164935420.jpg'>",
+        "timestamp": {
+          "$date": "2025-07-22T06:15:44.190Z"
+        },
+        "standalone_question": "What does the analysis of this new image show?",
+        "standalone_en": "What does the analysis of this new image show?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the uploaded image indicates potential issues with the leaf, possibly due to pests or diseases. The underside of the leaf shows small dark spots, which may suggest pest activity or a fungal infection.\n\n**Recommendations:**\n- Monitor the crop closely for any signs of further damage.\n- If possible, provide a clearer image focusing on the affected areas for a more accurate analysis and specific spray suggestions.\n\nIf you notice any worsening conditions, please let me know!",
+        "en": "The analysis of the uploaded image indicates potential issues with the leaf, possibly due to pests or diseases. The underside of the leaf shows small dark spots, which may suggest pest activity or a fungal infection.\n\n**Recommendations:**\n- Monitor the crop closely for any signs of further damage.\n- If possible, provide a clearer image focusing on the affected areas for a more accurate analysis and specific spray suggestions.\n\nIf you notice any worsening conditions, please let me know!",
+        "timestamp": {
+          "$date": "2025-07-22T06:15:55.570Z"
+        }
+      }
+    ],
+    "farmer_id": "vishalbhai9316730543",
+    "farmer_plot_ids": [
+      "ajor",
+      "vadi774"
+    ],
+    "conversation_id": "687f2c5f332c26241959ad21",
+    "_id": "687f2c5f332c26241959ad21",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-07-22T06:20:44.195000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-07-22T06:14:55.562000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Farm data not sync ",
+        "en": "Farm data not sync ",
+        "timestamp": {
+          "$date": "2025-07-22T03:41:46.649Z"
+        },
+        "standalone_question": "Is the farm data not syncing?",
+        "standalone_en": "Is the farm data not syncing?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like there might be an issue with the synchronization of your farm data. Here are a few steps you can take:\n\n1. **Check Device Connection**: Ensure that your Fyllo device is properly connected to the internet and has a good signal.\n\n2. **Restart the Device**: Sometimes, simply restarting the device can resolve synchronization issues.\n\n3. **Check App Settings**: Make sure that the app settings allow for data synchronization.\n\n4. **Contact Support**: If the issue persists, I can help you raise a support ticket for further assistance. Would you like to proceed with that? If so, please confirm the plot name for which you want to raise the ticket.",
+        "en": "It seems like there might be an issue with the synchronization of your farm data. Here are a few steps you can take:\n\n1. **Check Device Connection**: Ensure that your Fyllo device is properly connected to the internet and has a good signal.\n\n2. **Restart the Device**: Sometimes, simply restarting the device can resolve synchronization issues.\n\n3. **Check App Settings**: Make sure that the app settings allow for data synchronization.\n\n4. **Contact Support**: If the issue persists, I can help you raise a support ticket for further assistance. Would you like to proceed with that? If so, please confirm the plot name for which you want to raise the ticket.",
+        "timestamp": {
+          "$date": "2025-07-22T03:41:52.297Z"
+        }
+      }
+    ],
+    "farmer_id": "anilramlalpardeshi",
+    "farmer_plot_ids": [
+      "plotno1arra35"
+    ],
+    "conversation_id": "687f087a698501112e9e5f3e",
+    "_id": "687f087a698501112e9e5f3e",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-22T03:46:46.652000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-07-22T03:41:46.649000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi",
+        "en": "Hi",
+        "timestamp": {
+          "$date": "2025-07-22T03:19:16.458Z"
+        },
+        "standalone_question": "What would you like to talk about?",
+        "standalone_en": "What would you like to talk about?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Hello Anil! How can I assist you today with your farming needs?",
+        "en": "Hello Anil! How can I assist you today with your farming needs?",
+        "timestamp": {
+          "$date": "2025-07-22T03:19:22.649Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "I have done recharge for my fyllo but it's not appearing in the app",
+        "en": "I have done recharge for my fyllo but it's not appearing in the app",
+        "timestamp": {
+          "$date": "2025-07-22T03:19:54.231Z"
+        },
+        "standalone_question": "Why is my recharge not appearing in the fyllo app?",
+        "standalone_en": "Why is my recharge not appearing in the fyllo app?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Why is there a need for an annual recharge for Fyllo devices?\nA: Annual recharge for the sim card is done to send and receive the data from our server whenever required.\n   Also farm data is securely saved on cloud so that farmers can access their data when needed.",
+            "Q: Has my payment been made? Check the payment status of my device. Recharge status of my device. Is my recharge active? Is my payment successful? Is my device active? Is my device sending data? Are my all devices working properly? Is my device online? Is my device connected? What is the status of my device? Is my Fyllo device transmitting data?\nA: If device is sending data proactively, then it is working fine. If user has not recharged the device, then it will not work, and user should do recharge. If recharge is also active, then there is some issue, user should raise a support ticket in the Fyllo App.\n\nI'll check the payment status of your device for you.\n\nTool Selection: I should use the JSON data from farmer_plots_details to check:\n1. If isDataPlanActive is true\n2. If planRechargeExpiryDate is in the future\n3. If deviceLatestDataAvailable is true\n4. What the deviceMessage says\n\nResponse Logic:\n- If isDataPlanActive is true AND planRechargeExpiryDate is future date:\n  \"Your recharge plan is active until [expiry date].\"\n- If isDataPlanActive is false OR planRechargeExpiryDate is past date:\n  \"It appears your recharge plan is not currently active. If you've recently made a payment, please allow some time for it to be processed. If the issue persists, please contact our support team. Would you like the contact details of our support team?\"\n- Additionally, if deviceLatestDataAvailable is true:\n  \"Your device is currently active and sending data properly.\"\n- If deviceLatestDataAvailable is false:\n  \"Your device is not currently sending data. This might be due to connectivity issues.\"\n\nExample final response:\n\"Your payment has been successfully processed. Your recharge plan is active until June 5, 2025. Your device is currently active and sending data properly. Is there anything else you'd like me to do?\"",
+            "Q: How I check my Fyllo app version? Or how do I know my Fyllo app is updated or not?\nA: In Fyllo app go to hamburger menu (click on “≡” three lines).\n   Then scroll down, you will see Fyllo logo and app version under it.",
+            "Q: What is the current battery health and battery level of my Fyllo device?\nA: I'll check the battery information for your device. Let me gather that information for you.\n\nTo answer this question, I need to use the live sensor data tool to retrieve the most current battery readings.\n\nTool Selection: I should use the live_sensor_data tool\nTool Input: {\"plot_ids\": [\"your_plot_id\"]}\nTool Output: \n```\n{\n  \"airTemperature\": 28,\n  \"airHumidity\": 65,\n  \"soilTemperature\": 26,\n  \"soilMoisture1\": \"45 kPa\",\n  \"soilMoisture2\": \"62 kPa\",\n  \"leafWetness\": 0,\n  \"airPressure\": 1013.2,\n  \"lightIntensity\": 12540,\n  \"uvIndex\": 6,\n  \"windSpeed\": \"3.5kmph\",\n  \"windDirection\": \"NE\",\n  \"rainfall\": 0,\n  \"battery\": \"82%\",\n  \"timestamp\": \"2023-10-15 14:30:00\"\n}\n```\n\nYour Fyllo device currently has a battery level of 82%, which is good. This information was recorded at 2:30 PM today. The battery is in good health and has sufficient charge for continued operation.",
+            "Q: How do I contact customer support for Fyllo?\nA: You can contact customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in. Do you want me to raise a support ticket for you?"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems your recharge plan is currently active until October 20, 2025. Your device is also active and sending data properly. \n\nIf you've recently made a payment and it's not reflecting in the app, please allow some time for it to be processed. If the issue persists, I recommend raising a support ticket for further assistance. Would you like me to help you with that?",
+        "en": "It seems your recharge plan is currently active until October 20, 2025. Your device is also active and sending data properly. \n\nIf you've recently made a payment and it's not reflecting in the app, please allow some time for it to be processed. If the issue persists, I recommend raising a support ticket for further assistance. Would you like me to help you with that?",
+        "timestamp": {
+          "$date": "2025-07-22T03:19:58.691Z"
+        }
+      }
+    ],
+    "farmer_id": "anilramlalpardeshi",
+    "farmer_plot_ids": [
+      "plotno1arra35"
+    ],
+    "conversation_id": "687f0333698501112e9e5f3d",
+    "_id": "687f0333698501112e9e5f3d",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-22T03:24:54.235000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-07-22T03:19:16.458000+00:00"
+  }
+]

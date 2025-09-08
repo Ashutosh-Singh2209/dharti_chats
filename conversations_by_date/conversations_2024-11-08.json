@@ -1,0 +1,774 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "केळी पिकासाठी साठी फेरस  कीती दयावे ",
+        "timestamp": {
+          "$date": "2024-11-08T12:23:55.490Z"
+        },
+        "standalone_question": "How much fertilizer should be given for banana cultivation?",
+        "standalone_en": "How much fertilizer should be given for banana cultivation?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "keli pikasathi sathi pheras kiti dayave "
+      },
+      {
+        "role": "assistant",
+        "content": "**Dnyaneswar farm1 (Thorgavhan, Raver, Jalgaon, Maharashtra)**:\n- **Crop Stage**: Booting (Week 3)\n- **Fertigation Schedule**:\n  - **Current Week**:\n    - **Fertilizers**:\n      - Option 1: 1 kg of 12-61-0 + 8 kg of Urea\n      - Option 2: 4 kg of 24-24-0 + 6 kg of Urea\n      - Option 3: 8 kg of Urea + 1 kg of Phosphoric acid (apply separately, 15-20 minutes before other fertilizers)\n  - **Next Week** (Week 4):\n    - **Fertilizers**:\n      - Option 1: 10 kg of Potassium Nitrate + 2.5 kg of Urea + 3 kg of Calcium nitrate (apply separately, 15-20 minutes after other fertilizers)\n      - Option 2: 5.5 kg of Urea + 8 kg of White Muriate of Potash + 3 kg of Calcium nitrate\n\n---\n\n**Dnyaneswar farm2 (Singanur, Raver, Jalgaon, Maharashtra)**:\n- **Crop Stage**: Early Vegetative Growth (Week 6)\n- **Fertigation Schedule**:\n  - **Current Week**:\n    - **Fertilizers**:\n      - Via Foliar: 0 gm of Zinc Sulphate, Ferrous Sulphate, Manganese Sulphate\n      - Via Fertigation: 10 gm of Urea + 10 gm of White Muriate of Potash\n  - **Next Week** (Week 7):\n    - **Fertilizers**:\n      - 10 gm of Urea + 0 gm of Phosphoric acid (apply separately, 15-20 minutes before other fertilizers)\n\nआपण या शेड्यूलनुसार फेरस द्यावे.",
+        "timestamp": {
+          "$date": "2024-11-08T12:24:06.357Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "करपा नियंत्रण साठी कोणता स्प्रे  घ्यावा ",
+        "timestamp": {
+          "$date": "2024-11-08T12:28:13.811Z"
+        },
+        "standalone_question": "Which spray should be used for controlling pests?",
+        "standalone_en": "Which spray should be used for controlling pests?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed",
+            "Q: What are the important Pest occur during seedling stage and control measures?\nA: Ants, Termites, root aphids, thrips and internal borer’s pest infect during seedling stage\nDrench/spray seedling with: Chlorpyriphos @ 5mL/Ltr or Thiamethoxam @ 0.5g/ltr"
+          ]
+        },
+        "content_transliterated": "karpa niyantran sathi konta spray ghyava "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या प्लॉटसाठी करपा नियंत्रणासाठी कोणताही स्प्रे शेड्यूल केलेला नाही. तरीही, करपाच्या नियंत्रणासाठी सामान्यतः खालील स्प्रे वापरले जातात:\n\n1. **बोर्डो मिश्रण**: 1% बोर्डो मिश्रण.\n2. **कॅल्शियम कार्बाइड**: 0.5% कॅल्शियम कार्बाइड.\n3. **फफूंदनाशक**: ट्रायकोडर्मा किंवा बायोफ्लॉरासिल.\n\nआपण या स्प्रेयांचा वापर करू शकता. जर आपल्याला अधिक माहिती हवी असेल तर कृपया सांगा.",
+        "timestamp": {
+          "$date": "2024-11-08T12:28:24.742Z"
+        }
+      }
+    ],
+    "farmer_id": "dnyaneswarpatil",
+    "farmer_plot_ids": [
+      "dnyaneswarfarm1",
+      "dnyaneswarfarm2"
+    ],
+    "conversation_id": "672e02db33dffaf9cbc7f8ef",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-11-08T12:23:55.490000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "केळी पिकासाठी साठी फेरस  कीती दयावे ",
+        "timestamp": {
+          "$date": "2024-11-08T12:23:55.490Z"
+        },
+        "standalone_question": "How much fertilizer should be given for banana cultivation?",
+        "standalone_en": "How much fertilizer should be given for banana cultivation?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "keli pikasathi sathi pheras kiti dayave "
+      },
+      {
+        "role": "assistant",
+        "content": "**Dnyaneswar farm1 (Thorgavhan, Raver, Jalgaon, Maharashtra)**:\n- **Crop Stage**: Booting (Week 3)\n- **Fertigation Schedule**:\n  - **Current Week**:\n    - **Fertilizers**:\n      - Option 1: 1 kg of 12-61-0 + 8 kg of Urea\n      - Option 2: 4 kg of 24-24-0 + 6 kg of Urea\n      - Option 3: 8 kg of Urea + 1 kg of Phosphoric acid (apply separately, 15-20 minutes before other fertilizers)\n  - **Next Week** (Week 4):\n    - **Fertilizers**:\n      - Option 1: 10 kg of Potassium Nitrate + 2.5 kg of Urea + 3 kg of Calcium nitrate (apply separately, 15-20 minutes after other fertilizers)\n      - Option 2: 5.5 kg of Urea + 8 kg of White Muriate of Potash + 3 kg of Calcium nitrate\n\n---\n\n**Dnyaneswar farm2 (Singanur, Raver, Jalgaon, Maharashtra)**:\n- **Crop Stage**: Early Vegetative Growth (Week 6)\n- **Fertigation Schedule**:\n  - **Current Week**:\n    - **Fertilizers**:\n      - Via Foliar: 0 gm of Zinc Sulphate, Ferrous Sulphate, Manganese Sulphate\n      - Via Fertigation: 10 gm of Urea + 10 gm of White Muriate of Potash\n  - **Next Week** (Week 7):\n    - **Fertilizers**:\n      - 10 gm of Urea + 0 gm of Phosphoric acid (apply separately, 15-20 minutes before other fertilizers)\n\nआपण या शेड्यूलनुसार फेरस द्यावे.",
+        "timestamp": {
+          "$date": "2024-11-08T12:24:06.357Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "करपा नियंत्रण साठी कोणता स्प्रे  घ्यावा ",
+        "timestamp": {
+          "$date": "2024-11-08T12:28:13.811Z"
+        },
+        "standalone_question": "Which spray should be used for controlling pests?",
+        "standalone_en": "Which spray should be used for controlling pests?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed",
+            "Q: What are the important Pest occur during seedling stage and control measures?\nA: Ants, Termites, root aphids, thrips and internal borer’s pest infect during seedling stage\nDrench/spray seedling with: Chlorpyriphos @ 5mL/Ltr or Thiamethoxam @ 0.5g/ltr"
+          ]
+        },
+        "content_transliterated": "karpa niyantran sathi konta spray ghyava "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या प्लॉटसाठी करपा नियंत्रणासाठी कोणताही स्प्रे शेड्यूल केलेला नाही. तरीही, करपाच्या नियंत्रणासाठी सामान्यतः खालील स्प्रे वापरले जातात:\n\n1. **बोर्डो मिश्रण**: 1% बोर्डो मिश्रण.\n2. **कॅल्शियम कार्बाइड**: 0.5% कॅल्शियम कार्बाइड.\n3. **फफूंदनाशक**: ट्रायकोडर्मा किंवा बायोफ्लॉरासिल.\n\nआपण या स्प्रेयांचा वापर करू शकता. जर आपल्याला अधिक माहिती हवी असेल तर कृपया सांगा.",
+        "timestamp": {
+          "$date": "2024-11-08T12:28:24.742Z"
+        }
+      }
+    ],
+    "farmer_id": "dnyaneswarpatil",
+    "farmer_plot_ids": [
+      "dnyaneswarfarm1",
+      "dnyaneswarfarm2"
+    ],
+    "conversation_id": "672e02db33dffaf9cbc7f8ef",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-11-08T12:23:55.490000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "When to irrigate<user uploaded image for analysis at 'plotno3mamajumboshreekrishna/2024-11-08-1731067104086.jpeg'>",
+        "timestamp": {
+          "$date": "2024-11-08T11:58:30.731Z"
+        },
+        "standalone_question": "When is the best time to irrigate?",
+        "standalone_en": "When is the best time to irrigate?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today.",
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range."
+          ],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate.",
+            "Q: What is the right time to sow the seeds?\nA: Check the weather forecast for the next few days (tool call), and then decide the right time for the crop, based on own's knowledge.",
+            "Q: In the latest irrigation , sensor didn't drop to 0.\nA: 0 to 5 Kpa means soil is fully wet. It need not drop to 0 every time. Moisture less than 5 also means wet conditions. So, need not worry. Also ask to wait for 12 hours after irrigation."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For your plot \"Plot No 3 Mama Jumbo,\" irrigation is not required today, November 8, 2024. The soil moisture levels are adequate, so you can hold off on watering for now. If you have any further questions or need assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-11-08T11:58:36.523Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Need assistance",
+        "timestamp": {
+          "$date": "2024-11-08T11:59:11.631Z"
+        },
+        "standalone_question": "What kind of assistance do you need?",
+        "standalone_en": "What kind of assistance do you need?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "How can I assist you today? Please let me know your specific query or concern related to your farming practices, and I'll be happy to help!",
+        "timestamp": {
+          "$date": "2024-11-08T11:59:14.217Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "There is yellow shed on my plot",
+        "timestamp": {
+          "$date": "2024-11-08T11:59:44.982Z"
+        },
+        "standalone_question": "What does it mean if there is a yellow shed on my plot?",
+        "standalone_en": "What does it mean if there is a yellow shed on my plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The yellow shed on your plot may indicate a potential issue with pests or diseases affecting your grapes. To provide you with the best assistance, please upload a clear image of the affected area or the yellow shed, and I can analyze it for any signs of pests or diseases.",
+        "timestamp": {
+          "$date": "2024-11-08T11:59:50.615Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "1<user uploaded image for analysis at 'plotno3mamajumboshreekrishna/2024-11-08-1731067104086.jpeg'>",
+        "timestamp": {
+          "$date": "2024-11-08T12:01:08.969Z"
+        },
+        "standalone_question": "Could you please analyze the uploaded image for any signs of pests or diseases affecting my plot?",
+        "standalone_en": "Could you please analyze the uploaded image for any signs of pests or diseases affecting my plot?",
+        "retrieval": {
+          "tools": [
+            "analyse_crop_image  \nGets the analysis of the uploaded crop image for any diseases or pests."
+          ],
+          "faq": [
+            "Q: What is the pest prediction?\nA: Check the all pest predictions relevant. We support Aphids, Banana aphids, Bihar hairy caterpillar, Broad mites, Brown plant hopper, Capsule borer, Caterpillar,\n   Citrus Psylla, Cut worm, Early shoot borer, European red mites, Flat mites, Flea Beetle, Flea beetle, Fruit Borer,\n   Fruit Fly, Fruit borer, Fruit fly, Green aphids, Hispa beetle, Jassids, Leaf eating caterpillar, Leaf folder, Leaf miner,\n   Leaf roller, Mango hopper, Mealy Bug, Mealy bug, Mealybug, Mites, Perianth mites, Pin worm, Pink bollworm,\n   Pseudostem weevil, Red Spider Mites, Red palm weevil, Red spider mites, Rhinoceros beetle, Rhizome weevil, Root Grubs,\n   Root knot nematode, Rugose spiraling whitefly, Rust mites, Rust thrips, Scale Insects, Scale insects, Scarring beetle,\n   Shoot borer, Skipper, Spiraling whitefly, Spodoptera, Stem Borer, Stem borer, Striped beetle, Striped cucumber beetle,\n   Tea Mosquitto Bug, Tea mosquitto bug, Termite, Thrips, White Fly, White fly, Whitefly, and Wooly aphids."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems there was an issue with analyzing the image you provided. The image quality is good, but it may not have captured the necessary details for a proper diagnosis.\n\nPlease try to take another photo, ensuring that the affected area is clearly visible and well-lit. This will help in accurately identifying any potential pests or diseases affecting your grapes.",
+        "timestamp": {
+          "$date": "2024-11-08T12:01:17.256Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "This<user uploaded image for analysis at 'plotno3mamajumboshreekrishna/2024-11-08-1731067104086.jpeg'>",
+        "timestamp": {
+          "$date": "2024-11-08T12:01:41.625Z"
+        },
+        "standalone_question": "Could you please analyze this image for any signs of pests or diseases affecting my grapes?",
+        "standalone_en": "Could you please analyze this image for any signs of pests or diseases affecting my grapes?",
+        "retrieval": {
+          "tools": [
+            "analyse_crop_image  \nGets the analysis of the uploaded crop image for any diseases or pests."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems there was an issue with the image analysis. The image quality is good, but it may not have captured the necessary details for a proper diagnosis. \n\nPlease ensure that the affected area is clearly visible and well-lit in the next photo. This will help in accurately identifying any potential pests or diseases affecting your grapes. If you have any other questions or need further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-11-08T12:01:47.323Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "1<user uploaded image for analysis at 'plotno3mamajumboshreekrishna/2024-11-08-1731067104086.jpeg'>",
+        "timestamp": {
+          "$date": "2024-11-08T12:02:15.305Z"
+        },
+        "standalone_question": "What specific issue are you experiencing with the yellow shed on your plot?",
+        "standalone_en": "What specific issue are you experiencing with the yellow shed on your plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems there was an issue with the image analysis, and the crop health could not be determined. The image quality was good, but there may have been other factors affecting the analysis.\n\nPlease try to take another photo, ensuring that the affected area is clearly visible and well-lit. This will help in accurately identifying any potential pests or diseases affecting your grapes. If you have any other questions or need further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-11-08T12:02:21.593Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "The photo is not sending",
+        "timestamp": {
+          "$date": "2024-11-08T12:02:53.649Z"
+        },
+        "standalone_question": "Why is the photo not sending?",
+        "standalone_en": "Why is the photo not sending?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "If you're having trouble sending the photo, you can try the following steps:\n\n1. **Check File Size**: Ensure the image file size is not too large. If it is, try compressing the image or resizing it.\n2. **Stable Internet Connection**: Make sure you have a stable internet connection while uploading the image.\n3. **Different Format**: If possible, try saving the image in a different format (like JPEG or PNG) and then upload it again.\n4. **Clear Cache**: If you're using an app, clearing the cache or restarting the app may help.\n\nIf you're still unable to send the photo, you can describe the issue in detail, and I can provide guidance based on that information.",
+        "timestamp": {
+          "$date": "2024-11-08T12:02:58.902Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "A<user uploaded image for analysis at 'plotno3mamajumboshreekrishna/2024-11-08-1731067393377.jpeg'>",
+        "timestamp": {
+          "$date": "2024-11-08T12:05:18.406Z"
+        },
+        "standalone_question": "What does the uploaded image show regarding the condition of my plot?",
+        "standalone_en": "What does the uploaded image show regarding the condition of my plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the uploaded image indicates that your grape plants are healthy. Here are the key observations:\n\n- **Health Status**: The plants appear to be in good condition.\n- **Symptoms**: \n  - Dark green leaves\n  - Firm leaves\n  - Brightly colored flowers\n  - Well-shaped and nutritious fruits\n  - A well-developed root system\n\nNo treatment is necessary at this time, as there are no signs of disease or pest issues. If you have any further questions or need assistance with anything else, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-11-08T12:05:28.521Z"
+        }
+      }
+    ],
+    "farmer_id": "nandkishorshinde",
+    "farmer_plot_ids": [
+      "cGxvdG5vMg==1704526237691",
+      "plotno2rkshreekrishna",
+      "plotno3mamajumboshreekrishna"
+    ],
+    "conversation_id": "672dfc7b33dffaf9cbc7f8ed",
+    "tag": "disease_pest",
+    "conv_date": "2024-11-08T11:58:30.731000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How to control the flowering dropping of female flowers , it not the because of nutrition management ",
+        "timestamp": {
+          "$date": "2024-11-08T10:13:13.580Z"
+        },
+        "standalone_question": "What methods can be used to prevent the dropping of female flowers, aside from nutrition management?",
+        "standalone_en": "What methods can be used to prevent the dropping of female flowers, aside from nutrition management?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To control the dropping of female flowers in pomegranate, consider the following measures:\n\n1. **Water Management**: Ensure consistent and adequate irrigation, especially during flowering and fruit set stages. Avoid water stress.\n\n2. **Temperature Control**: Protect the plants from extreme temperatures. Use shade nets if necessary during hot weather.\n\n3. **Pest Control**: Monitor for pests that may affect flower retention, such as aphids or thrips. Use appropriate insecticides if needed.\n\n4. **Disease Management**: Check for any fungal or bacterial infections that could weaken the plant. Apply fungicides or bactericides as necessary.\n\n5. **Pruning**: Properly prune the plants to improve air circulation and light penetration, which can help in flower retention.\n\n6. **Hormonal Treatments**: Consider using plant growth regulators like gibberellic acid to enhance flower retention.\n\n7. **Mulching**: Apply organic mulch to maintain soil moisture and temperature, which can help reduce stress on the plants.\n\nImplementing these practices can help reduce the dropping of female flowers and improve overall fruit set.",
+        "timestamp": {
+          "$date": "2024-11-08T10:13:18.015Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "If stress of temperature so what to do",
+        "timestamp": {
+          "$date": "2024-11-08T10:14:03.769Z"
+        },
+        "standalone_question": "What actions can be taken to address temperature stress in plants?",
+        "standalone_en": "What actions can be taken to address temperature stress in plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "If your pomegranate plants are experiencing temperature stress, here are some measures you can take:\n\n1. **Shade Provision**: Use shade nets to protect the plants from excessive sunlight and heat, especially during peak afternoon hours.\n\n2. **Mulching**: Apply organic mulch around the base of the plants to help retain soil moisture and regulate soil temperature.\n\n3. **Irrigation**: Ensure adequate and consistent watering. Drip irrigation is ideal to maintain soil moisture without waterlogging.\n\n4. **Windbreaks**: Plant windbreaks or use barriers to protect the plants from strong winds that can exacerbate temperature stress.\n\n5. **Foliar Sprays**: Consider using anti-transpirants or foliar sprays that can help reduce water loss from the leaves.\n\n6. **Pruning**: Prune excess foliage to reduce the plant's water demand and improve air circulation.\n\n7. **Monitoring**: Regularly monitor temperature and humidity levels to make timely adjustments to your management practices.\n\nImplementing these strategies can help mitigate temperature stress and promote healthier growth in your pomegranate plants.",
+        "timestamp": {
+          "$date": "2024-11-08T10:14:09.128Z"
+        }
+      }
+    ],
+    "farmer_id": "ankithbhai8889",
+    "farmer_plot_ids": [
+      "plot2pome",
+      "pomegranate334",
+      "plot2rajshakti",
+      "rajshaktipomeplot3"
+    ],
+    "conversation_id": "672de43933dffaf9cbc7f8ec",
+    "tag": "disease_pest",
+    "conv_date": "2024-11-08T10:13:13.580000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How to control the flowering dropping of female flowers , it not the because of nutrition management ",
+        "timestamp": {
+          "$date": "2024-11-08T10:13:13.580Z"
+        },
+        "standalone_question": "What are the methods to prevent the dropping of female flowers, aside from nutrition management?",
+        "standalone_en": "What are the methods to prevent the dropping of female flowers, aside from nutrition management?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To control the dropping of female flowers in pomegranate, consider the following measures:\n\n1. **Water Management**: Ensure consistent and adequate irrigation, especially during flowering and fruit set stages. Avoid water stress.\n\n2. **Temperature Control**: Protect the plants from extreme temperatures. Use shade nets if necessary during hot weather.\n\n3. **Pest Control**: Monitor for pests that may affect flower retention, such as aphids or thrips. Use appropriate insecticides if needed.\n\n4. **Disease Management**: Check for any fungal or bacterial infections that could weaken the plant. Apply fungicides or bactericides as necessary.\n\n5. **Pruning**: Properly prune the plants to improve air circulation and light penetration, which can help in flower retention.\n\n6. **Hormonal Treatments**: Consider using plant growth regulators like gibberellic acid to enhance flower retention.\n\n7. **Mulching**: Apply organic mulch to maintain soil moisture and temperature, which can help reduce stress on the plants.\n\nImplementing these practices can help reduce the dropping of female flowers and improve overall fruit set.",
+        "timestamp": {
+          "$date": "2024-11-08T10:13:18.015Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "If stress of temperature so what to do",
+        "timestamp": {
+          "$date": "2024-11-08T10:14:03.769Z"
+        },
+        "standalone_question": "What actions can be taken to address temperature stress in plants?",
+        "standalone_en": "What actions can be taken to address temperature stress in plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "If your pomegranate plants are experiencing temperature stress, here are some measures you can take:\n\n1. **Shade Provision**: Use shade nets to protect the plants from excessive sunlight and heat, especially during peak afternoon hours.\n\n2. **Mulching**: Apply organic mulch around the base of the plants to help retain soil moisture and regulate soil temperature.\n\n3. **Irrigation**: Ensure adequate and consistent watering. Drip irrigation is ideal to maintain soil moisture without waterlogging.\n\n4. **Windbreaks**: Plant windbreaks or use barriers to protect the plants from strong winds that can exacerbate temperature stress.\n\n5. **Foliar Sprays**: Consider using anti-transpirants or foliar sprays that can help reduce water loss from the leaves.\n\n6. **Pruning**: Prune excess foliage to reduce the plant's water demand and improve air circulation.\n\n7. **Monitoring**: Regularly monitor temperature and humidity levels to make timely adjustments to your management practices.\n\nImplementing these strategies can help mitigate temperature stress and promote healthier growth in your pomegranate plants.",
+        "timestamp": {
+          "$date": "2024-11-08T10:14:09.128Z"
+        }
+      }
+    ],
+    "farmer_id": "ankithbhai8889",
+    "farmer_plot_ids": [
+      "plot2pome",
+      "pomegranate334",
+      "plot2rajshakti",
+      "rajshaktipomeplot3"
+    ],
+    "conversation_id": "672de43933dffaf9cbc7f8ec",
+    "tag": "others",
+    "conv_date": "2024-11-08T10:13:13.580000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "विपिडी म्हणजे काय",
+        "timestamp": {
+          "$date": "2024-11-08T09:56:28.303Z"
+        },
+        "standalone_question": "What does \"विपिडी\" mean?",
+        "standalone_en": "What does \"विपिडी\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "vipidi mhanaje kay"
+      },
+      {
+        "role": "assistant",
+        "content": "विपिडी (Vapor Pressure Deficit - VPD) म्हणजे वायूतील आर्द्रतेचा अभाव. हे एक मापन आहे जे दर्शवते की वायूतील आर्द्रता किती कमी आहे, म्हणजेच वायू किती शुष्क आहे. उच्च विपिडी म्हणजे वायू अधिक शुष्क आहे, ज्यामुळे पिकांच्या पाण्याच्या गरजा वाढू शकतात. यामुळे पिकांच्या वाढीवर आणि उत्पादनावर परिणाम होऊ शकतो. विपिडी मोजण्यासाठी वायूतील तापमान आणि आर्द्रता यांचा वापर केला जातो.",
+        "timestamp": {
+          "$date": "2024-11-08T09:56:36.166Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "डेल्टा टी म्हणजे काय",
+        "timestamp": {
+          "$date": "2024-11-08T09:57:09.686Z"
+        },
+        "standalone_question": "What is Delta T?",
+        "standalone_en": "What is Delta T?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is Delta T & VPD?\nA: Delta T is the difference between dry bulb and wet bulb temperature values. When this value is between 2-9, the stomatal cells on plant leaves are open, increasing the effectiveness of foliar applications.\n   VPD (Vapor Pressure Deficit) represents the right time for fertigation when active absorption by a plant is highest."
+          ]
+        },
+        "content_transliterated": "delta tea mhanaje kay"
+      },
+      {
+        "role": "assistant",
+        "content": "डेल्टा टी (ΔT) म्हणजे वायूतील तापमान आणि पृष्ठभागाच्या तापमानामध्ये असलेला फरक. हे मापन पिकांच्या पाण्याच्या गरजांवर आणि वायूतील आर्द्रतेवर प्रभाव टाकते. उच्च डेल्टा टी म्हणजे वायू अधिक गरम आहे आणि पृष्ठभाग अधिक थंड आहे, ज्यामुळे पाण्याचा वाष्पीकरण दर वाढतो. यामुळे पिकांना अधिक पाण्याची आवश्यकता असू शकते. डेल्टा टी मोजण्यासाठी वायूतील तापमान आणि पृष्ठभागाच्या तापमानाचा वापर केला जातो.",
+        "timestamp": {
+          "$date": "2024-11-08T09:57:15.385Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "विपिडी किती असावा",
+        "timestamp": {
+          "$date": "2024-11-08T09:57:55.214Z"
+        },
+        "standalone_question": "What should the ideal Vapor Pressure Deficit (VPD) be?",
+        "standalone_en": "What should the ideal Vapor Pressure Deficit (VPD) be?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is Delta T & VPD?\nA: Delta T is the difference between dry bulb and wet bulb temperature values. When this value is between 2-9, the stomatal cells on plant leaves are open, increasing the effectiveness of foliar applications.\n   VPD (Vapor Pressure Deficit) represents the right time for fertigation when active absorption by a plant is highest."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "विपिडी (Vapor Pressure Deficit - VPD) चा आदर्श स्तर पिकांच्या प्रकारानुसार बदलतो, परंतु सामान्यतः:\n\n- 0.5 ते 1.0 किलोपास्कल (kPa) हे सामान्य पातळी आहे.\n- 1.0 ते 1.5 kPa हे उच्च पातळी आहे, ज्यामुळे पिकांना अधिक पाण्याची आवश्यकता असू शकते.\n- 1.5 kPa पेक्षा जास्त विपिडी म्हणजे वायू अधिक शुष्क आहे, ज्यामुळे पिकांच्या वाढीवर नकारात्मक परिणाम होऊ शकतो.\n\nतुमच्या पिकांच्या प्रकारानुसार आणि स्थानिक हवामानाच्या परिस्थितीनुसार विपिडीचे आदर्श स्तर समजून घेणे महत्त्वाचे आहे.",
+        "timestamp": {
+          "$date": "2024-11-08T09:58:00.806Z"
+        }
+      }
+    ],
+    "farmer_id": "sahilpatil",
+    "farmer_plot_ids": [
+      "superplotno2674"
+    ],
+    "conversation_id": "672de04b33dffaf9cbc7f8ea",
+    "tag": "others",
+    "conv_date": "2024-11-08T09:56:28.303000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Device ki health btao",
+        "timestamp": {
+          "$date": "2024-11-08T08:16:53.754Z"
+        },
+        "standalone_question": "What is the health status of the device?",
+        "standalone_en": "What is the health status of the device?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapke dono devices ki health kuch is prakar hai:\n\n1. **Kairo Device (kairokinnowfarm)**:\n   - **Air Temperature**: 32.2°C\n   - **Air Humidity**: 44%\n   - **Soil Temperature**: 24.81°C\n   - **Soil Moisture**: 40 kPa (Moist)\n   - **Leaf Wetness**: 0\n   - **Air Pressure**: 36.7 (Faulty reading)\n   - **Light Intensity**: 32407 lux\n   - **Wind Speed**: 3.7 km/h\n   - **Battery**: 100%\n   - **Rainfall**: 0 mm\n\n   **Note**: Air pressure reading mein technical fault hai.\n\n2. **Nero Device (kinnowplotnero1)**:\n   - **Soil Temperature**: 22°C\n   - **Soil Moisture**: 7 kPa (Very Moist)\n   - **Battery**: 47%\n   - **Vi**: 9\n\n**Summary**: Kairo device ka air pressure reading faulty hai, lekin baaki readings sahi hain. Nero device ki battery 47% hai, jo thodi kam hai. Aapko Kairo device ke liye support ticket raise karna chahiye agar air pressure ka issue continue hota hai.",
+        "timestamp": {
+          "$date": "2024-11-08T08:17:02.474Z"
+        }
+      }
+    ],
+    "farmer_id": "mandeepbishnoi1661062088650",
+    "farmer_plot_ids": [
+      "kairokinnowfarm",
+      "kinnowplotnero1"
+    ],
+    "conversation_id": "672dc8f5ce1b6e6bcedfbc62",
+    "tag": "others",
+    "conv_date": "2024-11-08T08:16:53.754000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Is saaf compitable with hexaconozole ",
+        "timestamp": {
+          "$date": "2024-11-08T06:21:47.722Z"
+        },
+        "standalone_question": "Is SAaf compatible with hexaconazole?",
+        "standalone_en": "Is SAaf compatible with hexaconazole?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Saaf (which typically contains the active ingredient Tricyclazole) is generally not recommended to be mixed with Hexaconazole. Mixing different fungicides can lead to reduced efficacy or phytotoxicity. It's best to consult the product labels or a local agricultural expert for specific compatibility information before mixing.",
+        "timestamp": {
+          "$date": "2024-11-08T06:21:50.466Z"
+        }
+      }
+    ],
+    "farmer_id": "murthyn",
+    "farmer_plot_ids": [
+      "murthyp1"
+    ],
+    "conversation_id": "672dadfb921d7c588fd738dc",
+    "tag": "disease_pest",
+    "conv_date": "2024-11-08T06:21:47.722000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Panchayat Raj sevagyon kaun sa Rog vishekt Sajjad rakshak bhaiyon ko sadhya rakshak bhaiyon kaun tha Rog bhi Ho Sakta",
+        "timestamp": {
+          "$date": "2024-11-08T05:27:18.183Z"
+        },
+        "standalone_question": "What diseases can Panchayat Raj workers and health workers be affected by?",
+        "standalone_en": "What diseases can Panchayat Raj workers and health workers be affected by?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Kya aap kripya apne prashna ko thoda aur spasht kar sakte hain? Aap kis prakar ke rog ya pest ke baare mein jaanana chahte hain? Kya yeh aapke kheti se sambandhit hai?",
+        "timestamp": {
+          "$date": "2024-11-08T05:27:20.974Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ya vatavaran nath kaun sa Rog yog shakato",
+        "timestamp": {
+          "$date": "2024-11-08T05:28:31.245Z"
+        },
+        "standalone_question": "What are the diseases that can affect the environment?",
+        "standalone_en": "What are the diseases that can affect the environment?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapke kheti ke liye kuch pramukh rog jo vatavaran ke prabhav se ho sakte hain, unmein shamil hain:\n\n1. **Powdery Mildew** - Garmi aur humidity ke samay mein hota hai.\n2. **Downy Mildew** - Thandi aur humid sthitiyon mein hota hai.\n3. **Bacterial Blight** - Barsaat ke samay mein phail sakta hai.\n4. **Fungal Diseases** - Jaise ki Anthracnose, jo garmi aur humidity se prabhavit hota hai.\n\nAgar aapko kisi vishesh rog ke baare mein jaanana hai ya aapke kheti mein koi samasya hai, to kripya uska ullekh karein.",
+        "timestamp": {
+          "$date": "2024-11-08T05:28:35.877Z"
+        }
+      }
+    ],
+    "farmer_id": "rajudemse",
+    "farmer_plot_ids": [
+      "c2hhcmFkMQ==1703910434750",
+      "plotnosharadrajudemse"
+    ],
+    "conversation_id": "672da1359f5e5827cfe7c0bd",
+    "tag": "disease_pest",
+    "conv_date": "2024-11-08T05:27:18.183000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ssn प्लॉट चा डेटा डिवाईस डेटा पाठवत आहे ka",
+        "timestamp": {
+          "$date": "2024-11-08T03:12:54.090Z"
+        },
+        "standalone_question": "Is the SSN plot sending device data?",
+        "standalone_en": "Is the SSN plot sending device data?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "SSN प्लॉटचा ताज्या डेटा खालीलप्रमाणे आहे:\n\n- **मातीचे तापमान:** 24.44°C\n- **मातीची आर्द्रता 1:** 14 kPa (सुखा)\n- **मातीची आर्द्रता 2:** 4 kPa (खूप ओलसर)\n- **बॅटरी:** 72%\n- **Vi:** 9\n\nजर तुम्हाला आणखी काही माहिती हवी असेल तर सांगा!",
+        "timestamp": {
+          "$date": "2024-11-08T03:12:59.650Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "सुधाकर प्लॉट चा डेटा ",
+        "timestamp": {
+          "$date": "2024-11-08T03:13:52.571Z"
+        },
+        "standalone_question": "What is the data for the Sudhakar plot?",
+        "standalone_en": "What is the data for the Sudhakar plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "sudhakar plot cha data "
+      },
+      {
+        "role": "assistant",
+        "content": "सुधाकर प्लॉटचा ताज्या डेटा खालीलप्रमाणे आहे:\n\n- **मातीचे तापमान:** 22.94°C\n- **मातीची आर्द्रता 1:** 13 kPa (सुखा)\n- **मातीची आर्द्रता 2:** 12 kPa (सुखा)\n- **बॅटरी:** 82%\n- **Vi:** 9\n\nजर तुम्हाला आणखी काही माहिती हवी असेल तर सांगा!",
+        "timestamp": {
+          "$date": "2024-11-08T03:13:58.504Z"
+        }
+      }
+    ],
+    "farmer_id": "uttamvalukasbe",
+    "farmer_plot_ids": [
+      "ssn877",
+      "sudhakarseedless429"
+    ],
+    "conversation_id": "672d81b59f5e5827cfe7c0bc",
+    "tag": "historical data",
+    "conv_date": "2024-11-08T03:12:54.090000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Battery kiti ahe ajun",
+        "timestamp": {
+          "$date": "2024-11-08T02:37:12.577Z"
+        },
+        "standalone_question": "What is the battery percentage now?",
+        "standalone_en": "What is the battery percentage now?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Mala battery cha data nahiye. Tumhi Kairo device cha battery percentage check karu shakta. Kahi madat pahije ka?",
+        "timestamp": {
+          "$date": "2024-11-08T02:37:18.299Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Marathi ",
+        "timestamp": {
+          "$date": "2024-11-08T02:37:32.231Z"
+        },
+        "standalone_question": "What is the battery percentage in Marathi?",
+        "standalone_en": "What is the battery percentage in Marathi?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Thompson Seedless Plot 1 साठी battery 23% आहे. तुम्हाला आणखी काही मदतीची आवश्यकता आहे का?",
+        "timestamp": {
+          "$date": "2024-11-08T02:37:36.160Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ajun kiti day battery jau shkte",
+        "timestamp": {
+          "$date": "2024-11-08T02:38:01.624Z"
+        },
+        "standalone_question": "How much longer can the battery last?",
+        "standalone_en": "How much longer can the battery last?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Battery 23% आहे, आणि साधारणपणे 20% battery 1-2 दिवस चालू राहू शकते. त्यामुळे, तुम्हाला अंदाजे 1 दिवसाची battery शिल्लक आहे. तुम्ही लवकरच battery recharge करणे विचारात घ्या.",
+        "timestamp": {
+          "$date": "2024-11-08T02:38:07.602Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ani battery kiti time recharge karu",
+        "timestamp": {
+          "$date": "2024-11-08T02:38:46.279Z"
+        },
+        "standalone_question": "How long does it take to recharge the battery?",
+        "standalone_en": "How long does it take to recharge the battery?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या डिव्हाइसची battery 23% आहे, त्यामुळे तुम्हाला लवकरच recharge करणे आवश्यक आहे. तुम्ही आज किंवा उद्या recharge करणे विचारात घ्या, कारण battery 20% च्या खाली गेल्यावर डिव्हाइस कार्यरत राहण्याची शक्यता कमी होते. \n\nतुम्हाला आणखी काही मदतीची आवश्यकता आहे का?",
+        "timestamp": {
+          "$date": "2024-11-08T02:38:50.170Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Br",
+        "timestamp": {
+          "$date": "2024-11-08T02:39:00.164Z"
+        },
+        "standalone_question": "How long does it take to recharge the battery?",
+        "standalone_en": "How long does it take to recharge the battery?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमचं काही विचारायचं आहे का? मी मदतीसाठी इथे आहे.",
+        "timestamp": {
+          "$date": "2024-11-08T02:39:02.663Z"
+        }
+      }
+    ],
+    "farmer_id": "nikhilwaluje",
+    "farmer_plot_ids": [
+      "thompsonseedleesplot1"
+    ],
+    "conversation_id": "672d79569f5e5827cfe7c0ba",
+    "tag": "others",
+    "conv_date": "2024-11-08T02:37:12.577000+00:00"
+  }
+]

@@ -1,0 +1,349 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "કેટલો પાણી હાંકવો",
+        "en": "How much water to draw",
+        "timestamp": {
+          "$date": "2025-02-05T07:13:38.192Z"
+        },
+        "standalone_question": "How much water should I pour?",
+        "standalone_en": "How much water should I pour?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ketlo pani hankavo"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પ્લોટ માટે પાણી હાંકવાની જરૂરિયાત નીચે મુજબ છે:\n\n1. **Plot: main1211**\n   - Optimal Soil Moisture: 5 (wet) - 22 (dry)\n   - Irrigate when above 22 kPa.\n\n2. **Plot: main2122**\n   - Optimal Soil Moisture: 5 (wet) - 22 (dry)\n   - Irrigate when above 22 kPa.\n\n3. **Plot: Main kairo**\n   - Optimal Soil Moisture: 2 (wet) - 18 (dry)\n   - Irrigate when above 18 kPa.\n\nજો તમારા સેનસરના વાંચન આ મર્યાદાઓથી ઉપર છે, તો પાણી હાંકવું જોઈએ.",
+        "en": "The water requirement for your plot is as follows:\n\n1. **Plot: main1211**\n   - Optimal Soil Moisture: 5 (wet) - 22 (dry)\n   - Irrigate when above 22 kPa.\n\n2. **Plot: main2122**\n   - Optimal Soil Moisture: 5 (wet) - 22 (dry)\n   - Irrigate when above 22 kPa.\n\n3. **Plot: Main kairo**\n   - Optimal Soil Moisture: 2 (wet) - 18 (dry)\n   - Irrigate when above 18 kPa.\n\nIf your sensor reading is above these limits, water should be poured.",
+        "timestamp": {
+          "$date": "2025-02-05T07:13:48.138Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "જમીનનો પેજ કેટલો છે પાણી કેટલો આપવો",
+        "en": "How much is the page of the ground, how much water to give",
+        "timestamp": {
+          "$date": "2025-02-05T07:15:01.131Z"
+        },
+        "standalone_question": "What is the recommended amount of water to provide based on the soil's moisture level?",
+        "standalone_en": "What is the recommended amount of water to provide based on the soil's moisture level?",
+        "retrieval": {
+          "tools": [
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range.",
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer.",
+            "Q: How much kPa should be set for a 4-inch depth soil moisture sensor?\nA: The kPa value for a 4-inch depth soil moisture sensor should be set based on the **soil type** and **crop requirements**. Here are general guidelines for different soil types:\n\n### **Sandy Soil:**\n- **Optimal range:** 10–20 kPa\n- **Irrigation threshold:** Above 30 kPa\n\n### **Loamy Soil (Silty or Mixed):**\n- **Optimal range:** 20–40 kPa\n- **Irrigation threshold:** Above 50 kPa\n\n### **Clay Soil:**\n- **Optimal range:** 40–70 kPa\n- **Irrigation threshold:** Above 80 kPa\n\n### **Additional Considerations:**\n- For **sensitive crops** like vegetables, maintain lower kPa thresholds to avoid water stress.\n- For **deep-rooted crops**, kPa values may vary at different depths; calibrate accordingly.\n- **Calibration** of the sensor to your specific soil and crop is essential for accuracy.\n\nConsulting with an agronomist or referring to crop-specific irrigation guides will help you fine-tune the kPa range.",
+            "Q: What is soil water storage (water tank of crop)?\nA: Soil water storage is defined as the total amount of water that is stored in the soil within the plant’s root zone. The soil texture and the crop rooting depth determine this. A deeper rooting depth means there is a larger volume of water stored in the soil and therefore a larger reservoir of water for the crop to draw upon between irrigations. Knowing the soil water storage capacity allows the irrigator to determine how much water to apply at one time and how long to wait between each irrigation. For example, the amount of water applied at one time on a sandy soil, which has a low soil water storage capacity, would be less than for a loam soil, which has a higher soil water storage capacity."
+          ]
+        },
+        "content_transliterated": "jaminano page ketlo che pani ketlo apavo"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પ્લોટ માટે પાણી હાંકવાની જરૂરિયાત નીચે મુજબ છે:\n\n1. **Plot: main1211**\n   - **પાણી આપવાની સમયગાળો:** 0.4 કલાક (24 મિનિટ)\n\n2. **Plot: main2122**\n   - **પાણી આપવાની સમયગાળો:** 0.4 કલાક (24 મિનિટ)\n\n3. **Plot: Main kairo**\n   - **પાણી આપવાની સમયગાળો:** 0.0 કલાક (કોઈ પાણીની જરૂર નથી)\n\nજો તમે વધુ માહિતી અથવા મદદની જરૂર હોય, તો જણાવશો!",
+        "en": "The water requirement for your plot is as follows:\n\n1. **Plot: main1211**\n   * * Watering duration:** 0.4 hours (24 minutes)\n\n2. **Plot: main2122**\n   * * Watering duration:** 0.4 hours (24 minutes)\n\n3. **Plot: Main kairo**\n   - **Watering period:** 0.0 hours (no water required)\n\nIf you need more information or help, let me know!",
+        "timestamp": {
+          "$date": "2025-02-05T07:15:13.047Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "કયા પ્લોટ માં ખાતર આપવાની જરૂર છે",
+        "en": "Which plot needs to be fertilised",
+        "timestamp": {
+          "$date": "2025-02-05T07:16:45.571Z"
+        },
+        "standalone_question": "Which plot requires fertilization?",
+        "standalone_en": "Which plot requires fertilization?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kaya plot man khatar apavani jarur che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા તમામ પ્લોટ માટે ખાતર આપવાની જરૂરિયાતની માહિતી ઉપલબ્ધ નથી. \n\n1. **Plot: main1211** - ખાતર આપવાની જરૂર નથી.\n2. **Plot: main2122** - ખાતર આપવાની જરૂર નથી.\n3. **Plot: Main kairo** - ખાતર આપવાની જરૂર નથી.\n\nજો તમને વધુ માહિતી અથવા મદદની જરૂર હોય, તો જણાવશો!",
+        "en": "There is no information available on fertilizer requirement for all your plots. \n\n1. **Plot: main1211** - No need to give fertilizer.\n2. **Plot: main2122** - There is no need to give fertilizer.\n3. **Plot: Main kairo** - There is no need to give fertilizer.\n\nIf you need more information or help, let me know!",
+        "timestamp": {
+          "$date": "2025-02-05T07:16:53.052Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "આજે બોટ ચાલુ કરવો કે નહીં",
+        "en": "Whether to start the boat today or not",
+        "timestamp": {
+          "$date": "2025-02-05T07:17:59.757Z"
+        },
+        "standalone_question": "Should I start the pump today or not?",
+        "standalone_en": "Should I start the pump today or not?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "aje boat chalu karavo ke nahin"
+      },
+      {
+        "role": "assistant",
+        "content": "આજે ખાતર આપવાની જરૂર નથી, કારણ કે કોઈ સ્પ્રે શેડ્યૂલ નથી. \n\n**પ્લોટ માટે સ્પ્રે સ્થિતિ:**\n\n1. **Plot: main1211**\n   - **13:30 - 18:30**: Moderate conditions (સામાન્ય સ્થિતિ)\n   - **19:30 - 23:30**: Ideal conditions (ઉત્તમ સ્થિતિ)\n\n2. **Plot: main2122**\n   - Spray conditions cannot be checked.\n\n3. **Plot: Main kairo**\n   - **13:30 - 18:30**: Moderate conditions (સામાન્ય સ્થિતિ)\n   - **19:30 - 23:30**: Ideal conditions (ઉત્તમ સ્થિતિ)\n\n**સૂચન:** \n- **main1211** અને **Main kairo** પ્લોટમાં 19:30 થી 23:30 દરમિયાન સ્પ્રે કરવા માટે ઉત્તમ સ્થિતિ છે. \n\nજો તમને વધુ માહિતી અથવા મદદની જરૂર હોય, તો જણાવશો!",
+        "en": "There is no need to give fertilizer today, as there is no spray schedule. \n\n**Spray mode for plot:**\n\n1. **Plot: main1211**\n   * **13:30 - 18:30**: Moderate conditions (normal condition)\n   * **19:30 - 23:30**: Ideal conditions (excellent condition)\n\n2. **Plot: main2122**\n   - Spray conditions cannot be checked.\n\n3. **Plot: Main kairo**\n   * **13:30 - 18:30**: Moderate conditions (normal condition)\n   * **19:30 - 23:30**: Ideal conditions (excellent condition)\n\n**Suggestion:** \n* **main1211** and **Main kairo** plots have excellent conditions to spray between 19:30 to 23:30. \n\nIf you need more information or help, let me know!",
+        "timestamp": {
+          "$date": "2025-02-05T07:18:13.269Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "બટાકા ક્યારે કાઢવાના છે",
+        "en": "When to remove the potatoes",
+        "timestamp": {
+          "$date": "2025-02-05T07:19:44.742Z"
+        },
+        "standalone_question": "When should the potatoes be harvested?",
+        "standalone_en": "When should the potatoes be harvested?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "bataka kyare kadhavana che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા બટાકાના પાક માટે, \"Maturity and Harvest\" સ્ટેજ 2024-12-23 થી શરૂ થઈ છે. \n\nતમે 24 દિવસથી વધુ સમયથી આ સ્ટેજમાં છો, તેથી harvest માટે તૈયાર થવા માટે, તમે 2025-01-16 થી 2025-01-30 વચ્ચે બટાકા કાઢી શકો છો. \n\nજો તમને વધુ માહિતી અથવા મદદની જરૂર હોય, તો જણાવશો!",
+        "en": "For your potato crop, the \"Maturity and Harvest\" stage has started from 2024-12-23. \n\nYou have been in this stage for more than 24 days, so to get ready for harvest, you can remove potatoes between 2025-01-16 to 2025-01-30. \n\nIf you need more information or help, let me know!",
+        "timestamp": {
+          "$date": "2025-02-05T07:19:49.771Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મદદ જોવો હોય બટાકા મદતજોવે છે ",
+        "en": "Want to see help Potatoes drunk ",
+        "timestamp": {
+          "$date": "2025-02-05T07:20:47.877Z"
+        },
+        "standalone_question": "If you need assistance with harvesting potatoes, what specific help do you require?",
+        "standalone_en": "If you need assistance with harvesting potatoes, what specific help do you require?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "madad jovo hoy bataka madatzove che "
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા બટાકા માટેની મદદની માહિતી નીચે મુજબ છે:\n\n1. **દિવસો માટે રોગ અને કીટક સ્પ્રે શેડ્યૂલ:** \n   - હાલમાં કોઈ સ્પ્રે શેડ્યૂલ ઉપલબ્ધ નથી.\n\n2. **ફર્ટિગેશન શેડ્યૂલ:**\n   - **Plot: main1211** - ફર્ટિગેશન ડેટા શેડ્યૂલ ઉપલબ્ધ નથી.\n   - **Plot: main2122** - ફર્ટિગેશન ડેટા શેડ્યૂલ ઉપલબ્ધ નથી.\n   - **Plot: Main kairo** - ફર્ટિગેશન ડેટા શેડ્યૂલ ઉપલબ્ધ નથી.\n\nજો તમને વધુ માહિતી અથવા મદદની જરૂર હોય, તો જણાવશો!",
+        "en": "The help information for your potatoes is as follows:\n\n1. Disease and Insect Spray Schedule for **Days:** \n   - There is currently no spray schedule available.\n\n2. **Fertigation Schedule:**\n   * *Plot: main1211** - Fertigation data schedule not available.\n   * *Plot: main2122** - Fertigation data schedule not available.\n   * *Plot: Main kairo** - Fertigation data schedule not available.\n\nIf you need more information or help, let me know!",
+        "timestamp": {
+          "$date": "2025-02-05T07:20:57.006Z"
+        }
+      }
+    ],
+    "farmer_id": "natvarbhai",
+    "farmer_plot_ids": [
+      "main1211",
+      "main2122",
+      "mainkairo512"
+    ],
+    "conversation_id": "67a30fa1469607d3b5867664",
+    "_id": "67a30fa1469607d3b5867664",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-02-05T07:25:47.887000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-02-05T07:13:38.192000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi",
+        "en": "Hi",
+        "timestamp": {
+          "$date": "2025-02-05T05:47:45.236Z"
+        },
+        "standalone_question": "What would you like to talk about today?",
+        "standalone_en": "What would you like to talk about today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! How can I assist you with your farming needs today?",
+        "en": "Hello! How can I assist you with your farming needs today?",
+        "timestamp": {
+          "$date": "2025-02-05T05:47:47.976Z"
+        }
+      }
+    ],
+    "farmer_id": "vishalbhai9316730543",
+    "farmer_plot_ids": [
+      "ajor"
+    ],
+    "conversation_id": "67a2fb80fe92c2cda20296af",
+    "_id": "67a2fb80fe92c2cda20296af",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-02-05T05:52:45.243000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-02-05T05:47:45.236000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "બટાટા, મા કટવોર્મ હાલના તબક્કે અસર કરે",
+        "en": "Potato, ma cutworm affects the current stage",
+        "timestamp": {
+          "$date": "2025-02-05T03:57:04.885Z"
+        },
+        "standalone_question": "Are cutworms currently affecting potatoes?",
+        "standalone_en": "Are cutworms currently affecting potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "batata, ma cutworm halana tabakke asar kare"
+      },
+      {
+        "role": "assistant",
+        "content": "કટવોર્મ pest માટેની ભવિષ્યવાણી મુજબ, \"કૈરો 1\" પ્લોટમાં હાલના તબક્કે (2025-02-05) કટવોર્મની સંભાવના 56.6% છે, જે મધ્યમ જોખમ સ્તર દર્શાવે છે. છેલ્લા કેટલાક દિવસોમાં, કટવોર્મની સંભાવના અને જોખમ સ્તર આ રીતે છે:\n\n- **2025-02-04**: 61.0% (મધ્યમ)\n- **2025-02-03**: 68.0% (મધ્યમ)\n- **2025-02-02**: 70.0% (મધ્યમ)\n- **2025-02-01**: 71.4% (મધ્યમ)\n- **2025-01-23**: 76.3% (ઉચ્ચ)\n\nઆ માહિતી દર્શાવે છે કે કટવોર્મનો જોખમ છેલ્લા કેટલાક દિવસોમાં વધ્યો છે, અને હાલના તબક્કે કટવોર્મના નિયંત્રણ માટે પગલાં લેવું મહત્વપૂર્ણ છે.",
+        "en": "According to the prediction for the cutworm pest, the probability of a cutworm at the current stage (2025-02-05) in the \"Cairo 1\" plot is 56.6%, indicating a moderate risk level. In the last few days, the probability and risk level of the cutworm has been as follows:\n\n**2025-02-04**: 61.0% (median)\n**2025-02-03**: 68.0% (median)\n**2025-02-02**: 70.0% (median)\n* **2025-02-01**: 71.4% (median)\n* **2025-01-23**: 76.3% (high)\n\nThis data shows that the risk of cutworms has increased in the last few days, and it is important to take steps for the control of cutworms at the present stage.",
+        "timestamp": {
+          "$date": "2025-02-05T03:57:13.798Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140"
+    ],
+    "conversation_id": "67a2e190324a553f057a0033",
+    "_id": "67a2e190324a553f057a0033",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-02-05T04:02:04.894000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-02-05T03:57:04.885000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "कॅल्शियम नायत्रेट इतर खते सोडल्यानंन्तर 15 मिनिटांनी का सोडावे ",
+        "en": "Why leave calcium nitrate after 15 minutes after releasing other fertilizers ",
+        "timestamp": {
+          "$date": "2025-02-05T01:58:57.897Z"
+        },
+        "standalone_question": "Why should calcium nitrate be applied 15 minutes after other fertilizers?",
+        "standalone_en": "Why should calcium nitrate be applied 15 minutes after other fertilizers?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "calcium nayatret itar khate sodalyananntar 15 minitanni ka sodave "
+      },
+      {
+        "role": "assistant",
+        "content": "कॅल्शियम नायट्रेट इतर खते सोडल्यानंतर 15 मिनिटांनी सोडण्याचे कारण म्हणजे:\n\n1. **पाण्याची उपलब्धता**: कॅल्शियम नायट्रेट पाण्यात चांगले विरघळते, त्यामुळे त्याला पाण्यात चांगले मिसळण्यासाठी थोडा वेळ लागतो.\n\n2. **पोषणाची प्रभावीता**: 15 मिनिटे थांबल्याने खते मातीमध्ये चांगले मिसळतात आणि त्याचा प्रभावीपणा वाढतो.\n\n3. **रासायनिक प्रतिक्रिया**: काही वेळ थांबल्याने खते मातीतील इतर पोषक तत्वांबरोबर चांगल्या प्रकारे प्रतिक्रिया देऊ शकतात.\n\nयामुळे, कॅल्शियम नायट्रेट सोडल्यावर थोडा वेळ थांबणे फायदेशीर ठरते.",
+        "en": "The reason calcium nitrate is released 15 minutes after leaving other fertilizers is:\n\n1. **Availability of water**: Calcium nitrate dissolves well in water, so it takes some time to mix well with water.\n\n2. **Effectiveness of nutrition**: Waiting for 15 minutes mixes fertilizers well in the soil and increases its effectiveness.\n\n3. **Chemical reaction**: Pausing for a while allows fertilizers to react better with other nutrients in the soil.\n\nBecause of this, it is beneficial to wait a while after releasing calcium nitrate.",
+        "timestamp": {
+          "$date": "2025-02-05T01:59:04.483Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "साधारण कीती वेळ थांबावे ",
+        "en": "How long should you wait? ",
+        "timestamp": {
+          "$date": "2025-02-05T02:00:46.006Z"
+        },
+        "standalone_question": "How long should one wait?",
+        "standalone_en": "How long should one wait?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "साधारणतः, पाण्याची पातळी मातीपर्यंत पोहोचण्यासाठी 12 तासांचा कालावधी लागतो. त्यामुळे, पाणी दिल्यानंतर 12 तासांपर्यंत थांबणे योग्य आहे. यानंतर, तुम्ही मातीतील आर्द्रता तपासू शकता.",
+        "en": "Typically, it takes 12 hours for the water level to reach the soil. Therefore, it is advisable to wait up to 12 hours after watering. After this, you can check the soil moisture.",
+        "timestamp": {
+          "$date": "2025-02-05T02:00:50.944Z"
+        }
+      }
+    ],
+    "farmer_id": "dnyaneswarpatil",
+    "farmer_plot_ids": [
+      "dnyaneswarfarm1",
+      "dnyaneswarfarm10paratan",
+      "dnyaneswarfarmbhatti",
+      "dnyaneswarfarm2",
+      "dnyaneswarfarmchandukoli",
+      "dnyaneswarfarmladhe",
+      "dnyaneswarfarmsayari"
+    ],
+    "conversation_id": "67a2c5e0661059e3ae859816",
+    "_id": "67a2c5e0661059e3ae859816",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-02-05T02:05:46.015000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-02-05T01:58:57.897000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पिक प्रारंभ कैसे अपडेट करे ",
+        "en": "How to update Pick Start ",
+        "timestamp": {
+          "$date": "2025-02-05T01:55:12.777Z"
+        },
+        "standalone_question": "How do I update the start of the pick?",
+        "standalone_en": "How do I update the start of the pick?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pick prarambh kaise update kare "
+      },
+      {
+        "role": "assistant",
+        "content": "आप अपने पिक के प्रारंभ को अपडेट करने के लिए निम्नलिखित कदम उठा सकते हैं:\n\n1. **Fyllo ऐप खोलें**: अपने मोबाइल पर Fyllo ऐप खोलें।\n2. **प्लॉट का चयन करें**: उस प्लॉट का चयन करें जिसमें आप पिक प्रारंभ को अपडेट करना चाहते हैं।\n3. **पिक चरण जानकारी**: पिक चरण की जानकारी पर जाएं, जहां आपको वर्तमान चरण और आगामी चरण दिखाई देंगे।\n4. **अपडेट विकल्प**: \"अपडेट\" या \"चरण बदलें\" विकल्प पर क्लिक करें।\n5. **नया चरण चुनें**: अपने पिक के लिए उपयुक्त नया चरण चुनें और आवश्यक जानकारी भरें।\n6. **सहेजें**: सभी जानकारी भरने के बाद, \"सहेजें\" या \"अपडेट\" बटन पर क्लिक करें।\n\nयदि आपको कोई समस्या आती है, तो कृपया ऐप के सहायता अनुभाग में जाएं या ग्राहक सेवा से संपर्क करें।",
+        "en": "You can take the following steps to update your pick's start:\n\n1. **Open Fyllo App**: Open the Fyllo app on your mobile.\n2. **Select Plot**: Select the plot in which you want to update the pick start.\n3. **Pick Step Information**: Go to the Pick Step information, where you will see the current stage and the upcoming stage.\n4. Update Options: Click on the \"Update\" or \"Change Steps\" option.\n5. **Choose New Step**: Choose the new stage appropriate for your pick and fill in the required information.\n6. **Save**: After filling in all the information, click on the \"Save\" or \"Update\" button.\n\nIf you encounter any problems, please go to the support section of the app or contact customer service.",
+        "timestamp": {
+          "$date": "2025-02-05T01:55:19.061Z"
+        }
+      }
+    ],
+    "farmer_id": "yogeshchoudhary",
+    "farmer_plot_ids": [
+      "roadkakhet"
+    ],
+    "conversation_id": "67a2c50053c6d35ff0e28712",
+    "_id": "67a2c50053c6d35ff0e28712",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-02-05T02:00:12.784000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-02-05T01:55:12.777000+00:00"
+  }
+]

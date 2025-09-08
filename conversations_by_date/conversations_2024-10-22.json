@@ -1,0 +1,1593 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "केळी ",
+        "timestamp": {
+          "$date": "2024-10-22T18:04:33.730Z"
+        },
+        "standalone_question": "What is a banana?",
+        "standalone_en": "What is a banana?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "keli "
+      },
+      {
+        "role": "assistant",
+        "content": "आपण केळीच्या पिकाबद्दल काही विशिष्ट माहिती किंवा मदतीसाठी विचारत आहात का? कृपया आपली आवश्यकता स्पष्ट करा, जेणेकरून मी आपल्याला योग्य मार्गदर्शन करू शकेन.",
+        "timestamp": {
+          "$date": "2024-10-22T18:04:36.167Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "आपली केळी आता 140दिवस झाली आहे ",
+        "timestamp": {
+          "$date": "2024-10-22T18:05:13.661Z"
+        },
+        "standalone_question": "How many days has your banana plant been growing?",
+        "standalone_en": "How many days has your banana plant been growing?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "apali keli ata 140divas jhali aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या केळीच्या पिकाची सध्या \"ग्रँड ग्रोथ फेज\" आहे, जी 2024-09-03 पासून सुरू झाली आहे. या टप्प्यात, केळीच्या पिकाला योग्य पाण्याची, खतांची आणि रोग नियंत्रणाची आवश्यकता असते.\n\nआपल्याला कोणत्या विशिष्ट गोष्टीसाठी मदतीची आवश्यकता आहे? उदाहरणार्थ, पाण्याची आवश्यकता, खतांचे व्यवस्थापन, किंवा रोग नियंत्रण?",
+        "timestamp": {
+          "$date": "2024-10-22T18:05:17.631Z"
+        }
+      }
+    ],
+    "farmer_id": "dipakwaykole",
+    "farmer_plot_ids": [
+      "dipakfarm1"
+    ],
+    "conversation_id": "6717e9311b4b537f9c305459",
+    "tag": "others",
+    "conv_date": "2024-10-22T18:04:33.730000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Irrigation kadhi karave ",
+        "timestamp": {
+          "$date": "2024-10-22T15:29:01.125Z"
+        },
+        "standalone_question": "How do you perform irrigation?",
+        "standalone_en": "How do you perform irrigation?",
+        "retrieval": {
+          "tools": [
+            "calculate_irrigation_hours\nCalculate the irrigation hours needed for irrigation by the farmer based on the mandatory provided values.\n    The formula used is\n    (root_width * root_depth * soil_retention * dripper_distance * calc_constant) / dripper_discharge\n    where calc_constant = 0.00006784244",
+            "get_irrigation_installation_settings\n    retrieves the irrigation installation settings in the farmer's plots, can be used to calculate the irrigation hours.\n    returns root_width, root_depth, soil_retention, dripper_distance, dripper_discharge"
+          ],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate.",
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer.",
+            "Q: How to measure/ calculate irrigation hours /water tank of my plot in fyllo app? How do I calculate irrigation hours for my plot? How to use the irrigation hours calculator?\nA: To calculate irrigation hours in the Fyllo app, follow these steps:\n\n1. Open the Fyllo App\n2. Go to the home screen\n3. Click on the soil moisture-1 sensor\n4. Scroll down to find the \"Irrigation hours\" section\n5. Fill in the required details such as:\n   - Root width (inches)\n   - Root depth (inches)\n   - Soil retention (mm)\n   - Dripper distance (feet)\n   - Dripper discharge (liters)\n6. Click the calculate button\n\nWould you like me to calculate the irrigation hours for you right now? I can retrieve your plot's irrigation settings and perform the calculation if you say yes.\n\nTool Selection: When user says yes, I should:\n1. Use get_irrigation_installation_settings tool to retrieve plot settings\n2. Check if all values are present and valid\n3. If values are valid, use calculate_irrigation_hours tool with these values\n4. If values are missing or invalid, ask the user to provide the missing values\n5. After calculating irrigation hours, display the irrigation installation settings that were used for the calculation\n6. Ask the user if they want to calculate irrigation hours with a different set of values, and if yes, prompt them to provide those values\n\nExample response if values are missing:\n\"I checked your plot settings, but I need some additional information to calculate irrigation hours accurately. Could you please provide the [missing value(s)]? Once you provide these details, I can complete the calculation for you.\"\n\nExample response after calculation:\n\"Based on your plot's irrigation settings, the calculated irrigation hours are [X] hours. \n\nI used the following settings for this calculation:\n- Root width: [value] inches\n- Root depth: [value] inches\n- Soil retention: [value] mm\n- Dripper distance: [value] feet\n- Dripper discharge: [value] liters\n\nWould you like to calculate irrigation hours with a different set of values? If yes, please provide the new values you'd like to use.\""
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aaj, 22 ऑक्टोबर 2024 रोजी, तुमच्या सर्व प्लॉटसाठी पाण्याची आवश्यकता नाही. त्यामुळे पाणी देण्याची गरज नाही.",
+        "timestamp": {
+          "$date": "2024-10-22T15:29:07.247Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Plot no 1 var irrigation kadhi karave ",
+        "timestamp": {
+          "$date": "2024-10-22T15:29:56.721Z"
+        },
+        "standalone_question": "When should irrigation be done for plot number 1?",
+        "standalone_en": "When should irrigation be done for plot number 1?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today.",
+            "get_irrigation_installation_settings\n    retrieves the irrigation installation settings in the farmer's plots, can be used to calculate the irrigation hours.\n    returns root_width, root_depth, soil_retention, dripper_distance, dripper_discharge",
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range."
+          ],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: How to measure/ calculate irrigation hours /water tank of my plot in fyllo app? How do I calculate irrigation hours for my plot? How to use the irrigation hours calculator?\nA: To calculate irrigation hours in the Fyllo app, follow these steps:\n\n1. Open the Fyllo App\n2. Go to the home screen\n3. Click on the soil moisture-1 sensor\n4. Scroll down to find the \"Irrigation hours\" section\n5. Fill in the required details such as:\n   - Root width (inches)\n   - Root depth (inches)\n   - Soil retention (mm)\n   - Dripper distance (feet)\n   - Dripper discharge (liters)\n6. Click the calculate button\n\nWould you like me to calculate the irrigation hours for you right now? I can retrieve your plot's irrigation settings and perform the calculation if you say yes.\n\nTool Selection: When user says yes, I should:\n1. Use get_irrigation_installation_settings tool to retrieve plot settings\n2. Check if all values are present and valid\n3. If values are valid, use calculate_irrigation_hours tool with these values\n4. If values are missing or invalid, ask the user to provide the missing values\n5. After calculating irrigation hours, display the irrigation installation settings that were used for the calculation\n6. Ask the user if they want to calculate irrigation hours with a different set of values, and if yes, prompt them to provide those values\n\nExample response if values are missing:\n\"I checked your plot settings, but I need some additional information to calculate irrigation hours accurately. Could you please provide the [missing value(s)]? Once you provide these details, I can complete the calculation for you.\"\n\nExample response after calculation:\n\"Based on your plot's irrigation settings, the calculated irrigation hours are [X] hours. \n\nI used the following settings for this calculation:\n- Root width: [value] inches\n- Root depth: [value] inches\n- Soil retention: [value] mm\n- Dripper distance: [value] feet\n- Dripper discharge: [value] liters\n\nWould you like to calculate irrigation hours with a different set of values? If yes, please provide the new values you'd like to use.\"",
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Plot No.1 साठी आज, 22 ऑक्टोबर 2024 रोजी, पाण्याची आवश्यकता नाही. त्यामुळे पाणी देण्याची गरज नाही.",
+        "timestamp": {
+          "$date": "2024-10-22T15:30:01.178Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Kiti kpa. Var irrigation karava",
+        "timestamp": {
+          "$date": "2024-10-22T15:30:58.391Z"
+        },
+        "standalone_question": "How much water should be used for irrigation?",
+        "standalone_en": "How much water should be used for irrigation?",
+        "retrieval": {
+          "tools": [
+            "calculate_irrigation_hours\nCalculate the irrigation hours needed for irrigation by the farmer based on the mandatory provided values.\n    The formula used is\n    (root_width * root_depth * soil_retention * dripper_distance * calc_constant) / dripper_discharge\n    where calc_constant = 0.00006784244",
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer.",
+            "Q: How much kPa should be set for a 4-inch depth soil moisture sensor?\nA: The kPa value for a 4-inch depth soil moisture sensor should be set based on the **soil type** and **crop requirements**. Here are general guidelines for different soil types:\n\n### **Sandy Soil:**\n- **Optimal range:** 10–20 kPa\n- **Irrigation threshold:** Above 30 kPa\n\n### **Loamy Soil (Silty or Mixed):**\n- **Optimal range:** 20–40 kPa\n- **Irrigation threshold:** Above 50 kPa\n\n### **Clay Soil:**\n- **Optimal range:** 40–70 kPa\n- **Irrigation threshold:** Above 80 kPa\n\n### **Additional Considerations:**\n- For **sensitive crops** like vegetables, maintain lower kPa thresholds to avoid water stress.\n- For **deep-rooted crops**, kPa values may vary at different depths; calibrate accordingly.\n- **Calibration** of the sensor to your specific soil and crop is essential for accuracy.\n\nConsulting with an agronomist or referring to crop-specific irrigation guides will help you fine-tune the kPa range."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Plot No.1 साठी, सध्या:\n\n- Soil Moisture 1: 11 kPa (wet)\n- Soil Moisture 2: 5 kPa (wet)\n\nतुमच्या प्लॉटसाठी, 5 kPa ते 30 kPa दरम्यान पाण्याची आवश्यकता आहे. त्यामुळे, सध्या पाण्याची आवश्यकता नाही. \n\nजर Soil Moisture 30 kPa च्या वर गेला, तर पाणी द्या.",
+        "timestamp": {
+          "$date": "2024-10-22T15:31:05.166Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Fertigation kase karave ",
+        "timestamp": {
+          "$date": "2024-10-22T15:32:47.653Z"
+        },
+        "standalone_question": "How should fertigation be done?",
+        "standalone_en": "How should fertigation be done?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available.",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: How do I generate a fertigation schedule in the app?\nA: To generate a fertigation schedule, follow these steps:\n\n    1. Go to \"My Farm\"\n    2. Select \"Fertigation\"\n    3. Tap \"Create Report\"\n    4. Fill in all the required details\n    5. Save the report\n    If you have soil, leaf, or petiole test data, you can input this for a more customized schedule. Otherwise, we can generate a basic schedule using general crop and regional data.",
+            "Q: Where can I find the fertigation schedule in the Fyllo app?\nA: To access the fertigation schedule:\n    1. Open the Fyllo app\n    2. Select \"My Farm\" at the bottom\n    3. Tap on the \"Fertigation\" option\n   You'll find the fertigation schedule there, including details about the required fertilizer applications."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Plot No.1 (Thompson variety) साठी, सध्या तुम्ही \"Shoot Development\" या स्टेजमध्ये आहात, जी 3 व्या आठवड्यात आहे. \n\n### Fertigation Schedule:\n**सध्याची फर्टिगेशन:**\n- **फोलिअर पद्धतीने:** \n  - **Solubor:** 300 gm/acre\n  - **Gibberallic acid (GA3):** 15 ppm\n  - **सूचना:** फोलिअर स्प्रेमध्ये सूक्ष्म पोषण घटकांची एकाग्रता 1% पेक्षा जास्त नसावी, म्हणजे 500 लिटर पाण्यात 5 किलो.\n\n**उपcoming फर्टिगेशन:**\n- **स्टेज:** Beginning of Bloom (सुरुवात)\n- **आठवडा:** 1\n- **फर्टिगेशन पद्धतीने:**\n  - **Mono potassium phosphate:** 4 kg/acre\n  - **Phosphoric acid 80%:** 2 kg/acre (इतर खतांच्या अनुप्रयोगापूर्वी 15-20 मिनिटे लागू करावे)\n  \n  किंवा\n  \n  - **0-60-20:** 6 kg/acre\n  \n  किंवा\n  \n  - **Phosphoric acid 80%:** 4.5 kg/acre\n  - **Sulfate of Potash:** 3 kg/acre\n\n### पुढील फर्टिगेशनची तारीख:\n- **तारीख:** 4 नोव्हेंबर 2024\n\nतुम्ही या सूचनांचे पालन करून फर्टिगेशन करू शकता.",
+        "timestamp": {
+          "$date": "2024-10-22T15:32:55.620Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Shoot  jomat vadhisathi   fertigation kase karave ",
+        "timestamp": {
+          "$date": "2024-10-22T15:37:31.382Z"
+        },
+        "standalone_question": "How should I perform fertigation to enhance shoot growth?",
+        "standalone_en": "How should I perform fertigation to enhance shoot growth?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: How do I generate a fertigation schedule in the app?\nA: To generate a fertigation schedule, follow these steps:\n\n    1. Go to \"My Farm\"\n    2. Select \"Fertigation\"\n    3. Tap \"Create Report\"\n    4. Fill in all the required details\n    5. Save the report\n    If you have soil, leaf, or petiole test data, you can input this for a more customized schedule. Otherwise, we can generate a basic schedule using general crop and regional data.",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available.",
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "\"शूट विकास\" वाढवण्यासाठी Plot No.1 साठी फर्टिगेशन कसे करावे याबद्दल माहिती:\n\n### Fertigation Schedule for Shoot Development (3rd Week):\n1. **फोलिअर पद्धतीने:**\n   - **Solubor:** 300 gm/acre\n   - **Gibberellic acid (GA3):** 15 ppm\n\n2. **सूचना:**\n   - फोलिअर स्प्रेममध्ये सूक्ष्म पोषण घटकांची एकाग्रता 1% पेक्षा जास्त नसावी, म्हणजे 500 लिटर पाण्यात 5 किलो.\n\n### फर्टिगेशनची प्रक्रिया:\n- **पाण्यात फर्टिलायझर मिसळा:** वरील प्रमाणानुसार फर्टिलायझर पाण्यात मिसळा.\n- **फोलिअर स्प्रेम:** या मिश्रणाचा वापर करून पानांवर स्प्रे करा.\n\nतुमच्या प्लॉटसाठी हे फर्टिगेशन योग्य आहे.",
+        "timestamp": {
+          "$date": "2024-10-22T15:37:38.931Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ok",
+        "timestamp": {
+          "$date": "2024-10-22T15:38:16.846Z"
+        },
+        "standalone_question": "How should I perform fertigation to enhance shoot development?",
+        "standalone_en": "How should I perform fertigation to enhance shoot development?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: How do I generate a fertigation schedule in the app?\nA: To generate a fertigation schedule, follow these steps:\n\n    1. Go to \"My Farm\"\n    2. Select \"Fertigation\"\n    3. Tap \"Create Report\"\n    4. Fill in all the required details\n    5. Save the report\n    If you have soil, leaf, or petiole test data, you can input this for a more customized schedule. Otherwise, we can generate a basic schedule using general crop and regional data.",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available.",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: How to improve the germination percent\nA: Use of good quality seeds and seeds to be treated with insecticide, Fungicide and biological agents"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "जर तुम्हाला आणखी काही माहिती हवी असेल किंवा कोणतीही मदत हवी असेल, तर कृपया सांगा. तुमच्या शेतीसाठी शुभेच्छा!",
+        "timestamp": {
+          "$date": "2024-10-22T15:38:20.505Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Thankyou ",
+        "timestamp": {
+          "$date": "2024-10-22T15:38:40.596Z"
+        },
+        "standalone_question": "What is the best way to express gratitude?",
+        "standalone_en": "What is the best way to express gratitude?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमचे स्वागत आहे! तुम्हाला आणखी काही विचारायचे असल्यास, कृपया सांगा. तुमच्या शेतीसाठी शुभेच्छा!",
+        "timestamp": {
+          "$date": "2024-10-22T15:38:43.425Z"
+        }
+      }
+    ],
+    "farmer_id": "sunilpatil",
+    "farmer_plot_ids": [
+      "plotno1653",
+      "plotno2841",
+      "plotno3sonaka692",
+      "plotno4thompson758"
+    ],
+    "conversation_id": "6717c4bc99a371bf6dd694e5",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-10-22T15:29:01.125000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": " Payaz m kya bimari aati h",
+        "timestamp": {
+          "$date": "2024-10-22T14:34:03.943Z"
+        },
+        "standalone_question": "What diseases can occur in the liver?",
+        "standalone_en": "What diseases can occur in the liver?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Payaz (onion) mein kai tarah ki bimariyan aati hain, jaise:\n\n1. **Alternaria Leaf Blight** - Patton par kale daag.\n2. **Downy Mildew** - Patton par safed ya harit dhundhli parat.\n3. **Bacterial Soft Rot** - Pyaaz ke gathayoon ka naram hona.\n4. **Fusarium Basal Rot** - Gathayoon ka sookhna ya kharab hona.\n\nIn bimariyon se bachne ke liye, sahi fungicides ka istemal aur achhi kheti ki practices apnana zaroori hai. Agar aapko kisi specific bimari ki jaanch karani hai, to aap crop image bhej sakte hain.",
+        "timestamp": {
+          "$date": "2024-10-22T14:34:08.444Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "?",
+        "timestamp": {
+          "$date": "2024-10-22T14:34:15.592Z"
+        },
+        "standalone_question": "What are the common diseases that affect onions?",
+        "standalone_en": "What are the common diseases that affect onions?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapka koi specific sawaal hai ya aap kisi vishay par jaankari chahte hain? Kripya batayein, main madad karne ke liye yahan hoon!",
+        "timestamp": {
+          "$date": "2024-10-22T14:34:19.483Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Khad kya de. Payaz m",
+        "timestamp": {
+          "$date": "2024-10-22T14:34:34.827Z"
+        },
+        "standalone_question": "What type of fertilizer should be used for onions?",
+        "standalone_en": "What type of fertilizer should be used for onions?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Payaz (onion) ke liye aapko khad dene ka samay aur prakar aapke crop stage par nirbhar karta hai. Aapke plots ke liye khad ki jaankari yeh hai:\n\n### 1. **Plot: kairokinnowfarm**\n- **Current Stage:** Growth stage 3 (12th week)\n- **Current Week Schedule:** No fertigation needed.\n- **Next Schedule:** \n  - **Stage:** Growth stage 4\n  - **Start Date:** 12 November 2024\n  - **Fertigation Options:**\n    - **Option 1:** \n      - Potassium Nitrate: 2 kg/acre\n      - Sulfate of Potash: 1 kg/acre\n    - **Option 2:** \n      - Urea: 1 kg/acre\n      - Sulfate of Potash: 2.5 kg/acre\n\n### 2. **Plot: kinnowplotnero1**\n- **Current Stage:** Growth stage 3 (10th week)\n- **Current Week Schedule:** No fertigation needed.\n- **Next Schedule:** \n  - **Stage:** Growth stage 3 (11th week)\n  - **Start Date:** 1 February 2025\n  - **Fertigation Options:**\n    - **Option 1:** \n      - 12-61-0: 1 kg/acre\n      - Urea: 1 kg/acre\n    - **Option 2:** \n      - 24-24-0: 2.5 kg/acre\n    - **Option 3:** \n      - Urea: 1 kg/acre\n      - Phosphoric acid 80%: 1.5 kg/acre (apply separately, 15-20 minutes before other fertilizers)\n\nAap in khadon ka istemal apne payaz ke liye sahi samay par kar sakte hain.",
+        "timestamp": {
+          "$date": "2024-10-22T14:34:44.610Z"
+        }
+      }
+    ],
+    "farmer_id": "mandeepbishnoi1661062088650",
+    "farmer_plot_ids": [
+      "kairokinnowfarm",
+      "kinnowplotnero1"
+    ],
+    "conversation_id": "6717b7db99a371bf6dd694e4",
+    "tag": "disease_pest",
+    "conv_date": "2024-10-22T14:34:03.943000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": " Payaz m kya bimari aati h",
+        "timestamp": {
+          "$date": "2024-10-22T14:34:03.943Z"
+        },
+        "standalone_question": "Do women experience any illnesses during menstruation?",
+        "standalone_en": "Do women experience any illnesses during menstruation?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Payaz (onion) mein kai tarah ki bimariyan aati hain, jaise:\n\n1. **Alternaria Leaf Blight** - Patton par kale daag.\n2. **Downy Mildew** - Patton par safed ya harit dhundhli parat.\n3. **Bacterial Soft Rot** - Pyaaz ke gathayoon ka naram hona.\n4. **Fusarium Basal Rot** - Gathayoon ka sookhna ya kharab hona.\n\nIn bimariyon se bachne ke liye, sahi fungicides ka istemal aur achhi kheti ki practices apnana zaroori hai. Agar aapko kisi specific bimari ki jaanch karani hai, to aap crop image bhej sakte hain.",
+        "timestamp": {
+          "$date": "2024-10-22T14:34:08.444Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "?",
+        "timestamp": {
+          "$date": "2024-10-22T14:34:15.592Z"
+        },
+        "standalone_question": "What are the common diseases that affect onions?",
+        "standalone_en": "What are the common diseases that affect onions?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapka koi specific sawaal hai ya aap kisi vishay par jaankari chahte hain? Kripya batayein, main madad karne ke liye yahan hoon!",
+        "timestamp": {
+          "$date": "2024-10-22T14:34:19.483Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Khad kya de. Payaz m",
+        "timestamp": {
+          "$date": "2024-10-22T14:34:34.827Z"
+        },
+        "standalone_question": "What type of fertilizer should be used for onions?",
+        "standalone_en": "What type of fertilizer should be used for onions?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Payaz (onion) ke liye aapko khad dene ka samay aur prakar aapke crop stage par nirbhar karta hai. Aapke plots ke liye khad ki jaankari yeh hai:\n\n### 1. **Plot: kairokinnowfarm**\n- **Current Stage:** Growth stage 3 (12th week)\n- **Current Week Schedule:** No fertigation needed.\n- **Next Schedule:** \n  - **Stage:** Growth stage 4\n  - **Start Date:** 12 November 2024\n  - **Fertigation Options:**\n    - **Option 1:** \n      - Potassium Nitrate: 2 kg/acre\n      - Sulfate of Potash: 1 kg/acre\n    - **Option 2:** \n      - Urea: 1 kg/acre\n      - Sulfate of Potash: 2.5 kg/acre\n\n### 2. **Plot: kinnowplotnero1**\n- **Current Stage:** Growth stage 3 (10th week)\n- **Current Week Schedule:** No fertigation needed.\n- **Next Schedule:** \n  - **Stage:** Growth stage 3 (11th week)\n  - **Start Date:** 1 February 2025\n  - **Fertigation Options:**\n    - **Option 1:** \n      - 12-61-0: 1 kg/acre\n      - Urea: 1 kg/acre\n    - **Option 2:** \n      - 24-24-0: 2.5 kg/acre\n    - **Option 3:** \n      - Urea: 1 kg/acre\n      - Phosphoric acid 80%: 1.5 kg/acre (apply separately, 15-20 minutes before other fertilizers)\n\nAap in khadon ka istemal apne payaz ke liye sahi samay par kar sakte hain.",
+        "timestamp": {
+          "$date": "2024-10-22T14:34:44.610Z"
+        }
+      }
+    ],
+    "farmer_id": "mandeepbishnoi1661062088650",
+    "farmer_plot_ids": [
+      "kairokinnowfarm",
+      "kinnowplotnero1"
+    ],
+    "conversation_id": "6717b7db99a371bf6dd694e4",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-10-22T14:34:03.943000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Payaz ki podh  k liye kitna beej lagega",
+        "timestamp": {
+          "$date": "2024-10-22T14:16:46.105Z"
+        },
+        "standalone_question": "How much seed is needed for planting rice?",
+        "standalone_en": "How much seed is needed for planting rice?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Payaz (onion) ki podh ke liye beej ki matra aapke khet ke kshetra aur beej ki prakar par nirbhar karti hai. Aam taur par, 1 acre kshetra ke liye 10-12 kg beej ki avashyakta hoti hai. \n\nAgar aapke paas 4 acres ka kshetra hai, to aapko lagbhag 40-48 kg beej ki avashyakta hogi. \n\nYadi aapko kisi vishesh beej prakar ya kshetra ke liye aur jaankari chahiye, to kripya batayein!",
+        "timestamp": {
+          "$date": "2024-10-22T14:16:49.693Z"
+        }
+      }
+    ],
+    "farmer_id": "mandeepbishnoi1661062088650",
+    "farmer_plot_ids": [
+      "kairokinnowfarm",
+      "kinnowplotnero1"
+    ],
+    "conversation_id": "6717b3cd1b4b537f9c305458",
+    "tag": "others",
+    "conv_date": "2024-10-22T14:16:46.105000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Plot abhi setting pai hai to Kaya ferticatio",
+        "timestamp": {
+          "$date": "2024-10-22T13:43:48.779Z"
+        },
+        "standalone_question": "Is there any fertilization happening in the current plot setting?",
+        "standalone_en": "Is there any fertilization happening in the current plot setting?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपके \"Watermelon Savkar\" प्लॉट में वर्तमान में फर्टिगेशन का कार्यक्रम इस प्रकार है:\n\n### वर्तमान फर्टिगेशन कार्यक्रम (सप्ताह 2, सक्रिय चरण: **Vegetative Growth**)\n- **फर्टिगेशन विधि:**\n  - **संभावित वितरण संयोजन:**\n    1. **पोटेशियम नाइट्रेट**: 5 किलोग्राम/एकड़\n    2. **यूरिया**: 2 किलोग्राम/एकड़\n    3. या\n    4. **यूरिया**: 3.5 किलोग्राम/एकड़\n    5. **सल्फेट ऑफ पोटाश**: 4.5 किलोग्राम/एकड़\n\n### अगले फर्टिगेशन कार्यक्रम (सप्ताह 3)\n- **तारीख**: 24 नवंबर 2024 से शुरू\n- **फर्टिगेशन विधि:**\n  - **संभावित वितरण संयोजन:**\n    1. **12-61-0**: 4 किलोग्राम/एकड़\n    2. **यूरिया**: 2.5 किलोग्राम/एकड़\n    3. या\n    4. **24-24-0**: 7 किलोग्राम/एकड़\n    5. **फॉस्फोरिक एसिड 80%**: 1.5 किलोग्राम/एकड़\n    6. या\n    7. **यूरिया**: 3.5 किलोग्राम/एकड़\n    8. **फॉस्फोरिक एसिड 80%**: 3.5 किलोग्राम/एकड़\n\n### नोट्स:\n- फोलियर स्प्रे के लिए माइक्रो-न्यूट्रिएंट फर्टिलाइज़र की सांद्रता 1% से अधिक नहीं होनी चाहिए (उदाहरण: 5 किलोग्राम 500 लीटर पानी में प्रति एकड़)।\n\nआप इस कार्यक्रम के अनुसार फर्टिगेशन कर सकते हैं। यदि आपको और जानकारी चाहिए, तो बताएं!",
+        "timestamp": {
+          "$date": "2024-10-22T13:43:58.223Z"
+        }
+      }
+    ],
+    "farmer_id": "prashantchaudhari",
+    "farmer_plot_ids": [
+      "watermelonsavkar"
+    ],
+    "conversation_id": "6717ac1499a371bf6dd694e3",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-10-22T13:43:48.779000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पीक छाटणीची तारीख सेट होत नाही",
+        "timestamp": {
+          "$date": "2024-10-22T13:14:13.332Z"
+        },
+        "standalone_question": "The standalone question in English would be: \"The date for the peak trimming is not being set.\"",
+        "standalone_en": "The standalone question in English would be: \"The date for the peak trimming is not being set.\"",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "peak chhatanichi tarikh set hot nahi"
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या पीकाच्या छाटणीची तारीख सेट करण्यासाठी, कृपया आपल्या प्लॉटच्या सध्याच्या अवस्थेची माहिती द्या. सध्या आपण \"Foundation Pruning\" अवस्थेत आहात. छाटणीची तारीख सेट करण्यासाठी, आपल्याला पुढील अवस्थेची माहिती आवश्यक आहे. \n\nआपण \"Foundation Pruning\" च्या समाप्तीची तारीख किंवा पुढील अवस्थेची तारीख कधी आहे हे सांगू शकता का?",
+        "timestamp": {
+          "$date": "2024-10-22T13:14:17.194Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "आम्ही सात आक्टोंबर ला प्लॉट छाटला आहे",
+        "timestamp": {
+          "$date": "2024-10-22T13:15:49.809Z"
+        },
+        "standalone_question": "When did you prune the plot?",
+        "standalone_en": "When did you prune the plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "aamhi sat aktombar la plot chhatala aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "आपण 7 ऑक्टोबर 2024 रोजी प्लॉट छाटला आहे, आणि सध्या आपण \"Foundation Pruning\" अवस्थेत आहात. या अवस्थेची समाप्ती तारीख साधारणतः 10-15 दिवसांच्या आत असते. \n\nआपण \"Foundation Pruning\" च्या समाप्तीची तारीख 22 ऑक्टोबर 2024 च्या आसपास असू शकते. त्यामुळे, आपल्याला पुढील अवस्थेत जाण्यासाठी तारीख सेट करण्याची आवश्यकता आहे. \n\nकृपया पुढील अवस्थेची तारीख सेट करण्यासाठी आपल्याला अधिक माहिती हवी आहे का?",
+        "timestamp": {
+          "$date": "2024-10-22T13:15:54.438Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "रोग येऊन गेल्यावर मग तारीख सेट करून काय फायदा",
+        "timestamp": {
+          "$date": "2024-10-22T13:16:31.420Z"
+        },
+        "standalone_question": "What is the benefit of setting a date after the disease has already passed?",
+        "standalone_en": "What is the benefit of setting a date after the disease has already passed?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "rog yeun gelyavar mag tarikh set karun kay fayda"
+      },
+      {
+        "role": "assistant",
+        "content": "आपण अगदी बरोबर आहात. रोग किंवा इतर समस्यांमुळे पीक प्रभावित होऊ शकते, त्यामुळे छाटणीची तारीख वेळेवर सेट करणे महत्त्वाचे आहे. \n\nआपण \"Foundation Pruning\" अवस्थेत आहात आणि आता या अवस्थेची समाप्ती झाली आहे. त्यामुळे, आपल्याला \"Break Bud\" अवस्थेत जाण्यासाठी तारीख सेट करणे आवश्यक आहे. \n\nकृपया आपल्याला \"Break Bud\" अवस्थेसाठी तारीख सेट करण्यास मदत हवी का?",
+        "timestamp": {
+          "$date": "2024-10-22T13:16:35.119Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "होय",
+        "timestamp": {
+          "$date": "2024-10-22T13:17:09.915Z"
+        },
+        "standalone_question": "Do you need assistance in setting a date for the \"Break Bud\" stage?",
+        "standalone_en": "Do you need assistance in setting a date for the \"Break Bud\" stage?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "hoy"
+      },
+      {
+        "role": "assistant",
+        "content": "आपण \"Break Bud\" अवस्थेत जाण्यासाठी आजची तारीख, म्हणजे 22 ऑक्टोबर 2024, सेट करू शकता. \n\nआपण या अवस्थेसाठी कोणतीही विशेष फर्टिगेशन आवश्यकता नाही. त्यामुळे, आपण \"Break Bud\" अवस्थेत जाण्यासाठी आजची तारीख सेट करणे योग्य आहे.\n\nकृपया मला कळवा की आपण ही तारीख सेट करू इच्छिता का?",
+        "timestamp": {
+          "$date": "2024-10-22T13:17:17.091Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "हो सेट करा",
+        "timestamp": {
+          "$date": "2024-10-22T13:17:52.184Z"
+        },
+        "standalone_question": "Would you like me to set the date for the \"Break Bud\" stage?",
+        "standalone_en": "Would you like me to set the date for the \"Break Bud\" stage?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ho set kara"
+      },
+      {
+        "role": "assistant",
+        "content": "\"Break Bud\" अवस्थेत जाण्यासाठी तारीख सेट करण्यात आली आहे. आता आपला प्लॉट \"Break Bud\" अवस्थेत आहे.\n\nआपल्याला आणखी काही मदतीची आवश्यकता आहे का?",
+        "timestamp": {
+          "$date": "2024-10-22T13:17:56.530Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "तू रेगुलर अवस्थेत कवा येणार",
+        "timestamp": {
+          "$date": "2024-10-22T13:18:22.418Z"
+        },
+        "standalone_question": "When will you come to the regular stage?",
+        "standalone_en": "When will you come to the regular stage?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "tu regular avasthet kava yenar"
+      },
+      {
+        "role": "assistant",
+        "content": "मी नियमितपणे आपल्याला मदत करण्यासाठी येथे आहे. आपल्याला कोणतीही माहिती, सल्ला किंवा मदतीची आवश्यकता असल्यास, कृपया विचारू शकता. \n\nआपल्या पीकाच्या स्थितीवर लक्ष ठेवण्यासाठी, फर्टिगेशन, रोग नियंत्रण, किंवा इतर कोणत्याही कृषी संबंधित गोष्टींबद्दल विचारू शकता.",
+        "timestamp": {
+          "$date": "2024-10-22T13:18:26.250Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "प्लॉट रेगुलर अवस्थेत कवा येणार रोजच्या रोज मला कसे कळणार",
+        "timestamp": {
+          "$date": "2024-10-22T13:18:58.168Z"
+        },
+        "standalone_question": "When will the plot enter the regular stage, and how will I be informed about it daily?",
+        "standalone_en": "When will the plot enter the regular stage, and how will I be informed about it daily?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "plot regular avasthet kava yenar rojachya rose mala kase kalanar"
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या प्लॉटच्या अवस्थेची नियमित माहिती मिळवण्यासाठी, आपण आपल्या प्लॉटच्या अवस्थेच्या अद्यतनांची तपासणी करू शकता. \n\nआपण \"Break Bud\" अवस्थेत आहात, आणि पुढील अवस्थेची माहिती मिळवण्यासाठी, मी आपल्याला पुढील 7 दिवसांच्या आत कोणतीही अद्यतने कधी येतील हे तपासून देऊ शकतो. \n\nआपणास हवे असल्यास, मी आपल्या प्लॉटच्या अवस्थेच्या अद्यतनांची माहिती तपासून देऊ शकतो. हे आपल्याला नियमितपणे कळवण्यासाठी उपयुक्त ठरेल. \n\nकृपया मला कळवा की आपण हे करू इच्छिता का?",
+        "timestamp": {
+          "$date": "2024-10-22T13:19:02.910Z"
+        }
+      }
+    ],
+    "farmer_id": "dinkarvitthaljadhav",
+    "farmer_plot_ids": [
+      "superlaxmi"
+    ],
+    "conversation_id": "6717a5241b4b537f9c305455",
+    "tag": "others",
+    "conv_date": "2024-10-22T13:14:13.332000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "19:19 ke sath calcium chala sakte hai ki nahi",
+        "timestamp": {
+          "$date": "2024-10-22T10:19:29.538Z"
+        },
+        "standalone_question": "Can calcium be taken with 19:19?",
+        "standalone_en": "Can calcium be taken with 19:19?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aap 19:19 ke aas-paas calcium spray kar sakte hain, kyunki is samay spray ki sthiti \"IDEAL\" hai. \n\nYeh sthiti Plot 1 ke liye hai, jahan aap 19:30 ke aas-paas spray kar sakte hain. Plot 2 ke liye spray sthiti jaanch nahi ki ja sakti. \n\nAgar aapko aur madad chahiye, toh bataiye!",
+        "timestamp": {
+          "$date": "2024-10-22T10:19:36.642Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "19:19 khad",
+        "timestamp": {
+          "$date": "2024-10-22T10:20:14.525Z"
+        },
+        "standalone_question": "Can fertilizer be applied at 19:19?",
+        "standalone_en": "Can fertilizer be applied at 19:19?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aap 19:19 ke aas-paas khad spray kar sakte hain, kyunki is samay koi bhi disease ya pest spray schedule nahi hai. Dono plots ke liye spray karne ki koi rok nahi hai. \n\nAgar aapko aur madad chahiye, toh bataiye!",
+        "timestamp": {
+          "$date": "2024-10-22T10:20:22.926Z"
+        }
+      }
+    ],
+    "farmer_id": "mohanpatel",
+    "farmer_plot_ids": [
+      "plot1533",
+      "plot2882"
+    ],
+    "conversation_id": "67177c291b4b537f9c305452",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-10-22T10:19:29.538000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "गुळगुळी साठी काय उपाय",
+        "timestamp": {
+          "$date": "2024-10-22T10:13:56.936Z"
+        },
+        "standalone_question": "What are the remedies for a cough?",
+        "standalone_en": "What are the remedies for a cough?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "gulaguli sathi kay upay"
+      },
+      {
+        "role": "assistant",
+        "content": "गुळगुळी (ग्लायोसीन) च्या समस्येसाठी काही उपाय आहेत:\n\n1. **साफसफाई**: गुळगुळीच्या पानांवरून पाण्याने किंवा सॉफ्ट ब्रशने धुवा. यामुळे गुळगुळीच्या अंडी आणि लार्वा काढता येतील.\n\n2. **पेस्टिसाइड्स**: योग्य पेस्टिसाइड्स वापरा. बायोलॉजिकल पेस्टिसाइड्स जसे की नीम तेल किंवा बायो-इंसेक्टिसाइड्स वापरून गुळगुळी नियंत्रित करता येऊ शकते.\n\n3. **पाण्याचे व्यवस्थापन**: पाण्याचे योग्य व्यवस्थापन करा. गुळगुळी पाण्यात वाढते, त्यामुळे ओलसर माती टाळा.\n\n4. **प्लांट रोटेशन**: गुळगुळीच्या समस्येपासून वाचण्यासाठी प्लांट रोटेशनचा वापर करा.\n\n5. **पोषण**: योग्य पोषण द्या, कारण मजबूत आणि निरोगी वनस्पती गुळगुळीच्या आक्रमणाला अधिक सहनशील असतात.\n\nजर तुम्हाला अधिक माहिती हवी असेल तर कृपया तुमच्या प्लॉटचे नाव सांगा, जेणेकरून मी अधिक विशिष्ट सल्ला देऊ शकेन.",
+        "timestamp": {
+          "$date": "2024-10-22T10:14:02.498Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "द्राक्ष घळकुज समस्या",
+        "timestamp": {
+          "$date": "2024-10-22T10:16:58.331Z"
+        },
+        "standalone_question": "What are the solutions for the problem of grape rot?",
+        "standalone_en": "What are the solutions for the problem of grape rot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "draks ghalakuj samasya"
+      },
+      {
+        "role": "assistant",
+        "content": "द्राक्षांच्या घळकुज समस्येसाठी काही उपाय आहेत:\n\n1. **साफसफाई**: द्राक्षांच्या पानांवरून वाळलेल्या किंवा मृत पानांचे काढणे आवश्यक आहे. यामुळे रोगांचा प्रसार कमी होतो.\n\n2. **पाण्याचे व्यवस्थापन**: ओलसर माती घळकुज वाढवते, त्यामुळे पाण्याचे योग्य व्यवस्थापन करा. मातीची ओलसरता तपासा आणि आवश्यकतेनुसार पाणी द्या.\n\n3. **पेस्टिसाइड्स**: योग्य पेस्टिसाइड्स वापरा. बायोलॉजिकल पेस्टिसाइड्स जसे की नीम तेल किंवा बायो-इंसेक्टिसाइड्स वापरून घळकुज नियंत्रित करता येऊ शकते.\n\n4. **पोषण**: द्राक्षांना योग्य पोषण द्या. कमी नायट्रोजन आणि अधिक फॉस्फरस आणि पोटॅशियम असलेले खत वापरा.\n\n5. **प्लांट रोटेशन**: द्राक्षांच्या घळकुज समस्येपासून वाचण्यासाठी प्लांट रोटेशनचा वापर करा.\n\n6. **सुरक्षा उपाय**: द्राक्षांच्या झाडांना योग्य सुरक्षा उपाय लागू करा, जसे की जाळी किंवा कव्हर.\n\nजर तुम्हाला अधिक माहिती हवी असेल तर कृपया तुमच्या प्लॉटचे नाव सांगा, जेणेकरून मी अधिक विशिष्ट सल्ला देऊ शकेन.",
+        "timestamp": {
+          "$date": "2024-10-22T10:17:05.172Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "द्राक्ष घळकुज कशी थांबवावी<user uploaded image for analysis at 'supervijaykumar/2024-10-22-1729592305353.jpg'>",
+        "timestamp": {
+          "$date": "2024-10-22T10:18:28.100Z"
+        },
+        "standalone_question": "How can I stop the problem of grape rot?",
+        "standalone_en": "How can I stop the problem of grape rot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "draks ghalakuj kashi thambavavi<user uploaded image for analysis at 'supervijaykumar/2024-10-22-1729592305353.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या द्राक्षांच्या पिकाची स्थिती चांगली आहे, आणि त्यात घळकुजाची कोणतीही गंभीर समस्या दिसत नाही. पिकाचे पान गडद हिरवे आहे, पानांची स्थिती मजबूत आहे, आणि फुलांची रंगत चांगली आहे. \n\nतथापि, घळकुज थांबवण्यासाठी काही सामान्य उपाय आहेत:\n\n1. **साफसफाई**: द्राक्षांच्या झाडांवरून वाळलेली किंवा मृत पाने काढा. यामुळे रोगांचा प्रसार कमी होतो.\n\n2. **पाण्याचे व्यवस्थापन**: माती ओलसर राहू नये याची काळजी घ्या. पाण्याचे योग्य व्यवस्थापन करा, कारण ओलसर माती घळकुज वाढवते.\n\n3. **पोषण**: द्राक्षांना योग्य पोषण द्या. कमी नायट्रोजन आणि अधिक फॉस्फरस व पोटॅशियम असलेले खत वापरा.\n\n4. **पेस्टिसाइड्स**: जर घळकुजाची समस्या वाढत असेल, तर योग्य पेस्टिसाइड्स वापरा. बायोलॉजिकल पेस्टिसाइड्स जसे की नीम तेल किंवा बायो-इंसेक्टिसाइड्स वापरून घळकुज नियंत्रित करता येऊ शकते.\n\n5. **सुरक्षा उपाय**: द्राक्षांच्या झाडांना योग्य सुरक्षा उपाय लागू करा, जसे की जाळी किंवा कव्हर.\n\nजर तुम्हाला आणखी काही माहिती हवी असेल तर कृपया सांगा.",
+        "timestamp": {
+          "$date": "2024-10-22T10:18:40.271Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "कोणता रोग आहे<user uploaded image for analysis at 'supervijaykumar/2024-10-22-1729592369529.jpg'>",
+        "timestamp": {
+          "$date": "2024-10-22T10:19:32.358Z"
+        },
+        "standalone_question": "What disease is affecting the grapes?",
+        "standalone_en": "What disease is affecting the grapes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "konta rog aahe<user uploaded image for analysis at 'supervijaykumar/2024-10-22-1729592369529.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या द्राक्षांच्या पिकाच्या चित्राचे विश्लेषण केले असता, कोणत्याही विशिष्ट रोगाची ओळख पटली नाही. हे असे दिसते की या समस्येची लक्षणे अद्याप ओळखली जात नाहीत.\n\nतुमच्या द्राक्षांच्या पिकाची स्थिती चांगली आहे, तरीही तुम्हाला काही सामान्य उपाय सुचवितो:\n\n1. **साफसफाई**: झाडांवरून वाळलेली किंवा मृत पाने काढा.\n\n2. **पाण्याचे व्यवस्थापन**: माती ओलसर राहू नये याची काळजी घ्या.\n\n3. **पोषण**: योग्य खतांचा वापर करा, विशेषतः कमी नायट्रोजन आणि अधिक फॉस्फरस व पोटॅशियम.\n\n4. **पेस्टिसाइड्स**: जर समस्या वाढत असेल, तर योग्य पेस्टिसाइड्स वापरा.\n\n5. **सुरक्षा उपाय**: झाडांना योग्य सुरक्षा उपाय लागू करा.\n\nजर तुम्हाला आणखी काही माहिती हवी असेल तर कृपया सांगा.",
+        "timestamp": {
+          "$date": "2024-10-22T10:19:40.985Z"
+        }
+      }
+    ],
+    "farmer_id": "vijaykumarshivajilandge",
+    "farmer_plot_ids": [
+      "jyotivijaykumar",
+      "supervijaykumar"
+    ],
+    "conversation_id": "67177ae4b3ee81608f7d0a1a",
+    "tag": "disease_pest",
+    "conv_date": "2024-10-22T10:13:56.936000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Aaj pani dena hai ki nahi",
+        "timestamp": {
+          "$date": "2024-10-22T07:52:41.678Z"
+        },
+        "standalone_question": "Is water being given today or not?",
+        "standalone_en": "Is water being given today or not?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aaj \"Watermelon Savkar\" plot mein pani dene ki zarurat nahi hai. Soil moisture readings hain: \n\n- Soil Moisture 1: 21 kPa \n- Soil Moisture 2: 12 kPa \n\nOptimal moisture values 30 kPa hain. Isliye, abhi pani dena nahi chahiye.",
+        "timestamp": {
+          "$date": "2024-10-22T07:52:45.901Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ur diya to ferticatio karana hai aaj",
+        "timestamp": {
+          "$date": "2024-10-22T07:53:11.779Z"
+        },
+        "standalone_question": "Should I apply fertilizer today?",
+        "standalone_en": "Should I apply fertilizer today?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aaj \"Watermelon Savkar\" plot mein fertigation karna hai, kyunki aap abhi \"Vegetative growth\" stage mein hain (2nd week). \n\n### Fertigation Schedule for Today (22nd October 2024):\n1. **Fertigation Method:**\n   - **Option 1:**\n     - Potassium Nitrate: 5 kg/acre\n     - Urea: 2 kg/acre\n   - **Option 2:**\n     - Urea: 3.5 kg/acre\n     - Sulfate of Potash: 4.5 kg/acre\n\nAap inme se koi bhi combination istemal kar sakte hain. Fertigation ke liye tayaar ho jayein!",
+        "timestamp": {
+          "$date": "2024-10-22T07:53:17.038Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Aaj pani diya to ",
+        "timestamp": {
+          "$date": "2024-10-22T07:53:37.290Z"
+        },
+        "standalone_question": "Did you give water today?",
+        "standalone_en": "Did you give water today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aaj \"Watermelon Savkar\" plot mein pani dene ki zarurat nahi hai. Irrigation ki koi bhi zarurat nahi hai aaj ke liye.",
+        "timestamp": {
+          "$date": "2024-10-22T07:53:41.512Z"
+        }
+      }
+    ],
+    "farmer_id": "prashantchaudhari",
+    "farmer_plot_ids": [
+      "watermelonsavkar"
+    ],
+    "conversation_id": "671759c91b4b537f9c305450",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-10-22T07:52:41.678000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "🙏🏻",
+        "timestamp": {
+          "$date": "2024-10-22T07:15:26.744Z"
+        },
+        "standalone_question": "What does the user mean by the prayer hands emoji?",
+        "standalone_en": "What does the user mean by the prayer hands emoji?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "नमस्कार, आम्बादास जी! आपसे मिलकर खुशी हुई। आपकी खेती के बारे में कोई सवाल या जानकारी चाहिए?",
+        "timestamp": {
+          "$date": "2024-10-22T07:15:28.733Z"
+        }
+      }
+    ],
+    "farmer_id": "ambadasjachak",
+    "farmer_plot_ids": [
+      "sharadplot1sanu"
+    ],
+    "conversation_id": "6717510eb3ee81608f7d0a19",
+    "tag": "others",
+    "conv_date": "2024-10-22T07:15:26.744000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Spirotetramet",
+        "timestamp": {
+          "$date": "2024-10-22T06:07:15.495Z"
+        },
+        "standalone_question": "What is Spirotetramet?",
+        "standalone_en": "What is Spirotetramet?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Spirotetramat is an insecticide used to control various pests in crops, including cotton. It works by disrupting the growth and development of insects, making it effective against pests like aphids, whiteflies, and spider mites.\n\nIf you need specific recommendations for using Spirotetramat on your cotton crop in the \"ajor\" plot, such as application timing or dosage, please let me know!",
+        "timestamp": {
+          "$date": "2024-10-22T06:07:18.218Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Yes",
+        "timestamp": {
+          "$date": "2024-10-22T06:07:46.759Z"
+        },
+        "standalone_question": "What specific recommendations do you have for using Spirotetramat on my cotton crop in the \"ajor\" plot, including application timing and dosage?",
+        "standalone_en": "What specific recommendations do you have for using Spirotetramat on my cotton crop in the \"ajor\" plot, including application timing and dosage?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Currently, there are no scheduled spray recommendations for pests or diseases for your cotton crop in the \"ajor\" plot for the week of October 22 to October 29. If you notice any issues or have concerns, please monitor the crop closely and let me know if you need further assistance!",
+        "timestamp": {
+          "$date": "2024-10-22T06:07:52.304Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "I have noticed white fly, aphid, mileybug",
+        "timestamp": {
+          "$date": "2024-10-22T06:08:36.251Z"
+        },
+        "standalone_question": "What should I do about the whiteflies, aphids, and mealybugs I have noticed in my cotton crop?",
+        "standalone_en": "What should I do about the whiteflies, aphids, and mealybugs I have noticed in my cotton crop?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What pests predictions does fyllo support?\nA: Fyllo supports the following pests:\n   Aphids, Banana aphids, Bihar hairy caterpillar, Broad mites, Brown plant hopper, Capsule borer, Caterpillar,\n   Citrus Psylla, Cut worm, Early shoot borer, European red mites, Flat mites, Flea Beetle, Flea beetle, Fruit Borer,\n   Fruit Fly, Fruit borer, Fruit fly, Green aphids, Hispa beetle, Jassids, Leaf eating caterpillar, Leaf folder, Leaf miner,\n   Leaf roller, Mango hopper, Mealy Bug, Mealy bug, Mealybug, Mites, Perianth mites, Pin worm, Pink bollworm,\n   Pseudostem weevil, Red Spider Mites, Red palm weevil, Red spider mites, Rhinoceros beetle, Rhizome weevil, Root Grubs,\n   Root knot nematode, Rugose spiraling whitefly, Rust mites, Rust thrips, Scale Insects, Scale insects, Scarring beetle,\n   Shoot borer, Skipper, Spiraling whitefly, Spodoptera, Stem Borer, Stem borer, Striped beetle, Striped cucumber beetle,\n   Tea Mosquitto Bug, Tea mosquitto bug, Termite, Thrips, White Fly, White fly, Whitefly, and Wooly aphids.",
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: What is the pest prediction?\nA: Check the all pest predictions relevant. We support Aphids, Banana aphids, Bihar hairy caterpillar, Broad mites, Brown plant hopper, Capsule borer, Caterpillar,\n   Citrus Psylla, Cut worm, Early shoot borer, European red mites, Flat mites, Flea Beetle, Flea beetle, Fruit Borer,\n   Fruit Fly, Fruit borer, Fruit fly, Green aphids, Hispa beetle, Jassids, Leaf eating caterpillar, Leaf folder, Leaf miner,\n   Leaf roller, Mango hopper, Mealy Bug, Mealy bug, Mealybug, Mites, Perianth mites, Pin worm, Pink bollworm,\n   Pseudostem weevil, Red Spider Mites, Red palm weevil, Red spider mites, Rhinoceros beetle, Rhizome weevil, Root Grubs,\n   Root knot nematode, Rugose spiraling whitefly, Rust mites, Rust thrips, Scale Insects, Scale insects, Scarring beetle,\n   Shoot borer, Skipper, Spiraling whitefly, Spodoptera, Stem Borer, Stem borer, Striped beetle, Striped cucumber beetle,\n   Tea Mosquitto Bug, Tea mosquitto bug, Termite, Thrips, White Fly, White fly, Whitefly, and Wooly aphids.",
+            "Q: What are the important Pest occur during seedling stage and control measures?\nA: Ants, Termites, root aphids, thrips and internal borer’s pest infect during seedling stage\nDrench/spray seedling with: Chlorpyriphos @ 5mL/Ltr or Thiamethoxam @ 0.5g/ltr"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Based on the recent pest predictions for your cotton crop in the \"ajor\" plot:\n\n1. **White Fly**: \n   - Probability: 55.8% (Medium Risk)\n   - Recommended action: Monitor closely and consider spraying if the population increases.\n\n2. **Aphids**: \n   - Probability: 38.2% (Low Risk)\n   - Recommended action: Currently, no immediate action is needed, but keep an eye on them.\n\n3. **Mealybug**: \n   - Probability: 77.7% (High Risk)\n   - Recommended action: Immediate action is recommended. Consider applying an appropriate insecticide like Spirotetramat.\n\n### Suggested Action:\n- **For Mealybug**: Apply Spirotetramat as per the manufacturer's instructions. Ensure to cover the undersides of leaves where they often reside.\n- **For White Fly**: Keep monitoring and be prepared to act if their numbers rise.\n\nIf you need specific application rates or further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-10-22T06:08:43.620Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Is drone spraying suitable for sprotetramat",
+        "timestamp": {
+          "$date": "2024-10-22T06:09:52.992Z"
+        },
+        "standalone_question": "Is drone spraying suitable for applying Spirotetramat?",
+        "standalone_en": "Is drone spraying suitable for applying Spirotetramat?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, drone spraying can be suitable for applying Spirotetramat, especially for large areas like your 16-acre cotton plot. Drone application allows for precise and uniform distribution of the insecticide, which can be beneficial in reaching difficult areas and ensuring effective coverage.\n\n### Benefits of Drone Spraying:\n- **Efficiency**: Covers large areas quickly.\n- **Precision**: Targets specific areas, reducing waste.\n- **Accessibility**: Can reach hard-to-access locations.\n\nMake sure to follow the manufacturer's guidelines for application rates and safety precautions when using drones for spraying. If you need further assistance or recommendations, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-10-22T06:09:58.537Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Do I apply same dosage or can I reduce the dosage in drone ",
+        "timestamp": {
+          "$date": "2024-10-22T06:10:39.766Z"
+        },
+        "standalone_question": "Should I apply the same dosage of Spirotetramat when using a drone, or can I reduce the dosage?",
+        "standalone_en": "Should I apply the same dosage of Spirotetramat when using a drone, or can I reduce the dosage?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "When using drones for spraying, it's generally recommended to follow the same dosage as specified by the manufacturer for ground application. However, drone spraying can provide more uniform coverage, which may allow for slight adjustments based on the specific conditions of your plot.\n\n### Recommendations:\n- **Follow Manufacturer's Guidelines**: Stick to the recommended dosage for Spirotetramat unless you have specific guidance from an agronomist or the product label that suggests otherwise.\n- **Monitor Coverage**: Ensure that the drone is calibrated correctly to achieve the desired coverage without over-application.\n\nIf you have any specific concerns or conditions in your plot that might warrant a dosage adjustment, consulting with a local agronomist or extension officer would be beneficial.",
+        "timestamp": {
+          "$date": "2024-10-22T06:10:43.290Z"
+        }
+      }
+    ],
+    "farmer_id": "vishalbhai9316730543",
+    "farmer_plot_ids": [
+      "ajor"
+    ],
+    "conversation_id": "6717411399a371bf6dd694dd",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-10-22T06:07:15.495000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Azoxystrobin ",
+        "timestamp": {
+          "$date": "2024-10-22T05:57:53.159Z"
+        },
+        "standalone_question": "What is Azoxystrobin?",
+        "standalone_en": "What is Azoxystrobin?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Azoxystrobin is a broad-spectrum fungicide used to control various fungal diseases in crops. It is effective against diseases such as powdery mildew, leaf spots, and blights. \n\nFor cotton, it can be used to manage diseases like:\n\n1. **Alternaria Leaf Spot**\n2. **Fusarium Wilt**\n3. **Botrytis Gray Mold**\n\n**Application Guidelines:**\n- **Dosage:** Typically, 0.5 to 1.0 kg/ha, depending on the specific disease and crop stage.\n- **Method:** It can be applied as a foliar spray.\n\nAlways follow local agricultural guidelines and regulations for the specific application rates and timing.",
+        "timestamp": {
+          "$date": "2024-10-22T05:57:56.745Z"
+        }
+      }
+    ],
+    "farmer_id": "vishalbhai9316730543",
+    "farmer_plot_ids": [
+      "ajor"
+    ],
+    "conversation_id": "67173edff6954c9f5519a22d",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-10-22T05:57:53.159000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Millet bug ",
+        "timestamp": {
+          "$date": "2024-10-22T05:46:59.020Z"
+        },
+        "standalone_question": "What is a millet bug?",
+        "standalone_en": "What is a millet bug?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Fyllo does not support pest predictions specifically for Millet bug. However, if you have concerns about other pests or need assistance with pest management for your crops, please let me know!",
+        "timestamp": {
+          "$date": "2024-10-22T05:47:00.930Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Millet bug solution ",
+        "timestamp": {
+          "$date": "2024-10-22T05:47:33.783Z"
+        },
+        "standalone_question": "What solutions are available for managing Millet bugs?",
+        "standalone_en": "What solutions are available for managing Millet bugs?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The Millet bug is not specifically listed in Fyllo's supported pest predictions. However, for general pest management, you can consider the following control measures:\n\n1. **Cultural Control**: \n   - Rotate crops to disrupt the life cycle of the pest.\n   - Maintain proper field sanitation by removing debris and weeds.\n\n2. **Chemical Control**: \n   - Use insecticides such as **Chlorpyrifos** or **Thiamethoxam** as per the recommended dosage. \n   - Always follow the manufacturer's instructions for application.\n\n3. **Biological Control**: \n   - Introduce natural predators like ladybugs or lacewings that feed on pests.\n\n4. **Monitoring**: \n   - Regularly inspect your crops for signs of infestation and take action promptly.\n\nIf you have specific concerns or need further assistance, please let me know!",
+        "timestamp": {
+          "$date": "2024-10-22T05:47:37.779Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Thiamethoxam ",
+        "timestamp": {
+          "$date": "2024-10-22T05:48:19.121Z"
+        },
+        "standalone_question": "What is Thiamethoxam and how is it used in pest control?",
+        "standalone_en": "What is Thiamethoxam and how is it used in pest control?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Thiamethoxam is a systemic insecticide belonging to the neonicotinoid class. It is effective against a variety of pests, including aphids, whiteflies, and certain beetles. Here are some key points regarding its use:\n\n### Application:\n- **Dosage**: Typically, for seed treatment, use **0.5 g/liter** of water for drenching or spraying.\n- **Method**: It can be applied as a foliar spray or through soil application.\n\n### Benefits:\n- **Systemic Action**: Thiamethoxam is absorbed by the plant, providing protection from pests that feed on the plant tissues.\n- **Residual Effect**: It offers a longer duration of pest control compared to contact insecticides.\n\n### Precautions:\n- Always follow the manufacturer's instructions for dosage and application.\n- Wear protective gear while handling and applying the insecticide.\n- Avoid application during windy conditions to prevent drift to non-target plants.\n\nIf you need more specific information or guidance on application, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-10-22T05:48:23.998Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Chloropyrifos",
+        "timestamp": {
+          "$date": "2024-10-22T05:49:42.644Z"
+        },
+        "standalone_question": "What is Chlorpyrifos and how is it used in pest management?",
+        "standalone_en": "What is Chlorpyrifos and how is it used in pest management?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Chlorpyrifos is an organophosphate insecticide commonly used to control a variety of pests in agriculture. Here are some key points regarding its use:\n\n### Application:\n- **Dosage**: Typically, for foliar application, use **5 mL per liter of water**.\n- **Method**: It can be applied as a spray to the foliage or as a soil drench.\n\n### Benefits:\n- **Broad Spectrum**: Effective against a wide range of pests, including aphids, caterpillars, and termites.\n- **Quick Action**: Provides rapid knockdown of pests upon contact.\n\n### Precautions:\n- Always follow the manufacturer's instructions for dosage and application.\n- Wear protective gear, including gloves and masks, while handling and applying the insecticide.\n- Avoid application during windy conditions to prevent drift to non-target plants.\n\n### Environmental Considerations:\n- Chlorpyrifos has been associated with environmental concerns, so it's important to use it judiciously and in accordance with local regulations.\n\nIf you need more specific information or guidance on application, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-10-22T05:49:47.020Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Neem ",
+        "timestamp": {
+          "$date": "2024-10-22T05:50:46.947Z"
+        },
+        "standalone_question": "What is Neem and how is it used in pest management?",
+        "standalone_en": "What is Neem and how is it used in pest management?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Neem is a natural pesticide derived from the seeds of the neem tree (Azadirachta indica). It is widely used in organic farming due to its effectiveness against a variety of pests and its low toxicity to humans and beneficial insects. Here are some key points about neem:\n\n### Benefits:\n- **Broad Spectrum**: Effective against aphids, whiteflies, caterpillars, and many other pests.\n- **Growth Regulator**: Neem disrupts the growth and reproduction of pests, preventing them from maturing and reproducing.\n- **Natural and Safe**: It is biodegradable and has minimal impact on non-target organisms, making it safe for beneficial insects and the environment.\n\n### Application:\n- **Formulations**: Neem is available in various forms, including oil, powder, and extracts.\n- **Dosage**: For neem oil, a common recommendation is to mix **2-4 mL of neem oil per liter of water** for foliar application.\n- **Method**: Apply as a foliar spray, ensuring thorough coverage of the plant, especially the undersides of leaves.\n\n### Precautions:\n- While neem is generally safe, it's still advisable to wear protective gear during application.\n- Test on a small area first to ensure no adverse reactions occur on the plants.\n\n### Environmental Considerations:\n- Neem is considered an eco-friendly option for pest management, promoting sustainable agricultural practices.\n\nIf you need more specific information or guidance on application, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-10-22T05:50:53.068Z"
+        }
+      }
+    ],
+    "farmer_id": "vishalbhai9316730543",
+    "farmer_plot_ids": [
+      "ajor"
+    ],
+    "conversation_id": "67173c5299a371bf6dd694db",
+    "tag": "disease_pest",
+    "conv_date": "2024-10-22T05:46:59.020000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Millet bug ",
+        "timestamp": {
+          "$date": "2024-10-22T05:46:59.020Z"
+        },
+        "standalone_question": "What is a millet bug?",
+        "standalone_en": "What is a millet bug?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Fyllo does not support pest predictions specifically for Millet bug. However, if you have concerns about other pests or need assistance with pest management for your crops, please let me know!",
+        "timestamp": {
+          "$date": "2024-10-22T05:47:00.930Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Millet bug solution ",
+        "timestamp": {
+          "$date": "2024-10-22T05:47:33.783Z"
+        },
+        "standalone_question": "What solutions are available for managing Millet bugs?",
+        "standalone_en": "What solutions are available for managing Millet bugs?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The Millet bug is not specifically listed in Fyllo's supported pest predictions. However, for general pest management, you can consider the following control measures:\n\n1. **Cultural Control**: \n   - Rotate crops to disrupt the life cycle of the pest.\n   - Maintain proper field sanitation by removing debris and weeds.\n\n2. **Chemical Control**: \n   - Use insecticides such as **Chlorpyrifos** or **Thiamethoxam** as per the recommended dosage. \n   - Always follow the manufacturer's instructions for application.\n\n3. **Biological Control**: \n   - Introduce natural predators like ladybugs or lacewings that feed on pests.\n\n4. **Monitoring**: \n   - Regularly inspect your crops for signs of infestation and take action promptly.\n\nIf you have specific concerns or need further assistance, please let me know!",
+        "timestamp": {
+          "$date": "2024-10-22T05:47:37.779Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Thiamethoxam ",
+        "timestamp": {
+          "$date": "2024-10-22T05:48:19.121Z"
+        },
+        "standalone_question": "What is Thiamethoxam and how is it used in pest management?",
+        "standalone_en": "What is Thiamethoxam and how is it used in pest management?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Thiamethoxam is a systemic insecticide belonging to the neonicotinoid class. It is effective against a variety of pests, including aphids, whiteflies, and certain beetles. Here are some key points regarding its use:\n\n### Application:\n- **Dosage**: Typically, for seed treatment, use **0.5 g/liter** of water for drenching or spraying.\n- **Method**: It can be applied as a foliar spray or through soil application.\n\n### Benefits:\n- **Systemic Action**: Thiamethoxam is absorbed by the plant, providing protection from pests that feed on the plant tissues.\n- **Residual Effect**: It offers a longer duration of pest control compared to contact insecticides.\n\n### Precautions:\n- Always follow the manufacturer's instructions for dosage and application.\n- Wear protective gear while handling and applying the insecticide.\n- Avoid application during windy conditions to prevent drift to non-target plants.\n\nIf you need more specific information or guidance on application, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-10-22T05:48:23.998Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Chloropyrifos",
+        "timestamp": {
+          "$date": "2024-10-22T05:49:42.644Z"
+        },
+        "standalone_question": "What is Chlorpyrifos and how is it used in pest management?",
+        "standalone_en": "What is Chlorpyrifos and how is it used in pest management?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Chlorpyrifos is an organophosphate insecticide commonly used to control a variety of pests in agriculture. Here are some key points regarding its use:\n\n### Application:\n- **Dosage**: Typically, for foliar application, use **5 mL per liter of water**.\n- **Method**: It can be applied as a spray to the foliage or as a soil drench.\n\n### Benefits:\n- **Broad Spectrum**: Effective against a wide range of pests, including aphids, caterpillars, and termites.\n- **Quick Action**: Provides rapid knockdown of pests upon contact.\n\n### Precautions:\n- Always follow the manufacturer's instructions for dosage and application.\n- Wear protective gear, including gloves and masks, while handling and applying the insecticide.\n- Avoid application during windy conditions to prevent drift to non-target plants.\n\n### Environmental Considerations:\n- Chlorpyrifos has been associated with environmental concerns, so it's important to use it judiciously and in accordance with local regulations.\n\nIf you need more specific information or guidance on application, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-10-22T05:49:47.020Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Neem ",
+        "timestamp": {
+          "$date": "2024-10-22T05:50:46.947Z"
+        },
+        "standalone_question": "What is Neem and how is it used in pest management?",
+        "standalone_en": "What is Neem and how is it used in pest management?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Neem is a natural pesticide derived from the seeds of the neem tree (Azadirachta indica). It is widely used in organic farming due to its effectiveness against a variety of pests and its low toxicity to humans and beneficial insects. Here are some key points about neem:\n\n### Benefits:\n- **Broad Spectrum**: Effective against aphids, whiteflies, caterpillars, and many other pests.\n- **Growth Regulator**: Neem disrupts the growth and reproduction of pests, preventing them from maturing and reproducing.\n- **Natural and Safe**: It is biodegradable and has minimal impact on non-target organisms, making it safe for beneficial insects and the environment.\n\n### Application:\n- **Formulations**: Neem is available in various forms, including oil, powder, and extracts.\n- **Dosage**: For neem oil, a common recommendation is to mix **2-4 mL of neem oil per liter of water** for foliar application.\n- **Method**: Apply as a foliar spray, ensuring thorough coverage of the plant, especially the undersides of leaves.\n\n### Precautions:\n- While neem is generally safe, it's still advisable to wear protective gear during application.\n- Test on a small area first to ensure no adverse reactions occur on the plants.\n\n### Environmental Considerations:\n- Neem is considered an eco-friendly option for pest management, promoting sustainable agricultural practices.\n\nIf you need more specific information or guidance on application, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-10-22T05:50:53.068Z"
+        }
+      }
+    ],
+    "farmer_id": "vishalbhai9316730543",
+    "farmer_plot_ids": [
+      "ajor"
+    ],
+    "conversation_id": "67173c5299a371bf6dd694db",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-10-22T05:46:59.020000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Pesticide for milleybug ",
+        "timestamp": {
+          "$date": "2024-10-22T04:52:39.976Z"
+        },
+        "standalone_question": "What pesticide is effective for controlling mealybugs?",
+        "standalone_en": "What pesticide is effective for controlling mealybugs?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "There are currently no scheduled pesticide sprays for mealybug in your plot for this week. If you notice any signs of mealybug infestation, consider using an appropriate pesticide such as Imidacloprid or Thiamethoxam.",
+        "timestamp": {
+          "$date": "2024-10-22T04:52:43.279Z"
+        }
+      }
+    ],
+    "farmer_id": "vishalbhai9316730543",
+    "farmer_plot_ids": [
+      "ajor"
+    ],
+    "conversation_id": "67172f971b4b537f9c30544c",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-10-22T04:52:39.976000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Davani distoye",
+        "timestamp": {
+          "$date": "2024-10-22T04:16:37.375Z"
+        },
+        "standalone_question": "What is Davani distoye?",
+        "standalone_en": "What is Davani distoye?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया आप अधिक स्पष्टता से बताएं कि आप किस विषय पर जानकारी चाहते हैं? क्या आप फसल प्रबंधन, मिट्टी की सेहत, कीट नियंत्रण, या सिंचाई रणनीतियों के बारे में जानना चाहते हैं?",
+        "timestamp": {
+          "$date": "2024-10-22T04:16:39.630Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "डावनी",
+        "timestamp": {
+          "$date": "2024-10-22T04:18:36.755Z"
+        },
+        "standalone_question": "What is \"Davani\"?",
+        "standalone_en": "What is \"Davani\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "davani"
+      },
+      {
+        "role": "assistant",
+        "content": "आप \"डावनी\" के बारे में जानकारी चाहते हैं, लेकिन कृपया स्पष्ट करें कि आप किस संदर्भ में जानकारी चाहते हैं। क्या आप फसल, मिट्टी, या किसी विशेष कीट या रोग के बारे में जानना चाहते हैं?",
+        "timestamp": {
+          "$date": "2024-10-22T04:18:39.508Z"
+        }
+      }
+    ],
+    "farmer_id": "shubhambarhate",
+    "farmer_plot_ids": [
+      "plotno1sharad190",
+      "plotno2mamajambo700"
+    ],
+    "conversation_id": "671727251e1e822010bb6002",
+    "tag": "others",
+    "conv_date": "2024-10-22T04:16:37.375000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "फळ छाटणी केली कोणता स्प्रे घेऊ उड्या व डाऊनी",
+        "timestamp": {
+          "$date": "2024-10-22T03:37:27.474Z"
+        },
+        "standalone_question": "Which spray should I use for fruit pruning, Udi or Downey?",
+        "standalone_en": "Which spray should I use for fruit pruning, Udi or Downey?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "phal chhatani kelley konta spray gheu udya v downey"
+      },
+      {
+        "role": "assistant",
+        "content": "फळ छाटणीसाठी उड्या आणि डाऊनीसाठी कोणतेही स्प्रे सध्या शिफारस केलेले नाही. तसेच, उड्या आणि डाऊनीसाठी ऐतिहासिक कीटक मेट्रिक्स उपलब्ध नाहीत. \n\nतुम्हाला अधिक माहिती हवी असल्यास, कृपया स्थानिक कृषी तज्ञांशी संपर्क साधा किंवा पुढील तपासणीसाठी पिकाची स्थिती तपासा.",
+        "timestamp": {
+          "$date": "2024-10-22T03:37:33.104Z"
+        }
+      }
+    ],
+    "farmer_id": "vikaspanshaeinathpatil",
+    "farmer_plot_ids": [
+      "vikaspatilanushkaplot"
+    ],
+    "conversation_id": "67171df71b4b537f9c30544b",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-10-22T03:37:27.474000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "घडचा  दांडा लांब येत आहे काय द्यावं लागेल ",
+        "timestamp": {
+          "$date": "2024-10-22T03:07:13.149Z"
+        },
+        "standalone_question": "Is the rod of the clock getting longer, and what should be done about it?",
+        "standalone_en": "Is the rod of the clock getting longer, and what should be done about it?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ghadacha danda lamb yet aahe kay dyavam lagel "
+      },
+      {
+        "role": "assistant",
+        "content": "घडचा दांडा लांब येण्यासाठी तुम्हाला योग्य फर्टिलायझर आणि पाण्याची योग्य मात्रा द्यावी लागेल. सध्या तुमच्या बाणानाच्या पिकात \"बूटिंग\" स्टेज आहे. \n\nतुमच्या पिकाच्या फर्टिगेशन आवश्यकतांसाठी मी तपासून पाहतो. थोड्या वेळात तुम्हाला आवश्यक माहिती देईन.:\n\nतुमच्या बाणानाच्या पिकात सध्या \"बूटिंग\" स्टेज आहे, जी 2024-10-17 पासून सुरू झाली आहे. या स्टेजमध्ये दांडा लांब येण्यासाठी तुम्हाला खालील फर्टिलायझर द्यावे लागतील:\n\n### सध्याचा फर्टिगेशन शेड्यूल (सप्ताह 1):\n1. **फॉस्फोरिक ऍसिड**: इतर फर्टिलायझरच्या अनुप्रयोगापूर्वी 15-20 मिनिटे वेगळे द्या.\n2. **कॅल्शियम नायट्रेट**: इतर फर्टिलायझरच्या अनुप्रयोगानंतर 15-20 मिनिटे वेगळे द्या.\n\n#### फर्टिलायझर वितरण:\n- **कॅल्शियम नायट्रेट**: 3 किलोग्राम\n- **सोल्यूबोर**: 0.34 किलोग्राम\n- **0-40-37**: 4 किलोग्राम\n- **व्हाइट म्युरिएट ऑफ पोटॅश**: 3.5 किलोग्राम\n\nया फर्टिलायझरचा वापर करून तुम्ही दांडा लांब येण्यास मदत करू शकता. पुढील आठवड्यात (सप्ताह 2) तुम्हाला आणखी काही फर्टिलायझर द्यावे लागतील, जसे की **चेलेटेड आयरन**, **जिंक सल्फेट**, **पोटॅशियम नायट्रेट**, आणि **युरिया**.\n\nतुम्हाला आणखी काही माहिती हवी असल्यास, कृपया सांगा!",
+        "timestamp": {
+          "$date": "2024-10-22T03:07:22.969Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "दांडा लांब येवू नये म्हणून काय सुचवाल ",
+        "timestamp": {
+          "$date": "2024-10-22T03:09:03.492Z"
+        },
+        "standalone_question": "What do you suggest to prevent the stem from growing long?",
+        "standalone_en": "What do you suggest to prevent the stem from growing long?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "danda lamb yevu naye mhanun kay suchwal "
+      },
+      {
+        "role": "assistant",
+        "content": "दांडा लांब येऊ नये म्हणून तुम्ही खालील उपाययोजना करू शकता:\n\n1. **पाण्याचे व्यवस्थापन**: \n   - पाण्याचे प्रमाण कमी करा. अधिक पाण्यामुळे दांडा लांब येण्याची शक्यता वाढते. \n   - मातीची आर्द्रता नियंत्रित ठेवा, विशेषतः बूटिंग स्टेजमध्ये.\n\n2. **फर्टिलायझरचे प्रमाण**:\n   - नायट्रोजन फर्टिलायझरचे प्रमाण कमी करा. नायट्रोजन अधिक असल्यास दांडा लांब येण्याची शक्यता असते.\n   - फॉस्फरस आणि पोटॅशियमचे प्रमाण वाढवा, कारण हे दांडा मजबूत करण्यास मदत करतात.\n\n3. **पिकांची काळजी**:\n   - पिकांना योग्य प्रमाणात प्रकाश मिळवून द्या. \n   - पिकांच्या आजारांवर लक्ष ठेवा आणि आवश्यक असल्यास कीटकनाशकांचा वापर करा.\n\n4. **पिकांची छाटणी**:\n   - आवश्यक असल्यास पिकांची छाटणी करा, ज्यामुळे दांडा लांब येण्याची शक्यता कमी होईल.\n\n5. **सामग्रीचे व्यवस्थापन**:\n   - पिकांच्या आजारांवर लक्ष ठेवा आणि योग्य उपाययोजना करा.\n\nया उपाययोजनांचा अवलंब करून तुम्ही दांडा लांब येण्याची समस्या कमी करू शकता. तुम्हाला आणखी काही माहिती हवी असल्यास, कृपया सांगा!",
+        "timestamp": {
+          "$date": "2024-10-22T03:09:10.665Z"
+        }
+      }
+    ],
+    "farmer_id": "sandipgoaplpatil",
+    "farmer_plot_ids": [
+      "banana"
+    ],
+    "conversation_id": "671716e099a371bf6dd694da",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-10-22T03:07:13.149000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Godibahar chatni option ka yet nahi aap vr",
+        "timestamp": {
+          "$date": "2024-10-22T03:01:06.681Z"
+        },
+        "standalone_question": "What options do you have for Godibahar chatni?",
+        "standalone_en": "What options do you have for Godibahar chatni?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "माझ्या माहितीनुसार, \"गोदीबहार चटणी\" एक विशेष प्रकारची चटणी आहे जी विविध भाज्या आणि मसाल्यांपासून तयार केली जाते. तुम्हाला याबद्दल अधिक माहिती हवी का? किंवा तुम्हाला काही विशिष्ट रेसिपी हवी आहे का?",
+        "timestamp": {
+          "$date": "2024-10-22T03:01:09.745Z"
+        }
+      }
+    ],
+    "farmer_id": "kiranshivajipawar",
+    "farmer_plot_ids": [
+      "gupitbabamanikchaman"
+    ],
+    "conversation_id": "6717157299a371bf6dd694d9",
+    "tag": "complaints",
+    "conv_date": "2024-10-22T03:01:06.681000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Meru messages  pampi  mattu spray  chasanu",
+        "timestamp": {
+          "$date": "2024-10-22T01:08:10.999Z"
+        },
+        "standalone_question": "What did you say to Meru about the spray?",
+        "standalone_en": "What did you say to Meru about the spray?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "ఈ వారం మీ ప plots లో పాము మరియు మత్తు పండ్లకు స్ప్రే చేయడానికి ఎలాంటి సూచనలు లేవు. మీరు ఇప్పటికే స్ప్రే చేసినందున, ఫిల్లో నోటిఫికేషన్ ప్రకారం మరికొన్ని రోజులు వేచి ఉండండి. ",
+        "timestamp": {
+          "$date": "2024-10-22T01:08:14.516Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Rang answer ",
+        "timestamp": {
+          "$date": "2024-10-22T01:09:05.120Z"
+        },
+        "standalone_question": "What is the answer regarding the Rang?",
+        "standalone_en": "What is the answer regarding the Rang?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "ఈ వారం మీ ప plots లో పాము మరియు మత్తు పండ్లకు స్ప్రే చేయడానికి ఎలాంటి సూచనలు లేవు. పామి మరియు మత్తు పండ్లకు సంబంధించి పాత పంటలపై కూడా ఎలాంటి పీడకాలు లభించలేదు. \n\nమీరు ఇప్పటికే స్ప్రే చేసినందున, ఫిల్లో నోటిఫికేషన్ ప్రకారం మరికొన్ని రోజులు వేచి ఉండండి.",
+        "timestamp": {
+          "$date": "2024-10-22T01:09:11.296Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ok",
+        "timestamp": {
+          "$date": "2024-10-22T01:09:33.029Z"
+        },
+        "standalone_question": "What should I do next regarding the spray for the crops?",
+        "standalone_en": "What should I do next regarding the spray for the crops?",
+        "retrieval": {
+          "tools": [
+            "check_spray_conditions  \nGets the spray condition forecast for the next few hours for the farmer's plots and returns the condition for each hour as GOOD, MODERATE, or WORST, based on deltaT, VPD, and rainfall conditions."
+          ],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "మీకు మరేదైనా సహాయం కావాలా? పంటల నిర్వహణ, మట్టి ఆరోగ్యం, లేదా ఇతర వ్యవసాయ సంబంధిత విషయాలపై మీకు అవసరమైన సమాచారం ఇవ్వడానికి నేను ఇక్కడ ఉన్నాను.",
+        "timestamp": {
+          "$date": "2024-10-22T01:09:36.792Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Purnachandar chill lo matti soyal maichigaunda",
+        "timestamp": {
+          "$date": "2024-10-22T01:12:38.031Z"
+        },
+        "standalone_question": "Is it possible to improve soil health in Purnachandar's field?",
+        "standalone_en": "Is it possible to improve soil health in Purnachandar's field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "మీ \"Poorna chander chilli farm\" లో మట్టి ఆరోగ్యం గురించి తెలుసుకోవాలంటే, మట్టి పరీక్షలు చేయించడం చాలా ఉపయోగకరంగా ఉంటుంది. మట్టి పరీక్షలు మీ పంటకు అవసరమైన పోషకాలను నిర్ధారించడంలో సహాయపడతాయి, తద్వారా మీరు సరైన ఫర్టిలైజర్‌ను సమర్థవంతంగా ఉపయోగించవచ్చు.\n\nమీరు మట్టి పరీక్షలు చేయించుకోవాలనుకుంటున్నారా? లేదా మీకు మరింత సమాచారం కావాలా?",
+        "timestamp": {
+          "$date": "2024-10-22T01:12:41.878Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Yes",
+        "timestamp": {
+          "$date": "2024-10-22T01:13:19.352Z"
+        },
+        "standalone_question": "Would you like to conduct soil tests for your farm?",
+        "standalone_en": "Would you like to conduct soil tests for your farm?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are the advantages of adding soil, leaf, or petiole test reports?\nA: By adding test reports, Fyllo can generate a more precise fertigation schedule tailored to your specific conditions. Benefits include:\n\n    1. More accurate nutrient recommendations\n    2. Better alignment with your crop's actual needs\n    3. Potential for improved crop health and yield\n    4. More efficient use of fertilizers\n    5. Possible reduction in fertilizer costs and environmental impact",
+            "Q: Why should I consider soil, leaf, or petiole testing?\nA: Soil, leaf, and petiole testing are crucial for effective plant health management. These tests provide specific data about your crop's nutrient needs, allowing for more precise fertilizer application. This can lead to higher productivity with optimized input use, potentially reducing costs and environmental impact.",
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise.",
+            "Q: Where can I add soil, leaf, or petiole test reports in the app?\nA: You can add test reports in two ways:\n\n    1. When creating a new report: Go to \"Fertigation,\" then \"Create Report,\" and input the details from your test results.\n    2. Upload copies: You can directly upload photocopies or scans of your test reports in the app. Look for an \"Upload Reports\" or similar option in the Fertigation section."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "మీరు మట్టి, ఆకులు లేదా పెటియోల్ పరీక్షా నివేదికలను జోడించాలనుకుంటున్నారా? ఈ నివేదికలు మీ పంటకు అవసరమైన పోషకాలను నిర్ధారించడంలో మరియు మీ ఫర్టిగేషన్ షెడ్యూల్‌ను మరింత ఖచ్చితంగా రూపొందించడంలో సహాయపడతాయి.\n\nమీరు నివేదికలను జోడించడానికి \"ఫర్టిగేషన్\" విభాగంలో \"నవీనం నివేదికను సృష్టించండి\" లేదా \"నివేదికలను అప్‌లోడ్ చేయండి\" అనే ఎంపికను ఉపయోగించవచ్చు. \n\nమీకు సహాయం కావాలా?",
+        "timestamp": {
+          "$date": "2024-10-22T01:13:24.653Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Saym kavali",
+        "timestamp": {
+          "$date": "2024-10-22T01:14:19.074Z"
+        },
+        "standalone_question": "Do you want to say something?",
+        "standalone_en": "Do you want to say something?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "మీరు \"సాయం కావాలి\" అని చెప్పారు. దయచేసి మీకు ఏ విధమైన సహాయం కావాలో స్పష్టంగా చెప్పండి, నేను మీకు సహాయపడడానికి ఇక్కడ ఉన్నాను.",
+        "timestamp": {
+          "$date": "2024-10-22T01:14:22.066Z"
+        }
+      }
+    ],
+    "farmer_id": "poornachanderrao",
+    "farmer_plot_ids": [
+      "poornachanderchillifarm"
+    ],
+    "conversation_id": "6716fafa1b4b537f9c30544a",
+    "tag": "others",
+    "conv_date": "2024-10-22T01:08:10.999000+00:00"
+  }
+]

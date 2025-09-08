@@ -1,0 +1,654 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "what is the current temperature at Adinarayanakairo4acre",
+        "timestamp": {
+          "$date": "2024-08-20T10:15:19.038Z"
+        },
+        "standalone_question": "What is the current temperature at Adinarayanakairo4acre?",
+        "standalone_en": "What is the current temperature at Adinarayanakairo4acre?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The current temperature at Adinarayanakairo4acre is 32°C as of 13:00 today.",
+        "timestamp": {
+          "$date": "2024-08-20T10:15:19.038Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "show me last 6 hours historical weather data at this plot",
+        "timestamp": {
+          "$date": "2024-08-20T10:15:57.417Z"
+        },
+        "standalone_question": "Can you provide the historical weather data for the last 6 hours at Adinarayanakairo4acre?",
+        "standalone_en": "Can you provide the historical weather data for the last 6 hours at Adinarayanakairo4acre?",
+        "retrieval": {
+          "tools": [
+            "get_historical_hourly_weather_data  \nFetches hourly historical weather data from all plot sensors for the given datetime range, including air temperature, air humidity, and rainfall. Suitable only for less than 5 days duration.",
+            "get_historical_daily_weather_data  \nFetches daily historical weather data from all plot sensors for the given date range, including air temperature, air humidity, and rainfall. Suitable for larger durations.",
+            "get_hourly_weather_forecast  \nProvides hourly weather forecast for today and the next 4 days for the farmer's plots. Use only for forecast, not actual measured values.",
+            "get_hourly_soil_moisture_data  \nRetrieves historical hourly soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for less than 5 days duration.",
+            "get_daily_weather_forecast  \nProvides the next 14 days from today, daily weather forecast for the farmer's plots. Use only for forecast, not current values."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the historical weather data for the last 6 hours at Adinarayanakairo4acre:\n\n- **13:00**\n  - Temperature: 32°C\n  - Humidity: 68%\n  - Rainfall: 0 mm\n\n- **12:00**\n  - Temperature: 31°C\n  - Humidity: 66%\n  - Rainfall: 0 mm\n\n- **11:00**\n  - Temperature: 30°C\n  - Humidity: 70%\n  - Rainfall: 0 mm\n\n- **10:00**\n  - Temperature: 29°C\n  - Humidity: 74%\n  - Rainfall: 0 mm",
+        "timestamp": {
+          "$date": "2024-08-20T10:15:57.417Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "what about latest temperature at thompson359",
+        "timestamp": {
+          "$date": "2024-08-20T10:19:21.517Z"
+        },
+        "standalone_question": "What is the latest temperature at Thompson359?",
+        "standalone_en": "What is the latest temperature at Thompson359?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The latest temperature at the plot \"Amgond thomsan 2 acar\" (Thompson359) is as follows:\n\n- **15:00**\n  - Temperature: 30°C\n  - Humidity: 69%\n  - Rainfall: 0 mm",
+        "timestamp": {
+          "$date": "2024-08-20T10:19:21.517Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "show me last 6 hours historical weather data at this plot",
+        "timestamp": {
+          "$date": "2024-08-20T10:20:16.051Z"
+        },
+        "standalone_question": "Could you provide the historical weather data for the last 6 hours at the Thompson359 plot?",
+        "standalone_en": "Could you provide the historical weather data for the last 6 hours at the Thompson359 plot?",
+        "retrieval": {
+          "tools": [
+            "get_historical_hourly_weather_data  \nFetches hourly historical weather data from all plot sensors for the given datetime range, including air temperature, air humidity, and rainfall. Suitable only for less than 5 days duration.",
+            "get_historical_daily_weather_data  \nFetches daily historical weather data from all plot sensors for the given date range, including air temperature, air humidity, and rainfall. Suitable for larger durations.",
+            "get_hourly_weather_forecast  \nProvides hourly weather forecast for today and the next 4 days for the farmer's plots. Use only for forecast, not actual measured values.",
+            "get_historical_daily_evapotranspiration  \nCalculates and retrieves historical evapotranspiration (eto) data from the plots for the given date range.",
+            "get_hourly_soil_moisture_data  \nRetrieves historical hourly soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for less than 5 days duration."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the historical weather data for the last 6 hours at Adinarayanakairo4acre:\n\n- **13:00**\n  - Temperature: 32°C\n  - Humidity: 68%\n  - Rainfall: 0 mm\n\n- **12:00**\n  - Temperature: 31°C\n  - Humidity: 66%\n  - Rainfall: 0 mm\n\n- **11:00**\n  - Temperature: 30°C\n  - Humidity: 70%\n  - Rainfall: 0 mm\n\n- **10:00**\n  - Temperature: 29°C\n  - Humidity: 74%\n  - Rainfall: 0 mm",
+        "timestamp": {
+          "$date": "2024-08-20T10:20:16.051Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "show me last 6 hours historical weather data at plot thompson359",
+        "timestamp": {
+          "$date": "2024-08-20T10:20:57.974Z"
+        },
+        "standalone_question": "What is the historical weather data for the last 6 hours at the plot Thompson359?",
+        "standalone_en": "What is the historical weather data for the last 6 hours at the plot Thompson359?",
+        "retrieval": {
+          "tools": [
+            "get_historical_hourly_weather_data  \nFetches hourly historical weather data from all plot sensors for the given datetime range, including air temperature, air humidity, and rainfall. Suitable only for less than 5 days duration.",
+            "get_historical_daily_weather_data  \nFetches daily historical weather data from all plot sensors for the given date range, including air temperature, air humidity, and rainfall. Suitable for larger durations.",
+            "get_hourly_weather_forecast  \nProvides hourly weather forecast for today and the next 4 days for the farmer's plots. Use only for forecast, not actual measured values.",
+            "get_historical_daily_evapotranspiration  \nCalculates and retrieves historical evapotranspiration (eto) data from the plots for the given date range.",
+            "get_daily_weather_forecast  \nProvides the next 14 days from today, daily weather forecast for the farmer's plots. Use only for forecast, not current values."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the historical weather data for the last 6 hours at the plot \"Amgond thomsan 2 acar\" (Thompson359):\n\n- **15:00**\n  - Temperature: 30°C\n  - Humidity: 69%\n  - Rainfall: 0 mm\n\n- **14:00**\n  - Temperature: 29°C\n  - Humidity: 73%\n  - Rainfall: 0 mm\n\n- **13:00**\n  - Temperature: 29°C\n  - Humidity: 74%\n  - Rainfall: 0 mm\n\n- **12:00**\n  - Temperature: 28°C\n  - Humidity: 74%\n  - Rainfall: 0 mm\n\n- **11:00**\n  - Temperature: 28°C\n  - Humidity: 74%\n  - Rainfall: 0 mm\n\n- **10:00**\n  - Temperature: 26°C\n  - Humidity: 86%\n  - Rainfall: 0 mm",
+        "timestamp": {
+          "$date": "2024-08-20T10:20:57.974Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "when was the last rainfall at plot thompson359",
+        "timestamp": {
+          "$date": "2024-08-20T10:21:38.921Z"
+        },
+        "standalone_question": "What was the date and time of the last rainfall at the plot Thompson359?",
+        "standalone_en": "What was the date and time of the last rainfall at the plot Thompson359?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "There has been no rainfall in the last 6 hours at the plot \"Amgond thomsan 2 acar\" (Thompson359). Here is the detailed data:\n\n- **15:00**\n  - Temperature: 30°C\n  - Humidity: 69%\n  - Rainfall: 0 mm\n\n- **14:00**\n  - Temperature: 29°C\n  - Humidity: 73%\n  - Rainfall: 0 mm\n\n- **13:00**\n  - Temperature: 29°C\n  - Humidity: 74%\n  - Rainfall: 0 mm\n\n- **12:00**\n  - Temperature: 28°C\n  - Humidity: 74%\n  - Rainfall: 0 mm\n\n- **11:00**\n  - Temperature: 28°C\n  - Humidity: 74%\n  - Rainfall: 0 mm\n\n- **10:00**\n  - Temperature: 26°C\n  - Humidity: 86%\n  - Rainfall: 0 mm",
+        "timestamp": {
+          "$date": "2024-08-20T10:21:38.921Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "when was the last rainfall at plot thompson359 in last week",
+        "timestamp": {
+          "$date": "2024-08-20T10:22:13.796Z"
+        },
+        "standalone_question": "What was the date and time of the last rainfall at the plot Thompson359 in the past week?",
+        "standalone_en": "What was the date and time of the last rainfall at the plot Thompson359 in the past week?",
+        "retrieval": {
+          "tools": [
+            "get_historical_hourly_weather_data  \nFetches hourly historical weather data from all plot sensors for the given datetime range, including air temperature, air humidity, and rainfall. Suitable only for less than 5 days duration.",
+            "get_historical_daily_weather_data  \nFetches daily historical weather data from all plot sensors for the given date range, including air temperature, air humidity, and rainfall. Suitable for larger durations."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The last rainfall at the plot \"Amgond thomsan 2 acar\" (Thompson359) occurred on:\n\n- **August 20, 2024**: 65 mm\n- **August 19, 2024**: 1 mm\n- **August 17, 2024**: 6 mm\n- **August 16, 2024**: 17 mm\n\nThere was no rainfall on other days in the past week.",
+        "timestamp": {
+          "$date": "2024-08-20T10:22:13.796Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "how is the trend of anthracnose in last week ",
+        "timestamp": {
+          "$date": "2024-08-20T10:25:42.551Z"
+        },
+        "standalone_question": "What has been the trend of anthracnose over the past week?",
+        "standalone_en": "What has been the trend of anthracnose over the past week?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the trend of Anthracnose in the last week for the relevant plots:\n\n### Plot: Amgond thomsan 2 acar (Thompson359)\n- **August 18, 2024**: Probability 82.7% (High Risk)\n- **August 17, 2024**: Probability 100% (High Risk)\n- **August 16, 2024**: Probability 87.0% (High Risk)\n- **August 15, 2024**: Probability 48.8% (Low Risk)\n- **August 14, 2024**: Probability 51.2% (Medium Risk)\n- **August 13, 2024**: Probability 56.8% (Medium Risk)\n\n### Plot: Anandamurthy (AK Pomegranate)\n- **August 18, 2024**: Probability 100% (High Risk)\n- **August 17, 2024**: Probability 100% (High Risk)\n- **August 16, 2024**: Probability 100% (High Risk)\n- **August 15, 2024**: Probability 100% (High Risk)\n- **August 14, 2024**: Probability 100% (High Risk)\n- **August 13, 2024**: Probability 100% (High Risk)\n\n### Plot: Pomegranate1161\n- **August 18, 2024**: Probability 70.5% (High Risk)\n- **August 17, 2024**: Probability 70.6% (High Risk)\n- **August 16, 2024**: Probability 65.0% (Medium Risk)\n- **August 15, 2024**: Probability 59.8% (Medium Risk)\n- **August 14, 2024**: Probability 50.6% (Medium Risk)\n- **August 13, 2024**: Probability 54.6% (Medium Risk)\n\n### Plot: Sharathpapaya\n- **August 18, 2024**: Probability 32.9% (Low Risk)\n- **August 17, 2024**: Probability 37.1% (Low Risk)\n- **August 16, 2024**: Probability 32.1% (Low Risk)\n- **August 15, 2024**: Probability 32.7% (Low Risk)\n- **August 14, 2024**: Probability 31.3% (Low Risk)\n- **August 13, 2024**: Probability 29.0% (Low Risk)\n\n### Plot: Shrinivasamurthygrapeplotseedless\n- **August 13, 2024**: Probability 66.2% (Medium Risk)\n\nThe trend shows that the risk of Anthracnose has been consistently high in some plots, particularly in the \"Anandamurthy\" plot, while other plots have shown varying levels of risk.",
+        "timestamp": {
+          "$date": "2024-08-20T10:25:42.551Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "what is current prediction of caterpillar in plot thompson359",
+        "timestamp": {
+          "$date": "2024-08-20T10:27:40.177Z"
+        },
+        "standalone_question": "What is the current prediction for caterpillar activity in the plot Thompson359?",
+        "standalone_en": "What is the current prediction for caterpillar activity in the plot Thompson359?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is the pest prediction?\nA: Check the all pest predictions relevant. We support Aphids, Banana aphids, Bihar hairy caterpillar, Broad mites, Brown plant hopper, Capsule borer, Caterpillar,\n   Citrus Psylla, Cut worm, Early shoot borer, European red mites, Flat mites, Flea Beetle, Flea beetle, Fruit Borer,\n   Fruit Fly, Fruit borer, Fruit fly, Green aphids, Hispa beetle, Jassids, Leaf eating caterpillar, Leaf folder, Leaf miner,\n   Leaf roller, Mango hopper, Mealy Bug, Mealy bug, Mealybug, Mites, Perianth mites, Pin worm, Pink bollworm,\n   Pseudostem weevil, Red Spider Mites, Red palm weevil, Red spider mites, Rhinoceros beetle, Rhizome weevil, Root Grubs,\n   Root knot nematode, Rugose spiraling whitefly, Rust mites, Rust thrips, Scale Insects, Scale insects, Scarring beetle,\n   Shoot borer, Skipper, Spiraling whitefly, Spodoptera, Stem Borer, Stem borer, Striped beetle, Striped cucumber beetle,\n   Tea Mosquitto Bug, Tea mosquitto bug, Termite, Thrips, White Fly, White fly, Whitefly, and Wooly aphids."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The current prediction of caterpillar infestation in the plot \"Amgond thomsan 2 acar\" (Thompson359) is not available in the provided data. However, here are the pest predictions for other pests in the same plot:\n\n- **Downy Mildew**: High Risk (72.5% probability)\n- **Powdery Mildew**: High Risk (77.6% probability)\n- **Anthracnose**: High Risk (99.4% probability)\n\nIf you need specific information about caterpillar infestation, please let me know, and I can assist you further.",
+        "timestamp": {
+          "$date": "2024-08-20T10:27:40.177Z"
+        }
+      }
+    ],
+    "farmer_id": "asmitakodwatecoromandel",
+    "farmer_plot_ids": [
+      "adinarayanakairo4acre",
+      "adinarayananeroplot1",
+      "adinarayananeroplot2",
+      "amareshcapsicum",
+      "amgondthomsan2acar",
+      "anandamurthy",
+      "anandpomo1",
+      "anandfarm2",
+      "anandgrapefarms",
+      "anandpomegranate",
+      "anilsk",
+      "ridgeguard",
+      "pomegranate1161",
+      "pomegranate2603",
+      "shrinivasamurthygrapeplotseedless",
+      "basagondmanikchaman",
+      "basagondthomsan2acer",
+      "manirose",
+      "sharathpapaya",
+      "sharathtomatoplot"
+    ],
+    "conversation_id": "66c46ca4ae2e25d3b7842b85",
+    "tag": "disease_pest",
+    "conv_date": "2024-08-20T10:15:19.038000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "what is the current temperature at Adinarayanakairo4acre",
+        "timestamp": {
+          "$date": "2024-08-20T10:15:19.038Z"
+        },
+        "standalone_question": "What is the current temperature at Adinarayanakairo4acre?",
+        "standalone_en": "What is the current temperature at Adinarayanakairo4acre?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The current temperature at Adinarayanakairo4acre is 32°C as of 13:00 today.",
+        "timestamp": {
+          "$date": "2024-08-20T10:15:19.038Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "show me last 6 hours historical weather data at this plot",
+        "timestamp": {
+          "$date": "2024-08-20T10:15:57.417Z"
+        },
+        "standalone_question": "Can you provide the historical weather data for the last 6 hours at Adinarayanakairo4acre?",
+        "standalone_en": "Can you provide the historical weather data for the last 6 hours at Adinarayanakairo4acre?",
+        "retrieval": {
+          "tools": [
+            "get_historical_hourly_weather_data  \nFetches hourly historical weather data from all plot sensors for the given datetime range, including air temperature, air humidity, and rainfall. Suitable only for less than 5 days duration.",
+            "get_historical_daily_weather_data  \nFetches daily historical weather data from all plot sensors for the given date range, including air temperature, air humidity, and rainfall. Suitable for larger durations.",
+            "get_hourly_weather_forecast  \nProvides hourly weather forecast for today and the next 4 days for the farmer's plots. Use only for forecast, not actual measured values.",
+            "get_hourly_soil_moisture_data  \nRetrieves historical hourly soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for less than 5 days duration.",
+            "get_daily_weather_forecast  \nProvides the next 14 days from today, daily weather forecast for the farmer's plots. Use only for forecast, not current values."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the historical weather data for the last 6 hours at Adinarayanakairo4acre:\n\n- **13:00**\n  - Temperature: 32°C\n  - Humidity: 68%\n  - Rainfall: 0 mm\n\n- **12:00**\n  - Temperature: 31°C\n  - Humidity: 66%\n  - Rainfall: 0 mm\n\n- **11:00**\n  - Temperature: 30°C\n  - Humidity: 70%\n  - Rainfall: 0 mm\n\n- **10:00**\n  - Temperature: 29°C\n  - Humidity: 74%\n  - Rainfall: 0 mm",
+        "timestamp": {
+          "$date": "2024-08-20T10:15:57.417Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "what about latest temperature at thompson359",
+        "timestamp": {
+          "$date": "2024-08-20T10:19:21.517Z"
+        },
+        "standalone_question": "What is the latest temperature at Thompson359?",
+        "standalone_en": "What is the latest temperature at Thompson359?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The latest temperature at the plot \"Amgond thomsan 2 acar\" (Thompson359) is as follows:\n\n- **15:00**\n  - Temperature: 30°C\n  - Humidity: 69%\n  - Rainfall: 0 mm",
+        "timestamp": {
+          "$date": "2024-08-20T10:19:21.517Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "show me last 6 hours historical weather data at this plot",
+        "timestamp": {
+          "$date": "2024-08-20T10:20:16.051Z"
+        },
+        "standalone_question": "Could you provide the historical weather data for the last 6 hours at the Thompson359 plot?",
+        "standalone_en": "Could you provide the historical weather data for the last 6 hours at the Thompson359 plot?",
+        "retrieval": {
+          "tools": [
+            "get_historical_hourly_weather_data  \nFetches hourly historical weather data from all plot sensors for the given datetime range, including air temperature, air humidity, and rainfall. Suitable only for less than 5 days duration.",
+            "get_historical_daily_weather_data  \nFetches daily historical weather data from all plot sensors for the given date range, including air temperature, air humidity, and rainfall. Suitable for larger durations.",
+            "get_hourly_weather_forecast  \nProvides hourly weather forecast for today and the next 4 days for the farmer's plots. Use only for forecast, not actual measured values.",
+            "get_historical_daily_evapotranspiration  \nCalculates and retrieves historical evapotranspiration (eto) data from the plots for the given date range.",
+            "get_hourly_soil_moisture_data  \nRetrieves historical hourly soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for less than 5 days duration."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the historical weather data for the last 6 hours at Adinarayanakairo4acre:\n\n- **13:00**\n  - Temperature: 32°C\n  - Humidity: 68%\n  - Rainfall: 0 mm\n\n- **12:00**\n  - Temperature: 31°C\n  - Humidity: 66%\n  - Rainfall: 0 mm\n\n- **11:00**\n  - Temperature: 30°C\n  - Humidity: 70%\n  - Rainfall: 0 mm\n\n- **10:00**\n  - Temperature: 29°C\n  - Humidity: 74%\n  - Rainfall: 0 mm",
+        "timestamp": {
+          "$date": "2024-08-20T10:20:16.051Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "show me last 6 hours historical weather data at plot thompson359",
+        "timestamp": {
+          "$date": "2024-08-20T10:20:57.974Z"
+        },
+        "standalone_question": "What is the historical weather data for the last 6 hours at the plot Thompson359?",
+        "standalone_en": "What is the historical weather data for the last 6 hours at the plot Thompson359?",
+        "retrieval": {
+          "tools": [
+            "get_historical_hourly_weather_data  \nFetches hourly historical weather data from all plot sensors for the given datetime range, including air temperature, air humidity, and rainfall. Suitable only for less than 5 days duration.",
+            "get_historical_daily_weather_data  \nFetches daily historical weather data from all plot sensors for the given date range, including air temperature, air humidity, and rainfall. Suitable for larger durations.",
+            "get_hourly_weather_forecast  \nProvides hourly weather forecast for today and the next 4 days for the farmer's plots. Use only for forecast, not actual measured values.",
+            "get_historical_daily_evapotranspiration  \nCalculates and retrieves historical evapotranspiration (eto) data from the plots for the given date range.",
+            "get_daily_weather_forecast  \nProvides the next 14 days from today, daily weather forecast for the farmer's plots. Use only for forecast, not current values."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the historical weather data for the last 6 hours at the plot \"Amgond thomsan 2 acar\" (Thompson359):\n\n- **15:00**\n  - Temperature: 30°C\n  - Humidity: 69%\n  - Rainfall: 0 mm\n\n- **14:00**\n  - Temperature: 29°C\n  - Humidity: 73%\n  - Rainfall: 0 mm\n\n- **13:00**\n  - Temperature: 29°C\n  - Humidity: 74%\n  - Rainfall: 0 mm\n\n- **12:00**\n  - Temperature: 28°C\n  - Humidity: 74%\n  - Rainfall: 0 mm\n\n- **11:00**\n  - Temperature: 28°C\n  - Humidity: 74%\n  - Rainfall: 0 mm\n\n- **10:00**\n  - Temperature: 26°C\n  - Humidity: 86%\n  - Rainfall: 0 mm",
+        "timestamp": {
+          "$date": "2024-08-20T10:20:57.974Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "when was the last rainfall at plot thompson359",
+        "timestamp": {
+          "$date": "2024-08-20T10:21:38.921Z"
+        },
+        "standalone_question": "What was the date and time of the last rainfall at the plot Thompson359?",
+        "standalone_en": "What was the date and time of the last rainfall at the plot Thompson359?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "There has been no rainfall in the last 6 hours at the plot \"Amgond thomsan 2 acar\" (Thompson359). Here is the detailed data:\n\n- **15:00**\n  - Temperature: 30°C\n  - Humidity: 69%\n  - Rainfall: 0 mm\n\n- **14:00**\n  - Temperature: 29°C\n  - Humidity: 73%\n  - Rainfall: 0 mm\n\n- **13:00**\n  - Temperature: 29°C\n  - Humidity: 74%\n  - Rainfall: 0 mm\n\n- **12:00**\n  - Temperature: 28°C\n  - Humidity: 74%\n  - Rainfall: 0 mm\n\n- **11:00**\n  - Temperature: 28°C\n  - Humidity: 74%\n  - Rainfall: 0 mm\n\n- **10:00**\n  - Temperature: 26°C\n  - Humidity: 86%\n  - Rainfall: 0 mm",
+        "timestamp": {
+          "$date": "2024-08-20T10:21:38.921Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "when was the last rainfall at plot thompson359 in last week",
+        "timestamp": {
+          "$date": "2024-08-20T10:22:13.796Z"
+        },
+        "standalone_question": "What was the date and time of the last rainfall at the plot Thompson359 in the past week?",
+        "standalone_en": "What was the date and time of the last rainfall at the plot Thompson359 in the past week?",
+        "retrieval": {
+          "tools": [
+            "get_historical_hourly_weather_data  \nFetches hourly historical weather data from all plot sensors for the given datetime range, including air temperature, air humidity, and rainfall. Suitable only for less than 5 days duration.",
+            "get_historical_daily_weather_data  \nFetches daily historical weather data from all plot sensors for the given date range, including air temperature, air humidity, and rainfall. Suitable for larger durations."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The last rainfall at the plot \"Amgond thomsan 2 acar\" (Thompson359) occurred on:\n\n- **August 20, 2024**: 65 mm\n- **August 19, 2024**: 1 mm\n- **August 17, 2024**: 6 mm\n- **August 16, 2024**: 17 mm\n\nThere was no rainfall on other days in the past week.",
+        "timestamp": {
+          "$date": "2024-08-20T10:22:13.796Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "how is the trend of anthracnose in last week ",
+        "timestamp": {
+          "$date": "2024-08-20T10:25:42.551Z"
+        },
+        "standalone_question": "What has been the trend of anthracnose over the past week?",
+        "standalone_en": "What has been the trend of anthracnose over the past week?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the trend of Anthracnose in the last week for the relevant plots:\n\n### Plot: Amgond thomsan 2 acar (Thompson359)\n- **August 18, 2024**: Probability 82.7% (High Risk)\n- **August 17, 2024**: Probability 100% (High Risk)\n- **August 16, 2024**: Probability 87.0% (High Risk)\n- **August 15, 2024**: Probability 48.8% (Low Risk)\n- **August 14, 2024**: Probability 51.2% (Medium Risk)\n- **August 13, 2024**: Probability 56.8% (Medium Risk)\n\n### Plot: Anandamurthy (AK Pomegranate)\n- **August 18, 2024**: Probability 100% (High Risk)\n- **August 17, 2024**: Probability 100% (High Risk)\n- **August 16, 2024**: Probability 100% (High Risk)\n- **August 15, 2024**: Probability 100% (High Risk)\n- **August 14, 2024**: Probability 100% (High Risk)\n- **August 13, 2024**: Probability 100% (High Risk)\n\n### Plot: Pomegranate1161\n- **August 18, 2024**: Probability 70.5% (High Risk)\n- **August 17, 2024**: Probability 70.6% (High Risk)\n- **August 16, 2024**: Probability 65.0% (Medium Risk)\n- **August 15, 2024**: Probability 59.8% (Medium Risk)\n- **August 14, 2024**: Probability 50.6% (Medium Risk)\n- **August 13, 2024**: Probability 54.6% (Medium Risk)\n\n### Plot: Sharathpapaya\n- **August 18, 2024**: Probability 32.9% (Low Risk)\n- **August 17, 2024**: Probability 37.1% (Low Risk)\n- **August 16, 2024**: Probability 32.1% (Low Risk)\n- **August 15, 2024**: Probability 32.7% (Low Risk)\n- **August 14, 2024**: Probability 31.3% (Low Risk)\n- **August 13, 2024**: Probability 29.0% (Low Risk)\n\n### Plot: Shrinivasamurthygrapeplotseedless\n- **August 13, 2024**: Probability 66.2% (Medium Risk)\n\nThe trend shows that the risk of Anthracnose has been consistently high in some plots, particularly in the \"Anandamurthy\" plot, while other plots have shown varying levels of risk.",
+        "timestamp": {
+          "$date": "2024-08-20T10:25:42.551Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "what is current prediction of caterpillar in plot thompson359",
+        "timestamp": {
+          "$date": "2024-08-20T10:27:40.177Z"
+        },
+        "standalone_question": "What is the current prediction for caterpillar activity in the plot Thompson359?",
+        "standalone_en": "What is the current prediction for caterpillar activity in the plot Thompson359?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is the pest prediction?\nA: Check the all pest predictions relevant. We support Aphids, Banana aphids, Bihar hairy caterpillar, Broad mites, Brown plant hopper, Capsule borer, Caterpillar,\n   Citrus Psylla, Cut worm, Early shoot borer, European red mites, Flat mites, Flea Beetle, Flea beetle, Fruit Borer,\n   Fruit Fly, Fruit borer, Fruit fly, Green aphids, Hispa beetle, Jassids, Leaf eating caterpillar, Leaf folder, Leaf miner,\n   Leaf roller, Mango hopper, Mealy Bug, Mealy bug, Mealybug, Mites, Perianth mites, Pin worm, Pink bollworm,\n   Pseudostem weevil, Red Spider Mites, Red palm weevil, Red spider mites, Rhinoceros beetle, Rhizome weevil, Root Grubs,\n   Root knot nematode, Rugose spiraling whitefly, Rust mites, Rust thrips, Scale Insects, Scale insects, Scarring beetle,\n   Shoot borer, Skipper, Spiraling whitefly, Spodoptera, Stem Borer, Stem borer, Striped beetle, Striped cucumber beetle,\n   Tea Mosquitto Bug, Tea mosquitto bug, Termite, Thrips, White Fly, White fly, Whitefly, and Wooly aphids."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The current prediction of caterpillar infestation in the plot \"Amgond thomsan 2 acar\" (Thompson359) is not available in the provided data. However, here are the pest predictions for other pests in the same plot:\n\n- **Downy Mildew**: High Risk (72.5% probability)\n- **Powdery Mildew**: High Risk (77.6% probability)\n- **Anthracnose**: High Risk (99.4% probability)\n\nIf you need specific information about caterpillar infestation, please let me know, and I can assist you further.",
+        "timestamp": {
+          "$date": "2024-08-20T10:27:40.177Z"
+        }
+      }
+    ],
+    "farmer_id": "asmitakodwatecoromandel",
+    "farmer_plot_ids": [
+      "adinarayanakairo4acre",
+      "adinarayananeroplot1",
+      "adinarayananeroplot2",
+      "amareshcapsicum",
+      "amgondthomsan2acar",
+      "anandamurthy",
+      "anandpomo1",
+      "anandfarm2",
+      "anandgrapefarms",
+      "anandpomegranate",
+      "anilsk",
+      "ridgeguard",
+      "pomegranate1161",
+      "pomegranate2603",
+      "shrinivasamurthygrapeplotseedless",
+      "basagondmanikchaman",
+      "basagondthomsan2acer",
+      "manirose",
+      "sharathpapaya",
+      "sharathtomatoplot"
+    ],
+    "conversation_id": "66c46ca4ae2e25d3b7842b85",
+    "tag": "historical data",
+    "conv_date": "2024-08-20T10:15:19.038000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "generate a sample markdown table",
+        "timestamp": {
+          "$date": "2024-08-20T08:53:39.588Z"
+        },
+        "standalone_question": "Can you create a sample markdown table?",
+        "standalone_en": "Can you create a sample markdown table?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Sure, here's a sample markdown table based on the provided data:\n\n```markdown\n| Plot Name                     | Crop Name     | Active Stage                | Stage Start Date       | Plan Expiry Date        |\n|-------------------------------|---------------|-----------------------------|------------------------|-------------------------|\n| Adinarayanakairo4acre         | Kinnow        | Rest                        | 2024-07-07 18:07:16    | 2025-06-16 08:08:53     |\n| adinarayananeroplot1          | Kinnow        | Rest                        | 2024-06-26 06:30:00    | 2025-06-28 13:16:12     |\n| adinarayananeroplot2          | Kinnow        | Rest                        | 2024-06-26 06:30:00    | 2025-06-28 13:46:16     |\n| capsicum plot                 | Capsicum      | Flowering and Fruiting      | 2024-07-27 18:07:10    | 2025-04-02 13:01:04     |\n| Amgond thomsan 2 acar         | Grapes        | Topping                     | 2024-07-13 18:10:48    | 2025-05-08 13:42:36     |\n| AK Pomegranate                | Pomegranate   | Mid stage fruit growth      | 2024-08-02 06:30:00    | 2025-03-30 12:52:11     |\n| anandpomo1                    | Pomegranate   | Flowering & Fruit set       | 2024-03-20 18:14:44    | 2025-02-27 09:57:39     |\n| anandfarm2                    | Pomegranate   | Flowering & Fruit set       | 2024-03-20 18:13:59    | 2025-02-27 12:11:55     |\n| KC Grapes                     | Grapes        | Shoot growth                | 2024-06-10 06:30:00    | 2025-03-22 09:13:53     |\n| anandPomegranate              | Pomegranate   | Early stage fruit growth    | 2024-05-16 06:30:00    | 2025-04-23 05:23:11     |\n| anilsktomato                  | Tomato        | Alternate harvest           | 2024-05-03 06:30:00    | 2025-03-18 06:08:42     |\n| ridge guard                   | Bottle gourd  | Alternate harvest           | 2024-08-15 06:30:00    | 2025-06-25 13:01:51     |\n| pomegranate 1                 | Pomegranate   | Bud initiation              | 2024-08-07 06:30:00    | 2025-06-29 04:33:53     |\n| pomegranate - 2               | Pomegranate   | Flowering & Fruit set       | 2024-08-18 06:30:00    | 2025-06-29 05:03:50     |\n| basagond manikchaman          | Grapes        | Topping                     | 2024-07-22 18:10:39    | 2025-05-08 10:29:08     |\n| basagond thomsan 2 acer       | Grapes        | Cane thinning               | 2024-05-30 18:10:39    | 2025-05-08 10:16:38     |\n| manirose1.5acre               | Rose          | Alternate harvest           | 2023-08-30 06:30:00    | 2025-01-24 08:43:53     |\n| sharathpapaya                 | Papaya        | Vegetative growth           | 2024-06-27 18:40:26    | 2025-06-27 12:17:23     |\n| sharathtomatoplot             | Tomato        | Alternate harvest           | 2024-07-27 18:26:06    | 2025-06-21 05:53:23     |\n```\n\nYou can copy and paste this markdown code into any markdown editor to see the table.",
+        "timestamp": {
+          "$date": "2024-08-20T08:53:39.588Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "show https://t4.ftcdn.net/jpg/02/28/90/67/360_F_228906712_r4bb71gSmKvyDHq54JvjXAhKWpQiqWvX.jpg",
+        "timestamp": {
+          "$date": "2024-08-20T08:55:05.648Z"
+        },
+        "standalone_question": "Could you display the image from this link: https://t4.ftcdn.net/jpg/02/28/90/67/360_F_228906712_r4bb71gSmKvyDHq54JvjXAhKWpQiqWvX.jpg?",
+        "standalone_en": "Could you display the image from this link: https://t4.ftcdn.net/jpg/02/28/90/67/360_F_228906712_r4bb71gSmKvyDHq54JvjXAhKWpQiqWvX.jpg?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "![Image](https://t4.ftcdn.net/jpg/02/28/90/67/360_F_228906712_r4bb71gSmKvyDHq54JvjXAhKWpQiqWvX.jpg)",
+        "timestamp": {
+          "$date": "2024-08-20T08:55:05.648Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "![Alt text](https://assets.digitalocean.com/articles/alligator/boo.svg \"a title\")",
+        "timestamp": {
+          "$date": "2024-08-20T08:55:53.688Z"
+        },
+        "standalone_question": "What is the purpose of using alt text and titles in image markdown syntax?",
+        "standalone_en": "What is the purpose of using alt text and titles in image markdown syntax?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "![a title](https://assets.digitalocean.com/articles/alligator/boo.svg)",
+        "timestamp": {
+          "$date": "2024-08-20T08:55:53.688Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "![Alt text](https://t4.ftcdn.net/jpg/02/28/90/67/360_F_228906712_r4bb71gSmKvyDHq54JvjXAhKWpQiqWvX.jpg \"a title\")",
+        "timestamp": {
+          "$date": "2024-08-20T08:56:15.923Z"
+        },
+        "standalone_question": "What is the image displayed at the following URL: https://t4.ftcdn.net/jpg/02/28/90/67/360_F_228906712_r4bb71gSmKvyDHq54JvjXAhKWpQiqWvX.jpg, and can you provide a title for it?",
+        "standalone_en": "What is the image displayed at the following URL: https://t4.ftcdn.net/jpg/02/28/90/67/360_F_228906712_r4bb71gSmKvyDHq54JvjXAhKWpQiqWvX.jpg, and can you provide a title for it?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "![a title](https://t4.ftcdn.net/jpg/02/28/90/67/360_F_228906712_r4bb71gSmKvyDHq54JvjXAhKWpQiqWvX.jpg)",
+        "timestamp": {
+          "$date": "2024-08-20T08:56:15.923Z"
+        }
+      }
+    ],
+    "farmer_id": "asmitakodwatecoromandel",
+    "farmer_plot_ids": [
+      "adinarayanakairo4acre",
+      "adinarayananeroplot1",
+      "adinarayananeroplot2",
+      "amareshcapsicum",
+      "amgondthomsan2acar",
+      "anandamurthy",
+      "anandpomo1",
+      "anandfarm2",
+      "anandgrapefarms",
+      "anandpomegranate",
+      "anilsk",
+      "ridgeguard",
+      "pomegranate1161",
+      "pomegranate2603",
+      "shrinivasamurthygrapeplotseedless",
+      "basagondmanikchaman",
+      "basagondthomsan2acer",
+      "manirose",
+      "sharathpapaya",
+      "sharathtomatoplot"
+    ],
+    "conversation_id": "66c459801ab10970f26e0033",
+    "tag": "others",
+    "conv_date": "2024-08-20T08:53:39.588000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "what is the current temperature at Adinarayanakairo4acre",
+        "timestamp": {
+          "$date": "2024-08-20T07:28:55.570Z"
+        },
+        "standalone_question": "What is the current temperature at Adinarayanakairo4acre?",
+        "standalone_en": "What is the current temperature at Adinarayanakairo4acre?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The current temperature at Adinarayanakairo4acre is 31.4°C.",
+        "timestamp": {
+          "$date": "2024-08-20T07:28:55.570Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "show me last 6 hours historical weather data at this plot",
+        "timestamp": {
+          "$date": "2024-08-20T07:29:46.602Z"
+        },
+        "standalone_question": "Could you provide the historical weather data for the last 6 hours at Adinarayanakairo4acre?",
+        "standalone_en": "Could you provide the historical weather data for the last 6 hours at Adinarayanakairo4acre?",
+        "retrieval": {
+          "tools": [
+            "get_historical_hourly_weather_data  \nFetches hourly historical weather data from all plot sensors for the given datetime range, including air temperature, air humidity, and rainfall. Suitable only for less than 5 days duration.",
+            "get_historical_daily_weather_data  \nFetches daily historical weather data from all plot sensors for the given date range, including air temperature, air humidity, and rainfall. Suitable for larger durations.",
+            "get_hourly_weather_forecast  \nProvides hourly weather forecast for today and the next 4 days for the farmer's plots. Use only for forecast, not actual measured values.",
+            "get_hourly_soil_moisture_data  \nRetrieves historical hourly soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for less than 5 days duration.",
+            "get_daily_weather_forecast  \nProvides the next 14 days from today, daily weather forecast for the farmer's plots. Use only for forecast, not current values."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the historical weather data for the last 6 hours at Adinarayanakairo4acre:\n\n| Time (IST) | Temperature (°C) | Humidity (%) | Rainfall (mm) |\n|------------|-------------------|--------------|---------------|\n| 12:00 PM   | 23                | 98           | 0             |\n| 01:00 PM   | 25                | 95           | 0             |\n| 02:00 PM   | 27                | 84           | 0             |\n| 03:00 PM   | 29                | 74           | 0             |\n| 04:00 PM   | 30                | 70           | 0             |\n| 05:00 PM   | 31                | 66           | 0             |\n\nThe temperature has been gradually increasing over the past 6 hours, and there has been no rainfall.",
+        "timestamp": {
+          "$date": "2024-08-20T07:29:46.602Z"
+        }
+      }
+    ],
+    "farmer_id": "asmitakodwatecoromandel",
+    "farmer_plot_ids": [
+      "adinarayanakairo4acre",
+      "adinarayananeroplot1",
+      "adinarayananeroplot2",
+      "amareshcapsicum",
+      "amgondthomsan2acar",
+      "anandamurthy",
+      "anandpomo1",
+      "anandfarm2",
+      "anandgrapefarms",
+      "anandpomegranate",
+      "anilsk",
+      "ridgeguard",
+      "pomegranate1161",
+      "pomegranate2603",
+      "shrinivasamurthygrapeplotseedless",
+      "basagondmanikchaman",
+      "basagondthomsan2acer",
+      "manirose",
+      "sharathpapaya",
+      "sharathtomatoplot"
+    ],
+    "conversation_id": "66c445a71ab10970f26e0031",
+    "tag": "historical data",
+    "conv_date": "2024-08-20T07:28:55.570000+00:00"
+  }
+]

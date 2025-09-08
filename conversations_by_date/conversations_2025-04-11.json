@@ -1,0 +1,840 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पानी प्रमाण सांगा ",
+        "en": "State the water quantity ",
+        "timestamp": {
+          "$date": "2025-04-11T15:31:19.263Z"
+        },
+        "standalone_question": "What is the proof of water?",
+        "standalone_en": "What is the proof of water?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pani praman sanga "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot No.1\" साठी दिलेल्या तारखेत (11 एप्रिल 2025) पाण्याची आवश्यकता नाही. त्यामुळे सध्या पाणी देण्याची गरज नाही.",
+        "en": "The date provided for \"Plot No.1\" (11 April 2025) does not require watering. So there is no need to water at present.",
+        "timestamp": {
+          "$date": "2025-04-11T15:31:26.838Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पानी किती पहिजे ",
+        "en": "How much water should be ",
+        "timestamp": {
+          "$date": "2025-04-11T15:31:52.734Z"
+        },
+        "standalone_question": "How much water is needed?",
+        "standalone_en": "How much water is needed?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot No.1\" साठी पाण्याची आवश्यकता 2.79 तास आहे.",
+        "en": "The water requirement for \"Plot No.1\" is 2.79 hours.",
+        "timestamp": {
+          "$date": "2025-04-11T15:31:58.973Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पानी किती जास्त आहे ",
+        "en": "How much water is too much ",
+        "timestamp": {
+          "$date": "2025-04-11T15:32:24.620Z"
+        },
+        "standalone_question": "How much water is needed in excess?",
+        "standalone_en": "How much water is needed in excess?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pani kiti jast aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot No.1\" साठी सध्या पाण्याची आवश्यकता नाही. मातीतील आर्द्रता 94% आणि 95% आहे, जे की 60% च्या आदर्श पातळीपेक्षा जास्त आहे. त्यामुळे पाणी देण्याची गरज नाही.",
+        "en": "\"Plot No.1\" does not currently require water. Soil moisture is 94% and 95%, which is above the ideal level of 60%. Therefore, there is no need to provide water.",
+        "timestamp": {
+          "$date": "2025-04-11T15:32:30.737Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "या नतर पानी कधी द्यायचे ",
+        "en": "When to give water to this ",
+        "timestamp": {
+          "$date": "2025-04-11T15:33:05.826Z"
+        },
+        "standalone_question": "When should water be given next?",
+        "standalone_en": "When should water be given next?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": []
+        },
+        "content_transliterated": "ya natar pani kadhi dyayache "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot No.1\" साठी 12 एप्रिल 2025 ते 15 एप्रिल 2025 या कालावधीत पाण्याची आवश्यकता नाही. त्यामुळे या काळात पाणी देण्याची गरज नाही.",
+        "en": "\"Plot No.1\" does not require water during the period 12 April 2025 to 15 April 2025. Therefore, there is no need to give water during this time.",
+        "timestamp": {
+          "$date": "2025-04-11T15:33:11.097Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "खते काय द्यायचे आहे ",
+        "en": "What fertilizers to give ",
+        "timestamp": {
+          "$date": "2025-04-11T15:35:33.803Z"
+        },
+        "standalone_question": "What type of fertilizer should be used?",
+        "standalone_en": "What type of fertilizer should be used?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "khate kay dyayache aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot No.1\" साठी सध्या (11 एप्रिल 2025) कोणतीही खते देण्याची आवश्यकता नाही. \n\nपण पुढील फर्टिगेशनची वेळ 14 मे 2025 पासून आहे, जेव्हा तुम्हाला खालील खते वापरायची आहेत:\n\n### फोलिअर पद्धतीने:\n- **Ferrous Sulphate**: 800 ग्रॅम/एकर\n- **Manganese Sulphate**: 800 ग्रॅम/एकर\n\n### फर्टिगेशन पद्धतीने:\n1. **12-61-0**: 4 किलोग्राम/एकर\n   - **Calcium Nitrate**: 9 किलोग्राम/एकर\n2. **24-24-0**: 7.5 किलोग्राम/एकर\n   - **Phosphoric Acid 80%**: 1.5 किलोग्राम/एकर\n3. **Calcium Nitrate**: 12 किलोग्राम/एकर\n   - **Phosphoric Acid 80%**: 3.5 किलोग्राम/एकर\n\nकृपया लक्षात ठेवा की फॉस्फोरिक आम्ल इतर खते लागू करण्यापूर्वी 15-20 मिनिटे आधी लागू करावे आणि कॅल्शियम नायट्रेट इतर खते लागू केल्यानंतर 15-20 मिनिटे लागू करावे.",
+        "en": "No account is required to be paid for \"Plot No.1\" currently (11 April 2025). \n\nBut the next fertigation time is from 14th May 2025, when you want to use the following fertilizers:\n\n### Foliar Method:\n- Ferrous Sulphate: 800 g/acre\n- Manganese Sulphate: 800 g/acre\n\n### Fertigation Method:\n1. **12-61-0**: 4 kg/acre\n   - Calcium nitrate: 9 kg/acre\n2. **24-24-0**: 7.5 kg/acre\n   - Phosphoric Acid 80%: 1.5 kg/acre\n3. Calcium Nitrate: 12 kg/acre\n   - Phosphoric Acid 80%: 3.5 kg/acre\n\nPlease note that phosphoric acid should be applied 15-20 minutes before applying other accounts and 15-20 minutes after applying calcium nitrate other accounts.",
+        "timestamp": {
+          "$date": "2025-04-11T15:35:42.166Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "किड़ी साठी काई स्प्रे गरज आहे का ",
+        "en": "Is there a need for a moss spray for insects? ",
+        "timestamp": {
+          "$date": "2025-04-11T15:37:19.821Z"
+        },
+        "standalone_question": "Is any spray needed for pests?",
+        "standalone_en": "Is any spray needed for pests?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice."
+          ]
+        },
+        "content_transliterated": "kidi sathi kai spray garaj aahe ka "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot No.1\" साठी 11 एप्रिल 2025 ते 18 एप्रिल 2025 या कालावधीत कोणतीही कीड नियंत्रणासाठी स्प्रे करण्याची आवश्यकता नाही.",
+        "en": "\"Plot No.1\" does not require any pest control spraying during this period from 11 April 2025 to 18 April 2025.",
+        "timestamp": {
+          "$date": "2025-04-11T15:37:23.925Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पानी जास्त झाले तर काही अडचन येते का ",
+        "en": "If the water is high, is there any obstruction? ",
+        "timestamp": {
+          "$date": "2025-04-11T15:38:21.818Z"
+        },
+        "standalone_question": "Does having too much water cause any problems?",
+        "standalone_en": "Does having too much water cause any problems?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pani jast jhale tar kahi adachan yete ka "
+      },
+      {
+        "role": "assistant",
+        "content": "होय, पाण्याचे प्रमाण जास्त झाल्यास काही अडचणी येऊ शकतात:\n\n1. **मातीची आर्द्रता**: जास्त पाण्यामुळे मातीची आर्द्रता वाढते, ज्यामुळे मातीमध्ये ऑक्सिजनची कमतरता होऊ शकते. यामुळे वनस्पतींच्या मुळांना हानी पोहोचू शकते.\n\n2. **रूग्णता**: जास्त पाण्यामुळे विविध रोगांचा प्रसार होऊ शकतो, जसे की मुळांची सड, बॅक्टेरियल रोग, इत्यादी.\n\n3. **पाण्याचा अपव्यय**: अधिक पाण्यामुळे पाण्याचा अपव्यय होतो, ज्यामुळे जलस्रोतांवर ताण येतो.\n\n4. **पोषणाची कमतरता**: जास्त पाण्यामुळे मातीतील पोषण तत्वे धुतली जाऊ शकतात, ज्यामुळे वनस्पतींच्या वाढीवर परिणाम होतो.\n\nत्यामुळे, पाण्याचे प्रमाण योग्य राखणे महत्त्वाचे आहे.",
+        "en": "Yes, high water content can cause some problems:\n\n1. **Soil moisture**: Too much water increases soil moisture, which can lead to a lack of oxygen in the soil. This can damage the roots of plants.\n\n2. **Morbidity**: Too much water can lead to the spread of various diseases, such as root rot, bacterial diseases, etc.\n\n3. **Water wastage**: Too much water leads to water wastage, which puts pressure on water resources.\n\n4. **Nutritional deficiency**: Too much water can wash away nutrients in the soil, which affects plant growth.\n\nTherefore, it is important to maintain the right water content.",
+        "timestamp": {
+          "$date": "2025-04-11T15:38:30.066Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "खुप खुप धन्यवाद ",
+        "en": "Thank you very much. ",
+        "timestamp": {
+          "$date": "2025-04-11T15:39:24.803Z"
+        },
+        "standalone_question": "What are the potential issues that can arise from excessive water?",
+        "standalone_en": "What are the potential issues that can arise from excessive water?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "khup khup dhanyavad "
+      },
+      {
+        "role": "assistant",
+        "content": "आपले स्वागत आहे! आपल्याला आणखी काही मदतीची आवश्यकता असल्यास, कृपया सांगा. शुभ कृषी!",
+        "en": "Welcome! If you need any more help, please let me know. Good agriculture!",
+        "timestamp": {
+          "$date": "2025-04-11T15:39:28.230Z"
+        }
+      }
+    ],
+    "farmer_id": "sandipkale",
+    "farmer_plot_ids": [
+      "plotno1224"
+    ],
+    "conversation_id": "67f935c7929108ff7a7d5428",
+    "_id": "67f935c7929108ff7a7d5428",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-11T15:44:24.813000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-04-11T15:31:19.263000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पानी प्रमाण सांगा ",
+        "en": "State the water quantity ",
+        "timestamp": {
+          "$date": "2025-04-11T15:31:19.263Z"
+        },
+        "standalone_question": "What is the proof of water?",
+        "standalone_en": "What is the proof of water?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pani praman sanga "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot No.1\" साठी दिलेल्या तारखेत (11 एप्रिल 2025) पाण्याची आवश्यकता नाही. त्यामुळे सध्या पाणी देण्याची गरज नाही.",
+        "en": "The date provided for \"Plot No.1\" (11 April 2025) does not require watering. So there is no need to water at present.",
+        "timestamp": {
+          "$date": "2025-04-11T15:31:26.838Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पानी किती पहिजे ",
+        "en": "How much water should be ",
+        "timestamp": {
+          "$date": "2025-04-11T15:31:52.734Z"
+        },
+        "standalone_question": "How much water is needed?",
+        "standalone_en": "How much water is needed?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot No.1\" साठी पाण्याची आवश्यकता 2.79 तास आहे.",
+        "en": "The water requirement for \"Plot No.1\" is 2.79 hours.",
+        "timestamp": {
+          "$date": "2025-04-11T15:31:58.973Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पानी किती जास्त आहे ",
+        "en": "How much water is too much ",
+        "timestamp": {
+          "$date": "2025-04-11T15:32:24.620Z"
+        },
+        "standalone_question": "How much water is excessive?",
+        "standalone_en": "How much water is excessive?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pani kiti jast aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot No.1\" साठी सध्या पाण्याची आवश्यकता नाही. मातीतील आर्द्रता 94% आणि 95% आहे, जे की 60% च्या आदर्श पातळीपेक्षा जास्त आहे. त्यामुळे पाणी देण्याची गरज नाही.",
+        "en": "\"Plot No.1\" does not currently require water. Soil moisture is 94% and 95%, which is above the ideal level of 60%. Therefore, there is no need to provide water.",
+        "timestamp": {
+          "$date": "2025-04-11T15:32:30.737Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "या नतर पानी कधी द्यायचे ",
+        "en": "When to give water to this ",
+        "timestamp": {
+          "$date": "2025-04-11T15:33:05.826Z"
+        },
+        "standalone_question": "When should water be given next?",
+        "standalone_en": "When should water be given next?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": []
+        },
+        "content_transliterated": "ya natar pani kadhi dyayache "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot No.1\" साठी 12 एप्रिल 2025 ते 15 एप्रिल 2025 या कालावधीत पाण्याची आवश्यकता नाही. त्यामुळे या काळात पाणी देण्याची गरज नाही.",
+        "en": "\"Plot No.1\" does not require water during the period 12 April 2025 to 15 April 2025. Therefore, there is no need to give water during this time.",
+        "timestamp": {
+          "$date": "2025-04-11T15:33:11.097Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "खते काय द्यायचे आहे ",
+        "en": "What fertilizers to give ",
+        "timestamp": {
+          "$date": "2025-04-11T15:35:33.803Z"
+        },
+        "standalone_question": "What type of fertilizer should be used?",
+        "standalone_en": "What type of fertilizer should be used?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "khate kay dyayache aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot No.1\" साठी सध्या (11 एप्रिल 2025) कोणतीही खते देण्याची आवश्यकता नाही. \n\nपण पुढील फर्टिगेशनची वेळ 14 मे 2025 पासून आहे, जेव्हा तुम्हाला खालील खते वापरायची आहेत:\n\n### फोलिअर पद्धतीने:\n- **Ferrous Sulphate**: 800 ग्रॅम/एकर\n- **Manganese Sulphate**: 800 ग्रॅम/एकर\n\n### फर्टिगेशन पद्धतीने:\n1. **12-61-0**: 4 किलोग्राम/एकर\n   - **Calcium Nitrate**: 9 किलोग्राम/एकर\n2. **24-24-0**: 7.5 किलोग्राम/एकर\n   - **Phosphoric Acid 80%**: 1.5 किलोग्राम/एकर\n3. **Calcium Nitrate**: 12 किलोग्राम/एकर\n   - **Phosphoric Acid 80%**: 3.5 किलोग्राम/एकर\n\nकृपया लक्षात ठेवा की फॉस्फोरिक आम्ल इतर खते लागू करण्यापूर्वी 15-20 मिनिटे आधी लागू करावे आणि कॅल्शियम नायट्रेट इतर खते लागू केल्यानंतर 15-20 मिनिटे लागू करावे.",
+        "en": "No account is required to be paid for \"Plot No.1\" currently (11 April 2025). \n\nBut the next fertigation time is from 14th May 2025, when you want to use the following fertilizers:\n\n### Foliar Method:\n- Ferrous Sulphate: 800 g/acre\n- Manganese Sulphate: 800 g/acre\n\n### Fertigation Method:\n1. **12-61-0**: 4 kg/acre\n   - Calcium nitrate: 9 kg/acre\n2. **24-24-0**: 7.5 kg/acre\n   - Phosphoric Acid 80%: 1.5 kg/acre\n3. Calcium Nitrate: 12 kg/acre\n   - Phosphoric Acid 80%: 3.5 kg/acre\n\nPlease note that phosphoric acid should be applied 15-20 minutes before applying other accounts and 15-20 minutes after applying calcium nitrate other accounts.",
+        "timestamp": {
+          "$date": "2025-04-11T15:35:42.166Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "किड़ी साठी काई स्प्रे गरज आहे का ",
+        "en": "Is there a need for a moss spray for insects? ",
+        "timestamp": {
+          "$date": "2025-04-11T15:37:19.821Z"
+        },
+        "standalone_question": "Is any spray needed for pests?",
+        "standalone_en": "Is any spray needed for pests?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice."
+          ]
+        },
+        "content_transliterated": "kidi sathi kai spray garaj aahe ka "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot No.1\" साठी 11 एप्रिल 2025 ते 18 एप्रिल 2025 या कालावधीत कोणतीही कीड नियंत्रणासाठी स्प्रे करण्याची आवश्यकता नाही.",
+        "en": "\"Plot No.1\" does not require any pest control spraying during this period from 11 April 2025 to 18 April 2025.",
+        "timestamp": {
+          "$date": "2025-04-11T15:37:23.925Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पानी जास्त झाले तर काही अडचन येते का ",
+        "en": "If the water is high, is there any obstruction? ",
+        "timestamp": {
+          "$date": "2025-04-11T15:38:21.818Z"
+        },
+        "standalone_question": "Does having too much water cause any problems?",
+        "standalone_en": "Does having too much water cause any problems?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pani jast jhale tar kahi adachan yete ka "
+      },
+      {
+        "role": "assistant",
+        "content": "होय, पाण्याचे प्रमाण जास्त झाल्यास काही अडचणी येऊ शकतात:\n\n1. **मातीची आर्द्रता**: जास्त पाण्यामुळे मातीची आर्द्रता वाढते, ज्यामुळे मातीमध्ये ऑक्सिजनची कमतरता होऊ शकते. यामुळे वनस्पतींच्या मुळांना हानी पोहोचू शकते.\n\n2. **रूग्णता**: जास्त पाण्यामुळे विविध रोगांचा प्रसार होऊ शकतो, जसे की मुळांची सड, बॅक्टेरियल रोग, इत्यादी.\n\n3. **पाण्याचा अपव्यय**: अधिक पाण्यामुळे पाण्याचा अपव्यय होतो, ज्यामुळे जलस्रोतांवर ताण येतो.\n\n4. **पोषणाची कमतरता**: जास्त पाण्यामुळे मातीतील पोषण तत्वे धुतली जाऊ शकतात, ज्यामुळे वनस्पतींच्या वाढीवर परिणाम होतो.\n\nत्यामुळे, पाण्याचे प्रमाण योग्य राखणे महत्त्वाचे आहे.",
+        "en": "Yes, high water content can cause some problems:\n\n1. **Soil moisture**: Too much water increases soil moisture, which can lead to a lack of oxygen in the soil. This can damage the roots of plants.\n\n2. **Morbidity**: Too much water can lead to the spread of various diseases, such as root rot, bacterial diseases, etc.\n\n3. **Water wastage**: Too much water leads to water wastage, which puts pressure on water resources.\n\n4. **Nutritional deficiency**: Too much water can wash away nutrients in the soil, which affects plant growth.\n\nTherefore, it is important to maintain the right water content.",
+        "timestamp": {
+          "$date": "2025-04-11T15:38:30.066Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "खुप खुप धन्यवाद ",
+        "en": "Thank you very much. ",
+        "timestamp": {
+          "$date": "2025-04-11T15:39:24.803Z"
+        },
+        "standalone_question": "What are the potential issues that can arise from excessive water?",
+        "standalone_en": "What are the potential issues that can arise from excessive water?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "khup khup dhanyavad "
+      },
+      {
+        "role": "assistant",
+        "content": "आपले स्वागत आहे! आपल्याला आणखी काही मदतीची आवश्यकता असल्यास, कृपया सांगा. शुभ कृषी!",
+        "en": "Welcome! If you need any more help, please let me know. Good agriculture!",
+        "timestamp": {
+          "$date": "2025-04-11T15:39:28.230Z"
+        }
+      }
+    ],
+    "farmer_id": "sandipkale",
+    "farmer_plot_ids": [
+      "plotno1224"
+    ],
+    "conversation_id": "67f935c7929108ff7a7d5428",
+    "_id": "67f935c7929108ff7a7d5428",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-11T15:44:24.813000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-11T15:31:19.263000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Yasg",
+        "en": "Yasg",
+        "timestamp": {
+          "$date": "2025-04-11T14:40:21.569Z"
+        },
+        "standalone_question": "What does \"Yasg\" mean?",
+        "standalone_en": "What does \"Yasg\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया आपला प्रश्न किंवा आवश्यकता स्पष्ट करा, मी मदत करण्यास तयार आहे!",
+        "en": "Please clarify your question or need, I'm willing to help!",
+        "timestamp": {
+          "$date": "2025-04-11T14:40:24.038Z"
+        }
+      }
+    ],
+    "farmer_id": "jagdishgambhire",
+    "farmer_plot_ids": [
+      "plotno1thompson348",
+      "plotno2sudhakar492"
+    ],
+    "conversation_id": "67f929d557221d33846d21bf",
+    "_id": "67f929d557221d33846d21bf",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-11T14:45:21.575000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-11T14:40:21.569000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पानी जास्त झाले का ",
+        "en": "is the water too high ",
+        "timestamp": {
+          "$date": "2025-04-11T10:17:03.531Z"
+        },
+        "standalone_question": "Has the water level increased?",
+        "standalone_en": "Has the water level increased?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या \"Plot No.1\" मध्ये मातीची आर्द्रता 100% आणि 98% आहे, म्हणजेच पाणी जास्त झाले आहे. त्यामुळे, सध्या पाण्याची गरज नाही. जर तुम्हाला आणखी काही माहिती हवी असेल तर सांगा.",
+        "en": "The soil humidity in your \"Plot No.1\" is 100% and 98%, i.e., the water has become excessive. So, there is no need for water at present. Let me know if you need any more information.",
+        "timestamp": {
+          "$date": "2025-04-11T10:17:09.243Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पानी जास्त झाल्यामुळे कही अडचन येईल का ",
+        "en": "Will there be any obstruction due to excess water? ",
+        "timestamp": {
+          "$date": "2025-04-11T10:18:27.553Z"
+        },
+        "standalone_question": "Will there be any issues due to the excess water?",
+        "standalone_en": "Will there be any issues due to the excess water?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pani jast jhalyamule kahi adachan yeil ka "
+      },
+      {
+        "role": "assistant",
+        "content": "पाण्याची जास्ती मुळे काही अडचणी येऊ शकतात, जसे की:\n\n1. **मातीची वायू संचार कमी होणे**: जास्त पाण्यामुळे मातीतील वायू संचार कमी होऊ शकतो, ज्यामुळे मुळांना ऑक्सिजन कमी मिळतो.\n\n2. **रूग्णता**: जास्त पाण्यामुळे मुळांमध्ये सडण्याची शक्यता वाढते, ज्यामुळे विविध रोगांचा धोका वाढतो.\n\n3. **पाण्याचा अपव्यय**: जास्त पाण्यामुळे पाण्याचा अपव्यय होतो, ज्यामुळे आर्थिक नुकसान होऊ शकते.\n\nआपण पाण्याची पातळी नियंत्रित ठेवणे महत्त्वाचे आहे. जर तुम्हाला आणखी काही माहिती हवी असेल तर सांगा.",
+        "en": "Excess water can cause some problems, such as:\n\n1. **Decreased soil gas circulation**: More water can reduce gas circulation in the soil, which provides less oxygen to the roots.\n\n2. **Morbidity**: Too much water increases the chances of rotting in the roots, which increases the risk of various diseases.\n\n3. **Water wastage**: Excessive water leads to water wastage, which can lead to economic losses.\n\nIt is important that you keep the water level under control. If you need any more information, let me know.",
+        "timestamp": {
+          "$date": "2025-04-11T10:18:32.858Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "वापसा कधी येईल ",
+        "en": "When will the return come? ",
+        "timestamp": {
+          "$date": "2025-04-11T10:19:34.732Z"
+        },
+        "standalone_question": "When will the rain come?",
+        "standalone_en": "When will the rain come?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "vapsa kadhi yeil "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot No.1\" साठी आज पाण्याची गरज नाही. त्यामुळे, आज किंवा या तारखेत पाण्याची आवश्यकता नाही. जर तुम्हाला आणखी काही माहिती हवी असेल तर सांगा.",
+        "en": "\"Plot No.1\" does not require water today. So, there is no need for water today or today. Let me know if you need any more information.",
+        "timestamp": {
+          "$date": "2025-04-11T10:19:39.775Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पानी तानमुळे खोड किड वाढते का ",
+        "en": "Does water stress increase trunk decay? ",
+        "timestamp": {
+          "$date": "2025-04-11T10:21:10.440Z"
+        },
+        "standalone_question": "Does excess water lead to an increase in trunk pests?",
+        "standalone_en": "Does excess water lead to an increase in trunk pests?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pani tanamule khod kid vadhate ka "
+      },
+      {
+        "role": "assistant",
+        "content": "होय, पाण्याची ताणमुळे खोड किड (Stem Borer) वाढण्याची शक्यता असते. जास्त पाण्यामुळे मुळांमध्ये ऑक्सिजनची कमतरता होते, ज्यामुळे पानांमध्ये ताण येतो. यामुळे किडींचा प्रादुर्भाव वाढू शकतो.\n\nतुमच्या \"Plot No.1\" मध्ये पाण्याची जास्ती असल्यामुळे, खोड किडींचा धोका वाढू शकतो. यासाठी, पाण्याची पातळी नियंत्रित ठेवणे आणि नियमितपणे पिकांची तपासणी करणे महत्त्वाचे आहे. जर तुम्हाला आणखी काही माहिती हवी असेल तर सांगा.",
+        "en": "Yes, water stress is likely to increase stem borer. Too much water causes a lack of oxygen in the roots, which causes stress in the leaves. This can lead to an increase in insect infestation.\n\nWith excess water in your \"Plot No.1,\" the risk of trunk pests may increase. For this, it is important to keep the water level under control and check the crops regularly. If you need any more information, let me know.",
+        "timestamp": {
+          "$date": "2025-04-11T10:21:14.910Z"
+        }
+      }
+    ],
+    "farmer_id": "sandipkale",
+    "farmer_plot_ids": [
+      "plotno1224"
+    ],
+    "conversation_id": "67f8ec1f99a0a1c3e775fad6",
+    "_id": "67f8ec1f99a0a1c3e775fad6",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-11T10:26:10.448000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-11T10:17:03.531000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "कॅल्शियम नायट्रेट चे काय उपयोग आहेत",
+        "en": "What are the uses of calcium nitrate?",
+        "timestamp": {
+          "$date": "2025-04-11T05:59:56.143Z"
+        },
+        "standalone_question": "What are the uses of calcium nitrate?",
+        "standalone_en": "What are the uses of calcium nitrate?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "calcium nitrate che kay upayog ahet"
+      },
+      {
+        "role": "assistant",
+        "content": "कॅल्शियम नायट्रेट (Ca(NO3)2) एक महत्त्वाचा खते आहे ज्याचा उपयोग विविध प्रकारच्या पिकांसाठी केला जातो. याचे काही प्रमुख उपयोग खालीलप्रमाणे आहेत:\n\n1. **नायट्रोजन स्रोत**: कॅल्शियम नायट्रेट नायट्रोजनचा एक उत्कृष्ट स्रोत आहे, जो पिकांच्या वाढीसाठी आवश्यक आहे.\n\n2. **कॅल्शियम पुरवठा**: यामध्ये कॅल्शियम असतो, जो मुळांच्या विकासासाठी आणि पिकांच्या आरोग्यासाठी आवश्यक आहे.\n\n3. **पाण्याची धारणा सुधारते**: कॅल्शियम नायट्रेट मातीच्या संरचनेत सुधारणा करते, ज्यामुळे पाण्याची धारणा आणि वायुवीजन सुधारते.\n\n4. **फळांच्या गुणवत्तेत सुधारणा**: याचा वापर फळांच्या गुणवत्तेत सुधारणा करण्यासाठी केला जातो, विशेषतः फळांच्या आकारात आणि चवीत.\n\n5. **पिकांच्या रोगप्रतिबंधक क्षमतेत वाढ**: कॅल्शियम नायट्रेट पिकांच्या रोगप्रतिबंधक क्षमतेत वाढ करण्यास मदत करते.\n\n6. **पिकांच्या उत्पादनात वाढ**: याचा नियमित वापर पिकांच्या उत्पादनात वाढ करण्यास मदत करतो.\n\nकॅल्शियम नायट्रेटचा वापर करताना, योग्य प्रमाणात आणि पिकांच्या आवश्यकतेनुसार वापरणे महत्त्वाचे आहे.",
+        "en": "Calcium nitrate (Ca(NO3)2) is an important fertilizer that is used for a variety of crops. Some of its major uses are as follows:\n\n1. **Nitrogen Source**: Calcium nitrate is an excellent source of nitrogen, which is essential for the growth of crops.\n\n2. **Calcium Supply**: It contains calcium, which is essential for the development of roots and the health of crops.\n\n3. **Improves water retention**: Calcium nitrate improves soil structure, thereby improving water retention and ventilation.\n\n4. **Improvement in fruit quality**: It is used to improve the quality of fruits, especially in the shape and taste of fruits.\n\n5. **Increase the immunity of crops**: Calcium nitrate helps in increasing the immunity of crops.\n\n6. **Increase crop yield**: Its regular use helps in increasing the production of crops.\n\nWhen using calcium nitrate, it is important to use it in the right amount and according to the needs of the crops.",
+        "timestamp": {
+          "$date": "2025-04-11T06:00:03.457Z"
+        }
+      }
+    ],
+    "farmer_id": "sachindranmalnari",
+    "farmer_plot_ids": [
+      "anushkaplot258"
+    ],
+    "conversation_id": "67f8afdb54bcb262bfa8a86f",
+    "_id": "67f8afdb54bcb262bfa8a86f",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-11T06:04:56.150000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-11T05:59:56.143000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What I should provide to chrysanthemum 15days after plantation ",
+        "en": "What I should provide to chrysanthemum 15days after plantation ",
+        "timestamp": {
+          "$date": "2025-04-11T05:09:35.283Z"
+        },
+        "standalone_question": "What should I provide to a chrysanthemum 15 days after planting?",
+        "standalone_en": "What should I provide to a chrysanthemum 15 days after planting?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For chrysanthemum, 15 days after plantation, you should focus on the following:\n\n1. **Watering**: Ensure consistent moisture in the soil, but avoid waterlogging.\n2. **Fertilization**: Apply a balanced fertilizer, such as a 20-20-20 NPK, to promote healthy growth. Follow the recommended dosage based on soil tests.\n3. **Pest Control**: Monitor for pests like aphids and spider mites. Use appropriate insecticides if necessary.\n4. **Weed Control**: Keep the area weed-free to reduce competition for nutrients and water.\n\nMake sure to adjust these recommendations based on local conditions and soil health.",
+        "en": "For chrysanthemum, 15 days after plantation, you should focus on the following:\n\n1. **Watering**: Ensure consistent moisture in the soil, but avoid waterlogging.\n2. **Fertilization**: Apply a balanced fertilizer, such as a 20-20-20 NPK, to promote healthy growth. Follow the recommended dosage based on soil tests.\n3. **Pest Control**: Monitor for pests like aphids and spider mites. Use appropriate insecticides if necessary.\n4. **Weed Control**: Keep the area weed-free to reduce competition for nutrients and water.\n\nMake sure to adjust these recommendations based on local conditions and soil health.",
+        "timestamp": {
+          "$date": "2025-04-11T05:09:38.965Z"
+        }
+      }
+    ],
+    "farmer_id": "mohankumar",
+    "farmer_plot_ids": [
+      "rrplot"
+    ],
+    "conversation_id": "67f8a40f57221d33846d21be",
+    "_id": "67f8a40f57221d33846d21be",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-11T05:14:35.292000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-11T05:09:35.283000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "डोला कसा फुटत आहे ",
+        "en": "How Dola is bursting ",
+        "timestamp": {
+          "$date": "2025-04-11T05:06:29.263Z"
+        },
+        "standalone_question": "How is the Dola breaking?",
+        "standalone_en": "How is the Dola breaking?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "dola kasa phutat aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"Plot No.1\" मध्ये सध्या \"Break Bud\" (डोला फुटणे) चा सक्रिय टप्पा आहे, जो 9 एप्रिल 2025 पासून सुरू झाला आहे. या टप्प्यात, द्राक्षांच्या वेलींमध्ये नवीन कोंब फुटण्याची प्रक्रिया सुरू होते. \n\nजर तुम्हाला अधिक माहिती हवी असेल किंवा काही विशिष्ट प्रश्न असतील, तर कृपया सांगा!",
+        "en": "Your \"Plot No.1\" currently has the active phase of \"Break Bud\", which started on April 9, 2025. In this stage, the process of sprouting new shoots in the vines of the grapes begins. \n\nIf you need more information or have specific questions, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-11T05:06:33.120Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "फुट एकसारखी आहे का ",
+        "en": "Is the foot the same? ",
+        "timestamp": {
+          "$date": "2025-04-11T05:07:20.386Z"
+        },
+        "standalone_question": "Is the growth uniform?",
+        "standalone_en": "Is the growth uniform?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "foot ekasarakhi aahe ka "
+      },
+      {
+        "role": "assistant",
+        "content": "डोला फुटण्याची प्रक्रिया एकसारखी नसते. प्रत्येक वेल, त्याच्या आरोग्य, मातीच्या स्थिती, पाण्याची उपलब्धता, आणि हवामान यांवर अवलंबून असते. काही वेल लवकर डोला फुटतात, तर काही थोडा उशीर करतात. \n\nतुमच्या \"Plot No.1\" मध्ये, जर तुम्हाला डोल्याच्या फुटण्याच्या स्थितीबद्दल अधिक माहिती हवी असेल, तर मी सध्या उपलब्ध डेटा तपासू शकतो. तुम्हाला काही विशिष्ट माहिती हवी आहे का?",
+        "en": "The process of rupture of the head is not uniform. Each vine depends on its health, soil conditions, water availability, and weather. Some vines burst early, while others delay a little. \n\nIn your \"Plot No.1,\" if you want more information about the state of the ankle rupture, I can check the data currently available. Do you want any specific information?",
+        "timestamp": {
+          "$date": "2025-04-11T05:07:26.026Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "उडदया आहे का ",
+        "en": "Is it flying? ",
+        "timestamp": {
+          "$date": "2025-04-11T05:08:19.920Z"
+        },
+        "standalone_question": "Is the growth uniform?",
+        "standalone_en": "Is the growth uniform?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "udadaya aahe ka "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"Plot No.1\" मध्ये सध्या मातीची आर्द्रता 92% आहे, जी चांगली आहे. याचा अर्थ माती सध्या ओलसर आहे आणि तुम्हाला जलसिंचनाची आवश्यकता नाही.\n\nतुमच्या द्राक्षांच्या वेलांचा सक्रिय टप्पा \"Break Bud\" आहे, जो 9 एप्रिल 2025 पासून सुरू झाला आहे. या टप्प्यात, नवीन कोंब फुटण्याची प्रक्रिया सुरू आहे.\n\nतथापि, हवामानाच्या ऐतिहासिक डेटाची माहिती उपलब्ध नाही कारण तुमच्या यंत्रात हवामान सेन्सर नाहीत. त्यामुळे, तापमान किंवा पर्जन्याच्या स्थितीबद्दल माहिती मिळवता येत नाही.\n\nजर तुम्हाला मातीच्या आर्द्रतेबद्दल काही शंका असतील, तर तुम्ही सेन्सरच्या आसपास माती खोदून पाहू शकता. जर माती ओलसर असेल आणि सेन्सर शुष्क दाखवत असेल, तर सेन्सर खराब झाला असू शकतो. तुम्हाला याबाबत तिकीट उघडायचे आहे का?",
+        "en": "Your \"Plot No.1\" currently has soil moisture of 92%, which is good. This means the soil is currently moist and you don't need irrigation.\n\nThe active phase of your grape vines is \"Break Bud,\"which began on April 9, 2025. In this phase, the process of breaking up a new comb is underway.\n\nHowever, historical weather data is not available because your machine does not have weather sensors. Therefore, information about temperature or precipitation conditions cannot be obtained.\n\nIf you have any doubts about soil moisture, you can dig the soil around the sensor. If the soil is moist and the sensor shows dry, the sensor may have been damaged. Do you want to open a ticket for this?",
+        "timestamp": {
+          "$date": "2025-04-11T05:08:35.185Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "बगेला पानी कमी आहे का ",
+        "en": "Is there less water in the garden? ",
+        "timestamp": {
+          "$date": "2025-04-11T05:09:48.373Z"
+        },
+        "standalone_question": "Is there a shortage of water in the field?",
+        "standalone_en": "Is there a shortage of water in the field?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil."
+          ]
+        },
+        "content_transliterated": "bagela pani kami aahe ka "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"Plot No.1\" मध्ये सध्या मातीची आर्द्रता 92% आहे, जी 60% च्या आदर्श पातळीपेक्षा खूप जास्त आहे. त्यामुळे, सध्या जलसिंचनाची आवश्यकता नाही. \n\nजर तुम्हाला आणखी काही माहिती हवी असेल, तर कृपया सांगा!",
+        "en": "Your \"Plot No.1\" currently has soil moisture of 92%, which is much higher than the ideal level of 60%. Therefore, there is no need for water irrigation at present. \n\nIf you need any more information, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-11T05:09:53.209Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "काही स्प्रे गार्जेचा आहे का ",
+        "en": "Is there any spray gargoyle? ",
+        "timestamp": {
+          "$date": "2025-04-11T05:10:45.174Z"
+        },
+        "standalone_question": "Is there any spray for the garden?",
+        "standalone_en": "Is there any spray for the garden?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        },
+        "content_transliterated": "kahi spray garjecha aahe ka "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"Plot No.1\" साठी 11 एप्रिल 2025 ते 18 एप्रिल 2025 दरम्यान कोणतेही स्प्रे गार्जेचे शेड्यूल नाही. त्यामुळे सध्या स्प्रे करण्याची आवश्यकता नाही.\n\nजर तुम्हाला आणखी काही माहिती हवी असेल, तर कृपया सांगा!",
+        "en": "There is no spray garage schedule for your \"Plot No.1\" between April 11, 2025 and April 18, 2025. So there is no need to spray at present.\n\nIf you need any more information, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-11T05:10:49.973Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "धन्यवाद ",
+        "en": "thank you ",
+        "timestamp": {
+          "$date": "2025-04-11T05:11:08.364Z"
+        },
+        "standalone_question": "Thank you.",
+        "standalone_en": "Thank you.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "dhanyavad "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमचे स्वागत आहे! तुम्हाला आणखी काही विचारायचे असल्यास, कृपया सांगा. तुमच्या शेतीसाठी शुभेच्छा!",
+        "en": "Welcome! If you have anything else to ask, please let me know. Good luck with your farm!",
+        "timestamp": {
+          "$date": "2025-04-11T05:11:10.905Z"
+        }
+      }
+    ],
+    "farmer_id": "sandipkale",
+    "farmer_plot_ids": [
+      "plotno1224"
+    ],
+    "conversation_id": "67f8a354a3fc4f6440ef3bab",
+    "_id": "67f8a354a3fc4f6440ef3bab",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-11T05:16:08.371000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-04-11T05:06:29.263000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "હાલમા મારા ખેતરમા શાની જરૂર છે",
+        "en": "What's needed on my farm right now?",
+        "timestamp": {
+          "$date": "2025-04-11T02:25:18.173Z"
+        },
+        "standalone_question": "What does my field need right now?",
+        "standalone_en": "What does my field need right now?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "halma mara khetarama shani jarur che"
+      },
+      {
+        "role": "assistant",
+        "content": "હાલમાં તમારા ખેતરમાં (Aba valo plot) નીચેની જરૂર છે:\n\n1. **ફર્ટિગેશન**:\n   - **હાલની સ્થિતિ**: હાલમાં કોઈ ફર્ટિગેશનની જરૂર નથી.\n   - **આગામી ફર્ટિગેશન**: \n     - **પોડ ફોર્મેશન અને ડેવલપમેન્ટ** (1મી સપ્તાહ) માટે, 12 એપ્રિલ 2025થી શરૂ થશે.\n       - **ફોલિયર પદ્ધતિ**: \n         - ઝિંક સલ્ફેટ: 1 કિલોગ્રામ/એકર\n         - ફેરસ સલ્ફેટ: 800 ગ્રામ/એકર\n       - **ફર્ટિગેશન પદ્ધતિ**:\n         - પોટેશિયમ નાઇટ્રેટ: 6 કિલોગ્રામ/એકર\n         - કૅલ્શિયમ નાઇટ્રેટ: 3 કિલોગ્રામ/એકર (અન્ય ખાતરોની લાગુ કરવાની 15-20 મિનિટ પછી)\n         - અથવા\n         - યુરિયા: 1.5 કિલોગ્રામ/એકર\n         - સલ્ફેટ ઓફ પોટાશ: 5.5 કિલોગ્રામ/એકર\n         - કૅલ્શિયમ નાઇટ્રેટ: 3 કિલોગ્રામ/એકર\n\n2. **પેસ્ટ અને રોગ સ્પ્રે**: હાલમાં કોઈ સ્પ્રેની જરૂર નથી.\n\n3. **જળ આપવું**: \n   - **મૂળભૂત ભેજ**: \n     - જમીન ભેજ 1: 66%\n     - જમીન ભેજ 2: 91%\n   - **ઓપ્ટિમલ ભેજ**: 60%\n   - **જળ આપવાની જરૂર નથી**, કારણ કે જમીન ભેજ ઓપ્ટિમલ મૂલ્ય કરતાં વધુ છે.\n\nજો તમને વધુ માહિતી અથવા મદદની જરૂર હોય, તો મને જણાવો!",
+        "en": "Currently on your farm (Aba valo plot) the following is required:\n\n1. **Fertigation**:\n   * **Current status**: No fertigation is currently required.\n   - **Next Fertigation**: \n     - For **Pod Formation and Development** (1st week), will start from April 12, 2025.\n       - **Foliar method**: \n         - Zinc sulfate: 1 kg/acre\n         Ferrous sulfate: 800 g/acre\n       - **Fertigation method**:\n         Potassium nitrate: 6 kg/acre\n         Calcium nitrate: 3 kg/acre (15-20 minutes after applying other fertilizers)\n         -or\n         Urea: 1.5 kg/acre\n         - Sulphate of potash: 5.5 kg/acre\n         Calcium nitrate: 3 kg/acre\n\n2. **Paste and disease spray**: No spray is currently required.\n\n3. **Watering**: \n   - **Basic moisture**: \n     Soil moisture 1: 66%\n     Soil moisture 2: 91%\n   * **Optimal Humidity**: 60%\n   - **There is no need to give water**, because the soil moisture is greater than the optimal value.\n\nIf you need more information or help, let me know!",
+        "timestamp": {
+          "$date": "2025-04-11T02:25:28.577Z"
+        }
+      }
+    ],
+    "farmer_id": "tejabhaihemabhaipatel",
+    "farmer_plot_ids": [
+      "abavaloplot"
+    ],
+    "conversation_id": "67f87d8d929108ff7a7d5426",
+    "_id": "67f87d8d929108ff7a7d5426",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-11T02:30:18.179000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-11T02:25:18.173000+00:00"
+  }
+]

@@ -1,0 +1,280 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पाण्याची गरज आहे का ",
+        "timestamp": {
+          "$date": "2024-11-12T15:57:49.546Z"
+        },
+        "standalone_question": "Do you need water?",
+        "standalone_en": "Do you need water?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "panyachi garaj aahe ka "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot no 1\" साठी पाण्याची गरज नाही. सध्या मातीची आर्द्रता 13 kPa आणि 15 kPa आहे, जी आदर्श 24 kPa पेक्षा कमी आहे. त्यामुळे पाण्याची आवश्यकता नाही.",
+        "timestamp": {
+          "$date": "2024-11-12T15:57:54.580Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "खतांची गरज आहे का ",
+        "timestamp": {
+          "$date": "2024-11-12T15:58:27.750Z"
+        },
+        "standalone_question": "Is there a need for fertilizer?",
+        "standalone_en": "Is there a need for fertilizer?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "khatanchi garaj aahe ka "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot no 1\" साठी खतांची गरज आहे. सध्या तुम्ही \"Growth stage 2\" मध्ये आहात, ज्याची सुरुवात 8 नोव्हेंबर 2024 रोजी झाली आहे. \n\n### सध्याचा खतांचा कार्यक्रम:\n1. **फोलिअर पद्धतीने:**\n   - **मँगनीज सल्फेट:** 300 ग्रॅम/एकर\n   - **जिंक सल्फेट:** 600 ग्रॅम/एकर\n   - **फेरस सल्फेट:** 700 ग्रॅम/एकर\n   - (फोलिअर स्प्रे साठी एकूण 5 किलो 500 लिटर पाण्यात मिसळा)\n\n2. **फर्टिगेशन पद्धतीने:**\n   - **12-61-0:** 1 किलो/एकर\n   - **युरिया:** 1.5 किलो/एकर\n   - किंवा\n   - **24-24-0:** 3 किलो/एकर\n   - किंवा\n   - **युरिया:** 2 किलो/एकर\n   - **फॉस्फोरिक आम्ल 80%:** 850 ग्रॅम/एकर\n\nतुम्ही या खतांचा वापर करून पिकाची वाढ सुधारू शकता.",
+        "timestamp": {
+          "$date": "2024-11-12T15:58:35.875Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "काय खते दिले पाहिजे",
+        "timestamp": {
+          "$date": "2024-11-12T15:59:33.368Z"
+        },
+        "standalone_question": "What fertilizers should be applied?",
+        "standalone_en": "What fertilizers should be applied?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available.",
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed",
+            "Q: Where can I find the fertigation schedule in the Fyllo app?\nA: To access the fertigation schedule:\n    1. Open the Fyllo app\n    2. Select \"My Farm\" at the bottom\n    3. Tap on the \"Fertigation\" option\n   You'll find the fertigation schedule there, including details about the required fertilizer applications."
+          ]
+        },
+        "content_transliterated": "kay khate dile pahije"
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot no 1\" साठी, सध्या तुम्ही \"Growth stage 2\" मध्ये आहात, ज्याची सुरुवात 8 नोव्हेंबर 2024 रोजी झाली आहे. या स्टेजमध्ये तुम्हाला खालील खतांची गरज आहे:\n\n### सध्याचा खतांचा कार्यक्रम (सप्ताह 1):\n1. **फोलिअर पद्धतीने:**\n   - **मँगनीज सल्फेट:** 300 ग्रॅम/एकर\n   - **जिंक सल्फेट:** 600 ग्रॅम/एकर\n   - **फेरस सल्फेट:** 700 ग्रॅम/एकर\n   - (फोलिअर स्प्रे साठी एकूण 5 किलो 500 लिटर पाण्यात मिसळा)\n\n2. **फर्टिगेशन पद्धतीने:**\n   - **12-61-0:** 1 किलो/एकर\n   - **युरिया:** 1.5 किलो/एकर\n   - किंवा\n   - **24-24-0:** 3 किलो/एकर\n   - किंवा\n   - **युरिया:** 2 किलो/एकर\n   - **फॉस्फोरिक आम्ल 80%:** 850 ग्रॅम/एकर\n\nतुम्ही या खतांचा वापर करून पिकाची वाढ सुधारू शकता.",
+        "timestamp": {
+          "$date": "2024-11-12T15:59:41.771Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Thanks you ",
+        "timestamp": {
+          "$date": "2024-11-12T16:00:45.219Z"
+        },
+        "standalone_question": "What fertilizers should be applied?",
+        "standalone_en": "What fertilizers should be applied?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available.",
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed",
+            "Q: Where can I find the fertigation schedule in the Fyllo app?\nA: To access the fertigation schedule:\n    1. Open the Fyllo app\n    2. Select \"My Farm\" at the bottom\n    3. Tap on the \"Fertigation\" option\n   You'll find the fertigation schedule there, including details about the required fertilizer applications."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमचे स्वागत आहे! तुम्हाला आणखी काही मदतीची आवश्यकता असल्यास, कृपया सांगा. शुभ कृषी!",
+        "timestamp": {
+          "$date": "2024-11-12T16:00:48.387Z"
+        }
+      }
+    ],
+    "farmer_id": "shubhamdheple",
+    "farmer_plot_ids": [
+      "plotno1370"
+    ],
+    "conversation_id": "67337afd501ba6f9fac128ab",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-11-12T15:57:49.546000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Penistick",
+        "timestamp": {
+          "$date": "2024-11-12T14:35:57.528Z"
+        },
+        "standalone_question": "What is a \"penistick\"?",
+        "standalone_en": "What is a \"penistick\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "I'm here to assist you with agricultural practices. If you have any questions or need guidance related to your crops, soil health, pest control, or irrigation strategies, please let me know!",
+        "timestamp": {
+          "$date": "2024-11-12T14:35:59.797Z"
+        }
+      }
+    ],
+    "farmer_id": "balasahebjadhavchilvadi",
+    "farmer_plot_ids": [
+      "superplot596"
+    ],
+    "conversation_id": "673367cde2997f4f9451ce39",
+    "tag": "others",
+    "conv_date": "2024-11-12T14:35:57.528000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Pani kadhi dyau",
+        "timestamp": {
+          "$date": "2024-11-12T12:12:00.490Z"
+        },
+        "standalone_question": "\"Should I give you water?\"",
+        "standalone_en": "\"Should I give you water?\"",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या दोन्ही प्लॉटसाठी पाण्याची आवश्यकता नाही. \n\n1. **Mama Jumbo 1**: \n   - मातीची आर्द्रता: 24 kPa (सेंसर 1), 14 kPa (सेंसर 2)\n   - आदर्श आर्द्रता: 25 kPa\n   - सध्या पाण्याची आवश्यकता नाही.\n\n2. **Sudhakar Plot 2**: \n   - मातीची आर्द्रता: 5 kPa (सेंसर 1), 9 kPa (सेंसर 2)\n   - आदर्श आर्द्रता: 25 kPa\n   - सध्या पाण्याची आवश्यकता नाही.\n\nतुम्ही पाणी देण्याची गरज नाही.",
+        "timestamp": {
+          "$date": "2024-11-12T12:12:07.480Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Roag Kay atta",
+        "timestamp": {
+          "$date": "2024-11-12T12:14:24.164Z"
+        },
+        "standalone_question": "What is the current condition of the plants?",
+        "standalone_en": "What is the current condition of the plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटसाठी रोगांची माहिती मिळवण्यासाठी, मला तुमच्या प्लॉटच्या नावासह काही विशिष्ट तारखा द्या. तुम्हाला कोणत्या रोगांबद्दल माहिती हवी आहे का?",
+        "timestamp": {
+          "$date": "2024-11-12T12:14:27.391Z"
+        }
+      }
+    ],
+    "farmer_id": "nikhillawale",
+    "farmer_plot_ids": [
+      "mamajumbo1yashfarm",
+      "sudhakarplot2yashfarm"
+    ],
+    "conversation_id": "6733460fe2997f4f9451ce38",
+    "tag": "disease_pest",
+    "conv_date": "2024-11-12T12:12:00.490000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Total lo a vyadhi unnadi",
+        "timestamp": {
+          "$date": "2024-11-12T09:55:49.265Z"
+        },
+        "standalone_question": "Is the total amount affected by the disease?",
+        "standalone_en": "Is the total amount affected by the disease?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Vyadhi (diseases) ni chudali ante, nenu mī plots ki sambandhinchi vyadhi pradarshana metrics ni chūḍāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍāniki sādhana chēyāḍ",
+        "timestamp": {
+          "$date": "2024-11-12T10:00:34.221Z"
+        }
+      }
+    ],
+    "farmer_id": "parupallirakesh",
+    "farmer_plot_ids": [
+      "rakeshchillikairo",
+      "rakeshchillinero"
+    ],
+    "conversation_id": "67332625afeba317212a52ae",
+    "tag": "disease_pest",
+    "conv_date": "2024-11-12T09:55:49.265000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vnr पेरू चा रेट काय चालू आहे",
+        "timestamp": {
+          "$date": "2024-11-12T06:21:18.407Z"
+        },
+        "standalone_question": "What is the current rate of Peru?",
+        "standalone_en": "What is the current rate of Peru?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "Vnr peru cha rate kay chalu aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "माझ्याकडे सध्या पेरूच्या बाजारभावाबद्दल माहिती नाही. तुम्ही स्थानिक बाजारात किंवा कृषी विभागाच्या वेबसाइटवर तपासू शकता. तुम्हाला आणखी काही मदतीची आवश्यकता आहे का?",
+        "timestamp": {
+          "$date": "2024-11-12T06:21:20.971Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "कृषी विभागाची वेबसाईट पाठवा",
+        "timestamp": {
+          "$date": "2024-11-12T06:21:37.330Z"
+        },
+        "standalone_question": "Could you please provide the website for the agricultural department?",
+        "standalone_en": "Could you please provide the website for the agricultural department?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "krishi vibhagachi website pathava"
+      },
+      {
+        "role": "assistant",
+        "content": "कृषी विभागाची अधिकृत वेबसाइट [https://agricoop.nic.in/](https://agricoop.nic.in/) येथे उपलब्ध आहे. तुम्ही येथे विविध कृषी संबंधित माहिती, योजना आणि बाजारभावाबद्दल माहिती मिळवू शकता. तुम्हाला आणखी काही मदतीची आवश्यकता आहे का?",
+        "timestamp": {
+          "$date": "2024-11-12T06:21:40.709Z"
+        }
+      }
+    ],
+    "farmer_id": "sandeeptidke",
+    "farmer_plot_ids": [
+      "bordorose1",
+      "colurgulab",
+      "plotno1peru"
+    ],
+    "conversation_id": "6732f3deafeba317212a52ab",
+    "tag": "others",
+    "conv_date": "2024-11-12T06:21:18.407000+00:00"
+  }
+]

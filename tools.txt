@@ -1,0 +1,115 @@
+get_fertigation_schedule  
+Checks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  
+- Fertigation: fertilizers put into the irrigation pipeline itself  
+- Foliar: on the leaves using a foliar spray  
+- Soil: directly on the soil  
+If the unit of fertilizer amount includes "per acre", then it is for 1 acre. Otherwise it is for "units per 1 plant".
+###
+live_sensor_data  
+Provides the live / most recent sensor data for the plots, last received from the sensors. The data fields could be of these types: airTemperature, airHumidity, soilTemperature, soilMoisture1, soilMoisture2, leafWetness, airPressure, baroPressure, lightIntensity (lux), uvIndex, windSpeed, windDirection, instantaneous rainfall, battery percentage, vaporPressure. Depending on device type, some data may not be available.
+###
+get_historical_irrigation_events  
+Retrieves all the past detected farmer watering/irrigation event dates for all plots for the entire user history. Provides humanized output instead of numbers.
+###
+get_crop_stages  
+Retrieves all the crop stage IDs (past, active, and upcoming) of the crop and their starting dates for the plots, for the current crop season.
+###
+get_optimal_soil_moistures  
+Retrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range.
+###
+check_spray_conditions  
+Gets the spray condition forecast for the next few hours for the farmer's plots and returns the condition for each hour as GOOD, MODERATE, or WORST, based on deltaT, VPD, and rainfall conditions.
+###
+get_daily_weather_forecast  
+Provides the next 14 days from today, daily weather forecast for the farmer's plots. Use only for forecast, not current values.
+###
+get_hourly_weather_forecast  
+Provides hourly weather forecast for today and the next 4 days for the farmer's plots. Use only for forecast, not actual measured values.
+###
+get_historical_daily_weather_data  
+Fetches daily historical weather data from all plot sensors for the given date range, including air temperature, air humidity, and rainfall. Suitable for larger durations.
+###
+get_historical_hourly_weather_data  
+Fetches hourly historical weather data from all plot sensors for the given datetime range, including air temperature, air humidity, and rainfall. Suitable only for less than 5 days duration.
+###
+get_daily_soil_moisture_data  
+Retrieves historical daily soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for larger duration.
+###
+get_hourly_soil_moisture_data  
+Retrieves historical hourly soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for less than 5 days duration.
+###
+get_historical_growing_degree_days  
+Calculates and retrieves historical growing degree days (GDD) data from all plots for the given date range.
+###
+get_historical_daily_evapotranspiration  
+Calculates and retrieves historical evapotranspiration (eto) data from the plots for the given date range.
+###
+get_irrigation_forecast  
+Gives the irrigation requirement forecast for any day, today and beyond. Dates are mandatory. Output is humanized with day of the week and optimal moisture details if suitable.
+###
+get_farmer_activities  
+Retrieves the past farmer activities from the provided plots for the given date range.
+###
+get_disease_pest_schedule  
+Retrieves the farmer's current and past pesticide-related spray recommendations with spray details, based on dates. Dates are mandatory.
+###
+get_historical_disease_prediction_metrics  
+Returns the historical daily crop disease prediction metrics for the given diseases, checking all dependent parameters inherently.
+###
+get_historical_pest_prediction_metrics  
+Returns the historical daily crop pest prediction metrics for the given pests, checking all dependent parameters inherently.
+###
+get_specific_fertigation_requirements  
+Finds the fertigation requirements for the plots with a particular crop stage and week numbers.
+###
+analyse_crop_image  
+Gets the analysis of the uploaded crop image for any diseases or pests.
+###
+get_soil_moisture_percentage_from_kpa_reading  
+Gets the estimated soil moisture percentage for a given plot and kPa reading.
+###
+get_soil_moisture_sensor_depth  
+Returns the depths in inches of the soil moisture sensors 1 and 2 installed on the plots.
+###
+should_i_give_water  
+Checks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today.
+###
+raise_support_ticket  
+Raises a support ticket for the given plot. Dharti decides the priority and message based on the conversation.
+###
+get_irrigation_installation_settings
+    retrieves the irrigation installation settings in the farmer's plots, can be used to calculate the irrigation hours.
+    returns root_width, root_depth, soil_retention, dripper_distance, dripper_discharge
+###
+calculate_irrigation_hours
+Calculate the irrigation hours needed for irrigation by the farmer based on the mandatory provided values.
+    The formula used is
+    (root_width * root_depth * soil_retention * dripper_distance * calc_constant) / dripper_discharge
+    where calc_constant = 0.00006784244
+###
+generate_image
+Generates the image given the description and returns string with the output and url of the image.
+    convert it back to markdown for the user to view it. Keep the description concise. Don't add extra flares.
+###
+average
+returns the average/mean value of the list of floating values. Don't pass more than 500 values at once. Break into parts if needed.
+
+###
+
+add
+This function returns the sum of the list of floating values. Don't pass more than 500 values at once. Break into parts if needed.
+
+###
+
+subtract
+This function subtracts two numbers
+
+###
+
+multiply
+This function multiplies two numbers
+
+###
+
+divide
+This function divides two numbers

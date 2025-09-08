@@ -1,0 +1,777 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Weather",
+        "en": "Weather",
+        "timestamp": {
+          "$date": "2025-03-13T17:00:14.941Z"
+        },
+        "standalone_question": "What is the weather like?",
+        "standalone_en": "What is the weather like?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems there is no historical weather data available for \"plot no 1\" from March 10 to March 13, 2025. If you need specific weather information or forecasts, please let me know!",
+        "en": "It seems there is no historical weather data available for \"plot no 1\" from March 10 to March 13, 2025. If you need specific weather information or forecasts, please let me know!",
+        "timestamp": {
+          "$date": "2025-03-13T17:00:19.214Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "What's the weather",
+        "en": "What's the weather",
+        "timestamp": {
+          "$date": "2025-03-13T17:00:36.878Z"
+        },
+        "standalone_question": "What is the weather like?",
+        "standalone_en": "What is the weather like?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the weather forecast for \"plot no 1\" from March 14 to March 21, 2025:\n\n- **March 14 (Friday)**: \n  - Min Temp: 21.3°C, Max Temp: 37.2°C, Avg Temp: 28.9°C\n  - Humidity: 21%, Wind Speed: 6.8 km/h, Rainfall: 0 mm\n\n- **March 15 (Saturday)**: \n  - Min Temp: 20.8°C, Max Temp: 36.6°C, Avg Temp: 28.9°C\n  - Humidity: 23%, Wind Speed: 9 km/h, Rainfall: 0 mm\n\n- **March 16 (Sunday)**: \n  - Min Temp: 21.3°C, Max Temp: 37.0°C, Avg Temp: 28.8°C\n  - Humidity: 23%, Wind Speed: 9.4 km/h, Rainfall: 0 mm\n\n- **March 17 (Monday)**: \n  - Min Temp: 22.3°C, Max Temp: 36.1°C, Avg Temp: 28.4°C\n  - Humidity: 23%, Wind Speed: 9 km/h, Rainfall: 0 mm\n\n- **March 18 (Tuesday)**: \n  - Min Temp: 20.7°C, Max Temp: 36.5°C, Avg Temp: 28.4°C\n  - Humidity: 22%, Wind Speed: 6.5 km/h, Rainfall: 0 mm\n\n- **March 19 (Wednesday)**: \n  - Min Temp: 20.7°C, Max Temp: 36.1°C, Avg Temp: 29.5°C\n  - Humidity: 22%, Wind Speed: 7.9 km/h, Rainfall: 0 mm\n\n- **March 20 (Thursday)**: \n  - Min Temp: 22.1°C, Max Temp: 35.7°C, Avg Temp: 30.1°C\n  - Humidity: 21%, Wind Speed: 7.9 km/h, Rainfall: 0 mm\n\n- **March 21 (Friday)**: \n  - Min Temp: 23.2°C, Max Temp: 36.0°C, Avg Temp: 30.6°C\n  - Humidity: 21%, Wind Speed: 10.1 km/h, Rainfall: 0 mm\n\nNo rainfall is expected during this period. If you need more information, feel free to ask!",
+        "en": "Here's the weather forecast for \"plot no 1\" from March 14 to March 21, 2025:\n\n- **March 14 (Friday)**: \n  - Min Temp: 21.3°C, Max Temp: 37.2°C, Avg Temp: 28.9°C\n  - Humidity: 21%, Wind Speed: 6.8 km/h, Rainfall: 0 mm\n\n- **March 15 (Saturday)**: \n  - Min Temp: 20.8°C, Max Temp: 36.6°C, Avg Temp: 28.9°C\n  - Humidity: 23%, Wind Speed: 9 km/h, Rainfall: 0 mm\n\n- **March 16 (Sunday)**: \n  - Min Temp: 21.3°C, Max Temp: 37.0°C, Avg Temp: 28.8°C\n  - Humidity: 23%, Wind Speed: 9.4 km/h, Rainfall: 0 mm\n\n- **March 17 (Monday)**: \n  - Min Temp: 22.3°C, Max Temp: 36.1°C, Avg Temp: 28.4°C\n  - Humidity: 23%, Wind Speed: 9 km/h, Rainfall: 0 mm\n\n- **March 18 (Tuesday)**: \n  - Min Temp: 20.7°C, Max Temp: 36.5°C, Avg Temp: 28.4°C\n  - Humidity: 22%, Wind Speed: 6.5 km/h, Rainfall: 0 mm\n\n- **March 19 (Wednesday)**: \n  - Min Temp: 20.7°C, Max Temp: 36.1°C, Avg Temp: 29.5°C\n  - Humidity: 22%, Wind Speed: 7.9 km/h, Rainfall: 0 mm\n\n- **March 20 (Thursday)**: \n  - Min Temp: 22.1°C, Max Temp: 35.7°C, Avg Temp: 30.1°C\n  - Humidity: 21%, Wind Speed: 7.9 km/h, Rainfall: 0 mm\n\n- **March 21 (Friday)**: \n  - Min Temp: 23.2°C, Max Temp: 36.0°C, Avg Temp: 30.6°C\n  - Humidity: 21%, Wind Speed: 10.1 km/h, Rainfall: 0 mm\n\nNo rainfall is expected during this period. If you need more information, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-03-13T17:02:08.765Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Eto",
+        "en": "Again",
+        "timestamp": {
+          "$date": "2025-03-13T17:02:36.688Z"
+        },
+        "standalone_question": "What does \"Eto\" mean?",
+        "standalone_en": "What does \"Eto\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is ETO?\nA: ETO stands for Evapotranspiration, which is the sum of evaporation and transpiration where water moves from the leaf surface and land surface to the atmosphere. The irrigation requirement and frequency are indirectly related to ETO."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "There is no historical evapotranspiration (ETO) data available for \"plot no 1\" from March 10 to March 13, 2025. If you need information for a different date range or have any other questions, please let me know!",
+        "en": "There is no historical evapotranspiration (ETO) data available for \"plot no 1\" from March 10 to March 13, 2025. If you need information for a different date range or have any other questions, please let me know!",
+        "timestamp": {
+          "$date": "2025-03-13T17:02:45.462Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Today's eto",
+        "en": "Today's eto",
+        "timestamp": {
+          "$date": "2025-03-13T17:03:02.276Z"
+        },
+        "standalone_question": "What is today's evapotranspiration (ETO)?",
+        "standalone_en": "What is today's evapotranspiration (ETO)?",
+        "retrieval": {
+          "tools": [
+            "get_historical_daily_evapotranspiration  \nCalculates and retrieves historical evapotranspiration (eto) data from the plots for the given date range."
+          ],
+          "faq": [
+            "Q: What is ETO?\nA: ETO stands for Evapotranspiration, which is the sum of evaporation and transpiration where water moves from the leaf surface and land surface to the atmosphere. The irrigation requirement and frequency are indirectly related to ETO."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "There is no evapotranspiration (ETO) data available for \"plot no 1\" for today, March 13, 2025. If you need information for a different date or have any other questions, please let me know!",
+        "en": "There is no evapotranspiration (ETO) data available for \"plot no 1\" for today, March 13, 2025. If you need information for a different date or have any other questions, please let me know!",
+        "timestamp": {
+          "$date": "2025-03-13T17:03:06.441Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Are you human",
+        "en": "Are you human",
+        "timestamp": {
+          "$date": "2025-03-13T17:03:31.744Z"
+        },
+        "standalone_question": "Are you a human?",
+        "standalone_en": "Are you a human?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "No, I am not human. I am an AI agricultural assistant created by Fyllo to help farmers with crop management and agricultural practices. If you have any questions related to agriculture, feel free to ask!",
+        "en": "No, I am not human. I am an AI agricultural assistant created by Fyllo to help farmers with crop management and agricultural practices. If you have any questions related to agriculture, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-03-13T17:03:35.034Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "What is fyllo",
+        "en": "What is fyllo",
+        "timestamp": {
+          "$date": "2025-03-13T17:03:55.395Z"
+        },
+        "standalone_question": "What is Fyllo?",
+        "standalone_en": "What is Fyllo?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How does the Fyllo device work?\nA: The Fyllo device captures data from 11 sensors at regular intervals. This data is then analyzed using Fyllo's Weather & Agronomical Algorithms to provide alerts to farmers for disease & pest management, irrigation management, fertigation management, and weather prediction.",
+            "Q: What makes Fyllo different from its competitors?\nA: Fyllo differentiates itself through:\n - Precision & accuracy due to unique installation and sensor positioning.\n - Agronomical Algorithms created by a team of scientists led by Dr. Shikhamany, who is considered by many as the father of Indian grape industry.\n - 100% customer retention: Fyllo is known for its service on the ground, 24-hour issue resolution.\n - User-friendly interface that's easy to understand for all language and age group users.",
+            "Q: What is the Fyllo's accuracy?\nA: Our all agronomical algorithms and insights have an accuracy of 95%.",
+            "Q: How do I contact customer support for Fyllo?\nA: You can contact customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in. Do you want me to raise a support ticket for you?",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Fyllo is a precision agriculture company that provides farmers with advanced tools and technologies to optimize crop management. It utilizes data from various sensors to offer insights on irrigation management, pest and disease control, fertigation, and weather predictions. Fyllo's unique agronomical algorithms, developed by a team of experts, help farmers make informed decisions to enhance crop yield and sustainability. The company is known for its user-friendly interface and strong customer support, ensuring that farmers can easily access and utilize the information provided.",
+        "en": "Fyllo is a precision agriculture company that provides farmers with advanced tools and technologies to optimize crop management. It utilizes data from various sensors to offer insights on irrigation management, pest and disease control, fertigation, and weather predictions. Fyllo's unique agronomical algorithms, developed by a team of experts, help farmers make informed decisions to enhance crop yield and sustainability. The company is known for its user-friendly interface and strong customer support, ensuring that farmers can easily access and utilize the information provided.",
+        "timestamp": {
+          "$date": "2025-03-13T17:03:59.140Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Thank you ",
+        "en": "Thank you ",
+        "timestamp": {
+          "$date": "2025-03-13T17:04:39.655Z"
+        },
+        "standalone_question": "What is Fyllo?",
+        "standalone_en": "What is Fyllo?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How does the Fyllo device work?\nA: The Fyllo device captures data from 11 sensors at regular intervals. This data is then analyzed using Fyllo's Weather & Agronomical Algorithms to provide alerts to farmers for disease & pest management, irrigation management, fertigation management, and weather prediction.",
+            "Q: What makes Fyllo different from its competitors?\nA: Fyllo differentiates itself through:\n - Precision & accuracy due to unique installation and sensor positioning.\n - Agronomical Algorithms created by a team of scientists led by Dr. Shikhamany, who is considered by many as the father of Indian grape industry.\n - 100% customer retention: Fyllo is known for its service on the ground, 24-hour issue resolution.\n - User-friendly interface that's easy to understand for all language and age group users.",
+            "Q: What is the Fyllo's accuracy?\nA: Our all agronomical algorithms and insights have an accuracy of 95%.",
+            "Q: How do I contact customer support for Fyllo?\nA: You can contact customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in. Do you want me to raise a support ticket for you?",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "You're welcome! If you have any more questions or need assistance in the future, feel free to ask. Happy farming!",
+        "en": "You're welcome! If you have any more questions or need assistance in the future, feel free to ask. Happy farming!",
+        "timestamp": {
+          "$date": "2025-03-13T17:04:42.402Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Second sensor showing too dry",
+        "en": "Second sensor showing too dry",
+        "timestamp": {
+          "$date": "2025-03-13T17:05:15.694Z"
+        },
+        "standalone_question": "Is the second sensor indicating that the soil is too dry?",
+        "standalone_en": "Is the second sensor indicating that the soil is too dry?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today.",
+            "get_soil_moisture_sensor_depth  \nReturns the depths in inches of the soil moisture sensors 1 and 2 installed on the plots."
+          ],
+          "faq": [
+            "Q: Sensor is showing wet, i.e. less kpa but soil looks dry.\nA: The sensor measures the moisture around the rootzone which is not visible from the top. Ask use to check the moisture in rootzone around the sensor. If it matches, ask the user to irrigate.",
+            "Q: What should I do if the soil moisture sensor always shows dry values?\nA: Check if irrigation water is reaching the sensor, verify sensor connection, and ensure the sensor is not damaged.",
+            "Q: Sensor is showing dry, but it rained recently.\nA: Rainwater doesn't percolate well in the soil. Most of it runs off. After a day of rain stops , if the sensor is still dry, you will have to irrigate. You can check the moisture by digging near the sensor . Irrigate accordingly.",
+            "Q: How do I know if my soil  moisture sensor is working fine ?\nA: The only way to know is if after irrigation the sensor is dropping below 5 kpa and increasing continuously unless next irrigation is done. You can try putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. Also, a soil moisture reading of 0 kPa is perfectly fine, meaning wet soil, but a reading of 200 kPa could mean fault. If the soil moisture sensor reading is consistently at 0 from few 48 hours, then it could be anamolous (use live and historical hourly soil moisture data (use tool) to validate).",
+            "Q: What should I do if the soil moisture sensor values fluctuate?\nA: Ensure the sensor is installed properly in the soil, check for air bubbles, and contact Fyllo representative if the issue persists."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The second soil moisture sensor in \"plot no 1\" is showing a reading of 27 kPa, which indicates that the soil is quite dry. \n\nHere are a few steps you can take:\n\n1. **Check Irrigation**: Ensure that irrigation water is reaching the sensor area. If you recently irrigated, it may take some time for the moisture to reach the sensor.\n\n2. **Inspect Drip System**: Check for any blockages in the drip system or if the dripper outlets are too far from the sensor. \n\n3. **Verify Sensor Condition**: If the sensor is older than two years, it might be malfunctioning. \n\n4. **Digging Test**: You can also dig near the sensor to check the moisture level in the root zone.\n\nIf the sensor continues to show dry values after these checks, please let me know if you would like to raise a ticket for a sensor malfunction.",
+        "en": "The second soil moisture sensor in \"plot no 1\" is showing a reading of 27 kPa, which indicates that the soil is quite dry. \n\nHere are a few steps you can take:\n\n1. **Check Irrigation**: Ensure that irrigation water is reaching the sensor area. If you recently irrigated, it may take some time for the moisture to reach the sensor.\n\n2. **Inspect Drip System**: Check for any blockages in the drip system or if the dripper outlets are too far from the sensor. \n\n3. **Verify Sensor Condition**: If the sensor is older than two years, it might be malfunctioning. \n\n4. **Digging Test**: You can also dig near the sensor to check the moisture level in the root zone.\n\nIf the sensor continues to show dry values after these checks, please let me know if you would like to raise a ticket for a sensor malfunction.",
+        "timestamp": {
+          "$date": "2025-03-13T17:05:27.700Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "What can you help if sensor mafunction",
+        "en": "What can you help if sensor mafunction",
+        "timestamp": {
+          "$date": "2025-03-13T17:06:30.851Z"
+        },
+        "standalone_question": "What assistance can you provide in the event of a sensor malfunction?",
+        "standalone_en": "What assistance can you provide in the event of a sensor malfunction?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What should I do if the rain gauge is not working?\nA: Open the top cover of the rainfall sensor and clean it as suggested in the maintenance section."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "If you suspect a sensor malfunction, I can assist you in the following ways:\n\n1. **Troubleshooting Guidance**: I can provide steps to check the sensor's condition, such as verifying connections, cleaning, or checking for blockages.\n\n2. **Sensor Replacement Instructions**: I can guide you on how to replace the sensors if they are found to be faulty.\n\n3. **Raise a Support Ticket**: If the issue persists, I can help you raise a ticket for technical support to get the sensor repaired or replaced.\n\n4. **Monitoring Alternatives**: I can suggest alternative methods to monitor soil moisture or other parameters until the sensor issue is resolved.\n\nIf you need assistance with any of these options, please let me know!",
+        "en": "If you suspect a sensor malfunction, I can assist you in the following ways:\n\n1. **Troubleshooting Guidance**: I can provide steps to check the sensor's condition, such as verifying connections, cleaning, or checking for blockages.\n\n2. **Sensor Replacement Instructions**: I can guide you on how to replace the sensors if they are found to be faulty.\n\n3. **Raise a Support Ticket**: If the issue persists, I can help you raise a ticket for technical support to get the sensor repaired or replaced.\n\n4. **Monitoring Alternatives**: I can suggest alternative methods to monitor soil moisture or other parameters until the sensor issue is resolved.\n\nIf you need assistance with any of these options, please let me know!",
+        "timestamp": {
+          "$date": "2025-03-13T17:06:36.334Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "What is the sensor changing cost",
+        "en": "What is the sensor changing cost",
+        "timestamp": {
+          "$date": "2025-03-13T17:07:10.039Z"
+        },
+        "standalone_question": "What is the cost of changing the sensor?",
+        "standalone_en": "What is the cost of changing the sensor?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How do I replace the sensors for Nero?\nA: Disconnect the sensors by rotating them counterclockwise, unplug the connector, and replace them by following the steps in the manual."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The cost of replacing sensors can vary based on the manufacturer, model, and any additional installation fees. For specific pricing details regarding the replacement of sensors for the NERO_INFINITY_UNIT, I recommend checking with your supplier or the manufacturer's customer support.\n\nIf you need assistance in contacting support or have any other questions, feel free to ask!",
+        "en": "The cost of replacing sensors can vary based on the manufacturer, model, and any additional installation fees. For specific pricing details regarding the replacement of sensors for the NERO_INFINITY_UNIT, I recommend checking with your supplier or the manufacturer's customer support.\n\nIf you need assistance in contacting support or have any other questions, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-03-13T17:07:13.760Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "What is recharge offees",
+        "en": "What is recharge offees",
+        "timestamp": {
+          "$date": "2025-03-13T17:07:57.522Z"
+        },
+        "standalone_question": "What are the recharge fees?",
+        "standalone_en": "What are the recharge fees?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Why is there a need for an annual recharge for Fyllo devices?\nA: Annual recharge for the sim card is done to send and receive the data from our server whenever required.\n   Also farm data is securely saved on cloud so that farmers can access their data when needed."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The annual recharge fee for Fyllo devices is typically associated with the SIM card used for data transmission. This fee allows the device to send and receive data from the server, ensuring that your farm data is securely saved on the cloud and accessible whenever needed.\n\nFor specific pricing details regarding the recharge fee, I recommend checking with your Fyllo representative or the official Fyllo website. If you have any other questions or need further assistance, feel free to ask!",
+        "en": "The annual recharge fee for Fyllo devices is typically associated with the SIM card used for data transmission. This fee allows the device to send and receive data from the server, ensuring that your farm data is securely saved on the cloud and accessible whenever needed.\n\nFor specific pricing details regarding the recharge fee, I recommend checking with your Fyllo representative or the official Fyllo website. If you have any other questions or need further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-03-13T17:08:01.565Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "How to change simcard",
+        "en": "How to change simcard",
+        "timestamp": {
+          "$date": "2025-03-13T17:08:45.135Z"
+        },
+        "standalone_question": "How do I change the SIM card in the device?",
+        "standalone_en": "How do I change the SIM card in the device?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To change the SIM card in your Fyllo device (like the NERO_INFINITY_UNIT), follow these steps:\n\n1. **Power Off the Device**: Ensure that the device is turned off before you begin the process.\n\n2. **Locate the SIM Card Slot**: Find the SIM card slot on the device. This is usually accessible from the back or side of the unit.\n\n3. **Remove the Old SIM Card**: \n   - If there is a cover, gently remove it.\n   - Use a small tool (like a SIM ejector tool or a paperclip) to push the SIM card tray out.\n   - Carefully take out the old SIM card.\n\n4. **Insert the New SIM Card**: \n   - Place the new SIM card into the tray, ensuring it is oriented correctly (usually with the gold contacts facing down).\n   - Push the tray back into the device until it clicks into place.\n\n5. **Power On the Device**: Turn the device back on and check if it is connecting to the network.\n\n6. **Test the Connection**: Ensure that the device is actively sending data by checking the app or dashboard.\n\nIf you encounter any issues during this process, please refer to the user manual or contact Fyllo support for assistance.",
+        "en": "To change the SIM card in your Fyllo device (like the NERO_INFINITY_UNIT), follow these steps:\n\n1. **Power Off the Device**: Ensure that the device is turned off before you begin the process.\n\n2. **Locate the SIM Card Slot**: Find the SIM card slot on the device. This is usually accessible from the back or side of the unit.\n\n3. **Remove the Old SIM Card**: \n   - If there is a cover, gently remove it.\n   - Use a small tool (like a SIM ejector tool or a paperclip) to push the SIM card tray out.\n   - Carefully take out the old SIM card.\n\n4. **Insert the New SIM Card**: \n   - Place the new SIM card into the tray, ensuring it is oriented correctly (usually with the gold contacts facing down).\n   - Push the tray back into the device until it clicks into place.\n\n5. **Power On the Device**: Turn the device back on and check if it is connecting to the network.\n\n6. **Test the Connection**: Ensure that the device is actively sending data by checking the app or dashboard.\n\nIf you encounter any issues during this process, please refer to the user manual or contact Fyllo support for assistance.",
+        "timestamp": {
+          "$date": "2025-03-13T17:08:54.950Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "How the sensor works",
+        "en": "How the sensor works",
+        "timestamp": {
+          "$date": "2025-03-13T17:10:15.924Z"
+        },
+        "standalone_question": "How does the sensor work?",
+        "standalone_en": "How does the sensor work?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Soil moisture sensors work by measuring the volumetric water content in the soil. Here's a brief overview of how they function:\n\n1. **Measurement Principle**: Most soil moisture sensors use one of two main principles:\n   - **Capacitive Sensors**: These measure the dielectric constant of the soil, which changes with moisture content. The sensor emits an electromagnetic field, and the amount of moisture affects the capacitance, which is then converted into a moisture reading.\n   - **Resistive Sensors**: These measure the electrical resistance between two probes inserted into the soil. The resistance decreases as moisture increases, allowing the sensor to determine the soil moisture level.\n\n2. **Data Transmission**: The sensor collects data on soil moisture levels and transmits this information to a central system or cloud platform via a SIM card or wireless connection.\n\n3. **Real-Time Monitoring**: The data is processed and displayed in real-time, allowing farmers to monitor soil moisture levels continuously. This helps in making informed irrigation decisions.\n\n4. **Alerts and Notifications**: Many systems can send alerts when soil moisture levels fall below or rise above certain thresholds, helping farmers take timely action.\n\n5. **Calibration**: Sensors may need to be calibrated to ensure accurate readings based on the specific soil type and conditions in the field.\n\nBy providing accurate soil moisture data, these sensors help optimize irrigation practices, conserve water, and improve crop yields. If you have more specific questions about your sensor or its operation, feel free to ask!",
+        "en": "Soil moisture sensors work by measuring the volumetric water content in the soil. Here's a brief overview of how they function:\n\n1. **Measurement Principle**: Most soil moisture sensors use one of two main principles:\n   - **Capacitive Sensors**: These measure the dielectric constant of the soil, which changes with moisture content. The sensor emits an electromagnetic field, and the amount of moisture affects the capacitance, which is then converted into a moisture reading.\n   - **Resistive Sensors**: These measure the electrical resistance between two probes inserted into the soil. The resistance decreases as moisture increases, allowing the sensor to determine the soil moisture level.\n\n2. **Data Transmission**: The sensor collects data on soil moisture levels and transmits this information to a central system or cloud platform via a SIM card or wireless connection.\n\n3. **Real-Time Monitoring**: The data is processed and displayed in real-time, allowing farmers to monitor soil moisture levels continuously. This helps in making informed irrigation decisions.\n\n4. **Alerts and Notifications**: Many systems can send alerts when soil moisture levels fall below or rise above certain thresholds, helping farmers take timely action.\n\n5. **Calibration**: Sensors may need to be calibrated to ensure accurate readings based on the specific soil type and conditions in the field.\n\nBy providing accurate soil moisture data, these sensors help optimize irrigation practices, conserve water, and improve crop yields. If you have more specific questions about your sensor or its operation, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-03-13T17:10:22.423Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "What if someone stole ",
+        "en": "What if someone stole ",
+        "timestamp": {
+          "$date": "2025-03-13T17:11:49.498Z"
+        },
+        "standalone_question": "What should I do if someone stole my sensor?",
+        "standalone_en": "What should I do if someone stole my sensor?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "If your Fyllo device or sensors are stolen, here are the steps you should take:\n\n1. **Report the Theft**: Immediately report the theft to your local authorities. Provide them with details about the stolen equipment, including serial numbers and any identifying information.\n\n2. **Contact Fyllo Support**: Reach out to Fyllo customer support to inform them about the theft. They may be able to assist you in tracking the device if it has GPS capabilities or provide guidance on how to secure your account.\n\n3. **Change Account Credentials**: If your device was connected to an account, change your login credentials to prevent unauthorized access.\n\n4. **Insurance Claim**: If you have insurance coverage for your agricultural equipment, contact your insurance provider to file a claim for the stolen items.\n\n5. **Prevent Future Thefts**: Consider implementing security measures such as surveillance cameras, alarms, or securing devices in locked enclosures to prevent future thefts.\n\nIf you need assistance with any of these steps, feel free to ask!",
+        "en": "If your Fyllo device or sensors are stolen, here are the steps you should take:\n\n1. **Report the Theft**: Immediately report the theft to your local authorities. Provide them with details about the stolen equipment, including serial numbers and any identifying information.\n\n2. **Contact Fyllo Support**: Reach out to Fyllo customer support to inform them about the theft. They may be able to assist you in tracking the device if it has GPS capabilities or provide guidance on how to secure your account.\n\n3. **Change Account Credentials**: If your device was connected to an account, change your login credentials to prevent unauthorized access.\n\n4. **Insurance Claim**: If you have insurance coverage for your agricultural equipment, contact your insurance provider to file a claim for the stolen items.\n\n5. **Prevent Future Thefts**: Consider implementing security measures such as surveillance cameras, alarms, or securing devices in locked enclosures to prevent future thefts.\n\nIf you need assistance with any of these steps, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-03-13T17:11:55.019Z"
+        }
+      }
+    ],
+    "farmer_id": "kiranugalmugale",
+    "farmer_plot_ids": [
+      "plotno1509"
+    ],
+    "conversation_id": "67d30f1e1dffbc7695dd5418",
+    "_id": "67d30f1e1dffbc7695dd5418",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-03-13T17:16:49.509000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-03-13T17:00:14.941000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "પોદડાની ખાણિયો માટે શું કરવું ",
+        "en": "What to do for a pod miner ",
+        "timestamp": {
+          "$date": "2025-03-13T11:55:28.138Z"
+        },
+        "standalone_question": "What should I do for the miners of the podda?",
+        "standalone_en": "What should I do for the miners of the podda?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "podadani khaniyo mate shu karvu "
+      },
+      {
+        "role": "assistant",
+        "content": "પોદડાની ખાણિયો માટે, તમે નીચેના પગલાં લઈ શકો છો:\n\n1. **જમીનનું નિરીક્ષણ**: જમીનનું સ્વાસ્થ્ય અને પોષણ તત્વોનું નિરીક્ષણ કરો. ખાતરો અને પોષણ તત્વોનું યોગ્ય પ્રમાણ જાળવો.\n\n2. **પાણીનું સંચાલન**: જમીનની ભેજનું ધ્યાન રાખો. જો જમીન સૂકી હોય, તો યોગ્ય રીતે પાણી આપવું જરૂરી છે.\n\n3. **પેસ્ટ નિયંત્રણ**: પોદડાની ખાણિયો માટે પેસ્ટ અને રોગોનું નિરીક્ષણ કરો. જો જરૂર હોય, તો યોગ્ય પેસ્ટિસાઇડનો ઉપયોગ કરો.\n\n4. **ખાતરો**: પોદડાની ખાણિયો માટે યોગ્ય ખાતરોનો ઉપયોગ કરો, જેમ કે નાઇટ્રોજન, ફોસ્ફોરસ અને પોટેશિયમ.\n\n5. **સંસ્કૃતિ**: પોદડાની ખાણિયો માટે યોગ્ય સંસ્કૃતિ અને ખેતીની પદ્ધતિઓ અપનાવો.\n\nજો તમને વધુ વિશિષ્ટ માહિતી જોઈએ, તો કૃપા કરીને વધુ વિગતો આપો.",
+        "en": "For a pod miner, you can take the following steps:\n\n1. **Monitoring the soil**: Observe the health and nutrients of the soil. Maintain the right amount of fertilizers and nutrients.\n\n2. **Water Management**: Take care of soil moisture. If the soil is dry, it is necessary to water properly.\n\n3. **Pest Control**: Monitor the paste and diseases for the pod miners. If needed, use the right pesticide.\n\n4. **Fertilizers**: Use suitable fertilizers for pod miners, such as nitrogen, phosphorus and potassium.\n\n5. **Culture**: Adopt the right culture and farming methods for the pod miners.\n\nIf you would like more specific information, please provide more details.",
+        "timestamp": {
+          "$date": "2025-03-13T11:55:33.605Z"
+        }
+      }
+    ],
+    "farmer_id": "dineshbhaipatel747",
+    "farmer_plot_ids": [
+      "mainpalot",
+      "saghavaloplot"
+    ],
+    "conversation_id": "67d2c7af03b9d5868dba510b",
+    "_id": "67d2c7af03b9d5868dba510b",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-13T12:00:28.147000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-03-13T11:55:28.138000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is SHI",
+        "en": "What is SHI",
+        "timestamp": {
+          "$date": "2025-03-13T11:27:16.840Z"
+        },
+        "standalone_question": "What does SHI stand for?",
+        "standalone_en": "What does SHI stand for?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "SHI stands for Soil Health Index. It is a measure used to assess the overall health and quality of soil based on various parameters such as soil structure, organic matter content, nutrient levels, and biological activity. A higher SHI indicates better soil health, which is crucial for sustainable agriculture and crop productivity.",
+        "en": "SHI stands for Soil Health Index. It is a measure used to assess the overall health and quality of soil based on various parameters such as soil structure, organic matter content, nutrient levels, and biological activity. A higher SHI indicates better soil health, which is crucial for sustainable agriculture and crop productivity.",
+        "timestamp": {
+          "$date": "2025-03-13T11:27:19.901Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Which are potential pests for tea",
+        "en": "Which are potential pests for tea",
+        "timestamp": {
+          "$date": "2025-03-13T11:27:37.754Z"
+        },
+        "standalone_question": "What are the potential pests that can affect tea plants?",
+        "standalone_en": "What are the potential pests that can affect tea plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is the pest prediction?\nA: Check the all pest predictions relevant. We support Aphids, Banana aphids, Bihar hairy caterpillar, Broad mites, Brown plant hopper, Capsule borer, Caterpillar,\n   Citrus Psylla, Cut worm, Early shoot borer, European red mites, Flat mites, Flea Beetle, Flea beetle, Fruit Borer,\n   Fruit Fly, Fruit borer, Fruit fly, Green aphids, Hispa beetle, Jassids, Leaf eating caterpillar, Leaf folder, Leaf miner,\n   Leaf roller, Mango hopper, Mealy Bug, Mealy bug, Mealybug, Mites, Perianth mites, Pin worm, Pink bollworm,\n   Pseudostem weevil, Red Spider Mites, Red palm weevil, Red spider mites, Rhinoceros beetle, Rhizome weevil, Root Grubs,\n   Root knot nematode, Rugose spiraling whitefly, Rust mites, Rust thrips, Scale Insects, Scale insects, Scarring beetle,\n   Shoot borer, Skipper, Spiraling whitefly, Spodoptera, Stem Borer, Stem borer, Striped beetle, Striped cucumber beetle,\n   Tea Mosquitto Bug, Tea mosquitto bug, Termite, Thrips, White Fly, White fly, Whitefly, and Wooly aphids."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The potential pests for tea crops include:\n\n1. **Aphids**\n2. **Tea Mosquitto Bug**\n3. **Green Leafhopper**\n4. **Thrips**\n5. **Mealybugs**\n6. **Caterpillars**\n7. **Red Spider Mites**\n8. **Whiteflies**\n9. **Termites**\n10. **Bihar Hairy Caterpillar**\n\nThese pests can affect the growth and yield of tea plants, so it's essential to monitor and manage them effectively.",
+        "en": "The potential pests for tea crops include:\n\n1. **Aphids**\n2. **Tea Mosquitto Bug**\n3. **Green Leafhopper**\n4. **Thrips**\n5. **Mealybugs**\n6. **Caterpillars**\n7. **Red Spider Mites**\n8. **Whiteflies**\n9. **Termites**\n10. **Bihar Hairy Caterpillar**\n\nThese pests can affect the growth and yield of tea plants, so it's essential to monitor and manage them effectively.",
+        "timestamp": {
+          "$date": "2025-03-13T11:27:41.253Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Potential pests for tea in southindia",
+        "en": "Potential pests for tea in southindia",
+        "timestamp": {
+          "$date": "2025-03-13T11:28:08.954Z"
+        },
+        "standalone_question": "What are the potential pests for tea in South India?",
+        "standalone_en": "What are the potential pests for tea in South India?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "In South India, the potential pests for tea crops include:\n\n1. **Tea Mosquitto Bug** - A significant pest that affects the leaves.\n2. **Aphids** - Can cause damage by sucking sap from the plants.\n3. **Green Leafhopper** - Known to affect the quality of tea leaves.\n4. **Thrips** - Can lead to leaf curling and discoloration.\n5. **Mealybugs** - They can weaken the plant and lead to sooty mold.\n6. **Red Spider Mites** - Can cause leaf damage and reduce yield.\n7. **Caterpillars** - Various species can feed on the leaves.\n8. **Whiteflies** - They can transmit diseases and weaken the plants.\n9. **Termites** - Can damage the roots and lower parts of the plants.\n10. **Bihar Hairy Caterpillar** - Known to defoliate tea plants.\n\nEffective monitoring and management strategies are essential to control these pests and protect tea crops in South India.",
+        "en": "In South India, the potential pests for tea crops include:\n\n1. **Tea Mosquitto Bug** - A significant pest that affects the leaves.\n2. **Aphids** - Can cause damage by sucking sap from the plants.\n3. **Green Leafhopper** - Known to affect the quality of tea leaves.\n4. **Thrips** - Can lead to leaf curling and discoloration.\n5. **Mealybugs** - They can weaken the plant and lead to sooty mold.\n6. **Red Spider Mites** - Can cause leaf damage and reduce yield.\n7. **Caterpillars** - Various species can feed on the leaves.\n8. **Whiteflies** - They can transmit diseases and weaken the plants.\n9. **Termites** - Can damage the roots and lower parts of the plants.\n10. **Bihar Hairy Caterpillar** - Known to defoliate tea plants.\n\nEffective monitoring and management strategies are essential to control these pests and protect tea crops in South India.",
+        "timestamp": {
+          "$date": "2025-03-13T11:28:16.882Z"
+        }
+      }
+    ],
+    "farmer_id": "himanshu",
+    "farmer_plot_ids": [
+      "factory",
+      "kadoora",
+      "nedumballi",
+      "newclearing"
+    ],
+    "conversation_id": "67d2c10f612b7e92dc23f623",
+    "_id": "67d2c10f612b7e92dc23f623",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-03-13T11:33:08.962000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-03-13T11:27:16.840000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Bhuri ko kaise pechane",
+        "en": "How to patch brown",
+        "timestamp": {
+          "$date": "2025-03-13T04:36:18.721Z"
+        },
+        "standalone_question": "How can one recognize a Bhuri?",
+        "standalone_en": "How can one recognize a Bhuri?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Bhuri (brown) rang ki patte ya phal par dikhne wale daag ya chhote chhote kide, jaise ki aphids ya caterpillars, bhuri rang ki nishaniyan ho sakti hain. Inhe pehchanne ke liye aapko kuch baatein dhyan mein rakhni chahiye:\n\n1. **Patton ki Jaanch**: Patton par bhuri daag ya chhote chhote kide dikhne par unhe dhyan se dekhein. Agar patte bhure ho rahe hain ya un par daag hain, to yeh bhuri ke prabhavit hone ki nishani ho sakti hai.\n\n2. **Phalon ki Jaanch**: Phalon par bhi bhuri rang ke daag ya chhote kide dikhne par unhe dekhein. Yeh bhi bhuri ke prabhavit hone ki nishani ho sakti hai.\n\n3. **Kide aur Keede**: Agar aapko patton ya phalon par chhote kide dikhte hain, to yeh bhuri ke prabhavit hone ki nishani ho sakti hai. \n\n4. **Pest Control**: Agar aapko bhuri ke prabhavit hone ki nishaniyan milti hain, to turant pesticide ya organic pest control upay ka istemal karein.\n\nAgar aapke paas koi specific image hai, to main uska analysis bhi kar sakta hoon.",
+        "en": "Brown leaf or fruit stains or tiny insects, such as aphids or caterpillars, may have brown marks. To identify them, you should keep a few things in mind:\n\n1. Leaf Check: Look carefully for brown spots or small insects on the leaves. If the leaves are turning brown or have stains on them, it may be a sign that the brown is affected.\n\n2. Fruit Check: Look for brown spots or small insects on the fruit. This can also be a sign of brown being affected.\n\n3. Insects and Insects: If you see small insects on the leaves or fruits, it can be a sign that the brown is affected. \n\n4. Pest control: If you notice signs of brown being affected, use pesticide or organic pest control measures immediately.\n\nIf you have a specific image, I can also analyse it.",
+        "timestamp": {
+          "$date": "2025-03-13T04:36:26.320Z"
+        }
+      }
+    ],
+    "farmer_id": "samadhanbaste",
+    "farmer_plot_ids": [
+      "plotno1sudhakar408"
+    ],
+    "conversation_id": "67d260c25aac8b459dce2e02",
+    "_id": "67d260c25aac8b459dce2e02",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-03-13T04:41:18.728000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-03-13T04:36:18.721000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "सेन्सर काम करत नाही",
+        "en": "The sensor doesn't work",
+        "timestamp": {
+          "$date": "2025-03-13T03:31:06.646Z"
+        },
+        "standalone_question": "The sensor is not working.",
+        "standalone_en": "The sensor is not working.",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What should I do if the soil temperature sensor is not working?\nA: Check the sensor connection, tighten it if loose, and restart the device to check updated data."
+          ]
+        },
+        "content_transliterated": "censor calm karat nahi"
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया तपासा की रिचार्ज पूर्ण झाला आहे का आणि डिव्हाइस सक्रियपणे डेटा पाठवत आहे का. जर समस्या कायम राहिली, तर कृपया Fyllo अॅपवर सपोर्ट तिकीट उघडा.",
+        "en": "Please check that the recharge is complete and if the device is actively sending data. If the problem persists, please open the support ticket on the Fyllo app.",
+        "timestamp": {
+          "$date": "2025-03-13T03:31:09.280Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "बॅटरी पिन आहे रिचार्ज पण आहे पण तरीपण काम करत नाही",
+        "en": "There's a battery pin, there's a recharge but still it doesn't work.",
+        "timestamp": {
+          "$date": "2025-03-13T03:31:45.130Z"
+        },
+        "standalone_question": "The battery pin is charged, but it still doesn't work. What could be the issue?",
+        "standalone_en": "The battery pin is charged, but it still doesn't work. What could be the issue?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "battery pin aahe recharge pan ahe pan taripan calm karat nahi"
+      },
+      {
+        "role": "assistant",
+        "content": "जर बॅटरी पिन चांगली आहे आणि रिचार्ज देखील झाला आहे, तरीही डिव्हाइस काम करत नसेल, तर कृपया खालील गोष्टी तपासा:\n\n1. **सेंसर कनेक्शन**: सेंसर कनेक्शन तपासा, कनेक्शन ढिले असल्यास ते घट्ट करा.\n2. **डिव्हाइस रीस्टार्ट करा**: डिव्हाइस रीस्टार्ट करून पाहा, कधी कधी हे समस्या सोडवते.\n3. **सपोर्ट तिकीट उघडा**: जर समस्या कायम राहिली, तर कृपया Fyllo अॅपवर सपोर्ट तिकीट उघडा.\n\nतुमच्या समस्येवर लवकरच उपाय मिळावा अशी आशा आहे.",
+        "en": "If the battery pin is good and recharged, yet the device is not working, please check the following:\n\n1. **Sensor Connection**: Check the sensor connection, tighten it if the connection is loose.\n2. **Restart the device**: Try the device restart, sometimes it solves the problem.\n3. **Open support ticket**: If the problem persists, please open the support ticket on the Fyllo app.\n\nI hope your problem is resolved soon.",
+        "timestamp": {
+          "$date": "2025-03-13T03:31:49.446Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "सेन्सर रिसेट केला तरी पण येत नाही",
+        "en": "Even if the sensor is reset, it does not come",
+        "timestamp": {
+          "$date": "2025-03-13T03:32:46.978Z"
+        },
+        "standalone_question": "Have you tried resetting the sensor, and is it still not working?",
+        "standalone_en": "Have you tried resetting the sensor, and is it still not working?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What should I do if the soil temperature sensor is not working?\nA: Check the sensor connection, tighten it if loose, and restart the device to check updated data."
+          ]
+        },
+        "content_transliterated": "censor reset kela tari pan yet nahi"
+      },
+      {
+        "role": "assistant",
+        "content": "जर तुम्ही सेंसर रीसेट केला आहे तरीही तो काम करत नसेल, तर खालील गोष्टी तपासा:\n\n1. **सेंसर कनेक्शन**: सेंसरच्या कनेक्शनला पुन्हा एकदा तपासा. कनेक्शन ढिले असल्यास ते घट्ट करा.\n2. **सेंसरची वयोमर्यादा**: जर सेंसर दोन वर्षांपेक्षा जुना असेल, तर तो खराब झाला असू शकतो.\n3. **डिव्हाइसची स्थिती**: डिव्हाइसच्या स्थितीची तपासणी करा, काही वेळा हार्डवेअर समस्या असू शकतात.\n\nजर तुम्हाला अजूनही समस्या येत असेल, तर कृपया Fyllo अॅपवर सपोर्ट तिकीट उघडा.",
+        "en": "If you've reset the sensor but it's not working, check the following:\n\n1. **Sensor Connection**: Re-examine the sensor's connection. If the connection is loose, tighten it.\n2. Age limit of the sensor**: If the sensor is more than two years old, it may have been damaged.\n3. **Position of the device**: Check the position of the device, sometimes there may be hardware issues.\n\nIf you are still having problems, please open the support ticket on the Fyllo app.",
+        "timestamp": {
+          "$date": "2025-03-13T03:32:51.855Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "सेन्सर्स कनेक्शन घट्ट आहे तपासलं आणि सेन्सर नवीन आहे लावून एक महिना झाला",
+        "en": "It's been a month since the sensors checked the connection is tight and the sensor is new.",
+        "timestamp": {
+          "$date": "2025-03-13T03:33:35.673Z"
+        },
+        "standalone_question": "Is the sensor connection secure, and has the sensor been installed for only one month?",
+        "standalone_en": "Is the sensor connection secure, and has the sensor been installed for only one month?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "sensors connection ghatt aahe tapasalam ani sensor navin aahe lavun ek mahina jhala"
+      },
+      {
+        "role": "assistant",
+        "content": "जर तुमचा सेंसर नवीन आहे आणि कनेक्शन घट्ट आहे, तरीही 200 kPa दर्शवित असेल, तर खालील गोष्टी तपासा:\n\n1. **पाण्याची पोहोच**: तुम्ही शेवटचा पाण्याचा साठा कधी केला? पाण्याचा साठा केल्यानंतर 12 तासांनी सेंसरच्या वाचनात बदल होणे अपेक्षित आहे. \n2. **ड्रिप सिस्टीम**: ड्रिप सिस्टीममध्ये कोणतीही अडथळा आहे का? ड्रिप बंद आहे का किंवा सेंसरच्या जवळ नाही का? \n3. **स्थळाची झुकाव**: तुमच्या जमिनीवर झुकाव असल्यास, पाणी सेंसरपर्यंत पोहोचत नसेल.\n\nजर तुम्ही हे सर्व तपासले आणि समस्या कायम राहिली, तर कृपया Fyllo अॅपवर सपोर्ट तिकीट उघडा.",
+        "en": "If your sensor is new and the connection is tight, still showing 200 kPa, check the following:\n\n1. **Water access**: When was the last time you stocked water? Sensor readings are expected to change 12 hours after water storage. \n2. **Drip System**: Is there a barrier to the drip system? Is the drip closed or not close to the sensor? \n3. **Place tilt**: If you have a tilt on the ground, the water will not reach the sensor.\n\nIf you check all of this and the problem persists, please open the support ticket on the Fyllo app.",
+        "timestamp": {
+          "$date": "2025-03-13T03:33:40.908Z"
+        }
+      }
+    ],
+    "farmer_id": "bhaskarlandge",
+    "farmer_plot_ids": [
+      "plotno2201",
+      "plotno4676"
+    ],
+    "conversation_id": "67d2517a1dffbc7695dd5416",
+    "_id": "67d2517a1dffbc7695dd5416",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-03-13T03:38:35.683000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-03-13T03:31:06.646000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi",
+        "en": "Hi",
+        "timestamp": {
+          "$date": "2025-03-13T03:28:17.412Z"
+        },
+        "standalone_question": "What would you like to talk about today?",
+        "standalone_en": "What would you like to talk about today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "नमस्कार समधान! तुम्हाला कशाबद्दल मदतीची आवश्यकता आहे?",
+        "en": "Hello Samdhan! What do you need help with?",
+        "timestamp": {
+          "$date": "2025-03-13T03:28:19.558Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Divays of ahe",
+        "en": "Divays of ahe",
+        "timestamp": {
+          "$date": "2025-03-13T03:28:37.541Z"
+        },
+        "standalone_question": "What does \"Divays of ahe\" mean?",
+        "standalone_en": "What does \"Divays of ahe\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या पिकाच्या वाढीच्या अवस्थेचा तपास करण्यासाठी, मला तुमच्या प्लॉटसाठी आवश्यक असलेल्या माहितीची आवश्यकता आहे. कृपया तुम्हाला कोणत्या विशिष्ट तारखांसाठी डिग्री डेजची माहिती हवी आहे?",
+        "en": "To investigate the growth stage of your crop, I need the information you need for your plot. What specific dates would you like to know about degree days, please?",
+        "timestamp": {
+          "$date": "2025-03-13T03:28:41.092Z"
+        }
+      }
+    ],
+    "farmer_id": "samadhanshriram",
+    "farmer_plot_ids": [
+      "plotno1795"
+    ],
+    "conversation_id": "67d250d1612b7e92dc23f61e",
+    "_id": "67d250d1612b7e92dc23f61e",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-03-13T03:33:37.548000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-03-13T03:28:17.412000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "પાંદડાની ખાણિયા માટે કઈ દવા વાપરવી જોઈએ",
+        "en": "Which medicine should be used for leaf mining",
+        "timestamp": {
+          "$date": "2025-03-13T03:27:26.184Z"
+        },
+        "standalone_question": "What medicine should be used for leaf miners?",
+        "standalone_en": "What medicine should be used for leaf miners?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pandadani khaniya mate kai dava vaparvi joie"
+      },
+      {
+        "role": "assistant",
+        "content": "પાંદડાની ખાણિયા માટે, તમે નીચેની દવાઓનો ઉપયોગ કરી શકો છો:\n\n1. **ઇનસેક્ટિસાઇડ**: \n   - **Imidacloprid 600 FS** - 5 થી 8 મીલીલિટર પ્રતિ કિલોગ્રામ બીજ.\n\n2. **ફંગિસાઇડ**: \n   - **Thiram** - 2 થી 3 ગ્રામ પ્રતિ કિલોગ્રામ બીજ.\n\nઆ દવાઓનો ઉપયોગ બીજના સારવાર માટે કરો, જેથી પાંદડાની ખાણિયા અને અન્ય જીવાતોનું નિયંત્રણ કરી શકાય.",
+        "en": "For leaf mining, you can use the following medications:\n\n1. **Insecticide**: \n   **Imidacloprid 600 FS** - 5 to 8 millilitres per kilogram of seeds.\n\n2. **Fungiside**: \n   * **Thiram** - 2 to 3 grams per kilogram of seeds.\n\nUse these medicines to treat seeds, so that leaf eating and other insects can be controlled.",
+        "timestamp": {
+          "$date": "2025-03-13T03:27:30.860Z"
+        }
+      }
+    ],
+    "farmer_id": "mohanbhaibhomajisolanki",
+    "farmer_plot_ids": [
+      "jopavalo"
+    ],
+    "conversation_id": "67d2509d612b7e92dc23f61d",
+    "_id": "67d2509d612b7e92dc23f61d",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-13T03:32:26.192000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-03-13T03:27:26.184000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Device data pathawat nahi",
+        "en": "The device does not send data",
+        "timestamp": {
+          "$date": "2025-03-13T02:17:15.231Z"
+        },
+        "standalone_question": "Why is the device data not working?",
+        "standalone_en": "Why is the device data not working?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या डिव्हाइसने डेटा पाठवला नाही का? कृपया खालील गोष्टी तपासा:\n\n1. **रिचार्ज**: तुमच्या डिव्हाइसचा डेटा प्लान सक्रिय आहे का? जर रिचार्ज केलेले नसेल, तर ते कार्यरत राहणार नाही.\n2. **संपर्क**: डिव्हाइस चांगल्या प्रकारे कनेक्टेड आहे का? कनेक्शन तपासा.\n3. **नेटवर्क कनेक्टिव्हिटी**: तुमच्या नेटवर्क कनेक्टिव्हिटीची स्थिती तपासा.\n4. **बॅटरी स्थिती**: बॅटरी चांगली आहे का? बॅटरी कमी असल्यास, ते कार्यरत राहणार नाही.\n5. **पुनः सुरू करा**: डिव्हाइस पुनः सुरू करून डेटा तपासा.\n\nजर सर्व काही तपासूनही समस्या कायम राहिली, तर कृपया Fyllo अॅपवर सपोर्ट तिकीट उघडा.",
+        "en": "Didn't your device send data? Please check the following:\n\n1. **Recharge**: Is your device's data plan active? If not recharged, it won't work.\n2. **Contact**: Is the device well connected? Check the connection.\n3. **Network Connectivity**: Check the status of your network connectivity.\n4. **Battery status**: Is the battery good? If the battery is low, it won't work.\n5. **Restart**: Check the data by restarting the device.\n\nIf the problem persists despite checking everything, please open the support ticket on the Fyllo app.",
+        "timestamp": {
+          "$date": "2025-03-13T02:17:24.085Z"
+        }
+      }
+    ],
+    "farmer_id": "sanjaybabanraojamdhade",
+    "farmer_plot_ids": [
+      "ssn616",
+      "sudhakar102",
+      "thompsonplot1380",
+      "thompsonplotno2363"
+    ],
+    "conversation_id": "67d2402a1dffbc7695dd5415",
+    "_id": "67d2402a1dffbc7695dd5415",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-03-13T02:22:15.248000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-03-13T02:17:15.231000+00:00"
+  }
+]

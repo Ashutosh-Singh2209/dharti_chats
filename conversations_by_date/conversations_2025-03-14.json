@@ -1,0 +1,657 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hii",
+        "en": "Hii",
+        "timestamp": {
+          "$date": "2025-03-14T18:08:25.734Z"
+        },
+        "standalone_question": "Hello! How are you?",
+        "standalone_en": "Hello! How are you?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "નમસ્તે! કેવી રીતે છો? હું તમારી ખેતીમાં મદદ કરવા માટે અહીં છું.",
+        "en": "Hello! How are you? I'm here to help you with your farming.",
+        "timestamp": {
+          "$date": "2025-03-14T18:08:28.693Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Divaysh bandh ho gaya he",
+        "en": "The day has stopped.",
+        "timestamp": {
+          "$date": "2025-03-14T18:08:55.107Z"
+        },
+        "standalone_question": "Is Divaysh closed?",
+        "standalone_en": "Is Divaysh closed?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "મને ખેદ છે કે તમને મુશ્કેલી આવી રહી છે. કૃપા કરીને વધુ માહિતી આપો કે શું સમસ્યા છે, જેથી હું તમને વધુ સારી રીતે મદદ કરી શકું.",
+        "en": "I'm sorry you're having trouble. Please give more information as to what is the problem, so that I can help you in a better way.",
+        "timestamp": {
+          "$date": "2025-03-14T18:08:58.860Z"
+        }
+      }
+    ],
+    "farmer_id": "bhupatbhai99240",
+    "farmer_plot_ids": [
+      "plot1352401",
+      "plot2433"
+    ],
+    "conversation_id": "67d4709926d09ec3bb17d111",
+    "_id": "67d4709926d09ec3bb17d111",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-14T18:13:55.114000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-03-14T18:08:25.734000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Apaka mashin bandh hogayahe  chakaravo",
+        "en": "Your machine bond will be",
+        "timestamp": {
+          "$date": "2025-03-14T18:07:33.770Z"
+        },
+        "standalone_question": "Is your car broken down?",
+        "standalone_en": "Is your car broken down?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Mujhe aapke dono plots ke sensor data mil gaye hain:\n\n### Plot 1 (Pomegranate)\n- **Soil Moisture 1:** 20 kPa (Wet)\n- **Soil Moisture 2:** 14 kPa (Wet)\n- **Air Temperature:** 25.9°C\n- **Soil Temperature:** 24°C\n- **Air Humidity:** 42%\n- **Battery Status:** 75%\n- **Anomalies:** Soil temperature is repeating at 24°C.\n\n### Plot 2 (Pomegranate)\n- **Soil Moisture 1:** 22 kPa (Wet)\n- **Soil Moisture 2:** 34 kPa (Wet)\n- **Soil Temperature:** 31.37°C\n- **Air Pressure:** 100.6 kPa\n- **Battery Status:** 51%\n\nAapka irrigation system sahi se kaam kar raha hai, lekin Plot 2 ki battery status thodi kam hai. Aapko iski battery check karni chahiye. Agar aapko aur madad chahiye, toh bataiye!",
+        "en": "Mujhe aapke dono plots ke sensor data mil gaye hain:\n\n### Plot 1 (Pomegranate)\n- **Soil Moisture 1:** 20 kPa (Wet)\n- **Soil Moisture 2:** 14 kPa (Wet)\n- **Air Temperature:** 25.9°C\n- **Soil Temperature:** 24°C\n- **Air Humidity:** 42%\n- **Battery Status:** 75%\n- **Anomalies:** Soil temperature is repeating at 24°C.\n\n### Plot 2 (Pomegranate)\n- **Soil Moisture 1:** 22 kPa (Wet)\n- **Soil Moisture 2:** 34 kPa (Wet)\n- **Soil Temperature:** 31.37°C\n- **Air Pressure:** 100.6 kPa\n- **Battery Status:** 51%\n\nAapka irrigation system sahi se kaam kar raha hai, lekin Plot 2 ki battery status thodi kam hai. Aapko iski battery check karni chahiye. Agar aapko aur madad chahiye, toh bataiye!",
+        "timestamp": {
+          "$date": "2025-03-14T18:07:41.757Z"
+        }
+      }
+    ],
+    "farmer_id": "bharatbhaitarshibhaiparmar",
+    "farmer_plot_ids": [
+      "plot1166",
+      "plot2170"
+    ],
+    "conversation_id": "67d4706526d09ec3bb17d110",
+    "_id": "67d4706526d09ec3bb17d110",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-14T18:12:33.776000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-03-14T18:07:33.770000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi",
+        "en": "Hi",
+        "timestamp": {
+          "$date": "2025-03-14T16:06:04.134Z"
+        },
+        "standalone_question": "What would you like to talk about today?",
+        "standalone_en": "What would you like to talk about today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "नमस्कार, अक्षय! तुम्हाला कशाबद्दल मदतीची आवश्यकता आहे?",
+        "en": "Hello, Akshay! What do you need help with?",
+        "timestamp": {
+          "$date": "2025-03-14T16:06:08.177Z"
+        }
+      }
+    ],
+    "farmer_id": "akshaysomvanshi",
+    "farmer_plot_ids": [
+      "thompsonplotno1328"
+    ],
+    "conversation_id": "67d453eb26d09ec3bb17d10d",
+    "_id": "67d453eb26d09ec3bb17d10d",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-03-14T16:11:04.140000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-03-14T16:06:04.134000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Sensor work properly?",
+        "en": "Sensor work properly?",
+        "timestamp": {
+          "$date": "2025-03-14T14:34:48.959Z"
+        },
+        "standalone_question": "Is the sensor functioning properly?",
+        "standalone_en": "Is the sensor functioning properly?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How do I know if my soil  moisture sensor is working fine ?\nA: The only way to know is if after irrigation the sensor is dropping below 5 kpa and increasing continuously unless next irrigation is done. You can try putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. Also, a soil moisture reading of 0 kPa is perfectly fine, meaning wet soil, but a reading of 200 kPa could mean fault. If the soil moisture sensor reading is consistently at 0 from few 48 hours, then it could be anamolous (use live and historical hourly soil moisture data (use tool) to validate)."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The sensor in **Plot no 2 Sudhakar** is showing a soil moisture reading of **0 kPa**, which indicates wet soil. This can be normal, especially if the sensor was recently installed or if the crop is in an early stage. \n\nHowever, if the sensor has been showing 0 kPa for an extended period, it may be worth checking the following:\n\n1. **Installation**: Ensure the sensor is properly installed and not surrounded by excess water.\n2. **Irrigation**: If you have irrigated recently, it usually takes about 12 hours for the moisture to reach the sensor. If it remains at 0 kPa after that, there might be an issue.\n3. **Local Conditions**: Check for any landscaping or slope issues that might be affecting water drainage around the sensor.\n\nWould you like to create an issue ticket for further investigation?",
+        "en": "The sensor in **Plot no 2 Sudhakar** is showing a soil moisture reading of **0 kPa**, which indicates wet soil. This can be normal, especially if the sensor was recently installed or if the crop is in an early stage. \n\nHowever, if the sensor has been showing 0 kPa for an extended period, it may be worth checking the following:\n\n1. **Installation**: Ensure the sensor is properly installed and not surrounded by excess water.\n2. **Irrigation**: If you have irrigated recently, it usually takes about 12 hours for the moisture to reach the sensor. If it remains at 0 kPa after that, there might be an issue.\n3. **Local Conditions**: Check for any landscaping or slope issues that might be affecting water drainage around the sensor.\n\nWould you like to create an issue ticket for further investigation?",
+        "timestamp": {
+          "$date": "2025-03-14T14:34:54.282Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Oky",
+        "en": "Oky",
+        "timestamp": {
+          "$date": "2025-03-14T14:35:23.897Z"
+        },
+        "standalone_question": "Would you like to proceed with creating an issue ticket for further investigation?",
+        "standalone_en": "Would you like to proceed with creating an issue ticket for further investigation?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "If you have any more questions or need assistance with your plots, feel free to ask. Happy farming!",
+        "en": "If you have any more questions or need assistance with your plots, feel free to ask. Happy farming!",
+        "timestamp": {
+          "$date": "2025-03-14T14:35:27.213Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Suggest nutrition ",
+        "en": "Suggest nutrition ",
+        "timestamp": {
+          "$date": "2025-03-14T14:35:39.397Z"
+        },
+        "standalone_question": "What nutritional recommendations do you have?",
+        "standalone_en": "What nutritional recommendations do you have?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the nutrition recommendations for your plots:\n\n### **Plot no 1 Manik Chaman**\n- **Current Stage**: Cane thinning (Started on 9th November 2024)\n- **Current Week Schedule**: No fertigation needed.\n- **Next Fertigation Schedule**: \n  - **Stage**: Subcane (Week 1)\n  - **Start Date**: 23rd November 2024\n  - **Fertilizers**:\n    1. **Combination 1**: \n       - Mono potassium phosphate: 3.5 kg/acre\n       - Phosphoric acid 80%: 5 kg/acre (Apply separately, 15-20 minutes before other fertilizers)\n    2. **Combination 2**: \n       - 0-60-20: 6 kg/acre\n       - Phosphoric acid 80%: 2.5 kg/acre\n    3. **Combination 3**: \n       - Phosphoric acid 80%: 7 kg/acre\n       - Sulfate of Potash: 2.5 kg/acre\n\n### **Plot no 2 Sudhakar**\n- **Current Stage**: Recut (Started on 30th January 2025)\n- **Current Week Schedule**: No fertigation needed.\n- **Next Fertigation Schedule**: \n  - **Stage**: Subcane (Week 1)\n  - **Start Date**: 1st May 2025\n  - **Fertilizers**:\n    1. **Combination 1**: \n       - Mono potassium phosphate: 3.5 kg/acre\n       - Phosphoric acid 80%: 5 kg/acre (Apply separately, 15-20 minutes before other fertilizers)\n    2. **Combination 2**: \n       - 0-60-20: 6 kg/acre\n       - Phosphoric acid 80%: 2.5 kg/acre\n    3. **Combination 3**: \n       - Phosphoric acid 80%: 7 kg/acre\n       - Sulfate of Potash: 2.5 kg/acre\n\nMake sure to follow the recommendations for optimal growth! If you have any further questions or need assistance, feel free to ask.",
+        "en": "Here are the nutrition recommendations for your plots:\n\n### **Plot no 1 Manik Chaman**\n- **Current Stage**: Cane thinning (Started on 9th November 2024)\n- **Current Week Schedule**: No fertigation needed.\n- **Next Fertigation Schedule**: \n  - **Stage**: Subcane (Week 1)\n  - **Start Date**: 23rd November 2024\n  - **Fertilizers**:\n    1. **Combination 1**: \n       - Mono potassium phosphate: 3.5 kg/acre\n       - Phosphoric acid 80%: 5 kg/acre (Apply separately, 15-20 minutes before other fertilizers)\n    2. **Combination 2**: \n       - 0-60-20: 6 kg/acre\n       - Phosphoric acid 80%: 2.5 kg/acre\n    3. **Combination 3**: \n       - Phosphoric acid 80%: 7 kg/acre\n       - Sulfate of Potash: 2.5 kg/acre\n\n### **Plot no 2 Sudhakar**\n- **Current Stage**: Recut (Started on 30th January 2025)\n- **Current Week Schedule**: No fertigation needed.\n- **Next Fertigation Schedule**: \n  - **Stage**: Subcane (Week 1)\n  - **Start Date**: 1st May 2025\n  - **Fertilizers**:\n    1. **Combination 1**: \n       - Mono potassium phosphate: 3.5 kg/acre\n       - Phosphoric acid 80%: 5 kg/acre (Apply separately, 15-20 minutes before other fertilizers)\n    2. **Combination 2**: \n       - 0-60-20: 6 kg/acre\n       - Phosphoric acid 80%: 2.5 kg/acre\n    3. **Combination 3**: \n       - Phosphoric acid 80%: 7 kg/acre\n       - Sulfate of Potash: 2.5 kg/acre\n\nMake sure to follow the recommendations for optimal growth! If you have any further questions or need assistance, feel free to ask.",
+        "timestamp": {
+          "$date": "2025-03-14T14:35:48.257Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Foliar  sprey",
+        "en": "Foliar  sprey",
+        "timestamp": {
+          "$date": "2025-03-14T14:36:06.817Z"
+        },
+        "standalone_question": "What are the recommendations for foliar spray?",
+        "standalone_en": "What are the recommendations for foliar spray?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice.",
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Currently, there are no scheduled disease or pest spray recommendations for either **Plot no 1 Manik Chaman** or **Plot no 2 Sudhakar** for the week of March 14 to March 21, 2025. \n\nIf you notice any signs of disease or pests, you may consider a foliar spray based on your observations. If you need specific recommendations for products or further assistance, feel free to ask!",
+        "en": "Currently, there are no scheduled disease or pest spray recommendations for either **Plot no 1 Manik Chaman** or **Plot no 2 Sudhakar** for the week of March 14 to March 21, 2025. \n\nIf you notice any signs of disease or pests, you may consider a foliar spray based on your observations. If you need specific recommendations for products or further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-03-14T14:36:12.678Z"
+        }
+      }
+    ],
+    "farmer_id": "rahulbhavar630",
+    "farmer_plot_ids": [
+      "plotno1manikchaman521",
+      "plotno2sudhakar185"
+    ],
+    "conversation_id": "67d43e8826d09ec3bb17d10c",
+    "_id": "67d43e8826d09ec3bb17d10c",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-03-14T14:42:20.481000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-03-14T14:34:48.959000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Sensor work properly?",
+        "en": "Sensor work properly?",
+        "timestamp": {
+          "$date": "2025-03-14T14:34:48.959Z"
+        },
+        "standalone_question": "Is the sensor functioning properly?",
+        "standalone_en": "Is the sensor functioning properly?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How do I know if my soil  moisture sensor is working fine ?\nA: The only way to know is if after irrigation the sensor is dropping below 5 kpa and increasing continuously unless next irrigation is done. You can try putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. Also, a soil moisture reading of 0 kPa is perfectly fine, meaning wet soil, but a reading of 200 kPa could mean fault. If the soil moisture sensor reading is consistently at 0 from few 48 hours, then it could be anamolous (use live and historical hourly soil moisture data (use tool) to validate)."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The sensor in **Plot no 2 Sudhakar** is showing a soil moisture reading of **0 kPa**, which indicates wet soil. This can be normal, especially if the sensor was recently installed or if the crop is in an early stage. \n\nHowever, if the sensor has been showing 0 kPa for an extended period, it may be worth checking the following:\n\n1. **Installation**: Ensure the sensor is properly installed and not surrounded by excess water.\n2. **Irrigation**: If you have irrigated recently, it usually takes about 12 hours for the moisture to reach the sensor. If it remains at 0 kPa after that, there might be an issue.\n3. **Local Conditions**: Check for any landscaping or slope issues that might be affecting water drainage around the sensor.\n\nWould you like to create an issue ticket for further investigation?",
+        "en": "The sensor in **Plot no 2 Sudhakar** is showing a soil moisture reading of **0 kPa**, which indicates wet soil. This can be normal, especially if the sensor was recently installed or if the crop is in an early stage. \n\nHowever, if the sensor has been showing 0 kPa for an extended period, it may be worth checking the following:\n\n1. **Installation**: Ensure the sensor is properly installed and not surrounded by excess water.\n2. **Irrigation**: If you have irrigated recently, it usually takes about 12 hours for the moisture to reach the sensor. If it remains at 0 kPa after that, there might be an issue.\n3. **Local Conditions**: Check for any landscaping or slope issues that might be affecting water drainage around the sensor.\n\nWould you like to create an issue ticket for further investigation?",
+        "timestamp": {
+          "$date": "2025-03-14T14:34:54.282Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Oky",
+        "en": "Oky",
+        "timestamp": {
+          "$date": "2025-03-14T14:35:23.897Z"
+        },
+        "standalone_question": "Would you like to proceed with creating an issue ticket for further investigation?",
+        "standalone_en": "Would you like to proceed with creating an issue ticket for further investigation?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "If you have any more questions or need assistance with your plots, feel free to ask. Happy farming!",
+        "en": "If you have any more questions or need assistance with your plots, feel free to ask. Happy farming!",
+        "timestamp": {
+          "$date": "2025-03-14T14:35:27.213Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Suggest nutrition ",
+        "en": "Suggest nutrition ",
+        "timestamp": {
+          "$date": "2025-03-14T14:35:39.397Z"
+        },
+        "standalone_question": "What nutritional recommendations do you have?",
+        "standalone_en": "What nutritional recommendations do you have?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the nutrition recommendations for your plots:\n\n### **Plot no 1 Manik Chaman**\n- **Current Stage**: Cane thinning (Started on 9th November 2024)\n- **Current Week Schedule**: No fertigation needed.\n- **Next Fertigation Schedule**: \n  - **Stage**: Subcane (Week 1)\n  - **Start Date**: 23rd November 2024\n  - **Fertilizers**:\n    1. **Combination 1**: \n       - Mono potassium phosphate: 3.5 kg/acre\n       - Phosphoric acid 80%: 5 kg/acre (Apply separately, 15-20 minutes before other fertilizers)\n    2. **Combination 2**: \n       - 0-60-20: 6 kg/acre\n       - Phosphoric acid 80%: 2.5 kg/acre\n    3. **Combination 3**: \n       - Phosphoric acid 80%: 7 kg/acre\n       - Sulfate of Potash: 2.5 kg/acre\n\n### **Plot no 2 Sudhakar**\n- **Current Stage**: Recut (Started on 30th January 2025)\n- **Current Week Schedule**: No fertigation needed.\n- **Next Fertigation Schedule**: \n  - **Stage**: Subcane (Week 1)\n  - **Start Date**: 1st May 2025\n  - **Fertilizers**:\n    1. **Combination 1**: \n       - Mono potassium phosphate: 3.5 kg/acre\n       - Phosphoric acid 80%: 5 kg/acre (Apply separately, 15-20 minutes before other fertilizers)\n    2. **Combination 2**: \n       - 0-60-20: 6 kg/acre\n       - Phosphoric acid 80%: 2.5 kg/acre\n    3. **Combination 3**: \n       - Phosphoric acid 80%: 7 kg/acre\n       - Sulfate of Potash: 2.5 kg/acre\n\nMake sure to follow the recommendations for optimal growth! If you have any further questions or need assistance, feel free to ask.",
+        "en": "Here are the nutrition recommendations for your plots:\n\n### **Plot no 1 Manik Chaman**\n- **Current Stage**: Cane thinning (Started on 9th November 2024)\n- **Current Week Schedule**: No fertigation needed.\n- **Next Fertigation Schedule**: \n  - **Stage**: Subcane (Week 1)\n  - **Start Date**: 23rd November 2024\n  - **Fertilizers**:\n    1. **Combination 1**: \n       - Mono potassium phosphate: 3.5 kg/acre\n       - Phosphoric acid 80%: 5 kg/acre (Apply separately, 15-20 minutes before other fertilizers)\n    2. **Combination 2**: \n       - 0-60-20: 6 kg/acre\n       - Phosphoric acid 80%: 2.5 kg/acre\n    3. **Combination 3**: \n       - Phosphoric acid 80%: 7 kg/acre\n       - Sulfate of Potash: 2.5 kg/acre\n\n### **Plot no 2 Sudhakar**\n- **Current Stage**: Recut (Started on 30th January 2025)\n- **Current Week Schedule**: No fertigation needed.\n- **Next Fertigation Schedule**: \n  - **Stage**: Subcane (Week 1)\n  - **Start Date**: 1st May 2025\n  - **Fertilizers**:\n    1. **Combination 1**: \n       - Mono potassium phosphate: 3.5 kg/acre\n       - Phosphoric acid 80%: 5 kg/acre (Apply separately, 15-20 minutes before other fertilizers)\n    2. **Combination 2**: \n       - 0-60-20: 6 kg/acre\n       - Phosphoric acid 80%: 2.5 kg/acre\n    3. **Combination 3**: \n       - Phosphoric acid 80%: 7 kg/acre\n       - Sulfate of Potash: 2.5 kg/acre\n\nMake sure to follow the recommendations for optimal growth! If you have any further questions or need assistance, feel free to ask.",
+        "timestamp": {
+          "$date": "2025-03-14T14:35:48.257Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Foliar  sprey",
+        "en": "Foliar  sprey",
+        "timestamp": {
+          "$date": "2025-03-14T14:36:06.817Z"
+        },
+        "standalone_question": "What are the recommendations for foliar spray?",
+        "standalone_en": "What are the recommendations for foliar spray?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice.",
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Currently, there are no scheduled disease or pest spray recommendations for either **Plot no 1 Manik Chaman** or **Plot no 2 Sudhakar** for the week of March 14 to March 21, 2025. \n\nIf you notice any signs of disease or pests, you may consider a foliar spray based on your observations. If you need specific recommendations for products or further assistance, feel free to ask!",
+        "en": "Currently, there are no scheduled disease or pest spray recommendations for either **Plot no 1 Manik Chaman** or **Plot no 2 Sudhakar** for the week of March 14 to March 21, 2025. \n\nIf you notice any signs of disease or pests, you may consider a foliar spray based on your observations. If you need specific recommendations for products or further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-03-14T14:36:12.678Z"
+        }
+      }
+    ],
+    "farmer_id": "rahulbhavar630",
+    "farmer_plot_ids": [
+      "plotno1manikchaman521",
+      "plotno2sudhakar185"
+    ],
+    "conversation_id": "67d43e8826d09ec3bb17d10c",
+    "_id": "67d43e8826d09ec3bb17d10c",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-03-14T14:42:20.481000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-03-14T14:34:48.959000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "फाइलों कंपनी को में खबरी दे राहु मेरा डिवाइस आज तीन दिन हो गया बंद हे  अभी से अभी से संदेश सुनकर तुरंत जांच करवाई तुरंत ये डिवाइस ऑन करे भूपत भाई gam ishanpur। Taluko। Halvad। Distic morbi। Mo 9924047690",
+        "en": "I am informing the files company, my device has been switched off for three days today, from now on, after listening to the message, get it checked immediately, immediately turn on this device, Bhupat Bhai Gam Ishanpur. Taluko. Halvad. Distic Morbi. Mo 9924047690",
+        "timestamp": {
+          "$date": "2025-03-14T09:19:22.437Z"
+        },
+        "standalone_question": "My device has been off for three days. Can you please investigate and turn it on immediately?",
+        "standalone_en": "My device has been off for three days. Can you please investigate and turn it on immediately?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "failon company ko mein khabri de rahu mera device aj tin din ho gaya band hey abhi se abhi se sandesh sunakar turant jaanch karvai turant ye device on kare bhupat bhai gam ishanpure Talukoe Halvade Distic morbie Mo 9924047690"
+      },
+      {
+        "role": "assistant",
+        "content": "भूपत भाई, कृपया ध्यान दें कि यदि आपका डिवाइस तीन दिन से बंद है, तो आपको फाइलों ऐप पर एक सपोर्ट टिकट उठाना चाहिए। आप अपने डिवाइस की स्थिति की जांच करवा सकते हैं और उन्हें तुरंत सक्रिय करने के लिए कह सकते हैं।\n\nआप ग्राहक सहायता से संपर्क कर सकते हैं:\n- हेल्पलाइन नंबर: (+91) 9380908040\n- ईमेल: contact@fyllo.in\n\nआपकी समस्या का समाधान जल्दी हो सके, इसके लिए कृपया तुरंत संपर्क करें।",
+        "en": "Bhupat Bhai, please note that if your device has been off for three days, you should pick up a support ticket on the Files app. You can get your device status checked and ask them to activate immediately.\n\nYou can contact customer support:\n- Helpline Number: (+91) 9380908040\n- Email: contact@fyllo.in\n\nPlease contact us immediately to resolve your issue as soon as possible.",
+        "timestamp": {
+          "$date": "2025-03-14T09:19:26.128Z"
+        }
+      }
+    ],
+    "farmer_id": "bhupatbhai99240",
+    "farmer_plot_ids": [
+      "plot1352401",
+      "plot2433"
+    ],
+    "conversation_id": "67d3f49a26d09ec3bb17d10a",
+    "_id": "67d3f49a26d09ec3bb17d10a",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-14T09:24:22.443000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-03-14T09:19:22.437000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "सेन्सर प्रॉब्लेम आहे, रेचेक ची गरज आहे ",
+        "en": "There's a sensor problem, recheck needed ",
+        "timestamp": {
+          "$date": "2025-03-14T05:48:41.847Z"
+        },
+        "standalone_question": "There is a sensor problem; is a recheck necessary?",
+        "standalone_en": "There is a sensor problem; is a recheck necessary?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What should I do if the soil temperature sensor is not working?\nA: Check the sensor connection, tighten it if loose, and restart the device to check updated data.",
+            "Q: What should I do if the soil moisture sensor always shows dry values?\nA: Check if irrigation water is reaching the sensor, verify sensor connection, and ensure the sensor is not damaged."
+          ]
+        },
+        "content_transliterated": "sensor problem aahe, recheck chi garaj aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "आपण सेन्सरच्या समस्येसाठी एक सपोर्ट टिकेट तयार करू इच्छिता का? कृपया मला सांगा, मी ते तयार करू शकतो.",
+        "en": "Do you want to create a support ticket for sensor issues? Please tell me, I can make it.",
+        "timestamp": {
+          "$date": "2025-03-14T05:48:44.758Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "हो ",
+        "en": "be ",
+        "timestamp": {
+          "$date": "2025-03-14T05:48:52.975Z"
+        },
+        "standalone_question": "Would you like me to create a support ticket for the sensor problem?",
+        "standalone_en": "Would you like me to create a support ticket for the sensor problem?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ho "
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया सांगा, आपण शेवटचा पाण्याचा साठा कधी केला होता? पाण्याचा साठा केल्यानंतर 12 तासांनी सेन्सरवर परिणाम दिसायला लागतो. जर 12 तासांनंतरही सेन्सर वाळलेला दिसत असेल, तर यामागील कारणे तपासणे आवश्यक आहे. \n\nतुम्ही पाण्याचा साठा कसा केला हे तपासू शकता का? तसेच, ड्रिप सिस्टीम चांगली कार्यरत आहे का हे देखील तपासा.",
+        "en": "Please tell me, when was the last time you stocked water? The effect on the sensor begins to appear 12 hours after the water is stored. If the sensor still appears to be dry after 12 hours, it's important to check the reasons behind it. \n\nCan you check how you stored the water? Also, check if the drip system is working well.",
+        "timestamp": {
+          "$date": "2025-03-14T05:48:57.119Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Accuracy चा problem येत आहेत ",
+        "en": "Accuracy problems are coming ",
+        "timestamp": {
+          "$date": "2025-03-14T05:49:20.443Z"
+        },
+        "standalone_question": "Are you experiencing issues with accuracy?",
+        "standalone_en": "Are you experiencing issues with accuracy?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपण सेन्सरच्या अचूकतेसाठी एक सपोर्ट टिकेट तयार करू इच्छिता का? कृपया मला सांगा, मी ते तयार करू शकतो.",
+        "en": "Do you want to create a support ticket for the accuracy of the sensor? Please tell me, I can make it.",
+        "timestamp": {
+          "$date": "2025-03-14T05:49:25.201Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ho",
+        "en": "I have",
+        "timestamp": {
+          "$date": "2025-03-14T05:49:33.024Z"
+        },
+        "standalone_question": "Would you like to create a support ticket for the accuracy issue with the sensor?",
+        "standalone_en": "Would you like to create a support ticket for the accuracy issue with the sensor?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "मी आपला सपोर्ट टिकेट तयार करत आहे. कृपया थोडा वेळ द्या. \n\nसपोर्ट टिकेटमध्ये खालील माहिती समाविष्ट केली जाईल:\n- समस्या: सेन्सर अचूकतेसाठी समस्या\n- तपशील: सेन्सर 0 kPa दर्शवत आहे, आणि यामुळे अचूकता कमी होत आहे.\n\nसपोर्ट टिकेट तयार झाल्यावर, आपल्याला एक पुष्टीकरण मिळेल.",
+        "en": "I'm making your support ticket. Please take some time. \n\nThe support ticket will include the following information:\n- Problem: Problem for sensor accuracy\nDetails: The sensor is showing 0 kPa, and this is reducing accuracy.\n\nOnce a support ticket is ready, you'll receive a confirmation.",
+        "timestamp": {
+          "$date": "2025-03-14T05:49:36.333Z"
+        }
+      }
+    ],
+    "farmer_id": "abhijeetshinde883",
+    "farmer_plot_ids": [
+      "guavaplot493",
+      "pomegranateplot153"
+    ],
+    "conversation_id": "67d3c33926d09ec3bb17d107",
+    "_id": "67d3c33926d09ec3bb17d107",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-03-14T05:54:33.031000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-03-14T05:48:41.847000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How is seewed benfets",
+        "en": "How is seewed benfets",
+        "timestamp": {
+          "$date": "2025-03-14T05:05:16.093Z"
+        },
+        "standalone_question": "What are the benefits of seaweed?",
+        "standalone_en": "What are the benefits of seaweed?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like there might be a typo in your question. If you're asking about the benefits of sowing (seeding) crops, here are some key points:\n\n1. **Crop Establishment**: Proper sowing ensures that seeds are planted at the right depth and spacing, leading to better crop establishment.\n\n2. **Increased Yield**: Well-sown crops can lead to higher yields as they have better access to nutrients, water, and sunlight.\n\n3. **Pest and Disease Resistance**: Healthy plants that are sown correctly are often more resilient to pests and diseases.\n\n4. **Soil Health**: Sowing can improve soil structure and health, especially when cover crops are used.\n\n5. **Efficient Resource Use**: Proper sowing techniques can optimize the use of water and fertilizers, reducing waste and costs.\n\nIf you meant something else, please clarify!",
+        "en": "It seems like there might be a typo in your question. If you're asking about the benefits of sowing (seeding) crops, here are some key points:\n\n1. **Crop Establishment**: Proper sowing ensures that seeds are planted at the right depth and spacing, leading to better crop establishment.\n\n2. **Increased Yield**: Well-sown crops can lead to higher yields as they have better access to nutrients, water, and sunlight.\n\n3. **Pest and Disease Resistance**: Healthy plants that are sown correctly are often more resilient to pests and diseases.\n\n4. **Soil Health**: Sowing can improve soil structure and health, especially when cover crops are used.\n\n5. **Efficient Resource Use**: Proper sowing techniques can optimize the use of water and fertilizers, reducing waste and costs.\n\nIf you meant something else, please clarify!",
+        "timestamp": {
+          "$date": "2025-03-14T05:05:20.694Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Graps<user uploaded image for analysis at 'ara35/2025-03-14-1741928749453.jpg'>",
+        "en": "Graps<user uploaded image for analysis at 'ara35/2025-03-14-1741928749453.jpg'>",
+        "timestamp": {
+          "$date": "2025-03-14T05:05:54.176Z"
+        },
+        "standalone_question": "What can you tell me about the image of the grapes that I uploaded?",
+        "standalone_en": "What can you tell me about the image of the grapes that I uploaded?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The image shows a cluster of green grapes, but it's challenging to assess the crop's health based solely on this image. \n\nFor future analyses, please consider:\n- Capturing a closer view of any affected areas.\n- Ensuring the image is well-focused and clear.\n\nIf you suspect any specific issues with the grapes, please describe them, and I can provide further guidance!",
+        "en": "The image shows a cluster of green grapes, but it's challenging to assess the crop's health based solely on this image. \n\nFor future analyses, please consider:\n- Capturing a closer view of any affected areas.\n- Ensuring the image is well-focused and clear.\n\nIf you suspect any specific issues with the grapes, please describe them, and I can provide further guidance!",
+        "timestamp": {
+          "$date": "2025-03-14T05:06:04.911Z"
+        }
+      }
+    ],
+    "farmer_id": "pankajtukaramrayte",
+    "farmer_plot_ids": [
+      "ara35"
+    ],
+    "conversation_id": "67d3b90b4f2e2778ce3c7561",
+    "_id": "67d3b90b4f2e2778ce3c7561",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-03-14T05:10:54.184000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-03-14T05:05:16.093000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "નેમા ટોડ સે ક્યા હોતા હૈ",
+        "en": "Nema Todd Se Kya Hota Hai",
+        "timestamp": {
+          "$date": "2025-03-14T05:02:34.805Z"
+        },
+        "standalone_question": "What happens in the end?",
+        "standalone_en": "What happens in the end?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "nema toad se kya hota hai"
+      },
+      {
+        "role": "assistant",
+        "content": "મોહનભાઈ, \"નેમા ટોડ\" એટલે કે \"નવા પાંદડા\" જે પાકના વિકાસમાં મહત્વપૂર્ણ હોય છે. આ પાંદડા પાકના વૃદ્ધિ અને વિકાસ માટે જરૂરી પોષણ અને પાણીનું સંચાલન કરે છે. જો તમને વધુ માહિતી જોઈએ તો કૃપા કરીને જણાવો!",
+        "en": "Mohanbhai, \"Nema tod\" means \"new leaves\" which are important in the development of crops. These leaves manage the nutrition and water needed for the growth and development of the crop. Please let me know if you would like more information!",
+        "timestamp": {
+          "$date": "2025-03-14T05:02:38.687Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "નેમાટુડ માટે કોનસી દવાઈ કા યુઝ કરે",
+        "en": "For nematud, Consi uses medicine ka",
+        "timestamp": {
+          "$date": "2025-03-14T05:03:02.770Z"
+        },
+        "standalone_question": "What medicine is used for \"નેમાટુડ\"?",
+        "standalone_en": "What medicine is used for \"નેમાટુડ\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "nematud mate konasi davai ka use care"
+      },
+      {
+        "role": "assistant",
+        "content": "નેમાટુડ (નવા પાંદડા) માટે સામાન્ય રીતે \"પેસ્ટિસાઇડ\" અથવા \"ફંગિસાઇડ\" નો ઉપયોગ કરવામાં આવે છે. આ દવાઓમાં \"નિમ્બુ\" અથવા \"મલથિયોન\" જેવા પદાર્થોનો સમાવેશ થાય છે, જે પાંદડાના રોગો અને જીવાતોને નિયંત્રિત કરવામાં મદદ કરે છે.\n\nજો તમને ચોક્કસ દવા અથવા ઉપયોગની રીત વિશે વધુ માહિતી જોઈએ, તો કૃપા કરીને જણાવો!",
+        "en": "\"Pesticide\" or \"Fungicide\" is commonly used for nematuds (new leaves). These medicines include substances such as \"nimbu\" or \"malathion\", which help control leaf diseases and pests.\n\nIf you would like more information about the particular drug or method of use, please let us know!",
+        "timestamp": {
+          "$date": "2025-03-14T05:03:07.538Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "હા",
+        "en": "Yes man",
+        "timestamp": {
+          "$date": "2025-03-14T05:03:36.258Z"
+        },
+        "standalone_question": "What specific medication or method should be used for neem leaves?",
+        "standalone_en": "What specific medication or method should be used for neem leaves?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "haa"
+      },
+      {
+        "role": "assistant",
+        "content": "કૃપા કરીને જણાવો કે તમે કઈ માહિતી અથવા સહાયતા માંગો છો? હું અહીં મદદ કરવા માટે છું!",
+        "en": "Please tell me what information or assistance do you want? I'm here to help!",
+        "timestamp": {
+          "$date": "2025-03-14T05:03:39.327Z"
+        }
+      }
+    ],
+    "farmer_id": "mohanbhaibhomajisolanki",
+    "farmer_plot_ids": [
+      "jopavalo"
+    ],
+    "conversation_id": "67d3b86ae7305b0979218f18",
+    "_id": "67d3b86ae7305b0979218f18",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-14T05:08:36.266000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-03-14T05:02:34.805000+00:00"
+  }
+]

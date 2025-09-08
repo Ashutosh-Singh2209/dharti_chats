@@ -1,0 +1,701 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "हे डिवाईस सेट झाले आहे का ",
+        "en": "Is this device set up? ",
+        "timestamp": {
+          "$date": "2025-04-28T20:04:44.600Z"
+        },
+        "standalone_question": "Is the device set up?",
+        "standalone_en": "Is the device set up?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "he device set jhale aahe ka "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमचा डिवाईस सक्रिय आहे आणि डेटा पाठवत आहे. तुम्हाला आणखी काही मदतीची आवश्यकता आहे का?",
+        "en": "Your device is active and sending data. Do you need any more help?",
+        "timestamp": {
+          "$date": "2025-04-28T20:04:48.156Z"
+        }
+      }
+    ],
+    "farmer_id": "ravindrajadhav",
+    "farmer_plot_ids": [
+      "grapesplotno1771"
+    ],
+    "conversation_id": "680fdf5c56d410a6f75f483c",
+    "_id": "680fdf5c56d410a6f75f483c",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-28T20:09:44.608000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-28T20:04:44.600000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Update",
+        "en": "Update",
+        "timestamp": {
+          "$date": "2025-04-28T17:18:52.868Z"
+        },
+        "standalone_question": "What is the latest update?",
+        "standalone_en": "What is the latest update?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the latest sensor readings for your plot \"Shashidhar thomson 3 acar\":\n\n- **Air Temperature:** 33°C\n- **Air Humidity:** 34%\n- **Soil Temperature:** 29.63°C\n- **Soil Moisture 1:** 3 kPa (wet)\n- **Soil Moisture 2:** 0 kPa (very wet)\n- **Leaf Wetness:** 0\n- **Air Pressure:** 95.4 kPa\n- **Light Intensity:** 0 (no sunlight detected)\n- **UV Index:** 0\n- **Wind Speed:** 0 km/h\n- **Wind Direction:** SE\n- **Rainfall:** 0 mm\n- **Battery Status:** 96%\n\nThe soil moisture levels indicate that the soil is currently very wet, so irrigation is not needed at this time. If you have any further questions or need assistance, feel free to ask!",
+        "en": "Here are the latest sensor readings for your plot \"Shashidhar thomson 3 acar\":\n\n- **Air Temperature:** 33°C\n- **Air Humidity:** 34%\n- **Soil Temperature:** 29.63°C\n- **Soil Moisture 1:** 3 kPa (wet)\n- **Soil Moisture 2:** 0 kPa (very wet)\n- **Leaf Wetness:** 0\n- **Air Pressure:** 95.4 kPa\n- **Light Intensity:** 0 (no sunlight detected)\n- **UV Index:** 0\n- **Wind Speed:** 0 km/h\n- **Wind Direction:** SE\n- **Rainfall:** 0 mm\n- **Battery Status:** 96%\n\nThe soil moisture levels indicate that the soil is currently very wet, so irrigation is not needed at this time. If you have any further questions or need assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-04-28T17:18:59.158Z"
+        }
+      }
+    ],
+    "farmer_id": "shashidharnaruni",
+    "farmer_plot_ids": [
+      "shashidharthomson3acar"
+    ],
+    "conversation_id": "680fb87c50200ada0807c75f",
+    "_id": "680fb87c50200ada0807c75f",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-28T17:23:52.876000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-28T17:18:52.868000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Yellow page",
+        "en": "Yellow page",
+        "timestamp": {
+          "$date": "2025-04-28T14:07:30.557Z"
+        },
+        "standalone_question": "What is the Yellow Pages?",
+        "standalone_en": "What is the Yellow Pages?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "I'm here to assist you with agricultural practices. If you have any questions or need guidance related to your crops, soil health, pest control, or irrigation strategies, feel free to ask!",
+        "en": "I'm here to assist you with agricultural practices. If you have any questions or need guidance related to your crops, soil health, pest control, or irrigation strategies, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-04-28T14:07:33.271Z"
+        }
+      }
+    ],
+    "farmer_id": "kamleshborgude",
+    "farmer_plot_ids": [
+      "plotno1ssn608"
+    ],
+    "conversation_id": "680f8ba2f7ac3c5270f53d29",
+    "_id": "680f8ba2f7ac3c5270f53d29",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-28T14:12:30.566000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-28T14:07:30.557000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "I don't know about soil ability of my cucumber plot",
+        "en": "I don't know about soil ability of my cucumber plot",
+        "timestamp": {
+          "$date": "2025-04-28T12:04:33.788Z"
+        },
+        "standalone_question": "What is the soil quality of my cucumber plot?",
+        "standalone_en": "What is the soil quality of my cucumber plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To assess the soil ability of your cucumber plot, we can look into soil health indicators such as soil moisture, nutrient levels, and soil type. Since your plot has loamy sand soil, it generally has good drainage and aeration, which is beneficial for cucumber growth.\n\nWould you like to check the current soil moisture levels or get recommendations for soil testing?",
+        "en": "To assess the soil ability of your cucumber plot, we can look into soil health indicators such as soil moisture, nutrient levels, and soil type. Since your plot has loamy sand soil, it generally has good drainage and aeration, which is beneficial for cucumber growth.\n\nWould you like to check the current soil moisture levels or get recommendations for soil testing?",
+        "timestamp": {
+          "$date": "2025-04-28T12:04:36.663Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Yes",
+        "en": "Yes",
+        "timestamp": {
+          "$date": "2025-04-28T12:05:07.176Z"
+        },
+        "standalone_question": "Would you like to check the current soil moisture levels or receive recommendations for soil testing?",
+        "standalone_en": "Would you like to check the current soil moisture levels or receive recommendations for soil testing?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today.",
+            "get_daily_soil_moisture_data  \nRetrieves historical daily soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for larger duration.",
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range.",
+            "get_hourly_soil_moisture_data  \nRetrieves historical hourly soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for less than 5 days duration."
+          ],
+          "faq": [
+            "Q: Why should I consider soil, leaf, or petiole testing?\nA: Soil, leaf, and petiole testing are crucial for effective plant health management. These tests provide specific data about your crop's nutrient needs, allowing for more precise fertilizer application. This can lead to higher productivity with optimized input use, potentially reducing costs and environmental impact.",
+            "Q: What are the advantages of adding soil, leaf, or petiole test reports?\nA: By adding test reports, Fyllo can generate a more precise fertigation schedule tailored to your specific conditions. Benefits include:\n\n    1. More accurate nutrient recommendations\n    2. Better alignment with your crop's actual needs\n    3. Potential for improved crop health and yield\n    4. More efficient use of fertilizers\n    5. Possible reduction in fertilizer costs and environmental impact",
+            "Q: Where can I add soil, leaf, or petiole test reports in the app?\nA: You can add test reports in two ways:\n\n    1. When creating a new report: Go to \"Fertigation,\" then \"Create Report,\" and input the details from your test results.\n    2. Upload copies: You can directly upload photocopies or scans of your test reports in the app. Look for an \"Upload Reports\" or similar option in the Fertigation section.",
+            "Q: What should I do if the soil moisture sensor values fluctuate?\nA: Ensure the sensor is installed properly in the soil, check for air bubbles, and contact Fyllo representative if the issue persists.",
+            "Q: What should I do if the soil moisture sensor always shows wet values?\nA: Verify the irrigation frequency, check the installation point, and contact Fyllo representative if the issue persists."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The current soil moisture level in your cucumber plot is 17%. This indicates that the soil is relatively dry, as 0% means dry and 100% means wet. \n\nFor optimal cucumber growth, it's essential to maintain adequate soil moisture. Would you like to know about irrigation recommendations or any other specific actions to take?",
+        "en": "The current soil moisture level in your cucumber plot is 17%. This indicates that the soil is relatively dry, as 0% means dry and 100% means wet. \n\nFor optimal cucumber growth, it's essential to maintain adequate soil moisture. Would you like to know about irrigation recommendations or any other specific actions to take?",
+        "timestamp": {
+          "$date": "2025-04-28T12:05:14.572Z"
+        }
+      }
+    ],
+    "farmer_id": "kuntalsinghranjitsinhjhala",
+    "farmer_plot_ids": [
+      "cucumberplots"
+    ],
+    "conversation_id": "680f6ed1f7ac3c5270f53d26",
+    "_id": "680f6ed1f7ac3c5270f53d26",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-28T12:10:07.185000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-28T12:04:33.788000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Soil retation",
+        "en": "Soil retation",
+        "timestamp": {
+          "$date": "2025-04-28T11:57:10.650Z"
+        },
+        "standalone_question": "What is soil rotation?",
+        "standalone_en": "What is soil rotation?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Soil retention refers to the ability of soil to hold water and nutrients. It is influenced by soil texture, structure, and organic matter content. In agricultural practices, understanding soil retention is crucial for effective irrigation management, as it helps determine how much water can be stored in the soil and how often irrigation should be applied. \n\nIf you need specific information about soil retention for your cucumber plots, please let me know!",
+        "en": "Soil retention refers to the ability of soil to hold water and nutrients. It is influenced by soil texture, structure, and organic matter content. In agricultural practices, understanding soil retention is crucial for effective irrigation management, as it helps determine how much water can be stored in the soil and how often irrigation should be applied. \n\nIf you need specific information about soil retention for your cucumber plots, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-28T11:57:14.053Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Yes",
+        "en": "Yes",
+        "timestamp": {
+          "$date": "2025-04-28T11:57:40.515Z"
+        },
+        "standalone_question": "What specific information do you need about soil retention for your cucumber plots?",
+        "standalone_en": "What specific information do you need about soil retention for your cucumber plots?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like you might be looking for specific information or assistance. Could you please clarify what you need help with regarding your cucumber plots or any other agricultural practices?",
+        "en": "It seems like you might be looking for specific information or assistance. Could you please clarify what you need help with regarding your cucumber plots or any other agricultural practices?",
+        "timestamp": {
+          "$date": "2025-04-28T11:57:43.497Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "I know about soil retation ability of my cucumber plot",
+        "en": "I know about soil retation ability of my cucumber plot",
+        "timestamp": {
+          "$date": "2025-04-28T11:58:49.992Z"
+        },
+        "standalone_question": "What specific aspects of soil retention are you interested in regarding your cucumber plot?",
+        "standalone_en": "What specific aspects of soil retention are you interested in regarding your cucumber plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Great! Understanding the soil retention ability of your cucumber plot is essential for effective irrigation and crop management. If you have specific questions or need assistance with irrigation scheduling, fertigation, or any other aspect of managing your cucumber crop, feel free to ask!",
+        "en": "Great! Understanding the soil retention ability of your cucumber plot is essential for effective irrigation and crop management. If you have specific questions or need assistance with irrigation scheduling, fertigation, or any other aspect of managing your cucumber crop, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-04-28T11:58:53.514Z"
+        }
+      }
+    ],
+    "farmer_id": "kuntalsinghranjitsinhjhala",
+    "farmer_plot_ids": [
+      "cucumberplots"
+    ],
+    "conversation_id": "680f6d16f7ac3c5270f53d25",
+    "_id": "680f6d16f7ac3c5270f53d25",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-28T12:03:50Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-28T11:57:10.650000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "How manage soil temp ",
+        "en": "How manage soil temp ",
+        "timestamp": {
+          "$date": "2025-04-28T11:24:27.537Z"
+        },
+        "standalone_question": "How can I manage soil temperature?",
+        "standalone_en": "How can I manage soil temperature?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What should I do if the soil temperature sensor is not working?\nA: Check the sensor connection, tighten it if loose, and restart the device to check updated data."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To manage soil temperature effectively, consider the following practices:\n\n1. **Mulching**: Apply organic or synthetic mulch to regulate soil temperature, retain moisture, and suppress weeds.\n\n2. **Soil Cover**: Use cover crops during off-seasons to maintain soil temperature and improve soil health.\n\n3. **Irrigation**: Proper irrigation can help cool the soil during hot periods. Ensure that the soil moisture is adequate.\n\n4. **Soil Type**: Understand your soil type (like loamy sand in your case) and its thermal properties. Loamy soils generally retain heat better than sandy soils.\n\n5. **Crop Selection**: Choose crops that are well-suited to your local climate and soil temperature conditions.\n\n6. **Monitoring**: Regularly monitor soil temperature using sensors to make timely adjustments in management practices.\n\n7. **Tillage Practices**: Minimize tillage to maintain soil structure and temperature stability.\n\nBy implementing these practices, you can effectively manage soil temperature for optimal crop growth.",
+        "en": "To manage soil temperature effectively, consider the following practices:\n\n1. **Mulching**: Apply organic or synthetic mulch to regulate soil temperature, retain moisture, and suppress weeds.\n\n2. **Soil Cover**: Use cover crops during off-seasons to maintain soil temperature and improve soil health.\n\n3. **Irrigation**: Proper irrigation can help cool the soil during hot periods. Ensure that the soil moisture is adequate.\n\n4. **Soil Type**: Understand your soil type (like loamy sand in your case) and its thermal properties. Loamy soils generally retain heat better than sandy soils.\n\n5. **Crop Selection**: Choose crops that are well-suited to your local climate and soil temperature conditions.\n\n6. **Monitoring**: Regularly monitor soil temperature using sensors to make timely adjustments in management practices.\n\n7. **Tillage Practices**: Minimize tillage to maintain soil structure and temperature stability.\n\nBy implementing these practices, you can effectively manage soil temperature for optimal crop growth.",
+        "timestamp": {
+          "$date": "2025-04-28T11:24:32.898Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "How maintain 24c soil temp ",
+        "en": "How maintain 24c soil temp ",
+        "timestamp": {
+          "$date": "2025-04-28T11:25:11.365Z"
+        },
+        "standalone_question": "What are the best methods to maintain a soil temperature of 24°C?",
+        "standalone_en": "What are the best methods to maintain a soil temperature of 24°C?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To maintain a soil temperature of around 24°C, you can follow these strategies:\n\n1. **Mulching**: Apply organic mulch (like straw or wood chips) to insulate the soil, keeping it cooler in hot weather and warmer in cold weather.\n\n2. **Irrigation**: Regularly irrigate your crops, especially during hot periods, to help cool the soil. Ensure that the soil moisture is adequate to support this.\n\n3. **Shade**: Use shade cloth or plant taller crops nearby to provide shade during the hottest parts of the day, reducing soil temperature.\n\n4. **Soil Composition**: Improve soil structure by adding organic matter, which can help retain moisture and regulate temperature.\n\n5. **Cover Crops**: Plant cover crops during off-seasons to protect the soil and maintain a stable temperature.\n\n6. **Monitor Temperature**: Use soil temperature sensors to keep track of the temperature and make adjustments as needed.\n\n7. **Tillage Practices**: Minimize tillage to maintain soil structure and temperature stability.\n\nBy implementing these practices, you can help maintain a consistent soil temperature around 24°C for optimal crop growth.",
+        "en": "To maintain a soil temperature of around 24°C, you can follow these strategies:\n\n1. **Mulching**: Apply organic mulch (like straw or wood chips) to insulate the soil, keeping it cooler in hot weather and warmer in cold weather.\n\n2. **Irrigation**: Regularly irrigate your crops, especially during hot periods, to help cool the soil. Ensure that the soil moisture is adequate to support this.\n\n3. **Shade**: Use shade cloth or plant taller crops nearby to provide shade during the hottest parts of the day, reducing soil temperature.\n\n4. **Soil Composition**: Improve soil structure by adding organic matter, which can help retain moisture and regulate temperature.\n\n5. **Cover Crops**: Plant cover crops during off-seasons to protect the soil and maintain a stable temperature.\n\n6. **Monitor Temperature**: Use soil temperature sensors to keep track of the temperature and make adjustments as needed.\n\n7. **Tillage Practices**: Minimize tillage to maintain soil structure and temperature stability.\n\nBy implementing these practices, you can help maintain a consistent soil temperature around 24°C for optimal crop growth.",
+        "timestamp": {
+          "$date": "2025-04-28T11:25:17.633Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Soil temp can adjust by irrigation ",
+        "en": "Soil temp can adjust by irrigation ",
+        "timestamp": {
+          "$date": "2025-04-28T11:26:04.058Z"
+        },
+        "standalone_question": "Can soil temperature be adjusted through irrigation?",
+        "standalone_en": "Can soil temperature be adjusted through irrigation?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: In the latest irrigation , sensor didn't drop to 0.\nA: 0 to 5 Kpa means soil is fully wet. It need not drop to 0 every time. Moisture less than 5 also means wet conditions. So, need not worry. Also ask to wait for 12 hours after irrigation."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Yes, irrigation can help adjust soil temperature. Here’s how:\n\n1. **Cooling Effect**: When you irrigate, the water applied to the soil can help cool it down, especially during hot weather. This is particularly effective if the soil is dry and the temperature is high.\n\n2. **Moisture Retention**: Irrigation increases soil moisture, which can help maintain a more stable soil temperature. Moist soils tend to have a lower temperature than dry soils.\n\n3. **Evaporative Cooling**: As water evaporates from the soil surface, it cools the surrounding soil, helping to lower the overall temperature.\n\n4. **Root Zone Temperature**: Proper irrigation ensures that the root zone remains at an optimal temperature for plant growth, which can enhance nutrient uptake and overall plant health.\n\nTo effectively manage soil temperature through irrigation, monitor soil moisture levels and apply water as needed, especially during hot periods.",
+        "en": "Yes, irrigation can help adjust soil temperature. Here’s how:\n\n1. **Cooling Effect**: When you irrigate, the water applied to the soil can help cool it down, especially during hot weather. This is particularly effective if the soil is dry and the temperature is high.\n\n2. **Moisture Retention**: Irrigation increases soil moisture, which can help maintain a more stable soil temperature. Moist soils tend to have a lower temperature than dry soils.\n\n3. **Evaporative Cooling**: As water evaporates from the soil surface, it cools the surrounding soil, helping to lower the overall temperature.\n\n4. **Root Zone Temperature**: Proper irrigation ensures that the root zone remains at an optimal temperature for plant growth, which can enhance nutrient uptake and overall plant health.\n\nTo effectively manage soil temperature through irrigation, monitor soil moisture levels and apply water as needed, especially during hot periods.",
+        "timestamp": {
+          "$date": "2025-04-28T11:26:10.222Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "How install Nero divice",
+        "en": "How install Nero divice",
+        "timestamp": {
+          "$date": "2025-04-28T11:28:42.249Z"
+        },
+        "standalone_question": "How do you install a Nero device?",
+        "standalone_en": "How do you install a Nero device?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How do I get started with Nero?\nA: Follow the steps in the manual to set up the device, connect it to the Fyllo app, and install the necessary components.",
+            "Q: How do I set up the sensors for Nero?\nA: Install the sensors according to the guidelines in the manual, ensuring they are placed correctly in the soil.",
+            "Q: How do I replace the sensors for Nero?\nA: Disconnect the sensors by rotating them counterclockwise, unplug the connector, and replace them by following the steps in the manual."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To install the Nero device, follow these general steps:\n\n1. **Unbox the Device**: Carefully remove the Nero device and all its components from the packaging.\n\n2. **Read the Manual**: Refer to the installation manual provided with the device for specific instructions and safety information.\n\n3. **Choose a Location**: Select an appropriate location in your field where the device can effectively monitor soil and environmental conditions.\n\n4. **Install Sensors**: \n   - Insert the soil moisture sensors into the soil at the recommended depth.\n   - Ensure they are placed in areas representative of your crop's growing conditions.\n\n5. **Connect the Device**: \n   - Connect the sensors to the Nero device according to the manual.\n   - Ensure all connections are secure.\n\n6. **Power Up**: Turn on the device and check for any indicator lights to confirm it is functioning properly.\n\n7. **Connect to the App**: \n   - Download the Fyllo app on your smartphone.\n   - Follow the app instructions to connect the Nero device to your account.\n\n8. **Calibration**: If required, calibrate the sensors as per the instructions in the manual.\n\n9. **Monitor Data**: Once set up, monitor the data through the app to ensure everything is working correctly.\n\nIf you encounter any issues, refer to the troubleshooting section of the manual or contact customer support for assistance.",
+        "en": "To install the Nero device, follow these general steps:\n\n1. **Unbox the Device**: Carefully remove the Nero device and all its components from the packaging.\n\n2. **Read the Manual**: Refer to the installation manual provided with the device for specific instructions and safety information.\n\n3. **Choose a Location**: Select an appropriate location in your field where the device can effectively monitor soil and environmental conditions.\n\n4. **Install Sensors**: \n   - Insert the soil moisture sensors into the soil at the recommended depth.\n   - Ensure they are placed in areas representative of your crop's growing conditions.\n\n5. **Connect the Device**: \n   - Connect the sensors to the Nero device according to the manual.\n   - Ensure all connections are secure.\n\n6. **Power Up**: Turn on the device and check for any indicator lights to confirm it is functioning properly.\n\n7. **Connect to the App**: \n   - Download the Fyllo app on your smartphone.\n   - Follow the app instructions to connect the Nero device to your account.\n\n8. **Calibration**: If required, calibrate the sensors as per the instructions in the manual.\n\n9. **Monitor Data**: Once set up, monitor the data through the app to ensure everything is working correctly.\n\nIf you encounter any issues, refer to the troubleshooting section of the manual or contact customer support for assistance.",
+        "timestamp": {
+          "$date": "2025-04-28T11:28:50.855Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "How calibrat senser",
+        "en": "How calibrat senser",
+        "timestamp": {
+          "$date": "2025-04-28T11:29:34.265Z"
+        },
+        "standalone_question": "How do you calibrate the sensor?",
+        "standalone_en": "How do you calibrate the sensor?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How to calibrate soil moisture sensors ?\nA:  The way to calibrate sensors is by putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. A drop after watering or irrigation and continuous dry upto 200 kpa means that the sensor is calibrated.",
+            "Q: How do I set up the sensors for Nero?\nA: Install the sensors according to the guidelines in the manual, ensuring they are placed correctly in the soil.",
+            "Q: How do I connect the sensors to the Kairo device?\nA: Connect the sensors to their respective connectors as indicated in the manual.",
+            "Q: How do I replace the sensors for Kairo?\nA: Disconnect the sensors by rotating them counterclockwise, unplug the connector, and replace them by following the steps in the manual.",
+            "Q: How do I replace the sensors for Nero?\nA: Disconnect the sensors by rotating them counterclockwise, unplug the connector, and replace them by following the steps in the manual."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To calibrate soil moisture sensors, follow these steps:\n\n1. **Water the Soil**: Apply water to the soil where the sensor is installed. Ensure the soil is adequately saturated.\n\n2. **Monitor Readings**: After watering, observe the sensor readings. The soil moisture level should drop as the water is absorbed.\n\n3. **Check for Stability**: Ensure that there are no fluctuations in the soil moisture data. The readings should stabilize after watering.\n\n4. **Pressure kPa Monitoring**: The pressure kPa should increase as the soil dries out. A continuous increase up to 200 kPa indicates that the sensor is calibrated correctly.\n\n5. **Repeat if Necessary**: If the readings do not stabilize or fluctuate significantly, repeat the watering process and monitor again.\n\nBy following these steps, you can ensure that your soil moisture sensors are properly calibrated for accurate readings.",
+        "en": "To calibrate soil moisture sensors, follow these steps:\n\n1. **Water the Soil**: Apply water to the soil where the sensor is installed. Ensure the soil is adequately saturated.\n\n2. **Monitor Readings**: After watering, observe the sensor readings. The soil moisture level should drop as the water is absorbed.\n\n3. **Check for Stability**: Ensure that there are no fluctuations in the soil moisture data. The readings should stabilize after watering.\n\n4. **Pressure kPa Monitoring**: The pressure kPa should increase as the soil dries out. A continuous increase up to 200 kPa indicates that the sensor is calibrated correctly.\n\n5. **Repeat if Necessary**: If the readings do not stabilize or fluctuate significantly, repeat the watering process and monitor again.\n\nBy following these steps, you can ensure that your soil moisture sensors are properly calibrated for accurate readings.",
+        "timestamp": {
+          "$date": "2025-04-28T11:29:40.520Z"
+        }
+      }
+    ],
+    "farmer_id": "kuntalsinghranjitsinhjhala",
+    "farmer_plot_ids": [
+      "cucumberplots"
+    ],
+    "conversation_id": "680f656b50200ada0807c75d",
+    "_id": "680f656b50200ada0807c75d",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-28T11:34:34.276000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-28T11:24:27.537000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "भुरी ला काय करावे ",
+        "en": "What to do with Bhuri ",
+        "timestamp": {
+          "$date": "2025-04-28T09:52:08.992Z"
+        },
+        "standalone_question": "What should I do for Bhuri?",
+        "standalone_en": "What should I do for Bhuri?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "भुरी (पेस्ट) नियंत्रणासाठी खालील उपाययोजना करा:\n\n1. **पाण्याचा वापर**: पाण्याचा योग्य वापर करून मातीला ओलावा ठेवा, कारण भुरी पाण्याच्या कमतरतेमुळे वाढू शकते.\n\n2. **पेस्टिसाइड्स**: योग्य पेस्टिसाइड्सचा वापर करा. भुरीसाठी विशेषतः \"फफूंदनाशक\" वापरणे उपयुक्त ठरते.\n\n3. **पानांची तपासणी**: पानांवर भुरीच्या लक्षणांची तपासणी करा. जर भुरी दिसली, तर तात्काळ उपाययोजना करा.\n\n4. **साफसफाई**: शेतातील गाळ, सुकलेले पानं आणि अन्य कचरा काढा, ज्यामुळे भुरीच्या वाढीस प्रतिबंध होईल.\n\n5. **पोषण**: पिकांना योग्य पोषण द्या, कारण मजबूत पिके भुरीच्या आक्रमणाला अधिक सहनशील असतात.\n\nजर तुम्हाला अधिक माहिती हवी असेल तर कृपया सांगा.",
+        "en": "Take the following measures to control the paste:\n\n1. **Water use**: Keep moisture in the soil by making proper use of water, as brown can grow due to lack of water.\n\n2. **Pesticides**: Use the right pesticides. Using a \"fungicide\" is especially helpful for brown.\n\n3. **Check the leaves**: Check for brownish symptoms on the leaves. If you see brown, take immediate action.\n\n4. **Cleaning**: Remove silt, dried leaves and other waste from the field, which will prevent the growth of brown.\n\n5. **Nutrition**: Give proper nutrition to crops, as strong crops are more tolerant of brown invasion.\n\nIf you need more information, please let me know.",
+        "timestamp": {
+          "$date": "2025-04-28T09:52:15.115Z"
+        }
+      }
+    ],
+    "farmer_id": "rohanjadhav163",
+    "farmer_plot_ids": [
+      "plotno1thompson420",
+      "plotno2sudhakar318"
+    ],
+    "conversation_id": "680f4fc850200ada0807c75c",
+    "_id": "680f4fc850200ada0807c75c",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-28T09:57:09.002000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-28T09:52:08.992000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Resun ",
+        "en": "Resun ",
+        "timestamp": {
+          "$date": "2025-04-28T09:34:59.610Z"
+        },
+        "standalone_question": "What does \"Resun\" mean?",
+        "standalone_en": "What does \"Resun\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "ನೀವು ಏನನ್ನು ಕೇಳಲು ಬಯಸುತ್ತೀರಿ? ನಾನು ಕೃಷಿ ಸಂಬಂಧಿತ ಮಾಹಿತಿಯನ್ನು ನೀಡಲು ಇಲ್ಲಿದ್ದೇನೆ.",
+        "en": "What do you want to hear? I am here to give agriculture related information.",
+        "timestamp": {
+          "$date": "2025-04-28T09:35:02.144Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Resun ",
+        "en": "Resun ",
+        "timestamp": {
+          "$date": "2025-04-28T09:37:04.973Z"
+        },
+        "standalone_question": "What would you like to ask?",
+        "standalone_en": "What would you like to ask?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "ನೀವು ಕೇಳಿದ \"Resun\" ಎಂಬುದರ ಬಗ್ಗೆ ನನಗೆ ಸ್ಪಷ್ಟತೆ ಇಲ್ಲ. ದಯವಿಟ್ಟು ನೀವು ಏನನ್ನು ತಿಳಿಸಲು ಬಯಸುತ್ತೀರಿ ಎಂಬುದನ್ನು ವಿವರಿಸಬಹುದು? ನಾನು ಕೃಷಿ ಸಂಬಂಧಿತ ಮಾಹಿತಿಯನ್ನು ನೀಡಲು ಇಲ್ಲಿದ್ದೇನೆ.",
+        "en": "I'm not clear about the \"Resun\" you've heard. Could you please explain what you would like to convey? I am here to give agriculture related information.",
+        "timestamp": {
+          "$date": "2025-04-28T09:37:11.743Z"
+        }
+      }
+    ],
+    "farmer_id": "veerdbhadrappahalshetti",
+    "farmer_plot_ids": [
+      "pomegranateplot874",
+      "pomosanjay"
+    ],
+    "conversation_id": "680f4bbe6726dde62ad1aa4f",
+    "_id": "680f4bbe6726dde62ad1aa4f",
+    "language": "ka",
+    "expiry": {
+      "$date": "2025-04-28T09:42:04.984000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-28T09:34:59.610000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Fertigation ",
+        "en": "Fertigation ",
+        "timestamp": {
+          "$date": "2025-04-28T06:21:02.853Z"
+        },
+        "standalone_question": "What is fertigation?",
+        "standalone_en": "What is fertigation?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available.",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: Where can I find the fertigation schedule in the Fyllo app?\nA: To access the fertigation schedule:\n    1. Open the Fyllo app\n    2. Select \"My Farm\" at the bottom\n    3. Tap on the \"Fertigation\" option\n   You'll find the fertigation schedule there, including details about the required fertilizer applications.",
+            "Q: How do I generate a fertigation schedule in the app?\nA: To generate a fertigation schedule, follow these steps:\n\n    1. Go to \"My Farm\"\n    2. Select \"Fertigation\"\n    3. Tap \"Create Report\"\n    4. Fill in all the required details\n    5. Save the report\n    If you have soil, leaf, or petiole test data, you can input this for a more customized schedule. Otherwise, we can generate a basic schedule using general crop and regional data."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Currently, there is **no fertigation needed** for your cucumber plots as of today, **April 28, 2025**. \n\n### Upcoming Fertigation Schedule:\nAs your crop transitions to the **Vegetative Growth** stage, here are the details for the first week of fertigation:\n\n1. **Week 1, Day 1 (May 5, 2025)**:\n   - **Fertilizers**:\n     - 12-61-0: 3 kg/acre\n     - Calcium nitrate: 3 kg/acre\n   - **Notes**:\n     - Calcium nitrate should be applied separately, 15-20 minutes after application of other fertilizers.\n     - Phosphoric acid should be applied separately, 15-20 minutes before application of other fertilizers.\n\n2. **Week 1, Day 3 (May 7, 2025)**:\n   - **Fertilizers**:\n     - 12-61-0: 3.5 kg/acre\n   - **Notes**:\n     - Same as above.\n\n3. **Week 1, Day 5 (May 9, 2025)**:\n   - **Fertilizers**:\n     - 12-61-0: 3.5 kg/acre\n     - Magnesium Sulphate: 3 kg/acre\n   - **Notes**:\n     - Same as above.\n\nMake sure to follow the notes for proper application timing!",
+        "en": "Currently, there is **no fertigation needed** for your cucumber plots as of today, **April 28, 2025**. \n\n### Upcoming Fertigation Schedule:\nAs your crop transitions to the **Vegetative Growth** stage, here are the details for the first week of fertigation:\n\n1. **Week 1, Day 1 (May 5, 2025)**:\n   - **Fertilizers**:\n     - 12-61-0: 3 kg/acre\n     - Calcium nitrate: 3 kg/acre\n   - **Notes**:\n     - Calcium nitrate should be applied separately, 15-20 minutes after application of other fertilizers.\n     - Phosphoric acid should be applied separately, 15-20 minutes before application of other fertilizers.\n\n2. **Week 1, Day 3 (May 7, 2025)**:\n   - **Fertilizers**:\n     - 12-61-0: 3.5 kg/acre\n   - **Notes**:\n     - Same as above.\n\n3. **Week 1, Day 5 (May 9, 2025)**:\n   - **Fertilizers**:\n     - 12-61-0: 3.5 kg/acre\n     - Magnesium Sulphate: 3 kg/acre\n   - **Notes**:\n     - Same as above.\n\nMake sure to follow the notes for proper application timing!",
+        "timestamp": {
+          "$date": "2025-04-28T06:21:10.527Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "My cucumber plot is half Acer land ",
+        "en": "My cucumber plot is half Acer land ",
+        "timestamp": {
+          "$date": "2025-04-28T06:21:57.084Z"
+        },
+        "standalone_question": "What is the appropriate fertigation schedule for a cucumber plot that is half an acre in size?",
+        "standalone_en": "What is the appropriate fertigation schedule for a cucumber plot that is half an acre in size?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\".",
+            "get_specific_fertigation_requirements  \nFinds the fertigation requirements for the plots with a particular crop stage and week numbers."
+          ],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Your cucumber plot is currently **1 acre** in size. If you are referring to a portion of the plot being utilized or if you want to adjust the irrigation or fertigation calculations for **0.5 acres**, please confirm, and I can assist you with the necessary adjustments or calculations.",
+        "en": "Your cucumber plot is currently **1 acre** in size. If you are referring to a portion of the plot being utilized or if you want to adjust the irrigation or fertigation calculations for **0.5 acres**, please confirm, and I can assist you with the necessary adjustments or calculations.",
+        "timestamp": {
+          "$date": "2025-04-28T06:22:01.834Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "My plot is 0.5acer",
+        "en": "My plot is 0.5acer",
+        "timestamp": {
+          "$date": "2025-04-28T06:22:51.951Z"
+        },
+        "standalone_question": "What is the size of your cucumber plot?",
+        "standalone_en": "What is the size of your cucumber plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Based on your plot's irrigation settings, the calculated irrigation hours for your **0.5 acre** cucumber plot are approximately **0.22 hours** (or about 13 minutes).\n\n### Irrigation Installation Settings Used for Calculation:\n- **Root Width**: 12 inches\n- **Root Depth**: 8 inches\n- **Soil Retention**: 110 mm\n- **Dripper Distance**: 1.25 feet\n- **Dripper Discharge**: 4 liters\n\nWould you like to calculate irrigation hours with a different set of values? If yes, please provide the new values you'd like to use.",
+        "en": "Based on your plot's irrigation settings, the calculated irrigation hours for your **0.5 acre** cucumber plot are approximately **0.22 hours** (or about 13 minutes).\n\n### Irrigation Installation Settings Used for Calculation:\n- **Root Width**: 12 inches\n- **Root Depth**: 8 inches\n- **Soil Retention**: 110 mm\n- **Dripper Distance**: 1.25 feet\n- **Dripper Discharge**: 4 liters\n\nWould you like to calculate irrigation hours with a different set of values? If yes, please provide the new values you'd like to use.",
+        "timestamp": {
+          "$date": "2025-04-28T06:23:01.056Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Provide fertigation value for 0.5acer",
+        "en": "Provide fertigation value for 0.5acer",
+        "timestamp": {
+          "$date": "2025-04-28T06:23:59.814Z"
+        },
+        "standalone_question": "What are the fertigation values for a 0.5 acre cucumber plot?",
+        "standalone_en": "What are the fertigation values for a 0.5 acre cucumber plot?",
+        "retrieval": {
+          "tools": [
+            "get_specific_fertigation_requirements  \nFinds the fertigation requirements for the plots with a particular crop stage and week numbers.",
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available.",
+            "Q: If I don't add any test data, what is the basis for the generated fertigation schedule?\nA: When no specific test data is provided, Fyllo generates a basic fertigation schedule based on:\n\n    1. Typical nutrient needs for your crop type\n    2. General soil characteristics common in your region\n    3. Standard growing practices for your area\n    This schedule provides a starting point, but may not be as precise as one based on specific test data."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For your **0.5 acre** cucumber plot, here are the fertigation values for the **first week of the Crop Establishment stage**:\n\n### Fertigation Schedule:\n1. **Zinc Sulphate**: 2.75 kg\n2. **Farmyard Manure**: 5000 kg\n3. **10-26-26 Fertilizer**: 75.25 kg\n4. **Urea**: 23.25 kg\n5. **Single Superphosphate**: 2.75 kg\n\n### Notes:\n- Ensure proper mixing and application methods for effective nutrient uptake.\n- Monitor soil and plant health to adjust future fertigation as needed.\n\nWould you like any further assistance or details?",
+        "en": "For your **0.5 acre** cucumber plot, here are the fertigation values for the **first week of the Crop Establishment stage**:\n\n### Fertigation Schedule:\n1. **Zinc Sulphate**: 2.75 kg\n2. **Farmyard Manure**: 5000 kg\n3. **10-26-26 Fertilizer**: 75.25 kg\n4. **Urea**: 23.25 kg\n5. **Single Superphosphate**: 2.75 kg\n\n### Notes:\n- Ensure proper mixing and application methods for effective nutrient uptake.\n- Monitor soil and plant health to adjust future fertigation as needed.\n\nWould you like any further assistance or details?",
+        "timestamp": {
+          "$date": "2025-04-28T06:24:06.808Z"
+        }
+      }
+    ],
+    "farmer_id": "kuntalsinghranjitsinhjhala",
+    "farmer_plot_ids": [
+      "cucumberplots"
+    ],
+    "conversation_id": "680f1e4e6726dde62ad1aa4d",
+    "_id": "680f1e4e6726dde62ad1aa4d",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-28T06:28:59.824000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-28T06:21:02.853000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Bhuri la Kay karave",
+        "en": "What to do with brown",
+        "timestamp": {
+          "$date": "2025-04-28T06:20:04.783Z"
+        },
+        "standalone_question": "What should I do with Bhuri?",
+        "standalone_en": "What should I do with Bhuri?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "\"Bhuri\" (बुही) refers to the \"Break Bud\" stage in grape cultivation. During this stage, it's essential to ensure proper care and management of the vines. Here are some key practices to follow:\n\n1. **Watering**: Ensure adequate moisture in the soil. Monitor soil moisture levels and irrigate if necessary.\n\n2. **Fertilization**: Apply appropriate fertilizers to support growth. Follow the fertigation schedule for optimal nutrient supply.\n\n3. **Pest and Disease Management**: Keep an eye out for any signs of pests or diseases. Implement preventive measures and treatments as needed.\n\n4. **Pruning**: Continue with any necessary pruning to promote healthy growth and fruit development.\n\n5. **Monitoring Growth**: Regularly check the growth of the buds and overall vine health.\n\nIf you need specific recommendations or a fertigation schedule for your plot, please let me know!",
+        "en": "\"Bhuri\" (बुही) refers to the \"Break Bud\" stage in grape cultivation. During this stage, it's essential to ensure proper care and management of the vines. Here are some key practices to follow:\n\n1. **Watering**: Ensure adequate moisture in the soil. Monitor soil moisture levels and irrigate if necessary.\n\n2. **Fertilization**: Apply appropriate fertilizers to support growth. Follow the fertigation schedule for optimal nutrient supply.\n\n3. **Pest and Disease Management**: Keep an eye out for any signs of pests or diseases. Implement preventive measures and treatments as needed.\n\n4. **Pruning**: Continue with any necessary pruning to promote healthy growth and fruit development.\n\n5. **Monitoring Growth**: Regularly check the growth of the buds and overall vine health.\n\nIf you need specific recommendations or a fertigation schedule for your plot, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-28T06:20:10.515Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "भुरी आहे ",
+        "en": "Brown ",
+        "timestamp": {
+          "$date": "2025-04-28T06:20:49.483Z"
+        },
+        "standalone_question": "Is there a \"Break Bud\" stage currently happening?",
+        "standalone_en": "Is there a \"Break Bud\" stage currently happening?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "bhuri aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "भुरी (Break Bud) स्टेजमध्ये, तुमच्या द्राक्षांच्या वेलींच्या वाढीवर लक्ष ठेवणे महत्त्वाचे आहे. या स्टेजमध्ये खालील गोष्टींची काळजी घ्या:\n\n1. **पाणी**: मातीतील आर्द्रता योग्य ठेवणे आवश्यक आहे. मातीच्या आर्द्रतेची तपासणी करा आणि आवश्यक असल्यास पाणी द्या.\n\n2. **खते**: योग्य खते लागू करा जेणेकरून वाढीला मदत होईल. तुमच्या प्लॉटसाठी फर्टिगेशन शेड्यूलचे पालन करा.\n\n3. **कीड आणि रोग व्यवस्थापन**: कीड किंवा रोगांचे कोणतेही लक्षण दिसल्यास लक्ष ठेवा. आवश्यकतेनुसार प्रतिबंधात्मक उपाय आणि उपचार करा.\n\n4. **कापणी**: आरोग्यदायी वाढ आणि फळांच्या विकासासाठी आवश्यक असल्यास कापणी चालू ठेवा.\n\n5. **वाढीवर लक्ष ठेवा**: बड्यांच्या वाढीची आणि एकूण वेलीच्या आरोग्याची नियमितपणे तपासणी करा.\n\nजर तुम्हाला तुमच्या प्लॉटसाठी विशिष्ट शिफारसी किंवा फर्टिगेशन शेड्यूल आवश्यक असेल, तर कृपया मला सांगा!",
+        "en": "In the break bud stage, it's important to monitor the growth of your grape vines. Take care of the following at this stage:\n\n1. **Water**: Soil moisture needs to be kept right. Check for soil moisture and water if necessary.\n\n2. **Fertilizers**: Apply the right fertilizers to help with growth. Follow the fertigation schedule for your plot.\n\n3. **Pest and Disease Management**: Keep an eye out for any symptoms of pests or diseases. Take preventive measures and treatments as needed.\n\n4. **Harvest**: Continue harvesting if necessary for healthy growth and fruit development.\n\n5. **Monitor growth**: Regularly check the growth and overall vine health of the burrows.\n\nIf you need specific recommendations or a fertigation schedule for your plot, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-28T06:20:56.994Z"
+        }
+      }
+    ],
+    "farmer_id": "dashrathvadaje",
+    "farmer_plot_ids": [
+      "plotno1sharad492",
+      "plotno2thomson558"
+    ],
+    "conversation_id": "680f1e14118ab96f10a31f88",
+    "_id": "680f1e14118ab96f10a31f88",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-28T06:25:49.495000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-28T06:20:04.783000+00:00"
+  }
+]

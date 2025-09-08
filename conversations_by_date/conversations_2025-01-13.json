@@ -1,0 +1,1289 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Irrigation water ka ec kaise maintain kre",
+        "en": "Irrigation water ka ec kaise maintain kre",
+        "timestamp": {
+          "$date": "2025-01-13T17:40:58.629Z"
+        },
+        "standalone_question": "How can we maintain the EC (electrical conductivity) of irrigation water?",
+        "standalone_en": "How can we maintain the EC (electrical conductivity) of irrigation water?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Irrigation water ka EC (Electrical Conductivity) maintain karne ke liye kuch steps follow kar sakte hain:\n\n1. **Soil Testing**: Regularly soil ka EC test karna chahiye. Isse aapko pata chalega ki soil mein salts ka level kya hai.\n\n2. **Water Quality**: Irrigation ke liye use hone wale paani ka EC check karein. Agar paani ka EC high hai, toh isse soil mein salts ka accumulation ho sakta hai.\n\n3. **Leaching**: Agar soil mein salts ka level badh raha hai, toh leaching irrigation ka istemal karein. Isme zyada paani diya jata hai taaki salts wash out ho sakein.\n\n4. **Crop Selection**: Aise crops ka chayan karein jo high salinity ko tolerate kar sakein.\n\n5. **Mulching**: Mulch ka istemal karne se soil moisture maintain hota hai aur evaporation kam hoti hai, jo ki salts ke concentration ko control karne mein madad karta hai.\n\n6. **Regular Monitoring**: Soil aur water ka EC regular basis par monitor karein taaki kisi bhi samasya ko jaldi se samjha ja sake.\n\nIn steps ko follow karke aap irrigation water ka EC maintain kar sakte hain.",
+        "en": "Here are a few steps you can follow to maintain an irrigation water:\n\n1. Soil Testing: A soil test should be done regularly. This will tell you what the level of salts in the soil is.\n\n2. Water Quality: Check the water for irrigation. If there is a high water level, it can lead to the accumulation of salts in the soil.\n\n3. Leaching: If the level of salts in the soil is increasing, use leaching irrigation. More water is added to it so that the salts can be washed out.\n\n4. **Crop Selection**: Select a crop that can tolerate high salinity.\n\n5. Mulching: Using mulch helps to maintain soil moisture and reduce evaporation, which helps in controlling the concentration of salts.\n\n6. Regular Monitoring: Monitor soil and water on a regular basis so that any problem can be quickly understood.\n\nBy following these steps, you can do a maintenance of irrigation water.",
+        "timestamp": {
+          "$date": "2025-01-13T17:41:06.274Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Kitna ec hona chahiye ",
+        "en": "How much one should there be? ",
+        "timestamp": {
+          "$date": "2025-01-13T17:42:20.858Z"
+        },
+        "standalone_question": "What should be the ideal EC level for irrigation water?",
+        "standalone_en": "What should be the ideal EC level for irrigation water?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer.",
+            "Q: How much kPa should be set for a 4-inch depth soil moisture sensor?\nA: The kPa value for a 4-inch depth soil moisture sensor should be set based on the **soil type** and **crop requirements**. Here are general guidelines for different soil types:\n\n### **Sandy Soil:**\n- **Optimal range:** 10–20 kPa\n- **Irrigation threshold:** Above 30 kPa\n\n### **Loamy Soil (Silty or Mixed):**\n- **Optimal range:** 20–40 kPa\n- **Irrigation threshold:** Above 50 kPa\n\n### **Clay Soil:**\n- **Optimal range:** 40–70 kPa\n- **Irrigation threshold:** Above 80 kPa\n\n### **Additional Considerations:**\n- For **sensitive crops** like vegetables, maintain lower kPa thresholds to avoid water stress.\n- For **deep-rooted crops**, kPa values may vary at different depths; calibrate accordingly.\n- **Calibration** of the sensor to your specific soil and crop is essential for accuracy.\n\nConsulting with an agronomist or referring to crop-specific irrigation guides will help you fine-tune the kPa range."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Irrigation water ka EC (Electrical Conductivity) level crop aur soil type par depend karta hai. Yahaan kuch general guidelines hain:\n\n1. **Kinnow (Citrus) ke liye**:\n   - **Optimal EC Level**: 0.5 to 1.5 dS/m (deciSiemens per meter)\n   - **Threshold**: Agar EC 2.0 dS/m se zyada ho jata hai, toh yeh plants ke liye harmful ho sakta hai.\n\n2. **Soil Type**:\n   - **Sandy Soil**: 0.5 to 1.0 dS/m\n   - **Loamy Soil**: 0.5 to 1.5 dS/m\n   - **Clay Soil**: 0.5 to 1.5 dS/m\n\n3. **Water Quality**: \n   - Irrigation ke liye use hone wale paani ka EC level bhi check karein. Agar paani ka EC high hai, toh yeh soil mein salts ka accumulation kar sakta hai.\n\nAapko apne specific crop aur soil conditions ke hisaab se EC level ko monitor karna chahiye. Regular testing se aapko behtar results milenge.",
+        "en": "Irrigation water ka EC (Electrical Conductivity) level crop aur soil type par depend karta hai. Yahaan kuch general guidelines hain:\n\n1. **Kinnow (Citrus) ke liye**:\n   - **Optimal EC Level**: 0.5 to 1.5 dS/m (deciSiemens per meter)\n   - **Threshold**: Agar EC 2.0 dS/m se zyada ho jata hai, toh yeh plants ke liye harmful ho sakta hai.\n\n2. **Soil Type**:\n   - **Sandy Soil**: 0.5 to 1.0 dS/m\n   - **Loamy Soil**: 0.5 to 1.5 dS/m\n   - **Clay Soil**: 0.5 to 1.5 dS/m\n\n3. **Water Quality**: \n   - Irrigation ke liye use hone wale paani ka EC level bhi check karein. Agar paani ka EC high hai, toh yeh soil mein salts ka accumulation kar sakta hai.\n\nAapko apne specific crop aur soil conditions ke hisaab se EC level ko monitor karna chahiye. Regular testing se aapko behtar results milenge.",
+        "timestamp": {
+          "$date": "2025-01-13T17:42:29.639Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Pani ka ec Kitna hona chahiye ",
+        "en": "How much water should there be? ",
+        "timestamp": {
+          "$date": "2025-01-13T17:43:20.796Z"
+        },
+        "standalone_question": "What should be the EC level of irrigation water?",
+        "standalone_en": "What should be the EC level of irrigation water?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Irrigation water ka EC (Electrical Conductivity) level crop aur soil type par depend karta hai. Kinnow ke liye, jo aapki crop hai, yahaan kuch guidelines hain:\n\n1. **Optimal EC Level**: 0.5 to 1.5 dS/m (deciSiemens per meter)\n2. **Threshold Level**: Agar EC 2.0 dS/m se zyada ho jata hai, toh yeh plants ke liye harmful ho sakta hai.\n\nYeh values aapko irrigation water ki quality maintain karne mein madad karengi. Regular testing se aapko behtar results milenge.",
+        "en": "Irrigation water ka EC (Electrical Conductivity) level crop aur soil type par depend karta hai. Kinnow ke liye, jo aapki crop hai, yahaan kuch guidelines hain:\n\n1. **Optimal EC Level**: 0.5 to 1.5 dS/m (deciSiemens per meter)\n2. **Threshold Level**: Agar EC 2.0 dS/m se zyada ho jata hai, toh yeh plants ke liye harmful ho sakta hai.\n\nYeh values aapko irrigation water ki quality maintain karne mein madad karengi. Regular testing se aapko behtar results milenge.",
+        "timestamp": {
+          "$date": "2025-01-13T17:43:32.508Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Kaise check kre ",
+        "en": "How to check ",
+        "timestamp": {
+          "$date": "2025-01-13T17:43:50.199Z"
+        },
+        "standalone_question": "How can I check the EC level of irrigation water?",
+        "standalone_en": "How can I check the EC level of irrigation water?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: In the latest irrigation , sensor didn't drop to 0.\nA: 0 to 5 Kpa means soil is fully wet. It need not drop to 0 every time. Moisture less than 5 also means wet conditions. So, need not worry. Also ask to wait for 12 hours after irrigation.",
+            "Q: Sensor is showing wet, i.e. less kpa but soil looks dry.\nA: The sensor measures the moisture around the rootzone which is not visible from the top. Ask use to check the moisture in rootzone around the sensor. If it matches, ask the user to irrigate."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Soil moisture ko check karne ke liye aap in steps ko follow kar sakte hain:\n\n1. **Moisture Sensor Data**: Aapke plot mein installed moisture sensors ka data check karein. Yeh sensors soil ke root zone mein moisture level ko measure karte hain.\n\n2. **Soil Sampling**: \n   - **Manual Testing**: Aap soil ka chhota sample le sakte hain. Soil ko haath se le kar dekh sakte hain ki kya yeh crumbly hai ya phir gila hai. Agar soil easily crumble ho raha hai, toh yeh dry hai.\n   - **Soil Moisture Meter**: Aap ek soil moisture meter ka istemal kar sakte hain, jo aapko accurate reading dega.\n\n3. **Root Zone Check**: \n   - Soil ko thoda khod kar dekhein, jahan moisture sensor installed hai. Wahan ki soil ki moisture ko check karein. Agar wahan ki soil gili hai, toh aapko paani dene ki zarurat nahi hai.\n\n4. **Visual Inspection**: \n   - Plants ke leaves aur overall health ko dekhein. Agar leaves wilting ya yellow ho rahe hain, toh yeh dry soil ka indication ho sakta hai.\n\n5. **Wait for 12 Hours**: Agar aapne irrigation kiya hai, toh 12 ghante intezaar karein aur phir moisture sensor ki reading check karein. Yeh time moisture ko saturate hone mein madad karega.\n\nIn steps ko follow karke aap soil moisture ko effectively check kar sakte hain.",
+        "en": "To check for soil moisture, you can follow these steps:\n\n1. Moisture sensor data: Check the moisture sensor data installed in your plot. These sensors measure the moisture level in the root zone of the soil.\n\n2. **Soil Sampling**: \n   - **Manual Testing**: You can take a small sample of soil. You can take the soil by hand and see if it is crumbly or wet. If the soil is crembling, it is dry.\n   - Soil Moisture Meter: You can use a Soil Moisture Meter, which will give you accurate readings.\n\n3. Root Zone Check: \n   - Try digging up the soil a little, where the moisture sensor is installed. Check the soil moisture of the vehicle. If the vehicle's soil is wet, you don't need to water.\n\n4. **Visual Inspection**: \n   - Look at the plant's leaves and overall health. If the leaves are wilting or turning yellow, it could be a sign of dry soil.\n\n5. Vat for 12 hours: If you have irrigated, wait 12 hours and then check the moisture sensor reading. This will help the time moisture to be smooth.\n\nBy following these steps, you can check soil moisture effectively.",
+        "timestamp": {
+          "$date": "2025-01-13T17:44:00.466Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Water ec kaise check kre ",
+        "en": "Water ec kaise check kre ",
+        "timestamp": {
+          "$date": "2025-01-13T17:44:28.944Z"
+        },
+        "standalone_question": "How can I check the EC (Electrical Conductivity) of water?",
+        "standalone_en": "How can I check the EC (Electrical Conductivity) of water?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Water ka EC (Electrical Conductivity) check karne ke liye aap in steps ko follow kar sakte hain:\n\n1. **EC Meter Purchase**: Sabse pehle, aapko ek EC meter kharidna hoga. Yeh device paani ke EC level ko measure karta hai.\n\n2. **Sample Collection**: \n   - Irrigation ke liye use hone wale paani ka sample lein. Yeh sample clean container mein lena chahiye.\n\n3. **Meter Calibration**: \n   - EC meter ko use karne se pehle, usse calibrate karna zaroori hai. Iske liye manufacturer ki instructions follow karein.\n\n4. **Measurement**: \n   - EC meter ko paani ke sample mein daal kar reading lein. Meter par jo reading aayegi, wahi aapka water EC hoga.\n\n5. **Interpretation**: \n   - Reading ko interpret karein. Kinnow ke liye, optimal EC level 0.5 to 1.5 dS/m hona chahiye.\n\n6. **Regular Monitoring**: \n   - Regular basis par paani ka EC check karte rahein, taaki aap irrigation water ki quality maintain kar sakein.\n\nIn steps ko follow karke aap paani ka EC asani se check kar sakte hain.",
+        "en": "To do an electrical conductivity check of water, you can follow these steps:\n\n1. Purchase a meter: First of all, you have to buy a meter. This device measures a level of water.\n\n2. **Sample Collection**: \n   - Take a sample of the water used for irrigation. This sample should be taken in a clean container.\n\n3. **Meter Calibration**: \n   - Before using a meter, it is important to calibrate it. Follow the manufacturer's instructions for this.\n\n4. **Measurement**: \n   - Put a meter in a water sample and take a reading. The reading that comes on the meter will be the same as your water.\n\n5. **Interpretation**: \n   - Interpret the reading. For kinnows, the optimal should be a level 0.5 to 1.5 ds/m.\n\n6. **Regular Monitoring**: \n   - Keep a check of the water on a regular basis, so that you can maintain the quality of irrigation water.\n\nBy following these steps, you can easily check the water.",
+        "timestamp": {
+          "$date": "2025-01-13T17:44:37.408Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ec jyda ho to kaise kam kre  kya use kre",
+        "en": "If there is more than one, then how to work, what to do it?",
+        "timestamp": {
+          "$date": "2025-01-13T17:45:22.986Z"
+        },
+        "standalone_question": "How can I reduce high EC levels in water, and what should I use for this purpose?",
+        "standalone_en": "How can I reduce high EC levels in water, and what should I use for this purpose?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Agar irrigation water ka EC (Electrical Conductivity) jyada ho raha hai, toh aap in steps ko follow karke ise kam kar sakte hain:\n\n1. **Leaching**: \n   - Zyada paani dene se salts ko wash out karne ki koshish karein. Is process ko leaching kehte hain. Isme aapko zyada paani dena hoga taaki salts soil se nikal sakein.\n\n2. **Dilution**: \n   - Agar aapke paas low EC wala paani available hai, toh isse high EC wale paani ke saath mix karke dilution kar sakte hain.\n\n3. **Soil Amendments**: \n   - Gypsum (calcium sulfate) ka istemal karne se soil ka structure improve hota hai aur salts ko control karne mein madad milti hai.\n\n4. **Crop Selection**: \n   - Aise crops ka chayan karein jo high salinity ko tolerate kar sakein. Yeh crops zyada salts ko absorb karne mein madad karte hain.\n\n5. **Regular Monitoring**: \n   - Regular basis par water aur soil ka EC check karte rahein taaki aap timely action le sakein.\n\n6. **Irrigation Scheduling**: \n   - Irrigation ka schedule aise set karein ki paani ki evaporation kam ho aur salts ka accumulation na ho.\n\nIn steps ko follow karke aap irrigation water ka EC kam kar sakte hain.",
+        "en": "If there is an excess of irrigation water (electrical conductivity), you can reduce it by following these steps:\n\n1. **Leaching**: \n   - Try to wash out the salts by adding more water. This process is called leaching. You will need to add more water so that the salts can come out of the soil.\n\n2. **Delusion**: \n   - If you have low one water available, you can dilute it by mixing it with high one water.\n\n3. **Soil Amendment**: \n   - Using gypsum (calcium sulphate) improves the structure of soil and helps in controlling salts.\n\n4. **Crop Selection**: \n   - Select crops that can tolerate high salinity. These crops help absorb more salts.\n\n5. **Regular Monitoring**: \n   - Keep a check of water and soil on a regular basis so that you can take timely action.\n\n6. **Irrigation Scheduling**: \n   - Set the irrigation schedule in such a way that the evaporation of water is reduced and the accumulation of salts is not done.\n\nBy following these steps, you can do one thing with irrigation water.",
+        "timestamp": {
+          "$date": "2025-01-13T17:45:32.094Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Fitkari se pani ka ec kam hoga",
+        "en": "There will be a work of water from alum",
+        "timestamp": {
+          "$date": "2025-01-13T17:45:59.521Z"
+        },
+        "standalone_question": "Will using alum (fitkari) reduce the EC of water?",
+        "standalone_en": "Will using alum (fitkari) reduce the EC of water?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Fitkari (Alum) ka istemal paani ka EC (Electrical Conductivity) kam karne ke liye nahi kiya jata hai. Fitkari ka pramukh upyog paani ko purify karne ke liye hota hai, lekin yeh salts ko control karne mein madad nahi karta.\n\nAgar aapko paani ka EC kam karna hai, toh aapko leaching, dilution, ya gypsum jaise soil amendments ka istemal karna chahiye. Fitkari ka istemal is context mein effective nahi hoga. \n\nAgar aapko paani ka EC kam karne ke liye aur options chahiye, toh main aapko aur suggestions de sakta hoon.",
+        "en": "Alum is not used for electrical conductivity of water. The main use of alum is to purify water, but it does not help in controlling salts.\n\nIf you have to do a job with water, you should use soil amendments such as leaching, dilution, or gypsum. The use of alum will not be effective in the IS context. \n\nIf you need more options to do one thing with water, I can give you more suggestions.",
+        "timestamp": {
+          "$date": "2025-01-13T17:46:05.579Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Sulfur se pani ka ec kam hoga ",
+        "en": "Water will have a job with sulfur ",
+        "timestamp": {
+          "$date": "2025-01-13T17:46:32.865Z"
+        },
+        "standalone_question": "Will sulfur help in reducing the EC (Electrical Conductivity) of water?",
+        "standalone_en": "Will sulfur help in reducing the EC (Electrical Conductivity) of water?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Sulfur ka istemal paani ka EC (Electrical Conductivity) kam karne ke liye nahi kiya jata hai. Sulfur ka pramukh upyog soil ki acidity ko badhane aur kuch specific crops ke liye nutrients provide karne ke liye hota hai.\n\nAgar aapko paani ka EC kam karna hai, toh aapko leaching, dilution, ya gypsum jaise soil amendments ka istemal karna chahiye. Sulfur ka istemal is context mein effective nahi hoga.\n\nAgar aapko paani ka EC kam karne ke liye aur options chahiye, toh main aapko aur suggestions de sakta hoon.",
+        "en": "Sulphur is not used to do one (electrical conductivity) function of water. The main use of sulphur is to increase the acidity of soil and to provide nutrients for certain specific crops.\n\nIf you have to do a job with water, you should use soil amendments such as leaching, dilution, or gypsum. The use of sulphur will not be effective in this context.\n\nIf you need more options to do one thing with water, I can give you more suggestions.",
+        "timestamp": {
+          "$date": "2025-01-13T17:48:08.938Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Sulfur se pani ka ec kam hoga ",
+        "en": "Water will have a job with sulfur ",
+        "timestamp": {
+          "$date": "2025-01-13T17:48:12.329Z"
+        },
+        "standalone_question": "Will sulfur help in reducing the EC (Electrical Conductivity) of water?",
+        "standalone_en": "Will sulfur help in reducing the EC (Electrical Conductivity) of water?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Sulfur ka istemal paani ka EC (Electrical Conductivity) kam karne ke liye nahi hota hai. Sulfur ka pramukh upyog soil ki acidity ko badhane aur kuch specific crops ke liye nutrients provide karne ke liye hota hai. \n\nAgar aapko paani ka EC kam karna hai, toh aapko leaching, dilution, ya gypsum jaise soil amendments ka istemal karna chahiye. Sulfur ka istemal is context mein effective nahi hoga. \n\nAgar aapko paani ka EC kam karne ke liye aur options chahiye, toh main aapko aur suggestions de sakta hoon.",
+        "en": "Sulfur is not used for one (electrical conductivity) function of water. The main use of sulphur is to increase the acidity of soil and to provide nutrients for certain specific crops. \n\nIf you have to do a job with water, you should use soil amendments such as leaching, dilution, or gypsum. The use of sulphur will not be effective in this context. \n\nIf you need more options to do one thing with water, I can give you more suggestions.",
+        "timestamp": {
+          "$date": "2025-01-13T17:48:17.186Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Fertilizer ec kaise maintain kre ",
+        "en": "Fertilizer ec kaise maintain kre ",
+        "timestamp": {
+          "$date": "2025-01-13T17:48:53.181Z"
+        },
+        "standalone_question": "How can I maintain the EC (Electrical Conductivity) of fertilizers?",
+        "standalone_en": "How can I maintain the EC (Electrical Conductivity) of fertilizers?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Fertilizer ka EC (Electrical Conductivity) maintain karne ke liye aap in steps ko follow kar sakte hain:\n\n1. **Soil Testing**: Regularly soil ka EC test karein. Isse aapko pata chalega ki soil mein salts ka level kya hai aur aapko kitna fertilizer dena chahiye.\n\n2. **Dilution**: Fertilizer ko paani mein dilute karne se EC level control hota hai. Zyada concentrated solution se bachne ke liye fertilizer ko sahi proportion mein paani ke saath mix karein.\n\n3. **Fertigation**: Fertigation ka istemal karein, jisme fertilizers ko irrigation water ke saath apply kiya jata hai. Isse nutrients plants tak asani se pahunchte hain aur salts ka accumulation kam hota hai.\n\n4. **Regular Monitoring**: Fertilizer solution ka EC regular basis par monitor karein. Agar EC level jyada ho raha hai, toh paani add karke dilute karein.\n\n5. **Crop Requirements**: Har crop ki specific nutrient requirements hoti hain. Isliye, crop ke growth stage ke hisaab se fertilizer ka istemal karein.\n\n6. **Use of Organic Matter**: Organic matter jaise compost ya manure ka istemal karne se soil health improve hoti hai aur salts ka accumulation control hota hai.\n\nIn steps ko follow karke aap fertilizer ka EC maintain kar sakte hain, jo aapke crops ki health aur yield ke liye beneficial hoga.",
+        "en": "To maintain an electrical conductivity of fertilizer, you can follow these steps:\n\n1. Soil Testing: Do a test of soil regularly. This will tell you what the level of salts in the soil is and how much fertilizer you should give.\n\n2. Dilution : Dilution of fertilizer in water provides a level of control. Mix the fertilizer with water in the correct portion to avoid over-concentrated solutions.\n\n3. Fertigation: Use fertigation, in which fertilizers are applied with irrigation water. It is easy to reach the nutritious plant and the accumulation of salts is reduced.\n\n4. Regular Monitoring: Monitor the fertilizer solution on a regular basis. If the level is exceeding, add water and delete it.\n\n5. Crop Requirements: Each crop has specific nutrient requirements. Therefore, use fertilizer according to the growth stage of the crop.\n\n6. Use of organic matter: The use of organic matter such as compost or manure improves soil health and controls the accumulation of salts.\n\nBy following these steps, you can do a maintenance of fertilizer, which will be beneficial for the health and yield of your crop.",
+        "timestamp": {
+          "$date": "2025-01-13T17:48:59.813Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Blueberry k bare me btao",
+        "en": "Blueberry K Barre May BTAO",
+        "timestamp": {
+          "$date": "2025-01-13T17:49:48.831Z"
+        },
+        "standalone_question": "Can you provide information about blueberries?",
+        "standalone_en": "Can you provide information about blueberries?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Blueberry ek popular fruit hai jo apne sweet taste aur health benefits ke liye jaana jaata hai. Yahaan kuch important points hain blueberry ke baare mein:\n\n1. **Climate**: Blueberries ko thande aur moderate climate mein behtar growth milti hai. Yeh acidic soil (pH 4.5 se 5.5) mein achha grow karte hain.\n\n2. **Soil Requirements**: Blueberries ko well-drained, organic matter se rich soil pasand hai. Soil ki moisture retention capacity bhi achhi honi chahiye.\n\n3. **Watering**: Blueberries ko regular watering ki zarurat hoti hai, lekin overwatering se bachna chahiye. Soil ko hamesha moist rakhna chahiye, lekin soggy nahi.\n\n4. **Fertilization**: Blueberries ko specific fertilizers ki zarurat hoti hai, jo acidic hote hain. Organic fertilizers jaise compost ya peat moss ka istemal karna beneficial hota hai.\n\n5. **Pest and Disease Management**: Blueberries par kuch common pests jaise aphids aur diseases jaise powdery mildew ka khatra hota hai. Inka control karne ke liye organic pesticides ka istemal kiya ja sakta hai.\n\n6. **Harvesting**: Blueberries ko tab harvest karna chahiye jab wo fully ripe ho jayein. Ripe blueberries ka rang deep blue hota hai aur unka taste sweet hota hai.\n\n7. **Health Benefits**: Blueberries antioxidants se bharpoor hote hain, jo health ke liye beneficial hain. Yeh heart health, brain function, aur immune system ko support karte hain.\n\nAgar aap blueberry ki cultivation ya care ke baare mein aur jaankari chahte hain, toh aap specific questions pooch sakte hain!",
+        "en": "Blueberry is a popular fruit that is known for its sweet taste and health benefits. Here are some important points about blueberries:\n\n1. Climate: Blueberries grow better in cool and moderate climates. It grows well in acidic soils (4.5 to 5.5 °).\n\n2. Soil Requirements: Blueberries love rich soil from well-drained, organic matter. The moisture retention capacity of the soil should also be good.\n\n3. Watering: Blueberries need regular watering, but overwatering should be avoided. Soil should always be moistened, but not soggy.\n\n4. Fertilization: Blueberries need specific fertilizers, which are acidic. It is beneficial to use organic fertilizers such as compost or peat moss.\n\n5. Pest and Disease Management: Blueberries are prone to some common pests such as aphids and diseases such as powdery mildew. Organic pesticides can be used to control them.\n\n6. Harvesting: Blueberries should be harvested when they are fully ripe. Ripe blueberries are deep blue in color and taste sweet.\n\n7. Health Benefits: Blueberries are rich in antioch, which is beneficial for health. It supports heart health, brain function, and the immune system.\n\nIf you want to know more about blueberry cultivation or care, you can ask specific questions!",
+        "timestamp": {
+          "$date": "2025-01-13T17:49:59.041Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Fertilizer chart btao",
+        "en": "Fertilizer chart btao",
+        "timestamp": {
+          "$date": "2025-01-13T17:50:31.340Z"
+        },
+        "standalone_question": "Can you provide a fertilizer chart?",
+        "standalone_en": "Can you provide a fertilizer chart?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\".",
+            "get_specific_fertigation_requirements  \nFinds the fertigation requirements for the plots with a particular crop stage and week numbers."
+          ],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: Where can I find the fertigation schedule in the Fyllo app?\nA: To access the fertigation schedule:\n    1. Open the Fyllo app\n    2. Select \"My Farm\" at the bottom\n    3. Tap on the \"Fertigation\" option\n   You'll find the fertigation schedule there, including details about the required fertilizer applications.",
+            "Q: What should I do if I can't find the fertigation schedule after selecting the fertigation tab?\nA: If you don't see the fertigation schedule, you'll need to create a report first. Would you like assistance in creating a report? Do you have any soil, leaf, or petiole test data available? If not, we can generate a basic schedule for you using general crop and regional data.",
+            "Q: Can I generate a fertigation schedule without soil, leaf, or petiole data?\nA: Yes, you can generate a basic fertigation schedule without specific soil, leaf, or petiole data. Fyllo will create a general schedule based on typical crop needs and soil types for your region."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Fertilizer chart mein aapko different types of fertilizers aur unke NPK (Nitrogen, Phosphorus, Potassium) ratios ke baare mein information milti hai. Yahaan kuch common fertilizers aur unke NPK ratios diye gaye hain:\n\n1. **Urea**: 46-0-0\n   - Nitrogen: 46%\n   - Phosphorus: 0%\n   - Potassium: 0%\n\n2. **DAP (Diammonium Phosphate)**: 18-46-0\n   - Nitrogen: 18%\n   - Phosphorus: 46%\n   - Potassium: 0%\n\n3. **MOP (Muriate of Potash)**: 0-0-60\n   - Nitrogen: 0%\n   - Phosphorus: 0%\n   - Potassium: 60%\n\n4. **NPK 10-10-10**: \n   - Nitrogen: 10%\n   - Phosphorus: 10%\n   - Potassium: 10%\n\n5. **NPK 20-20-20**: \n   - Nitrogen: 20%\n   - Phosphorus: 20%\n   - Potassium: 20%\n\n6. **NPK 15-30-15**: \n   - Nitrogen: 15%\n   - Phosphorus: 30%\n   - Potassium: 15%\n\n7. **Calcium Nitrate**: 15.5-0-0 + 19% Ca\n   - Nitrogen: 15.5%\n   - Phosphorus: 0%\n   - Potassium: 0%\n   - Calcium: 19%\n\n8. **Gypsum**: 0-0-0 + 17% Ca + 14% S\n   - Nitrogen: 0%\n   - Phosphorus: 0%\n   - Potassium: 0%\n   - Calcium: 17%\n   - Sulfur: 14%\n\n9. **Mono Potassium Phosphate (MKP)**: 0-52-34\n   - Nitrogen: 0%\n   - Phosphorus: 52%\n   - Potassium: 34%\n\nYeh chart aapko fertilizers ke selection mein madad karega, lekin hamesha soil testing aur crop requirements ke hisaab se fertilizer ka istemal karein.",
+        "en": "Fertilizer chart mein aapko different types of fertilizers aur unke NPK (Nitrogen, Phosphorus, Potassium) ratios ke baare mein information milti hai. Yahaan kuch common fertilizers aur unke NPK ratios diye gaye hain:\n\n1. **Urea**: 46-0-0\n   - Nitrogen: 46%\n   - Phosphorus: 0%\n   - Potassium: 0%\n\n2. **DAP (Diammonium Phosphate)**: 18-46-0\n   - Nitrogen: 18%\n   - Phosphorus: 46%\n   - Potassium: 0%\n\n3. **MOP (Muriate of Potash)**: 0-0-60\n   - Nitrogen: 0%\n   - Phosphorus: 0%\n   - Potassium: 60%\n\n4. **NPK 10-10-10**: \n   - Nitrogen: 10%\n   - Phosphorus: 10%\n   - Potassium: 10%\n\n5. **NPK 20-20-20**: \n   - Nitrogen: 20%\n   - Phosphorus: 20%\n   - Potassium: 20%\n\n6. **NPK 15-30-15**: \n   - Nitrogen: 15%\n   - Phosphorus: 30%\n   - Potassium: 15%\n\n7. **Calcium Nitrate**: 15.5-0-0 + 19% Ca\n   - Nitrogen: 15.5%\n   - Phosphorus: 0%\n   - Potassium: 0%\n   - Calcium: 19%\n\n8. **Gypsum**: 0-0-0 + 17% Ca + 14% S\n   - Nitrogen: 0%\n   - Phosphorus: 0%\n   - Potassium: 0%\n   - Calcium: 17%\n   - Sulfur: 14%\n\n9. **Mono Potassium Phosphate (MKP)**: 0-52-34\n   - Nitrogen: 0%\n   - Phosphorus: 52%\n   - Potassium: 34%\n\nYeh chart aapko fertilizers ke selection mein madad karega, lekin hamesha soil testing aur crop requirements ke hisaab se fertilizer ka istemal karein.",
+        "timestamp": {
+          "$date": "2025-01-13T17:50:41.991Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Blueberry ka fertigation chart ",
+        "en": "Blueberry ka fertigation chart ",
+        "timestamp": {
+          "$date": "2025-01-13T17:51:15.607Z"
+        },
+        "standalone_question": "What is the fertigation chart for blueberries?",
+        "standalone_en": "What is the fertigation chart for blueberries?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: Where can I find the fertigation schedule in the Fyllo app?\nA: To access the fertigation schedule:\n    1. Open the Fyllo app\n    2. Select \"My Farm\" at the bottom\n    3. Tap on the \"Fertigation\" option\n   You'll find the fertigation schedule there, including details about the required fertilizer applications.",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: If I don't add any test data, what is the basis for the generated fertigation schedule?\nA: When no specific test data is provided, Fyllo generates a basic fertigation schedule based on:\n\n    1. Typical nutrient needs for your crop type\n    2. General soil characteristics common in your region\n    3. Standard growing practices for your area\n    This schedule provides a starting point, but may not be as precise as one based on specific test data.",
+            "Q: Can I generate a fertigation schedule without soil, leaf, or petiole data?\nA: Yes, you can generate a basic fertigation schedule without specific soil, leaf, or petiole data. Fyllo will create a general schedule based on typical crop needs and soil types for your region."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Blueberry ke liye fertigation chart yahaan diya gaya hai:\n\n### Fertigation Schedule for Blueberry (Growth Stage 4)\n\n#### Week 1:\n- **Fertilizers**:\n  - **Potassium Nitrate (13-0-45)**: 2 kg/acre\n  - **Sulfate of Potash**: 1 kg/acre\n  - **Urea**: 1 kg/acre\n  - **Sulfate of Potash**: 2.5 kg/acre\n- **Nutrient Contribution**:\n  - Nitrogen (N): 0.57 kg/acre\n  - Potassium (K): 1.29 kg/acre\n\n#### Week 3:\n- **Fertilizers**:\n  - **12-61-0**: 1 kg/acre\n  - **Urea**: 1 kg/acre\n  - **24-24-0**: 2.5 kg/acre\n  - **Phosphoric Acid (80%)**: 1 kg/acre\n  - **Urea**: 1 kg/acre\n  - **Phosphoric Acid (80%)**: 1.5 kg/acre\n- **Nutrient Contribution**:\n  - Nitrogen (N): 0.57 kg/acre\n  - Phosphorus (P): 1.17 kg/acre\n\n### Notes:\n- Ensure proper mixing of fertilizers in the irrigation system.\n- Monitor soil moisture and adjust fertigation accordingly.\n\nYeh chart aapko blueberry ki growth ke liye zaroori nutrients provide karne mein madad karega. Agar aapko aur specific information chahiye, toh aap pooch sakte hain!",
+        "en": "Blueberry ke liye fertigation chart yahaan diya gaya hai:\n\n### Fertigation Schedule for Blueberry (Growth Stage 4)\n\n#### Week 1:\n- **Fertilizers**:\n  - **Potassium Nitrate (13-0-45)**: 2 kg/acre\n  - **Sulfate of Potash**: 1 kg/acre\n  - **Urea**: 1 kg/acre\n  - **Sulfate of Potash**: 2.5 kg/acre\n- **Nutrient Contribution**:\n  - Nitrogen (N): 0.57 kg/acre\n  - Potassium (K): 1.29 kg/acre\n\n#### Week 3:\n- **Fertilizers**:\n  - **12-61-0**: 1 kg/acre\n  - **Urea**: 1 kg/acre\n  - **24-24-0**: 2.5 kg/acre\n  - **Phosphoric Acid (80%)**: 1 kg/acre\n  - **Urea**: 1 kg/acre\n  - **Phosphoric Acid (80%)**: 1.5 kg/acre\n- **Nutrient Contribution**:\n  - Nitrogen (N): 0.57 kg/acre\n  - Phosphorus (P): 1.17 kg/acre\n\n### Notes:\n- Ensure proper mixing of fertilizers in the irrigation system.\n- Monitor soil moisture and adjust fertigation accordingly.\n\nYeh chart aapko blueberry ki growth ke liye zaroori nutrients provide karne mein madad karega. Agar aapko aur specific information chahiye, toh aap pooch sakte hain!",
+        "timestamp": {
+          "$date": "2025-01-13T17:51:30.831Z"
+        }
+      }
+    ],
+    "farmer_id": "mandeepbishnoi1661062088650",
+    "farmer_plot_ids": [
+      "kairokinnowfarm",
+      "kinnowplotnero1"
+    ],
+    "conversation_id": "6785502a21e8ca3604d26112",
+    "_id": "6785502a21e8ca3604d26112",
+    "language": "hi",
+    "expiry": {
+      "$date": "2025-01-13T17:56:15.617000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-01-13T17:40:58.629000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi",
+        "en": "Hi",
+        "timestamp": {
+          "$date": "2025-01-13T16:41:45.625Z"
+        },
+        "standalone_question": "What would you like to talk about?",
+        "standalone_en": "What would you like to talk about?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "નમસ્તે, રિતેશભાઈ! કેવી રીતે છો? હું તમારી ખેતીમાં મદદ કરવા માટે અહીં છું. શું તમને કોઈ ખાસ માહિતી જોઈએ?",
+        "en": "Namaste, Riteshbhai! How are you? I'm here to help you with your farming. Do you want any specific information?",
+        "timestamp": {
+          "$date": "2025-01-13T16:41:48.399Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Shu tame photo scan kari Shako chho??",
+        "en": "Can you scan the photo??",
+        "timestamp": {
+          "$date": "2025-01-13T16:42:21.255Z"
+        },
+        "standalone_question": "Can you scan a photo?",
+        "standalone_en": "Can you scan a photo?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "હા, હું ફોટો સ્કેન કરી શકું છું. જો તમારી પાસે કોઈ પાકની છબી છે જેનું વિશ્લેષણ કરવું છે, તો કૃપા કરીને તે અપલોડ કરો.",
+        "en": "Yes, I can scan the photo. If you have an image of a crop that you want to analyse, please upload it.",
+        "timestamp": {
+          "$date": "2025-01-13T16:42:24.255Z"
+        }
+      }
+    ],
+    "farmer_id": "riteshpayel",
+    "farmer_plot_ids": [
+      "kenalvadukairo",
+      "munnadadakakhetar"
+    ],
+    "conversation_id": "6785424995fa47213a42e77d",
+    "_id": "6785424995fa47213a42e77d",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-13T16:47:21.262000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-01-13T16:41:45.625000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "जमिनीचा orginc कार्बन किती असवा ",
+        "en": "How much soil orginc carbon should be ",
+        "timestamp": {
+          "$date": "2025-01-13T12:53:22.338Z"
+        },
+        "standalone_question": "What is the carbon content of the soil?",
+        "standalone_en": "What is the carbon content of the soil?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "jaminicha orginc carbon kiti asava "
+      },
+      {
+        "role": "assistant",
+        "content": "जमिनीचा ऑर्गेनिक कार्बन स्तर मोजण्यासाठी, तुम्हाला जमिनीच्या नमुन्यांची चाचणी घेणे आवश्यक आहे. सामान्यतः, जमिनीतील ऑर्गेनिक कार्बन स्तर 1% ते 5% दरम्यान असतो, परंतु हे विविध घटकांवर अवलंबून असते, जसे की:\n\n1. **जमिनीचा प्रकार**: काळी माती, लाल माती, वाळूची माती इत्यादी.\n2. **पिकांची विविधता**: विविध पिके वेगवेगळ्या प्रमाणात ऑर्गेनिक कार्बन जमा करतात.\n3. **कृषी पद्धती**: जैविक शेती, रासायनिक खतांचा वापर, इत्यादी.\n\nतुमच्या जमिनीचा ऑर्गेनिक कार्बन स्तर मोजण्यासाठी, स्थानिक कृषी विस्तार कार्यालय किंवा प्रयोगशाळेत संपर्क साधा.",
+        "en": "To measure the organic carbon level of the soil, you need to test soil samples. Typically, the organic carbon level in the soil is between 1% and 5%, but this depends on a variety of factors, such as:\n\n1. **Type of land**: black soil, red soil, sand soil, etc.\n2. **Crop diversity**: Different crops accumulate different amounts of organic carbon.\n3. **Agricultural practices**: organic farming, use of chemical fertilizers, etc.\n\nTo measure the organic carbon level of your land, contact a local agricultural extension office or laboratory.",
+        "timestamp": {
+          "$date": "2025-01-13T12:53:27.095Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "द्राक्ष मण्यचे सेल divesion कसे होते",
+        "en": "How the cell divesion of grape beads occurs",
+        "timestamp": {
+          "$date": "2025-01-13T12:54:57.801Z"
+        },
+        "standalone_question": "How does grape cell division occur?",
+        "standalone_en": "How does grape cell division occur?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "draksha manyache cell divesion kase hote"
+      },
+      {
+        "role": "assistant",
+        "content": "द्राक्ष मण्यांचे सेल डिव्हिजन म्हणजे द्राक्षांच्या पिकांच्या वाढीच्या प्रक्रियेत मण्यांचे विभाजन. यामध्ये खालील प्रक्रिया समाविष्ट आहेत:\n\n1. **संपूर्ण मण्याची निवड**: चांगल्या गुणवत्तेच्या द्राक्षांच्या मण्यांची निवड करा.\n\n2. **संपूर्ण मण्यांचे विभाजन**: मण्यांना दोन किंवा अधिक भागांमध्ये विभाजित करा. हे विभाजन सामान्यतः मण्यांच्या आकारानुसार केले जाते.\n\n3. **संपूर्ण मण्यांचे उपचार**: विभाजित मण्यांना योग्य उपचार द्या, जसे की बुरशीरोधक औषधांचा वापर.\n\n4. **पाण्याची व्यवस्था**: मण्यांना योग्य पाण्याची व्यवस्था करा, जेणेकरून ते चांगले वाढतील.\n\n5. **पोषण**: मण्यांना आवश्यक पोषण द्या, जसे की खतांचा वापर.\n\n6. **पुनर्वापर**: विभाजित मण्यांना योग्य ठिकाणी लावा, जेणेकरून ते नवीन पिकांच्या रूपात वाढू शकतील.\n\nया प्रक्रियेत, द्राक्षांच्या मण्यांचे सेल डिव्हिजन साधले जाते, ज्यामुळे नवीन द्राक्षांचे पिक तयार होते.",
+        "en": "The cell division of grape beads is the division of beads in the process of growing grape crops. These include the following procedures:\n\n1. **Whole bead selection**: Choose good quality grape beads.\n\n2. **Divide whole beads**: Divide the beads into two or more parts. This division is usually done according to the size of the beads.\n\n3. **Treatment of whole beads**: Give proper treatment to split beads, such as the use of anti-fungal drugs.\n\n4. **Water system**: Arrange proper water for the beads, so that they grow well.\n\n5. **Nutrition**: Give the beads the necessary nutrition, such as the use of fertilizers.\n\n6. **Recycling**: Plant split beads in the right place, so that they can grow as new crops.\n\nIn this process, the cell division of the grape beads is achieved, leading to the formation of a new grape crop.",
+        "timestamp": {
+          "$date": "2025-01-13T12:55:04.249Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Fyllo ॲप स्टेज रिस्टार्ट कशी करायची",
+        "en": "How to Restart Fyllo App Stage",
+        "timestamp": {
+          "$date": "2025-01-13T12:59:33.787Z"
+        },
+        "standalone_question": "How do I restart the Fyllo app stage?",
+        "standalone_en": "How do I restart the Fyllo app stage?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How can I reset or restart the Fyllo crop stage on the app?\nA: For Hindi instructions, please watch this video: [फसल की स्टेज कैसे अपडेट करे ?](https://youtu.be/Gx2XUOGqNoA) (Thumbnail: https://img.youtube.com/vi/Gx2XUOGqNoA/mqdefault.jpg). For English instructions, please watch this video: [How to update crop stages in App?](https://youtu.be/knCXf0vdN7k) (Thumbnail: https://img.youtube.com/vi/knCXf0vdN7k/mqdefault.jpg). For additional info, contact the CRM team: You can contact customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in.\nMake sure to give both hindi and english links.",
+            "Q: How I check my Fyllo app version? Or how do I know my Fyllo app is updated or not?\nA: In Fyllo app go to hamburger menu (click on “≡” three lines).\n   Then scroll down, you will see Fyllo logo and app version under it.",
+            "Q: How do I install the Fyllo app for Kairo?\nA: Scan the QR code provided in the manual, click on the install button, and follow the instructions to download the app.",
+            "Q: How do I contact customer support for Fyllo?\nA: You can contact customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in. Do you want me to raise a support ticket for you?",
+            "Q: How do I connect the Kairo device to the Fyllo app?\nA: After installing the Fyllo app and entering the required details, connect the device by scanning the code sticker on the device."
+          ]
+        },
+        "content_transliterated": "Fyllo p stage restart kashi karayachi"
+      },
+      {
+        "role": "assistant",
+        "content": "Fyllo ॲप स्टेज रिस्टार्ट करण्यासाठी खालील पायऱ्या अनुसरा:\n\n1. **Fyllo ॲप उघडा**: तुमच्या मोबाइलवर Fyllo ॲप उघडा.\n\n2. **हॅम्बर्गर मेनू**: वरच्या कोपर्यातील \"≡\" या तीन ओळींच्या चिन्हावर क्लिक करा.\n\n3. **सेटिंग्ज**: सेटिंग्ज किंवा व्यवस्थापन पर्यायावर जा.\n\n4. **स्टेज रिस्टार्ट**: \"स्टेज रिस्टार्ट\" किंवा \"प्लॉट रिस्टार्ट\" पर्याय शोधा आणि त्यावर क्लिक करा.\n\n5. **पुष्टीकरण**: रिस्टार्ट करण्यासाठी पुष्टीकरण द्या.\n\n6. **संपूर्ण करा**: प्रक्रिया पूर्ण झाल्यावर, ॲपला पुन्हा लोड करा.\n\nजर तुम्हाला काही अडचण येत असेल, तर Fyllo सपोर्ट टीमशी संपर्क साधा.",
+        "en": "Follow the following steps to restart the Fyllo app stage:\n\n1. **Open the Fyllo App**: Open the Fyllo app on your mobile.\n\n2. **Hamburger Menu**: Click on the three-line \"≡\" icon in the top corner.\n\n3. **Settings**: Go to the Settings or Management option.\n\n4. **Stage Restart**: Find the \"Stage Restart\" or \"Plot Restart\" option and click on it.\n\n5. **Confirmation**: Confirm to restart.\n\n6. **Complete**: After the process is complete, reload the app.\n\nIf you are having any problems, contact the Fyllo support team.",
+        "timestamp": {
+          "$date": "2025-01-13T12:59:46.184Z"
+        }
+      }
+    ],
+    "farmer_id": "mayurgore",
+    "farmer_plot_ids": [
+      "plotno1rk517"
+    ],
+    "conversation_id": "67850cc2f4592fcc595f032b",
+    "_id": "67850cc2f4592fcc595f032b",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-01-13T13:04:33.796000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-01-13T12:53:22.338000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "બટાકામાં આવતીકાલે શું સારવાર આપવી",
+        "en": "What treatment to give tomorrow in potatoes",
+        "timestamp": {
+          "$date": "2025-01-13T12:27:53.288Z"
+        },
+        "standalone_question": "What treatment should be given to the potatoes tomorrow?",
+        "standalone_en": "What treatment should be given to the potatoes tomorrow?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "batakaman avatikale shu sarvar apavi"
+      },
+      {
+        "role": "assistant",
+        "content": "આવતીકાલે, 14 જાન્યુઆરી 2025, બટાકાના પાક માટે નીચેની સારવાર આપવી:\n\n### Dela Valu (Plot 1)\n- **Foliar Fertigation**: \n  - **Zinc Sulphate**: 800 gm/acre\n  - **Ferrous Sulphate**: 600 gm/acre\n  - **Manganese Sulphate**: 400 gm/acre\n  - **Note**: The concentration of micro-nutrient fertilizers for foliar spray should not exceed 1% (e.g., 5 kg in 500 liters of water per acre).\n\n- **Fertigation**:\n  - **Calcium Nitrate**: 3.5 kg/acre (apply separately, 15-20 minutes after other fertilizers)\n  - **Sulfate of Potash**: 6.5 kg/acre\n\n### Khejada Valu (Plot 2)\n- **Fertigation data schedule not available for this plot.**\n\n### Patsala (Plot 3)\n- **Foliar Fertigation**: \n  - **Zinc Sulphate**: 800 gm/acre\n  - **Ferrous Sulphate**: 600 gm/acre\n  - **Manganese Sulphate**: 400 gm/acre\n  - **Note**: The concentration of micro-nutrient fertilizers for foliar spray should not exceed 1% (e.g., 5 kg in 500 liters of water per acre).\n\n- **Fertigation**:\n  - **Calcium Nitrate**: 3.5 kg/acre (apply separately, 15-20 minutes after other fertilizers)\n  - **Sulfate of Potash**: 6.5 kg/acre\n\n### નોંધ:\nઆ માહિતી તમારા પાકના તબક્કા અને ફર્ટિગેશન શેડ્યૂલ પર આધારિત છે. જો વધુ માહિતીની જરૂર હોય, તો પૂછવા માટે સ્વતંત્ર રહો.",
+        "en": "આવતીકાલે, 14 જાન્યુઆરી 2025, બટાકાના પાક માટે નીચેની સારવાર આપવી:\n\n### Dela Valu (Plot 1)\n- **Foliar Fertigation**: \n  - **Zinc Sulphate**: 800 gm/acre\n  - **Ferrous Sulphate**: 600 gm/acre\n  - **Manganese Sulphate**: 400 gm/acre\n  - **Note**: The concentration of micro-nutrient fertilizers for foliar spray should not exceed 1% (e.g., 5 kg in 500 liters of water per acre).\n\n- **Fertigation**:\n  - **Calcium Nitrate**: 3.5 kg/acre (apply separately, 15-20 minutes after other fertilizers)\n  - **Sulfate of Potash**: 6.5 kg/acre\n\n### Khejada Valu (Plot 2)\n- **Fertigation data schedule not available for this plot.**\n\n### Patsala (Plot 3)\n- **Foliar Fertigation**: \n  - **Zinc Sulphate**: 800 gm/acre\n  - **Ferrous Sulphate**: 600 gm/acre\n  - **Manganese Sulphate**: 400 gm/acre\n  - **Note**: The concentration of micro-nutrient fertilizers for foliar spray should not exceed 1% (e.g., 5 kg in 500 liters of water per acre).\n\n- **Fertigation**:\n  - **Calcium Nitrate**: 3.5 kg/acre (apply separately, 15-20 minutes after other fertilizers)\n  - **Sulfate of Potash**: 6.5 kg/acre\n\n### નોંધ:\nઆ માહિતી તમારા પાકના તબક્કા અને ફર્ટિગેશન શેડ્યૂલ પર આધારિત છે. જો વધુ માહિતીની જરૂર હોય, તો પૂછવા માટે સ્વતંત્ર રહો.",
+        "timestamp": {
+          "$date": "2025-01-13T12:28:04.986Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "આવનારા સમયમાં બટાકા માટે કયા રોગો આવી શકે છે",
+        "en": "What diseases can come for potatoes in the coming time",
+        "timestamp": {
+          "$date": "2025-01-13T12:28:33.712Z"
+        },
+        "standalone_question": "What diseases may affect potatoes in the future?",
+        "standalone_en": "What diseases may affect potatoes in the future?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "avanara samayaman bataka mate kaya rogo avi shake che"
+      },
+      {
+        "role": "assistant",
+        "content": "આવતીકાલથી એક સપ્તાહમાં બટાકા માટે કોઈ ખાસ રોગોની આગાહી ઉપલબ્ધ નથી. પરંતુ સામાન્ય રીતે, બટાકા પાકમાં નીચેના રોગો આવી શકે છે:\n\n1. **Alternaria**: પાન અને કંદમાં કાળા ધબ્બા.\n2. **Fusarium Wilt**: છોડના પાન પીળા થઈ જાય છે અને મરવા લાગે છે.\n3. **Late Blight**: પાન પર ભૂરા ધબ્બા અને કંદમાં સડવું.\n\n### નિયંત્રણના પગલાં:\n- **ફંગિસાઇડ્સ**: Carbendazim અથવા Mancozeb નો ઉપયોગ.\n- **સફાઈ**: પાકના અવશેષો દૂર કરવું.\n- **સ્વચ્છતા**: જમીન અને સાધનોની સ્વચ્છતા જાળવવી.\n\nજો વધુ માહિતીની જરૂર હોય, તો પૂછવા માટે સ્વતંત્ર રહો.",
+        "en": "There is no specific disease prediction available for potatoes in a week from tomorrow. But in general, potato crops can have the following diseases:\n\n1. **Alternaria**: Black spots in leaves and tubers.\n2. **Fusarium Wilt**: The leaves of the plant turn yellow and begin to die.\n3. **Late Blight**: Brown spots on the leaves and rot in the tubers.\n\n### Control measures:\n* **Fungicides**: Use of Carbendazim or Mancozeb.\n* **Cleaning**: Removing crop residue.\n* **Cleanliness**: Maintaining cleanliness of land and equipment.\n\nIf more information is needed, be free to ask.",
+        "timestamp": {
+          "$date": "2025-01-13T12:28:50.293Z"
+        }
+      }
+    ],
+    "farmer_id": "VR4859",
+    "farmer_plot_ids": [
+      "delavalu",
+      "khejadavalu",
+      "patsala"
+    ],
+    "conversation_id": "678506c921e8ca3604d26110",
+    "_id": "678506c921e8ca3604d26110",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-13T12:33:33.720000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-01-13T12:27:53.288000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": " મારા ખેતરમાં પાણીની ક્યારે જરૂર છે",
+        "en": " When do I need water on my farm?",
+        "timestamp": {
+          "$date": "2025-01-13T09:51:41.030Z"
+        },
+        "standalone_question": "When does my field need water?",
+        "standalone_en": "When does my field need water?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate.",
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: In the latest irrigation , sensor didn't drop to 0.\nA: 0 to 5 Kpa means soil is fully wet. It need not drop to 0 every time. Moisture less than 5 also means wet conditions. So, need not worry. Also ask to wait for 12 hours after irrigation.",
+            "Q: What should I do if the soil moisture sensor always shows wet values?\nA: Verify the irrigation frequency, check the installation point, and contact Fyllo representative if the issue persists."
+          ]
+        },
+        "content_transliterated": " mara khetaraman panini kyare jarur che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં, \"Cholee Valo palot\" માટે, હાલની જમીનનું આલમણ 13 kPa છે, જે ભેજવાળું છે. \n\nતમારા ખેતરમાં પાણી આપવાની જરૂર નથી, કારણ કે આ જમીનનું આલમણ 2 kPa થી 20 kPa (ભેજથી સૂકું) ની શ્રેણીમાં છે. \n\nજ્યારે આલમણ 20 kPa (સૂકું) ની નજીક આવે, ત્યારે પાણી આપવું જોઈએ.",
+        "en": "In your farm, for \"Cholee Valo palot\", the current land slope is 13 kPa, which is humid. \n\nThere is no need to water your farm, as the soil mantle is in the range of 2 kPa to 20 kPa (dry from moisture). \n\nWhen the algae is close to 20 kPa (dry), water should be given.",
+        "timestamp": {
+          "$date": "2025-01-13T09:51:57.875Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા મેઈન પ્લોટ લસણવાળામાં પાણી ક્યારે આપવું",
+        "en": "When to give water to my main plot garlic",
+        "timestamp": {
+          "$date": "2025-01-13T09:52:28.528Z"
+        },
+        "standalone_question": "When should I water my main plot of garlic?",
+        "standalone_en": "When should I water my main plot of garlic?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara main plot lasanavalaman pani kyare apvu"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા \"Lashun Valo palot\" પ્લોટમાં, હાલની જમીનનું આલમણ 0 kPa અને 6 kPa છે, જે ભેજવાળું છે. \n\nઆથી, હાલમાં પાણી આપવાની જરૂર નથી. \n\nજ્યારે આલમણ 20 kPa (સૂકું) ની નજીક આવે, ત્યારે પાણી આપવું જોઈએ.",
+        "en": "In your \"Lashun Valo palot\" plot, the current land shelf is 0 kPa and 6 kPa, which is humid. \n\nTherefore, there is no need to give water at present. \n\nWhen the algae is close to 20 kPa (dry), water should be given.",
+        "timestamp": {
+          "$date": "2025-01-13T09:52:35.415Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "જો મારે પાણી આપવું હોય તો કઈ તારીખે આવવું",
+        "en": "On what date should I come if I want to give water",
+        "timestamp": {
+          "$date": "2025-01-13T09:52:53.402Z"
+        },
+        "standalone_question": "If I need to water, on what date should I come?",
+        "standalone_en": "If I need to water, on what date should I come?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate.",
+            "Q: What is the right time to sow the seeds?\nA: Check the weather forecast for the next few days (tool call), and then decide the right time for the crop, based on own's knowledge."
+          ]
+        },
+        "content_transliterated": "jo mare pani apvu hoy to kai tarikhe aavavu"
+      },
+      {
+        "role": "assistant",
+        "content": "\"Lashun Valo palot\" માટે, હાલના આલમણના આધારે, irrigation forecast ઉપલબ્ધ નથી. \n\nજો તમે પાણી આપવાનું વિચારી રહ્યા છો, તો કૃપા કરીને જમીનનું આલમણ તપાસો. જ્યારે આલમણ 20 kPa (સૂકું) ની નજીક આવે, ત્યારે પાણી આપવું જોઈએ. \n\nજો તમને વધુ માહિતી જોઈએ, તો કૃપા કરીને જમીનનું આલમણ તપાસો.",
+        "en": "For \"Lashun Valo palot\", irrigation forecast is not available, based on the current invite. \n\nIf you are thinking of giving water, please check the floor of the land. When the algae is close to 20 kPa (dry), water should be given. \n\nIf you need more information, please check the land cover.",
+        "timestamp": {
+          "$date": "2025-01-13T09:53:06.042Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "હાલમાં મારા ખેતરમાં કયો રોગનું વાતાવરણ બને છે",
+        "en": "What kind of disease environment is created in my farm right now?",
+        "timestamp": {
+          "$date": "2025-01-13T09:53:20.492Z"
+        },
+        "standalone_question": "What is the current disease environment in my field?",
+        "standalone_en": "What is the current disease environment in my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "halaman mara khetaraman kayo roganun vatavaran bane che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં, \"Cholee Valo palot\" માટે, 10 જાન્યુઆરી 2025ના રોજ પાવડરી મીલ્ડ્યુ અને ડાઉની મીલ્ડ્યુનું વાતાવરણ હતું, પરંતુ તેનું જોખમ સ્તર \"LOW\" હતું.\n\n\"**Lashun Valo palot**\" માટે, 13 જાન્યુઆરી 2025ના રોજ પર્પલ બ્લોટચનું વાતાવરણ હતું, જેનું જોખમ સ્તર \"MEDIUM\" છે. આ ઉપરાંત, ડાઉની મીલ્ડ્યુનું જોખમ સ્તર \"LOW\" છે.\n\nતેથી, \"Lashun Valo palot\" માં પર્પલ બ્લોટચ માટે ધ્યાન રાખવું જરૂરી છે.",
+        "en": "On your farm, for \"Cholee Valo palot\", there was an atmosphere of powdery mildew and downy mildew on January 10, 2025, but its danger level was \"LOW\".\n\nFor \"**Lashun Valo palot**\", on January 13, 2025, there was an atmosphere of Purple Blotch, whose danger level is \"MEDIUM\". In addition, the risk level of downy mildew is \"LOW\".\n\nTherefore, it is necessary to watch out for purple blotch in \"Lashun Valo palot\".",
+        "timestamp": {
+          "$date": "2025-01-13T09:53:28.361Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "પર્પલ બ્લુ ટચ શું છે",
+        "en": "What is Purple Blue Touch",
+        "timestamp": {
+          "$date": "2025-01-13T09:55:03.545Z"
+        },
+        "standalone_question": "What is purple blotch?",
+        "standalone_en": "What is purple blotch?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "purple blue touch shu che"
+      },
+      {
+        "role": "assistant",
+        "content": "પર્પલ બ્લોટચ (Purple Blotch) એક ફૂગના કારણે થતા રોગ છે, જે ખાસ કરીને લસણ અને અન્ય મસાલા પાકોમાં જોવા મળે છે. આ રોગના લક્ષણોમાં પાંદડાઓ પર જાંબલી અથવા કાળી ધબ્બા દેખાય છે, જે ધીમે ધીમે વિસ્તરે છે અને પાંદડાને સુકવવા અને મરવા માટે કારણ બને છે.\n\nઆ રોગના નિયંત્રણ માટે, યોગ્ય ફૂગનાશક દવાઓનો ઉપયોગ, પાકની યોગ્ય સંભાળ, અને પાંદડાઓની સફાઈ મહત્વપૂર્ણ છે. જો આ રોગનું જોખમ મધ્યમ છે, તો સમયસર પગલાં લેવું જરૂરી છે.",
+        "en": "Purple Blotch is a fungal disease found especially in garlic and other spice crops. The symptoms of this disease include purple or black spots on the leaves, which gradually expand and cause the leaves to dry and die.\n\nFor the control of this disease, the use of proper fungicides, proper care of the crop, and cleaning of the leaves are important. If the risk of the disease is moderate, it is necessary to take timely action.",
+        "timestamp": {
+          "$date": "2025-01-13T09:55:09.241Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં હાલ કયુ ખાતર આપી શકાય જે તે ઠંડુ આ ત્રણ છે કોઈ નુકસાન ના થાય ને",
+        "en": "What fertilizer can be given to my farm right now, which is cold, these three are no harm.",
+        "timestamp": {
+          "$date": "2025-01-13T09:56:03.325Z"
+        },
+        "standalone_question": "What type of fertilizer can I apply to my field right now that won't cause any damage, considering the current cold weather?",
+        "standalone_en": "What type of fertilizer can I apply to my field right now that won't cause any damage, considering the current cold weather?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara khetaraman hal kayu khatar aapi sakay jay te thandu a tran che koi nukasan na thay ne"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં ખાતર આપવાની સૂચનાઓ નીચે મુજબ છે:\n\n### **Cholee Valo palot (Beans)**\n- **હાલની સ્થિતિ:** વેજિટેટિવ ગ્રોથ (Vegetative Growth), 2મી સપ્તાહ\n- **આજની તારીખ:** 13 જાન્યુઆરી 2025\n\n#### **હાલની ફર્ટિગેશન શેડ્યૂલ:**\n1. **1મો દિવસ (13 જાન્યુઆરી 2025):**\n   - **ખાતર:** \n     - Magnesium Sulphate: 3 kg/acre\n     - Ammonium Sulphate: 6.5 kg/acre\n\n2. **4મો દિવસ (16 જાન્યુઆરી 2025):**\n   - **ખાતર:** \n     - 12-61-0: 3 kg/acre\n     - અથવા\n     - 24-24-0: 3 kg/acre + Phosphoric acid 80%: 2 kg/acre\n     - અથવા\n     - Urea: 1.5 kg/acre + Phosphoric acid 80%: 3 kg/acre\n\n### **Lashun Valo palot (Garlic)**\n- **હાલની સ્થિતિ:** બલ્બ ડેવલપમેન્ટ (Bulb Development), 1મો સપ્તાહ\n- **આજની તારીખ:** 13 જાન્યુઆરી 2025\n\n#### **હાલની ફર્ટિગેશન શેડ્યૂલ:**\n1. **હાલની સપ્તાહ (13 જાન્યુઆરી 2025):**\n   - **ખાતર:** \n     - Potassium Nitrate: 4 kg/acre\n     - Urea: 1 kg/acre\n     - અથવા\n     - Urea: 2 kg/acre + Sulfate of Potash: 4.5 kg/acre\n\n### **સૂચના:**\nઆ ખાતરો ઠંડા વાતાવરણમાં ઉપયોગ માટે યોગ્ય છે અને પાકને નુકસાન નહીં કરે. ખાતરો આપતી વખતે, ખાતરના પ્રમાણ અને પદ્ધતિનું ધ્યાન રાખવું મહત્વપૂર્ણ છે.",
+        "en": "The instructions for fertilizing your farm are as follows:\n\n### **Cholee Valo palot (Beans)**\n- **Current Status:** Vegetative Growth, 2nd Week\n- **Today date:** 13 January 2025\n\n#### **Current Fertigation Schedule:**\n1. **1st Day (13th January 2025) :**\n   - **Fertilizer:** \n     - Magnesium Sulphate: 3 kg/acre\n     - Ammonium Sulphate: 6.5 kg/acre\n\n2. **4th Day (16th January 2025) :**\n   - **Fertilizer:** \n     - 12-61-0: 3 kg/acre\n     -or\n     - 24-24-0: 3 kg/acre + Phosphoric acid 80%: 2 kg/acre\n     -or\n     - Urea: 1.5 kg/acre + Phosphoric acid 80%: 3 kg/acre\n\n### **Lashun Valo palot (Garlic)**\n* **Current Status:** Bulb Development, 1st Week\n- **Today date:** 13 January 2025\n\n#### **Current Fertigation Schedule:**\n1. **Current Week (13 January 2025) :**\n   - **Fertilizer:** \n     - Potassium Nitrate: 4 kg/acre\n     - Urea: 1 kg/acre\n     -or\n     - Urea: 2 kg/acre + Sulfate of Potash: 4.5 kg/acre\n\n### **Notification:**\nThese fertilizers are suitable for use in cold climates and will not damage crops. While giving fertilizers, it is important to take care of the quantity and method of fertilizer.",
+        "timestamp": {
+          "$date": "2025-01-13T09:56:16.398Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મેગ્નેશિયમ અને એમોનિયમ સલ્ફેટ લેસન માં શું કામ કરે",
+        "en": "What works in magnesium and ammonium sulfate lessons",
+        "timestamp": {
+          "$date": "2025-01-13T09:57:14.763Z"
+        },
+        "standalone_question": "What is the role of magnesium and ammonium sulfate in garlic cultivation?",
+        "standalone_en": "What is the role of magnesium and ammonium sulfate in garlic cultivation?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "magnesium ane ammonium sulfate lesson man shu calm kare"
+      },
+      {
+        "role": "assistant",
+        "content": "**મેગ્નેશિયમ સલ્ફેટ** અને **એમોનિયમ સલ્ફેટ** લસણમાં મહત્વપૂર્ણ પોષક તત્વો પૂરા પાડે છે:\n\n### **મેગ્નેશિયમ સલ્ફેટ:**\n1. **ક્લોરોફિલનું ઉત્પાદન:** મેગ્નેશિયમ ક્લોરોફિલનું મુખ્ય ઘટક છે, જે છોડની પાંદડાઓમાં લીલાશ માટે જરૂરી છે.\n2. **ફોટોસિન્થેસિસ:** આ પોષક તત્વ છોડની ઊર્જા ઉત્પન્ન કરવાની પ્રક્રિયામાં મદદ કરે છે.\n3. **પોષણનું સંચાલન:** મેગ્નેશિયમ અન્ય પોષક તત્વોનું સંચાલન કરવામાં મદદ કરે છે, જે છોડના વિકાસ માટે મહત્વપૂર્ણ છે.\n\n### **એમોનિયમ સલ્ફેટ:**\n1. **નાઇટ્રોજનનું સ્ત્રોત:** એમોનિયમ સલ્ફેટ નાઇટ્રોજનનું એક સારો સ્ત્રોત છે, જે છોડના વિકાસ માટે જરૂરી છે.\n2. **પાકના વિકાસમાં સહાય:** નાઇટ્રોજન પાંદડાઓ અને શાખાઓના વિકાસને પ્રોત્સાહન આપે છે, જે પાકની ઉત્પાદન ક્ષમતા વધારવામાં મદદ કરે છે.\n3. **જમીનના pH સ્તરને સંતુલિત કરે છે:** એમોનિયમ સલ્ફેટ જમીનના pH સ્તરને સંતુલિત કરવામાં મદદ કરે છે, જે છોડના પોષણને વધુ સારી રીતે શોષણ કરવામાં મદદ કરે છે.\n\nઆ બંને ખાતરો લસણના વિકાસ અને ઉત્પાદન માટે મહત્વપૂર્ણ છે, અને યોગ્ય પ્રમાણમાં ઉપયોગ કરવાથી પાકની ગુણવત્તા અને ઉપજમાં સુધારો થાય છે.",
+        "en": "**Magnesium sulfate** and **ammonium sulfate** provide important nutrients in garlic:\n\n### **Magnesium sulfate:**\n1. Production of **Chlorophyll:** Magnesium is the main component of chlorophyll, which is required for greening in plant leaves.\n2. **Photosynthesis:** This nutrient helps in the energy generation process of the plant.\n3. Managing **Nutrition:** Magnesium helps in managing other nutrients, which are important for plant growth.\n\n### **Ammonium sulfate:**\n1. Source of **Nitrogen:** Ammonium sulfate is a good source of nitrogen, which is essential for plant growth.\n2. **Assistance in crop development:** Nitrogen promotes the growth of leaves and branches, which helps in increasing the production capacity of the crop.\n3. **Balances the pH level of the soil:** Ammonium sulfate helps to balance the pH level of the soil, which helps in better exploiting the nutrition of the plant.\n\nBoth of these fertilizers are important for the growth and production of garlic, and using the right amount improves the quality and yield of the crop.",
+        "timestamp": {
+          "$date": "2025-01-13T09:57:22.472Z"
+        }
+      }
+    ],
+    "farmer_id": "naranbhaimotibhaichoudhariy",
+    "farmer_plot_ids": [
+      "choleevalopalot",
+      "lashunvalopalot"
+    ],
+    "conversation_id": "6784e22cbd582e5a29714f10",
+    "_id": "6784e22cbd582e5a29714f10",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-13T10:02:14.772000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-01-13T09:51:41.030000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": " મારા ખેતરમાં પાણીની ક્યારે જરૂર છે",
+        "en": " When do I need water on my farm?",
+        "timestamp": {
+          "$date": "2025-01-13T09:51:41.030Z"
+        },
+        "standalone_question": "When does my field need water?",
+        "standalone_en": "When does my field need water?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate.",
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: In the latest irrigation , sensor didn't drop to 0.\nA: 0 to 5 Kpa means soil is fully wet. It need not drop to 0 every time. Moisture less than 5 also means wet conditions. So, need not worry. Also ask to wait for 12 hours after irrigation.",
+            "Q: What should I do if the soil moisture sensor always shows wet values?\nA: Verify the irrigation frequency, check the installation point, and contact Fyllo representative if the issue persists."
+          ]
+        },
+        "content_transliterated": " mara khetaraman panini kyare jarur che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં, \"Cholee Valo palot\" માટે, હાલની જમીનનું આલમણ 13 kPa છે, જે ભેજવાળું છે. \n\nતમારા ખેતરમાં પાણી આપવાની જરૂર નથી, કારણ કે આ જમીનનું આલમણ 2 kPa થી 20 kPa (ભેજથી સૂકું) ની શ્રેણીમાં છે. \n\nજ્યારે આલમણ 20 kPa (સૂકું) ની નજીક આવે, ત્યારે પાણી આપવું જોઈએ.",
+        "en": "In your farm, for \"Cholee Valo palot\", the current land slope is 13 kPa, which is humid. \n\nThere is no need to water your farm, as the soil mantle is in the range of 2 kPa to 20 kPa (dry from moisture). \n\nWhen the algae is close to 20 kPa (dry), water should be given.",
+        "timestamp": {
+          "$date": "2025-01-13T09:51:57.875Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા મેઈન પ્લોટ લસણવાળામાં પાણી ક્યારે આપવું",
+        "en": "When to give water to my main plot garlic",
+        "timestamp": {
+          "$date": "2025-01-13T09:52:28.528Z"
+        },
+        "standalone_question": "When should I water my main plot of garlic?",
+        "standalone_en": "When should I water my main plot of garlic?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara main plot lasanavalaman pani kyare apvu"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા \"Lashun Valo palot\" પ્લોટમાં, હાલની જમીનનું આલમણ 0 kPa અને 6 kPa છે, જે ભેજવાળું છે. \n\nઆથી, હાલમાં પાણી આપવાની જરૂર નથી. \n\nજ્યારે આલમણ 20 kPa (સૂકું) ની નજીક આવે, ત્યારે પાણી આપવું જોઈએ.",
+        "en": "In your \"Lashun Valo palot\" plot, the current land shelf is 0 kPa and 6 kPa, which is humid. \n\nTherefore, there is no need to give water at present. \n\nWhen the algae is close to 20 kPa (dry), water should be given.",
+        "timestamp": {
+          "$date": "2025-01-13T09:52:35.415Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "જો મારે પાણી આપવું હોય તો કઈ તારીખે આવવું",
+        "en": "On what date should I come if I want to give water",
+        "timestamp": {
+          "$date": "2025-01-13T09:52:53.402Z"
+        },
+        "standalone_question": "If I need to water, on what date should I come?",
+        "standalone_en": "If I need to water, on what date should I come?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate.",
+            "Q: What is the right time to sow the seeds?\nA: Check the weather forecast for the next few days (tool call), and then decide the right time for the crop, based on own's knowledge."
+          ]
+        },
+        "content_transliterated": "jo mare pani apvu hoy to kai tarikhe aavavu"
+      },
+      {
+        "role": "assistant",
+        "content": "\"Lashun Valo palot\" માટે, હાલના આલમણના આધારે, irrigation forecast ઉપલબ્ધ નથી. \n\nજો તમે પાણી આપવાનું વિચારી રહ્યા છો, તો કૃપા કરીને જમીનનું આલમણ તપાસો. જ્યારે આલમણ 20 kPa (સૂકું) ની નજીક આવે, ત્યારે પાણી આપવું જોઈએ. \n\nજો તમને વધુ માહિતી જોઈએ, તો કૃપા કરીને જમીનનું આલમણ તપાસો.",
+        "en": "For \"Lashun Valo palot\", irrigation forecast is not available, based on the current invite. \n\nIf you are thinking of giving water, please check the floor of the land. When the algae is close to 20 kPa (dry), water should be given. \n\nIf you need more information, please check the land cover.",
+        "timestamp": {
+          "$date": "2025-01-13T09:53:06.042Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "હાલમાં મારા ખેતરમાં કયો રોગનું વાતાવરણ બને છે",
+        "en": "What kind of disease environment is created in my farm right now?",
+        "timestamp": {
+          "$date": "2025-01-13T09:53:20.492Z"
+        },
+        "standalone_question": "What diseases are currently affecting my field?",
+        "standalone_en": "What diseases are currently affecting my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "halaman mara khetaraman kayo roganun vatavaran bane che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં, \"Cholee Valo palot\" માટે, 10 જાન્યુઆરી 2025ના રોજ પાવડરી મીલ્ડ્યુ અને ડાઉની મીલ્ડ્યુનું વાતાવરણ હતું, પરંતુ તેનું જોખમ સ્તર \"LOW\" હતું.\n\n\"**Lashun Valo palot**\" માટે, 13 જાન્યુઆરી 2025ના રોજ પર્પલ બ્લોટચનું વાતાવરણ હતું, જેનું જોખમ સ્તર \"MEDIUM\" છે. આ ઉપરાંત, ડાઉની મીલ્ડ્યુનું જોખમ સ્તર \"LOW\" છે.\n\nતેથી, \"Lashun Valo palot\" માં પર્પલ બ્લોટચ માટે ધ્યાન રાખવું જરૂરી છે.",
+        "en": "On your farm, for \"Cholee Valo palot\", there was an atmosphere of powdery mildew and downy mildew on January 10, 2025, but its danger level was \"LOW\".\n\nFor \"**Lashun Valo palot**\", on January 13, 2025, there was an atmosphere of Purple Blotch, whose danger level is \"MEDIUM\". In addition, the risk level of downy mildew is \"LOW\".\n\nTherefore, it is necessary to watch out for purple blotch in \"Lashun Valo palot\".",
+        "timestamp": {
+          "$date": "2025-01-13T09:53:28.361Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "પર્પલ બ્લુ ટચ શું છે",
+        "en": "What is Purple Blue Touch",
+        "timestamp": {
+          "$date": "2025-01-13T09:55:03.545Z"
+        },
+        "standalone_question": "What is purple blotch?",
+        "standalone_en": "What is purple blotch?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "purple blue touch shu che"
+      },
+      {
+        "role": "assistant",
+        "content": "પર્પલ બ્લોટચ (Purple Blotch) એક ફૂગના કારણે થતા રોગ છે, જે ખાસ કરીને લસણ અને અન્ય મસાલા પાકોમાં જોવા મળે છે. આ રોગના લક્ષણોમાં પાંદડાઓ પર જાંબલી અથવા કાળી ધબ્બા દેખાય છે, જે ધીમે ધીમે વિસ્તરે છે અને પાંદડાને સુકવવા અને મરવા માટે કારણ બને છે.\n\nઆ રોગના નિયંત્રણ માટે, યોગ્ય ફૂગનાશક દવાઓનો ઉપયોગ, પાકની યોગ્ય સંભાળ, અને પાંદડાઓની સફાઈ મહત્વપૂર્ણ છે. જો આ રોગનું જોખમ મધ્યમ છે, તો સમયસર પગલાં લેવું જરૂરી છે.",
+        "en": "Purple Blotch is a fungal disease found especially in garlic and other spice crops. The symptoms of this disease include purple or black spots on the leaves, which gradually expand and cause the leaves to dry and die.\n\nFor the control of this disease, the use of proper fungicides, proper care of the crop, and cleaning of the leaves are important. If the risk of the disease is moderate, it is necessary to take timely action.",
+        "timestamp": {
+          "$date": "2025-01-13T09:55:09.241Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં હાલ કયુ ખાતર આપી શકાય જે તે ઠંડુ આ ત્રણ છે કોઈ નુકસાન ના થાય ને",
+        "en": "What fertilizer can be given to my farm right now, which is cold, these three are no harm.",
+        "timestamp": {
+          "$date": "2025-01-13T09:56:03.325Z"
+        },
+        "standalone_question": "What type of fertilizer can I apply to my field right now that won't cause any damage, considering the current cold weather?",
+        "standalone_en": "What type of fertilizer can I apply to my field right now that won't cause any damage, considering the current cold weather?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mara khetaraman hal kayu khatar aapi sakay jay te thandu a tran che koi nukasan na thay ne"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં ખાતર આપવાની સૂચનાઓ નીચે મુજબ છે:\n\n### **Cholee Valo palot (Beans)**\n- **હાલની સ્થિતિ:** વેજિટેટિવ ગ્રોથ (Vegetative Growth), 2મી સપ્તાહ\n- **આજની તારીખ:** 13 જાન્યુઆરી 2025\n\n#### **હાલની ફર્ટિગેશન શેડ્યૂલ:**\n1. **1મો દિવસ (13 જાન્યુઆરી 2025):**\n   - **ખાતર:** \n     - Magnesium Sulphate: 3 kg/acre\n     - Ammonium Sulphate: 6.5 kg/acre\n\n2. **4મો દિવસ (16 જાન્યુઆરી 2025):**\n   - **ખાતર:** \n     - 12-61-0: 3 kg/acre\n     - અથવા\n     - 24-24-0: 3 kg/acre + Phosphoric acid 80%: 2 kg/acre\n     - અથવા\n     - Urea: 1.5 kg/acre + Phosphoric acid 80%: 3 kg/acre\n\n### **Lashun Valo palot (Garlic)**\n- **હાલની સ્થિતિ:** બલ્બ ડેવલપમેન્ટ (Bulb Development), 1મો સપ્તાહ\n- **આજની તારીખ:** 13 જાન્યુઆરી 2025\n\n#### **હાલની ફર્ટિગેશન શેડ્યૂલ:**\n1. **હાલની સપ્તાહ (13 જાન્યુઆરી 2025):**\n   - **ખાતર:** \n     - Potassium Nitrate: 4 kg/acre\n     - Urea: 1 kg/acre\n     - અથવા\n     - Urea: 2 kg/acre + Sulfate of Potash: 4.5 kg/acre\n\n### **સૂચના:**\nઆ ખાતરો ઠંડા વાતાવરણમાં ઉપયોગ માટે યોગ્ય છે અને પાકને નુકસાન નહીં કરે. ખાતરો આપતી વખતે, ખાતરના પ્રમાણ અને પદ્ધતિનું ધ્યાન રાખવું મહત્વપૂર્ણ છે.",
+        "en": "The instructions for fertilizing your farm are as follows:\n\n### **Cholee Valo palot (Beans)**\n- **Current Status:** Vegetative Growth, 2nd Week\n- **Today date:** 13 January 2025\n\n#### **Current Fertigation Schedule:**\n1. **1st Day (13th January 2025) :**\n   - **Fertilizer:** \n     - Magnesium Sulphate: 3 kg/acre\n     - Ammonium Sulphate: 6.5 kg/acre\n\n2. **4th Day (16th January 2025) :**\n   - **Fertilizer:** \n     - 12-61-0: 3 kg/acre\n     -or\n     - 24-24-0: 3 kg/acre + Phosphoric acid 80%: 2 kg/acre\n     -or\n     - Urea: 1.5 kg/acre + Phosphoric acid 80%: 3 kg/acre\n\n### **Lashun Valo palot (Garlic)**\n* **Current Status:** Bulb Development, 1st Week\n- **Today date:** 13 January 2025\n\n#### **Current Fertigation Schedule:**\n1. **Current Week (13 January 2025) :**\n   - **Fertilizer:** \n     - Potassium Nitrate: 4 kg/acre\n     - Urea: 1 kg/acre\n     -or\n     - Urea: 2 kg/acre + Sulfate of Potash: 4.5 kg/acre\n\n### **Notification:**\nThese fertilizers are suitable for use in cold climates and will not damage crops. While giving fertilizers, it is important to take care of the quantity and method of fertilizer.",
+        "timestamp": {
+          "$date": "2025-01-13T09:56:16.398Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મેગ્નેશિયમ અને એમોનિયમ સલ્ફેટ લેસન માં શું કામ કરે",
+        "en": "What works in magnesium and ammonium sulfate lessons",
+        "timestamp": {
+          "$date": "2025-01-13T09:57:14.763Z"
+        },
+        "standalone_question": "What is the role of magnesium and ammonium sulfate in garlic cultivation?",
+        "standalone_en": "What is the role of magnesium and ammonium sulfate in garlic cultivation?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "magnesium ane ammonium sulfate lesson man shu calm kare"
+      },
+      {
+        "role": "assistant",
+        "content": "**મેગ્નેશિયમ સલ્ફેટ** અને **એમોનિયમ સલ્ફેટ** લસણમાં મહત્વપૂર્ણ પોષક તત્વો પૂરા પાડે છે:\n\n### **મેગ્નેશિયમ સલ્ફેટ:**\n1. **ક્લોરોફિલનું ઉત્પાદન:** મેગ્નેશિયમ ક્લોરોફિલનું મુખ્ય ઘટક છે, જે છોડની પાંદડાઓમાં લીલાશ માટે જરૂરી છે.\n2. **ફોટોસિન્થેસિસ:** આ પોષક તત્વ છોડની ઊર્જા ઉત્પન્ન કરવાની પ્રક્રિયામાં મદદ કરે છે.\n3. **પોષણનું સંચાલન:** મેગ્નેશિયમ અન્ય પોષક તત્વોનું સંચાલન કરવામાં મદદ કરે છે, જે છોડના વિકાસ માટે મહત્વપૂર્ણ છે.\n\n### **એમોનિયમ સલ્ફેટ:**\n1. **નાઇટ્રોજનનું સ્ત્રોત:** એમોનિયમ સલ્ફેટ નાઇટ્રોજનનું એક સારો સ્ત્રોત છે, જે છોડના વિકાસ માટે જરૂરી છે.\n2. **પાકના વિકાસમાં સહાય:** નાઇટ્રોજન પાંદડાઓ અને શાખાઓના વિકાસને પ્રોત્સાહન આપે છે, જે પાકની ઉત્પાદન ક્ષમતા વધારવામાં મદદ કરે છે.\n3. **જમીનના pH સ્તરને સંતુલિત કરે છે:** એમોનિયમ સલ્ફેટ જમીનના pH સ્તરને સંતુલિત કરવામાં મદદ કરે છે, જે છોડના પોષણને વધુ સારી રીતે શોષણ કરવામાં મદદ કરે છે.\n\nઆ બંને ખાતરો લસણના વિકાસ અને ઉત્પાદન માટે મહત્વપૂર્ણ છે, અને યોગ્ય પ્રમાણમાં ઉપયોગ કરવાથી પાકની ગુણવત્તા અને ઉપજમાં સુધારો થાય છે.",
+        "en": "**Magnesium sulfate** and **ammonium sulfate** provide important nutrients in garlic:\n\n### **Magnesium sulfate:**\n1. Production of **Chlorophyll:** Magnesium is the main component of chlorophyll, which is required for greening in plant leaves.\n2. **Photosynthesis:** This nutrient helps in the energy generation process of the plant.\n3. Managing **Nutrition:** Magnesium helps in managing other nutrients, which are important for plant growth.\n\n### **Ammonium sulfate:**\n1. Source of **Nitrogen:** Ammonium sulfate is a good source of nitrogen, which is essential for plant growth.\n2. **Assistance in crop development:** Nitrogen promotes the growth of leaves and branches, which helps in increasing the production capacity of the crop.\n3. **Balances the pH level of the soil:** Ammonium sulfate helps to balance the pH level of the soil, which helps in better exploiting the nutrition of the plant.\n\nBoth of these fertilizers are important for the growth and production of garlic, and using the right amount improves the quality and yield of the crop.",
+        "timestamp": {
+          "$date": "2025-01-13T09:57:22.472Z"
+        }
+      }
+    ],
+    "farmer_id": "naranbhaimotibhaichoudhariy",
+    "farmer_plot_ids": [
+      "choleevalopalot",
+      "lashunvalopalot"
+    ],
+    "conversation_id": "6784e22cbd582e5a29714f10",
+    "_id": "6784e22cbd582e5a29714f10",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-13T10:02:14.772000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-01-13T09:51:41.030000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "फोटोमध्ये दाखवल्याप्रमाणे पपईची फुलं गळत आहेत जळाल्यासारखी दिसत असून ती नंतर गळून जात आहेत कोणता रोग किंवा कोणत्या प्रकारची याच्यावरती उपाय करावा सुचवा",
+        "en": "As shown in the photo, papaya flowers look like they are leaking and burning and then they are disappearing.",
+        "timestamp": {
+          "$date": "2025-01-13T06:54:35.265Z"
+        },
+        "standalone_question": "What disease is causing the papaya flowers to appear wilted and fall off, and what remedies can be suggested for this issue?",
+        "standalone_en": "What disease is causing the papaya flowers to appear wilted and fall off, and what remedies can be suggested for this issue?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "photomadhye dakhavalyapramane papaichi phuln galat ahet jalalyasarakhi disat asun ti nantar galun jat ahet konta rog kinva konatya prakarachi yachyavarati upay karava suchava"
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया पपईच्या पानांची किंवा फुलांची फोटो अपलोड करा, जेणेकरून मी त्याचे विश्लेषण करून योग्य उपाय सुचवू शकेन.",
+        "en": "Please upload a photo of papaya leaves or flowers so that I can analyze it and suggest the right solution.",
+        "timestamp": {
+          "$date": "2025-01-13T06:54:37.526Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पपईची फुलं जळाल्यासारखी दिसत असून गळत आहेत उपाय सुचवा<user uploaded image for analysis at 'rajaharifarm/2025-01-13-1736751362068.jpg'>",
+        "en": "Papaya flowers look burnt and are leaking Suggest solutions<user uploaded image for analysis at 'rajaharifarm/2025-01-13-1736751362068.jpg' >",
+        "timestamp": {
+          "$date": "2025-01-13T06:56:21.059Z"
+        },
+        "standalone_question": "What are the recommended solutions for papaya flowers that appear scorched and are falling off?",
+        "standalone_en": "What are the recommended solutions for papaya flowers that appear scorched and are falling off?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "papaichi phuln jalalyasarakhi disat asun galat ahet upay suchava<user uploaded image for analysis at 'rajaharifarm/2025-01-13-1736751362068.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "पपईच्या फुलांवर जळाल्यासारखी स्थिती दिसत आहे, ज्यामुळे गळणे सुरू झाले आहे. यावर उपाय म्हणून खालील स्प्रे वापरण्याची शिफारस केली जाते:\n\n1. **Cyenopyrafen 30% SC**: 0.6 मि.ली.\n2. **Spiromesifen 240 SC (22.9% w/w)**: 1 मि.ली.\n3. **Fenazaquin 10% EC**: 1.5 मि.ली.\n\nया स्प्रेयांचा वापर करून तुम्ही तुमच्या पपईच्या झाडांना कीटकांपासून संरक्षण करू शकता. प्रभावी परिणामांसाठी अनुप्रयोग मार्गदर्शकांचे पालन करणे सुनिश्चित करा.",
+        "en": "The papaya flowers appear to be in a burnt condition, which has started leaking. It is recommended to use the following sprays as a remedy:\n\n1. **Cyenopyrafen 30% SC**: 0.6 ml.\n2. **Spiromesifen 240 SC (22.9% w/w)**: 1 ml.\n3. **Fenazaquin 10% EC**: 1.5 ml.\n\nBy using these sprays, you can protect your papaya plants from insects. Be sure to follow application guidelines for effective results.",
+        "timestamp": {
+          "$date": "2025-01-13T06:56:42.000Z"
+        }
+      }
+    ],
+    "farmer_id": "sunilpatil625",
+    "farmer_plot_ids": [
+      "rajaharifarm",
+      "vitvyavalefarm1"
+    ],
+    "conversation_id": "6784b8ab21e8ca3604d2610d",
+    "_id": "6784b8ab21e8ca3604d2610d",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-01-13T07:01:21.067000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-01-13T06:54:35.265000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "कोणता रोग आहे<user uploaded image for analysis at 'rajaharifarm/2025-01-13-1736749043889.jpg'>",
+        "en": "What disease is it<user uploaded image for analysis at 'rajaharifarm/2025-01-13-1736749043889.jpg' >",
+        "timestamp": {
+          "$date": "2025-01-13T06:17:49.380Z"
+        },
+        "standalone_question": "What disease is present in the uploaded image?",
+        "standalone_en": "What disease is present in the uploaded image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "konta rog aahe<user uploaded image for analysis at 'rajaharifarm/2025-01-13-1736749043889.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या पपईच्या पिकावर लाल स्पायडर माइट्सचा संभाव्य प्रादुर्भाव आहे. त्याला नियंत्रित करण्यासाठी खालील स्प्रे वापरण्याची शिफारस केली जाते:\n\n1. **Cyenopyrafen 30% SC**: 0.6 मि.ली.\n2. **Spiromesifen 240 SC (22.9% w/w)**: 1 मि.ली.\n3. **Fenazaquin 10% EC**: 1.5 मि.ली.\n\nया स्प्रेयांचा वापर करून माइट्सची संख्या कमी करण्यास मदत होईल आणि आपल्या पपईच्या पिकाची एकूण आरोग्य सुधारेल. कृपया सर्वोत्तम परिणामांसाठी अनुप्रयोगाच्या सूचनांचे पालन करा.",
+        "en": "There's a potential infestation of red spider mites on your papaya crop. It is recommended to use the following sprays to control it:\n\n1. **Cyenopyrafen 30% SC**: 0.6 ml.\n2. **Spiromesifen 240 SC (22.9% w/w)**: 1 ml.\n3. **Fenazaquin 10% EC**: 1.5 ml.\n\nUsing these sprays will help reduce the number of mites and improve the overall health of your papaya crop. Please follow the application's instructions for best results.",
+        "timestamp": {
+          "$date": "2025-01-13T06:18:10.462Z"
+        }
+      }
+    ],
+    "farmer_id": "sunilpatil625",
+    "farmer_plot_ids": [
+      "rajaharifarm",
+      "vitvyavalefarm1"
+    ],
+    "conversation_id": "6784b00d21e8ca3604d2610c",
+    "_id": "6784b00d21e8ca3604d2610c",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-01-13T06:22:49.386000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-01-13T06:17:49.380000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "foliar spray ma poshak tatvo ni unap mate su spray karvu joi a pak  55 to 60 days no 6",
+        "en": "Foliar Spray Ma Clothing Tattva Ni UNAP Met Su Spray Karvu Joy A Pak 55 To 60 Days No 6",
+        "timestamp": {
+          "$date": "2025-01-13T04:54:38.492Z"
+        },
+        "standalone_question": "What should I spray for foliar application to enhance the nutrients for this crop at 55 to 60 days?",
+        "standalone_en": "What should I spray for foliar application to enhance the nutrients for this crop at 55 to 60 days?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For your potato crop in the **Sabbirkaka vala kairo** plot, which is currently in the **Vegetative growth** stage (week 4), you can use the following foliar spray for nutrient application:\n\n### Foliar Spray Recommendations:\n1. **Zinc Sulphate**: 800 gm/acre\n2. **Ferrous Sulphate**: 600 gm/acre\n3. **Manganese Sulphate**: 400 gm/acre\n\n### Important Note:\n- The concentration of micro-nutrient fertilizers for foliar spray should not exceed 1%. For example, you can mix 5 kg of the above nutrients in 500 liters of water per acre.\n\nMake sure to follow these guidelines for effective nutrient application!",
+        "en": "For your potato crop in the **Sabbirkaka vala kairo** plot, which is currently in the **Vegetative growth** stage (week 4), you can use the following foliar spray for nutrient application:\n\n### Foliar Spray Recommendations:\n1. **Zinc Sulphate**: 800 gm/acre\n2. **Ferrous Sulphate**: 600 gm/acre\n3. **Manganese Sulphate**: 400 gm/acre\n\n### Important Note:\n- The concentration of micro-nutrient fertilizers for foliar spray should not exceed 1%. For example, you can mix 5 kg of the above nutrients in 500 liters of water per acre.\n\nMake sure to follow these guidelines for effective nutrient application!",
+        "timestamp": {
+          "$date": "2025-01-13T04:54:43.848Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "best spary to you sajesh on this pirode",
+        "en": "best spary to you sajesh on this pirode",
+        "timestamp": {
+          "$date": "2025-01-13T04:56:00.505Z"
+        },
+        "standalone_question": "What is the best spray to use during this period?",
+        "standalone_en": "What is the best spray to use during this period?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Currently, there are no specific spray recommendations for your potato crop in the **Sabbirkaka vala kairo** plot for the period from **January 13 to January 20, 2025**. \n\nHowever, keep monitoring the crop for any signs of pests or diseases, and follow the general guidelines for foliar sprays if needed. If you notice any issues, feel free to ask for specific recommendations!",
+        "en": "Currently, there are no specific spray recommendations for your potato crop in the **Sabbirkaka vala kairo** plot for the period from **January 13 to January 20, 2025**. \n\nHowever, keep monitoring the crop for any signs of pests or diseases, and follow the general guidelines for foliar sprays if needed. If you notice any issues, feel free to ask for specific recommendations!",
+        "timestamp": {
+          "$date": "2025-01-13T04:56:05.085Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "nematode mate sreshth rasaynik dava no sujav aapo",
+        "en": "Suggest the best chemical drug for nematodes",
+        "timestamp": {
+          "$date": "2025-01-13T05:00:44.076Z"
+        },
+        "standalone_question": "What is the best chemical treatment for nematodes?",
+        "standalone_en": "What is the best chemical treatment for nematodes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For controlling nematodes in your potato crop, you can use the following recommended chemical treatments:\n\n### Recommended Nematicides:\n1. **Carbofuran**: Apply at the rate of 1-2 kg/acre.\n2. **Furadan**: Use 1-2 kg/acre as per the manufacturer's instructions.\n3. **Neem Cake**: Incorporate 250-500 kg/acre into the soil as a natural nematicide.\n\n### Application Tips:\n- Apply these treatments before planting or during the early stages of crop growth for best results.\n- Ensure proper soil moisture for effective penetration of the nematicides.\n\nAlways follow the manufacturer's instructions for application rates and safety precautions!",
+        "en": "For controlling nematodes in your potato crop, you can use the following recommended chemical treatments:\n\n### Recommended Nematicides:\n1. **Carbofuran**: Apply at the rate of 1-2 kg/acre.\n2. **Furadan**: Use 1-2 kg/acre as per the manufacturer's instructions.\n3. **Neem Cake**: Incorporate 250-500 kg/acre into the soil as a natural nematicide.\n\n### Application Tips:\n- Apply these treatments before planting or during the early stages of crop growth for best results.\n- Ensure proper soil moisture for effective penetration of the nematicides.\n\nAlways follow the manufacturer's instructions for application rates and safety precautions!",
+        "timestamp": {
+          "$date": "2025-01-13T05:00:48.970Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "pak 80 divas no hoy tyare nematode mate su karvu?",
+        "en": "Su for nematode when the crop is 80 days old?",
+        "timestamp": {
+          "$date": "2025-01-13T05:02:14.054Z"
+        },
+        "standalone_question": "What should be done for nematode control if the potato crop is 80 days old?",
+        "standalone_en": "What should be done for nematode control if the potato crop is 80 days old?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For your potato crop that is 80 days old, you can take the following measures to control nematodes:\n\n### Recommended Actions:\n1. **Nematicides**: \n   - **Carbofuran**: Apply at the rate of 1-2 kg/acre.\n   - **Furadan**: Use 1-2 kg/acre as per the manufacturer's instructions.\n\n2. **Cultural Practices**:\n   - **Crop Rotation**: Rotate with non-host crops like marigold or mustard to break the nematode life cycle.\n   - **Soil Solarization**: Cover the soil with clear plastic for several weeks to heat the soil and kill nematodes.\n\n3. **Organic Options**:\n   - **Neem Cake**: Incorporate 250-500 kg/acre into the soil as a natural nematicide.\n\n### Application Tips:\n- Apply these treatments according to the manufacturer's instructions and ensure proper soil moisture for effective penetration.\n\nRegular monitoring of the crop for any signs of nematode damage is also essential!",
+        "en": "For your potato crop that is 80 days old, you can take the following measures to control nematodes:\n\n### Recommended Actions:\n1. **Nematicides**: \n   - **Carbofuran**: Apply at the rate of 1-2 kg/acre.\n   - **Furadan**: Use 1-2 kg/acre as per the manufacturer's instructions.\n\n2. **Cultural Practices**:\n   - **Crop Rotation**: Rotate with non-host crops like marigold or mustard to break the nematode life cycle.\n   - **Soil Solarization**: Cover the soil with clear plastic for several weeks to heat the soil and kill nematodes.\n\n3. **Organic Options**:\n   - **Neem Cake**: Incorporate 250-500 kg/acre into the soil as a natural nematicide.\n\n### Application Tips:\n- Apply these treatments according to the manufacturer's instructions and ensure proper soil moisture for effective penetration.\n\nRegular monitoring of the crop for any signs of nematode damage is also essential!",
+        "timestamp": {
+          "$date": "2025-01-13T05:02:19.461Z"
+        }
+      }
+    ],
+    "farmer_id": "montuvhora",
+    "farmer_plot_ids": [
+      "kalmovalanero",
+      "savvirkakavalakairo"
+    ],
+    "conversation_id": "67849c8d21e8ca3604d2610a",
+    "_id": "67849c8d21e8ca3604d2610a",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-13T05:07:14.063000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-01-13T04:54:38.492000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "foliar spray ma poshak tatvo ni unap mate su spray karvu joi a pak  55 to 60 days no 6",
+        "en": "Foliar Spray Ma Clothing Tattva Ni UNAP Met Su Spray Karvu Joy A Pak 55 To 60 Days No 6",
+        "timestamp": {
+          "$date": "2025-01-13T04:54:38.492Z"
+        },
+        "standalone_question": "What foliar spray should be used for the crop at 55 to 60 days?",
+        "standalone_en": "What foliar spray should be used for the crop at 55 to 60 days?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed",
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For your potato crop in the **Sabbirkaka vala kairo** plot, which is currently in the **Vegetative growth** stage (week 4), you can use the following foliar spray for nutrient application:\n\n### Foliar Spray Recommendations:\n1. **Zinc Sulphate**: 800 gm/acre\n2. **Ferrous Sulphate**: 600 gm/acre\n3. **Manganese Sulphate**: 400 gm/acre\n\n### Important Note:\n- The concentration of micro-nutrient fertilizers for foliar spray should not exceed 1%. For example, you can mix 5 kg of the above nutrients in 500 liters of water per acre.\n\nMake sure to follow these guidelines for effective nutrient application!",
+        "en": "For your potato crop in the **Sabbirkaka vala kairo** plot, which is currently in the **Vegetative growth** stage (week 4), you can use the following foliar spray for nutrient application:\n\n### Foliar Spray Recommendations:\n1. **Zinc Sulphate**: 800 gm/acre\n2. **Ferrous Sulphate**: 600 gm/acre\n3. **Manganese Sulphate**: 400 gm/acre\n\n### Important Note:\n- The concentration of micro-nutrient fertilizers for foliar spray should not exceed 1%. For example, you can mix 5 kg of the above nutrients in 500 liters of water per acre.\n\nMake sure to follow these guidelines for effective nutrient application!",
+        "timestamp": {
+          "$date": "2025-01-13T04:54:43.848Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "best spary to you sajesh on this pirode",
+        "en": "best spary to you sajesh on this pirode",
+        "timestamp": {
+          "$date": "2025-01-13T04:56:00.505Z"
+        },
+        "standalone_question": "What is the best spray to use during this period?",
+        "standalone_en": "What is the best spray to use during this period?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Currently, there are no specific spray recommendations for your potato crop in the **Sabbirkaka vala kairo** plot for the period from **January 13 to January 20, 2025**. \n\nHowever, keep monitoring the crop for any signs of pests or diseases, and follow the general guidelines for foliar sprays if needed. If you notice any issues, feel free to ask for specific recommendations!",
+        "en": "Currently, there are no specific spray recommendations for your potato crop in the **Sabbirkaka vala kairo** plot for the period from **January 13 to January 20, 2025**. \n\nHowever, keep monitoring the crop for any signs of pests or diseases, and follow the general guidelines for foliar sprays if needed. If you notice any issues, feel free to ask for specific recommendations!",
+        "timestamp": {
+          "$date": "2025-01-13T04:56:05.085Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "nematode mate sreshth rasaynik dava no sujav aapo",
+        "en": "Suggest the best chemical drug for nematodes",
+        "timestamp": {
+          "$date": "2025-01-13T05:00:44.076Z"
+        },
+        "standalone_question": "What is the best chemical treatment for nematodes?",
+        "standalone_en": "What is the best chemical treatment for nematodes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For controlling nematodes in your potato crop, you can use the following recommended chemical treatments:\n\n### Recommended Nematicides:\n1. **Carbofuran**: Apply at the rate of 1-2 kg/acre.\n2. **Furadan**: Use 1-2 kg/acre as per the manufacturer's instructions.\n3. **Neem Cake**: Incorporate 250-500 kg/acre into the soil as a natural nematicide.\n\n### Application Tips:\n- Apply these treatments before planting or during the early stages of crop growth for best results.\n- Ensure proper soil moisture for effective penetration of the nematicides.\n\nAlways follow the manufacturer's instructions for application rates and safety precautions!",
+        "en": "For controlling nematodes in your potato crop, you can use the following recommended chemical treatments:\n\n### Recommended Nematicides:\n1. **Carbofuran**: Apply at the rate of 1-2 kg/acre.\n2. **Furadan**: Use 1-2 kg/acre as per the manufacturer's instructions.\n3. **Neem Cake**: Incorporate 250-500 kg/acre into the soil as a natural nematicide.\n\n### Application Tips:\n- Apply these treatments before planting or during the early stages of crop growth for best results.\n- Ensure proper soil moisture for effective penetration of the nematicides.\n\nAlways follow the manufacturer's instructions for application rates and safety precautions!",
+        "timestamp": {
+          "$date": "2025-01-13T05:00:48.970Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "pak 80 divas no hoy tyare nematode mate su karvu?",
+        "en": "Su for nematode when the crop is 80 days old?",
+        "timestamp": {
+          "$date": "2025-01-13T05:02:14.054Z"
+        },
+        "standalone_question": "What should be done for nematode control if the potato crop is 80 days old?",
+        "standalone_en": "What should be done for nematode control if the potato crop is 80 days old?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For your potato crop that is 80 days old, you can take the following measures to control nematodes:\n\n### Recommended Actions:\n1. **Nematicides**: \n   - **Carbofuran**: Apply at the rate of 1-2 kg/acre.\n   - **Furadan**: Use 1-2 kg/acre as per the manufacturer's instructions.\n\n2. **Cultural Practices**:\n   - **Crop Rotation**: Rotate with non-host crops like marigold or mustard to break the nematode life cycle.\n   - **Soil Solarization**: Cover the soil with clear plastic for several weeks to heat the soil and kill nematodes.\n\n3. **Organic Options**:\n   - **Neem Cake**: Incorporate 250-500 kg/acre into the soil as a natural nematicide.\n\n### Application Tips:\n- Apply these treatments according to the manufacturer's instructions and ensure proper soil moisture for effective penetration.\n\nRegular monitoring of the crop for any signs of nematode damage is also essential!",
+        "en": "For your potato crop that is 80 days old, you can take the following measures to control nematodes:\n\n### Recommended Actions:\n1. **Nematicides**: \n   - **Carbofuran**: Apply at the rate of 1-2 kg/acre.\n   - **Furadan**: Use 1-2 kg/acre as per the manufacturer's instructions.\n\n2. **Cultural Practices**:\n   - **Crop Rotation**: Rotate with non-host crops like marigold or mustard to break the nematode life cycle.\n   - **Soil Solarization**: Cover the soil with clear plastic for several weeks to heat the soil and kill nematodes.\n\n3. **Organic Options**:\n   - **Neem Cake**: Incorporate 250-500 kg/acre into the soil as a natural nematicide.\n\n### Application Tips:\n- Apply these treatments according to the manufacturer's instructions and ensure proper soil moisture for effective penetration.\n\nRegular monitoring of the crop for any signs of nematode damage is also essential!",
+        "timestamp": {
+          "$date": "2025-01-13T05:02:19.461Z"
+        }
+      }
+    ],
+    "farmer_id": "montuvhora",
+    "farmer_plot_ids": [
+      "kalmovalanero",
+      "savvirkakavalakairo"
+    ],
+    "conversation_id": "67849c8d21e8ca3604d2610a",
+    "_id": "67849c8d21e8ca3604d2610a",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-13T05:07:14.063000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-01-13T04:54:38.492000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "द्राक्ष बागेत फॉसफरीक ऍसिड वापर केेल्या वर काय होते",
+        "en": "What happens when phosphoric acid is used in a vineyard?",
+        "timestamp": {
+          "$date": "2025-01-13T04:46:53.962Z"
+        },
+        "standalone_question": "What happens when phosphoric acid is used in a grape vineyard?",
+        "standalone_en": "What happens when phosphoric acid is used in a grape vineyard?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "draks baget phospharik esid vapar keyelya var kay hote"
+      },
+      {
+        "role": "assistant",
+        "content": "द्राक्ष बागेत फॉसफरीक ऍसिड वापरल्याने खालील फायदे होऊ शकतात:\n\n1. **मुळांची वाढ:** फॉसफरीक ऍसिड मुळांच्या विकासाला प्रोत्साहन देते, ज्यामुळे द्राक्षांच्या झाडांची स्थिरता वाढते.\n\n2. **फळांची गुणवत्ता:** यामुळे फळांची गुणवत्ता सुधारते, चव आणि आकार वाढतो.\n\n3. **पोषण संतुलन:** फॉस्फरस आणि पोटॅशियमच्या संतुलनामुळे झाडांची पोषणाची गरज पूर्ण होते.\n\n4. **रोग प्रतिकार:** यामुळे झाडांची रोग प्रतिकारक क्षमता वाढते, ज्यामुळे रोगांचा प्रकोप कमी होतो.\n\n5. **उत्पादन वाढ:** एकूण उत्पादनात वाढ होते, ज्यामुळे शेतकऱ्यांना अधिक नफा मिळतो.\n\nफॉसफरीक ऍसिडचा वापर योग्य प्रमाणात आणि योग्य पद्धतीने करणे महत्त्वाचे आहे, अन्यथा ते झाडांना हानीकारक ठरू शकते.",
+        "en": "Using phosphoric acid in grape orchards may have the following benefits:\n\n1. **Roots Growth:** Phosphoric acid promotes the development of roots, which increases the stability of grape trees.\n\n2. **Fruit quality:** It improves the quality of the fruit, enhances the taste and size.\n\n3. **Nutrition balance:** The balance of phosphorus and potassium meets the nutritional needs of plants.\n\n4. **Disease resistance:** It increases the immunity of trees, which reduces the spread of diseases.\n\n5. **Production growth:** Total production increases, which leads to higher profits for farmers.\n\nIt is important to use phosphoric acid in the right amount and in the right way, otherwise it can be harmful to trees.",
+        "timestamp": {
+          "$date": "2025-01-13T04:47:01.976Z"
+        }
+      }
+    ],
+    "farmer_id": "mayurgore",
+    "farmer_plot_ids": [
+      "plotno1rk517"
+    ],
+    "conversation_id": "67849abd21e8ca3604d26109",
+    "_id": "67849abd21e8ca3604d26109",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-01-13T04:51:53.968000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-01-13T04:46:53.962000+00:00"
+  }
+]

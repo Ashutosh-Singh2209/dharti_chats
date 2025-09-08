@@ -1,0 +1,535 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Any deficiency to plot",
+        "en": "Any deficiency to plot",
+        "timestamp": {
+          "$date": "2025-06-02T17:33:03.120Z"
+        },
+        "standalone_question": "Is there any deficiency in the plot?",
+        "standalone_en": "Is there any deficiency in the plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Your plot \"Shashidhar thomson 3 acar\" is currently facing some challenges with both diseases and pests:\n\n### Disease Risks:\n1. **Anthracnose**: \n   - Probability: 73.9% (Medium Risk) on June 2\n   - Probability: 85.7% (High Risk) on June 1\n   - Probability: 99.3% (High Risk) on May 30\n\n2. **Downy Mildew**: \n   - Probability: 65.8% (Medium Risk) on June 2\n   - Probability: 66.6% (Medium Risk) on June 1\n   - Probability: 75.4% (High Risk) on May 29\n\n3. **Powdery Mildew**: \n   - Probability: 65.8% (Medium Risk) on June 2\n   - Probability: 66.6% (Medium Risk) on June 1\n   - Probability: 75.4% (High Risk) on May 29\n\n### Pest Risks:\n1. **Flea Beetle**: \n   - Probability: 90% (High Risk) on June 2\n   - Probability: 90% (High Risk) on June 1\n   - Probability: 90% (High Risk) on May 30\n\n2. **Mealybug**: \n   - Probability: 69.1% (Medium Risk) on June 2\n   - Probability: 100% (High Risk) on June 1\n   - Probability: 62.4% (Medium Risk) on May 31\n\n3. **Caterpillar**: \n   - Probability: 54.6% (Medium Risk) on June 2\n   - Probability: 56.4% (Medium Risk) on June 1\n   - Probability: 59.8% (Medium Risk) on May 31\n\n### Recommendations:\n- **Immediate Action**: Consider applying appropriate fungicides for the diseases and insecticides for the pests, especially focusing on the high-risk areas.\n- **Monitoring**: Keep a close watch on the moisture levels and overall plant health to mitigate further risks.\n\nWould you like assistance with specific treatment recommendations or any other support?",
+        "en": "Your plot \"Shashidhar thomson 3 acar\" is currently facing some challenges with both diseases and pests:\n\n### Disease Risks:\n1. **Anthracnose**: \n   - Probability: 73.9% (Medium Risk) on June 2\n   - Probability: 85.7% (High Risk) on June 1\n   - Probability: 99.3% (High Risk) on May 30\n\n2. **Downy Mildew**: \n   - Probability: 65.8% (Medium Risk) on June 2\n   - Probability: 66.6% (Medium Risk) on June 1\n   - Probability: 75.4% (High Risk) on May 29\n\n3. **Powdery Mildew**: \n   - Probability: 65.8% (Medium Risk) on June 2\n   - Probability: 66.6% (Medium Risk) on June 1\n   - Probability: 75.4% (High Risk) on May 29\n\n### Pest Risks:\n1. **Flea Beetle**: \n   - Probability: 90% (High Risk) on June 2\n   - Probability: 90% (High Risk) on June 1\n   - Probability: 90% (High Risk) on May 30\n\n2. **Mealybug**: \n   - Probability: 69.1% (Medium Risk) on June 2\n   - Probability: 100% (High Risk) on June 1\n   - Probability: 62.4% (Medium Risk) on May 31\n\n3. **Caterpillar**: \n   - Probability: 54.6% (Medium Risk) on June 2\n   - Probability: 56.4% (Medium Risk) on June 1\n   - Probability: 59.8% (Medium Risk) on May 31\n\n### Recommendations:\n- **Immediate Action**: Consider applying appropriate fungicides for the diseases and insecticides for the pests, especially focusing on the high-risk areas.\n- **Monitoring**: Keep a close watch on the moisture levels and overall plant health to mitigate further risks.\n\nWould you like assistance with specific treatment recommendations or any other support?",
+        "timestamp": {
+          "$date": "2025-06-02T17:33:16.300Z"
+        }
+      }
+    ],
+    "farmer_id": "shashidharnaruni",
+    "farmer_plot_ids": [
+      "shashidharthomson3acar"
+    ],
+    "conversation_id": "683de04e77b6a39322c16159",
+    "_id": "683de04e77b6a39322c16159",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-06-02T17:38:03.123000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-06-02T17:33:03.120000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Senser show not calibrat ",
+        "en": "Senser show not calibrat ",
+        "timestamp": {
+          "$date": "2025-06-02T16:15:22.420Z"
+        },
+        "standalone_question": "Is the sensor not calibrated?",
+        "standalone_en": "Is the sensor not calibrated?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How to calibrate soil moisture sensors ?\nA:  The way to calibrate sensors is by putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. A drop after watering or irrigation and continuous dry upto 200 kpa means that the sensor is calibrated.",
+            "Q: My  sensor is showing 0 Kpa for long.\nA: 0-5 kPa means wet soil. It can be due to following :\nIf the device is recently installed, there can be moisture  around the sensor because the sensor is dipped in the water before installing. If this is the case, ask them to do atleast 3 irrigations as per their previous schedule without sensors and sensors would b set by then.\nIf the crop stage is very early or pruing is done recently, the water takeup by plants is negligible in this period because of very less transpiration. If this is the case, ask them to wait till irrigation Kpa in the present stage.\nSometimes, the water can remain accumulated around the sensor due to local landscaping or slope in the land around sensor. In this case, please check the around the sensor. It will have to be reinstalled properly. Chatbot should ask the user if he wants to create an issue ticket for the same"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems that your sensor is not calibrated properly. To calibrate the soil moisture sensor, you can follow these steps:\n\n1. **Water the Area**: Apply water to the soil around the sensor. \n2. **Monitor the Reading**: After watering, the sensor reading should drop. \n3. **Check for Stability**: Ensure that there are no fluctuations in the soil moisture data. The pressure in kPa should gradually increase as the soil dries out.\n4. **Wait for 12 Hours**: If the sensor does not show a drop in reading after watering, wait for about 12 hours to see if the moisture level changes.\n\nIf the sensor still shows dry after these steps, it may indicate a malfunction or that water is not reaching the sensor properly. Please check the following:\n\n- Ensure that the drip system is functioning correctly and that there are no blockages.\n- Verify that the dripper is within the range of the sensor.\n\nIf you need further assistance or want to raise a ticket for a malfunctioning sensor, please let me know!",
+        "en": "It seems that your sensor is not calibrated properly. To calibrate the soil moisture sensor, you can follow these steps:\n\n1. **Water the Area**: Apply water to the soil around the sensor. \n2. **Monitor the Reading**: After watering, the sensor reading should drop. \n3. **Check for Stability**: Ensure that there are no fluctuations in the soil moisture data. The pressure in kPa should gradually increase as the soil dries out.\n4. **Wait for 12 Hours**: If the sensor does not show a drop in reading after watering, wait for about 12 hours to see if the moisture level changes.\n\nIf the sensor still shows dry after these steps, it may indicate a malfunction or that water is not reaching the sensor properly. Please check the following:\n\n- Ensure that the drip system is functioning correctly and that there are no blockages.\n- Verify that the dripper is within the range of the sensor.\n\nIf you need further assistance or want to raise a ticket for a malfunctioning sensor, please let me know!",
+        "timestamp": {
+          "$date": "2025-06-02T16:15:29.165Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Solution <user uploaded image for analysis at 'cucumberplots/2025-06-02-1748881198880.jpg'>",
+        "en": "Solution <user uploaded image for analysis at 'cucumberplots/2025-06-02-1748881198880.jpg'>",
+        "timestamp": {
+          "$date": "2025-06-02T16:20:02.501Z"
+        },
+        "standalone_question": "What is the solution for the issue shown in the uploaded image?",
+        "standalone_en": "What is the solution for the issue shown in the uploaded image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of your crop image indicates that there are no specific spray suggestions available for the observed crop and stage. However, here are some general recommendations for managing caterpillar infestations:\n\n1. **Insecticidal Soaps**: These can help control soft-bodied insects and larvae.\n2. **Neem Oil**: A natural pesticide that disrupts the life cycle of pests.\n3. **Bacillus thuringiensis (Bt)**: A biological control that specifically targets caterpillars.\n\nMake sure to monitor your crop closely and consider consulting with a local agricultural expert for tailored advice. Additionally, improving plant health through proper nutrition and watering can help the crop recover from pest damage.",
+        "en": "The analysis of your crop image indicates that there are no specific spray suggestions available for the observed crop and stage. However, here are some general recommendations for managing caterpillar infestations:\n\n1. **Insecticidal Soaps**: These can help control soft-bodied insects and larvae.\n2. **Neem Oil**: A natural pesticide that disrupts the life cycle of pests.\n3. **Bacillus thuringiensis (Bt)**: A biological control that specifically targets caterpillars.\n\nMake sure to monitor your crop closely and consider consulting with a local agricultural expert for tailored advice. Additionally, improving plant health through proper nutrition and watering can help the crop recover from pest damage.",
+        "timestamp": {
+          "$date": "2025-06-02T16:20:27.149Z"
+        }
+      }
+    ],
+    "farmer_id": "kuntalsinghranjitsinhjhala",
+    "farmer_plot_ids": [
+      "cucumberplots"
+    ],
+    "conversation_id": "683dce19d06c26257d588d63",
+    "_id": "683dce19d06c26257d588d63",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-06-02T16:25:02.504000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-06-02T16:15:22.420000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Senser show not calibrat ",
+        "en": "Senser show not calibrat ",
+        "timestamp": {
+          "$date": "2025-06-02T16:15:22.420Z"
+        },
+        "standalone_question": "Is the sensor not calibrated?",
+        "standalone_en": "Is the sensor not calibrated?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How to calibrate soil moisture sensors ?\nA:  The way to calibrate sensors is by putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. A drop after watering or irrigation and continuous dry upto 200 kpa means that the sensor is calibrated.",
+            "Q: My  sensor is showing 0 Kpa for long.\nA: 0-5 kPa means wet soil. It can be due to following :\nIf the device is recently installed, there can be moisture  around the sensor because the sensor is dipped in the water before installing. If this is the case, ask them to do atleast 3 irrigations as per their previous schedule without sensors and sensors would b set by then.\nIf the crop stage is very early or pruing is done recently, the water takeup by plants is negligible in this period because of very less transpiration. If this is the case, ask them to wait till irrigation Kpa in the present stage.\nSometimes, the water can remain accumulated around the sensor due to local landscaping or slope in the land around sensor. In this case, please check the around the sensor. It will have to be reinstalled properly. Chatbot should ask the user if he wants to create an issue ticket for the same"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems that your sensor is not calibrated properly. To calibrate the soil moisture sensor, you can follow these steps:\n\n1. **Water the Area**: Apply water to the soil around the sensor. \n2. **Monitor the Reading**: After watering, the sensor reading should drop. \n3. **Check for Stability**: Ensure that there are no fluctuations in the soil moisture data. The pressure in kPa should gradually increase as the soil dries out.\n4. **Wait for 12 Hours**: If the sensor does not show a drop in reading after watering, wait for about 12 hours to see if the moisture level changes.\n\nIf the sensor still shows dry after these steps, it may indicate a malfunction or that water is not reaching the sensor properly. Please check the following:\n\n- Ensure that the drip system is functioning correctly and that there are no blockages.\n- Verify that the dripper is within the range of the sensor.\n\nIf you need further assistance or want to raise a ticket for a malfunctioning sensor, please let me know!",
+        "en": "It seems that your sensor is not calibrated properly. To calibrate the soil moisture sensor, you can follow these steps:\n\n1. **Water the Area**: Apply water to the soil around the sensor. \n2. **Monitor the Reading**: After watering, the sensor reading should drop. \n3. **Check for Stability**: Ensure that there are no fluctuations in the soil moisture data. The pressure in kPa should gradually increase as the soil dries out.\n4. **Wait for 12 Hours**: If the sensor does not show a drop in reading after watering, wait for about 12 hours to see if the moisture level changes.\n\nIf the sensor still shows dry after these steps, it may indicate a malfunction or that water is not reaching the sensor properly. Please check the following:\n\n- Ensure that the drip system is functioning correctly and that there are no blockages.\n- Verify that the dripper is within the range of the sensor.\n\nIf you need further assistance or want to raise a ticket for a malfunctioning sensor, please let me know!",
+        "timestamp": {
+          "$date": "2025-06-02T16:15:29.165Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Solution <user uploaded image for analysis at 'cucumberplots/2025-06-02-1748881198880.jpg'>",
+        "en": "Solution <user uploaded image for analysis at 'cucumberplots/2025-06-02-1748881198880.jpg'>",
+        "timestamp": {
+          "$date": "2025-06-02T16:20:02.501Z"
+        },
+        "standalone_question": "What is the solution for the issue shown in the uploaded image?",
+        "standalone_en": "What is the solution for the issue shown in the uploaded image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of your crop image indicates that there are no specific spray suggestions available for the observed crop and stage. However, here are some general recommendations for managing caterpillar infestations:\n\n1. **Insecticidal Soaps**: These can help control soft-bodied insects and larvae.\n2. **Neem Oil**: A natural pesticide that disrupts the life cycle of pests.\n3. **Bacillus thuringiensis (Bt)**: A biological control that specifically targets caterpillars.\n\nMake sure to monitor your crop closely and consider consulting with a local agricultural expert for tailored advice. Additionally, improving plant health through proper nutrition and watering can help the crop recover from pest damage.",
+        "en": "The analysis of your crop image indicates that there are no specific spray suggestions available for the observed crop and stage. However, here are some general recommendations for managing caterpillar infestations:\n\n1. **Insecticidal Soaps**: These can help control soft-bodied insects and larvae.\n2. **Neem Oil**: A natural pesticide that disrupts the life cycle of pests.\n3. **Bacillus thuringiensis (Bt)**: A biological control that specifically targets caterpillars.\n\nMake sure to monitor your crop closely and consider consulting with a local agricultural expert for tailored advice. Additionally, improving plant health through proper nutrition and watering can help the crop recover from pest damage.",
+        "timestamp": {
+          "$date": "2025-06-02T16:20:27.149Z"
+        }
+      }
+    ],
+    "farmer_id": "kuntalsinghranjitsinhjhala",
+    "farmer_plot_ids": [
+      "cucumberplots"
+    ],
+    "conversation_id": "683dce19d06c26257d588d63",
+    "_id": "683dce19d06c26257d588d63",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-06-02T16:25:02.504000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-06-02T16:15:22.420000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "माझे 2 प्लॉट चे update दिसत नाही ",
+        "en": "I don't see the update of my 2 plots. ",
+        "timestamp": {
+          "$date": "2025-06-02T08:12:45.250Z"
+        },
+        "standalone_question": "I do not see the update for my 2 plots.",
+        "standalone_en": "I do not see the update for my 2 plots.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "majhe 2 plot che update disat nahi "
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया तुमच्या प्लॉट्सच्या अद्ययावत माहितीची तपासणी करण्यासाठी मी तुमच्या प्लॉट्ससाठी ताज्या सेन्सर डेटाची माहिती मिळवतो. थोडक्यात थांबा.:\n\nतुमच्या प्लॉट्सच्या ताज्या सेन्सर डेटाची माहिती खालीलप्रमाणे आहे:\n\n1. **प्लॉट: Pink Sarita**\n   - **तापमान:** 24°C\n   - **मातीची आर्द्रता:** 5 kPa (खूप ओलसर)\n   - **बॅटरी स्तर:** 38%\n   - **तपशील वेळ:** 2:13 PM, 2 जून 2025\n\n2. **प्लॉट: Colur Gulab**\n   - **तापमान:** 26.125°C\n   - **मातीची आर्द्रता:** 13 kPa (ओलसर)\n   - **बॅटरी स्तर:** 85%\n   - **तपशील वेळ:** 12:50 PM, 2 जून 2025\n\n3. **प्लॉट: Plot No 1 VNR Peru**\n   - **तापमान:** 26.69°C\n   - **मातीची आर्द्रता:** 3 kPa (खूप ओलसर)\n   - **बॅटरी स्तर:** 62%\n   - **तपशील वेळ:** 12:51 PM, 2 जून 2025\n\nतुमच्या सर्व प्लॉट्सची माहिती अद्ययावत आहे. तुम्हाला आणखी काही माहिती हवी आहे का?",
+        "en": "Please check the updated information of your plots I get the latest sensor data for your plots. Wait briefly:\n\nThe latest sensor data of your plots is as follows:\n\n1. **Plot: Pink Sarita**\n   - **Temperature:** 24°C\n   - **Soil Humidity:** 5 kPa (too much damp)\n   - **Battery Level:** 38%\n   - **Detail Time:** 2:13 PM, Jun 2, 2025\n\n2. **Plot: Colur Gulab**\n   - **Temperature:** 26.125°C\n   - **Soil Humidity:** 13 kPa (Olser)\n   - **Battery Level:** 85%\n   - **Detail Time:** 12:50 PM, Jun 2, 2025\n\n3. **Plot: Plot No 1 VNR Peru**\n   - **Temperature:** 26.69°C\n   - **Soil Humidity:** 3 kPa (too much moisture)\n   - **Battery Level:** 62%\n   - **Detail Time:** 12:51 PM, Jun 2, 2025\n\nThe information of all your plots is up to date. Do you need any more information?",
+        "timestamp": {
+          "$date": "2025-06-02T08:12:57.704Z"
+        }
+      }
+    ],
+    "farmer_id": "sandeeptidke",
+    "farmer_plot_ids": [
+      "bordorose1",
+      "colurgulab",
+      "plotno1peru"
+    ],
+    "conversation_id": "683d5cfdd06c26257d588d61",
+    "_id": "683d5cfdd06c26257d588d61",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-06-02T08:17:45.252000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-06-02T08:12:45.250000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Water tank kadhun bhetal ka",
+        "en": "When did you meet the water tank?",
+        "timestamp": {
+          "$date": "2025-06-02T03:39:28.121Z"
+        },
+        "standalone_question": "Where can I find a water tank?",
+        "standalone_en": "Where can I find a water tank?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Water tank kadhun bhetal ka, tumhala soil water storage capacity samjun ghyavi lagel. Tumcha plot \"plot no.1(ard36)\" madhe grapes cha crop aahe. \n\nSoil water storage capacity samjun ghyayla, tumcha soil type (Clay) aani root depth mahit asava lagel. Tumhi irrigation cha plan kela tar, soil moisture level check karun, water tank kadhaycha samay samjun ghyu shakal. \n\nTumhala kahi specific mahiti pahije ka?",
+        "en": "If you remove the water tank, you have to understand the soil water storage capacity. Your plot \"Plot No.1 (ARD36)\" has a crop of grapes. \n\nTo understand soil water storage capacity, you have to know your soil type (clay) and root depth. If you plan an irrigation, you'll be able to check the soil moisture level and understand the time to remove the water tank. \n\nDo you want any specific information?",
+        "timestamp": {
+          "$date": "2025-06-02T03:39:31.917Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Soil type<user uploaded image for analysis at 'plotno1ard36538/2025-06-02-1748835608154.jpg'>",
+        "en": "Soil type<user uploaded image for analysis at 'plotno1ard36538/2025-06-02-1748835608154.jpg'>",
+        "timestamp": {
+          "$date": "2025-06-02T03:40:20.401Z"
+        },
+        "standalone_question": "What is the soil type in the uploaded image?",
+        "standalone_en": "What is the soil type in the uploaded image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The soil report from the image you provided contains the following details:\n\n- **Mughalchi Randi (Root Depth)**: 60 inches\n- **Mughalchi Kholi (Root Width)**: 14 inches\n- **Drip Discharge**: 8 liters\n- **Mati Dharana (Soil Retention)**: 190 mm\n- **Drip Antar (Dripper Distance)**: 2.5 feet\n- **Sichan Taas**: 3 ta: 23 mi.\n\nIf you would like to calculate the irrigation hours for your plot using these values, please let me know!",
+        "en": "The soil report from the image you provided contains the following details:\n\n- **Mughalchi Randi (Root Depth)**: 60 inches\n- **Mughalchi Kholi (Root Width)**: 14 inches\n- **Drip Discharge**: 8 liters\n- **Mati Dharana (Soil Retention)**: 190 mm\n- **Drip Antar (Dripper Distance)**: 2.5 feet\n- **Sichan Taas**: 3 ta: 23 mi.\n\nIf you would like to calculate the irrigation hours for your plot using these values, please let me know!",
+        "timestamp": {
+          "$date": "2025-06-02T03:40:33.270Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Calculate",
+        "en": "Calculate",
+        "timestamp": {
+          "$date": "2025-06-02T03:41:09.911Z"
+        },
+        "standalone_question": "Can you calculate the irrigation hours for my plot using the provided soil report details?",
+        "standalone_en": "Can you calculate the irrigation hours for my plot using the provided soil report details?",
+        "retrieval": {
+          "tools": [
+            "calculate_irrigation_hours\nCalculate the irrigation hours needed for irrigation by the farmer based on the mandatory provided values.\n    The formula used is\n    (root_width * root_depth * soil_retention * dripper_distance * calc_constant) / dripper_discharge\n    where calc_constant = 0.00006784244",
+            "get_irrigation_installation_settings\n    retrieves the irrigation installation settings in the farmer's plots, can be used to calculate the irrigation hours.\n    returns root_width, root_depth, soil_retention, dripper_distance, dripper_discharge",
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range.",
+            "get_irrigation_forecast  \nGives the irrigation requirement forecast for any day, today and beyond. Dates are mandatory. Output is humanized with day of the week and optimal moisture details if suitable.",
+            "get_soil_moisture_percentage_from_kpa_reading  \nGets the estimated soil moisture percentage for a given plot and kPa reading."
+          ],
+          "faq": [
+            "Q: How to measure/ calculate irrigation hours /water tank of my plot in fyllo app? How do I calculate irrigation hours for my plot? How to use the irrigation hours calculator?\nA: To calculate irrigation hours in the Fyllo app, follow these steps:\n\n1. Open the Fyllo App\n2. Go to the home screen\n3. Click on the soil moisture-1 sensor\n4. Scroll down to find the \"Irrigation hours\" section\n5. Fill in the required details such as:\n   - Root width (inches)\n   - Root depth (inches)\n   - Soil retention (mm)\n   - Dripper distance (feet)\n   - Dripper discharge (liters)\n6. Click the calculate button\n\nWould you like me to calculate the irrigation hours for you right now? I can retrieve your plot's irrigation settings and perform the calculation if you say yes.\n\nTool Selection: When user says yes, I should:\n1. Use get_irrigation_installation_settings tool to retrieve plot settings\n2. Check if all values are present and valid\n3. If values are valid, use calculate_irrigation_hours tool with these values\n4. If values are missing or invalid, ask the user to provide the missing values\n5. After calculating irrigation hours, display the irrigation installation settings that were used for the calculation\n6. Ask the user if they want to calculate irrigation hours with a different set of values, and if yes, prompt them to provide those values\n\nExample response if values are missing:\n\"I checked your plot settings, but I need some additional information to calculate irrigation hours accurately. Could you please provide the [missing value(s)]? Once you provide these details, I can complete the calculation for you.\"\n\nExample response after calculation:\n\"Based on your plot's irrigation settings, the calculated irrigation hours are [X] hours. \n\nI used the following settings for this calculation:\n- Root width: [value] inches\n- Root depth: [value] inches\n- Soil retention: [value] mm\n- Dripper distance: [value] feet\n- Dripper discharge: [value] liters\n\nWould you like to calculate irrigation hours with a different set of values? If yes, please provide the new values you'd like to use.\"",
+            "Q: What should I do if I can't find the fertigation schedule after selecting the fertigation tab?\nA: If you don't see the fertigation schedule, you'll need to create a report first. Would you like assistance in creating a report? Do you have any soil, leaf, or petiole test data available? If not, we can generate a basic schedule for you using general crop and regional data.",
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: How do I generate a fertigation schedule in the app?\nA: To generate a fertigation schedule, follow these steps:\n\n    1. Go to \"My Farm\"\n    2. Select \"Fertigation\"\n    3. Tap \"Create Report\"\n    4. Fill in all the required details\n    5. Save the report\n    If you have soil, leaf, or petiole test data, you can input this for a more customized schedule. Otherwise, we can generate a basic schedule using general crop and regional data."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Based on your plot's irrigation settings, the calculated irrigation hours are approximately **3.38 hours**.\n\nI used the following settings for this calculation:\n- Root width: 60 inches\n- Root depth: 14 inches\n- Soil retention: 190 mm\n- Dripper distance: 2.5 feet\n- Dripper discharge: 8 liters\n\nWould you like to calculate irrigation hours with a different set of values? If yes, please provide the new values you'd like to use.",
+        "en": "Based on your plot's irrigation settings, the calculated irrigation hours are approximately **3.38 hours**.\n\nI used the following settings for this calculation:\n- Root width: 60 inches\n- Root depth: 14 inches\n- Soil retention: 190 mm\n- Dripper distance: 2.5 feet\n- Dripper discharge: 8 liters\n\nWould you like to calculate irrigation hours with a different set of values? If yes, please provide the new values you'd like to use.",
+        "timestamp": {
+          "$date": "2025-06-02T03:41:16.453Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "No this value are correct ",
+        "en": "No this value are correct ",
+        "timestamp": {
+          "$date": "2025-06-02T03:41:45.182Z"
+        },
+        "standalone_question": "Are the values provided for the calculation correct?",
+        "standalone_en": "Are the values provided for the calculation correct?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Based on your plot's irrigation settings, the calculated irrigation hours are approximately **3.38 hours**.\n\nI used the following settings for this calculation:\n- Root width: 14 inches\n- Root depth: 60 inches\n- Soil retention: 190 mm\n- Dripper distance: 2.5 feet\n- Dripper discharge: 8 liters\n\nWould you like to calculate irrigation hours with a different set of values? If yes, please provide the new values you'd like to use.",
+        "en": "Based on your plot's irrigation settings, the calculated irrigation hours are approximately **3.38 hours**.\n\nI used the following settings for this calculation:\n- Root width: 14 inches\n- Root depth: 60 inches\n- Soil retention: 190 mm\n- Dripper distance: 2.5 feet\n- Dripper discharge: 8 liters\n\nWould you like to calculate irrigation hours with a different set of values? If yes, please provide the new values you'd like to use.",
+        "timestamp": {
+          "$date": "2025-06-02T03:41:51.225Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "When I will give water to plant",
+        "en": "When I will give water to plant",
+        "timestamp": {
+          "$date": "2025-06-02T03:42:40.135Z"
+        },
+        "standalone_question": "When should I water the plants?",
+        "standalone_en": "When should I water the plants?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For your plot \"plot no.1(ard36)\", the current soil moisture levels are as follows:\n\n- Soil Moisture 1: 80%\n- Soil Moisture 2: 71%\n- Optimal Moisture: 60%\n\nSince the soil moisture is above the optimal values, watering is not required at this time. \n\nIf you have any further questions or need assistance, feel free to ask!",
+        "en": "For your plot \"plot no.1(ard36)\", the current soil moisture levels are as follows:\n\n- Soil Moisture 1: 80%\n- Soil Moisture 2: 71%\n- Optimal Moisture: 60%\n\nSince the soil moisture is above the optimal values, watering is not required at this time. \n\nIf you have any further questions or need assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-06-02T03:42:47.244Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Then when I will give water",
+        "en": "Then when I will give water",
+        "timestamp": {
+          "$date": "2025-06-02T03:43:14.989Z"
+        },
+        "standalone_question": "When should I water the plants?",
+        "standalone_en": "When should I water the plants?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For your plot \"plot no.1(ard36)\", watering is not required at this time. The current soil moisture levels are:\n\n- Soil Moisture 1: 80%\n- Soil Moisture 2: 71%\n- Optimal Moisture: 60%\n\nYou should consider watering when the soil moisture levels drop closer to or below the optimal values. If you need further assistance or have any other questions, feel free to ask!",
+        "en": "For your plot \"plot no.1(ard36)\", watering is not required at this time. The current soil moisture levels are:\n\n- Soil Moisture 1: 80%\n- Soil Moisture 2: 71%\n- Optimal Moisture: 60%\n\nYou should consider watering when the soil moisture levels drop closer to or below the optimal values. If you need further assistance or have any other questions, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-06-02T03:43:20.362Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "I don't know the value ",
+        "en": "I don't know the value ",
+        "timestamp": {
+          "$date": "2025-06-02T03:43:42.513Z"
+        },
+        "standalone_question": "When should I water my plants if I don't know the soil moisture values?",
+        "standalone_en": "When should I water my plants if I don't know the soil moisture values?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: What should I do if the soil moisture sensor always shows wet values?\nA: Verify the irrigation frequency, check the installation point, and contact Fyllo representative if the issue persists.",
+            "Q: What should I do if the soil moisture sensor always shows dry values?\nA: Check if irrigation water is reaching the sensor, verify sensor connection, and ensure the sensor is not damaged.",
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: What should I do if the soil moisture sensor values fluctuate?\nA: Ensure the sensor is installed properly in the soil, check for air bubbles, and contact Fyllo representative if the issue persists.",
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Based on your plot's irrigation settings, the calculated irrigation hours are approximately **3.38 hours**.\n\nI used the following settings for this calculation:\n- Root width: 60 inches\n- Root depth: 14 inches\n- Soil retention: 190 mm\n- Dripper distance: 2.5 feet\n- Dripper discharge: 8 liters\n\nYou can plan to irrigate for about 3.38 hours when the soil moisture levels drop closer to the optimal range. If you have any further questions or need assistance, feel free to ask!",
+        "en": "Based on your plot's irrigation settings, the calculated irrigation hours are approximately **3.38 hours**.\n\nI used the following settings for this calculation:\n- Root width: 60 inches\n- Root depth: 14 inches\n- Soil retention: 190 mm\n- Dripper distance: 2.5 feet\n- Dripper discharge: 8 liters\n\nYou can plan to irrigate for about 3.38 hours when the soil moisture levels drop closer to the optimal range. If you have any further questions or need assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-06-02T03:43:51.306Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Can you remind me to water",
+        "en": "Can you remind me to water",
+        "timestamp": {
+          "$date": "2025-06-02T03:44:17.922Z"
+        },
+        "standalone_question": "Can you set a reminder for me to water the plants?",
+        "standalone_en": "Can you set a reminder for me to water the plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "I can’t set reminders directly, but I recommend checking your soil moisture levels regularly. You should consider watering when the soil moisture drops below the optimal level of 60%. \n\nYou can set a reminder on your phone or calendar to check the soil moisture every few days. If you need help with anything else, feel free to ask!",
+        "en": "I can’t set reminders directly, but I recommend checking your soil moisture levels regularly. You should consider watering when the soil moisture drops below the optimal level of 60%. \n\nYou can set a reminder on your phone or calendar to check the soil moisture every few days. If you need help with anything else, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-06-02T03:44:22.616Z"
+        }
+      }
+    ],
+    "farmer_id": "omkardughad",
+    "farmer_plot_ids": [
+      "plotno1ard36538"
+    ],
+    "conversation_id": "683d1cefd06c26257d588d60",
+    "_id": "683d1cefd06c26257d588d60",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-06-02T03:49:17.925000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-06-02T03:39:28.121000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "વાવણી નો સમય",
+        "en": "Sowing Time",
+        "timestamp": {
+          "$date": "2025-06-02T03:35:26.058Z"
+        },
+        "standalone_question": "What is the time for sowing?",
+        "standalone_en": "What is the time for sowing?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is the right time to sow the seeds?\nA: Check the weather forecast for the next few days (tool call), and then decide the right time for the crop, based on own's knowledge.",
+            "Q: What should be the optimum rainfall for sowing?\nA: 50 to 100 mm is optimum rain fall required for sowing",
+            "Q: What should be the optimum depth of seed to be sown?\nA: Seed to be sown at the depth of twice the seed size",
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise."
+          ]
+        },
+        "content_transliterated": "vavani no samay"
+      },
+      {
+        "role": "assistant",
+        "content": "વાવણીનો યોગ્ય સમય મોસમ અને પાકના પ્રકાર પર આધાર રાખે છે. સામાન્ય રીતે, જમીનનું તાપમાન 20°C થી 30°C વચ્ચે હોવું જોઈએ. જો તમે મોસમના આગલા અંશો અને વરસાદની આગાહી તપાસો છો, તો તે વધુ સારી રીતે નક્કી કરી શકો છો. \n\nજો તમને વધુ ચોક્કસ માહિતી જોઈએ, તો કૃપા કરીને પાકનું નામ અને સ્થળ જણાવો.",
+        "en": "The right time to sow depends on the season and the type of crop. Generally, the ground temperature should be between 20°C and 30°C. If you check the forecast of the next part of the season and the rainfall, you can determine it better. \n\nIf you would like more specific information, please state the name and location of the crop.",
+        "timestamp": {
+          "$date": "2025-06-02T03:35:31.937Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મગફળી ને કેટલા દીવસ થયા",
+        "en": "How many days have it been for peanuts",
+        "timestamp": {
+          "$date": "2025-06-02T03:35:57.819Z"
+        },
+        "standalone_question": "How many days has it been since the peanut planting?",
+        "standalone_en": "How many days has it been since the peanut planting?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "magaphali ne ketla divas thaya"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા મગફળીના પાકને વાવણીના દિવસે 10 માર્ચ 2025 થી 2 જૂન 2025 સુધી 84 દિવસ થયા છે.",
+        "en": "It has been 84 days since your groundnut crop was sown from March 10, 2025 to June 2, 2025.",
+        "timestamp": {
+          "$date": "2025-06-02T03:36:02.542Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140",
+      "sheshpalot"
+    ],
+    "conversation_id": "683d1bfdd06c26257d588d5f",
+    "_id": "683d1bfdd06c26257d588d5f",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-06-02T03:40:57.822000Z"
+    },
+    "tag": "historical data",
+    "conv_date": "2025-06-02T03:35:26.058000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Devshri rarms",
+        "en": "Devshri rarms",
+        "timestamp": {
+          "$date": "2025-06-02T02:26:54.966Z"
+        },
+        "standalone_question": "What are Devshri rarms?",
+        "standalone_en": "What are Devshri rarms?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like you might be referring to \"Devshri Farms.\" Could you please provide more details or specify what assistance you need related to your farming activities?",
+        "en": "It seems like you might be referring to \"Devshri Farms.\" Could you please provide more details or specify what assistance you need related to your farming activities?",
+        "timestamp": {
+          "$date": "2025-06-02T02:26:58.961Z"
+        }
+      }
+    ],
+    "farmer_id": "ashwinbhosale",
+    "farmer_plot_ids": [
+      "anushkaplot2b",
+      "anushkasarole1",
+      "manikchaman4devshrifarm",
+      "ssn5devshrifarm"
+    ],
+    "conversation_id": "683d0bed1afe67c02d0f3e89",
+    "_id": "683d0bed1afe67c02d0f3e89",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-06-02T02:31:54.969000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-06-02T02:26:54.966000+00:00"
+  }
+]

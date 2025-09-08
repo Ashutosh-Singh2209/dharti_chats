@@ -1,0 +1,245 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "best foliarspray on this condition ",
+        "en": "best foliarspray on this condition ",
+        "timestamp": {
+          "$date": "2025-01-29T15:11:48.929Z"
+        },
+        "standalone_question": "What is the best foliar spray for this condition?",
+        "standalone_en": "What is the best foliar spray for this condition?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The spray conditions for both your plots are currently ideal for foliar spray. Here are the details:\n\n### Chayda plot nero\n- **Ideal Spray Times**: \n  - Tonight (20:30) to early morning (11:30) on January 30th.\n\n### Sabbirkaka vala kairo\n- **Ideal Spray Times**: \n  - Tonight (20:30) to early morning (11:30) on January 30th.\n\nYou can proceed with the foliar spray during these times for optimal results.",
+        "en": "The spray conditions for both your plots are currently ideal for foliar spray. Here are the details:\n\n### Chayda plot nero\n- **Ideal Spray Times**: \n  - Tonight (20:30) to early morning (11:30) on January 30th.\n\n### Sabbirkaka vala kairo\n- **Ideal Spray Times**: \n  - Tonight (20:30) to early morning (11:30) on January 30th.\n\nYou can proceed with the foliar spray during these times for optimal results.",
+        "timestamp": {
+          "$date": "2025-01-29T15:12:02.137Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "by which technical ",
+        "en": "by which technical ",
+        "timestamp": {
+          "$date": "2025-01-29T15:12:51.596Z"
+        },
+        "standalone_question": "What technical factors should I consider for the foliar spray?",
+        "standalone_en": "What technical factors should I consider for the foliar spray?",
+        "retrieval": {
+          "tools": [
+            "check_spray_conditions  \nGets the spray condition forecast for the next few hours for the farmer's plots and returns the condition for each hour as GOOD, MODERATE, or WORST, based on deltaT, VPD, and rainfall conditions."
+          ],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The best times for foliar spray on your plots are as follows:\n\n### Chayda plot nero\n- **Ideal Spray Times**:\n  - Tonight (20:30) to early morning (11:30) on January 30th.\n\n### Sabbirkaka vala kairo\n- **Ideal Spray Times**:\n  - Tonight (20:30) to early morning (11:30) on January 30th.\n\n### Technical Conditions for Spray:\n- **Delta T**: Indicates the temperature difference; lower values are better for spray.\n- **VPD (Vapor Pressure Deficit)**: Should be low for effective spray; values around 0.5 to 1.5 are ideal.\n- **Rainfall Condition**: No rain expected, making it suitable for spraying.\n- **Wind Speed Condition**: Wind conditions are favorable for spraying.\n\nYou can proceed with the foliar spray during these times for optimal results.",
+        "en": "The best times for foliar spray on your plots are as follows:\n\n### Chayda plot nero\n- **Ideal Spray Times**:\n  - Tonight (20:30) to early morning (11:30) on January 30th.\n\n### Sabbirkaka vala kairo\n- **Ideal Spray Times**:\n  - Tonight (20:30) to early morning (11:30) on January 30th.\n\n### Technical Conditions for Spray:\n- **Delta T**: Indicates the temperature difference; lower values are better for spray.\n- **VPD (Vapor Pressure Deficit)**: Should be low for effective spray; values around 0.5 to 1.5 are ideal.\n- **Rainfall Condition**: No rain expected, making it suitable for spraying.\n- **Wind Speed Condition**: Wind conditions are favorable for spraying.\n\nYou can proceed with the foliar spray during these times for optimal results.",
+        "timestamp": {
+          "$date": "2025-01-29T15:13:08.505Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "best foliar spray  and sajest tecnical ",
+        "en": "best foliar spray  and sajest tecnical ",
+        "timestamp": {
+          "$date": "2025-01-29T15:14:28.832Z"
+        },
+        "standalone_question": "What is the best foliar spray and what are the recommended technical conditions for its application?",
+        "standalone_en": "What is the best foliar spray and what are the recommended technical conditions for its application?",
+        "retrieval": {
+          "tools": [
+            "check_spray_conditions  \nGets the spray condition forecast for the next few hours for the farmer's plots and returns the condition for each hour as GOOD, MODERATE, or WORST, based on deltaT, VPD, and rainfall conditions."
+          ],
+          "faq": [
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Currently, there are no specific disease or pest spray recommendations for either of your plots today.\n\n### Recommended Foliar Spray:\n1. **Fungicide**: Use a broad-spectrum fungicide to prevent fungal diseases.\n2. **Insecticide**: Apply a systemic insecticide to control any potential pest infestations.\n3. **Nutrient Spray**: Consider a foliar nutrient spray containing micronutrients like zinc and iron to enhance plant health.\n\n### Technical Suggestions:\n- **Timing**: Spray during the early morning or late evening when temperatures are cooler.\n- **Delta T**: Ensure the Delta T is between 2-9 for optimal stomatal opening.\n- **VPD**: Aim for a VPD of around 0.5 to 1.5 for effective absorption.\n- **Wind Conditions**: Check for low wind speeds to avoid drift.\n\nYou can proceed with the foliar spray based on these recommendations.",
+        "en": "Currently, there are no specific disease or pest spray recommendations for either of your plots today.\n\n### Recommended Foliar Spray:\n1. **Fungicide**: Use a broad-spectrum fungicide to prevent fungal diseases.\n2. **Insecticide**: Apply a systemic insecticide to control any potential pest infestations.\n3. **Nutrient Spray**: Consider a foliar nutrient spray containing micronutrients like zinc and iron to enhance plant health.\n\n### Technical Suggestions:\n- **Timing**: Spray during the early morning or late evening when temperatures are cooler.\n- **Delta T**: Ensure the Delta T is between 2-9 for optimal stomatal opening.\n- **VPD**: Aim for a VPD of around 0.5 to 1.5 for effective absorption.\n- **Wind Conditions**: Check for low wind speeds to avoid drift.\n\nYou can proceed with the foliar spray based on these recommendations.",
+        "timestamp": {
+          "$date": "2025-01-29T15:14:58.659Z"
+        }
+      }
+    ],
+    "farmer_id": "montuvhora",
+    "farmer_plot_ids": [
+      "kalmovalanero",
+      "savvirkakavalakairo"
+    ],
+    "conversation_id": "679a4534f00003b740d42358",
+    "_id": "679a4534f00003b740d42358",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-29T15:19:28.841000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-01-29T15:11:48.929000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What to do if grape berries are rotting ?",
+        "en": "What to do if grape berries are rotting ?",
+        "timestamp": {
+          "$date": "2025-01-29T10:52:50.058Z"
+        },
+        "standalone_question": "What should I do if grape berries are rotting?",
+        "standalone_en": "What should I do if grape berries are rotting?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "If grape berries are rotting, consider the following control measures:\n\n1. **Remove Affected Berries**: Regularly inspect and remove any rotten or diseased berries to prevent the spread of infection.\n\n2. **Improve Air Circulation**: Ensure proper spacing between plants to enhance air circulation, which helps reduce humidity around the berries.\n\n3. **Fungicide Application**: Apply appropriate fungicides such as:\n   - **Copper-based fungicides**: Effective against various fungal diseases.\n   - **Sulfur**: Can help control powdery mildew and other fungal issues.\n\n4. **Water Management**: Avoid overhead irrigation to reduce moisture on the berries. Drip irrigation is preferable.\n\n5. **Monitor for Pests**: Check for pests that may contribute to berry rot, such as fruit flies, and manage them accordingly.\n\n6. **Soil Health**: Ensure good soil health and drainage to prevent waterlogging, which can lead to root rot and affect berry quality.\n\n7. **Regular Pruning**: Prune the vines to remove excess foliage and improve sunlight penetration and air circulation.\n\nIf the problem persists, consider consulting with a local agricultural extension service for specific recommendations tailored to your region.",
+        "en": "If grape berries are rotting, consider the following control measures:\n\n1. **Remove Affected Berries**: Regularly inspect and remove any rotten or diseased berries to prevent the spread of infection.\n\n2. **Improve Air Circulation**: Ensure proper spacing between plants to enhance air circulation, which helps reduce humidity around the berries.\n\n3. **Fungicide Application**: Apply appropriate fungicides such as:\n   - **Copper-based fungicides**: Effective against various fungal diseases.\n   - **Sulfur**: Can help control powdery mildew and other fungal issues.\n\n4. **Water Management**: Avoid overhead irrigation to reduce moisture on the berries. Drip irrigation is preferable.\n\n5. **Monitor for Pests**: Check for pests that may contribute to berry rot, such as fruit flies, and manage them accordingly.\n\n6. **Soil Health**: Ensure good soil health and drainage to prevent waterlogging, which can lead to root rot and affect berry quality.\n\n7. **Regular Pruning**: Prune the vines to remove excess foliage and improve sunlight penetration and air circulation.\n\nIf the problem persists, consider consulting with a local agricultural extension service for specific recommendations tailored to your region.",
+        "timestamp": {
+          "$date": "2025-01-29T10:52:56.654Z"
+        }
+      }
+    ],
+    "farmer_id": "tayyavvamulawade",
+    "farmer_plot_ids": [
+      "plotno1462"
+    ],
+    "conversation_id": "679a082af1249c7ff78c2736",
+    "_id": "679a082af1249c7ff78c2736",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-01-29T10:57:50.065000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-01-29T10:52:50.058000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Plot khali zalyavr kay sodave",
+        "en": "What to leave when the plot is vacated",
+        "timestamp": {
+          "$date": "2025-01-29T06:13:54.777Z"
+        },
+        "standalone_question": "What is the plot of the movie \"Khali Zalyavr\"?",
+        "standalone_en": "What is the plot of the movie \"Khali Zalyavr\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "\"Anushka plot 1\" मध्ये तुम्ही सध्या \"Harvest\" अवस्थेत आहात. या अवस्थेत तुम्हाला पुढील पिकांची लागवड करण्याची तयारी करावी लागेल. \n\nतुमच्या पिकाच्या प्रकारानुसार, तुम्ही पुढील पिकांची निवड करू शकता. तुम्हाला कोणत्या प्रकारचे पीक लागवड करायचे आहे का?",
+        "en": "In \"Anushka plot 1\", you are currently in the \"harvest\" stage. At this stage, you will have to prepare to plant the next crop. \n\nDepending on your crop type, you can choose the following crops. What kind of crop do you want to grow?",
+        "timestamp": {
+          "$date": "2025-01-29T06:14:06.755Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Nahi",
+        "en": "Wish",
+        "timestamp": {
+          "$date": "2025-01-29T06:15:49.004Z"
+        },
+        "standalone_question": "Do you not want to plant any crops?",
+        "standalone_en": "Do you not want to plant any crops?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुम्हाला आणखी काही विचारायचं आहे का? तुम्हाला \"Anushka plot 1\" मध्ये लागवड करण्यासाठी योग्य पीक निवडण्यात मदत हवी का?",
+        "en": "Is there anything else you'd like to ask? Do you need help choosing the right crop to plant in \"Anushka Plot 1\"?",
+        "timestamp": {
+          "$date": "2025-01-29T06:15:59.373Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "हार्वेस्टिंग झाल्यावर काय सोडावे",
+        "en": "What to leave after harvesting",
+        "timestamp": {
+          "$date": "2025-01-29T06:16:40.357Z"
+        },
+        "standalone_question": "What should be done after harvesting?",
+        "standalone_en": "What should be done after harvesting?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "harvesting jhalyavar kay sodave"
+      },
+      {
+        "role": "assistant",
+        "content": "हार्वेस्टिंग झाल्यावर तुम्ही खालील गोष्टी करू शकता:\n\n1. **पिकाची तयारी**: पिकाची योग्य प्रकारे काढणी केल्यानंतर, तुम्हाला जमिनीची तयारी करावी लागेल. यामध्ये मातीची चांगली मशागत करणे, खतांचा वापर करणे आणि आवश्यक असल्यास पाण्याची व्यवस्था करणे समाविष्ट आहे.\n\n2. **पुनर्वापर**: तुम्ही पिकांच्या अवशेषांचा पुनर्वापर करू शकता, जसे की कंपोस्ट तयार करणे किंवा मातीच्या आरोग्यासाठी त्यांचा वापर करणे.\n\n3. **नवीन पीकांची निवड**: तुमच्या क्षेत्रातील हवामान आणि मातीच्या प्रकारानुसार नवीन पीकांची निवड करा. \n\n4. **सिंचन आणि खत व्यवस्थापन**: नवीन पिकांच्या लागवडीसाठी योग्य सिंचन आणि खत व्यवस्थापनाची योजना तयार करा.\n\nतुमच्या पिकाच्या प्रकारानुसार, तुम्हाला कोणते पीक लागवड करायचे आहे का?",
+        "en": "After harvesting, you can do the following:\n\n1. *Crop Preparation**: After harvesting the crop properly, you have to prepare the soil. This includes cultivating the soil well, using fertilizers, and arranging water if necessary.\n\n2. **Recycling**: You can recycle crop residue, such as making compost or using them for soil health.\n\n3. **Select new crops**: Choose new crops based on the climate and soil type in your area. \n\n4. **Irrigation and Fertilizer Management**: Make a plan for proper irrigation and fertilizer management for the cultivation of new crops.\n\nDepending on your crop type, is there any crop you want to plant?",
+        "timestamp": {
+          "$date": "2025-01-29T06:16:50.530Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "खत व्यवस्थापन काय करावेत झिज भरून काढण्यासाठी",
+        "en": "What to do fertilizer management to make up for the loss",
+        "timestamp": {
+          "$date": "2025-01-29T06:18:26.151Z"
+        },
+        "standalone_question": "What should be done for fertilizer management to improve soil health?",
+        "standalone_en": "What should be done for fertilizer management to improve soil health?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How to improve the germination percent\nA: Use of good quality seeds and seeds to be treated with insecticide, Fungicide and biological agents",
+            "Q: What are the advantages of adding soil, leaf, or petiole test reports?\nA: By adding test reports, Fyllo can generate a more precise fertigation schedule tailored to your specific conditions. Benefits include:\n\n    1. More accurate nutrient recommendations\n    2. Better alignment with your crop's actual needs\n    3. Potential for improved crop health and yield\n    4. More efficient use of fertilizers\n    5. Possible reduction in fertilizer costs and environmental impact",
+            "Q: Why should I consider soil, leaf, or petiole testing?\nA: Soil, leaf, and petiole testing are crucial for effective plant health management. These tests provide specific data about your crop's nutrient needs, allowing for more precise fertilizer application. This can lead to higher productivity with optimized input use, potentially reducing costs and environmental impact.",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "khat vyavasthapan kay karavet jhij bharun kadhanyasathi"
+      },
+      {
+        "role": "assistant",
+        "content": "झिज भरून काढण्यासाठी योग्य खत व्यवस्थापनासाठी तुम्ही खालील गोष्टी करू शकता:\n\n1. **मातीची चाचणी**: मातीची चाचणी करून त्यातल्या पोषण तत्वांची माहिती मिळवा. यामुळे तुम्हाला कोणते खत लागेल हे ठरवता येईल.\n\n2. **सेंद्रिय खतांचा वापर**: सेंद्रिय खतांचा वापर करा, जसे की कंपोस्ट, गोबर खत, किंवा ग्रीन मॅन्यर. हे मातीच्या आरोग्यासाठी फायदेशीर असते.\n\n3. **रासायनिक खतांचा वापर**: जर आवश्यक असेल तर, नायट्रोजन, फॉस्फरस, आणि पोटॅशियम यांसारख्या रासायनिक खतांचा वापर करा. मात्र, याचा वापर मातीच्या चाचणीच्या आधारावर करा.\n\n4. **फर्टिगेशन**: पाण्यात खत मिसळून सिंचनाच्या माध्यमातून खत देणे. यामुळे पिकांना आवश्यक पोषण तत्वे अधिक प्रभावीपणे मिळतात.\n\n5. **संपूर्ण खत व्यवस्थापन योजना**: पिकांच्या वाढीच्या अवस्थेनुसार खतांची मात्रा आणि वेळ ठरवा.\n\nतुमच्या पिकाच्या प्रकारानुसार, तुम्हाला कोणत्या प्रकारचे खत वापरायचे आहे का?",
+        "en": "There are things you can do for proper fertilizer management to make up for the damage:\n\n1. **Soil test**: Test the soil and get information about its nutrients. This will allow you to decide which fertilizer you need.\n\n2. **Use organic fertilizers**: Use organic fertilizers, such as compost, cow dung fertilizer, or green manor. It is beneficial for soil health.\n\n3. **Use chemical fertilizers**: If necessary, use chemical fertilizers such as nitrogen, phosphorus, and potassium. However, use it on the basis of soil testing.\n\n4. **Fertigation**: Mixing fertilizer with water and fertilizing through irrigation. This provides essential nutrients to crops more effectively.\n\n5. **Complete Fertilizer Management Plan**: Determine the quantity and timing of fertilizer according to the growth stage of the crop.\n\nDepending on your crop type, is there any kind of fertilizer you want to use?",
+        "timestamp": {
+          "$date": "2025-01-29T06:18:39.438Z"
+        }
+      }
+    ],
+    "farmer_id": "nitinashoksalunkhe",
+    "farmer_plot_ids": [
+      "nitinanushkaplot"
+    ],
+    "conversation_id": "6799c722f1249c7ff78c2733",
+    "_id": "6799c722f1249c7ff78c2733",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-01-29T06:23:26.159000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-01-29T06:13:54.777000+00:00"
+  }
+]

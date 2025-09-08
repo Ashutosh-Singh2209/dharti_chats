@@ -1,0 +1,197 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Disease alert massage not getting ",
+        "en": "Disease alert massage not getting ",
+        "timestamp": {
+          "$date": "2025-05-22T10:32:03.273Z"
+        },
+        "standalone_question": "Why am I not receiving disease alert messages?",
+        "standalone_en": "Why am I not receiving disease alert messages?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "There are currently no disease or pest spray alerts for your plot \"Shashidhar thomson 3 acar\" from May 20 to May 22, 2025. If you have any specific concerns or observations, feel free to share!",
+        "en": "There are currently no disease or pest spray alerts for your plot \"Shashidhar thomson 3 acar\" from May 20 to May 22, 2025. If you have any specific concerns or observations, feel free to share!",
+        "timestamp": {
+          "$date": "2025-05-22T10:32:21.884Z"
+        }
+      }
+    ],
+    "farmer_id": "shashidharnaruni",
+    "farmer_plot_ids": [
+      "shashidharthomson3acar"
+    ],
+    "conversation_id": "682efd22305d12b6c6237d2d",
+    "_id": "682efd22305d12b6c6237d2d",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-05-22T10:37:03.280000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-05-22T10:32:03.273000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Which plot needs water",
+        "en": "Which plot needs water",
+        "timestamp": {
+          "$date": "2025-05-22T07:17:22.292Z"
+        },
+        "standalone_question": "Which plot requires watering?",
+        "standalone_en": "Which plot requires watering?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: How to measure/ calculate irrigation hours /water tank of my plot in fyllo app? How do I calculate irrigation hours for my plot? How to use the irrigation hours calculator?\nA: To calculate irrigation hours in the Fyllo app, follow these steps:\n\n1. Open the Fyllo App\n2. Go to the home screen\n3. Click on the soil moisture-1 sensor\n4. Scroll down to find the \"Irrigation hours\" section\n5. Fill in the required details such as:\n   - Root width (inches)\n   - Root depth (inches)\n   - Soil retention (mm)\n   - Dripper distance (feet)\n   - Dripper discharge (liters)\n6. Click the calculate button\n\nWould you like me to calculate the irrigation hours for you right now? I can retrieve your plot's irrigation settings and perform the calculation if you say yes.\n\nTool Selection: When user says yes, I should:\n1. Use get_irrigation_installation_settings tool to retrieve plot settings\n2. Check if all values are present and valid\n3. If values are valid, use calculate_irrigation_hours tool with these values\n4. If values are missing or invalid, ask the user to provide the missing values\n5. After calculating irrigation hours, display the irrigation installation settings that were used for the calculation\n6. Ask the user if they want to calculate irrigation hours with a different set of values, and if yes, prompt them to provide those values\n\nExample response if values are missing:\n\"I checked your plot settings, but I need some additional information to calculate irrigation hours accurately. Could you please provide the [missing value(s)]? Once you provide these details, I can complete the calculation for you.\"\n\nExample response after calculation:\n\"Based on your plot's irrigation settings, the calculated irrigation hours are [X] hours. \n\nI used the following settings for this calculation:\n- Root width: [value] inches\n- Root depth: [value] inches\n- Soil retention: [value] mm\n- Dripper distance: [value] feet\n- Dripper discharge: [value] liters\n\nWould you like to calculate irrigation hours with a different set of values? If yes, please provide the new values you'd like to use.\"",
+            "Q: How can the sensor monitor the whole plot when it's installed near one plant?\nA: The installation process includes a detailed survey of the plot regarding variations in soil type and root zone. A point for installation is selected with a plant of average growth representing the whole plot."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Currently, none of your plots require watering as the soil moisture levels are below the dry optimal kPa values. Here are the details:\n\n1. **Plot 5.Alison (Main Unit)**: \n   - Soil Moisture: 2 kPa\n   - Optimal: 30 kPa\n   - **Watering not required.**\n\n2. **Plot No 8,9 (Sub Unit) - Crimson**: \n   - Soil Moisture: 4 kPa\n   - Optimal: 25 kPa\n   - **Watering not required.**\n\n3. **Plot No 10 (Main Unit) - N-84**: \n   - Soil Moisture: 5 kPa\n   - Optimal: 35 kPa\n   - **Watering not required.**\n\n4. **Plot No 1B (Sub Unit) - Timco**: \n   - Soil Moisture: 3 kPa\n   - Optimal: 25 kPa\n   - **Watering not required.**\n\n5. **Plot No 2 (Sub Unit) - Ivory**: \n   - Soil Moisture: 2 kPa\n   - Optimal: 35 kPa\n   - **Watering not required.**\n\n6. **Plot No 6,7 (Sub Unit) - N-84**: \n   - Soil Moisture: 7 kPa\n   - Optimal: 25 kPa\n   - **Watering not required.**\n\n7. **Plot No 3 (Sub Unit) - Allison**: \n   - Soil Moisture: 2 kPa\n   - Optimal: 25 kPa\n   - **Watering not required.**\n\nIf you have any further questions or need assistance, feel free to ask!",
+        "en": "Currently, none of your plots require watering as the soil moisture levels are below the dry optimal kPa values. Here are the details:\n\n1. **Plot 5.Alison (Main Unit)**: \n   - Soil Moisture: 2 kPa\n   - Optimal: 30 kPa\n   - **Watering not required.**\n\n2. **Plot No 8,9 (Sub Unit) - Crimson**: \n   - Soil Moisture: 4 kPa\n   - Optimal: 25 kPa\n   - **Watering not required.**\n\n3. **Plot No 10 (Main Unit) - N-84**: \n   - Soil Moisture: 5 kPa\n   - Optimal: 35 kPa\n   - **Watering not required.**\n\n4. **Plot No 1B (Sub Unit) - Timco**: \n   - Soil Moisture: 3 kPa\n   - Optimal: 25 kPa\n   - **Watering not required.**\n\n5. **Plot No 2 (Sub Unit) - Ivory**: \n   - Soil Moisture: 2 kPa\n   - Optimal: 35 kPa\n   - **Watering not required.**\n\n6. **Plot No 6,7 (Sub Unit) - N-84**: \n   - Soil Moisture: 7 kPa\n   - Optimal: 25 kPa\n   - **Watering not required.**\n\n7. **Plot No 3 (Sub Unit) - Allison**: \n   - Soil Moisture: 2 kPa\n   - Optimal: 25 kPa\n   - **Watering not required.**\n\nIf you have any further questions or need assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-22T07:17:33.403Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Which plot melody trips requirement",
+        "en": "Which plot melody trips requirement",
+        "timestamp": {
+          "$date": "2025-05-22T07:18:28.232Z"
+        },
+        "standalone_question": "Which plot has a requirement for melody trips?",
+        "standalone_en": "Which plot has a requirement for melody trips?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the fertigation requirements for your plots:\n\n1. **Plot 5.Alison (Main Unit)**:\n   - **Current Stage**: Topping (Week 2)\n   - **Current Fertigation Schedule**:\n     - **Foliar Method**: \n       - Zinc Oxide: 200 gm/acre\n       - Note: The concentration of micro-nutrient fertilizers for foliar spray should not exceed 1% (e.g., 5 kg in 500 liters of water per acre).\n     - **Fertigation Method**:\n       - Magnesium Sulphate: 2 kg/acre\n       - Sulfate of Potash: 6.5 kg/acre\n   - **Next Schedule**: \n     - Week 3 (Starting on 2025-08-17)\n       - Magnesium Sulphate: 2 kg/acre\n       - Sulfate of Potash: 4.5 kg/acre\n\n2. **Plot No 8,9 (Sub Unit) - Crimson**:\n   - **Current Stage**: Cane thinning (Week 4)\n   - **Current Fertigation Schedule**: No fertigation needed.\n   - **Next Schedule**: \n     - Week 1 (Starting on 2025-05-13)\n       - Mono potassium phosphate: 3.5 kg/acre\n       - Phosphoric acid 80%: 5 kg/acre\n\n3. **Plot No 10 (Main Unit) - N-84**:\n   - **Current Stage**: Subcane (Week 6)\n   - **Current Fertigation Schedule**: No fertigation needed.\n   - **Next Schedule**: \n     - Week 1 (Starting on 2025-05-29)\n       - Foliar Method: \n         - Ferrous Sulphate: 600 gm/acre\n         - Manganese Sulphate: 600 gm/acre\n       - Fertigation Method:\n         - Magnesium Sulphate: 2.5 kg/acre\n         - Phosphoric acid 80%: 3.5 kg/acre\n\n4. **Plot No 1B (Sub Unit) - Timco**: \n   - Fertigation data schedule not available.\n\n5. **Plot No 2 (Sub Unit) - Ivory**: \n   - Fertigation data schedule not available.\n\n6. **Plot No 6,7 (Sub Unit) - N-84**: \n   - Fertigation data schedule not available.\n\n7. **Plot No 3 (Sub Unit) - Allison**: \n   - Fertigation data schedule not available.\n\nIf you need further assistance or details, feel free to ask!",
+        "en": "Here are the fertigation requirements for your plots:\n\n1. **Plot 5.Alison (Main Unit)**:\n   - **Current Stage**: Topping (Week 2)\n   - **Current Fertigation Schedule**:\n     - **Foliar Method**: \n       - Zinc Oxide: 200 gm/acre\n       - Note: The concentration of micro-nutrient fertilizers for foliar spray should not exceed 1% (e.g., 5 kg in 500 liters of water per acre).\n     - **Fertigation Method**:\n       - Magnesium Sulphate: 2 kg/acre\n       - Sulfate of Potash: 6.5 kg/acre\n   - **Next Schedule**: \n     - Week 3 (Starting on 2025-08-17)\n       - Magnesium Sulphate: 2 kg/acre\n       - Sulfate of Potash: 4.5 kg/acre\n\n2. **Plot No 8,9 (Sub Unit) - Crimson**:\n   - **Current Stage**: Cane thinning (Week 4)\n   - **Current Fertigation Schedule**: No fertigation needed.\n   - **Next Schedule**: \n     - Week 1 (Starting on 2025-05-13)\n       - Mono potassium phosphate: 3.5 kg/acre\n       - Phosphoric acid 80%: 5 kg/acre\n\n3. **Plot No 10 (Main Unit) - N-84**:\n   - **Current Stage**: Subcane (Week 6)\n   - **Current Fertigation Schedule**: No fertigation needed.\n   - **Next Schedule**: \n     - Week 1 (Starting on 2025-05-29)\n       - Foliar Method: \n         - Ferrous Sulphate: 600 gm/acre\n         - Manganese Sulphate: 600 gm/acre\n       - Fertigation Method:\n         - Magnesium Sulphate: 2.5 kg/acre\n         - Phosphoric acid 80%: 3.5 kg/acre\n\n4. **Plot No 1B (Sub Unit) - Timco**: \n   - Fertigation data schedule not available.\n\n5. **Plot No 2 (Sub Unit) - Ivory**: \n   - Fertigation data schedule not available.\n\n6. **Plot No 6,7 (Sub Unit) - N-84**: \n   - Fertigation data schedule not available.\n\n7. **Plot No 3 (Sub Unit) - Allison**: \n   - Fertigation data schedule not available.\n\nIf you need further assistance or details, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-22T07:18:41.903Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Which plot needs free ne",
+        "en": "Which plot needs free ne",
+        "timestamp": {
+          "$date": "2025-05-22T07:20:26.908Z"
+        },
+        "standalone_question": "Which plot requires free nitrogen?",
+        "standalone_en": "Which plot requires free nitrogen?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the optimal soil moisture requirements for your plots:\n\n1. **Plot 5.Alison (Main Unit)**:\n   - Optimal Soil Moisture: 5 kPa (wet) - 30 kPa (dry)\n   - **Irrigation needed above 30 kPa**.\n\n2. **Plot No 8,9 (Sub Unit) - Crimson**:\n   - Optimal Soil Moisture: 5 kPa (wet) - 25 kPa (dry)\n   - **Irrigation needed above 25 kPa**.\n\n3. **Plot No 10 (Main Unit) - N-84**:\n   - Optimal Soil Moisture: 5 kPa (wet) - 35 kPa (dry)\n   - **Irrigation needed above 35 kPa**.\n\n4. **Plot No 1B (Sub Unit) - Timco**:\n   - Optimal Soil Moisture: 5 kPa (wet) - 25 kPa (dry)\n   - **Irrigation needed above 25 kPa**.\n\n5. **Plot No 2 (Sub Unit) - Ivory**:\n   - Optimal Soil Moisture: 5 kPa (wet) - 35 kPa (dry)\n   - **Irrigation needed above 35 kPa**.\n\n6. **Plot No 6,7 (Sub Unit) - N-84**:\n   - Optimal Soil Moisture: 5 kPa (wet) - 25 kPa (dry)\n   - **Irrigation needed above 25 kPa**.\n\n7. **Plot No 3 (Sub Unit) - Allison**:\n   - Optimal Soil Moisture: 5 kPa (wet) - 25 kPa (dry)\n   - **Irrigation needed above 25 kPa**.\n\nIf you need further assistance or have any questions, feel free to ask!",
+        "en": "Here are the optimal soil moisture requirements for your plots:\n\n1. **Plot 5.Alison (Main Unit)**:\n   - Optimal Soil Moisture: 5 kPa (wet) - 30 kPa (dry)\n   - **Irrigation needed above 30 kPa**.\n\n2. **Plot No 8,9 (Sub Unit) - Crimson**:\n   - Optimal Soil Moisture: 5 kPa (wet) - 25 kPa (dry)\n   - **Irrigation needed above 25 kPa**.\n\n3. **Plot No 10 (Main Unit) - N-84**:\n   - Optimal Soil Moisture: 5 kPa (wet) - 35 kPa (dry)\n   - **Irrigation needed above 35 kPa**.\n\n4. **Plot No 1B (Sub Unit) - Timco**:\n   - Optimal Soil Moisture: 5 kPa (wet) - 25 kPa (dry)\n   - **Irrigation needed above 25 kPa**.\n\n5. **Plot No 2 (Sub Unit) - Ivory**:\n   - Optimal Soil Moisture: 5 kPa (wet) - 35 kPa (dry)\n   - **Irrigation needed above 35 kPa**.\n\n6. **Plot No 6,7 (Sub Unit) - N-84**:\n   - Optimal Soil Moisture: 5 kPa (wet) - 25 kPa (dry)\n   - **Irrigation needed above 25 kPa**.\n\n7. **Plot No 3 (Sub Unit) - Allison**:\n   - Optimal Soil Moisture: 5 kPa (wet) - 25 kPa (dry)\n   - **Irrigation needed above 25 kPa**.\n\nIf you need further assistance or have any questions, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-22T07:20:38.976Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Which plot need  spray",
+        "en": "Which plot need  spray",
+        "timestamp": {
+          "$date": "2025-05-22T07:21:16.519Z"
+        },
+        "standalone_question": "Which plot requires a spray?",
+        "standalone_en": "Which plot requires a spray?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Currently, there are no spray requirements for any of your plots for the upcoming week. If you have any further questions or need assistance, feel free to ask!",
+        "en": "Currently, there are no spray requirements for any of your plots for the upcoming week. If you have any further questions or need assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-05-22T07:21:27.209Z"
+        }
+      }
+    ],
+    "farmer_id": "kiranmedhane",
+    "farmer_plot_ids": [
+      "plot23mainunit",
+      "plot78iggrapes",
+      "plotno10iggrapes",
+      "plotno1btimco",
+      "plotno4ivory",
+      "plotno6timpson",
+      "plotno7iggrape"
+    ],
+    "conversation_id": "682ecf8284a6200d06f2f31b",
+    "_id": "682ecf8284a6200d06f2f31b",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-05-22T07:26:16.530000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-05-22T07:17:22.292000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ruko and cuman-l spray combination ",
+        "en": "Ruko and cuman-l spray combination ",
+        "timestamp": {
+          "$date": "2025-05-22T07:10:59.865Z"
+        },
+        "standalone_question": "What is the combination of Ruko and cuman-l spray?",
+        "standalone_en": "What is the combination of Ruko and cuman-l spray?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For the combination of Ruko and Cuman-L sprays, it's essential to check their compatibility. Generally, it's advisable to consult with a local agricultural expert or refer to the product labels for specific mixing instructions and compatibility information. If you need personalized advice, please reach out to Fyllo’s CRM number.",
+        "en": "For the combination of Ruko and Cuman-L sprays, it's essential to check their compatibility. Generally, it's advisable to consult with a local agricultural expert or refer to the product labels for specific mixing instructions and compatibility information. If you need personalized advice, please reach out to Fyllo’s CRM number.",
+        "timestamp": {
+          "$date": "2025-05-22T07:11:03.497Z"
+        }
+      }
+    ],
+    "farmer_id": "rameshkonnur",
+    "farmer_plot_ids": [
+      "konnurhosaplot",
+      "rameshthomsan2acar"
+    ],
+    "conversation_id": "682ece0384a6200d06f2f31a",
+    "_id": "682ece0384a6200d06f2f31a",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-05-22T07:15:59.872000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-05-22T07:10:59.865000+00:00"
+  }
+]

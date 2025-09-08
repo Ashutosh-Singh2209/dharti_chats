@@ -1,0 +1,635 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "ನಮ್ಮ್ ಹೊಲದಲ್ಲಿ ಈಗ ಯಾರಿದ್ದಾರೆ ",
+        "en": "Who is in our farm now ",
+        "timestamp": {
+          "$date": "2025-06-29T15:12:54.768Z"
+        },
+        "standalone_question": "Who is currently in our field?",
+        "standalone_en": "Who is currently in our field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "nmm holadalli eega yariddare "
+      },
+      {
+        "role": "assistant",
+        "content": "ನಿಮ್ಮ ಹೊಲದಲ್ಲಿ ಯಾರಿದ್ದಾರೆ ಎಂಬುದನ್ನು ನಾನು ತಿಳಿಯಲು ಸಾಧ್ಯವಿಲ್ಲ. ಆದರೆ ನೀವು ನಿಮ್ಮ ಹೊಲದ ಬಗ್ಗೆ ಯಾವುದೇ ಮಾಹಿತಿ ಅಥವಾ ಸಹಾಯ ಬೇಕಾದರೆ, ದಯವಿಟ್ಟು ಕೇಳಿ!",
+        "en": "I can't know who's on your farm. But if you need any information or help about your farm, please ask!",
+        "timestamp": {
+          "$date": "2025-06-29T15:12:57.282Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ಮಣ್ಣಿನ ತೆವಂಶ ಎಷ್ಟು ",
+        "en": "What is the extent of soil? ",
+        "timestamp": {
+          "$date": "2025-06-29T15:13:52.124Z"
+        },
+        "standalone_question": "What is the soil composition?",
+        "standalone_en": "What is the soil composition?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mannina tevansh eshtu "
+      },
+      {
+        "role": "assistant",
+        "content": "ನಿಮ್ಮ \"dalimb plot\" ನಲ್ಲಿ ಮಣ್ಣಿನ ತೆವಂಶ 87% ಇದೆ. ",
+        "en": "The soil content in your \"dalimb plot\" is 87%. ",
+        "timestamp": {
+          "$date": "2025-06-29T15:13:57.771Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ದಾಳಿಂಬೆಗೆ ಈಗ ನೀರು ಭೀಡಬೇಕಾ ",
+        "en": "Do you want to water the pomegranate now? ",
+        "timestamp": {
+          "$date": "2025-06-29T15:14:39.301Z"
+        },
+        "standalone_question": "Should the dalimb tree be watered now?",
+        "standalone_en": "Should the dalimb tree be watered now?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": []
+        },
+        "content_transliterated": "dalimbege eega neeru bhidbeka "
+      },
+      {
+        "role": "assistant",
+        "content": "\"dalimb plot\" ನಲ್ಲಿ ಈಗ ನೀರು ನೀಡಬೇಕಾಗಿಲ್ಲ. ನಿಮ್ಮ ಮಣ್ಣಿನ ತೆವಂಶ 87% ಇದೆ, ಮತ್ತು ಶ್ರೇಷ್ಟ ಮಣ್ಣಿನ ತೆವಂಶ 65% ಇದೆ. ಆದ್ದರಿಂದ, ನೀರು ನೀಡುವ ಅಗತ್ಯವಿಲ್ಲ.",
+        "en": "Water does not have to be supplied in the \"dalimb plot\" now. Your soil yield is 87%, and the best soil is 65%. Therefore, there is no need to give water.",
+        "timestamp": {
+          "$date": "2025-06-29T15:14:44.935Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ಸರಿ ",
+        "en": "Okay ",
+        "timestamp": {
+          "$date": "2025-06-29T15:15:10.621Z"
+        },
+        "standalone_question": "Is that correct?",
+        "standalone_en": "Is that correct?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "sari "
+      },
+      {
+        "role": "assistant",
+        "content": "ನೀವು ಇನ್ನೇನಾದರೂ ಕೇಳಲು ಬಯಸಿದರೆ, ದಯವಿಟ್ಟು ಕೇಳಿ! ನಾನು ಸಹಾಯ ಮಾಡಲು ಇಲ್ಲಿದ್ದೇನೆ.",
+        "en": "If you would like to hear anything else, please ask! I'm here to help.",
+        "timestamp": {
+          "$date": "2025-06-29T15:15:14.247Z"
+        }
+      }
+    ],
+    "farmer_id": "prabhakarbabasri",
+    "farmer_plot_ids": [
+      "dalimbplot295"
+    ],
+    "conversation_id": "686157f68480011ba1f692ce",
+    "_id": "686157f68480011ba1f692ce",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-06-29T15:20:10.624000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-06-29T15:12:54.768000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hello",
+        "en": "Hello",
+        "timestamp": {
+          "$date": "2025-06-29T11:49:22.920Z"
+        },
+        "standalone_question": "What would you like to talk about?",
+        "standalone_en": "What would you like to talk about?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "નમસ્તે, પંકજભાઈ! કેવી રીતે છો? હું તમારી ખેતીમાં મદદ કરવા માટે અહીં છું.",
+        "en": "Namaste, Pankajbhai! How are you? I'm here to help you with your farming.",
+        "timestamp": {
+          "$date": "2025-06-29T11:49:27.458Z"
+        }
+      }
+    ],
+    "farmer_id": "pankajpatel",
+    "farmer_plot_ids": [
+      "balapeervalakairo"
+    ],
+    "conversation_id": "68612842e7fe942083d7f9d6",
+    "_id": "68612842e7fe942083d7f9d6",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-06-29T11:54:22.923000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-06-29T11:49:22.920000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Bhuri",
+        "en": "Bhuri",
+        "timestamp": {
+          "$date": "2025-06-29T09:05:03.634Z"
+        },
+        "standalone_question": "What is the meaning of \"Bhuri\"?",
+        "standalone_en": "What is the meaning of \"Bhuri\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "नमस्कार गोविंद काकडे! तुम्हाला कशाबद्दल माहिती हवी आहे?",
+        "en": "Hello Govind Kakade! What do you want to know about?",
+        "timestamp": {
+          "$date": "2025-06-29T09:05:06.728Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": " Karapa ahe",
+        "en": " Karapa ahe",
+        "timestamp": {
+          "$date": "2025-06-29T09:05:25.507Z"
+        },
+        "standalone_question": "What is Karapa?",
+        "standalone_en": "What is Karapa?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"मनिक चामन\" प्लॉटमध्ये सध्या मातीची आर्द्रता 0% आहे, म्हणजेच माती खूपच कोरडी आहे. गेल्या काही दिवसांत मातीच्या आर्द्रतेत एकदम वाढ झाली आहे, ज्यामुळे तुम्हाला वारंवार पाण्याची गरज भासते आहे.\n\nतुमच्या प्लॉटमध्ये तापमान वाढल्यामुळे जलवाष्पीकरण वाढले असावे, ज्यामुळे मातीची आर्द्रता कमी होत आहे. तुम्ही तुमच्या प्लॉटच्या आसपासच्या मातीची आर्द्रता शारीरिकरित्या तपासून पाहा. जर तुम्हाला माती ओलसर वाटत असेल आणि सेन्सर कोरडे दाखवत असेल, तर सेन्सर खराब झाला असू शकतो.\n\nतुम्हाला सपोर्ट टीमसाठी तिकीट उघडायचं आहे का?",
+        "en": "The soil moisture in your \"Manik Chaman\" plot is currently 0%, which means the soil is very dry. In the last few days, the soil moisture has increased drastically, which makes you need water frequently.\n\nWater evaporation may have increased as the temperature in your plot increased, which is reducing soil moisture. Physically check the soil moisture around your plot. If you find the soil damp and the sensor is showing dry, the sensor may have been damaged.\n\nDo you want to open a ticket for the support team?",
+        "timestamp": {
+          "$date": "2025-06-29T09:05:34.932Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "करपा साठी‌‌ काय करावे ",
+        "en": "What to do for Karpa ",
+        "timestamp": {
+          "$date": "2025-06-29T09:06:32.907Z"
+        },
+        "standalone_question": "What should be done for Karapa?",
+        "standalone_en": "What should be done for Karapa?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "करपा (पेस्ट) नियंत्रणासाठी तुम्ही खालील उपाययोजना करू शकता:\n\n1. **पेस्ट आयडेंटिफिकेशन**: करपाची ओळख पटवणे महत्त्वाचे आहे. तुम्ही पिकाची प्रतिमा अपलोड करून विश्लेषण करू शकता.\n\n2. **पेस्ट नियंत्रण उपाय**:\n   - **जैविक नियंत्रण**: नैसर्गिक शत्रूंचा वापर करा, जसे की लहान कीटक किंवा पक्षी.\n   - **रासायनिक नियंत्रण**: योग्य कीटकनाशकांचा वापर करा. योग्य कीटकनाशकाची निवड करण्यासाठी स्थानिक कृषी तज्ञांचा सल्ला घ्या.\n\n3. **पिकांची आरोग्य तपासणी**: पिकांची आरोग्य स्थिती नियमितपणे तपासा. \n\n4. **सुरक्षितता उपाय**: कीटकनाशकांचा वापर करताना सुरक्षितता नियमांचे पालन करा.\n\nतुम्हाला करपाची विशिष्ट माहिती हवी असल्यास, कृपया पिकाची प्रतिमा अपलोड करा, जेणेकरून मी अधिक माहिती देऊ शकेन.",
+        "en": "You can take the following measures to control karpa (pest):\n\n1. **Pest Identification**: It is important to identify the karpa. You can analyze the crop by uploading it.\n\n2. **Pest Control Measures**:\n   - **Biological control**: Use natural enemies, such as small insects or birds.\n   - **Chemical control**: Use the right pesticides. Consult local agricultural experts to choose the right pesticide.\n\n3. **Crop health check**: Check the health status of crops regularly. \n\n4. **Safety measures**: Follow safety rules when using pesticides.\n\nIf you want specific information about the crop, please upload an image of the crop, so I can provide more information.",
+        "timestamp": {
+          "$date": "2025-06-29T09:06:40.679Z"
+        }
+      }
+    ],
+    "farmer_id": "govindkakde",
+    "farmer_plot_ids": [
+      "manikchaman601"
+    ],
+    "conversation_id": "686101bee7fe942083d7f9d5",
+    "_id": "686101bee7fe942083d7f9d5",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-06-29T09:11:32.910000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-06-29T09:05:03.634000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hello ",
+        "en": "Hello ",
+        "timestamp": {
+          "$date": "2025-06-29T07:38:51.674Z"
+        },
+        "standalone_question": "What would you like to talk about?",
+        "standalone_en": "What would you like to talk about?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Hello Patel nareshbhai! How can I assist you with your farming needs today?",
+        "en": "Hello Patel nareshbhai! How can I assist you with your farming needs today?",
+        "timestamp": {
+          "$date": "2025-06-29T07:38:54.212Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Groundnut me pawdarimidyul ka option nahti",
+        "en": "Groundnut me pawdarimidyul ka option nahti",
+        "timestamp": {
+          "$date": "2025-06-29T07:41:12.288Z"
+        },
+        "standalone_question": "Is there no option for pest control in groundnut farming?",
+        "standalone_en": "Is there no option for pest control in groundnut farming?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Groundnut ma seed treatment mate, tamare Imidacloprid 600 FS no upyog karvo joie, je 5 thi 8 ml/kg beej ma vaprava ma aave che. Aapne thoda samay ma beej ne pest thi bachavva mate aapne insecticide ni jarur che. \n\nAapne biji koi madad joiye?",
+        "en": "For seed treatment in groundnuts, you should use imidacloprid 600 fs, which is used in 5 to 8 mL/kg seeds. We need insecticide to protect the seeds from pasting in no time. \n\nDo we need any other help?",
+        "timestamp": {
+          "$date": "2025-06-29T07:41:18.545Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": " Fylo માં પાવડરી મીડ્યુલ નો કોઈ ઓપ્શન નથી",
+        "en": " There is no option for powdery module in Fylo",
+        "timestamp": {
+          "$date": "2025-06-29T07:44:18.862Z"
+        },
+        "standalone_question": "Is there an option for powdered midazolam in Fylo?",
+        "standalone_en": "Is there an option for powdered midazolam in Fylo?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": " Fylo man pavadari medule no koi option nathi"
+      },
+      {
+        "role": "assistant",
+        "content": "Groundnut માટે પાવડરી મિડ્યુલ (Powdery Mildew) ની સમસ્યાને નિયંત્રિત કરવા માટે, તમે ફૂગનાશક દવાઓનો ઉપયોગ કરી શકો છો જેમ કે:\n\n1. **બેન્ઝિમિડાઝોલ** (Benzimidazole)\n2. **મેટલાકઝિલ** (Metalaxyl)\n3. **ઝિંક સલ્ફેટ** (Zinc Sulfate)\n\nઆ દવાઓને ફોલિયર સ્પ્રે તરીકે ઉપયોગ કરી શકાય છે. જો તમને વધુ માહિતી અથવા મદદ જોઈએ, તો કૃપા કરીને જણાવો!",
+        "en": "To control the problem of powdery mildew for Groundnut, you can use fungicides such as:\n\n1. **Benzimidazole** (Benzimidazole)\n2. **Metlakzil** (Metalaxyl)\n3. **Zinc Sulfate** (Zinc Sulfate)\n\nThese drugs can be used as foliar sprays. If you would like more information or help, please let me know!",
+        "timestamp": {
+          "$date": "2025-06-29T07:44:24.531Z"
+        }
+      }
+    ],
+    "farmer_id": "cGF0ZWxuYXJlc2hiaGFp1731169033141",
+    "farmer_plot_ids": [
+      "kuavalakairo",
+      "nero2686"
+    ],
+    "conversation_id": "6860ed8be7fe942083d7f9d4",
+    "_id": "6860ed8be7fe942083d7f9d4",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-06-29T07:49:18.865000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-06-29T07:38:51.674000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "बॅटरी चारजींग किती",
+        "en": "how much battery charging",
+        "timestamp": {
+          "$date": "2025-06-29T05:51:26.442Z"
+        },
+        "standalone_question": "How long does it take to charge the battery?",
+        "standalone_en": "How long does it take to charge the battery?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या Fyllo उपकरणाची बॅटरी चार्जिंग स्थिती खालीलप्रमाणे आहे:\n\n1. **Kali Mandap (Kali Mandap)**: 68%\n2. **Pabha H (Pabha H)**: 100%\n3. **Y Plot 1 acra (Y Plot 1 acra)**: 54%\n\nतुमच्या सर्व प्लॉट्समध्ये बॅटरीची स्थिती चांगली आहे, विशेषतः Pabha H प्लॉटमध्ये बॅटरी पूर्णपणे चार्ज आहे.",
+        "en": "The battery charging status of your Fyllo device is as follows:\n\n1. Kali Mandap (Kali Mandap): 68%\n2. Pabha H: 100%\n3. Y Plot 1 acra: 54%\n\nAll of your plots have a good battery position, especially the battery in the Pabha H plot is fully charged.",
+        "timestamp": {
+          "$date": "2025-06-29T05:51:34.431Z"
+        }
+      }
+    ],
+    "farmer_id": "prakashhrirampatil",
+    "farmer_plot_ids": [
+      "kalibabalu",
+      "pabhah",
+      "yplotacra"
+    ],
+    "conversation_id": "6860d45e9e88285df8d836f7",
+    "_id": "6860d45e9e88285df8d836f7",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-06-29T05:56:26.444000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-06-29T05:51:26.442000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the growth stages?",
+        "en": "What is the growth stages?",
+        "timestamp": {
+          "$date": "2025-06-29T03:33:16.087Z"
+        },
+        "standalone_question": "What are the stages of growth?",
+        "standalone_en": "What are the stages of growth?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The growth stages of your Guava crop at potlapalli farms are as follows:\n\n1. **Pruning**: Started on February 1, 2025\n2. **Bud Initiation**: Started on February 10, 2025\n3. **Flowering**: Started on April 9, 2025\n4. **Fruit Set**: Started on May 9, 2025\n5. **Fruit Development**: Currently active, started on June 8, 2025\n6. **Upcoming Stages**:\n   - Fruit Maturity and Harvest\n   - Rest\n\nIf you need more information about any specific stage, feel free to ask!",
+        "en": "The growth stages of your Guava crop at potlapalli farms are as follows:\n\n1. **Pruning**: Started on February 1, 2025\n2. **Bud Initiation**: Started on February 10, 2025\n3. **Flowering**: Started on April 9, 2025\n4. **Fruit Set**: Started on May 9, 2025\n5. **Fruit Development**: Currently active, started on June 8, 2025\n6. **Upcoming Stages**:\n   - Fruit Maturity and Harvest\n   - Rest\n\nIf you need more information about any specific stage, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-06-29T03:33:21.385Z"
+        }
+      }
+    ],
+    "farmer_id": "pavandev",
+    "farmer_plot_ids": [
+      "potlapallifarms"
+    ],
+    "conversation_id": "6860b3fa4f16cc209c63057e",
+    "_id": "6860b3fa4f16cc209c63057e",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-06-29T03:39:06.712000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-06-29T03:33:16.087000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "give me yesterday's rainfall for all the divisions like it all in table format and average also",
+        "en": "give me yesterday's rainfall for all the divisions like it all in table format and average also",
+        "timestamp": {
+          "$date": "2025-06-29T03:05:31.540Z"
+        },
+        "standalone_question": "What was yesterday's rainfall for all the divisions, and can you provide it in a table format along with the average?",
+        "standalone_en": "What was yesterday's rainfall for all the divisions, and can you provide it in a table format along with the average?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the rainfall data for yesterday (June 28, 2025) for all your divisions:\n\n| Plot Name                     | Rainfall (mm) |\n|-------------------------------|----------------|\n| Srock Attamala                | 25             |\n| Srock Chooralmala Kairo       | 24             |\n| Srock Chooralmala Nero        | No data        |\n| Srock Mundakai Nero           | No data        |\n| Srock Mundakkai Kairo         | 23             |\n| Srock Puthumala               | 30             |\n\n**Average Rainfall:** 25.5 mm\n\nPlease let me know if you need any further information!",
+        "en": "Here's the rainfall data for yesterday (June 28, 2025) for all your divisions:\n\n| Plot Name                     | Rainfall (mm) |\n|-------------------------------|----------------|\n| Srock Attamala                | 25             |\n| Srock Chooralmala Kairo       | 24             |\n| Srock Chooralmala Nero        | No data        |\n| Srock Mundakai Nero           | No data        |\n| Srock Mundakkai Kairo         | 23             |\n| Srock Puthumala               | 30             |\n\n**Average Rainfall:** 25.5 mm\n\nPlease let me know if you need any further information!",
+        "timestamp": {
+          "$date": "2025-06-29T03:05:38.186Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "except Nero",
+        "en": "except Nero",
+        "timestamp": {
+          "$date": "2025-06-29T03:05:49.472Z"
+        },
+        "standalone_question": "Could you provide the rainfall data for all divisions except for Nero?",
+        "standalone_en": "Could you provide the rainfall data for all divisions except for Nero?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the detailed listing of your devices, excluding Nero:\n\n### Kairo / Weather Units\n1. **Srock Attamala** - Kairo\n2. **Srock Chooralmala Kairo** - Kairo\n3. **Srock Mundakkai Kairo** - Kairo\n4. **Srock Puthumala** - Kairo\n\n### Summary\n- **Total Kairo / Weather Units:** 4\n- **Total Nero / Irrigation Units:** 0\n\nEach Kairo device covers a radius of 1 km for weather parameters. If you need further assistance, feel free to ask!",
+        "en": "Here's the detailed listing of your devices, excluding Nero:\n\n### Kairo / Weather Units\n1. **Srock Attamala** - Kairo\n2. **Srock Chooralmala Kairo** - Kairo\n3. **Srock Mundakkai Kairo** - Kairo\n4. **Srock Puthumala** - Kairo\n\n### Summary\n- **Total Kairo / Weather Units:** 4\n- **Total Nero / Irrigation Units:** 0\n\nEach Kairo device covers a radius of 1 km for weather parameters. If you need further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-06-29T03:05:55.637Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "p",
+        "en": "p",
+        "timestamp": {
+          "$date": "2025-06-29T03:06:03.263Z"
+        },
+        "standalone_question": "What information do you need regarding the Kairo weather units?",
+        "standalone_en": "What information do you need regarding the Kairo weather units?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How many nero, kairo, and weather units i have?\nA: Follow the below instructions stricly when counting anything.\n1. Detailed Listing: List each device type and its associated plot explicitly.\n2. Uniqueness: Check plot and device uniqueness by plotId and not by plotName.\n3. Cross-Verification: Cross-check the list to ensure no plot is counted more than once.\n4. Consistent Methodology: Use a consistent method for counting and verifying device types.\n\n   Fyllo provide 3 kinds of devices:\n - Kairo / Weather Unit (Weather unit is old name of Kairo)\n - Nero / Irrigation Unit (Irrigation unit is old name of Nero)",
+            "Q: How do I maintain the weather station for Kairo?\nA: Clean the rain gauge and solar radiation sensor every three months with a damp cloth, and spray the array lightly with insecticide if needed.",
+            "Q: How do I set up the weather station for Kairo?\nA: Push the wind vane onto the shaft, tighten the set screw, ensure the wind vane spins freely, and align the wind direction sensor with the real location.",
+            "Q: How do I install the rain gauge for Kairo?\nA: Keep the indication mark in a straight line and ensure the wind direction sensor is positioned correctly during installation."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the rainfall data for yesterday (June 28, 2025) for all your Kairo divisions:\n\n| Plot Name                     | Rainfall (mm) |\n|-------------------------------|----------------|\n| Srock Attamala                | 25             |\n| Srock Chooralmala Kairo       | 24             |\n| Srock Mundakkai Kairo         | 23             |\n| Srock Puthumala               | 30             |\n\n**Average Rainfall (excluding Nero):** 25.5 mm\n\nIf you need any further assistance, feel free to ask!",
+        "en": "Here's the rainfall data for yesterday (June 28, 2025) for all your Kairo divisions:\n\n| Plot Name                     | Rainfall (mm) |\n|-------------------------------|----------------|\n| Srock Attamala                | 25             |\n| Srock Chooralmala Kairo       | 24             |\n| Srock Mundakkai Kairo         | 23             |\n| Srock Puthumala               | 30             |\n\n**Average Rainfall (excluding Nero):** 25.5 mm\n\nIf you need any further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-06-29T03:06:11.384Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "give me yesterday's rainfall data for all the divisions except Nero make it all in table format and add average also",
+        "en": "give me yesterday's rainfall data for all the divisions except Nero make it all in table format and add average also",
+        "timestamp": {
+          "$date": "2025-06-29T03:06:25.452Z"
+        },
+        "standalone_question": "Can you provide yesterday's rainfall data for all divisions, excluding Nero, in table format along with the average?",
+        "standalone_en": "Can you provide yesterday's rainfall data for all divisions, excluding Nero, in table format along with the average?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the rainfall data for yesterday (June 28, 2025) for all your divisions, excluding Nero:\n\n| Plot Name                     | Rainfall (mm) |\n|-------------------------------|----------------|\n| Srock Attamala                | 25             |\n| Srock Chooralmala Kairo       | 24             |\n| Srock Mundakkai Kairo         | 23             |\n| Srock Puthumala               | 30             |\n\n**Average Rainfall (excluding Nero):** 25.5 mm\n\nIf you need any further assistance, feel free to ask!",
+        "en": "Here's the rainfall data for yesterday (June 28, 2025) for all your divisions, excluding Nero:\n\n| Plot Name                     | Rainfall (mm) |\n|-------------------------------|----------------|\n| Srock Attamala                | 25             |\n| Srock Chooralmala Kairo       | 24             |\n| Srock Mundakkai Kairo         | 23             |\n| Srock Puthumala               | 30             |\n\n**Average Rainfall (excluding Nero):** 25.5 mm\n\nIf you need any further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-06-29T03:06:32.039Z"
+        }
+      }
+    ],
+    "farmer_id": "allenenoshmani",
+    "farmer_plot_ids": [
+      "attamaladivision",
+      "chooralmaladivision",
+      "chooralmalanerodivision",
+      "mundakainerodivision",
+      "mundakkaidivision",
+      "puthumaladivision"
+    ],
+    "conversation_id": "6860ad7b5c6b959acb6710ca",
+    "_id": "6860ad7b5c6b959acb6710ca",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-06-29T03:11:25.455000Z"
+    },
+    "tag": "historical data",
+    "conv_date": "2025-06-29T03:05:31.540000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jyoti ek number sacchi shakyata aahe ka kiti vasta kiti Mili meter pouse padel",
+        "en": "Jyoti number one is a real possibility how much will be how many milli meters of rain will fall?",
+        "timestamp": {
+          "$date": "2025-06-29T03:00:21.005Z"
+        },
+        "standalone_question": "Is Jyoti really capable of achieving a certain number, and how many meters did she manage to cover?",
+        "standalone_en": "Is Jyoti really capable of achieving a certain number, and how many meters did she manage to cover?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Jyoti Plot no1 साठी, पिकांच्या लागवडीसाठी 50 ते 100 मिमी पाऊस आवश्यक आहे. त्यामुळे, तुम्हाला या प्रमाणात पाऊस पडल्यास लागवड करण्यास योग्य असेल.",
+        "en": "For Jyoti Plot no1, 50 to 100 mm of rain is required for the cultivation of flowers. So, you will be able to plant this amount of rain if it falls.",
+        "timestamp": {
+          "$date": "2025-06-29T03:00:24.202Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "आज पावसाची शक्यता किती परसेंटेज आहे",
+        "en": "What is the percentage of rain today?",
+        "timestamp": {
+          "$date": "2025-06-29T03:00:59.177Z"
+        },
+        "standalone_question": "What is the percentage chance of rain today?",
+        "standalone_en": "What is the percentage chance of rain today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "aaj pavasachi shakyata kiti percentage aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "आज, Jyoti Plot no1 साठी पावसाची शक्यता 40% आहे.",
+        "en": "Today, the chances of rain for Jyoti Plot no1 are 40%.",
+        "timestamp": {
+          "$date": "2025-06-29T03:01:04.279Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "किती मिलिमीटर पाऊस पडेल आज ज्योती एक नंबर प्लॉटला",
+        "en": "How many millimetres of rain will it get today in Jyoti Number One Plot",
+        "timestamp": {
+          "$date": "2025-06-29T03:01:22.728Z"
+        },
+        "standalone_question": "How many millimeters of rain is expected today for Jyoti Plot no. 1?",
+        "standalone_en": "How many millimeters of rain is expected today for Jyoti Plot no. 1?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kitty millimetre paus padel aj jyoti ek number plotala"
+      },
+      {
+        "role": "assistant",
+        "content": "आज ज्योती प्लॉटला 12.6 मिमी पाऊस पडण्याची शक्यता आहे.",
+        "en": "Jyoti Plot is likely to receive 12.6 mm rainfall today.",
+        "timestamp": {
+          "$date": "2025-06-29T03:01:27.769Z"
+        }
+      }
+    ],
+    "farmer_id": "sanjaypandurangjadhav",
+    "farmer_plot_ids": [
+      "blackqueenberry782",
+      "jyotiplotno1335",
+      "sanjayjadhavkrushna3"
+    ],
+    "conversation_id": "6860ac4434a2679a8779c56f",
+    "_id": "6860ac4434a2679a8779c56f",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-06-29T03:06:22.730000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-06-29T03:00:21.005000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Show video ",
+        "en": "Show video ",
+        "timestamp": {
+          "$date": "2025-06-29T02:21:13.966Z"
+        },
+        "standalone_question": "Could you please show the video?",
+        "standalone_en": "Could you please show the video?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "I'm here to assist you with agricultural practices and advice. If you have any questions or need assistance related to your crops, soil health, pest control, or irrigation strategies, feel free to ask!",
+        "en": "I'm here to assist you with agricultural practices and advice. If you have any questions or need assistance related to your crops, soil health, pest control, or irrigation strategies, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-06-29T02:21:16.847Z"
+        }
+      }
+    ],
+    "farmer_id": "gangaraju",
+    "farmer_plot_ids": [
+      "msifgangarajuarecanut",
+      "msifgangarajubanana"
+    ],
+    "conversation_id": "6860a3184f16cc209c63057d",
+    "_id": "6860a3184f16cc209c63057d",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-06-29T02:26:13.969000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-06-29T02:21:13.966000+00:00"
+  }
+]

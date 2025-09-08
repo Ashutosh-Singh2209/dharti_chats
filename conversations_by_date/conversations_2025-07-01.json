@@ -1,0 +1,374 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "00:52:34+systen+hotshot chalate ka?",
+        "en": "00:52:34+Sisten+Hotshot to run?",
+        "timestamp": {
+          "$date": "2025-07-01T15:42:16.537Z"
+        },
+        "standalone_question": "What is the process for making hotshot?",
+        "standalone_en": "What is the process for making hotshot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Hotshot chalane ke liye aapko pehle yeh dekhna hoga ki aapke grapes plot ki soil moisture aur pest control ki avashyakta kya hai. Kya aap mujhe yeh batayenge ki aapko kis tarah ki madad chahiye?",
+        "en": "To run a hotshot, you must first see what your grapes plot requires for soil moisture and pest control. Will you tell me what kind of help you need?",
+        "timestamp": {
+          "$date": "2025-07-01T15:42:23.773Z"
+        }
+      }
+    ],
+    "farmer_id": "ajitkumarkolekar",
+    "farmer_plot_ids": [
+      "grapesplot752"
+    ],
+    "conversation_id": "686401d82b84980cd9f2cb7e",
+    "_id": "686401d82b84980cd9f2cb7e",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-01T15:47:16.540000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-07-01T15:42:16.537000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पाऊस केव्हा येणार आहे",
+        "en": "When is the rain coming?",
+        "timestamp": {
+          "$date": "2025-07-01T12:12:53.186Z"
+        },
+        "standalone_question": "When will it rain?",
+        "standalone_en": "When will it rain?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "paus kevha yenar aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "पाऊस येण्याची शक्यता पुढील काही दिवसांमध्ये आहे:\n\n- **1 जुलै**: 3.7 मिमी पाऊस, 40% शक्यता\n- **2 जुलै**: 3.6 मिमी पाऊस, 55% शक्यता\n- **3 जुलै**: 5.7 मिमी पाऊस, 55% शक्यता\n- **4 जुलै**: 4.2 मिमी पाऊस, 30% शक्यता\n\nतुम्हाला पाऊस येण्याची अधिक शक्यता 2 आणि 3 जुलैला आहे.",
+        "en": "Rain is expected over the next few days:\n\n- **1 July**: 3.7 mm rainfall, 40% chance\n- **2 July**: 3.6 mm rainfall, 55% chance\n- **3 July**: 5.7 mm rainfall, 55% chance\n- **4 July**: 4.2 mm rainfall, 30% chance\n\nYou are more likely to get rain on July 2 and 3.",
+        "timestamp": {
+          "$date": "2025-07-01T12:13:03.403Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ऊन कधी पडेल",
+        "en": "When will the sun fall?",
+        "timestamp": {
+          "$date": "2025-07-01T12:14:05.319Z"
+        },
+        "standalone_question": "When will the sun shine?",
+        "standalone_en": "When will the sun shine?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "un kadhi padel"
+      },
+      {
+        "role": "assistant",
+        "content": "उन्हाची स्थिती पुढील काही तासांमध्ये अशी आहे:\n\n- **आज (1 जुलै)**:\n  - 18:30: 25.7°C, पाऊस 0.2 मिमी\n  - 19:30: 25.1°C, पाऊस 0.2 मिमी\n  - 20:30: 24.7°C, पाऊस 0.0 मिमी\n  - 21:30: 24.7°C, पाऊस 0.0 मिमी\n  - 22:30: 24.5°C, पाऊस 0.1 मिमी\n  - 23:30: 24.1°C, पाऊस 0.1 मिमी\n\n- **उद्या (2 जुलै)**:\n  - 00:30: 23.6°C, पाऊस 0.2 मिमी\n  - 01:30: 23.0°C, पाऊस 0.2 मिमी\n  - 02:30: 22.8°C, पाऊस 0.1 मिमी\n  - 03:30: 22.8°C, पाऊस 0.0 मिमी\n\nउद्या सकाळी 8:30 वाजता 25.8°C तापमान असेल आणि पाऊस नाही. त्यामुळे तुम्हाला उद्या सकाळी किंवा दुपारी उन्हाचा अनुभव घेता येईल.",
+        "en": "The situation is as follows in the next few hours:\n\n- **Today (July 1st)**:\n  - 18:30: 25.7°C, Rain 0.2 mm\n  - 19:30: 25.1°C, rain 0.2 mm\n  - 20:30: 24.7°C, Rain 0.0mm\n  - 21:30: 24.7°C, Rain 0.0 mm\n  - 22:30: 24.5°C, Rain 0.1 mm\n  - 23:30: 24.1°C, Rain 0.1 mm\n\n- **Tomorrow (July 2nd)**:\n  - 00:30: 23.6°C, Rain 0.2 mm\n  - 01:30: 23.0°C, Rain 0.2 mm\n  - 02:30: 22.8°C, Rain 0.1 mm\n  - 03:30: 22.8°C, Rain 0.0 mm\n\nTomorrow at 8:30 a.m. the temperature will be 25.8°C and there is no rain. So you can experience the summer in the morning or afternoon tomorrow.",
+        "timestamp": {
+          "$date": "2025-07-01T12:14:15.017Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "जिवानु करपा यैऊ शकेल का",
+        "en": "Can you come to live",
+        "timestamp": {
+          "$date": "2025-07-01T12:16:32.989Z"
+        },
+        "standalone_question": "Will it be possible for the rain to stop?",
+        "standalone_en": "Will it be possible for the rain to stop?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "जिवाणू (पेस्ट) किंवा रोगांचा धोका असू शकतो, विशेषतः पाण्याच्या कमी किंवा अधिक प्रमाणामुळे. तुमच्या पाण्याच्या पातळीवर लक्ष ठेवणे आणि योग्य वेळी पाण्याची व्यवस्था करणे महत्त्वाचे आहे. \n\nतुमच्या पिकाच्या स्थितीवर आणि हवामानाच्या परिस्थितीवर आधारित, जिवाणूंचा धोका वाढू शकतो. तुम्हाला पिकाच्या आरोग्याबद्दल अधिक माहिती हवी असल्यास, कृपया पिकाची स्थिती किंवा कोणत्याही विशिष्ट समस्यांबद्दल सांगा.",
+        "en": "There may be a risk of bacteria (paste) or diseases, especially due to low or high amounts of water. It is important to monitor your water levels and manage water at the right time. \n\nDepending on your crop conditions and weather conditions, the risk of bacteria may increase. If you would like more information about crop health, please tell us about the condition of the crop or any specific issues.",
+        "timestamp": {
+          "$date": "2025-07-01T12:16:37.843Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "दाळिंब फळांवर लालचट्टा वत्यामध्ये काळा ठिपका येत आहे",
+        "en": "There is a black dot in the redchat on the pomegranate fruit",
+        "timestamp": {
+          "$date": "2025-07-01T12:18:25.149Z"
+        },
+        "standalone_question": "Is there a risk of black spots appearing on pomegranate fruits due to red mites?",
+        "standalone_en": "Is there a risk of black spots appearing on pomegranate fruits due to red mites?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "dalimb phalanvar lalchatta vatyamadhye kala thipaka yet aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "दाळिंब फळांवर लालचट्टा आणि काळा ठिपका येणे हे \"Alternaria\" किंवा \"Anthracnose\" सारख्या रोगांचे लक्षण असू शकते. हे रोग फळांच्या गुणवत्तेवर परिणाम करू शकतात.\n\nतुम्हाला या रोगांवर नियंत्रण ठेवण्यासाठी योग्य कीटकनाशकांचा वापर करणे आवश्यक आहे. तुम्ही खालील उपाययोजना करू शकता:\n\n1. **पाण्याची योग्य व्यवस्था**: पाण्याची कमी किंवा अधिकता या रोगांना प्रोत्साहन देऊ शकते.\n2. **कीटकनाशकांचा वापर**: योग्य कीटकनाशकांचा वापर करून रोगांचा प्रभाव कमी करा.\n3. **पिकांची तपासणी**: नियमितपणे पिकांची तपासणी करा आणि रोगांचे लक्षणे लक्षात ठेवा.\n\nजर तुम्हाला अधिक माहिती हवी असेल किंवा विशिष्ट कीटकनाशकांची शिफारस हवी असेल, तर कृपया सांगा.",
+        "en": "Redness and black patches on pomegranate fruits can be a sign of diseases such as \"alternaria\" or \"anthracnose.\" These diseases can affect the quality of the fruit.\n\nYou need to use the right pesticides to control these diseases. You can take the following measures:\n\n1. **Proper water management**: Lack or excess of water can promote these diseases.\n2. **Use of pesticides**: Reduce the impact of diseases by using the right pesticides.\n3. **Crop inspection**: Check crops regularly and remember the symptoms of diseases.\n\nIf you would like more information or a recommendation for specific pesticides, please let us know.",
+        "timestamp": {
+          "$date": "2025-07-01T12:18:33.753Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "काय फवारावे",
+        "en": "What to spray",
+        "timestamp": {
+          "$date": "2025-07-01T12:19:35.122Z"
+        },
+        "standalone_question": "What should be sprayed?",
+        "standalone_en": "What should be sprayed?",
+        "retrieval": {
+          "tools": [
+            "check_spray_conditions  \nGets the spray condition forecast for the next few hours for the farmer's plots and returns the condition for each hour as GOOD, MODERATE, or WORST, based on deltaT, VPD, and rainfall conditions."
+          ],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice.",
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed"
+          ]
+        },
+        "content_transliterated": "kay favarave"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या दाळिंब पिकासाठी या आठवड्यात कोणतीही फवारणीची शिफारस नाही. तथापि, तुम्ही पिकाची नियमित तपासणी करत राहा आणि जर रोगाची लक्षणे वाढली तर योग्य कीटकनाशक किंवा फंगीसाइड वापरण्याचा विचार करा. \n\nजर तुम्हाला अधिक माहिती हवी असेल, तर कृपया सांगा.",
+        "en": "There is no spraying recommendation for your pomegranate crop this week. However, you should continue to check the crop regularly and consider using the right pesticide or fungicide if the symptoms of the disease worsen. \n\nIf you need more information, please let me know.",
+        "timestamp": {
+          "$date": "2025-07-01T12:19:40.843Z"
+        }
+      }
+    ],
+    "farmer_id": "nanasahebbhaskarsirsat",
+    "farmer_plot_ids": [
+      "dalimbplot122"
+    ],
+    "conversation_id": "6863d0c4f55aa8bd2cbbeffa",
+    "_id": "6863d0c4f55aa8bd2cbbeffa",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-01T12:24:35.129000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-07-01T12:12:53.186000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पाऊस केव्हा येणार आहे",
+        "en": "When is the rain coming?",
+        "timestamp": {
+          "$date": "2025-07-01T12:12:53.186Z"
+        },
+        "standalone_question": "When is the rain coming?",
+        "standalone_en": "When is the rain coming?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "paus kevha yenar aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "पाऊस येण्याची शक्यता पुढील काही दिवसांमध्ये आहे:\n\n- **1 जुलै**: 3.7 मिमी पाऊस, 40% शक्यता\n- **2 जुलै**: 3.6 मिमी पाऊस, 55% शक्यता\n- **3 जुलै**: 5.7 मिमी पाऊस, 55% शक्यता\n- **4 जुलै**: 4.2 मिमी पाऊस, 30% शक्यता\n\nतुम्हाला पाऊस येण्याची अधिक शक्यता 2 आणि 3 जुलैला आहे.",
+        "en": "Rain is expected over the next few days:\n\n- **1 July**: 3.7 mm rainfall, 40% chance\n- **2 July**: 3.6 mm rainfall, 55% chance\n- **3 July**: 5.7 mm rainfall, 55% chance\n- **4 July**: 4.2 mm rainfall, 30% chance\n\nYou are more likely to get rain on July 2 and 3.",
+        "timestamp": {
+          "$date": "2025-07-01T12:13:03.403Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ऊन कधी पडेल",
+        "en": "When will the sun fall?",
+        "timestamp": {
+          "$date": "2025-07-01T12:14:05.319Z"
+        },
+        "standalone_question": "When will the sun shine?",
+        "standalone_en": "When will the sun shine?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "un kadhi padel"
+      },
+      {
+        "role": "assistant",
+        "content": "उन्हाची स्थिती पुढील काही तासांमध्ये अशी आहे:\n\n- **आज (1 जुलै)**:\n  - 18:30: 25.7°C, पाऊस 0.2 मिमी\n  - 19:30: 25.1°C, पाऊस 0.2 मिमी\n  - 20:30: 24.7°C, पाऊस 0.0 मिमी\n  - 21:30: 24.7°C, पाऊस 0.0 मिमी\n  - 22:30: 24.5°C, पाऊस 0.1 मिमी\n  - 23:30: 24.1°C, पाऊस 0.1 मिमी\n\n- **उद्या (2 जुलै)**:\n  - 00:30: 23.6°C, पाऊस 0.2 मिमी\n  - 01:30: 23.0°C, पाऊस 0.2 मिमी\n  - 02:30: 22.8°C, पाऊस 0.1 मिमी\n  - 03:30: 22.8°C, पाऊस 0.0 मिमी\n\nउद्या सकाळी 8:30 वाजता 25.8°C तापमान असेल आणि पाऊस नाही. त्यामुळे तुम्हाला उद्या सकाळी किंवा दुपारी उन्हाचा अनुभव घेता येईल.",
+        "en": "The situation is as follows in the next few hours:\n\n- **Today (July 1st)**:\n  - 18:30: 25.7°C, Rain 0.2 mm\n  - 19:30: 25.1°C, rain 0.2 mm\n  - 20:30: 24.7°C, Rain 0.0mm\n  - 21:30: 24.7°C, Rain 0.0 mm\n  - 22:30: 24.5°C, Rain 0.1 mm\n  - 23:30: 24.1°C, Rain 0.1 mm\n\n- **Tomorrow (July 2nd)**:\n  - 00:30: 23.6°C, Rain 0.2 mm\n  - 01:30: 23.0°C, Rain 0.2 mm\n  - 02:30: 22.8°C, Rain 0.1 mm\n  - 03:30: 22.8°C, Rain 0.0 mm\n\nTomorrow at 8:30 a.m. the temperature will be 25.8°C and there is no rain. So you can experience the summer in the morning or afternoon tomorrow.",
+        "timestamp": {
+          "$date": "2025-07-01T12:14:15.017Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "जिवानु करपा यैऊ शकेल का",
+        "en": "Can you come to live",
+        "timestamp": {
+          "$date": "2025-07-01T12:16:32.989Z"
+        },
+        "standalone_question": "Will it be possible for the rain to stop?",
+        "standalone_en": "Will it be possible for the rain to stop?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "जिवाणू (पेस्ट) किंवा रोगांचा धोका असू शकतो, विशेषतः पाण्याच्या कमी किंवा अधिक प्रमाणामुळे. तुमच्या पाण्याच्या पातळीवर लक्ष ठेवणे आणि योग्य वेळी पाण्याची व्यवस्था करणे महत्त्वाचे आहे. \n\nतुमच्या पिकाच्या स्थितीवर आणि हवामानाच्या परिस्थितीवर आधारित, जिवाणूंचा धोका वाढू शकतो. तुम्हाला पिकाच्या आरोग्याबद्दल अधिक माहिती हवी असल्यास, कृपया पिकाची स्थिती किंवा कोणत्याही विशिष्ट समस्यांबद्दल सांगा.",
+        "en": "There may be a risk of bacteria (paste) or diseases, especially due to low or high amounts of water. It is important to monitor your water levels and manage water at the right time. \n\nDepending on your crop conditions and weather conditions, the risk of bacteria may increase. If you would like more information about crop health, please tell us about the condition of the crop or any specific issues.",
+        "timestamp": {
+          "$date": "2025-07-01T12:16:37.843Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "दाळिंब फळांवर लालचट्टा वत्यामध्ये काळा ठिपका येत आहे",
+        "en": "There is a black dot in the redchat on the pomegranate fruit",
+        "timestamp": {
+          "$date": "2025-07-01T12:18:25.149Z"
+        },
+        "standalone_question": "Is there a black spot appearing on the red spots of the pomegranate fruit?",
+        "standalone_en": "Is there a black spot appearing on the red spots of the pomegranate fruit?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "dalimb phalanvar lalchatta vatyamadhye kala thipaka yet aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "दाळिंब फळांवर लालचट्टा आणि काळा ठिपका येणे हे \"Alternaria\" किंवा \"Anthracnose\" सारख्या रोगांचे लक्षण असू शकते. हे रोग फळांच्या गुणवत्तेवर परिणाम करू शकतात.\n\nतुम्हाला या रोगांवर नियंत्रण ठेवण्यासाठी योग्य कीटकनाशकांचा वापर करणे आवश्यक आहे. तुम्ही खालील उपाययोजना करू शकता:\n\n1. **पाण्याची योग्य व्यवस्था**: पाण्याची कमी किंवा अधिकता या रोगांना प्रोत्साहन देऊ शकते.\n2. **कीटकनाशकांचा वापर**: योग्य कीटकनाशकांचा वापर करून रोगांचा प्रभाव कमी करा.\n3. **पिकांची तपासणी**: नियमितपणे पिकांची तपासणी करा आणि रोगांचे लक्षणे लक्षात ठेवा.\n\nजर तुम्हाला अधिक माहिती हवी असेल किंवा विशिष्ट कीटकनाशकांची शिफारस हवी असेल, तर कृपया सांगा.",
+        "en": "Redness and black patches on pomegranate fruits can be a sign of diseases such as \"alternaria\" or \"anthracnose.\" These diseases can affect the quality of the fruit.\n\nYou need to use the right pesticides to control these diseases. You can take the following measures:\n\n1. **Proper water management**: Lack or excess of water can promote these diseases.\n2. **Use of pesticides**: Reduce the impact of diseases by using the right pesticides.\n3. **Crop inspection**: Check crops regularly and remember the symptoms of diseases.\n\nIf you would like more information or a recommendation for specific pesticides, please let us know.",
+        "timestamp": {
+          "$date": "2025-07-01T12:18:33.753Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "काय फवारावे",
+        "en": "What to spray",
+        "timestamp": {
+          "$date": "2025-07-01T12:19:35.122Z"
+        },
+        "standalone_question": "What should be sprayed?",
+        "standalone_en": "What should be sprayed?",
+        "retrieval": {
+          "tools": [
+            "check_spray_conditions  \nGets the spray condition forecast for the next few hours for the farmer's plots and returns the condition for each hour as GOOD, MODERATE, or WORST, based on deltaT, VPD, and rainfall conditions."
+          ],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice.",
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed"
+          ]
+        },
+        "content_transliterated": "kay favarave"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या दाळिंब पिकासाठी या आठवड्यात कोणतीही फवारणीची शिफारस नाही. तथापि, तुम्ही पिकाची नियमित तपासणी करत राहा आणि जर रोगाची लक्षणे वाढली तर योग्य कीटकनाशक किंवा फंगीसाइड वापरण्याचा विचार करा. \n\nजर तुम्हाला अधिक माहिती हवी असेल, तर कृपया सांगा.",
+        "en": "There is no spraying recommendation for your pomegranate crop this week. However, you should continue to check the crop regularly and consider using the right pesticide or fungicide if the symptoms of the disease worsen. \n\nIf you need more information, please let me know.",
+        "timestamp": {
+          "$date": "2025-07-01T12:19:40.843Z"
+        }
+      }
+    ],
+    "farmer_id": "nanasahebbhaskarsirsat",
+    "farmer_plot_ids": [
+      "dalimbplot122"
+    ],
+    "conversation_id": "6863d0c4f55aa8bd2cbbeffa",
+    "_id": "6863d0c4f55aa8bd2cbbeffa",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-01T12:24:35.129000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-07-01T12:12:53.186000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Stage update hote nahi ",
+        "en": "Stage not updated ",
+        "timestamp": {
+          "$date": "2025-07-01T08:53:34.696Z"
+        },
+        "standalone_question": "Why are the stage updates not happening?",
+        "standalone_en": "Why are the stage updates not happening?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आप \"Cane thinning\" चरण में हैं, जो कि 25 मई 2025 से सक्रिय है। यह चरण समाप्त होने में 30 दिन से अधिक का समय है। कृपया सुनिश्चित करें कि आपने ऐप पर अपने चरण को अपडेट किया है। \n\nक्या आप इस बारे में और जानकारी चाहते हैं या किसी सहायता की आवश्यकता है?",
+        "en": "You are in the \"Cane Thinning\" phase, which has been active since 25th May 2025. This phase is more than 30 days to finish. Please make sure you have updated your step on the app. \n\nDo you want more information or need any help on this?",
+        "timestamp": {
+          "$date": "2025-07-01T08:53:44.282Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Marathi mdhe sang",
+        "en": "With Marathi MDHE",
+        "timestamp": {
+          "$date": "2025-07-01T08:54:21.188Z"
+        },
+        "standalone_question": "Could you explain this in Marathi?",
+        "standalone_en": "Could you explain this in Marathi?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "फसलाची स्टेज अपडेट करण्यासाठी, कृपया या व्हिडिओचे अनुसरण करा:\n\n- [फसल की स्टेज कैसे अपडेट करे ?](https://youtu.be/Gx2XUOGqNoA) \n\nजर तुम्हाला आणखी मदतीची आवश्यकता असेल, तर ग्राहक समर्थनाशी संपर्क साधा:\n- हेल्पलाइन नंबर: (+91) 9380908040\n- ई-मेल: contact@fyllo.in\n\nतुम्हाला आणखी काही विचारायचे आहे का?",
+        "en": "To update the stage of the crop, please follow this video:\n\n- [How to update crop stage?](https://youtu.be/Gx2XUOGqNoA) \n\nIf you need more help, contact customer support for:\n- Helpline Number: (+91) 9380908040\n- E-mail: contact@fyllo.in\n\nIs there anything else you'd like to ask?",
+        "timestamp": {
+          "$date": "2025-07-01T08:54:26.610Z"
+        }
+      }
+    ],
+    "farmer_id": "lakhanwadanemalumbra",
+    "farmer_plot_ids": [
+      "supersonakalakhanwadane"
+    ],
+    "conversation_id": "6863a203f0182c55ddaf3694",
+    "_id": "6863a203f0182c55ddaf3694",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-01T08:59:21.192000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-07-01T08:53:34.696000+00:00"
+  }
+]

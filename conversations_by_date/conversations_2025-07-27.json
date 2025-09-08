@@ -1,0 +1,304 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Fyllo चे अपडेट येत नाही ये ",
+        "en": "Fyllo's update is not coming ",
+        "timestamp": {
+          "$date": "2025-07-27T12:00:48.192Z"
+        },
+        "standalone_question": "Why are updates not coming for Fyllo?",
+        "standalone_en": "Why are updates not coming for Fyllo?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How I check my Fyllo app version? Or how do I know my Fyllo app is updated or not?\nA: In Fyllo app go to hamburger menu (click on “≡” three lines).\n   Then scroll down, you will see Fyllo logo and app version under it.",
+            "Q: How does the Fyllo device work?\nA: The Fyllo device captures data from 11 sensors at regular intervals. This data is then analyzed using Fyllo's Weather & Agronomical Algorithms to provide alerts to farmers for disease & pest management, irrigation management, fertigation management, and weather prediction.",
+            "Q: How do I contact customer support for Fyllo?\nA: You can contact customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in. Do you want me to raise a support ticket for you?",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available.",
+            "Q: What makes Fyllo different from its competitors?\nA: Fyllo differentiates itself through:\n - Precision & accuracy due to unique installation and sensor positioning.\n - Agronomical Algorithms created by a team of scientists led by Dr. Shikhamany, who is considered by many as the father of Indian grape industry.\n - 100% customer retention: Fyllo is known for its service on the ground, 24-hour issue resolution.\n - User-friendly interface that's easy to understand for all language and age group users."
+          ]
+        },
+        "content_transliterated": "Fyllo che update yet nahi ye "
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया आपला प्लॉट कोणता आहे हे सांगा, जेणेकरून मी आपल्याला योग्य मदत करू शकेन.",
+        "en": "Please tell me what your plot is, so I can help you properly.",
+        "timestamp": {
+          "$date": "2025-07-27T12:00:52.596Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Plot no 2 sudhakar ",
+        "en": "Plot no 2 sudhakar ",
+        "ans":"use field latestFieldData instead of finalFieldData->done",
+        "timestamp": {
+          "$date": "2025-07-27T12:01:22.992Z"
+        },
+        "standalone_question": "What is your plot number?",
+        "standalone_en": "What is your plot number?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या \"Plot No 2 Sudhakar\" च्या Fyllo डिव्हाइसची बॅटरी स्तर 72% आहे, जी चांगली आहे. \n\nआपल्या प्लॉटमध्ये सध्या मातीची आर्द्रता 0 kPa आहे, म्हणजे माती ओलसर आहे. \n\nआपल्याला आणखी काही मदतीची आवश्यकता आहे का?",
+        "en": "The battery level of the Fyllo device of your \"Plot No 2 Sudhakar\" is 72%, which is good. \n\nThe soil humidity in your plot is currently 0 kPa, i.e., the soil is damp. \n\nDo you need any more help?",
+        "timestamp": {
+          "$date": "2025-07-27T12:01:29.729Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "6hr पासून अपडेट आले नाही ",
+        "en": "Not updated since 6hr ",
+        "timestamp": {
+          "$date": "2025-07-27T12:02:07.262Z"
+        },
+        "ans":"acknowledge the fact that timestamp is 6 hours earlier, contradict if user isnt right",
+        "standalone_question": "Why haven't I received any updates for the past 6 hours?",
+        "standalone_en": "Why haven't I received any updates for the past 6 hours?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "6hr pasun update aale naahi "
+      },
+      {
+        "role": "assistant",
+        "content": "मी Fyllo डिव्हाइससाठी एक समर्थन तिकीट उघडले आहे. तिकीट क्रमांक: 685212. \n\nकृपया थोडा वेळ द्या, आमची टीम लवकरच तपासणी करेल. आपल्याला आणखी काही मदतीची आवश्यकता आहे का?",
+        "en": "I've opened a support ticket for the Fyllo device. Ticket number: 685212. \n\nPlease give some time, our team will check soon. Do you need any more help?",
+        "timestamp": {
+          "$date": "2025-07-27T12:02:15.277Z"
+        }
+      }
+    ],
+    "farmer_id": "cmF0bmFrYXJzaHJpcGF0cmF2a2FkYW0=1715272288003",
+    "farmer_plot_ids": [
+      "plot2sudhakarkf",
+      "plotno1sudhakarkadamfarm",
+      "plotno3mamajumbo415",
+      "plotno4pomegranate481"
+    ],
+    "conversation_id": "688614ef91b285c244a0c8fc",
+    "_id": "688614ef91b285c244a0c8fc",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-27T12:07:07.266000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-07-27T12:00:48.192000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "5kg",
+        "en": "5kg",
+        "timestamp": {
+          "$date": "2025-07-27T09:41:10.914Z"
+        },
+        "standalone_question": "What is the weight in kilograms?",
+        "standalone_en": "What is the weight in kilograms?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Could you please provide more context or specify what you need assistance with regarding the 5 kg?",
+        "en": "Could you please provide more context or specify what you need assistance with regarding the 5 kg?",
+        "timestamp": {
+          "$date": "2025-07-27T09:41:13.735Z"
+        }
+      }
+    ],
+    "farmer_id": "irannasakkari",
+    "farmer_plot_ids": [
+      "chandrakanthplot",
+      "sangannaplot"
+    ],
+    "conversation_id": "6885f43691b285c244a0c8fb",
+    "_id": "6885f43691b285c244a0c8fb",
+    "language": "ka",
+    "expiry": {
+      "$date": "2025-07-27T09:46:10.917000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-07-27T09:41:10.914000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi",
+        "en": "Hi",
+        "timestamp": {
+          "$date": "2025-07-27T09:12:29.815Z"
+        },
+        "standalone_question": "What would you like to talk about today?",
+        "standalone_en": "What would you like to talk about today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "नमस्कार, साउदागर! तुम्हाला कशाबद्दल मदतीची आवश्यकता आहे?",
+        "en": "Hello, Saudagar! What do you need help with?",
+        "timestamp": {
+          "$date": "2025-07-27T09:12:32.372Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "मशीन बंद पडलेली आहे ",
+        "en": "The machine is down ",
+        "timestamp": {
+          "$date": "2025-07-27T09:12:44.999Z"
+        },
+        "ans":"dataset->plot->latest-data(latest data is a field, and have a key timestamp, battery level etc). if device down, or data not recieved since 6 hours, all query fall in same catagory. give troubleshooting steps like restart device. or check recharge, at-last, raise support ticket.",
+        "standalone_question": "The machine is not working.",
+        "standalone_en": "The machine is not working.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "machine band padaleli aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या मशीनसाठी सपोर्ट तिकीट उघडण्यासाठी मला तुमच्या प्लॉटसाठी माहिती आवश्यक आहे. कृपया सांगा, तुम्हाला कोणत्या प्लॉटसाठी तिकीट उघडायचे आहे? \"Super plot\" का?",
+        "en": "I need information for your plot to open a support ticket for your machine. Please tell me, which plot do you want to open a ticket for? Why \"Super Plot\"?",
+        "timestamp": {
+          "$date": "2025-07-27T09:12:48.610Z"
+        }
+      }
+    ],
+    "farmer_id": "saudagarnarainghkumbhar",
+    "farmer_plot_ids": [
+      "supersonakaplotsuadagrkumbhar"
+    ],
+    "conversation_id": "6885ed7d91b285c244a0c8fa",
+    "_id": "6885ed7d91b285c244a0c8fa",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-27T09:17:45.002000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-07-27T09:12:29.815000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Calcium nitrate ka upyog hai",
+        "en": "The use of calcium nitrate is",
+        "timestamp": {
+          "$date": "2025-07-27T06:59:13.323Z"
+        },
+        "standalone_question": "What is the use of calcium nitrate?",
+        "standalone_en": "What is the use of calcium nitrate?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Calcium nitrate ek prakar ka khad hai jo calcium aur nitrogen ka achha srot hai. Iska upyog kafi tarikon se kiya jata hai:\n\n1. **Nutrient Supply**: Yeh calcium aur nitrogen dono pradhan karta hai, jo paudhon ki vikas aur phool aur phal ke liye avashyak hai.\n\n2. **Soil Health**: Calcium nitrate mitti ki pH ko sudharne aur soil structure ko majboot karne mein madad karta hai.\n\n3. **Disease Resistance**: Yeh paudhon ki rog pratiraksha ko badhata hai, jo unhe behtar swasthya aur utpadan pradan karta hai.\n\n4. **Fertigation**: Iska istemal drip irrigation ke madhyam se bhi kiya ja sakta hai, jisse paudhon ko avashyak poshak tatvon ka sahi matra milta hai.\n\n5. **Fruit Quality**: Yeh phalon ki gunvatta ko sudharne mein bhi madadgar hota hai, jaise ki unka rang aur swad.\n\nAgar aapko iske istemal ki vishesh jankari chahiye, to aap apne kshetra aur paudhon ke anusar iska upyog kar sakte hain.",
+        "en": "Calcium nitrate is a type of fertilizer that is a good source of calcium and nitrogen. It is used in a lot of ways:\n\n1. Nutrient Supply: It contains both calcium and nitrogen, which are essential for plant growth and flowering and fruit.\n\n2. Soil Health: Calcium nitrate helps in improving soil pH and strengthening soil structure.\n\n3. Disease Resistance: It boosts the immunity of plants, which provides them with better health and production.\n\n4. Fertigation: It can also be used through drip irrigation, which gives the right amount of essential nutrients.\n\n5. Fruit quality: It is also helpful in improving the quality of fruits, such as their color and taste.\n\nIf you need special information about its use, then you can use it according to your region and plants.",
+        "timestamp": {
+          "$date": "2025-07-27T06:59:19.952Z"
+        }
+      }
+    ],
+    "farmer_id": "rajenrdababurowpangal",
+    "farmer_plot_ids": [
+      "custardplot1nero",
+      "custardplot2kairo",
+      "mangoplot829",
+      "sugarcane265",
+      "sugarcane86"
+    ],
+    "conversation_id": "6885ce4191b285c244a0c8f9",
+    "_id": "6885ce4191b285c244a0c8f9",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-27T07:04:13.326000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-07-27T06:59:13.323000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "झिंक सल्फेट कधी द्यावे",
+        "en": "When to give zinc sulfate",
+        "timestamp": {
+          "$date": "2025-07-27T04:40:17.571Z"
+        },
+        "ans":"shoulve called get_fertigation_schedule, or give generic answer. dont bring disease pest. ",
+        "standalone_question": "When should zinc sulfate be given?",
+        "standalone_en": "When should zinc sulfate be given?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "zinc sulphate kadhi dyave"
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या पिकांसाठी झिंक सल्फेट देण्याची वेळ सध्या नाही. सध्या कोणतीही रोग किंवा कीड नियंत्रणाची शेड्यूल नाही. जर तुम्हाला अधिक माहिती हवी असेल तर कृपया सांगा.",
+        "en": "Now is not the time to give zinc sulfate for your crops. There is currently no disease or pest control schedule. If you need more information, please let me know.",
+        "timestamp": {
+          "$date": "2025-07-27T04:40:21.612Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "शेणखत देवे का",
+        "en": "Why do you want to give it?",
+        "timestamp": {
+          "$date": "2025-07-27T04:40:46.382Z"
+        },
+        "standalone_question": "Should I apply manure?",
+        "standalone_en": "Should I apply manure?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "shenkhat deve ka"
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या \"pomegranate\" प्लॉटसाठी, सध्या \"Growth stage 2\" मध्ये आहात आणि याची पहिली आठवड्यात आहात. \n\n### शेणखताची शेड्यूल:\n1. **फर्टिगेशन पद्धतीने:**\n   - **12-61-0:** 1 किलोग्राम/एकर\n   - **युरिया:** 1.5 किलोग्राम/एकर\n\n2. **फोलिअर पद्धतीने:**\n   - **मँगनीज सल्फेट:** 300 ग्रॅम/एकर\n   - **झिंक सल्फेट:** 600 ग्रॅम/एकर\n   - **फेरस सल्फेट:** 700 ग्रॅम/एकर\n\nआपण या प्रमाणानुसार शेणखत देऊ शकता. पुढील आठवड्यात \"Growth stage 3\" मध्ये प्रवेश करणार आहात, त्यामुळे त्यानुसार पुढील फर्टिगेशनची तयारी करा.",
+        "en": "As for your \"pomegranate\" plot, we are currently in \"Growth Stage 2\" and in the first week of it. \n\n### Salary Schedule:\n1. **Fertigation method:**\n   - **12-61-0:** 1 Kg/acre\n   - **Urea:** 1.5 kg/acre\n\n2. **Foliar method:**\n   - **Manganese Sulphate:** 300g/acre\n   - **Zinc Sulfate:** 600 g/acre\n   - **Ferrous Sulfate:** 700 g/acre\n\nYou can boast according to this ratio. Entering \"Growth Stage 3\" next week, prepare for the next fertigation accordingly.",
+        "timestamp": {
+          "$date": "2025-07-27T04:40:52.399Z"
+        }
+      }
+    ],
+    "farmer_id": "pandurangbobade",
+    "farmer_plot_ids": [
+      "cGFuZHVyYW5nJ3NwbG901753259573767",
+      "pomegranate186"
+    ],
+    "conversation_id": "6885adb091b285c244a0c8f7",
+    "_id": "6885adb091b285c244a0c8f7",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-27T04:45:46.385000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-07-27T04:40:17.571000+00:00"
+  }
+]

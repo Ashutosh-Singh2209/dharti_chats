@@ -1,0 +1,1663 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Evaluation <user uploaded image for analysis at 'supersuhasplottwo/2024-10-14-1728925346326.jpg'>",
+        "timestamp": {
+          "$date": "2024-10-14T17:02:43.383Z"
+        },
+        "standalone_question": "What is your evaluation of the image uploaded by the user?",
+        "standalone_en": "What is your evaluation of the image uploaded by the user?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the uploaded crop image could not determine the crop health due to potential issues with the image quality. However, the focus of the image was good. Please ensure that the image is clear and well-lit for better analysis. You may want to try uploading a different image for a more accurate evaluation.",
+        "timestamp": {
+          "$date": "2024-10-14T17:02:46.884Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Identify <user uploaded image for analysis at 'supersuhasplottwo/2024-10-14-1728925396830.jpg'>",
+        "timestamp": {
+          "$date": "2024-10-14T17:03:27.008Z"
+        },
+        "standalone_question": "Can you identify the crop in the uploaded image?",
+        "standalone_en": "Can you identify the crop in the uploaded image?",
+        "retrieval": {
+          "tools": [
+            "analyse_crop_image  \nGets the analysis of the uploaded crop image for any diseases or pests."
+          ],
+          "faq": [
+            "Q: What are the crops that are generally supported by Fyllo?\nA: Fyllo has crop models for more than 30 crops including horticulture crops , plantation crops, cash crops and few food grains.\n   List of crops supported: Apple, Banana, Grapes, Guava, Kinnow/citrus, Pomegranate, Tea, Capsicum, Chilli, Tomato, Cotton, Cucumber, Potato, Musk melon, Water melon, Papaya, Betel vine, Ber, Blueberry, Custard apple, Fig , kivi, Litchi, Peach, Pear, Plum, Strawberry, Date palm, Mango , Dragon, Coffee, Avocado, Rubber, Teak, Coconut, Beans, Cabbage, Cauliflower, Drumstick, Ginger, Okra, Gherkins, Onion, Brinjal, Bitter Gourd, Bottle gourd, Paddy Upland, Pearl millet, Peas, Sugarcane, Tobacco, Wheat, Groundnut, Seasamum, Gerbera, Marigold, Rose."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the uploaded crop image could not provide specific information about the crop health due to potential issues with the image quality. While the distance and focus of the image were good, it seems that the overall clarity may not have been sufficient for accurate diagnosis. Please consider uploading a clearer image for better results.",
+        "timestamp": {
+          "$date": "2024-10-14T17:03:31.965Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Grape is C4 or c3 ",
+        "timestamp": {
+          "$date": "2024-10-14T17:04:39.543Z"
+        },
+        "standalone_question": "Is grape a C4 or C3 plant?",
+        "standalone_en": "Is grape a C4 or C3 plant?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Grapes are classified as C3 plants. C3 plants utilize the Calvin cycle for photosynthesis, which is typical for many temperate climate crops, including grapes.",
+        "timestamp": {
+          "$date": "2024-10-14T17:04:46.903Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Difference between C4 and C3",
+        "timestamp": {
+          "$date": "2024-10-14T17:05:15.702Z"
+        },
+        "standalone_question": "What is the difference between C4 and C3 plants?",
+        "standalone_en": "What is the difference between C4 and C3 plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "C3 and C4 refer to two different types of photosynthetic pathways in plants. Here are the key differences:\n\n1. **Photosynthesis Process**:\n   - **C3 Plants**: Use the Calvin cycle directly to fix carbon dioxide. The first stable product is a 3-carbon compound (3-phosphoglycerate).\n   - **C4 Plants**: Have a two-step process where carbon dioxide is first fixed into a 4-carbon compound (oxaloacetate) before entering the Calvin cycle.\n\n2. **Adaptation**:\n   - **C3 Plants**: Typically thrive in cooler, wetter environments. They are more common in temperate regions.\n   - **C4 Plants**: Adapted to hot, dry environments. They are more efficient in high temperatures and low CO2 concentrations.\n\n3. **Water Use Efficiency**:\n   - **C3 Plants**: Generally have lower water use efficiency and can suffer from photorespiration, especially in high temperatures.\n   - **C4 Plants**: More efficient in water use and have a mechanism to minimize photorespiration.\n\n4. **Examples**:\n   - **C3 Plants**: Wheat, rice, and most trees.\n   - **C4 Plants**: Maize (corn), sugarcane, and sorghum.\n\nThese differences influence how each type of plant grows and thrives in various environmental conditions.",
+        "timestamp": {
+          "$date": "2024-10-14T17:05:28.666Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Water tank in grapes field",
+        "timestamp": {
+          "$date": "2024-10-14T17:07:16.193Z"
+        },
+        "standalone_question": "What is the role of a water tank in a grape field?",
+        "standalone_en": "What is the role of a water tank in a grape field?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is soil water storage (water tank of crop)?\nA: Soil water storage is defined as the total amount of water that is stored in the soil within the plant’s root zone. The soil texture and the crop rooting depth determine this. A deeper rooting depth means there is a larger volume of water stored in the soil and therefore a larger reservoir of water for the crop to draw upon between irrigations. Knowing the soil water storage capacity allows the irrigator to determine how much water to apply at one time and how long to wait between each irrigation. For example, the amount of water applied at one time on a sandy soil, which has a low soil water storage capacity, would be less than for a loam soil, which has a higher soil water storage capacity."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "In a grape field, the \"water tank\" refers to the soil's capacity to store water within the root zone of the grapevines. This capacity is crucial for the healthy growth of the plants, as it determines how much water is available for the vines to absorb between irrigation events.\n\n### Key Points about Water Storage in Grapes:\n\n1. **Soil Type**: Different soil types (e.g., sandy, loamy, clay) have varying water retention capacities. Loamy soils typically hold more water compared to sandy soils.\n\n2. **Root Depth**: The deeper the roots, the more water can be stored in the soil. Grapevines generally have deep root systems, which can access moisture from deeper soil layers.\n\n3. **Irrigation Management**: Understanding the water storage capacity helps in planning irrigation schedules. It allows farmers to apply the right amount of water at the right time, preventing over-irrigation or drought stress.\n\n4. **Monitoring**: Using soil moisture sensors can help monitor the water levels in the soil, ensuring that the grapevines receive adequate moisture without waterlogging.\n\n5. **Water Use Efficiency**: Efficient water management practices can enhance grape quality and yield while conserving water resources.\n\nBy managing the water tank effectively, grape growers can optimize vine health and improve grape production.",
+        "timestamp": {
+          "$date": "2024-10-14T17:07:21.624Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "How to calculate water tank in grapes ",
+        "timestamp": {
+          "$date": "2024-10-14T17:09:13.196Z"
+        },
+        "standalone_question": "How can I calculate the water storage capacity in a grape field?",
+        "standalone_en": "How can I calculate the water storage capacity in a grape field?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is soil water storage (water tank of crop)?\nA: Soil water storage is defined as the total amount of water that is stored in the soil within the plant’s root zone. The soil texture and the crop rooting depth determine this. A deeper rooting depth means there is a larger volume of water stored in the soil and therefore a larger reservoir of water for the crop to draw upon between irrigations. Knowing the soil water storage capacity allows the irrigator to determine how much water to apply at one time and how long to wait between each irrigation. For example, the amount of water applied at one time on a sandy soil, which has a low soil water storage capacity, would be less than for a loam soil, which has a higher soil water storage capacity."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To calculate the water tank (soil water storage) in a grape field, you can follow these steps:\n\n### Steps to Calculate Soil Water Storage:\n\n1. **Determine Soil Depth**: Measure the depth of the root zone where the grapevines are growing. This is typically between 1 to 3 feet (30 to 90 cm) for grapevines.\n\n2. **Identify Soil Texture**: Determine the soil texture (e.g., sandy, loamy, clay) as it affects water retention capacity.\n\n3. **Use Soil Water Holding Capacity**: Refer to standard values for water holding capacity based on soil texture:\n   - Sandy Soil: 0.05 to 0.1 inches of water per inch of soil\n   - Loamy Soil: 0.1 to 0.2 inches of water per inch of soil\n   - Clay Soil: 0.2 to 0.3 inches of water per inch of soil\n\n4. **Calculate Total Water Storage**:\n   - Formula: \n     \\[\n     \\text{Total Water Storage (in inches)} = \\text{Soil Depth (in inches)} \\times \\text{Water Holding Capacity (in inches per inch of soil)}\n     \\]\n   - For example, if you have 24 inches of loamy soil:\n     \\[\n     \\text{Total Water Storage} = 24 \\, \\text{inches} \\times 0.15 \\, \\text{inches/inch} = 3.6 \\, \\text{inches}\n     \\]\n\n5. **Convert to Volume**: If needed, convert the total water storage from inches to gallons or liters based on the area of the vineyard:\n   - 1 inch of water over 1 acre = 27,154 gallons (approximately 102,000 liters).\n\n### Example Calculation:\n- **Soil Depth**: 24 inches\n- **Soil Type**: Loamy (0.15 inches of water per inch of soil)\n- **Total Water Storage**:\n  \\[\n  24 \\, \\text{inches} \\times 0.15 \\, \\text{inches/inch} = 3.6 \\, \\text{inches}\n  \\]\n- **Area of Vineyard**: 1 acre\n- **Total Volume**:\n  \\[\n  3.6 \\, \\text{inches} \\times 27,154 \\, \\text{gallons/inch} = 97,800 \\, \\text{gallons}\n  \\]\n\nThis calculation helps you understand how much water is available in the soil for the grapevines and aids in planning irrigation schedules effectively.",
+        "timestamp": {
+          "$date": "2024-10-14T17:09:22.694Z"
+        }
+      }
+    ],
+    "farmer_id": "suhassureshkokate",
+    "farmer_plot_ids": [
+      "plotsuperthreesuhas",
+      "supersuhasplot",
+      "supersuhasplottwo"
+    ],
+    "conversation_id": "670d4eb30ce5ca09bcbaf887",
+    "tag": "others",
+    "conv_date": "2024-10-14T17:02:43.383000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "कांदा उळे बुरशी ",
+        "timestamp": {
+          "$date": "2024-10-14T16:55:52.701Z"
+        },
+        "standalone_question": "Standalone Question: Is onion mold harmful?",
+        "standalone_en": "Standalone Question: Is onion mold harmful?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kanda ule burshi "
+      },
+      {
+        "role": "assistant",
+        "content": "कांदा उळे बुरशी (Onion Downy Mildew) एक सामान्य रोग आहे जो कांद्याच्या पिकावर होतो. यामुळे पानांवर पांढरे किंवा पांढरे-हिरवे धब्बे दिसतात, ज्यामुळे पानांचा विकास थांबतो आणि उत्पादन कमी होते.\n\nयावर नियंत्रण ठेवण्यासाठी खालील उपाययोजना करा:\n\n1. **सुरुवातीच्या टप्प्यात उपचार**: रोगाची लक्षणे दिसताच, फफूंदनाशकांचा वापर करा. \"मेटालॅक्सिल\" किंवा \"फेनमिडोझोल\" सारख्या फफूंदनाशकांचा वापर प्रभावी ठरतो.\n\n2. **साफसफाई**: शेतात साठलेले मृत पानं आणि इतर अवशेष काढा, कारण यामुळे रोगाचा प्रसार होतो.\n\n3. **पाण्याचे व्यवस्थापन**: पाण्याची योग्य व्यवस्था करा, कारण ओलावा वाढल्यास रोगाची तीव्रता वाढू शकते.\n\n4. **पिकांची निवड**: रोग प्रतिकारक कांद्याच्या जातींची निवड करा.\n\n5. **सुर्यप्रकाश**: पिकांना पुरेशी सूर्यप्रकाश मिळवून द्या, कारण अंधारात रोग वाढतो.\n\nजर तुम्हाला अधिक माहिती हवी असेल किंवा विशिष्ट उपाययोजना हवी असतील, तर कृपया सांगा.",
+        "timestamp": {
+          "$date": "2024-10-14T16:55:57.182Z"
+        }
+      }
+    ],
+    "farmer_id": "manoharmuralidharbhamare",
+    "farmer_plot_ids": [
+      "pomoplot1731"
+    ],
+    "conversation_id": "670d4d18c27fe0f72446a10d",
+    "tag": "disease_pest",
+    "conv_date": "2024-10-14T16:55:52.701000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "कांदे उळे",
+        "timestamp": {
+          "$date": "2024-10-14T16:40:57.718Z"
+        },
+        "standalone_question": "Standalone Question: What are onions and garlic?",
+        "standalone_en": "Standalone Question: What are onions and garlic?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kande ule"
+      },
+      {
+        "role": "assistant",
+        "content": "कांद्याच्या उळ्यांबद्दल अधिक माहिती हवी आहे का? कृपया तुमच्या प्रश्नाचे विशिष्ट स्वरूप सांगा, जसे की पिक व्यवस्थापन, कीटक नियंत्रण, किंवा इतर काही.",
+        "timestamp": {
+          "$date": "2024-10-14T16:40:59.657Z"
+        }
+      }
+    ],
+    "farmer_id": "manoharmuralidharbhamare",
+    "farmer_plot_ids": [
+      "pomoplot1731"
+    ],
+    "conversation_id": "670d4998e43ab20b5830bb5e",
+    "tag": "disease_pest",
+    "conv_date": "2024-10-14T16:40:57.718000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kilo Pascal convert to percentage ",
+        "timestamp": {
+          "$date": "2024-10-14T16:08:57.353Z"
+        },
+        "standalone_question": "What is the conversion of Kilo Pascal to percentage?",
+        "standalone_en": "What is the conversion of Kilo Pascal to percentage?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To convert soil moisture readings from kilopascals (kPa) to percentage, you can use the following formula:\n\n\\[ \\text{Moisture Percentage} = \\left(1 - \\frac{\\text{kPa}}{200}\\right) \\times 100 \\]\n\nThis means:\n- 0 kPa = 100% moisture (wet soil)\n- 200 kPa = 0% moisture (dry soil)\n\nIf you have a specific kPa value you want to convert, please provide it, and I can calculate the percentage for you.",
+        "timestamp": {
+          "$date": "2024-10-14T16:09:04.588Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "20",
+        "timestamp": {
+          "$date": "2024-10-14T16:09:33.849Z"
+        },
+        "standalone_question": "What is the moisture percentage for a kPa value of 20?",
+        "standalone_en": "What is the moisture percentage for a kPa value of 20?",
+        "retrieval": {
+          "tools": [
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range.",
+            "get_soil_moisture_percentage_from_kpa_reading  \nGets the estimated soil moisture percentage for a given plot and kPa reading."
+          ],
+          "faq": [
+            "Q: What is the range of kpa moisture provided by the sensor ?\nA: It's 0-200 Kpa. 0 kPa is wet, 200 kPa is dry",
+            "Q: How do I know if my soil  moisture sensor is working fine ?\nA: The only way to know is if after irrigation the sensor is dropping below 5 kpa and increasing continuously unless next irrigation is done. You can try putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. Also, a soil moisture reading of 0 kPa is perfectly fine, meaning wet soil, but a reading of 200 kPa could mean fault. If the soil moisture sensor reading is consistently at 0 from few 48 hours, then it could be anamolous (use live and historical hourly soil moisture data (use tool) to validate).",
+            "Q: How much kPa should be set for a 4-inch depth soil moisture sensor?\nA: The kPa value for a 4-inch depth soil moisture sensor should be set based on the **soil type** and **crop requirements**. Here are general guidelines for different soil types:\n\n### **Sandy Soil:**\n- **Optimal range:** 10–20 kPa\n- **Irrigation threshold:** Above 30 kPa\n\n### **Loamy Soil (Silty or Mixed):**\n- **Optimal range:** 20–40 kPa\n- **Irrigation threshold:** Above 50 kPa\n\n### **Clay Soil:**\n- **Optimal range:** 40–70 kPa\n- **Irrigation threshold:** Above 80 kPa\n\n### **Additional Considerations:**\n- For **sensitive crops** like vegetables, maintain lower kPa thresholds to avoid water stress.\n- For **deep-rooted crops**, kPa values may vary at different depths; calibrate accordingly.\n- **Calibration** of the sensor to your specific soil and crop is essential for accuracy.\n\nConsulting with an agronomist or referring to crop-specific irrigation guides will help you fine-tune the kPa range.",
+            "Q: The moisture (kpa) is increasing very fast  recently and it is asking to irrigate frequently.\nA:  Kpa is increasing fast it means that sensors are drying rapidly.  The chatbot needs to :\nCheck the actual kpa increase rate if it's higher now  in comparison to the previous weeks. If there no , tell the user that kPa increase is normal.\nIf there is rapid increase recently, check if the crop stag is near full fruit growth or harvesting. In the later stages , crop transpiration is very high , thus there is a rapid increase in soil moisture Kpa meaning decrease in moisture in the soil. Also, the moisture drop can be due to high evaporation recently. Check if there is temperature increase meaning high evaporation recently.\nIf the above two are not the cases, ask user to check the moisture physically near the sensor. If the actual moisture is wet near the sensor and the sensor is showing dry, the sensor might be worn out. In this case , ask if the user wants to raise a ticket with the support team."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "A soil moisture reading of 20 kPa corresponds to approximately **92% moisture**. This indicates that the soil is quite wet. If you have any further questions or need assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-10-14T16:09:42.689Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "1",
+        "timestamp": {
+          "$date": "2024-10-14T16:09:55.983Z"
+        },
+        "standalone_question": "What is the moisture percentage for a soil moisture reading of 1 kPa?",
+        "standalone_en": "What is the moisture percentage for a soil moisture reading of 1 kPa?",
+        "retrieval": {
+          "tools": [
+            "get_soil_moisture_percentage_from_kpa_reading  \nGets the estimated soil moisture percentage for a given plot and kPa reading.",
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range.",
+            "get_daily_soil_moisture_data  \nRetrieves historical daily soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for larger duration.",
+            "get_hourly_soil_moisture_data  \nRetrieves historical hourly soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for less than 5 days duration."
+          ],
+          "faq": [
+            "Q: How do I know if my soil  moisture sensor is working fine ?\nA: The only way to know is if after irrigation the sensor is dropping below 5 kpa and increasing continuously unless next irrigation is done. You can try putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. Also, a soil moisture reading of 0 kPa is perfectly fine, meaning wet soil, but a reading of 200 kPa could mean fault. If the soil moisture sensor reading is consistently at 0 from few 48 hours, then it could be anamolous (use live and historical hourly soil moisture data (use tool) to validate).",
+            "Q: How much kPa should be set for a 4-inch depth soil moisture sensor?\nA: The kPa value for a 4-inch depth soil moisture sensor should be set based on the **soil type** and **crop requirements**. Here are general guidelines for different soil types:\n\n### **Sandy Soil:**\n- **Optimal range:** 10–20 kPa\n- **Irrigation threshold:** Above 30 kPa\n\n### **Loamy Soil (Silty or Mixed):**\n- **Optimal range:** 20–40 kPa\n- **Irrigation threshold:** Above 50 kPa\n\n### **Clay Soil:**\n- **Optimal range:** 40–70 kPa\n- **Irrigation threshold:** Above 80 kPa\n\n### **Additional Considerations:**\n- For **sensitive crops** like vegetables, maintain lower kPa thresholds to avoid water stress.\n- For **deep-rooted crops**, kPa values may vary at different depths; calibrate accordingly.\n- **Calibration** of the sensor to your specific soil and crop is essential for accuracy.\n\nConsulting with an agronomist or referring to crop-specific irrigation guides will help you fine-tune the kPa range.",
+            "Q: What is the range of kpa moisture provided by the sensor ?\nA: It's 0-200 Kpa. 0 kPa is wet, 200 kPa is dry",
+            "Q: Sensor is showing wet, i.e. less kpa but soil looks dry.\nA: The sensor measures the moisture around the rootzone which is not visible from the top. Ask use to check the moisture in rootzone around the sensor. If it matches, ask the user to irrigate.",
+            "Q: My  sensor is showing 0 Kpa for long.\nA: 0-5 kPa means wet soil. It can be due to following :\nIf the device is recently installed, there can be moisture  around the sensor because the sensor is dipped in the water before installing. If this is the case, ask them to do atleast 3 irrigations as per their previous schedule without sensors and sensors would b set by then.\nIf the crop stage is very early or pruing is done recently, the water takeup by plants is negligible in this period because of very less transpiration. If this is the case, ask them to wait till irrigation Kpa in the present stage.\nSometimes, the water can remain accumulated around the sensor due to local landscaping or slope in the land around sensor. In this case, please check the around the sensor. It will have to be reinstalled properly. Chatbot should ask the user if he wants to create an issue ticket for the same"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "A soil moisture reading of 1 kPa corresponds to approximately **99.5% moisture**. This indicates that the soil is extremely wet. If you have any further questions or need assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-10-14T16:10:01.783Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "4",
+        "timestamp": {
+          "$date": "2024-10-14T16:10:24.436Z"
+        },
+        "standalone_question": "What is the moisture percentage for a soil moisture reading of 4 kPa?",
+        "standalone_en": "What is the moisture percentage for a soil moisture reading of 4 kPa?",
+        "retrieval": {
+          "tools": [
+            "get_soil_moisture_percentage_from_kpa_reading  \nGets the estimated soil moisture percentage for a given plot and kPa reading.",
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range.",
+            "get_daily_soil_moisture_data  \nRetrieves historical daily soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for larger duration.",
+            "get_hourly_soil_moisture_data  \nRetrieves historical hourly soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for less than 5 days duration."
+          ],
+          "faq": [
+            "Q: How much kPa should be set for a 4-inch depth soil moisture sensor?\nA: The kPa value for a 4-inch depth soil moisture sensor should be set based on the **soil type** and **crop requirements**. Here are general guidelines for different soil types:\n\n### **Sandy Soil:**\n- **Optimal range:** 10–20 kPa\n- **Irrigation threshold:** Above 30 kPa\n\n### **Loamy Soil (Silty or Mixed):**\n- **Optimal range:** 20–40 kPa\n- **Irrigation threshold:** Above 50 kPa\n\n### **Clay Soil:**\n- **Optimal range:** 40–70 kPa\n- **Irrigation threshold:** Above 80 kPa\n\n### **Additional Considerations:**\n- For **sensitive crops** like vegetables, maintain lower kPa thresholds to avoid water stress.\n- For **deep-rooted crops**, kPa values may vary at different depths; calibrate accordingly.\n- **Calibration** of the sensor to your specific soil and crop is essential for accuracy.\n\nConsulting with an agronomist or referring to crop-specific irrigation guides will help you fine-tune the kPa range.",
+            "Q: How do I know if my soil  moisture sensor is working fine ?\nA: The only way to know is if after irrigation the sensor is dropping below 5 kpa and increasing continuously unless next irrigation is done. You can try putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. Also, a soil moisture reading of 0 kPa is perfectly fine, meaning wet soil, but a reading of 200 kPa could mean fault. If the soil moisture sensor reading is consistently at 0 from few 48 hours, then it could be anamolous (use live and historical hourly soil moisture data (use tool) to validate).",
+            "Q: What is the range of kpa moisture provided by the sensor ?\nA: It's 0-200 Kpa. 0 kPa is wet, 200 kPa is dry",
+            "Q: Sensor is showing wet, i.e. less kpa but soil looks dry.\nA: The sensor measures the moisture around the rootzone which is not visible from the top. Ask use to check the moisture in rootzone around the sensor. If it matches, ask the user to irrigate.",
+            "Q: What is my soil moisture depletion?\nA: Soil moisture depletion %age = (100 - soil moisture %age)"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "A soil moisture reading of 4 kPa corresponds to approximately **98% moisture**. This indicates that the soil is very wet. If you have any further questions or need assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-10-14T16:10:30.172Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "50",
+        "timestamp": {
+          "$date": "2024-10-14T16:10:39.435Z"
+        },
+        "standalone_question": "What is the moisture percentage for a soil moisture reading of 50 kPa?",
+        "standalone_en": "What is the moisture percentage for a soil moisture reading of 50 kPa?",
+        "retrieval": {
+          "tools": [
+            "get_soil_moisture_percentage_from_kpa_reading  \nGets the estimated soil moisture percentage for a given plot and kPa reading.",
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range.",
+            "get_daily_soil_moisture_data  \nRetrieves historical daily soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for larger duration.",
+            "get_hourly_soil_moisture_data  \nRetrieves historical hourly soil moisture data from soil moisture sensors, in kPa or percentage. Provides soilMoisture1 and soilMoisture2 fields only. Suitable for less than 5 days duration."
+          ],
+          "faq": [
+            "Q: How do I know if my soil  moisture sensor is working fine ?\nA: The only way to know is if after irrigation the sensor is dropping below 5 kpa and increasing continuously unless next irrigation is done. You can try putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. Also, a soil moisture reading of 0 kPa is perfectly fine, meaning wet soil, but a reading of 200 kPa could mean fault. If the soil moisture sensor reading is consistently at 0 from few 48 hours, then it could be anamolous (use live and historical hourly soil moisture data (use tool) to validate).",
+            "Q: What is the range of kpa moisture provided by the sensor ?\nA: It's 0-200 Kpa. 0 kPa is wet, 200 kPa is dry",
+            "Q: How much kPa should be set for a 4-inch depth soil moisture sensor?\nA: The kPa value for a 4-inch depth soil moisture sensor should be set based on the **soil type** and **crop requirements**. Here are general guidelines for different soil types:\n\n### **Sandy Soil:**\n- **Optimal range:** 10–20 kPa\n- **Irrigation threshold:** Above 30 kPa\n\n### **Loamy Soil (Silty or Mixed):**\n- **Optimal range:** 20–40 kPa\n- **Irrigation threshold:** Above 50 kPa\n\n### **Clay Soil:**\n- **Optimal range:** 40–70 kPa\n- **Irrigation threshold:** Above 80 kPa\n\n### **Additional Considerations:**\n- For **sensitive crops** like vegetables, maintain lower kPa thresholds to avoid water stress.\n- For **deep-rooted crops**, kPa values may vary at different depths; calibrate accordingly.\n- **Calibration** of the sensor to your specific soil and crop is essential for accuracy.\n\nConsulting with an agronomist or referring to crop-specific irrigation guides will help you fine-tune the kPa range.",
+            "Q: Sensor is showing wet, i.e. less kpa but soil looks dry.\nA: The sensor measures the moisture around the rootzone which is not visible from the top. Ask use to check the moisture in rootzone around the sensor. If it matches, ask the user to irrigate.",
+            "Q: What is my soil moisture depletion?\nA: Soil moisture depletion %age = (100 - soil moisture %age)"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "A soil moisture reading of 50 kPa corresponds to approximately **75% moisture**. This indicates that the soil is moderately wet. If you have any further questions or need assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-10-14T16:10:45.237Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "VPD",
+        "timestamp": {
+          "$date": "2024-10-14T16:11:29.678Z"
+        },
+        "standalone_question": "What is VPD?",
+        "standalone_en": "What is VPD?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What is Delta T & VPD?\nA: Delta T is the difference between dry bulb and wet bulb temperature values. When this value is between 2-9, the stomatal cells on plant leaves are open, increasing the effectiveness of foliar applications.\n   VPD (Vapor Pressure Deficit) represents the right time for fertigation when active absorption by a plant is highest."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "VPD (Vapor Pressure Deficit) is a measure of the difference between the amount of moisture in the air and the amount of moisture the air can hold when it is saturated. It is an important factor in plant physiology as it affects transpiration rates and nutrient uptake.\n\nA lower VPD indicates higher humidity, which can reduce transpiration, while a higher VPD indicates lower humidity, which can increase transpiration. Managing VPD is crucial for optimizing plant growth, especially during fertigation, as it influences the plant's ability to absorb water and nutrients effectively.\n\nIf you need specific VPD values or further assistance related to your crops, please let me know!",
+        "timestamp": {
+          "$date": "2024-10-14T16:11:39.094Z"
+        }
+      }
+    ],
+    "farmer_id": "suhassureshkokate",
+    "farmer_plot_ids": [
+      "plotsuperthreesuhas",
+      "supersuhasplot",
+      "supersuhasplottwo"
+    ],
+    "conversation_id": "670d4218e63995e9858b52ef",
+    "tag": "others",
+    "conv_date": "2024-10-14T16:08:57.353000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ph kasa Kami karava jaminicha",
+        "timestamp": {
+          "$date": "2024-10-14T15:49:25.402Z"
+        },
+        "standalone_question": "How can I take care of the land?",
+        "standalone_en": "How can I take care of the land?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Jaminicha pH kami karanyasathi, tumhi khali dilayle kadam ghenyachi garaj aahe:\n\n1. **Sulfur Vapourization**: Jaminit sulfur vapourization karne, jya mule pH kami hota. Tumhi 1-2% sulfur jaminit mix karu shakta.\n\n2. **Organic Matter**: Compost, well-rotted manure, athva green manure jaminit mix karne. Ya mule jaminicha pH kami hota.\n\n3. **Acidic Fertilizers**: Ammonium sulfate, urea, athva superphosphate jase acidic fertilizers vaprane.\n\n4. **Regular Testing**: Jaminicha pH regular test karne, jya mule tumhi pH kami karanyasathi yogya upay ghetay.\n\n5. **Watering**: Jaminit acidic water (jya madhe vinegar athva citric acid asel) vaprane.\n\nTumhi ya kadamanna ghetana, jaminicha pH kami karu shakta. Jaminicha pH 6.0-6.5 madhe thevane sarvat yogya aahe.",
+        "timestamp": {
+          "$date": "2024-10-14T15:49:38.646Z"
+        }
+      }
+    ],
+    "farmer_id": "bharatmondhe",
+    "farmer_plot_ids": [
+      "tomato1486"
+    ],
+    "conversation_id": "670d3d856fcafba84e9aff6a",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-10-14T15:49:25.402000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Solubor madhe kay ghatak ahe",
+        "timestamp": {
+          "$date": "2024-10-14T14:35:15.929Z"
+        },
+        "standalone_question": "What are the components of Solubor?",
+        "standalone_en": "What are the components of Solubor?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Solubor (सोल्यूबॉर) हा एक बोरॉन (Boron) समृद्ध खते आहे, जो मुख्यतः पिकांच्या वाढीसाठी आणि फळांच्या गुणवत्तेसाठी आवश्यक आहे. यामध्ये खालील घटक असतात:\n\n1. **बोरॉन (Boron)**: मुख्य घटक, जो पिकांच्या कोशिकांच्या वाढीसाठी आणि फळांच्या सेटिंगसाठी आवश्यक आहे.\n2. **पाण्यात विरघळणारे खनिज**: Solubor पाण्यात सहज विरघळतो, ज्यामुळे तो पिकांना जलद उपलब्ध होतो.\n3. **अतिरिक्त पोषक तत्वे**: काही वेळा, Solubor मध्ये इतर पोषक तत्वे जसे की नायट्रोजन, फॉस्फरस, आणि पोटॅशियम देखील असू शकतात, परंतु मुख्यतः बोरॉनवर लक्ष केंद्रित केले जाते.\n\nSolubor चा वापर मुख्यतः फळांच्या पिकांमध्ये, जसे की द्राक्षे, सफरचंद, आणि इतर फळांमध्ये केला जातो, कारण तो फळांच्या गुणवत्तेला सुधारतो आणि उत्पादन वाढवतो.",
+        "timestamp": {
+          "$date": "2024-10-14T14:35:22.571Z"
+        }
+      }
+    ],
+    "farmer_id": "sunilpatil",
+    "farmer_plot_ids": [
+      "plotno1653",
+      "plotno2841",
+      "plotno3sonaka692",
+      "plotno4thompson758"
+    ],
+    "conversation_id": "670d2c236fcafba84e9aff69",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-10-14T14:35:15.929000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ya plola Pani dyave ka",
+        "timestamp": {
+          "$date": "2024-10-14T14:26:58.376Z"
+        },
+        "standalone_question": "Is there a way to get a drink?",
+        "standalone_en": "Is there a way to get a drink?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या सर्व प्लॉटसाठी पाण्याची आवश्यकता नाही. \n\n1. **Plot No.1**: \n   - मातीची आर्द्रता: 4 kPa, 0 kPa \n   - आदर्श आर्द्रता: 30 kPa \n   - पाण्याची आवश्यकता नाही.\n\n2. **Plot No.2**: \n   - मातीची आर्द्रता: 0 kPa, 0 kPa \n   - आदर्श आर्द्रता: 15 kPa \n   - पाण्याची आवश्यकता नाही.\n\n3. **Plot No.3 sonaka**: \n   - मातीची आर्द्रता: 0 kPa, 0 kPa \n   - आदर्श आर्द्रता: 20 kPa \n   - पाण्याची आवश्यकता नाही.\n\n4. **Plot No.4 Thompson**: \n   - मातीची आर्द्रता: 0 kPa, 0 kPa \n   - आदर्श आर्द्रता: 20 kPa \n   - पाण्याची आवश्यकता नाही.\n\nसर्व प्लॉटमध्ये मातीची आर्द्रता आदर्श किमतींपेक्षा कमी आहे, त्यामुळे सध्या पाण्याची गरज नाही.",
+        "timestamp": {
+          "$date": "2024-10-14T14:27:23.283Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Mag plot no 1 la fertigation kase karave",
+        "timestamp": {
+          "$date": "2024-10-14T14:29:11.163Z"
+        },
+        "standalone_question": "How should fertigation be done for Plot No. 1?",
+        "standalone_en": "How should fertigation be done for Plot No. 1?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\".",
+            "get_specific_fertigation_requirements  \nFinds the fertigation requirements for the plots with a particular crop stage and week numbers."
+          ],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available.",
+            "Q: Where can I find the fertigation schedule in the Fyllo app?\nA: To access the fertigation schedule:\n    1. Open the Fyllo app\n    2. Select \"My Farm\" at the bottom\n    3. Tap on the \"Fertigation\" option\n   You'll find the fertigation schedule there, including details about the required fertilizer applications.",
+            "Q: How do I generate a fertigation schedule in the app?\nA: To generate a fertigation schedule, follow these steps:\n\n    1. Go to \"My Farm\"\n    2. Select \"Fertigation\"\n    3. Tap \"Create Report\"\n    4. Fill in all the required details\n    5. Save the report\n    If you have soil, leaf, or petiole test data, you can input this for a more customized schedule. Otherwise, we can generate a basic schedule using general crop and regional data."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "**Plot No.1 (Grapes - Thompson)** साठी फर्टिगेशन शेड्यूल:\n\n### सध्याचा फेज: **Shoot Development**\n- **सुरुवात तारीख:** 2024-10-07\n- **सध्याचा आठवडा:** 2\n\n#### सध्याचा फर्टिगेशन शेड्यूल:\n- **फोलिअर पद्धतीने:** \n  - **झिंक ऑक्साइड:** 200 ग्रॅम/एकर\n  - **गिब्बेरलिक आम्ल (GA3):** 10 ppm\n  - **सूचना:** फोलिअर स्प्रेमध्ये सूक्ष्म पोषण घटकांचा एकाग्रता 1% पेक्षा जास्त नसावा, उदाहरणार्थ 5 किलोग्राम 500 लिटर पाण्यात.\n\n### पुढील फर्टिगेशन शेड्यूल:\n- **फेज:** Shoot Development\n- **आठवडा:** 3\n- **सुरुवात तारीख:** 2024-11-18\n- **फोलिअर पद्धतीने:**\n  - **सोल्यूबोर:** 300 ग्रॅम/एकर\n  - **गिब्बेरलिक आम्ल (GA3):** 15 ppm\n  - **सूचना:** फोलिअर स्प्रेमध्ये सूक्ष्म पोषण घटकांचा एकाग्रता 1% पेक्षा जास्त नसावा.\n\nतुम्ही या सूचनांचे पालन करून फर्टिगेशन करू शकता.",
+        "timestamp": {
+          "$date": "2024-10-14T14:29:27.642Z"
+        }
+      }
+    ],
+    "farmer_id": "sunilpatil",
+    "farmer_plot_ids": [
+      "plotno1653",
+      "plotno2841",
+      "plotno3sonaka692",
+      "plotno4thompson758"
+    ],
+    "conversation_id": "670d2a320ce5ca09bcbaf886",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-10-14T14:26:58.376000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पोफायलर मारून 2 दिवस झाले पोरोभाईड चालेल का ",
+        "timestamp": {
+          "$date": "2024-10-14T14:18:30.462Z"
+        },
+        "standalone_question": "Is it okay to use Porobhaid after 2 days of making the profile?",
+        "standalone_en": "Is it okay to use Porobhaid after 2 days of making the profile?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pofailer maroon 2 divas jhale porobhaid chalel ka "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटमध्ये 12 ऑक्टोबर ते 14 ऑक्टोबर दरम्यान कोणत्याही रोग किंवा कीडांच्या शिफारसी नाहीत. त्यामुळे, तुम्ही पोफायलर मारून चालवू शकता.",
+        "timestamp": {
+          "$date": "2024-10-14T14:18:35.419Z"
+        }
+      }
+    ],
+    "farmer_id": "kalidasbalasahebtarle",
+    "farmer_plot_ids": [
+      "plotno1kingbery",
+      "plotno2ratan"
+    ],
+    "conversation_id": "670d28360ce5ca09bcbaf885",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-10-14T14:18:30.462000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Temp ",
+        "timestamp": {
+          "$date": "2024-10-14T14:16:48.473Z"
+        },
+        "standalone_question": "What is the temperature?",
+        "standalone_en": "What is the temperature?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The current soil temperature in **Plot No 1 Arra 36** is **29°C**. The soil moisture readings are at **0 kPa**, indicating wet soil. If you have any further questions or need assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-10-14T14:16:56.768Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Spray",
+        "timestamp": {
+          "$date": "2024-10-14T14:19:09.122Z"
+        },
+        "standalone_question": "What is the recommended spray treatment for the current conditions?",
+        "standalone_en": "What is the recommended spray treatment for the current conditions?",
+        "retrieval": {
+          "tools": [
+            "check_spray_conditions  \nGets the spray condition forecast for the next few hours for the farmer's plots and returns the condition for each hour as GOOD, MODERATE, or WORST, based on deltaT, VPD, and rainfall conditions."
+          ],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "There are no scheduled spray recommendations for **Plot No 1 Arra 36** for the week of October 14 to October 21. If you have any specific concerns or need further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-10-14T14:19:14.885Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "खते ",
+        "timestamp": {
+          "$date": "2024-10-14T14:19:40.423Z"
+        },
+        "standalone_question": "What is the fertilizer recommendation?",
+        "standalone_en": "What is the fertilizer recommendation?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "khate "
+      },
+      {
+        "role": "assistant",
+        "content": "**Plot No 1 Arra 36** के लिए खते (फर्टिगेशन) का कोई डेटा शेड्यूल उपलब्ध नहीं है। यदि आपको और सहायता चाहिए, तो कृपया बताएं!",
+        "timestamp": {
+          "$date": "2024-10-14T14:19:46.357Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Paani",
+        "timestamp": {
+          "$date": "2024-10-14T14:20:42.297Z"
+        },
+        "standalone_question": "What is the water status for Plot No 1 Arra 36?",
+        "standalone_en": "What is the water status for Plot No 1 Arra 36?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "**Plot No 1 Arra 36** में वर्तमान में पानी देने की आवश्यकता नहीं है। \n\n- **मिट्टी की नमी**: 0 kPa (जो कि गीली मिट्टी को दर्शाता है)\n- **अनुकूल नमी**: 30 kPa\n\nआपकी मिट्टी की नमी अनुकूल स्तर से नीचे है, इसलिए अभी पानी देने की आवश्यकता नहीं है। यदि आपको और सहायता चाहिए, तो कृपया बताएं!",
+        "timestamp": {
+          "$date": "2024-10-14T14:20:49.790Z"
+        }
+      }
+    ],
+    "farmer_id": "dattukhandave",
+    "farmer_plot_ids": [
+      "plotno1arra36284"
+    ],
+    "conversation_id": "670d27d06990005efae7b3c1",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-10-14T14:16:48.473000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Temp ",
+        "timestamp": {
+          "$date": "2024-10-14T14:16:48.473Z"
+        },
+        "standalone_question": "What is the temperature?",
+        "standalone_en": "What is the temperature?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The current soil temperature in **Plot No 1 Arra 36** is **29°C**. The soil moisture readings are at **0 kPa**, indicating wet soil. If you have any further questions or need assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-10-14T14:16:56.768Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Spray",
+        "timestamp": {
+          "$date": "2024-10-14T14:19:09.122Z"
+        },
+        "standalone_question": "What is the recommended spray treatment for the current conditions?",
+        "standalone_en": "What is the recommended spray treatment for the current conditions?",
+        "retrieval": {
+          "tools": [
+            "check_spray_conditions  \nGets the spray condition forecast for the next few hours for the farmer's plots and returns the condition for each hour as GOOD, MODERATE, or WORST, based on deltaT, VPD, and rainfall conditions."
+          ],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "There are no scheduled spray recommendations for **Plot No 1 Arra 36** for the week of October 14 to October 21. If you have any specific concerns or need further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-10-14T14:19:14.885Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "खते ",
+        "timestamp": {
+          "$date": "2024-10-14T14:19:40.423Z"
+        },
+        "standalone_question": "What is the fertilizer recommendation?",
+        "standalone_en": "What is the fertilizer recommendation?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "khate "
+      },
+      {
+        "role": "assistant",
+        "content": "**Plot No 1 Arra 36** के लिए खते (फर्टिगेशन) का कोई डेटा शेड्यूल उपलब्ध नहीं है। यदि आपको और सहायता चाहिए, तो कृपया बताएं!",
+        "timestamp": {
+          "$date": "2024-10-14T14:19:46.357Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Paani",
+        "timestamp": {
+          "$date": "2024-10-14T14:20:42.297Z"
+        },
+        "standalone_question": "What is the water status for **Plot No 1 Arra 36**?",
+        "standalone_en": "What is the water status for **Plot No 1 Arra 36**?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "**Plot No 1 Arra 36** में वर्तमान में पानी देने की आवश्यकता नहीं है। \n\n- **मिट्टी की नमी**: 0 kPa (जो कि गीली मिट्टी को दर्शाता है)\n- **अनुकूल नमी**: 30 kPa\n\nआपकी मिट्टी की नमी अनुकूल स्तर से नीचे है, इसलिए अभी पानी देने की आवश्यकता नहीं है। यदि आपको और सहायता चाहिए, तो कृपया बताएं!",
+        "timestamp": {
+          "$date": "2024-10-14T14:20:49.790Z"
+        }
+      }
+    ],
+    "farmer_id": "dattukhandave",
+    "farmer_plot_ids": [
+      "plotno1arra36284"
+    ],
+    "conversation_id": "670d27d06990005efae7b3c1",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-10-14T14:16:48.473000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": " Female flower ing ke liye konsa sapry krna",
+        "timestamp": {
+          "$date": "2024-10-14T13:12:48.038Z"
+        },
+        "standalone_question": "What should I do to promote flowering in female plants?",
+        "standalone_en": "What should I do to promote flowering in female plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Female flowering ke liye aapko \"Flowering and Fruiting\" stage ke liye specific fertilizers aur nutrients ka istemal karna chahiye. Aapko foliar spray ya fertigation ke zariye phosphorus aur potassium jaisi nutrients deni chahiye, jo flowering ko promote karte hain.\n\nAgar aapko koi specific pesticide ya fungicide ki zarurat hai, toh mujhe batayein, main aapko uski jaankari de sakta hoon.",
+        "timestamp": {
+          "$date": "2024-10-14T13:12:57.078Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Cracking ke liye konsa spray karana ",
+        "timestamp": {
+          "$date": "2024-10-14T13:14:07.731Z"
+        },
+        "standalone_question": "What spray should be used to prevent cracking?",
+        "standalone_en": "What spray should be used to prevent cracking?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Cracking se bachne ke liye aapko \"Calcium\" based foliar spray karna chahiye. Calcium, fruits ki cell wall ko majboot banata hai aur cracking ko rokne mein madad karta hai. Aap \"Calcium Nitrate\" ya \"Calcium Chloride\" ka spray kar sakte hain.\n\nIske alawa, moisture management bhi zaruri hai, isliye soil moisture ko maintain karna na bhoolen. Agar aapko aur koi specific spray ki zarurat hai, toh mujhe batayein.",
+        "timestamp": {
+          "$date": "2024-10-14T13:14:18.739Z"
+        }
+      }
+    ],
+    "farmer_id": "prashantchaudhari",
+    "farmer_plot_ids": [
+      "watermelonsavkar"
+    ],
+    "conversation_id": "670d18cfe63995e9858b52ee",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-10-14T13:12:48.038000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "माझ्या प्लॉटवर सिगाटोका लीफ स्पॉट येण्याचे किती चान्सेस आहेत आणि त्यासाठी कोणती फवारणी घ्यावी?",
+        "timestamp": {
+          "$date": "2024-10-14T12:49:47.335Z"
+        },
+        "standalone_question": "What are the chances of Sigatoka leaf spot occurring on my plot, and what treatment should I use for it?",
+        "standalone_en": "What are the chances of Sigatoka leaf spot occurring on my plot, and what treatment should I use for it?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mazya plotwor sigatoka leaf spot yenyache kiti chances ahet ani tyasathi konati favarani ghyavi?"
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या \"mandirfarm1\" प्लॉटवर सिगाटोका लीफ स्पॉट येण्याची शक्यता 81.3% आहे, जी मध्यम जोखमीच्या श्रेणीत येते. गेल्या काही दिवसांतही या रोगाची जोखीम मध्यम स्तरावर होती.\n\nफवारणीसाठी, खालील उपाययोजना करा:\n1. **फफूंदनाशकांचा वापर**: \"कॅप्टन\" किंवा \"बोर्डो मिश्रण\" सारख्या फफूंदनाशकांचा वापर करा.\n2. **पानांवर फवारणी**: फवारणी सकाळी किंवा संध्याकाळी करा, जेणेकरून पाण्याचा वाष्पीकरण कमी होईल.\n3. **सुरक्षित अंतर ठेवणे**: फवारणी करताना सुरक्षित अंतर ठेवा, जेणेकरून फफूंदनाशकांचा प्रभाव अधिक चांगला होईल.\n\nआपल्या \"chaudhari farm1\" प्लॉटसाठी सिगाटोका लीफ स्पॉटसाठी कोणतीही माहिती उपलब्ध नाही.",
+        "timestamp": {
+          "$date": "2024-10-14T12:49:55.916Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "प्लॉटला पाण्याची गरज आहे का?",
+        "timestamp": {
+          "$date": "2024-10-14T12:50:47.640Z"
+        },
+        "standalone_question": "Does the plot need water?",
+        "standalone_en": "Does the plot need water?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": []
+        },
+        "content_transliterated": "plotala panyachi garaj aahe ka?"
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या दोन्ही प्लॉट्सवर पाण्याची गरज नाही. \n\n1. **चौधरी फार्म 1**: \n   - मातीची आर्द्रता: 0 kPa (खूप ओलसर)\n   - आदर्श आर्द्रता: 20 kPa\n\n2. **मंदिर फार्म 1**: \n   - मातीची आर्द्रता: 0 kPa (खूप ओलसर)\n   - आदर्श आर्द्रता: 18 kPa\n\nदोन्ही प्लॉट्सवर मातीची आर्द्रता आदर्श स्तराखाली आहे, त्यामुळे सध्या पाण्याची आवश्यकता नाही.",
+        "timestamp": {
+          "$date": "2024-10-14T12:50:55.804Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "रोग ओळखा आणि त्यासाठी फवारणी सुचवा.\"<user uploaded image for analysis at 'mandirfarm1/2024-10-14-1728910318986.jpg'>",
+        "timestamp": {
+          "$date": "2024-10-14T12:52:06.023Z"
+        },
+        "standalone_question": "Identify the disease and recommend a spray for it.",
+        "standalone_en": "Identify the disease and recommend a spray for it.",
+        "retrieval": {
+          "tools": [
+            "get_disease_pest_schedule  \nRetrieves the farmer's current and past pesticide-related spray recommendations with spray details, based on dates. Dates are mandatory."
+          ],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        },
+        "content_transliterated": "rog olakha ani tyasathi favarani suchava.\" <user uploaded image for analysis at 'mandirfarm1/2024-10-14-1728910318986.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या प्लॉटवर \"पिवळा आणि काळा सिगाटोका\" रोगाची उपस्थिती आहे, ज्याची शक्यता खूप जास्त आहे. या रोगाचे लक्षणे खालीलप्रमाणे आहेत:\n- पानांवर पहिल्यांदा तपकिरी ठिपके.\n- पानांच्या शिरांवर समांतर पसरलेले अरुंद, गडद पट्टे आणि पिवळा हॅलो.\n- मोठ्या नाशक क्षेत्रे.\n\n**फवारणीसाठी उपाययोजना:**\n1. **फफूंदनाशकांचा वापर**: \n   - \"मॅन्कोजेब\", \"कॅलिक्सिन\" किंवा \"क्लोरोथालोनिल\" यांसारख्या फफूंदनाशकांचा वापर करा.\n   - रोगाची तीव्रता कमी असल्यास फोलिअर स्प्रे म्हणून वापरा.\n\n2. **सिस्टमेटिक फफूंदनाशकांची रोटेशन**: \n   - \"प्रोपिकोनाझोल\", \"फेनबुकोनाझोल\" किंवा \"अझोक्सिस्ट्रोबिन\" यांसारख्या फफूंदनाशकांची रोटेशन करा, जेणेकरून फफूंदाच्या प्रतिकाराची वाढ थांबेल.\n\n3. **एकत्रित दृष्टिकोन**: \n   - जैविक उपचारांसह प्रतिबंधात्मक उपाययोजना देखील विचारात घ्या.\n\nआपल्या पिकांच्या आरोग्यासाठी या उपाययोजना लागू करा.",
+        "timestamp": {
+          "$date": "2024-10-14T12:52:21.126Z"
+        }
+      }
+    ],
+    "farmer_id": "nitinlaxmanchaudhari",
+    "farmer_plot_ids": [
+      "chaudharifarm1",
+      "mandirfarm1"
+    ],
+    "conversation_id": "670d133dfc238e8ebbb4ebc8",
+    "tag": "disease_pest",
+    "conv_date": "2024-10-14T12:49:47.335000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "प्लॉटला पाण्याची गरज आहे का?",
+        "timestamp": {
+          "$date": "2024-10-14T12:19:21.773Z"
+        },
+        "standalone_question": "Does the plot need water?",
+        "standalone_en": "Does the plot need water?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": []
+        },
+        "content_transliterated": "plotala panyachi garaj aahe ka?"
+      },
+      {
+        "role": "assistant",
+        "content": "**चौधरी फार्म 1**: सध्या पाण्याची गरज नाही, कारण ताज्या डेटा उपलब्ध नाही.\n\n**मंदिर फार्म 1**: सध्या पाण्याची गरज नाही, कारण मातीतील आर्द्रता 0 kPa आहे, जी आदर्श पाण्याच्या पातळीच्या खाली आहे (18 kPa).",
+        "timestamp": {
+          "$date": "2024-10-14T12:19:31.207Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पुढच्या आठवड्यासाठी माझ्या प्लॉटवर काय फर्टिगेशन शेड्यूल आहे?",
+        "timestamp": {
+          "$date": "2024-10-14T12:19:44.729Z"
+        },
+        "standalone_question": "What is the fertigation schedule for my plot next week?",
+        "standalone_en": "What is the fertigation schedule for my plot next week?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\".",
+            "get_specific_fertigation_requirements  \nFinds the fertigation requirements for the plots with a particular crop stage and week numbers."
+          ],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: Where can I find the fertigation schedule in the Fyllo app?\nA: To access the fertigation schedule:\n    1. Open the Fyllo app\n    2. Select \"My Farm\" at the bottom\n    3. Tap on the \"Fertigation\" option\n   You'll find the fertigation schedule there, including details about the required fertilizer applications.",
+            "Q: How do I generate a fertigation schedule in the app?\nA: To generate a fertigation schedule, follow these steps:\n\n    1. Go to \"My Farm\"\n    2. Select \"Fertigation\"\n    3. Tap \"Create Report\"\n    4. Fill in all the required details\n    5. Save the report\n    If you have soil, leaf, or petiole test data, you can input this for a more customized schedule. Otherwise, we can generate a basic schedule using general crop and regional data.",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available."
+          ]
+        },
+        "content_transliterated": "pudhachya athavadyasathi mazya plotwor kay fertigation schedule aahe?"
+      },
+      {
+        "role": "assistant",
+        "content": "**चौधरी फार्म 1**: सध्या या प्लॉटवर कोणतीही पिके लागवडलेली नाही, त्यामुळे फर्टिगेशन शेड्यूल उपलब्ध नाही.\n\n**मंदिर फार्म 1**: सध्या \"Early vegetative growth\" (पाचवा आठवडा) या अवस्थेत आहे. पुढील आठवड्यात (2024-10-21) फर्टिगेशनसाठी खालील शिफारसी आहेत:\n\n- **फर्टिगेशन पद्धतीने**:\n  1. **फर्टिलायझर**: 12-61-0 (3 किलोग्राम) + युरिया (4.5 किलोग्राम)\n  2. **फर्टिलायझर**: 24-24-0 (8 किलोग्राम) + युरिया (1 किलोग्राम)\n  3. **फर्टिलायझर**: युरिया (5.5 किलोग्राम) + फॉस्फोरिक आम्ल (2.5 किलोग्राम)\n\n- **फोलिअर पद्धतीने**:\n  - **फर्टिलायझर**: झिंक सल्फेट (0.9 किलोग्राम) + फेरस सल्फेट (0.6 किलोग्राम) + मँगनीज सल्फेट (0.7 किलोग्राम)\n\nकृपया या शिफारसींचा वापर करून योग्य फर्टिगेशन करा.",
+        "timestamp": {
+          "$date": "2024-10-14T12:20:13.547Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "माझ्या प्लॉटवर सिगाटोका लीफ स्पॉट येण्याचे किती चान्सेस आहेत आणि त्यासाठी कोणती फवारणी घ्यावी?",
+        "timestamp": {
+          "$date": "2024-10-14T12:20:40.013Z"
+        },
+        "standalone_question": "What are the chances of Sigatoka leaf spot occurring on my plot, and what treatment should I apply for it?",
+        "standalone_en": "What are the chances of Sigatoka leaf spot occurring on my plot, and what treatment should I apply for it?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mazya plotwor sigatoka leaf spot yenyache kiti chances ahet ani tyasathi konati favarani ghyavi?"
+      },
+      {
+        "role": "assistant",
+        "content": "**चौधरी फार्म 1**: सिगाटोका लीफ स्पॉटसाठी कोणतीही माहिती उपलब्ध नाही.\n\n**मंदिर फार्म 1**: सिगाटोका लीफ स्पॉट येण्याची शक्यता 81.3% आहे, जी मध्यम जोखमीच्या श्रेणीत येते. \n\n### फवारणीसाठी शिफारसी:\n- **फवारणी**: \n  - **फंगिसाइड**: बायोफंगिसाइड्स जसे की ट्रायकोडर्मा किंवा बायोफ्लॉरासिल.\n  - **सिंथेटिक फंगिसाइड्स**: कॅराथेन, बायोफ्लॉरासिल किंवा मेटालॅक्सिल.\n\nकृपया या फवारणींचा वापर करून सिगाटोका लीफ स्पॉटच्या जोखमीवर नियंत्रण ठेवा.",
+        "timestamp": {
+          "$date": "2024-10-14T12:20:53.527Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पुढील आठवड्यात प्लॉटवर पावसाची काय स्थिती आहे?",
+        "timestamp": {
+          "$date": "2024-10-14T12:25:14.003Z"
+        },
+        "standalone_question": "What is the weather forecast for rain on the plot next week?",
+        "standalone_en": "What is the weather forecast for rain on the plot next week?",
+        "retrieval": {
+          "tools": [
+            "get_daily_weather_forecast  \nProvides the next 14 days from today, daily weather forecast for the farmer's plots. Use only for forecast, not current values.",
+            "get_hourly_weather_forecast  \nProvides hourly weather forecast for today and the next 4 days for the farmer's plots. Use only for forecast, not actual measured values.",
+            "check_spray_conditions  \nGets the spray condition forecast for the next few hours for the farmer's plots and returns the condition for each hour as GOOD, MODERATE, or WORST, based on deltaT, VPD, and rainfall conditions."
+          ],
+          "faq": []
+        },
+        "content_transliterated": "pudhil athavadyat plotwor pavasachi kay sthiti aahe?"
+      },
+      {
+        "role": "assistant",
+        "content": "**मंदिर फार्म 1** साठी पुढील आठवड्यातील पावसाची स्थिती:\n\n- **21 ऑक्टोबर 2024 (सोमवार)**: 2.2 मिमी पाऊस, 0% पावसाची शक्यता.\n- **22 ऑक्टोबर 2024 (मंगळवार)**: 0.1 मिमी पाऊस, 0% पावसाची शक्यता.\n- **23 ऑक्टोबर 2024 (बुधवार)**: 0 मिमी पाऊस, 0% पावसाची शक्यता.\n- **24 ऑक्टोबर 2024 (गुरुवार)**: 0 मिमी पाऊस, 0% पावसाची शक्यता.\n- **25 ऑक्टोबर 2024 (शुक्रवार)**: 0 मिमी पाऊस, 5% पावसाची शक्यता.\n- **26 ऑक्टोबर 2024 (शनिवार)**: 0 मिमी पाऊस, 5% पावसाची शक्यता.\n- **27 ऑक्टोबर 2024 (रविवार)**: 0 मिमी पाऊस, 0% पावसाची शक्यता.\n\nसारांश: पुढील आठवड्यात कमी पावसाची शक्यता आहे, त्यामुळे पाण्याची गरज लक्षात घेऊन योग्य निर्णय घ्या.",
+        "timestamp": {
+          "$date": "2024-10-14T12:25:31.451Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "रोग ओळखा आणि त्यासाठी फवारणी सुचवा.\"<user uploaded image for analysis at 'mandirfarm1/2024-10-14-1728908937635.jpg'>",
+        "timestamp": {
+          "$date": "2024-10-14T12:28:59.871Z"
+        },
+        "standalone_question": "What disease can be identified from the uploaded image, and what spraying recommendations can be made for it?",
+        "standalone_en": "What disease can be identified from the uploaded image, and what spraying recommendations can be made for it?",
+        "retrieval": {
+          "tools": [
+            "analyse_crop_image  \nGets the analysis of the uploaded crop image for any diseases or pests.",
+            "get_disease_pest_schedule  \nRetrieves the farmer's current and past pesticide-related spray recommendations with spray details, based on dates. Dates are mandatory."
+          ],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: How does the device predict diseases and pests?\nA: It captures data from different parameters using sensors and analyzes it using various agronomical algorithms, including different models for all diseases and pests.\n   Each disease and pest has a specific etymology, which is the suitable environment for its incidence."
+          ]
+        },
+        "content_transliterated": "rog olakha ani tyasathi favarani suchava.\" <user uploaded image for analysis at 'mandirfarm1/2024-10-14-1728908937635.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटवर **केळी**च्या पिकावर **पिवळा आणि काळा सिगाटोका** येण्याची शक्यता आहे. \n\n### लक्षणे:\n- पानांवर पहिल्यांदा तपकिरी ठिपके.\n- पानांच्या शिरांनुसार अरुंद, गडद पट्टे आणि पिवळा हॅलो.\n- मोठ्या नाशक क्षेत्रांचा विकास.\n\n### फवारणीसाठी शिफारसी:\n- **फंगिसाइड्स**: \n  - **मँकोझेब**, **कॅलिक्सिन**, किंवा **क्लोरोथालोनिल** यांचा वापर फोलिअर स्प्रे म्हणून करा, जर रोग पसरलेला नसेल.\n  - **सिस्टमेटिक फंगिसाइड्स**: **प्रोपिकोनाझोल**, **फेनबुकोनाझोल**, किंवा **अझोक्सीस्ट्रोबिन** यांचा वापर करा, आणि त्यांची रोटेशन करा, जेणेकरून फंगसच्या प्रतिकारशक्तीचा विकास होणार नाही.\n\nकृपया या शिफारसींचा वापर करून योग्य फवारणी करा.",
+        "timestamp": {
+          "$date": "2024-10-14T12:29:22.053Z"
+        }
+      }
+    ],
+    "farmer_id": "nitinlaxmanchaudhari",
+    "farmer_plot_ids": [
+      "chaudharifarm1",
+      "mandirfarm1"
+    ],
+    "conversation_id": "670d0c496fcafba84e9aff68",
+    "tag": "disease_pest",
+    "conv_date": "2024-10-14T12:19:21.773000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "प्लॉटला पाण्याची गरज आहे का?",
+        "timestamp": {
+          "$date": "2024-10-14T12:19:21.773Z"
+        },
+        "standalone_question": "Does the plot need water?",
+        "standalone_en": "Does the plot need water?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": []
+        },
+        "content_transliterated": "plotala panyachi garaj aahe ka?"
+      },
+      {
+        "role": "assistant",
+        "content": "**चौधरी फार्म 1**: सध्या पाण्याची गरज नाही, कारण ताज्या डेटा उपलब्ध नाही.\n\n**मंदिर फार्म 1**: सध्या पाण्याची गरज नाही, कारण मातीतील आर्द्रता 0 kPa आहे, जी आदर्श पाण्याच्या पातळीच्या खाली आहे (18 kPa).",
+        "timestamp": {
+          "$date": "2024-10-14T12:19:31.207Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पुढच्या आठवड्यासाठी माझ्या प्लॉटवर काय फर्टिगेशन शेड्यूल आहे?",
+        "timestamp": {
+          "$date": "2024-10-14T12:19:44.729Z"
+        },
+        "standalone_question": "What is the fertigation schedule for my plot next week?",
+        "standalone_en": "What is the fertigation schedule for my plot next week?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\".",
+            "get_specific_fertigation_requirements  \nFinds the fertigation requirements for the plots with a particular crop stage and week numbers."
+          ],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: Where can I find the fertigation schedule in the Fyllo app?\nA: To access the fertigation schedule:\n    1. Open the Fyllo app\n    2. Select \"My Farm\" at the bottom\n    3. Tap on the \"Fertigation\" option\n   You'll find the fertigation schedule there, including details about the required fertilizer applications.",
+            "Q: How do I generate a fertigation schedule in the app?\nA: To generate a fertigation schedule, follow these steps:\n\n    1. Go to \"My Farm\"\n    2. Select \"Fertigation\"\n    3. Tap \"Create Report\"\n    4. Fill in all the required details\n    5. Save the report\n    If you have soil, leaf, or petiole test data, you can input this for a more customized schedule. Otherwise, we can generate a basic schedule using general crop and regional data.",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available."
+          ]
+        },
+        "content_transliterated": "pudhachya athavadyasathi mazya plotwor kay fertigation schedule aahe?"
+      },
+      {
+        "role": "assistant",
+        "content": "**चौधरी फार्म 1**: सध्या या प्लॉटवर कोणतीही पिके लागवडलेली नाही, त्यामुळे फर्टिगेशन शेड्यूल उपलब्ध नाही.\n\n**मंदिर फार्म 1**: सध्या \"Early vegetative growth\" (पाचवा आठवडा) या अवस्थेत आहे. पुढील आठवड्यात (2024-10-21) फर्टिगेशनसाठी खालील शिफारसी आहेत:\n\n- **फर्टिगेशन पद्धतीने**:\n  1. **फर्टिलायझर**: 12-61-0 (3 किलोग्राम) + युरिया (4.5 किलोग्राम)\n  2. **फर्टिलायझर**: 24-24-0 (8 किलोग्राम) + युरिया (1 किलोग्राम)\n  3. **फर्टिलायझर**: युरिया (5.5 किलोग्राम) + फॉस्फोरिक आम्ल (2.5 किलोग्राम)\n\n- **फोलिअर पद्धतीने**:\n  - **फर्टिलायझर**: झिंक सल्फेट (0.9 किलोग्राम) + फेरस सल्फेट (0.6 किलोग्राम) + मँगनीज सल्फेट (0.7 किलोग्राम)\n\nकृपया या शिफारसींचा वापर करून योग्य फर्टिगेशन करा.",
+        "timestamp": {
+          "$date": "2024-10-14T12:20:13.547Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "माझ्या प्लॉटवर सिगाटोका लीफ स्पॉट येण्याचे किती चान्सेस आहेत आणि त्यासाठी कोणती फवारणी घ्यावी?",
+        "timestamp": {
+          "$date": "2024-10-14T12:20:40.013Z"
+        },
+        "standalone_question": "What are the chances of Sigatoka leaf spot occurring on my plot, and what treatment should I apply for it?",
+        "standalone_en": "What are the chances of Sigatoka leaf spot occurring on my plot, and what treatment should I apply for it?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mazya plotwor sigatoka leaf spot yenyache kiti chances ahet ani tyasathi konati favarani ghyavi?"
+      },
+      {
+        "role": "assistant",
+        "content": "**चौधरी फार्म 1**: सिगाटोका लीफ स्पॉटसाठी कोणतीही माहिती उपलब्ध नाही.\n\n**मंदिर फार्म 1**: सिगाटोका लीफ स्पॉट येण्याची शक्यता 81.3% आहे, जी मध्यम जोखमीच्या श्रेणीत येते. \n\n### फवारणीसाठी शिफारसी:\n- **फवारणी**: \n  - **फंगिसाइड**: बायोफंगिसाइड्स जसे की ट्रायकोडर्मा किंवा बायोफ्लॉरासिल.\n  - **सिंथेटिक फंगिसाइड्स**: कॅराथेन, बायोफ्लॉरासिल किंवा मेटालॅक्सिल.\n\nकृपया या फवारणींचा वापर करून सिगाटोका लीफ स्पॉटच्या जोखमीवर नियंत्रण ठेवा.",
+        "timestamp": {
+          "$date": "2024-10-14T12:20:53.527Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पुढील आठवड्यात प्लॉटवर पावसाची काय स्थिती आहे?",
+        "timestamp": {
+          "$date": "2024-10-14T12:25:14.003Z"
+        },
+        "standalone_question": "What is the weather forecast for rain on the plot next week?",
+        "standalone_en": "What is the weather forecast for rain on the plot next week?",
+        "retrieval": {
+          "tools": [
+            "get_daily_weather_forecast  \nProvides the next 14 days from today, daily weather forecast for the farmer's plots. Use only for forecast, not current values.",
+            "get_hourly_weather_forecast  \nProvides hourly weather forecast for today and the next 4 days for the farmer's plots. Use only for forecast, not actual measured values.",
+            "check_spray_conditions  \nGets the spray condition forecast for the next few hours for the farmer's plots and returns the condition for each hour as GOOD, MODERATE, or WORST, based on deltaT, VPD, and rainfall conditions."
+          ],
+          "faq": []
+        },
+        "content_transliterated": "pudhil athavadyat plotwor pavasachi kay sthiti aahe?"
+      },
+      {
+        "role": "assistant",
+        "content": "**मंदिर फार्म 1** साठी पुढील आठवड्यातील पावसाची स्थिती:\n\n- **21 ऑक्टोबर 2024 (सोमवार)**: 2.2 मिमी पाऊस, 0% पावसाची शक्यता.\n- **22 ऑक्टोबर 2024 (मंगळवार)**: 0.1 मिमी पाऊस, 0% पावसाची शक्यता.\n- **23 ऑक्टोबर 2024 (बुधवार)**: 0 मिमी पाऊस, 0% पावसाची शक्यता.\n- **24 ऑक्टोबर 2024 (गुरुवार)**: 0 मिमी पाऊस, 0% पावसाची शक्यता.\n- **25 ऑक्टोबर 2024 (शुक्रवार)**: 0 मिमी पाऊस, 5% पावसाची शक्यता.\n- **26 ऑक्टोबर 2024 (शनिवार)**: 0 मिमी पाऊस, 5% पावसाची शक्यता.\n- **27 ऑक्टोबर 2024 (रविवार)**: 0 मिमी पाऊस, 0% पावसाची शक्यता.\n\nसारांश: पुढील आठवड्यात कमी पावसाची शक्यता आहे, त्यामुळे पाण्याची गरज लक्षात घेऊन योग्य निर्णय घ्या.",
+        "timestamp": {
+          "$date": "2024-10-14T12:25:31.451Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "रोग ओळखा आणि त्यासाठी फवारणी सुचवा.\"<user uploaded image for analysis at 'mandirfarm1/2024-10-14-1728908937635.jpg'>",
+        "timestamp": {
+          "$date": "2024-10-14T12:28:59.871Z"
+        },
+        "standalone_question": "What disease can be identified from the uploaded image, and what spraying recommendations can be made for it?",
+        "standalone_en": "What disease can be identified from the uploaded image, and what spraying recommendations can be made for it?",
+        "retrieval": {
+          "tools": [
+            "analyse_crop_image  \nGets the analysis of the uploaded crop image for any diseases or pests.",
+            "get_disease_pest_schedule  \nRetrieves the farmer's current and past pesticide-related spray recommendations with spray details, based on dates. Dates are mandatory."
+          ],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: How does the device predict diseases and pests?\nA: It captures data from different parameters using sensors and analyzes it using various agronomical algorithms, including different models for all diseases and pests.\n   Each disease and pest has a specific etymology, which is the suitable environment for its incidence."
+          ]
+        },
+        "content_transliterated": "rog olakha ani tyasathi favarani suchava.\" <user uploaded image for analysis at 'mandirfarm1/2024-10-14-1728908937635.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटवर **केळी**च्या पिकावर **पिवळा आणि काळा सिगाटोका** येण्याची शक्यता आहे. \n\n### लक्षणे:\n- पानांवर पहिल्यांदा तपकिरी ठिपके.\n- पानांच्या शिरांनुसार अरुंद, गडद पट्टे आणि पिवळा हॅलो.\n- मोठ्या नाशक क्षेत्रांचा विकास.\n\n### फवारणीसाठी शिफारसी:\n- **फंगिसाइड्स**: \n  - **मँकोझेब**, **कॅलिक्सिन**, किंवा **क्लोरोथालोनिल** यांचा वापर फोलिअर स्प्रे म्हणून करा, जर रोग पसरलेला नसेल.\n  - **सिस्टमेटिक फंगिसाइड्स**: **प्रोपिकोनाझोल**, **फेनबुकोनाझोल**, किंवा **अझोक्सीस्ट्रोबिन** यांचा वापर करा, आणि त्यांची रोटेशन करा, जेणेकरून फंगसच्या प्रतिकारशक्तीचा विकास होणार नाही.\n\nकृपया या शिफारसींचा वापर करून योग्य फवारणी करा.",
+        "timestamp": {
+          "$date": "2024-10-14T12:29:22.053Z"
+        }
+      }
+    ],
+    "farmer_id": "nitinlaxmanchaudhari",
+    "farmer_plot_ids": [
+      "chaudharifarm1",
+      "mandirfarm1"
+    ],
+    "conversation_id": "670d0c496fcafba84e9aff68",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-10-14T12:19:21.773000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "प्लॉटला पाण्याची गरज आहे का?",
+        "timestamp": {
+          "$date": "2024-10-14T12:19:21.773Z"
+        },
+        "standalone_question": "Does the plot need water?",
+        "standalone_en": "Does the plot need water?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": []
+        },
+        "content_transliterated": "plotala panyachi garaj aahe ka?"
+      },
+      {
+        "role": "assistant",
+        "content": "**चौधरी फार्म 1**: सध्या पाण्याची गरज नाही, कारण ताज्या डेटा उपलब्ध नाही.\n\n**मंदिर फार्म 1**: सध्या पाण्याची गरज नाही, कारण मातीतील आर्द्रता 0 kPa आहे, जी आदर्श पाण्याच्या पातळीच्या खाली आहे (18 kPa).",
+        "timestamp": {
+          "$date": "2024-10-14T12:19:31.207Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पुढच्या आठवड्यासाठी माझ्या प्लॉटवर काय फर्टिगेशन शेड्यूल आहे?",
+        "timestamp": {
+          "$date": "2024-10-14T12:19:44.729Z"
+        },
+        "standalone_question": "What is the fertigation schedule for my plot next week?",
+        "standalone_en": "What is the fertigation schedule for my plot next week?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\".",
+            "get_specific_fertigation_requirements  \nFinds the fertigation requirements for the plots with a particular crop stage and week numbers."
+          ],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: Where can I find the fertigation schedule in the Fyllo app?\nA: To access the fertigation schedule:\n    1. Open the Fyllo app\n    2. Select \"My Farm\" at the bottom\n    3. Tap on the \"Fertigation\" option\n   You'll find the fertigation schedule there, including details about the required fertilizer applications.",
+            "Q: How do I generate a fertigation schedule in the app?\nA: To generate a fertigation schedule, follow these steps:\n\n    1. Go to \"My Farm\"\n    2. Select \"Fertigation\"\n    3. Tap \"Create Report\"\n    4. Fill in all the required details\n    5. Save the report\n    If you have soil, leaf, or petiole test data, you can input this for a more customized schedule. Otherwise, we can generate a basic schedule using general crop and regional data.",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available."
+          ]
+        },
+        "content_transliterated": "pudhachya athavadyasathi mazya plotwor kay fertigation schedule aahe?"
+      },
+      {
+        "role": "assistant",
+        "content": "**चौधरी फार्म 1**: सध्या या प्लॉटवर कोणतीही पिके लागवडलेली नाही, त्यामुळे फर्टिगेशन शेड्यूल उपलब्ध नाही.\n\n**मंदिर फार्म 1**: सध्या \"Early vegetative growth\" (पाचवा आठवडा) या अवस्थेत आहे. पुढील आठवड्यात (2024-10-21) फर्टिगेशनसाठी खालील शिफारसी आहेत:\n\n- **फर्टिगेशन पद्धतीने**:\n  1. **फर्टिलायझर**: 12-61-0 (3 किलोग्राम) + युरिया (4.5 किलोग्राम)\n  2. **फर्टिलायझर**: 24-24-0 (8 किलोग्राम) + युरिया (1 किलोग्राम)\n  3. **फर्टिलायझर**: युरिया (5.5 किलोग्राम) + फॉस्फोरिक आम्ल (2.5 किलोग्राम)\n\n- **फोलिअर पद्धतीने**:\n  - **फर्टिलायझर**: झिंक सल्फेट (0.9 किलोग्राम) + फेरस सल्फेट (0.6 किलोग्राम) + मँगनीज सल्फेट (0.7 किलोग्राम)\n\nकृपया या शिफारसींचा वापर करून योग्य फर्टिगेशन करा.",
+        "timestamp": {
+          "$date": "2024-10-14T12:20:13.547Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "माझ्या प्लॉटवर सिगाटोका लीफ स्पॉट येण्याचे किती चान्सेस आहेत आणि त्यासाठी कोणती फवारणी घ्यावी?",
+        "timestamp": {
+          "$date": "2024-10-14T12:20:40.013Z"
+        },
+        "standalone_question": "What are the chances of Sigatoka leaf spot occurring on my plot, and what treatment should I apply for it?",
+        "standalone_en": "What are the chances of Sigatoka leaf spot occurring on my plot, and what treatment should I apply for it?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mazya plotwor sigatoka leaf spot yenyache kiti chances ahet ani tyasathi konati favarani ghyavi?"
+      },
+      {
+        "role": "assistant",
+        "content": "**चौधरी फार्म 1**: सिगाटोका लीफ स्पॉटसाठी कोणतीही माहिती उपलब्ध नाही.\n\n**मंदिर फार्म 1**: सिगाटोका लीफ स्पॉट येण्याची शक्यता 81.3% आहे, जी मध्यम जोखमीच्या श्रेणीत येते. \n\n### फवारणीसाठी शिफारसी:\n- **फवारणी**: \n  - **फंगिसाइड**: बायोफंगिसाइड्स जसे की ट्रायकोडर्मा किंवा बायोफ्लॉरासिल.\n  - **सिंथेटिक फंगिसाइड्स**: कॅराथेन, बायोफ्लॉरासिल किंवा मेटालॅक्सिल.\n\nकृपया या फवारणींचा वापर करून सिगाटोका लीफ स्पॉटच्या जोखमीवर नियंत्रण ठेवा.",
+        "timestamp": {
+          "$date": "2024-10-14T12:20:53.527Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पुढील आठवड्यात प्लॉटवर पावसाची काय स्थिती आहे?",
+        "timestamp": {
+          "$date": "2024-10-14T12:25:14.003Z"
+        },
+        "standalone_question": "What is the weather forecast for rain on the plot next week?",
+        "standalone_en": "What is the weather forecast for rain on the plot next week?",
+        "retrieval": {
+          "tools": [
+            "get_daily_weather_forecast  \nProvides the next 14 days from today, daily weather forecast for the farmer's plots. Use only for forecast, not current values.",
+            "get_hourly_weather_forecast  \nProvides hourly weather forecast for today and the next 4 days for the farmer's plots. Use only for forecast, not actual measured values.",
+            "check_spray_conditions  \nGets the spray condition forecast for the next few hours for the farmer's plots and returns the condition for each hour as GOOD, MODERATE, or WORST, based on deltaT, VPD, and rainfall conditions."
+          ],
+          "faq": []
+        },
+        "content_transliterated": "pudhil athavadyat plotwor pavasachi kay sthiti aahe?"
+      },
+      {
+        "role": "assistant",
+        "content": "**मंदिर फार्म 1** साठी पुढील आठवड्यातील पावसाची स्थिती:\n\n- **21 ऑक्टोबर 2024 (सोमवार)**: 2.2 मिमी पाऊस, 0% पावसाची शक्यता.\n- **22 ऑक्टोबर 2024 (मंगळवार)**: 0.1 मिमी पाऊस, 0% पावसाची शक्यता.\n- **23 ऑक्टोबर 2024 (बुधवार)**: 0 मिमी पाऊस, 0% पावसाची शक्यता.\n- **24 ऑक्टोबर 2024 (गुरुवार)**: 0 मिमी पाऊस, 0% पावसाची शक्यता.\n- **25 ऑक्टोबर 2024 (शुक्रवार)**: 0 मिमी पाऊस, 5% पावसाची शक्यता.\n- **26 ऑक्टोबर 2024 (शनिवार)**: 0 मिमी पाऊस, 5% पावसाची शक्यता.\n- **27 ऑक्टोबर 2024 (रविवार)**: 0 मिमी पाऊस, 0% पावसाची शक्यता.\n\nसारांश: पुढील आठवड्यात कमी पावसाची शक्यता आहे, त्यामुळे पाण्याची गरज लक्षात घेऊन योग्य निर्णय घ्या.",
+        "timestamp": {
+          "$date": "2024-10-14T12:25:31.451Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "रोग ओळखा आणि त्यासाठी फवारणी सुचवा.\"<user uploaded image for analysis at 'mandirfarm1/2024-10-14-1728908937635.jpg'>",
+        "timestamp": {
+          "$date": "2024-10-14T12:28:59.871Z"
+        },
+        "standalone_question": "Identify the disease and recommend a spray for it.",
+        "standalone_en": "Identify the disease and recommend a spray for it.",
+        "retrieval": {
+          "tools": [
+            "get_disease_pest_schedule  \nRetrieves the farmer's current and past pesticide-related spray recommendations with spray details, based on dates. Dates are mandatory."
+          ],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        },
+        "content_transliterated": "rog olakha ani tyasathi favarani suchava.\" <user uploaded image for analysis at 'mandirfarm1/2024-10-14-1728908937635.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटवर **केळी**च्या पिकावर **पिवळा आणि काळा सिगाटोका** येण्याची शक्यता आहे. \n\n### लक्षणे:\n- पानांवर पहिल्यांदा तपकिरी ठिपके.\n- पानांच्या शिरांनुसार अरुंद, गडद पट्टे आणि पिवळा हॅलो.\n- मोठ्या नाशक क्षेत्रांचा विकास.\n\n### फवारणीसाठी शिफारसी:\n- **फंगिसाइड्स**: \n  - **मँकोझेब**, **कॅलिक्सिन**, किंवा **क्लोरोथालोनिल** यांचा वापर फोलिअर स्प्रे म्हणून करा, जर रोग पसरलेला नसेल.\n  - **सिस्टमेटिक फंगिसाइड्स**: **प्रोपिकोनाझोल**, **फेनबुकोनाझोल**, किंवा **अझोक्सीस्ट्रोबिन** यांचा वापर करा, आणि त्यांची रोटेशन करा, जेणेकरून फंगसच्या प्रतिकारशक्तीचा विकास होणार नाही.\n\nकृपया या शिफारसींचा वापर करून योग्य फवारणी करा.",
+        "timestamp": {
+          "$date": "2024-10-14T12:29:22.053Z"
+        }
+      }
+    ],
+    "farmer_id": "nitinlaxmanchaudhari",
+    "farmer_plot_ids": [
+      "chaudharifarm1",
+      "mandirfarm1"
+    ],
+    "conversation_id": "670d0c496fcafba84e9aff68",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-10-14T12:19:21.773000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "बॅटरी चार्जिंग आहे का",
+        "timestamp": {
+          "$date": "2024-10-14T08:55:14.192Z"
+        },
+        "standalone_question": "Is the battery charging?",
+        "standalone_en": "Is the battery charging?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "battery charging aahe ka"
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या प्लॉट्सची बॅटरी चार्जिंग स्थिती खालीलप्रमाणे आहे:\n\n1. **Kali Mandap**: 47%\n2. **Pabha H**: 52%\n3. **Y Plot 1 acra**: 35%\n\nकाही प्लॉट्समध्ये बॅटरी चार्ज कमी आहे, त्यामुळे त्यांना चार्जिंगची आवश्यकता असू शकते.",
+        "timestamp": {
+          "$date": "2024-10-14T08:55:26.214Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "सेंसरकाम व्यवस्तीत चालू आहे का",
+        "timestamp": {
+          "$date": "2024-10-14T08:56:53.939Z"
+        },
+        "standalone_question": "Is the sensor functioning properly?",
+        "standalone_en": "Is the sensor functioning properly?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How do I know if my soil  moisture sensor is working fine ?\nA: The only way to know is if after irrigation the sensor is dropping below 5 kpa and increasing continuously unless next irrigation is done. You can try putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. Also, a soil moisture reading of 0 kPa is perfectly fine, meaning wet soil, but a reading of 200 kPa could mean fault. If the soil moisture sensor reading is consistently at 0 from few 48 hours, then it could be anamolous (use live and historical hourly soil moisture data (use tool) to validate)."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "सर्व प्लॉट्सच्या सेंसर व्यवस्थित कार्यरत आहेत. खालीलप्रमाणे डेटा उपलब्ध आहे:\n\n1. **Kali Mandap**:\n   - मातीचे तापमान: 26.19°C\n   - मातीची आर्द्रता: 0 kPa (ओलसर)\n   - बॅटरी: 47%\n\n2. **Pabha H**:\n   - मातीचे तापमान: 26.37°C\n   - मातीची आर्द्रता: 0 kPa (ओलसर)\n   - बॅटरी: 52%\n\n3. **Y Plot 1 acra**:\n   - मातीचे तापमान: 25.37°C\n   - मातीची आर्द्रता: 0 kPa (ओलसर)\n   - बॅटरी: 35%\n\nसर्व सेंसर कार्यरत आहेत आणि माती ओलसर आहे.",
+        "timestamp": {
+          "$date": "2024-10-14T08:57:18.856Z"
+        }
+      }
+    ],
+    "farmer_id": "prakashhrirampatil",
+    "farmer_plot_ids": [
+      "kalibabalu",
+      "pabhah",
+      "yplotacra"
+    ],
+    "conversation_id": "670cdc726975f251c3f18549",
+    "tag": "others",
+    "conv_date": "2024-10-14T08:55:14.192000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "mere plot mai male flowers jata hai",
+        "timestamp": {
+          "$date": "2024-10-14T08:23:08.841Z"
+        },
+        "standalone_question": "Do male flowers grow on the plot?",
+        "standalone_en": "Do male flowers grow on the plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Agar aapke watermelon ke plot mein sirf male flowers aa rahe hain, toh yeh kuch karanon ki wajah se ho sakta hai:\n\n1. **Genetics**: Kuch watermelon ki varieties mein male flowers zyada hote hain, jo ki ek prakriya hai.\n\n2. **Environmental Factors**: Temperature, humidity, aur light conditions bhi flower development ko prabhavit karte hain. Agar din ka temperature bahut zyada hai ya raat ka temperature bahut kam hai, toh yeh male flowers ki sankhya ko badha sakta hai.\n\n3. **Nutrient Imbalance**: Agar aapke soil mein nitrogen ka matra zyada hai, toh yeh male flowers ko badhava de sakta hai. \n\n4. **Watering Practices**: Overwatering ya underwatering bhi flower development ko prabhavit kar sakta hai.\n\nAapko yeh dekhna hoga ki kya aapke plot mein inme se koi bhi samasya hai. Agar aapko female flowers ki zarurat hai, toh aapko pollination ke liye male flowers ki bhi zarurat hogi, lekin female flowers ki sankhya badhane ke liye aapko in factors par dhyan dena hoga. \n\nAgar aapko aur madad chahiye, toh aap mujhe specific details de sakte hain.",
+        "timestamp": {
+          "$date": "2024-10-14T08:23:28.254Z"
+        }
+      }
+    ],
+    "farmer_id": "prashantchaudhari",
+    "farmer_plot_ids": [
+      "watermelonsavkar"
+    ],
+    "conversation_id": "670cd4ec645b2aa28a176cd1",
+    "tag": "disease_pest",
+    "conv_date": "2024-10-14T08:23:08.841000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "सुधाकर मध्ये सेंन्सर बसवेल आहे ssn मध्ये सेन्सर न बसवता पाणि सोडून छाटणी तारीख टाकुन रोगा बददल माहीती मिळेल का",
+        "timestamp": {
+          "$date": "2024-10-14T06:24:16.570Z"
+        },
+        "standalone_question": "Can information about the disease be obtained by entering the cutting date without installing a sensor in the SSN?",
+        "standalone_en": "Can information about the disease be obtained by entering the cutting date without installing a sensor in the SSN?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "sudhakar madhye sennser buswell aahe ssn madhye sensor n basavata pani sodun chhatani tarikh takun roga badadal mahiti milel ka"
+      },
+      {
+        "role": "assistant",
+        "content": "सुधाकर प्लॉटमध्ये सेन्सर बसविल्यास तुम्हाला पाण्याची आवश्यकता, छाटणीची तारीख, आणि रोगांबद्दल माहिती मिळवता येईल. परंतु, Ssn प्लॉटमध्ये सेन्सर नसल्यामुळे तिथे पाण्याची आवश्यकता आणि रोगांची माहिती मिळवता येणार नाही. \n\nतुम्हाला सुधाकर प्लॉटसाठी छाटणीची तारीख आणि रोगांबद्दल माहिती हवी असल्यास, कृपया सांगा.",
+        "timestamp": {
+          "$date": "2024-10-14T06:24:22.286Z"
+        }
+      }
+    ],
+    "farmer_id": "sachinbjadhav",
+    "farmer_plot_ids": [
+      "ssn1665999719350",
+      "sudhakarplotno4"
+    ],
+    "conversation_id": "670cb9106b2b0d8edabc1fda",
+    "tag": "disease_pest",
+    "conv_date": "2024-10-14T06:24:16.570000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पानी कधी दीले होतो",
+        "timestamp": {
+          "$date": "2024-10-14T06:17:52.302Z"
+        },
+        "standalone_question": "When was the water given?",
+        "standalone_en": "When was the water given?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "**Ssn Plot**: \n- There have been no irrigation events recorded.\n\n**Sudhkaar Plot No.4**: \n- The last irrigation was done on **October 8, 2024**. \n- Other recent irrigation dates include:\n  - September 21, 2024\n  - August 21, 2024\n  - August 1, 2024\n  - July 24, 2024\n  - July 17, 2024\n\nIf you need more details or assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-10-14T06:18:03.779Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ssN Plot कसा ऍड करता येईल",
+        "timestamp": {
+          "$date": "2024-10-14T06:19:08.154Z"
+        },
+        "standalone_question": "How can I add an SSN plot?",
+        "standalone_en": "How can I add an SSN plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ssN Plot kasa ad karta yeil"
+      },
+      {
+        "role": "assistant",
+        "content": "Ssn Plot ऍड करण्यासाठी, तुम्हाला खालील प्रक्रिया पूर्ण करावी लागेल:\n\n1. **प्लॉट माहिती**: प्लॉटचे नाव, स्थान, मातीचा प्रकार, क्षेत्रफळ, आणि पिकाची माहिती (जसे की पिकाचे नाव, लागवड तारीख इ.) एकत्रित करा.\n\n2. **सेंसर सेटअप**: प्लॉटवर योग्य ठिकाणी सेंसर स्थापित करा. हे सुनिश्चित करा की सेंसर मातीच्या विविधतेनुसार योग्य ठिकाणी आहे.\n\n3. **सॉफ्टवेअर वापर**: Fyllo च्या अॅप किंवा वेबसाइटवर लॉगिन करा. तिथे \"प्लॉट ऍड करा\" किंवा \"नवीन प्लॉट तयार करा\" या पर्यायावर क्लिक करा.\n\n4. **माहिती भरा**: वरील सर्व माहिती योग्य प्रकारे भरा आणि सबमिट करा.\n\n5. **सत्यापन**: तुमच्या प्लॉटची माहिती सबमिट केल्यानंतर, ती सत्यापित केली जाईल. \n\nजर तुम्हाला अधिक मदतीची आवश्यकता असेल, तर कृपया सांगा!",
+        "timestamp": {
+          "$date": "2024-10-14T06:19:23.066Z"
+        }
+      }
+    ],
+    "farmer_id": "sachinbjadhav",
+    "farmer_plot_ids": [
+      "ssn1665999719350",
+      "sudhakarplotno4"
+    ],
+    "conversation_id": "670cb78f62a44c4845c0745a",
+    "tag": "others",
+    "conv_date": "2024-10-14T06:17:52.302000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "hi",
+        "timestamp": {
+          "$date": "2024-10-14T02:49:31.827Z"
+        },
+        "standalone_question": "What would you like to talk about?",
+        "standalone_en": "What would you like to talk about?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "नमस्कार, दादासो! तुम्हाला कशाबद्दल मदतीची आवश्यकता आहे?",
+        "timestamp": {
+          "$date": "2024-10-14T02:49:35.560Z"
+        }
+      }
+    ],
+    "farmer_id": "dadasojagtaptarapur",
+    "farmer_plot_ids": [
+      "manikchamanplot508"
+    ],
+    "conversation_id": "670c86bb645b2aa28a176ccf",
+    "tag": "others",
+    "conv_date": "2024-10-14T02:49:31.827000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "नविन सिझन ऍड कसा करावा ",
+        "timestamp": {
+          "$date": "2024-10-14T02:23:45.879Z"
+        },
+        "standalone_question": "How to add a new season?",
+        "standalone_en": "How to add a new season?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "navin sijhan ed kasa karava "
+      },
+      {
+        "role": "assistant",
+        "content": "नवीन सिझन ऍड करण्यासाठी, तुम्हाला खालील गोष्टींची आवश्यकता आहे:\n\n1. **प्लॉटची माहिती**: तुमच्या प्लॉटची माहिती जसे की प्लॉट नाव, स्थान, मातीचा प्रकार, क्षेत्रफळ इत्यादी.\n2. **पिकाची माहिती**: तुम्ही कोणते पीक पिकवणार आहात, त्याची विविधता, आणि पिकाची लागवड तारीख.\n3. **पिकाच्या टप्प्यांची माहिती**: पिकाच्या विविध टप्प्यांची माहिती जसे की पिकाची सुरुवात, सक्रिय टप्पा, आणि आगामी टप्पे.\n\nतुमच्या प्लॉटसाठी नवीन सिझन ऍड करण्यासाठी तुम्हाला या माहितीची आवश्यकता असेल. तुम्ही तुमच्या प्लॉटसाठी कोणते पीक निवडले आहे आणि त्याची माहिती द्या, म्हणजे मी तुम्हाला अधिक मदत करू शकेन.",
+        "timestamp": {
+          "$date": "2024-10-14T02:23:52.030Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "द्राक्षे ",
+        "timestamp": {
+          "$date": "2024-10-14T02:24:11.040Z"
+        },
+        "standalone_question": "What type of crop are you planning to grow?",
+        "standalone_en": "What type of crop are you planning to grow?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Which crop or variety is best suited for farming? Which variety is more profitable, gives the highest yield, or offers better resistance to pests and diseases? Best crops/varieties in my village/locality area. Best crop/crop variety in state.\nA: The best crop variety depends on multiple factors like soil type, climate, pest resistance, and market demand. However, selecting the **right variety for your specific farm requires expert consultation.** Farming success depends on local conditions, so it’s best to get personalized advice. For precise recommendations, please contact the expert agronomy team. Please consult our CRM team for more Agronomy related information.",
+            "Q: What are the crops that are generally supported by Fyllo?\nA: Fyllo has crop models for more than 30 crops including horticulture crops , plantation crops, cash crops and few food grains.\n   List of crops supported: Apple, Banana, Grapes, Guava, Kinnow/citrus, Pomegranate, Tea, Capsicum, Chilli, Tomato, Cotton, Cucumber, Potato, Musk melon, Water melon, Papaya, Betel vine, Ber, Blueberry, Custard apple, Fig , kivi, Litchi, Peach, Pear, Plum, Strawberry, Date palm, Mango , Dragon, Coffee, Avocado, Rubber, Teak, Coconut, Beans, Cabbage, Cauliflower, Drumstick, Ginger, Okra, Gherkins, Onion, Brinjal, Bitter Gourd, Bottle gourd, Paddy Upland, Pearl millet, Peas, Sugarcane, Tobacco, Wheat, Groundnut, Seasamum, Gerbera, Marigold, Rose.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate."
+          ]
+        },
+        "content_transliterated": "drakshe "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटसाठी द्राक्षे (थॉम्पसन) पिकाची नवीन सिझन ऍड करण्यासाठी, तुम्हाला खालील माहिती द्यावी लागेल:\n\n1. **प्लॉट नाव**: प्लॉट नंबर 1 थॉम्पसन\n2. **स्थान**: कसबे सुकने, निफाड, नाशिक, महाराष्ट्र\n3. **मातीचा प्रकार**: क्ले लोम\n4. **क्षेत्रफळ**: 1 एकर\n5. **लागवड तारीख**: तुम्ही द्राक्षांची लागवड कधी करणार आहात?\n6. **पिकाच्या टप्प्यांची माहिती**: तुम्हाला कोणते टप्पे (जसे की फाउंडेशन प्रुनिंग, ब्रेक बड इ.) समाविष्ट करायचे आहेत?\n\nकृपया वरील माहिती द्या, म्हणजे मी तुम्हाला नवीन सिझन ऍड करण्यास मदत करू शकेन.",
+        "timestamp": {
+          "$date": "2024-10-14T02:24:18.556Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "माल छाटणी ",
+        "timestamp": {
+          "$date": "2024-10-14T02:24:47.157Z"
+        },
+        "standalone_question": "What is the process for pruning grapes?",
+        "standalone_en": "What is the process for pruning grapes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "maal chatni "
+      },
+      {
+        "role": "assistant",
+        "content": "द्राक्षांच्या पिकासाठी \"माल छाटणी\" (Foundation Pruning) हा टप्पा सध्या सुरू आहे. तुम्ही या टप्प्यात खालील गोष्टींचा विचार करू शकता:\n\n1. **छाटणीची पद्धत**: योग्य पद्धतीने छाटणी करणे आवश्यक आहे, ज्यामुळे द्राक्षांच्या उत्पादनात सुधारणा होईल.\n2. **साधने**: छाटणीसाठी योग्य साधने वापरा, जसे की कात्री, चाकू इत्यादी.\n3. **सुरक्षा**: छाटणी करताना सुरक्षा साधने वापरणे महत्त्वाचे आहे.\n\nतुम्हाला या टप्प्यात अधिक माहिती किंवा मार्गदर्शन हवे असल्यास, कृपया सांगा.",
+        "timestamp": {
+          "$date": "2024-10-14T02:24:53.697Z"
+        }
+      }
+    ],
+    "farmer_id": "rahulmore773",
+    "farmer_plot_ids": [
+      "plotno1thompson504"
+    ],
+    "conversation_id": "670c80b1645b2aa28a176cce",
+    "tag": "others",
+    "conv_date": "2024-10-14T02:23:45.879000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "અત્યારે દવા નો સ્પ્રે કરવો યોગ્ય સમય છે...",
+        "timestamp": {
+          "$date": "2024-10-14T01:38:34.494Z"
+        },
+        "standalone_question": "Is it the right time to use the medicine spray now?",
+        "standalone_en": "Is it the right time to use the medicine spray now?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        },
+        "content_transliterated": "atyare dava no spray karavo yogy samay che..."
+      },
+      {
+        "role": "assistant",
+        "content": "**Plot: Plot 4 (Pantiya, Anjar, Kachchh, Gujarat)**\n\nCurrently, the conditions for spraying are not favorable. Here’s the forecast for today:\n\n- **07:30 AM**: WORST\n- **08:30 AM**: WORST\n- **09:30 AM**: WORST\n- **10:30 AM**: IDEAL\n- **11:30 AM**: IDEAL\n- **12:30 PM**: IDEAL\n- **01:30 PM**: IDEAL\n- **02:30 PM**: IDEAL\n- **03:30 PM**: IDEAL\n- **04:30 PM**: WORST\n- **05:30 PM**: WORST\n- **06:30 PM**: IDEAL\n- **07:30 PM**: WORST\n- **08:30 PM**: WORST\n- **09:30 PM**: MODERATE\n\n**Recommendation**: You can spray between **10:30 AM and 03:30 PM** and again at **06:30 PM** when conditions are ideal.\n\n**Plot: Plot 2 (Lohariya Nana, Anjar, Kachchh, Gujarat)**\n\nUnfortunately, I was unable to check the spray conditions for this plot. Please check the conditions manually or try again later.\n\nIf you have any further questions or need assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-10-14T01:38:49.997Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ગુજરાતી માં લખો ",
+        "timestamp": {
+          "$date": "2024-10-14T01:39:26.545Z"
+        },
+        "standalone_question": "Could you please write in Gujarati?",
+        "standalone_en": "Could you please write in Gujarati?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "gujarati man lakho "
+      },
+      {
+        "role": "assistant",
+        "content": "**પ્લોટ: પ્લોટ 4 (પાંટિયા, અંજાર, કચ્છ, ગુજરાત)**\n\nહાલમાં, દવા સ્પ્રે કરવા માટેની પરિસ્થિતિઓ અનુકૂળ નથી. આજે માટેનો આગાહી આ પ્રમાણે છે:\n\n- **07:30 AM**: WORST\n- **08:30 AM**: WORST\n- **09:30 AM**: WORST\n- **10:30 AM**: IDEAL\n- **11:30 AM**: IDEAL\n- **12:30 PM**: IDEAL\n- **01:30 PM**: IDEAL\n- **02:30 PM**: IDEAL\n- **03:30 PM**: IDEAL\n- **04:30 PM**: WORST\n- **05:30 PM**: WORST\n- **06:30 PM**: IDEAL\n- **07:30 PM**: WORST\n- **08:30 PM**: WORST\n- **09:30 PM**: MODERATE\n\n**સૂચન**: તમે **10:30 AM થી 03:30 PM** વચ્ચે અને ફરી **06:30 PM** પર સ્પ્રે કરી શકો છો, જ્યારે પરિસ્થિતિઓ અનુકૂળ છે.\n\n**પ્લોટ: પ્લોટ 2 (લોહરિયા નાણા, અંજાર, કચ્છ, ગુજરાત)**\n\nદુર્ભાગ્યવશ, હું આ પ્લોટ માટે સ્પ્રેની પરિસ્થિતિઓ ચકાસી શક્યો નથી. કૃપા કરીને પરિસ્થિતિઓને મેન્યુઅલી ચકાસો અથવા પછીથી ફરી પ્રયાસ કરો.\n\nજો તમને વધુ પ્રશ્નો હોય અથવા મદદની જરૂર હોય, તો પૂછવા માટે નિઃસંકોચ રહો!",
+        "timestamp": {
+          "$date": "2024-10-14T01:39:42.857Z"
+        }
+      }
+    ],
+    "farmer_id": "mayurbhai370",
+    "farmer_plot_ids": [
+      "pomegranate1",
+      "pomegranate3"
+    ],
+    "conversation_id": "670c761a645b2aa28a176ccd",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-10-14T01:38:34.494000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पाऊसात काय स्प्रे घ्यावेत ",
+        "timestamp": {
+          "$date": "2024-10-14T01:26:18.208Z"
+        },
+        "standalone_question": "What spray should be used in the rain?",
+        "standalone_en": "What spray should be used in the rain?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pausat kay spray ghyavet "
+      },
+      {
+        "role": "assistant",
+        "content": "पाऊसात स्प्रे घेण्याची स्थिती चांगली नसते, कारण पाऊसामुळे स्प्रेचे प्रभाव कमी होऊ शकते. तरीही, जर तुम्हाला पिकांवर रोग किंवा कीड नियंत्रणासाठी स्प्रे करायचे असेल, तर तुम्ही खालील गोष्टींचा विचार करू शकता:\n\n1. **फोलिअर स्प्रे**: पाण्याच्या प्रमाणात कमी असलेल्या फोलिअर स्प्रेचा वापर करा, जेणेकरून पाण्यामुळे तो कमी प्रभावी होणार नाही.\n2. **रोग नियंत्रण**: पावसाळ्यात सामान्यतः बॅक्टेरियल आणि फंगल रोगांचा प्रकोप वाढतो, त्यामुळे त्यावर नियंत्रण ठेवण्यासाठी योग्य औषधांचा वापर करा.\n3. **किड नियंत्रण**: पावसाळ्यात काही कीडांचा प्रकोप वाढतो, त्यामुळे त्यांच्यावर नियंत्रण ठेवण्यासाठी योग्य कीटकनाशकांचा वापर करा.\n\nतुमच्या पिकांच्या स्थितीवर आधारित योग्य स्प्रे निवडणे महत्त्वाचे आहे. पाऊस थांबल्यानंतर स्प्रे करणे अधिक प्रभावी ठरते.",
+        "timestamp": {
+          "$date": "2024-10-14T01:26:23.554Z"
+        }
+      }
+    ],
+    "farmer_id": "ravindranadhudokhale",
+    "farmer_plot_ids": [
+      "plotno1mamajambosgf"
+    ],
+    "conversation_id": "670c733abb3d5b214db3391b",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-10-14T01:26:18.208000+00:00"
+  }
+]

@@ -1,0 +1,412 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ful setting",
+        "timestamp": {
+          "$date": "2024-12-12T15:58:44.958Z"
+        },
+        "standalone_question": "What is the full setting?",
+        "standalone_en": "What is the full setting?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the irrigation installation settings for your plot \"Clone plot no.1\":\n\n- **Root Width:** 48 inches\n- **Root Depth:** 20 inches\n- **Soil Retention:** 170 mm\n- **Dripper Distance:** 1 mm\n- **Dripper Discharge:** 8 liters\n\nIf you need further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-12-12T15:58:52.517Z"
+        }
+      }
+    ],
+    "farmer_id": "prashantkisankumathesirsal",
+    "farmer_plot_ids": [
+      "clonprashnatkumathesirsal"
+    ],
+    "conversation_id": "675b0834270840bc18e07e75",
+    "tag": "others",
+    "conv_date": "2024-12-12T15:58:44.958000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Plot no 2 var current data kay ahe",
+        "timestamp": {
+          "$date": "2024-12-12T12:50:39.627Z"
+        },
+        "standalone_question": "What is the current data for plot number 2?",
+        "standalone_en": "What is the current data for plot number 2?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Plot No.2 चा सध्याचा डेटा खालीलप्रमाणे आहे:\n\n- **मातीचा तापमान**: 19.81°C\n- **मातीची आर्द्रता 1**: 27 kPa (सध्या माती थोडी ओलसर आहे)\n- **मातीची आर्द्रता 2**: 19 kPa (सध्या माती थोडी ओलसर आहे)\n- **बॅटरी**: 73%\n- **Vi**: 7\n\nकृपया आणखी काही माहिती हवी असल्यास सांगा!",
+        "timestamp": {
+          "$date": "2024-12-12T12:50:45.569Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Plot no 2 vàr 6,21 vajtache reading kay ahe",
+        "timestamp": {
+          "$date": "2024-12-12T12:52:25.031Z"
+        },
+        "standalone_question": "What are the readings for Plot No. 2 at 6:21?",
+        "standalone_en": "What are the readings for Plot No. 2 at 6:21?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Plot No.2 वर 12 डिसेंबर 2024 रोजी 6:21 वाजता कोणतीही वृष्टी झाली नाही. \n\nकृपया आणखी काही माहिती हवी असल्यास सांगा!",
+        "timestamp": {
+          "$date": "2024-12-12T12:52:30.748Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Plot no 2 var 6'23 vajtache moisture kase ahe ",
+        "timestamp": {
+          "$date": "2024-12-12T12:53:39.281Z"
+        },
+        "standalone_question": "What is the moisture level at Plot No. 2 at 6:23?",
+        "standalone_en": "What is the moisture level at Plot No. 2 at 6:23?",
+        "retrieval": {
+          "tools": [
+            "get_soil_moisture_sensor_depth  \nReturns the depths in inches of the soil moisture sensors 1 and 2 installed on the plots.",
+            "get_soil_moisture_percentage_from_kpa_reading  \nGets the estimated soil moisture percentage for a given plot and kPa reading.",
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range."
+          ],
+          "faq": [
+            "Q: The moisture (kpa) is increasing slowly recently.\nA: Need to check for current stage and evapotranspiration rate. If the crop is recently sown or pruning (छंटाई)  is done recently, the transpiration will be slow and moisture kpa will increase slowly. If evaporation is slow or temperature have dropped on rainfall has happened, it will increase slowly. The chatbot needs to check the temperature , rainfall and crop stage data. And advise if there is any reason for the slow increase.\nIf still there is some confusion, the chatbot needs to ask user to check moisture around the sensor by digging and then ask  the user if he wants to create an issue ticket for the same."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Plot No.2 वर 12 डिसेंबर 2024 रोजी 6:23 वाजता मातीची आर्द्रता खालीलप्रमाणे आहे:\n\n- **मातीची आर्द्रता 1 (SM1)**: 27 kPa\n- **मातीची आर्द्रता 2 (SM2)**: 19 kPa\n\nकृपया आणखी काही माहिती हवी असल्यास सांगा!",
+        "timestamp": {
+          "$date": "2024-12-12T12:53:44.890Z"
+        }
+      }
+    ],
+    "farmer_id": "sunilpatil",
+    "farmer_plot_ids": [
+      "plotno1653",
+      "plotno2841",
+      "plotno3sonaka692",
+      "plotno4thompson758"
+    ],
+    "conversation_id": "675adc1e270840bc18e07e74",
+    "tag": "historical data",
+    "conv_date": "2024-12-12T12:50:39.627000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Plot no2var network kase ahe ",
+        "timestamp": {
+          "$date": "2024-12-12T12:24:40.794Z"
+        },
+        "standalone_question": "What is the status of plot number 2var network?",
+        "standalone_en": "What is the status of plot number 2var network?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Plot No.2 (Pandane, Dindori, Nashik, Maharashtra) has a Nero device installed for irrigation management. This device is specifically designed to cover the plot where it is installed, ensuring precise irrigation practices for the grapes being cultivated. \n\nIf you need more specific information or assistance regarding the network or device, please let me know!",
+        "timestamp": {
+          "$date": "2024-12-12T12:24:43.967Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Plot no 2 var moisture kase ahe ",
+        "timestamp": {
+          "$date": "2024-12-12T12:25:04.087Z"
+        },
+        "standalone_question": "What is the moisture level like at Plot No. 2?",
+        "standalone_en": "What is the moisture level like at Plot No. 2?",
+        "retrieval": {
+          "tools": [
+            "get_soil_moisture_sensor_depth  \nReturns the depths in inches of the soil moisture sensors 1 and 2 installed on the plots.",
+            "get_soil_moisture_percentage_from_kpa_reading  \nGets the estimated soil moisture percentage for a given plot and kPa reading.",
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Plot No.2 has the following soil moisture readings:\n\n- **Soil Moisture Sensor 1:** 27 kPa (wet)\n- **Soil Moisture Sensor 2:** 19 kPa (wet)\n\nBoth readings indicate that the soil is currently wet, which is a good condition for the grapes being cultivated. If you have any further questions or need assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-12-12T12:25:09.526Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Plot no 2 var divice data pathvat nahi",
+        "timestamp": {
+          "$date": "2024-12-12T12:25:59.252Z"
+        },
+        "standalone_question": "Why is the device data not being sent from Plot No. 2?",
+        "standalone_en": "Why is the device data not being sent from Plot No. 2?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Plot No.2 has the following live sensor data:\n\n- **Soil Temperature:** 19.81°C\n- **Soil Moisture Sensor 1:** 27 kPa (wet)\n- **Soil Moisture Sensor 2:** 19 kPa (wet)\n- **Battery Percentage:** 73%\n- **Vi (Voltage Indicator):** 7\n\nThe moisture readings indicate that the soil is currently wet, which is favorable for the grape crop. If you need any further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-12-12T12:26:05.819Z"
+        }
+      }
+    ],
+    "farmer_id": "sunilpatil",
+    "farmer_plot_ids": [
+      "plotno1653",
+      "plotno2841",
+      "plotno3sonaka692",
+      "plotno4thompson758"
+    ],
+    "conversation_id": "675ad60889a75aeec1b388b4",
+    "tag": "complaints",
+    "conv_date": "2024-12-12T12:24:40.794000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Diesis name",
+        "timestamp": {
+          "$date": "2024-12-12T11:45:31.465Z"
+        },
+        "standalone_question": "What is the meaning of the name \"Diesis\"?",
+        "standalone_en": "What is the meaning of the name \"Diesis\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The active disease stage for your potato crop is \"Vegetative growth.\" If you need specific information about diseases affecting potatoes or any other details, please let me know!",
+        "timestamp": {
+          "$date": "2024-12-12T11:45:34.583Z"
+        }
+      }
+    ],
+    "farmer_id": "FR7009",
+    "farmer_plot_ids": [
+      "chhelufarm"
+    ],
+    "conversation_id": "675accd8407f69bacc6a7e88",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-12T11:45:31.465000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "ઈયળ હોય તો જણાવશો ",
+        "timestamp": {
+          "$date": "2024-12-12T07:31:04.047Z"
+        },
+        "standalone_question": "If there is a caterpillar, please let me know.",
+        "standalone_en": "If there is a caterpillar, please let me know.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "iyal hoy to janavasho "
+      },
+      {
+        "role": "assistant",
+        "content": "માફ કરશો, પરંતુ ઈયળ માટેના કોઈપણ પેસ્ટ મેટ્રિક્સ ઉપલબ્ધ નથી. જો તમને વધુ માહિતી જોઈએ તો કૃપા કરીને જણાવો.",
+        "timestamp": {
+          "$date": "2024-12-12T07:31:09.552Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ક્લોરોપાયરી ફોર્સ દવાનો છંટકાવ કરૂ",
+        "timestamp": {
+          "$date": "2024-12-12T07:32:04.653Z"
+        },
+        "standalone_question": "Can I spray Chlorpyrifos?",
+        "standalone_en": "Can I spray Chlorpyrifos?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice."
+          ]
+        },
+        "content_transliterated": "kloropayari force davano chantakav karu"
+      },
+      {
+        "role": "assistant",
+        "content": "આજે, 12 ડિસેમ્બર 2024, \"હિરાવલોપ્લોટનેરો\" પર ક્લોરોપાયરીફોસ છંટકાવ કરવાની ભલામણ નથી. પરંતુ, માઇટ્સ અને રેડ સ્પાઇડર માઇટ્સ માટે, તમે નીચેના દવાઓમાંથી કોઈપણ છંટકાવ કરી શકો છો:\n\n1. **ક્લોરફેનેપિર 10 SC** - 1 મીલીલિટર\n2. **પ્રોપર્ગાઇટ 42% + હેક્સિથિયાઝોક 2% EC** - 2.5 મીલીલિટર\n3. **સાયેનોપાયરફેન 30 SC** - 0.6 મીલીલિટર\n\nઆ દવાઓને ફોલિયર રીતે છંટકાવવું.",
+        "timestamp": {
+          "$date": "2024-12-12T07:32:12.297Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "એન્ટ્રો કોલ દવાનો છંટકાવ કરૂ",
+        "timestamp": {
+          "$date": "2024-12-12T07:32:56.155Z"
+        },
+        "standalone_question": "Should I apply the Entrocol pesticide?",
+        "standalone_en": "Should I apply the Entrocol pesticide?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice."
+          ]
+        },
+        "content_transliterated": "entro coal davano chantakav karu"
+      },
+      {
+        "role": "assistant",
+        "content": "આજે, 12 ડિસેમ્બર 2024, \"હિરાવલોપ્લોટનેરો\" પર એન્ટ્રો કોલ છંટકાવ કરવાની ભલામણ નથી. પરંતુ, માઇટ્સ અને રેડ સ્પાઇડર માઇટ્સ માટે, તમે નીચેના દવાઓમાંથી કોઈપણ છંટકાવ કરી શકો છો:\n\n1. **ક્લોરફેનેપિર 10 SC** - 1 મીલીલિટર\n2. **પ્રોપર્ગાઇટ 42% + હેક્સિથિયાઝોક 2% EC** - 2.5 મીલીલિટર\n3. **સાયેનોપાયરફેન 30 SC** - 0.6 મીલીલિટર\n\nઆ દવાઓને ફોલિયર રીતે છંટકાવવું.",
+        "timestamp": {
+          "$date": "2024-12-12T07:33:02.039Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "હિમ અને વધુ પડતી ઠંડીથી પાકને બચાવવા માટે કઈ દવા છાંટવી",
+        "timestamp": {
+          "$date": "2024-12-12T07:34:09.015Z"
+        },
+        "standalone_question": "What pesticide should be sprayed to protect crops from frost and excessive cold?",
+        "standalone_en": "What pesticide should be sprayed to protect crops from frost and excessive cold?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: which are the insecticide and fungicide to be used for seed treatment\nA: Insecticide:  Imidacloprid 600 FS – 5 to 8 ml/kg seeds\nFungicide: Thiram – 2 to 3 gm/kg seed"
+          ]
+        },
+        "content_transliterated": "him ane vadhu padati thandithi pakane bacavava mate kai dava chantavi"
+      },
+      {
+        "role": "assistant",
+        "content": "હિમ અને વધુ પડતી ઠંડીથી પાકને બચાવવા માટે, તમે નીચેની દવાઓ છંટકાવ કરી શકો છો:\n\n1. **પોટેશિયમ નાઇટ્રેટ** - 1-2% દ્રાવણ\n2. **એમિન્ડા** - 0.5-1% દ્રાવણ\n\nઆ દવાઓ પાકને ઠંડીના દબાણથી બચાવવા માટે મદદરૂપ થાય છે. છંટકાવ કરતી વખતે, સૂર્યપ્રકાશના સમયને ધ્યાનમાં રાખો, જેથી દવા અસરકારક રીતે કાર્ય કરી શકે.",
+        "timestamp": {
+          "$date": "2024-12-12T07:34:13.752Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "પાકને હિમથી બચાવવા માટે વધુ પડતી ઠંડીથી બચાવવા માટે પોટેશિયમ નાઈટ્રેટ એકરે પાણીમાં સ્પ્રિંગ કલરમાં પિયત માં કેટલું આપવું",
+        "timestamp": {
+          "$date": "2024-12-12T07:34:56.115Z"
+        },
+        "standalone_question": "How much potassium nitrate should be applied per acre in water for irrigation to protect crops from frost and extreme cold?",
+        "standalone_en": "How much potassium nitrate should be applied per acre in water for irrigation to protect crops from frost and extreme cold?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pakane himathi bacavava mate vadhu padati thandithi bacavava mate potassium nitrate ekre paniman spring kalaraman piat man ketalun apvu"
+      },
+      {
+        "role": "assistant",
+        "content": "પાકને હિમથી બચાવવા માટે, પોટેશિયમ નાઈટ્રેટનો છંટકાવ કરવા માટે, \"હિરાવલોપ્લોટનેરો\" પર 0.92 કલાક (લગભગ 55 મિનિટ) માટે પિયત આપવો જોઈએ. \n\nઆ સાથે, પોટેશિયમ નાઈટ્રેટનું 1-2% દ્રાવણ તૈયાર કરીને છંટકાવ કરો.",
+        "timestamp": {
+          "$date": "2024-12-12T07:35:09.964Z"
+        }
+      }
+    ],
+    "farmer_id": "VR11270",
+    "farmer_plot_ids": [
+      "devavalumainkairo",
+      "hiravaloplotnero"
+    ],
+    "conversation_id": "675a913747c79789cc72413a",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-12-12T07:31:04.047000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पणाला काय झाले आहे <user uploaded image for analysis at 'supersonaka1531/2024-12-12-1733988393365.jpg'>",
+        "timestamp": {
+          "$date": "2024-12-12T07:27:15.903Z"
+        },
+        "standalone_question": "What has happened to the situation?",
+        "standalone_en": "What has happened to the situation?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "panala kay jhale aahe <user uploaded image for analysis at 'supersonaka1531/2024-12-12-1733988393365.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या द्राक्षांच्या पानांमध्ये काही निरीक्षणे आहेत:\n\n1. **रंगातील भिन्नता**: काही पानांमध्ये हलका हिरवा रंग दिसत आहे, जो पोषणाच्या कमतरतेचे संकेत देऊ शकतो, विशेषतः नायट्रोजन किंवा लोहाची. यामुळे वाढ कमी होऊ शकते आणि उत्पादनात घट येऊ शकते.\n\n2. **पानांचा आकार आणि टेक्सचर**: पान सामान्यतः निरोगी दिसत आहेत, परंतु जर कुठे वळण, ठिपके, किंवा जखमा दिसत असतील तर ते कीड किंवा रोगाचे संकेत असू शकतात.\n\n3. **एकूण घनता**: पानांची घनता जास्त असल्यास, बुरशीच्या रोगांना प्रतिबंध करण्यासाठी चांगली हवेची वर्तुळता सुनिश्चित करा.\n\n### शिफारसी:\n- **पोषणाची तपासणी**: मातीची चाचणी करून पोषणाच्या पातळ्या तपासा आणि त्यानुसार खतांचे समायोजन करा.\n- **कीड/रोगांचे निरीक्षण**: हलक्या हिरव्या पानांवर नियमितपणे कीड किंवा रोगांची तपासणी करा.\n- **सुधारित चित्र**: अधिक अचूक मूल्यांकनासाठी, कृपया प्रभावित पानांचे जवळचे चित्र द्या, विशेषतः कोणत्याही विशिष्ट लक्षणे किंवा चिंतेच्या क्षेत्रांवर लक्ष केंद्रित करून.\n\nतुमच्याकडे आणखी काही प्रश्न असल्यास किंवा मदतीची आवश्यकता असल्यास, कृपया विचारू शकता!",
+        "timestamp": {
+          "$date": "2024-12-12T07:27:30.615Z"
+        }
+      }
+    ],
+    "farmer_id": "ganeshshendage",
+    "farmer_plot_ids": [
+      "supersonaka1531"
+    ],
+    "conversation_id": "675a905327750059d99a26ae",
+    "tag": "others",
+    "conv_date": "2024-12-12T07:27:15.903000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "सोनाकाला प्लवरिंग मध्ये लांबी साठी काय उपाय योजना करावी ",
+        "timestamp": {
+          "$date": "2024-12-12T03:06:46.249Z"
+        },
+        "standalone_question": "What measures should be taken for length in sonakala plowering?",
+        "standalone_en": "What measures should be taken for length in sonakala plowering?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "sonakala plovering madhye lambi sathi kay upay yojana karavi "
+      },
+      {
+        "role": "assistant",
+        "content": "सोनाकाला प्लवरिंगमध्ये लांबी साठी खालील उपाययोजना कराव्यात:\n\n1. **सिंचन व्यवस्थापन**: योग्य प्रमाणात पाण्याची उपलब्धता सुनिश्चित करा. मातीची आर्द्रता तपासून त्यानुसार सिंचन करा.\n\n2. **खते**: योग्य खते वापरा, विशेषतः नायट्रोजन, फॉस्फरस आणि पोटॅशियम. यामुळे फुलांच्या वाढीस मदत होईल.\n\n3. **पोषण**: पानांच्या पोषणासाठी फोलिअर स्प्रे वापरा, ज्यामुळे फुलांच्या गुणवत्तेत सुधारणा होईल.\n\n4. **कापणी**: योग्य वेळी कापणी करा, ज्यामुळे फुलांची लांबी आणि गुणवत्ता वाढेल.\n\n5. **पिकांचे संरक्षण**: कीड आणि रोगांपासून संरक्षणासाठी योग्य कीटकनाशकांचा वापर करा.\n\n6. **सूर्यप्रकाश**: प्लॉटमध्ये योग्य प्रमाणात सूर्यप्रकाश मिळवण्यासाठी झाडांची व्यवस्था करा.\n\nया उपाययोजनांनी सोनाकाला प्लवरिंगमध्ये लांबी वाढवण्यास मदत होईल.",
+        "timestamp": {
+          "$date": "2024-12-12T03:06:58.361Z"
+        }
+      }
+    ],
+    "farmer_id": "tusharbankar",
+    "farmer_plot_ids": [
+      "plotno3sonaka132"
+    ],
+    "conversation_id": "675a5345270840bc18e07e6e",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-12T03:06:46.249000+00:00"
+  }
+]

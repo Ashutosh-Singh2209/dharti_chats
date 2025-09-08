@@ -1,0 +1,706 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पोलट वरती डावुनि आहे ",
+        "timestamp": {
+          "$date": "2024-11-05T19:46:22.517Z"
+        },
+        "standalone_question": "The standalone question in English would be: \"Is there a bird on the pole?\"",
+        "standalone_en": "The standalone question in English would be: \"Is there a bird on the pole?\"",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "polat varati davuni aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "आपण आपल्या प्लॉटवर पाण्याची गरज आहे का हे तपासण्यासाठी, कृपया मला आपल्या प्लॉटचे नाव सांगा, म्हणजे मी योग्य माहिती देऊ शकेन.",
+        "timestamp": {
+          "$date": "2024-11-05T19:46:26.875Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "मामा जम्मू ",
+        "timestamp": {
+          "$date": "2024-11-05T19:46:47.010Z"
+        },
+        "standalone_question": "What is the name of your plot?",
+        "standalone_en": "What is the name of your plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mama jammu "
+      },
+      {
+        "role": "assistant",
+        "content": "\"प्लॉट नं 1 मामा जम्मू\" वर सध्या पाण्याची गरज नाही. \n\n- **मातीची आर्द्रता**: 0 kPa (खूप ओलसर)\n- **आवश्यक आर्द्रता**: 38 kPa\n\nआपल्या प्लॉटची माती सध्या खूप ओलसर आहे, त्यामुळे पाणी देण्याची आवश्यकता नाही.",
+        "timestamp": {
+          "$date": "2024-11-05T19:46:51.550Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "डावुनि आहे ",
+        "timestamp": {
+          "$date": "2024-11-05T19:50:30.882Z"
+        },
+        "standalone_question": "Is it currently wet?",
+        "standalone_en": "Is it currently wet?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "davuni aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "\"प्लॉट नं 1 मामा जम्मू\" वर आज पाण्याची गरज नाही. \n\nआपल्या प्लॉटची माती सध्या ओलसर आहे, त्यामुळे पाणी देण्याची आवश्यकता नाही.",
+        "timestamp": {
+          "$date": "2024-11-05T19:50:36.861Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "रोग",
+        "timestamp": {
+          "$date": "2024-11-05T19:51:11.644Z"
+        },
+        "standalone_question": "What is the disease?",
+        "standalone_en": "What is the disease?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "rogue"
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या प्लॉटवर रोगांची स्थिती तपासण्यासाठी, कृपया मला काही विशिष्ट माहिती द्या. तुम्हाला कोणत्या रोगांची माहिती हवी आहे का? किंवा तुम्ही कोणती विशिष्ट समस्या अनुभवत आहात का?",
+        "timestamp": {
+          "$date": "2024-11-05T19:51:16.052Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "भुरी",
+        "timestamp": {
+          "$date": "2024-11-05T19:51:34.960Z"
+        },
+        "standalone_question": "What information do you need regarding the disease \"bhuri\"?",
+        "standalone_en": "What information do you need regarding the disease \"bhuri\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "bhuri"
+      },
+      {
+        "role": "assistant",
+        "content": "\"प्लॉट नं 1 मामा जम्मू\" वर भुरी (Powdery Mildew) चा धोका उच्च आहे. खालीलप्रमाणे काही महत्त्वाच्या तारखांवरील भुरीचा धोका:\n\n- **5 नोव्हेंबर 2024**: 86.9% (उच्च)\n- **4 नोव्हेंबर 2024**: 84.8% (उच्च)\n- **3 नोव्हेंबर 2024**: 86.1% (उच्च)\n- **2 नोव्हेंबर 2024**: 85.9% (उच्च)\n- **1 नोव्हेंबर 2024**: 76.2% (उच्च)\n\nआपल्याला भुरीच्या नियंत्रणासाठी योग्य उपाययोजना करणे आवश्यक आहे. कृपया योग्य कीटकनाशकांचा वापर करा आणि रोगाच्या लक्षणांची तपासणी करा.",
+        "timestamp": {
+          "$date": "2024-11-05T19:53:12.795Z"
+        }
+      }
+    ],
+    "farmer_id": "ravindranadhudokhale",
+    "farmer_plot_ids": [
+      "plotno1mamajambosgf"
+    ],
+    "conversation_id": "672a760ef32aeb5d72edf3d2",
+    "tag": "disease_pest",
+    "conv_date": "2024-11-05T19:46:22.517000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Fenazaquin product name ",
+        "timestamp": {
+          "$date": "2024-11-05T16:22:07.321Z"
+        },
+        "standalone_question": "What is the product name for Fenazaquin?",
+        "standalone_en": "What is the product name for Fenazaquin?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Fenazaquin is a pesticide commonly used for controlling mites and certain pests in various crops. It is often marketed under different brand names, such as:\n\n1. **Magus**\n2. **Fenzar**\n3. **Fenzaplus**\n\nPlease check with local suppliers or agricultural stores for specific product availability in your region.",
+        "timestamp": {
+          "$date": "2024-11-05T16:22:11.055Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Does ",
+        "timestamp": {
+          "$date": "2024-11-05T16:22:38.366Z"
+        },
+        "standalone_question": "What are the brand names of Fenazaquin products?",
+        "standalone_en": "What are the brand names of Fenazaquin products?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems your question is incomplete. Could you please provide more details or clarify what you would like to know?",
+        "timestamp": {
+          "$date": "2024-11-05T16:22:40.806Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Next irrigation ",
+        "timestamp": {
+          "$date": "2024-11-05T16:23:09.796Z"
+        },
+        "standalone_question": "When is the next irrigation scheduled?",
+        "standalone_en": "When is the next irrigation scheduled?",
+        "retrieval": {
+          "tools": [
+            "get_irrigation_forecast  \nGives the irrigation requirement forecast for any day, today and beyond. Dates are mandatory. Output is humanized with day of the week and optimal moisture details if suitable.",
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For your plots, here's the irrigation forecast:\n\n### Plot1\n- **Irrigation Forecast:** Unable to find optimal moisture.\n- **Optimal Soil Moisture:** Not available.\n\n### Plot 1 (Pomegranate)\n- **Current Soil Moisture:** Faulty readings above 200 kPa (indicating dry conditions).\n- **Optimal Soil Moisture Range:** 5 kPa (wet) to 25 kPa (dry). Irrigation is recommended when moisture exceeds 25 kPa.\n\n### Recommendation\nSince the current readings for Plot 1 are faulty, it's advisable to check the sensors for accuracy. For Plot 1 (Pomegranate), irrigation is needed as the soil moisture is likely above the dry threshold. Please ensure to monitor the soil moisture levels closely and irrigate accordingly.",
+        "timestamp": {
+          "$date": "2024-11-05T16:23:23.877Z"
+        }
+      }
+    ],
+    "farmer_id": "mahendravelani193",
+    "farmer_plot_ids": [
+      "cGxvdDE=1717927635203",
+      "plot1pome445g"
+    ],
+    "conversation_id": "672a462ef32aeb5d72edf3d1",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-11-05T16:22:07.321000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ferus se kya hota hai",
+        "timestamp": {
+          "$date": "2024-11-05T15:25:07.234Z"
+        },
+        "standalone_question": "What is ferus?",
+        "standalone_en": "What is ferus?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "\"Ferus\" ka matlab hota hai \"wild\" ya \"prakritik\" in English. Yeh shabd aksar un praniyon ya podon ke liye istemal hota hai jo ki sanskritik ya palan poshan se door, apne prakritik avastha mein paye jaate hain. Kya aap is vishay par aur jaankari chahte hain?",
+        "timestamp": {
+          "$date": "2024-11-05T15:25:10.788Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Chelated ferous kya hota hai",
+        "timestamp": {
+          "$date": "2024-11-05T15:25:45.321Z"
+        },
+        "standalone_question": "What is chelated ferrous?",
+        "standalone_en": "What is chelated ferrous?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Chelated ferrous ek prakaar ka iron (Fe) ka compound hota hai, jise chelation ke madhyam se banaya jaata hai. Ismein iron ko ek organic molecule ke saath bandha jaata hai, jo isse zameen mein zyada asani se absorb hone mein madad karta hai. \n\nYeh khaas taur par kheti mein istemal hota hai, kyunki yeh podon ko iron ki kami se bachata hai, jo unki vriddhi aur vikas ke liye zaroori hai. Chelated ferrous ka istemal aksar foliar sprays ya fertilizers ke roop mein kiya jaata hai, taaki podon ko zaroori nutrients mil sakein. \n\nKya aap is vishay par aur jaankari chahte hain?",
+        "timestamp": {
+          "$date": "2024-11-05T15:25:50.045Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Usko chalne se kya hoga",
+        "timestamp": {
+          "$date": "2024-11-05T15:26:27.004Z"
+        },
+        "standalone_question": "What will happen if it is used?",
+        "standalone_en": "What will happen if it is used?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "\"Usko chalne se kya hoga\" ka matlab hai ki agar aap kisi cheez ko chalne ya istemal karne ki baat kar rahe hain, toh iska prabhav kya hoga. \n\nAgar aap chelated ferrous ki baat kar rahe hain, toh isse istemal karne se podon ko iron ki kami se bachne mein madad milegi, jo unki vriddhi aur samarthan ke liye zaroori hai. Isse podon ki sehat sudhar sakti hai, aur unka utpadan bhi badh sakta hai.\n\nAgar aap kisi aur vishay par baat kar rahe hain, toh kripya uska vishay spasht karein, taaki main aapko behtar samajh sakun.",
+        "timestamp": {
+          "$date": "2024-11-05T15:26:33.134Z"
+        }
+      }
+    ],
+    "farmer_id": "mohanpatel",
+    "farmer_plot_ids": [
+      "plot1533",
+      "plot2882"
+    ],
+    "conversation_id": "672a38d2ce9e1c4bdbd58603",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-11-05T15:25:07.234000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "ಕೊಳೆ ರೋಗ ಹೆಚ್ಚಾಗಿದೆ ಅದಕ್ಕೆ ಪರಿಹಾರ ತಿಳಸಿ",
+        "timestamp": {
+          "$date": "2024-11-05T15:25:06.595Z"
+        },
+        "standalone_question": "What is the solution for the increase in infectious diseases?",
+        "standalone_en": "What is the solution for the increase in infectious diseases?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kole rogue hecchagide adakke parihar thilasi"
+      },
+      {
+        "role": "assistant",
+        "content": "ಕೊಳೆ ರೋಗಕ್ಕೆ ಪರಿಹಾರಕ್ಕಾಗಿ, ನೀವು ಈ ಕೆಳಗಿನ ಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸಬಹುದು:\n\n1. **ನೀರು ಮತ್ತು ಹಾರ್ಮೋನ್**: ಕೊಳೆ ರೋಗವು ಹೆಚ್ಚು ನೀರಿನ ಕಾರಣದಿಂದಾಗಿರಬಹುದು. ಹೀಗಾಗಿ, ನೀರಿನ ಪ್ರಮಾಣವನ್ನು ಕಡಿಮೆ ಮಾಡಿ.\n\n2. **ಪestisides**: ಕೊಳೆ ರೋಗವನ್ನು ನಿಯಂತ್ರಿಸಲು ಸೂಕ್ತ ಪೆಸ್ಟಿಸೈಡ್‌ಗಳನ್ನು ಬಳಸುವುದು ಉತ್ತಮ. ನೀವು \"ಬೋಟ್ರಿಟಿಸ್\" ಅಥವಾ \"ಫಂಗಲ್\" ಪೆಸ್ಟಿಸೈಡ್‌ಗಳನ್ನು ಬಳಸಬಹುದು.\n\n3. **ಹವಾಮಾನ ನಿಯಂತ್ರಣ**: ಹವಾಮಾನವನ್ನು ನಿಯಂತ್ರಿಸಲು, ಬೆಳೆಯುವ ಸ್ಥಳದಲ್ಲಿ ಉತ್ತಮ ವಾಯು ಸಂಚಲನವನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.\n\n4. **ಕಾಯಿಲೆ ನಿರ್ವಹಣೆ**: ಕೊಳೆ ರೋಗವನ್ನು ನಿಯಂತ್ರಿಸಲು, ಹಣ್ಣುಗಳನ್ನು ಮತ್ತು ಕೊಳೆಗಳನ್ನು ನಿಯಮಿತವಾಗಿ ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಸೋಂಕಿತ ಭಾಗಗಳನ್ನು ತೆಗೆದು ಹಾಕಿ.\n\n5. **ಕೃಷಿ ತಂತ್ರಜ್ಞಾನ**: ನಿಮ್ಮ ಸ್ಥಳೀಯ ಕೃಷಿ ಇಲಾಖೆಯೊಂದಿಗೆ ಸಂಪರ್ಕಿಸಿ, ಅವರು ನಿಮಗೆ ಸ್ಥಳೀಯವಾಗಿ ಲಭ್ಯವಿರುವ ಉತ್ತಮ ಪರಿಹಾರಗಳನ್ನು ನೀಡಬಹುದು.\n\nನೀವು ನಿಮ್ಮ ಬೆಳೆಗಳ ಆರೋಗ್ಯವನ್ನು ಸುಧಾರಿಸಲು ಈ ಕ್ರಮಗಳನ್ನು ಅನುಸರಿಸಬಹುದು.",
+        "timestamp": {
+          "$date": "2024-11-05T15:25:12.654Z"
+        }
+      }
+    ],
+    "farmer_id": "basalingappagobbur",
+    "farmer_plot_ids": [
+      "thomson3acregobbur"
+    ],
+    "conversation_id": "672a38d2f068757a052a733e",
+    "tag": "disease_pest",
+    "conv_date": "2024-11-05T15:25:06.595000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Daniela Naveen",
+        "timestamp": {
+          "$date": "2024-11-05T15:09:06.178Z"
+        },
+        "standalone_question": "What is the name of the person you are referring to?",
+        "standalone_en": "What is the name of the person you are referring to?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like you mentioned a name, but I am here to assist you with agricultural practices. How can I help you today, Akbar Shaikh?",
+        "timestamp": {
+          "$date": "2024-11-05T15:09:08.576Z"
+        }
+      }
+    ],
+    "farmer_id": "akbarshaikh",
+    "farmer_plot_ids": [
+      "plotno1thompson717"
+    ],
+    "conversation_id": "672a3511765b35579a5e5128",
+    "tag": "others",
+    "conv_date": "2024-11-05T15:09:06.178000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Why my device is not working ",
+        "timestamp": {
+          "$date": "2024-11-05T15:07:43.893Z"
+        },
+        "standalone_question": "Why is my device not working?",
+        "standalone_en": "Why is my device not working?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Please check if the device has been recharged and is actively sending data. If the recharge is active and the device is still not working, you should raise a support ticket in the Fyllo app for further assistance.",
+        "timestamp": {
+          "$date": "2024-11-05T15:07:46.547Z"
+        }
+      }
+    ],
+    "farmer_id": "prabhakarpadol",
+    "farmer_plot_ids": [
+      "plotno3sudhakar370",
+      "plotno4sudhakar612"
+    ],
+    "conversation_id": "672a34bfce9e1c4bdbd58602",
+    "tag": "complaints",
+    "conv_date": "2024-11-05T15:07:43.893000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "અત્યારે દવા નો સ્પ્રે કરવો યોગ્ય સમય છે ",
+        "timestamp": {
+          "$date": "2024-11-05T13:14:56.668Z"
+        },
+        "standalone_question": "Is it the right time to use the medicine spray now?",
+        "standalone_en": "Is it the right time to use the medicine spray now?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        },
+        "content_transliterated": "atyare dava no spray karavo yogy samay che "
+      },
+      {
+        "role": "assistant",
+        "content": "હા, દવા નો સ્પ્રે કરવા માટે આ સમયે યોગ્ય છે. \n\n**Plot 4 (Pantiya, Anjar, Kachchh, Gujarat)** માટે, આજે સાંજના 7:30 થી 11:30 સુધીના સમયગાળા દરમિયાન સ્પ્રે કરવા માટે આદર્શ પરિસ્થિતિઓ છે. \n\n**Plot 2 (Lohariya Nana, Anjar, Kachchh, Gujarat)** માટે, સ્પ્રેની પરિસ્થિતિઓની તપાસ કરવામાં અસમર્થતા છે.\n\nતમે Plot 4 માટે સ્પ્રે કરી શકો છો.",
+        "timestamp": {
+          "$date": "2024-11-05T13:15:02.768Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Vpd આયોગ્ય કેમ બતાવે છે ",
+        "timestamp": {
+          "$date": "2024-11-05T13:15:20.959Z"
+        },
+        "standalone_question": "Why does VPD indicate that it is suitable?",
+        "standalone_en": "Why does VPD indicate that it is suitable?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "Vpd ayogy came batave che "
+      },
+      {
+        "role": "assistant",
+        "content": "VPD (Vapor Pressure Deficit) માટેની પરિસ્થિતિઓ નીચે મુજબ છે:\n\n**Plot 4 (Pantiya, Anjar, Kachchh, Gujarat)**:\n- VPD 2.7 થી 1.2 સુધી છે, જે MODERATE સ્થિતિ દર્શાવે છે.\n- Wind Speed અને Delta T માટેની શરતો યોગ્ય નથી, જે સ્પ્રે માટેની પરિસ્થિતિઓને અસર કરે છે.\n\n**Plot 2 (Lohariya Nana, Anjar, Kachchh, Gujarat)**:\n- VPD 2.7 થી 1.2 સુધી છે, જે MODERATE સ્થિતિ દર્શાવે છે.\n- Wind Speed અને Delta T માટેની શરતો પણ અહીં યોગ્ય નથી.\n\nઆથી, VPD MODERATE છે, પરંતુ Wind Speed અને Delta T ની શરતોને ધ્યાનમાં રાખીને, સ્પ્રે માટે આદર્શ પરિસ્થિતિઓ નથી.",
+        "timestamp": {
+          "$date": "2024-11-05T13:15:39.731Z"
+        }
+      }
+    ],
+    "farmer_id": "mayurbhai370",
+    "farmer_plot_ids": [
+      "pomegranate1",
+      "pomegranate3"
+    ],
+    "conversation_id": "672a1a4ff068757a052a733c",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-11-05T13:14:56.668000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "એફએમસી બેનવીયા એમાં કયુ ટેકનિકલ આવે છે",
+        "timestamp": {
+          "$date": "2024-11-05T10:51:53.507Z"
+        },
+        "standalone_question": "What technical aspects are involved in FMCA Benaviya?",
+        "standalone_en": "What technical aspects are involved in FMCA Benaviya?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "fmc benaviya eman kayu technical ave che"
+      },
+      {
+        "role": "assistant",
+        "content": "એફએમસી (ફાર્મર મેનેજમેન્ટ કન્ટ્રોલ) બેનવીયા એમાં વિવિધ ટેકનિકલ તત્વો આવે છે, જેમ કે:\n\n1. **ડેટા મોનિટરિંગ**: જમીન અને પાકની સ્થિતિને મોનિટર કરવા માટે સેન્સર અને ડેટા એનાલિસિસ.\n2. **સોલ મોઈશ્ચર મોનિટરિંગ**: જમીનની ભેજની સ્થિતિને મોનિટર કરવા માટે સેન્સર.\n3. **ઇરિગેશન મેનેજમેન્ટ**: પાણીની જરૂરિયાત અને ઇરિગેશન શેડ્યૂલિંગ.\n4. **ફર્ટિલાઇઝર મેનેજમેન્ટ**: ખાતરનો યોગ્ય ઉપયોગ અને ફર્ટિગેશન શેડ્યૂલ.\n5. **પેસ્ટ અને ડિઝીઝ મોનિટરિંગ**: પાકમાં જીવાતો અને રોગોની ઓળખ અને નિયંત્રણ.\n6. **હવામાન ડેટા**: હવામાનની માહિતી અને તેના આધારે ખેતીની યોજના.\n\nઆ ટેકનિકલ તત્વો ખેડૂતોને વધુ સચોટ અને અસરકારક રીતે ખેતી કરવા માટે મદદ કરે છે.",
+        "timestamp": {
+          "$date": "2024-11-05T10:51:59.100Z"
+        }
+      }
+    ],
+    "farmer_id": "mukeshbhaidealermotalaiza8",
+    "farmer_plot_ids": [
+      "plot1800",
+      "plot2799"
+    ],
+    "conversation_id": "6729f8c8f068757a052a733a",
+    "tag": "others",
+    "conv_date": "2024-11-05T10:51:53.507000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": " डावण्या रोग आलेला आहे काय केलं पाहिजे",
+        "timestamp": {
+          "$date": "2024-11-05T10:49:44.680Z"
+        },
+        "standalone_question": "Is there a disease called \"davanaya\" and what should be done about it?",
+        "standalone_en": "Is there a disease called \"davanaya\" and what should be done about it?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": " davanya rog alela aahe kay kelam pahije"
+      },
+      {
+        "role": "assistant",
+        "content": "डावण्या रोग (Alternaria) चा उपचार करण्यासाठी खालील उपाययोजना करा:\n\n1. **पाण्याचा वापर कमी करा**: पाण्याचा वापर कमी करा, कारण ओलसरता या रोगाला वाढवते.\n\n2. **पेस्टिसाइड्सचा वापर**: योग्य पेस्टिसाइड्स वापरा. \"कॅप्टन\" किंवा \"फ्लुजिनोक्झिन\" सारखे फंगस नाशक वापरू शकता.\n\n3. **साफसफाई**: प्लॉटमध्ये कोणतेही मृत किंवा संक्रमित पानं काढा.\n\n4. **पिकांची तपासणी**: नियमितपणे पिकांची तपासणी करा आणि लवकरच उपचार करा.\n\n5. **संपूर्ण पिकाची काळजी घ्या**: पिकांना योग्य पोषण आणि पाण्याची गरज पूर्ण करा.\n\nजर तुम्हाला अधिक माहिती हवी असेल तर कृपया पिकाची स्थिती आणि पेस्टिसाइड्सच्या वापराच्या वेळा सांगा.",
+        "timestamp": {
+          "$date": "2024-11-05T10:49:49.896Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "आता फ्लोरिंग या स्टेजला आहे डावण्या पानावर व गडावर आहे फवारणी ही सकाळी नऊ ते अकरा या वेळेत करण्यात येते अधिक माहिती द्या प्लीज",
+        "timestamp": {
+          "$date": "2024-11-05T10:52:41.108Z"
+        },
+        "standalone_question": "What additional information can you provide about treating Alternaria on the leaves and stems, considering that the plants are currently at the flowering stage and the spraying is done between 9 to 11 in the morning?",
+        "standalone_en": "What additional information can you provide about treating Alternaria on the leaves and stems, considering that the plants are currently at the flowering stage and the spraying is done between 9 to 11 in the morning?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        },
+        "content_transliterated": "ata flooring ya stejla aahe davanya panavar v gadavar aahe favarani he sakali nau te akara ya velet karanyat yete adhik mahiti dya please"
+      },
+      {
+        "role": "assistant",
+        "content": "डावण्या रोगाच्या फवारणीसाठी खालील माहिती आहे:\n\n1. **फवारणीची वेळ**: तुम्ही सकाळी 9 ते 11 या वेळेत फवारणी करता. ही वेळ चांगली आहे कारण या वेळी तापमान कमी असते आणि पाण्याचा वाष्पीकरण कमी होतो.\n\n2. **फवारणीसाठी योग्य पेस्टिसाइड्स**: \"कॅप्टन\" किंवा \"फ्लुजिनोक्झिन\" सारखे फंगस नाशक वापरा. हे पेस्टिसाइड्स डावण्या रोगावर प्रभावी आहेत.\n\n3. **फवारणीची पद्धत**: पेस्टिसाइड्स फवारताना पानांच्या दोन्ही बाजूंवर चांगले फवारणे सुनिश्चित करा.\n\n4. **प्लॉट तपासणी**: तुमच्या प्लॉटमध्ये डावण्या रोगाची उपस्थिती असल्यास, नियमितपणे पिकांची तपासणी करा आणि लवकरच उपचार करा.\n\n5. **सुरक्षितता**: फवारणी करताना योग्य सुरक्षात्मक कपडे घाला आणि श्वसन यंत्र वापरा.\n\nसध्या फवारणीच्या स्थितीची तपासणी करता येत नाही, त्यामुळे तुम्ही फवारणी करताना काळजी घ्या. जर तुम्हाला आणखी काही माहिती हवी असेल तर सांगा.",
+        "timestamp": {
+          "$date": "2024-11-05T10:52:51.119Z"
+        }
+      }
+    ],
+    "farmer_id": "arvindniphade",
+    "farmer_plot_ids": [
+      "plotno1sonaka844",
+      "plotno2manikchaman628"
+    ],
+    "conversation_id": "6729f8485e340fbe390a07a6",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-11-05T10:49:44.680000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "कोणता रोग आहे <user uploaded image for analysis at 'supersonakano3559/2024-11-05-1730798998918.jpg'>",
+        "timestamp": {
+          "$date": "2024-11-05T09:30:25.136Z"
+        },
+        "standalone_question": "What disease is depicted in the uploaded image?",
+        "standalone_en": "What disease is depicted in the uploaded image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "konta rog aahe <user uploaded image for analysis at 'supersonakano3559/2024-11-05-1730798998918.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या द्राक्षांच्या पिकात \"आयरन कमतरता\" असल्याची शक्यता आहे. यामध्ये खालील लक्षणे दिसून येतात:\n\n- पानांच्या काठावरून पिवळे होणे.\n- पानांच्या शिरा हिरव्या राहतात.\n- नंतर, पानं पांढरे-पिवळे होऊन तपकिरी ठिपके येतात.\n- वाढ थांबते.\n\nउपचारासाठी:\n\n- लोखंड समाविष्ट करणारे खत (उदा. फेरस सल्फेट Fe 19%) वापरा.\n- तुमच्या माती आणि पिकासाठी सर्वोत्तम उत्पादन आणि मात्रेबद्दल सल्ला घेण्यासाठी कृषी सल्लागाराशी संपर्क साधा.\n- पिकाच्या हंगामाच्या सुरुवातीस मातीची चाचणी घेणे शिफारस केले जाते, जेणेकरून तुमच्या पिकाचे उत्पादन अधिकतम करता येईल.",
+        "timestamp": {
+          "$date": "2024-11-05T09:30:31.090Z"
+        }
+      }
+    ],
+    "farmer_id": "gajananmali",
+    "farmer_plot_ids": [
+      "jyotikrishna",
+      "supersonakano2821",
+      "supersonakano3559"
+    ],
+    "conversation_id": "6729e5b0dea789e906865ff7",
+    "tag": "disease_pest",
+    "conv_date": "2024-11-05T09:30:25.136000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "स्प्रे ",
+        "timestamp": {
+          "$date": "2024-11-05T08:38:19.062Z"
+        },
+        "standalone_question": "What is a spray?",
+        "standalone_en": "What is a spray?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "spray "
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया आप स्प्रे के लिए किस प्रकार की जानकारी चाहते हैं? क्या आप स्प्रे की स्थिति, समय, या किसी विशेष कीट या रोग के लिए स्प्रे की सिफारिश चाहते हैं?",
+        "timestamp": {
+          "$date": "2024-11-05T08:38:21.737Z"
+        }
+      }
+    ],
+    "farmer_id": "dattukhandave",
+    "farmer_plot_ids": [
+      "plotno1arra36284"
+    ],
+    "conversation_id": "6729d97ace9e1c4bdbd58600",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-11-05T08:38:19.062000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "करपा साठी कोणता स्प्रे घ्यावा <user uploaded image for analysis at 'plotno1clone103/2024-11-05-1730787812758.jpg'>",
+        "timestamp": {
+          "$date": "2024-11-05T06:23:39.537Z"
+        },
+        "standalone_question": "Which spray should be used for karpa?",
+        "standalone_en": "Which spray should be used for karpa?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या द्राक्षांच्या पिकात काही संभाव्य समस्या आहेत. खालील उपचारांची शिफारस केली जाते:\n\n1. **अँथ्रॅक्नोज (Anthracnose)**:\n   - लक्षणे: तरुण पानांवर लहान तपकिरी ठिपके, मोठे राखाडी व कोरडे ठिपके, आणि फळांवर राखाडी ठिपके.\n   - उपचार: \n     - लिक्विड लाइम सल्फर किंवा बोरडो मिश्रणाचा स्प्रे बडबडण्याच्या वेळी करा.\n     - कॅप्टन, क्लोरोथालोनिल, आणि मॅन्कोजेब यांसारख्या कीटकनाशकांचा वापर करा. \n     - २ आठवड्यांच्या अंतराने स्प्रे करा.\n\n2. **डाऊनी मिल्ड्यू (Downy Mildew)**:\n   - लक्षणे: पानांवर पिवळसर-हिरव्या ठिपक्यांसह तपकिरी वर्तुळ, पांढरे किंवा राखाडी कापडासारखे आवरण.\n   - उपचार:\n     - बायोलॉजिकल उपचारांसह एकत्रित दृष्टिकोन वापरा.\n     - कॉपर-आधारित कीटकनाशकांचा वापर करा, जसे की बोरडो मिश्रण.\n     - लक्षणे दिसल्यावर तात्काळ पोस्ट-इन्फेक्शन कीटकनाशकांचा वापर करा.\n\nआपल्या द्राक्षांच्या पिकाची काळजी घेण्यासाठी या उपचारांचा वापर करा.",
+        "timestamp": {
+          "$date": "2024-11-05T06:23:45.422Z"
+        }
+      }
+    ],
+    "farmer_id": "vishalbankar",
+    "farmer_plot_ids": [
+      "plotno1clone103"
+    ],
+    "conversation_id": "6729b9ebf068757a052a7338",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-11-05T06:23:39.537000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पनी चालू आहे तरीसेंसर डाउन होइन",
+        "timestamp": {
+          "$date": "2024-11-05T05:10:33.410Z"
+        },
+        "standalone_question": "Is the fan running even though the sensor is down?",
+        "standalone_en": "Is the fan running even though the sensor is down?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pani chalu aahe trisenser down hoin"
+      },
+      {
+        "role": "assistant",
+        "content": "सर्व प्लॉट्सच्या सेन्सर डेटा खालीलप्रमाणे आहेत:\n\n1. **Kali Mandap**:\n   - मातीचे तापमान: 24.75°C\n   - मातीची आर्द्रता: 14 kPa (सुखा)\n   - बॅटरी: 42%\n\n2. **Pabha H**:\n   - मातीचे तापमान: 25.37°C\n   - मातीची आर्द्रता: 4 kPa (खूप ओलसर)\n   - बॅटरी: 45%\n\n3. **Y Plot 1 acra**:\n   - मातीचे तापमान: 24.56°C\n   - मातीची आर्द्रता: 20 kPa (सुखा)\n   - बॅटरी: 100%\n\nतुमच्या सेन्सरमध्ये काही समस्या नाहीत, परंतु **Kali Mandap** आणि **Y Plot 1 acra** मध्ये मातीची आर्द्रता कमी आहे, त्यामुळे तुम्हाला पाण्याची गरज असू शकते.",
+        "timestamp": {
+          "$date": "2024-11-05T05:10:41.173Z"
+        }
+      }
+    ],
+    "farmer_id": "prakashhrirampatil",
+    "farmer_plot_ids": [
+      "kalibabalu",
+      "pabhah",
+      "yplotacra"
+    ],
+    "conversation_id": "6729a8c96a5d3b59d05e2d05",
+    "tag": "complaints",
+    "conv_date": "2024-11-05T05:10:33.410000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Flowringmadhe curze chalte ka? ",
+        "timestamp": {
+          "$date": "2024-11-05T02:51:46.534Z"
+        },
+        "standalone_question": "Does Flowringmadhe have a running course?",
+        "standalone_en": "Does Flowringmadhe have a running course?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Ho, grapes cha shoot growth stage madhe curze chalte ahet. Tumhala shoot development sathi yogya prakriya karavi lagel. Tumhi yachya sathi sahi paani, khadya, ani pest control cha vichar karu shakta. Kahi vishesh madat pahije ka?",
+        "timestamp": {
+          "$date": "2024-11-05T02:51:49.554Z"
+        }
+      }
+    ],
+    "farmer_id": "ajitkumarkolekar",
+    "farmer_plot_ids": [
+      "grapesplot752"
+    ],
+    "conversation_id": "67298842dea789e906865ff6",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-11-05T02:51:46.534000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Shenda vati sati upay sanga 26, day plot.first year",
+        "timestamp": {
+          "$date": "2024-11-05T01:53:41.492Z"
+        },
+        "standalone_question": "What are the effective methods for Shenda Vati in the first year of the 26-day plot?",
+        "standalone_en": "What are the effective methods for Shenda Vati in the first year of the 26-day plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Shenda vati (also known as \"Shenda\" or \"Shenda Vati\") is a traditional method of pest control in Maharashtra. Here are some effective practices for managing pests in your plot during the first year:\n\n1. **Cultural Practices**:\n   - **Crop Rotation**: Change the crops in your plot each season to disrupt pest life cycles.\n   - **Intercropping**: Plant different crops together to confuse pests and reduce their spread.\n\n2. **Physical Barriers**:\n   - Use nets or row covers to protect young plants from pests.\n   - Hand-pick larger pests like caterpillars and beetles.\n\n3. **Natural Predators**:\n   - Encourage beneficial insects like ladybugs and lacewings that feed on pests.\n   - Introduce birds by providing nesting sites to help control pest populations.\n\n4. **Organic Pesticides**:\n   - Use neem oil or garlic spray as a natural pesticide.\n   - Prepare a solution of chili powder and soap to deter pests.\n\n5. **Regular Monitoring**:\n   - Inspect your plants regularly for signs of pests or diseases.\n   - Keep records of pest sightings to identify patterns and take timely action.\n\n6. **Soil Health**:\n   - Maintain healthy soil through composting and organic matter addition, which can enhance plant resilience against pests.\n\n7. **Water Management**:\n   - Ensure proper irrigation to avoid water stress, which can make plants more susceptible to pests.\n\nImplementing these practices can help you manage pests effectively in your plot. If you have specific pest issues, please let me know!",
+        "timestamp": {
+          "$date": "2024-11-05T01:53:47.712Z"
+        }
+      }
+    ],
+    "farmer_id": "nitinwaghchaure",
+    "farmer_plot_ids": [
+      "bWFtYWphbWJv1696131213944",
+      "plotno1mamajambonf",
+      "plotno2purple",
+      "plotno3mamajambosf",
+      "plotno4jumbo298"
+    ],
+    "conversation_id": "67297aa5f068757a052a7337",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-11-05T01:53:41.492000+00:00"
+  }
+]

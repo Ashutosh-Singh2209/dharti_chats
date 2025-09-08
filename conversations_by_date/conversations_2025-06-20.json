@@ -1,0 +1,364 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "hii ",
+        "en": "hii ",
+        "timestamp": {
+          "$date": "2025-06-20T15:33:30.047Z"
+        },
+        "standalone_question": "Hello! How can I assist you today?",
+        "standalone_en": "Hello! How can I assist you today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "नमस्कार, प्रशांत! आप कसे आहात? आपल्याला कोणती मदत हवी आहे?",
+        "en": "Hello, Prashant! How are you? What help do we need?",
+        "timestamp": {
+          "$date": "2025-06-20T15:33:32.924Z"
+        }
+      }
+    ],
+    "farmer_id": "prashantaher",
+    "farmer_plot_ids": [
+      "plotno1mamajumbo870"
+    ],
+    "conversation_id": "68557f4938e1b45dddc537a3",
+    "_id": "68557f4938e1b45dddc537a3",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-06-20T15:38:30.051000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-06-20T15:33:30.047000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "सेन्सर खराब झाले",
+        "en": "The sensors went bad",
+        "timestamp": {
+          "$date": "2025-06-20T13:25:29.512Z"
+        },
+        "standalone_question": "The sensor is broken.",
+        "standalone_en": "The sensor is broken.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया सेन्सरची कनेक्शन तपासा, जर ते ढिले असतील तर त्यांना घट्ट करा. त्यानंतर डिव्हाइस रीस्टार्ट करा आणि डेटा अपडेट झाला का ते तपासा. जर समस्या कायम राहिली, तर तुम्हाला तांत्रिक सहाय्याची आवश्यकता असू शकते.",
+        "en": "Please check the connection of the sensors, tighten them if they are loose. Then restart the device and check if the data has been updated. If the problem persists, you may need technical assistance.",
+        "timestamp": {
+          "$date": "2025-06-20T13:25:32.937Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "तांत्रिक सहयची गरज आहे",
+        "en": "Technical assistance is needed",
+        "timestamp": {
+          "$date": "2025-06-20T13:26:25.499Z"
+        },
+        "standalone_question": "Do I need technical assistance?",
+        "standalone_en": "Do I need technical assistance?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "tantrik sahayachi garaj aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया Fyllo अॅपमध्ये तांत्रिक सहाय्याची तिकिट उघडा किंवा Fyllo ग्राहक समर्थनाशी संपर्क साधा. ते तुमच्या समस्येवर लवकरात लवकर उपाय देऊ शकतील.",
+        "en": "Please open a ticket for technical assistance in the Fyllo app or contact Fyllo Customer Support. They will be able to solve your problem as soon as possible.",
+        "timestamp": {
+          "$date": "2025-06-20T13:26:30.931Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ग्राहक समर्थनच नंबर ",
+        "en": "Customer support number ",
+        "timestamp": {
+          "$date": "2025-06-20T13:27:32.572Z"
+        },
+        "standalone_question": "What is the customer support number?",
+        "standalone_en": "What is the customer support number?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How do I contact customer support for Fyllo?\nA: You can contact customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in. Do you want me to raise a support ticket for you?"
+          ]
+        },
+        "content_transliterated": "grahak samarthanach number "
+      },
+      {
+        "role": "assistant",
+        "content": "Fyllo ग्राहक समर्थनाचा नंबर आहे: (+91) 9380908040. तुम्ही या नंबरवर कॉल करून तांत्रिक सहाय्य मिळवू शकता.",
+        "en": "The number of Fyllo customer support is: (+91) 9380908040. You can get technical assistance by calling this number.",
+        "timestamp": {
+          "$date": "2025-06-20T13:27:36.299Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "बर",
+        "en": "bur",
+        "timestamp": {
+          "$date": "2025-06-20T13:27:51.381Z"
+        },
+        "standalone_question": "What is the customer support number for Fyllo?",
+        "standalone_en": "What is the customer support number for Fyllo?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How do I contact customer support for Fyllo?\nA: You can contact customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in. Do you want me to raise a support ticket for you?",
+            "Q: What makes Fyllo different from its competitors?\nA: Fyllo differentiates itself through:\n - Precision & accuracy due to unique installation and sensor positioning.\n - Agronomical Algorithms created by a team of scientists led by Dr. Shikhamany, who is considered by many as the father of Indian grape industry.\n - 100% customer retention: Fyllo is known for its service on the ground, 24-hour issue resolution.\n - User-friendly interface that's easy to understand for all language and age group users.",
+            "Q: My Kairo/Nero device is not working.\nA: If some issue is being faced, user can raise the support ticket in the Fyllo app. If the issue is not solved please contact Fyllo customer support for further assistance. Do you want me to raise the support ticket for you?",
+            "Q: How can I reset or restart the Fyllo crop stage on the app?\nA: For Hindi instructions, please watch this video: [फसल की स्टेज कैसे अपडेट करे ?](https://youtu.be/Gx2XUOGqNoA) (Thumbnail: https://img.youtube.com/vi/Gx2XUOGqNoA/mqdefault.jpg). For English instructions, please watch this video: [How to update crop stages in App?](https://youtu.be/knCXf0vdN7k) (Thumbnail: https://img.youtube.com/vi/knCXf0vdN7k/mqdefault.jpg). For additional info, contact the CRM team: You can contact customer support by calling the helpline number at (+91) 9380908040 or by emailing contact@fyllo.in.\nMake sure to give both hindi and english links.",
+            "Q: How does the Fyllo device work?\nA: The Fyllo device captures data from 11 sensors at regular intervals. This data is then analyzed using Fyllo's Weather & Agronomical Algorithms to provide alerts to farmers for disease & pest management, irrigation management, fertigation management, and weather prediction."
+          ]
+        },
+        "content_transliterated": "burr"
+      },
+      {
+        "role": "assistant",
+        "content": "जर तुम्हाला आणखी काही मदतीची आवश्यकता असेल तर कृपया सांगा. तुमच्या शेतीसाठी शुभेच्छा!",
+        "en": "Please let me know if you need any more help. Good luck with your farm!",
+        "timestamp": {
+          "$date": "2025-06-20T13:27:54.972Z"
+        }
+      }
+    ],
+    "farmer_id": "laxmannarayansarode",
+    "farmer_plot_ids": [
+      "plotno1thompson666"
+    ],
+    "conversation_id": "6855614738e1b45dddc537a2",
+    "_id": "6855614738e1b45dddc537a2",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-06-20T13:32:51.384000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-06-20T13:25:29.512000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "दिनांक 21 ते 30 जून पर्यंत पाऊस पडण्याची शक्यता आहे",
+        "en": "There is a possibility of rain from June 21 to 30.",
+        "timestamp": {
+          "$date": "2025-06-20T12:21:55.330Z"
+        },
+        "standalone_question": "Is there a possibility of rain from June 21 to June 30?",
+        "standalone_en": "Is there a possibility of rain from June 21 to June 30?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "dinank 21 te 30 june paryant paus padanyachi shakyata aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "\"SSN Plot\" साठी 21 ते 30 जून दरम्यान पाऊस पडण्याची कोणतीही ऐतिहासिक माहिती उपलब्ध नाही. त्यामुळे, या कालावधीत पाऊस पडण्याची शक्यता स्पष्टपणे सांगता येत नाही. \n\nतुमच्या पिकाच्या स्थितीवर आणि हवामानाच्या बदलांवर लक्ष ठेवणे महत्त्वाचे आहे. तुम्हाला आणखी काही माहिती हवी का?",
+        "en": "There is no historical information available for the \"SSN Plot\" about rainfall between June 21 and 30. Therefore, the possibility of rainfall during this period cannot be clearly stated. \n\nIt's important to keep an eye on your crop conditions and changes in the weather. Is there anything else you need to know?",
+        "timestamp": {
+          "$date": "2025-06-20T12:22:01.298Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "सध्या बागेमध्ये लावणी अथवा करप्या केव्हा बोरी प्रादुर्भाव होण्याची शक्यता आहे का",
+        "en": "Is there a possibility of planting or planting in the garden at present?",
+        "timestamp": {
+          "$date": "2025-06-20T12:23:11.621Z"
+        },
+        "standalone_question": "Is there a possibility of blight affecting the crops in the garden currently?",
+        "standalone_en": "Is there a possibility of blight affecting the crops in the garden currently?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "sadhya bagemadhye lavani athava karapya kevha bori pradurbhav honyachi shakyata aahe ka"
+      },
+      {
+        "role": "assistant",
+        "content": "\"SSN Plot\" साठी लावणी अथवा करप्या प्रादुर्भावाची कोणतीही ऐतिहासिक माहिती उपलब्ध नाही. त्यामुळे, 21 ते 30 जून दरम्यान या पिकांवर प्रादुर्भाव होण्याची शक्यता स्पष्टपणे सांगता येत नाही.\n\nतुमच्या बागेतील पिकांची काळजी घेणे आणि नियमितपणे निरीक्षण करणे महत्त्वाचे आहे. तुम्हाला आणखी काही माहिती हवी का?",
+        "en": "There is no historical information available for the \"SSN Plot\" of planting or taxa outbreaks. Therefore, the possibility of infestation on these crops between June 21 and 30 cannot be clearly stated.\n\nIt is important to take care of the crops in your garden and monitor them regularly. Is there anything else you need to know?",
+        "timestamp": {
+          "$date": "2025-06-20T12:23:19.036Z"
+        }
+      }
+    ],
+    "farmer_id": "ramchandrabapuravsurwase",
+    "farmer_plot_ids": [
+      "ssnplot425"
+    ],
+    "conversation_id": "6855526338e1b45dddc537a1",
+    "_id": "6855526338e1b45dddc537a1",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-06-20T12:28:11.624000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-06-20T12:21:55.330000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Edgxw",
+        "en": "Edgxw",
+        "timestamp": {
+          "$date": "2025-06-20T02:44:28.651Z"
+        },
+        "standalone_question": "What does \"Edgxw\" mean?",
+        "standalone_en": "What does \"Edgxw\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like your message is unclear. Could you please provide more details or ask a specific question related to agriculture? I'm here to help!",
+        "en": "It seems like your message is unclear. Could you please provide more details or ask a specific question related to agriculture? I'm here to help!",
+        "timestamp": {
+          "$date": "2025-06-20T02:44:31.039Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "घडड",
+        "en": "Pitch",
+        "timestamp": {
+          "$date": "2025-06-20T02:45:01.734Z"
+        },
+        "standalone_question": "What does \"घडड\" mean?",
+        "standalone_en": "What does \"घडड\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ghadad"
+      },
+      {
+        "role": "assistant",
+        "content": "आपला संदेश स्पष्ट नाही. कृपया अधिक माहिती द्या किंवा कृषी संबंधित विशिष्ट प्रश्न विचारा. मी मदतीसाठी येथे आहे!",
+        "en": "Your message is not clear. Please provide more information or ask specific questions related to agriculture. I'm here to help!",
+        "timestamp": {
+          "$date": "2025-06-20T02:45:05.350Z"
+        }
+      }
+    ],
+    "farmer_id": "sunilkolhe",
+    "farmer_plot_ids": [
+      "plotno1645",
+      "plotno2crimson328"
+    ],
+    "conversation_id": "6854cb0c38e1b45dddc5379e",
+    "_id": "6854cb0c38e1b45dddc5379e",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-06-20T02:50:01.736000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-06-20T02:44:28.651000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "tell me yesterday rainfall for all the divisions excluding Neeru make it all in table format and add average also",
+        "en": "tell me yesterday rainfall for all the divisions excluding Neeru make it all in table format and add average also",
+        "timestamp": {
+          "$date": "2025-06-20T02:43:08.088Z"
+        },
+        "standalone_question": "What was the rainfall yesterday for all divisions, excluding Neeru, and can you present the data in a table format along with the average?",
+        "standalone_en": "What was the rainfall yesterday for all divisions, excluding Neeru, and can you present the data in a table format along with the average?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the rainfall data for yesterday (June 19, 2025) for all divisions excluding Nero:\n\n| Plot Name                | Rainfall (mm) |\n|--------------------------|----------------|\n| Srock Attamala           | 18             |\n| Srock Chooralmala Kairo  | 18             |\n| Srock Mundakkai Kairo    | 33             |\n| Srock Puthumala          | 21             |\n| **Average**              | **22.5**       |\n\nThe average rainfall across the divisions is 22.5 mm.",
+        "en": "Here's the rainfall data for yesterday (June 19, 2025) for all divisions excluding Nero:\n\n| Plot Name                | Rainfall (mm) |\n|--------------------------|----------------|\n| Srock Attamala           | 18             |\n| Srock Chooralmala Kairo  | 18             |\n| Srock Mundakkai Kairo    | 33             |\n| Srock Puthumala          | 21             |\n| **Average**              | **22.5**       |\n\nThe average rainfall across the divisions is 22.5 mm.",
+        "timestamp": {
+          "$date": "2025-06-20T02:43:13.767Z"
+        }
+      }
+    ],
+    "farmer_id": "allenenoshmani",
+    "farmer_plot_ids": [
+      "attamaladivision",
+      "chooralmaladivision",
+      "chooralmalanerodivision",
+      "mundakainerodivision",
+      "mundakkaidivision",
+      "puthumaladivision"
+    ],
+    "conversation_id": "6854cabb38e1b45dddc5379d",
+    "_id": "6854cabb38e1b45dddc5379d",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-06-20T02:48:08.091000Z"
+    },
+    "tag": "historical data",
+    "conv_date": "2025-06-20T02:43:08.088000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "ब्रोडो कसा तयार करावा",
+        "en": "How to Make Brodo",
+        "timestamp": {
+          "$date": "2025-06-20T02:30:13.711Z"
+        },
+        "standalone_question": "How do you prepare broth?",
+        "standalone_en": "How do you prepare broth?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "brodo kasa tayar karava"
+      },
+      {
+        "role": "assistant",
+        "content": "ब्रोडो तयार करण्यासाठी तुम्हाला खालील साहित्य आणि प्रक्रिया आवश्यक आहे:\n\n### साहित्य:\n1. **ब्रोडो पावडर** (जसे की ब्रोडो कॉपर)\n2. **पाणी**\n3. **मिश्रण करण्यासाठी एक पाण्याची टाकी किंवा बकेट**\n4. **मिश्रण करण्यासाठी एक चांगला चाळणी किंवा स्टिक**\n\n### प्रक्रिया:\n1. **पाण्याची मात्रा ठरवा:** आवश्यकतेनुसार पाण्याची मात्रा ठरवा. सामान्यतः 200 लिटर पाण्यात 1-2 किलोग्राम ब्रोडो पावडर वापरली जाते.\n   \n2. **पावडर मिसळा:** पाण्यात ब्रोडो पावडर घाला आणि चांगले मिसळा. पावडर पूर्णपणे विरघळेपर्यंत चाळा.\n\n3. **फोलिअर स्प्रे:** तयार केलेला ब्रोडो फोलिअर स्प्रे म्हणून वापरा. पानांच्या वरच्या बाजूस चांगला स्प्रे करा.\n\n4. **सुरक्षितता:** ब्रोडो वापरताना हातमोजे आणि मास्क वापरणे आवश्यक आहे, कारण यामध्ये रासायनिक घटक असू शकतात.\n\n5. **अवधि:** ब्रोडो स्प्रे केल्यानंतर 7-10 दिवसांनी पुन्हा स्प्रे करणे आवश्यक आहे.\n\nतुमच्या पिकांच्या आरोग्यासाठी ब्रोडो एक प्रभावी उपाय आहे, विशेषतः बुरशीजन्य रोगांपासून संरक्षण करण्यासाठी.",
+        "en": "To make Brodo, you need the following ingredients and processes:\n\n### Literature:\n1. **Brodo Powder** (such as Brodo Copper)\n2. **Water**\n3. **A water tank or bucket to mix**\n4. **A good sieve or stick to mix**\n\n### process:\n1. **Determine the amount of water:** Determine the amount of water as needed. Usually 1–2 kg of brodo powder is used in 200 liters of water.\n   \n2. **Mix powder:** Add brodo powder to the water and mix well. Stir until the powder is completely dissolved.\n\n3. **Foliar Spray:** Use it as a prepared Brodo Foliar Spray. Spray well on the top of the leaves.\n\n4. **Safety:** It is necessary to wear gloves and masks when using brodo, as it may contain chemical components.\n\n5. **Duration:** Re-spraying is required 7-10 days after brodo spraying.\n\nBrodo is an effective remedy for the health of your crops, especially for protecting against fungal diseases.",
+        "timestamp": {
+          "$date": "2025-06-20T02:30:25.948Z"
+        }
+      }
+    ],
+    "farmer_id": "pankajsadashivkhandave",
+    "farmer_plot_ids": [
+      "plotnoonessn",
+      "plotnotwocrimson",
+      "sudhakar156",
+      "sudhakar2101"
+    ],
+    "conversation_id": "6854c7b5833ae84496ee7048",
+    "_id": "6854c7b5833ae84496ee7048",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-06-20T02:35:13.713000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-06-20T02:30:13.711000+00:00"
+  }
+]

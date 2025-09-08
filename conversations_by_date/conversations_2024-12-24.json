@@ -1,0 +1,928 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Calcium Thiosulphate, (CaS₂O₃) 0:0:0:105:6Ca\n\nLIQUID FERTILISER",
+        "timestamp": {
+          "$date": "2024-12-24T13:03:53.808Z"
+        },
+        "standalone_question": "What is Calcium Thiosulphate (CaS₂O₃) and its composition in the context of liquid fertilizer?",
+        "standalone_en": "What is Calcium Thiosulphate (CaS₂O₃) and its composition in the context of liquid fertilizer?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Calcium Thiosulphate (CaS₂O₃) is a liquid fertilizer that provides calcium and sulfur to plants. The formulation you mentioned, 0:0:0:105:6Ca, indicates that it contains:\n\n- 0% Nitrogen (N)\n- 0% Phosphorus (P)\n- 0% Potassium (K)\n- 105 g of Calcium (Ca) per liter\n- 6 g of Sulfur (S) per liter\n\nThis fertilizer is beneficial for improving soil structure, enhancing nutrient uptake, and preventing calcium deficiency in crops. It can be particularly useful in grape cultivation, as it supports fruit development and overall plant health. \n\nIf you need guidance on how to apply it or its timing in your fertigation schedule, please let me know!",
+        "timestamp": {
+          "$date": "2024-12-24T13:03:59.778Z"
+        }
+      }
+    ],
+    "farmer_id": "yogirajgangadharbirajdar",
+    "farmer_plot_ids": [
+      "manikchaman452"
+    ],
+    "conversation_id": "676ab13991eacf0740792726",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-12-24T13:03:53.808000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Akiya roghe",
+        "timestamp": {
+          "$date": "2024-12-24T12:46:02.952Z"
+        },
+        "standalone_question": "What is Akiya roghe?",
+        "standalone_en": "What is Akiya roghe?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया अपनी फसल की तस्वीर अपलोड करें ताकि मैं उसकी जांच कर सकूं और आपको रोगों या कीड़ों के बारे में जानकारी दे सकूं।",
+        "timestamp": {
+          "$date": "2024-12-24T12:46:07.242Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Akiya rog he",
+        "timestamp": {
+          "$date": "2024-12-24T12:47:52.352Z"
+        },
+        "standalone_question": "Could you please upload a picture of your crop so that I can examine it and provide you with information about any diseases or pests?",
+        "standalone_en": "Could you please upload a picture of your crop so that I can examine it and provide you with information about any diseases or pests?",
+        "retrieval": {
+          "tools": [
+            "analyse_crop_image  \nGets the analysis of the uploaded crop image for any diseases or pests."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया अपनी फसल की तस्वीर अपलोड करें ताकि मैं उसकी जांच कर सकूं और आपको रोगों या कीड़ों के बारे में जानकारी दे सकूं।",
+        "timestamp": {
+          "$date": "2024-12-24T12:47:57.412Z"
+        }
+      }
+    ],
+    "farmer_id": "pankajpatel",
+    "farmer_plot_ids": [
+      "balapeervalakairo"
+    ],
+    "conversation_id": "676aad0a91eacf0740792725",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-24T12:46:02.952000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "स्टेज ",
+        "timestamp": {
+          "$date": "2024-12-24T12:41:58.834Z"
+        },
+        "standalone_question": "Stage",
+        "standalone_en": "Stage",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपके प्लॉट \"dipakfarm1\" में फसल की वर्तमान स्टेज \"Booting\" है, जो 13 दिसंबर 2024 से शुरू हुई है। इसके बाद की स्टेज \"Bunch development\", \"Fruit development\", और \"Harvest\" हैं। यदि आपको किसी विशेष स्टेज के बारे में जानकारी चाहिए, तो कृपया बताएं!",
+        "timestamp": {
+          "$date": "2024-12-24T12:42:06.678Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "हा ",
+        "timestamp": {
+          "$date": "2024-12-24T12:42:25.329Z"
+        },
+        "standalone_question": "Could you provide more information about a specific stage?",
+        "standalone_en": "Could you provide more information about a specific stage?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपका प्रश्न स्पष्ट नहीं है। कृपया बताएं कि आपको किस विषय में सहायता चाहिए, जैसे कि फसल प्रबंधन, सिंचाई, उर्वरक, या किसी अन्य कृषि संबंधित जानकारी।",
+        "timestamp": {
+          "$date": "2024-12-24T12:42:29.543Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Booting",
+        "timestamp": {
+          "$date": "2024-12-24T12:42:52.433Z"
+        },
+        "standalone_question": "What can you tell me about the \"Booting\" stage of the crop?",
+        "standalone_en": "What can you tell me about the \"Booting\" stage of the crop?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "\"Booting\" स्टेज में, केले की फसल के लिए कुछ महत्वपूर्ण बातें ध्यान में रखने की हैं:\n\n1. **पानी की आवश्यकता**: इस स्टेज में फसल को पर्याप्त पानी की आवश्यकता होती है। सुनिश्चित करें कि मिट्टी में नमी का स्तर सही है।\n\n2. **उर्वरक**: इस समय फसल को उचित पोषण देने के लिए उर्वरक का उपयोग करें। \n\n3. **कीट और रोग प्रबंधन**: इस स्टेज में कीटों और रोगों की निगरानी करें। यदि कोई समस्या हो, तो उचित उपाय करें।\n\n4. **सिंचाई**: मिट्टी की नमी की जांच करें और आवश्यकता अनुसार सिंचाई करें।\n\nयदि आपको सिंचाई या उर्वरक के बारे में विशेष जानकारी चाहिए, तो कृपया बताएं!",
+        "timestamp": {
+          "$date": "2024-12-24T12:43:01.470Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "4",
+        "timestamp": {
+          "$date": "2024-12-24T12:43:24.279Z"
+        },
+        "standalone_question": "What specific information do you need about irrigation?",
+        "standalone_en": "What specific information do you need about irrigation?",
+        "retrieval": {
+          "tools": [
+            "calculate_irrigation_hours\nCalculate the irrigation hours needed for irrigation by the farmer based on the mandatory provided values.\n    The formula used is\n    (root_width * root_depth * soil_retention * dripper_distance * calc_constant) / dripper_discharge\n    where calc_constant = 0.00006784244",
+            "get_irrigation_installation_settings\n    retrieves the irrigation installation settings in the farmer's plots, can be used to calculate the irrigation hours.\n    returns root_width, root_depth, soil_retention, dripper_distance, dripper_discharge",
+            "get_irrigation_forecast  \nGives the irrigation requirement forecast for any day, today and beyond. Dates are mandatory. Output is humanized with day of the week and optimal moisture details if suitable.",
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: How to measure/ calculate irrigation hours /water tank of my plot in fyllo app? How do I calculate irrigation hours for my plot? How to use the irrigation hours calculator?\nA: To calculate irrigation hours in the Fyllo app, follow these steps:\n\n1. Open the Fyllo App\n2. Go to the home screen\n3. Click on the soil moisture-1 sensor\n4. Scroll down to find the \"Irrigation hours\" section\n5. Fill in the required details such as:\n   - Root width (inches)\n   - Root depth (inches)\n   - Soil retention (mm)\n   - Dripper distance (feet)\n   - Dripper discharge (liters)\n6. Click the calculate button\n\nWould you like me to calculate the irrigation hours for you right now? I can retrieve your plot's irrigation settings and perform the calculation if you say yes.\n\nTool Selection: When user says yes, I should:\n1. Use get_irrigation_installation_settings tool to retrieve plot settings\n2. Check if all values are present and valid\n3. If values are valid, use calculate_irrigation_hours tool with these values\n4. If values are missing or invalid, ask the user to provide the missing values\n5. After calculating irrigation hours, display the irrigation installation settings that were used for the calculation\n6. Ask the user if they want to calculate irrigation hours with a different set of values, and if yes, prompt them to provide those values\n\nExample response if values are missing:\n\"I checked your plot settings, but I need some additional information to calculate irrigation hours accurately. Could you please provide the [missing value(s)]? Once you provide these details, I can complete the calculation for you.\"\n\nExample response after calculation:\n\"Based on your plot's irrigation settings, the calculated irrigation hours are [X] hours. \n\nI used the following settings for this calculation:\n- Root width: [value] inches\n- Root depth: [value] inches\n- Soil retention: [value] mm\n- Dripper distance: [value] feet\n- Dripper discharge: [value] liters\n\nWould you like to calculate irrigation hours with a different set of values? If yes, please provide the new values you'd like to use.\"",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate.",
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer.",
+            "Q: In the latest irrigation , sensor didn't drop to 0.\nA: 0 to 5 Kpa means soil is fully wet. It need not drop to 0 every time. Moisture less than 5 also means wet conditions. So, need not worry. Also ask to wait for 12 hours after irrigation."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपकी फसल \"Booting\" स्टेज में है, जो 13 दिसंबर 2024 से शुरू हुई है। वर्तमान में यह स्टेज 2 सप्ताह में है। \n\n### वर्तमान फर्टिगेशन शेड्यूल (सप्ताह 2):\nआपको निम्नलिखित उर्वरक फर्टिगेशन के माध्यम से देना है:\n1. **Chelated Iron**: 0.53 किलोग्राम\n2. **Zinc Sulphate**: 1 किलोग्राम\n3. **Potassium Nitrate**: 10 किलोग्राम\n4. **Urea**: 2.5 किलोग्राम\n\nया\n\n1. **Chelated Iron**: 0.53 किलोग्राम\n2. **Zinc Sulphate**: 1 किलोग्राम\n3. **Urea**: 5.5 किलोग्राम\n4. **White Muriate of Potash**: 8 किलोग्राम\n\n### अगला फर्टिगेशन शेड्यूल (सप्ताह 3):\nअगले सप्ताह में, आपको निम्नलिखित उर्वरक देने होंगे:\n- **Phosphoric acid** को अन्य उर्वरकों के आवेदन से 15-20 मिनट पहले अलग से लगाना चाहिए।\n\nउर्वरक वितरण के संभावित संयोजन:\n1. **12-61-0**: 1 किलोग्राम और **Urea**: 8 किलोग्राम\n2. **24-24-0**: 4 किलोग्राम और **Urea**: 6 किलोग्राम\n3. **Urea**: 8 किलोग्राम और **Phosphoric acid 80%**: 1 किलोग्राम\n\nयदि आपको और जानकारी चाहिए या किसी विशेष उर्वरक के बारे में पूछना है, तो कृपया बताएं!",
+        "timestamp": {
+          "$date": "2024-12-24T12:43:41.848Z"
+        }
+      }
+    ],
+    "farmer_id": "dipakwaykole",
+    "farmer_plot_ids": [
+      "dipakfarm1"
+    ],
+    "conversation_id": "676aac16cdbedbc11064f659",
+    "tag": "others",
+    "conv_date": "2024-12-24T12:41:58.834000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "15 days forecasting ",
+        "timestamp": {
+          "$date": "2024-12-24T12:04:13.843Z"
+        },
+        "standalone_question": "What is the forecast for the next 15 days?",
+        "standalone_en": "What is the forecast for the next 15 days?",
+        "retrieval": {
+          "tools": [
+            "get_daily_weather_forecast  \nProvides the next 14 days from today, daily weather forecast for the farmer's plots. Use only for forecast, not current values."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the 15-day weather forecast for your plots:\n\n### Plot 1 (Algoda, Sihora, Jabalpur, Madhya Pradesh)\n- **December 25**: Min 15.7°C, Max 24.6°C, Rainfall 0.0mm, Humidity 71.8%\n- **December 26**: Min 15.3°C, Max 27.0°C, Rainfall 0.0mm, Humidity 66.5%\n- **December 27**: Min 15.9°C, Max 30.7°C, Rainfall 0.0mm, Humidity 44%\n- **December 28**: Min 13.1°C, Max 22.1°C, Rainfall 4.6mm, Humidity 71.8%\n- **December 29**: Min 13.1°C, Max 26.1°C, Rainfall 0.0mm, Humidity 59.6%\n- **December 30**: Min 12.9°C, Max 26.0°C, Rainfall 0.0mm, Humidity 50.9%\n- **December 31**: Min 11.3°C, Max 26.0°C, Rainfall 0.0mm, Humidity 33.4%\n- **January 1**: Min 10.5°C, Max 25.6°C, Rainfall 0.0mm, Humidity 28.0%\n- **January 2**: Min 10.3°C, Max 24.9°C, Rainfall 0.0mm, Humidity 26.4%\n- **January 3**: Min 10.3°C, Max 25.6°C, Rainfall 0.0mm, Humidity 25.2%\n- **January 4**: Min 11.5°C, Max 27.2°C, Rainfall 0.0mm, Humidity 28.0%\n- **January 5**: Min 12.5°C, Max 27.3°C, Rainfall 0.0mm, Humidity 30.3%\n\n### Derasam Plot (Patharlapalle, Ranastalam, Srikakulam, Andhra Pradesh)\n- **December 25**: Min 20.1°C, Max 24.5°C, Rainfall 86.7mm, Humidity 88.9%\n- **December 26**: Min 19.9°C, Max 27.2°C, Rainfall 0.7mm, Humidity 82.3%\n- **December 27**: Min 19.8°C, Max 28.5°C, Rainfall 0.0mm, Humidity 62.1%\n- **December 28**: Min 19.6°C, Max 28.9°C, Rainfall 0.0mm, Humidity 65.6%\n- **December 29**: Min 20.1°C, Max 28.3°C, Rainfall 0.0mm, Humidity 65.4%\n- **December 30**: Min 20.3°C, Max 29.3°C, Rainfall 0.0mm, Humidity 69.1%\n- **December 31**: Min 20.1°C, Max 29.3°C, Rainfall 0.0mm, Humidity 72.9%\n- **January 1**: Min 19.7°C, Max 28.0°C, Rainfall 0.0mm, Humidity 75.0%\n- **January 2**: Min 18.4°C, Max 28.3°C, Rainfall 0.0mm, Humidity 63.9%\n- **January 3**: Min 17.7°C, Max 27.9°C, Rainfall 0.0mm, Humidity 58.7%\n- **January 4**: Min 17.7°C, Max 26.8°C, Rainfall 0.0mm, Humidity 59.7%\n- **January 5**: Min 17.6°C, Max 27.4°C, Rainfall 0.0mm, Humidity 61.7%\n\n### SSR Puram (Ajjaram, Etcherla, Srikakulam, Andhra Pradesh)\n- **December 25**: Min 20.5°C, Max 24.4°C, Rainfall 66.2mm, Humidity 85.5%\n- **December 26**: Min 20.1°C, Max 27.2°C, Rainfall 0.4mm, Humidity 80.9%\n- **December 27**: Min 19.9°C, Max 28.0°C, Rainfall 0.0mm, Humidity 62.7%\n- **December 28**: Min 19.8°C, Max 28.5°C, Rainfall 0.0mm, Humidity 65.7%\n- **December 29**: Min 20.2°C, Max 28.1°C, Rainfall 0.0mm, Humidity 65.3%\n- **December 30**: Min 20.4°C, Max 28.4°C, Rainfall 0.0mm, Humidity 69.4%\n- **December 31**: Min 20.2°C, Max 28.6°C, Rainfall 0.0mm, Humidity 73.1%\n- **January 1**: Min 19.8°C, Max 27.5°C, Rainfall 0.0mm, Humidity 75.3%\n- **January 2**: Min 18.5°C, Max 27.6°C, Rainfall 0.0mm, Humidity 64.0%\n- **January 3**: Min 17.8°C, Max 27.3°C, Rainfall 0.0mm, Humidity 58.5%\n- **January 4**: Min 17.8°C, Max 26.4°C, Rainfall 0.0mm, Humidity 60.0%\n- **January 5**: Min 17.7°C, Max 26.9°C, Rainfall 0.0mm, Humidity 61.5%\n\nFeel free to ask if you need more information!",
+        "timestamp": {
+          "$date": "2024-12-24T12:05:05.993Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "How to copy the data",
+        "timestamp": {
+          "$date": "2024-12-24T12:08:03.977Z"
+        },
+        "standalone_question": "What is the process for copying the data?",
+        "standalone_en": "What is the process for copying the data?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To copy the data from the Nero app, you can follow these steps:\n\n1. **Open the Nero App**: Launch the app on your device.\n2. **Navigate to the Data Section**: Go to the section where your data is displayed (e.g., weather, soil moisture, crop stages).\n3. **Select the Data**: Tap and hold on the data you want to copy. If the app allows, you may see options to select or highlight the data.\n4. **Copy the Data**: Look for a \"Copy\" option in the menu that appears. If there is no direct copy option, you may need to manually select the text and use the copy function from your device's menu.\n5. **Paste the Data**: Open the application where you want to paste the data (e.g., notes, email) and use the paste function.\n\nIf the app does not support direct copying, you may need to take screenshots of the data and share them as images.",
+        "timestamp": {
+          "$date": "2024-12-24T12:08:16.927Z"
+        }
+      }
+    ],
+    "farmer_id": "ksreedhar",
+    "farmer_plot_ids": [
+      "plot1356",
+      "derasamplot",
+      "ssrpuram"
+    ],
+    "conversation_id": "676aa33dcdbedbc11064f658",
+    "tag": "historical data",
+    "conv_date": "2024-12-24T12:04:13.843000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the problem ?",
+        "timestamp": {
+          "$date": "2024-12-24T11:53:50.117Z"
+        },
+        "standalone_question": "What is the issue?",
+        "standalone_en": "What is the issue?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Could you please provide more details about the issue you're facing? Are you experiencing problems with your device, sensors, or something else related to your farming activities?",
+        "timestamp": {
+          "$date": "2024-12-24T11:53:54.889Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "What is the problem ?",
+        "timestamp": {
+          "$date": "2024-12-24T11:54:36.960Z"
+        },
+        "standalone_question": "What issue are you experiencing?",
+        "standalone_en": "What issue are you experiencing?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like you might be experiencing an issue with your Kairo device or the moisture levels in your plots. If the moisture (kPa) is increasing slowly, it could be due to several factors such as the crop stage, recent weather conditions, or irrigation practices.\n\nTo assist you better, could you please specify if you're facing issues with the device not working, or if you're concerned about the moisture levels in your soil?",
+        "timestamp": {
+          "$date": "2024-12-24T11:54:44.342Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "What deficiency is showing?",
+        "timestamp": {
+          "$date": "2024-12-24T11:56:26.982Z"
+        },
+        "standalone_question": "What deficiency are you observing?",
+        "standalone_en": "What deficiency are you observing?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To determine any nutrient deficiencies in your crops, I would need to analyze specific data such as soil nutrient levels or any visible symptoms on the plants. If you have any recent soil test results or if you can describe the symptoms you're observing on your potato plants, I can provide more targeted advice. \n\nIf you have a crop image showing symptoms, you can upload it for analysis.",
+        "timestamp": {
+          "$date": "2024-12-24T11:56:31.228Z"
+        }
+      }
+    ],
+    "farmer_id": "PBCS-1",
+    "farmer_plot_ids": [
+      "abupurafarm",
+      "jandifarm",
+      "kishanpura",
+      "talwarafarm"
+    ],
+    "conversation_id": "676aa0cdcdbedbc11064f657",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-24T11:53:50.117000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "मीटर रिडिंग दाखवत नाही ",
+        "timestamp": {
+          "$date": "2024-12-24T11:45:00.535Z"
+        },
+        "standalone_question": "The standalone question is: \"The meter is not showing a reading.\"",
+        "standalone_en": "The standalone question is: \"The meter is not showing a reading.\"",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "meter reading dakhvat naahi "
+      },
+      {
+        "role": "assistant",
+        "content": "आपण कधी पाणी दिले होते? मीटर रिडिंग कमी होत नसल्यास, काही कारणे असू शकतात:\n\n1. **पाणी योग्यरित्या पोहोचत नाही:** ड्रिप सिस्टीममध्ये अडथळा असू शकतो, किंवा सेंद्रिय पाण्याच्या नळ्या किंवा ड्रिपरच्या अंतरामुळे पाणी सेंसरपर्यंत पोहोचत नसेल. कृपया ड्रिपर चांगले तपासा.\n\n2. **सेंसर जुना आहे:** जर सेंसर दोन वर्षांपेक्षा जुना असेल, तर तो खराब होऊ शकतो. तुम्हाला तिकीट उघडायचे आहे का?\n\nकृपया तपासा आणि मला सांगा.",
+        "timestamp": {
+          "$date": "2024-12-24T11:45:09.903Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "काल ",
+        "timestamp": {
+          "$date": "2024-12-24T11:45:56.360Z"
+        },
+        "standalone_question": "When did you last water the plants?",
+        "standalone_en": "When did you last water the plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kaal "
+      },
+      {
+        "role": "assistant",
+        "content": "काल, 23 डिसेंबर 2024 रोजी, \"जंबो 1\" प्लॉटमध्ये कोणतीही पाऊसाची नोंद झाली नाही. सर्व तासांमध्ये पाऊस शून्य मिमी होता. \n\nजर तुम्हाला आणखी काही माहिती हवी असेल तर कृपया सांगा.",
+        "timestamp": {
+          "$date": "2024-12-24T11:46:07.094Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ॲप चेक करा ",
+        "timestamp": {
+          "$date": "2024-12-24T11:47:22.216Z"
+        },
+        "standalone_question": "Could you please check the app?",
+        "standalone_en": "Could you please check the app?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "ap check kara "
+      },
+      {
+        "role": "assistant",
+        "content": "मी तुमच्या डिव्हाइसच्या स्थितीची तपासणी करू शकत नाही, परंतु तुम्ही तुमच्या Fyllo ॲपमध्ये खालीलप्रमाणे तपासू शकता:\n\n1. Fyllo ॲप उघडा.\n2. हॅम्बर्गर मेन्यू (≡) वर क्लिक करा.\n3. खाली स्क्रोल करा, तुम्हाला Fyllo लोगो आणि ॲप आवृत्ती त्याखाली दिसेल.\n\nजर तुमचा ॲप अद्ययावत नसेल, तर तुम्हाला Google Play Store किंवा Apple App Store वर जाऊन अद्यतन तपासावे लागेल. \n\nतुमच्या डिव्हाइसच्या कार्यक्षमतेसाठी, कृपया खात्री करा की डिव्हाइस चार्ज केलेले आहे आणि नेटवर्क कनेक्टिव्हिटी चांगली आहे.",
+        "timestamp": {
+          "$date": "2024-12-24T11:47:37.469Z"
+        }
+      }
+    ],
+    "farmer_id": "sanjaypingale",
+    "farmer_plot_ids": [
+      "jumbo1157"
+    ],
+    "conversation_id": "676a9ebc91eacf0740792724",
+    "tag": "complaints",
+    "conv_date": "2024-12-24T11:45:00.535000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "द्राक्ष बागेतील घड पिवळे पडणे मागचे कारण व उपाय योजना",
+        "timestamp": {
+          "$date": "2024-12-24T11:43:12.946Z"
+        },
+        "standalone_question": "What is the reason for the yellowing of grape clusters in the vineyard, and what are the solutions?",
+        "standalone_en": "What is the reason for the yellowing of grape clusters in the vineyard, and what are the solutions?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "draks bagetil ghad pivale padane magache karan v upay yojana"
+      },
+      {
+        "role": "assistant",
+        "content": "द्राक्ष बागेतील घड पिवळे पडणे अनेक कारणांमुळे होऊ शकते. यामध्ये मुख्यतः खालील कारणे आणि उपाययोजना आहेत:\n\n### कारणे:\n1. **पाण्याची कमी किंवा जास्ती**: योग्य पाण्याचा अभाव किंवा अधिक पाण्यामुळे पिवळे पडणे.\n2. **अन्नद्रव्यांची कमतरता**: विशेषतः नायट्रोजन, फास्फोरस, आणि पोटॅशियमची कमी.\n3. **रोग आणि कीड**: बॅक्टेरियल किंवा फंगल रोग, तसेच कीड जसे की मावा किंवा फळ खाणारे कीड.\n4. **तापमानातील बदल**: अत्यधिक तापमान किंवा थंड वातावरण.\n5. **मातीची गुणवत्ता**: मातीतील pH असंतुलन किंवा कमी पोषणतत्त्वे.\n\n### उपाययोजना:\n1. **पाण्याचे व्यवस्थापन**: मातीच्या आर्द्रतेवर लक्ष ठेवा आणि आवश्यकतेनुसार पाणी द्या.\n2. **खते वापरा**: योग्य प्रमाणात नायट्रोजन, फास्फोरस, आणि पोटॅशियम यांचे खते वापरा.\n3. **रोग नियंत्रण**: रोग आणि कीड नियंत्रणासाठी योग्य कीटकनाशकांचा वापर करा.\n4. **तापमान नियंत्रण**: गरजेनुसार छाया किंवा संरक्षणात्मक उपाययोजना करा.\n5. **मातीची चाचणी**: मातीची चाचणी करून pH आणि पोषणतत्त्वे तपासा आणि आवश्यकतेनुसार सुधारणा करा.\n\nया उपाययोजनांचा अवलंब करून तुम्ही द्राक्ष बागेतील घड पिवळे पडण्याच्या समस्येवर नियंत्रण ठेवू शकता.",
+        "timestamp": {
+          "$date": "2024-12-24T11:43:33.994Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "द्राक्ष बागेतील गडपिवळी पडल्यानंतर काय उपाययोजना करावे",
+        "timestamp": {
+          "$date": "2024-12-24T11:45:11.565Z"
+        },
+        "standalone_question": "What measures should be taken after the grape bunches turn yellow?",
+        "standalone_en": "What measures should be taken after the grape bunches turn yellow?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "draks bagetil gadapivali padalyanantar kay upayayojana karave"
+      },
+      {
+        "role": "assistant",
+        "content": "द्राक्ष बागेतील गडपिवळी पडल्यास खालील उपाययोजना कराव्यात:\n\n1. **पाण्याचे व्यवस्थापन**: \n   - मातीची आर्द्रता तपासा. पाण्याची कमी किंवा जास्ती असल्यास योग्य प्रमाणात पाणी द्या.\n\n2. **खते वापरा**: \n   - नायट्रोजन, फास्फोरस, आणि पोटॅशियम यांचे खते वापरा. विशेषतः पिवळे पडलेले गडपिवळे असल्यास, नायट्रोजनची मात्रा वाढवा.\n\n3. **रोग नियंत्रण**: \n   - जर रोगांचा संशय असेल, तर Carbendazim @ 2.5g/ltr चा वापर करून द्राक्षांच्या पानांवर किंवा मुळांवर स्प्रे करा.\n\n4. **कीड नियंत्रण**: \n   - कीडांचा अभ्यास करा आणि आवश्यकतेनुसार कीटकनाशकांचा वापर करा.\n\n5. **तापमान नियंत्रण**: \n   - गरजेनुसार छाया किंवा संरक्षणात्मक उपाययोजना करा, विशेषतः उष्णतेच्या काळात.\n\n6. **मातीची चाचणी**: \n   - मातीची चाचणी करून pH आणि पोषणतत्त्वे तपासा. आवश्यकतेनुसार सुधारणा करा.\n\n7. **संपूर्ण बागेची देखरेख**: \n   - गडपिवळ्या गडपांवर लक्ष ठेवा आणि त्यांना योग्य काळजी द्या.\n\nया उपाययोजनांचा अवलंब करून तुम्ही द्राक्ष बागेतील गडपिवळी पडण्याच्या समस्येवर नियंत्रण ठेवू शकता.",
+        "timestamp": {
+          "$date": "2024-12-24T11:45:34.085Z"
+        }
+      }
+    ],
+    "farmer_id": "aniketsanjayfugat",
+    "farmer_plot_ids": [
+      "plotno1sudhakarseedless"
+    ],
+    "conversation_id": "676a9e502f3dfb2220cc02ac",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-24T11:43:12.946000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "द्राक्ष बागेतील घड पिवळे पडणे मागचे कारण व उपाय योजना",
+        "timestamp": {
+          "$date": "2024-12-24T11:43:12.946Z"
+        },
+        "standalone_question": "What is the reason for the yellowing of grape bunches in the vineyard, and what are the solutions?",
+        "standalone_en": "What is the reason for the yellowing of grape bunches in the vineyard, and what are the solutions?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "draks bagetil ghad pivale padane magache karan v upay yojana"
+      },
+      {
+        "role": "assistant",
+        "content": "द्राक्ष बागेतील घड पिवळे पडणे अनेक कारणांमुळे होऊ शकते. यामध्ये मुख्यतः खालील कारणे आणि उपाययोजना आहेत:\n\n### कारणे:\n1. **पाण्याची कमी किंवा जास्ती**: योग्य पाण्याचा अभाव किंवा अधिक पाण्यामुळे पिवळे पडणे.\n2. **अन्नद्रव्यांची कमतरता**: विशेषतः नायट्रोजन, फास्फोरस, आणि पोटॅशियमची कमी.\n3. **रोग आणि कीड**: बॅक्टेरियल किंवा फंगल रोग, तसेच कीड जसे की मावा किंवा फळ खाणारे कीड.\n4. **तापमानातील बदल**: अत्यधिक तापमान किंवा थंड वातावरण.\n5. **मातीची गुणवत्ता**: मातीतील pH असंतुलन किंवा कमी पोषणतत्त्वे.\n\n### उपाययोजना:\n1. **पाण्याचे व्यवस्थापन**: मातीच्या आर्द्रतेवर लक्ष ठेवा आणि आवश्यकतेनुसार पाणी द्या.\n2. **खते वापरा**: योग्य प्रमाणात नायट्रोजन, फास्फोरस, आणि पोटॅशियम यांचे खते वापरा.\n3. **रोग नियंत्रण**: रोग आणि कीड नियंत्रणासाठी योग्य कीटकनाशकांचा वापर करा.\n4. **तापमान नियंत्रण**: गरजेनुसार छाया किंवा संरक्षणात्मक उपाययोजना करा.\n5. **मातीची चाचणी**: मातीची चाचणी करून pH आणि पोषणतत्त्वे तपासा आणि आवश्यकतेनुसार सुधारणा करा.\n\nया उपाययोजनांचा अवलंब करून तुम्ही द्राक्ष बागेतील घड पिवळे पडण्याच्या समस्येवर नियंत्रण ठेवू शकता.",
+        "timestamp": {
+          "$date": "2024-12-24T11:43:33.994Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "द्राक्ष बागेतील गडपिवळी पडल्यानंतर काय उपाययोजना करावे",
+        "timestamp": {
+          "$date": "2024-12-24T11:45:11.565Z"
+        },
+        "standalone_question": "What measures should be taken after the grape bunches turn yellow?",
+        "standalone_en": "What measures should be taken after the grape bunches turn yellow?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "draks bagetil gadapivali padalyanantar kay upayayojana karave"
+      },
+      {
+        "role": "assistant",
+        "content": "द्राक्ष बागेतील गडपिवळी पडल्यास खालील उपाययोजना कराव्यात:\n\n1. **पाण्याचे व्यवस्थापन**: \n   - मातीची आर्द्रता तपासा. पाण्याची कमी किंवा जास्ती असल्यास योग्य प्रमाणात पाणी द्या.\n\n2. **खते वापरा**: \n   - नायट्रोजन, फास्फोरस, आणि पोटॅशियम यांचे खते वापरा. विशेषतः पिवळे पडलेले गडपिवळे असल्यास, नायट्रोजनची मात्रा वाढवा.\n\n3. **रोग नियंत्रण**: \n   - जर रोगांचा संशय असेल, तर Carbendazim @ 2.5g/ltr चा वापर करून द्राक्षांच्या पानांवर किंवा मुळांवर स्प्रे करा.\n\n4. **कीड नियंत्रण**: \n   - कीडांचा अभ्यास करा आणि आवश्यकतेनुसार कीटकनाशकांचा वापर करा.\n\n5. **तापमान नियंत्रण**: \n   - गरजेनुसार छाया किंवा संरक्षणात्मक उपाययोजना करा, विशेषतः उष्णतेच्या काळात.\n\n6. **मातीची चाचणी**: \n   - मातीची चाचणी करून pH आणि पोषणतत्त्वे तपासा. आवश्यकतेनुसार सुधारणा करा.\n\n7. **संपूर्ण बागेची देखरेख**: \n   - गडपिवळ्या गडपांवर लक्ष ठेवा आणि त्यांना योग्य काळजी द्या.\n\nया उपाययोजनांचा अवलंब करून तुम्ही द्राक्ष बागेतील गडपिवळी पडण्याच्या समस्येवर नियंत्रण ठेवू शकता.",
+        "timestamp": {
+          "$date": "2024-12-24T11:45:34.085Z"
+        }
+      }
+    ],
+    "farmer_id": "aniketsanjayfugat",
+    "farmer_plot_ids": [
+      "plotno1sudhakarseedless"
+    ],
+    "conversation_id": "676a9e502f3dfb2220cc02ac",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-12-24T11:43:12.946000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "કંઈ રોગ આવેલો છે",
+        "timestamp": {
+          "$date": "2024-12-24T11:21:48.428Z"
+        },
+        "standalone_question": "Is there any illness that has occurred?",
+        "standalone_en": "Is there any illness that has occurred?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kani rog avelo che"
+      },
+      {
+        "role": "assistant",
+        "content": "કૃપા કરીને તમારા પાકનો ફોટો અપલોડ કરો, જેથી હું તેને વિશ્લેષણ કરી શકું અને કોઈ રોગની ઓળખ કરી શકું.",
+        "timestamp": {
+          "$date": "2024-12-24T11:21:52.156Z"
+        }
+      }
+    ],
+    "farmer_id": "dineshbhaipatel747",
+    "farmer_plot_ids": [
+      "mainpalot",
+      "saghavaloplot"
+    ],
+    "conversation_id": "676a994c91eacf0740792723",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-24T11:21:48.428000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "फुगावं कसे ",
+        "timestamp": {
+          "$date": "2024-12-24T10:19:43.838Z"
+        },
+        "standalone_question": "How to inflate?",
+        "standalone_en": "How to inflate?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "फुगावण्यासाठी खालील गोष्टींचा विचार करा:\n\n1. **सिंचन**: योग्य प्रमाणात पाण्याची उपलब्धता सुनिश्चित करा. मातीची आर्द्रता तपासून, आवश्यकतेनुसार सिंचन करा.\n\n2. **खते**: योग्य खते वापरा. फुगावणाऱ्या पिकांसाठी नायट्रोजन, फॉस्फरस आणि पोटॅशियम यांचे संतुलित प्रमाण आवश्यक आहे.\n\n3. **पिकांची काळजी**: पिकांच्या वाढीच्या अवस्थेनुसार योग्य काळजी घ्या. पिकांच्या वाढीच्या अवस्थेनुसार फुगावणारे पिकांचे व्यवस्थापन करा.\n\n4. **पिकांची निवड**: फुगावणाऱ्या पिकांची योग्य निवड करा. स्थानिक हवामान आणि मातीच्या प्रकारानुसार योग्य पिकांची निवड करा.\n\n5. **पिकांची तपासणी**: पिकांची नियमित तपासणी करा, रोग आणि कीड यांचे लक्ष ठेवा.\n\nजर तुम्हाला विशिष्ट पिकाबद्दल अधिक माहिती हवी असेल, तर कृपया सांगा.",
+        "timestamp": {
+          "$date": "2024-12-24T10:19:49.000Z"
+        }
+      }
+    ],
+    "farmer_id": "vinayakdajijadhav",
+    "farmer_plot_ids": [
+      "vinayakjadhavplot1",
+      "vinayakjadhavplot2"
+    ],
+    "conversation_id": "676a8abf91eacf0740792721",
+    "tag": "others",
+    "conv_date": "2024-12-24T10:19:43.838000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Miley benson opera",
+        "timestamp": {
+          "$date": "2024-12-24T09:21:15.828Z"
+        },
+        "standalone_question": "What can you tell me about Miley Benson and her involvement in opera?",
+        "standalone_en": "What can you tell me about Miley Benson and her involvement in opera?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "I'm here to assist you with agricultural practices and crop management. If you have any questions or need guidance related to farming, please let me know!",
+        "timestamp": {
+          "$date": "2024-12-24T09:21:18.599Z"
+        }
+      }
+    ],
+    "farmer_id": "keshavmadhavkawale",
+    "farmer_plot_ids": [
+      "plotno1sudhakarsf",
+      "plotno2mamajambosf"
+    ],
+    "conversation_id": "676a7d0b91eacf0740792720",
+    "tag": "others",
+    "conv_date": "2024-12-24T09:21:15.828000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kinnow m   manganese  ki deficiency k lakshan",
+        "timestamp": {
+          "$date": "2024-12-24T08:57:33.978Z"
+        },
+        "standalone_question": "What are the symptoms of manganese deficiency in Kinnow?",
+        "standalone_en": "What are the symptoms of manganese deficiency in Kinnow?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Kinnow (किन्नू) में मैंगनीज की कमी के लक्षण निम्नलिखित हो सकते हैं:\n\n1. **पत्तियों का पीला होना**: पत्तियों के बीच का हिस्सा पीला पड़ जाता है, जबकि किनारे हरे रहते हैं।\n2. **पत्तियों पर धब्बे**: पत्तियों पर भूरे या काले धब्बे दिखाई दे सकते हैं।\n3. **पत्तियों का गिरना**: प्रभावित पत्तियाँ समय के साथ गिरने लगती हैं।\n4. **फलों का विकास रुकना**: फल छोटे और कमजोर हो सकते हैं, और उनका विकास धीमा हो सकता है।\n5. **किस्मों में असमानता**: फलों में आकार और रंग में असमानता हो सकती है।\n\nयदि आपको इन लक्षणों का सामना करना पड़ रहा है, तो मैंगनीज की कमी को पूरा करने के लिए उचित उर्वरक का उपयोग करें।",
+        "timestamp": {
+          "$date": "2024-12-24T08:57:38.528Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Kya daale",
+        "timestamp": {
+          "$date": "2024-12-24T08:58:23.092Z"
+        },
+        "standalone_question": "What should be added?",
+        "standalone_en": "What should be added?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Kinnow में मैंगनीज की कमी को पूरा करने के लिए निम्नलिखित उपाय करें:\n\n1. **मैंगनीज युक्त उर्वरक**: जैसे कि मैंगनीज सल्फेट (Manganese Sulfate) का उपयोग करें। इसे मिट्टी में मिलाने या पत्तियों पर छिड़काव के रूप में प्रयोग किया जा सकता है।\n\n2. **पत्तियों पर स्प्रे**: मैंगनीज युक्त फोलियर्स का उपयोग करें, जो पत्तियों के माध्यम से जल्दी अवशोषित होते हैं।\n\n3. **सही pH स्तर**: सुनिश्चित करें कि मिट्टी का pH स्तर 6.0 से 7.0 के बीच हो, क्योंकि उच्च pH स्तर मैंगनीज के अवशोषण को प्रभावित कर सकता है।\n\n4. **सिंचाई**: नियमित सिंचाई सुनिश्चित करें, क्योंकि सूखी मिट्टी में मैंगनीज का अवशोषण कम हो सकता है।\n\n5. **पोषण संतुलन**: अन्य पोषक तत्वों का संतुलन बनाए रखें, जैसे कि जिंक और आयरन, जो मैंगनीज के अवशोषण में मदद कर सकते हैं।\n\nइन उपायों को अपनाकर आप अपने Kinnow के पौधों में मैंगनीज की कमी को दूर कर सकते हैं।",
+        "timestamp": {
+          "$date": "2024-12-24T08:58:28.706Z"
+        }
+      }
+    ],
+    "farmer_id": "mandeepbishnoi1661062088650",
+    "farmer_plot_ids": [
+      "kairokinnowfarm",
+      "kinnowplotnero1"
+    ],
+    "conversation_id": "676a777d91eacf074079271f",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-12-24T08:57:33.978000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "કટ વોર્મ એટલે શુ",
+        "timestamp": {
+          "$date": "2024-12-24T04:57:36.612Z"
+        },
+        "standalone_question": "What does \"cut worm\" mean?",
+        "standalone_en": "What does \"cut worm\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "cut warm atale shoe"
+      },
+      {
+        "role": "assistant",
+        "content": "કટ વોર્મ (Cutworm) એ એક પ્રકારનો કીટક છે જે મુખ્યત્વે પાકોના કંદ અને પાંદડાઓને નુકસાન પહોંચાડે છે. આ કીટક જમીનમાં રહે છે અને રાત્રે બહાર આવીને છોડના તણખા અથવા પાંદડાઓને કાપે છે. કટ વોર્મના હુમલાથી પાકની વૃદ્ધિમાં અવરોધ આવે છે અને પાકનું ઉત્પાદન ઘટી શકે છે. \n\nકટ વોર્મથી બચવા માટે, ખેડૂતોને યોગ્ય કીટક નિયંત્રણની રીતો અપનાવવી જોઈએ, જેમ કે પેસ્ટિસાઇડ્સનો ઉપયોગ, જમીનની સારી સંભાળ અને પાકના ફેરફાર.",
+        "timestamp": {
+          "$date": "2024-12-24T04:57:40.771Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ક્યુ અને કેટલુ",
+        "timestamp": {
+          "$date": "2024-12-24T04:58:16.004Z"
+        },
+        "standalone_question": "What is the reason and how much damage do cutworms cause?",
+        "standalone_en": "What is the reason and how much damage do cutworms cause?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "cue ane ketlu"
+      },
+      {
+        "role": "assistant",
+        "content": "કટ વોર્મના નિયંત્રણ માટે, તમે નીચેના પદ્ધતિઓ અપનાવી શકો છો:\n\n1. **પેસ્ટિસાઇડ્સનો ઉપયોગ**: \n   - **ક્લોરપિરિફોસ** @ 5 મીલીલિટર પ્રતિ લિટર પાણી અથવા \n   - **થિયામેથોક્સામ** @ 0.5 ગ્રામ પ્રતિ લિટર પાણી.\n\n2. **જમીનની સારી સંભાળ**: જમીનને સારી રીતે જાળવવા અને કીટકના નિવાસસ્થાનોને દૂર કરવા માટે જમીનને સારી રીતે ખોદવું.\n\n3. **પાક ફેરફાર**: કટ વોર્મના હુમલાને ઘટાડવા માટે પાક ફેરફાર કરવો.\n\n4. **જમીનની સ્વચ્છતા**: જમીન પરના કચરો અને અન્ય અવશેષોને દૂર કરવું.\n\nઆ પદ્ધતિઓનો ઉપયોગ કરીને, તમે કટ વોર્મના હુમલાને નિયંત્રિત કરી શકો છો.",
+        "timestamp": {
+          "$date": "2024-12-24T04:58:21.081Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140"
+    ],
+    "conversation_id": "676a3f35101ba68c094795ab",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-24T04:57:36.612000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Khate nahin jarur chhe",
+        "timestamp": {
+          "$date": "2024-12-24T03:40:15.714Z"
+        },
+        "standalone_question": "The standalone question could be: \"Is it necessary to go home?\"",
+        "standalone_en": "The standalone question could be: \"Is it necessary to go home?\"",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapne khate nahin jarur chhe, aapne paani aapva ni jarur chhe. Aapne aapna plot ma soil moisture ni current reading ne check karva maate, aapne paani aapva ni jarur chhe ke nahi, aapne check kariye. \n\nAapne aapna plots ma soil moisture ni current reading ne check karva maate, thodi vaar maate wait karo.",
+        "timestamp": {
+          "$date": "2024-12-24T03:40:18.781Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ઘરવાળા પ્લોટ માં કયા ખાતર ની જરૂર છે",
+        "timestamp": {
+          "$date": "2024-12-24T03:41:07.607Z"
+        },
+        "standalone_question": "What type of fertilizer is needed for the home plot?",
+        "standalone_en": "What type of fertilizer is needed for the home plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17"
+          ]
+        },
+        "content_transliterated": "gharavala plot man kaya khatar knee jarur che"
+      },
+      {
+        "role": "assistant",
+        "content": "\"ઘરવાળા પ્લોટ (Niro)\" માં હાલની સ્થિતિ \"Vegetative growth\" છે, અને આ સપ્તાહ (સપ્તાહ 3) માટે ખાતરનો શેડ્યૂલ નીચે મુજબ છે:\n\n### હાલની સપ્તાહ માટે:\n1. **ફોલિયર પદ્ધતિ**:\n   - **ખાતર**: 19-19-19\n   - **જથ્થો**: 1.5 કિલોગ્રામ/એકર\n\n2. **ફર્ટિગેશન પદ્ધતિ**:\n   - **દિવસ 1**:\n     - **ખાતર**: Urea\n     - **જથ્થો**: 8.5 કિલોગ્રામ/એકર\n   - **દિવસ 4**:\n     - **ખાતર**: \n       - 12-61-0: 6 કિલોગ્રામ/એકર\n       - Urea: 5 કિલોગ્રામ/એકર\n       - Magnesium Sulphate: 5 કિલોગ્રામ/એકર\n     - અથવા\n       - 24-24-0: 12 કિલોગ્રામ/એકર\n       - Phosphoric acid 80%: 1 કિલોગ્રામ/એકર\n       - Magnesium Sulphate: 5 કિલોગ્રામ/એકર\n\n### આગામી સપ્તાહ માટે:\n- **ફોલિયર પદ્ધતિ**:\n  - **ખાતર**: Zinc Sulphate, Ferrous Sulphate, Manganese Sulphate (જથ્થા મુજબ)\n  \n- **ફર્ટિગેશન પદ્ધતિ**:\n  - **દિવસ 1**:\n    - **ખાતર**: Calcium nitrate, Urea (જથ્થા મુજબ)\n\nઆ માહિતી અનુસાર, ખાતર આપવાની તૈયારી રાખો.",
+        "timestamp": {
+          "$date": "2024-12-24T03:41:16.386Z"
+        }
+      }
+    ],
+    "farmer_id": "nikhilthakor",
+    "farmer_plot_ids": [
+      "kairo173",
+      "nero1275",
+      "nero1286"
+    ],
+    "conversation_id": "676a2d1d2f3dfb2220cc02ab",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-12-24T03:40:15.714000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "भुरी साठी कोणता स्प्रे घ्यावा ",
+        "timestamp": {
+          "$date": "2024-12-24T02:38:25.023Z"
+        },
+        "standalone_question": "What spray should be used for hair?",
+        "standalone_en": "What spray should be used for hair?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "bhuri sathi konta spray ghyava "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या प्लॉटसाठी भुरीसाठी कोणताही स्प्रे शेड्यूल नाही. जर तुम्हाला भुरीसाठी स्प्रे करायचा असेल, तर कृपया फक्त फायलोच्या सूचना आणि शेड्यूलनुसार कार्य करा.",
+        "timestamp": {
+          "$date": "2024-12-24T02:38:33.035Z"
+        }
+      }
+    ],
+    "farmer_id": "vishalbankar",
+    "farmer_plot_ids": [
+      "plotno1clone103"
+    ],
+    "conversation_id": "676a1ea0cdbedbc11064f656",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-12-24T02:38:25.023000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "રોગ ના નિશાન પર પીળા ટ્યકા નો અર્થ",
+        "timestamp": {
+          "$date": "2024-12-24T02:28:12.556Z"
+        },
+        "standalone_question": "What does a yellow spot on a disease indicate?",
+        "standalone_en": "What does a yellow spot on a disease indicate?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "rog na nishan per pila tyka no earth"
+      },
+      {
+        "role": "assistant",
+        "content": "પીળા ટ્યકા સામાન્ય રીતે રોગના નિશાન હોઈ શકે છે, જે વિવિધ કારણોસર થઈ શકે છે, જેમ કે:\n\n1. **ફૂગ અથવા બેક્ટેરિયલ ઇન્ફેક્શન**: પીળા ટ્યકા ફૂગ અથવા બેક્ટેરિયા દ્વારા થતા રોગોના નિશાન હોઈ શકે છે, જેમ કે અલ્ટરનેરિયા અથવા બેક્ટેરિયલ બ્લાઇટ.\n\n2. **પોષણની અછત**: જમીનમાં નાઇટ્રોજન, પોટેશિયમ અથવા અન્ય મહત્વપૂર્ણ પોષક તત્વોની અછત પણ પાન પર પીળા ટ્યકા ઉત્પન્ન કરી શકે છે.\n\n3. **જળવાયુ તણાવ**: વધુ પાણી અથવા ઓછા પાણીના કારણે પણ પાન પર પીળા ટ્યકા દેખાઈ શકે છે.\n\n4. **જંતુઓનું હુમલો**: કેટલાક જંતુઓ, જેમ કે આફિડ્સ, પણ પાનને નુકસાન પહોંચાડી શકે છે, જેના પરિણામે પીળા ટ્યકા દેખાઈ શકે છે.\n\nજો તમારી પાકમાં પીળા ટ્યકા દેખાય છે, તો યોગ્ય નિદાન માટે કૃષિ નિષ્ણાતની સલાહ લેવી મહત્વપૂર્ણ છે.",
+        "timestamp": {
+          "$date": "2024-12-24T02:28:17.187Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140"
+    ],
+    "conversation_id": "676a1c3c91eacf074079271c",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-24T02:28:12.556000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "बॅटरी चार्ज होत नाही",
+        "timestamp": {
+          "$date": "2024-12-24T02:10:32.212Z"
+        },
+        "standalone_question": "The battery is not charging.",
+        "standalone_en": "The battery is not charging.",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "battery charge hot nahi"
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया खालील गोष्टी तपासा:\n\n1. **बॅटरी कनेक्शन**: बॅटरी योग्य प्रकारे कनेक्ट केलेली आहे का ते तपासा.\n2. **बॅटरी प्रकार**: योग्य प्रकारच्या बॅटरीचा वापर केला जात आहे का ते पाहा.\n3. **बॅटरी स्थिती**: बॅटरी जुनी किंवा खराब झाली आहे का ते तपासा.\n\nजर सर्व काही व्यवस्थित असेल तरीही बॅटरी चार्ज होत नसेल, तर कृपया Fyllo अॅपवर सपोर्ट तिकीट उघडा.",
+        "timestamp": {
+          "$date": "2024-12-24T02:10:37.521Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "बॅटरी खराब आहे",
+        "timestamp": {
+          "$date": "2024-12-24T02:14:14.016Z"
+        },
+        "standalone_question": "Is the battery faulty?",
+        "standalone_en": "Is the battery faulty?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "battery kharab aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "जर बॅटरी खराब झाली असेल, तर तुम्हाला नवीन बॅटरी खरेदी करण्याची आवश्यकता आहे. कृपया खालील गोष्टींचा विचार करा:\n\n1. **बॅटरी बदलणे**: नवीन बॅटरी खरेदी करा आणि जुनी बॅटरी बदलून पहा.\n2. **सपोर्ट तिकीट**: जर तुम्हाला बॅटरी बदलण्यात किंवा इतर कोणत्याही समस्येत मदतीची आवश्यकता असेल, तर Fyllo अॅपवर सपोर्ट तिकीट उघडा.\n\nतुमच्या प्लॉटच्या उपकरणांची कार्यक्षमता सुनिश्चित करण्यासाठी हे महत्त्वाचे आहे.",
+        "timestamp": {
+          "$date": "2024-12-24T02:14:18.411Z"
+        }
+      }
+    ],
+    "farmer_id": "subhaskhadbane",
+    "farmer_plot_ids": [
+      "plotno2arra35245",
+      "thompsonplot1matoshreesonari"
+    ],
+    "conversation_id": "676a181891eacf074079271b",
+    "tag": "complaints",
+    "conv_date": "2024-12-24T02:10:32.212000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "કઈ બીજું આલવાનું છે",
+        "timestamp": {
+          "$date": "2024-12-24T01:47:18.065Z"
+        },
+        "standalone_question": "What else is there to discuss?",
+        "standalone_en": "What else is there to discuss?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kai biju alavanun che"
+      },
+      {
+        "role": "assistant",
+        "content": "આપના પ્લોટ માટે હાલમાં કોઈ રોગ અથવા કીટક સ્પ્રે શેડ્યૂલ નથી. જો તમને વધુ માહિતી જોઈએ તો કૃપા કરીને જણાવો.",
+        "timestamp": {
+          "$date": "2024-12-24T01:47:24.824Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "કઈ બીજું તો પ્લોટ માં આવવાનું નથી ને રોગ",
+        "timestamp": {
+          "$date": "2024-12-24T01:48:54.761Z"
+        },
+        "standalone_question": "Is there any other disease that is not present in the plot?",
+        "standalone_en": "Is there any other disease that is not present in the plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kai biju to plot man avavanun nathi ne rog"
+      },
+      {
+        "role": "assistant",
+        "content": "હા, આપના પ્લોટમાં હાલમાં કોઈ રોગની આગાહી નથી. જો આપને વધુ માહિતી અથવા મદદની જરૂર હોય, તો કૃપા કરીને જણાવો.",
+        "timestamp": {
+          "$date": "2024-12-24T01:48:57.711Z"
+        }
+      }
+    ],
+    "farmer_id": "VR6858",
+    "farmer_plot_ids": [
+      "amarshiwaro",
+      "gharwalakairo"
+    ],
+    "conversation_id": "676a12a591eacf074079271a",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-24T01:47:18.065000+00:00"
+  }
+]

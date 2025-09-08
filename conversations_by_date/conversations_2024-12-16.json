@@ -1,0 +1,619 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "બટાકાને હવે શું ખાતર આપવું",
+        "timestamp": {
+          "$date": "2024-12-16T13:45:24.505Z"
+        },
+        "standalone_question": "What fertilizer should I give to the potatoes now?",
+        "standalone_en": "What fertilizer should I give to the potatoes now?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "batakane have shu khatar apvu"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા બટાકાના પાક માટે, હાલની સ્થિતિ \"Vegetative growth\" (વૃદ્ધિ અવસ્થા) છે, જે 4મી સપ્તાહમાં છે. અહીં કેટલીક ખાતર આપવાની સૂચનાઓ છે:\n\n### Dela Valu (4 acres)\n1. **Foliar Spray (Day 1)**:\n   - **Zinc Sulphate**: 800 gm/acre\n   - **Ferrous Sulphate**: 600 gm/acre\n   - **Manganese Sulphate**: 400 gm/acre\n   - **Note**: Foliar spray concentration should not exceed 1% (e.g., 5 kg in 500 liters of water per acre).\n\n2. **Fertigation (Day 1)**:\n   - **Calcium Nitrate**: 3.5 kg/acre\n   - **Urea**: 6.5 kg/acre\n   - **Note**: Apply Calcium nitrate separately, 15-20 minutes after other fertilizers.\n\n3. **Fertigation (Day 4)**:\n   - **Potassium Nitrate**: 7 kg/acre\n   - **Urea**: 5 kg/acre\n\n### Khejada Valu (5 acres)\n1. **Foliar Spray (Day 1)**:\n   - Same as above.\n\n2. **Fertigation (Day 1)**:\n   - Same as above.\n\n3. **Fertigation (Day 4)**:\n   - Same as above.\n\n### Patsala (3 acres)\n1. **Foliar Spray (Day 1)**:\n   - Same as above.\n\n2. **Fertigation (Day 1)**:\n   - Same as above.\n\n3. **Fertigation (Day 4)**:\n   - Same as above.\n\nઆ ખાતરો આપવાથી તમારા બટાકાના પાકની વૃદ્ધિ અને વિકાસમાં મદદ મળશે.",
+        "timestamp": {
+          "$date": "2024-12-16T13:45:34.324Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "બટાકામાં હાલ કઈ રોગ છે કે નહીં",
+        "timestamp": {
+          "$date": "2024-12-16T13:46:01.453Z"
+        },
+        "standalone_question": "Are there any diseases currently affecting the potatoes?",
+        "standalone_en": "Are there any diseases currently affecting the potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "batakaman hal kai rog che ke nahin"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા બટાકાના પાકમાં હાલની રોગની સ્થિતિ નીચે મુજબ છે:\n\n### Dela Valu\n- **Late Blight**: 38.1% (Risk Level: LOW)\n- **Early Blight**: 46.5% (Risk Level: LOW)\n\n### Khejada Valu\n- **Late Blight**: 38.1% (Risk Level: LOW)\n- **Early Blight**: 46.5% (Risk Level: LOW)\n\n### Patsala\n- **Late Blight**: 38.1% (Risk Level: LOW)\n- **Early Blight**: 46.5% (Risk Level: LOW)\n\n### નિષ્કર્ષ:\nતમારા બટાકાના પાકમાં \"Late Blight\" અને \"Early Blight\" રોગોનું જોખમ છે, પરંતુ તે હાલના સમયે ઓછું છે (LOW Risk Level). જો કે, આ રોગોનું ધ્યાન રાખવું મહત્વપૂર્ણ છે. જો જરૂર પડે તો, યોગ્ય નિયંત્રણ પગલાં લેવા માટે તૈયાર રહો.",
+        "timestamp": {
+          "$date": "2024-12-16T13:46:10.086Z"
+        }
+      }
+    ],
+    "farmer_id": "VR4859",
+    "farmer_plot_ids": [
+      "delavalu",
+      "khejadavalu",
+      "patsala"
+    ],
+    "conversation_id": "67602ef401502fd08955a5fa",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-16T13:45:24.505000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "બટાકાને હવે શું ખાતર આપવું",
+        "timestamp": {
+          "$date": "2024-12-16T13:45:24.505Z"
+        },
+        "standalone_question": "What fertilizer should I give to the potatoes now?",
+        "standalone_en": "What fertilizer should I give to the potatoes now?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "batakane have shu khatar apvu"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા બટાકાના પાક માટે, હાલની સ્થિતિ \"Vegetative growth\" (વૃદ્ધિ અવસ્થા) છે, જે 4મી સપ્તાહમાં છે. અહીં કેટલીક ખાતર આપવાની સૂચનાઓ છે:\n\n### Dela Valu (4 acres)\n1. **Foliar Spray (Day 1)**:\n   - **Zinc Sulphate**: 800 gm/acre\n   - **Ferrous Sulphate**: 600 gm/acre\n   - **Manganese Sulphate**: 400 gm/acre\n   - **Note**: Foliar spray concentration should not exceed 1% (e.g., 5 kg in 500 liters of water per acre).\n\n2. **Fertigation (Day 1)**:\n   - **Calcium Nitrate**: 3.5 kg/acre\n   - **Urea**: 6.5 kg/acre\n   - **Note**: Apply Calcium nitrate separately, 15-20 minutes after other fertilizers.\n\n3. **Fertigation (Day 4)**:\n   - **Potassium Nitrate**: 7 kg/acre\n   - **Urea**: 5 kg/acre\n\n### Khejada Valu (5 acres)\n1. **Foliar Spray (Day 1)**:\n   - Same as above.\n\n2. **Fertigation (Day 1)**:\n   - Same as above.\n\n3. **Fertigation (Day 4)**:\n   - Same as above.\n\n### Patsala (3 acres)\n1. **Foliar Spray (Day 1)**:\n   - Same as above.\n\n2. **Fertigation (Day 1)**:\n   - Same as above.\n\n3. **Fertigation (Day 4)**:\n   - Same as above.\n\nઆ ખાતરો આપવાથી તમારા બટાકાના પાકની વૃદ્ધિ અને વિકાસમાં મદદ મળશે.",
+        "timestamp": {
+          "$date": "2024-12-16T13:45:34.324Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "બટાકામાં હાલ કઈ રોગ છે કે નહીં",
+        "timestamp": {
+          "$date": "2024-12-16T13:46:01.453Z"
+        },
+        "standalone_question": "Are there any diseases currently affecting the potatoes?",
+        "standalone_en": "Are there any diseases currently affecting the potatoes?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "batakaman hal kai rog che ke nahin"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા બટાકાના પાકમાં હાલની રોગની સ્થિતિ નીચે મુજબ છે:\n\n### Dela Valu\n- **Late Blight**: 38.1% (Risk Level: LOW)\n- **Early Blight**: 46.5% (Risk Level: LOW)\n\n### Khejada Valu\n- **Late Blight**: 38.1% (Risk Level: LOW)\n- **Early Blight**: 46.5% (Risk Level: LOW)\n\n### Patsala\n- **Late Blight**: 38.1% (Risk Level: LOW)\n- **Early Blight**: 46.5% (Risk Level: LOW)\n\n### નિષ્કર્ષ:\nતમારા બટાકાના પાકમાં \"Late Blight\" અને \"Early Blight\" રોગોનું જોખમ છે, પરંતુ તે હાલના સમયે ઓછું છે (LOW Risk Level). જો કે, આ રોગોનું ધ્યાન રાખવું મહત્વપૂર્ણ છે. જો જરૂર પડે તો, યોગ્ય નિયંત્રણ પગલાં લેવા માટે તૈયાર રહો.",
+        "timestamp": {
+          "$date": "2024-12-16T13:46:10.086Z"
+        }
+      }
+    ],
+    "farmer_id": "VR4859",
+    "farmer_plot_ids": [
+      "delavalu",
+      "khejadavalu",
+      "patsala"
+    ],
+    "conversation_id": "67602ef401502fd08955a5fa",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-12-16T13:45:24.505000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં ક્યારેય પાણી આપું ",
+        "timestamp": {
+          "$date": "2024-12-16T11:30:15.960Z"
+        },
+        "standalone_question": "When should I water my field?",
+        "standalone_en": "When should I water my field?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer.",
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate."
+          ]
+        },
+        "content_transliterated": "mara khetaraman kyarey pani apu "
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં પાણી આપવાની જરૂર નથી, કારણ કે મીઠા મોજા (soil moisture) ની હાલત નીચે મુજબ છે:\n\n1. **Dela Valu**: \n   - Soil Moisture 1: 0 kPa\n   - Soil Moisture 2: 4 kPa\n   - Optimal Moisture: 15 kPa\n   - **Watering Not Required**: Soil moisture is below dry optimal values.\n\n2. **Khejada Valu**: \n   - Soil Moisture 1: 0 kPa\n   - Soil Moisture 2: 0 kPa\n   - Optimal Moisture: 18 kPa\n   - **Watering Not Required**: Soil moisture is below dry optimal values.\n\n3. **Patsala**: \n   - Soil Moisture 1: 0 kPa\n   - Soil Moisture 2: 0 kPa\n   - Optimal Moisture: 18 kPa\n   - **Watering Not Required**: Soil moisture is below dry optimal values.\n\nતમે પાણી આપવાની જરૂર નથી, પરંતુ જો મોજા વધે તો પછી પાણી આપવું જોઈએ.",
+        "timestamp": {
+          "$date": "2024-12-16T11:30:27.173Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં ક્યારે દવા છાંટવાની કરવાની જરૂર છે",
+        "timestamp": {
+          "$date": "2024-12-16T11:31:36.282Z"
+        },
+        "standalone_question": "When is it necessary to spray medicine in my field?",
+        "standalone_en": "When is it necessary to spray medicine in my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice."
+          ]
+        },
+        "content_transliterated": "mara khetaraman kyare dava chantavani karvani jarur che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં દવા છાંટવાની જરૂર છે. અહીં દરેક ખેતરના માટેની માહિતી છે:\n\n1. **Dela Valu**:\n   - **તારીખ**: 16 ડિસેમ્બર 2024\n   - **પેસ્ટ**: માઇટ્સ, રેડ સ્પાઇડર માઇટ્સ\n   - **દવા**: \n     - Chlorfenapyr 10 SC - 1 mL\n     - Propargite 42% + Hexythiazox 2% EC - 2.5 mL\n     - Cyenopyrafen 30 SC - 0.6 mL\n   - **પાણી**: 1 લિટર\n\n**Khejada Valu** અને **Patsala** માટે કોઈ દવા છાંટવાની સૂચના નથી.\n\nજો તમે Dela Valu માટે આ દવાઓ છાંટવા માંગતા હો, તો આજે જ કરો.",
+        "timestamp": {
+          "$date": "2024-12-16T11:31:45.145Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ઝાડ ખોરાક ક્યારે લે",
+        "timestamp": {
+          "$date": "2024-12-16T11:32:29.353Z"
+        },
+        "standalone_question": "When should the trees be fed?",
+        "standalone_en": "When should the trees be fed?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "zad khorak kyare lay"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં ખોરાક લેવાની જરૂર છે. અહીં દરેક ખેતરના માટેની માહિતી છે:\n\n### 1. **Dela Valu**\n- **વર્તમાન તબક્કો**: વેજિટેટિવ ગ્રોથ (Vegetative Growth)\n- **હાલની સપ્તાહ**: 4\n- **આજે (16 ડિસેમ્બર 2024)**:\n  - **ફોલિયર પદ્ધતિ**:\n    - **ફર્ટિલાઇઝર્સ**:\n      - Zinc Sulphate: 800 gm/acre\n      - Ferrous Sulphate: 600 gm/acre\n      - Manganese Sulphate: 400 gm/acre\n  - **ફર્ટિગેશન પદ્ધતિ**:\n    - Calcium nitrate: 3.5 kg/acre\n    - Urea: 6.5 kg/acre (15-20 મિનિટ પછી)\n\n### 2. **Khejada Valu**\n- **વર્તમાન તબક્કો**: વેજિટેટિવ ગ્રોથ (Vegetative Growth)\n- **હાલની સપ્તાહ**: 4\n- **આજે (16 ડિસેમ્બર 2024)**:\n  - **ફોલિયર પદ્ધતિ**:\n    - Zinc Sulphate: 800 gm/acre\n    - Ferrous Sulphate: 600 gm/acre\n    - Manganese Sulphate: 400 gm/acre\n  - **ફર્ટિગેશન પદ્ધતિ**:\n    - Calcium nitrate: 3.5 kg/acre\n    - Urea: 6.5 kg/acre (15-20 મિનિટ પછી)\n\n### 3. **Patsala**\n- **વર્તમાન તબક્કો**: વેજિટેટિવ ગ્રોથ (Vegetative Growth)\n- **હાલની સપ્તાહ**: 4\n- **આજે (16 ડિસેમ્બર 2024)**:\n  - **ફોલિયર પદ્ધતિ**:\n    - Zinc Sulphate: 800 gm/acre\n    - Ferrous Sulphate: 600 gm/acre\n    - Manganese Sulphate: 400 gm/acre\n  - **ફર્ટિગેશન પદ્ધતિ**:\n    - Calcium nitrate: 3.5 kg/acre\n    - Urea: 6.5 kg/acre (15-20 મિનિટ પછી)\n\nઆ માહિતી અનુસાર, આજે જ ખોરાક લેવું જરૂરી છે.",
+        "timestamp": {
+          "$date": "2024-12-16T11:32:41.708Z"
+        }
+      }
+    ],
+    "farmer_id": "VR4859",
+    "farmer_plot_ids": [
+      "delavalu",
+      "khejadavalu",
+      "patsala"
+    ],
+    "conversation_id": "67600f474b345145ad5aa9fe",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-12-16T11:30:15.960000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં પાણીની ક્યારે જરૂર છે",
+        "timestamp": {
+          "$date": "2024-12-16T11:29:30.618Z"
+        },
+        "standalone_question": "When does my field need water?",
+        "standalone_en": "When does my field need water?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate.",
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: In the latest irrigation , sensor didn't drop to 0.\nA: 0 to 5 Kpa means soil is fully wet. It need not drop to 0 every time. Moisture less than 5 also means wet conditions. So, need not worry. Also ask to wait for 12 hours after irrigation.",
+            "Q: What should I do if the soil moisture sensor always shows wet values?\nA: Verify the irrigation frequency, check the installation point, and contact Fyllo representative if the issue persists."
+          ]
+        },
+        "content_transliterated": "mara khetaraman panini kyare jarur che"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં પાણીની જરૂરિયાત નીચે મુજબ છે:\n\n1. **Dela Valu**:\n   - **વર્તમાન મૃદા ભેજ**: 0 kPa (ખૂબ જ ભેજવાળું)\n   - **ઓપ્ટિમલ મૃદા ભેજ**: 2 (ભેજવાળું) - 15 (સૂકું), 15 kPa ઉપર પાણી આપવું.\n\n2. **Khejada Valu**:\n   - **વર્તમાન મૃદા ભેજ**: 0 kPa (ખૂબ જ ભેજવાળું)\n   - **ઓપ્ટિમલ મૃદા ભેજ**: 2 (ભેજવાળું) - 18 (સૂકું), 18 kPa ઉપર પાણી આપવું.\n\n3. **Patsala**:\n   - **વર્તમાન મૃદા ભેજ**: 0 kPa (ખૂબ જ ભેજવાળું)\n   - **ઓપ્ટિમલ મૃદા ભેજ**: 2 (ભેજવાળું) - 18 (સૂકું), 18 kPa ઉપર પાણી આપવું.\n\nતમારા ખેતરમાં હાલ મૃદા ભેજ ખૂબ જ ભેજવાળું છે, તેથી હાલમાં પાણી આપવાની જરૂર નથી.",
+        "timestamp": {
+          "$date": "2024-12-16T11:29:39.461Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં કયું ખાતર આપવું",
+        "timestamp": {
+          "$date": "2024-12-16T11:30:24.911Z"
+        },
+        "standalone_question": "What type of fertilizer should I use in my field?",
+        "standalone_en": "What type of fertilizer should I use in my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17"
+          ]
+        },
+        "content_transliterated": "mara khetaraman kayu khatar apvu"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં ખાતર આપવાની સૂચનાઓ નીચે મુજબ છે:\n\n### Dela Valu (Potato - Hyfun)\n- **વર્તમાન તબક્કો**: વેજિટેટિવ ગ્રોથ (Vegetative Growth)\n- **હાલની સપ્તાહ**: 4\n\n#### ફર્ટિગેશન શેડ્યૂલ:\n1. **દિવસ 1**:\n   - **Calcium Nitrate**: 3.5 kg/acre\n   - **Urea**: 6.5 kg/acre\n   - *Calcium nitrate ને અન્ય ખાતરોની એપ્લિકેશન પછી 15-20 મિનિટ પછી લાગુ કરવું.*\n\n2. **દિવસ 4**:\n   - **Potassium Nitrate**: 7 kg/acre\n   - **Urea**: 5 kg/acre\n   - અથવા\n   - **Urea**: 6.5 kg/acre\n   - **Sulfate of Potash**: 6.5 kg/acre\n\n### Khejada Valu (Potato)\n- **વર્તમાન તબક્કો**: વેજિટેટિવ ગ્રોથ (Vegetative Growth)\n- **હાલની સપ્તાહ**: 4\n\n#### ફર્ટિગેશન શેડ્યૂલ:\n1. **દિવસ 1**:\n   - **Calcium Nitrate**: 3.5 kg/acre\n   - **Urea**: 6.5 kg/acre\n   - *Calcium nitrate ને અન્ય ખાતરોની એપ્લિકેશન પછી 15-20 મિનિટ પછી લાગુ કરવું.*\n\n2. **દિવસ 4**:\n   - **Potassium Nitrate**: 7 kg/acre\n   - **Urea**: 5 kg/acre\n   - અથવા\n   - **Urea**: 6.5 kg/acre\n   - **Sulfate of Potash**: 6.5 kg/acre\n\n### Patsala (Potato - Hyfun)\n- **વર્તમાન તબક્કો**: વેજિટેટિવ ગ્રોથ (Vegetative Growth)\n- **હાલની સપ્તાહ**: 4\n\n#### ફર્ટિગેશન શેડ્યૂલ:\n1. **દિવસ 1**:\n   - **Calcium Nitrate**: 3.5 kg/acre\n   - **Urea**: 6.5 kg/acre\n   - *Calcium nitrate ને અન્ય ખાતરોની એપ્લિકેશન પછી 15-20 મિનિટ પછી લાગુ કરવું.*\n\n2. **દિવસ 4**:\n   - **Potassium Nitrate**: 7 kg/acre\n   - **Urea**: 5 kg/acre\n   - અથવા\n   - **Urea**: 6.5 kg/acre\n   - **Sulfate of Potash**: 6.5 kg/acre\n\nઆ ખાતરોને યોગ્ય રીતે લાગુ કરો અને ખાતરી કરો કે તમે સૂચનાઓનું પાલન કરો છો.",
+        "timestamp": {
+          "$date": "2024-12-16T11:30:39.478Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ખેતરમાં એક્સપ્રેસ ક્યારે લેવું",
+        "timestamp": {
+          "$date": "2024-12-16T11:31:36.875Z"
+        },
+        "standalone_question": "When should I apply Express in the field?",
+        "standalone_en": "When should I apply Express in the field?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "khetaraman express kyare levu"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં **Dela Valu** માટે એક્સપ્રેસ (પેસ્ટિસાઇડ) લગાવવાની સૂચના છે:\n\n### **Dela Valu (Potato - Hyfun)**\n- **તારીખ**: 16 ડિસેમ્બર 2024\n- **લક્ષ્ય**: માઇટ્સ અને રેડ સ્પાઇડર માઇટ્સ\n- **અરજીનો રીત**: ફોલિયર સ્પ્રે\n\n#### **સૂચિત પેસ્ટિસાઇડ્સ**:\n1. **Chlorfenapyr 10 SC**: 1 મીલીલિટર\n2. **Propargite 42% + Hexythiazox 2% EC**: 2.5 મીલીલિટર\n3. **Cyenopyrafen 30 SC**: 0.6 મીલીલિટર\n\n#### **પાણીની માત્રા**: 1 લિટર\n\nઆ પેસ્ટિસાઇડ્સને યોગ્ય રીતે લાગુ કરો અને ખાતરી કરો કે તમે સૂચનાઓનું પાલન કરો છો.",
+        "timestamp": {
+          "$date": "2024-12-16T11:31:44.706Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ઝાડ ખોરાક ક્યારે લે",
+        "timestamp": {
+          "$date": "2024-12-16T11:32:19.603Z"
+        },
+        "standalone_question": "When should trees be fertilized?",
+        "standalone_en": "When should trees be fertilized?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "zad khorak kyare lay"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં ખાતર આપવાની સૂચનાઓ નીચે મુજબ છે:\n\n### **Dela Valu (Potato - Hyfun)**\n- **વર્તમાન તબક્કો**: વેજિટેટિવ ગ્રોથ (Vegetative Growth)\n- **હાલની સપ્તાહ**: 4\n\n#### **ફર્ટિગેશન શેડ્યૂલ**:\n1. **દિવસ 1**:\n   - **Calcium Nitrate**: 3.5 kg/acre\n   - **Urea**: 6.5 kg/acre\n   - *Calcium nitrate ને અન્ય ખાતરોની એપ્લિકેશન પછી 15-20 મિનિટ પછી લાગુ કરવું.*\n\n2. **દિવસ 4**:\n   - **Potassium Nitrate**: 7 kg/acre\n   - **Urea**: 5 kg/acre\n   - અથવા\n   - **Urea**: 6.5 kg/acre\n   - **Sulfate of Potash**: 6.5 kg/acre\n\n### **Khejada Valu (Potato)**\n- **વર્તમાન તબક્કો**: વેજિટેટિવ ગ્રોથ (Vegetative Growth)\n- **હાલની સપ્તાહ**: 4\n\n#### **ફર્ટિગેશન શેડ્યૂલ**:\n1. **દિવસ 1**:\n   - **Calcium Nitrate**: 3.5 kg/acre\n   - **Urea**: 6.5 kg/acre\n   - *Calcium nitrate ને અન્ય ખાતરોની એપ્લિકેશન પછી 15-20 મિનિટ પછી લાગુ કરવું.*\n\n2. **દિવસ 4**:\n   - **Potassium Nitrate**: 7 kg/acre\n   - **Urea**: 5 kg/acre\n   - અથવા\n   - **Urea**: 6.5 kg/acre\n   - **Sulfate of Potash**: 6.5 kg/acre\n\n### **Patsala (Potato - Hyfun)**\n- **વર્તમાન તબક્કો**: વેજિટેટિવ ગ્રોથ (Vegetative Growth)\n- **હાલની સપ્તાહ**: 4\n\n#### **ફર્ટિગેશન શેડ્યૂલ**:\n1. **દિવસ 1**:\n   - **Calcium Nitrate**: 3.5 kg/acre\n   - **Urea**: 6.5 kg/acre\n   - *Calcium nitrate ને અન્ય ખાતરોની એપ્લિકેશન પછી 15-20 મિનિટ પછી લાગુ કરવું.*\n\n2. **દિવસ 4**:\n   - **Potassium Nitrate**: 7 kg/acre\n   - **Urea**: 5 kg/acre\n   - અથવા\n   - **Urea**: 6.5 kg/acre\n   - **Sulfate of Potash**: 6.5 kg/acre\n\nઆ ખાતરોને યોગ્ય રીતે લાગુ કરો અને ખાતરી કરો કે તમે સૂચનાઓનું પાલન કરો છો.",
+        "timestamp": {
+          "$date": "2024-12-16T11:32:33.618Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "પોટાશ અપડેટ ક્યારે કરે",
+        "timestamp": {
+          "$date": "2024-12-16T11:33:10.477Z"
+        },
+        "standalone_question": "When should potassium be updated?",
+        "standalone_en": "When should potassium be updated?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "potash update kyare kare"
+      },
+      {
+        "role": "assistant",
+        "content": "### **Potash Fertilization Schedule**\n\n#### **Dela Valu (Potato - Hyfun)**\n- **વર્તમાન તબક્કો**: વેજિટેટિવ ગ્રોથ (Vegetative Growth)\n- **હાલની સપ્તાહ**: 4\n- **તારીખ**: 16 ડિસેમ્બર 2024\n\n1. **દિવસ 4**:\n   - **Potassium Nitrate**: 7 kg/acre\n   - **Urea**: 5 kg/acre\n   - અથવા\n   - **Urea**: 6.5 kg/acre\n   - **Sulfate of Potash**: 6.5 kg/acre\n\n#### **Khejada Valu (Potato)**\n- **વર્તમાન તબક્કો**: વેજિટેટિવ ગ્રોથ (Vegetative Growth)\n- **હાલની સપ્તાહ**: 4\n- **તારીખ**: 16 ડિસેમ્બર 2024\n\n1. **દિવસ 4**:\n   - **Potassium Nitrate**: 7 kg/acre\n   - **Urea**: 5 kg/acre\n   - અથવા\n   - **Urea**: 6.5 kg/acre\n   - **Sulfate of Potash**: 6.5 kg/acre\n\n#### **Patsala (Potato - Hyfun)**\n- **વર્તમાન તબક્કો**: વેજિટેટિવ ગ્રોથ (Vegetative Growth)\n- **હાલની સપ્તાહ**: 4\n- **તારીખ**: 16 ડિસેમ્બર 2024\n\n1. **દિવસ 4**:\n   - **Potassium Nitrate**: 7 kg/acre\n   - **Urea**: 5 kg/acre\n   - અથવા\n   - **Urea**: 6.5 kg/acre\n   - **Sulfate of Potash**: 6.5 kg/acre\n\n### **આગામી ફર્ટિગેશન**\n- **આગામી સપ્તાહ**: 5\n- **તારીખ**: 2025-02-07\n\nઆ ખાતરોને યોગ્ય રીતે લાગુ કરો અને ખાતરી કરો કે તમે સૂચનાઓનું પાલન કરો છો.",
+        "timestamp": {
+          "$date": "2024-12-16T11:33:23.793Z"
+        }
+      }
+    ],
+    "farmer_id": "VR4859",
+    "farmer_plot_ids": [
+      "delavalu",
+      "khejadavalu",
+      "patsala"
+    ],
+    "conversation_id": "67600f1a3ec6b07c7346d83a",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-12-16T11:29:30.618000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Identify Problem ",
+        "timestamp": {
+          "$date": "2024-12-16T09:42:44.933Z"
+        },
+        "standalone_question": "What is the problem?",
+        "standalone_en": "What is the problem?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The current soil moisture readings for your plot \"mai farm 01\" are at 10 kPa, indicating that the soil is relatively wet. \n\nLooking at the historical data from December 1 to December 15, the soil moisture has been gradually increasing, with the following notable readings:\n\n- December 8: 18 kPa\n- December 9: 0 kPa (very wet)\n- December 10: 2 kPa\n- December 11: 4 kPa\n- December 12: 6 kPa\n- December 13: 6 kPa\n- December 14: 8 kPa\n- December 15: 10 kPa\n\nThe increase in soil moisture is normal, especially as the crop is in the vegetative growth stage, which typically requires more water. However, if you are experiencing rapid increases in kPa and frequent irrigation requests, it may be due to high evaporation rates or crop transpiration.\n\nIf the moisture levels seem inconsistent with what you observe physically near the sensor, the sensor may need to be checked for wear or malfunction. Would you like to raise a support ticket for this issue?",
+        "timestamp": {
+          "$date": "2024-12-16T09:42:55.537Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Problem",
+        "timestamp": {
+          "$date": "2024-12-16T09:44:43.788Z"
+        },
+        "standalone_question": "What specific problem are you experiencing?",
+        "standalone_en": "What specific problem are you experiencing?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "If your device is not working, please check the following:\n\n1. **Recharge Status**: Ensure that your data plan is active and the device has been recharged. Your current plan is active until January 7, 2025.\n\n2. **Data Transmission**: Verify if the device is actively sending data. If it is not sending data, there may be a connection issue.\n\n3. **Sensor Connection**: If you suspect a specific sensor (like soil temperature) is not working, check the sensor connection, tighten it if loose, and restart the device to see if it updates.\n\nIf everything seems fine but the device is still not functioning, please raise a support ticket in the Fyllo app for further assistance.",
+        "timestamp": {
+          "$date": "2024-12-16T09:44:48.046Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Identify problem <user uploaded image for analysis at 'maifarm01/2024-12-16-1734342278533.jpg'>",
+        "timestamp": {
+          "$date": "2024-12-16T09:45:04.023Z"
+        },
+        "standalone_question": "What issue can be identified from the uploaded image related to \"mai farm 01\"?",
+        "standalone_en": "What issue can be identified from the uploaded image related to \"mai farm 01\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the uploaded image indicates that the plant appears healthy with green leaves. However, for a more accurate assessment, a closer view of the leaves is needed to check for any signs of discoloration, spots, or pests.\n\n### Suggestions for Better Analysis:\n1. **Closer Focus**: Capture the leaves up close to identify any potential issues.\n2. **Lighting**: Ensure even lighting to avoid shadows that can obscure details.\n3. **Angle**: Take photos from different angles, especially the underside of the leaves.\n\nIf you can provide a clearer image, I can assist you further in identifying any problems.",
+        "timestamp": {
+          "$date": "2024-12-16T09:45:22.598Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Plant stage<user uploaded image for analysis at 'maifarm01/2024-12-16-1734342325348.jpg'>",
+        "timestamp": {
+          "$date": "2024-12-16T09:46:00.314Z"
+        },
+        "standalone_question": "What is the current growth stage of the plant in the uploaded image?",
+        "standalone_en": "What is the current growth stage of the plant in the uploaded image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the second uploaded image shows that the plant has green leaves, indicating good health. However, for a more accurate assessment, a closer view of the leaves is needed to check for any signs of discoloration, spots, or pests.\n\n### Suggestions for Better Analysis:\n1. **Closer Focus**: Capture the leaves up close to identify any potential issues.\n2. **Lighting**: Ensure even lighting to avoid shadows that can obscure details.\n3. **Angle**: Take photos from different angles, especially the underside of the leaves.\n\nIf you can provide a clearer image, I can assist you further in identifying any problems.",
+        "timestamp": {
+          "$date": "2024-12-16T09:46:21.219Z"
+        }
+      }
+    ],
+    "farmer_id": "rahulbhaskarpatil",
+    "farmer_plot_ids": [
+      "maifarm01"
+    ],
+    "conversation_id": "675ff614d003b1184fefe007",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-16T09:42:44.933000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the problem ?<user uploaded image for analysis at 'jandifarm/2024-12-16-1734341174847.jpg'>",
+        "timestamp": {
+          "$date": "2024-12-16T09:26:24.387Z"
+        },
+        "standalone_question": "What issue is depicted in the image that was uploaded?",
+        "standalone_en": "What issue is depicted in the image that was uploaded?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The leaf in the image shows signs of potential issues, including:\n\n1. **Nutrient Deficiency**: Browning at the edges may indicate a lack of essential nutrients, particularly potassium.\n2. **Water Stress**: Symptoms can arise from either overwatering or underwatering.\n3. **Fungal Infection**: Some fungal diseases can cause leaf discoloration and browning.\n4. **Pest Damage**: Check for any pests that might be feeding on the leaves.\n\n### Recommendations:\n- **Inspect Other Leaves**: Look for similar symptoms on other leaves to assess the extent of the issue.\n- **Check Soil Moisture**: Ensure that the soil is neither too dry nor too wet.\n- **Nutrient Analysis**: Consider a soil test to check for nutrient deficiencies.\n- **Pest Inspection**: Look for any visible pests on the plant.\n\nIf possible, please provide a clearer image focusing on the affected area, as well as any additional context about the crop type and growing conditions. This will help in providing a more accurate diagnosis.",
+        "timestamp": {
+          "$date": "2024-12-16T09:26:36.917Z"
+        }
+      }
+    ],
+    "farmer_id": "PBCS-1",
+    "farmer_plot_ids": [
+      "abupurafarm",
+      "jandifarm",
+      "kishanpura",
+      "talwarafarm"
+    ],
+    "conversation_id": "675ff240d003b1184fefe006",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-16T09:26:24.387000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "खत देण्याची गरज आहे का ",
+        "timestamp": {
+          "$date": "2024-12-16T06:42:19.337Z"
+        },
+        "standalone_question": "Is there a need to give a letter?",
+        "standalone_en": "Is there a need to give a letter?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "khat denyachi garaj aahe ka "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या पेरूच्या पिकासाठी सध्या खत देण्याची गरज नाही. सध्या तुम्ही \"Growth stage 2\" मध्ये आहात, आणि या आठवड्यात (आठवडा 6) कोणतीही खताची आवश्यकता नाही.\n\nतुमच्या पुढील खत देण्याची वेळ 26 एप्रिल 2025 पासून सुरू होईल, जेव्हा तुम्हाला \"Growth stage 3\" मध्ये प्रवेश कराल. त्यावेळी तुम्हाला खालील खतांचे वितरण करणे आवश्यक असेल:\n\n1. **Potassium Nitrate** - 1 kg/acre\n2. **Urea** - 1.5 kg/acre\n3. **Calcium Nitrate** - 1.5 kg/acre (इतर खतांच्या अनुप्रयोगानंतर 15-20 मिनिटांनी लागू करावे)\n\nकृपया याची नोंद घ्या आणि योग्य वेळी खत देण्याची तयारी करा.",
+        "timestamp": {
+          "$date": "2024-12-16T06:42:25.455Z"
+        }
+      }
+    ],
+    "farmer_id": "shubhamdheple",
+    "farmer_plot_ids": [
+      "plotno1370"
+    ],
+    "conversation_id": "675fcbcad3a656ca2db047c6",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-12-16T06:42:19.337000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is the problem?<user uploaded image for analysis at 'jandifarm/2024-12-16-1734326462238.jpg'>",
+        "timestamp": {
+          "$date": "2024-12-16T05:21:11.070Z"
+        },
+        "standalone_question": "What issue is depicted in the image you uploaded?",
+        "standalone_en": "What issue is depicted in the image you uploaded?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the crop image from your **Jandi** plot indicates several potential issues:\n\n1. **Nutrient Deficiency**: The yellowing of the leaves may suggest a nitrogen deficiency or other nutrient imbalances.\n2. **Fungal Infection**: Brown spots and patches on the leaves could indicate a fungal disease, such as leaf spot or blight.\n3. **Pest Damage**: Irregular patterns and discoloration might be a result of pest activity, such as aphids or caterpillars.\n\n### Recommendations:\n- **Inspect for Pests**: Check the undersides of the leaves and surrounding areas for any visible pests.\n- **Nutrient Assessment**: Consider conducting a soil test to determine nutrient levels and amend accordingly.\n- **Fungicide Application**: If a fungal infection is suspected, applying an appropriate fungicide may help.\n- **Improve Air Circulation**: Ensure that plants are spaced adequately to promote airflow, which can help reduce fungal issues.\n\nFor a more accurate diagnosis, please provide a clearer image focusing on the affected areas, and consider including the overall plant condition and surrounding environment.",
+        "timestamp": {
+          "$date": "2024-12-16T05:21:24.325Z"
+        }
+      }
+    ],
+    "farmer_id": "PBCS-1",
+    "farmer_plot_ids": [
+      "abupurafarm",
+      "jandifarm",
+      "kishanpura",
+      "talwarafarm"
+    ],
+    "conversation_id": "675fb8c6d003b1184fefe005",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-16T05:21:11.070000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Je eshe kyu ho gia<user uploaded image for analysis at 'abupurafarm/2024-12-16-1734324331446.jpg'>",
+        "timestamp": {
+          "$date": "2024-12-16T04:46:25.600Z"
+        },
+        "standalone_question": "What happened to you?",
+        "standalone_en": "What happened to you?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The leaf in the image shows signs of distress, including yellowing and browning at the edges. This may indicate a few potential issues:\n\n1. **Nutrient Deficiency**: The yellowing could suggest a nitrogen deficiency, while browning may indicate a lack of potassium or magnesium.\n2. **Fungal Infection**: The discoloration and spots could also be a sign of a fungal disease, such as early blight or late blight, especially relevant for potato crops.\n3. **Pest Damage**: Check for any visible pests or signs of pest activity, such as holes or webbing.\n\n### Recommendations:\n- **Inspect Nearby Plants**: Look for similar symptoms on other plants to assess the extent of the issue.\n- **Soil Test**: Conduct a soil test to check for nutrient levels and pH balance.\n- **Fungicide Treatment**: If a fungal infection is suspected, consider applying an appropriate fungicide.\n- **Pest Control**: If pests are found, use suitable insecticides or organic pest control methods.\n\nFor a more accurate diagnosis, please provide a clearer image focusing on the affected areas, and include any additional symptoms or context about the plant's growing conditions.",
+        "timestamp": {
+          "$date": "2024-12-16T04:46:41.574Z"
+        }
+      }
+    ],
+    "farmer_id": "PBCS-1",
+    "farmer_plot_ids": [
+      "abupurafarm",
+      "jandifarm",
+      "kishanpura",
+      "talwarafarm"
+    ],
+    "conversation_id": "675fb0a1d003b1184fefe004",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-16T04:46:25.600000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "कोणता रोग आहे <user uploaded image for analysis at 'tomatoplot1133/2024-12-16-1734321309752.jpg'>",
+        "timestamp": {
+          "$date": "2024-12-16T03:55:26.131Z"
+        },
+        "standalone_question": "What disease is depicted in the uploaded image?",
+        "standalone_en": "What disease is depicted in the uploaded image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "konta rog aahe <user uploaded image for analysis at 'tomatoplot1133/2024-12-16-1734321309752.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या पिकात काही ताणाचे संकेत दिसत आहेत. येथे काही निरीक्षणे आहेत:\n\n1. **पानांचा वाकणे**: पानं वाकलेली दिसत आहेत, जे पर्यावरणीय घटक, कीड किंवा रोगांमुळे ताण दर्शवू शकते.\n2. **पानांचा रंग**: पानांचा रंग हिरवागार आहे, परंतु वाकणे अंतर्गत समस्यांचे संकेत देऊ शकते.\n3. **कीडांचे नुकसान**: पानांच्या किंवा ताणांच्या खाली कोणत्याही दृश्यमान कीडांची तपासणी करा, कारण त्यांच्यामुळे समान लक्षणे होऊ शकतात.\n4. **पाण्याचे मुद्दे**: पिकाला पुरेसे पाणी मिळत आहे का ते सुनिश्चित करा, कारण अधिक किंवा कमी पाण्यामुळे पानांचे वाकणे होऊ शकते.\n\n### शिफारसी:\n- **कीडांची तपासणी करा**: पानांच्या खाली आणि ताणांवर कोणत्याही कीडांचे संकेत तपासा.\n- **मातीची आर्द्रता तपासा**: माती न अधिक कोरडी आहे आणि न अधिक ओलसर आहे याची खात्री करा.\n- **अधिक स्पष्ट चित्रे द्या**: अधिक अचूक निदानासाठी, प्रभावित पानांची जवळची चित्रे घ्या, विशेषतः कोणत्याही रंगाच्या बदल किंवा ठिपक्यांवर लक्ष केंद्रित करा.\n\nजर समस्या कायम राहिली, तर स्थानिक कृषी तज्ञांशी सल्ला घेण्याचा विचार करा.",
+        "timestamp": {
+          "$date": "2024-12-16T03:55:42.785Z"
+        }
+      }
+    ],
+    "farmer_id": "swapneshmahaveerchougule",
+    "farmer_plot_ids": [
+      "tomatoplot1133",
+      "tomatoplot2817"
+    ],
+    "conversation_id": "675fa4add003b1184fefe003",
+    "tag": "disease_pest",
+    "conv_date": "2024-12-16T03:55:26.131000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "शेंडा कमी आहे",
+        "timestamp": {
+          "$date": "2024-12-16T03:48:52.063Z"
+        },
+        "standalone_question": "The standalone question is: \"Is there a shortage of mangoes?\"",
+        "standalone_en": "The standalone question is: \"Is there a shortage of mangoes?\"",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "shenda kami aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "शेंडा कमी असल्यास, तुम्हाला तुमच्या पिकांच्या आरोग्याची काळजी घेणे आवश्यक आहे. कृपया खालील गोष्टींचा विचार करा:\n\n1. **पाण्याची उपलब्धता**: शेंडा कमी असण्याचे एक कारण पाण्याची कमी असू शकते. तुमच्या मातीतील आर्द्रता तपासा. जर माती कोरडी असेल, तर पाण्याची आवश्यकता असू शकते.\n\n2. **खते**: योग्य खते वापरणे महत्त्वाचे आहे. तुमच्या पिकांच्या आवश्यकतेनुसार खते द्या.\n\n3. **कीड आणि रोग**: पिकांमध्ये कीड किंवा रोगांचा प्रकोप असल्यास, त्यावर उपाययोजना करा. \n\n4. **पिकांची काळजी**: पिकांची योग्य काळजी घेणे, जसे की छाटणी, पाण्याचे व्यवस्थापन, आणि योग्य प्रकाश याची खात्री करा.\n\nतुमच्या पिकांच्या स्थितीबद्दल अधिक माहिती हवी असल्यास, कृपया मातीची आर्द्रता किंवा इतर तपशील सांगा.",
+        "timestamp": {
+          "$date": "2024-12-16T03:48:57.219Z"
+        }
+      }
+    ],
+    "farmer_id": "swapnilkale",
+    "farmer_plot_ids": [
+      "plotno2ssnmswapndeepfarm",
+      "plotno2ssntswapndeepfarm",
+      "plotno5thompsonswapndeepfarm"
+    ],
+    "conversation_id": "675fa323d003b1184fefe002",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-12-16T03:48:52.063000+00:00"
+  }
+]

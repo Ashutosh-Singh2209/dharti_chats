@@ -1,0 +1,305 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What Spray should I do for best flowers ",
+        "timestamp": {
+          "$date": "2024-11-03T16:45:52.646Z"
+        },
+        "standalone_question": "What spray should I use for the best flowers?",
+        "standalone_en": "What spray should I use for the best flowers?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "For the best flowering in your pomegranate crops, you should consider the following spray recommendations:\n\n### For Pests (Aphids, Thrips, Mealybug, Whitefly, Fruit Borer):\n- **Indoxacarb 14.5% + Acetamiprid 7.7% w/w SC**: 2 mL\n- **Spirotetramat + Imidacloprid**: 0.8 mL\n- **Spinetoram**: 1 mL\n- **Cyantraniliprole 10.26% OD**: 1.8 mL\n- **Thiamethoxam**: 0.5 g + **Neem oil**: 2 mL\n\n### For Fungal Disease (Anthracnose):\n- **Azoxystrobin 18.2% + Difenoconazole 11.4% SC**: 1 mL\n- **Thiophanate methyl**: 0.8 g\n- **Tebuconazole 50% + Trifloxystrobin 25%**: 0.4 g\n\n### Application Mode:\n- Use a foliar spray method.\n- Ensure to mix the recommended amounts with the specified liters of water (1-3 liters depending on the spray).\n\nMake sure to apply these sprays as per the suggested date for optimal results.",
+        "timestamp": {
+          "$date": "2024-11-03T16:46:00.029Z"
+        }
+      }
+    ],
+    "farmer_id": "saurabh9998260403",
+    "farmer_plot_ids": [
+      "plot1478",
+      "plot2mevai"
+    ],
+    "conversation_id": "6727a8c0f068757a052a732d",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-11-03T16:45:52.646000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ye",
+        "timestamp": {
+          "$date": "2024-11-03T10:41:58.841Z"
+        },
+        "standalone_question": "What do you mean by \"Ye\"?",
+        "standalone_en": "What do you mean by \"Ye\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Hello Mohan Patel! How can I assist you with your farming needs today?",
+        "timestamp": {
+          "$date": "2024-11-03T10:42:01.016Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ye <user uploaded image for analysis at 'plot1533/2024-11-03-1730630525325.jpeg'>",
+        "timestamp": {
+          "$date": "2024-11-03T10:42:10.506Z"
+        },
+        "standalone_question": "Could you please analyze the uploaded image?",
+        "standalone_en": "Could you please analyze the uploaded image?",
+        "retrieval": {
+          "tools": [
+            "analyse_crop_image  \nGets the analysis of the uploaded crop image for any diseases or pests."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of your crop image indicates that the health of your green chilli plants is currently unhealthy. Here are the potential issues identified:\n\n1. **Flea Beetles** (Possible Diagnosis)\n   - **Symptoms**: \n     - Feeding damage with yellowing on leaves.\n     - Small shot-like holes.\n     - Presence of small, dark, shiny, or metallic beetles.\n   - **Treatment**: \n     - Implement an integrated approach with preventive measures and biological treatments if available. Insecticides should be applied during the beetle's susceptible period, particularly when they first appear on the leaves. Products containing chlorpyrifos are effective for controlling these populations.\n\n2. **Chilli Cercospora Leaf Spot** (Unlikely Diagnosis)\n   - **Symptoms**: \n     - Large concentric brown spots on leaves with a whitish center, dark ring, and yellow halo (often referred to as 'frog eye').\n     - Enlarging spots that develop into large lesions.\n     - Yellowing and dropping of leaves, which can expose fruits to sunscald.\n   - **Treatment**: \n     - Use an integrated approach with preventive measures and biological treatments. Seed treatment with captan (3g/kg) is effective. Foliar sprays containing copper hydroxide, chlorothalonil, or mancozeb should be applied when spots first appear, continuing at 10-14 day intervals until 3-4 weeks before the last harvest. Ensure to spray both sides of the leaves.\n\n3. **Whiteflies** (Very Unlikely Diagnosis)\n   - **Symptoms**: \n     - Yellow spots on leaves.\n     - Development of deep black powdery mold.\n     - Leaf deformation with curling or cupping.\n     - Stunted growth and presence of small white to yellowish insects.\n   - **Treatment**: \n     - An integrated approach with preventive measures is crucial. Whiteflies can quickly develop resistance to pesticides, so rotating different products is advisable. Use products based on or combinations of bifenthrin, buprofezin, fenoxycarb, deltamethrin, azadirachtin, lambda-cyhalothrin, cypermethrin, pyrethroids, pymetrozine, or spiromesifen for control. Preventive measures can often keep populations at harmless levels.\n\n**Note**: It's essential to monitor your crops regularly and take action promptly to mitigate these issues.",
+        "timestamp": {
+          "$date": "2024-11-03T10:42:19.664Z"
+        }
+      }
+    ],
+    "farmer_id": "mohanpatel",
+    "farmer_plot_ids": [
+      "plot1533",
+      "plot2882"
+    ],
+    "conversation_id": "672753765e340fbe390a07a1",
+    "tag": "others",
+    "conv_date": "2024-11-03T10:41:58.841000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ye kya ho ea",
+        "timestamp": {
+          "$date": "2024-11-03T04:58:47.688Z"
+        },
+        "standalone_question": "What is this?",
+        "standalone_en": "What is this?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapka sawaal samajh nahi aaya. Kya aap thoda aur vistar se bata sakte hain ki aapko kis cheez ki samasya hai? Kya aap paani dene, kheti, ya kisi aur vishay par jaanana chahte hain?",
+        "timestamp": {
+          "$date": "2024-11-03T04:58:50.128Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ye kya ho ra",
+        "timestamp": {
+          "$date": "2024-11-03T04:58:57.067Z"
+        },
+        "standalone_question": "What is happening?",
+        "standalone_en": "What is happening?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapka sawaal samajh nahi aaya. Kya aap thoda aur vistar se bata sakte hain ki aapko kis cheez ki samasya hai? Kya aap paani dene, kheti, ya kisi aur vishay par jaanana chahte hain?",
+        "timestamp": {
+          "$date": "2024-11-03T04:59:00.017Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ye<user uploaded image for analysis at 'plot1533/2024-11-03-1730609944253.jpeg'>",
+        "timestamp": {
+          "$date": "2024-11-03T04:59:07.668Z"
+        },
+        "standalone_question": "What is happening in the image I uploaded?",
+        "standalone_en": "What is happening in the image I uploaded?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapke kheti ke chitra ka vishleshan kiya gaya hai, aur yahaan kuch samasyaayein dekhi gayi hain:\n\n### Kheti ki Sthiti:\n- **Kheti ki sehat:** Behtar nahi hai (unhealthy)\n- **Kheti ka prakar:** Green Chilli (Mirch)\n\n### Sambhavit Samasyaayein:\n1. **Chilli Thrips (Chili ke chhote keede)**\n   - **Lakshan:** \n     - Patte upar ki taraf curl hote hain.\n     - Pehle patte girne lagte hain.\n     - Phool aur fal bhi prabhavit hote hain.\n     - Chhote, patle keede jo kale-brown rang ke hote hain aur peele pankh hote hain.\n   - **Ilaj:** \n     - Integrated approach ka istemal karein, jisme preventive measures aur biological treatments shamil ho. \n     - Malathion se foliar sprays prabhavit hain.\n     - Abamectin bhi istemal kiya ja sakta hai.\n\n2. **Tobacco Caterpillar (Tambaku ke caterpillar)**\n   - **Lakshan:** \n     - Patton par khane ka nuksan.\n     - Patte girne lagte hain.\n     - Moths jo grayish-brown rang ke hote hain aur patterned forewings rakhte hain.\n     - Patton ke upar ande ke clusters.\n   - **Ilaj:** \n     - Integrated approach ka istemal karein. \n     - Chlorpyrifos, emamectin, flubendiamide, ya indoxacarb jaise insecticides istemal kiye ja sakte hain.\n\n3. **Thrips (Chhote keede)**\n   - **Lakshan:** \n     - Patton par chhote chhote chandi patches.\n     - Patton ka peela hona.\n     - Patton, phoolon aur falon ka deformat hona.\n   - **Ilaj:** \n     - Integrated approach ka istemal karein.\n     - Fipronil, imidacloprid, ya acetamiprid jaise insecticides prabhavit hain.\n\n### Sujhav:\nAapko in samasyaon ka samadhan karne ke liye turant kadam uthana chahiye. Pesticides ka istemal karte waqt, hamesha integrated pest management (IPM) ka dhyan rakhein.",
+        "timestamp": {
+          "$date": "2024-11-03T04:59:15.922Z"
+        }
+      }
+    ],
+    "farmer_id": "mohanpatel",
+    "farmer_plot_ids": [
+      "plot1533",
+      "plot2882"
+    ],
+    "conversation_id": "67270307f068757a052a7329",
+    "tag": "others",
+    "conv_date": "2024-11-03T04:58:47.688000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पान मध्ये काय कमतरता आहे <user uploaded image for analysis at 'plotno1thompsonvilasbhavar/2024-11-03-1730606916672.jpg'>",
+        "timestamp": {
+          "$date": "2024-11-03T04:09:08.039Z"
+        },
+        "standalone_question": "What deficiencies are present in the pan?",
+        "standalone_en": "What deficiencies are present in the pan?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pan madhye kay kamatarata aahe <user uploaded image for analysis at 'plotno1thompsonvilasbhavar/2024-11-03-1730606916672.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या पानांमध्ये काही समस्या आढळल्या आहेत. खालील मुद्दे लक्षात घेण्यासारखे आहेत:\n\n1. **पानांवर जासिड्स (Leafhopper Jassids)**:\n   - लक्षणे: पानांच्या कडांवर पिवळ्या भागांचे ठिकाण, वाळलेले भाग, वक्र पानं, आणि थोडी वाढ.\n   - उपचार: एकत्रित दृष्टिकोन वापरा. क्लोर्पायरीफोस, फिप्रोनिल किंवा फ्लोनिकामिड यांसारख्या कीटकनाशकांचा वापर करा. पाण्यात 30, 45, 60 दिवसांनी फवारणी करणे आवश्यक आहे.\n\n2. **गडद बुरशी (Downy Mildew)**:\n   - लक्षणे: पानांवर पिवळसर-हिरव्या ठिकाणांचे आणि तपकिरी वर्तुळांचे ठिकाण.\n   - उपचार: कापर आधारित कीटकनाशकांचा वापर करा, जसे की बोरडो मिश्रण. लक्षणे आढळल्यास तात्काळ फवारणी करा.\n\n3. **आयरनची कमतरता (Iron Deficiency)**:\n   - लक्षणे: पानांच्या कडांपासून पिवळे होणे, पानांचे शिरे हिरवे राहणे.\n   - उपचार: लोखंड समाविष्ट करणारे खत वापरा, जसे की फेरस सल्फेट.\n\nतुमच्या पानांच्या आरोग्यासाठी योग्य उपचार घेणे महत्त्वाचे आहे. तुमच्या स्थानिक कृषी सल्लागाराशी संपर्क साधा आणि योग्य उपाययोजना करा.",
+        "timestamp": {
+          "$date": "2024-11-03T04:09:14.257Z"
+        }
+      }
+    ],
+    "farmer_id": "vilasbhavar",
+    "farmer_plot_ids": [
+      "plotno1thompsonvilasbhavar"
+    ],
+    "conversation_id": "6726f7636a5d3b59d05e2cfd",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-11-03T04:09:08.039000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Fertication Kaya karna hai",
+        "timestamp": {
+          "$date": "2024-11-03T01:42:07.198Z"
+        },
+        "standalone_question": "What should I do for fertilization?",
+        "standalone_en": "What should I do for fertilization?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपके \"Watermelon Savkar\" प्लॉट के लिए फर्टिगेशन शेड्यूल इस प्रकार है:\n\n### वर्तमान फर्टिगेशन शेड्यूल (सप्ताह 2, \"Flowering and Fruiting\" चरण)\n- **तारीख:** 2024-11-03\n- **फर्टिलाइज़र वितरण:**\n  1. **विकल्प 1:**\n     - पोटेशियम नाइट्रेट: 5 किलोग्राम/एकड़\n     - यूरिया: 2 किलोग्राम/एकड़\n     - कैल्शियम नाइट्रेट: 2.5 किलोग्राम/एकड़\n  2. **विकल्प 2:**\n     - यूरिया: 3.5 किलोग्राम/एकड़\n     - सल्फेट ऑफ पोटाश: 4.5 किलोग्राम/एकड़\n     - कैल्शियम नाइट्रेट: 2.5 किलोग्राम/एकड़\n\n**महत्वपूर्ण नोट:** कैल्शियम नाइट्रेट को अन्य फर्टिलाइज़र के 15-20 मिनट बाद अलग से लागू किया जाना चाहिए।\n\n### अगला फर्टिगेशन शेड्यूल (सप्ताह 1, \"Fruit maturity\" चरण)\n- **शुरुआत की तारीख:** 2024-11-17\n- **फर्टिलाइज़र वितरण:**\n  1. **विकल्प 1:**\n     - पोटेशियम नाइट्रेट: 3 किलोग्राम/एकड़\n     - यूरिया: 1 किलोग्राम/एकड़\n     - कैल्शियम नाइट्रेट: 2.5 किलोग्राम/एकड़\n  2. **विकल्प 2:**\n     - यूरिया: 2 किलोग्राम/एकड़\n     - सल्फेट ऑफ पोटाश: 3 किलोग्राम/एकड़\n     - कैल्शियम नाइट्रेट: 2.5 किलोग्राम/एकड़\n\nआपको इस फर्टिगेशन शेड्यूल के अनुसार कार्य करना चाहिए।",
+        "timestamp": {
+          "$date": "2024-11-03T01:42:14.645Z"
+        }
+      }
+    ],
+    "farmer_id": "prashantchaudhari",
+    "farmer_plot_ids": [
+      "watermelonsavkar"
+    ],
+    "conversation_id": "6726d4eedea789e906865ff5",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-11-03T01:42:07.198000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is sanchar 40",
+        "timestamp": {
+          "$date": "2024-11-03T01:36:08.627Z"
+        },
+        "standalone_question": "What is Sanchar 40?",
+        "standalone_en": "What is Sanchar 40?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Sanchar 40 is a type of pesticide that is commonly used in agriculture to control various pests and diseases in crops. It typically contains active ingredients that target specific pests, helping to protect the crops from damage. It's important to follow the recommended application rates and timings for effective pest management while ensuring safety for the environment and beneficial organisms. Always refer to local agricultural guidelines for specific usage instructions.",
+        "timestamp": {
+          "$date": "2024-11-03T01:36:12.181Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Phosphonic acid ",
+        "timestamp": {
+          "$date": "2024-11-03T01:37:01.687Z"
+        },
+        "standalone_question": "What is phosphonic acid?",
+        "standalone_en": "What is phosphonic acid?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Phosphonic acid is a chemical compound often used in agriculture as a fungicide and plant growth regulator. It is particularly effective against certain fungal diseases, such as downy mildew and powdery mildew. \n\nIn addition to its fungicidal properties, phosphonic acid can enhance plant growth and improve resistance to stress conditions. It is typically applied as a foliar spray or through fertigation, allowing for better absorption by the plants.\n\nWhen using phosphonic acid, it's essential to follow the recommended application rates and timings to ensure effectiveness and minimize any potential negative impact on the environment. Always consult local agricultural guidelines for specific usage instructions.",
+        "timestamp": {
+          "$date": "2024-11-03T01:37:05.356Z"
+        }
+      }
+    ],
+    "farmer_id": "murthyn",
+    "farmer_plot_ids": [
+      "murthyp1"
+    ],
+    "conversation_id": "6726d388dea789e906865ff4",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-11-03T01:36:08.627000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "खत देण्या इतपत पाणी सोडले तर चालेल का ",
+        "timestamp": {
+          "$date": "2024-11-03T00:58:37.418Z"
+        },
+        "standalone_question": "Is it okay to release enough water to give a letter?",
+        "standalone_en": "Is it okay to release enough water to give a letter?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "\"Clone plot\" साठी पाण्याची स्थिती चांगली आहे. सध्या, मातीतील आर्द्रता 27 kPa आणि 22 kPa आहे, जे की 25 kPa च्या आदर्श पातळीपेक्षा जास्त आहे. त्यामुळे, खत देण्यासाठी पाणी सोडणे योग्य ठरेल.",
+        "timestamp": {
+          "$date": "2024-11-03T00:58:41.652Z"
+        }
+      }
+    ],
+    "farmer_id": "kiranbhimaraohasabe",
+    "farmer_plot_ids": [
+      "cloneplot723"
+    ],
+    "conversation_id": "6726cabdce9e1c4bdbd585f5",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-11-03T00:58:37.418000+00:00"
+  }
+]

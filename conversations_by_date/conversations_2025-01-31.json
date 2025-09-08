@@ -1,0 +1,922 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "आत्ता पाणी चालू आहे का",
+        "en": "Is the water running right now?",
+        "timestamp": {
+          "$date": "2025-01-31T22:20:10.924Z"
+        },
+        "standalone_question": "Is the water running right now?",
+        "standalone_en": "Is the water running right now?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "atta pani chalu aahe ka"
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot No 2 Sudhakar\" मध्ये सध्या पाणी चालू करण्याची आवश्यकता नाही. सॉइल मॉइश्चर 0 kPa आहे, जे अत्यंत ओलसर आहे. त्यामुळे पाणी देण्याची गरज नाही.",
+        "en": "\"Plot No. 2 Sudhakar\" does not need to turn on the water at present. The soil moisturizer is 0 kPa, which is extremely moist. Therefore, there is no need to provide water.",
+        "timestamp": {
+          "$date": "2025-01-31T22:20:17.112Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "खते काय देऊ ",
+        "en": "What to give fertilizers ",
+        "timestamp": {
+          "$date": "2025-01-31T22:21:00.722Z"
+        },
+        "standalone_question": "What fertilizer should I use?",
+        "standalone_en": "What fertilizer should I use?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "khate kay deu "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot No 2 Sudhakar\" मध्ये सध्या तुम्ही \"Berry Development\" स्टेजमध्ये आहात, जी 5 व्या आठवड्यात आहे. \n\n### सध्याची खते देण्याची शेड्यूल:\n1. **फॉस्फोरिक आम्ल**: इतर खते लागू करण्यापूर्वी 15-20 मिनिटे वेगळे लागू करावे.\n2. **कॅल्शियम नायट्रेट**: इतर खते लागू केल्यानंतर 15-20 मिनिटे वेगळे लागू करावे.\n\n#### खते:\n- **19-19-19**: 5 किलोग्राम/एकर\n- **साल्फेट ऑफ पोटाश**: 5.5 किलोग्राम/एकर\n- **मॅग्नेशियम सल्फेट**: 2.5 किलोग्राम/एकर\n\nतुम्ही या खते वापरून फर्टिगेशन करू शकता. पुढील आठवड्यात देखील याच खते वापरण्याची शिफारस आहे.",
+        "en": "In \"Plot No. 2 Sudhakar\" you are currently in the \"Berry Development\" stage, which is in week 5. \n\n### Current fertilizer delivery schedule:\n1. **Phosphoric acid**: Apply separately for 15-20 minutes before applying other fertilizers.\n2. **Calcium nitrate**: Apply separately for 15-20 minutes after applying other fertilizers.\n\n#### Fertilizers:\n- **19-19-19**: 5 kg/acre\n- **Sulfate of Potash**: 5.5 kg/acre\n- **Magnesium sulfate**: 2.5 kg/acre\n\nYou can do fertigation using these fertilizers. It is recommended to use the same fertilizers next week.",
+        "timestamp": {
+          "$date": "2025-01-31T22:21:12.668Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "कधी देणे डिटेल मध्ये सांगावे",
+        "en": "When to tell in detail",
+        "timestamp": {
+          "$date": "2025-01-31T22:23:11.572Z"
+        },
+        "standalone_question": "When should the fertilizers be applied in detail?",
+        "standalone_en": "When should the fertilizers be applied in detail?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: Where can I find the fertigation schedule in the Fyllo app?\nA: To access the fertigation schedule:\n    1. Open the Fyllo app\n    2. Select \"My Farm\" at the bottom\n    3. Tap on the \"Fertigation\" option\n   You'll find the fertigation schedule there, including details about the required fertilizer applications.",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available.",
+            "Q: How do I generate a fertigation schedule in the app?\nA: To generate a fertigation schedule, follow these steps:\n\n    1. Go to \"My Farm\"\n    2. Select \"Fertigation\"\n    3. Tap \"Create Report\"\n    4. Fill in all the required details\n    5. Save the report\n    If you have soil, leaf, or petiole test data, you can input this for a more customized schedule. Otherwise, we can generate a basic schedule using general crop and regional data.",
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "### फर्टिगेशन शेड्यूल:\n\n#### सध्याची स्टेज: **Berry Development**\n- **सप्ताह**: 5\n- **तारीख**: 2025-02-01\n\n#### खते देण्याची सूचना:\n1. **फॉस्फोरिक आम्ल**: इतर खते लागू करण्यापूर्वी 15-20 मिनिटे वेगळे लागू करावे.\n2. **कॅल्शियम नायट्रेट**: इतर खते लागू केल्यानंतर 15-20 मिनिटे वेगळे लागू करावे.\n\n#### खते:\n- **19-19-19**: 5 किलोग्राम/एकर\n- **साल्फेट ऑफ पोटाश**: 5.5 किलोग्राम/एकर\n- **मॅग्नेशियम सल्फेट**: 2.5 किलोग्राम/एकर\n\n### पुढील फर्टिगेशन शेड्यूल:\n#### स्टेज: **Berry Development**\n- **सप्ताह**: 6\n- **तारीख**: 2025-03-26\n\n#### खते देण्याची सूचना:\n1. **फॉस्फोरिक आम्ल**: इतर खते लागू करण्यापूर्वी 15-20 मिनिटे वेगळे लागू करावे.\n2. **कॅल्शियम नायट्रेट**: इतर खते लागू केल्यानंतर 15-20 मिनिटे वेगळे लागू करावे.\n\n#### खते:\n- **19-19-19**: 5 किलोग्राम/एकर\n- **साल्फेट ऑफ पोटाश**: 5.5 किलोग्राम/एकर\n- **मॅग्नेशियम सल्फेट**: 2.5 किलोग्राम/एकर\n\nतुम्ही या शेड्यूलनुसार खते देऊ शकता.",
+        "en": "### Fertigation Schedule:\n\n#### Current Stage: **Berry Development**\n- **Week**: 5\n- **Date**: 2025-02-01\n\n#### Fertilizer instructions:\n1. **Phosphoric acid**: Apply separately for 15-20 minutes before applying other fertilizers.\n2. **Calcium nitrate**: Apply separately for 15-20 minutes after applying other fertilizers.\n\n#### Fertilizers:\n- **19-19-19**: 5 kg/acre\n- **Sulfate of Potash**: 5.5 kg/acre\n- **Magnesium sulfate**: 2.5 kg/acre\n\n### Further fertigation schedule:\n#### Stage: **Berry Development**\n- **Week**: 6\n- **Date**: 2025-03-26\n\n#### Fertilizer instructions:\n1. **Phosphoric acid**: Apply separately for 15-20 minutes before applying other fertilizers.\n2. **Calcium nitrate**: Apply separately for 15-20 minutes after applying other fertilizers.\n\n#### Fertilizers:\n- **19-19-19**: 5 kg/acre\n- **Sulfate of Potash**: 5.5 kg/acre\n- **Magnesium sulfate**: 2.5 kg/acre\n\nYou can give fertilizers according to this schedule.",
+        "timestamp": {
+          "$date": "2025-01-31T22:23:24.751Z"
+        }
+      }
+    ],
+    "farmer_id": "maniksangamnere",
+    "farmer_plot_ids": [
+      "plotno2sudhakar637187"
+    ],
+    "conversation_id": "679d4c9aacc07132b6a593b9",
+    "_id": "679d4c9aacc07132b6a593b9",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-01-31T22:28:11.580000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-01-31T22:20:10.924000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Zn सल्फेट काय चिलेटेड",
+        "en": "Zn Sulfate Kay Chelated",
+        "timestamp": {
+          "$date": "2025-01-31T14:52:00.428Z"
+        },
+        "standalone_question": "What is zinc sulfate chelated?",
+        "standalone_en": "What is zinc sulfate chelated?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "Zn sulphate kay chilated"
+      },
+      {
+        "role": "assistant",
+        "content": "चिलेटेड झिंक सल्फेट म्हणजे झिंक (Zn) च्या आयनांना चिलेटिंग एजंटसह बांधलेले असते, ज्यामुळे ते मातीमध्ये अधिक स्थिर आणि उपलब्ध राहतात. हे झिंकच्या शोषणास मदत करते, विशेषतः मातीमध्ये झिंकची कमी असलेल्या ठिकाणी. चिलेटेड झिंक सल्फेट वापरल्याने पिकांना झिंकची अधिक प्रभावीपणे उपलब्धता होते, ज्यामुळे त्यांची वाढ आणि उत्पादन क्षमता सुधारते.",
+        "en": "Chilled zinc sulfate means that the ions of zinc (Zn) are bound with chillating agents, making them more stable and available in the soil. This helps in the absorption of zinc, especially in places where there is a zinc deficiency in the soil. Using chilled zinc sulfate makes crops more effectively available zinc, which improves their growth and productivity.",
+        "timestamp": {
+          "$date": "2025-01-31T14:52:07.300Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "12% मध्ये  येते",
+        "en": "Comes in 12%",
+        "timestamp": {
+          "$date": "2025-01-31T14:54:57.926Z"
+        },
+        "standalone_question": "What is the percentage of zinc in chelated zinc sulfate?",
+        "standalone_en": "What is the percentage of zinc in chelated zinc sulfate?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "12% madhye yete"
+      },
+      {
+        "role": "assistant",
+        "content": "जर तुमच्या मातीतील आर्द्रता 12% असेल, तर मातीतील आर्द्रता कमी होण्याचे प्रमाण (soil moisture depletion) असेल:\n\n\\[ \\text{Soil moisture depletion} = 100 - 12 = 88\\% \\]\n\nयाचा अर्थ तुमच्या मातीतील आर्द्रता 88% कमी झाली आहे.",
+        "en": "If the humidity in your soil is 12%, soil moisture depletion will be:\n\n\\[ \\text{Soil moisture depletion} = 100 - 12 = 88\\% \\]\n\nThis means the humidity in your soil has dropped by 88%.",
+        "timestamp": {
+          "$date": "2025-01-31T14:55:04.049Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "21%तुम्ही बोलताय",
+        "en": "21%You're talking",
+        "timestamp": {
+          "$date": "2025-01-31T14:56:15.609Z"
+        },
+        "standalone_question": "Is it 21% that you are referring to?",
+        "standalone_en": "Is it 21% that you are referring to?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "जर तुमच्या मातीतील आर्द्रता 21% असेल, तर मातीतील आर्द्रता कमी होण्याचे प्रमाण (soil moisture depletion) असेल:\n\n\\[ \\text{Soil moisture depletion} = 100 - 21 = 79\\% \\]\n\nयाचा अर्थ तुमच्या मातीतील आर्द्रता 79% कमी झाली आहे. \n\nजर तुम्हाला अधिक माहिती हवी असेल किंवा तुम्हाला काही विशिष्ट सल्ला हवे असेल, तर कृपया सांगा!",
+        "en": "If the humidity in your soil is 21%, the soil moisture depletion will be:\n\n\\[ \\text{Soil moisture depletion} = 100 - 21 = 79\\% \\]\n\nThis means that the humidity in your soil has decreased by 79%. \n\nIf you need more information or any specific advice, please let me know!",
+        "timestamp": {
+          "$date": "2025-01-31T14:56:23.310Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "कोणता स्पे केला पाहिजे ",
+        "en": "Which spa should be done ",
+        "timestamp": {
+          "$date": "2025-01-31T14:57:24.543Z"
+        },
+        "standalone_question": "What type of spray should be applied?",
+        "standalone_en": "What type of spray should be applied?",
+        "retrieval": {
+          "tools": [
+            "check_spray_conditions  \nGets the spray condition forecast for the next few hours for the farmer's plots and returns the condition for each hour as GOOD, MODERATE, or WORST, based on deltaT, VPD, and rainfall conditions."
+          ],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        },
+        "content_transliterated": "konta spay kela pahije "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या पिकांसाठी या आठवड्यात कोणताही स्प्रे शेड्यूल नाही. त्यामुळे सध्या स्प्रे करण्याची आवश्यकता नाही. जर तुम्हाला आणखी काही माहिती हवी असेल, तर कृपया सांगा!",
+        "en": "There is no spray schedule for your crops this week. So there's no need to spray right now. If you need any more information, please let me know!",
+        "timestamp": {
+          "$date": "2025-01-31T14:57:39.805Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "हा आहे<user uploaded image for analysis at 'peruplot377/2025-01-31-1738335489736.jpg'>",
+        "en": "This is<user uploaded image for analysis at 'peruplot377/2025-01-31-1738335489736.jpg'>",
+        "timestamp": {
+          "$date": "2025-01-31T14:58:22.901Z"
+        },
+        "standalone_question": "What type of spray should be used?",
+        "standalone_en": "What type of spray should be used?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice."
+          ]
+        },
+        "content_transliterated": "ha aahe<user uploaded image for analysis at 'peruplot377/2025-01-31-1738335489736.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या दिलेल्या प्रतिमेतील मातीच्या अहवालानुसार, येथे काही महत्त्वाचे निष्कर्ष आहेत:\n\n- **झिंक (Zn)**: 0.13 किग्रॅ/एकर\n- **आयरन (Fe)**: 0.21 किग्रॅ/एकर\n- **झिंक सल्फेट (21%)**: 600 ग्रॅम/एकर\n- **फेरस सल्फेट**: 1.1 किग्रॅ/एकर\n\nहे मूल्ये मातीतील पोषण स्तर दर्शवतात, जे पिकांच्या आरोग्यासाठी महत्त्वाचे आहेत. तुम्हाला आणखी काही माहिती हवी असल्यास किंवा विशिष्ट चिंता असल्यास, कृपया सांगा!",
+        "en": "According to the soil report in your given image, here are some important findings:\n\n- **Zinc (Zn)**: 0.13 kg/acre\n- **Iron (Fe)**: 0.21 kg/acre\n- **Zinc sulfate (21%)**: 600 g/acre\n- **Ferrous sulfate**: 1.1 kg/acre\n\nThese values indicate the nutritional levels in the soil, which are important for the health of crops. If you need any more information or have specific concerns, please let me know!",
+        "timestamp": {
+          "$date": "2025-01-31T14:58:38.001Z"
+        }
+      }
+    ],
+    "farmer_id": "sagaramrutsalunkhe",
+    "farmer_plot_ids": [
+      "4KSq4KWH4KSw4KWB1735706326201",
+      "peruplot377"
+    ],
+    "conversation_id": "679ce38ffe92c2cda20296aa",
+    "_id": "679ce38ffe92c2cda20296aa",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-01-31T15:03:22.915000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-01-31T14:52:00.428000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Zn सल्फेट काय चिलेटेड",
+        "en": "Zn Sulfate Kay Chelated",
+        "timestamp": {
+          "$date": "2025-01-31T14:52:00.428Z"
+        },
+        "standalone_question": "What is zinc sulfate chelated?",
+        "standalone_en": "What is zinc sulfate chelated?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "Zn sulphate kay chilated"
+      },
+      {
+        "role": "assistant",
+        "content": "चिलेटेड झिंक सल्फेट म्हणजे झिंक (Zn) च्या आयनांना चिलेटिंग एजंटसह बांधलेले असते, ज्यामुळे ते मातीमध्ये अधिक स्थिर आणि उपलब्ध राहतात. हे झिंकच्या शोषणास मदत करते, विशेषतः मातीमध्ये झिंकची कमी असलेल्या ठिकाणी. चिलेटेड झिंक सल्फेट वापरल्याने पिकांना झिंकची अधिक प्रभावीपणे उपलब्धता होते, ज्यामुळे त्यांची वाढ आणि उत्पादन क्षमता सुधारते.",
+        "en": "Chilled zinc sulfate means that the ions of zinc (Zn) are bound with chillating agents, making them more stable and available in the soil. This helps in the absorption of zinc, especially in places where there is a zinc deficiency in the soil. Using chilled zinc sulfate makes crops more effectively available zinc, which improves their growth and productivity.",
+        "timestamp": {
+          "$date": "2025-01-31T14:52:07.300Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "12% मध्ये  येते",
+        "en": "Comes in 12%",
+        "timestamp": {
+          "$date": "2025-01-31T14:54:57.926Z"
+        },
+        "standalone_question": "What is the percentage of chelated zinc sulfate?",
+        "standalone_en": "What is the percentage of chelated zinc sulfate?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "12% madhye yete"
+      },
+      {
+        "role": "assistant",
+        "content": "जर तुमच्या मातीतील आर्द्रता 12% असेल, तर मातीतील आर्द्रता कमी होण्याचे प्रमाण (soil moisture depletion) असेल:\n\n\\[ \\text{Soil moisture depletion} = 100 - 12 = 88\\% \\]\n\nयाचा अर्थ तुमच्या मातीतील आर्द्रता 88% कमी झाली आहे.",
+        "en": "If the humidity in your soil is 12%, soil moisture depletion will be:\n\n\\[ \\text{Soil moisture depletion} = 100 - 12 = 88\\% \\]\n\nThis means the humidity in your soil has dropped by 88%.",
+        "timestamp": {
+          "$date": "2025-01-31T14:55:04.049Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "21%तुम्ही बोलताय",
+        "en": "21%You're talking",
+        "timestamp": {
+          "$date": "2025-01-31T14:56:15.609Z"
+        },
+        "standalone_question": "Are you saying it is at 21%?",
+        "standalone_en": "Are you saying it is at 21%?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "जर तुमच्या मातीतील आर्द्रता 21% असेल, तर मातीतील आर्द्रता कमी होण्याचे प्रमाण (soil moisture depletion) असेल:\n\n\\[ \\text{Soil moisture depletion} = 100 - 21 = 79\\% \\]\n\nयाचा अर्थ तुमच्या मातीतील आर्द्रता 79% कमी झाली आहे. \n\nजर तुम्हाला अधिक माहिती हवी असेल किंवा तुम्हाला काही विशिष्ट सल्ला हवे असेल, तर कृपया सांगा!",
+        "en": "If the humidity in your soil is 21%, the soil moisture depletion will be:\n\n\\[ \\text{Soil moisture depletion} = 100 - 21 = 79\\% \\]\n\nThis means that the humidity in your soil has decreased by 79%. \n\nIf you need more information or any specific advice, please let me know!",
+        "timestamp": {
+          "$date": "2025-01-31T14:56:23.310Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "कोणता स्पे केला पाहिजे ",
+        "en": "Which spa should be done ",
+        "timestamp": {
+          "$date": "2025-01-31T14:57:24.543Z"
+        },
+        "standalone_question": "What type of spray should be applied?",
+        "standalone_en": "What type of spray should be applied?",
+        "retrieval": {
+          "tools": [
+            "check_spray_conditions  \nGets the spray condition forecast for the next few hours for the farmer's plots and returns the condition for each hour as GOOD, MODERATE, or WORST, based on deltaT, VPD, and rainfall conditions."
+          ],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: Can fungicide and insecticide be sprayed together?\nA: For fungicides and insecticides to be sprayed together, it is important to consider factors like compatibility. For expert guidance tailored to your situation, we recommend reaching out to Fyllo’s CRM number for personalized advice.",
+            "Q: I already took spray for this pest, but it is still showing high prediction/chances, why?\nA: Taking a spray does not affect the prediction calculation. If you have already sprayed based on the fyllo notification,\n   then wait a few days, if the fyllo app still recommends spray, only then spray again. Don't give any other reasons."
+          ]
+        },
+        "content_transliterated": "konta spay kela pahije "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या पिकांसाठी या आठवड्यात कोणताही स्प्रे शेड्यूल नाही. त्यामुळे सध्या स्प्रे करण्याची आवश्यकता नाही. जर तुम्हाला आणखी काही माहिती हवी असेल, तर कृपया सांगा!",
+        "en": "There is no spray schedule for your crops this week. So there's no need to spray right now. If you need any more information, please let me know!",
+        "timestamp": {
+          "$date": "2025-01-31T14:57:39.805Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "हा आहे<user uploaded image for analysis at 'peruplot377/2025-01-31-1738335489736.jpg'>",
+        "en": "This is<user uploaded image for analysis at 'peruplot377/2025-01-31-1738335489736.jpg'>",
+        "timestamp": {
+          "$date": "2025-01-31T14:58:22.901Z"
+        },
+        "standalone_question": "What is the analysis of the uploaded image?",
+        "standalone_en": "What is the analysis of the uploaded image?",
+        "retrieval": {
+          "tools": [
+            "analyse_crop_image  \nGets the analysis of the uploaded crop image for any diseases or pests."
+          ],
+          "faq": []
+        },
+        "content_transliterated": "ha aahe<user uploaded image for analysis at 'peruplot377/2025-01-31-1738335489736.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या दिलेल्या प्रतिमेतील मातीच्या अहवालानुसार, येथे काही महत्त्वाचे निष्कर्ष आहेत:\n\n- **झिंक (Zn)**: 0.13 किग्रॅ/एकर\n- **आयरन (Fe)**: 0.21 किग्रॅ/एकर\n- **झिंक सल्फेट (21%)**: 600 ग्रॅम/एकर\n- **फेरस सल्फेट**: 1.1 किग्रॅ/एकर\n\nहे मूल्ये मातीतील पोषण स्तर दर्शवतात, जे पिकांच्या आरोग्यासाठी महत्त्वाचे आहेत. तुम्हाला आणखी काही माहिती हवी असल्यास किंवा विशिष्ट चिंता असल्यास, कृपया सांगा!",
+        "en": "According to the soil report in your given image, here are some important findings:\n\n- **Zinc (Zn)**: 0.13 kg/acre\n- **Iron (Fe)**: 0.21 kg/acre\n- **Zinc sulfate (21%)**: 600 g/acre\n- **Ferrous sulfate**: 1.1 kg/acre\n\nThese values indicate the nutritional levels in the soil, which are important for the health of crops. If you need any more information or have specific concerns, please let me know!",
+        "timestamp": {
+          "$date": "2025-01-31T14:58:38.001Z"
+        }
+      }
+    ],
+    "farmer_id": "sagaramrutsalunkhe",
+    "farmer_plot_ids": [
+      "4KSq4KWH4KSw4KWB1735706326201",
+      "peruplot377"
+    ],
+    "conversation_id": "679ce38ffe92c2cda20296aa",
+    "_id": "679ce38ffe92c2cda20296aa",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-01-31T15:03:22.915000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-01-31T14:52:00.428000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hii",
+        "en": "Hii",
+        "timestamp": {
+          "$date": "2025-01-31T13:58:55.181Z"
+        },
+        "standalone_question": "Hello! How are you?",
+        "standalone_en": "Hello! How are you?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Hello! How can I assist you with your farming needs today?",
+        "en": "Hello! How can I assist you with your farming needs today?",
+        "timestamp": {
+          "$date": "2025-01-31T13:59:04.045Z"
+        }
+      }
+    ],
+    "farmer_id": "grampanchayatkhadaksukene",
+    "farmer_plot_ids": [
+      "Y2F1bGlmbG93ZXIo4KSr4KWC4KSy4KSV4KWL4KSs4KWAKQ1738303286952",
+      "Y2FiYmFnZSjgpJXgpYvgpKzgpYAp1738303217610",
+      "Y2Fwc2ljdW0o4KSi4KWL4KSs4KSz4KWA4KSu4KS4KSw4KSa4KWALeCkuOCkguCksOCkleCljeCktCkvCkpCk1738303787163",
+      "Yml0dGVyZ291cmQo4KSV4KS4KSw4KSy4KWHKQ1738303970929",
+      "YnJpbmphbCjgpLXgpL7gpILgpJfgpYAp1738303928600",
+      "YnJvY2NvbGko4KSs4KWN4KSw4KWL4KSV4KWL4KSy4KWAKQ1738303739188",
+      "Z3JlZW5jaGlsbGko4KS54KS4KSw4KS14KWA4KSu4KS4KSw4KSa4KWAKQ1738303841779",
+      "Z3VhdmEo4KSq4KWH4KSw4KWCKQ1738303598058",
+      "bWFpemUo4KSu4KSV4KSKQ1738303880482",
+      "bWFuZ28o4KSG4KSC4KSs4KSKQ1738304015279",
+      "c3VnYXJjYW5lKOCkiuCkuCk1738303643962",
+      "cG9tZWdyYW5hdGUo4KSh4KS4KSz4KS4KSC4KSsKQ1738303492050",
+      "d2hlYXQo4KSX4KS54KWCKQ1738303687838",
+      "dG9tYXRvKOCknCliCkruClheCknCliyk1738303552271",
+      "garampanchayat"
+    ],
+    "conversation_id": "679cd71e96c598078ad656a2",
+    "_id": "679cd71e96c598078ad656a2",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-01-31T14:03:55.189000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-01-31T13:58:55.181000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "40.43 कोणते घटक आहे ",
+        "en": "40.43 What is the component ",
+        "timestamp": {
+          "$date": "2025-01-31T10:23:47.697Z"
+        },
+        "standalone_question": "What are the components of 40.43?",
+        "standalone_en": "What are the components of 40.43?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "40.43 conte ghatak aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "40.43 हे एक संख्यात्मक मूल्य आहे, परंतु त्याचा संदर्भ स्पष्ट नाही. कृपया अधिक माहिती द्या, जसे की हे कोणत्या घटकाशी संबंधित आहे, म्हणजे मी तुम्हाला अधिक चांगल्या प्रकारे मदत करू शकेन.",
+        "en": "40.43 is a numerical value, but its context is not clear. Please provide more information, such as what factor this is related to, so I can help you better.",
+        "timestamp": {
+          "$date": "2025-01-31T10:23:52.305Z"
+        }
+      }
+    ],
+    "farmer_id": "yogirajgangadharbirajdar",
+    "farmer_plot_ids": [
+      "manikchaman452"
+    ],
+    "conversation_id": "679ca4b3acc07132b6a593b8",
+    "_id": "679ca4b3acc07132b6a593b8",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-01-31T10:28:47.705000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-01-31T10:23:47.697000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "હાલ શુ કેવા માગે છે",
+        "en": "What do you want right now?",
+        "timestamp": {
+          "$date": "2025-01-31T03:32:33.291Z"
+        },
+        "standalone_question": "What do you want today?",
+        "standalone_en": "What do you want today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "hal shoe keva mage che"
+      },
+      {
+        "role": "assistant",
+        "content": "હું બરાબર છું, કાલ્યાણભાઈ! તમે કેમ છો? શું હું તમારી ખેતીમાં મદદ કરી શકું?",
+        "en": "I'm fine, Kalyanbhai! How are you? May I help you with your farming?",
+        "timestamp": {
+          "$date": "2025-01-31T03:32:37.555Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "હાલ લાલ કથારી અને કટવોર્મ ની વાત કરો છો",
+        "en": "Talking about red stories and cutworms right now",
+        "timestamp": {
+          "$date": "2025-01-31T03:33:11.012Z"
+        },
+        "standalone_question": "What are you currently discussing about the red blanket and cutworm?",
+        "standalone_en": "What are you currently discussing about the red blanket and cutworm?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "hal lal kathari ane cutworm knee vat karo cho"
+      },
+      {
+        "role": "assistant",
+        "content": "**કટવોર્મ (Cut Worm) માટેની આગાહી:**\n\n- **31 જાન્યુઆરી 2025:** 68.2% - મધ્યમ જોખમ\n- **30 જાન્યુઆરી 2025:** 69.0% - મધ્યમ જોખમ\n- **29 જાન્યુઆરી 2025:** 67.2% - મધ્યમ જોખમ\n- **28 જાન્યુઆરી 2025:** 63.9% - મધ્યમ જોખમ\n- **27 જાન્યુઆરી 2025:** 63.9% - મધ્યમ જોખમ\n- **26 જાન્યુઆરી 2025:** 60.4% - મધ્યમ જોખમ\n- **25 જાન્યુઆરી 2025:** 60.4% - મધ્યમ જોખમ\n- **24 જાન્યુઆરી 2025:** 67.8% - મધ્યમ જોખમ\n- **23 જાન્યુઆરી 2025:** 76.3% - ઊંચું જોખમ\n- **22 જાન્યુઆરી 2025:** 74.1% - મધ્યમ જોખમ\n\nકટવોર્મનું જોખમ છેલ્લા કેટલાક દિવસોમાં મધ્યમથી ઊંચું રહ્યું છે. જો કે, 23 અને 19 જાન્યુઆરીએ ઊંચા જોખમના સ્તરો નોંધાયા હતા.\n\n**લાલ કથારી (Red Spider Mites) માટેની માહિતી ઉપલબ્ધ નથી.**\n\nજો તમને વધુ માહિતી અથવા નિયંત્રણના પગલાં જોઈએ, તો મને જણાવો!",
+        "en": "**Prediction for Cut Worm:**\n\n* **31 January 2025:** 68.2% - Moderate Risk\n* **30 January 2025:** 69.0% - Moderate Risk\n* **29 January 2025:** 67.2% - Moderate Risk\n* **28 January 2025:** 63.9% - Moderate Risk\n* **27 January 2025:** 63.9% - Medium Risk\n* **26 January 2025:** 60.4% - Medium Risk\n* **25 January 2025:** 60.4% - Moderate Risk\n* **24 January 2025:** 67.8% - Medium Risk\n* **23 January 2025:** 76.3% - High risk\n* **22 January 2025:** 74.1% - Moderate Risk\n\nThe risk of cutworms has been moderate to high in the last few days. However, high risk levels were recorded on January 23 and 19.\n\n**Information for Red Spider Mites is not available.**\n\nIf you need more information or control measures, let me know!",
+        "timestamp": {
+          "$date": "2025-01-31T03:33:23.431Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મને વોટસેપ મેસેજ શુ કામ કર્યા",
+        "en": "What work did what the WhatsApp messages do to me?",
+        "timestamp": {
+          "$date": "2025-01-31T03:33:58.628Z"
+        },
+        "standalone_question": "What tasks can I perform using WhatsApp messages?",
+        "standalone_en": "What tasks can I perform using WhatsApp messages?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mane watsap message shoe calm karya"
+      },
+      {
+        "role": "assistant",
+        "content": "મને માફ કરશો, પરંતુ હું વોટ્સએપ મેસેજિંગ અથવા અન્ય મેસેજિંગ સેવાઓમાં મદદ કરી શકતો નથી. જો તમને ખેતી સંબંધિત કોઈ પ્રશ્ન હોય, તો હું મદદ કરવા માટે અહીં છું!",
+        "en": "I'm sorry, but I can't help whatsApp messaging or other messaging services. If you have any questions related to farming, I am here to help!",
+        "timestamp": {
+          "$date": "2025-01-31T03:34:03.770Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "હાલ દવા ની જરૂર ખરી કે નહી",
+        "en": "Whether the medicine is needed right now or not",
+        "timestamp": {
+          "$date": "2025-01-31T03:34:29.166Z"
+        },
+        "standalone_question": "Is there a need for medication right now?",
+        "standalone_en": "Is there a need for medication right now?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "hal dava knee jarur khari ka nahi"
+      },
+      {
+        "role": "assistant",
+        "content": "હા, કાલ્યાણભાઈ, આજે (31 જાન્યુઆરી 2025) તમારે દવા છંટકાવવાની જરૂર છે. \n\n**દવા છંટકાવ માટેની સૂચનાઓ:**\n\n1. **માઈટ્સ માટે:**\n   - **Chlorfenapyr 10 SC:** 1 મીલીલિટર\n   - **Propargite 42% + Hexythiazox 2% EC:** 2.5 મીલીલિટર\n   - **Cyenopyrafen 30 SC:** 0.6 મીલીલિટર\n\n2. **કટવોર્મ માટે:**\n   - **Flubendiamide 480 SC:** 0.5 મીલીલિટર\n   - **Cyantraniliprole 7.3% w/w + Diafenthiuron 36.4% w/w SC:** 1.25 મીલીલિટર\n   - **Flubendiamide 19.92 + Thiacloprid 19.92 ww SC, 480 SC:** 0.5 મીલીલિટર\n\n**અરજીનો રીત:** ફોલિયર સ્પ્રે (પાન પર છંટકાવ).\n\nજો તમને વધુ મદદની જરૂર હોય, તો મને જણાવો!",
+        "en": "Yes, Kalyanbhai, today (January 31, 2025) you need to spray medicines. \n\n**Instructions for spraying medicines:**\n\n1. For **Mites:**\n   - **Chlorfenapyr 10 SC:** 1 millilitre\n   - **Propargite 42% + Hexythiazox 2% EC:** 2.5 milliliters\n   - **Cyenopyrafen 30 SC:** 0.6 milliliters\n\n2. **For cutworm:**\n   - **Flubendiamide 480 SC:** 0.5 milliliters\n   - **Cyantraniliprole 7.3% w/w + Diafenthiuron 36.4% w/w SC:** 1.25 millilitre\n   - **Flubendiamide 19.92 + Thiacloprid 19.92 ww SC, 480 SC:** 0.5 milliliters\n\n**Method of application:** Foliar spray (sprinkler on leaves).\n\nIf you need more help, let me know!",
+        "timestamp": {
+          "$date": "2025-01-31T03:34:40.010Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "પાણી છોડવાનો ટાઈમ થયો ગુરુ",
+        "en": "It's time for the release of water.",
+        "timestamp": {
+          "$date": "2025-01-31T03:35:24.599Z"
+        },
+        "standalone_question": "Is it time to release the water, Guru?",
+        "standalone_en": "Is it time to release the water, Guru?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pani chodavano time thayo guru"
+      },
+      {
+        "role": "assistant",
+        "content": "**કૈરો 1** માટે પાણી છોડવાની જરૂર નથી. \n\n- **મૂળભૂત માહિતી:**\n  - **મૂળ 1 ની ભેજ:** 11 kPa\n  - **મૂળ 2 ની ભેજ:** 10 kPa\n  - **ઓપ્ટિમલ મૂલ્ય:** 20 kPa\n\nહાલમાં, જમીનની ભેજ ઓપ્ટિમલ મૂલ્યની નીચે છે, તેથી પાણી આપવાની જરૂર નથી. જો તમને વધુ મદદની જરૂર હોય, તો મને જણાવો!",
+        "en": "There is no need to release water for **Cairo 1**. \n\n- **Basic data:**\n  - **Moisture of root 1:** 11 kPa\n  - **Moisture of root 2:** 10 kPa\n  - **Optimal value:** 20 kPa\n\nCurrently, soil moisture is below optimal value, so there is no need to water. If you need more help, let me know!",
+        "timestamp": {
+          "$date": "2025-01-31T03:35:31.305Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "આસ્ટેજે દવાની જરૂર",
+        "en": "Astage medication is needed",
+        "timestamp": {
+          "$date": "2025-01-31T03:36:22.639Z"
+        },
+        "standalone_question": "Is there a need for medication at this stage?",
+        "standalone_en": "Is there a need for medication at this stage?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "asteje davani jarur"
+      },
+      {
+        "role": "assistant",
+        "content": "હા, કાલ્યાણભાઈ, આજે (31 જાન્યુઆરી 2025) દવા છંટકાવવાની જરૂર છે. \n\n**દવા છંટકાવ માટેની સૂચનાઓ:**\n\n1. **માઈટ્સ માટે:**\n   - **Chlorfenapyr 10 SC:** 1 મીલીલિટર\n   - **Propargite 42% + Hexythiazox 2% EC:** 2.5 મીલીલિટર\n   - **Cyenopyrafen 30 SC:** 0.6 મીલીલિટર\n\n2. **કટવોર્મ માટે:**\n   - **Flubendiamide 480 SC:** 0.5 મીલીલિટર\n   - **Cyantraniliprole 7.3% w/w + Diafenthiuron 36.4% w/w SC:** 1.25 મીલીલિટર\n   - **Flubendiamide 19.92 + Thiacloprid 19.92 ww SC, 480 SC:** 0.5 મીલીલિટર\n\n**અરજીનો રીત:** ફોલિયર સ્પ્રે (પાન પર છંટકાવ).\n\nજો તમને વધુ મદદની જરૂર હોય, તો મને જણાવો!",
+        "en": "Yes, Kalyanbhai, there is a need to spray medicine today (January 31, 2025). \n\n**Instructions for spraying medicines:**\n\n1. For **Mites:**\n   - **Chlorfenapyr 10 SC:** 1 millilitre\n   - **Propargite 42% + Hexythiazox 2% EC:** 2.5 milliliters\n   - **Cyenopyrafen 30 SC:** 0.6 milliliters\n\n2. **For cutworm:**\n   - **Flubendiamide 480 SC:** 0.5 milliliters\n   - **Cyantraniliprole 7.3% w/w + Diafenthiuron 36.4% w/w SC:** 1.25 millilitre\n   - **Flubendiamide 19.92 + Thiacloprid 19.92 ww SC, 480 SC:** 0.5 milliliters\n\n**Method of application:** Foliar spray (sprinkler on leaves).\n\nIf you need more help, let me know!",
+        "timestamp": {
+          "$date": "2025-01-31T03:36:34.122Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ભાઈ હાલ પાક ઉપર છે તો કેમ જરૂર",
+        "en": "Brother is currently on the crop, then why not?",
+        "timestamp": {
+          "$date": "2025-01-31T03:38:36.617Z"
+        },
+        "standalone_question": "Why is there a need for treatment when the crop is currently healthy?",
+        "standalone_en": "Why is there a need for treatment when the crop is currently healthy?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate.",
+            "Q: why to use insecticide and fungicide for seed treatment?\nA:\n- Prevents the spread of plant diseases/pest\n- Protects the seed from seed rot and seedling blights\n- Improves the seed germination\n- Provides protection from storage insects\n- Controls the soil insects"
+          ]
+        },
+        "content_transliterated": "bhai hal pak upar che to came jarur"
+      },
+      {
+        "role": "assistant",
+        "content": "હા, કાલ્યાણભાઈ, આજે (31 જાન્યુઆરી 2025) તમારા પાક પર દવા છંટકાવવાની જરૂર છે, કારણ કે આ દિવસમાં કટવોર્મ અને માઇટ્સ માટે છંટકાવની ભલામણ કરવામાં આવી છે.\n\n**દવા છંટકાવ માટેની સૂચનાઓ:**\n\n1. **માઈટ્સ માટે:**\n   - **Chlorfenapyr 10 SC:** 1 મીલીલિટર\n   - **Propargite 42% + Hexythiazox 2% EC:** 2.5 મીલીલિટર\n   - **Cyenopyrafen 30 SC:** 0.6 મીલીલિટર\n\n2. **કટવોર્મ માટે:**\n   - **Flubendiamide 480 SC:** 0.5 મીલીલિટર\n   - **Cyantraniliprole 7.3% w/w + Diafenthiuron 36.4% w/w SC:** 1.25 મીલીલિટર\n   - **Flubendiamide 19.92 + Thiacloprid 19.92 ww SC, 480 SC:** 0.5 મીલીલિટર\n\n**અરજીનો રીત:** ફોલિયર સ્પ્રે (પાન પર છંટકાવ).\n\nજો તમને વધુ મદદની જરૂર હોય, તો મને જણાવો!",
+        "en": "Yes, Kalyanbhai, today (January 31, 2025) there is a need to spray the medicine on your crop, as spraying is recommended for cutworms and mites on this day.\n\n**Instructions for spraying medicines:**\n\n1. For **Mites:**\n   - **Chlorfenapyr 10 SC:** 1 millilitre\n   - **Propargite 42% + Hexythiazox 2% EC:** 2.5 milliliters\n   - **Cyenopyrafen 30 SC:** 0.6 milliliters\n\n2. **For cutworm:**\n   - **Flubendiamide 480 SC:** 0.5 milliliters\n   - **Cyantraniliprole 7.3% w/w + Diafenthiuron 36.4% w/w SC:** 1.25 millilitre\n   - **Flubendiamide 19.92 + Thiacloprid 19.92 ww SC, 480 SC:** 0.5 milliliters\n\n**Method of application:** Foliar spray (sprinkler on leaves).\n\nIf you need more help, let me know!",
+        "timestamp": {
+          "$date": "2025-01-31T03:38:49.758Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ટબર ડેવલપમેન્ટ નો પીરીયડ છે",
+        "en": "Taber is a period of development",
+        "timestamp": {
+          "$date": "2025-01-31T03:40:00.618Z"
+        },
+        "standalone_question": "Is it the period for tuber development?",
+        "standalone_en": "Is it the period for tuber development?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "tabar development no period che"
+      },
+      {
+        "role": "assistant",
+        "content": "હા, કાલ્યાણભાઈ, તમારું પાક હાલ **ટબર ડેવલપમેન્ટ**ના તબક્કામાં છે, જે 10 જાન્યુઆરી 2025થી શરૂ થયો છે. \n\nઆ તબક્કામાં, પાકની પોષણ જરૂરિયાતો અને દવા છંટકાવની જરૂરિયાતો વધે છે. જો તમને વધુ માહિતી અથવા દવા છંટકાવની જરૂર હોય, તો મને જણાવો!",
+        "en": "Yes, Kalyanbhai, your crop is currently in the stage of **tubber development**, which has started from 10th January 2025. \n\nIn this phase, the nutritional requirements of the crop and the need for spraying medicines increase. If you need more information or spraying medication, let me know!",
+        "timestamp": {
+          "$date": "2025-01-31T03:40:05.660Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "હાલ છોડ જોતા દેખાતુ નથી",
+        "en": "Can't see the plant at the moment",
+        "timestamp": {
+          "$date": "2025-01-31T03:41:01.612Z"
+        },
+        "standalone_question": "Why are the plants currently not showing any visible growth?",
+        "standalone_en": "Why are the plants currently not showing any visible growth?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "hal chhod jota dekhatu nathi"
+      },
+      {
+        "role": "assistant",
+        "content": "જો તમારા પાકના પાન સૂકા દેખાય છે, પરંતુ સેન્સર ભેજ દર્શાવે છે, તો આ સંકેત હોઈ શકે છે કે જમીનના ઉપરના સ્તરે ભેજ નથી, પરંતુ મૂળ વિસ્તારમાં ભેજ છે. \n\nકૃપા કરીને ખાતરી કરો કે સેન્સર આસપાસના મૂળ વિસ્તારમાં ભેજ છે કે નહીં. જો તે ભેજ દર્શાવે છે, તો irrigation કરવાની જરૂર નથી. \n\nજો તમને લાગે છે કે પાણી યોગ્ય રીતે પહોંચતું નથી, તો કૃપા કરીને ચકાસો કે:\n\n1. **ડ્રિપ સિસ્ટમ:** શું ડ્રિપ બ્લોક થયેલ છે?\n2. **સેન્સરનું સ્થાન:** શું સેન્સર જમીનના ઢળાવ અથવા અન્ય સમસ્યાઓને કારણે યોગ્ય રીતે કાર્ય કરી રહ્યું છે?\n\nજો તમને વધુ મદદની જરૂર હોય, તો મને જણાવો!",
+        "en": "If the leaves of your crop appear dry, but the sensor shows moisture, this may be a sign that there is no moisture at the top level of the ground, but moisture in the original area. \n\nPlease ensure that the sensor is humid in the surrounding original area or not. If it shows moisture, there is no need to do irrigation. \n\nIf you feel that the water is not reaching properly, please check that:\n\n1. **Drip System:** Is the drip blocked?\n2. Location of the **Sensor:** Is the sensor functioning properly due to ground slopes or other problems?\n\nIf you need more help, let me know!",
+        "timestamp": {
+          "$date": "2025-01-31T03:41:11.648Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140"
+    ],
+    "conversation_id": "679c44516590fbc07363f329",
+    "_id": "679c44516590fbc07363f329",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-31T03:46:01.621000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-01-31T03:32:33.291000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "હાલ શુ કેવા માગે છે",
+        "en": "What do you want right now?",
+        "timestamp": {
+          "$date": "2025-01-31T03:32:33.291Z"
+        },
+        "standalone_question": "How are you doing today?",
+        "standalone_en": "How are you doing today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "hal shoe keva mage che"
+      },
+      {
+        "role": "assistant",
+        "content": "હું બરાબર છું, કાલ્યાણભાઈ! તમે કેમ છો? શું હું તમારી ખેતીમાં મદદ કરી શકું?",
+        "en": "I'm fine, Kalyanbhai! How are you? May I help you with your farming?",
+        "timestamp": {
+          "$date": "2025-01-31T03:32:37.555Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "હાલ લાલ કથારી અને કટવોર્મ ની વાત કરો છો",
+        "en": "Talking about red stories and cutworms right now",
+        "timestamp": {
+          "$date": "2025-01-31T03:33:11.012Z"
+        },
+        "standalone_question": "What are you currently discussing about the red blanket and the cutworm?",
+        "standalone_en": "What are you currently discussing about the red blanket and the cutworm?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "hal lal kathari ane cutworm knee vat karo cho"
+      },
+      {
+        "role": "assistant",
+        "content": "**કટવોર્મ (Cut Worm) માટેની આગાહી:**\n\n- **31 જાન્યુઆરી 2025:** 68.2% - મધ્યમ જોખમ\n- **30 જાન્યુઆરી 2025:** 69.0% - મધ્યમ જોખમ\n- **29 જાન્યુઆરી 2025:** 67.2% - મધ્યમ જોખમ\n- **28 જાન્યુઆરી 2025:** 63.9% - મધ્યમ જોખમ\n- **27 જાન્યુઆરી 2025:** 63.9% - મધ્યમ જોખમ\n- **26 જાન્યુઆરી 2025:** 60.4% - મધ્યમ જોખમ\n- **25 જાન્યુઆરી 2025:** 60.4% - મધ્યમ જોખમ\n- **24 જાન્યુઆરી 2025:** 67.8% - મધ્યમ જોખમ\n- **23 જાન્યુઆરી 2025:** 76.3% - ઊંચું જોખમ\n- **22 જાન્યુઆરી 2025:** 74.1% - મધ્યમ જોખમ\n\nકટવોર્મનું જોખમ છેલ્લા કેટલાક દિવસોમાં મધ્યમથી ઊંચું રહ્યું છે. જો કે, 23 અને 19 જાન્યુઆરીએ ઊંચા જોખમના સ્તરો નોંધાયા હતા.\n\n**લાલ કથારી (Red Spider Mites) માટેની માહિતી ઉપલબ્ધ નથી.**\n\nજો તમને વધુ માહિતી અથવા નિયંત્રણના પગલાં જોઈએ, તો મને જણાવો!",
+        "en": "**Prediction for Cut Worm:**\n\n* **31 January 2025:** 68.2% - Moderate Risk\n* **30 January 2025:** 69.0% - Moderate Risk\n* **29 January 2025:** 67.2% - Moderate Risk\n* **28 January 2025:** 63.9% - Moderate Risk\n* **27 January 2025:** 63.9% - Medium Risk\n* **26 January 2025:** 60.4% - Medium Risk\n* **25 January 2025:** 60.4% - Moderate Risk\n* **24 January 2025:** 67.8% - Medium Risk\n* **23 January 2025:** 76.3% - High risk\n* **22 January 2025:** 74.1% - Moderate Risk\n\nThe risk of cutworms has been moderate to high in the last few days. However, high risk levels were recorded on January 23 and 19.\n\n**Information for Red Spider Mites is not available.**\n\nIf you need more information or control measures, let me know!",
+        "timestamp": {
+          "$date": "2025-01-31T03:33:23.431Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મને વોટસેપ મેસેજ શુ કામ કર્યા",
+        "en": "What work did what the WhatsApp messages do to me?",
+        "timestamp": {
+          "$date": "2025-01-31T03:33:58.628Z"
+        },
+        "standalone_question": "What work did I do on WhatsApp messages?",
+        "standalone_en": "What work did I do on WhatsApp messages?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mane watsap message shoe calm karya"
+      },
+      {
+        "role": "assistant",
+        "content": "મને માફ કરશો, પરંતુ હું વોટ્સએપ મેસેજિંગ અથવા અન્ય મેસેજિંગ સેવાઓમાં મદદ કરી શકતો નથી. જો તમને ખેતી સંબંધિત કોઈ પ્રશ્ન હોય, તો હું મદદ કરવા માટે અહીં છું!",
+        "en": "I'm sorry, but I can't help whatsApp messaging or other messaging services. If you have any questions related to farming, I am here to help!",
+        "timestamp": {
+          "$date": "2025-01-31T03:34:03.770Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "હાલ દવા ની જરૂર ખરી કે નહી",
+        "en": "Whether the medicine is needed right now or not",
+        "timestamp": {
+          "$date": "2025-01-31T03:34:29.166Z"
+        },
+        "standalone_question": "Is there a need for medication right now?",
+        "standalone_en": "Is there a need for medication right now?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "hal dava knee jarur khari ka nahi"
+      },
+      {
+        "role": "assistant",
+        "content": "હા, કાલ્યાણભાઈ, આજે (31 જાન્યુઆરી 2025) તમારે દવા છંટકાવવાની જરૂર છે. \n\n**દવા છંટકાવ માટેની સૂચનાઓ:**\n\n1. **માઈટ્સ માટે:**\n   - **Chlorfenapyr 10 SC:** 1 મીલીલિટર\n   - **Propargite 42% + Hexythiazox 2% EC:** 2.5 મીલીલિટર\n   - **Cyenopyrafen 30 SC:** 0.6 મીલીલિટર\n\n2. **કટવોર્મ માટે:**\n   - **Flubendiamide 480 SC:** 0.5 મીલીલિટર\n   - **Cyantraniliprole 7.3% w/w + Diafenthiuron 36.4% w/w SC:** 1.25 મીલીલિટર\n   - **Flubendiamide 19.92 + Thiacloprid 19.92 ww SC, 480 SC:** 0.5 મીલીલિટર\n\n**અરજીનો રીત:** ફોલિયર સ્પ્રે (પાન પર છંટકાવ).\n\nજો તમને વધુ મદદની જરૂર હોય, તો મને જણાવો!",
+        "en": "Yes, Kalyanbhai, today (January 31, 2025) you need to spray medicines. \n\n**Instructions for spraying medicines:**\n\n1. For **Mites:**\n   - **Chlorfenapyr 10 SC:** 1 millilitre\n   - **Propargite 42% + Hexythiazox 2% EC:** 2.5 milliliters\n   - **Cyenopyrafen 30 SC:** 0.6 milliliters\n\n2. **For cutworm:**\n   - **Flubendiamide 480 SC:** 0.5 milliliters\n   - **Cyantraniliprole 7.3% w/w + Diafenthiuron 36.4% w/w SC:** 1.25 millilitre\n   - **Flubendiamide 19.92 + Thiacloprid 19.92 ww SC, 480 SC:** 0.5 milliliters\n\n**Method of application:** Foliar spray (sprinkler on leaves).\n\nIf you need more help, let me know!",
+        "timestamp": {
+          "$date": "2025-01-31T03:34:40.010Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "પાણી છોડવાનો ટાઈમ થયો ગુરુ",
+        "en": "It's time for the release of water.",
+        "timestamp": {
+          "$date": "2025-01-31T03:35:24.599Z"
+        },
+        "standalone_question": "Is it time to stop watering the plants, Guru?",
+        "standalone_en": "Is it time to stop watering the plants, Guru?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pani chodavano time thayo guru"
+      },
+      {
+        "role": "assistant",
+        "content": "**કૈરો 1** માટે પાણી છોડવાની જરૂર નથી. \n\n- **મૂળભૂત માહિતી:**\n  - **મૂળ 1 ની ભેજ:** 11 kPa\n  - **મૂળ 2 ની ભેજ:** 10 kPa\n  - **ઓપ્ટિમલ મૂલ્ય:** 20 kPa\n\nહાલમાં, જમીનની ભેજ ઓપ્ટિમલ મૂલ્યની નીચે છે, તેથી પાણી આપવાની જરૂર નથી. જો તમને વધુ મદદની જરૂર હોય, તો મને જણાવો!",
+        "en": "There is no need to release water for **Cairo 1**. \n\n- **Basic data:**\n  - **Moisture of root 1:** 11 kPa\n  - **Moisture of root 2:** 10 kPa\n  - **Optimal value:** 20 kPa\n\nCurrently, soil moisture is below optimal value, so there is no need to water. If you need more help, let me know!",
+        "timestamp": {
+          "$date": "2025-01-31T03:35:31.305Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "આસ્ટેજે દવાની જરૂર",
+        "en": "Astage medication is needed",
+        "timestamp": {
+          "$date": "2025-01-31T03:36:22.639Z"
+        },
+        "standalone_question": "Is there a need for medication at this stage?",
+        "standalone_en": "Is there a need for medication at this stage?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "asteje davani jarur"
+      },
+      {
+        "role": "assistant",
+        "content": "હા, કાલ્યાણભાઈ, આજે (31 જાન્યુઆરી 2025) દવા છંટકાવવાની જરૂર છે. \n\n**દવા છંટકાવ માટેની સૂચનાઓ:**\n\n1. **માઈટ્સ માટે:**\n   - **Chlorfenapyr 10 SC:** 1 મીલીલિટર\n   - **Propargite 42% + Hexythiazox 2% EC:** 2.5 મીલીલિટર\n   - **Cyenopyrafen 30 SC:** 0.6 મીલીલિટર\n\n2. **કટવોર્મ માટે:**\n   - **Flubendiamide 480 SC:** 0.5 મીલીલિટર\n   - **Cyantraniliprole 7.3% w/w + Diafenthiuron 36.4% w/w SC:** 1.25 મીલીલિટર\n   - **Flubendiamide 19.92 + Thiacloprid 19.92 ww SC, 480 SC:** 0.5 મીલીલિટર\n\n**અરજીનો રીત:** ફોલિયર સ્પ્રે (પાન પર છંટકાવ).\n\nજો તમને વધુ મદદની જરૂર હોય, તો મને જણાવો!",
+        "en": "Yes, Kalyanbhai, there is a need to spray medicine today (January 31, 2025). \n\n**Instructions for spraying medicines:**\n\n1. For **Mites:**\n   - **Chlorfenapyr 10 SC:** 1 millilitre\n   - **Propargite 42% + Hexythiazox 2% EC:** 2.5 milliliters\n   - **Cyenopyrafen 30 SC:** 0.6 milliliters\n\n2. **For cutworm:**\n   - **Flubendiamide 480 SC:** 0.5 milliliters\n   - **Cyantraniliprole 7.3% w/w + Diafenthiuron 36.4% w/w SC:** 1.25 millilitre\n   - **Flubendiamide 19.92 + Thiacloprid 19.92 ww SC, 480 SC:** 0.5 milliliters\n\n**Method of application:** Foliar spray (sprinkler on leaves).\n\nIf you need more help, let me know!",
+        "timestamp": {
+          "$date": "2025-01-31T03:36:34.122Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ભાઈ હાલ પાક ઉપર છે તો કેમ જરૂર",
+        "en": "Brother is currently on the crop, then why not?",
+        "timestamp": {
+          "$date": "2025-01-31T03:38:36.617Z"
+        },
+        "standalone_question": "Why is there a need for treatment when the crop is currently healthy?",
+        "standalone_en": "Why is there a need for treatment when the crop is currently healthy?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate.",
+            "Q: why to use insecticide and fungicide for seed treatment?\nA:\n- Prevents the spread of plant diseases/pest\n- Protects the seed from seed rot and seedling blights\n- Improves the seed germination\n- Provides protection from storage insects\n- Controls the soil insects"
+          ]
+        },
+        "content_transliterated": "bhai hal pak upar che to came jarur"
+      },
+      {
+        "role": "assistant",
+        "content": "હા, કાલ્યાણભાઈ, આજે (31 જાન્યુઆરી 2025) તમારા પાક પર દવા છંટકાવવાની જરૂર છે, કારણ કે આ દિવસમાં કટવોર્મ અને માઇટ્સ માટે છંટકાવની ભલામણ કરવામાં આવી છે.\n\n**દવા છંટકાવ માટેની સૂચનાઓ:**\n\n1. **માઈટ્સ માટે:**\n   - **Chlorfenapyr 10 SC:** 1 મીલીલિટર\n   - **Propargite 42% + Hexythiazox 2% EC:** 2.5 મીલીલિટર\n   - **Cyenopyrafen 30 SC:** 0.6 મીલીલિટર\n\n2. **કટવોર્મ માટે:**\n   - **Flubendiamide 480 SC:** 0.5 મીલીલિટર\n   - **Cyantraniliprole 7.3% w/w + Diafenthiuron 36.4% w/w SC:** 1.25 મીલીલિટર\n   - **Flubendiamide 19.92 + Thiacloprid 19.92 ww SC, 480 SC:** 0.5 મીલીલિટર\n\n**અરજીનો રીત:** ફોલિયર સ્પ્રે (પાન પર છંટકાવ).\n\nજો તમને વધુ મદદની જરૂર હોય, તો મને જણાવો!",
+        "en": "Yes, Kalyanbhai, today (January 31, 2025) there is a need to spray the medicine on your crop, as spraying is recommended for cutworms and mites on this day.\n\n**Instructions for spraying medicines:**\n\n1. For **Mites:**\n   - **Chlorfenapyr 10 SC:** 1 millilitre\n   - **Propargite 42% + Hexythiazox 2% EC:** 2.5 milliliters\n   - **Cyenopyrafen 30 SC:** 0.6 milliliters\n\n2. **For cutworm:**\n   - **Flubendiamide 480 SC:** 0.5 milliliters\n   - **Cyantraniliprole 7.3% w/w + Diafenthiuron 36.4% w/w SC:** 1.25 millilitre\n   - **Flubendiamide 19.92 + Thiacloprid 19.92 ww SC, 480 SC:** 0.5 milliliters\n\n**Method of application:** Foliar spray (sprinkler on leaves).\n\nIf you need more help, let me know!",
+        "timestamp": {
+          "$date": "2025-01-31T03:38:49.758Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ટબર ડેવલપમેન્ટ નો પીરીયડ છે",
+        "en": "Taber is a period of development",
+        "timestamp": {
+          "$date": "2025-01-31T03:40:00.618Z"
+        },
+        "standalone_question": "Is it the period for tuber development?",
+        "standalone_en": "Is it the period for tuber development?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "tabar development no period che"
+      },
+      {
+        "role": "assistant",
+        "content": "હા, કાલ્યાણભાઈ, તમારું પાક હાલ **ટબર ડેવલપમેન્ટ**ના તબક્કામાં છે, જે 10 જાન્યુઆરી 2025થી શરૂ થયો છે. \n\nઆ તબક્કામાં, પાકની પોષણ જરૂરિયાતો અને દવા છંટકાવની જરૂરિયાતો વધે છે. જો તમને વધુ માહિતી અથવા દવા છંટકાવની જરૂર હોય, તો મને જણાવો!",
+        "en": "Yes, Kalyanbhai, your crop is currently in the stage of **tubber development**, which has started from 10th January 2025. \n\nIn this phase, the nutritional requirements of the crop and the need for spraying medicines increase. If you need more information or spraying medication, let me know!",
+        "timestamp": {
+          "$date": "2025-01-31T03:40:05.660Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "હાલ છોડ જોતા દેખાતુ નથી",
+        "en": "Can't see the plant at the moment",
+        "timestamp": {
+          "$date": "2025-01-31T03:41:01.612Z"
+        },
+        "standalone_question": "Why are the plants currently not showing any visible growth?",
+        "standalone_en": "Why are the plants currently not showing any visible growth?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "hal chhod jota dekhatu nathi"
+      },
+      {
+        "role": "assistant",
+        "content": "જો તમારા પાકના પાન સૂકા દેખાય છે, પરંતુ સેન્સર ભેજ દર્શાવે છે, તો આ સંકેત હોઈ શકે છે કે જમીનના ઉપરના સ્તરે ભેજ નથી, પરંતુ મૂળ વિસ્તારમાં ભેજ છે. \n\nકૃપા કરીને ખાતરી કરો કે સેન્સર આસપાસના મૂળ વિસ્તારમાં ભેજ છે કે નહીં. જો તે ભેજ દર્શાવે છે, તો irrigation કરવાની જરૂર નથી. \n\nજો તમને લાગે છે કે પાણી યોગ્ય રીતે પહોંચતું નથી, તો કૃપા કરીને ચકાસો કે:\n\n1. **ડ્રિપ સિસ્ટમ:** શું ડ્રિપ બ્લોક થયેલ છે?\n2. **સેન્સરનું સ્થાન:** શું સેન્સર જમીનના ઢળાવ અથવા અન્ય સમસ્યાઓને કારણે યોગ્ય રીતે કાર્ય કરી રહ્યું છે?\n\nજો તમને વધુ મદદની જરૂર હોય, તો મને જણાવો!",
+        "en": "If the leaves of your crop appear dry, but the sensor shows moisture, this may be a sign that there is no moisture at the top level of the ground, but moisture in the original area. \n\nPlease ensure that the sensor is humid in the surrounding original area or not. If it shows moisture, there is no need to do irrigation. \n\nIf you feel that the water is not reaching properly, please check that:\n\n1. **Drip System:** Is the drip blocked?\n2. Location of the **Sensor:** Is the sensor functioning properly due to ground slopes or other problems?\n\nIf you need more help, let me know!",
+        "timestamp": {
+          "$date": "2025-01-31T03:41:11.648Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140"
+    ],
+    "conversation_id": "679c44516590fbc07363f329",
+    "_id": "679c44516590fbc07363f329",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-01-31T03:46:01.621000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-01-31T03:32:33.291000+00:00"
+  }
+]

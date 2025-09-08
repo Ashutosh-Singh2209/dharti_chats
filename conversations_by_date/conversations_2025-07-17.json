@@ -1,0 +1,671 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Khad kab dhalna h ",
+        "en": "When to compost Mold H ",
+        "timestamp": {
+          "$date": "2025-07-17T16:05:11.696Z"
+        },
+        "standalone_question": "When should I arrive?",
+        "standalone_en": "When should I arrive?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपकी फसल (केला) वर्तमान में \"फसल स्थापना\" चरण में है, जो 14 जुलाई 2025 से शुरू हुआ है। इस चरण में, आपको 10 किलोग्राम गोबर की खाद प्रति पौधा डालनी है।\n\nअगली फर्टिगेशन की योजना \"प्रारंभिक पौधों की वृद्धि\" चरण के लिए है, जो 18 अगस्त 2025 से शुरू होगी। इस चरण में, आपको 10 ग्राम यूरिया प्रति पौधा और 0 ग्राम फास्फोरिक एसिड डालना होगा (फास्फोरिक एसिड को अन्य उर्वरकों के आवेदन से 15-20 मिनट पहले अलग से डालना चाहिए)।\n\nइसलिए, अभी गोबर की खाद डालें और अगली फर्टिगेशन के लिए तैयार रहें।",
+        "en": "Your crop (banana) is currently in the \"crop establishment\" phase, which has started from 14 July 2025. In this step, you have to add 10 kg of dung manure per plant.\n\nThe next fertigation is planned for the \"early plant growth\" phase, which will begin on 18 August 2025. At this stage, you need to add 10 g of urea per plant and 0 g of phosphoric acid (phosphoric acid should be poured separately 15-20 minutes before the application of other fertilizers).\n\nSo, add dung manure now and be ready for the next fertigation.",
+        "timestamp": {
+          "$date": "2025-07-17T16:05:22.959Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Or kya kya dhalna h ",
+        "en": "And what do you want to mold? ",
+        "timestamp": {
+          "$date": "2025-07-17T16:05:29.937Z"
+        },
+        "standalone_question": "What other fertilizers should be applied?",
+        "standalone_en": "What other fertilizers should be applied?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: What are the advantages of adding soil, leaf, or petiole test reports?\nA: By adding test reports, Fyllo can generate a more precise fertigation schedule tailored to your specific conditions. Benefits include:\n\n    1. More accurate nutrient recommendations\n    2. Better alignment with your crop's actual needs\n    3. Potential for improved crop health and yield\n    4. More efficient use of fertilizers\n    5. Possible reduction in fertilizer costs and environmental impact"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपकी फसल (केला) वर्तमान में \"फसल स्थापना\" चरण में है, जो 14 जुलाई 2025 से शुरू हुआ है। इस चरण में, आपको निम्नलिखित उर्वरक डालने हैं:\n\n### वर्तमान फर्टिगेशन (सप्ताह 1):\n- **गोबर की खाद**: 10 किलोग्राम प्रति पौधा\n\n### अगली फर्टिगेशन योजना (प्रारंभिक पौधों की वृद्धि चरण):\n- **तारीख**: 18 अगस्त 2025 से शुरू होगा।\n- **उर्वरक**:\n  - **यूरिया**: 10 ग्राम प्रति पौधा\n  - **फास्फोरिक एसिड**: 0 ग्राम प्रति पौधा (फास्फोरिक एसिड को अन्य उर्वरकों के आवेदन से 15-20 मिनट पहले अलग से डालना चाहिए)\n\nआपको अभी गोबर की खाद डालनी है और अगली फर्टिगेशन के लिए तैयार रहना है।",
+        "en": "Your crop (banana) is currently in the \"crop establishment\" phase, which has started from 14 July 2025. At this stage, you need to add the following fertilizers:\n\n### Current Fertigation (Week 1):\n- **Dung manure**: 10 kg per plant\n\n### Next Fertigation Plan (Initial Plant Growth Stage):\n- **Date**: Starting 18th August 2025.\n-**Fertilizer**:\n  - **Urea**: 10 grams per plant\n  - Phosphoric acid: 0 g per plant (phosphoric acid should be added separately 15-20 minutes before the application of other fertilizers)\n\nYou have to fertilize the dung now and be ready for the next fertigation.",
+        "timestamp": {
+          "$date": "2025-07-17T16:05:41.783Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Oo",
+        "en": "Oo",
+        "timestamp": {
+          "$date": "2025-07-17T16:08:09.676Z"
+        },
+        "standalone_question": "What other fertilizers should be applied?",
+        "standalone_en": "What other fertilizers should be applied?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: What are the advantages of adding soil, leaf, or petiole test reports?\nA: By adding test reports, Fyllo can generate a more precise fertigation schedule tailored to your specific conditions. Benefits include:\n\n    1. More accurate nutrient recommendations\n    2. Better alignment with your crop's actual needs\n    3. Potential for improved crop health and yield\n    4. More efficient use of fertilizers\n    5. Possible reduction in fertilizer costs and environmental impact"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "अगर आपके पास कोई और सवाल है या आपको किसी विशेष जानकारी की आवश्यकता है, तो कृपया बताएं! मैं आपकी मदद करने के लिए यहाँ हूँ।",
+        "en": "If you have any further questions or need any special information, please let us know! I'm here to help you.",
+        "timestamp": {
+          "$date": "2025-07-17T16:08:12.647Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Ok",
+        "en": "Ok",
+        "timestamp": {
+          "$date": "2025-07-17T16:08:27.329Z"
+        },
+        "standalone_question": "What other fertilizers should be applied?",
+        "standalone_en": "What other fertilizers should be applied?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: What are the advantages of adding soil, leaf, or petiole test reports?\nA: By adding test reports, Fyllo can generate a more precise fertigation schedule tailored to your specific conditions. Benefits include:\n\n    1. More accurate nutrient recommendations\n    2. Better alignment with your crop's actual needs\n    3. Potential for improved crop health and yield\n    4. More efficient use of fertilizers\n    5. Possible reduction in fertilizer costs and environmental impact"
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "अगर आपको और कोई जानकारी चाहिए या कोई सवाल है, तो बेझिझक पूछें! मैं आपकी मदद के लिए यहाँ हूँ।",
+        "en": "If you need any further information or have any questions, feel free to ask! I'm here to help you.",
+        "timestamp": {
+          "$date": "2025-07-17T16:08:31.711Z"
+        }
+      }
+    ],
+    "farmer_id": "iswarajlayse",
+    "farmer_plot_ids": [
+      "plot1122"
+    ],
+    "conversation_id": "68791f364b3b493dd8fa53f1",
+    "_id": "68791f364b3b493dd8fa53f1",
+    "language": "hi",
+    "expiry": {
+      "$date": "2025-07-17T16:13:27.334000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-07-17T16:05:11.696000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kya dwa de<user uploaded image for analysis at '4rajeshfarm/2025-07-17-1752766293783.jpg'>",
+        "en": "Kya dwa de<user uploaded image for analysis at '4rajeshfarm/2025-07-17-1752766293783.jpg'>",
+        "timestamp": {
+          "$date": "2025-07-17T15:32:05.755Z"
+        },
+        "standalone_question": "What does the image uploaded by the user depict?",
+        "standalone_en": "What does the image uploaded by the user depict?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तस्वीर में टमाटर के पौधे हरे फलों और फूलों के साथ दिख रहे हैं। पौधों की सामान्य स्थिति स्वस्थ लगती है, और कोई स्पष्ट बीमारी या कीट के नुकसान के संकेत नहीं हैं। \n\nयदि आपको कोई पीले पत्ते, धब्बे, या असामान्य वृद्धि के पैटर्न दिखाई देते हैं, तो कृपया उन क्षेत्रों की एक स्पष्ट तस्वीर लें। अच्छी तस्वीरें स्पष्ट और नजदीक से ली जानी चाहिए ताकि विवरण को प्रभावी ढंग से कैप्चर किया जा सके।\n\nयदि आपके पास कोई विशेष चिंता या लक्षण हैं, तो कृपया मुझे बताएं!",
+        "en": "In the picture, tomato plants are seen with green fruits and flowers. The general condition of the plants seems healthy, and there are no obvious diseases or signs of insect damage. \n\nIf you notice any yellow leaves, spots, or unusual growth patterns, please take a clear picture of those areas. Good photos should be taken clearly and closely so that details can be captured effectively.\n\nIf you have any particular concerns or symptoms, please let me know!",
+        "timestamp": {
+          "$date": "2025-07-17T15:32:25.417Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पौधे का फुल और फल झड़ रहा है क्या दावा डाले",
+        "en": "The flower and fruit of the plant is falling, what claim should I make?",
+        "timestamp": {
+          "$date": "2025-07-17T15:36:21.156Z"
+        },
+        "standalone_question": "What should I do if the flowers and fruits of the plant are falling off?",
+        "standalone_en": "What should I do if the flowers and fruits of the plant are falling off?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "paudhe ka phool aur phal jhad raha hai kya dava daale"
+      },
+      {
+        "role": "assistant",
+        "content": "इस समय के लिए कोई विशेष कीटनाशक या रोग नियंत्रण की सिफारिश नहीं की गई है। \n\nहालांकि, यदि आपके पौधों के फूल और फल झड़ रहे हैं, तो यह कुछ कारणों से हो सकता है, जैसे:\n\n1. **पानी की कमी या अधिकता**: सुनिश्चित करें कि मिट्टी में उचित नमी है।\n2. **पोषण की कमी**: उचित उर्वरक का उपयोग करें।\n3. **जलवायु परिवर्तन**: अत्यधिक गर्मी या ठंड भी पौधों को प्रभावित कर सकती है।\n\nआपको पौधों की स्थिति की नियमित निगरानी करनी चाहिए। यदि समस्या बनी रहती है, तो कृपया मुझे और जानकारी दें ताकि मैं बेहतर सलाह दे सकूं।",
+        "en": "No specific pesticide or disease control is recommended for this time. \n\nHowever, if your plants are losing flowers and fruits, it could be due to a few reasons, such as:\n\n1. Lack of water or overwater: Make sure that the soil has proper moisture.\n2. Nutritional deficiency: Use proper fertilizer.\nClimate change: Extreme heat or cold can also affect plants.\n\nYou should regularly monitor the condition of the plants. If the problem persists, please let me know more so I can advise better.",
+        "timestamp": {
+          "$date": "2025-07-17T15:36:30.011Z"
+        }
+      }
+    ],
+    "farmer_id": "rajeshtoppo",
+    "farmer_plot_ids": [
+      "4rajeshfarm"
+    ],
+    "conversation_id": "68791773635c5f0ca645bc12",
+    "_id": "68791773635c5f0ca645bc12",
+    "language": "hi",
+    "expiry": {
+      "$date": "2025-07-17T15:41:21.162000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-07-17T15:32:05.755000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Kya dwa de<user uploaded image for analysis at '4rajeshfarm/2025-07-17-1752766293783.jpg'>",
+        "en": "Kya dwa de<user uploaded image for analysis at '4rajeshfarm/2025-07-17-1752766293783.jpg'>",
+        "timestamp": {
+          "$date": "2025-07-17T15:32:05.755Z"
+        },
+        "standalone_question": "What does the image uploaded by the user depict?",
+        "standalone_en": "What does the image uploaded by the user depict?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तस्वीर में टमाटर के पौधे हरे फलों और फूलों के साथ दिख रहे हैं। पौधों की सामान्य स्थिति स्वस्थ लगती है, और कोई स्पष्ट बीमारी या कीट के नुकसान के संकेत नहीं हैं। \n\nयदि आपको कोई पीले पत्ते, धब्बे, या असामान्य वृद्धि के पैटर्न दिखाई देते हैं, तो कृपया उन क्षेत्रों की एक स्पष्ट तस्वीर लें। अच्छी तस्वीरें स्पष्ट और नजदीक से ली जानी चाहिए ताकि विवरण को प्रभावी ढंग से कैप्चर किया जा सके।\n\nयदि आपके पास कोई विशेष चिंता या लक्षण हैं, तो कृपया मुझे बताएं!",
+        "en": "In the picture, tomato plants are seen with green fruits and flowers. The general condition of the plants seems healthy, and there are no obvious diseases or signs of insect damage. \n\nIf you notice any yellow leaves, spots, or unusual growth patterns, please take a clear picture of those areas. Good photos should be taken clearly and closely so that details can be captured effectively.\n\nIf you have any particular concerns or symptoms, please let me know!",
+        "timestamp": {
+          "$date": "2025-07-17T15:32:25.417Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पौधे का फुल और फल झड़ रहा है क्या दावा डाले",
+        "en": "The flower and fruit of the plant is falling, what claim should I make?",
+        "timestamp": {
+          "$date": "2025-07-17T15:36:21.156Z"
+        },
+        "standalone_question": "What should I do if the flowers and fruits of the plant are falling off?",
+        "standalone_en": "What should I do if the flowers and fruits of the plant are falling off?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "paudhe ka phool aur phal jhad raha hai kya dava daale"
+      },
+      {
+        "role": "assistant",
+        "content": "इस समय के लिए कोई विशेष कीटनाशक या रोग नियंत्रण की सिफारिश नहीं की गई है। \n\nहालांकि, यदि आपके पौधों के फूल और फल झड़ रहे हैं, तो यह कुछ कारणों से हो सकता है, जैसे:\n\n1. **पानी की कमी या अधिकता**: सुनिश्चित करें कि मिट्टी में उचित नमी है।\n2. **पोषण की कमी**: उचित उर्वरक का उपयोग करें।\n3. **जलवायु परिवर्तन**: अत्यधिक गर्मी या ठंड भी पौधों को प्रभावित कर सकती है।\n\nआपको पौधों की स्थिति की नियमित निगरानी करनी चाहिए। यदि समस्या बनी रहती है, तो कृपया मुझे और जानकारी दें ताकि मैं बेहतर सलाह दे सकूं।",
+        "en": "No specific pesticide or disease control is recommended for this time. \n\nHowever, if your plants are losing flowers and fruits, it could be due to a few reasons, such as:\n\n1. Lack of water or overwater: Make sure that the soil has proper moisture.\n2. Nutritional deficiency: Use proper fertilizer.\nClimate change: Extreme heat or cold can also affect plants.\n\nYou should regularly monitor the condition of the plants. If the problem persists, please let me know more so I can advise better.",
+        "timestamp": {
+          "$date": "2025-07-17T15:36:30.011Z"
+        }
+      }
+    ],
+    "farmer_id": "rajeshtoppo",
+    "farmer_plot_ids": [
+      "4rajeshfarm"
+    ],
+    "conversation_id": "68791773635c5f0ca645bc12",
+    "_id": "68791773635c5f0ca645bc12",
+    "language": "hi",
+    "expiry": {
+      "$date": "2025-07-17T15:41:21.162000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-07-17T15:32:05.755000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पाणी ",
+        "en": "Water ",
+        "timestamp": {
+          "$date": "2025-07-17T14:39:27.583Z"
+        },
+        "standalone_question": "What is water?",
+        "standalone_en": "What is water?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "paani "
+      },
+      {
+        "role": "assistant",
+        "content": "आपको \"Manikchaman\" में पानी देना चाहिए। \n\nवर्तमान मिट्टी की नमी:\n- मिट्टी नमी 1: 54%\n- मिट्टी नमी 2: 34%\n\nइष्टतम मिट्टी नमी: 60%\n\nचूंकि आपकी मिट्टी की नमी इष्टतम स्तर से कम है, इसलिए आप पानी दे सकते हैं।",
+        "en": "You should water in \"Manikchaman\". \n\nCurrent Soil Moisture:\n- Soil moisture 1: 54%\n- Soil moisture 2: 34%\n\nOptimum soil moisture: 60%\n\nSince your soil moisture is lower than the optimal level, you can water.",
+        "timestamp": {
+          "$date": "2025-07-17T14:39:36.549Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "मराठी ",
+        "en": "Marathi ",
+        "timestamp": {
+          "$date": "2025-07-17T14:40:03.294Z"
+        },
+        "standalone_question": "What is the word for \"water\" in Marathi?",
+        "standalone_en": "What is the word for \"water\" in Marathi?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "marathi "
+      },
+      {
+        "role": "assistant",
+        "content": "आपको \"Manikchaman\" मध्ये पाणी देणे आवश्यक आहे.\n\nवर्तमान मातीची आर्द्रता:\n- माती आर्द्रता 1: 54%\n- माती आर्द्रता 2: 34%\n\nआवश्यक आर्द्रता: 60%\n\nआपली मातीची आर्द्रता आवश्यक स्तरापेक्षा कमी आहे, त्यामुळे आपण पाणी देऊ शकता.",
+        "en": "You need to water in \"Manikchaman\".\n\nCurrent soil moisture:\n- Soil moisture 1:54%\n- Soil moisture 2:34%\n\nRequired humidity: 60%\n\nYour soil moisture is lower than the required level, so you can provide water.",
+        "timestamp": {
+          "$date": "2025-07-17T14:40:09.516Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "खत",
+        "en": "letter",
+        "timestamp": {
+          "$date": "2025-07-17T14:40:28.376Z"
+        },
+        "standalone_question": "What type of fertilizer should be used?",
+        "standalone_en": "What type of fertilizer should be used?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "khat"
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या \"Manikchaman\" प्लॉटसाठी खताची वेळ आली आहे. सध्या आपण \"Topping\" स्टेजमध्ये आहात, जी 3 व्या आठवड्यात आहे. \n\n### सध्याचे खत वितरण:\n- **खत**: \n  - **Magnesium Sulphate**: 2 kg/acre\n  - **Sulfate of Potash**: 4.5 kg/acre\n\n### पुढील खत वितरण:\n- **स्टेज**: Topping\n- **आठवडा**: 4\n- **खत**:\n  - **Magnesium Sulphate**: 1 kg/acre\n  - **Sulfate of Potash**: 2 kg/acre\n- **आठवड्याची सुरुवात**: 16 ऑक्टोबर 2025\n\nआपण सध्या दिलेल्या खतांचे वितरण करणे आवश्यक आहे.",
+        "en": "It's time for your \"Manikchaman\" plot. Currently we are in the \"Topping\" stage, which is in the 3rd week. \n\n### Current Letter Delivery:\n-**Letter**: \n  - Magnesium Sulphate: 2 kg/acre\n  - Sulfate of Potash: 4.5 kg/acre\n\n### Next Letter Delivery:\n- **Stage**: Topping\n- **Week**: 4\n-**Letter**:\n  - Magnesium Sulphate: 1 kg/acre\n  - Sulfate of Potash: 2 kg/acre\n- **Start of the week**: October 16, 2025\n\nYou must distribute the accounts currently offered.",
+        "timestamp": {
+          "$date": "2025-07-17T14:40:37.494Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "फवारणी ",
+        "en": "Spraying ",
+        "timestamp": {
+          "$date": "2025-07-17T14:42:13.063Z"
+        },
+        "standalone_question": "What is the recommended spraying schedule for \"Manikchaman\"?",
+        "standalone_en": "What is the recommended spraying schedule for \"Manikchaman\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        },
+        "content_transliterated": "favarani "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Manikchaman\" प्लॉटसाठी 17 जुलै 2025 ते 24 जुलै 2025 दरम्यान कोणतीही फवारणीची आवश्यकता नाही. सध्या कोणतीही रोग किंवा कीड फवारणीची शिफारस केलेली नाही. \n\nआपण पुढील फवारणीसाठी लक्ष ठेवा आणि आवश्यकतेनुसार फवारणी करा.",
+        "en": "No spraying is required for the \"Manikchaman\" plot between July 17, 2025 and July 24, 2025. No disease or pest spraying is currently recommended. \n\nYou keep an eye out for further spraying and spray as needed.",
+        "timestamp": {
+          "$date": "2025-07-17T14:42:19.380Z"
+        }
+      }
+    ],
+    "farmer_id": "shubhamshashikantshinde",
+    "farmer_plot_ids": [
+      "manikchaman614"
+    ],
+    "conversation_id": "68790b1f913cb8e785477858",
+    "_id": "68790b1f913cb8e785477858",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-17T14:45:00.751000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-07-17T14:39:27.583000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पाणी ",
+        "en": "Water ",
+        "timestamp": {
+          "$date": "2025-07-17T14:39:27.583Z"
+        },
+        "standalone_question": "What is water?",
+        "standalone_en": "What is water?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "paani "
+      },
+      {
+        "role": "assistant",
+        "content": "आपको \"Manikchaman\" में पानी देना चाहिए। \n\nवर्तमान मिट्टी की नमी:\n- मिट्टी नमी 1: 54%\n- मिट्टी नमी 2: 34%\n\nइष्टतम मिट्टी नमी: 60%\n\nचूंकि आपकी मिट्टी की नमी इष्टतम स्तर से कम है, इसलिए आप पानी दे सकते हैं।",
+        "en": "You should water in \"Manikchaman\". \n\nCurrent Soil Moisture:\n- Soil moisture 1: 54%\n- Soil moisture 2: 34%\n\nOptimum soil moisture: 60%\n\nSince your soil moisture is lower than the optimal level, you can water.",
+        "timestamp": {
+          "$date": "2025-07-17T14:39:36.549Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "मराठी ",
+        "en": "Marathi ",
+        "timestamp": {
+          "$date": "2025-07-17T14:40:03.294Z"
+        },
+        "standalone_question": "What is the word for \"water\" in Marathi?",
+        "standalone_en": "What is the word for \"water\" in Marathi?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "marathi "
+      },
+      {
+        "role": "assistant",
+        "content": "आपको \"Manikchaman\" मध्ये पाणी देणे आवश्यक आहे.\n\nवर्तमान मातीची आर्द्रता:\n- माती आर्द्रता 1: 54%\n- माती आर्द्रता 2: 34%\n\nआवश्यक आर्द्रता: 60%\n\nआपली मातीची आर्द्रता आवश्यक स्तरापेक्षा कमी आहे, त्यामुळे आपण पाणी देऊ शकता.",
+        "en": "You need to water in \"Manikchaman\".\n\nCurrent soil moisture:\n- Soil moisture 1:54%\n- Soil moisture 2:34%\n\nRequired humidity: 60%\n\nYour soil moisture is lower than the required level, so you can provide water.",
+        "timestamp": {
+          "$date": "2025-07-17T14:40:09.516Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "खत",
+        "en": "letter",
+        "timestamp": {
+          "$date": "2025-07-17T14:40:28.376Z"
+        },
+        "standalone_question": "What type of fertilizer should be used?",
+        "standalone_en": "What type of fertilizer should be used?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "khat"
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या \"Manikchaman\" प्लॉटसाठी खताची वेळ आली आहे. सध्या आपण \"Topping\" स्टेजमध्ये आहात, जी 3 व्या आठवड्यात आहे. \n\n### सध्याचे खत वितरण:\n- **खत**: \n  - **Magnesium Sulphate**: 2 kg/acre\n  - **Sulfate of Potash**: 4.5 kg/acre\n\n### पुढील खत वितरण:\n- **स्टेज**: Topping\n- **आठवडा**: 4\n- **खत**:\n  - **Magnesium Sulphate**: 1 kg/acre\n  - **Sulfate of Potash**: 2 kg/acre\n- **आठवड्याची सुरुवात**: 16 ऑक्टोबर 2025\n\nआपण सध्या दिलेल्या खतांचे वितरण करणे आवश्यक आहे.",
+        "en": "It's time for your \"Manikchaman\" plot. Currently we are in the \"Topping\" stage, which is in the 3rd week. \n\n### Current Letter Delivery:\n-**Letter**: \n  - Magnesium Sulphate: 2 kg/acre\n  - Sulfate of Potash: 4.5 kg/acre\n\n### Next Letter Delivery:\n- **Stage**: Topping\n- **Week**: 4\n-**Letter**:\n  - Magnesium Sulphate: 1 kg/acre\n  - Sulfate of Potash: 2 kg/acre\n- **Start of the week**: October 16, 2025\n\nYou must distribute the accounts currently offered.",
+        "timestamp": {
+          "$date": "2025-07-17T14:40:37.494Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "फवारणी ",
+        "en": "Spraying ",
+        "timestamp": {
+          "$date": "2025-07-17T14:42:13.063Z"
+        },
+        "standalone_question": "What is the recommended spraying schedule for \"Manikchaman\"?",
+        "standalone_en": "What is the recommended spraying schedule for \"Manikchaman\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        },
+        "content_transliterated": "favarani "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Manikchaman\" प्लॉटसाठी 17 जुलै 2025 ते 24 जुलै 2025 दरम्यान कोणतीही फवारणीची आवश्यकता नाही. सध्या कोणतीही रोग किंवा कीड फवारणीची शिफारस केलेली नाही. \n\nआपण पुढील फवारणीसाठी लक्ष ठेवा आणि आवश्यकतेनुसार फवारणी करा.",
+        "en": "No spraying is required for the \"Manikchaman\" plot between July 17, 2025 and July 24, 2025. No disease or pest spraying is currently recommended. \n\nYou keep an eye out for further spraying and spray as needed.",
+        "timestamp": {
+          "$date": "2025-07-17T14:42:19.380Z"
+        }
+      }
+    ],
+    "farmer_id": "shubhamshashikantshinde",
+    "farmer_plot_ids": [
+      "manikchaman614"
+    ],
+    "conversation_id": "68790b1f913cb8e785477858",
+    "_id": "68790b1f913cb8e785477858",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-17T14:45:00.751000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-07-17T14:39:27.583000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "शेवगा या पिकाला अमोनिअम सल्फेट आणि फॉस्पेरिक ऍसिड का सोडावे वनस्पती वृद्धी अवस्थेमध्ये ",
+        "en": "Why ammonium sulfate and phosphoric acid should be released to this crop plant in the growth stage ",
+        "timestamp": {
+          "$date": "2025-07-17T08:29:45.429Z"
+        },
+        "standalone_question": "Why should ammonium sulfate and phosphoric acid be applied to moringa plants during their growth stage?",
+        "standalone_en": "Why should ammonium sulfate and phosphoric acid be applied to moringa plants during their growth stage?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "shevga ya pikala ammonium sulphate ani phosperic esid ka sodave vanaspati vrddhi avasthemadhye "
+      },
+      {
+        "role": "assistant",
+        "content": "शेवगा पिकाला अमोनियम सल्फेट आणि फॉस्पेरिक ऍसिड सोडणे आवश्यक आहे कारण:\n\n1. **अमोनियम सल्फेट**: यामध्ये नायट्रोजन असतो, जो वनस्पतींच्या वाढीसाठी महत्त्वाचा आहे. नायट्रोजन मुळांच्या विकासात, पानांच्या वाढीत आणि एकूणच पिकाच्या उत्पादनात मदत करतो.\n\n2. **फॉस्पेरिक ऍसिड**: यामध्ये फॉस्फरस असतो, जो मुळांच्या विकासासाठी आणि फुलांच्या उत्पादनासाठी आवश्यक आहे. फॉस्फरस वनस्पतींच्या ऊर्जा उत्पादनात आणि पोषणात महत्त्वाची भूमिका बजावतो.\n\nया दोन्ही घटकांचा वापर केल्याने शेवग्याच्या पिकाची वाढ आणि उत्पादन क्षमता वाढवता येते.",
+        "en": "The legume crop needs to release ammonium sulfate and phosphoric acid because:\n\n1. **Ammonium sulfate**: It contains nitrogen, which is important for plant growth. Nitrogen helps in root development, leaf growth, and overall crop yield.\n\n2. Phosphoric Acid**: It contains phosphorus, which is essential for the development of roots and the production of flowers. Phosphorus plays an important role in the energy production and nutrition of plants.\n\nThe use of both these factors can increase the growth and yield capacity of the legume crop.",
+        "timestamp": {
+          "$date": "2025-07-17T08:29:52.329Z"
+        }
+      }
+    ],
+    "farmer_id": "shakurhajilalpathan",
+    "farmer_plot_ids": [
+      "shevga1"
+    ],
+    "conversation_id": "6878b4792ca5d42e03d9e7ea",
+    "_id": "6878b4792ca5d42e03d9e7ea",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-17T08:34:45.434000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-07-17T08:29:45.429000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "??<user uploaded image for analysis at 'plotno3crimson457/2025-07-17-1752733966337.jpg'>",
+        "en": "?? <user uploaded image for analysis at 'plotno3crimson457/2025-07-17-1752733966337.jpg'>",
+        "timestamp": {
+          "$date": "2025-07-17T06:32:54.404Z"
+        },
+        "standalone_question": "What does the uploaded image depict?",
+        "standalone_en": "What does the uploaded image depict?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The image you provided does not clearly show the grape plants; it appears to be a digital interface instead. For an accurate analysis of the crop's health, please upload a clearer image that focuses on the grape plants, especially any visible symptoms or issues.",
+        "en": "The image you provided does not clearly show the grape plants; it appears to be a digital interface instead. For an accurate analysis of the crop's health, please upload a clearer image that focuses on the grape plants, especially any visible symptoms or issues.",
+        "timestamp": {
+          "$date": "2025-07-17T06:33:11.425Z"
+        }
+      }
+    ],
+    "farmer_id": "tarungaikwad",
+    "farmer_plot_ids": [
+      "plotno2sudhakar273",
+      "plotno3crimson457"
+    ],
+    "conversation_id": "687899141c8a8a5bbd222506",
+    "_id": "687899141c8a8a5bbd222506",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-07-17T06:37:56.970000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-07-17T06:32:54.404000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "सलफुरिक एसिड सोडून दिले तर मुळिला चालू होईल का व काडि पिकण्यास मदत होते का",
+        "en": "Will the release of salfuric acid turn on the radish and help the buds to ripen?",
+        "timestamp": {
+          "$date": "2025-07-17T05:17:15.636Z"
+        },
+        "standalone_question": "Will the plant thrive if sulfuric acid is provided, and does it help in the growth of the crop?",
+        "standalone_en": "Will the plant thrive if sulfuric acid is provided, and does it help in the growth of the crop?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "sulfuric acid sodun dile tar mulila chalu hoil ka v kadi pikanyas madat hote ka"
+      },
+      {
+        "role": "assistant",
+        "content": "सल्फ्यूरिक आम्ल (Sulfuric Acid) वापरणे मुळांच्या विकासासाठी आणि काढणीसाठी उपयुक्त असू शकते, परंतु याचा वापर अत्यंत काळजीपूर्वक करावा लागतो. हे पिकांच्या मुळांना नुकसान करू शकते आणि त्यामुळे पिकांची वाढ थांबू शकते. \n\nकाढणीसाठी मदत करण्यासाठी, योग्य पोषण, पाण्याचे व्यवस्थापन, आणि कीटक व रोग नियंत्रण यावर लक्ष केंद्रित करणे अधिक प्रभावी ठरते. \n\nजर तुम्हाला विशेषतः तुमच्या पिकांसाठी काही उपाययोजना हवी असतील, तर कृपया अधिक माहिती द्या.",
+        "en": "Using sulfuric acid can be useful for the development and harvesting of roots, but it has to be used with utmost care. It can damage the roots of crops and thus stop the growth of crops. \n\nTo help with harvesting, focusing on proper nutrition, water management, and pest and disease control is more effective. \n\nIf you need some measures, especially for your crops, please provide more information.",
+        "timestamp": {
+          "$date": "2025-07-17T05:17:20.242Z"
+        }
+      }
+    ],
+    "farmer_id": "pankajsadashivkhandave",
+    "farmer_plot_ids": [
+      "plotnoonessn",
+      "plotnotwocrimson",
+      "sudhakar156",
+      "sudhakar2101"
+    ],
+    "conversation_id": "6878875b4b27a479c2e185c8",
+    "_id": "6878875b4b27a479c2e185c8",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-17T05:22:15.639000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-07-17T05:17:15.636000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "सलफुरिक एसिड सोडून दिले तर मुळिला चालू होईल का व काडि पिकण्यास मदत होईल का द्राक्षाचि",
+        "en": "If salfuric acid is discarded, will the radish start and help the grape grow?",
+        "timestamp": {
+          "$date": "2025-07-17T05:17:09.076Z"
+        },
+        "standalone_question": "Will providing sulfuric acid help the roots to grow and assist in the grapevine's development?",
+        "standalone_en": "Will providing sulfuric acid help the roots to grow and assist in the grapevine's development?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "sulfuric acid sodun dile tar mulila chalu hoil ka v kadi pikanyas madat hoil ka draksachi"
+      },
+      {
+        "role": "assistant",
+        "content": "सल्फ्यूरिक अॅसिडचा वापर द्राक्षांच्या मुळांवर थेट प्रभाव टाकू शकतो, परंतु याचा वापर अत्यंत काळजीपूर्वक करावा लागतो. हे पिकांच्या वाढीसाठी उपयुक्त असू शकते, परंतु अति प्रमाणात वापरल्यास मुळांना हानी पोहोचवू शकते. \n\nद्राक्षांच्या काढणीसाठी, योग्य पोषण, पाण्याचे व्यवस्थापन, आणि रोग नियंत्रण यावर लक्ष केंद्रित करणे अधिक महत्त्वाचे आहे. सल्फ्यूरिक अॅसिडचा वापर करण्यापूर्वी, स्थानिक कृषी तज्ञांचा सल्ला घेणे चांगले राहील. \n\nतुमच्या द्राक्षांच्या पिकाच्या स्थितीवर आधारित योग्य उपाययोजना करणे आवश्यक आहे.",
+        "en": "The use of sulfuric acid can have a direct effect on the roots of grapes, but it has to be used with extreme care. It can be useful for crop growth, but can damage the roots if used in excess. \n\nFor grape harvesting, it is more important to focus on proper nutrition, water management, and disease control. Before using sulfuric acid, it is best to consult a local agricultural expert. \n\nIt is important to take appropriate measures based on the condition of your grape crop.",
+        "timestamp": {
+          "$date": "2025-07-17T05:17:18.993Z"
+        }
+      }
+    ],
+    "farmer_id": "pankajsadashivkhandave",
+    "farmer_plot_ids": [
+      "plotnoonessn",
+      "plotnotwocrimson",
+      "sudhakar156",
+      "sudhakar2101"
+    ],
+    "conversation_id": "687887544b27a479c2e185c7",
+    "_id": "687887544b27a479c2e185c7",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-07-17T05:22:09.086000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-07-17T05:17:09.076000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "tell me yesterday's rainfall for all the division except Nero make it all and table format and add average also",
+        "en": "tell me yesterday's rainfall for all the division except Nero make it all and table format and add average also",
+        "timestamp": {
+          "$date": "2025-07-17T02:43:46.461Z"
+        },
+        "standalone_question": "What was yesterday's rainfall for all divisions except Nero, presented in a table format with the average included?",
+        "standalone_en": "What was yesterday's rainfall for all divisions except Nero, presented in a table format with the average included?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here is the rainfall data for all divisions except Nero for yesterday (July 16, 2025):\n\n| Plot Name               | Rainfall (mm) |\n|------------------------|----------------|\n| Srock Attamala         | 97             |\n| Srock Chooralmala Kairo| 88             |\n| Srock Mundakkai Kairo  | 114            |\n| Srock Puthumala        | 108            |\n| **Average**            | **101.75**     |\n\nIf you need any further assistance, feel free to ask!",
+        "en": "Here is the rainfall data for all divisions except Nero for yesterday (July 16, 2025):\n\n| Plot Name               | Rainfall (mm) |\n|------------------------|----------------|\n| Srock Attamala         | 97             |\n| Srock Chooralmala Kairo| 88             |\n| Srock Mundakkai Kairo  | 114            |\n| Srock Puthumala        | 108            |\n| **Average**            | **101.75**     |\n\nIf you need any further assistance, feel free to ask!",
+        "timestamp": {
+          "$date": "2025-07-17T02:43:58.494Z"
+        }
+      }
+    ],
+    "farmer_id": "allenenoshmani",
+    "farmer_plot_ids": [
+      "attamaladivision",
+      "chooralmaladivision",
+      "chooralmalanerodivision",
+      "mundakainerodivision",
+      "mundakkaidivision",
+      "puthumaladivision"
+    ],
+    "conversation_id": "68786361f3f3eb80dda62510",
+    "_id": "68786361f3f3eb80dda62510",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-07-17T02:48:46.465000Z"
+    },
+    "tag": "historical data",
+    "conv_date": "2025-07-17T02:43:46.461000+00:00"
+  }
+]

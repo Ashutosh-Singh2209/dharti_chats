@@ -1,0 +1,930 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "जमीन नीचे तापमान जास्त आहे पाणी द्यावे लागेल का",
+        "en": "The ground temperature is high, do you have to give water?",
+        "timestamp": {
+          "$date": "2025-04-02T16:51:43.678Z"
+        },
+        "standalone_question": "Should water be given since the temperature is higher underground?",
+        "standalone_en": "Should water be given since the temperature is higher underground?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "jamin niche tapaman jast aahe pani dyave lagel ka"
+      },
+      {
+        "role": "assistant",
+        "content": "जमीन खालील तापमान जास्त असल्यास, पाण्याची गरज असू शकते, परंतु यासाठी मातीतील आर्द्रता देखील महत्त्वाची आहे. जर मातीची आर्द्रता 0-5 kPa दरम्यान असेल, तर ती ओलसर आहे आणि पाणी देण्याची आवश्यकता नाही. \n\nआपण पाण्याची आवश्यकता आहे का हे तपासण्यासाठी, मी आर्द्रता अंदाजित करण्यासाठी माहिती मिळवतो. कृपया थोडा वेळ थांबा.",
+        "en": "If the ground temperature is high, water may be needed, but soil moisture is also important for this. If the soil moisture is between 0-5 kPa, it is moist and does not need to be watered. \n\nTo check if you need water, I get the information to estimate the humidity. Please wait a while.",
+        "timestamp": {
+          "$date": "2025-04-02T16:51:47.407Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पाणि सेन्सस काम करत नाही म्हणून विचारतो ",
+        "en": "Pani asks senses why it doesn't work ",
+        "timestamp": {
+          "$date": "2025-04-02T16:52:53.845Z"
+        },
+        "standalone_question": "Is the water sensor not functioning properly?",
+        "standalone_en": "Is the water sensor not functioning properly?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: I irrigated still the sensor is showing dry.\nA: Ask user when he irrigated. It usually takes 12 hours to reach the water till sensor. If the sensor is not dropping even after 12 hours, it can be due to one of the following reasons :\nWater is not reaching properly till the sensor , this can be due to drip blocked , or slope in the land or dripper outlets far away from the sensor. Ask user to check if drip is fine and  dripper is within the range of sensor. \nThe sensor can be very old , more than two years , in this case , the sensor might be malfunction, ask user if he wants to raise a ticket",
+            "Q: What should I do if the soil moisture sensor always shows dry values?\nA: Check if irrigation water is reaching the sensor, verify sensor connection, and ensure the sensor is not damaged.",
+            "Q: I irrigated still the sensor is dropping slowly.\nA: Sometimes, the water reaches slowly till root zone and the moisture sensor kPa value drops slowly. Always wait for 12 hours after irrigation for the moisture to saturate. If still some confusion, ask user to check moisture near the sensor and check if he wants to raise a ticket for the issue.",
+            "Q: How do I know if my soil  moisture sensor is working fine ?\nA: The only way to know is if after irrigation the sensor is dropping below 5 kpa and increasing continuously unless next irrigation is done. You can try putting water on the sensor and it should drop. Also, there should not be any fluctuations in the soil moisture data and the pressure kpa should always be increasing. Also, a soil moisture reading of 0 kPa is perfectly fine, meaning wet soil, but a reading of 200 kPa could mean fault. If the soil moisture sensor reading is consistently at 0 from few 48 hours, then it could be anamolous (use live and historical hourly soil moisture data (use tool) to validate).",
+            "Q: Sensor is showing dry, but it rained recently.\nA: Rainwater doesn't percolate well in the soil. Most of it runs off. After a day of rain stops , if the sensor is still dry, you will have to irrigate. You can check the moisture by digging near the sensor . Irrigate accordingly."
+          ]
+        },
+        "content_transliterated": "pani census calm karat nahi mhanun vicharato "
+      },
+      {
+        "role": "assistant",
+        "content": "जर पाण्याचा सेन्सर काम करत नसेल, तर काही गोष्टी तपासणे आवश्यक आहे:\n\n1. **संपर्क तपासा**: सेन्सरचा संपर्क चांगला आहे का ते तपासा. कधी कधी कनेक्शन सैल होऊ शकते.\n2. **ड्रिप सिस्टीम तपासा**: पाण्याचा प्रवाह सेन्सरपर्यंत पोहचत आहे का ते तपासा. ड्रिप ब्लॉक झालेले असू शकते किंवा सेन्सरच्या जवळ ड्रिपर नसल्यास पाणी पोहचत नाही.\n3. **सेन्सरची वयोमर्यादा**: सेन्सर दोन वर्षांपेक्षा जुना असल्यास, तो खराब होऊ शकतो. \n\nआपण हे सर्व तपासल्यानंतरही समस्या कायम राहिल्यास, आपण तिकीट उघडू इच्छिता का?",
+        "en": "If the water sensor isn't working, there are a few things that need to be checked:\n\n1. **Check contact**: Check if the contact with the sensor is good. Sometimes the connection can loosen.\n2. **Check the drip system**: Check if the flow of water is reaching the sensor. The drip may be blocked or water may not reach if the driper is not near the sensor.\n3. **Age limit of sensor**: If the sensor is more than two years old, it may deteriorate. \n\nIf the problem persists even after you've checked it all out, do you want to open the ticket?",
+        "timestamp": {
+          "$date": "2025-04-02T16:52:59.321Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "पाच दीवस झाले सेन्सर काम करत नाही ",
+        "en": "It's been five days since the sensor hasn't worked. ",
+        "timestamp": {
+          "$date": "2025-04-02T16:54:11.488Z"
+        },
+        "standalone_question": "Has the sensor not been working for five days?",
+        "standalone_en": "Has the sensor not been working for five days?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "pach divas jhale sensor calm karat nahi "
+      },
+      {
+        "role": "assistant",
+        "content": "जर सेन्सर पाच दिवसांपासून काम करत नसेल, तर काही गोष्टी तपासणे आवश्यक आहे:\n\n1. **सेन्सर कनेक्शन**: सेन्सरचा संपर्क चांगला आहे का ते तपासा. कधी कधी कनेक्शन सैल होऊ शकते.\n2. **डिव्हाइस रीस्टार्ट करा**: डिव्हाइस रीस्टार्ट करून पहा, कधी कधी हे डेटा अपडेट करण्यास मदत करू शकते.\n3. **सेन्सरची वयोमर्यादा**: सेन्सर दोन वर्षांपेक्षा जुना असल्यास, तो खराब होऊ शकतो.\n\nआपण हे सर्व तपासल्यानंतरही समस्या कायम राहिल्यास, आपण तिकीट उघडू इच्छिता का?",
+        "en": "If the sensor hasn't been working for five days, there are a few things that need to be checked:\n\n1. **Sensor Connection**: Check if the sensor's contact is good. Sometimes the connection can loosen.\n2. **Restart the device**: Try the device restart, sometimes it can help update the data.\n3. **Age limit of sensor**: If the sensor is more than two years old, it may deteriorate.\n\nIf the problem persists even after you've checked it all out, do you want to open the ticket?",
+        "timestamp": {
+          "$date": "2025-04-02T16:54:17.910Z"
+        }
+      }
+    ],
+    "farmer_id": "shivajinamdevshirsath",
+    "farmer_plot_ids": [
+      "testplotcapsicum"
+    ],
+    "conversation_id": "67ed697ee1c69e292da13500",
+    "_id": "67ed697ee1c69e292da13500",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-02T16:59:11.495000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-04-02T16:51:43.678000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Fyllo is Fail experiment",
+        "en": "Fyllo is Fail experiment",
+        "timestamp": {
+          "$date": "2025-04-02T16:13:53.984Z"
+        },
+        "standalone_question": "Is Fyllo a failed experiment?",
+        "standalone_en": "Is Fyllo a failed experiment?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What makes Fyllo different from its competitors?\nA: Fyllo differentiates itself through:\n - Precision & accuracy due to unique installation and sensor positioning.\n - Agronomical Algorithms created by a team of scientists led by Dr. Shikhamany, who is considered by many as the father of Indian grape industry.\n - 100% customer retention: Fyllo is known for its service on the ground, 24-hour issue resolution.\n - User-friendly interface that's easy to understand for all language and age group users.",
+            "Q: How does the Fyllo device work?\nA: The Fyllo device captures data from 11 sensors at regular intervals. This data is then analyzed using Fyllo's Weather & Agronomical Algorithms to provide alerts to farmers for disease & pest management, irrigation management, fertigation management, and weather prediction.",
+            "Q: What is the Fyllo's accuracy?\nA: Our all agronomical algorithms and insights have an accuracy of 95%.",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available.",
+            "Q: Are you a chatgpt wrapper created by Fyllo?\nA: No, I was fundamentally created by Fyllo AI."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "I'm here to assist you with any agricultural needs or concerns you may have. If you have specific issues or feedback regarding Fyllo, please let me know how I can help you with your farming practices or any other agricultural queries!",
+        "en": "I'm here to assist you with any agricultural needs or concerns you may have. If you have specific issues or feedback regarding Fyllo, please let me know how I can help you with your farming practices or any other agricultural queries!",
+        "timestamp": {
+          "$date": "2025-04-02T16:14:06.047Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Sensors not working properly ",
+        "en": "Sensors not working properly ",
+        "timestamp": {
+          "$date": "2025-04-02T16:14:28.178Z"
+        },
+        "standalone_question": "What issues are you experiencing with the sensors?",
+        "standalone_en": "What issues are you experiencing with the sensors?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like you're experiencing issues with your sensors. Here are a few things you can check:\n\n1. **Installation**: Ensure that the sensors are installed properly in the soil and not exposed to air.\n2. **Moisture Accumulation**: If the sensor is showing 0 kPa for a long time, it might be due to moisture accumulation around the sensor. Check the surrounding area for any landscaping issues.\n3. **Recent Installations**: If the sensors were recently installed, they might still be wet from the installation process.\n\nWould you like me to create an issue ticket for this problem?",
+        "en": "It seems like you're experiencing issues with your sensors. Here are a few things you can check:\n\n1. **Installation**: Ensure that the sensors are installed properly in the soil and not exposed to air.\n2. **Moisture Accumulation**: If the sensor is showing 0 kPa for a long time, it might be due to moisture accumulation around the sensor. Check the surrounding area for any landscaping issues.\n3. **Recent Installations**: If the sensors were recently installed, they might still be wet from the installation process.\n\nWould you like me to create an issue ticket for this problem?",
+        "timestamp": {
+          "$date": "2025-04-02T16:14:38.081Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Waste of time and money ",
+        "en": "Waste of time and money ",
+        "timestamp": {
+          "$date": "2025-04-02T16:15:21.099Z"
+        },
+        "standalone_question": "Is this experience with the sensors a waste of time and money for you?",
+        "standalone_en": "Is this experience with the sensors a waste of time and money for you?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "I understand your frustration, and I'm here to help you resolve any issues you're facing with your farming practices. If you have specific concerns or problems, please share them, and I'll do my best to assist you effectively. Your success is important, and I'm here to support you!",
+        "en": "I understand your frustration, and I'm here to help you resolve any issues you're facing with your farming practices. If you have specific concerns or problems, please share them, and I'll do my best to assist you effectively. Your success is important, and I'm here to support you!",
+        "timestamp": {
+          "$date": "2025-04-02T16:15:27.839Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Arrange me call back",
+        "en": "Arrange me call back",
+        "timestamp": {
+          "$date": "2025-04-02T16:15:51.174Z"
+        },
+        "standalone_question": "Could you arrange a callback for me?",
+        "standalone_en": "Could you arrange a callback for me?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To arrange a callback, please reach out to the support team through the app or contact customer service directly. They will be able to assist you with scheduling a callback at your convenience. If there's anything else I can help you with regarding your farming practices, please let me know!",
+        "en": "To arrange a callback, please reach out to the support team through the app or contact customer service directly. They will be able to assist you with scheduling a callback at your convenience. If there's anything else I can help you with regarding your farming practices, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-02T16:15:56.022Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "No answer",
+        "en": "No answer",
+        "timestamp": {
+          "$date": "2025-04-02T16:16:15.174Z"
+        },
+        "standalone_question": "Why haven't I received a response?",
+        "standalone_en": "Why haven't I received a response?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here's the current status of your plot and sensors:\n\n### Irrigation Installation Settings for Plot No 1:\n- **Root Width**: 50 inches\n- **Root Depth**: 15 inches\n- **Soil Retention**: 180 mm\n- **Dripper Distance**: 1.25 mm\n- **Dripper Discharge**: 4 liters\n\n### Live Sensor Data:\n- **Soil Temperature**: 28°C\n- **Soil Moisture 1**: 98% (very wet)\n- **Soil Moisture 2**: 31%\n- **Battery Status**: 91%\n- **Solar Voltage**: 42V\n\n### Daily Weather Forecast:\n- **April 2**: Min 22°C, Max 35.2°C, Rainfall 1.0mm\n- **April 3**: Min 21.6°C, Max 35.9°C, No Rain\n- **April 4**: Min 21.5°C, Max 37°C, No Rain\n- **April 5**: Min 23.1°C, Max 38°C, No Rain\n- **April 6**: Min 23.1°C, Max 39°C, No Rain\n- **April 7**: Min 23.6°C, Max 38.8°C, No Rain\n- **April 8**: Min 24.5°C, Max 38.5°C, No Rain\n- **April 9**: Min 24.4°C, Max 38.8°C, No Rain\n- **April 10**: Min 24.4°C, Max 38.6°C, No Rain\n- **April 11**: Min 24.7°C, Max 36.2°C, No Rain\n- **April 12**: Min 22.1°C, Max 35.8°C, No Rain\n- **April 13**: Min 19.5°C, Max 33.4°C, No Rain\n- **April 14**: Min 19.2°C, Max 32°C, No Rain\n\n### Summary:\n- Your sensors are currently active and sending data properly.\n- The soil moisture levels indicate that the first sensor is very wet, while the second sensor is at a moderate level.\n- The weather forecast shows no significant rainfall expected in the coming days.\n\nIf you have any specific actions you would like to take or further questions, please let me know!",
+        "en": "Here's the current status of your plot and sensors:\n\n### Irrigation Installation Settings for Plot No 1:\n- **Root Width**: 50 inches\n- **Root Depth**: 15 inches\n- **Soil Retention**: 180 mm\n- **Dripper Distance**: 1.25 mm\n- **Dripper Discharge**: 4 liters\n\n### Live Sensor Data:\n- **Soil Temperature**: 28°C\n- **Soil Moisture 1**: 98% (very wet)\n- **Soil Moisture 2**: 31%\n- **Battery Status**: 91%\n- **Solar Voltage**: 42V\n\n### Daily Weather Forecast:\n- **April 2**: Min 22°C, Max 35.2°C, Rainfall 1.0mm\n- **April 3**: Min 21.6°C, Max 35.9°C, No Rain\n- **April 4**: Min 21.5°C, Max 37°C, No Rain\n- **April 5**: Min 23.1°C, Max 38°C, No Rain\n- **April 6**: Min 23.1°C, Max 39°C, No Rain\n- **April 7**: Min 23.6°C, Max 38.8°C, No Rain\n- **April 8**: Min 24.5°C, Max 38.5°C, No Rain\n- **April 9**: Min 24.4°C, Max 38.8°C, No Rain\n- **April 10**: Min 24.4°C, Max 38.6°C, No Rain\n- **April 11**: Min 24.7°C, Max 36.2°C, No Rain\n- **April 12**: Min 22.1°C, Max 35.8°C, No Rain\n- **April 13**: Min 19.5°C, Max 33.4°C, No Rain\n- **April 14**: Min 19.2°C, Max 32°C, No Rain\n\n### Summary:\n- Your sensors are currently active and sending data properly.\n- The soil moisture levels indicate that the first sensor is very wet, while the second sensor is at a moderate level.\n- The weather forecast shows no significant rainfall expected in the coming days.\n\nIf you have any specific actions you would like to take or further questions, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-02T16:16:28.801Z"
+        }
+      }
+    ],
+    "farmer_id": "kiranugalmugale",
+    "farmer_plot_ids": [
+      "plotno1509"
+    ],
+    "conversation_id": "67ed6241b6efc88f802b237e",
+    "_id": "67ed6241b6efc88f802b237e",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-04-02T16:21:15.185000Z"
+    },
+    "tag": "complaints",
+    "conv_date": "2025-04-02T16:13:53.984000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पेरे ला ब फेकत आहे काय केले पाहीजे",
+        "en": "Pere is throwing B what should be done",
+        "timestamp": {
+          "$date": "2025-04-02T15:46:46.452Z"
+        },
+        "standalone_question": "What should I do if someone is throwing something at me?",
+        "standalone_en": "What should I do if someone is throwing something at me?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या अंगणात पेरलेले द्राक्षांचे झाडे \"RECUT\" अवस्थेत आहेत. या अवस्थेत, झाडांना योग्य काळजी घेणे महत्त्वाचे आहे. \n\n1. **पाण्याची गरज**: झाडांना पाण्याची आवश्यकता आहे का ते तपासा. जर माती कोरडी असेल तर पाणी द्या.\n2. **खते**: योग्य खते वापरा. \"RECUT\" अवस्थेत, झाडांना नायट्रोजन आणि फॉस्फरस आवश्यक आहे.\n3. **किडे आणि रोग**: झाडांची तपासणी करा. कोणतेही किडे किंवा रोग दिसल्यास, योग्य कीटकनाशकांचा वापर करा.\n4. **कापणी**: झाडांच्या वाढीवर लक्ष ठेवा आणि आवश्यकतेनुसार कापणी करा.\n\nआपल्याला अधिक माहिती हवी असल्यास, कृपया सांगा!",
+        "en": "Grape trees sown in your yard are in the \"RECUT\" stage. In this situation, it is important to take proper care of the trees. \n\n1. **Water needs**: Check if trees need water. If the soil is dry, water it.\n2. **Fertilizers**: Use the right fertilizers. In the RECUT stage, plants need nitrogen and phosphorus.\n3. **Pests and diseases**: Examine the trees. If any insects or diseases appear, use appropriate pesticides.\n4. **Harvest**: Monitor the growth of trees and harvest as needed.\n\nIf you need more information, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-02T15:46:52.940Z"
+        }
+      }
+    ],
+    "farmer_id": "ravindradumbare",
+    "farmer_plot_ids": [
+      "plot1alison",
+      "plotno2thompson266",
+      "plotno3thompson353"
+    ],
+    "conversation_id": "67ed5be603fef4b49beb9cdc",
+    "_id": "67ed5be603fef4b49beb9cdc",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-02T15:51:46.463000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-02T15:46:46.452000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Manikchaman plant divas chalu kara",
+        "en": "Manikchaman Plant Divyas Salu Kara",
+        "timestamp": {
+          "$date": "2025-04-02T14:17:57.456Z"
+        },
+        "standalone_question": "\"Can you start the Manikchaman plant day?\"",
+        "standalone_en": "\"Can you start the Manikchaman plant day?\"",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Manikchaman plot वर सध्या \"Break Bud\" या अवस्थेत आहात, जी आजपासून सुरू झाली आहे. तुम्ही या अवस्थेवर योग्यरित्या अद्ययावत आहात. \n\nतुमच्या पुढील अवस्थांमध्ये \"Cane thinning\" आणि \"Topping\" यांचा समावेश आहे. तुम्ही या अवस्थेवर लक्ष ठेवा.",
+        "en": "You are currently in the \"Break Bud\" phase on the Manikchaman plot, which starts today. You are properly up to date on this stage. \n\nYour next steps include \"Cane thinning\" and \"topping.\" You keep an eye on this condition.",
+        "timestamp": {
+          "$date": "2025-04-02T14:18:04.969Z"
+        }
+      }
+    ],
+    "farmer_id": "rahulzari",
+    "farmer_plot_ids": [
+      "bandupawarplot",
+      "zarimamaplot",
+      "manikchaman104",
+      "rkplot374",
+      "ssnplot550",
+      "thompson122"
+    ],
+    "conversation_id": "67ed4714b6efc88f802b237d",
+    "_id": "67ed4714b6efc88f802b237d",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-02T14:22:57.468000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-02T14:17:57.456000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Buri roga Sathi upay Yojana",
+        "en": "Buri Roga Saathi Remedy Scheme",
+        "timestamp": {
+          "$date": "2025-04-02T14:00:32.447Z"
+        },
+        "standalone_question": "What is the Buri Roga Sathi Upay Yojana?",
+        "standalone_en": "What Is The Bad Disease Partner Remedy Plan?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "\"बुरी रोग\" म्हणजेच पिकांमध्ये होणारे रोग. यासाठी काही उपाययोजना आहेत:\n\n1. **सुरुवातीला रोगांचे निरीक्षण करा**: पिकांच्या आरंभिक अवस्थेतच रोगांचे लक्षणे ओळखा.\n\n2. **सुरक्षित वाणांची निवड**: रोग प्रतिकारक वाणांची निवड करा.\n\n3. **सुरक्षित कीटकनाशकांचा वापर**: कीटकनाशकांचा वापर करताना योग्य प्रमाणात आणि योग्य वेळेत वापरा.\n\n4. **पिकांची योग्य काळजी**: पिकांना योग्य प्रमाणात पाणी, खत, आणि प्रकाश मिळवून द्या.\n\n5. **साफसफाई**: शेतातील अवशेष आणि रोगग्रस्त पिके काढून टाका.\n\n6. **पिकांची फेरपालट**: रोगांचा प्रादुर्भाव कमी करण्यासाठी पिकांची फेरपालट करा.\n\n7. **सल्ला घ्या**: स्थानिक कृषी तज्ञांचा सल्ला घ्या.\n\nआपल्याला विशिष्ट रोगाबद्दल अधिक माहिती हवी असल्यास, कृपया सांगा.",
+        "en": "\"Bad disease\" means diseases in crops. Here are some solutions:\n\n1. **Observe the diseases at the beginning**: Identify the symptoms of the diseases in the early stages of the crops.\n\n2. **Selection of safe varieties**: Choose disease resistant varieties.\n\n3. **Use of safe pesticides**: Use pesticides in the right quantity and at the right time.\n\n4. **Proper care of crops**: Provide the crops with the right amount of water, fertilizer, and light.\n\n5. **Cleanup**: Remove farm residue and diseased crops.\n\n6. **Rotation of crops**: Rotate crops to reduce the incidence of diseases.\n\n7. **Seek advice**: Consult local agricultural experts.\n\nIf you would like more information about a specific disease, please let me know.",
+        "timestamp": {
+          "$date": "2025-04-02T14:00:43.596Z"
+        }
+      }
+    ],
+    "farmer_id": "purushottambhalerao",
+    "farmer_plot_ids": [
+      "plotno1thompson587",
+      "plotno2sudhakar516"
+    ],
+    "conversation_id": "67ed43000a378ce009abdd8d",
+    "_id": "67ed43000a378ce009abdd8d",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-02T14:05:32.457000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-02T14:00:32.447000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "સ્ટેજ દિવસ અને સીઝન દીવસ માં સુ ફેર",
+        "en": "Su faire in stage day and season day",
+        "timestamp": {
+          "$date": "2025-04-02T13:33:28.945Z"
+        },
+        "standalone_question": "What is the difference between stage days and season days?",
+        "standalone_en": "What is the difference between stage days and season days?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "stage divas ane season divas man su fair"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પાક \"ગ્રાઉન્ડનટ\" માટે, અહીં સ્ટેજ દિવસ અને સીઝન દિવસોની માહિતી છે:\n\n1. **TARAK (કાઈરો)**\n   - **સ્ટેજ દિવસ**: 18 દિવસ (15 માર્ચ 2025 થી 2 એપ્રિલ 2025)\n   - **સીઝન દિવસ**: 23 દિવસ (10 માર્ચ 2025 થી 2 એપ્રિલ 2025)\n\n2. **SHESH PLOT (નેરો ઇનફિનિટી યુનિટ)**\n   - **સ્ટેજ દિવસ**: 8 દિવસ (25 માર્ચ 2025 થી 2 એપ્રિલ 2025)\n   - **સીઝન દિવસ**: 23 દિવસ (10 માર્ચ 2025 થી 2 એપ્રિલ 2025)\n\nજો તમને વધુ માહિતી જોઈએ તો જણાવશો!",
+        "en": "For your crop \"groundnut\", here's information on stage days and season days:\n\n1. **TARAK (Cairo)**\n   **Stage Day**: 18 days (15 March 2025 to 2 April 2025)\n   **Season Day**: 23 days (10 March 2025 to 2 April 2025)\n\n2. **SHESH PLOT (Narrow Infinity Unit)**\n   **Stage Day**: 8 days (25 March 2025 to 2 April 2025)\n   **Season Day**: 23 days (10 March 2025 to 2 April 2025)\n\nLet me know if you need more information!",
+        "timestamp": {
+          "$date": "2025-04-02T13:33:37.316Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140",
+      "sheshpalot"
+    ],
+    "conversation_id": "67ed3ca803fef4b49beb9cdb",
+    "_id": "67ed3ca803fef4b49beb9cdb",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-02T13:38:28.954000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-02T13:33:28.945000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "ગળો એફડી એ શુ સમજાવે છે",
+        "en": "What the throat FD explains",
+        "timestamp": {
+          "$date": "2025-04-02T08:12:15.307Z"
+        },
+        "standalone_question": "What does \"ગળો એફડી\" mean?",
+        "standalone_en": "What does \"ગળો એફડી\" mean?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "galo fd a shoe samjave che"
+      },
+      {
+        "role": "assistant",
+        "content": "ગળો એફડી (Growing Degree Days - GDD) એ એક માપ છે જે પાકના વિકાસને અનુસરે છે. આ માપનો ઉપયોગ પાકના વિકાસના તબક્કાઓને અનુમાનવા માટે થાય છે, જેમ કે ક્યારે પાક ફૂલો લાવે છે અથવા ક્યારે પાકની કાપણી કરવી જોઈએ. GDD એ તાપમાનના આધારે ગણવામાં આવે છે, જેમાં દિવસના તાપમાનને એક ચોક્કસ મર્યાદા સાથે સરખાવવામાં આવે છે. \n\nઆ માપ ખેડૂતોને તેમના પાકના વિકાસને વધુ સારી રીતે સમજવા અને યોગ્ય સમય પર કૃષિ પ્રવૃત્તિઓ કરવા માટે મદદ કરે છે.",
+        "en": "Growing Degree Days ( GDD ) is a measure that follows the development of the crop. This measure is used to estimate the stages of crop development, such as when the crop brings flowers or when the crop should be harvested. GDD is calculated on the basis of temperature, in which the daytime temperature is compared with a certain limit. \n\nThis measure helps farmers to better understand the development of their crops and carry out agricultural activities at the right time.",
+        "timestamp": {
+          "$date": "2025-04-02T08:12:23.755Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "જમીનનુ તાપમાન કેટલુ હોવુ જોઈએ",
+        "en": "What should be the temperature of the ground",
+        "timestamp": {
+          "$date": "2025-04-02T08:14:05.655Z"
+        },
+        "standalone_question": "What should the temperature of the soil be?",
+        "standalone_en": "What should the temperature of the soil be?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What should I do if the soil temperature sensor is not working?\nA: Check the sensor connection, tighten it if loose, and restart the device to check updated data."
+          ]
+        },
+        "content_transliterated": "jaminanu tapaman ketlu hovu joie"
+      },
+      {
+        "role": "assistant",
+        "content": "જમીનનું તાપમાન પાકના પ્રકાર અને વિકાસના તબક્કા પર આધાર રાખે છે. સામાન્ય રીતે, વિવિધ પાકો માટે આ તાપમાનની શ્રેણી નીચે મુજબ છે:\n\n1. **શાકભાજી (Vegetables):** 15°C થી 25°C (59°F થી 77°F)\n2. **ફળો (Fruits):** 20°C થી 30°C (68°F થી 86°F)\n3. **ધાન (Rice):** 20°C થી 35°C (68°F થી 95°F)\n4. **ગોળ (Sugarcane):** 25°C થી 30°C (77°F થી 86°F)\n5. **મકાઈ (Maize):** 20°C થી 30°C (68°F થી 86°F)\n\nજમીનનું તાપમાન વધુ હોય તો પાકના વિકાસમાં ઝડપ આવે છે, પરંતુ વધુ તાપમાનથી પાકને નુકસાન પણ થઈ શકે છે. તેથી, પાકના પ્રકાર અને તબક્કા અનુસાર યોગ્ય તાપમાન જાળવવું મહત્વપૂર્ણ છે.",
+        "en": "The temperature of the soil depends on the type of crop and the stage of development. In general, these temperature ranges for different crops are as follows:\n\n1. **Vegetables :** 15°C to 25°C (59°F to 77°F)\n2. **Fruits) :** 20°C to 30°C (68°F to 86°F)\n3. **Rice :** 20°C to 35°C (68°F to 95°F)\n4. **Sugarcane :** 25°C to 30°C (77°F to 86°F)\n5. **Maize :** 20°C to 30°C (68°F to 86°F)\n\nIf the temperature of the soil is high, the development of the crop accelerates, but the high temperature can also damage the crop. Therefore, it is important to maintain the right temperature according to the type and stage of the crop.",
+        "timestamp": {
+          "$date": "2025-04-02T08:14:13.836Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "હાલમા મારા ખેતરમા જમીનનુ તાપમાન કેટલુ છે",
+        "en": "What is the temperature of the land in my farm at present?",
+        "timestamp": {
+          "$date": "2025-04-02T08:15:16.243Z"
+        },
+        "standalone_question": "What is the current soil temperature in my field?",
+        "standalone_en": "What is the current soil temperature in my field?",
+        "retrieval": {
+          "tools": [
+            "get_soil_moisture_sensor_depth  \nReturns the depths in inches of the soil moisture sensors 1 and 2 installed on the plots."
+          ],
+          "faq": [
+            "Q: What should I do if the soil temperature sensor is not working?\nA: Check the sensor connection, tighten it if loose, and restart the device to check updated data."
+          ]
+        },
+        "content_transliterated": "halma mara khetarama jaminanu tapaman ketlu che"
+      },
+      {
+        "role": "assistant",
+        "content": "હાલમાં તમારા \"Aba valo plot\" ખેતરમાં જમીનનું તાપમાન 37.81°C છે.",
+        "en": "The ground temperature in your \"Aba valo plot\" farm is currently 37.81°C.",
+        "timestamp": {
+          "$date": "2025-04-02T08:15:22.627Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મગફળી માટે કેટલુ તાપમાન હોવુ જોઈએ",
+        "en": "What should be the temperature for peanuts",
+        "timestamp": {
+          "$date": "2025-04-02T08:16:11.538Z"
+        },
+        "standalone_question": "What is the ideal temperature for growing peanuts?",
+        "standalone_en": "What is the ideal temperature for growing peanuts?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "magaphali mate ketlu tapaman hovu joie"
+      },
+      {
+        "role": "assistant",
+        "content": "મગફળી માટે આદર્શ તાપમાન 25°C થી 30°C (77°F થી 86°F) વચ્ચે હોવું જોઈએ. આ તાપમાન મગફળીના વિકાસ અને ફૂલો લાવવાની પ્રક્રિયાને પ્રોત્સાહિત કરે છે.",
+        "en": "The ideal temperature for peanuts should be between 25°C and 30°C (77°F to 86°F). This temperature promotes the growth of peanuts and the process of bringing flowers.",
+        "timestamp": {
+          "$date": "2025-04-02T08:16:15.401Z"
+        }
+      }
+    ],
+    "farmer_id": "tejabhaihemabhaipatel",
+    "farmer_plot_ids": [
+      "abavaloplot"
+    ],
+    "conversation_id": "67ecf15eace366c0aa0484a0",
+    "_id": "67ecf15eace366c0aa0484a0",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-02T08:21:11.546000Z"
+    },
+    "tag": "historical data",
+    "conv_date": "2025-04-02T08:12:15.307000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "हे काय झालेला आहे कसली कमतरता आहे का<user uploaded image for analysis at 'plotno1crimsun669/2025-04-02-1743578169808.jpg'>",
+        "en": "Is there a lack of what has happened<user uploaded image for analysis at 'plotno1crimsun669/2025-04-02-1743578169808.jpg'>",
+        "timestamp": {
+          "$date": "2025-04-02T07:16:28.138Z"
+        },
+        "standalone_question": "What is happening? Is there any deficiency?",
+        "standalone_en": "What is happening? Is there any deficiency?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "he kay jhalela aahe kasali kamatarata aahe ka<user uploaded image for analysis at 'plotno1crimsun669/2025-04-02-1743578169808.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या द्राक्षांच्या पानांमध्ये पिवळसरपणा दिसत आहे, ज्यामुळे काही कमतरता किंवा रोगाची शक्यता आहे. पानांच्या काठावरचा पिवळा रंग खालील कारणांमुळे असू शकतो:\n\n1. **पोषणाची कमतरता**: सामान्यतः नायट्रोजन किंवा मॅग्नेशियमची कमतरता.\n2. **कीटकांचा प्रादुर्भाव**: पानांच्या आरोग्यावर परिणाम करणाऱ्या कीटकांची शक्यता.\n\nतुमच्या द्राक्षांच्या वनस्पतीच्या अवस्थेसाठी कोणतीही विशिष्ट स्प्रे शिफारस सापडली नाही, त्यामुळे मी खालील सामान्य उपाय सुचवतो:\n\n- **पोषण व्यवस्थापन**: संभाव्य पोषणाची कमतरता दूर करण्यासाठी संतुलित खत लागू करण्याचा विचार करा.\n- **कीटक निरीक्षण**: नियमितपणे कीटकांची तपासणी करा आणि आवश्यक असल्यास सेंद्रिय किंवा रासायनिक कीटक नियंत्रण पद्धती वापरण्याचा विचार करा.\n\nअधिक अचूक निदान आणि उपचारांसाठी, कृपया प्रभावित क्षेत्रांवर लक्ष केंद्रित केलेली स्पष्ट प्रतिमा प्रदान करा. चांगल्या छायाचित्रांमध्ये जवळून आणि चांगल्या फोकससह असावे.",
+        "en": "The leaves of your grapes are showing yellowing, which may lead to some deficiency or disease. The yellow color on the edge of the leaves may be due to the following reasons:\n\n1. **Nutritional deficiencies**: Generally nitrogen or magnesium deficiency.\n2. **Insect infestation**: The possibility of insects affecting leaf health.\n\nI haven't found any specific spray recommendation for your grape plant condition, so I suggest the following general remedies:\n\n* Nutrition management**: Consider applying balanced fertilizer to address potential nutritional deficiencies.\n**Insect monitoring**: Check insects regularly and consider using organic or chemical pest control methods if necessary.\n\nFor a more accurate diagnosis and treatment, please provide a clear image focusing on the affected areas. Good photos should have closeness and with good focus.",
+        "timestamp": {
+          "$date": "2025-04-02T07:16:48.966Z"
+        }
+      }
+    ],
+    "farmer_id": "atultajanpure",
+    "farmer_plot_ids": [
+      "plotno1crimsun669"
+    ],
+    "conversation_id": "67ece44b0a378ce009abdd8c",
+    "_id": "67ece44b0a378ce009abdd8c",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-02T07:21:28.146000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-02T07:16:28.138000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "ग्राफ्टिंग शेड्युल ",
+        "en": "Grafting Schedule ",
+        "timestamp": {
+          "$date": "2025-04-02T06:01:59.686Z"
+        },
+        "standalone_question": "What is the grafting schedule?",
+        "standalone_en": "What is the grafting schedule?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "grafting schedule "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या \"Plot No.2 (Thompson/Sudhakar)\" साठी ग्राफ्टिंग शेड्युल खालीलप्रमाणे आहे:\n\n### सध्याचा ग्राफ्टिंग टप्पा: \n**Foundation Pruning**  \n- **सुरुवात तारीख:** 2 एप्रिल 2025  \n- **सध्याचा आठवडा:** 1  \n\n#### सध्याचा आठवडा (1):\n- **फर्टिलायझर वापर:**\n  - **Farmyard Manure:** 5000 किग्रॅ/एकर\n  - **Magnesium Sulphate:** 10 किग्रॅ/एकर\n  - **Elemental Sulphur:** 78 किग्रॅ/एकर\n  - **10-26-26:** 40.5 किग्रॅ/एकर\n  - **Calcium nitrate:** 23 किग्रॅ/एकर\n  - **Single Superphosphate:** 59 किग्रॅ/एकर\n\n#### पुढील ग्राफ्टिंग शेड्युल (आठवडा 2):\n- **सुरुवात तारीख:** 30 एप्रिल 2025  \n- **फर्टिलायझर वापर:**\n  - **12-61-0:** 5 किग्रॅ/एकर\n  - **Calcium nitrate:** 19 किग्रॅ/एकर\n  - **Phosphoric acid 80%:** 4.5 किग्रॅ/एकर (इतर फर्टिलायझरच्या 15-20 मिनिटे आधी लागू करावे)\n  - **Calcium nitrate:** 23 किग्रॅ/एकर (इतर फर्टिलायझरच्या 15-20 मिनिटे नंतर लागू करावे)\n\n### पुढील टप्पा:\n**Break Bud**\n\nआपल्याला आणखी काही माहिती हवी असल्यास, कृपया सांगा!",
+        "en": "The grafting schedule for your \"Plot No.2 (Thompson/Sudhakar)\" is as follows:\n\n### Current grafting phase: \n**Foundation Pruning**  \n- **Start date:** April 2, 2025  \n- **Current Week:** 1  \n\n#### Current Week (1):\n- **Fertilizer use:**\n  - **Farmyard Manure:** 5000 kg/acre\n  - **Magnesium Sulphate:** 10 kg/acre\n  - **Elemental Sulphur:** 78 kg/acre\n  - **10-26-26:** 40.5 kg/acre\n  - **Calcium nitrate:** 23 kg/acre\n  - **Single Superphosphate:** 59 kg/acre\n\n#### Next Grafting Schedule (Week 2):\n- **Start date:** April 30, 2025  \n- **Fertilizer use:**\n  - **12-61-0:** 5 kg/acre\n  - **Calcium nitrate:** 19 kg/acre\n  * Phosphoric acid 80% :** 4.5 kg/acre (apply 15-20 minutes before other fertilizers)\n  - **Calcium nitrate:** 23 kg/acre (apply 15-20 minutes after other fertilizers)\n\n### Next step:\n**Break Bud**\n\nIf you need any more information, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-02T06:02:15.780Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "क्रिमसन  ग्राफ्टिंग चे शेड्युल ओलांडा बनवण्यासाठी स्प्रे आणि खते ",
+        "en": "Sprays and fertilizers to make crimson grafting schedule crosses ",
+        "timestamp": {
+          "$date": "2025-04-02T06:03:04.869Z"
+        },
+        "standalone_question": "What is the schedule for grafting Crimson for the purpose of making Olanda, including the sprays and fertilizers used?",
+        "standalone_en": "What is the schedule for grafting Crimson for the purpose of making Olanda, including the sprays and fertilizers used?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "crimson grafting che schedule olanda banavanyasathi spray ani khate "
+      },
+      {
+        "role": "assistant",
+        "content": "### क्रिमसन ग्राफ्टिंग शेड्युल (ओलांडा बनवण्यासाठी)\n\n#### सध्याचा टप्पा: **Foundation Pruning**\n- **सुरुवात तारीख:** 2 एप्रिल 2025\n- **सध्याचा आठवडा:** 1\n\n#### फर्टिलायझर वापर (आठवडा 1):\n1. **Farmyard Manure:** 5000 किग्रॅ/एकर\n2. **Magnesium Sulphate:** 10 किग्रॅ/एकर\n3. **Elemental Sulphur:** 78 किग्रॅ/एकर\n4. **10-26-26:** 40.5 किग्रॅ/एकर\n5. **Calcium nitrate:** 23 किग्रॅ/एकर\n6. **Single Superphosphate:** 59 किग्रॅ/एकर\n\n#### पुढील फर्टिलायझर शेड्युल (आठवडा 2):\n- **सुरुवात तारीख:** 30 एप्रिल 2025\n- **फर्टिलायझर वापर:**\n  1. **12-61-0:** 5 किग्रॅ/एकर\n  2. **Calcium nitrate:** 19 किग्रॅ/एकर\n  3. **Phosphoric acid 80%:** 4.5 किग्रॅ/एकर (इतर फर्टिलायझरच्या 15-20 मिनिटे आधी लागू करावे)\n  4. **Calcium nitrate:** 23 किग्रॅ/एकर (इतर फर्टिलायझरच्या 15-20 मिनिटे नंतर लागू करावे)\n\n### स्प्रे शेड्युल:\nसध्या कोणतीही रोग किंवा कीड नियंत्रणासाठी स्प्रे शेड्युल उपलब्ध नाही. त्यामुळे, सध्या स्प्रेची आवश्यकता नाही.\n\nआपल्याला आणखी काही माहिती हवी असल्यास, कृपया सांगा!",
+        "en": "### Crimson Grafting Schedule (to make crosses)\n\n#### Current Stage: **Foundation Pruning**\n- **Start date:** April 2, 2025\n- **Current Week:** 1\n\n#### Fertilizer Use (Week 1):\n1. **Farmyard Manure:** 5000 kg/acre\n2. **Magnesium Sulphate:** 10 kg/acre\n3. **Elemental Sulphur:** 78 kg/acre\n4. **10-26-26:** 40.5 kg/acre\n5. **Calcium nitrate:** 23 kg/acre\n6. **Single Superphosphate:** 59 kg/acre\n\n#### Next Fertilizer Schedule (Week 2):\n- **Start date:** April 30, 2025\n- **Fertilizer use:**\n  1. **12-61-0:** 5 kg/acre\n  2. **Calcium nitrate:** 19 kg/acre\n  3. *Phosphoric acid 80% :** 4.5 kg/acre (apply 15-20 minutes before other fertilizers)\n  4. **Calcium nitrate:** 23 kg/acre (apply 15-20 minutes after other fertilizers)\n\n### Spray Schedule:\nThere is currently no spray schedule available for disease or pest control. Therefore, there is no need for spray at the moment.\n\nIf you need any more information, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-02T06:03:19.669Z"
+        }
+      }
+    ],
+    "farmer_id": "amolbhaushethanwat",
+    "farmer_plot_ids": [
+      "plotno2thompsonsudhakar"
+    ],
+    "conversation_id": "67ecd2d7504262d8d085a0f0",
+    "_id": "67ecd2d7504262d8d085a0f0",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-02T06:08:04.877000Z"
+    },
+    "tag": "disease_pest-spray",
+    "conv_date": "2025-04-02T06:01:59.686000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "ग्राफ्टिंग शेड्युल ",
+        "en": "Grafting Schedule ",
+        "timestamp": {
+          "$date": "2025-04-02T06:01:59.686Z"
+        },
+        "standalone_question": "What is the grafting schedule?",
+        "standalone_en": "What is the grafting schedule?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "grafting schedule "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या \"Plot No.2 (Thompson/Sudhakar)\" साठी ग्राफ्टिंग शेड्युल खालीलप्रमाणे आहे:\n\n### सध्याचा ग्राफ्टिंग टप्पा: \n**Foundation Pruning**  \n- **सुरुवात तारीख:** 2 एप्रिल 2025  \n- **सध्याचा आठवडा:** 1  \n\n#### सध्याचा आठवडा (1):\n- **फर्टिलायझर वापर:**\n  - **Farmyard Manure:** 5000 किग्रॅ/एकर\n  - **Magnesium Sulphate:** 10 किग्रॅ/एकर\n  - **Elemental Sulphur:** 78 किग्रॅ/एकर\n  - **10-26-26:** 40.5 किग्रॅ/एकर\n  - **Calcium nitrate:** 23 किग्रॅ/एकर\n  - **Single Superphosphate:** 59 किग्रॅ/एकर\n\n#### पुढील ग्राफ्टिंग शेड्युल (आठवडा 2):\n- **सुरुवात तारीख:** 30 एप्रिल 2025  \n- **फर्टिलायझर वापर:**\n  - **12-61-0:** 5 किग्रॅ/एकर\n  - **Calcium nitrate:** 19 किग्रॅ/एकर\n  - **Phosphoric acid 80%:** 4.5 किग्रॅ/एकर (इतर फर्टिलायझरच्या 15-20 मिनिटे आधी लागू करावे)\n  - **Calcium nitrate:** 23 किग्रॅ/एकर (इतर फर्टिलायझरच्या 15-20 मिनिटे नंतर लागू करावे)\n\n### पुढील टप्पा:\n**Break Bud**\n\nआपल्याला आणखी काही माहिती हवी असल्यास, कृपया सांगा!",
+        "en": "The grafting schedule for your \"Plot No.2 (Thompson/Sudhakar)\" is as follows:\n\n### Current grafting phase: \n**Foundation Pruning**  \n- **Start date:** April 2, 2025  \n- **Current Week:** 1  \n\n#### Current Week (1):\n- **Fertilizer use:**\n  - **Farmyard Manure:** 5000 kg/acre\n  - **Magnesium Sulphate:** 10 kg/acre\n  - **Elemental Sulphur:** 78 kg/acre\n  - **10-26-26:** 40.5 kg/acre\n  - **Calcium nitrate:** 23 kg/acre\n  - **Single Superphosphate:** 59 kg/acre\n\n#### Next Grafting Schedule (Week 2):\n- **Start date:** April 30, 2025  \n- **Fertilizer use:**\n  - **12-61-0:** 5 kg/acre\n  - **Calcium nitrate:** 19 kg/acre\n  * Phosphoric acid 80% :** 4.5 kg/acre (apply 15-20 minutes before other fertilizers)\n  - **Calcium nitrate:** 23 kg/acre (apply 15-20 minutes after other fertilizers)\n\n### Next step:\n**Break Bud**\n\nIf you need any more information, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-02T06:02:15.780Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "क्रिमसन  ग्राफ्टिंग चे शेड्युल ओलांडा बनवण्यासाठी स्प्रे आणि खते ",
+        "en": "Sprays and fertilizers to make crimson grafting schedule crosses ",
+        "timestamp": {
+          "$date": "2025-04-02T06:03:04.869Z"
+        },
+        "standalone_question": "What is the schedule for spraying and fertilization for Crimson grafting to create an Olanda?",
+        "standalone_en": "What is the schedule for spraying and fertilization for Crimson grafting to create an Olanda?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "crimson grafting che schedule olanda banavanyasathi spray ani khate "
+      },
+      {
+        "role": "assistant",
+        "content": "### क्रिमसन ग्राफ्टिंग शेड्युल (ओलांडा बनवण्यासाठी)\n\n#### सध्याचा टप्पा: **Foundation Pruning**\n- **सुरुवात तारीख:** 2 एप्रिल 2025\n- **सध्याचा आठवडा:** 1\n\n#### फर्टिलायझर वापर (आठवडा 1):\n1. **Farmyard Manure:** 5000 किग्रॅ/एकर\n2. **Magnesium Sulphate:** 10 किग्रॅ/एकर\n3. **Elemental Sulphur:** 78 किग्रॅ/एकर\n4. **10-26-26:** 40.5 किग्रॅ/एकर\n5. **Calcium nitrate:** 23 किग्रॅ/एकर\n6. **Single Superphosphate:** 59 किग्रॅ/एकर\n\n#### पुढील फर्टिलायझर शेड्युल (आठवडा 2):\n- **सुरुवात तारीख:** 30 एप्रिल 2025\n- **फर्टिलायझर वापर:**\n  1. **12-61-0:** 5 किग्रॅ/एकर\n  2. **Calcium nitrate:** 19 किग्रॅ/एकर\n  3. **Phosphoric acid 80%:** 4.5 किग्रॅ/एकर (इतर फर्टिलायझरच्या 15-20 मिनिटे आधी लागू करावे)\n  4. **Calcium nitrate:** 23 किग्रॅ/एकर (इतर फर्टिलायझरच्या 15-20 मिनिटे नंतर लागू करावे)\n\n### स्प्रे शेड्युल:\nसध्या कोणतीही रोग किंवा कीड नियंत्रणासाठी स्प्रे शेड्युल उपलब्ध नाही. त्यामुळे, सध्या स्प्रेची आवश्यकता नाही.\n\nआपल्याला आणखी काही माहिती हवी असल्यास, कृपया सांगा!",
+        "en": "### Crimson Grafting Schedule (to make crosses)\n\n#### Current Stage: **Foundation Pruning**\n- **Start date:** April 2, 2025\n- **Current Week:** 1\n\n#### Fertilizer Use (Week 1):\n1. **Farmyard Manure:** 5000 kg/acre\n2. **Magnesium Sulphate:** 10 kg/acre\n3. **Elemental Sulphur:** 78 kg/acre\n4. **10-26-26:** 40.5 kg/acre\n5. **Calcium nitrate:** 23 kg/acre\n6. **Single Superphosphate:** 59 kg/acre\n\n#### Next Fertilizer Schedule (Week 2):\n- **Start date:** April 30, 2025\n- **Fertilizer use:**\n  1. **12-61-0:** 5 kg/acre\n  2. **Calcium nitrate:** 19 kg/acre\n  3. *Phosphoric acid 80% :** 4.5 kg/acre (apply 15-20 minutes before other fertilizers)\n  4. **Calcium nitrate:** 23 kg/acre (apply 15-20 minutes after other fertilizers)\n\n### Spray Schedule:\nThere is currently no spray schedule available for disease or pest control. Therefore, there is no need for spray at the moment.\n\nIf you need any more information, please let me know!",
+        "timestamp": {
+          "$date": "2025-04-02T06:03:19.669Z"
+        }
+      }
+    ],
+    "farmer_id": "amolbhaushethanwat",
+    "farmer_plot_ids": [
+      "plotno2thompsonsudhakar"
+    ],
+    "conversation_id": "67ecd2d7504262d8d085a0f0",
+    "_id": "67ecd2d7504262d8d085a0f0",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-02T06:08:04.877000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-02T06:01:59.686000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં ખાતર ની જરૂર ક્યારે પડશે ",
+        "en": "When will my farm need fertilizer? ",
+        "timestamp": {
+          "$date": "2025-04-02T04:45:18.248Z"
+        },
+        "standalone_question": "When will my field need fertilizer?",
+        "standalone_en": "When will my field need fertilizer?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate.",
+            "Q: If I don't add any test data, what is the basis for the generated fertigation schedule?\nA: When no specific test data is provided, Fyllo generates a basic fertigation schedule based on:\n\n    1. Typical nutrient needs for your crop type\n    2. General soil characteristics common in your region\n    3. Standard growing practices for your area\n    This schedule provides a starting point, but may not be as precise as one based on specific test data."
+          ]
+        },
+        "content_transliterated": "mara khetaraman khatar knee jarur kyare padse "
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં, \"Ghar valo plot\" પર મસ્કમેલોનની વર્તમાન સ્થિતિ \"Vegetative growth\" છે, જે 3મી સપ્તાહમાં છે. \n\n### હાલની ખાતર જરૂરિયાત:\n1. **ફોલિયર પદ્ધતિ** (આજે):\n   - **મંગનેઝ સલ્ફેટ**: 400 gm/એકર\n   - **ઝિંક સલ્ફેટ**: 600 gm/એકર\n   - **ફેરસ સલ્ફેટ**: 500 gm/એકર\n\n2. **ફર્ટિગેશન પદ્ધતિ**:\n   - **મેગ્નેશિયમ સલ્ફેટ**: 3 kg/એકર\n   - **એમોનિયમ સલ્ફેટ**: 6.5 kg/એકર\n   - (ફોસ્ફોરિક એસિડ 15-20 મિનિટ પહેલા લાગુ કરવું)\n\n### આગામી ખાતર જરૂરિયાત:\n- **ફૂલ અને ફળના વિકાસ** માટે 1મી સપ્તાહમાં (11 એપ્રિલ 2025):\n   - **ફોલિયર પદ્ધતિ**: **સોલુબોર**: 500 gm/એકર\n   - **ફર્ટિગેશન પદ્ધતિ**: \n     - **પોટેશિયમ નાઇટ્રેટ**: 1 kg/એકર\n     - **યુરિયા**: 2.5 kg/એકર\n\nઆ માહિતી અનુસાર, ખાતર આપવાની જરૂરિયાતો અને સમયસૂચીનું પાલન કરવું મહત્વપૂર્ણ છે.",
+        "en": "On your farm, Muskmelon's current position on the \"Ghar valo plot\" is \"Vegetative growth\", which is in the 3rd week. \n\n### Current fertilizer requirement:\n1. **Foliar method** (today):\n   * **Manganese sulfate**: 400 gm/acre\n   **Zinc sulfate**: 600 gm/acre\n   **Ferrous sulfate**: 500 gm/acre\n\n2. **Fertigation Method**:\n   * **Magnesium sulfate**: 3 kg/acre\n   **Ammonium sulfate**: 6.5 kg/acre\n   (Applying phosphoric acid 15-20 minutes in advance)\n\n### Next fertilizer requirement:\n* **Flower and fruit growth** in 1st week (11 April 2025):\n   - **Foliar method**: **Solubor**: 500 gm/acre\n   - **Fertigation method**: \n     * **Potassium Nitrate**: 1 kg/acre\n     * **urea**: 2.5 kg/acre\n\nAccording to this information, it is important to adhere to fertilizer requirements and schedule.",
+        "timestamp": {
+          "$date": "2025-04-02T04:45:29.956Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ક્યું ખાતર આપુ",
+        "en": "For what sake apu",
+        "timestamp": {
+          "$date": "2025-04-02T04:46:28.130Z"
+        },
+        "standalone_question": "What type of fertilizer should I apply?",
+        "standalone_en": "What type of fertilizer should I apply?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "kyun khatar apu"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા \"Ghar valo plot\" પર મસ્કમેલોન માટે, હાલની ખાતર જરૂરિયાતો નીચે મુજબ છે:\n\n### હાલની ખાતર જરૂરિયાત (3મી સપ્તાહ - Vegetative Growth):\n1. **ફોલિયર પદ્ધતિ**:\n   - **મંગનેઝ સલ્ફેટ**: 400 gm/એકર\n   - **ઝિંક સલ્ફેટ**: 600 gm/એકર\n   - **ફેરસ સલ્ફેટ**: 500 gm/એકર\n\n   અથવા\n\n   - **Chelated manganese**: 300 gm/એકર\n   - **ઝિંક સલ્ફેટ**: 600 gm/એકર\n   - **ફેરસ સલ્ફેટ**: 500 gm/એકર\n\n2. **ફર્ટિગેશન પદ્ધતિ**:\n   - **મેગ્નેશિયમ સલ્ફેટ**: 3 kg/એકર\n   - **એમોનિયમ સલ્ફેટ**: 6.5 kg/એકર\n\n### આગામી ખાતર જરૂરિયાત (Flowering and Fruiting - 1મી સપ્તાહ):\n- **ફોલિયર પદ્ધતિ**:\n   - **સોલુબોર**: 500 gm/એકર\n\n- **ફર્ટિગેશન પદ્ધતિ**:\n   - **પોટેશિયમ નાઇટ્રેટ**: 1 kg/એકર\n   - **યુરિયા**: 2.5 kg/એકર\n\nઆ માહિતી અનુસાર, ખાતર આપવાની જરૂરિયાતોનું પાલન કરવું મહત્વપૂર્ણ છે.",
+        "en": "For the muskmelon on your \"Ghar valo plot\", the current fertilizer requirements are as follows:\n\n### Current fertilizer requirement (3rd week - Vegetative Growth):\n1. **Foliar method**:\n   * **Manganese sulfate**: 400 gm/acre\n   **Zinc sulfate**: 600 gm/acre\n   **Ferrous sulfate**: 500 gm/acre\n\nor\n\n**Chelated manganese**: 300 gm/acre\n   **Zinc sulfate**: 600 gm/acre\n   **Ferrous sulfate**: 500 gm/acre\n\n2. **Fertigation Method**:\n   * **Magnesium sulfate**: 3 kg/acre\n   **Ammonium sulfate**: 6.5 kg/acre\n\n### Next fertilizer requirement (Flowering and Fruiting - 1st week):\n- **Foliar method**:\n   * **Solubor**: 500 gm/acre\n\n- **Fertigation method**:\n   * **Potassium Nitrate**: 1 kg/acre\n   * **urea**: 2.5 kg/acre\n\nAccording to this information, it is important to comply with fertilizer requirements.",
+        "timestamp": {
+          "$date": "2025-04-02T04:46:38.391Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "દવા ની જરૂર ખરી",
+        "en": "The need for medication is real",
+        "timestamp": {
+          "$date": "2025-04-02T04:48:13.182Z"
+        },
+        "standalone_question": "Is there a need for medication?",
+        "standalone_en": "Is there a need for medication?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "deva knee jarur khari"
+      },
+      {
+        "role": "assistant",
+        "content": "આજે અને ગઈકાલે માટે કોઈ દવા અથવા સ્પ્રેની જરૂર નથી. તમારા \"Ghar valo plot\" પર મસ્કમેલોન માટે હાલ કોઈ રોગ અથવા પેસ્ટની સમસ્યા નોંધાઈ નથી.",
+        "en": "No medicine or spray is needed for today and tomorrow. No disease or pest problems for muskmelon are currently reported on your \"Ghar valo plot\".",
+        "timestamp": {
+          "$date": "2025-04-02T04:48:17.586Z"
+        }
+      }
+    ],
+    "farmer_id": "bhaveshbhaisomajisolanki",
+    "farmer_plot_ids": [
+      "gharvaloplot405"
+    ],
+    "conversation_id": "67ecc0de5fdb55ffaa00c468",
+    "_id": "67ecc0de5fdb55ffaa00c468",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-02T04:53:13.200000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-04-02T04:45:18.248000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મારા ખેતરમાં ખાતર ની જરૂર ક્યારે પડશે ",
+        "en": "When will my farm need fertilizer? ",
+        "timestamp": {
+          "$date": "2025-04-02T04:45:18.248Z"
+        },
+        "standalone_question": "When will my field need fertilizer?",
+        "standalone_en": "When will my field need fertilizer?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise.",
+            "Q: Why should I water my crop?\nA: Watering your crop is essential to maintain the right moisture balance for healthy growth. Fyllo provides soil monitoring sensors that can provide irrigation precise requirement forecasting. The forecast will also provide the details for why and when you should irrigate.",
+            "Q: If I don't add any test data, what is the basis for the generated fertigation schedule?\nA: When no specific test data is provided, Fyllo generates a basic fertigation schedule based on:\n\n    1. Typical nutrient needs for your crop type\n    2. General soil characteristics common in your region\n    3. Standard growing practices for your area\n    This schedule provides a starting point, but may not be as precise as one based on specific test data."
+          ]
+        },
+        "content_transliterated": "mara khetaraman khatar knee jarur kyare padse "
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા ખેતરમાં, \"Ghar valo plot\" પર મસ્કમેલોનની વર્તમાન સ્થિતિ \"Vegetative growth\" છે, જે 3મી સપ્તાહમાં છે. \n\n### હાલની ખાતર જરૂરિયાત:\n1. **ફોલિયર પદ્ધતિ** (આજે):\n   - **મંગનેઝ સલ્ફેટ**: 400 gm/એકર\n   - **ઝિંક સલ્ફેટ**: 600 gm/એકર\n   - **ફેરસ સલ્ફેટ**: 500 gm/એકર\n\n2. **ફર્ટિગેશન પદ્ધતિ**:\n   - **મેગ્નેશિયમ સલ્ફેટ**: 3 kg/એકર\n   - **એમોનિયમ સલ્ફેટ**: 6.5 kg/એકર\n   - (ફોસ્ફોરિક એસિડ 15-20 મિનિટ પહેલા લાગુ કરવું)\n\n### આગામી ખાતર જરૂરિયાત:\n- **ફૂલ અને ફળના વિકાસ** માટે 1મી સપ્તાહમાં (11 એપ્રિલ 2025):\n   - **ફોલિયર પદ્ધતિ**: **સોલુબોર**: 500 gm/એકર\n   - **ફર્ટિગેશન પદ્ધતિ**: \n     - **પોટેશિયમ નાઇટ્રેટ**: 1 kg/એકર\n     - **યુરિયા**: 2.5 kg/એકર\n\nઆ માહિતી અનુસાર, ખાતર આપવાની જરૂરિયાતો અને સમયસૂચીનું પાલન કરવું મહત્વપૂર્ણ છે.",
+        "en": "On your farm, Muskmelon's current position on the \"Ghar valo plot\" is \"Vegetative growth\", which is in the 3rd week. \n\n### Current fertilizer requirement:\n1. **Foliar method** (today):\n   * **Manganese sulfate**: 400 gm/acre\n   **Zinc sulfate**: 600 gm/acre\n   **Ferrous sulfate**: 500 gm/acre\n\n2. **Fertigation Method**:\n   * **Magnesium sulfate**: 3 kg/acre\n   **Ammonium sulfate**: 6.5 kg/acre\n   (Applying phosphoric acid 15-20 minutes in advance)\n\n### Next fertilizer requirement:\n* **Flower and fruit growth** in 1st week (11 April 2025):\n   - **Foliar method**: **Solubor**: 500 gm/acre\n   - **Fertigation method**: \n     * **Potassium Nitrate**: 1 kg/acre\n     * **urea**: 2.5 kg/acre\n\nAccording to this information, it is important to adhere to fertilizer requirements and schedule.",
+        "timestamp": {
+          "$date": "2025-04-02T04:45:29.956Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ક્યું ખાતર આપુ",
+        "en": "For what sake apu",
+        "timestamp": {
+          "$date": "2025-04-02T04:46:28.130Z"
+        },
+        "standalone_question": "What type of fertilizer should I apply?",
+        "standalone_en": "What type of fertilizer should I apply?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: What are mixed fertilizers (NPK)?\nA: NPK fertilizers are represented by a three-number sequence, such as 10-10-10, indicating the percentage by weight of each nutrient. For example, 10-10-10 means the fertilizer contains 10% Nitrogen, 10% Phosphorus, and 10% Potassium elements in the chemical mixture. Some examples are below:\n0-40-37, 0-40-40, 0-49-32, 0-52-34 (Mono potassium phosphate), 0-55-18, 0-60-20, 0-9-46, 10-26-26, 10-54-10, 11-44-11, 12-11-18, 12-32-16, 12-61-0, 13-0-45 (Potassium Nitrate), 13-40-13, 19-19-19, 20-20-0-13 (Ammonium Phosphate Sulphate), 24-24-0, 30-10-10, 6-34-17\nOr 0:40:37, 0:40:40, 0:49:32, 0:52:34 (Mono potassium phosphate), 0:55:18, 0:60:20, 0:9:46, 10:26:26, 10:54:10, 11:44:11, 12:11:18, 12:32:16, 12:61:0, 13:0:45 (Potassium Nitrate), 13:40:13, 19:19:19, 20:20:0:13 (Ammonium Phosphate Sulphate), 24:24:0, 30:10:10, 6:34:17\nOr 0.40.37, 0.40.40, 0.49.32, 0.52.34 (Mono potassium phosphate), 0.55.18, 0.60.20, 0.9.46, 10.26.26, 10.54.10, 11.44.11, 12.11.18, 12.32.16, 12.61.0, 13.0.45 (Potassium Nitrate), 13.40.13, 19.19.19, 20.20.0.13 (Ammonium Phosphate Sulphate), 24.24.0, 30.10.10, 6.34.17",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "kyun khatar apu"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા \"Ghar valo plot\" પર મસ્કમેલોન માટે, હાલની ખાતર જરૂરિયાતો નીચે મુજબ છે:\n\n### હાલની ખાતર જરૂરિયાત (3મી સપ્તાહ - Vegetative Growth):\n1. **ફોલિયર પદ્ધતિ**:\n   - **મંગનેઝ સલ્ફેટ**: 400 gm/એકર\n   - **ઝિંક સલ્ફેટ**: 600 gm/એકર\n   - **ફેરસ સલ્ફેટ**: 500 gm/એકર\n\n   અથવા\n\n   - **Chelated manganese**: 300 gm/એકર\n   - **ઝિંક સલ્ફેટ**: 600 gm/એકર\n   - **ફેરસ સલ્ફેટ**: 500 gm/એકર\n\n2. **ફર્ટિગેશન પદ્ધતિ**:\n   - **મેગ્નેશિયમ સલ્ફેટ**: 3 kg/એકર\n   - **એમોનિયમ સલ્ફેટ**: 6.5 kg/એકર\n\n### આગામી ખાતર જરૂરિયાત (Flowering and Fruiting - 1મી સપ્તાહ):\n- **ફોલિયર પદ્ધતિ**:\n   - **સોલુબોર**: 500 gm/એકર\n\n- **ફર્ટિગેશન પદ્ધતિ**:\n   - **પોટેશિયમ નાઇટ્રેટ**: 1 kg/એકર\n   - **યુરિયા**: 2.5 kg/એકર\n\nઆ માહિતી અનુસાર, ખાતર આપવાની જરૂરિયાતોનું પાલન કરવું મહત્વપૂર્ણ છે.",
+        "en": "For the muskmelon on your \"Ghar valo plot\", the current fertilizer requirements are as follows:\n\n### Current fertilizer requirement (3rd week - Vegetative Growth):\n1. **Foliar method**:\n   * **Manganese sulfate**: 400 gm/acre\n   **Zinc sulfate**: 600 gm/acre\n   **Ferrous sulfate**: 500 gm/acre\n\nor\n\n**Chelated manganese**: 300 gm/acre\n   **Zinc sulfate**: 600 gm/acre\n   **Ferrous sulfate**: 500 gm/acre\n\n2. **Fertigation Method**:\n   * **Magnesium sulfate**: 3 kg/acre\n   **Ammonium sulfate**: 6.5 kg/acre\n\n### Next fertilizer requirement (Flowering and Fruiting - 1st week):\n- **Foliar method**:\n   * **Solubor**: 500 gm/acre\n\n- **Fertigation method**:\n   * **Potassium Nitrate**: 1 kg/acre\n   * **urea**: 2.5 kg/acre\n\nAccording to this information, it is important to comply with fertilizer requirements.",
+        "timestamp": {
+          "$date": "2025-04-02T04:46:38.391Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "દવા ની જરૂર ખરી",
+        "en": "The need for medication is real",
+        "timestamp": {
+          "$date": "2025-04-02T04:48:13.182Z"
+        },
+        "standalone_question": "Is there a need for medication?",
+        "standalone_en": "Is there a need for medication?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "deva knee jarur khari"
+      },
+      {
+        "role": "assistant",
+        "content": "આજે અને ગઈકાલે માટે કોઈ દવા અથવા સ્પ્રેની જરૂર નથી. તમારા \"Ghar valo plot\" પર મસ્કમેલોન માટે હાલ કોઈ રોગ અથવા પેસ્ટની સમસ્યા નોંધાઈ નથી.",
+        "en": "No medicine or spray is needed for today and tomorrow. No disease or pest problems for muskmelon are currently reported on your \"Ghar valo plot\".",
+        "timestamp": {
+          "$date": "2025-04-02T04:48:17.586Z"
+        }
+      }
+    ],
+    "farmer_id": "bhaveshbhaisomajisolanki",
+    "farmer_plot_ids": [
+      "gharvaloplot405"
+    ],
+    "conversation_id": "67ecc0de5fdb55ffaa00c468",
+    "_id": "67ecc0de5fdb55ffaa00c468",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-02T04:53:13.200000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-02T04:45:18.248000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Aa shu cche <user uploaded image for analysis at 'panchalvalopalot/2025-04-02-1743564835221.jpg'>",
+        "en": "Aa shu cche <user uploaded image for analysis at 'panchalvalopalot/2025-04-02-1743564835221.jpg'>",
+        "timestamp": {
+          "$date": "2025-04-02T03:34:02.661Z"
+        },
+        "standalone_question": "What does the image uploaded by the user depict?",
+        "standalone_en": "What does the image uploaded by the user depict?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aa chhavi ni vishe vishleshan pramane, tamara podao ma aphids ni bhari bhari sankhya chhe. Aa keedh ne sambhalva mate, aa sujhav chhe:\n\n### Spray Recommendation:\n- **Peela Sticky Trap Lagavvo**: Pratyek acre ma 25 thi 30 traps lagavva.\n\n### Additional Recommendations:\n- Podao ne niyamit rite jovo, biji koi keedh ni sakriyata na dekhaay.\n- Jo sankhya vadhe, to insecticidal soap ya neem oil no upyog karva par vichar karo.\n\nAa kadam upar lewa thi tamara crop ni sehat ma sudhar aavshe. Koi biji madad joiye to puchva ma jhijhijao!",
+        "en": "According to the analysis about this image, there is a full number of aphids in your pods. To listen to this key, here's the suggestion:\n\n### Spray Reclamandation:\n* **Apply yellow sticky traps**: Apply 25 to 30 traps in each ACRE.\n\n### Additional Recommendations:\n- Look at the pods regularly, do not show any other activity.\n- If the number increases, consider using insectididal soap or neem oil.\n\nTaking this step up will improve the health of your crop. Ask if you need any other help!",
+        "timestamp": {
+          "$date": "2025-04-02T03:34:51.997Z"
+        }
+      }
+    ],
+    "farmer_id": "vasantbhaigovajidevda",
+    "farmer_plot_ids": [
+      "panchalvalopalot"
+    ],
+    "conversation_id": "67ecb02a3188f5d2239734b9",
+    "_id": "67ecb02a3188f5d2239734b9",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-04-02T03:39:02.668000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-04-02T03:34:02.661000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "खुला झाला कि लगेच छाटणी करायचे आहे तरी खते काय द्यावे",
+        "en": "If you want to prune immediately when it is opened, what should the fertilizer be given?",
+        "timestamp": {
+          "$date": "2025-04-02T00:15:50.311Z"
+        },
+        "standalone_question": "What fertilizers should be given for immediate pruning once it opens up?",
+        "standalone_en": "What fertilizers should be given for immediate pruning once it opens up?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "khula jhala ki lagech chhatani karayache aahe tari khate kay dyave"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या शेतात छाटणी केल्यानंतर खते देणे महत्त्वाचे आहे. तुमच्या प्लॉटसाठी खालील खते वापरण्याची शिफारस केली जाते:\n\n### Plot No 2 Crimson (Foundation Pruning - Week 1)\n- **Farmyard Manure**: 5000 kg/acre\n- **Magnesium Sulphate**: 9.5 kg/acre\n- **Elemental Sulphur**: 78 kg/acre\n- **10-26-26**: 41 kg/acre\n- **Single Superphosphate**: 29 kg/acre\n- **Muriate of Potash**: 8 kg/acre\n\n### Sudhakar (Foundation Pruning - Week 1)\n- **Farmyard Manure**: 5000 kg/acre\n- **Magnesium Sulphate**: 9.5 kg/acre\n- **Elemental Sulphur**: 78 kg/acre\n- **10-26-26**: 40 kg/acre\n- **Single Superphosphate**: 35 kg/acre\n- **Muriate of Potash**: 9.5 kg/acre\n\n### Sudhakar 2 (Foundation Pruning - Week 2)\n- **Phosphoric acid**: 1.5 kg/acre (apply separately, 15-20 minutes before other fertilizers)\n- **Calcium nitrate**: 9 kg/acre (apply separately, 15-20 minutes after other fertilizers)\n\nतुम्ही या खते वापरून छाटणी केल्यानंतर योग्य पोषण देऊ शकता.",
+        "en": "तुमच्या शेतात छाटणी केल्यानंतर खते देणे महत्त्वाचे आहे. तुमच्या प्लॉटसाठी खालील खते वापरण्याची शिफारस केली जाते:\n\n### Plot No 2 Crimson (Foundation Pruning - Week 1)\n- **Farmyard Manure**: 5000 kg/acre\n- **Magnesium Sulphate**: 9.5 kg/acre\n- **Elemental Sulphur**: 78 kg/acre\n- **10-26-26**: 41 kg/acre\n- **Single Superphosphate**: 29 kg/acre\n- **Muriate of Potash**: 8 kg/acre\n\n### Sudhakar (Foundation Pruning - Week 1)\n- **Farmyard Manure**: 5000 kg/acre\n- **Magnesium Sulphate**: 9.5 kg/acre\n- **Elemental Sulphur**: 78 kg/acre\n- **10-26-26**: 40 kg/acre\n- **Single Superphosphate**: 35 kg/acre\n- **Muriate of Potash**: 9.5 kg/acre\n\n### Sudhakar 2 (Foundation Pruning - Week 2)\n- **Phosphoric acid**: 1.5 kg/acre (apply separately, 15-20 minutes before other fertilizers)\n- **Calcium nitrate**: 9 kg/acre (apply separately, 15-20 minutes after other fertilizers)\n\nतुम्ही या खते वापरून छाटणी केल्यानंतर योग्य पोषण देऊ शकता.",
+        "timestamp": {
+          "$date": "2025-04-02T00:16:02.362Z"
+        }
+      }
+    ],
+    "farmer_id": "pankajsadashivkhandave",
+    "farmer_plot_ids": [
+      "plotnoonessn",
+      "plotnotwocrimson",
+      "sudhakar156",
+      "sudhakar2101"
+    ],
+    "conversation_id": "67ec81b6ef2a454d759a7cdf",
+    "_id": "67ec81b6ef2a454d759a7cdf",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-04-02T00:20:50.320000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-04-02T00:15:50.311000+00:00"
+  }
+]

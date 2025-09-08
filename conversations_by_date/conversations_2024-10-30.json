@@ -1,0 +1,588 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Pani kab dena hai",
+        "timestamp": {
+          "$date": "2024-10-30T22:51:58.871Z"
+        },
+        "standalone_question": "When should I give the water?",
+        "standalone_en": "When should I give the water?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today."
+          ],
+          "faq": [
+            "Q: When should I water? (Hindi: Paani kab dun?)\nA: 0-5 kPa is wet, and increasing kPa means increasing dryness. The crop should stay in its optimal moisture zone, and when very close or above the dry optimal moisture, water can be given. Check internal irrigation forecast for the correct answer."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapko \"Watermelon Savkar\" plot mein paani dena chahiye aaj, 31 October 2024 ko, shaam ko 5 baje ke aas-paas. Aaj baarish ki sambhavana nahi hai, isliye paani dena sahi rahega.",
+        "timestamp": {
+          "$date": "2024-10-30T22:52:04.212Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Light den mai nahi hai",
+        "timestamp": {
+          "$date": "2024-10-30T22:52:30.651Z"
+        },
+        "standalone_question": "Is there no electricity available?",
+        "standalone_en": "Is there no electricity available?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Agar aapka sensor light nahi de raha hai, toh pehle yeh check karein ki kya device ka recharge ho gaya hai aur kya device actively data bhej raha hai. Agar device ka recharge nahi hua hai ya phir koi aur samasya hai, toh aapko Fyllo app par support ticket raise karna chahiye.\n\nKya aap support ticket create karna chahenge?",
+        "timestamp": {
+          "$date": "2024-10-30T22:52:33.989Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Motar ki light night ki hai",
+        "timestamp": {
+          "$date": "2024-10-30T22:53:06.607Z"
+        },
+        "standalone_question": "Is the motor's light functioning at night?",
+        "standalone_en": "Is the motor's light functioning at night?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Agar aapka motor ka light raat ko hai, toh aapko raat ke samay paani dene ke liye motor ka istemal karna chahiye. Yeh paani dene ka ek achha samay hai, kyunki isse paani zyada samay tak zameen mein rahega aur evaporation kam hoga.\n\nAap raat ko paani dene ka plan bana sakte hain. Kya aapko iske liye koi aur madad chahiye?",
+        "timestamp": {
+          "$date": "2024-10-30T22:53:10.704Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Abhi subah diya to",
+        "timestamp": {
+          "$date": "2024-10-30T22:53:48.105Z"
+        },
+        "standalone_question": "Did you water the plants this morning?",
+        "standalone_en": "Did you water the plants this morning?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapne subah paani diya hai, lekin aaj \"Watermelon Savkar\" plot mein paani dene ka agla sahi samay shaam ko 5 baje ke aas-paas hai. Aaj baarish ki sambhavana nahi hai, isliye aapko paani dena chahiye. \n\nKya aapko aur koi madad chahiye?",
+        "timestamp": {
+          "$date": "2024-10-30T22:53:54.128Z"
+        }
+      }
+    ],
+    "farmer_id": "prashantchaudhari",
+    "farmer_plot_ids": [
+      "watermelonsavkar"
+    ],
+    "conversation_id": "6722b88e46b7728d445ba6f9",
+    "tag": "complaints",
+    "conv_date": "2024-10-30T22:51:58.871000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Photo baga<user uploaded image for analysis at 'pomegranateplot1/2024-10-30-1730306794554.jpg'>",
+        "timestamp": {
+          "$date": "2024-10-30T16:46:49.470Z"
+        },
+        "standalone_question": "What can you tell me about the uploaded image?",
+        "standalone_en": "What can you tell me about the uploaded image?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of your pomegranate crop image indicates that the crop health is currently **unhealthy**. Here are the potential diagnoses and recommendations:\n\n### Possible Diagnoses:\n1. **Cercospora Fruit and Leaf Spot**\n   - **Symptoms**: \n     - Dark, tiny spots on sepals and leaves.\n     - Enlarging dark spots on sepals.\n     - Yellow margins around spots on leaves.\n     - Pale green leaves that turn yellow and fall off.\n     - Possible infection on twigs.\n   - **Treatment**: \n     - Use an integrated approach with preventive measures and biological treatments if available.\n     - If the economic threshold is reached, apply fungicides (mancozeb, conazole, or kitazin) at 15-day intervals after fruit formation. Ensure to follow specified concentrations and use fungicides with different modes of action to prevent resistance.\n\n2. **Scab of Pomegranate**\n   - **Symptoms**: \n     - Dry and rough patches on flowers and fruits.\n   - **Treatment**: \n     - Consider integrated approaches with preventive measures.\n     - Possible fungicidal sprays include carbendazim (0.1%), thiophanate methyl (0.1%), bitertanol (0.1%), and chlorothalonil (0.2%) at 15-day intervals from flower initiation.\n\n3. **Anthracnose of Pomegranate**\n   - **Symptoms**: \n     - Black spots with yellow halos.\n     - Premature leaf shedding and dry discoloration on fruits.\n   - **Treatment**: \n     - Preventive sprays when flowering begins, followed by sprays at 15-day intervals if necessary. Use active ingredients like propiconazole or mancozeb.\n\n### Recommendations:\n- Monitor the crop closely for the symptoms mentioned.\n- Implement the suggested treatments as per the diagnosis.\n- Always wear protective clothing when applying pesticides and follow the product label instructions.\n\nIf you have any further questions or need assistance with the treatment process, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-10-30T16:47:05.634Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "मराठी त sanag",
+        "timestamp": {
+          "$date": "2024-10-30T16:47:56.004Z"
+        },
+        "standalone_question": "What is the meaning of \"sanag\" in Marathi?",
+        "standalone_en": "What is the meaning of \"sanag\" in Marathi?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "marathi ta sanag"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या पेरूच्या पिकाच्या प्रतिमेचे विश्लेषण केले आहे. खालील माहिती दिली आहे:\n\n### संभाव्य निदान:\n1. **सर्कोस्पोरा फळ आणि पान डाग**\n   - **लक्षणे**: \n     - सेपल्स आणि पानांवर काळे, लहान डाग.\n     - सेपल्सवर काळे डाग वाढत आहेत.\n     - पानांवर डागांच्या काठावर पिवळा रंग.\n     - पांढरे पान, पिवळे होणे आणि गळणे.\n     - कोंबांवरही संसर्ग होऊ शकतो.\n   - **उपचार**: \n     - एकात्मिक दृष्टिकोन वापरा आणि उपलब्ध असल्यास जैविक उपचार करा.\n     - आर्थिक थ्रेशोल्ड गाठल्यास, फंगिसाइड्स (मॅन्कोजेब, कोंझोल किंवा किटाझिन) 15 दिवसांच्या अंतराने फळांच्या निर्मितीनंतर लागू करा. निर्दिष्ट केलेल्या सांद्रतेचे पालन करणे सुनिश्चित करा.\n\n2. **पेरूचा स्कॅब**\n   - **लक्षणे**: \n     - फुलांवर आणि फळांवर कोरडे आणि खडबडीत ठिकाणे.\n   - **उपचार**: \n     - एकात्मिक दृष्टिकोन वापरा.\n     - संभाव्य फंगिसाइड स्प्रे: कार्बेंडाझिम (0.1%), थायोफेनेट मिथाइल (0.1%), बायटर्टानोल (0.1%), आणि क्लोरोथालोनिल (0.2%) 15 दिवसांच्या अंतराने फुलांच्या प्रारंभापासून.\n\n3. **पेरूचा अँथ्रॅक्नोज**\n   - **लक्षणे**: \n     - काळे ठिकाणे पिवळ्या हॅलो सह.\n     - फळांवर कोरडे रंग आणि गळणे.\n   - **उपचार**: \n     - फुलांच्या प्रारंभापासून प्रतिबंधात्मक स्प्रे करा, आवश्यक असल्यास 15 दिवसांच्या अंतराने स्प्रे करा. सक्रिय घटक: प्रोपिकोनाझोल किंवा मॅन्कोजेब.\n\n### शिफारसी:\n- पिकाचे लक्षपूर्वक निरीक्षण करा.\n- निदानानुसार उपचार लागू करा.\n- कीटकनाशकांचा वापर करताना नेहमी संरक्षणात्मक कपडे घाला आणि उत्पादनाच्या लेबलवरील सूचना पाळा.\n\nतुमच्याकडे आणखी काही प्रश्न असल्यास किंवा उपचार प्रक्रियेत मदतीची आवश्यकता असल्यास, कृपया सांगा!",
+        "timestamp": {
+          "$date": "2024-10-30T16:48:11.089Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "डाळिंब आहे ",
+        "timestamp": {
+          "$date": "2024-10-30T16:48:26.473Z"
+        },
+        "standalone_question": "Is it a pomegranate?",
+        "standalone_en": "Is it a pomegranate?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "dalimb aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या पिकाचे विश्लेषण केले आहे आणि ते डाळिंबाचे आहे. डाळिंबाच्या पिकासाठी काही महत्त्वाची माहिती आणि शिफारसी खालीलप्रमाणे आहेत:\n\n### डाळिंबाची काळजी घेण्यासाठी टिपा:\n1. **पाण्याचे व्यवस्थापन**:\n   - डाळिंबाच्या पिकाला योग्य पाण्याची आवश्यकता असते. मातीची आर्द्रता तपासून पाण्याची आवश्यकता ठरवा. \n   - पाण्याची कमी किंवा जास्ती दोन्हीच पिकावर नकारात्मक परिणाम करू शकतात.\n\n2. **खते**:\n   - योग्य प्रमाणात खते वापरा. पिकाच्या वाढीच्या अवस्थेनुसार नायट्रोजन, फॉस्फरस, आणि पोटॅशियम यांचे प्रमाण समजून घ्या.\n   - फर्टिगेशन किंवा पानांवर स्प्रे करून खते द्या.\n\n3. **कीड आणि रोग नियंत्रण**:\n   - पिकावर कीड आणि रोगांचे लक्ष ठेवा. योग्य कीटकनाशकांचा वापर करा.\n   - पिकाच्या आरोग्यासाठी नियमितपणे निरीक्षण करा.\n\n4. **सूर्यप्रकाश**:\n   - डाळिंबाला चांगल्या सूर्यप्रकाशाची आवश्यकता असते. त्यामुळे पिकाला योग्य प्रकाश मिळावा याची काळजी घ्या.\n\n5. **कापणी**:\n   - फळे पूर्णपणे पिकल्यावरच कापा. योग्य वेळेत कापल्यास फळांची गुणवत्ता आणि चव सुधारते.\n\nजर तुम्हाला डाळिंबाच्या पिकाबद्दल अधिक माहिती हवी असेल किंवा विशिष्ट समस्या असल्यास, कृपया सांगा!",
+        "timestamp": {
+          "$date": "2024-10-30T16:48:36.484Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Dalimb resting period ahy Kay karyala phijay मराठी त sanga<user uploaded image for analysis at 'pomegranateplot1/2024-10-30-1730307030169.jpg'>",
+        "timestamp": {
+          "$date": "2024-10-30T16:51:14.032Z"
+        },
+        "standalone_question": "What should be done during the resting period of pomegranate plants?",
+        "standalone_en": "What should be done during the resting period of pomegranate plants?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या डाळिंबाच्या पिकाच्या प्रतिमेचे विश्लेषण केले आहे. खालील माहिती दिली आहे:\n\n### विश्लेषण:\n- **डाळिंबाचे विश्रांती कालावधी**: \n  - डाळिंबाच्या पिकाला विश्रांती कालावधी आवश्यक आहे, ज्यामध्ये पिकाची वाढ थांबते आणि ते फळांच्या विकासावर लक्ष केंद्रित करते. \n  - या कालावधीत, पिकाला योग्य पाण्याचे व्यवस्थापन, खते, आणि रोग नियंत्रण आवश्यक आहे.\n\n### शिफारसी:\n1. **पाण्याचे व्यवस्थापन**:\n   - मातीची आर्द्रता तपासून पाण्याची आवश्यकता ठरवा. पाण्याची कमी किंवा जास्ती दोन्हीच पिकावर नकारात्मक परिणाम करू शकतात.\n\n2. **खते**:\n   - विश्रांती कालावधीत कमी खते द्या. फळांच्या विकासासाठी आवश्यक खते वापरा.\n\n3. **रोग आणि कीड नियंत्रण**:\n   - पिकावर रोग आणि कीडांचे लक्ष ठेवा. योग्य कीटकनाशकांचा वापर करा.\n\n4. **सूर्यप्रकाश**:\n   - पिकाला चांगल्या सूर्यप्रकाशाची आवश्यकता असते. त्यामुळे पिकाला योग्य प्रकाश मिळावा याची काळजी घ्या.\n\n5. **कापणी**:\n   - फळे पूर्णपणे पिकल्यावरच कापा. योग्य वेळेत कापल्यास फळांची गुणवत्ता आणि चव सुधारते.\n\nजर तुम्हाला विशिष्ट समस्या असल्यास किंवा अधिक माहिती हवी असेल, तर कृपया सांगा!",
+        "timestamp": {
+          "$date": "2024-10-30T16:51:22.957Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "फोटो चा माहिती sanga",
+        "timestamp": {
+          "$date": "2024-10-30T16:52:20.177Z"
+        },
+        "standalone_question": "Can you provide information about the photo?",
+        "standalone_en": "Can you provide information about the photo?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या डाळिंबाच्या पिकाच्या प्रतिमेचे विश्लेषण केले असता, खालील माहिती मिळाली:\n\n### विश्लेषण:\n- **पिकाची आरोग्य स्थिती**: माहिती उपलब्ध नाही.\n- **प्रतिमेतील समस्या**: \n  - प्रतिमेतील काही संभाव्य समस्या आढळल्या आहेत. \n  - **अंतर**: प्रतिमा खूप दूरून घेतलेली आहे, ज्यामुळे स्पष्टता कमी आहे.\n  - **फोकस**: फोकस चांगला आहे, परंतु अंतरामुळे पिकाची स्थिती स्पष्टपणे दिसत नाही.\n\n### शिफारसी:\n- कृपया प्रतिमा अधिक जवळून आणि स्पष्टपणे काढा, ज्यामुळे पिकाची आरोग्य स्थिती अधिक चांगल्या प्रकारे विश्लेषित केली जाऊ शकेल.\n- प्रतिमेतील पिकाच्या लक्षणांवर लक्ष ठेवा आणि आवश्यक असल्यास अधिक माहिती द्या.\n\nजर तुम्हाला आणखी काही विचारायचे असेल, तर कृपया सांगा!",
+        "timestamp": {
+          "$date": "2024-10-30T16:52:28.328Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "सांगा <user uploaded image for analysis at 'pomegranateplot1/2024-10-30-1730307159965.jpg'>",
+        "timestamp": {
+          "$date": "2024-10-30T16:52:49.881Z"
+        },
+        "standalone_question": "Can you provide information about the uploaded image?",
+        "standalone_en": "Can you provide information about the uploaded image?",
+        "retrieval": {
+          "tools": [
+            "analyse_crop_image  \nGets the analysis of the uploaded crop image for any diseases or pests."
+          ],
+          "faq": []
+        },
+        "content_transliterated": "sanga <user uploaded image for analysis at 'pomegranateplot1/2024-10-30-1730307159965.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या डाळिंबाच्या पिकाच्या प्रतिमेचे विश्लेषण केले असता, खालील माहिती मिळाली:\n\n### विश्लेषण:\n- **पिकाची आरोग्य स्थिती**: माहिती उपलब्ध नाही.\n- **प्रतिमेतील समस्या**: \n  - प्रतिमेतील काही संभाव्य समस्या आढळल्या आहेत.\n  - **अंतर**: प्रतिमा खूप दूरून घेतलेली आहे, ज्यामुळे स्पष्टता कमी आहे.\n  - **फोकस**: फोकस चांगला आहे, परंतु अंतरामुळे पिकाची स्थिती स्पष्टपणे दिसत नाही.\n\n### शिफारसी:\n- कृपया प्रतिमा अधिक जवळून आणि स्पष्टपणे काढा, ज्यामुळे पिकाची आरोग्य स्थिती अधिक चांगल्या प्रकारे विश्लेषित केली जाऊ शकेल.\n- प्रतिमेतील पिकाच्या लक्षणांवर लक्ष ठेवा आणि आवश्यक असल्यास अधिक माहिती द्या.\n\nतुमच्याकडे आणखी काही प्रश्न असल्यास किंवा अधिक माहिती हवी असल्यास, कृपया सांगा!",
+        "timestamp": {
+          "$date": "2024-10-30T16:52:59.516Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "सांगा <user uploaded image for analysis at 'pomegranateplot1/2024-10-30-1730307190499.jpg'>",
+        "timestamp": {
+          "$date": "2024-10-30T16:53:16.628Z"
+        },
+        "standalone_question": "Please provide an analysis of the uploaded image of the pomegranate crop.",
+        "standalone_en": "Please provide an analysis of the uploaded image of the pomegranate crop.",
+        "retrieval": {
+          "tools": [
+            "analyse_crop_image  \nGets the analysis of the uploaded crop image for any diseases or pests."
+          ],
+          "faq": []
+        },
+        "content_transliterated": "sanga <user uploaded image for analysis at 'pomegranateplot1/2024-10-30-1730307190499.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या डाळिंबाच्या पिकाच्या प्रतिमेचे विश्लेषण केले असता, खालील माहिती मिळाली:\n\n### पिकाची आरोग्य स्थिती:\n- **आरोग्य स्थिती**: **अस्वस्थ** (Unhealthy)\n\n### संभाव्य निदान:\n1. **सर्कोस्पोरा फळ आणि पान डाग**:\n   - **लक्षणे**:\n     - सेपल्स आणि पानांवर काळे, लहान डाग.\n     - सेपल्सवर डाग वाढत आहेत आणि काळे होत आहेत.\n     - पानांवर डागांच्या काठावर पिवळा रंग.\n     - पान पांढरे होऊन पिवळे होणे आणि गळणे.\n     - कोंबांवरही संसर्ग होऊ शकतो.\n   - **उपचार**:\n     - एकात्मिक दृष्टिकोन वापरा, जैविक उपचारांसह.\n     - आर्थिक थ्रेशोल्ड गाठल्यास, फंगिसाइड्स (मॅन्कोजेब, कोंझोल, किंवा किटाझिन) 15 दिवसांच्या अंतराने फळांच्या निर्मितीनंतर लागू करा. \n\n2. **पेरूचा स्कॅब**:\n   - **लक्षणे**:\n     - फुलांवर आणि फळांवर कोरडे आणि खडबडीत ठिकाणे.\n   - **उपचार**:\n     - एकात्मिक दृष्टिकोन वापरा.\n     - संभाव्य फंगिसाइड स्प्रे: कार्बेंडाझिम (0.1%), थायोफेनेट मिथाइल (0.1%), बायटर्टानोल (0.1%), आणि क्लोरोथालोनिल (0.2%) 15 दिवसांच्या अंतराने फुलांच्या प्रारंभापासून.\n\n3. **पेरूचा अँथ्रॅक्नोज**:\n   - **लक्षणे**:\n     - काळे ठिकाणे पिवळ्या हॅलो सह.\n     - फळांवर कोरडे रंग आणि गळणे.\n   - **उपचार**:\n     - फुलांच्या प्रारंभापासून प्रतिबंधात्मक स्प्रे करा, आवश्यक असल्यास 15 दिवसांच्या अंतराने स्प्रे करा. सक्रिय घटक: प्रोपिकोनाझोल किंवा मॅन्कोजेब.\n\n### शिफारसी:\n- पिकाचे लक्षपूर्वक निरीक्षण करा.\n- निदानानुसार उपचार लागू करा.\n- कीटकनाशकांचा वापर करताना नेहमी संरक्षणात्मक कपडे घाला आणि उत्पादनाच्या लेबलवरील सूचना पाळा.\n\nतुमच्याकडे आणखी काही प्रश्न असल्यास किंवा अधिक माहिती हवी असल्यास, कृपया सांगा!",
+        "timestamp": {
+          "$date": "2024-10-30T16:53:36.446Z"
+        }
+      }
+    ],
+    "farmer_id": "sandeepmaind",
+    "farmer_plot_ids": [
+      "pomegranateplot1",
+      "pomeplot2"
+    ],
+    "conversation_id": "672262f946b7728d445ba6f7",
+    "tag": "others",
+    "conv_date": "2024-10-30T16:46:49.470000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "पानावर डावणी दिसत आहे ‌ कोणती फवारणी करावी",
+        "timestamp": {
+          "$date": "2024-10-30T13:31:14.223Z"
+        },
+        "standalone_question": "What treatment should be applied for the visible disease on the betel leaf?",
+        "standalone_en": "What treatment should be applied for the visible disease on the betel leaf?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "panavar davani disat aahe konati favarani karavi"
+      },
+      {
+        "role": "assistant",
+        "content": "पानावर डावणी (Powdery Mildew) दिसत असल्यास, तुम्ही खालील फवारणी करावी:\n\n1. **फफूंदनाशक (Fungicide)**: \n   - **बायोफफूंदनाशक**: बायोफफूंदनाशक जसे की Trichoderma किंवा Pseudomonas वापरू शकता.\n   - **रासायनिक फफूंदनाशक**: बायोफफूंदनाशकांव्यतिरिक्त, तुम्ही बायोफफूंदनाशकांमध्ये Sulfur किंवा Potassium Bicarbonate यांचा वापर करू शकता.\n\n2. **फवारणीची वेळ**: \n   - सकाळी किंवा संध्याकाळी फवारणी करणे अधिक प्रभावी ठरते, कारण या वेळेस तापमान कमी असते.\n\nतुमच्या प्लॉटसाठी योग्य फवारणीची वेळ आणि पद्धत निश्चित करण्यासाठी, कृपया तुमच्या प्लॉटच्या फवारणी शेड्यूलची माहिती द्या.",
+        "timestamp": {
+          "$date": "2024-10-30T13:31:20.416Z"
+        }
+      }
+    ],
+    "farmer_id": "nileshchandore",
+    "farmer_plot_ids": [
+      "mamajamboplot1",
+      "thompsonplot2nileshchandore"
+    ],
+    "conversation_id": "6722351f46b7728d445ba6f5",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-10-30T13:31:14.223000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "छाटणी दिनाक ",
+        "timestamp": {
+          "$date": "2024-10-30T11:02:01.400Z"
+        },
+        "standalone_question": "What is the date of the festival?",
+        "standalone_en": "What is the date of the festival?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "chatani dinak "
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या प्लॉटमध्ये सध्या \"कन थिनिंग\" (Cane thinning) या अवस्थेत आहात, जी 2024-05-16 पासून सुरू झाली आहे. या अवस्थेचा अंदाजे समाप्ती दिनांक अद्याप अपडेट केलेला नाही, परंतु तुम्ही 160 दिवसांपेक्षा जास्त काळ या अवस्थेत आहात. \n\nकृपया तुमच्या अवस्थेचे अपडेट करण्यासाठी अॅप वापरा.",
+        "timestamp": {
+          "$date": "2024-10-30T11:02:04.825Z"
+        }
+      }
+    ],
+    "farmer_id": "vishnukawale",
+    "farmer_plot_ids": [
+      "plotno3thompsonyeshwantfarm"
+    ],
+    "conversation_id": "67221229ccb6eea663336c29",
+    "tag": "others",
+    "conv_date": "2024-10-30T11:02:01.400000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "केळी प्लॉट ला पाण्याचे प्रमाण कसे आहे ",
+        "timestamp": {
+          "$date": "2024-10-30T07:22:20.283Z"
+        },
+        "standalone_question": "What is the water level in the banana plot?",
+        "standalone_en": "What is the water level in the banana plot?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "keli plot la panyache praman kase aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Taral plot\" वर सध्या मातीतील पाण्याचे प्रमाण असे आहे:\n\n- **मातीतील आर्द्रता**: \n  - Sensor 1: 34 kPa (जुने)\n  - Sensor 2: 0 kPa (खूप ओलसर)\n\n0 kPa चा मातीतील आर्द्रता म्हणजे माती खूप ओलसर आहे, त्यामुळे पाण्याची आवश्यकता नाही.",
+        "timestamp": {
+          "$date": "2024-10-30T07:22:24.252Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Fertigation काय करायचे ",
+        "timestamp": {
+          "$date": "2024-10-30T07:23:08.422Z"
+        },
+        "standalone_question": "What should be done for fertigation?",
+        "standalone_en": "What should be done for fertigation?",
+        "retrieval": {
+          "tools": [
+            "get_fertigation_schedule  \nChecks the farmer's crop stages and requirements with internal petiole reports and gives the current week fertigation schedule details, and details of the next fertigation schedule (could be next week in the same crop stage or in next crop stage) for the plots. Fertilizers are given by 3 distribution methods:  \n- Fertigation: fertilizers put into the irrigation pipeline itself  \n- Foliar: on the leaves using a foliar spray  \n- Soil: directly on the soil  \nIf the unit of fertilizer amount includes \"per acre\", then it is for 1 acre. Otherwise it is for \"units per 1 plant\"."
+          ],
+          "faq": [
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: Does Fyllo provide a fertigation schedule?\nA: Yes, Fyllo provides a fertigation schedule for users.",
+            "Q: How do I generate a fertigation schedule in the app?\nA: To generate a fertigation schedule, follow these steps:\n\n    1. Go to \"My Farm\"\n    2. Select \"Fertigation\"\n    3. Tap \"Create Report\"\n    4. Fill in all the required details\n    5. Save the report\n    If you have soil, leaf, or petiole test data, you can input this for a more customized schedule. Otherwise, we can generate a basic schedule using general crop and regional data.",
+            "Q: How can I trust that Fyllo's fertigation schedule is accurate?\nA: Fyllo's fertigation schedule is scientifically developed and validated based on crop requirements. It takes into account factors such as crop variety, growth stage, soil conditions, and available nutrient data from soil, leaf, or petiole tests when available.",
+            "Q: What should I do if I can't find the fertigation schedule after selecting the fertigation tab?\nA: If you don't see the fertigation schedule, you'll need to create a report first. Would you like assistance in creating a report? Do you have any soil, leaf, or petiole test data available? If not, we can generate a basic schedule for you using general crop and regional data."
+          ]
+        },
+        "content_transliterated": "Fertigation kay karayche "
+      },
+      {
+        "role": "assistant",
+        "content": "\"Taral plot\" मध्ये सध्या कोणतीही पिके लागवडलेली नाही, त्यामुळे फर्टिगेशनची कोणतीही वेळापत्रक उपलब्ध नाही. पिके लागवडल्यावर फर्टिगेशनची आवश्यकता आणि वेळापत्रक तयार केले जाईल.",
+        "timestamp": {
+          "$date": "2024-10-30T07:23:12.808Z"
+        }
+      }
+    ],
+    "farmer_id": "vedanttaral",
+    "farmer_plot_ids": [
+      "taralplot"
+    ],
+    "conversation_id": "6721deacccb6eea663336c28",
+    "tag": "nutrient_fertigation",
+    "conv_date": "2024-10-30T07:22:20.283000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Bectrial wilt ko kese rokhe",
+        "timestamp": {
+          "$date": "2024-10-30T06:59:48.878Z"
+        },
+        "standalone_question": "How can we prevent bacterial wilt?",
+        "standalone_en": "How can we prevent bacterial wilt?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Bacterial wilt ko rokne ke liye kuch pramukh kadam uthane chahiye:\n\n1. **Swasth Beej ka Chayan**: Hamesha swasth aur certified beej ka istemal karein jo bacterial wilt se prabhavit na ho.\n\n2. **Kheti ki Vyavastha**: Kheti ki vyavastha ko sudharne ke liye crop rotation ka istemal karein. Bacterial wilt se prabhavit crops ke baad alag crops ka chayan karein.\n\n3. **Soil Health**: Soil ki health ko sudharne ke liye organic matter jaise compost ya green manure ka istemal karein. Yeh soil ki fertility ko badhata hai aur pathogens ko kam karta hai.\n\n4. **Pest Control**: Pests ko control karne ke liye insecticides ka istemal karein, kyunki kuch pests bacterial wilt ko failane mein madadgar hote hain.\n\n5. **Irrigation Practices**: Over-irrigation se bachein, kyunki yeh bacterial growth ko badhata hai. Drip irrigation ka istemal karna behtar hota hai.\n\n6. **Sanitation**: Kheti ke kshetra mein safai rakhein aur prabhavit plants ko turant hata dein.\n\n7. **Fungicides aur Bactericides**: Agar zaroorat ho, to fungicides ya bactericides ka istemal karein, lekin inka istemal karne se pehle kisi expert se salah lein.\n\nIn kadamon se aap bacterial wilt ko rokne mein madad kar sakte hain.",
+        "timestamp": {
+          "$date": "2024-10-30T06:59:58.430Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Konsi dawai chalaye",
+        "timestamp": {
+          "$date": "2024-10-30T07:00:31.811Z"
+        },
+        "standalone_question": "What medication should be used?",
+        "standalone_en": "What medication should be used?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Bacterial wilt ke liye kuch pramukh dawaiyan hain jo aap istemal kar sakte hain:\n\n1. **Copper-based Fungicides**: Yeh dawaiyan bacterial infections ko control karne mein madadgar hoti hain. Copper oxychloride ya copper sulfate ka istemal kar sakte hain.\n\n2. **Streptomycin**: Yeh ek antibiotic hai jo bacterial diseases ke khilaf prabhavi hota hai. Iska istemal karne se pehle kisi expert se salah lena zaroori hai.\n\n3. **Biological Control Agents**: Kuch biological agents jaise Bacillus subtilis ya Pseudomonas fluorescens bhi bacterial wilt ko control karne mein madadgar hote hain.\n\n4. **Neem Oil**: Neem oil ka istemal bhi bacterial infections ko control karne ke liye kiya ja sakta hai.\n\nDawaiyon ka istemal karne se pehle, hamesha label par diye gaye nirdeshon ka palan karein aur kisi agricultural expert se salah lein.",
+        "timestamp": {
+          "$date": "2024-10-30T07:00:37.157Z"
+        }
+      }
+    ],
+    "farmer_id": "mohanpatel",
+    "farmer_plot_ids": [
+      "plot1533",
+      "plot2882"
+    ],
+    "conversation_id": "6721d96446b7728d445ba6f1",
+    "tag": "disease_pest",
+    "conv_date": "2024-10-30T06:59:48.878000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Bectrial wilt ko kese rokhe",
+        "timestamp": {
+          "$date": "2024-10-30T06:59:48.878Z"
+        },
+        "standalone_question": "How can we prevent bacterial wilt?",
+        "standalone_en": "How can we prevent bacterial wilt?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Bacterial wilt ko rokne ke liye kuch pramukh kadam uthane chahiye:\n\n1. **Swasth Beej ka Chayan**: Hamesha swasth aur certified beej ka istemal karein jo bacterial wilt se prabhavit na ho.\n\n2. **Kheti ki Vyavastha**: Kheti ki vyavastha ko sudharne ke liye crop rotation ka istemal karein. Bacterial wilt se prabhavit crops ke baad alag crops ka chayan karein.\n\n3. **Soil Health**: Soil ki health ko sudharne ke liye organic matter jaise compost ya green manure ka istemal karein. Yeh soil ki fertility ko badhata hai aur pathogens ko kam karta hai.\n\n4. **Pest Control**: Pests ko control karne ke liye insecticides ka istemal karein, kyunki kuch pests bacterial wilt ko failane mein madadgar hote hain.\n\n5. **Irrigation Practices**: Over-irrigation se bachein, kyunki yeh bacterial growth ko badhata hai. Drip irrigation ka istemal karna behtar hota hai.\n\n6. **Sanitation**: Kheti ke kshetra mein safai rakhein aur prabhavit plants ko turant hata dein.\n\n7. **Fungicides aur Bactericides**: Agar zaroorat ho, to fungicides ya bactericides ka istemal karein, lekin inka istemal karne se pehle kisi expert se salah lein.\n\nIn kadamon se aap bacterial wilt ko rokne mein madad kar sakte hain.",
+        "timestamp": {
+          "$date": "2024-10-30T06:59:58.430Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Konsi dawai chalaye",
+        "timestamp": {
+          "$date": "2024-10-30T07:00:31.811Z"
+        },
+        "standalone_question": "What medication should be used?",
+        "standalone_en": "What medication should be used?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Bacterial wilt ke liye kuch pramukh dawaiyan hain jo aap istemal kar sakte hain:\n\n1. **Copper-based Fungicides**: Yeh dawaiyan bacterial infections ko control karne mein madadgar hoti hain. Copper oxychloride ya copper sulfate ka istemal kar sakte hain.\n\n2. **Streptomycin**: Yeh ek antibiotic hai jo bacterial diseases ke khilaf prabhavi hota hai. Iska istemal karne se pehle kisi expert se salah lena zaroori hai.\n\n3. **Biological Control Agents**: Kuch biological agents jaise Bacillus subtilis ya Pseudomonas fluorescens bhi bacterial wilt ko control karne mein madadgar hote hain.\n\n4. **Neem Oil**: Neem oil ka istemal bhi bacterial infections ko control karne ke liye kiya ja sakta hai.\n\nDawaiyon ka istemal karne se pehle, hamesha label par diye gaye nirdeshon ka palan karein aur kisi agricultural expert se salah lein.",
+        "timestamp": {
+          "$date": "2024-10-30T07:00:37.157Z"
+        }
+      }
+    ],
+    "farmer_id": "mohanpatel",
+    "farmer_plot_ids": [
+      "plot1533",
+      "plot2882"
+    ],
+    "conversation_id": "6721d96446b7728d445ba6f1",
+    "tag": "disease_pest-spray",
+    "conv_date": "2024-10-30T06:59:48.878000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Plot 1 mai bectrial wilt lag gya hai kya kare",
+        "timestamp": {
+          "$date": "2024-10-30T03:52:02.176Z"
+        },
+        "standalone_question": "What should I do if my plot has been affected by bacterial wilt?",
+        "standalone_en": "What should I do if my plot has been affected by bacterial wilt?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Bacterial wilt se nipatne ke liye aapko kuch kadam uthane honge:\n\n1. **Infected Plants Ko Hatana**: Pehle se hi infected plants ko turant hata dein, kyunki ye baaki plants ko bhi infect kar sakte hain.\n\n2. **Soil Sanitization**: Jis area mein infected plants the, us soil ko achhe se sanitize karein. Aap organic fungicides ya bio-agents ka istemal kar sakte hain.\n\n3. **Crop Rotation**: Agle season mein alag crop ka istemal karein jo bacterial wilt ke liye resistant ho.\n\n4. **Water Management**: Overwatering se bachein, kyunki ye bacterial growth ko badhava deta hai. Soil moisture ko monitor karein.\n\n5. **Pesticide Application**: Bacterial wilt ke liye specific pesticides ka istemal karein. Aapko local agricultural expert se salah lena chahiye ki kaunse pesticide ka istemal karna hai.\n\n6. **Regular Monitoring**: Apne plants ko regular basis par monitor karein taaki kisi bhi nayi infection ko jaldi pakda ja sake.\n\nAgar aapko aur madad chahiye, to aap apne local agricultural extension officer se bhi sampark kar sakte hain.",
+        "timestamp": {
+          "$date": "2024-10-30T03:52:07.883Z"
+        }
+      }
+    ],
+    "farmer_id": "mohanpatel",
+    "farmer_plot_ids": [
+      "plot1533",
+      "plot2882"
+    ],
+    "conversation_id": "6721ad61f910d9021a7e8da7",
+    "tag": "disease_pest",
+    "conv_date": "2024-10-30T03:52:02.176000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "सुधाकर प्लॉट 6 बंद आहे",
+        "timestamp": {
+          "$date": "2024-10-30T02:41:21.456Z"
+        },
+        "standalone_question": "Is Sudhakar's plot 6 closed?",
+        "standalone_en": "Is Sudhakar's plot 6 closed?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "sudhakar plot 6 band aahe"
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या प्लॉट नंबर 6 (सुधाकर) मध्ये सध्या \"CANE MATURITY\" म्हणजेच \"टॉपिंग\" चा सक्रिय टप्पा आहे. जर तुम्हाला प्लॉट बंद करण्याची किंवा इतर कोणतीही माहिती हवी असेल, तर कृपया अधिक माहिती द्या.",
+        "timestamp": {
+          "$date": "2024-10-30T02:41:24.006Z"
+        }
+      }
+    ],
+    "farmer_id": "manojpadol",
+    "farmer_plot_ids": [
+      "plotno",
+      "plotno1parple",
+      "plotno4flame",
+      "plotno6sudhakar240"
+    ],
+    "conversation_id": "67219cd15a7cc0a996d18dcd",
+    "tag": "complaints",
+    "conv_date": "2024-10-30T02:41:21.456000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "अपडेट होत नाही",
+        "timestamp": {
+          "$date": "2024-10-30T00:17:36.898Z"
+        },
+        "standalone_question": "The standalone question could be: \"Why is it not updating?\"",
+        "standalone_en": "The standalone question could be: \"Why is it not updating?\"",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "update hot nahi"
+      },
+      {
+        "role": "assistant",
+        "content": "कृपया तुम्हाला कोणत्या विशिष्ट गोष्टीत अपडेट हवे आहे ते सांगा, म्हणजे मी तुम्हाला योग्य माहिती देऊ शकेन. तुम्हाला पिकांच्या अवस्थेबद्दल, पाण्याच्या गरजांबद्दल, किंवा इतर कोणत्याही कृषी संबंधित गोष्टींबद्दल माहिती हवी आहे का?",
+        "timestamp": {
+          "$date": "2024-10-30T00:17:39.966Z"
+        }
+      }
+    ],
+    "farmer_id": "pankajsadashivkhandave",
+    "farmer_plot_ids": [
+      "plotnoonessn",
+      "plotnotwocrimson",
+      "sudhakar156"
+    ],
+    "conversation_id": "67217b20f910d9021a7e8da5",
+    "tag": "complaints",
+    "conv_date": "2024-10-30T00:17:36.898000+00:00"
+  }
+]

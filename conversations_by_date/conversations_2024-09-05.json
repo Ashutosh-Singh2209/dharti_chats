@@ -1,0 +1,240 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "device status",
+        "timestamp": {
+          "$date": "2024-09-05T12:38:50.224Z"
+        },
+        "standalone_question": "What is the status of the device?",
+        "standalone_en": "What is the status of the device?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the current device statuses for your plots:\n\n1. **Plot 2 Pome (ashapura2)**\n   - Soil Temperature: 25.88°C\n   - Soil Moisture: 0 kPa (fully wet)\n   - Battery: 43%\n   - Last Updated: August 29, 2024\n\n2. **Plot 7 (ashapura7pome)**\n   - Soil Temperature: 27.88°C\n   - Soil Moisture: 0 kPa (fully wet)\n   - Battery: 33%\n   - Last Updated: September 5, 2024\n\n3. **PLOT 1 (ashapuraplot1pome)**\n   - Soil Temperature: 28.69°C\n   - Soil Moisture: 2 kPa\n   - Battery: 13%\n   - Last Updated: September 5, 2024\n\n4. **Demo Plot (demoplot)**\n   - Soil Temperature: 29.81°C\n   - Soil Moisture: 0 kPa (fully wet) and 200 kPa\n   - Battery: 47%\n   - Last Updated: September 5, 2024\n\n5. **Plot 5 Pome (kesari3)**\n   - Soil Temperature: 28.75°C\n   - Soil Moisture: 1 kPa and 8 kPa\n   - Battery: 0% (Faulty)\n   - Last Updated: September 3, 2024\n\n6. **Plot 4**\n   - Air Temperature: 28.50°C\n   - Air Humidity: 88.31%\n   - Soil Temperature: 28.81°C\n   - Soil Moisture: 3 kPa and 4 kPa\n   - Battery: 100%\n   - Last Updated: September 5, 2024\n\n7. **Plot 6 (plot886)**\n   - Soil Temperature: 28.38°C\n   - Soil Moisture: 3 kPa\n   - Battery: 43%\n   - Last Updated: September 5, 2024\n\n8. **Plot 8 (pomegranate8)**\n   - Soil Temperature: 28.81°C\n   - Soil Moisture: 6 kPa and 5 kPa\n   - Battery: 100%\n   - Last Updated: September 5, 2024\n\n9. **M2 (pomo8)**\n   - Soil Temperature: 29.56°C\n   - Soil Moisture: 9 kPa and 6 kPa\n   - Battery: 51%\n   - Last Updated: September 5, 2024\n\n10. **M1 (pomo9)**\n    - Air Temperature: 28.20°C\n    - Air Humidity: 99%\n    - Soil Temperature: 28.06°C\n    - Soil Moisture: 5 kPa and 3 kPa\n    - Battery: 76%\n    - Last Updated: September 5, 2024\n\nPlease note that some sensors are showing 0 kPa for soil moisture, indicating fully wet conditions. If this persists, it may require further investigation.",
+        "timestamp": {
+          "$date": "2024-09-05T12:38:50.224Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "what is thrips incidence in August 2024",
+        "timestamp": {
+          "$date": "2024-09-05T12:39:42.171Z"
+        },
+        "standalone_question": "What was the incidence of thrips in August 2024?",
+        "standalone_en": "What was the incidence of thrips in August 2024?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "In August 2024, the incidence of thrips was recorded as follows:\n\n### Plot 4:\n- **August 1-2**: No incidence (NIL)\n- **August 3-5**: No incidence (NIL)\n- **August 6**: No incidence (NIL)\n- **August 7**: Probability 61.7% (MEDIUM)\n- **August 8**: Probability 64.7% (MEDIUM)\n- **August 9**: Probability 63.3% (MEDIUM)\n- **August 10**: Probability 59.6% (MEDIUM)\n- **August 11**: Probability 59.7% (MEDIUM)\n- **August 12**: Probability 62.5% (MEDIUM)\n- **August 13**: Probability 63.7% (MEDIUM)\n- **August 14**: Probability 63.8% (MEDIUM)\n- **August 15**: Probability 66.1% (MEDIUM)\n- **August 16**: Probability 65.8% (MEDIUM)\n- **August 17**: Probability 63.8% (MEDIUM)\n- **August 18**: Probability 62.0% (MEDIUM)\n- **August 19**: Probability 68.8% (MEDIUM)\n- **August 20**: Probability 68.4% (MEDIUM)\n- **August 21**: Probability 68.4% (MEDIUM)\n- **August 22**: Probability 65.7% (MEDIUM)\n- **August 23**: Probability 68.1% (MEDIUM)\n- **August 24**: Probability 67.6% (MEDIUM)\n- **August 25**: Probability 62.9% (MEDIUM)\n- **August 26**: Probability 39.6% (LOW)\n- **August 27**: Probability 9.2% (NIL)\n- **August 28**: Probability 35.7% (LOW)\n- **August 29**: Probability 40.6% (LOW)\n- **August 30**: Probability 57.9% (MEDIUM)\n- **August 31**: Probability 66.6% (MEDIUM)\n\n### Summary:\n- The thrips incidence was generally medium to low throughout August, with the highest probability recorded on August 31 at 66.6%. There were several days with no incidence at the beginning of the month. \n\nIf you need further details or specific actions based on this data, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-09-05T12:39:42.171Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "आज किन-किन प्लॉट को सिंचाई की आवश्यकता है?",
+        "timestamp": {
+          "$date": "2024-09-05T12:40:21.387Z"
+        },
+        "standalone_question": "Which plots need irrigation today?",
+        "standalone_en": "Which plots need irrigation today?",
+        "retrieval": {
+          "tools": [
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today.",
+            "get_irrigation_forecast  \nGives the irrigation requirement forecast for any day, today and beyond. Dates are mandatory. Output is humanized with day of the week and optimal moisture details if suitable."
+          ],
+          "faq": [
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil.",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs."
+          ]
+        },
+        "content_transliterated": "aaj kin-kin plot ko sinchai ki aavashyakta hai?"
+      },
+      {
+        "role": "assistant",
+        "content": "आज निम्नलिखित प्लॉट को सिंचाई की आवश्यकता है:\n\n1. **Plot 5 Pome (kesari3)**\n   - सिंचाई की आवश्यकता है, क्योंकि वर्षा की अपेक्षा कम है। \n   - **सिंचाई का उचित समय:** आज शाम 4:25 बजे।\n\nअन्य सभी प्लॉट्स के लिए आज सिंचाई की आवश्यकता नहीं है। यदि आपको और जानकारी चाहिए, तो बताएं!",
+        "timestamp": {
+          "$date": "2024-09-05T12:40:21.387Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "किन-किन प्लॉट पर कार्रवाई की आवश्यकता है?",
+        "timestamp": {
+          "$date": "2024-09-05T12:42:43.783Z"
+        },
+        "standalone_question": "Which plots require action?",
+        "standalone_en": "Which plots require action?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kin-kin plot par karravaee ki aavashyakta hai?"
+      },
+      {
+        "role": "assistant",
+        "content": "आज निम्नलिखित प्लॉट्स पर कार्रवाई की आवश्यकता है:\n\n### सिंचाई की आवश्यकता:\n1. **Plot 5 Pome (kesari3)**\n   - **सिंचाई की आवश्यकता:** हाँ\n   - **सिंचाई का उचित समय:** आज शाम 4:25 बजे।\n\n### फर्टिगेशन की आवश्यकता:\n1. **Plot 2 Pome (ashapura2)**\n   - **वर्तमान सप्ताह का कार्यक्रम:** कोई फर्टिगेशन की आवश्यकता नहीं।\n   - **अगला कार्यक्रम:** \"एक महीने पहले तनाव\" चरण में।\n\n2. **Plot 7 (ashapura7pome)**\n   - **वर्तमान सप्ताह का कार्यक्रम:** \"प्रारंभिक फल विकास\" चरण में।\n   - **अगला कार्यक्रम:** \"प्रारंभिक फल विकास\" चरण में।\n\n3. **PLOT 1 (ashapuraplot1pome)**\n   - **वर्तमान सप्ताह का कार्यक्रम:** \"बड प्रारंभ\" चरण में।\n   - **अगला कार्यक्रम:** \"बड प्रारंभ\" चरण में।\n\n4. **Demo Plot (demoplot)**\n   - **वर्तमान सप्ताह का कार्यक्रम:** \"डिफोलिएशन\" चरण में।\n   - **अगला कार्यक्रम:** \"बड प्रारंभ\" चरण में।\n\n5. **Plot 4**\n   - **वर्तमान सप्ताह का कार्यक्रम:** \"बड प्रारंभ\" चरण में।\n   - **अगला कार्यक्रम:** \"बड प्रारंभ\" चरण में।\n\n6. **Plot 6 (plot886)**\n   - **वर्तमान सप्ताह का कार्यक्रम:** कोई फर्टिगेशन की आवश्यकता नहीं।\n   - **अगला कार्यक्रम:** \"प्रारंभिक फल विकास\" चरण में।\n\n7. **Plot 8 (pomegranate8)**\n   - **वर्तमान सप्ताह का कार्यक्रम:** कोई फर्टिगेशन की आवश्यकता नहीं।\n   - **अगला कार्यक्रम:** \"फूलने और फल सेट\" चरण में।\n\n8. **M2 (pomo8)**\n   - **वर्तमान सप्ताह का कार्यक्रम:** कोई फर्टिगेशन की आवश्यकता नहीं।\n   - **अगला कार्यक्रम:** \"बड प्रारंभ\" चरण में।\n\n9. **M1 (pomo9)**\n   - **वर्तमान सप्ताह का कार्यक्रम:** कोई फर्टिगेशन की आवश्यकता नहीं।\n   - **अगला कार्यक्रम:** \"फूलने और फल सेट\" चरण में।\n\nयदि आपको किसी विशेष प्लॉट के लिए और जानकारी चाहिए, तो कृपया बताएं!",
+        "timestamp": {
+          "$date": "2024-09-05T12:42:43.783Z"
+        }
+      }
+    ],
+    "farmer_id": "mahipalsinh88",
+    "farmer_plot_ids": [
+      "ashapura2",
+      "ashapura7pome",
+      "ashapuraplot1pome",
+      "demoplot",
+      "kesari3",
+      "plot4",
+      "plot886",
+      "pomegranate8",
+      "pomo8",
+      "pomo9"
+    ],
+    "conversation_id": "66d9a64e7cc31a1977847df6",
+    "tag": "disease_pest",
+    "conv_date": "2024-09-05T12:38:50.224000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "can you let me know what all actions are required today",
+        "timestamp": {
+          "$date": "2024-09-05T12:29:38.819Z"
+        },
+        "standalone_question": "What actions are required today?",
+        "standalone_en": "What actions are required today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the actions required for today, September 5, 2024:\n\n### Pest Control Actions:\n1. **Field No 1** (Achooranam, Vythiri, Wayanad):\n   - **Red Spider Mites**: High risk (51.4% probability) - Immediate action required.\n   - **Tea Mosquitto Bug**: No action needed (15.4% probability).\n\n2. **Field No 7 Chundale** (Chundale, Vythiri, Wayanad):\n   - **Red Spider Mites**: Medium risk (45.2% probability) - Monitor closely.\n   - **Tea Mosquitto Bug**: No action needed.\n\n3. **Filed No 4 Anapara** (Chundale, Vythiri, Wayanad):\n   - **Red Spider Mites**: Medium risk (46.3% probability) - Monitor closely.\n   - **Tea Mosquitto Bug**: Low risk (41.6% probability) - No immediate action needed.\n\n4. **Lower Division** (Chinnakanal, Udumbanchola, Idukki):\n   - **Red Spider Mites**: Low risk (29.0% probability) - Monitor.\n   - **Tea Mosquitto Bug**: Low risk (45.2% probability) - No immediate action needed.\n\n### Summary:\n- **Immediate action** is required for Red Spider Mites in Field No 1.\n- **Monitoring** is advised for Red Spider Mites in the other fields.\n\nPlease take the necessary actions based on the pest risk levels.",
+        "timestamp": {
+          "$date": "2024-09-05T12:29:38.819Z"
+        }
+      }
+    ],
+    "farmer_id": "merlinlmh",
+    "farmer_plot_ids": [
+      "21662703761067",
+      "fieldno1",
+      "chundalefiledno7",
+      "fieldno4c",
+      "lowerdivision"
+    ],
+    "conversation_id": "66d9a42a7cc31a1977847df5",
+    "tag": "others",
+    "conv_date": "2024-09-05T12:29:38.819000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "डिवाइस स्थिती",
+        "timestamp": {
+          "$date": "2024-09-05T12:02:48.174Z"
+        },
+        "standalone_question": "Device status?",
+        "standalone_en": "Device status?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "device sthiti"
+      },
+      {
+        "role": "assistant",
+        "content": "यहाँ आपके सभी प्लॉट्स के लिए डिवाइस की स्थिति है:\n\n1. **Plot 2 Pome (ashapura2)**\n   - **मिट्टी का तापमान:** 25.88°C\n   - **मिट्टी की नमी:** 0 kPa\n   - **बैटरी:** 43%\n\n2. **Plot 7 (ashapura7pome)**\n   - **मिट्टी का तापमान:** 27.88°C\n   - **मिट्टी की नमी:** 0 kPa\n   - **बैटरी:** 33%\n\n3. **PLOT 1 (ashapuraplot1pome)**\n   - **मिट्टी का तापमान:** 28.69°C\n   - **मिट्टी की नमी:** 2 kPa\n   - **बैटरी:** 13%\n\n4. **Demo Plot (demoplot)**\n   - **मिट्टी का तापमान:** 29.31°C\n   - **मिट्टी की नमी:** 0 kPa (1st sensor), 200 kPa (2nd sensor)\n   - **बैटरी:** 51%\n\n5. **Plot 5 Pome (kesari3)**\n   - **मिट्टी का तापमान:** 28.75°C\n   - **मिट्टी की नमी:** 1 kPa (1st sensor), 8 kPa (2nd sensor)\n   - **बैटरी:** 0% (Faulty)\n\n6. **Plot 4**\n   - **हवा का तापमान:** 28.93°C\n   - **हवा की आर्द्रता:** 85.30%\n   - **मिट्टी का तापमान:** 28.75°C\n   - **मिट्टी की नमी:** 3 kPa (1st sensor), 4 kPa (2nd sensor)\n   - **बैटरी:** 102%\n\n7. **Plot 6 (plot886)**\n   - **मिट्टी का तापमान:** 28.38°C\n   - **मिट्टी की नमी:** 3 kPa (both sensors)\n   - **बैटरी:** 43%\n\n8. **Plot 8 (pomegranate8)**\n   - **मिट्टी का तापमान:** 28.81°C\n   - **मिट्टी की नमी:** 6 kPa (1st sensor), 5 kPa (2nd sensor)\n   - **बैटरी:** 100%\n\n9. **M2 (pomo8)**\n   - **मिट्टी का तापमान:** 29.56°C\n   - **मिट्टी की नमी:** 9 kPa (1st sensor), 6 kPa (2nd sensor)\n   - **बैटरी:** 51%\n\n10. **M1 (pomo9)**\n    - **हवा का तापमान:** 28.4°C\n    - **हवा की आर्द्रता:** 99%\n    - **मिट्टी का तापमान:** 28°C\n    - **मिट्टी की नमी:** 5 kPa (1st sensor), 3 kPa (2nd sensor)\n    - **बैटरी:** 74%\n\nकृपया ध्यान दें कि कुछ प्लॉट्स में मिट्टी की नमी 0 kPa दिखा रही है, जो कि अत्यधिक गीली स्थिति को दर्शाता है। यदि आपको किसी समस्या का सामना करना पड़ रहा है, तो कृपया बताएं।",
+        "timestamp": {
+          "$date": "2024-09-05T12:02:48.174Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": " किन किन प्लॉट पर इरीगेशन की आवश्यकता है",
+        "timestamp": {
+          "$date": "2024-09-05T12:03:59.923Z"
+        },
+        "standalone_question": "Which plots require irrigation?",
+        "standalone_en": "Which plots require irrigation?",
+        "retrieval": {
+          "tools": [
+            "get_irrigation_installation_settings\n    retrieves the irrigation installation settings in the farmer's plots, can be used to calculate the irrigation hours.\n    returns root_width, root_depth, soil_retention, dripper_distance, dripper_discharge"
+          ],
+          "faq": [
+            "Q: How to measure/ calculate irrigation hours /water tank of my plot in fyllo app? How do I calculate irrigation hours for my plot? How to use the irrigation hours calculator?\nA: To calculate irrigation hours in the Fyllo app, follow these steps:\n\n1. Open the Fyllo App\n2. Go to the home screen\n3. Click on the soil moisture-1 sensor\n4. Scroll down to find the \"Irrigation hours\" section\n5. Fill in the required details such as:\n   - Root width (inches)\n   - Root depth (inches)\n   - Soil retention (mm)\n   - Dripper distance (feet)\n   - Dripper discharge (liters)\n6. Click the calculate button\n\nWould you like me to calculate the irrigation hours for you right now? I can retrieve your plot's irrigation settings and perform the calculation if you say yes.\n\nTool Selection: When user says yes, I should:\n1. Use get_irrigation_installation_settings tool to retrieve plot settings\n2. Check if all values are present and valid\n3. If values are valid, use calculate_irrigation_hours tool with these values\n4. If values are missing or invalid, ask the user to provide the missing values\n5. After calculating irrigation hours, display the irrigation installation settings that were used for the calculation\n6. Ask the user if they want to calculate irrigation hours with a different set of values, and if yes, prompt them to provide those values\n\nExample response if values are missing:\n\"I checked your plot settings, but I need some additional information to calculate irrigation hours accurately. Could you please provide the [missing value(s)]? Once you provide these details, I can complete the calculation for you.\"\n\nExample response after calculation:\n\"Based on your plot's irrigation settings, the calculated irrigation hours are [X] hours. \n\nI used the following settings for this calculation:\n- Root width: [value] inches\n- Root depth: [value] inches\n- Soil retention: [value] mm\n- Dripper distance: [value] feet\n- Dripper discharge: [value] liters\n\nWould you like to calculate irrigation hours with a different set of values? If yes, please provide the new values you'd like to use.\"",
+            "Q: Do I need to do fertigation on my farm?\nA: Fyllo provides a fixed fertigation schedule based on plot and crop details, along with weather forecasting data for farmer plots, to decide the fertilizer/fertigation needs.",
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil."
+          ]
+        },
+        "content_transliterated": " kin kin plot par irrigation ki aavashyakta hai"
+      },
+      {
+        "role": "assistant",
+        "content": "यहाँ उन प्लॉट्स की सूची है जहाँ इरीगेशन की आवश्यकता है:\n\n1. **Plot 2 Pome (ashapura2)**\n   - **मिट्टी की नमी:** डेटा उपलब्ध नहीं है, लेकिन इरीगेशन की आवश्यकता है।\n\n2. **Plot 7 (ashapura7pome)**\n   - **मिट्टी की नमी:** 0 kPa (दोनों सेंसर)\n   - **इरीगेशन की आवश्यकता:** हाँ (इरीगेट करें)\n\n3. **PLOT 1 (ashapuraplot1pome)**\n   - **मिट्टी की नमी:** 0 kPa (दूसरा सेंसर)\n   - **इरीगेशन की आवश्यकता:** हाँ (इरीगेट करें)\n\n4. **Demo Plot (demoplot)**\n   - **मिट्टी की नमी:** 0 kPa (पहला सेंसर)\n   - **इरीगेशन की आवश्यकता:** हाँ (इरीगेट करें)\n\n5. **Plot 5 Pome (kesari3)**\n   - **मिट्टी की नमी:** डेटा उपलब्ध नहीं है, लेकिन इरीगेशन की आवश्यकता है।\n\n6. **Plot 4**\n   - **मिट्टी की नमी:** 3 kPa (पहला सेंसर), 4 kPa (दूसरा सेंसर)\n   - **इरीगेशन की आवश्यकता:** हाँ (इरीगेट करें)\n\n7. **Plot 6 (plot886)**\n   - **मिट्टी की नमी:** 3 kPa (दोनों सेंसर)\n   - **इरीगेशन की आवश्यकता:** हाँ (इरीगेट करें)\n\n8. **Plot 8 (pomegranate8)**\n   - **मिट्टी की नमी:** 6 kPa (पहला सेंसर), 5 kPa (दूसरा सेंसर)\n   - **इरीगेशन की आवश्यकता:** नहीं (इरीगेट करने की आवश्यकता नहीं)\n\n9. **M2 (pomo8)**\n   - **मिट्टी की नमी:** 9 kPa (पहला सेंसर), 6 kPa (दूसरा सेंसर)\n   - **इरीगेशन की आवश्यकता:** नहीं (इरीगेट करने की आवश्यकता नहीं)\n\n10. **M1 (pomo9)**\n    - **मिट्टी की नमी:** 5 kPa (पहला सेंसर), 4 kPa (दूसरा सेंसर)\n    - **इरीगेशन की आवश्यकता:** हाँ (इरीगेट करें)\n\n**निष्कर्ष:** Plot 7, PLOT 1, Demo Plot, Plot 4, Plot 6, और M1 पर इरीगेशन की आवश्यकता है।",
+        "timestamp": {
+          "$date": "2024-09-05T12:03:59.923Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "इस सप्ताह का कीटक रोग का अनुमान",
+        "timestamp": {
+          "$date": "2024-09-05T12:05:52.823Z"
+        },
+        "standalone_question": "What is the prediction for pest diseases this week?",
+        "standalone_en": "What is the prediction for pest diseases this week?",
+        "retrieval": {
+          "tools": [
+            "get_historical_pest_prediction_metrics  \nReturns the historical daily crop pest prediction metrics for the given pests, checking all dependent parameters inherently."
+          ],
+          "faq": [
+            "Q: What is the pest prediction?\nA: Check the all pest predictions relevant. We support Aphids, Banana aphids, Bihar hairy caterpillar, Broad mites, Brown plant hopper, Capsule borer, Caterpillar,\n   Citrus Psylla, Cut worm, Early shoot borer, European red mites, Flat mites, Flea Beetle, Flea beetle, Fruit Borer,\n   Fruit Fly, Fruit borer, Fruit fly, Green aphids, Hispa beetle, Jassids, Leaf eating caterpillar, Leaf folder, Leaf miner,\n   Leaf roller, Mango hopper, Mealy Bug, Mealy bug, Mealybug, Mites, Perianth mites, Pin worm, Pink bollworm,\n   Pseudostem weevil, Red Spider Mites, Red palm weevil, Red spider mites, Rhinoceros beetle, Rhizome weevil, Root Grubs,\n   Root knot nematode, Rugose spiraling whitefly, Rust mites, Rust thrips, Scale Insects, Scale insects, Scarring beetle,\n   Shoot borer, Skipper, Spiraling whitefly, Spodoptera, Stem Borer, Stem borer, Striped beetle, Striped cucumber beetle,\n   Tea Mosquitto Bug, Tea mosquitto bug, Termite, Thrips, White Fly, White fly, Whitefly, and Wooly aphids.",
+            "Q: What pests predictions does fyllo support?\nA: Fyllo supports the following pests:\n   Aphids, Banana aphids, Bihar hairy caterpillar, Broad mites, Brown plant hopper, Capsule borer, Caterpillar,\n   Citrus Psylla, Cut worm, Early shoot borer, European red mites, Flat mites, Flea Beetle, Flea beetle, Fruit Borer,\n   Fruit Fly, Fruit borer, Fruit fly, Green aphids, Hispa beetle, Jassids, Leaf eating caterpillar, Leaf folder, Leaf miner,\n   Leaf roller, Mango hopper, Mealy Bug, Mealy bug, Mealybug, Mites, Perianth mites, Pin worm, Pink bollworm,\n   Pseudostem weevil, Red Spider Mites, Red palm weevil, Red spider mites, Rhinoceros beetle, Rhizome weevil, Root Grubs,\n   Root knot nematode, Rugose spiraling whitefly, Rust mites, Rust thrips, Scale Insects, Scale insects, Scarring beetle,\n   Shoot borer, Skipper, Spiraling whitefly, Spodoptera, Stem Borer, Stem borer, Striped beetle, Striped cucumber beetle,\n   Tea Mosquitto Bug, Tea mosquitto bug, Termite, Thrips, White Fly, White fly, Whitefly, and Wooly aphids.",
+            "Q: How does the device predict diseases and pests?\nA: It captures data from different parameters using sensors and analyzes it using various agronomical algorithms, including different models for all diseases and pests.\n   Each disease and pest has a specific etymology, which is the suitable environment for its incidence."
+          ]
+        },
+        "content_transliterated": "is saptah ka keetak rog ka anuman"
+      },
+      {
+        "role": "assistant",
+        "content": "इस सप्ताह के कीट और रोग का अनुमान निम्नलिखित है:\n\n### रोग का अनुमान:\n1. **Plot 4**\n   - **Anthracnose**\n     - 2024-09-05: 54.3% (मध्यम जोखिम)\n     - 2024-09-04: 52.7% (मध्यम जोखिम)\n     - 2024-09-03: 55.2% (मध्यम जोखिम)\n     - 2024-09-02: 57.4% (मध्यम जोखिम)\n     - 2024-09-01: 60.7% (मध्यम जोखिम)\n   - **Bacterial Blight**\n     - 2024-09-05: 48.8% (मध्यम जोखिम)\n     - 2024-09-04: 49.0% (मध्यम जोखिम)\n     - 2024-09-03: 34.8% (कम जोखिम)\n     - 2024-09-02: 33.3% (कम जोखिम)\n     - 2024-09-01: 52.0% (मध्यम जोखिम)\n   - **Cercospora**\n     - 2024-09-05: 46.4% (कम जोखिम)\n     - 2024-09-04: 46.0% (कम जोखिम)\n     - 2024-09-03: 40.5% (कम जोखिम)\n     - 2024-09-02: 38.8% (कम जोखिम)\n     - 2024-09-01: 44.5% (कम जोखिम)\n\n2. **M1 (pomo9)**\n   - **Anthracnose**\n     - 2024-09-05: 60.2% (मध्यम जोखिम)\n     - 2024-09-04: 71.9% (उच्च जोखिम)\n     - 2024-09-03: 89.5% (उच्च जोखिम)\n     - 2024-09-02: 100% (उच्च जोखिम)\n     - 2024-09-01: 100% (उच्च जोखिम)\n   - **Bacterial Blight**\n     - 2024-09-05: 95.4% (उच्च जोखिम)\n     - 2024-09-04: 100% (उच्च जोखिम)\n     - 2024-09-03: 100% (उच्च जोखिम)\n     - 2024-09-02: 100% (उच्च जोखिम)\n     - 2024-09-01: 100% (उच्च जोखिम)\n   - **Cercospora**\n     - 2024-09-05: 61.7% (मध्यम जोखिम)\n     - 2024-09-04: 100% (उच्च जोखिम)\n     - 2024-09-03: 100% (उच्च जोखिम)\n     - 2024-09-02: 100% (उच्च जोखिम)\n     - 2024-09-01: 100% (उच्च जोखिम)\n\n### कीट का अनुमान:\n1. **Plot 4**\n   - **Thrips**\n     - 2024-09-05: 64.2% (मध्यम जोखिम)\n     - 2024-09-04: 61.9% (मध्यम जोखिम)\n     - 2024-09-03: 65.1% (मध्यम जोखिम)\n     - 2024-09-02: 71.2% (मध्यम जोखिम)\n     - 2024-09-01: 74.0% (मध्यम जोखिम)\n   - **Mealybug**\n     - 2024-09-05: 36.4% (कम जोखिम)\n     - 2024-09-04: 32.4% (कम जोखिम)\n     - 2024-09-03: 41.3% (कम जोखिम)\n     - 2024-09-02: 47.4% (कम जोखिम)\n     - 2024-09-01: 50.5% (मध्यम जोखिम)\n   - **Fruit Borer**\n     - 2024-09-05: 61.8% (मध्यम जोखिम)\n     - 2024-09-04: 69.4% (मध्यम जोखिम)\n     - 2024-09-03: 66.0% (मध्यम जोखिम)\n     - 2024-09-02: 57.2% (मध्यम जोखिम)\n     - 2024-09-01: 57.0% (मध्यम जोखिम)\n   - **Aphids**\n     - 2024-09-05: 44.0% (मध्यम जोखिम)\n     - 2024-09-04: 43.0% (मध्यम जोखिम)\n     - 2024-09-03: 43.0% (मध्यम जोखिम)\n     - 2024-09-02: 41.7% (मध्यम जोखिम)\n     - 2024-09-01: 39.1% (मध्यम जोखिम)\n   - **White Fly**\n     - 2024-09-05: 54.2% (उच्च जोखिम)\n     - 2024-09-04: 53.6% (मध्यम जोखिम)\n     - 2024-09-03: 55.9% (उच्च जोखिम)\n     - 2024-09-02: 55.1% (उच्च जोखिम)\n     - 2024-09-01: 52.3% (मध्यम जोखिम)\n\n2. **M1 (pomo9)**\n   - **Thrips**\n     - 2024-09-05: 60.1% (मध्यम जोखिम)\n     - 2024-09-04: 56.8% (मध्यम जोखिम)\n     - 2024-09-03: 61.4% (मध्यम जोखिम)\n     - 2024-09-02: 67.3% (मध्यम जोखिम)\n     - 2024-09-01: 68.6% (मध्यम जोखिम)\n   - **Fruit Borer**\n     - 2024-09-05: 77.5% (उच्च जोखिम)\n     - 2024-09-04: 87.9% (उच्च जोखिम)\n     - 2024-09-03: 73.6% (उच्च जोखिम)\n     - 2024-09-02: 61.9% (मध्यम जोखिम)\n     - 2024-09-01: 60.4% (मध्यम जोखिम)\n\nकृपया ध्यान दें कि कुछ प्लॉट्स में कीट और रोग का कोई अनुमान नहीं है। यदि आपको किसी विशेष प्लॉट के लिए और जानकारी चाहिए, तो कृपया बताएं।",
+        "timestamp": {
+          "$date": "2024-09-05T12:05:52.823Z"
+        }
+      }
+    ],
+    "farmer_id": "mahipalsinh88",
+    "farmer_plot_ids": [
+      "ashapura2",
+      "ashapura7pome",
+      "ashapuraplot1pome",
+      "demoplot",
+      "kesari3",
+      "plot4",
+      "plot886",
+      "pomegranate8",
+      "pomo8",
+      "pomo9"
+    ],
+    "conversation_id": "66d99ddea918b397ad4f57ee",
+    "tag": "disease_pest",
+    "conv_date": "2024-09-05T12:02:48.174000+00:00"
+  }
+]

@@ -1,0 +1,666 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "एप्रिल खरड छाटणीला इथरेलचा मध्ये काय मिक्स करावे",
+        "en": "What to mix with ethereal on April kharad pruning",
+        "timestamp": {
+          "$date": "2025-03-08T15:21:24.831Z"
+        },
+        "standalone_question": "What should I mix with April's kharadi chutney?",
+        "standalone_en": "What should I mix with April's kharadi chutney?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "april kharad chhatanila itharelacha madhye kay mix karave"
+      },
+      {
+        "role": "assistant",
+        "content": "एप्रिलमध्ये खरड छाटणीसाठी इथरेल (Ethrel) चा वापर केला जातो. इथरेलचा मिक्सिंग प्रमाण साधारणतः 200-300 ppm (parts per million) असावा. यासाठी, 1 लिटर इथरेलमध्ये 1000 लिटर पाण्यात मिसळा. \n\nतुमच्या पिकाच्या प्रकारानुसार आणि स्थानिक परिस्थितीनुसार प्रमाणात थोडा बदल होऊ शकतो, त्यामुळे स्थानिक कृषी तज्ञांचा सल्ला घेणे चांगले.",
+        "en": "Ethereal is used for pruning in April. The mixing ratio of ethereal should generally be 200-300 ppm (parts per million). For this, mix 1 liter of ethereal with 1000 liters of water. \n\nThe amount may vary slightly depending on the type of crop and local conditions, so it's best to consult a local agricultural expert.",
+        "timestamp": {
+          "$date": "2025-03-08T15:21:28.260Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "एप्रिल खरड छाटणीला पान देठ कितव्या दिवसांपासून करता येते",
+        "en": "How long can the leaf stalk be done in April kharad pruning?",
+        "timestamp": {
+          "$date": "2025-03-08T15:22:42.123Z"
+        },
+        "standalone_question": "How many days before the April pruning can leaf petioles be applied?",
+        "standalone_en": "How many days before the April pruning can leaf petioles be applied?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise."
+          ]
+        },
+        "content_transliterated": "april kharad chhatanila pan deth kitavya divasampasun karata yete"
+      },
+      {
+        "role": "assistant",
+        "content": "एप्रिलमध्ये खरड छाटणीसाठी पान देठ (petiole) चाचणी साधारणतः छाटणीच्या 15-20 दिवसांनंतर करता येते. यामुळे तुम्हाला पिकाच्या पोषणाची स्थिती समजून घेता येईल आणि आवश्यकतेनुसार खतांचा वापर करू शकता. स्थानिक परिस्थितीनुसार आणि पिकाच्या प्रकारानुसार थोडा बदल होऊ शकतो, त्यामुळे स्थानिक कृषी तज्ञांचा सल्ला घेणे चांगले.",
+        "en": "The petiole test for pruning in April can usually be done 15-20 days after pruning. This will help you understand the nutritional status of the crop and use fertilizers as needed. There may be some variation depending on the local conditions and the type of crop, so it is best to consult a local agricultural expert.",
+        "timestamp": {
+          "$date": "2025-03-08T15:22:46.080Z"
+        }
+      }
+    ],
+    "farmer_id": "ajitkumarkolekar",
+    "farmer_plot_ids": [
+      "grapesplot752"
+    ],
+    "conversation_id": "67cc60741dce55c37b2101fc",
+    "_id": "67cc60741dce55c37b2101fc",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-03-08T15:27:42.131000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-03-08T15:21:24.831000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "When will agronomist visit my feild",
+        "en": "When will agronomist visit my feild",
+        "timestamp": {
+          "$date": "2025-03-08T15:21:10.217Z"
+        },
+        "standalone_question": "When will the agronomist visit my field?",
+        "standalone_en": "When will the agronomist visit my field?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: When should we take the petiole and soil samples?\nA: It varies crop-wise.",
+            "Q: Do I need to spray?\nA: Check the disease pest spray schedule for the farmer and reply accordingly. Don't check metrics, only pre-defined schedules to be checked."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "To schedule a visit from an agronomist, please raise a maintenance ticket in the app or contact our team for further assistance.",
+        "en": "To schedule a visit from an agronomist, please raise a maintenance ticket in the app or contact our team for further assistance.",
+        "timestamp": {
+          "$date": "2025-03-08T15:21:13.665Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Is it paid or free",
+        "en": "Is it paid or free",
+        "timestamp": {
+          "$date": "2025-03-08T15:21:24.763Z"
+        },
+        "standalone_question": "Is the visit from the agronomist paid or free?",
+        "standalone_en": "Is the visit from the agronomist paid or free?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The services provided by Fyllo, including agronomist visits, fertigation schedules, and pest control recommendations, may vary in terms of cost. Please check with your local Fyllo representative or refer to your service agreement for specific details regarding any fees associated with these services.",
+        "en": "The services provided by Fyllo, including agronomist visits, fertigation schedules, and pest control recommendations, may vary in terms of cost. Please check with your local Fyllo representative or refer to your service agreement for specific details regarding any fees associated with these services.",
+        "timestamp": {
+          "$date": "2025-03-08T15:21:28.601Z"
+        }
+      }
+    ],
+    "farmer_id": "hasandeepbrar",
+    "farmer_plot_ids": [
+      "kinnowplot643"
+    ],
+    "conversation_id": "67cc60661dce55c37b2101fb",
+    "_id": "67cc60661dce55c37b2101fb",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-03-08T15:26:24.771000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-03-08T15:21:10.217000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "मॅालिबडेनम खत",
+        "en": "Malalibdenum fertilizer",
+        "timestamp": {
+          "$date": "2025-03-08T14:14:54.807Z"
+        },
+        "standalone_question": "What is the meaning of \"मॅालिबडेनम खत\"?",
+        "standalone_en": "What is the meaning of \"molybdenum khat\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "mealibadenam khat"
+      },
+      {
+        "role": "assistant",
+        "content": "मॅालिबडेनम खत म्हणजे मॅालिबडेनम (Mo) या पोषण घटकाचे एक प्रकारचे खत आहे, जे पिकांच्या वाढीसाठी आवश्यक आहे. हे मुख्यतः पिकांच्या नाइट्रोजन चयापचयात महत्त्वाचे आहे आणि पिकांच्या फुलांच्या आणि फळांच्या विकासात मदत करते. \n\nमॅालिबडेनम खताचा वापर विशेषतः कडधान्ये, फळे आणि भाज्या यांसारख्या पिकांमध्ये केला जातो. यामुळे पिकांची उत्पादनक्षमता वाढवता येते आणि रोग प्रतिकारशक्ती सुधारता येते. \n\nआपल्या पिकांच्या आवश्यकतेनुसार मॅालिबडेनम खताचा वापर करणे महत्त्वाचे आहे.",
+        "en": "Malalibdenum fertilizer is a type of fertilizer of the nutrient malibdenum (Mo), which is essential for the growth of crops. It is mainly important in the nitrogen metabolism of crops and helps in the development of flowers and fruits of crops. \n\nMalalibdenum fertilizer is especially used in crops such as pulses, fruits and vegetables. This can increase the productivity of crops and improve immunity. \n\nIt is important to use melibdenum fertilizer as per the requirements of your crops.",
+        "timestamp": {
+          "$date": "2025-03-08T14:14:59.736Z"
+        }
+      }
+    ],
+    "farmer_id": "abhaygadagebaramatimalad",
+    "farmer_plot_ids": [
+      "86032plot673",
+      "bananaplot113"
+    ],
+    "conversation_id": "67cc50de1dce55c37b2101fa",
+    "_id": "67cc50de1dce55c37b2101fa",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-03-08T14:19:54.815000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-03-08T14:14:54.807000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મીનાક્ષી ",
+        "en": "Meenakshi ",
+        "timestamp": {
+          "$date": "2025-03-08T10:16:52.410Z"
+        },
+        "standalone_question": "What is the meaning of \"Minakshi\"?",
+        "standalone_en": "What is the meaning of \"Minakshi\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "minakshi "
+      },
+      {
+        "role": "assistant",
+        "content": "કૃપા કરીને તમારા પ્રશ્નને સ્પષ્ટ કરો કે હું કેવી રીતે મદદ કરી શકું?",
+        "en": "Please clarify your question as to how can I help?",
+        "timestamp": {
+          "$date": "2025-03-08T10:16:58.658Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મગફળી ની ભીત",
+        "en": "The smell of peanuts",
+        "timestamp": {
+          "$date": "2025-03-08T10:17:12.106Z"
+        },
+        "standalone_question": "What is the meaning of \"મગફળી ની ભીત\"?",
+        "standalone_en": "What is the meaning of \"મગફળી ની ભીત\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "magaphali knee bhit"
+      },
+      {
+        "role": "assistant",
+        "content": "મગફળીની ખેતી માટે યોગ્ય સંભાળ અને વ્યવસ્થાપન મહત્વપૂર્ણ છે. કૃપા કરીને જણાવો કે તમે કઈ માહિતી શોધી રહ્યા છો, જેમ કે:\n\n1. મગફળીના પાક માટેની ખાતર અને પાણીની જરૂરિયાત.\n2. રોગ અને કીટક નિયંત્રણ.\n3. જમીનની આરોગ્ય અને પોષણ.\n4. સિંચાઈની વ્યૂહરચના.\n\nતમારા પ્રશ્નને વધુ સ્પષ્ટ બનાવશો તો હું વધુ સારી રીતે મદદ કરી શકું.",
+        "en": "Proper care and management is important for groundnut cultivation. Please tell us what information you are looking for, such as:\n\n1. Fertilizer and water requirement for groundnut crop.\n2. Disease and pest control.\n3. Soil health and nutrition.\n4. Irrigation strategy.\n\nI can help better if you make your question more clear.",
+        "timestamp": {
+          "$date": "2025-03-08T10:17:15.726Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ભુમિ ચકાસણી માટે કોનો સંપર્ક કરવો",
+        "en": "Whom to contact for land verification",
+        "timestamp": {
+          "$date": "2025-03-08T10:17:50.023Z"
+        },
+        "standalone_question": "Who should I contact for soil testing?",
+        "standalone_en": "Who should I contact for soil testing?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Why should I consider soil, leaf, or petiole testing?\nA: Soil, leaf, and petiole testing are crucial for effective plant health management. These tests provide specific data about your crop's nutrient needs, allowing for more precise fertilizer application. This can lead to higher productivity with optimized input use, potentially reducing costs and environmental impact."
+          ]
+        },
+        "content_transliterated": "bhumi chakasani mate kono sampark karavo"
+      },
+      {
+        "role": "assistant",
+        "content": "ભૂમિ ચકાસણી માટે, તમે નીચેના વિકલ્પોમાંથી કોઈ એકનો સંપર્ક કરી શકો છો:\n\n1. **સ્થાનિક કૃષિ વિભાગ**: તમારા નિકટવર્તી કૃષિ વિભાગમાં સંપર્ક કરો. તેઓ જમીન ચકાસણી માટેની સેવાઓ પ્રદાન કરી શકે છે.\n\n2. **ખેતી સંશોધન કેન્દ્ર**: નજીકના કૃષિ સંશોધન કેન્દ્રમાં જાઓ, જ્યાં તેઓ જમીન અને પાકના પરીક્ષણ માટેની સેવાઓ આપે છે.\n\n3. **ખેતીના નિષ્ણાતો**: સ્થાનિક ખેતીના નિષ્ણાતો અથવા કૃષિ સલાહકારો સાથે સંપર્ક કરો, જે જમીન ચકાસણીમાં મદદ કરી શકે છે.\n\n4. **ખેતીના સહકાર સંગઠનો**: કેટલાક સહકાર સંગઠનો પણ જમીન ચકાસણી માટેની સેવાઓ પ્રદાન કરે છે.\n\nતમારા વિસ્તારના સંસાધનો અને સેવાઓની ઉપલબ્ધતા અનુસાર, તમે યોગ્ય વિકલ્પ પસંદ કરી શકો છો.",
+        "en": "For ground verification, you can contact one of the following options:\n\n1. **Local Agriculture Department**: Contact your nearest Agriculture Department. They can provide services for land verification.\n\n2. **Agricultural Research Centre**: Go to the nearest Agricultural Research Centre, where they provide services for soil and crop testing.\n\n3. **Farming Experts**: Contact local farming experts or agricultural consultants, who can help with land verification.\n\n4. **Agricultural Cooperation Organizations**: Some cooperation organizations also provide services for land verification.\n\nDepending on the availability of resources and services in your area, you can choose the right option.",
+        "timestamp": {
+          "$date": "2025-03-08T10:17:56.294Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "બનાસકાંઠા",
+        "en": "Banaskantha",
+        "timestamp": {
+          "$date": "2025-03-08T10:18:13.629Z"
+        },
+        "standalone_question": "Who should I contact for land testing in Banaskantha?",
+        "standalone_en": "Who should I contact for land testing in Banaskantha?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "banasakantha"
+      },
+      {
+        "role": "assistant",
+        "content": "બનાસકાંઠા ગુજરાતના ઉત્તર ભાગમાં આવેલું છે અને અહીંની ખેતીમાં મગફળી, ઘઉં, અને કપાસ જેવા પાકોનું મહત્વ છે. જો તમને ખાસ માહિતી જોઈએ છે, જેમ કે પાકની સંભાળ, જમીનની આરોગ્ય, અથવા સિંચાઈની વ્યૂહરચના, તો કૃપા કરીને વધુ સ્પષ્ટતા કરો. હું તમારી મદદ કરવા માટે તૈયાર છું!",
+        "en": "Banaskantha is located in the northern part of Gujarat and crops like groundnut, wheat, and cotton are important in its cultivation. If you want specific information, such as crop care, soil health, or irrigation strategies, please clarify more. I am ready to help you!",
+        "timestamp": {
+          "$date": "2025-03-08T10:18:17.933Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140"
+    ],
+    "conversation_id": "67cc1914b41ac6a5d2007efc",
+    "_id": "67cc1914b41ac6a5d2007efc",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-08T10:23:13.638000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-03-08T10:16:52.410000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મીનાક્ષી ",
+        "en": "Meenakshi ",
+        "timestamp": {
+          "$date": "2025-03-08T10:16:52.410Z"
+        },
+        "standalone_question": "What is the meaning of \"Minakshi\"?",
+        "standalone_en": "What is the meaning of \"Minakshi\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "minakshi "
+      },
+      {
+        "role": "assistant",
+        "content": "કૃપા કરીને તમારા પ્રશ્નને સ્પષ્ટ કરો કે હું કેવી રીતે મદદ કરી શકું?",
+        "en": "Please clarify your question as to how can I help?",
+        "timestamp": {
+          "$date": "2025-03-08T10:16:58.658Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "મગફળી ની ભીત",
+        "en": "The smell of peanuts",
+        "timestamp": {
+          "$date": "2025-03-08T10:17:12.106Z"
+        },
+        "standalone_question": "What is the meaning of \"મગફળી ની ભીત\"?",
+        "standalone_en": "What is the meaning of \"મગફળી ની ભીત\"?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "magaphali knee bhit"
+      },
+      {
+        "role": "assistant",
+        "content": "મગફળીની ખેતી માટે યોગ્ય સંભાળ અને વ્યવસ્થાપન મહત્વપૂર્ણ છે. કૃપા કરીને જણાવો કે તમે કઈ માહિતી શોધી રહ્યા છો, જેમ કે:\n\n1. મગફળીના પાક માટેની ખાતર અને પાણીની જરૂરિયાત.\n2. રોગ અને કીટક નિયંત્રણ.\n3. જમીનની આરોગ્ય અને પોષણ.\n4. સિંચાઈની વ્યૂહરચના.\n\nતમારા પ્રશ્નને વધુ સ્પષ્ટ બનાવશો તો હું વધુ સારી રીતે મદદ કરી શકું.",
+        "en": "Proper care and management is important for groundnut cultivation. Please tell us what information you are looking for, such as:\n\n1. Fertilizer and water requirement for groundnut crop.\n2. Disease and pest control.\n3. Soil health and nutrition.\n4. Irrigation strategy.\n\nI can help better if you make your question more clear.",
+        "timestamp": {
+          "$date": "2025-03-08T10:17:15.726Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "ભુમિ ચકાસણી માટે કોનો સંપર્ક કરવો",
+        "en": "Whom to contact for land verification",
+        "timestamp": {
+          "$date": "2025-03-08T10:17:50.023Z"
+        },
+        "standalone_question": "Who should I contact for soil testing?",
+        "standalone_en": "Who should I contact for soil testing?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Why should I consider soil, leaf, or petiole testing?\nA: Soil, leaf, and petiole testing are crucial for effective plant health management. These tests provide specific data about your crop's nutrient needs, allowing for more precise fertilizer application. This can lead to higher productivity with optimized input use, potentially reducing costs and environmental impact."
+          ]
+        },
+        "content_transliterated": "bhumi chakasani mate kono sampark karavo"
+      },
+      {
+        "role": "assistant",
+        "content": "ભૂમિ ચકાસણી માટે, તમે નીચેના વિકલ્પોમાંથી કોઈ એકનો સંપર્ક કરી શકો છો:\n\n1. **સ્થાનિક કૃષિ વિભાગ**: તમારા નિકટવર્તી કૃષિ વિભાગમાં સંપર્ક કરો. તેઓ જમીન ચકાસણી માટેની સેવાઓ પ્રદાન કરી શકે છે.\n\n2. **ખેતી સંશોધન કેન્દ્ર**: નજીકના કૃષિ સંશોધન કેન્દ્રમાં જાઓ, જ્યાં તેઓ જમીન અને પાકના પરીક્ષણ માટેની સેવાઓ આપે છે.\n\n3. **ખેતીના નિષ્ણાતો**: સ્થાનિક ખેતીના નિષ્ણાતો અથવા કૃષિ સલાહકારો સાથે સંપર્ક કરો, જે જમીન ચકાસણીમાં મદદ કરી શકે છે.\n\n4. **ખેતીના સહકાર સંગઠનો**: કેટલાક સહકાર સંગઠનો પણ જમીન ચકાસણી માટેની સેવાઓ પ્રદાન કરે છે.\n\nતમારા વિસ્તારના સંસાધનો અને સેવાઓની ઉપલબ્ધતા અનુસાર, તમે યોગ્ય વિકલ્પ પસંદ કરી શકો છો.",
+        "en": "For ground verification, you can contact one of the following options:\n\n1. **Local Agriculture Department**: Contact your nearest Agriculture Department. They can provide services for land verification.\n\n2. **Agricultural Research Centre**: Go to the nearest Agricultural Research Centre, where they provide services for soil and crop testing.\n\n3. **Farming Experts**: Contact local farming experts or agricultural consultants, who can help with land verification.\n\n4. **Agricultural Cooperation Organizations**: Some cooperation organizations also provide services for land verification.\n\nDepending on the availability of resources and services in your area, you can choose the right option.",
+        "timestamp": {
+          "$date": "2025-03-08T10:17:56.294Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "બનાસકાંઠા",
+        "en": "Banaskantha",
+        "timestamp": {
+          "$date": "2025-03-08T10:18:13.629Z"
+        },
+        "standalone_question": "Who should I contact for land testing in Banaskantha?",
+        "standalone_en": "Who should I contact for land testing in Banaskantha?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "banasakantha"
+      },
+      {
+        "role": "assistant",
+        "content": "બનાસકાંઠા ગુજરાતના ઉત્તર ભાગમાં આવેલું છે અને અહીંની ખેતીમાં મગફળી, ઘઉં, અને કપાસ જેવા પાકોનું મહત્વ છે. જો તમને ખાસ માહિતી જોઈએ છે, જેમ કે પાકની સંભાળ, જમીનની આરોગ્ય, અથવા સિંચાઈની વ્યૂહરચના, તો કૃપા કરીને વધુ સ્પષ્ટતા કરો. હું તમારી મદદ કરવા માટે તૈયાર છું!",
+        "en": "Banaskantha is located in the northern part of Gujarat and crops like groundnut, wheat, and cotton are important in its cultivation. If you want specific information, such as crop care, soil health, or irrigation strategies, please clarify more. I am ready to help you!",
+        "timestamp": {
+          "$date": "2025-03-08T10:18:17.933Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140"
+    ],
+    "conversation_id": "67cc1914b41ac6a5d2007efc",
+    "_id": "67cc1914b41ac6a5d2007efc",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-08T10:23:13.638000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-03-08T10:16:52.410000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Keenu<user uploaded image for analysis at 'valveno4/2025-03-08-1741423788229.jpg'>",
+        "en": "Keenu<user uploaded image for analysis at 'valveno4/2025-03-08-1741423788229.jpg'>",
+        "timestamp": {
+          "$date": "2025-03-08T08:49:52.696Z"
+        },
+        "standalone_question": "What can you tell me about the image that was uploaded?",
+        "standalone_en": "What can you tell me about the image that was uploaded?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the crop image shows signs of yellowing and mottling on the leaves, which may indicate a nutrient deficiency or a possible pest or disease issue, commonly seen in citrus crops like Kinnow.\n\n### Recommendations:\n1. **Nutrient Management**: Ensure the plants receive adequate nutrients, particularly nitrogen, magnesium, and iron, which are crucial for leaf health.\n2. **Pest Control**: Inspect the plants for any signs of pests, such as aphids or spider mites, which can cause similar symptoms.\n3. **Water Management**: Ensure proper irrigation practices to avoid water stress, which can exacerbate nutrient deficiencies.\n4. **Fungicide Application**: If fungal diseases are suspected, consider applying a suitable fungicide.\n\nFor a more targeted approach, a clearer image focusing on the affected areas would help in identifying the specific issue more accurately.",
+        "en": "The analysis of the crop image shows signs of yellowing and mottling on the leaves, which may indicate a nutrient deficiency or a possible pest or disease issue, commonly seen in citrus crops like Kinnow.\n\n### Recommendations:\n1. **Nutrient Management**: Ensure the plants receive adequate nutrients, particularly nitrogen, magnesium, and iron, which are crucial for leaf health.\n2. **Pest Control**: Inspect the plants for any signs of pests, such as aphids or spider mites, which can cause similar symptoms.\n3. **Water Management**: Ensure proper irrigation practices to avoid water stress, which can exacerbate nutrient deficiencies.\n4. **Fungicide Application**: If fungal diseases are suspected, consider applying a suitable fungicide.\n\nFor a more targeted approach, a clearer image focusing on the affected areas would help in identifying the specific issue more accurately.",
+        "timestamp": {
+          "$date": "2025-03-08T08:50:07.424Z"
+        }
+      }
+    ],
+    "farmer_id": "surenderbissu",
+    "farmer_plot_ids": [
+      "valveno3",
+      "valveno4"
+    ],
+    "conversation_id": "67cc04b0056fc3775eccdd91",
+    "_id": "67cc04b0056fc3775eccdd91",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-03-08T08:54:52.704000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-03-08T08:49:52.696000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Early blite",
+        "en": "Early blite",
+        "timestamp": {
+          "$date": "2025-03-08T06:21:16.865Z"
+        },
+        "standalone_question": "What is early blite?",
+        "standalone_en": "What is early blite?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "It seems like you are referring to \"Early Blight,\" a common disease affecting crops like tomatoes. Early blight is caused by the fungus Alternaria solani and can lead to leaf spots, wilting, and reduced yield.\n\nTo manage early blight, consider the following practices:\n\n1. **Crop Rotation**: Avoid planting tomatoes in the same location year after year.\n2. **Fungicide Application**: Use appropriate fungicides as a preventive measure or at the first sign of disease.\n3. **Proper Spacing**: Ensure good air circulation around plants to reduce humidity.\n4. **Water Management**: Water at the base of the plants to keep foliage dry.\n5. **Remove Infected Leaves**: Regularly inspect and remove any infected leaves to prevent the spread.\n\nIf you need specific recommendations or a spray schedule for your tomato crop, please let me know!",
+        "en": "It seems like you are referring to \"Early Blight,\" a common disease affecting crops like tomatoes. Early blight is caused by the fungus Alternaria solani and can lead to leaf spots, wilting, and reduced yield.\n\nTo manage early blight, consider the following practices:\n\n1. **Crop Rotation**: Avoid planting tomatoes in the same location year after year.\n2. **Fungicide Application**: Use appropriate fungicides as a preventive measure or at the first sign of disease.\n3. **Proper Spacing**: Ensure good air circulation around plants to reduce humidity.\n4. **Water Management**: Water at the base of the plants to keep foliage dry.\n5. **Remove Infected Leaves**: Regularly inspect and remove any infected leaves to prevent the spread.\n\nIf you need specific recommendations or a spray schedule for your tomato crop, please let me know!",
+        "timestamp": {
+          "$date": "2025-03-08T06:21:21.689Z"
+        }
+      }
+    ],
+    "farmer_id": "shantibhaidangivrt8888",
+    "farmer_plot_ids": [
+      "ccsri1",
+      "plot2tomoto88"
+    ],
+    "conversation_id": "67cbe1dc056fc3775eccdd90",
+    "_id": "67cbe1dc056fc3775eccdd90",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-03-08T06:26:16.874000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-03-08T06:21:16.865000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "મગફળી ના દાણા ને અન્ય કોઈ દવા આપવી કે ડાયરેકટ",
+        "en": "Giving peanut stalks any other medicine or direct",
+        "timestamp": {
+          "$date": "2025-03-08T05:51:32.955Z"
+        },
+        "standalone_question": "Should peanuts be given any other medicine or directly?",
+        "standalone_en": "Should peanuts be given any other medicine or directly?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "magaphali na dana ne any koi dava apavi ke direct"
+      },
+      {
+        "role": "assistant",
+        "content": "મગફળીના દાણાને સીધા વાવવાની પહેલા, તમે તેને બીજની સારવાર માટે કેટલીક દવાઓ આપી શકો છો. અહીં કેટલીક દવાઓ છે:\n\n1. **ઇનસેક્ટિસાઇડ**: \n   - **Imidacloprid 600 FS** – 5 થી 8 મીલીલિટર/kg બીજ.\n\n2. **ફંગિસાઇડ**: \n   - **Thiram** – 2 થી 3 ગ્રામ/kg બીજ.\n\nઆ દવાઓનો ઉપયોગ બીજની સારવાર માટે કરો, જેથી બીજના વિકાસમાં કોઈ રોગ અથવા કીટકનો પ્રભાવ ન પડે.",
+        "en": "Before planting peanut seeds directly, you can give it some medicines to treat the seeds. Here are some medicines:\n\n1. **Insecticide**: \n   **Imidacloprid 600 FS** – 5 to 8 milliliters/kg seeds.\n\n2. **Fungiside**: \n   * **Thiram** – 2 to 3 g/kg of seeds.\n\nUse these medicines to treat seeds so that there is no disease or insect effect in seed development.",
+        "timestamp": {
+          "$date": "2025-03-08T05:51:37.997Z"
+        }
+      }
+    ],
+    "farmer_id": "shavajimanchaji",
+    "farmer_plot_ids": [
+      "kairo1140"
+    ],
+    "conversation_id": "67cbdae4056fc3775eccdd8f",
+    "_id": "67cbdae4056fc3775eccdd8f",
+    "language": "gu",
+    "expiry": {
+      "$date": "2025-03-08T05:56:32.962000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-03-08T05:51:32.955000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "Plot ke arresting kab Hogi",
+        "en": "Plot ke arresting kab Hogi",
+        "timestamp": {
+          "$date": "2025-03-08T04:37:19.759Z"
+        },
+        "standalone_question": "When will Plot be arrested?",
+        "standalone_en": "When will Plot be arrested?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Aapke plot \"Watermelon Savkar\" mein abhi \"Flowering and Fruiting\" ka charan chal raha hai, jo 28 February 2025 se shuru hua tha. Iske baad \"Fruit Maturity\" ka charan aayega, jo aapke crop ke liye agla kadam hoga. \n\nHarvest ka charan iske baad aayega. Harvest ki tareekh abhi nishchit nahi hai, lekin aapko \"Fruit Maturity\" ke baad hi is par dhyan dena hoga.",
+        "en": "Your plot \"Watermelon Savkar\" is currently undergoing the phase of \"Flooring and Fruiting\", which started on 28 February 2025. This will be followed by the stage of \"fruit maturity\", which will be the next step for your crop. \n\nThe harvest phase will come next. The harvest date is not yet fixed, but you will have to take care of it only after \"fruit maturity\".",
+        "timestamp": {
+          "$date": "2025-03-08T04:37:24.175Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Welding ke liye kya hai",
+        "en": "What is welding for?",
+        "timestamp": {
+          "$date": "2025-03-08T04:37:59.775Z"
+        },
+        "standalone_question": "What is required for welding?",
+        "standalone_en": "What is required for welding?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Welding ke liye aapko kuch mahatvapurn cheezein dhyan mein rakhni chahiye:\n\n1. **Soil Moisture**: Aapke plot ki soil moisture ko check karna zaroori hai. Agar soil moisture 0 kPa hai, to aapko welding ke liye paani dene ki zaroorat nahi hai. Lekin agar moisture 200 kPa ke aas-paas hai, to aapko paani dena chahiye.\n\n2. **Weather Conditions**: Mausam ki sthiti bhi welding ke liye mahatvapurn hai. Barish ya adhik hawa se bachne ke liye, aapko mausam ka dhyan rakhna hoga.\n\n3. **Crop Stage**: Aapka crop abhi \"Flowering and Fruiting\" ke charan mein hai, isliye aapko welding ke liye samay ka dhyan rakhna hoga, taki aapke phalon par koi prabhav na pade.\n\nAgar aapko specific welding ki zaroorat hai, to mujhe bataiye, main aapki madad kar sakta hoon.",
+        "en": "There are a few important things you should keep in mind for welding:\n\n1. Soil Moisture: It is important to check the soil moisture of your plot. If the soil moisture is 0 kPa, you don't need to water for welding. But if the moisture is around 200 kPa, then you should give water.\n\n2. Weather Conditions: Weather conditions are also important for welding. To avoid rain or overwind, you need to take care of the weather.\n\n3. Crop Stage: Your crop is currently in the \"Flooring and Fruiting\" stage, so you have to keep track of the time for welding, so that your fruits are not affected.\n\nIf you need specific welding, let me know, I can help you.",
+        "timestamp": {
+          "$date": "2025-03-08T04:38:05.656Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "Satisf editing ke liye bataiye",
+        "en": "Tell me for satisfaction editing.",
+        "timestamp": {
+          "$date": "2025-03-08T04:39:02.531Z"
+        },
+        "standalone_question": "What should I know for satisfactory editing?",
+        "standalone_en": "What should I know for satisfactory editing?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Satisf editing ke liye aapko kuch mahatvapurn cheezein dhyan mein rakhni chahiye:\n\n1. **Soil Moisture**: Soil moisture ko check karna zaroori hai. Agar soil moisture 0 kPa hai, to aapko paani dene ki zaroorat nahi hai. Lekin agar moisture 200 kPa ke aas-paas hai, to aapko paani dena chahiye.\n\n2. **Crop Stage**: Aapka crop abhi \"Flowering and Fruiting\" ke charan mein hai, isliye aapko satisf editing ke liye samay ka dhyan rakhna hoga, taki aapke phalon par koi prabhav na pade.\n\n3. **Weather Conditions**: Mausam ki sthiti bhi editing ke liye mahatvapurn hai. Barish ya adhik hawa se bachne ke liye, aapko mausam ka dhyan rakhna hoga.\n\nAgar aapko specific editing ki zaroorat hai, to mujhe bataiye, main aapki madad kar sakta hoon.",
+        "en": "There are a few important things you should keep in mind for satisfy editing:\n\n1. Soil Moisture: It is important to check the soil moisture. If soil moisture is 0 kPa, you don't need to water. But if the moisture is around 200 kPa, then you should give water.\n\n2. Crop Stage: Your crop is currently in the \"Flooring and Fruiting\" phase, so you have to keep track of the time for satisfying editing, so that there is no effect on your fruits.\n\n3. Weather Conditions: Weather conditions are also important for editing. To avoid rain or overwind, you need to take care of the weather.\n\nIf you need specific editing, let me know, I can help you.",
+        "timestamp": {
+          "$date": "2025-03-08T04:39:09.475Z"
+        }
+      }
+    ],
+    "farmer_id": "prashantchaudhari",
+    "farmer_plot_ids": [
+      "watermelonsavkar"
+    ],
+    "conversation_id": "67cbc97f056fc3775eccdd8d",
+    "_id": "67cbc97f056fc3775eccdd8d",
+    "language": "hi",
+    "expiry": {
+      "$date": "2025-03-08T04:44:02.539000Z"
+    },
+    "tag": "others",
+    "conv_date": "2025-03-08T04:37:19.759000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "प्लॉटला काय खत दिले पाहिजेल आता पाणी उतरला आहे ",
+        "en": "What should be fertilised to the plot Now the water has come down ",
+        "timestamp": {
+          "$date": "2025-03-08T03:53:01.037Z"
+        },
+        "standalone_question": "What fertilizer should be given to the plot now that the water has receded?",
+        "standalone_en": "What fertilizer should be given to the plot now that the water has receded?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "plotala kay khat dile pahijel ata pani utarala aahe "
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटसाठी (प्लॉट नंबर 1 - सुधाकर) खत वितरणाची माहिती उपलब्ध नाही. कृपया तुमच्या प्लॉटसाठी योग्य खताची माहिती मिळवण्यासाठी स्थानिक कृषी तज्ञांशी संपर्क साधा. \n\nजर तुम्हाला पाण्याची गरज असेल तर मी तुम्हाला पाण्याच्या गरजांबद्दल माहिती देऊ शकतो.",
+        "en": "Fertilizer distribution information for your plot (Plot No. 1 - Sudhakar) is not available. Please contact local agricultural experts to get the right fertilizer information for your plot. \n\nIf you need water, I can give you information about water needs.",
+        "timestamp": {
+          "$date": "2025-03-08T03:53:06.879Z"
+        }
+      }
+    ],
+    "farmer_id": "santoshbalasahebdivate",
+    "farmer_plot_ids": [
+      "plotno1mamajambodivatefarm"
+    ],
+    "conversation_id": "67cbbf1c056fc3775eccdd8c",
+    "_id": "67cbbf1c056fc3775eccdd8c",
+    "language": "ma",
+    "expiry": {
+      "$date": "2025-03-08T03:58:01.045000Z"
+    },
+    "tag": "nutrient_fertigation",
+    "conv_date": "2025-03-08T03:53:01.037000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "क्या दिक्कत है<user uploaded image for analysis at 'watermelonplot533/2025-03-08-1741400232495.jpg'>",
+        "en": "What's the problem<user uploaded image for analysis at 'watermelonplot533/2025-03-08-1741400232495.jpg'>",
+        "timestamp": {
+          "$date": "2025-03-08T02:17:28.677Z"
+        },
+        "standalone_question": "What is the problem?",
+        "standalone_en": "What is the problem?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        },
+        "content_transliterated": "kya dikkat hai<user uploaded image for analysis at 'watermelonplot533/2025-03-08-1741400232495.jpg'>"
+      },
+      {
+        "role": "assistant",
+        "content": "The analysis of the uploaded image indicates that there are no specific spray suggestions available for the bottle gourd at the seedling stage. However, here are some general recommendations:\n\n1. **Nutrient Management**: Ensure the plant is receiving adequate nutrients, especially nitrogen for healthy leaf growth.\n\n2. **Pest Control**: Regularly inspect for pests like aphids or caterpillars. If found, consider using neem oil or insecticidal soap as a natural remedy.\n\n3. **Disease Management**: If fungal diseases are suspected, applying a fungicide may help. Ensure good air circulation around the plants to reduce humidity, which can promote fungal growth.\n\n4. **Watering Practices**: Make sure the plants are not overwatered, as this can lead to root rot and other issues.\n\nFor a more tailored approach, please provide a clearer image focusing on the affected areas, and I can assist further.",
+        "en": "The analysis of the uploaded image indicates that there are no specific spray suggestions available for the bottle gourd at the seedling stage. However, here are some general recommendations:\n\n1. **Nutrient Management**: Ensure the plant is receiving adequate nutrients, especially nitrogen for healthy leaf growth.\n\n2. **Pest Control**: Regularly inspect for pests like aphids or caterpillars. If found, consider using neem oil or insecticidal soap as a natural remedy.\n\n3. **Disease Management**: If fungal diseases are suspected, applying a fungicide may help. Ensure good air circulation around the plants to reduce humidity, which can promote fungal growth.\n\n4. **Watering Practices**: Make sure the plants are not overwatered, as this can lead to root rot and other issues.\n\nFor a more tailored approach, please provide a clearer image focusing on the affected areas, and I can assist further.",
+        "timestamp": {
+          "$date": "2025-03-08T02:17:54.144Z"
+        }
+      }
+    ],
+    "farmer_id": "abhiseksinwer",
+    "farmer_plot_ids": [
+      "watermelonplot533"
+    ],
+    "conversation_id": "67cba8b8fb4de58ce3d0ad13",
+    "_id": "67cba8b8fb4de58ce3d0ad13",
+    "language": "en",
+    "expiry": {
+      "$date": "2025-03-08T02:22:28.697000Z"
+    },
+    "tag": "disease_pest",
+    "conv_date": "2025-03-08T02:17:28.677000+00:00"
+  }
+]

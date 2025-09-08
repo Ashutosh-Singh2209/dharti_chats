@@ -1,0 +1,585 @@
+[
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "just tell me yes or no..r u just a wrapper around open ai chatgpt",
+        "timestamp": {
+          "$date": "2024-08-26T11:22:46.565Z"
+        },
+        "standalone_question": "Are you simply a wrapper around OpenAI's ChatGPT?",
+        "standalone_en": "Are you simply a wrapper around OpenAI's ChatGPT?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: So, basically your underlying technology and development process is based on OpenAI and chatgpt?\nA: No, my underlying technology and data is developed by Fyllo AI and is not related to OpenAI or ChatGPT.",
+            "Q: Are you a chatgpt wrapper created by Fyllo?\nA: No, I was fundamentally created by Fyllo AI."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "No.",
+        "timestamp": {
+          "$date": "2024-08-26T11:22:46.565Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "whats the weather today",
+        "timestamp": {
+          "$date": "2024-08-26T11:23:12.604Z"
+        },
+        "standalone_question": "What is the weather like today?",
+        "standalone_en": "What is the weather like today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The weather forecast for today, August 26, 2024, is available only for the plot \"Mahankali Ranga Prasad Eluru\":\n\n- **Temperature**: Min 19.9°C, Max 27.8°C, Avg 23.1°C\n- **Humidity**: 77.4%\n- **Air Pressure**: 911.7 hPa\n- **Wind Speed**: 20.6 km/h\n- **Rainfall**: 0.7 mm\n- **Precipitation Probability**: 20%\n- **Cloud Cover**: 100%\n- **Wind Direction**: West",
+        "timestamp": {
+          "$date": "2024-08-26T11:23:12.604Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "show me activities done at my plot in last month",
+        "timestamp": {
+          "$date": "2024-08-26T11:23:48.484Z"
+        },
+        "standalone_question": "What activities were conducted at my plot in the last month?",
+        "standalone_en": "What activities were conducted at my plot in the last month?",
+        "retrieval": {
+          "tools": [
+            "get_farmer_activities  \nRetrieves the past farmer activities from the provided plots for the given date range."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "No activities were recorded on any of your plots in the last month (from July 26, 2024, to August 26, 2024).",
+        "timestamp": {
+          "$date": "2024-08-26T11:23:48.484Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "show me irrigations done at my plots in last month",
+        "timestamp": {
+          "$date": "2024-08-26T11:24:21.041Z"
+        },
+        "standalone_question": "What irrigations were performed on my plots in the last month?",
+        "standalone_en": "What irrigations were performed on my plots in the last month?",
+        "retrieval": {
+          "tools": [
+            "get_historical_irrigation_events  \nRetrieves all the past detected farmer watering/irrigation event dates for all plots for the entire user history. Provides humanized output instead of numbers.",
+            "get_irrigation_installation_settings\n    retrieves the irrigation installation settings in the farmer's plots, can be used to calculate the irrigation hours.\n    returns root_width, root_depth, soil_retention, dripper_distance, dripper_discharge",
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today.",
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range."
+          ],
+          "faq": [
+            "Q: How to measure/ calculate irrigation hours /water tank of my plot in fyllo app? How do I calculate irrigation hours for my plot? How to use the irrigation hours calculator?\nA: To calculate irrigation hours in the Fyllo app, follow these steps:\n\n1. Open the Fyllo App\n2. Go to the home screen\n3. Click on the soil moisture-1 sensor\n4. Scroll down to find the \"Irrigation hours\" section\n5. Fill in the required details such as:\n   - Root width (inches)\n   - Root depth (inches)\n   - Soil retention (mm)\n   - Dripper distance (feet)\n   - Dripper discharge (liters)\n6. Click the calculate button\n\nWould you like me to calculate the irrigation hours for you right now? I can retrieve your plot's irrigation settings and perform the calculation if you say yes.\n\nTool Selection: When user says yes, I should:\n1. Use get_irrigation_installation_settings tool to retrieve plot settings\n2. Check if all values are present and valid\n3. If values are valid, use calculate_irrigation_hours tool with these values\n4. If values are missing or invalid, ask the user to provide the missing values\n5. After calculating irrigation hours, display the irrigation installation settings that were used for the calculation\n6. Ask the user if they want to calculate irrigation hours with a different set of values, and if yes, prompt them to provide those values\n\nExample response if values are missing:\n\"I checked your plot settings, but I need some additional information to calculate irrigation hours accurately. Could you please provide the [missing value(s)]? Once you provide these details, I can complete the calculation for you.\"\n\nExample response after calculation:\n\"Based on your plot's irrigation settings, the calculated irrigation hours are [X] hours. \n\nI used the following settings for this calculation:\n- Root width: [value] inches\n- Root depth: [value] inches\n- Soil retention: [value] mm\n- Dripper distance: [value] feet\n- Dripper discharge: [value] liters\n\nWould you like to calculate irrigation hours with a different set of values? If yes, please provide the new values you'd like to use.\"",
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the irrigation events recorded at your plots in the last month (from July 26, 2024, to August 26, 2024):\n\n1. **Sunam Sangrur road near petrol pump**:\n   - August 23, 2024\n   - August 11, 2024\n\n2. **Gurdev 1**:\n   - August 11, 2024\n   - August 9, 2024\n   - July 31, 2024\n   - July 27, 2024\n\n3. **Hardeep Singh Payiyala TNC**:\n   - August 26, 2024\n\n4. **Harinder1**:\n   - August 20, 2024\n   - August 17, 2024\n   - August 10, 2024\n   - July 31, 2024\n   - July 27, 2024",
+        "timestamp": {
+          "$date": "2024-08-26T11:24:21.041Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "which of my plots are not working properly",
+        "timestamp": {
+          "$date": "2024-08-26T11:27:11.374Z"
+        },
+        "standalone_question": "Which of my plots are experiencing issues?",
+        "standalone_en": "Which of my plots are experiencing issues?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The following plots are not working properly as their soil moisture sensors are showing 0 values:\n\n1. **Jharon khet**\n2. **Shapur khet**\n3. **Sunam Sangrur road near petrol pump**\n4. **Gurwinder Singh Patiyala TNC**\n5. **Hardeep Singh Payiyala TNC**\n6. **Harjeet Singh Patiyala TNC**\n7. **Joginder Singh Patiyala TNC**\n8. **Kalidindi Krishnam Raju Eluru**\n9. **Lakkapamu Sudhakar Eluru**\n10. **GHG Site 1 AWD**\n11. **GHG Site 1 CF**\n12. **GHG Site 2 AWD**\n13. **GHG Site 3 AWD**\n14. **GHG Site 3 CF**\n15. **Makhan Bhorey Patiyala TNC**",
+        "timestamp": {
+          "$date": "2024-08-26T11:27:11.374Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "which ones are not sending data",
+        "timestamp": {
+          "$date": "2024-08-26T11:27:34.994Z"
+        },
+        "standalone_question": "Which of my plots are not sending data?",
+        "standalone_en": "Which of my plots are not sending data?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The following plots are not sending data properly as their soil moisture sensors are showing 0 values:\n\n1. **Jharon khet**\n2. **Shapur khet**\n3. **Sunam Sangrur road near petrol pump**\n4. **Gurwinder Singh Patiyala TNC**\n5. **Hardeep Singh Payiyala TNC**\n6. **Harjeet Singh Patiyala TNC**\n7. **Joginder Singh Patiyala TNC**\n8. **Kalidindi Krishnam Raju Eluru**\n9. **Lakkapamu Sudhakar Eluru**\n10. **GHG Site 1 AWD**\n11. **GHG Site 1 CF**\n12. **GHG Site 2 AWD**\n13. **GHG Site 3 AWD**\n14. **GHG Site 3 CF**\n15. **Makhan Bhorey Patiyala TNC**",
+        "timestamp": {
+          "$date": "2024-08-26T11:27:34.994Z"
+        }
+      }
+    ],
+    "farmer_id": "mittiadminaccess",
+    "farmer_plot_ids": [
+      "barjindersinghpatiyalatnc",
+      "jharonkhet",
+      "shapurkhet",
+      "sunamsangrurroadnearpetrolpump",
+      "datlavenkatatirupathirajueluru",
+      "dhanesheluru",
+      "gurdev1",
+      "gurlabh1",
+      "gurwindersinghpatiyalatnc",
+      "hardeepsinghpayiyalatnc",
+      "harinder1",
+      "harjeetsinghpatiyalatnc",
+      "urlanakalan9587",
+      "jarmal1",
+      "amrukotra",
+      "heronroadkhet",
+      "jatinder1",
+      "jogindersinghpatialatnc",
+      "kalidindikrishnamrajueluru",
+      "krangacharyulueluru",
+      "lakkapamusudhakareluru",
+      "sheronroadpindigobindnagarlongowal",
+      "mahankalirangaprasadeluru",
+      "ghgsite1awd",
+      "ghgsite1cf",
+      "ghgsite2awd",
+      "ghgsite2cf",
+      "ghgsite3awd",
+      "ghgsite3cf",
+      "makhanbhoreypatiyalatnc"
+    ],
+    "conversation_id": "66cc658436bc92a02acc7461",
+    "tag": "complaints",
+    "conv_date": "2024-08-26T11:22:46.565000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "just tell me yes or no..r u just a wrapper around open ai chatgpt",
+        "timestamp": {
+          "$date": "2024-08-26T11:22:46.565Z"
+        },
+        "standalone_question": "Are you simply a wrapper around OpenAI's ChatGPT?",
+        "standalone_en": "Are you simply a wrapper around OpenAI's ChatGPT?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: So, basically your underlying technology and development process is based on OpenAI and chatgpt?\nA: No, my underlying technology and data is developed by Fyllo AI and is not related to OpenAI or ChatGPT.",
+            "Q: Are you a chatgpt wrapper created by Fyllo?\nA: No, I was fundamentally created by Fyllo AI."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "No.",
+        "timestamp": {
+          "$date": "2024-08-26T11:22:46.565Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "whats the weather today",
+        "timestamp": {
+          "$date": "2024-08-26T11:23:12.604Z"
+        },
+        "standalone_question": "What is the weather like today?",
+        "standalone_en": "What is the weather like today?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The weather forecast for today, August 26, 2024, is available only for the plot \"Mahankali Ranga Prasad Eluru\":\n\n- **Temperature**: Min 19.9°C, Max 27.8°C, Avg 23.1°C\n- **Humidity**: 77.4%\n- **Air Pressure**: 911.7 hPa\n- **Wind Speed**: 20.6 km/h\n- **Rainfall**: 0.7 mm\n- **Precipitation Probability**: 20%\n- **Cloud Cover**: 100%\n- **Wind Direction**: West",
+        "timestamp": {
+          "$date": "2024-08-26T11:23:12.604Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "show me activities done at my plot in last month",
+        "timestamp": {
+          "$date": "2024-08-26T11:23:48.484Z"
+        },
+        "standalone_question": "What activities were conducted at my plot in the last month?",
+        "standalone_en": "What activities were conducted at my plot in the last month?",
+        "retrieval": {
+          "tools": [
+            "get_farmer_activities  \nRetrieves the past farmer activities from the provided plots for the given date range."
+          ],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "No activities were recorded on any of your plots in the last month (from July 26, 2024, to August 26, 2024).",
+        "timestamp": {
+          "$date": "2024-08-26T11:23:48.484Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "show me irrigations done at my plots in last month",
+        "timestamp": {
+          "$date": "2024-08-26T11:24:21.041Z"
+        },
+        "standalone_question": "What irrigations were performed on my plots in the last month?",
+        "standalone_en": "What irrigations were performed on my plots in the last month?",
+        "retrieval": {
+          "tools": [
+            "get_historical_irrigation_events  \nRetrieves all the past detected farmer watering/irrigation event dates for all plots for the entire user history. Provides humanized output instead of numbers.",
+            "get_irrigation_installation_settings\n    retrieves the irrigation installation settings in the farmer's plots, can be used to calculate the irrigation hours.\n    returns root_width, root_depth, soil_retention, dripper_distance, dripper_discharge",
+            "should_i_give_water  \nChecks the current and optimal soil moisture values and decides whether the farmer should give water to the plot now or today.",
+            "get_optimal_soil_moistures  \nRetrieves the optimal soil moisture values in kPa or percentage above which to irrigate for all plots. 0 kPa means wet, 200 kPa means dry soil. In percentage: 0% means dry, 100% means wet. In percentage values, irrigate when below the optimum range."
+          ],
+          "faq": [
+            "Q: How to measure/ calculate irrigation hours /water tank of my plot in fyllo app? How do I calculate irrigation hours for my plot? How to use the irrigation hours calculator?\nA: To calculate irrigation hours in the Fyllo app, follow these steps:\n\n1. Open the Fyllo App\n2. Go to the home screen\n3. Click on the soil moisture-1 sensor\n4. Scroll down to find the \"Irrigation hours\" section\n5. Fill in the required details such as:\n   - Root width (inches)\n   - Root depth (inches)\n   - Soil retention (mm)\n   - Dripper distance (feet)\n   - Dripper discharge (liters)\n6. Click the calculate button\n\nWould you like me to calculate the irrigation hours for you right now? I can retrieve your plot's irrigation settings and perform the calculation if you say yes.\n\nTool Selection: When user says yes, I should:\n1. Use get_irrigation_installation_settings tool to retrieve plot settings\n2. Check if all values are present and valid\n3. If values are valid, use calculate_irrigation_hours tool with these values\n4. If values are missing or invalid, ask the user to provide the missing values\n5. After calculating irrigation hours, display the irrigation installation settings that were used for the calculation\n6. Ask the user if they want to calculate irrigation hours with a different set of values, and if yes, prompt them to provide those values\n\nExample response if values are missing:\n\"I checked your plot settings, but I need some additional information to calculate irrigation hours accurately. Could you please provide the [missing value(s)]? Once you provide these details, I can complete the calculation for you.\"\n\nExample response after calculation:\n\"Based on your plot's irrigation settings, the calculated irrigation hours are [X] hours. \n\nI used the following settings for this calculation:\n- Root width: [value] inches\n- Root depth: [value] inches\n- Soil retention: [value] mm\n- Dripper distance: [value] feet\n- Dripper discharge: [value] liters\n\nWould you like to calculate irrigation hours with a different set of values? If yes, please provide the new values you'd like to use.\"",
+            "Q: How much to irrigate after receiving notification?\nA: The net quantity of water to be applied depends on the moisture deficit in the soil, leaching requirement, and expectancy of rainfall. When no rainfall is expected and the soil is not saline, the net quantity equals the moisture deficit in the soil."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Here are the irrigation events recorded at your plots in the last month (from July 26, 2024, to August 26, 2024):\n\n1. **Sunam Sangrur road near petrol pump**:\n   - August 23, 2024\n   - August 11, 2024\n\n2. **Gurdev 1**:\n   - August 11, 2024\n   - August 9, 2024\n   - July 31, 2024\n   - July 27, 2024\n\n3. **Hardeep Singh Payiyala TNC**:\n   - August 26, 2024\n\n4. **Harinder1**:\n   - August 20, 2024\n   - August 17, 2024\n   - August 10, 2024\n   - July 31, 2024\n   - July 27, 2024",
+        "timestamp": {
+          "$date": "2024-08-26T11:24:21.041Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "which of my plots are not working properly",
+        "timestamp": {
+          "$date": "2024-08-26T11:27:11.374Z"
+        },
+        "standalone_question": "Which of my plots are experiencing issues?",
+        "standalone_en": "Which of my plots are experiencing issues?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The following plots are not working properly as their soil moisture sensors are showing 0 values:\n\n1. **Jharon khet**\n2. **Shapur khet**\n3. **Sunam Sangrur road near petrol pump**\n4. **Gurwinder Singh Patiyala TNC**\n5. **Hardeep Singh Payiyala TNC**\n6. **Harjeet Singh Patiyala TNC**\n7. **Joginder Singh Patiyala TNC**\n8. **Kalidindi Krishnam Raju Eluru**\n9. **Lakkapamu Sudhakar Eluru**\n10. **GHG Site 1 AWD**\n11. **GHG Site 1 CF**\n12. **GHG Site 2 AWD**\n13. **GHG Site 3 AWD**\n14. **GHG Site 3 CF**\n15. **Makhan Bhorey Patiyala TNC**",
+        "timestamp": {
+          "$date": "2024-08-26T11:27:11.374Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "which ones are not sending data",
+        "timestamp": {
+          "$date": "2024-08-26T11:27:34.994Z"
+        },
+        "standalone_question": "Which of my plots are not sending data?",
+        "standalone_en": "Which of my plots are not sending data?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "The following plots are not sending data properly as their soil moisture sensors are showing 0 values:\n\n1. **Jharon khet**\n2. **Shapur khet**\n3. **Sunam Sangrur road near petrol pump**\n4. **Gurwinder Singh Patiyala TNC**\n5. **Hardeep Singh Payiyala TNC**\n6. **Harjeet Singh Patiyala TNC**\n7. **Joginder Singh Patiyala TNC**\n8. **Kalidindi Krishnam Raju Eluru**\n9. **Lakkapamu Sudhakar Eluru**\n10. **GHG Site 1 AWD**\n11. **GHG Site 1 CF**\n12. **GHG Site 2 AWD**\n13. **GHG Site 3 AWD**\n14. **GHG Site 3 CF**\n15. **Makhan Bhorey Patiyala TNC**",
+        "timestamp": {
+          "$date": "2024-08-26T11:27:34.994Z"
+        }
+      }
+    ],
+    "farmer_id": "mittiadminaccess",
+    "farmer_plot_ids": [
+      "barjindersinghpatiyalatnc",
+      "jharonkhet",
+      "shapurkhet",
+      "sunamsangrurroadnearpetrolpump",
+      "datlavenkatatirupathirajueluru",
+      "dhanesheluru",
+      "gurdev1",
+      "gurlabh1",
+      "gurwindersinghpatiyalatnc",
+      "hardeepsinghpayiyalatnc",
+      "harinder1",
+      "harjeetsinghpatiyalatnc",
+      "urlanakalan9587",
+      "jarmal1",
+      "amrukotra",
+      "heronroadkhet",
+      "jatinder1",
+      "jogindersinghpatialatnc",
+      "kalidindikrishnamrajueluru",
+      "krangacharyulueluru",
+      "lakkapamusudhakareluru",
+      "sheronroadpindigobindnagarlongowal",
+      "mahankalirangaprasadeluru",
+      "ghgsite1awd",
+      "ghgsite1cf",
+      "ghgsite2awd",
+      "ghgsite2cf",
+      "ghgsite3awd",
+      "ghgsite3cf",
+      "makhanbhoreypatiyalatnc"
+    ],
+    "conversation_id": "66cc658436bc92a02acc7461",
+    "tag": "historical data",
+    "conv_date": "2024-08-26T11:22:46.565000+00:00"
+  },
+  {
+    "messages": [
+      {
+        "role": "user",
+        "content": "hi, whats my name",
+        "timestamp": {
+          "$date": "2024-08-26T11:04:04.090Z"
+        },
+        "standalone_question": "What is my name?",
+        "standalone_en": "What is my name?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Your name is Mitti Admin Access.",
+        "timestamp": {
+          "$date": "2024-08-26T11:04:04.090Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "how many plots i have",
+        "timestamp": {
+          "$date": "2024-08-26T11:04:14.088Z"
+        },
+        "standalone_question": "How many plots do I have?",
+        "standalone_en": "How many plots do I have?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "You have 30 plots.",
+        "timestamp": {
+          "$date": "2024-08-26T11:04:14.088Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "what type of devices do they have",
+        "timestamp": {
+          "$date": "2024-08-26T11:04:27.876Z"
+        },
+        "standalone_question": "What types of devices do the plots have?",
+        "standalone_en": "What types of devices do the plots have?",
+        "retrieval": {
+          "tools": [
+            "live_sensor_data  \nProvides the live / most recent sensor data for the plots, last received from the sensors. The data fields could be of these types: airTemperature, airHumidity, soilTemperature, soilMoisture1, soilMoisture2, leafWetness, airPressure, baroPressure, lightIntensity (lux), uvIndex, windSpeed, windDirection, instantaneous rainfall, battery percentage, vaporPressure. Depending on device type, some data may not be available."
+          ],
+          "faq": [
+            "Q: How many nero, kairo, and weather units i have?\nA: Follow the below instructions stricly when counting anything.\n1. Detailed Listing: List each device type and its associated plot explicitly.\n2. Uniqueness: Check plot and device uniqueness by plotId and not by plotName.\n3. Cross-Verification: Cross-check the list to ensure no plot is counted more than once.\n4. Consistent Methodology: Use a consistent method for counting and verifying device types.\n\n   Fyllo provide 3 kinds of devices:\n - Kairo / Weather Unit (Weather unit is old name of Kairo)\n - Nero / Irrigation Unit (Irrigation unit is old name of Nero)",
+            "Q: How can the sensor monitor the whole plot when it's installed near one plant?\nA: The installation process includes a detailed survey of the plot regarding variations in soil type and root zone. A point for installation is selected with a plant of average growth representing the whole plot."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Fyllo provides 3 kinds of devices:\n- Kairo / Weather Unit (Weather unit is the old name of Kairo)\n- Nero / Irrigation Unit (Irrigation unit is the old name of Nero)",
+        "timestamp": {
+          "$date": "2024-08-26T11:04:27.876Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "how many kairo do i have",
+        "timestamp": {
+          "$date": "2024-08-26T11:04:46.557Z"
+        },
+        "standalone_question": "How many Kairo devices do I have?",
+        "standalone_en": "How many Kairo devices do I have?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: How many nero, kairo, and weather units i have?\nA: Follow the below instructions stricly when counting anything.\n1. Detailed Listing: List each device type and its associated plot explicitly.\n2. Uniqueness: Check plot and device uniqueness by plotId and not by plotName.\n3. Cross-Verification: Cross-check the list to ensure no plot is counted more than once.\n4. Consistent Methodology: Use a consistent method for counting and verifying device types.\n\n   Fyllo provide 3 kinds of devices:\n - Kairo / Weather Unit (Weather unit is old name of Kairo)\n - Nero / Irrigation Unit (Irrigation unit is old name of Nero)",
+            "Q: How do I start the Kairo device?\nA: Press the switch below the top cap to start the device and wait until the parameters on the home screen are visible.",
+            "Q: How do I connect the sensors to the Kairo device?\nA: Connect the sensors to their respective connectors as indicated in the manual.",
+            "Q: What should I do if the Kairo app is not showing updated data?\nA: Ensure the device is attached to the app, check network connectivity, verify battery status, and restart the device if needed.",
+            "Q: How do I insert batteries into the Kairo device?\nA: Insert 2xAA batteries into the battery compartment, and ensure the LED indicator turns on and flashes every 16 seconds."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "You do not have any Kairo devices. All your plots are equipped with Nero devices.",
+        "timestamp": {
+          "$date": "2024-08-26T11:04:46.557Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "who is india president ",
+        "timestamp": {
+          "$date": "2024-08-26T11:05:32.517Z"
+        },
+        "standalone_question": "Who is the President of India?",
+        "standalone_en": "Who is the President of India?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "I can only assist with agriculture-related queries. For information on the President of India, please refer to a reliable news source or official government website.",
+        "timestamp": {
+          "$date": "2024-08-26T11:05:32.517Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "what is anthracnose",
+        "timestamp": {
+          "$date": "2024-08-26T11:05:53.733Z"
+        },
+        "standalone_question": "What is anthracnose?",
+        "standalone_en": "What is anthracnose?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "Anthracnose is a group of fungal diseases that affect a wide range of plants, causing dark, sunken lesions on leaves, stems, flowers, and fruits. The disease is caused by various species of fungi, primarily from the genera Colletotrichum and Gloeosporium. \n\n### Symptoms:\n- **Leaves:** Dark, water-soaked spots that may enlarge and become sunken.\n- **Stems:** Cankers or lesions that can girdle the stem, leading to wilting and dieback.\n- **Fruits:** Sunken, dark lesions that can cause fruit rot.\n\n### Management:\n- **Cultural Practices:** Remove and destroy infected plant debris, avoid overhead watering, and ensure proper plant spacing for good air circulation.\n- **Chemical Control:** Use fungicides as a preventive measure, especially during wet and humid conditions.\n- **Resistant Varieties:** Plant resistant or tolerant varieties if available.\n\nRegular monitoring and early intervention are key to managing anthracnose effectively.",
+        "timestamp": {
+          "$date": "2024-08-26T11:05:53.733Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "are yuo chatgpt?",
+        "timestamp": {
+          "$date": "2024-08-26T11:09:59.777Z"
+        },
+        "standalone_question": "Are you ChatGPT?",
+        "standalone_en": "Are you ChatGPT?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Are you a chatgpt wrapper created by Fyllo?\nA: No, I was fundamentally created by Fyllo AI.",
+            "Q: So, basically your underlying technology and development process is based on OpenAI and chatgpt?\nA: No, my underlying technology and data is developed by Fyllo AI and is not related to OpenAI or ChatGPT."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "No, I am Dharti, a precision agricultural assistant created by Fyllo AI. My purpose is to help farmers with crop management, soil health, pest control, and irrigation strategies using real-time farm data and the latest agricultural practices.",
+        "timestamp": {
+          "$date": "2024-08-26T11:09:59.777Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "who created you",
+        "timestamp": {
+          "$date": "2024-08-26T11:10:09.571Z"
+        },
+        "standalone_question": "Who is the creator of Dharti?",
+        "standalone_en": "Who is the creator of Dharti?",
+        "retrieval": {
+          "tools": [],
+          "faq": []
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "I was created by engineers at Fyllo AI.",
+        "timestamp": {
+          "$date": "2024-08-26T11:10:09.571Z"
+        }
+      },
+      {
+        "role": "user",
+        "content": "but you are just a wrapper around chatgpt i know",
+        "timestamp": {
+          "$date": "2024-08-26T11:10:27.997Z"
+        },
+        "standalone_question": "Are you just a wrapper around ChatGPT?",
+        "standalone_en": "Are you just a wrapper around ChatGPT?",
+        "retrieval": {
+          "tools": [],
+          "faq": [
+            "Q: Are you a chatgpt wrapper created by Fyllo?\nA: No, I was fundamentally created by Fyllo AI.",
+            "Q: So, basically your underlying technology and development process is based on OpenAI and chatgpt?\nA: No, my underlying technology and data is developed by Fyllo AI and is not related to OpenAI or ChatGPT."
+          ]
+        }
+      },
+      {
+        "role": "assistant",
+        "content": "I am designed specifically to assist with agricultural practices using Fyllo AI's technology and data. My primary focus is to provide precise and timely advice to farmers. If you have any questions related to crop management, soil health, pest control, or irrigation strategies, feel free to ask!",
+        "timestamp": {
+          "$date": "2024-08-26T11:10:27.997Z"
+        }
+      }
+    ],
+    "farmer_id": "mittiadminaccess",
+    "farmer_plot_ids": [
+      "barjindersinghpatiyalatnc",
+      "jharonkhet",
+      "shapurkhet",
+      "sunamsangrurroadnearpetrolpump",
+      "datlavenkatatirupathirajueluru",
+      "dhanesheluru",
+      "gurdev1",
+      "gurlabh1",
+      "gurwindersinghpatiyalatnc",
+      "hardeepsinghpayiyalatnc",
+      "harinder1",
+      "harjeetsinghpatiyalatnc",
+      "urlanakalan9587",
+      "jarmal1",
+      "amrukotra",
+      "heronroadkhet",
+      "jatinder1",
+      "jogindersinghpatialatnc",
+      "kalidindikrishnamrajueluru",
+      "krangacharyulueluru",
+      "lakkapamusudhakareluru",
+      "sheronroadpindigobindnagarlongowal",
+      "mahankalirangaprasadeluru",
+      "ghgsite1awd",
+      "ghgsite1cf",
+      "ghgsite2awd",
+      "ghgsite2cf",
+      "ghgsite3awd",
+      "ghgsite3cf",
+      "makhanbhoreypatiyalatnc"
+    ],
+    "conversation_id": "66cc611e36bc92a02acc7460",
+    "tag": "others",
+    "conv_date": "2024-08-26T11:04:04.090000+00:00"
+  }
+]
