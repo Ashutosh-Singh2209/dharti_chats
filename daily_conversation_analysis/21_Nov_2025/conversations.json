@@ -1,0 +1,1933 @@
+[
+  {
+    "_id": "691fb078a49550707b19e97c",
+    "farmer_id": "manojguravaarag",
+    "farmer_name": "Manoj Gurav Aarag",
+    "farmer_plot_ids": [
+      "ssnplot637877"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "ma",
+    "gender": "Male",
+    "initial_message": "माझ्या पिकासाठी कोणते खत वापरावे?",
+    "expiry": "2025-11-21 00:26:12.934000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "माझ्या पिकासाठी कोणते खत वापरावे?",
+        "en": "What fertilizer should I use for my crop?",
+        "timestamp": "2025-11-21 00:21:12.931000",
+        "standalone_question": "What fertilizers should I use for my crop?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"SSN plot\" वरील द्राक्षांच्या पिकासाठी, सध्या कोणतेही खत देण्याची आवश्यकता नाही. तथापि, पुढील फर्टिगेशन शेड्यूल खालीलप्रमाणे आहे:\n\n### सध्या:\n- **सक्रिय पिकाचा टप्पा:** Bloom Beginning (सुरुवात 6 नोव्हेंबर 2025)\n- **सध्या आठवडा:** 3\n\n### पुढील फर्टिगेशन शेड्यूल:\n#### 1. फळ सेट (Fruit Set) - आठवडा 1\n- **फोलिअर पद्धतीने:** \n  - **फेरस सल्फेट:** 600 ग्रॅम/एकर\n  - **मॅंगनीज सल्फेट:** 600 ग्रॅम/एकर\n  - **सूचना:** फोलिअर स्प्रेमध्ये सूक्ष्म-खतांचा एकाग्रता 1% पेक्षा जास्त नसावा, उदाहरणार्थ 500 लिटर पाण्यात 5 किलो.\n\n- **फर्टिगेशन पद्धतीने:**\n  - **11-44-11:** 6.5 किलो/एकर\n  - **कॅल्शियम नायट्रेट:** 3 किलो/एकर\n  - **साल्फेट ऑफ पोटाश:** 3.5 किलो/एकर\n  - **मॅग्नेशियम सल्फेट:** 1.5 किलो/एकर\n  - **सूचना:** फॉस्फोरिक आम्ल 15-20 मिनिटे आधी आणि कॅल्शियम नायट्रेट 15-20 मिनिटे नंतर लागू करावे.\n\n### प्रारंभ तारीख:\n- **फळ सेट:** 27 नोव्हेंबर 2025\n\nतुम्हाला अधिक माहिती हवी असल्यास, कृपया सांगा!",
+        "en": "For the grape crop on your \"SSN plot\", there is currently no need to apply any fertilizer. However, the following fertigation schedule is as follows:\n\n### Currently:\n- **Active Crop Phase:** Bloom Begins (Begins November 6, 2025)\n- **This week:** 3\n\n### Next Fertigation Schedule:\n#### 1. Fruit Set - Week 1\n- **Foliar Method:** \n  - **Ferrous sulfate:** 600 g/acre\n  - **Manganese sulfate:** 600 g/acre\n  **Instructions:** The concentration of micro-fertilizers in foliar spray should not exceed 1%, e.g. 5 kg in 500 liters of water.\n\n- **Fertigation Method:**\n  - **11-44-11:** 6.5 kg/acre\n  - **Calcium Nitrate:** 3 kg/acre\n  - **Sulfate of Potash:** 3.5 kg/acre\n  - **Magnesium Sulfate:** 1.5 kg/acre\n  **Instructions:** Phosphoric acid should be applied 15-20 minutes before and calcium nitrate 15-20 minutes after.\n\n### Start Date:\n- **Fruit Set:** 27 November 2025\n\nIf you would like more information, please let us know!",
+        "timestamp": "2025-11-21 00:21:25.975000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "nutrient/fertigation"
+    ]
+  },
+  {
+    "_id": "691fb1039d9bf0f18dde1f89",
+    "farmer_id": "pankajsadashivkhandave",
+    "farmer_name": "pankaj khandave",
+    "farmer_plot_ids": [
+      "plotnoonessn",
+      "plotnotwocrimson",
+      "sudhakar156",
+      "sudhakar2101"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "ma",
+    "gender": "Male",
+    "initial_message": "माझ्या पिकाला पाणी द्यावे का?",
+    "expiry": "2025-11-21 00:30:40.696000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "माझ्या पिकाला पाणी द्यावे का?",
+        "en": "Should I water my crop?",
+        "timestamp": "2025-11-21 00:23:31.763000",
+        "standalone_question": "Should I water my crop?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "### पाण्याची गरज:\n\n1. **Plot No 1 SSN**:\n   - **सध्याची मातीची आर्द्रता**: 26 kPa (सुरक्षित पातळी 25 kPa)\n   - **पाणी देणे आवश्यक आहे**: होय, कारण मातीची आर्द्रता सुरक्षित पातळीच्या वर आहे.\n\n2. **Plot No 2 Crimson**:\n   - **सध्याची मातीची आर्द्रता**: 3 kPa (सुरक्षित पातळी 32 kPa)\n   - **पाणी देणे आवश्यक आहे**: नाही, कारण मातीची आर्द्रता सुरक्षित पातळीच्या खाली आहे.\n\n3. **Sudhakar**:\n   - **सध्याची मातीची आर्द्रता**: 22 kPa (सुरक्षित पातळी 32 kPa)\n   - **पाणी देणे आवश्यक आहे**: नाही, कारण मातीची आर्द्रता सुरक्षित पातळीच्या खाली आहे.\n\n4. **Sudhakar 2**:\n   - **सध्याची मातीची आर्द्रता**: 95% (सुरक्षित पातळी 60%)\n   - **पाणी देणे आवश्यक आहे**: नाही, कारण मातीची आर्द्रता सुरक्षित पातळीच्या वर आहे.\n\n### फर्टिगेशन शेड्यूल:\n- **Plot No 1 SSN**: \n  - **सध्याचा टप्पा**: Shoot Development (सुरूवात 2025-11-05)\n  - **फर्टिगेशन**: \n    - **फोलिअर पद्धतीने**: \n      - Solubor: 300 gm/acre\n      - Gibberallic acid (GA3): 15 ppm/plant\n\n- **Plot No 2 Crimson**: \n  - **सध्याचा टप्पा**: Beginning of Bloom (सुरूवात 2025-11-16)\n  - **फर्टिगेशन**: \n    - **फर्टिगेशन पद्धतीने**: \n      - Mono potassium phosphate: 3 kg/acre\n      - Phosphoric acid 80%: 1.5 kg/acre\n\n- **Sudhakar**: \n  - **सध्याचा टप्पा**: Beginning of Bloom (सुरूवात 2025-11-12)\n  - **फर्टिगेशन**: \n    - **फर्टिगेशन पद्धतीने**: \n      - 11-44-11: 5.5 kg/acre\n      - Sulfate of Potash: 3.5 kg/acre\n\n- **Sudhakar 2**: \n  - **सध्याचा टप्पा**: Fruit Set (सुरूवात 2025-11-20)\n  - **फर्टिगेशन**: \n    - **फर्टिगेशन पद्धतीने**: \n      - 11-44-11: 5.5 kg/acre\n      - Sulfate of Potash: 3.5 kg/acre\n\n### शेतकऱ्याच्या क्रियाकलापांची माहिती:\n- **सर्व प्लॉटसाठी**: आज कोणतेही विशेष शेतकऱ्याचे क्रियाकलाप नाहीत.\n\nआपण **Plot No 1 SSN** साठी पाणी देऊ शकता, इतर प्लॉटसाठी पाण्याची आवश्यकता नाही.",
+        "en": "### Water Needs:\n\n1. **Plot No 1 SSN**:\n   - **Current soil moisture**: 26 kPa (safe level 25 kPa)\n   - **Watering is required**: Yes, because the soil moisture is above the safe level.\n\n2. **Plot No 2 Crimson**:\n   - **Current soil moisture**: 3 kPa (safe level 32 kPa)\n   - **Watering is required**: No, as soil moisture is below safe levels.\n\n3. **Sudhakar**:\n   - **Current soil moisture**: 22 kPa (safe level 32 kPa)\n   - **Watering is required**: No, as soil moisture is below safe levels.\n\n4. **Sudhakar 2**:\n   - **Current soil moisture**: 95% (safe level 60%)\n   - **Watering is required**: No, as the soil moisture is above the safe level.\n\n### Fertigation Schedule:\n- **Plot No 1 SSN**: \n  - **Current Phase**: Shoot Development (Starts 2025-11-05)\n  - **Fertigation**: \n    - **Foliar Method**: \n      - Solubor: 300 gm/acre\n      - Gibberallic acid (GA3): 15 ppm/plant\n\n- **Plot No 2 Crimson**: \n  - **Current Phase**: Beginning of Bloom (Beginning 2025-11-16)\n  - **Fertigation**: \n    - **Fertigation Method**: \n      - Mono potassium phosphate: 3 kg/acre\n      - Phosphoric acid 80%: 1.5 kg/acre\n\n- **Sudhakar**: \n  - **Current Phase**: Beginning of Bloom (Beginning 2025-11-12)\n  - **Fertigation**: \n    - **Fertigation Method**: \n      - 11-44-11: 5.5 kg/acre\n      - Sulfate of Potash: 3.5 kg/acre\n\n- **Sudhakar 2**: \n  - **Current Phase**: Fruit Set (Starts 2025-11-20)\n  - **Fertigation**: \n    - **Fertigation Method**: \n      - 11-44-11: 5.5 kg/acre\n      - Sulfate of Potash: 3.5 kg/acre\n\n### Information on Farmer Activities:\n- **For all plots**: There are no special farmer activities today.\n\nYou can provide water for **Plot No 1 SSN**, no water is required for other plots.",
+        "timestamp": "2025-11-21 00:23:55.615000"
+      },
+      {
+        "role": "user",
+        "content": "सुधाकर ला पाणी कधी द्या वे",
+        "en": "When should I give water to Sudhakar?",
+        "timestamp": "2025-11-21 00:25:40.688000",
+        "standalone_question": "When should I water the Sudhakar plot?"
+      },
+      {
+        "role": "assistant",
+        "content": "**सुधाकर प्लॉटसाठी पाण्याची गरज:**\n\n- **सध्याची मातीची आर्द्रता**: 22 kPa (सुरक्षित पातळी 32 kPa)\n- **पाणी देणे आवश्यक आहे**: होय, कारण मातीची आर्द्रता सुरक्षित पातळीच्या खाली आहे.\n\n### पाणी देण्याची वेळ:\n- **पाणी द्या**: **2025-11-22** रोजी **सकाळी 02:02** वाजता (जर पाऊस न झाला तर).\n\nआपण या वेळेत पाणी देऊ शकता.",
+        "en": "**Water Requirement for Sudhakar Plot:**\n\n- **Current soil moisture**: 22 kPa (safe level 32 kPa)\n**Watering is required**: Yes, because soil moisture is below safe levels.\n\n### Watering Time:\n- **Water**: On **2025-11-22** at **02:02 am** (if it doesn't rain).\n\nYou can water during this time.",
+        "timestamp": "2025-11-21 00:25:48.355000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "water/irrigation"
+    ]
+  },
+  {
+    "_id": "691fb29ca49550707b19e97d",
+    "farmer_id": "sunilpatil",
+    "farmer_name": "Sunil Patil",
+    "farmer_plot_ids": [
+      "c3VuaWwnc3Bsb3Q1760543573860",
+      "plotno1653",
+      "plotno2841",
+      "plotno3sonaka692",
+      "plotno4thompson758"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "ma",
+    "gender": "Male",
+    "initial_message": "मागील आठवड्यात माझ्या पिकावर कोणते रोग किंवा कीड आली होती?",
+    "expiry": "2025-11-21 00:38:53.740000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "मागील आठवड्यात माझ्या पिकावर कोणते रोग किंवा कीड आली होती?",
+        "en": "What disease or pest did my crop suffer last week?",
+        "timestamp": "2025-11-21 00:30:21.029000",
+        "standalone_question": "What diseases or pests affected my crop last week?"
+      },
+      {
+        "role": "assistant",
+        "content": "मागील आठवड्यात तुमच्या पिकावर कोणतेही रोग किंवा कीड आढळले नाहीत. तथापि, \"Sunil's plot\" साठी डेटा उपलब्ध नाही कारण तुमच्या प्लॉटची रिचार्ज कालावधी संपली आहे. कृपया डेटा पाहण्यासाठी रिचार्ज करा. \n\nइतर प्लॉट्ससाठी देखील रोग आणि कीड मेट्रिक्स उपलब्ध नाहीत.",
+        "en": "No diseases or pests have been found on your crop in the past week. However, the data for \"Sunil's plot\" is not available because the recharge period of your plot is over. Please recharge to see the data. \n\nDisease and pest metrics are not available for other plots as well.",
+        "timestamp": "2025-11-21 00:30:31.160000"
+      },
+      {
+        "role": "user",
+        "content": "Plot no 2 var konta rog ala ahe",
+        "en": "What disease has come on Plot No. 2?",
+        "timestamp": "2025-11-21 00:31:28.666000",
+        "standalone_question": "What diseases have been reported on Plot No. 2?"
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot No.2\" वर कोणतेही रोग मेट्रिक्स उपलब्ध नाहीत. त्यामुळे, मागील आठवड्यात या प्लॉटवर कोणतेही रोग आढळले नाहीत.",
+        "en": "There are no disease metrics available on \"Plot No.2\". Therefore, no diseases were found on this plot last week.",
+        "timestamp": "2025-11-21 00:31:34.383000"
+      },
+      {
+        "role": "user",
+        "content": "Plot no 2 var pani dyave ka",
+        "en": "Should water be given on plot number 2?",
+        "timestamp": "2025-11-21 00:32:12.443000",
+        "standalone_question": "Should I water Plot No. 2?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot No.2\" वर सध्या पाणी देण्याची आवश्यकता नाही. \n\nसध्याची मातीची आर्द्रता:\n- Soil Moisture 1: 26 kPa\n- Soil Moisture 2: 13 kPa\n\nआवश्यक आर्द्रता:\n- Optimal: 28 kPa\n\nसध्या मातीची आर्द्रता कमी आहे, त्यामुळे पाणी देण्याची आवश्यकता नाही.",
+        "en": "There is no need to water \"Plot No.2\" at present. \n\nCurrent soil moisture:\n- Soil Moisture 1: 26 kPa\n- Soil Moisture 2: 13 kPa\n\nRequired humidity:\n- Optimal: 28 kPa\n\nAt present, the soil moisture is low, so there is no need to water.",
+        "timestamp": "2025-11-21 00:32:18.947000"
+      },
+      {
+        "role": "user",
+        "content": "Plot no 2 var konte khat dyave",
+        "en": "Plot no 2 was konte khat dyave",
+        "timestamp": "2025-11-21 00:33:53.737000",
+        "standalone_question": "What fertilizers should be applied to Plot No. 2?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot No.2\" वर सध्या \"Beginning of Bloom\" या पिकाच्या अवस्थेत आहात. यासाठी, पुढील खते लागू करणे आवश्यक आहे:\n\n### सध्याची फर्टिगेशन शेड्यूल (सप्ताह 1):\n1. **Mono potassium phosphate**: 3.5 kg/acre\n2. **Phosphoric acid 80%**: 1.5 kg/acre (हे इतर खते लागू करण्यापूर्वी 15-20 मिनिटे स्वतंत्रपणे लागू करावे.)\n\n### पुढील फर्टिगेशन शेड्यूल (सप्ताह 2):\n1. **11-44-11**: 6.5 kg/acre\n2. **Calcium nitrate**: 1.5 kg/acre (हे इतर खते लागू केल्यानंतर 15-20 मिनिटे स्वतंत्रपणे लागू करावे.)\n3. **Sulfate of Potash**: 3.5 kg/acre\n\nकृपया या खते योग्य प्रमाणात लागू करा.",
+        "en": "You are currently in the \"Beginning of Bloom\" crop stage on \"Plot No.2\". For this, the following fertilizers need to be applied:\n\n### Current Fertigation Schedule (Week 1):\n1. **Mono potassium phosphate**: 3.5 kg/acre\n2. **Phosphoric acid 80%**: 1.5 kg/acre (This should be applied separately for 15-20 minutes before applying other fertilizers.)\n\n### Next Fertigation Schedule (Week 2):\n1. **11-44-11**: 6.5 kg/acre\n2. **Calcium nitrate**: 1.5 kg/acre (This should be applied separately for 15-20 minutes after applying other fertilizers.)\n3. **Sulfate of Potash**: 3.5 kg/acre\n\nPlease apply these fertilizers in the right amount.",
+        "timestamp": "2025-11-21 00:34:04.794000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.0,
+    "tags": [
+      "disease/pest",
+      "water/irrigation",
+      "nutrient/fertigation"
+    ]
+  },
+  {
+    "_id": "691fbb8aa49550707b19e97e",
+    "farmer_id": "shankarprakashpatil",
+    "farmer_name": "Shankar Prakash Patil",
+    "farmer_plot_ids": [
+      "ssnplot1367"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "ma",
+    "gender": "Male",
+    "initial_message": "पावसाचा हवामान अंदाज",
+    "expiry": "2025-11-21 01:13:58.813000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "पावसाचा हवामान अंदाज",
+        "en": "Weather Forecast",
+        "timestamp": "2025-11-21 01:08:26.727000",
+        "standalone_question": "What is the weather forecast for rainfall?"
+      },
+      {
+        "role": "assistant",
+        "content": "SSN Plot 1 च्या पावसाचा हवामान अंदाज:\n\n- **20 नोव्हेंबर 2025**:\n  - 00:00 - 22:00: पाऊस नाही (0 मिमी)\n\nसध्या कोणताही पाऊस झालेला नाही.",
+        "en": "Rainfall Forecast for SSN Plot 1:\n\n- **20 November 2025**:\n  - 00:00 - 22:00: No rain (0 mm)\n\nThere is no rain at the moment.",
+        "timestamp": "2025-11-21 01:08:36.913000"
+      },
+      {
+        "role": "user",
+        "content": "पुढील १० दिवसाचा अंदाज",
+        "en": "Forecast for next 10 days",
+        "timestamp": "2025-11-21 01:08:58.810000",
+        "standalone_question": "What is the weather forecast for the next 10 days?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "SSN Plot 1 साठी पुढील 10 दिवसांचा हवामान अंदाज:\n\n1. **21 नोव्हेंबर 2025**:\n   - किमान तापमान: 18.5°C\n   - कमाल तापमान: 30°C\n   - आर्द्रता: 53%\n   - वारा: 9.4 किमी/तास\n   - पाऊस: 0 मिमी\n   - पाऊस येण्याची शक्यता: 0%\n\n2. **22 नोव्हेंबर 2025**:\n   - किमान तापमान: 19.2°C\n   - कमाल तापमान: 31.3°C\n   - आर्द्रता: 58%\n   - वारा: 9 किमी/तास\n   - पाऊस: 0 मिमी\n   - पाऊस येण्याची शक्यता: 0%\n\n3. **23 नोव्हेंबर 2025**:\n   - किमान तापमान: 19.7°C\n   - कमाल तापमान: 30.2°C\n   - आर्द्रता: 67%\n   - वारा: 9 किमी/तास\n   - पाऊस: 0 मिमी\n   - पाऊस येण्याची शक्यता: 5%\n\n4. **24 नोव्हेंबर 2025**:\n   - किमान तापमान: 19.8°C\n   - कमाल तापमान: 30.5°C\n   - आर्द्रता: 81%\n   - वारा: 8.6 किमी/तास\n   - पाऊस: 4.6 मिमी\n   - पाऊस येण्याची शक्यता: 15%\n\n5. **25 नोव्हेंबर 2025**:\n   - किमान तापमान: 19.4°C\n   - कमाल तापमान: 28.5°C\n   - आर्द्रता: 85%\n   - वारा: 7.2 किमी/तास\n   - पाऊस: 6.5 मिमी\n   - पाऊस येण्याची शक्यता: 10%\n\n6. **26 नोव्हेंबर 2025**:\n   - किमान तापमान: 19.3°C\n   - कमाल तापमान: 29°C\n   - आर्द्रता: 67%\n   - वारा: 9.7 किमी/तास\n   - पाऊस: 0 मिमी\n   - पाऊस येण्याची शक्यता: 0%\n\n7. **27 नोव्हेंबर 2025**:\n   - किमान तापमान: 19.1°C\n   - कमाल तापमान: 27.6°C\n   - वारा: 11.5 किमी/तास\n   - पाऊस: 0 मिमी\n\n8. **28 नोव्हेंबर 2025**:\n   - किमान तापमान: 17.2°C\n   - कमाल तापमान: 27.7°C\n   - वारा: 10.8 किमी/तास\n   - पाऊस: 0 मिमी\n\n9. **29 नोव्हेंबर 2025**:\n   - किमान तापमान: 15°C\n   - कमाल तापमान: 26°C\n   - वारा: 13.3 किमी/तास\n   - पाऊस: 0 मिमी\n\n10. **30 नोव्हेंबर 2025**:\n   - किमान तापमान: 15°C\n   - कमाल तापमान: 26°C\n   - वारा: 13.3 किमी/तास\n   - पाऊस: 0 मिमी\n\nतुमच्या शेतासाठी हवामान चांगले आहे, पाऊस येण्याची शक्यता कमी आहे.",
+        "en": "Next 10 days Weather Forecast for SSN Plot 1:\n\n1. **21 November 2025**:\n   - Minimum temperature: 18.5°C\n   - Maximum temperature: 30°C\n   - Humidity: 53%\n   - Wind: 9.4 km/h\n   - Rain: 0 mm\n   - Chance of rain: 0%\n\n2. **22 November 2025**:\n   - Minimum temperature: 19.2°C\n   - Maximum temperature: 31.3°C\n   - Humidity: 58%\n   - Wind: 9 km/h\n   - Rain: 0 mm\n   - Chance of rain: 0%\n\n3. **23 November 2025**:\n   - Minimum temperature: 19.7°C\n   - Maximum temperature: 30.2°C\n   - Humidity: 67%\n   - Wind: 9 km/h\n   - Rain: 0 mm\n   - Chance of rain: 5%\n\n4. **24 November 2025**:\n   - Minimum temperature: 19.8°C\n   - Maximum temperature: 30.5°C\n   - Humidity: 81%\n   - Wind: 8.6 km/h\n   - Rain: 4.6 mm\n   - Chance of rain: 15%\n\n5. **25 November 2025**:\n   - Minimum temperature: 19.4°C\n   - Maximum temperature: 28.5°C\n   - Humidity: 85%\n   - Wind: 7.2 km/h\n   - Rain: 6.5 mm\n   - Chance of rain: 10%\n\n6. **26 November 2025**:\n   - Minimum temperature: 19.3°C\n   - Maximum temperature: 29°C\n   - Humidity: 67%\n   - Wind: 9.7 km/h\n   - Rain: 0 mm\n   - Chance of rain: 0%\n\n7. **27 November 2025**:\n   - Minimum temperature: 19.1°C\n   - Maximum temperature: 27.6°C\n   - Wind: 11.5 km/h\n   - Rain: 0 mm\n\n8. **28 November 2025**:\n   - Minimum temperature: 17.2°C\n   - Maximum temperature: 27.7°C\n   - Wind: 10.8 km/h\n   - Rain: 0 mm\n\n9. **29 November 2025**:\n   - Minimum temperature: 15°C\n   - Maximum temperature: 26°C\n   - Wind: 13.3 km/h\n   - Rain: 0 mm\n\n10. **30 November 2025**:\n   - Minimum temperature: 15°C\n   - Maximum temperature: 26°C\n   - Wind: 13.3 km/h\n   - Rain: 0 mm\n\nThe weather is good for your farm, there is little chance of rain.",
+        "timestamp": "2025-11-21 01:09:26.408000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "weather/forecast"
+    ]
+  },
+  {
+    "_id": "691fbb9fa49550707b19e97f",
+    "farmer_id": "ravindrametri",
+    "farmer_name": "Ravindra metri",
+    "farmer_plot_ids": [
+      "ssnplot487"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "ma",
+    "gender": "Male",
+    "initial_message": "माझ्या पिकाला पाणी द्यावे का?",
+    "expiry": "2025-11-21 01:13:48.104000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "माझ्या पिकाला पाणी द्यावे का?",
+        "en": "Should I water my crop?",
+        "timestamp": "2025-11-21 01:08:48.100000",
+        "standalone_question": "Should I water my crop?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"ssn plot\" वर सध्या पाणी देण्याची आवश्यकता नाही. \n\n- **मातीची आर्द्रता**: \n  - 68% (पहिला सेंसर)\n  - 86% (दुसरा सेंसर)\n  \n- **आवश्यक आर्द्रता**: 60%\n\nसध्या मातीची आर्द्रता आवश्यकतेपेक्षा जास्त आहे, त्यामुळे पाणी देण्याची आवश्यकता नाही.",
+        "en": "There is no need to water your \"SSN plot\" at the moment. \n\n- **Soil Moisture**: \n  - 68% (first censor)\n  - 86% (second censor)\n  \n- **Required humidity**: 60%\n\nAt present, soil moisture is more than required, so there is no need to water.",
+        "timestamp": "2025-11-21 01:08:53.522000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "water/irrigation"
+    ]
+  },
+  {
+    "_id": "691fc2c0df25189a629abf40",
+    "farmer_id": "manikkhandave",
+    "farmer_name": "Manik Khandave",
+    "farmer_plot_ids": [
+      "newsudhakarkjandqve",
+      "plotno1thompsonkhandave",
+      "plotno3crimson883"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "ma",
+    "gender": "Male",
+    "initial_message": "माझ्या पिकाला पाणी द्यावे का?",
+    "expiry": "2025-11-21 01:44:14.902000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "माझ्या पिकाला पाणी द्यावे का?",
+        "en": "Should I water my crop?",
+        "timestamp": "2025-11-21 01:39:13.447000",
+        "standalone_question": "Should I water my crop?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "### Plot No 2 Sudhakar\n- **Watering Condition**: The latest field data is not current. Because the latest data was received 246.96 hours ago. Possible reasons: network issue, device issue, low battery, or expired recharge plan. Please raise a support ticket if you want to resolve the issue.\n- **Fertigation Schedule**: No fertigation needed this week. Next schedule starts on **November 26, 2025** for the **Fruit Set** stage.\n\n### Plot No 1 Thompson\n- **Watering Condition**: \n  - Soil Moisture 1: 14 kPa (optimal: 22 kPa)\n  - Soil Moisture 2: 30 kPa (optimal: 22 kPa)\n  - **Watering can be done**, since one or both kPa of soil moisture are above dry optimal kPa values.\n- **Fertigation Schedule**: \n  - Current week: **Berry Development** stage.\n  - Next schedule starts on **January 12, 2026**.\n\n### Plot No 3 Crimson\n- **Watering Condition**: \n  - Soil Moisture 1: 84% (optimal: 60%)\n  - Soil Moisture 2: 92% (optimal: 60%)\n  - **Watering not required** as of now, as percentage soil moisture is above dry optimal values.\n- **Fertigation Schedule**: Fertigation data schedule not available for this plot.\n\n### Summary\n- **Plot No 2 Sudhakar**: No current data available; consider raising a support ticket.\n- **Plot No 1 Thompson**: Watering is needed; follow the fertigation schedule for the Berry Development stage.\n- **Plot No 3 Crimson**: No watering needed currently. \n\nIf you need further assistance or want to raise a support ticket for Plot No 2, please let me know!",
+        "en": "### Plot No 2 Sudhakar\n- **Watering Condition**: The latest field data is not current. Because the latest data was received 246.96 hours ago. Possible reasons: network issue, device issue, low battery, or expired recharge plan. Please raise a support ticket if you want to resolve the issue.\n- **Fertigation Schedule**: No fertigation needed this week. Next schedule starts on **November 26, 2025** for the **Fruit Set** stage.\n\n### Plot No 1 Thompson\n- **Watering Condition**: \n  - Soil Moisture 1: 14 kPa (optimal: 22 kPa)\n  - Soil Moisture 2: 30 kPa (optimal: 22 kPa)\n  - **Watering can be done**, since one or both kPa of soil moisture are above dry optimal kPa values.\n- **Fertigation Schedule**: \n  - Current week: **Berry Development** stage.\n  - Next schedule starts on **January 12, 2026**.\n\n### Plot No 3 Crimson\n- **Watering Condition**: \n  - Soil Moisture 1: 84% (optimal: 60%)\n  - Soil Moisture 2: 92% (optimal: 60%)\n  - **Watering not required** as of now, as percentage soil moisture is above dry optimal values.\n- **Fertigation Schedule**: Fertigation data schedule not available for this plot.\n\n### Summary\n- **Plot No 2 Sudhakar**: No current data available; consider raising a support ticket.\n- **Plot No 1 Thompson**: Watering is needed; follow the fertigation schedule for the Berry Development stage.\n- **Plot No 3 Crimson**: No watering needed currently. \n\nIf you need further assistance or want to raise a support ticket for Plot No 2, please let me know!",
+        "timestamp": "2025-11-21 01:39:34.785000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "water/irrigation"
+    ]
+  },
+  {
+    "_id": "691fc787df25189a629abf41",
+    "farmer_id": "jitendrabharambe",
+    "farmer_name": "Jitendra Bharambe",
+    "farmer_plot_ids": [
+      "dambarishet01"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "ma",
+    "gender": "Male",
+    "initial_message": "माझ्या पिकासाठी कोणते खत वापरावे?",
+    "expiry": "2025-11-21 02:04:37.245000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "माझ्या पिकासाठी कोणते खत वापरावे?",
+        "en": "What fertilizer should I use for my crop?",
+        "timestamp": "2025-11-21 01:59:37.242000",
+        "standalone_question": "What fertilizers should I use for my crop?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "आपल्या \"सह्याद्री रोप\" प्लॉटसाठी, सध्या कोणतेही खत (फर्टिगेशन) आवश्यक नाही. तथापि, पुढील फर्टिगेशन शेड्यूल खालीलप्रमाणे आहे:\n\n### पुढील फर्टिगेशन शेड्यूल:\n- **स्टेज:** बूटिंग\n- **सुरुवात तारीख:** 21 नोव्हेंबर 2025\n- **फर्टिगेशन पद्धती:** \n  1. **कॅल्शियम नायट्रेट:** 3 किग्रॅ/प्लांट\n  2. **सोल्यूबॉर:** 0.5 किग्रॅ/प्लांट\n  3. **0-40-37:** 4 किग्रॅ/प्लांट\n  4. **व्हाइट म्युरिएट ऑफ पोटाश:** 3.5 किग्रॅ/प्लांट\n\n**महत्वाची नोट्स:**\n- फॉस्फोरिक आम्ल वेगळे लागू करावे, इतर खतांच्या अनुप्रयोगापूर्वी 15-20 मिनिटे.\n- कॅल्शियम नायट्रेट वेगळे लागू करावे, इतर खतांच्या अनुप्रयोगानंतर 15-20 मिनिटे.\n\nआपण या शेड्यूलनुसार फर्टिगेशन करणे सुनिश्चित करा.",
+        "en": "For your \"Sahyadri Plant\" plot, no fertilization is required at present. However, the following fertigation schedule is as follows:\n\n### Next Fertigation Schedule:\n- **Stage:** Booting\n- **Start Date:** 21 November 2025\n- **Fertigation Method:** \n  1. **Calcium Nitrate:** 3kg/plant\n  2. **Solubor:** 0.5kg/plant\n  3. **0-40-37:** 4kg/plant\n  4. **White Muriate of Potash:** 3.5kg/plant\n\n**Important Notes:**\n- Phosphoric acid should be applied separately, 15-20 minutes before application of other fertilizers.\nCalcium nitrate should be applied separately, 15-20 minutes after application of other fertilizers.\n\nMake sure you do fertigation according to this schedule.",
+        "timestamp": "2025-11-21 01:59:46.291000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "nutrient/fertigation"
+    ]
+  },
+  {
+    "_id": "691fc79adf25189a629abf42",
+    "farmer_id": "lahudagaduitukade",
+    "farmer_name": "lahu dagadu itukade",
+    "farmer_plot_ids": [
+      "bGFodSdzcGxvdA1762345667088",
+      "clone555",
+      "rajeshine"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "ma",
+    "gender": "Male",
+    "initial_message": "माझ्या पिकाला पाणी द्यावे का?",
+    "expiry": "2025-11-21 02:04:54.394000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "माझ्या पिकाला पाणी द्यावे का?",
+        "en": "Should I water my crop?",
+        "timestamp": "2025-11-21 01:59:54.391000",
+        "standalone_question": "Should I water my crop?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या पिकांना पाणी देण्याची आवश्यकता नाही. \n\n1. **lahu's plot**: पाण्याची माहिती पाहण्यासाठी रिचार्ज करणे आवश्यक आहे.\n2. **Clone**: मातीतील आर्द्रता 90% आणि 100% आहे, जे की 60% च्या आदर्श पातळीपेक्षा जास्त आहे. त्यामुळे पाणी देण्याची आवश्यकता नाही.\n3. **Rajeshine**: मातीतील आर्द्रता 95% आणि 99% आहे, जे की 70% च्या आदर्श पातळीपेक्षा जास्त आहे. त्यामुळे पाणी देण्याची आवश्यकता नाही. \n\nकृपया तुमच्या पिकांच्या पाण्याच्या गरजांवर लक्ष ठेवा.",
+        "en": "Your crops do not need to be watered. \n\n1. **Lahu's Plot**: Recharge is necessary to see the water information.\n2. **Clone**: The soil moisture content is 90% and 100%, which is higher than the ideal level of 60%. Therefore, there is no need to give water.\n3. **Rajeshine**: The soil moisture content is 95% and 99%, which is higher than the ideal level of 70%. Therefore, there is no need to give water. \n\nPlease keep an eye on the water requirements of your crops.",
+        "timestamp": "2025-11-21 02:00:00.444000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "water/irrigation"
+    ]
+  },
+  {
+    "_id": "691fd138069469e0b01e8ef7",
+    "farmer_id": "sunilpurkar",
+    "farmer_name": "Sunil Purkar",
+    "farmer_plot_ids": [
+      "plotno1thompsonmf2"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "ma",
+    "gender": "Male",
+    "initial_message": "माझ्या पिकासाठी कोणते खत वापरावे?",
+    "expiry": "2025-11-21 02:46:01.256000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "माझ्या पिकासाठी कोणते खत वापरावे?",
+        "en": "What fertilizer should I use for my crop?",
+        "timestamp": "2025-11-21 02:40:58.456000",
+        "standalone_question": "What fertilizers should I use for my crop?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "\"Plot No 1 Thompson\" साठी खताची फर्टिगेशन माहिती उपलब्ध नाही. तुम्हाला कोणत्या विशिष्ट खताबद्दल माहिती हवी आहे का?",
+        "en": "Fertilizer fertigation information available for \"Plot No 1 Thompson\". Do you want to know about any particular fertilizer?",
+        "timestamp": "2025-11-21 02:41:05.328000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "nutrient/fertigation"
+    ]
+  },
+  {
+    "_id": "691fe014c3c8b711e3a87a26",
+    "farmer_id": "c29sYW5raQ1763695741770",
+    "farmer_name": "Solanki",
+    "farmer_plot_ids": [
+      "c29sYW5raSdzcGxvdA1763695929729",
+      "c29sYW5raSdzcGxvdA1763696488694"
+    ],
+    "roles": [],
+    "language": "gu",
+    "gender": null,
+    "initial_message": "મારા પાક માટે કયું ખાતર વાપરવું?",
+    "expiry": "2025-11-21 03:49:21.816000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "મારા પાક માટે કયું ખાતર વાપરવું?",
+        "en": "Which fertilizer should I use for my crop?",
+        "timestamp": "2025-11-21 03:44:21.812000",
+        "standalone_question": "What fertilizer should I use for my crop?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પાક માટે ખાતર વાપરવા માટેની માહિતી ઉપલબ્ધ નથી, કારણ કે તમારા પ્લોટનું રિચાર્જ સમાપ્ત થઈ ગયું છે. કૃપા કરીને તમારા પ્લોટને ફરીથી રિચાર્જ કરો જેથી તમે ખાતરનો ઉપયોગ કરવા માટેની માહિતી મેળવી શકો.",
+        "en": "Information on how to use fertilizer for your crop is not available as the recharge of your plot has been completed. Please recharge your plot so that you can get information on how to use the fertilizer.",
+        "timestamp": "2025-11-21 03:44:27.557000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "nutrient/fertigation"
+    ]
+  },
+  {
+    "_id": "691fe03a4fe5b6364a79d3ed",
+    "farmer_id": "VR2522",
+    "farmer_name": "HARESHBHAI DEVABHAI",
+    "farmer_plot_ids": [
+      "motopalot",
+      "vatvalopalot",
+      "patsalapalot"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "gu",
+    "gender": "Male",
+    "initial_message": "શું મને મારી પાકને પાણી આપવું જોઈએ?",
+    "expiry": "2025-11-21 03:49:58.603000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "શું મને મારી પાકને પાણી આપવું જોઈએ?",
+        "en": "Should I water my crops?",
+        "timestamp": "2025-11-21 03:44:58.600000",
+        "standalone_question": "Should I water my crop?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "**પાણી આપવાની જરૂર છે:**\n\n1. **Moto palot**:\n   - **માટીના આકાંક્ષાઓ**: Soil Moisture 1: 29 kPa, Soil Moisture 2: 50 kPa\n   - **ઓપ્ટિમલ**: 18 kPa\n   - **નિર્ણય**: પાણી આપવું જોઈએ, કારણ કે માટીનું કીપા ઓપ્ટિમલથી વધુ છે.\n\n2. **Vat valo palot**:\n   - **માટીના આકાંક્ષાઓ**: Soil Moisture 1: 29 kPa, Soil Moisture 2: 28 kPa\n   - **ઓપ્ટિમલ**: 20 kPa\n   - **નિર્ણય**: પાણી આપવું જોઈએ, કારણ કે માટીનું કીપા ઓપ્ટિમલથી વધુ છે.\n\n3. **Patsala Palot**:\n   - **માટીના આકાંક્ષાઓ**: Soil Moisture 1: 26 kPa, Soil Moisture 2: 28 kPa\n   - **ઓપ્ટિમલ**: 20 kPa\n   - **નિર્ણય**: પાણી આપવું જોઈએ, કારણ કે માટીનું કીપા ઓપ્ટિમલથી વધુ છે.\n\n**ફર્ટિગેશન શેડ્યૂલ**:\n- **આજ**: કોઈ ફર્ટિગેશનની જરૂર નથી.\n- **આગામી**: \n   - **Vegetative growth**: \n     - **1st Week**: \n       - **Day 1**: Humic acid (1 lit/acre)\n       - **Day 4**: Fertilizers like 12-61-0 (6 kg/acre) and Urea (5 kg/acre) will be applied.\n\n**કૃષિ પ્રવૃત્તિઓ**: આજના દિવસે કોઈ કૃષિ પ્રવૃત્તિઓ નોંધાઈ નથી.\n\nજો તમને વધુ માહિતી જોઈએ તો જણાવશો!",
+        "en": "**Need to be watered:**\n\n1. **Moto palot**:\n   - **Soil aspirations**: Soil Moisture 1: 29 kPa, Soil Moisture 2: 50 kPa\n   - **Optimal**: 18 kPa\n   - **Decision**: Water should be given, as the soil keepa is more than optimal.\n\n2. **Vat valo palot**:\n   - **Soil Aspirations**: Soil Moisture 1: 29 kPa, Soil Moisture 2: 28 kPa\n   - **Optimal**: 20 kPa\n   - **Decision**: Water should be given, as the soil keepa is more than optimal.\n\n3. **Patsala Palot**:\n   - **Soil Aspirations**: Soil Moisture 1: 26 kPa, Soil Moisture 2: 28 kPa\n   - **Optimal**: 20 kPa\n   - **Decision**: Water should be given, as the soil keepa is more than optimal.\n\n**Fertigation Schedule**:\n- **Today**: No fertigation required.\n- **Next**: \n   - **Vegetative growth**: \n     - **1st Week**: \n       - **Day 1**: Humic acid (1 lit/acre)\n       - **Day 4**: Fertilizers like 12-61-0 (6 kg/acre) and Urea (5 kg/acre) will be applied.\n\n**Agricultural activities**: No agricultural activities reported today.\n\nLet me know if you need more information!",
+        "timestamp": "2025-11-21 03:45:14.739000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "water/irrigation"
+    ]
+  },
+  {
+    "_id": "691fe6e39d9bf0f18dde1f8a",
+    "farmer_id": "dattujadhav",
+    "farmer_name": "Dattu jadhav",
+    "farmer_plot_ids": [
+      "plotno1ssn809"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "ma",
+    "gender": "Male",
+    "initial_message": "माझ्या पिकासाठी कोणते खत वापरावे?",
+    "expiry": "2025-11-21 04:18:23.227000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "माझ्या पिकासाठी कोणते खत वापरावे?",
+        "en": "What fertilizer should I use for my crop?",
+        "timestamp": "2025-11-21 04:13:23.223000",
+        "standalone_question": "What fertilizers should I use for my crop?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या पिकासाठी (द्राक्षे) खालील खतांचा वापर करावा:\n\n### सध्या (Shoot Development) - 3रा आठवडा:\n- **Foliar Spray**:\n  - **Solubor**: 300 ग्रॅम/एकर\n  - **Gibberellic acid (GA3)**: 15 ppm/प्लांट\n  - **टीप**: फोलिअर स्प्रेमध्ये सूक्ष्म-खतांची एकाग्रता 1% पेक्षा जास्त नसावी, म्हणजेच 500 लिटर पाण्यात 5 किलो.\n\n### पुढील (Beginning of Bloom) - 1रा आठवडा (2025-12-01 पासून):\n- **Fertigation**:\n  - **Mono potassium phosphate**: 3.5 किलो/एकर\n  - **Phosphoric acid 80%**: 1.5 किलो/एकर (इतर खतांच्या वापरापूर्वी 15-20 मिनिटे लागू करावे)\n  \n  किंवा\n  \n  - **0-60-20**: 4.5 किलो/एकर\n  \n  किंवा\n  \n  - **Phosphoric acid 80%**: 3.5 किलो/एकर\n  - **Sulfate of Potash**: 2.5 किलो/एकर\n\nतुमच्या पिकाच्या विकासाच्या टप्प्यानुसार हे खत वापरा.",
+        "en": "The following fertilizers should be used for your crop (grapes):\n\n### Currently (Shoot Development) - 3rd Week:\n- **Foliar Spray**:\n  - **Solubor**: 300 g/acre\n  - **Gibberellic acid (GA3)**: 15 ppm/plant\n  **Note**: The concentration of micro-fertilizers in foliar spray should not exceed 1%, i.e. 5 kg in 500 liters of water.\n\n### Next (Beginning of Bloom) - 1st week (from 2025-12-01):\n- **Fertigation**:\n  - **Mono potassium phosphate**: 3.5 kg/acre\n  - **Phosphoric acid 80%**: 1.5 kg/acre (to be applied 15-20 minutes before use of other fertilizers)\n  \nor\n  \n- **0-60-20**: 4.5 kg/acre\n  \nor\n  \n- **Phosphoric acid 80%**: 3.5 kg/acre\n  - **Sulfate of Potash**: 2.5 kg/acre\n\nUse this fertilizer according to the growth stage of your crop.",
+        "timestamp": "2025-11-21 04:13:31.732000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "nutrient/fertigation"
+    ]
+  },
+  {
+    "_id": "691fea43c3c8b711e3a87a27",
+    "farmer_id": "sangramdeore",
+    "farmer_name": "sangram yogesh deore",
+    "farmer_plot_ids": [],
+    "roles": [
+      "support"
+    ],
+    "language": "ma",
+    "gender": "Male",
+    "initial_message": "माझ्या पिकाला पाणी द्यावे का?",
+    "expiry": "2025-11-21 04:33:04.664000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "माझ्या पिकाला पाणी द्यावे का?",
+        "en": "Should I water my crop?",
+        "timestamp": "2025-11-21 04:27:47.347000",
+        "standalone_question": "Should I water my crop?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या पिकाला पाणी द्यावे का हे जाणून घेण्यासाठी मला तुमच्या प्लॉटची माहिती आवश्यक आहे. कृपया तुमच्या प्लॉटचे नाव सांगा, जेणेकरून मी तपासू शकेन.",
+        "en": "I need your plot information to know if you should water your crop. Please tell me the name of your plot so that I can check.",
+        "timestamp": "2025-11-21 04:27:50.451000"
+      },
+      {
+        "role": "user",
+        "content": "Plot no 1",
+        "en": "Plot no 1",
+        "timestamp": "2025-11-21 04:28:04.660000",
+        "standalone_question": "What is the name of your plot?",
+        "is_query_common": false
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या प्लॉटसाठी पाण्याची स्थिती तपासण्यासाठी तुम्हाला प्लॉट रिचार्ज करणे आवश्यक आहे. कृपया रिचार्ज करा, जेणेकरून मी तुम्हाला पाण्याची आवश्यकता सांगू शकेन.",
+        "en": "You need to recharge the plot to check the water condition for your plot. Please recharge, so that I can tell you the water requirement.",
+        "timestamp": "2025-11-21 04:28:10.092000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "water/irrigation"
+    ]
+  },
+  {
+    "_id": "691fedec4fe5b6364a79d3ee",
+    "farmer_id": "irannasakkari",
+    "farmer_name": "Iranna sakkari",
+    "farmer_plot_ids": [
+      "chandrakanthplot",
+      "sangannaplot"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "ka",
+    "gender": "Male",
+    "initial_message": "ನನ್ನ ಬೆಳೆಗಾಗಿ ಯಾವ ರಸಗೊಬ್ಬರವನ್ನು ಬಳಸಬೇಕು?",
+    "expiry": "2025-11-21 04:48:25.089000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "ನನ್ನ ಬೆಳೆಗಾಗಿ ಯಾವ ರಸಗೊಬ್ಬರವನ್ನು ಬಳಸಬೇಕು?",
+        "en": "What fertilizer should I use for my crop?",
+        "timestamp": "2025-11-21 04:43:25.086000",
+        "standalone_question": "What fertilizers should I use for my crop?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "ನಿಮ್ಮ ಬೆಳೆಗಾಗಿ (ದಾಳಿಂಬೆ) ಈ ಕೆಳಗಿನ ರಸಗೊಬ್ಬರಗಳನ್ನು ಬಳಸಬಹುದು:\n\n### ಪ್ರಸ್ತುತ ಫರ್ಟಿಗೇಶನ್ ಶೆಡ್ಯೂಲ್ (2ನೇ ವಾರ)\n- **ದಾಳಿಂಬೆ** (Flowering & Fruit set) ಹಂತದಲ್ಲಿ ನೀವು ಈ ರಸಗೊಬ್ಬರಗಳನ್ನು ಬಳಸಬಹುದು:\n  1. **12-61-0**: 2 ಕಿಲೋಗ್ರಾಂ/ಎಕರೆ\n  2. **ಯೂರಿಯಾ**: 1.5 ಕಿಲೋಗ್ರಾಂ/ಎಕರೆ\n  3. **ಮ್ಯಾಗ್ನೇಶಿಯಂ ಸಲ್ಫೇಟ್**: 3 ಕಿಲೋಗ್ರಾಂ/ಎಕರೆ\n\n  ಅಥವಾ\n\n  1. **24-24-0**: 3.5 ಕಿಲೋಗ್ರಾಂ/ಎಕರೆ\n  2. **ಫಾಸ್ಫೋರಿಕ ಆಮ್ಲ 80%**: 1 ಕಿಲೋಗ್ರಾಂ/ಎಕರೆ\n  3. **ಮ್ಯಾಗ್ನೇಶಿಯಂ ಸಲ್ಫೇಟ್**: 3 ಕಿಲೋಗ್ರಾಂ/ಎಕರೆ\n\n  ಅಥವಾ\n\n  1. **ಯೂರಿಯಾ**: 2 ಕಿಲೋಗ್ರಾಂ/ಎಕರೆ\n  2. **ಫಾಸ್ಫೋರಿಕ ಆಮ್ಲ 80%**: 2 ಕಿಲೋಗ್ರಾಂ/ಎಕರೆ\n  3. **ಮ್ಯಾಗ್ನೇಶಿಯಂ ಸಲ್ಫೇಟ್**: 3 ಕಿಲೋಗ್ರಾಂ/ಎಕರೆ\n\n**ಗಮನಿಸಿ**: ಫಾಸ್ಫೋರಿಕ ಆಮ್ಲವನ್ನು ಇತರ ರಸಗೊಬ್ಬರಗಳನ್ನು ಬಳಸುವ ಮುನ್ನ 15-20 ನಿಮಿಷಗಳ ಕಾಲ ಪ್ರತ್ಯೇಕವಾಗಿ ಬಳಸಬೇಕು.\n\n### ಮುಂದಿನ ಫರ್ಟಿಗೇಶನ್ ಶೆಡ್ಯೂಲ್ (3ನೇ ವಾರ)\n- **ದಾಳಿಂಬೆ** (Flowering & Fruit set) ಹಂತದಲ್ಲಿ ನೀವು ಈ ರಸಗೊಬ್ಬರಗಳನ್ನು ಬಳಸಬಹುದು:\n  1. **ಪೊಟ್ಯಾಸಿಯಮ್ ನೈಟ್ರೇಟ್**: 2 ಕಿಲೋಗ್ರಾಂ/ಎಕರೆ\n  2. **ಯೂರಿಯಾ**: 1 ಕಿಲೋಗ್ರಾಂ/ಎಕರೆ\n\n  ಅಥವಾ\n\n  1. **ಯೂರಿಯಾ**: 2 ಕಿಲೋಗ್ರಾಂ/ಎಕರೆ\n  2. **ಸಲ್ಫೇಟ್ ಆಫ್ ಪೊಟಾಶ್**: 2 ಕಿಲೋಗ್ರಾಂ/ಎಕರೆ\n\nಈ ಮಾಹಿತಿಯ ಆಧಾರದ ಮೇಲೆ ನೀವು ನಿಮ್ಮ ಬೆಳೆಗಳಿಗೆ ಸೂಕ್ತವಾದ ರಸಗೊಬ್ಬರವನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದು.",
+        "en": "The following fertilizers can be used for your crop (pomegranate):\n\n### Current Fertigation Schedule (2nd Week)\n- In the **Pomegranate & Fruit set) stage, you can use these fertilizers:\n  1. **12-61-0**: 2 kg/acre\n  2. **Urea**: 1.5 kg/acre\n  3. **Magnesium Sulphate**: 3 kg/acre\n\nor\n\n1. **24-24-0**: 3.5 kg/acre\n  2. **Phosphoric acid 80%**: 1 kg/acre\n  3. **Magnesium Sulphate**: 3 kg/acre\n\nor\n\n1. **Urea**: 2 kg/acre\n  2. **Phosphoric acid 80%**: 2 kg/acre\n  3. **Magnesium Sulphate**: 3 kg/acre\n\n**Note**: Phosphoric acid should be applied separately for 15-20 minutes before using other fertilizers.\n\n### Next fertigation schedule (Week 3)\n- In the **Pomegranate & Fruit set) stage, you can use these fertilizers:\n  1. **Potassium Nitrate**: 2 kg/acre\n  2. **Urea**: 1 kg/acre\n\nor\n\n1. **Urea**: 2 kg/acre\n  2. **Sulphate of Potash**: 2 kg/acre\n\nOn the basis of this information, you can choose the right fertilizer for your crops.",
+        "timestamp": "2025-11-21 04:43:38.549000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "nutrient/fertigation"
+    ]
+  },
+  {
+    "_id": "691fef4f4fe5b6364a79d3ef",
+    "farmer_id": "uttamvalukasbe",
+    "farmer_name": "Uttam Valu Kasbe",
+    "farmer_plot_ids": [
+      "ssn877",
+      "sudhakarseedless429"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "ma",
+    "gender": "Male",
+    "initial_message": "मागील आठवड्यात माझ्या पिकावर कोणते रोग किंवा कीड आली होती?",
+    "expiry": "2025-11-21 04:54:20.538000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "मागील आठवड्यात माझ्या पिकावर कोणते रोग किंवा कीड आली होती?",
+        "en": "What disease or pest did my crop suffer last week?",
+        "timestamp": "2025-11-21 04:49:20.535000",
+        "standalone_question": "What diseases or pests affected my crop last week?"
+      },
+      {
+        "role": "assistant",
+        "content": "मागील आठवड्यात (14 नोव्हेंबर 2025 ते 20 नोव्हेंबर 2025) आपल्या पिकांवर कोणतेही रोग किंवा कीड आढळले नाहीत. दोन्ही प्लॉट्ससाठी (SSN आणि Sudhakar Seedless) रोग आणि कीड मेट्रिक्स उपलब्ध नाहीत.",
+        "en": "In the last week (14 November 2025 to 20 November 2025), no diseases or pests have been found on our crops. Disease and pest metrics are not available for both plots (SSN and Sudhakar Seedless).",
+        "timestamp": "2025-11-21 04:49:26.630000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.0,
+    "tags": [
+      "disease/pest"
+    ]
+  },
+  {
+    "_id": "691ff74bc3c8b711e3a87a28",
+    "farmer_id": "deepakomasebedag",
+    "farmer_name": "Deepak Omase (bedag)",
+    "farmer_plot_ids": [
+      "anushkaplotno1703"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "ma",
+    "gender": "Male",
+    "initial_message": "माझ्या पिकाला पाणी द्यावे का?",
+    "expiry": "2025-11-21 05:28:23.538000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "माझ्या पिकाला पाणी द्यावे का?",
+        "en": "Should I water my crop?",
+        "timestamp": "2025-11-21 05:23:23.534000",
+        "standalone_question": "Should I water my crop?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"Anushka plot no 1\" मध्ये सध्या पाण्याची गरज नाही. \n\n- **मातीची आर्द्रता**: 93% आणि 100%\n- **आवश्यक आर्द्रता**: 60%\n\nसध्या मातीची आर्द्रता आवश्यकतेपेक्षा जास्त आहे, त्यामुळे पाणी देण्याची आवश्यकता नाही.",
+        "en": "There is no need for water in your \"Anushka plot no 1\" at present. \n\n- **Soil Humidity**: 93% and 100%\n- **Required humidity**: 60%\n\nAt present, soil moisture is more than required, so there is no need to water.",
+        "timestamp": "2025-11-21 05:23:29.502000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "water/irrigation"
+    ]
+  },
+  {
+    "_id": "691ff940bbd6cd6a1b12ea50",
+    "farmer_id": "dayananddeshmukh",
+    "farmer_name": "Dayanand Deshmukh",
+    "farmer_plot_ids": [
+      "clone2a889",
+      "rkplot585"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "ma",
+    "gender": "Male",
+    "initial_message": "माझ्या पिकासाठी कोणते खत वापरावे?",
+    "expiry": "2025-11-21 05:36:46.515000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "माझ्या पिकासाठी कोणते खत वापरावे?",
+        "en": "What fertilizer should I use for my crop?",
+        "timestamp": "2025-11-21 05:31:46.511000",
+        "standalone_question": "What fertilizers should I use for my crop?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या पिकासाठी खत वापरण्याची माहिती खालीलप्रमाणे आहे:\n\n### Clone 2A (तुमच्या पहिल्या प्लॉटसाठी)\n- **सध्याची अवस्था:** Topping (21 वीक)\n- **सध्याचा फर्टिगेशन शेड्यूल:** फर्टिगेशनची आवश्यकता नाही.\n- **उपयुक्त फर्टिगेशन:** \n  - **उपग्रहण:** Fruit Pruning (सुरूवात: 2025-09-26)\n  - **फोलिअर पद्धतीने:** \n    - **Hydrogen Cyanamide:** 35 ml/l\n\n### Rk Plot (तुमच्या दुसऱ्या प्लॉटसाठी)\n- **सध्याची अवस्था:** Shoot Development (3 वीक)\n- **सध्याचा फर्टिगेशन शेड्यूल:**\n  - **फोलिअर पद्धतीने:**\n    - **Solubor:** 300 gm/acre\n    - **Gibberallic acid (GA3):** 15 ppm/plant\n- **उपयुक्त फर्टिगेशन:**\n  - **सुरूवात:** Beginning of Bloom (सुरूवात: 2025-11-29)\n  - **फर्टिगेशन पद्धतीने:**\n    - **Mono potassium phosphate:** 3.5 kg/acre\n    - **Phosphoric acid 80%:** 1.5 kg/acre\n    - **0-60-20:** 4.5 kg/acre\n    - **Sulfate of Potash:** 2.5 kg/acre\n\nतुमच्या पिकाच्या अवस्थेनुसार योग्य खतांचा वापर करा.",
+        "en": "The information on using fertilizer for your crop is as follows:\n\n### Clone 2A (for your first plot)\n- **Current Status:** Topping (21 weeks)\n- **Current Fertigation Schedule:** No fertigation required.\n- **Suitable Fertigation:** \n  - **Access: ** Fruit Pruning (Starts: 2025-09-26)\n  - **Foliar Method:** \n    - **Hydrogen Cyanamide:** 35 ml/l\n\n### Rk Plot (for your second plot)\n- **Current Status:** Shoot Development (3 weeks)\n- **Current Fertigation Schedule:**\n  - **Foliar Method:**\n    - **Solubor:** 300 gm/acre\n    - **Gibberallic acid (GA3):** 15 ppm/plant\n- **Suitable Fertigation:**\n  - **Beginning:** Beginning of Bloom (Start: 2025-11-29)\n  - **Fertigation Method:**\n    - **Mono potassium phosphate:** 3.5 kg/acre\n    - **Phosphoric acid 80%:** 1.5 kg/acre\n    - **0-60-20:** 4.5 kg/acre\n    - **Sulfate of Potash:** 2.5 kg/acre\n\nUse the right fertilizers according to your crop stage.",
+        "timestamp": "2025-11-21 05:31:59.426000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "nutrient/fertigation"
+    ]
+  },
+  {
+    "_id": "692008311907208fda0fa3f9",
+    "farmer_id": "ramnatheknathgadekar",
+    "farmer_name": "ramnath eknath gadekar",
+    "farmer_plot_ids": [
+      "plotno1sharad269"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "en",
+    "gender": "Male",
+    "initial_message": "How much time i water my plant",
+    "expiry": "2025-11-21 06:40:29.759000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "How much time i water my plant",
+        "en": "How much time i water my plant",
+        "timestamp": "2025-11-21 06:35:29.756000",
+        "standalone_question": "How long should I water my plant?"
+      },
+      {
+        "role": "assistant",
+        "content": "You should water your plants for approximately **2.32 hours**.",
+        "en": "You should water your plants for approximately **2.32 hours**.",
+        "timestamp": "2025-11-21 06:35:35.996000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "water/irrigation"
+    ]
+  },
+  {
+    "_id": "692009541907208fda0fa3fa",
+    "farmer_id": "manojgurav",
+    "farmer_name": "manoj gurav",
+    "farmer_plot_ids": [
+      "manikchaman853"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "ma",
+    "gender": "Male",
+    "initial_message": "माझ्या पिकाला पाणी द्यावे का?",
+    "expiry": "2025-11-21 06:45:55.397000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "माझ्या पिकाला पाणी द्यावे का?",
+        "en": "Should I water my crop?",
+        "timestamp": "2025-11-21 06:40:21.272000",
+        "standalone_question": "Should I water my crop?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"मनिक चमन\" पिकाला सध्या पाणी देण्याची आवश्यकता नाही. \n\n- **मातीची आर्द्रता**: 100% (खूप ओलसर)\n- **आवश्यक आर्द्रता**: 60% \n\nसध्या मातीची आर्द्रता आवश्यकतेपेक्षा जास्त आहे, त्यामुळे पाणी देणे आवश्यक नाही.",
+        "en": "Your \"Manik Chaman\" crop does not need to be watered at this time. \n\n- **Soil Humidity**: 100% (very moist)\n- **Required humidity**: 60% \n\nAt present, soil moisture is more than required, so watering is not necessary.",
+        "timestamp": "2025-11-21 06:40:26.605000"
+      },
+      {
+        "role": "user",
+        "content": "Ok",
+        "en": "Ok",
+        "timestamp": "2025-11-21 06:40:55.393000",
+        "standalone_question": "Is it necessary to water my \"Manik Chaman\" crop right now?"
+      },
+      {
+        "role": "assistant",
+        "content": "जर तुम्हाला आणखी काही विचारायचं असेल किंवा तुम्हाला पिकांच्या व्यवस्थापनाबद्दल अधिक माहिती हवी असेल, तर कृपया सांगा!",
+        "en": "If you have any more questions or would like to know more about crop management, please let us know!",
+        "timestamp": "2025-11-21 06:40:58.265000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "water/irrigation"
+    ]
+  },
+  {
+    "_id": "69200c9fc3c8b711e3a87a29",
+    "farmer_id": "VR2534",
+    "farmer_name": "MALESHBHAI VAGHABHAI",
+    "farmer_plot_ids": [
+      "jaigoga1"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "gu",
+    "gender": "Male",
+    "initial_message": "\n\nમારા પ્લોટ પર પાણી દેવાની જરૂરિયાત છે આ નથીતી",
+    "expiry": "2025-11-21 07:00:23.581000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "\n\nમારા પ્લોટ પર પાણી દેવાની જરૂરિયાત છે આ નથીતી",
+        "en": "\nI don't need to water my plot",
+        "timestamp": "2025-11-21 06:54:28.847000",
+        "standalone_question": "Is there a need for irrigation on my plot?"
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પ્લોટ \"jaigoga1\" પર પાણી આપવાની જરૂર નથી. \n\nહાલમાં, જમીનનું ભેજ 96% છે, જ્યારે આદર્શ ભેજ 70% છે. તેથી, હાલ પાણી આપવાની જરૂર નથી. \n\nજો તમને વધુ માહિતી જોઈએ તો જણાવો!",
+        "en": "There is no need to water your plot \"Jaigoga1\". \n\nCurrently, the soil moisture content is 96%, while the ideal humidity is 70%. Therefore, there is no need to water at present. \n\nLet us know if you need more information!",
+        "timestamp": "2025-11-21 06:54:33.008000"
+      },
+      {
+        "role": "user",
+        "content": "\n\nમારા પ્લોટ પર આવવાને અઠવાડિયામાં શું ખાતર આપવાની જરૂરત છે",
+        "en": "\nWhat need to be fertilized in a week to come to my plot",
+        "timestamp": "2025-11-21 06:55:23.578000",
+        "standalone_question": "What fertilizers should be applied to my plot in the coming week?"
+      },
+      {
+        "role": "assistant",
+        "content": "આપના પ્લોટ \"jaigoga1\" માટે, હાલના અઠવાડિયામાં ખાતર આપવાની જરૂર નથી. \n\nઆગામી અઠવાડિયામાં, જ્યારે પાક \"Vegetative growth\" તબક્કામાં પ્રવેશ કરશે, ત્યારે નીચે મુજબની ખાતર આપવાની જરૂર પડશે:\n\n1. **અઠવાડિયાના પ્રથમ દિવસે (30 નવેમ્બર 2025)**:\n   - **Humic acid**: 1 લિટર/એકર\n   - નોંધ: ફોસ્ફોરિક એસિડને અન્ય ખાતરોની એપ્લિકેશન કરતા 15-20 મિનિટ પહેલા અલગથી લાગુ કરવું જોઈએ.\n\n2. **અઠવાડિયાના ચોથા દિવસે (3 ડિસેમ્બર 2025)**:\n   - **12-61-0**: 6 કિલોગ્રામ/એકર\n   - **Urea**: 7 કિલોગ્રામ/એકર\n   - અથવા\n   - **24-24-0**: 16 કિલોગ્રામ/એકર\n   - અથવા\n   - **Urea**: 8.5 કિલોગ્રામ/એકર\n   - **Phosphoric acid 80%**: 4.5 કિલોગ્રામ/એકર\n   - નોંધ: ફોસ્ફોરિક એસિડને અન્ય ખાતરોની એપ્લિકેશન કરતા 15-20 મિનિટ પહેલા અલગથી લાગુ કરવું જોઈએ.\n\nજો તમને વધુ માહિતી જોઈએ તો જણાવો!",
+        "en": "For your plot \"Jaigoga1\", there is no need to fertilize in the current week. \n\nIn the next week, when the crop enters the \"Vegetative Growth\" stage, the following fertilizers will need to be applied:\n\n1. **First day of the week (30 November 2025)**:\n   - **Humic acid**: 1 liter/acre\n   - Note: Phosphoric acid should be applied separately 15-20 minutes before application of other fertilizers.\n\n2. **On the fourth day of the week (3 December 2025)**:\n   - **12-61-0**: 6 kg/acre\n   - **Urea**: 7 kg/acre\n   -or\n   - **24-24-0**: 16 kg/acre\n   -or\n   - **Urea**: 8.5 kg/acre\n   - **Phosphoric acid 80%**: 4.5 kg/acre\n   - Note: Phosphoric acid should be applied separately 15-20 minutes before application of other fertilizers.\n\nLet us know if you need more information!",
+        "timestamp": "2025-11-21 06:55:35.329000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "water/irrigation",
+      "nutrient/fertigation"
+    ]
+  },
+  {
+    "_id": "69200dc9c3c8b711e3a87a2a",
+    "farmer_id": "sujitkumarsatpute",
+    "farmer_name": "Sujitkumar satpute",
+    "farmer_plot_ids": [
+      "anushkaplot815",
+      "superplot265"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "ma",
+    "gender": "Male",
+    "initial_message": "माझ्या पिकाला पाणी द्यावे का?",
+    "expiry": "2025-11-21 07:04:21.974000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "माझ्या पिकाला पाणी द्यावे का?",
+        "en": "Should I water my crop?",
+        "timestamp": "2025-11-21 06:59:21.971000",
+        "standalone_question": "Should I water my crop?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या पिकाला पाणी देण्याची आवश्यकता नाही. \n\n### Anushka Plot:\n- **सध्या मातीतील आर्द्रता**: 100% (आवश्यकतेपेक्षा जास्त)\n- **आवश्यक आर्द्रता**: 60%\n- **पाणी देण्याची आवश्यकता**: नाही\n\n### Super Plot:\n- **सध्या मातीतील आर्द्रता**: 95% (आवश्यकतेपेक्षा जास्त)\n- **आवश्यक आर्द्रता**: 60%\n- **पाणी देण्याची आवश्यकता**: नाही\n\n### फर्टिगेशन शेड्यूल:\n- **Anushka Plot**: सध्या फर्टिगेशनची आवश्यकता नाही. पुढील फर्टिगेशन \"Subcane\" स्टेजसाठी 2025-05-24 पासून सुरू होईल.\n- **Super Plot**: सध्या फर्टिगेशनची आवश्यकता नाही. पुढील फर्टिगेशन \"Fruit Pruning\" स्टेजसाठी 2025-09-21 पासून सुरू होईल.\n\n### शेतकऱ्याच्या क्रियाकलापांची माहिती:\n- **Anushka Plot**: कोणतीही शेतकऱ्याची क्रिया नाही.\n- **Super Plot**: कोणतीही शेतकऱ्याची क्रिया नाही.\n\n### स्प्रे कंडीशन:\n- स्प्रे कंडीशन्स तपासण्यात अयशस्वी झाले.\n\nतुमच्या पिकाच्या आर्द्रतेवर लक्ष ठेवा आणि आवश्यकतेनुसार पाणी द्या.",
+        "en": "Your crop does not need to be watered. \n\n### Anushka Plot:\n- **Current soil humidity**: 100% (more than required)\n- **Required humidity**: 60%\n- **Watering Requirement**: No\n\n### Super Plot:\n- **Current soil moisture**: 95% (more than required)\n- **Required humidity**: 60%\n- **Watering Requirement**: No\n\n### Fertigation Schedule:\n- **Anushka Plot**: No need for fertigation at the moment. Further fertigation will start from 2025-05-24 for the \"Subcane\" stage.\n- **Super Plot**: No fertigage is required at present. The next fertigation will start from 2025-09-21 for the \"Fruit Pruning\" stage.\n\n### Information on Farmer Activities:\n- **Anushka Plot**: No farmer's activity.\n- **Super Plot**: No farmer's activity.\n\n### Spray Condition:\n- Failed to check spray conditions.\n\nKeep an eye on the moisture content of your crop and water as needed.",
+        "timestamp": "2025-11-21 06:59:36.942000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "water/irrigation"
+    ]
+  },
+  {
+    "_id": "692013851907208fda0fa3fb",
+    "farmer_id": "balkrishnavasantkatkar",
+    "farmer_name": "Balkrishna Katkar",
+    "farmer_plot_ids": [
+      "katkarthompsonplot"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "ma",
+    "gender": "Male",
+    "initial_message": "माझ्या पिकाला पाणी द्यावे का?",
+    "expiry": "2025-11-21 07:28:55.396000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "माझ्या पिकाला पाणी द्यावे का?",
+        "en": "Should I water my crop?",
+        "timestamp": "2025-11-21 07:23:55.393000",
+        "standalone_question": "Should I water my crop?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"Thompson\" प्लॉटसाठी, सध्याची पाण्याची स्थिती तपासण्यासाठी नवीनतम डेटा उपलब्ध नाही. हे 35.82 तासांपूर्वी प्राप्त झाले होते. यामागील संभाव्य कारणे: नेटवर्क समस्या, उपकरण समस्या, कमी बॅटरी, किंवा रिचार्ज योजना संपली आहे. तुम्हाला या समस्येचे निराकरण हवे असल्यास, सपोर्ट तिकीट उघडू शकता.",
+        "en": "For your \"Thompson\" plot, the latest data is not available to check the current water situation. This was received 35.82 hours ago. Possible reasons for this are: network issues, equipment issues, low battery, or the recharge plan is dead. If you want a solution to this problem, you can open a support ticket.",
+        "timestamp": "2025-11-21 07:24:02.539000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "water/irrigation"
+    ]
+  },
+  {
+    "_id": "69201467c3c8b711e3a87a2b",
+    "farmer_id": "samadhankangude",
+    "farmer_name": "Samadhan kangude",
+    "farmer_plot_ids": [
+      "ssnplot231"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "ma",
+    "gender": "Male",
+    "initial_message": "माझ्या पिकासाठी कोणते खत वापरावे?",
+    "expiry": "2025-11-21 07:32:35.618000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "माझ्या पिकासाठी कोणते खत वापरावे?",
+        "en": "What fertilizer should I use for my crop?",
+        "timestamp": "2025-11-21 07:27:35.615000",
+        "standalone_question": "What fertilizers should I use for my crop?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या पिकासाठी (द्राक्षे) सध्या कोणतेही खत लागू करण्याची आवश्यकता नाही. तथापि, पुढील आठवड्यात (2025-11-28) \"फ्रूट सेट\" स्टेजमध्ये तुम्हाला खालील खतांचा वापर करावा लागेल:\n\n### फोलिअर पद्धतीने:\n- **फेरस सल्फेट**: 800 ग्रॅम/एकर\n- **मॅंगनीज सल्फेट**: 800 ग्रॅम/एकर\n\n> **टीप**: फोलिअर स्प्रेमध्ये सूक्ष्म-खतांचा एकाग्रता 1% पेक्षा जास्त नसावा, म्हणजेच 500 लिटर पाण्यात 5 किलो.\n\n### फर्टिगेशन पद्धतीने:\n1. **11-44-11**: 5.5 किलो/एकर\n   - **साल्फेट ऑफ पोटाश**: 3.5 किलो/एकर\n   - **मॅग्नेशियम सल्फेट**: 1.5 किलो/एकर\n\n2. **13-40-13**: 4 किलो/एकर\n   - **फॉस्फोरिक आम्ल (80%)**: 1.5 किलो/एकर\n   - **साल्फेट ऑफ पोटाश**: 4 किलो/एकर\n   - **मॅग्नेशियम सल्फेट**: 1.5 किलो/एकर\n\n3. **कॅल्शियम नाइट्रेट**: 4 किलो/एकर\n   - **फॉस्फोरिक आम्ल (80%)**: 3.5 किलो/एकर\n   - **साल्फेट ऑफ पोटाश**: 5 किलो/एकर\n   - **मॅग्नेशियम सल्फेट**: 1.5 किलो/एकर\n\n> **टीप**: फॉस्फोरिक आम्ल इतर खतांच्या अनुप्रयोगापूर्वी 15-20 मिनिटे वेगळे लागू करावे. कॅल्शियम नाइट्रेट इतर खतांच्या अनुप्रयोगानंतर 15-20 मिनिटांनी लागू करावे. \n\nतुमच्या पिकाच्या वाढीच्या स्टेजनुसार हे खत वापरा.",
+        "en": "There is currently no need to apply any fertilizer to your crop (grapes). However, in the \"Fruit Set\" stage next week (2025-11-28) you will need to use the following fertilizers:\n\n### Foliar Method:\n- **Ferrous sulfate**: 800 g/acre\n- **Manganese sulfate**: 800 g/acre\n\n> **Note**: The concentration of micro-fertilizers in the foliar spray should not exceed 1%, i.e. 5 kg in 500 liters of water.\n\n### Fertigation Method:\n1. **11-44-11**: 5.5kg/acre\n   - **Sulfate of Potash**: 3.5 kg/acre\n   - **Magnesium Sulfate**: 1.5 kg/acre\n\n2. **13-40-13**: 4 kg/acre\n   - **Phosphoric acid (80%)**: 1.5 kg/acre\n   - **Sulfate of Potash**: 4 kg/acre\n   - **Magnesium Sulfate**: 1.5 kg/acre\n\n3. **Calcium Nitrate**: 4 kg/acre\n   - **Phosphoric acid (80%)**: 3.5 kg/acre\n   - **Sulfate of Potash**: 5 kg/acre\n   - **Magnesium Sulfate**: 1.5 kg/acre\n\n> **Note**: Phosphoric acid should be applied separately 15-20 minutes before application of other fertilizers. Calcium nitrate should be applied 15–20 minutes after application to other fertilizers. \n\nUse this fertilizer according to the growth stage of your crop.",
+        "timestamp": "2025-11-21 07:27:53.747000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "nutrient/fertigation"
+    ]
+  },
+  {
+    "_id": "69201484c3c8b711e3a87a2c",
+    "farmer_id": "bhagwatshivajiraobankar",
+    "farmer_name": "BHAGWAT SHIVAJIRAO BANKAR",
+    "farmer_plot_ids": [
+      "bhagawa",
+      "clone2a699"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "ma",
+    "gender": "Male",
+    "initial_message": "मागील आठवड्यात माझ्या पिकावर कोणते रोग किंवा कीड आली होती?",
+    "expiry": "2025-11-21 07:33:04.352000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "मागील आठवड्यात माझ्या पिकावर कोणते रोग किंवा कीड आली होती?",
+        "en": "What disease or pest did my crop suffer last week?",
+        "timestamp": "2025-11-21 07:28:04.348000",
+        "standalone_question": "What diseases or pests affected my crop last week?"
+      },
+      {
+        "role": "assistant",
+        "content": "मागील आठवड्यात तुमच्या पिकांवर कोणतेही रोग किंवा कीड आढळले नाहीत. दोन्ही प्लॉटसाठी (BHAGAWA आणि clone2A) रोग आणि कीड मेट्रिक्स उपलब्ध नाहीत.",
+        "en": "No diseases or pests have been found on your crops in the last week. Disease and pest metrics are not available for both plots (BHAGAWA and clone2A).",
+        "timestamp": "2025-11-21 07:28:11.931000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.0,
+    "tags": [
+      "disease/pest"
+    ]
+  },
+  {
+    "_id": "69201768275a6cce560a7130",
+    "farmer_id": "dattasopanshankhpal",
+    "farmer_name": "Datta Sopan Shankhpal",
+    "farmer_plot_ids": [
+      "ZGF0dGEnc3Bsb3Q1759654381767",
+      "plotno1757"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "ma",
+    "gender": "Male",
+    "initial_message": "माझ्या पिकाला पाणी द्यावे का?",
+    "expiry": "2025-11-21 07:45:24.422000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "माझ्या पिकाला पाणी द्यावे का?",
+        "en": "Should I water my crop?",
+        "timestamp": "2025-11-21 07:40:24.419000",
+        "standalone_question": "Should I water my crop?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "**Datta's plot**: तुमच्या प्लॉटची रिचार्ज कालावधी संपली आहे, त्यामुळे डेटा पाहण्यासाठी कृपया रिचार्ज करा.\n\n**Plot No.1**: मातीची आर्द्रता 64% आणि 76% आहे, आणि योग्य आर्द्रता 65% आहे. त्यामुळे, पाणी देणे शक्य आहे, कारण मातीची आर्द्रता योग्य आर्द्रता खाली आहे.",
+        "en": "**Datta's plot**: The recharge period of your plot is over, so please recharge to view the data.\n\n**Plot No.1**: The soil moisture content is 64% and 76%, and the appropriate moisture content is 65%. Therefore, it is possible to water, since the soil moisture is below the right humidity.",
+        "timestamp": "2025-11-21 07:40:31.754000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "water/irrigation"
+    ]
+  },
+  {
+    "_id": "692018e2275a6cce560a7131",
+    "farmer_id": "nanduraghunaathmalsane",
+    "farmer_name": "Nandu Raghunaath Malsane",
+    "farmer_plot_ids": [
+      "plotno1thompson197"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "ma",
+    "gender": "Male",
+    "initial_message": "माझ्या पिकाला पाणी द्यावे का?",
+    "expiry": "2025-11-21 07:51:45.716000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "माझ्या पिकाला पाणी द्यावे का?",
+        "en": "Should I water my crop?",
+        "timestamp": "2025-11-21 07:46:45.713000",
+        "standalone_question": "Should I water my crop?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या पिकाला पाणी देणे आवश्यक आहे. \n\n- **प्लॉटचे नाव:** plot no 1 Thompson \n- **सध्याचे मातीतील आर्द्रता:** 69% (पहिला सेंसर), 52% (दुसरा सेंसर)\n- **आवश्यक आर्द्रता:** 60% (दोन्ही सेंसरसाठी)\n\nतुमच्या मातीतील आर्द्रता आवश्यकतेच्या खाली आहे, त्यामुळे पाणी देणे योग्य आहे.",
+        "en": "It is necessary to water your crop. \n\n- **Plot Name:** Plot No. 1 Thompson \n- **Current soil moisture:** 69% (first sensor), 52% (second sensor)\n- **Required humidity:** 60% (for both sensors)\n\nThe moisture content in your soil is below the requirement, so watering is the right thing to do.",
+        "timestamp": "2025-11-21 07:46:50.568000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "water/irrigation"
+    ]
+  },
+  {
+    "_id": "692025ea275a6cce560a7132",
+    "farmer_id": "bharatbhaidehlajithakor",
+    "farmer_name": "Bharat bhai Dehlaji Thakor",
+    "farmer_plot_ids": [
+      "gharvalo"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "gu",
+    "gender": "Male",
+    "initial_message": "ગયા અઠવાડિયામાં મારા પાકને કયા રોગો કે જીવાતોએ અસર કરી?",
+    "expiry": "2025-11-21 08:47:18.897000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "ગયા અઠવાડિયામાં મારા પાકને કયા રોગો કે જીવાતોએ અસર કરી?",
+        "en": "What diseases or pests have affected my crop in the past week?",
+        "timestamp": "2025-11-21 08:42:18.894000",
+        "standalone_question": "What diseases or pests affected my crop last week?"
+      },
+      {
+        "role": "assistant",
+        "content": "ગયા અઠવાડિયામાં તમારા પાક \"Gharvalo\" પરના રોગો અને જીવાતોની સ્થિતિ નીચે મુજબ છે:\n\n### રોગો:\n1. **લેટ બ્લાઇટ** \n   - 20 નવેમ્બર 2025: 25.7% (LOW)\n   - 19 નવેમ્બર 2025: 24.2% (NIL)\n   \n2. **અર્લી બ્લાઇટ**\n   - 20 નવેમ્બર 2025: 43.7% (LOW)\n   - 19 નવેમ્બર 2025: 43.0% (LOW)\n\n### જીવાતો:\n1. **કેટરપિલર**\n   - 20 નવેમ્બર 2025: 83.3% (HIGH)\n   - 19 નવેમ્બર 2025: 83.3% (HIGH)\n\n2. **માઇટ્સ**\n   - 20 નવેમ્બર 2025: 68.9% (MEDIUM)\n   - 19 નવેમ્બર 2025: 69.5% (MEDIUM)\n\n3. **કટ વોર્મ**\n   - 20 નવેમ્બર 2025: 59.4% (MEDIUM)\n   - 19 નવેમ્બર 2025: 55.9% (MEDIUM)\n\n4. **થ્રિપ્સ**\n   - 20 નવેમ્બર 2025: 41.4% (LOW)\n   - 19 નવેમ્બર 2025: 33.5% (LOW)\n\n5. **એફિડ્સ**\n   - 20 નવેમ્બર 2025: 43.5% (LOW)\n   - 19 નવેમ્બર 2025: 43.2% (LOW)\n\n6. **વ્હાઇટ ફ્લાય**\n   - 20 નવેમ્બર 2025: 45.7% (LOW)\n   - 19 નવેમ્બર 2025: 45.3% (LOW)\n\nઆ માહિતીના આધારે, તમારે જીવાતો અને રોગો સામે યોગ્ય પગલાં લેવા જોઈએ.",
+        "en": "The status of diseases and pests on your crop \"Gharvalo\" in the last week is as follows:\n\n### Diseases:\n1. **Late Blight** \n   - 20 November 2025: 25.7% (LOW)\n   - 19 November 2025: 24.2% (NIL)\n   \n2. **Early Blight**\n   - 20 November 2025: 43.7% (LOW)\n   - 19 November 2025: 43.0% (LOW)\n\n### Insects:\n1. **Caterpillar**\n   - 20 November 2025: 83.3% (HIGH)\n   - 19 November 2025: 83.3% (HIGH)\n\n2. **Mites**\n   - 20 November 2025: 68.9% (MEDIUM)\n   - 19 November 2025: 69.5% (MEDIUM)\n\n3. **Cut Worm**\n   - 20 November 2025: 59.4% (MEDIUM)\n   - 19 November 2025: 55.9% (MEDIUM)\n\n4. **Thrips**\n   - 20 November 2025: 41.4% (LOW)\n   - 19 November 2025: 33.5% (LOW)\n\n5. **Aphids**\n   - 20 November 2025: 43.5% (LOW)\n   - 19 November 2025: 43.2% (LOW)\n\n6. **White Fly**\n   - 20 November 2025: 45.7% (LOW)\n   - 19 November 2025: 45.3% (LOW)\n\nOn the basis of this information, you should take appropriate measures against pests and diseases.",
+        "timestamp": "2025-11-21 08:42:30.846000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": -0.5,
+    "tags": [
+      "disease/pest"
+    ]
+  },
+  {
+    "_id": "692026b3275a6cce560a7133",
+    "farmer_id": "gajanandbhane",
+    "farmer_name": "Gajanand bhane",
+    "farmer_plot_ids": [
+      "coatwala"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "hi",
+    "gender": "Male",
+    "initial_message": "मेरी फसल में पिछले हफ्ते क्या रोग या कीट लगे थे?",
+    "expiry": "2025-11-21 08:50:40.068000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "मेरी फसल में पिछले हफ्ते क्या रोग या कीट लगे थे?",
+        "en": "What diseases or pests were infested with my crop last week?",
+        "timestamp": "2025-11-21 08:45:40.065000",
+        "standalone_question": "What diseases or pests affected my crop last week?"
+      },
+      {
+        "role": "assistant",
+        "content": "पिछले हफ्ते (14 नवंबर से 20 नवंबर 2025) के लिए आपकी फसल \"coatwala\" में कोई रोग या कीट की जानकारी उपलब्ध नहीं है। रोग और कीट के लिए कोई मेट्रिक्स नहीं मिले हैं। \n\nयदि आपको और जानकारी चाहिए, तो कृपया बताएं!",
+        "en": "There is no disease or pest information available in your crop \"Kotwala\" for the last week (November 14 to November 20, 2025). No metrics for disease and pest have been found. \n\nIf you need more information, please let us know!",
+        "timestamp": "2025-11-21 08:45:49.697000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.0,
+    "tags": [
+      "disease/pest"
+    ]
+  },
+  {
+    "_id": "69202f2a275a6cce560a7134",
+    "farmer_id": "rasminkumar",
+    "farmer_name": "Rasmin Kumar",
+    "farmer_plot_ids": [
+      "plot1553"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "gu",
+    "gender": "Male",
+    "initial_message": "\n\nહ પૂછો મારા ખેતરને ક્યારે પાણી આપવાનું",
+    "expiry": "2025-11-21 09:32:09.795000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "\n\nહ પૂછો મારા ખેતરને ક્યારે પાણી આપવાનું",
+        "en": "\nAsk me when to water my field.",
+        "timestamp": "2025-11-21 09:21:51.853000",
+        "standalone_question": "When should I water my farm?"
+      },
+      {
+        "role": "assistant",
+        "content": "**Plot Name:** Plot 1  \n**Current Soil Moisture:** 71% (wet)  \n**Optimal Soil Moisture:** 70%  \n\nYou should irrigate today at **11:15 AM** if no rainfall occurs.",
+        "en": "**Plot Name:** Plot 1  \n**Current Soil Moisture:** 71% (wet)  \n**Optimal Soil Moisture:** 70%  \n\nYou should irrigate today at **11:15 AM** if no rainfall occurs.",
+        "timestamp": "2025-11-21 09:21:57.347000"
+      },
+      {
+        "role": "user",
+        "content": "\n\nફંગી સાડ ક્યારે આપવું",
+        "en": "\nWhen to give a fungi saree",
+        "timestamp": "2025-11-21 09:22:38.523000",
+        "standalone_question": "When should I apply fungicide?"
+      },
+      {
+        "role": "assistant",
+        "content": "For **Plot 1**, there are currently no scheduled activities or disease-pest spray recommendations for the week. Additionally, I am unable to check the spray conditions at this time.\n\nIt's advisable to monitor your crop for any signs of disease or pests and consult with local agricultural experts for specific fungicide application timing based on your observations.",
+        "en": "For **Plot 1**, there are currently no scheduled activities or disease-pest spray recommendations for the week. Additionally, I am unable to check the spray conditions at this time.\n\nIt's advisable to monitor your crop for any signs of disease or pests and consult with local agricultural experts for specific fungicide application timing based on your observations.",
+        "timestamp": "2025-11-21 09:22:47.190000"
+      },
+      {
+        "role": "user",
+        "content": "\n\nઆગળના ત્રણ દિવસનું હવામાન બતાવો",
+        "en": "\nShow weather for next three days",
+        "timestamp": "2025-11-21 09:27:09.789000",
+        "standalone_question": "What is the weather forecast for the next three days?"
+      },
+      {
+        "role": "assistant",
+        "content": "**Weather Forecast for Plot 1:**\n\n- **November 21, 2025**\n  - Min Temperature: 15.5°C\n  - Max Temperature: 30.8°C\n  - Average Temperature: 15.5°C\n  - Humidity: 47%\n  - Wind Speed: 8.6 km/h\n  - Rainfall: 0 mm\n  - Precipitation Probability: 0%\n  - Cloud Cover: 0%\n  - Wind Direction: ENE\n\n- **November 22, 2025**\n  - Min Temperature: 13.5°C\n  - Max Temperature: 28.9°C\n  - Average Temperature: 20.8°C\n  - Humidity: 46%\n  - Wind Speed: 6.5 km/h\n  - Rainfall: 0 mm\n  - Precipitation Probability: 0%\n  - Cloud Cover: 26%\n  - Wind Direction: ESE\n\n- **November 23, 2025**\n  - Min Temperature: 13.1°C\n  - Max Temperature: 28.7°C\n  - Average Temperature: 20.9°C\n  - Humidity: 42%\n  - Wind Speed: 6.8 km/h\n  - Rainfall: 0 mm\n  - Precipitation Probability: 0%\n  - Cloud Cover: 0%\n  - Wind Direction: NE\n\n- **November 24, 2025**\n  - Min Temperature: 16.3°C\n  - Max Temperature: 29.2°C\n  - Average Temperature: 21.9°C\n  - Humidity: 51%\n  - Wind Speed: 7.9 km/h\n  - Rainfall: 0 mm\n  - Precipitation Probability: 0%\n  - Cloud Cover: 0%\n  - Wind Direction: NNE\n\nNo rainfall is expected in the next three days.",
+        "en": "**Weather Forecast for Plot 1:**\n\n- **November 21, 2025**\n  - Min Temperature: 15.5°C\n  - Max Temperature: 30.8°C\n  - Average Temperature: 15.5°C\n  - Humidity: 47%\n  - Wind Speed: 8.6 km/h\n  - Rainfall: 0 mm\n  - Precipitation Probability: 0%\n  - Cloud Cover: 0%\n  - Wind Direction: ENE\n\n- **November 22, 2025**\n  - Min Temperature: 13.5°C\n  - Max Temperature: 28.9°C\n  - Average Temperature: 20.8°C\n  - Humidity: 46%\n  - Wind Speed: 6.5 km/h\n  - Rainfall: 0 mm\n  - Precipitation Probability: 0%\n  - Cloud Cover: 26%\n  - Wind Direction: ESE\n\n- **November 23, 2025**\n  - Min Temperature: 13.1°C\n  - Max Temperature: 28.7°C\n  - Average Temperature: 20.9°C\n  - Humidity: 42%\n  - Wind Speed: 6.8 km/h\n  - Rainfall: 0 mm\n  - Precipitation Probability: 0%\n  - Cloud Cover: 0%\n  - Wind Direction: NE\n\n- **November 24, 2025**\n  - Min Temperature: 16.3°C\n  - Max Temperature: 29.2°C\n  - Average Temperature: 21.9°C\n  - Humidity: 51%\n  - Wind Speed: 7.9 km/h\n  - Rainfall: 0 mm\n  - Precipitation Probability: 0%\n  - Cloud Cover: 0%\n  - Wind Direction: NNE\n\nNo rainfall is expected in the next three days.",
+        "timestamp": "2025-11-21 09:27:20.850000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "water/irrigation",
+      "disease/pest",
+      "weather/forecast"
+    ]
+  },
+  {
+    "_id": "69203230c89ec19f4736eb6a",
+    "farmer_id": "gajanandbhane",
+    "farmer_name": "Gajanand bhane",
+    "farmer_plot_ids": [
+      "coatwala"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "hi",
+    "gender": "Male",
+    "initial_message": "CMV Vayaras",
+    "expiry": "2025-11-21 09:41:23.906000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "CMV Vayaras",
+        "en": "CMV Vayaras",
+        "timestamp": "2025-11-21 09:34:40.952000",
+        "standalone_question": "What is CMV virus?"
+      },
+      {
+        "role": "assistant",
+        "content": "आपका प्रश्न स्पष्ट नहीं है। क्या आप CMV (क्यूट मोज़ेक वायरस) के बारे में जानकारी चाहते हैं, या किसी विशेष समस्या के लिए मदद चाहिए? कृपया अधिक जानकारी दें।",
+        "en": "Your question is not clear. Do you want information about CMV (Cute Mosaic Virus), or need help with a particular problem? Please give more information.",
+        "timestamp": "2025-11-21 09:34:44.322000"
+      },
+      {
+        "role": "user",
+        "content": "Qut Mojek Vayaras",
+        "en": "Qut Mojek Vayaras",
+        "timestamp": "2025-11-21 09:36:23.903000",
+        "standalone_question": "What is the Qut Mojek virus?"
+      },
+      {
+        "role": "assistant",
+        "content": "क्यूट मोज़ेक वायरस (CMV) एक वायरस है जो कई प्रकार की फसलों, विशेष रूप से सब्जियों और फलों को प्रभावित करता है। यह वायरस पौधों में मोज़ेक पैटर्न, पत्तियों का पीला होना, और विकास में रुकावट का कारण बन सकता है। \n\n### लक्षण:\n1. **पत्तियों का मोज़ेक पैटर्न**: पत्तियों पर हल्के और गहरे हरे रंग के धब्बे।\n2. **पत्तियों का पीला होना**: पत्तियाँ पीली पड़ जाती हैं और आकार में छोटी हो जाती हैं।\n3. **विकास में रुकावट**: पौधों की वृद्धि रुक जाती है और फल या फूल कम होते हैं।\n\n### नियंत्रण के उपाय:\n- **संक्रमित पौधों को हटाना**: संक्रमित पौधों को तुरंत हटाना चाहिए।\n- **कीटनाशकों का उपयोग**: कीटों को नियंत्रित करने के लिए उचित कीटनाशकों का उपयोग करें।\n- **सफाई**: खेतों में सफाई रखें और संक्रमित पौधों के अवशेषों को न छोड़ें।\n\nयदि आपके पास इस वायरस के बारे में और प्रश्न हैं या आपके फसल पर इसके प्रभाव के बारे में जानकारी चाहिए, तो कृपया बताएं।",
+        "en": "Cute mosaic virus (CMV) is a virus that affects a wide range of crops, particularly vegetables and fruits. This virus can cause mosaic patterns, yellowing of leaves, and growth interruptions in plants. \n\n### Symptoms:\n1. **Mosaic Pattern of Leaves**: Light and dark green spots on the leaves.\n2. **Yellowing of Leaves**: The leaves turn yellow and become smaller in size.\n3. **Growth Interruption**: Plant growth stunts and fruits or flowers are reduced.\n\n### Control Measures:\n- **Removal of Infected Plants**: Infected plants should be removed immediately.\n- **Use of Pesticides**: Use appropriate insecticides to control pests.\n- **Cleaning**: Keep the fields clean and do not leave infected plant residues.\n\nIf you have further questions about this virus or need information about its impact on your crop, please let us know.",
+        "timestamp": "2025-11-21 09:36:34.559000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.0,
+    "tags": [
+      "others"
+    ]
+  },
+  {
+    "_id": "69204c44c3c8b711e3a87a2d",
+    "farmer_id": "abhishekjayapalshirgave",
+    "farmer_name": "Abhishek Jayapal Shirgave",
+    "farmer_plot_ids": [
+      "guavaplot1418",
+      "panmalaplot",
+      "tekguavaplot2"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "en",
+    "gender": "Male",
+    "initial_message": "What pests or diseases affected my crop last week?",
+    "expiry": "2025-11-21 11:30:57.778000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What pests or diseases affected my crop last week?",
+        "en": "What pests or diseases affected my crop last week?",
+        "timestamp": "2025-11-21 11:25:57.774000",
+        "standalone_question": "What pests or diseases affected my crop last week?"
+      },
+      {
+        "role": "assistant",
+        "content": "It appears that there are no available pest or disease metrics for your crops in the plots over the last week. If you have any specific concerns or observations, please let me know!",
+        "en": "It appears that there are no available pest or disease metrics for your crops in the plots over the last week. If you have any specific concerns or observations, please let me know!",
+        "timestamp": "2025-11-21 11:26:04.679000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.0,
+    "tags": [
+      "disease/pest"
+    ]
+  },
+  {
+    "_id": "69204e1f1f0f20872460fb65",
+    "farmer_id": "balasabbchoudhari",
+    "farmer_name": "balasab B Choudhari",
+    "farmer_plot_ids": [
+      "thomsonplotno1805"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "ka",
+    "gender": "Male",
+    "initial_message": "ನನ್ನ ಬೆಳೆಗಾಗಿ ಯಾವ ರಸಗೊಬ್ಬರವನ್ನು ಬಳಸಬೇಕು?",
+    "expiry": "2025-11-21 11:38:51.740000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "ನನ್ನ ಬೆಳೆಗಾಗಿ ಯಾವ ರಸಗೊಬ್ಬರವನ್ನು ಬಳಸಬೇಕು?",
+        "en": "What fertilizer should I use for my crop?",
+        "timestamp": "2025-11-21 11:33:51.736000",
+        "standalone_question": "What fertilizers should I use for my crop?"
+      },
+      {
+        "role": "assistant",
+        "content": "ನಿಮ್ಮ \"Thomson Plot no 1\" ನಲ್ಲಿ ಯಾವುದೇ ಬೆಳೆ ನೆಟ್ಟಿಲ್ಲ, ಆದ್ದರಿಂದ ರಸಗೊಬ್ಬರವನ್ನು ಬಳಸುವ ಅಗತ್ಯವಿಲ್ಲ. ಬೆಳೆ ನೆಟ್ಟ ನಂತರ, ನಾನು ನಿಮಗೆ ಸೂಕ್ತವಾದ ರಸಗೊಬ್ಬರದ ಬಗ್ಗೆ ಮಾಹಿತಿ ನೀಡಬಹುದು.",
+        "en": "There is no crop planted in your \"Thomson Plot No 1\", so there is no need to use fertilizer. After planting the crop, I can give you information about the appropriate fertilizer.",
+        "timestamp": "2025-11-21 11:33:56.894000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "nutrient/fertigation"
+    ]
+  },
+  {
+    "_id": "69204ef51f0f20872460fb66",
+    "farmer_id": "mkshah",
+    "farmer_name": "M K Shah",
+    "farmer_plot_ids": [
+      "babanagarthomsonplot1"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "ka",
+    "gender": "Male",
+    "initial_message": "What fertiliser should I use for my crop?",
+    "expiry": "2025-11-21 11:46:00.534000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What fertiliser should I use for my crop?",
+        "en": "What fertiliser should I use for my crop?",
+        "timestamp": "2025-11-21 11:37:26.117000",
+        "standalone_question": "What fertilizer should I use for my crop?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "For your crop (Grapes, Thompson variety) at the current stage of \"Break Bud\" (started on November 21, 2025), no fertigation is needed at this moment.\n\nHowever, the next fertigation schedule will begin on December 26, 2025, during the same stage. Here are the details:\n\n### Fertigation via Foliar Method:\n- **Fertilizers:**\n  - Ferrous Sulphate: 600 gm/acre\n  - Manganese Sulphate: 600 gm/acre\n- **Note:** The concentration of micro-nutrient fertilizers for foliar spray should not exceed 1% (e.g., 5 kg in 500 liters of water per acre).\n\n### Fertigation via Fertigation Method:\n- **Combination 1:**\n  - 12-61-0: 4 kg/acre\n  - Calcium Nitrate: 19.5 kg/acre\n- **Combination 2:**\n  - 24-24-0: 14.5 kg/acre\n- **Combination 3:**\n  - Calcium Nitrate: 23 kg/acre\n  - Phosphoric Acid 80%: 3.5 kg/acre\n- **Note:** Phosphoric acid should be applied separately, 15-20 minutes before applying other fertilizers. Calcium nitrate should be applied separately, 15-20 minutes after applying other fertilizers.\n\nMake sure to follow these guidelines for effective fertigation!",
+        "en": "For your crop (Grapes, Thompson variety) at the current stage of \"Break Bud\" (started on November 21, 2025), no fertigation is needed at this moment.\n\nHowever, the next fertigation schedule will begin on December 26, 2025, during the same stage. Here are the details:\n\n### Fertigation via Foliar Method:\n- **Fertilizers:**\n  - Ferrous Sulphate: 600 gm/acre\n  - Manganese Sulphate: 600 gm/acre\n- **Note:** The concentration of micro-nutrient fertilizers for foliar spray should not exceed 1% (e.g., 5 kg in 500 liters of water per acre).\n\n### Fertigation via Fertigation Method:\n- **Combination 1:**\n  - 12-61-0: 4 kg/acre\n  - Calcium Nitrate: 19.5 kg/acre\n- **Combination 2:**\n  - 24-24-0: 14.5 kg/acre\n- **Combination 3:**\n  - Calcium Nitrate: 23 kg/acre\n  - Phosphoric Acid 80%: 3.5 kg/acre\n- **Note:** Phosphoric acid should be applied separately, 15-20 minutes before applying other fertilizers. Calcium nitrate should be applied separately, 15-20 minutes after applying other fertilizers.\n\nMake sure to follow these guidelines for effective fertigation!",
+        "timestamp": "2025-11-21 11:37:36.946000"
+      },
+      {
+        "role": "user",
+        "content": "What pests or diseases affected my crop last week?",
+        "en": "What pests or diseases affected my crop last week?",
+        "timestamp": "2025-11-21 11:41:00.530000",
+        "standalone_question": "What pests or diseases affected my grape crop last week?"
+      },
+      {
+        "role": "assistant",
+        "content": "Last week, there were no recorded pest or disease metrics available for your crop in the \"Babanagar Thomson plot 1.\" It seems that the data for pests and diseases was not captured during that period. \n\nIf you have any specific concerns or observations, please let me know!",
+        "en": "Last week, there were no recorded pest or disease metrics available for your crop in the \"Babanagar Thomson plot 1.\" It seems that the data for pests and diseases was not captured during that period. \n\nIf you have any specific concerns or observations, please let me know!",
+        "timestamp": "2025-11-21 11:41:07.068000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "nutrient/fertigation",
+      "disease/pest"
+    ]
+  },
+  {
+    "_id": "69205a721f0f20872460fb67",
+    "farmer_id": "mahendrakumarrajput",
+    "farmer_name": "MahendraKumar Rajput",
+    "farmer_plot_ids": [
+      "kenalvaluplot"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "gu",
+    "gender": "Male",
+    "initial_message": "શું મને મારી પાકને પાણી આપવું જોઈએ?",
+    "expiry": "2025-11-21 12:31:26.709000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "શું મને મારી પાકને પાણી આપવું જોઈએ?",
+        "en": "Should I water my crops?",
+        "timestamp": "2025-11-21 12:26:26.704000",
+        "standalone_question": "Should I water my crop?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "તમારા પાકને પાણી આપવાની જરૂર નથી. \n\n**Kenalvalu Plot** માં, હાલની જમીનની ભેજ 94% છે, જ્યારે આદર્શ ભેજ 70% છે. તેથી, પાણી આપવાની જરૂર નથી.",
+        "en": "There is no need to water your crops. \n\n**In Kenalvalu Plot**, the current soil moisture is 94%, while the ideal humidity is 70%. Therefore, there is no need to give water.",
+        "timestamp": "2025-11-21 12:26:31.579000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "water/irrigation"
+    ]
+  },
+  {
+    "_id": "69205fc5fc78fcdbe7dd39e7",
+    "farmer_id": "kamleshjagtap",
+    "farmer_name": "kamlesh jagtap",
+    "farmer_plot_ids": [
+      "bnVsbCdzcGxvdA1756467041871",
+      "plotno1manikchaman890"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "ma",
+    "gender": "Male",
+    "initial_message": "माझ्या पिकाला पाणी द्यावे का?",
+    "expiry": "2025-11-21 12:54:35.938000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "माझ्या पिकाला पाणी द्यावे का?",
+        "en": "Should I water my crop?",
+        "timestamp": "2025-11-21 12:49:09.645000",
+        "standalone_question": "Should I water my crop?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"plot no. 1 (manik chaman)\" पिकाला सध्या पाणी देण्याची आवश्यकता नाही. \n\n- **मातीची आर्द्रता**: 100% (खूप ओलसर)\n- **आवश्यक आर्द्रता**: 60% (कोरड्या योग्य आर्द्रतेच्या वर)\n\nसध्या पाण्याची गरज नाही, कारण मातीची आर्द्रता योग्य पातळीपेक्षा जास्त आहे.",
+        "en": "Your \"Plot No. 1 (Manik Chaman)\" crop does not need to be watered at present. \n\n- **Soil Humidity**: 100% (very moist)\n- **Required Humidity**: 60% (above dry-fit humidity)\n\nThere is no need for water at present, as the soil moisture is higher than the appropriate level.",
+        "timestamp": "2025-11-21 12:49:16.045000"
+      },
+      {
+        "role": "user",
+        "content": "सेन्सर चालू आहे का",
+        "en": "Is the sensor on?",
+        "timestamp": "2025-11-21 12:49:35.934000",
+        "standalone_question": "Is the sensor operational?"
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"null's plot\" साठी सेन्सर डेटा उपलब्ध नाही कारण रिचार्ज कालावधी संपला आहे. कृपया रिचार्ज करा.\n\nतुमच्या \"plot no. 1 (manik chaman)\" साठी सेन्सर चालू आहे, आणि खालील डेटा उपलब्ध आहे:\n\n- **मातीचा तापमान**: 20.88°C\n- **बॅटरी**: 88%\n- **सौर वोल्टेज**: 60V\n- **हवा दाब**: 16777.2\n- **मातीची आर्द्रता**: 100% (खूप ओलसर)\n\nतुमचा सेन्सर कार्यरत आहे, परंतु \"null's plot\" साठी डेटा पाहण्यासाठी रिचार्ज आवश्यक आहे.",
+        "en": "Sensor data is not available for your \"null's plot\" because the recharge period is over. Please recharge.\n\nThe sensor for your \"plot no. 1 (Manik Chaman)\" is on, and the following data is available:\n\n- **Soil Temperature**: 20.88°C\n- **Battery**: 88%\n- **Solar Voltage**: 60V\n- **Air Pressure**: 16777.2\n- **Soil Humidity**: 100% (very moist)\n\nYour sensor is working, but the \"null's plot\" requires a recharge to view the data.",
+        "timestamp": "2025-11-21 12:49:47.098000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "water/irrigation"
+    ]
+  },
+  {
+    "_id": "69207114c3c8b711e3a87a2e",
+    "farmer_id": "dipakwaykole",
+    "farmer_name": "dipakwaykole",
+    "farmer_plot_ids": [
+      "ZGlwYWt3YXlrb2xlJ3NwbG901754592297914",
+      "dipakfarm1",
+      "kairoplot833"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "ma",
+    "gender": "Male",
+    "initial_message": "Vpd काय आहे",
+    "expiry": "2025-11-21 14:08:01.027000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Vpd काय आहे",
+        "en": "What is VPD",
+        "timestamp": "2025-11-21 14:03:01.024000",
+        "standalone_question": "What is VPD?"
+      },
+      {
+        "role": "assistant",
+        "content": "VPD (Vapor Pressure Deficit) म्हणजे वाष्प दाबातील कमतरता. हे मोजते की वायुमंडलात किती आर्द्रता आहे आणि ते पाण्याच्या वाष्पीकरणासाठी किती सक्षम आहे. VPD उच्च असताना, पाण्याची वाष्पीकरणाची गती वाढते, ज्यामुळे वनस्पतींमध्ये पाण्याची कमी होऊ शकते. यामुळे, VPD चा योग्य वापर केल्यास, फर्टिगेशनच्या वेळेस वनस्पतींची सक्रिय शोषण क्षमता वाढते.",
+        "en": "VPD (Vapor Pressure Deficit) is a decrease in vapor pressure. It measures how much moisture is in the atmosphere and how capable it is of evaporation of water. When VPD is high, the speed of water evaporation increases, which can lead to water loss in plants. This, if used judiciously, increases the active absorption capacity of plants at the time of fertigation.",
+        "timestamp": "2025-11-21 14:03:06.684000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.0,
+    "tags": [
+      "disease/pest"
+    ]
+  },
+  {
+    "_id": "69207115fc78fcdbe7dd39e8",
+    "farmer_id": "shivajikashid",
+    "farmer_name": "Shivaji kashid",
+    "farmer_plot_ids": [
+      "ssn659"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "ma",
+    "gender": "Male",
+    "initial_message": "माझ्या पिकाला पाणी द्यावे का?",
+    "expiry": "2025-11-21 14:08:01.666000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "माझ्या पिकाला पाणी द्यावे का?",
+        "en": "Should I water my crop?",
+        "timestamp": "2025-11-21 14:03:01.662000",
+        "standalone_question": "Should I water my crop?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या पिकाला सध्या पाणी देण्याची आवश्यकता नाही. \n\n- **प्लॉटचे नाव:** ssn \n- **मातीची आर्द्रता:** 100% (पहिला सेंसर), 83% (दुसरा सेंसर)\n- **आवश्यक आर्द्रता:** 60% \n\nसध्या मातीची आर्द्रता आवश्यकतेपेक्षा जास्त आहे.",
+        "en": "Your crop does not need to be watered right now. \n\n- **Plot Name:** SSN \n- **Soil Humidity:** 100% (First Sensor), 83% (Second Sensor)\n- **Required humidity:** 60% \n\nAt present, soil moisture is more than required.",
+        "timestamp": "2025-11-21 14:03:07.386000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "water/irrigation"
+    ]
+  },
+  {
+    "_id": "692072d9fc78fcdbe7dd39e9",
+    "farmer_id": "nileshghodake",
+    "farmer_name": "Nilesh ghodake",
+    "farmer_plot_ids": [
+      "suoarsonaka"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "ma",
+    "gender": "Male",
+    "initial_message": "माझ्या पिकाला पाणी द्यावे का?",
+    "expiry": "2025-11-21 14:15:36.499000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "माझ्या पिकाला पाणी द्यावे का?",
+        "en": "Should I water my crop?",
+        "timestamp": "2025-11-21 14:10:36.494000",
+        "standalone_question": "Should I water my crop?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या पिकाला, \"suoar sonaka\", सध्या पाणी देण्याची आवश्यकता नाही. \n\n- **मातीतील आर्द्रता**: \n  - 1: 98% \n  - 2: 85%\n  \n- **आवश्यक आर्द्रता**: 70%\n\nसध्या मातीतील आर्द्रता आवश्यकतेपेक्षा जास्त आहे, त्यामुळे पाणी देणे आवश्यक नाही.",
+        "en": "Your crop, \"suoar sonaka\", does not need to be watered right now. \n\n- **Soil Moisture**: \n  - 1: 98% \n  - 2: 85%\n  \n- **Required humidity**: 70%\n\nAt present, soil moisture is more than required, so watering is not necessary.",
+        "timestamp": "2025-11-21 14:10:42.378000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "water/irrigation"
+    ]
+  },
+  {
+    "_id": "6920782d4cae91232073af51",
+    "farmer_id": "nirmalbhailaxmidaspatel",
+    "farmer_name": "nirmalbhai laxmidas patel",
+    "farmer_plot_ids": [
+      "heerfarm"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "en",
+    "gender": "Male",
+    "initial_message": "Should I water my crop?",
+    "expiry": "2025-11-21 14:39:09.389000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Should I water my crop?",
+        "en": "Should I water my crop?",
+        "timestamp": "2025-11-21 14:33:17.132000",
+        "standalone_question": "Should I water my crop?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "For your plot \"Heer farm\":\n\n- **Soil Moisture**: \n  - Sensor 1: 100% (wet)\n  - Sensor 2: 31% (dry)\n- **Optimal Moisture**: 65% for both sensors.\n\nYou can water your crop since one of the soil moisture readings is below the dry optimal percentage.",
+        "en": "For your plot \"Heer farm\":\n\n- **Soil Moisture**: \n  - Sensor 1: 100% (wet)\n  - Sensor 2: 31% (dry)\n- **Optimal Moisture**: 65% for both sensors.\n\nYou can water your crop since one of the soil moisture readings is below the dry optimal percentage.",
+        "timestamp": "2025-11-21 14:33:22.855000"
+      },
+      {
+        "role": "user",
+        "content": "Hi",
+        "en": "Hi",
+        "timestamp": "2025-11-21 14:33:39.504000",
+        "standalone_question": "Is it a good time to water my crop?"
+      },
+      {
+        "role": "assistant",
+        "content": "Hello Nirmalbhai! How can I assist you with your farming needs today?",
+        "en": "Hello Nirmalbhai! How can I assist you with your farming needs today?",
+        "timestamp": "2025-11-21 14:33:42.202000"
+      },
+      {
+        "role": "user",
+        "content": "Senssar data not updated",
+        "en": "Senssar data not updated",
+        "timestamp": "2025-11-21 14:34:09.386000",
+        "standalone_question": "Why is the sensor data not updated?"
+      },
+      {
+        "role": "assistant",
+        "content": "The sensor data for your plot \"Heer farm\" is up to date, with the latest readings received just a few hours ago. \n\nIf you're still experiencing issues, please ensure that the device's sensor is properly attached and connected to the app. Check the network connectivity, verify the battery status, and consider restarting the device if needed. \n\nIf the problem persists, you may want to contact Fyllo customer support or I can help you raise a support ticket. Would you like assistance with that?",
+        "en": "The sensor data for your plot \"Heer farm\" is up to date, with the latest readings received just a few hours ago. \n\nIf you're still experiencing issues, please ensure that the device's sensor is properly attached and connected to the app. Check the network connectivity, verify the battery status, and consider restarting the device if needed. \n\nIf the problem persists, you may want to contact Fyllo customer support or I can help you raise a support ticket. Would you like assistance with that?",
+        "timestamp": "2025-11-21 14:34:15.449000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.0,
+    "tags": [
+      "water/irrigation",
+      "historical data"
+    ]
+  },
+  {
+    "_id": "69207b02fc78fcdbe7dd39ea",
+    "farmer_id": "samadhankisandharbale",
+    "farmer_name": "Samadhan Kisan Dharbale",
+    "farmer_plot_ids": [
+      "plotno1crimpson414"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "en",
+    "gender": "Male",
+    "initial_message": "Should I water my crop?",
+    "expiry": "2025-11-21 14:51:48.217000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Should I water my crop?",
+        "en": "Should I water my crop?",
+        "timestamp": "2025-11-21 14:45:24.099000",
+        "standalone_question": "Should I water my crop?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "For your plot \"plot No 1 Crimpson,\" watering is not required at the moment. The current soil moisture readings are 73% and 85%, which are above the optimal dry moisture level of 60%.",
+        "en": "For your plot \"plot No 1 Crimpson,\" watering is not required at the moment. The current soil moisture readings are 73% and 85%, which are above the optimal dry moisture level of 60%.",
+        "timestamp": "2025-11-21 14:45:29.870000"
+      },
+      {
+        "role": "user",
+        "content": "How to add petiole report",
+        "en": "How to add petiole report",
+        "timestamp": "2025-11-21 14:46:48.214000",
+        "standalone_question": "How can I add a petiole report?"
+      },
+      {
+        "role": "assistant",
+        "content": "To add a petiole report in the app, you can follow these steps:\n\n1. **Create a New Report**:\n   - Go to the \"Fertigation\" section.\n   - Select \"Create Report.\"\n   - Input the details from your petiole test results.\n\n2. **Upload Copies**:\n   - You can also directly upload photocopies or scans of your petiole test reports.\n   - Look for an \"Upload Reports\" or similar option in the Fertigation section.\n\nIf you need further assistance with creating a report or have specific data to input, feel free to ask!",
+        "en": "To add a petiole report in the app, you can follow these steps:\n\n1. **Create a New Report**:\n   - Go to the \"Fertigation\" section.\n   - Select \"Create Report.\"\n   - Input the details from your petiole test results.\n\n2. **Upload Copies**:\n   - You can also directly upload photocopies or scans of your petiole test reports.\n   - Look for an \"Upload Reports\" or similar option in the Fertigation section.\n\nIf you need further assistance with creating a report or have specific data to input, feel free to ask!",
+        "timestamp": "2025-11-21 14:46:52.639000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "water/irrigation",
+      "others"
+    ]
+  },
+  {
+    "_id": "69207bcd4cae91232073af52",
+    "farmer_id": "samadhankisandharbale",
+    "farmer_name": "Samadhan Kisan Dharbale",
+    "farmer_plot_ids": [
+      "plotno1crimpson414"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "en",
+    "gender": "Male",
+    "initial_message": "What fertiliser should I use for my crop?",
+    "expiry": "2025-11-21 14:53:46.003000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What fertiliser should I use for my crop?",
+        "en": "What fertiliser should I use for my crop?",
+        "timestamp": "2025-11-21 14:48:46",
+        "standalone_question": "What fertilizer should I use for my crop?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "The fertigation data schedule is not available for your plot \"plot No 1 Crimpson.\" Please check back later or consult with a local agronomist for specific fertilizer recommendations for your crop.",
+        "en": "The fertigation data schedule is not available for your plot \"plot No 1 Crimpson.\" Please check back later or consult with a local agronomist for specific fertilizer recommendations for your crop.",
+        "timestamp": "2025-11-21 14:48:50.368000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "nutrient/fertigation"
+    ]
+  },
+  {
+    "_id": "69207df3fc78fcdbe7dd39eb",
+    "farmer_id": "ganeshshinde465",
+    "farmer_name": "Ganesh shinde",
+    "farmer_plot_ids": [
+      "plotno1thompson199"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "ma",
+    "gender": "Male",
+    "initial_message": "माझ्या पिकासाठी कोणते खत वापरावे?",
+    "expiry": "2025-11-21 15:02:55.505000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "माझ्या पिकासाठी कोणते खत वापरावे?",
+        "en": "What fertilizer should I use for my crop?",
+        "timestamp": "2025-11-21 14:57:55.502000",
+        "standalone_question": "What fertilizers should I use for my crop?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या पिकासाठी (थॉम्पसन द्राक्षे) खालील खतांचा वापर करावा:\n\n### सध्या (सप्ताह 2 - बेरी विकास):\n#### फोलिअर पद्धतीने:\n- **गिब्बेरलिक आम्ल (GA3)**: 35 ppm/प्लांट\n- **CPPU (0.1%)**: 1 ppm/प्लांट\n  - **सूचना**: फोलिअर स्प्रेमध्ये सूक्ष्म-खतांचा एकाग्रता 1% पेक्षा जास्त नसावा, म्हणजेच 500 लिटर पाण्यात 5 किलोग्राम.\n\n#### फर्टिगेशन पद्धतीने:\n1. **13-40-13**: 3 किलोग्राम/एकर\n2. **कॅल्शियम नायट्रेट**: 8 किलोग्राम/एकर\n3. **साल्फेट ऑफ पोटाश**: 5.5 किलोग्राम/एकर\n4. **मॅग्नेशियम सल्फेट**: 2 किलोग्राम/एकर\n\n**किंवा**:\n1. **19-19-19**: 6.5 किलोग्राम/एकर\n2. **कॅल्शियम नायट्रेट**: 2.5 किलोग्राम/एकर\n3. **साल्फेट ऑफ पोटाश**: 4 किलोग्राम/एकर\n4. **मॅग्नेशियम सल्फेट**: 2 किलोग्राम/एकर\n\n**किंवा**:\n1. **कॅल्शियम नायट्रेट**: 10.5 किलोग्राम/एकर\n2. **फॉस्फोरिक आम्ल (80%)**: 1.5 किलोग्राम/एकर\n3. **साल्फेट ऑफ पोटाश**: 6.5 किलोग्राम/एकर\n4. **मॅग्नेशियम सल्फेट**: 2 किलोग्राम/एकर\n\n### पुढील वेळापत्रक (सप्ताह 3):\n- **फॉस्फोरिक आम्ल**: 15-20 मिनिटे आधी इतर खतांच्या अनुप्रयोगापूर्वी लागू करावे.\n- **कॅल्शियम नायट्रेट**: इतर खतांच्या अनुप्रयोगानंतर 15-20 मिनिटे लागू करावे.\n\nतुमच्या पिकाच्या विकासासाठी हे खत वापरणे महत्त्वाचे आहे.",
+        "en": "The following fertilizers should be used for your crop (Thompson grapes):\n\n### Currently (Week 2 - Berry Development):\n#### Foliar Method:\n- **Gibberellic acid (GA3)**: 35 ppm/plant\n- **CPPU (0.1%)**: 1 ppm/plant\n  **Instruction**: The concentration of micro-fertilizers in foliar spray should not exceed 1%, i.e. 5 kilograms in 500 liters of water.\n\n#### Fertigation:\n1. **13-40-13**: 3kg/acre\n2. **Calcium Nitrate**: 8kg/acre\n3. **Sulphate of Potash**: 5.5 kg/acre\n4. **Magnesium Sulfate**: 2kg/acre\n\n**Or**:\n1. **19-19-19**: 6.5kg/acre\n2. **Calcium Nitrate**: 2.5kg/acre\n3. **Sulfate of Potash**: 4 kg/acre\n4. **Magnesium Sulfate**: 2kg/acre\n\n**Or**:\n1. **Calcium Nitrate**: 10.5kg/acre\n2. **Phosphoric acid (80%)**: 1.5 kg/acre\n3. **Sulfate of Potash**: 6.5kg/acre\n4. **Magnesium Sulfate**: 2kg/acre\n\n### Next schedule (week 3):\n- **Phosphoric Acid**: Apply 15-20 minutes before application of other fertilizers.\n**Calcium Nitrate**: Apply 15-20 minutes after application of other fertilizers.\n\nIt is important to use this fertilizer for the development of your crop.",
+        "timestamp": "2025-11-21 14:58:10.794000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "nutrient/fertigation"
+    ]
+  },
+  {
+    "_id": "692087b916413ff28f81ec70",
+    "farmer_id": "sukumarkarale",
+    "farmer_name": "Sukumar karale",
+    "farmer_plot_ids": [
+      "ssn688"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "ma",
+    "gender": "Male",
+    "initial_message": "मागील आठवड्यात माझ्या पिकावर कोणते रोग किंवा कीड आली होती?",
+    "expiry": "2025-11-21 15:44:40.496000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "मागील आठवड्यात माझ्या पिकावर कोणते रोग किंवा कीड आली होती?",
+        "en": "What disease or pest did my crop suffer last week?",
+        "timestamp": "2025-11-21 15:39:40.493000",
+        "standalone_question": "What diseases or pests affected my crop last week?"
+      },
+      {
+        "role": "assistant",
+        "content": "माझ्या तपासणीनुसार, मागील आठवड्यात (14 नोव्हेंबर 2025 ते 20 नोव्हेंबर 2025) तुमच्या पिकावर कोणतेही रोग किंवा कीड संबंधित मेट्रिक्स उपलब्ध नाहीत. त्यामुळे, या कालावधीत कोणतेही रोग किंवा कीड आढळलेले नाहीत असे दिसते.",
+        "en": "According to my investigation, there are no disease or pest related metrics available on your crop in the last week (November 14, 2025 to November 20, 2025). Therefore, it seems that no diseases or pests have been detected during this period.",
+        "timestamp": "2025-11-21 15:39:50.035000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.0,
+    "tags": [
+      "disease/pest"
+    ]
+  },
+  {
+    "_id": "69208a4716413ff28f81ec71",
+    "farmer_id": "siddheshwarmane",
+    "farmer_name": "Siddheshwar Mane",
+    "farmer_plot_ids": [
+      "manikchamanmoryafarm"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "ma",
+    "gender": "Male",
+    "initial_message": "माझ्या पिकाला पाणी द्यावे का?",
+    "expiry": "2025-11-21 15:56:31.620000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "माझ्या पिकाला पाणी द्यावे का?",
+        "en": "Should I water my crop?",
+        "timestamp": "2025-11-21 15:50:31.725000",
+        "standalone_question": "Should I water my crop?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या पिकाला सध्या पाणी देण्याची आवश्यकता नाही. \"मनिक चमन\" प्लॉटमध्ये सध्या मातीची आर्द्रता 13 kPa आणि 10 kPa आहे, जे की 18 kPa च्या आदर्श किमतींपेक्षा कमी आहे. त्यामुळे, पाणी देण्याची आवश्यकता नाही.",
+        "en": "Your crop does not need to be watered right now. The \"Manik Chaman\" plot currently has soil moisture of 13 kPa and 10 kPa, which is lower than the ideal values of 18 kPa. Therefore, there is no need to water.",
+        "timestamp": "2025-11-21 15:50:37.707000"
+      },
+      {
+        "role": "user",
+        "content": "खाते काय द्यावेत",
+        "en": "What accounts should be given",
+        "timestamp": "2025-11-21 15:51:31.616000",
+        "standalone_question": "What fertilizers should be applied?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"मनिक चमन\" प्लॉटसाठी सध्या कोणतीही फर्टिगेशनची आवश्यकता नाही. तथापि, पुढील फर्टिगेशनची वेळ 25 नोव्हेंबर 2025 रोजी आहे, जेव्हा तुम्हाला \"ब्रेक बड\" स्टेजसाठी खालील खते द्यावी लागतील:\n\n- **फॉस्फोरिक आम्ल (Phosphoric acid 80%)**: 1 किलोग्राम प्रति एकर\n\nयाची नोंद घ्या की फॉस्फोरिक आम्ल इतर खते लागू करण्यापूर्वी 15-20 मिनिटे स्वतंत्रपणे लागू करावे.",
+        "en": "There is currently no need for any fertigation for your \"Manik Chaman\" plot. However, the next fertigation time is on November 25, 2025, when you will need to apply the following fertilizers for the \"Break Bud\" stage:\n\n- **Phosphoric acid 80%**: 1 kg per acre\n\nNote that phosphoric acid should be applied separately for 15–20 minutes before applying other fertilizers.",
+        "timestamp": "2025-11-21 15:51:38.919000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "water/irrigation",
+      "nutrient/fertigation"
+    ]
+  },
+  {
+    "_id": "69208f1816413ff28f81ec72",
+    "farmer_id": "dilipmohite",
+    "farmer_name": "Dilip Mohite",
+    "farmer_plot_ids": [
+      "anushkaplot1301"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "ma",
+    "gender": "Male",
+    "initial_message": "माझ्या पिकासाठी कोणते खत वापरावे?",
+    "expiry": "2025-11-21 16:16:05.163000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "माझ्या पिकासाठी कोणते खत वापरावे?",
+        "en": "What fertilizer should I use for my crop?",
+        "timestamp": "2025-11-21 16:11:05.160000",
+        "standalone_question": "What fertilizers should I use for my crop?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "तुमच्या \"अनुष्का प्लॉट 1\" मध्ये, सध्या तुमचे पिक \"गाजर\" च्या \"Beginning of Bloom\" अवस्थेत आहे, जी 2025-11-18 पासून सुरू झाली आहे. \n\nसध्या (2025-11-21) तुम्हाला खालील खतांचा वापर करावा लागेल:\n\n### सध्याचा फर्टिगेशन शेड्यूल (सप्ताह 1):\n1. **Mono potassium phosphate** - 3 kg/acre\n2. **Phosphoric acid 80%** - 1 kg/acre (हे इतर खतांच्या अनुप्रयोगापूर्वी 15-20 मिनिटे लागू करावे)\n\n### पुढील फर्टिगेशन शेड्यूल (सप्ताह 2):\n- **11-44-11** - 5.5 kg/acre\n- **Calcium nitrate** - 3 kg/acre (इतर खतांच्या अनुप्रयोगानंतर 15-20 मिनिटे लागू करावे)\n- **Sulfate of Potash** - 3 kg/acre\n\nतुमच्या पिकाच्या वाढीच्या अवस्थेनुसार हे खत वापरा.",
+        "en": "In your \"Anushka Plot 1\", your crop is currently in the \"Beginning of Bloom\" stage of \"Carrot\", which started from 2025-11-18. \n\nCurrently, (2025-11-21) you need to use the following fertilizers:\n\n### Current Fertigation Schedule (Week 1):\n1. **Mono potassium phosphate** - 3 kg/acre\n2. **Phosphoric acid 80%** - 1 kg/acre (it should be applied for 15-20 minutes before application of other fertilizers)\n\n### Next Fertigation Schedule (Week 2):\n- **11-44-11** - 5.5 kg/acre\n- **Calcium nitrate** - 3 kg/acre (to be applied 15-20 minutes after application of other fertilizers)\n- **Sulfate of Potash** - 3 kg/acre\n\nUse this fertilizer according to the growth stage of your crop.",
+        "timestamp": "2025-11-21 16:11:16.461000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "nutrient/fertigation"
+    ]
+  },
+  {
+    "_id": "692096a2fea352a7c276479a",
+    "farmer_id": "shyamgaikwad",
+    "farmer_name": "Shyam gaikwad",
+    "farmer_plot_ids": [
+      "jambo753",
+      "purple851",
+      "sudhakar130"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "ma",
+    "gender": "Male",
+    "initial_message": "Should I water my crop?",
+    "expiry": "2025-11-21 16:48:15.617000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Should I water my crop?",
+        "en": "Should I water my crop?",
+        "timestamp": "2025-11-21 16:43:15.613000",
+        "standalone_question": "Should I water my crop?",
+        "is_query_common": true
+      },
+      {
+        "role": "assistant",
+        "content": "You do not need to water your crops at this time. Here are the soil moisture conditions for your plots:\n\n1. **Jambo**: \n   - Soil Moisture: 100% \n   - Optimal: 60% \n   - **Watering not required**.\n\n2. **Purple**: \n   - Soil Moisture: 69% \n   - Optimal: 60% \n   - **Watering not required**.\n\n3. **Sudhakar**: \n   - Soil Moisture: 96% \n   - Optimal: 60% \n   - **Watering not required**.\n\nThe soil moisture levels are above the dry optimal values, indicating that the soil is sufficiently moist.",
+        "en": "You do not need to water your crops at this time. Here are the soil moisture conditions for your plots:\n\n1. **Jambo**: \n   - Soil Moisture: 100% \n   - Optimal: 60% \n   - **Watering not required**.\n\n2. **Purple**: \n   - Soil Moisture: 69% \n   - Optimal: 60% \n   - **Watering not required**.\n\n3. **Sudhakar**: \n   - Soil Moisture: 96% \n   - Optimal: 60% \n   - **Watering not required**.\n\nThe soil moisture levels are above the dry optimal values, indicating that the soil is sufficiently moist.",
+        "timestamp": "2025-11-21 16:43:28.289000"
+      }
+    ],
+    "is_active": false,
+    "sentiment": 0.5,
+    "tags": [
+      "water/irrigation"
+    ]
+  },
+  {
+    "_id": "6920af5516413ff28f81ec73",
+    "farmer_id": "shankarprakashpatil",
+    "farmer_name": "Shankar Prakash Patil",
+    "farmer_plot_ids": [
+      "ssnplot1367"
+    ],
+    "roles": [
+      "farmuser"
+    ],
+    "language": "ma",
+    "gender": "Male",
+    "initial_message": "पावसाचा हवामान अंदाज पुढील १० दिवसाचा",
+    "expiry": "2025-11-21 18:33:37.146000",
+    "messages": [
+      {
+        "role": "user",
+        "content": "पावसाचा हवामान अंदाज पुढील १० दिवसाचा",
+        "en": "Weather forecast for next 10 days",
+        "timestamp": "2025-11-21 18:28:37.136000",
+        "standalone_question": "What is the weather forecast for rainfall over the next 10 days?"
+      },
+      {
+        "role": "assistant",
+        "content": "पुढील १० दिवसांचा पावसाचा हवामान अंदाज:\n\n### SSN Plot 1\n\n1. **21 नोव्हेंबर 2025**\n   - किमान तापमान: 17.7°C\n   - कमाल तापमान: 30.4°C\n   - आर्द्रता: 53%\n   - वाऱ्याची गती: 12.6 km/h\n   - पाऊस: 0 mm\n   - पावसाची शक्यता: 2%\n   - ढगांचे प्रमाण: 53%\n\n2. **22 नोव्हेंबर 2025**\n   - किमान तापमान: 19°C\n   - कमाल तापमान: 31.4°C\n   - आर्द्रता: 60%\n   - वाऱ्याची गती: 9.4 km/h\n   - पाऊस: 0 mm\n   - पावसाची शक्यता: 0%\n   - ढगांचे प्रमाण: 60%\n\n3. **23 नोव्हेंबर 2025**\n   - किमान तापमान: 20.3°C\n   - कमाल तापमान: 30.9°C\n   - आर्द्रता: 57%\n   - वाऱ्याची गती: 9.4 km/h\n   - पाऊस: 0 mm\n   - पावसाची शक्यता: 0%\n   - ढगांचे प्रमाण: 59%\n\n4. **24 नोव्हेंबर 2025**\n   - किमान तापमान: 19.9°C\n   - कमाल तापमान: 30.3°C\n   - आर्द्रता: 70%\n   - वाऱ्याची गती: 10.1 km/h\n   - पाऊस: 0 mm\n   - पावसाची शक्यता: 10%\n   - ढगांचे प्रमाण: 97%\n\n5. **25 नोव्हेंबर 2025**\n   - किमान तापमान: 20.2°C\n   - कमाल तापमान: 29.8°C\n   - आर्द्रता: 77%\n   - वाऱ्याची गती: 8.3 km/h\n   - पाऊस: 1.3 mm\n   - पावसाची शक्यता: 5%\n   - ढगांचे प्रमाण: 93%\n\n6. **26 नोव्हेंबर 2025**\n   - किमान तापमान: 19.8°C\n   - कमाल तापमान: 30.4°C\n   - आर्द्रता: 61%\n   - वाऱ्याची गती: 10.4 km/h\n   - पाऊस: 5.2 mm\n   - पावसाची शक्यता: 0%\n\n7. **27 नोव्हेंबर 2025**\n   - किमान तापमान: 19.2°C\n   - कमाल तापमान: 30.9°C\n   - वाऱ्याची गती: 8.3 km/h\n   - पाऊस: 0 mm\n\n8. **28 नोव्हेंबर 2025**\n   - किमान तापमान: 19.3°C\n   - कमाल तापमान: 28.7°C\n   - वाऱ्याची गती: 13.0 km/h\n   - पाऊस: 0 mm\n\n9. **29 नोव्हेंबर 2025**\n   - किमान तापमान: 16.2°C\n   - कमाल तापमान: 28.6°C\n   - वाऱ्याची गती: 11.5 km/h\n   - पाऊस: 0 mm\n\n10. **30 नोव्हेंबर 2025**\n    - किमान तापमान: 13.7°C\n    - कमाल तापमान: 26.7°C\n    - वाऱ्याची गती: 9.4 km/h\n    - पाऊस: 0 mm\n\nकृपया यानुसार आपल्या पिकांच्या व्यवस्थापनाची योजना करा.",
+        "en": "Forecast for next 10 days:\n\n### SSN Plot 1\n\n1. **21 November 2025**\n   - Minimum temperature: 17.7°C\n   - Maximum temperature: 30.4°C\n   - Humidity: 53%\n   - Wind speed: 12.6 km/h\n   - Rain: 0 mm\n   - Chance of rain: 2%\n   - Cloud Ratio: 53%\n\n2. **22 November 2025**\n   - Minimum temperature: 19°C\n   - Maximum temperature: 31.4°C\n   - Humidity: 60%\n   - Wind speed: 9.4 km/h\n   - Rain: 0 mm\n   - Chance of rain: 0%\n   - Cloud Ratio: 60%\n\n3. **23 November 2025**\n   - Minimum temperature: 20.3°C\n   - Maximum temperature: 30.9°C\n   - Humidity: 57%\n   - Wind speed: 9.4 km/h\n   - Rain: 0 mm\n   - Chance of rain: 0%\n   - Cloud Ratio: 59%\n\n4. **24 November 2025**\n   - Minimum temperature: 19.9°C\n   - Maximum temperature: 30.3°C\n   - Humidity: 70%\n   - Wind speed: 10.1 km/h\n   - Rain: 0 mm\n   - Chance of rain: 10%\n   - Cloud Ratio: 97%\n\n5. **25 November 2025**\n   - Minimum temperature: 20.2°C\n   - Maximum temperature: 29.8°C\n   - Humidity: 77%\n   - Wind speed: 8.3 km/h\n   - Rain: 1.3 mm\n   - Chance of rain: 5%\n   - Cloud Content: 93%\n\n6. **26 November 2025**\n   - Minimum temperature: 19.8°C\n   - Maximum temperature: 30.4°C\n   - Humidity: 61%\n   - Wind speed: 10.4 km/h\n   - Rain: 5.2 mm\n   - Chance of rain: 0%\n\n7. **27 November 2025**\n   - Minimum temperature: 19.2°C\n   - Maximum temperature: 30.9°C\n   - Wind speed: 8.3 km/h\n   - Rain: 0 mm\n\n8. **28 November 2025**\n   - Minimum temperature: 19.3°C\n   - Maximum temperature: 28.7°C\n   - Wind speed: 13.0 km/h\n   - Rain: 0 mm\n\n9. **29 November 2025**\n   - Minimum temperature: 16.2°C\n   - Maximum temperature: 28.6°C\n   - Wind speed: 11.5 km/h\n   - Rain: 0 mm\n\n10. **30 November 2025**\n    - Minimum temperature: 13.7°C\n    - Maximum temperature: 26.7°C\n    - Wind speed: 9.4 km/h\n    - Rain: 0 mm\n\nPlease plan the management of your crops accordingly.",
+        "timestamp": "2025-11-21 18:29:02.708000"
+      }
+    ],
+    "is_active": true
+  }
+]
