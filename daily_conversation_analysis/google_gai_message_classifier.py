@@ -24,7 +24,7 @@ import os
 
 # load_dotenv(env_path)
 
-configure(api_key="AIzaSyDSWYocTEU1E2ybqlHn24IWo-KLkTLrZHM")
+configure(api_key="dummy_key")
 
 model = GenerativeModel("gemini-2.5-pro")
 
