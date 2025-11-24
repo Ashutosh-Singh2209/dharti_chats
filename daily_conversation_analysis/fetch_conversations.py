@@ -1,5 +1,3 @@
-# python3 -m daily_conversation_analysis.fetch_conversations
-
 import os
 import asyncio
 from pymongo import MongoClient
@@ -10,28 +8,18 @@ import time
 import sys
 from tqdm import tqdm
 
-# Add specific paths to allow imports
-# Structure:
-# .../fyllo/dharti_chats/daily_conversation_analysis/fetch_conversations.py
-# .../fyllo/new_pull/fyllo-ai/bot_core/
-
-# Save the original working directory
 original_cwd = os.getcwd()
 
-# Get the fyllo directory (parent of dharti_chats)
-current_dir = os.path.dirname(os.path.abspath(__file__))  # daily_conversation_analysis
-script_dir = current_dir  # Store original script directory for output paths
-dharti_chats_dir = os.path.dirname(current_dir)  # dharti_chats
-fyllo_dir = os.path.dirname(dharti_chats_dir)  # fyllo
+current_dir = os.path.dirname(os.path.abspath(__file__))
+script_dir = current_dir
+dharti_chats_dir = os.path.dirname(current_dir)
+fyllo_dir = os.path.dirname(dharti_chats_dir)
 
-# Path to fyllo-ai which contains bot_core
 fyllo_ai_path = os.path.join(fyllo_dir, "new_pull", "fyllo-ai")
 
-# Add fyllo-ai to sys.path so we can import bot_core
 if fyllo_ai_path not in sys.path:
     sys.path.insert(0, fyllo_ai_path)
 
-# Temporarily change working directory to fyllo-ai for imports
 os.chdir(fyllo_ai_path)
 
 print(f"Added to sys.path: {fyllo_ai_path}")
@@ -44,11 +32,35 @@ from bot_core.farmer_info import get_farmer_info_2
 from bot_core.standalone_query_examples import extract_farmer_context_for_prompt
 from bot_core.embed import Embedder
 from langchain_core.messages import HumanMessage, AIMessage
+from pathlib import Path
+from daily_conversation_analysis.google_gai_message_classifier import classify_messages
+from daily_conversation_analysis.build_few_shot_examples import build_few_shot_examples
 
-# Restore original working directory
 os.chdir(original_cwd)
 print(f"Restored working directory to: {original_cwd}")
 print(f"Output will be saved to: {script_dir}")
+
+start_date_time = None
+end_date_time = None
+folder_date_str = None
+output_dir = None
+json_path = None
+
+def set_date_range():
+    global start_date_time, end_date_time, folder_date_str, output_dir, json_path
+    start_date_time = datetime(2025, 11, 19, tzinfo=timezone.utc)
+    start_date_time = start_date_time.replace(hour=5, minute=30, second=0, microsecond=0)
+    start_date_time = start_date_time - timedelta(seconds=5)
+    end_date_time = start_date_time + timedelta(days=1)
+    end_date_time = end_date_time.replace(hour=5, minute=30, second=5, microsecond=0)
+    
+    folder_date_str = start_date_time.strftime("%d_%b_%Y")
+    output_dir = os.path.join(script_dir, folder_date_str)
+    json_path = os.path.join(output_dir, "conversations.json")
+    
+    print(f"\nDate range: {start_date_time} to {end_date_time}")
+    print(f"Output directory: {output_dir}")
+    print(f"JSON path: {json_path}\n")
 
 def get_mongo_client():
     mongo_uri = os.getenv("FYLLO_MONGO_URI")
@@ -64,18 +76,15 @@ def process_conversation(conversation, embedder):
     Skips standalone question generation if it already exists.
     """
     try:
-        # Extract necessary details from conversation (actual JSON structure)
         farmer_id = conversation.get("farmer_id")
         farmer_name = conversation.get("farmer_name", "Unknown")
         gender = conversation.get("gender", "Male")
         language = conversation.get("language", "en")
         
-        # Extract plot_ids from farmer_plot_ids array
         plot_ids = conversation.get("farmer_plot_ids", [])
         
         print(f"Processing conversation for farmer: {farmer_name} ({farmer_id})")
 
-        # Fetch fresh farmer info (using asyncio.run for sync context)
         import asyncio
         farmer_info = asyncio.run(get_farmer_info_2(
             farmer_name=farmer_name,
@@ -85,11 +94,8 @@ def process_conversation(conversation, embedder):
             get_next_stages=True
         ))
         
-        # Preprocess farmer info
         processed_farmer_info = extract_farmer_context_for_prompt(farmer_info)
-        # conversation["processed_farmer_info"] = processed_farmer_info
         
-        # Process messages for standalone questions
         messages = conversation.get("messages", [])
         chat_history = [] 
         
@@ -101,15 +107,10 @@ def process_conversation(conversation, embedder):
             content = msg.get("content", "")
             
             if role == "user":
-                # Skip if standalone question already exists or if there was a previous error
                 if "standalone_question" in msg:
                     standalone_skipped += 1
                     print(f"  Skipping standalone question (already exists)")
-                elif "standalone_question_error" in msg:
-                    standalone_skipped += 1
-                    print(f"  Skipping standalone question (previous error)")
                 else:
-                    # Generate standalone question
                     try:
                         standalone_question = embedder.generate_standalone_question(
                             query=content,
@@ -124,7 +125,6 @@ def process_conversation(conversation, embedder):
                         print(f"Error generating standalone question: {e}")
                         msg["standalone_question_error"] = ""
                 
-                # Add to history
                 chat_history.append(HumanMessage(content=content))
                 
             elif role == "assistant":
@@ -141,33 +141,23 @@ def fetch_and_process_conversations():
     db = client["chat_database"]
     collection = db["conversations"]
 
-    now_utc = datetime.now(timezone.utc)
-    yesterday_utc = now_utc - timedelta(days=1)
-    
-    start_of_day = yesterday_utc.replace(hour=0, minute=0, second=0, microsecond=0)
-    end_of_day = now_utc
+    print(f"Fetching conversations for: {start_date_time.date()}")
+    print(f"Time range (UTC): {start_date_time} to {end_date_time}")
 
-    print(f"Fetching conversations for: {start_of_day.date()}")
-    print(f"Time range (UTC): {start_of_day} to {end_of_day}")
-
-    folder_date_str = start_of_day.strftime("%d_%b_%Y")
-    output_dir = os.path.join(script_dir, folder_date_str)
     os.makedirs(output_dir, exist_ok=True)
-    output_file = os.path.join(output_dir, "conversations.json")
 
-    # Check if file already exists
-    if os.path.exists(output_file):
-        print(f"Found existing file: {output_file}")
+    if os.path.exists(json_path):
+        print(f"Found existing file: {json_path}")
         print("Loading existing conversations from file...")
-        with open(output_file, "r", encoding="utf-8") as f:
+        with open(json_path, "r", encoding="utf-8") as f:
             conversations = json.load(f)
         print(f"Loaded {len(conversations)} conversations from file.")
     else:
         print("No existing file found. Fetching from database...")
         query = {
             "messages.timestamp": {
-                "$gte": start_of_day,
-                "$lte": end_of_day
+                "$gte": start_date_time,
+                "$lt": end_date_time
             }
         }
 
@@ -180,19 +170,17 @@ def fetch_and_process_conversations():
             print("No conversations found for yesterday.")
             return
 
-    # Initialize Embedder once
     print("Initializing Embedder...")
     embedder = Embedder()
     print("Embedder initialized.")
 
-    # Process conversations sequentially
     for conv in conversations:
         process_conversation(conv, embedder)
     
-    with open(output_file, "w", encoding="utf-8") as f:
+    with open(json_path, "w", encoding="utf-8") as f:
         json.dump(conversations, f, ensure_ascii=False, indent=2, default=str)
     
-    print(f"Saved conversations to: {output_file}")
+    print(f"Saved conversations to: {json_path}")
 
 def transliterate_conversations(json_path: str) -> None:
     """Read a conversations JSON file, transliterate each message, and save back.
@@ -206,7 +194,6 @@ def transliterate_conversations(json_path: str) -> None:
     Args:
         json_path: Absolute path to the conversations.json file.
     """
-    from pathlib import Path
     from azure_transliterate_non_retrieval import transliterate_text
 
     path = Path(json_path)
@@ -227,7 +214,6 @@ def transliterate_conversations(json_path: str) -> None:
             if original and original.strip():
                 total_messages += 1
                 
-                # Skip if already transliterated or if there was a previous error
                 if "content_transliterated" in msg:
                     total_skipped_existing += 1
                     print(f"  Conv {conv_idx+1}, Msg {msg_idx+1}: Skipped (already transliterated)")
@@ -271,8 +257,6 @@ def classify_user_messages(json_path: str) -> None:
     Args:
         json_path: Absolute path to the conversations.json file.
     """
-    from pathlib import Path
-    from daily_conversation_analysis.google_gai_message_classifier import classify_messages
     
     path = Path(json_path)
     if not path.is_file():
@@ -283,51 +267,38 @@ def classify_user_messages(json_path: str) -> None:
     
     print(f"\nClassifying user messages in {len(data)} conversations...")
     
-    # Process each conversation with progress bar
     for conv_idx in tqdm(range(len(data)), desc="Classifying conversations", unit="conv"):
         conv = data[conv_idx]
         messages = conv.get("messages", [])
         
-        # Collect user messages that need classification
         user_messages_to_classify = []
         user_message_indices = []
         
         for msg_idx, msg in enumerate(messages):
             role = msg.get("type") or msg.get("role")
             if role == "user":
-                # Skip if already classified or if there was a previous error
-                # if "is_query_common" in msg:
-                #     continue
-                # elif "is_query_common_error" in msg:
-                #     continue
-                # else:
-                    content = msg.get("content", "")
-                    if content and content.strip():
-                        user_messages_to_classify.append(content)
-                        user_message_indices.append(msg_idx)
+                if "is_query_common" in msg:
+                    continue
+
+                content = msg.get("content", "")
+                if content and content.strip():
+                    user_messages_to_classify.append(content)
+                    user_message_indices.append(msg_idx)
         
-        # Skip this conversation if no messages need classification
         if not user_messages_to_classify:
             continue
         
-        # Classify the batch of user messages
         try:
             classifications = classify_messages(user_messages_to_classify)
             
-            # Store classifications back in the message objects
-            # Convert "common"/"uncommon" to boolean (True if common, False if uncommon)
             for i, msg_idx in enumerate(user_message_indices):
                 messages[msg_idx]["is_query_common"] = (classifications[i] == "common")
             
-            # Save after processing each conversation
             with path.open("w", encoding="utf-8") as f:
                 json.dump(data, f, ensure_ascii=False, indent=2, default=str)
             
-            time.sleep(1)  # Rate limiting
-            
         except Exception as e:
             print(f"\n  Conv {conv_idx+1}: Classification error - {e}")
-            # Mark messages with error
             for msg_idx in user_message_indices:
                 messages[msg_idx]["is_query_common_error"] = str(e)
     
@@ -335,24 +306,14 @@ def classify_user_messages(json_path: str) -> None:
     print(f"Results saved to: {json_path}")
 
 if __name__ == "__main__":
-    # fetch_and_process_conversations()
-    
-    # # Transliterate and classify the fetched conversations
-    now_utc = datetime.now(timezone.utc)
-    yesterday_utc = now_utc - timedelta(days=1)
-    # yesterday_utc = yesterday_utc - timedelta(days=1)
-    print(f"\nYesterday UTC: {yesterday_utc}\n")
-    folder_date_str = yesterday_utc.strftime("%d_%b_%Y")
-    output_dir = os.path.join(os.path.dirname(__file__), folder_date_str)
-    json_path = os.path.join(output_dir, "conversations.json")
-    print(f"\nJSON Path: {json_path}\n")
+    set_date_range()
+    fetch_and_process_conversations()
     
     if os.path.exists(json_path):
-        # print(f"\nStarting transliteration for {json_path}...")
-        # transliterate_conversations(json_path)
+        print(f"\nStarting transliteration for {json_path}...")
+        transliterate_conversations(json_path)
         print(f"\nStarting classification for {json_path}...")
+        
         classify_user_messages(json_path)
     else:
         print(f"No conversations file found at {json_path}")
-
-
