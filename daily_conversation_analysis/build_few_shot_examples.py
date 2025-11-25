@@ -37,7 +37,7 @@ def build_few_shot_examples():
     now_utc = datetime.now(timezone.utc)
     yesterday_utc = now_utc - timedelta(days=1)
     end_date = yesterday_utc - timedelta(days=1)  # 1 day before yesterday
-    end_date = datetime(2025, 11, 21, tzinfo=timezone.utc)
+    end_date = datetime(2025, 11, 22, tzinfo=timezone.utc)
     
     print(f"Building few-shot examples from {start_date.date()} to {end_date.date()}")
     

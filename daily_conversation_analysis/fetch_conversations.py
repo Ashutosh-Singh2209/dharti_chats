@@ -1,3 +1,5 @@
+# python3 -m daily_conversation_analysis.fetch_conversations
+
 import os
 import asyncio
 from pymongo import MongoClient
@@ -34,7 +36,9 @@ from bot_core.embed import Embedder
 from langchain_core.messages import HumanMessage, AIMessage
 from pathlib import Path
 from daily_conversation_analysis.google_gai_message_classifier import classify_messages
+# from daily_conversation_analysis.openai_message_classifier import classify_messages
 from daily_conversation_analysis.build_few_shot_examples import build_few_shot_examples
+from azure_transliterate_non_retrieval import transliterate_text
 
 os.chdir(original_cwd)
 print(f"Restored working directory to: {original_cwd}")
@@ -48,17 +52,16 @@ json_path = None
 
 def set_date_range():
     global start_date_time, end_date_time, folder_date_str, output_dir, json_path
-    start_date_time = datetime(2025, 11, 19, tzinfo=timezone.utc)
-    start_date_time = start_date_time.replace(hour=5, minute=30, second=0, microsecond=0)
-    start_date_time = start_date_time - timedelta(seconds=5)
-    end_date_time = start_date_time + timedelta(days=1)
-    end_date_time = end_date_time.replace(hour=5, minute=30, second=5, microsecond=0)
+    start_date_time = datetime.now() - timedelta(days=1)
+    start_date_time = start_date_time.replace(hour=0, minute=0, second=0, microsecond=0)
+    end_date_time = start_date_time.replace(hour=23, minute=59, second=59, microsecond=0)
     
     folder_date_str = start_date_time.strftime("%d_%b_%Y")
     output_dir = os.path.join(script_dir, folder_date_str)
     json_path = os.path.join(output_dir, "conversations.json")
     
     print(f"\nDate range: {start_date_time} to {end_date_time}")
+    print(f"Folder date string: {folder_date_str}")
     print(f"Output directory: {output_dir}")
     print(f"JSON path: {json_path}\n")
 
@@ -93,6 +96,8 @@ def process_conversation(conversation, embedder):
             plot_ids=plot_ids,
             get_next_stages=True
         ))
+
+        conversation["farmer_info"] = farmer_info
         
         processed_farmer_info = extract_farmer_context_for_prompt(farmer_info)
         
@@ -130,11 +135,12 @@ def process_conversation(conversation, embedder):
             elif role == "assistant":
                 chat_history.append(AIMessage(content=content))
         
-        print(f"  Generated {standalone_generated} standalone questions, skipped {standalone_skipped}")
+        return standalone_generated, standalone_skipped
 
     except Exception as e:
         print(f"Error processing conversation: {e}")
         conversation["processing_error"] = str(e)
+        return 0, 0
 
 def fetch_and_process_conversations():
     client = get_mongo_client()
@@ -174,15 +180,21 @@ def fetch_and_process_conversations():
     embedder = Embedder()
     print("Embedder initialized.")
 
+    total_generated = 0
+    total_skipped = 0
     for conv in conversations:
-        process_conversation(conv, embedder)
+        generated, skipped = process_conversation(conv, embedder)
+        total_generated += generated
+        total_skipped += skipped
+    
+    print(f"\nTotal: Generated {total_generated} standalone questions, skipped {total_skipped}\n")
     
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(conversations, f, ensure_ascii=False, indent=2, default=str)
     
     print(f"Saved conversations to: {json_path}")
 
-def transliterate_conversations(json_path: str) -> None:
+def transliterate_conversations() -> None:
     """Read a conversations JSON file, transliterate each message, and save back.
 
     The function loads the JSON file, iterates over each conversation's
@@ -194,7 +206,7 @@ def transliterate_conversations(json_path: str) -> None:
     Args:
         json_path: Absolute path to the conversations.json file.
     """
-    from azure_transliterate_non_retrieval import transliterate_text
+
 
     path = Path(json_path)
     if not path.is_file():
@@ -219,11 +231,6 @@ def transliterate_conversations(json_path: str) -> None:
                     print(f"  Conv {conv_idx+1}, Msg {msg_idx+1}: Skipped (already transliterated)")
                     continue
                 
-                if "transliteration_error" in msg:
-                    total_skipped_existing += 1
-                    print(f"  Conv {conv_idx+1}, Msg {msg_idx+1}: Skipped (previous error)")
-                    continue
-                
                 try:
                     transliterated = transliterate_text(original)
                     time.sleep(1)
@@ -244,7 +251,7 @@ def transliterate_conversations(json_path: str) -> None:
     print(f"Skipped {total_skipped_existing} messages (already transliterated)")
     print(f"Saved to: {json_path}")
 
-def classify_user_messages(json_path: str) -> None:
+def classify_user_messages() -> None:
     """Read conversations JSON file, classify user messages, and save back.
     
     The function loads the JSON file, iterates over each conversation,
@@ -307,13 +314,14 @@ def classify_user_messages(json_path: str) -> None:
 
 if __name__ == "__main__":
     set_date_range()
+    
     fetch_and_process_conversations()
     
     if os.path.exists(json_path):
         print(f"\nStarting transliteration for {json_path}...")
-        transliterate_conversations(json_path)
+        transliterate_conversations()
         print(f"\nStarting classification for {json_path}...")
         
-        classify_user_messages(json_path)
+        classify_user_messages()
     else:
         print(f"No conversations file found at {json_path}")
