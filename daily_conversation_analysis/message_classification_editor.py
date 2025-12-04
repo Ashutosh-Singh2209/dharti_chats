@@ -117,7 +117,7 @@ def collect_user_messages(conversations, filter_common=True):
 st.title("🏷️ Message Classification Editor")
 
 # Select JSON file - Edit this path for different dates
-json_dir = Path(__file__).parent / "19_Nov_2025"
+json_dir = Path(__file__).parent / "30_Nov_2025"
 json_path = json_dir / "conversations.json"
 
 if not json_path.exists():

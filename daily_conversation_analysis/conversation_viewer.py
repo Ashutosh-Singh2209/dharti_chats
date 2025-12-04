@@ -4,6 +4,7 @@ import streamlit as st
 import json
 from pathlib import Path
 from datetime import datetime
+from standalone_utils import process_and_append_message
 
 st.set_page_config(page_title="Conversation Viewer", layout="wide")
 
@@ -61,11 +62,11 @@ def save_conversations(json_path, conversations):
     with open(json_path, 'w', encoding='utf-8') as f:
         json.dump(conversations, f, ensure_ascii=False, indent=2)
 
-st.title("📊 Conversation Viewer & Annotator")
-
 json_dir = Path(__file__).parent / "19_Nov_2025"
 json_files = [json_dir / "conversations.json"]
 selected_json_file = json_files[0]
+
+st.title(f"📊 Conversation Viewer & Annotator {json_files[0].parent.name}")
 
 if not json_files or not json_files[0].exists():
     st.error("No conversations.json files found!")
@@ -128,7 +129,7 @@ def find_conversation_by_id(conversation_id):
 conv = find_conversation_by_id(filtered_conversation_ids[st.session_state.current_index])
 
 st.markdown("---")
-col_status1, col_status2 = st.columns([3, 1])
+col_status1, col_status2, col_status3, col_status4 = st.columns([1, 1, 1, 1])
 
 with col_status1:
     current_status = conv.get('status', 'None')
@@ -138,8 +139,20 @@ with col_status2:
     new_status = st.text_input("Update status:", value=current_status, key=f"status_{st.session_state.current_index}")
     if st.button("💾 Save Status"):
         conv['status'] = new_status
-        save_conversations(selected_file, conversations)
+        save_conversations(selected_json_file, conversations)
         st.success("Status saved!")
+        st.rerun()
+
+with col_status1:
+    current_status = conv.get('added_to_deep_eval_test', 'None')
+    st.markdown(f"**Added to Deep_eval test:** `{current_status}`")
+
+with col_status2:
+    new_status = st.text_input("Deep_eval test status:", value=current_status, key=f"deep_eval_test_status_{st.session_state.current_index}")
+    if st.button("💾 Save Deep_eval test status"):
+        conv['added_to_deep_eval_test'] = new_status
+        save_conversations(selected_json_file, conversations)
+        st.success("Deep_eval test status saved!")
         st.rerun()
 
 st.markdown("---")
@@ -225,7 +238,7 @@ for idx, msg in enumerate(messages):
                 with correct_translation_col2:
                     if st.button("💾 Save", key=f"correct_translation_save_{st.session_state.current_index}_{idx}"):
                         msg['correct_translation'] = new_correct_translation
-                        save_conversations(selected_file, conversations)
+                        save_conversations(selected_json_file, conversations)
                         st.success("Saved!")
                         st.rerun()
 
@@ -245,13 +258,43 @@ for idx, msg in enumerate(messages):
             with col_common2:
                 if st.button("Tag Common", key=f"tag_common_{st.session_state.current_index}_{idx}"):
                     msg['is_query_common'] = True
-                    save_conversations(selected_file, conversations)
+                    save_conversations(selected_json_file, conversations)
                     st.rerun()
             with col_common3:
                 if st.button("Tag Un-common", key=f"tag_uncommon_{st.session_state.current_index}_{idx}"):
                     msg['is_query_common'] = False
-                    save_conversations(selected_file, conversations)
+                    save_conversations(selected_json_file, conversations)
                     st.rerun()
+
+            st.markdown("---")
+            st.markdown("##### ➕ Add to Standalone Examples")
+            
+            # Check if already added
+            already_added = msg.get('added_to_standalone_examples', False)
+            has_correct_translation = bool(msg.get('correct_translation', '').strip())
+            
+            standalone_col1, standalone_col2 = st.columns([3, 1])
+            with standalone_col1:
+                if already_added:
+                    st.success("✓ This message has been added to standalone examples")
+                elif not has_correct_translation:
+                    st.warning("⚠️ Please add correct_translation first before adding to standalone examples")
+                else:
+                    st.info("Ready to add to standalone examples")
+            
+            with standalone_col2:
+                button_disabled = already_added or not has_correct_translation
+                if st.button("➕ Add to Standalone", key=f"add_standalone_{st.session_state.current_index}_{idx}", disabled=button_disabled):
+                    # Call the utility function
+                    result = process_and_append_message(conv, idx, str(selected_json_file))
+                    
+                    if result['status'] == 'success':
+                        st.success(result['message'])
+                        # Reload conversations to reflect the change
+                        st.session_state['conversations'] = load_conversations(selected_json_file)
+                        st.rerun()
+                    else:
+                        st.error(result['message'])
 
             st.markdown("---")
             # st.markdown("🧪 Deep Eval Test Parameters")
@@ -298,7 +341,7 @@ for idx, msg in enumerate(messages):
             #             'wrong_standalone': wrong_standalone,
             #             'expected_output': expected_output
             #         }
-            #         save_conversations(selected_file, conversations)
+            #         save_conversations(selected_json_file, conversations)
             #         st.success("Deep Eval Test Case Saved!")
             #         st.rerun()
 
@@ -334,7 +377,7 @@ for idx, msg in enumerate(messages):
                 )
                 if st.button("💾", key=f"save_response_{st.session_state.current_index}_{idx}"):
                     user_msg['is_response_by_dharti_correct'] = new_response_correct
-                    save_conversations(selected_file, conversations)
+                    save_conversations(selected_json_file, conversations)
                     st.success("✓")
                     st.rerun()
 
@@ -358,7 +401,7 @@ for idx, msg in enumerate(messages):
                 with my_instr_col2:
                     if st.button("💾", key=f"my_instr_save_{st.session_state.current_index}_{idx}"):
                         user_msg['instructions_by_me'] = new_my_instr
-                        save_conversations(selected_file, conversations)
+                        save_conversations(selected_json_file, conversations)
                         st.success("✓")
                         st.rerun()
 
@@ -375,7 +418,7 @@ for idx, msg in enumerate(messages):
                 with ankit_instr_col2:
                     if st.button("💾", key=f"ankit_instr_save_{st.session_state.current_index}_{idx}"):
                         user_msg['instructions_by_ankit_sir'] = new_ankit_instr
-                        save_conversations(selected_file, conversations)
+                        save_conversations(selected_json_file, conversations)
                         st.success("✓")
                         st.rerun()
 

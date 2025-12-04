@@ -9,6 +9,7 @@ from bson import json_util
 import time
 import sys
 from tqdm import tqdm
+from collections import Counter
 
 original_cwd = os.getcwd()
 
@@ -35,8 +36,8 @@ from bot_core.standalone_query_examples import extract_farmer_context_for_prompt
 from bot_core.embed import Embedder
 from langchain_core.messages import HumanMessage, AIMessage
 from pathlib import Path
-from daily_conversation_analysis.google_gai_message_classifier import classify_messages
-# from daily_conversation_analysis.openai_message_classifier import classify_messages
+from daily_conversation_analysis.google_gai_message_classifier import classify_messages as classify_messages_gai, normalize_question_counts
+from daily_conversation_analysis.openai_message_classifier import classify_messages
 from daily_conversation_analysis.build_few_shot_examples import build_few_shot_examples
 from azure_transliterate_non_retrieval import transliterate_text
 
@@ -312,6 +313,66 @@ def classify_user_messages() -> None:
     print(f"\nCompleted classification.")
     print(f"Results saved to: {json_path}")
 
+def analyze_most_asked_questions() -> None:
+    """Read conversations JSON file and print value counts of standalone questions.
+    
+    The function loads the JSON file, collects all standalone questions from
+    user messages, calculates their frequency, and prints them sorted by
+    frequency in descending order.
+    """
+    
+    if not json_path:
+        print("JSON path not set.")
+        return
+
+    path = Path(json_path)
+    if not path.is_file():
+        print(f"Conversations file not found: {json_path}")
+        return
+    
+    with path.open("r", encoding="utf-8") as f:
+        data = json.load(f)
+    
+    standalone_questions = []
+    
+    for conv in data:
+        messages = conv.get("messages", [])
+        for msg in messages:
+            role = msg.get("type") or msg.get("role")
+            if role == "user":
+                sq = msg.get("standalone_question")
+                if sq:
+                    standalone_questions.append(sq)
+    
+    if not standalone_questions:
+        print("\nNo standalone questions found.")
+        return
+        
+    counts = Counter(standalone_questions)
+    
+    # Print original counts
+    print(f"\nOriginal Questions ({len(standalone_questions)} total):")
+    print("-" * 80)
+    for question, count in counts.most_common():
+        print(f"{count:4d} | {question}")
+    print("-" * 80)
+    
+    print("\nNormalizing questions...")
+    normalized_counts = normalize_question_counts(dict(counts))
+    
+    # Sort by count descending
+    sorted_questions = sorted(normalized_counts.items(), key=lambda item: item[1]["count"], reverse=True)
+    
+    print(f"\nMost Asked Questions Analysis ({len(standalone_questions)} total, normalized):")
+    print("-" * 120)
+    print(f"{'Category':<25} | {'Count':>5} | {'Question'}")
+    print("-" * 120)
+    for question, data in sorted_questions:
+        category = data["category"]
+        count = data["count"]
+        print(f"{category:<25} | {count:>5} | {question}")
+    print("-" * 120)
+
 if __name__ == "__main__":
     set_date_range()
     
@@ -323,5 +384,8 @@ if __name__ == "__main__":
         print(f"\nStarting classification for {json_path}...")
         
         classify_user_messages()
+        
+        analyze_most_asked_questions()
+        # pass
     else:
         print(f"No conversations file found at {json_path}")
